@@ -1,1 +1,1 @@
-
+Korpus: Digitale Neuausgabe der Briefe von Jean Paul in der Fassung der von Eduard Berend herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952–1964), im Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und herausgegeben von Markus Bernauer, Norbert Miller und Frederike Neuber (2018).
