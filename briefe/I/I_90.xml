@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="I_90">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="90">90. An Oerthel in Leipzig. </title>
+            <title n="digital">An Johann Adam Lorenz von Oerthel. Hof, 1. Februar 1785. </title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=I_90</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/I/I_90</idno>
+               <idno type="TELOTAID">I_90</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="I">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
+               <biblScope n="text" unit="page">
+                  <num>143</num>
+                  <num>144</num>
+                  <num>145</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>458</num>
+                  <num>459</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1785-02-01">1. Februar 1785</date>
+               <placeName key="JP-005841" ref="http://www.geonames.org/2902768">Hof</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-003050" ref="http://d-nb.info/gnd/11710633X">
+                  <name type="reg">Oerthel</name> Johann Adam Lorenz von</persName>
+               <placeName key="JP-005948" ref="http://www.geonames.org/2879139">Leipzig</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=I_89">21. Januar 1785</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=I_92">9. Februar 1785</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <lb type="ig"/>
+            <lb type="ig" xml:id="I_143-1"/>
+            <dateline>
+               <hi rendition="#right">
+                  <placeName>Hof</placeName> den <date>1. Februar 1785</date>.</hi>
+            </dateline>
+            <lb xml:id="I_143-2"/>
+            <opener>
+               <salute>
+                  <hi rendition="#et">Mein Örthel,</hi>
+               </salute>
+            </opener>
+            <lb xml:id="I_143-3"/>
+            <p>Ich habe mir vorgenommen, wenn du tod bist und ich nicht, deine <lb xml:id="I_143-4"/>Briefe an mich zum Drukke zu befödern: ich dürfte sie sogar, fals ich<lb n="5" xml:id="I_143-5"/>keinen Verleger dazu fände, auf meine eigne Kosten drukken
+               lassen. <lb xml:id="I_143-6"/>Eine kleine Vorrede würd’ ich ihnen vorausschikken, die
+               ich lieber iezt <lb xml:id="I_143-7"/>ausfertigen wil, eh’ du noch tod bist; denn
+               wenn du schon hin wärest ins <lb xml:id="I_143-8"/>entfernte Land, so glaub’ ich
+               beinahe nicht, daß ich die Vorrede noch <lb xml:id="I_143-9"/>machen könte: mein Herz
+               würd’ es meinem Kopfe nicht zulassen, und<lb n="10" xml:id="I_143-10"/>ich gienge dan
+               den ganzen Tag blos mit dem Gefühle des Ausspruchs <lb xml:id="I_143-11"/>herum „es
+               ist nicht gut, daß der Mensch <hi rendition="#g">alleine</hi> sei“. Nur der lebt <lb xml:id="I_143-12"/>einsam, der ohne Freund lebt; und am allereinsamsten ist er,
+               wenn er <lb xml:id="I_143-13"/>dabei etwan noch gar unter recht vielen Menschen ist.
+               Aber die Vor<lb xml:id="I_143-14" rendition="#hyphen"/>rede, auf die du mit Recht so
+               begierig bist: <lb n="15" xml:id="I_143-15"/>
+            </p>
+            <p>„Ich habe die Ehre, hier dem Leser ein Päkgen Briefe mit einiger <lb xml:id="I_143-16"/>„Grazie darzureichen, die aber nicht an ihn, sondern an mich
+                  ge<lb xml:id="I_143-17" rendition="#hyphen"/>„schrieben sind: was meine Antworten
+               darauf anlangt, so sind sie schon <lb xml:id="I_143-18"/>„gröstentheils gedrukt und
+               ich habe sie stükweise in meine satirischen <lb xml:id="I_143-19"/>„Aufsäze
+               verschlagen mit einfliessen lassen: nichts gehöret also von<lb n="20" xml:id="I_143-20"/>„diesem Büchelgen mir als etwan die Vorrede. Es ist eine
+               bekante <lb xml:id="I_143-21"/>„Regel, daß eine Vorrede solche Dinge enthalten mus,
+               die sie nach <lb xml:id="I_143-22"/>„und nach volmachen; und mich dünkt, der meinigen
+               wird man den <lb xml:id="I_143-23"/>„Vorwurf der <hi rendition="#g">unfigürlichen</hi> Leerheit wol nicht machen.</p>
+            <lb xml:id="I_143-24"/>
+            <p>„Mein Freund starb an der Hypochondrie, die er auffieng, weil er<lb n="25" xml:id="I_143-25"/>„das Studium der Rechts- und Unrechtsgelehrsamkeit mit zuviel
+                  <lb xml:id="I_143-26"/>„Allotrien verband; und vielleicht auch, weil er einem
+               gutgemeinten <lb xml:id="I_143-27"/>„Rath von mir ein wenig zuviel Gehör gegeben. Ich
+               rieth ihm näm<lb xml:id="I_143-28" rendition="#hyphen"/>„lich, als wir beide uns vor
+               dem Tische, wo Bücher aufgetragen <lb xml:id="I_143-29"/>„wurden, niedersezten,
+                  seine<metamark>[</metamark>r<metamark>]</metamark> Sele recht viele Speise zu
+               geben, ihr <lb n="30" xml:id="I_143-30"/>„nichts an den <hi rendition="#g">Fastenspeisen</hi> (der Jurisprudenz) abzubrechen und <lb xml:id="I_143-31"/>„an
+               der Tafel wenigstens bis um 12 Uhr zu Nachts sizen zu bleiben, <lb xml:id="I_143-32"/>„wie alle Vornehme thun. Zum Unglük für seine Gesundheit wilfahrte <lb xml:id="I_143-33"/>„er meinem Rathe, den ich seither oft bereuet. Ich selbst habe
+               mich <lb xml:id="I_143-34"/>„durch diese geistige Schwelgerei zu Grunde gerichtet und
+               ich mus<lb n="35" xml:id="I_143-35"/>„dem Publikum sagen, daß ich zwar einer der
+               scharfsinnigsten, aber <lb xml:id="I_143-36"/>„auch leider! einer der kränklichsten
+               Autoren bin.</p>
+            <lb xml:id="I_143-37"/>
+            <p>„Aber diese Hypochondrie nahm auch die Kräfte seines Geistes <lb xml:id="I_144-1"/>„merklich mit und sein Kopf und sein Herz lit viel darunter. Ich be<lb xml:id="I_144-2" rendition="#hyphen"/>„ruffe mich auf vorliegende Briefe selbst,
+               worin er beides ausdrüklich <lb xml:id="I_144-3"/>„versichert; und in der That ist
+               diese Versicherung auch gar nicht über<lb xml:id="I_144-4" rendition="#hyphen"/>„flüssig. Denn der Inhalt der Briefe selbst scheinet sie schlecht zu <lb n="5" xml:id="I_144-5"/> „bestätigen; und sie haben mich oft zu dem Irthume verleitet,
+               daß sie <lb xml:id="I_144-6"/>„gar <hi rendition="#g">Gesundheitspässe</hi> seiner
+               Sele wären. O! entfernter Freund! <lb xml:id="I_144-7"/>„wie oft hoben deine Briefe
+               mein Herz, das der Tugend wenig mehr <lb xml:id="I_144-8"/>„zu geloben im Stande ist
+               als Entschlüsse! Wie oft erwärmte es deine <lb xml:id="I_144-9"/>„Menschenliebe!
+               Wahrhaftig wenn dein elender Körper eine bewegliche <lb n="10" xml:id="I_144-10"/>
+               „Leiche war, so war dein Geist eine Begräbnislampe, die das <hi rendition="#g">ewige
+                     <lb xml:id="I_144-11"/>„Feuer</hi> der Griechen enthält! Indessen bleibt
+               demungeachtet das wahr, <note corresp="#I_144-12">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-0057962">
+                        <placeName>Feuer; Griechenland, Griechen</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="I_144-12"/>„was er selbst von sich sagt: denn er mus sich selbst wol am
+               besten kennen.</p>
+            <lb xml:id="I_144-13"/>
+            <p>„Um nicht in Übertreibungen des Lobes zu fallen, hab’ ich den <lb xml:id="I_144-14"/>„gedachten Briefsteller diese Vorrede selbst vorher wol durchsehen <lb n="15" xml:id="I_144-15"/>„und prüfen lassen. Indessen mus ich sie iezt beschliessen weil
+               die Post <lb xml:id="I_144-16"/>„abgeht, die sie zu ihrem Verleger fährt, der nicht
+               wol thut, daß er <lb xml:id="I_144-17"/>„mich sogar
+                  <metamark>[</metamark>!<metamark>]</metamark> sehr treibt. Weimar den 12 Mai
+               1832.“</p>
+            <note corresp="#I_144-18">
+               <listPlace type="lineReference">
+                  <place corresp="#JP-006395">
+                     <placeName>Weimar</placeName>
+                  </place>
+               </listPlace>
+            </note>
+            <lb xml:id="I_144-18"/>
+            <milestone rendition="#hr" unit="section"/>
+            <lb type="ig"/>
+            <p>Jezt mus ich wieder wie gewöhnlich eilen, weil ich wie gewöhnlich <lb xml:id="I_144-19"/>von der Post getrieben werde. <lb n="20" xml:id="I_144-20"/>
+            </p>
+            <p>Deine Satire (mit dem <hi rendition="#g">halben</hi> Seneka u.s.w.) ist schön und
+               treffend; <note corresp="#I_144-21">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004016">
+                        <persName> Lucius Annaeus d. J. <name type="reg">Seneca </name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_144-21"/>aber doch trift sie mich nicht, so wie etwan ein Schüze, der
+               sein Ziel <lb xml:id="I_144-22"/>verfehlet hat, immer treffend geschossen hätte, fals
+               man nur an das <lb xml:id="I_144-23"/>Ort, wohin er wirklich traf, ein Ziel gestellet
+               hätte. Denn ich bin nicht <lb xml:id="I_144-24"/>verliebt in die schöne Sp., und ich
+               werd’ es auch in keine auf den <note corresp="#I_144-25">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004874" ana="?">
+                        <persName> Christiane Wilhelmine Dorothea von <name type="reg">Zopf</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="25" xml:id="I_144-25"/> ersten Augenblik werden, ohne sie sonst zu kennen. —
+               Von der Madems. <lb xml:id="I_144-26"/>Schindlerin konte ich dir nichts schreiben,
+               weil ich sie nur aus fremden <note corresp="#I_144-27">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003743">
+                        <persName> Heinrich Christoph <name type="reg">Schindler</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_144-27"/>und zweideutigen Schilderungen kenne: dein H. Vater aber wird
+               mir <note corresp="#I_144-28">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003051">
+                        <persName> Johann Georg von <name type="reg">Oerthel</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_144-28"/>vielleicht, (wie er versprochen) in etlichen Tagen den
+               Schlitten <lb xml:id="I_144-29"/>schikken, um mich zu ihr holen zu lassen, wenn sie
+               bei ihm ist. Dan wil<lb n="30" xml:id="I_144-30"/> ich ebenfals ein schönes Bild von
+               ihr dir schikken und ich bin gewis, <lb xml:id="I_144-31"/>wenn mein Pinsel ihr sehr
+               schmeichelt und in ihr Porträt mehrere <lb xml:id="I_144-32"/>Reize hineinspielet als
+               ihr fehlen, so werd’ ich einen glüklichen Versuch <lb xml:id="I_144-33"/>gethan
+               haben, dich in sie verliebt zu machen, welches des H. Schindlers <note corresp="#I_144-34">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003742">
+                        <persName> Heinrich Christoph <name type="reg">Schindler</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_144-34"/>wegen wol zu wünschen wäre. — Die Rezension der Mimik ist
+                  im<note corresp="#I_144-35">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008329">
+                        <author>Engel, Johann Jakob (1741-1802), Popularphilosoph</author>
+                        <title>Ideen zu einer Mimik (1785-1786)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="35" xml:id="I_144-35"/> Grunde eine satirische Rezension des Buches über
+               „Sympathie, <note corresp="#I_144-36">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008800" ana="†">
+                        <author>Hungar, Karl Ferdinand (1761-1804)</author>
+                        <title>Betrachtungen über Sympathie (1784)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_144-36"/> Wohlwollen“ etc.; ich wil aber hoffen, daß sie etwan nicht
+               blos aus <lb xml:id="I_145-1"/>deiner Feder nicht
+                  <metamark>[</metamark>!<metamark>]</metamark> geflossen: ich würde dir eine so
+               grosse Geschiklich<lb xml:id="I_145-2" rendition="#hyphen"/>keit in der Satire nicht
+               völlig gönnen. — Soviel ich weis, ist der <lb xml:id="I_145-3"/>iüngere Brükner gar
+               nicht hier; aber wol der ältere und der wird auch <note corresp="#I_145-4">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002901" ana="†">
+                        <persName> Christian Adam <name type="reg">Müller</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003300" ana="†">
+                        <persName> Johann Nikolaus <name type="reg">Prückner</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003299" ana="†">
+                        <persName> Johann Georg <name type="reg">Prückner </name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_145-4"/>wol in ienem Briefe so geraset haben. Indessen fehlte es auch
+               dem <lb n="5" xml:id="I_145-5"/>iüngern nicht ganz an Tauglichkeit hiezu: und ich
+               erinnere mich noch <lb xml:id="I_145-6"/>wol, daß er auf unserer Schule unter den
+               〈die〉 besten Gynmasiums <note corresp="#I_145-7">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-00584113">
+                        <placeName>Gymnasium; Hof im Vogtland</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="I_145-7"/>Dichtern mit obenan stand 〈gezählet wurde〉: es wäre nur zu
+               wünschen, <lb xml:id="I_145-8"/>daß er das <hi rendition="#g">Eisfeld</hi> seiner
+               poetischen Gaben mehr anbaute und dagegen <lb xml:id="I_145-9"/>die fruchtlose
+               Bearbeitung seines Verstandes völlig fahren liesse. — <lb n="10" xml:id="I_145-10"/>Was man in Hof spricht, wil ich dir ein ander mal schreiben: auch <note corresp="#I_145-11">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005841">
+                        <placeName>Hof im Vogtland</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="I_145-11"/>hab’ ich schon in meinem lezten Briefe (den du doch wirst
+               erhalten <lb xml:id="I_145-12"/>haben mit einem Briefe an Archenholz) dir mancherlei
+               Neuigkeiten <note corresp="#I_145-13">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000119">
+                        <persName> Johann Wilhelm von <name type="reg">Archenholtz</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_145-13"/>gemeldet, für die ich einige Wiedererstattung erwarte. — Unter
+                  <lb xml:id="I_145-14"/>Hermans <hi rendition="#g">Na</hi>men gieng ich von Plauen
+               ab; und meinen gab’ ich unter<note corresp="#I_145-15">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001694">
+                        <persName> Johann Bernhard <name type="reg">Hermann</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006150">
+                        <placeName>Plauen</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb n="15" xml:id="I_145-15"/>dem hiesigen Thore an. — Dein kleiner Bruder wird mehr
+               als er <note corresp="#I_145-16">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003047">
+                        <persName> Christian Adam von <name type="reg">Oerthel</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_145-16"/>sonst versprach; er lieset die Bücher aus der Lesegeselschaft
+               von selbst <lb xml:id="I_145-17"/>in den Nebenstunden und begreift und fragt
+               vortreflich: davon wil ich <lb xml:id="I_145-18"/>dir ein andermal eine Anekdote
+               erzählen.</p>
+            <lb xml:id="I_145-19"/>
+            <p>Mein Buch kanst du schikken an Schwikkert, oder an die Buchhand<note corresp="#I_145-20">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001795">
+                        <persName>
+                           <name type="reg">Hoffmannsche</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003974">
+                        <persName>
+                           <name type="reg">Schwickert</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="20" xml:id="I_145-20" rendition="#hyphen"/>lung in Weimar oder du kanst es
+               Platnern zu lesen geben, damit er mir <note corresp="#I_145-21">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003248">
+                        <persName> Ernst <name type="reg">Platner</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006395" ana="†">
+                        <placeName>Weimar</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="I_145-21"/>einen Verleger verschaft: sehe aber allemal darauf, ob du die
+               Anzahl <lb xml:id="I_145-22"/>Stükke ordentlich wiederbekomst, die du schikkest,
+               damit mir nichts <lb xml:id="I_145-23"/>gestohlen wird. O! du geplagter Freund!
+               Deinem H. Vater entdekke <note corresp="#I_145-24">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003051">
+                        <persName> Johann Georg von <name type="reg">Oerthel</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_145-24"/>deine Lage bald, die dir immer beschwerlicher werden mus: ich
+               stehe <lb n="25" xml:id="I_145-25"/>mit ihm iezt auf dem besten Fus und diese kleine
+               Wolke würde bald <lb xml:id="I_145-26"/>vorüber gehen. — Schreib mir doch bald, ob du
+               meinen lezten Brief, <lb xml:id="I_145-27"/>der vom Doppelmaier mit handelt, bekommen
+               hast! In Acht Tagen <note corresp="#I_145-28">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000850">
+                        <persName> Johann Georg Gottfried <name type="reg">Doppelmaier</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_145-28"/>schreib’ ich dir wieder und beantworte den Rest deines Briefs.
+               Aus <lb xml:id="I_145-29"/>der schlimmen Lage, in die ich dich gesezet, kanst du zur
+               Genüge sehen,<lb n="30" xml:id="I_145-30"/>daß ich bin dein Freund Richter.<lb xml:id="I_145-31"/>
+            </p>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Berlin JP. 4⅔ S. 4°; die Blätter wie bei Nr. 89
+                  einseitig beschrieben. <lb/>
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>: Wahrheit 3,384×. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>: Nachlaß</hi>
+               <hi rendition="#aq">2,302×.</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">143</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">6</hi>
+               </hi> eigne] <hi rendition="#aq">aus</hi> eignen <hi rendition="#rkd">36</hi>
+               <lb/>zwar … aber] <hi rendition="#aq">aus</hi> nicht blos … sondern <hi rendition="#rkd">37</hi> kränklichsten] <hi rendition="#aq">aus</hi> kränksten <hi rendition="#b">
+                  <hi rendition="#aq">144</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">26</hi>
+               </hi>
+               <lb/>Madems.] <hi rendition="#aq">aus</hi> Mams.</p>
+            <lb/>
+            <p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">143</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">37</hi>
+               </hi>
+               <hi rendition="#aq">Über das von Jean Paul mehrfach verwendete, auf Sterne zurück<lb rendition="#hyphen"/>gehende Motiv des <hi rendition="#g">kränklichen
+                     Autors</hi> s. I. Abt., II, Einl. S. XXXI. <lb/>
+                  <hi rendition="#b">144</hi>,<hi rendition="#rkd">18</hi>
+                  <hi rendition="#g">Weimar:</hi> vgl. <hi rendition="#b">237</hi>,<hi rendition="#rkd">25</hi>. <hi rendition="#rkd">25</hi> Spangenbergin; vgl. <hi rendition="#b">131</hi>,<hi rendition="#rkd">35</hi> u. <hi rendition="#b">270</hi>,<hi rendition="#rkd">14</hi>†. <lb/>
+                  <hi rendition="#rkd">27</hi>
+                  <hi rendition="#g">Schindlerin:</hi> s. <hi rendition="#b">132</hi>,<hi rendition="#rkd">1</hi>f. <hi rendition="#rkd">35</hi> „Ideen zu einer <hi rendition="#g">Mimik</hi>“, Berlin 1785—86, <lb/>von Joh. Jak. Engel. <hi rendition="#rkd">36</hi>f. „Allgemeine Betrachtungen über <hi rendition="#g">Wohlwollen, <lb/>Sympathie</hi> und Freundschaft“,
+                     <placeName>Leipzig</placeName> 1784 (von Karl Ferd. Hungar). <lb/>
+                  <hi rendition="#b">145</hi>,<hi rendition="#rkd">4</hi> Joh. Georg <hi rendition="#g">Brückner</hi> oder Prückner, ein Mitschüler Richters
+                  <lb/>(Weißmann Nr. 964), Sohn eines Gürtlers in Hof, geb. 1761, damals stud.
+                  <lb/>theol. in Erlangen, später Pfarrer in Wunsiedel; sein älterer Bruder, Joh.
+                  <lb/>Nikolas (1759—1820, Weißmann Nr. 968), wurde im August 1785 Quintus <lb/>am
+                  Hofer Gymnasium und heiratete eine Schwester des Trogenpredigers <lb/>Müller (Nr.
+                  45†); vgl. <hi rendition="#b">349</hi>,<hi rendition="#rkd">23</hi>
+                  <hi rendition="#rkd">14</hi>f. <hi rendition="#g">Unter Hermanns Namen:</hi> bei
+                  der <lb/>Flucht aus <placeName>Leipzig</placeName>. <hi rendition="#rkd">16–19</hi> Über Oerthels <hi rendition="#g">Bruder</hi> s. Nr. 189†. <hi rendition="#rkd">20</hi>f. <lb/>
+                  <hi rendition="#g">Schwickert:</hi> Buchhändler in <placeName>Leipzig</placeName>,
+                  Verleger von Platners Aphoris<lb rendition="#hyphen"/>men, s. II. Abt., III,
+                     226,<hi rendition="#rkd">14</hi>. <hi rendition="#g">Buchhandlung in
+                     Weimar:</hi> Hofmann.</hi>
+               <lb/>
+               <hi rendition="#rkd">24–27</hi>
+               <hi rendition="#aq">Oerthel war durch seine von seinem Vater sehr mißbilligten
+                     Geld<lb rendition="#hyphen"/>zuwendungen an Richter selber in Verlegenheit
+                  geraten; vgl. <hi rendition="#b">146</hi>,<hi rendition="#rkd">33</hi>ff.</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

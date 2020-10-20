@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="I_13">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="13">13. An Pfarrer Vogel in Rehau. </title>
+            <title n="digital">An Erhard Friedrich Vogel. Leipzig, 17. September 1781. </title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=I_13</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/I/I_13</idno>
+               <idno type="TELOTAID">I_13</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="I">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
+               <biblScope n="text" unit="page">
+                  <num>18</num>
+                  <num>19</num>
+                  <num>20</num>
+                  <num>21</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>422</num>
+                  <num>423</num>
+                  <num>424</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+            <listPerson type="commentary">
+               <person rend="Fußnote" corresp="#JP-000156">
+                  <persName>
+                     <name type="reg">Atheisten</name>
+                  </persName>
+               </person>
+               <person corresp="#JP-000554">
+                  <persName> Johann Friedrich <name type="reg">Burscher</name>
+                  </persName>
+               </person>
+            </listPerson>
+            <listBibl type="commentary" subtype="werke">
+               <bibl corresp="#JP-008798">
+                  <author>Hume, David (1711-1776), engl. Philosoph</author>
+                  <title>Gespräche über die natürliche Religion (deutsch 1781)</title>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1781-09-17">17. September 1781</date>
+               <placeName key="JP-005948" ref="http://www.geonames.org/2879139">Leipzig</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-004474" ref="http://d-nb.info/gnd/100056458">
+                  <name type="reg">Vogel</name> Erhard Friedrich</persName>
+               <placeName key="JP-006182" ref="http://www.geonames.org/2849446">Rehau,
+                  Oberfranken</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=I_8">27. Mai 1781</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=I_14">9. Oktober 1781</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <lb type="ig"/>
+            <lb xml:id="I_18-14"/>
+            <opener>
+               <salute>
+                  <hi rendition="#et">Hocherwürdiger und Hochgelerter Herr, <lb n="15" xml:id="I_18-15"/> Hochzuvererender Herr Pfarrer,</hi>
+               </salute>
+            </opener>
+            <lb xml:id="I_18-16"/>
+            <p>Dieselben erwarteten one Zweifel von mir Briefe; und ich von <lb xml:id="I_18-17"/>Ihnen. Ich hofte von einem Posttage zu dem andern, ersan mir <lb xml:id="I_18-18"/>tausend Ursachen, warum Sie nicht schrieben, behielt iede solange, bis <lb xml:id="I_18-19"/>sie sich von selbst widerlegte und fiel endlich auf den
+               Gedanken, Sie <lb n="20" xml:id="I_18-20"/> beleidigt zu haben. Allein mit Wissen? —
+               nein, dies bin ich unfähig zu <lb xml:id="I_18-21"/>tun, und Sie, es zu vermuten;
+               oder aus Unwissenheit? o! so werden <lb xml:id="I_18-22"/>Sie schon lange vergeben
+               haben. Meine Verzögerung kan ich mit <lb xml:id="I_18-23"/>nichts als dem folgenden
+               entschuldigen. Ich schrieb Ihnen nicht, weil <lb xml:id="I_18-24"/>ich nichts
+               Interessantes zu schreiben hatte, und Sie nicht durch die<lb n="25" xml:id="I_18-25"/> Wichtigkeit der Materie für den Ekkel schadlos halten konte, den der <lb xml:id="I_18-26"/>schlechte Vortrag derselben erwekt. Und selbst dieser Brief wird
+               noch <lb xml:id="I_18-27"/>mager sein, daß man wol ausrufen könte: Meister, wir haben
+               die ganze <lb xml:id="I_18-28"/>Nacht gefischt und etc. —</p>
+            <lb xml:id="I_18-29"/>
+            <p>Der Doktor Ernesti starb den 13 Septemb. Vielleicht lernt’ er hier <note corresp="#I_18-30">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000990">
+                        <persName> Johann August <name type="reg">Ernesti</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="30" xml:id="I_18-30"/> auf der Welt zu wenig Latein; und nimt im Himmel den
+               Zizero selbst <lb xml:id="I_18-31"/>dazu, um ganz ein Römer zu werden. Er war mit
+               soviel Titeln, Eren<note corresp="#I_18-32">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006205">
+                        <placeName>Rom, römisch</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="I_18-32" rendition="#hyphen"/>namen, Beiworten und Zierden behangen, daß
+               man kaum den <lb xml:id="I_18-33"/>Menschen davor sehen konte. Jezt modert sein
+               römischer Kopf, <lb xml:id="I_18-34"/>sein Gehirn von Zizero’ sphrasen und das ganze
+               Behältnis alter Ge<lb n="35" xml:id="I_18-35" rendition="#hyphen"/>lehrsamkeit, im
+               Grabe; sein Rum flattert über seinen Hügel weg; er <lb xml:id="I_18-36"/> hört ihn
+               nicht mer. Warlich Pope hat Recht, den Rum ein ein<note corresp="#I_19-1">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009426" ana="†">
+                        <author>Pope, Alexander (1688-1744), engl. Dichter des
+                           Frühklassizismus</author>
+                        <title>Essay on Man (1733-1734)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_19-1" rendition="#hyphen"/>gebildetes Leben in dem Odem des andern zu
+               nennen. — Der D. <lb xml:id="I_19-2"/>Barthd
+                  <metamark>[</metamark>!<metamark>]</metamark> in Halle läst sich’s gut sein. Jezt
+               hat er gerade soviel <note corresp="#I_19-3">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000198" ana="†">
+                        <persName> Carl Friedrich <name type="reg">Bahrdt</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005809" ana="†">
+                        <placeName>Halle a. d. Saale</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="I_19-3"/>Pension und so wenig Titel, als er braucht, um mit den Studenten
+               in <lb xml:id="I_19-4"/>die Wirtshäuser zu gehen und Brandewein zu trinken. Man hat
+               ihm, <lb n="5" xml:id="I_19-5"/>glaub’ ich, eine grosse Gefälligkeit getan, ihn von
+               einem Teil seiner <lb xml:id="I_19-6"/>Erentitel zu entledigen; denn nun hat er
+               gerade so wenig Ere, als <lb xml:id="I_19-7"/>nötig ist, um sie one Schande mannigmal
+               verlieren zu können. Der <lb xml:id="I_19-8"/>D. Semler möchte gern seine Toleranz
+               gegen ihn an den Tag legen; <note corresp="#I_19-9">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004014">
+                        <persName> Johann Salomon <name type="reg">Semler</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_19-9"/>allein er kan ihm nicht beikommen. — Zur Messe kommen
+                  verschiedne<note corresp="#I_19-10">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-0059485">
+                        <placeName>Messe; Leipzig</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb n="10" xml:id="I_19-10"/>wichtige Bücher heraus: Kant’s Kritik der Vernunft;
+               wizzig, frei und <note corresp="#I_19-11">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008890">
+                        <author>Kant, Immanuel (1724-1804)</author>
+                        <title>Kritik der reinen Vernunft (1781)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_19-11"/>tiefgedacht! Garve’s Übersezzung der Bücher Zizero’s von den
+                  <note corresp="#I_19-12">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008250" ana="†">
+                        <author>Cicero (Zizero), Marcus Tullius (106-43 v. Chr.), röm. Politiker,
+                           Rhetor und Philosoph</author>
+                        <title>De officiis</title>
+                     </bibl>
+                     <bibl corresp="#JP-008451" ana="†">
+                        <author>Garve, Christian (1742-1798), Popularphilosoph</author>
+                        <title>Cicero-Übersetzung (1783)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_19-12"/>Pflichten, mit philosophischen Anmerkungen — Mendelsson giebt
+                  <note corresp="#I_19-13">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002764" ana="†">
+                        <persName> Moses <name type="reg">Mendelssohn</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_19-13"/>etwas über den Karakter Lessing’s heraus, und Platner
+               neubearbeitet <note corresp="#I_19-14">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002424" ana="†">
+                        <persName> Gotthold Ephraim <name type="reg">Lessing</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009402" ana="†">
+                        <author>Platner, Ernst (1744-1818), Professor der Medizin in Leipzig,
+                           Philosoph</author>
+                        <title>Aphorismen (1776-1782, 1784)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_19-14"/>seine Aphorismen. Da ist ware Philosophie, die so selten ist,
+               weil man<lb n="15" xml:id="I_19-15"/>soviel von ihr spricht. Platner ist unstreitig
+               einer der besten Philosophen <note corresp="#I_19-16">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003248">
+                        <persName> Ernst <name type="reg">Platner</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_19-16"/>Deutschlands. Welch Glük für mich! sein Zuhörer sein. —</p>
+            <note corresp="#I_19-17">
+               <listPlace type="lineReference">
+                  <place corresp="#JP-0056690">
+                     <placeName>Deutsche; Deutschland , deutsch , Germanien, Vaterland</placeName>
+                  </place>
+                  <place corresp="#JP-0056713">
+                     <placeName>Philosophie; Deutschland, deutsche</placeName>
+                  </place>
+               </listPlace>
+            </note>
+            <lb xml:id="I_19-17"/>
+            <p>Neulich las ich in einem Buche die Inschrift auf Neuton’s Monu<note corresp="#I_19-18">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002996">
+                        <persName> Isaac <name type="reg">Newton </name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_19-18" rendition="#hyphen"/>ment; sie ist zu schön, als daß ich sie
+               nicht hersezzen solte:</p>
+            <lb xml:id="I_19-19"/>
+            <cit>
+               <quote>
+                  <hi rendition="#et">
+                     <hi rendition="#aq">Hic iacet Isaacus Neuton, <lb n="20" xml:id="I_19-20"/>Si
+                        nescis hunc, abito.</hi>
+                  </hi>
+               </quote>
+            </cit>
+            <lb xml:id="I_19-21"/>
+            <p>Diese Universität hat eben nicht viel grosse Männer: wenn man den <lb xml:id="I_19-22"/>Platner, Morus, Klodius und Dathe ausnimt; so findet man überal
+                  <note corresp="#I_19-23">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000656">
+                        <persName> Christian August <name type="reg">Clodius</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-002879">
+                        <persName> Samuel Friedrich Nathanael <name type="reg">Morus</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003248">
+                        <persName> Ernst <name type="reg">Platner</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_19-23"/>nur mittelmässige Leute. Dathe liest nicht gut, und hat noch
+               dazu einen <note corresp="#I_19-24">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000754">
+                        <persName> Johann August <name type="reg">Dathe</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_19-24"/>schlechten Vortrag; er weis auf dem Kateder nicht halb das Gute
+               zu <lb n="25" xml:id="I_19-25"/>sagen, was er in seinen Büchern sagt. Man hat mer
+               Nuzzen, wenn <lb xml:id="I_19-26"/>man ihn liest, als hört. Burscher — das ist nun
+               ein drollichter Man! <note corresp="#I_19-27">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000554" ana="ff">
+                        <persName> Johann Friedrich <name type="reg">Burscher</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_19-27"/>Er hält sich beinahe mit für den grösten Geist auf
+               Gotteserdboden, <lb xml:id="I_19-28"/>und hat den grösten Stolz, lächerlich sein zu
+               können. Nämlich, wenn er <lb xml:id="I_19-29"/>die Reformazionsgeschichte liest, so
+               erzält <metamark>[</metamark>er<metamark>]</metamark> gerade wie der gemeine <lb n="30" xml:id="I_19-30"/>Man erzält; dieselben Figuren, platten Ausdrükke und
+               sogar dieselben <lb xml:id="I_19-31"/>Stellungen des Körpers! Die derben Satyren des
+               D. Luther’s besizt <note corresp="#I_19-32">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009138">
+                        <author>Luther, Martin (1483-1546)</author>
+                        <title>Satiren</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_19-32"/>er alle im Original; diese liest er vor und sezt noch eine
+               Dosis von <lb xml:id="I_19-33"/>eignem Wiz dazu. Alles läuft zu ihm; er hält sich das
+               für die gröste <lb xml:id="I_19-34"/>Ere, und sieht nicht ein, daß man sich auf
+               Unkosten seines Verstandes<lb n="35" xml:id="I_19-35"/>lustig macht, und daß, wer
+               nicht in die Komödie gehen wil, sein <lb xml:id="I_19-36"/>Kollegium besucht und
+               einen — Harlekin auf dem Kateder belacht. — <lb xml:id="I_19-37"/> Man hat ihn mit
+               soviel Titel belegt, daß er Mühe hat zu wissen, was <lb xml:id="I_20-1"/>er ist; ihm
+               soviel Ämter gegeben, daß er die Macht hat, keines recht zu <lb xml:id="I_20-2"/>verwalten, und soviel Verdienste in Gestalt des Sterns etc. von aussen an<lb xml:id="I_20-3" rendition="#hyphen"/>gehangen, daß er inwendig keine zu haben
+               braucht. Eine ware Schöp<lb xml:id="I_20-4" rendition="#hyphen"/>fung aus — Nichts!
+               Ortodox? das versteht sich von selbst, daß er’s ist: <note corresp="#I_20-5">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003082">
+                        <persName>
+                           <name type="reg">Orthodoxe</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="5" xml:id="I_20-5"/> man hätt’ ihn nicht so belont, wenn er grössern Verstand
+               hätte. — <lb xml:id="I_20-6"/>Das Professorenvolk ist überhaupt das burleskeste Volk:
+               sie haben <lb xml:id="I_20-7"/>Originaltorheiten, und man hat Unrecht getan, immer
+               den Land<lb xml:id="I_20-8" rendition="#hyphen"/>geistlichen in ieder Satyre zu
+               züchtigen. Einen Professor nach dem <lb xml:id="I_20-9"/>Leben zu malen! — gewis das
+               wäre der zweite Don Quichot, und sein <note corresp="#I_20-10">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008235">
+                        <author>Cervantes Saavedra, Miguel de (1547-1616)</author>
+                        <title>Don Quijote (Quichotte, Quixot, Quixotte) (1605-1615)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="10" xml:id="I_20-10"/> Famulus sein Sancho Pansa. —</p>
+            <lb xml:id="I_20-11"/>
+            <p>Die Mode ist hier der Tyran, unter dem sich alles beugt; ob er wol <lb xml:id="I_20-12"/>niemals sich selbst gleich ist. Die Stuzzer bedekken die
+               Strasse, bei <lb xml:id="I_20-13"/>schönen Tagen flattern sie herum wie die
+               Schmetterlinge. Einer gleicht <lb xml:id="I_20-14"/>dem andern; sie sind wie Puppen
+               im Marionettenspiele, und keiner hat <lb n="15" xml:id="I_20-15"/> das Herz, Er
+               selbst zu sein. Das Hergen gaukelt hier von Toilette zu <lb xml:id="I_20-16"/>Toilette, von Assemblee zu Assemblee, stielt überal ein par Torheiten <lb xml:id="I_20-17"/>mit weg, lacht und weint, wie’s dem andern beliebt, närt die
+                  Ge<lb xml:id="I_20-18" rendition="#hyphen"/>selschaft von den Unverdaulichkeiten,
+               die er in einer andern ein<lb xml:id="I_20-19" rendition="#hyphen"/>gesamlet hat, und
+               beschäftigt seinen Körper mit Essen und seine Sele <lb n="20" xml:id="I_20-20"/> mit
+               Nichtstun, bis er ermüdet einschläft. Wen nicht seine Armut <lb xml:id="I_20-21"/>zwingt, klug zu sein, der wird in Leipzig der Nar, den ich iezt ge<note corresp="#I_20-22">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005948">
+                        <placeName>Leipzig</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="I_20-22" rendition="#hyphen"/>schildert habe. Die meisten reichen
+               Studenten sind dieses. —</p>
+            <note corresp="#I_20-23">
+               <listPlace type="lineReference">
+                  <place corresp="#JP-0057470" rend="Lesarten">
+                     <placeName>(Gallier, Neufranken); Frankreich, Franzosen,
+                        französisch</placeName>
+                  </place>
+                  <place corresp="#JP-006224" rend="Lesarten">
+                     <placeName>Sachsen, Kursachsen, sächsisch</placeName>
+                  </place>
+               </listPlace>
+            </note>
+            <lb xml:id="I_20-23"/>
+            <p>Rousseau hat ser viel Schriften noch hinterlassen; in Manheim <note corresp="#I_20-24">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003602">
+                        <persName> Jean-Jacques <name type="reg">Rousseau</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005995">
+                        <placeName>Mannheim </placeName>
+                     </place>
+                     <place corresp="#JP-0059950">
+                        <placeName>Rheinbrücke; Mannheim </placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="I_20-24"/>drukt man seine sämtl. Werke auf Pränumerazion mit den schönen
+                  <lb n="25" xml:id="I_20-25"/> lateinischen Lettern, mit welchen die alten Autoren
+               gedrukt wurden. <note corresp="#I_20-26">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000065">
+                        <persName> Die <name type="reg">Alten</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_20-26"/>Ein herlicher Man! Im Original liest sich sein Emil noch einmal
+               so <note corresp="#I_20-27">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-00574612">
+                        <placeName>Sprache, Stil, Schrift; Frankreich, französisch</placeName>
+                     </place>
+                  </listPlace>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009523" ana="†">
+                        <author>Rousseau, Jean-Jacques (1712-1778)</author>
+                        <title>Émile ou De l'éducation (1762)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_20-27"/>schön; und seine Heloise, die ist zu gut, um nur gelobt zu
+               werden. — <note corresp="#I_20-28">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009524" ana="†">
+                        <author>Rousseau, Jean-Jacques (1712-1778)</author>
+                        <title>Julie ou La Nouvelle Héloise (1761)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_20-28"/>Verzeihen Sie, wenn ich Ihnen noch keinen Aukzionskatalog
+               geschikt <lb xml:id="I_20-29"/>habe; es waren erst zwei Aukzionen und in denselben
+               meistens un<lb n="30" xml:id="I_20-30" rendition="#hyphen"/>wichtige Bücher; nach der
+               Messe werd’ ich Ihnen den neusten schikken.</p>
+            <note corresp="#I_20-31">
+               <listPlace type="lineReference">
+                  <place corresp="#JP-0059485">
+                     <placeName>Messe; Leipzig</placeName>
+                  </place>
+               </listPlace>
+            </note>
+            <lb xml:id="I_20-31"/>
+            <p>In diesem Jar ist ein Buch herausgekommen, betitelt: Charla<note corresp="#I_20-32">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008272" ana="†">
+                        <author>Cranz, August Friedrich (1737-1801), Satiriker</author>
+                        <title>Charlatanerien (1781)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_20-32" rendition="#hyphen"/>tanterien
+                  <metamark>[</metamark>!<metamark>]</metamark>, gegen welches der Kezzeralmanach
+               noch eine Kon<note corresp="#I_20-33">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008082" ana="†">
+                        <author>Bahrdt (Barthd, Barth, Bahrd), Carl (Karl) Friedrich (1740-1792),
+                           Theologe</author>
+                        <title>Kirchen- und Ketzer-Almanach (1781)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_20-33" rendition="#hyphen"/>kordienformel ist. Recht wizzig ist es; es
+               spast mit dem ganzen A. T. Es <lb xml:id="I_20-34"/>ist schon 3 mal aufgelegt. Wenn
+               ich’s zu kaufen bekommen kan, werd’<lb n="35" xml:id="I_20-35"/> ich Ihnen es
+               schikken. Das ist sein Motto auf dem Titel: Wer Oren <lb xml:id="I_20-36"/>hat zu
+               hören, der höre, Apokal. Wer eine Nase zu riechen, der rieche.</p>
+            <note corresp="#I_20-37">
+               <listBibl type="lineReference" subtype="werke">
+                  <bibl corresp="#JP-010188">
+                     <author/>
+                     <title>Apokalypse des Johannes (Neues Testament)</title>
+                  </bibl>
+               </listBibl>
+            </note>
+            <lb xml:id="I_20-37"/>
+            <p>Von meinen Arbeiten sag’ ich iezt nichts: bis mir erst Ihre Antwort <lb xml:id="I_21-1"/>auf diesen Brief, die Erlaubnis erteilt, den mir so nüzlichen
+                  Brief<lb xml:id="I_21-2" rendition="#hyphen"/>wechsel fortzusezzen. Sie werden
+               ermüdet sein von Lesen; ich schliesse, <lb xml:id="I_21-3"/>und sage nichts mer, als
+               dies, daß nichts in mir die Liebe und die <lb xml:id="I_21-4"/>Dankbarkeit auslöschen
+               wird, welche ich Ihrer Güte schuldig bin. <lb n="5" xml:id="I_21-5"/>Vielleicht ist
+               dies mer, als wenn ich versichere, daß ich mit der grösten <lb xml:id="I_21-6"/>Hochachtung bin</p>
+            <lb xml:id="I_21-7"/>
+            <closer>
+               <salute>
+                  <hi rendition="#et">Ew. Hocherwürden</hi>
+                  <lb type="ig"/>
+                  <cb/>
+                  <date>
+                     <hi rendition="#left">
+                        <placeName>Leipzig</placeName>, den <date>17 Septemb. <lb type="ig"/>1781</date>. <lb n="10" type="ig"/>
+                     </hi>
+                  </date>
+                  <cb/>
+                  <hi rendition="#right">gehorsamster Diener <lb type="ig"/>J. P. F. Richter</hi>
+                  <lb xml:id="I_21-8"/>
+               </salute>
+            </closer>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Brit. Museum. 4 S. 4°. <hi rendition="#i">K</hi>
+                  (Konzept): VI.</hi> An Pf[arrer] V[ogel] in <lb/>R[ehau] den
+                  16<metamark>[</metamark>!<metamark>]</metamark> Sept. <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>: Nachlaß 3,195. Vgl. Wahrheit 3,119 (Z. <hi rendition="#rkd">4–11</hi>) u.</hi>
+               <lb/>124. <hi rendition="#b">
+                  <hi rendition="#aq">18</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">27</hi>
+               </hi> erwekt] verursacht <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">28</hi> Meister <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">29</hi> —] ich habe das ganze halbe <lb/>Jar gefischt, und habe
+               nichts gefangen <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">30</hi> Septemb.] <hi rendition="#aq">danach</hi> den man kaum
+               <lb/>unter die Deutschen rechnen kan, weil er selbst versicherte, er rede lieber
+               lateinisch <lb/>als deutsch <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">33</hi> Zierden] <hi rendition="#aq">aus</hi> Ornatszierden <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">34</hi> sehen konte] sahe; der Ruf <lb/>seiner Vortreflichkeit
+               sumte so unaufhörlich um seine Oren, daß...... <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">36</hi> er] und sein taubes Or <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">19</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">3</hi>
+               </hi> Barthd] <hi rendition="#aq">daneben am Rande</hi> Barthdt <lb/>Barhtd <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi> Jezt <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">5</hi> trinken.] Er hat gerade Pension genug und gerade so
+               <lb/>wenig Titel, um liederlich leben zu können. Er geht mit den Studenten in die
+               <lb/>Wirthshäuser und säuft Brandewein soviel er kan; man hat durch die Versezzung[?]
+               <lb/>nicht[s] gestiftet, da [er] gerade den Ort antraf[?], der zu seinem Leben bequem
+               <lb/>ist. <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">10</hi> beikommen] zu Leibe kommen <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">13</hi> Anmerkungen] <hi rendition="#aq">danach</hi> Hume’s
+               <lb/> natürliche Religion, <hi rendition="#aq">[nachtr.</hi> übersezt] mit Zus[äzzen]
+               versehen von Platner<note n="1)" place="foot">
+                  <hi rendition="#aq">David Humes Gespräche über die natürliche Religion. Aus dem
+                        <lb type="ig"/>Engl. (von K. G. Schreiter) nebst einem Gespräch über den
+                     Atheismus <lb type="ig"/>von Ernst Platner. Leipzig 1781. Vgl. II. Abt., I,
+                     426, Anm. zu 277,<hi rendition="#rkd">16</hi>.</hi>
+               </note>; <lb/>im höchsten [Grade]skeptisch und tiefsinnig! <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">15</hi> Da <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">16</hi> spricht.] Diese hab’<lb/>ich gelesen. Etwas [so]
+               philosophisches, tiefgedachtes, freies kan man sich kaum <lb/>denken. <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">22</hi> Männer] Leute <hi rendition="#aq">danach gestr.</hi>
+               niemand liest die Physik ser gut, die <lb/>Geschichte viele [?] erbärmlich <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">23</hi> Dathe] einige andre <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">24</hi> nicht gut] ser <lb/>mittelmässig <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">27</hi> drolligter <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">30</hi> gerade] <hi rendition="#aq">davor</hi> und fürt die
+               Leute redend ein, <lb/>und macht alle Minute Spas <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">34</hi> dazu] <hi rendition="#aq">danach</hi> um den Zuhörern
+               ein Ver<lb rendition="#hyphen"/>gnügen zu machen <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">35</hi> sieht nicht ein] ist so blind nicht zu sehen <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">20</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">1</hi>
+               </hi>
+               <lb/>Mühe hat zu wissen] kaum weis 〈den rechten vergist〉 <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">2</hi> die <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">3</hi> verwalten] <lb/>sie alle versäumen darf <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+                  <hi rendition="#rkd">3</hi>f.</hi> angehangen] <hi rendition="#aq">[gestr.</hi> um
+               ihn] herumgehangen <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">8</hi> Unrecht] <hi rendition="#aq">aus</hi> unrecht <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>,</hi> unrecht <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">10</hi> das <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">11</hi> Pansa] Cervantes könte seinen <lb/>Donquichot nicht
+               besser [?] zeichnen. Den Sancho Pansa müste man auch nicht <lb/>weg[lassen]; die
+               Famulusse würden’s[?] <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">12</hi> Die <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">15</hi> Marionettenspiele] <lb/>Sol ich Ihnen etwas vom Karakter
+               der Einwoner Leipzigs sagen? Dratpuppen, <lb/>Marionetten, Schmetterlinge, das sind
+               die Geschöpfe, die alle Strassen bedekken. <lb/>Alles beugt sich vor dem Tyrannen der
+               Mode, der sich selbst niemals gleich ist: <lb/>wenn man einen Stuzzer gesehen, hat
+               man sie alle gesehen; sie sind wie die <lb/>Mängen im Schatten[spiele], alle gleichen
+               einander. <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">16</hi> gaukelt] flattert <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">18</hi> lacht <hi rendition="#aq">bis</hi> beliebt] lernt von
+               ieder Schönen ein Bonmot, das nichts sagt <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">23</hi> Die <hi rendition="#aq">bis</hi> dieses] Alle reichen
+               Studenten sind Petitmaitres. Die Sitten sind <lb/>fein; man könte [?] die Leipziger
+               vielleicht mit Recht die deutschen Franzosen <lb/>nennen; und daher mag die
+               Falschheit kommen, die man den Sachsen zuschreibt. <lb/>Es ist natürlich, wer Kopf
+               hat, gebraucht ihn zu seinem Vorteil und auf Un<lb rendition="#hyphen"/>kosten des
+               Glüks des andern. <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">27</hi> Im <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">28</hi> werden.] Ich habe iezt seinen Emil <lb/>französisch
+               gelesen; er übertrift alles; die deutsche Uebersezzung erreicht das <lb/>Original
+               [nicht] halb! und seine Heloise! die mag ich nicht loben, weil ich sie nur <lb/>
+               <hi rendition="#aq">[aus</hi> nicht genug] loben kan. <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">31</hi> schikken.] <hi rendition="#aq">danach</hi> Hier wird man
+               ganz in <lb/>Sodawasser [?] aufgelöst; durch die hundert [?] Bücher, die man lesen
+               kan; man <lb/>geneust [?] des Süssen soviel, daß es endlich [?] bitter schmekt, und
+               man sättigt <lb/>sich so durch die gar zu guten Schriften, daß man um den Ekkel zu
+               verwinden, <lb/>einen — Burscher hören mus. <hi rendition="#aq">danach gestr.</hi>
+               Man hört den Klugen nie lieber, <lb/>als wenn man vorher einen Dummen gehört hat;
+               dieser macht hungrig, da <lb/>iener sättigt. <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">21</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">1</hi>
+               </hi> Von <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">3</hi> fortzusezzen.] Meine Arbeiten — nein! davon <lb/>red’ ich
+               nicht: ich weis nicht, ob ich Ihre Liebe noch habe, die so teuer ist; ich wil
+               <lb/>erst suchen, diese wieder zu verdienen, und dan........ Erst Ihre Antwort auf
+               <lb/>diesen Brief giebt mir die Erlaubnis, den Briefwechsel, den Sie mir mit Ihnen
+               <lb/>zu füren gütigst erlaubten, fortzusezzen; erst diese überzeugt mich, daß ich
+               Ihre <lb/>Güte, die Sie sonst gegen mich gehabt, iezt noch nicht verloren habe....
+                  <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">3</hi> ermüdet sein von Lesen] das Ende dieses Briefs wünschen
+                  <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">4</hi> dies] <hi rendition="#aq">nachtr. <lb/>
+                  <hi rendition="#i">HK</hi>; danach</hi> daß ich ie mer [ich] einsehe, wie viel ich
+               Ihnen schuldig, desto[mer] <lb/>ich Ihnen danke, und <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">18</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">30</hi>
+               </hi>
+               <hi rendition="#aq">
+                  <hi rendition="#g">Ernesti</hi> starb am 11. September. <hi rendition="#b">19</hi>,<hi rendition="#rkd">1</hi>f. <hi rendition="#g">Pope,</hi> Essay on
+                  Man IV, <lb/>237: „What’s Fame? a fancy’d life in others breath.“ Vgl. II. Abt.,
+                  I, 213,<hi rendition="#rkd">24</hi>†. <lb/>3ff. <hi rendition="#g">Bahrdt</hi>
+                  lebte, seit ihm (1779) alle geistlichen Würden aberkannt <lb/>worden waren, als
+                  Dozent in Halle. <hi rendition="#rkd">12</hi>f. <hi rendition="#g">Garves</hi>
+                  Cicero-Übersetzung <lb/>erschien erst 1783, vgl. <hi rendition="#b">179</hi>,<hi rendition="#rkd">23</hi>†. <hi rendition="#rkd">13</hi>f. <hi rendition="#g">Mendelssohns</hi> Schrift über Lessing <lb/>blieb im Plane stecken; vgl. <hi rendition="#b">29</hi>,<hi rendition="#rkd">31</hi>f. <hi rendition="#rkd">14</hi>f. Von <hi rendition="#g">Platners</hi> zuerst 1776 er<lb rendition="#hyphen"/>schienenen „Philosophischen Aphorismen“ kam 1782 ein 2.
+                  Band, 1784 der <lb/>erste in 2. Auflage heraus. <hi rendition="#rkd">23</hi> Sam.
+                  Fr. Nath. <hi rendition="#g">Morus</hi> (1736—92), Philo<lb rendition="#hyphen"/>soph und Theolog. Joh. Aug. <hi rendition="#g">Dathe</hi> (1731—91),
+                  Orientalist. <hi rendition="#rkd">27</hi> Joh. <lb/>Friedr. <hi rendition="#g">Burscher</hi> (1732—1805), Theolog; vgl. I. Abt., V, 76,2, XV, 219,7. <lb/>
+                  <hi rendition="#b">20</hi>,<hi rendition="#rkd">12–23</hi> Vgl. die Satire auf die
+                     <hi rendition="#g">Stutz er</hi> in den Grönländischen Prozessen, <lb/>I. Abt.,
+                  I, 93ff. <hi rendition="#rkd">24–28</hi>
+                  <hi rendition="#g">Rousseau:</hi> Exzerpte aus der 1762 erschienenen
+                  <lb/>Übersetzung des Emile im 7. Band (Hof 1780), aus der Nouvelle Héloise,
+                  <lb/>Genève 1780, im 13. u. 14. Band und in „Extraits, Tome I“ (Leipzig 1781).
+                  <lb/>32–37 „<hi rendition="#g">Charlatanerien</hi>“, Berlin 1780—81, von dem
+                  Kriegsrat Aug. <lb/>Friedr. <hi rendition="#g">Cranz</hi> (1737—1801); später
+                  urteilte Jean Paul abfällig über das <lb/>Werk und dessen Verfasser, der ihm als
+                  Prototyp eines niedrigen Satirikers <lb/>galt, vgl. <hi rendition="#b">149</hi>,<hi rendition="#rkd">29</hi>, <hi rendition="#b">201</hi>,<hi rendition="#rkd">13</hi>, <hi rendition="#b">354</hi>,<hi rendition="#rkd">28</hi>, I. Abt., I, 169, 173, 212, II. Abt., II, 112,<hi rendition="#rkd">35</hi>. <lb/>Der „Kirchen- und <hi rendition="#g">Ketzeralmanach</hi> aufs
+                  Jahr 1781“ ist von Bahrdt.</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

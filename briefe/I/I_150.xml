@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="I_150">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="150">150. An Oerthel in Töpen. </title>
+            <title n="digital">An Johann Adam Lorenz von Oerthel. Hof, 27. Februar 1786. </title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=I_150</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/I/I_150</idno>
+               <idno type="TELOTAID">I_150</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="I">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
+               <biblScope n="text" unit="page">
+                  <num>198</num>
+                  <num>199</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>473</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1786-02-27">27. Februar 1786</date>
+               <placeName key="JP-005841" ref="http://www.geonames.org/2902768">Hof</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-003050" ref="http://d-nb.info/gnd/11710633X">
+                  <name type="reg">Oerthel</name> Johann Adam Lorenz von</persName>
+               <placeName key="JP-006345" ref="http://www.geonames.org/2821864">Töpen bei
+                  Hof</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=I_147">6. Februar 1786</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=I_18-fb">27. Februar 1786</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <dateline>
+               <hi rendition="#right">
+                  <placeName>Hof</placeName> den <date>27 Febr. 86</date>
+                  <metamark>[</metamark>Montag<metamark>]</metamark>.</hi>
+            </dateline>
+            <lb xml:id="I_198-21"/>
+            <opener>
+               <salute>
+                  <hi rendition="#et">Lieber Oerthel,</hi>
+               </salute>
+            </opener>
+            <lb xml:id="I_198-22"/>
+            <p>Heute lauter biographische Kleinigkeiten! Erstlich schikke mir mein <lb xml:id="I_198-23"/>Mskpt ganz zurük, wenn du keine Noten darüber gemacht, oder
+               wenn <note corresp="#I_198-24">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010878">
+                        <title>Scherze in Quart [1785-86]</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_198-24"/>du es derselben werth gehalten, den kritisirten Theil
+               desselben; weil <lb n="25" xml:id="I_198-25"/> ich iezt ein Paar Groschen zum
+               Fortschikken und Frankiren desselben <lb xml:id="I_198-26"/>habe. — Hier ist ein
+               Brief an deinen H. Vater, der an meine Mutter <note corresp="#I_198-27">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003051">
+                        <persName> Johann Georg von <name type="reg">Oerthel</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003496">
+                        <persName> Sophie Rosine <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_198-27"/>geschrieben; du kanst ihm selbigen geben oder es durch meinen
+               Bruder <note corresp="#I_198-28">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003481">
+                        <persName> Johann Paul Friedrich <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_198-28"/>thun lassen. — Heute hab’ ich vom Trogenprediger den Platner
+               und <note corresp="#I_198-29">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002901">
+                        <persName> Christian Adam <name type="reg">Müller</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009402">
+                        <author>Platner, Ernst (1744-1818), Professor der Medizin in Leipzig,
+                           Philosoph</author>
+                        <title>Aphorismen (1776-1782, 1784)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_198-29"/>Schroekh bekommen; der erstere ist ordentlich von den Todten
+                  auf<note corresp="#I_198-30">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009669" ana="?">
+                        <author>Schroeckh (Schrökh), Johann Matthias (1733-1808), Professor der
+                           Geschichte in Wittenberg</author>
+                        <title>Allgemeine Biographie (1767-1791)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="30" xml:id="I_198-30" rendition="#hyphen"/> erstanden, welche wie bekant weit
+               schöner aus dem Grabe als in <lb xml:id="I_198-31"/>dasselbe gehen. — Ich war einige
+               Tage verreiset und dieser Reise <lb xml:id="I_198-32"/>schreibe mein und dein
+               Stilschweigen allein zu. — Mein Bruder, der <note corresp="#I_198-33">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003487">
+                        <persName> Justus Heinrich Wilhelm Christian <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_198-33"/>Heinrich, ist bei dem iüngern Kaufman Franz und hat es sehr
+               gut. — <note corresp="#I_198-34">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001156">
+                        <persName>
+                           <name type="reg">Franz</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_198-34"/>Du sagtest neulich einmal: du woltest deine alten Freunde
+               wegwerfen. <lb n="35" xml:id="I_198-35"/>
+               <lb xml:id="I_198-36"/> Wirf aber wenigstens die Ottos nicht von dir! Was haben Sie
+               dir <note corresp="#I_199-1">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003116">
+                        <persName> Christiane Dorothea <name type="reg">Otto</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_199-1"/>gethan, daß du dem ältern zweimal auf seine Briefe in deinen
+               eignen <note corresp="#I_199-2">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003106">
+                        <persName> Albrecht <name type="reg">Otto</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_199-2"/>Angelegenheiten, ein Stilschweigen zur Antwort gabest oder daß
+                  <lb xml:id="I_199-3"/>du von ihrem Grusse dein Gesicht wegwendest? Das Wegwerfen
+               fühlet <lb xml:id="I_199-4"/>der zu sehr, den es betrift und du soltest an Yoriks
+               kleine holde Ge<note corresp="#I_199-5">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009831" ana="†">
+                        <author>Sterne, Laurence (Pseudonym Yorick) (1713-1768)</author>
+                        <title>A Sentimental Journey (1768)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="5" xml:id="I_199-5" rendition="#hyphen"/>fälligkeiten des Lebens denken. —
+               Bist du noch krank? — Recht sehr <lb xml:id="I_199-6"/>bitt’ ich dich, von dem
+               sch—cher Buche oder den M—en schlechterdings <note corresp="#I_199-7">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006268">
+                        <placeName>Schwarzenbach a. d. Saale</placeName>
+                     </place>
+                  </listPlace>
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010988">
+                        <title>Cloeter, Johann Gottfried, Christoph Friedrich Ellrodt, Johann Paul
+                           Friedrich Richter (Jean Paul), Johann Samuel Völkel und Johann Wilhelm
+                           Vogel, Mixturen für Menschenkinder aus allen Ständen (1786)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_199-7"/>niemand etwas zu sagen: es ist zu vielen daran gelegen. — Lebe
+               wol. <lb xml:id="I_199-8"/>Aber es ist nöthig, daß du mich einmal versicherst, daß du
+               das noch <lb xml:id="I_199-9"/>gegen mich bist, was ich gegen dich bin. <lb n="10" xml:id="I_199-10"/>
+            </p>
+            <closer>
+               <salute>
+                  <hi rendition="#right">Richter</hi>
+                  <lb xml:id="I_199-11"/>
+               </salute>
+            </closer>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Berlin JP. 1 S. 4°; auf der 4. S. Adresse wie zu Nr.
+                  143. <hi rendition="#i">K</hi> (nach <lb/>Nr.</hi> 152): An Oerthel den 1 März <hi rendition="#aq">
+                  <metamark>[</metamark>!<metamark>]</metamark>.</hi>
+               <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>: Wahrheit 4,52×. <hi rendition="#b">198</hi>,<hi rendition="#rkd">21</hi>
+               </hi>27]<hi rendition="#aq">
+                  <lb/>nachtr., versehentl. vor</hi> den <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">199</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">2</hi>
+               </hi> ältern] <hi rendition="#aq">aus</hi> einen <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">198</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">29</hi>
+               </hi>
+               <hi rendition="#aq">
+                  <hi rendition="#g">Trogenprediger:</hi> s. Nr. 45†. <hi rendition="#b">199</hi>,<hi rendition="#rkd">5</hi>f. <hi rendition="#g">Yoricks kleine Ge<lb rendition="#hyphen"/>fälligkeiten:</hi> vgl. Sternes Sentimentale Reise,
+                  „Der Puls, Paris“. <lb/>
+                  <hi rendition="#rkd">7</hi> schwarzenbacher Buch — Mixturen; vgl. zu Nr.</hi>
+               <hi rendition="#aq">130.</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

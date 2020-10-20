@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="I_235">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="235">235. An Pfarrer Vogel in Rehau. </title>
+            <title n="digital">An Erhard Friedrich Vogel. Töpen bei Hof, 15. November 1788. </title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=I_235</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/I/I_235</idno>
+               <idno type="TELOTAID">I_235</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="I">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
+               <biblScope n="text" unit="page">
+                  <num>249</num>
+                  <num>250</num>
+                  <num>251</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>491</num>
+                  <num>492</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1788-11-15">15. November 1788</date>
+               <placeName key="JP-006345" ref="http://www.geonames.org/2821864">Töpen bei
+                  Hof</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-004474" ref="http://d-nb.info/gnd/100056458">
+                  <name type="reg">Vogel</name> Erhard Friedrich</persName>
+               <placeName key="JP-006182" ref="http://www.geonames.org/2849446">Rehau,
+                  Oberfranken</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=I_225">13. Juli 1788</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=I_241">15. Dezember 1788</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <salute>
+                  <hi rendition="#et">Theuerster Herr Pfarrer</hi>
+               </salute>
+            </opener>
+            <lb n="25" xml:id="I_249-25"/>
+            <p>Ich könte diesen Brief in 3 Worte fassen: aber in 300 ists besser; <lb xml:id="I_249-26"/>Lange machts in seinem geistlichen Recht, welches Sie nebst
+               meiner <note corresp="#I_249-27">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009068" ana="†">
+                        <author>Lange, Heinrich Arnold (1724-1783), Konsistorialrat in
+                           Bayreuth</author>
+                        <title>Das geistliche Recht (1786)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_249-27"/>närrischen Wenigkeit noch vor dem Abzuge nach Arzberg sehen
+               sollen, <note corresp="#I_249-28">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005537">
+                        <placeName>Arzberg, Oberfranken</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="I_249-28"/>auch so, ob er gleich in den Sachen vortreflich ist.</p>
+            <lb xml:id="I_249-29"/>
+            <p>Wenn der h. Antonius den Fischen und Dominikus den Eseln<note corresp="#I_249-30">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000102">
+                        <persName>
+                           <name type="reg">Antonius von Padua</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-000843">
+                        <persName>
+                           <name type="reg">Dominicus </name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="30" xml:id="I_249-30"/>predigte: so werden Sie in Arzberg diese Heilige in 1
+               Person vereinen <note corresp="#I_249-31">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005537">
+                        <placeName>Arzberg, Oberfranken</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="I_249-31"/>und glüklich sein, wenn der Kaplan zu den leztern und der
+                  Super<lb xml:id="I_249-32" rendition="#hyphen"/>intendent zu den erstern Thieren
+               gehört. Trogenprediger glaubt das <note corresp="#I_249-33">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002901">
+                        <persName> Christian Adam <name type="reg">Müller</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_249-33"/> leztere nicht; Wunderlich wird ieder Heterodoxie auflauern
+               sagt’ er, <note corresp="#I_250-1">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001008" ana="†">
+                        <persName> Johann Friedrich <name type="reg">Esper</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-001738">
+                        <persName>
+                           <name type="reg">Heterodoxe</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-004820" ana="†">
+                        <persName> Johann Georg <name type="reg">Wunderlich</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009962" ana="†">
+                        <author>Vogel, Erhard Friedrich (1750-1823), Theologe, Pfarrer in Rehau und
+                           Arzberg, später Superintendent (ab 1810 Dekan) in Wunsiedel</author>
+                        <title>Raffinerien (1785-1786)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_250-1"/>und Ihnen Ihre Kiele ausrupfen wollen weil Sie seinen Kiel
+               gemeistert, <lb xml:id="I_250-2"/>sag’ ich.</p>
+            <lb xml:id="I_250-3"/>
+            <p>Da heute wieder für mich Ziehungstag aus Ihrer Bücherlotterie <lb xml:id="I_250-4"/>ist: so wünscht’ ich, das Glüksrad (das sonst 10 Menschen rädert eh’<lb n="5" xml:id="I_250-5"/> es einen höher fährt) drehte mir folgende Bücher heraus:</p>
+            <lb xml:id="I_250-6"/>
+            <list>
+               <item>1. Toaldo über die Witterung</item>
+               <note corresp="#I_250-7">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009927">
+                        <author>Toaldo, Giuseppe (1719-1798), italienischer Meteorologe</author>
+                        <title>Witterungslehre (1777)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_250-7"/>
+               <item>2. Mauvillons Aufsäze über die Staatskunst</item>
+               <note corresp="#I_250-8">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009164">
+                        <author>Mauvillon, Jakob (1743-1794), Gelehrter, Schriftsteller und
+                           Ingenieur</author>
+                        <title>Sammlung von Aufsätzen über Gegenstände aus der Staatskunst,
+                           Staatswirthschaft und neuesten Staaten Geschichte (1776-1777)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_250-8"/>
+               <item>3. Bahrds Moral</item>
+               <note corresp="#I_250-9">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008083" ana="†">
+                        <author>Bahrdt (Barthd, Barth, Bahrd), Carl (Karl) Friedrich (1740-1792),
+                           Theologe</author>
+                        <title>System der moralischen Religion (1787)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_250-9"/>
+               <item>4. Einen Band von der Alg. D. Bibliothek: ich hafte Ihnen mit <note corresp="#I_250-10">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-009291">
+                           <author>Nicolai (Nikolai), Christoph Friedrich (1733-1811),
+                              Schriftsteller und Verleger (Werk, Hrsg.)</author>
+                           <title>Allgemeine deutsche Bibliothek (1765-1796, 1793-1806 Neue)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb n="10" xml:id="I_250-10"/> Geist, Seele und Leib und allem was die Philosophie
+                  zu meiner <lb xml:id="I_250-11"/>Person rechnet, für die Zurükbringung derselben
+                  eh’ Sie <lb xml:id="I_250-12"/>Rehau verlassen — und eben so mit</item>
+               <note corresp="#I_250-13">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006182">
+                        <placeName>Rehau, Oberfranken</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="I_250-13"/>
+               <item>5. Einem Pak Litteraturzeitung.</item>
+            </list>
+            <note corresp="#I_250-14">
+               <listBibl type="lineReference" subtype="werke">
+                  <bibl corresp="#JP-010170">
+                     <author/>
+                     <title>Allgemeine Literatur-Zeitung (Literaturzeitung) (Jena 1785ff., ab 1804
+                        Halle)</title>
+                  </bibl>
+               </listBibl>
+            </note>
+            <lb xml:id="I_250-14"/>
+            <p>Hier ist der Horus: aber Sie werden bald zu mir sagen: hier ist er <note corresp="#I_250-15">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010142" ana="†">
+                        <author>Wünsch, Christian Ernst (1744-1828), Mathematiker und
+                           Physiker</author>
+                        <title>Horus oder Astrognostisches Endurtheil über die Offenbarung Johannis
+                           (1783)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="15" xml:id="I_250-15"/> wieder denn es ist nicht viel daran — inzwischen sagen
+               Sie nur dieses <lb xml:id="I_250-16"/>zu mir in Rüksicht Kants, denn es ist viel
+               daran.</p>
+            <note corresp="#I_250-17">
+               <listPerson type="lineReference">
+                  <person corresp="#JP-002024">
+                     <persName> Immanuel <name type="reg">Kant</name>
+                     </persName>
+                  </person>
+               </listPerson>
+            </note>
+            <lb xml:id="I_250-17"/>
+            <p>Leben Sie wol, und freuen Sie sich daß Sie in einer Welt sizen, wo <lb xml:id="I_250-18"/>Sie über den Johannis predigen dürfen — welches Geld bringt —
+               und <note corresp="#I_250-19">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001962" ana="†" next="250-20">
+                        <persName>
+                           <name type="reg">Johannes</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_250-19"/>über den Johannis schreiben können — welches Ehre bringt; und
+               wo <note corresp="#I_250-20">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009960" ana="†">
+                        <author>Vogel, Erhard Friedrich (1750-1823), Theologe, Pfarrer in Rehau und
+                           Arzberg, später Superintendent (ab 1810 Dekan) in Wunsiedel</author>
+                        <title>Der Evangelist Johannes (1801-04)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="20" xml:id="I_250-20"/> Sie Bücher, Kinder und eine Frau haben, welches bei
+               mir vor dem <note corresp="#I_250-21">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004475">
+                        <persName> Erhard Friedrich <name type="reg">Vogel</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-004493">
+                        <persName> Sophie Albertine <name type="reg">Vogel</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_250-21"/>Jahre 2440 nicht zu hoffen steht. Ich bin mit der grösten
+               Hochachtung</p>
+            <note corresp="#I_250-22">
+               <listBibl type="lineReference" subtype="werke">
+                  <bibl corresp="#JP-009184" ana="†">
+                     <author>Mercier, Louis Sébastien (1740-1814), französischer Literat</author>
+                     <title>Lan 2440 (1770)</title>
+                  </bibl>
+               </listBibl>
+               <listBibl type="lineReference" subtype="werke-jp">
+                  <bibl corresp="#JP-010584" ana="†">
+                     <title>Das Jahr 1886 [Die Zukunft der Theologie, 1786]</title>
+                  </bibl>
+               </listBibl>
+            </note>
+            <lb xml:id="I_250-22"/>
+            <closer>
+               <salute>
+                  <hi rendition="#et">Ew. Hochwürden <lb type="ig"/>gehors. Diener</hi>
+                  <lb type="ig"/>
+                  <cb/>
+                  <date>
+                     <hi rendition="#left">
+                        <placeName>Töpen</placeName> den <date>15 Nov. 1788</date>.</hi>
+                  </date>
+                  <cb/>
+                  <hi rendition="#right">Richter</hi>
+                  <lb n="25" xml:id="I_250-25"/>
+               </salute>
+            </closer>
+            <postscript>
+               <p>N. S. Lesen Sie im <hi rendition="#aq">Casaubon</hi> die Anmerkung des Chrysostoms
+                     <note corresp="#I_250-26">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000640">
+                           <persName> Johannes <name type="reg">Chrysostomos</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-008230" ana="ff">
+                           <author>Casaubon, Isaak (1559-1614), Philologe</author>
+                           <title>Exercitationes ad Baronii Annales (1614)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="I_250-26"/>
+                  <hi rendition="#aq">p.</hi> 209. Zuerst sind 4 Evangelisten bestellet, damit aus
+                  der Harmonie <note corresp="#I_250-27">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001022">
+                           <persName>
+                              <name type="reg">Evangelisten</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="I_250-27"/>ihrer Aussagen die Wahrheit derselben vorspringe — dan sol
+                  wieder <lb xml:id="I_250-28"/>ihre Disharmonie den Verdacht der Verabredung
+                  abwenden; von <lb xml:id="I_250-29"/>welchen 2 Vortheilen man unmöglich beide,
+                  sondern nur einen <lb n="30" xml:id="I_250-30"/> behalten kan, weil einer den
+                  andern aufhebt. Der Vortheil der Dis<lb xml:id="I_250-31" rendition="#hyphen"/>harmonie sinkt auch darum unter, weil scheinbare und nur auf <lb xml:id="I_250-32"/>Nebenumstände eingeschränkte Disharmonie darum nicht mehr
+                  den <lb xml:id="I_250-33"/>Verdacht der Verabredung ausschliesset als irgend eine
+                  völlige Har<lb xml:id="I_250-34" rendition="#hyphen"/>monie. Kasaubon bringt bei,
+                  iene gehe nur Nebenumstände, nicht die<lb n="35" xml:id="I_250-35"/> Hauptsachen
+                  an: aber ich möchte wissen, aus was anderem die Haupt<lb xml:id="I_250-36" rendition="#hyphen"/> sache einer Geschichte bestehe als aus allen
+                  Nebenumständen zu<lb xml:id="I_251-1" rendition="#hyphen"/>sammengenommen und in
+                  was anderem eine wahre Erzählung von <lb xml:id="I_251-2"/>einer falschen sich
+                  unterscheide als in den <hi rendition="#aq">„circumstantiis“.</hi> Denn <lb xml:id="I_251-3"/>völlige Erdichtung der evangelischen Geschichte wolte ia auch
+                  noch <lb xml:id="I_251-4"/>niemand erweisen, und die Hauptsache derselben noch
+                  niemand läugnen: <lb n="5" xml:id="I_251-5"/>sondern nur Unwahrscheinlichkeiten
+                  und Widersprüche derselben nebst <lb xml:id="I_251-6"/>den unendlichen Folgerungen
+                  daraus wolte man ans Licht treiben. <hi rendition="#aq">En <lb xml:id="I_251-7"/>lisant tout cela, votre femme commenceroit hair ma religion <note corresp="#I_251-8">
+                        <listPerson type="lineReference">
+                           <person corresp="#JP-004493">
+                              <persName> Sophie Albertine <name type="reg">Vogel</name>
+                              </persName>
+                           </person>
+                        </listPerson>
+                     </note>
+                     <lb xml:id="I_251-8"/>aussi bien que mes cheveux coupés; ce que je ne veux
+                     point du <lb xml:id="I_251-9"/>tout.</hi>
+               </p>
+            </postscript>
+            <lb n="10" xml:id="I_251-10"/>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Brit. Museum. 2¾ S. 4°; auf der 4. S. Adresse wie zu
+                  Nr. 196. <lb/>
+                  <hi rendition="#i">K</hi> (nach Nr. 236):</hi> An Vogel in Rehau den 16 <hi rendition="#aq">
+                  <metamark>[</metamark>!<metamark>]</metamark>
+               </hi> Nov. <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>: Wahrheit 4,207. <lb/>
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>: Nachlaß 3,263 ×. <hi rendition="#i">A</hi>: IV. Abt.,
+                  I, Nr.</hi>
+               <hi rendition="#aq">87. </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">250</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">9</hi>
+               </hi> Bahrds] <hi rendition="#aq">aus</hi> Bahrts <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">10</hi> hafte] <lb/>stehe <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">11</hi> Philosophie] Metaphysik <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi> meiner Person] meinem Wesen <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">21</hi> eine Frau] Weib <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">251</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">3</hi>
+               </hi> unterscheide] <hi rendition="#aq">aus</hi> unterschiede [?] <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">249</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">27</hi>
+               </hi>
+               <hi rendition="#aq">Heinr. Arnold <hi rendition="#g">Lange,</hi> „Das geistliche
+                  Recht der ev.-luth. Landes<lb rendition="#hyphen"/>herren und ihrer Unterthanen in
+                  Deutschland“, 2 Teile, Kulmbach 1786; <lb/>Exzerpte daraus im 15. Band von
+                  1788/89. <hi rendition="#rkd">28</hi> Vogel war zum Pfarrer in <lb/>
+                  <hi rendition="#g">Arzberg</hi> berufen worden. <hi rendition="#b">250</hi>,<hi rendition="#rkd">1</hi> Joh. Georg <hi rendition="#g">Wunderlich</hi>
+                  (1734—1802), <lb/>seit 1782 Superintendent in Wunsiedel, orthodox; Vogel hatte
+                  sich in den <lb/>„Raffinerien“ (I, 316) über ein Gedicht lustig gemacht, das
+                  Wunderlich <lb/>unter das Bild seines Vorgängers Esper (s. <hi rendition="#b">5</hi>,<hi rendition="#rkd">5</hi>†) hatte setzen lassen, und <lb/>das mit den
+                  Versen schloß: „So müsse denn mein <hi rendition="#g">Kiel</hi> bei seinem Ruhme
+                  <lb/>schweigen, / Er kann hier nur sein Bild — nicht Espers Größe zeigen.“</hi>
+               <lb/>
+               <hi rendition="#rkd">7</hi>
+               <hi rendition="#aq">Joseph <hi rendition="#g">Toaldo,</hi> „Witterungslehre“, aus dem
+                  Ital., Berlin 1777; vgl. <lb/>
+                  <hi rendition="#b">251</hi>,<hi rendition="#rkd">19</hi>f. <hi rendition="#rkd">8</hi> Jakob von <hi rendition="#g">Mauvillon,</hi> „Sammlung von Aufsätzen
+                  über Gegen<lb rendition="#hyphen"/>stände aus der Staatskunst“, 2 Teile, Leipzig
+                  1776—77. <hi rendition="#rkd">9</hi> K. Fr. <hi rendition="#g">Bahrdt,</hi>
+                  <lb/>„System der moralischen Religion“, 2 Bände, Berlin 1787; Vogel über<lb rendition="#hyphen"/>sandte das Buch, das er als „Unterschied zwischen Religion
+                  und Moral“ <lb/>bezeichnet, mit der Bitte um Noten über die wichtigsten Stellen.
+                     <hi rendition="#rkd">15</hi> „<hi rendition="#g">Horus</hi>
+                  <lb/>oder astrognostisches Endurteil über die Offenbarung Johannis usw.“,
+                  <lb/>Ebenezer (Halle) 1783 (von Chr. Ernst Wünsch). <hi rendition="#rkd">20</hi>
+                  Vogels Schrift über <lb/>den Evangelisten <hi rendition="#g">Johannes</hi>
+                  erschien erst 1801; s. Jean Pauls Brief an <lb/>Otto vom 11. Mai 1801. <hi rendition="#rkd">22</hi> Anspielung auf den Zukunftsroman „L’an 2440“ <lb/>von
+                  L. S. Mercier (1770); vgl. II. Abt., II, Einl. S. XIV.</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

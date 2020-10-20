@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="I_52">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="52">52. An <persName>Pfarrer Vogel</persName> in
+               Rehau. </title>
+            <title n="digital">An Erhard Friedrich Vogel. Hof, 22. Juli 1783. </title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=I_52</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/I/I_52</idno>
+               <idno type="TELOTAID">I_52</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="I">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
+               <biblScope n="text" unit="page">
+                  <num>92</num>
+                  <num>93</num>
+                  <num>94</num>
+                  <num>95</num>
+                  <num>96</num>
+                  <num>97</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>444</num>
+                  <num>445</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1783-07-22">22. Juli 1783</date>
+               <placeName key="JP-005841" ref="http://www.geonames.org/2902768">Hof</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-004474" ref="http://d-nb.info/gnd/100056458">
+                  <name type="reg">Vogel</name> Erhard Friedrich</persName>
+               <placeName key="JP-006182" ref="http://www.geonames.org/2849446">Rehau,
+                  Oberfranken</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=I_50">28. Juni 1783</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=I_53">26. Juli 1783</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <salute>
+                  <hi rendition="#et">
+                     <hi rendition="#aq">P. P.</hi>
+                     <lb n="10" xml:id="I_92-10"/> Hochzuvererender Her Pfarrer,</hi>
+               </salute>
+            </opener>
+            <lb xml:id="I_92-11"/>
+            <p>Ihren Brief beantworte ich gern und darum früher als Sie meinen <lb xml:id="I_92-12"/>beantwortet: denn seine Gründe, die Ihnen öfter Ihr gutes Herz als <lb xml:id="I_92-13"/>Ihr guter Kopf diktirt zu haben scheint, und seine
+               Freimütigkeit, für <lb xml:id="I_92-14"/>die ich Ihnen mit nichts als der Erwiederung
+               derselben danken kan, <lb n="15" xml:id="I_92-15"/> erleichtern mir die Widerlegung
+               d. h. meine Entschuldigung. Jeder <lb xml:id="I_92-16"/>Ihrer Kanonen wil ich eine
+               Feindin gegenüber pflanzen — wiewol Sie <lb xml:id="I_92-17"/>im Grunde nur mit Einer
+               Kanone feuern, und blos durch die veränderte <lb xml:id="I_92-18"/>Richtung ihrer
+               Lavette verschiedne Seiten beschiessen. Sie irren sich <lb xml:id="I_92-19"/>ganz,
+               wenn Sie meine Kleidung für eine blosse brittische Mode er<note corresp="#I_92-20">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-00571527">
+                        <placeName>Tracht, Mode; England, englisch, Britannien</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb n="20" xml:id="I_92-20" rendition="#hyphen"/>klären; sie ist auch eine
+                  <placeName>Leipzig</placeName>er d. h. eine deutsche. In
+                  <placeName>Leipzig</placeName>, wo die <note corresp="#I_92-21">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-0056720">
+                        <placeName>Geschmack, Mode; Deutschland, deutscher</placeName>
+                     </place>
+                     <place corresp="#JP-005948">
+                        <placeName>Leipzig</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="I_92-21"/>Mode ihre Erfindungen nicht wie in kleinen Städten aufdringt,
+                  <lb xml:id="I_92-22"/>sondern nur anpreist und wo ieder sich eben so frei kleidet
+               als er denkt, <lb xml:id="I_92-23"/>trugen sich vor etlichen Jaren die meisten so;
+               iezt hat sie nur den Reiz <lb xml:id="I_92-24"/>der Neuheit aber nicht der Gewonheit
+               verloren, und ihre Anhänger<lb n="25" xml:id="I_92-25"/> unter den Schauspielern und
+               Studenten, und in andern Städten unter <lb xml:id="I_92-26"/>den Gelerten, reichen
+               allemal hin, einen, der sie noch trägt, in den <lb xml:id="I_92-27"/>Augen derer zu
+               rechtfertigen, die die Beurteilung einer Handlung <lb xml:id="I_92-28"/>nicht den
+               eignen Augen, sondern fremden Zungen, nicht <hi rendition="#g">gesunden,</hi>
+               <lb xml:id="I_92-29"/>sondern <hi rendition="#g">vielen</hi> Augen anzuvertrauen
+               pflegen und das Schütteln der <lb n="30" xml:id="I_92-30"/> Vernunft durch das Nikken
+               von hundert Par langen Oren widerlegt <lb xml:id="I_92-31"/>glauben. Ja diese Mode
+               ist eine von den seltnen, auf deren Seite die <lb xml:id="I_92-32"/>Vernunft
+               getreten. Denn die Verschneidung der Hare erspart Geld, <lb xml:id="I_92-33"/>Zeit,
+               Verdrus und befreiet vom Friseur, nach dem sich die Ausgänge <lb xml:id="I_92-34"/>vorher haben richten müssen und der sich alle Morgen eine halb<lb n="35" xml:id="I_92-35" rendition="#hyphen"/>
+               <lb xml:id="I_92-36"/> stündige Folterung des Kopfes erlaubt. Und die Offenheit des
+               Busens <lb xml:id="I_93-1"/>hindert das Schwizen, das gefärliche Unterbinden gewisser
+               Adern des <lb xml:id="I_93-2"/>Halses und vergnügt durch das Gefül der bequemen
+               Entiochung. Also <lb xml:id="I_93-3"/>trift es mich nicht, wenn Sie sagen, eine
+               Ameise mus sich wie die <lb xml:id="I_93-4"/>andre tragen — denn ich trage mich ia,
+               wie andre Ameisen in <placeName>Leipzig</placeName> und <note corresp="#I_93-5">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005948">
+                        <placeName>Leipzig</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb n="5" xml:id="I_93-5"/>in Berlin, nur nicht wie die Ameisen in Schwarzenbach an
+               der Sal — <note corresp="#I_93-6">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005586">
+                        <placeName>Berlin</placeName>
+                     </place>
+                     <place corresp="#JP-006268">
+                        <placeName>Schwarzenbach a. d. Saale</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="I_93-6"/>Es trift mich nicht, wenn Sie meine eignen Exzerpten mir an den
+                  <lb xml:id="I_93-7"/>Kopf werfen; die Stelle aus dem Young ist noch überdies nur
+               eine <note corresp="#I_93-8">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010146" ana="†">
+                        <author>Young, Edward (1683-1765), engl. Theologe und
+                           Schriftsteller</author>
+                        <title>Satiren auf die Ruhmbegierde</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_93-8"/>wizige Sentenz, aber kein Beweis: denn es ist noch die Frage, ob
+               die <lb xml:id="I_93-9"/>eignen Torheiten oder die fremden besser sind — und wenn Sie
+                  in<lb n="10" xml:id="I_93-10"/>Ihrem Briefe mir mit Young zuruffen „wenn du
+               unmodisch sein <lb xml:id="I_93-11"/>wilst, so sei weise“ so verfallen Sie und Young
+               in einen Widerspruch <lb xml:id="I_93-12"/>mit den vorhergehenden Zeilen. — Die
+               Sprichwörter sind nur <lb xml:id="I_93-13"/>Sentenzen, aber keine Beweise; ia sie
+               beweisen obendrein zuviel. Denn <lb xml:id="I_93-14"/>wenn ich nicht wider den Strom
+               schwimmen sol, so wird dieser Strom <lb n="15" xml:id="I_93-15"/>nicht selten auch
+               meine Tugend scheitern machen — denn das Reich <lb xml:id="I_93-16"/>des Lasters ist
+               eben so gros und ausgebreitet als das Reich der Mode; <lb xml:id="I_93-17"/>und wenn
+               ich mit den Wölfen <hi rendition="#g">heulen</hi> sol, warum sol ich nicht mit <lb xml:id="I_93-18"/>ihnen <hi rendition="#g">rauben?</hi> Die Schlüsse des Seneka
+               treffen noch weniger; sein <note corresp="#I_93-19">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009751" ana="†">
+                        <author>Seneca (Seneka), Lucius Annaeus d. J. (um 1 v. Chr. -65 n. Chr.),
+                           stoischer Philosoph und Tragödiendichter</author>
+                        <title>Briefe</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_93-19"/>Wiz leuchtet auf der Zündpfanne und die Entzündung desselben
+               droht <lb n="20" xml:id="I_93-20"/>mit einer Kugel, womit er die Flinte zu laden
+               vergessen. <hi rendition="#aq">Sequere vitam <lb xml:id="I_93-21"/>meliorem quam
+                  vulgus, non contrariam;</hi> aber warum denn? und <lb xml:id="I_93-22"/>wenn nun
+                  <hi rendition="#aq">vita melior</hi> und <hi rendition="#aq">contraria</hi> oft
+               Synonymen wären? Ferner <lb xml:id="I_93-23"/>
+               <hi rendition="#aq">publici mores</hi> sind immer den <hi rendition="#aq">boni
+                  mores</hi> entgegengesezt; es läst sich <lb xml:id="I_93-24"/>also eine Temperatur
+               zwischen beiden nicht so leicht treffen. <hi rendition="#aq">Non <lb n="25" xml:id="I_93-25"/>populum in te vitae novitate convertas;</hi> tue ich das? und
+               Seneka’s <lb xml:id="I_93-26"/>
+               <hi rendition="#aq">non</hi> oder <hi rendition="#aq">ne</hi> beweist ia nicht, daß
+               man es nicht tun dürfe. „Ist die <lb xml:id="I_93-27"/>Schale verunstaltet, so leidet
+               auch der Kern“ sagen Sie; aber warum <lb xml:id="I_93-28"/>denn? Und ferner ist ia
+               noch erst auszumachen, was an der Schale <lb xml:id="I_93-29"/>Verunstaltung ist. Sie
+               halten das am Diogenes für eine Verunstal<note corresp="#I_93-30">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000804" ana="ff†">
+                        <persName>
+                           <name type="reg">Diogenes von Sinope</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="30" xml:id="I_93-30" rendition="#hyphen"/>tung, was Rousseau, Wieland und der
+               vortrefliche Verfasser der <note corresp="#I_93-31">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003602" ana="†">
+                        <persName> Jean-Jacques <name type="reg">Rousseau</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010094">
+                        <author>Wieland, Christoph Martin (1733-1813)</author>
+                        <title>Diogenes von Sinope (1770)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_93-31"/>Antoinette für eine Verschönerung halten. Raubt diese sogenante
+                  <note corresp="#I_93-32">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008488" ana="†">
+                        <author>Göchhausen, Ernst August Anton von (1740-1824), Kammerrat in
+                           Eisenach und Schriftsteller</author>
+                        <title>Antoinette (1776)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_93-32"/>Verunstaltung diesem grossen Manne seine lebhafte Philosophie,
+               sein <lb xml:id="I_93-33"/>gutes Herz, seinen lerenden Wiz, seine Tugenden? Sie
+               raubte ihm <lb xml:id="I_93-34"/>nichts; aber sie gab ihm Ruhe, Unabhängigkeit von
+               fremden <lb n="35" xml:id="I_93-35"/>Meinungen und von quälenden Bedürfnissen und die
+               Unverlezbarkeit, <lb xml:id="I_93-36"/>auf deren Bewustsein er die Bestrafung iedes
+               mächtigen Lasterhaften <lb xml:id="I_93-37"/> wagen konte. Grosser Man, danke Got,
+               daß du in einem Jarhundert <lb xml:id="I_94-1"/>geboren wurdest, wo man deine
+               Weisheit noch bewunderte, stat daß <lb xml:id="I_94-2"/>man sie im iezigen bestrafen
+               würde. Ins Tolhaus würden die Tollen <lb xml:id="I_94-3"/>den einzigen Klugen füren;
+               aber du würdest das Tolhaus, wie nach <lb xml:id="I_94-4"/>Seneka’s Ausspruch
+               Sokrates den Kerker, veredeln! —<note corresp="#I_94-5">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004016">
+                        <persName> Lucius Annaeus d. J. <name type="reg">Seneca </name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-004068">
+                        <persName>
+                           <name type="reg">Sokrates</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="5" xml:id="I_94-5"/>
+            </p>
+            <p>„Der Maler wird durch Beleidigung des Kostume lächerlich“ dies <lb xml:id="I_94-6"/>ist war; aber in Beziehung auf mich nicht passend, sondern nur wizig. <lb xml:id="I_94-7"/>Um gleiches mit gleichem zu vergelten, dürft’ ich nur sagen, die
+                  <lb xml:id="I_94-8"/>Gewändermaler sind nicht die grösten in ihrer Kunst, sondern
+               die, <lb xml:id="I_94-9"/>deren Pinsel nicht dem Schneider, sondern Got nachschaft
+               und nicht <lb n="10" xml:id="I_94-10"/> Kleider, sondern Körper malet. Aber was geht
+               mich der Maler an? <lb xml:id="I_94-11"/>Seine Geburten können blos durch Gestalt d.
+               h. durch Schale ge<lb xml:id="I_94-12" rendition="#hyphen"/>fallen; aber ist dies
+               meine Bestimmung? brauch’ ich mit meinem <lb xml:id="I_94-13"/>organisirten Kot zu
+               gefallen? kaum wenn ich heiraten wolte!! Übrigens <lb xml:id="I_94-14"/>hab’ ich ia
+               oben bewiesen, daß ich das Kostume nicht beleidigt. — Sie <lb n="15" xml:id="I_94-15"/> sagen „die Ameisen bringen die Ameise um, die sich nach ihrem eignen <lb xml:id="I_94-16"/>„Kopfe trägt“ — dies past wiederum nicht auf mich; denn ich
+               erkrieche <lb xml:id="I_94-17"/>mir von keiner Ameise ein Amt, hänge von keiner ab,
+               sondern lebe in <lb xml:id="I_94-18"/>meinem eignen Loche und von meiner eignen
+               Arbeit. —</p>
+            <lb xml:id="I_94-19"/>
+            <p>Warum ich nicht nakt gehe? — <hi rendition="#aq">a.</hi> weil mir die Geseze es
+               verbieten, <lb n="20" xml:id="I_94-20"/> die die Beleidigung der öffentlichen
+               Sitsamkeit mit Tolhaus oder <lb xml:id="I_94-21"/>Gefängnis anden; hierin komt es
+               nicht auf meinen Willen, sondern auf <lb xml:id="I_94-22"/>mein Vermögen an. Ich <hi rendition="#g">darf</hi> also nicht nakt gehen; aber bekleidet <lb xml:id="I_94-23"/>gehen wie ich wil, das <hi rendition="#g">darf</hi> ich. <hi rendition="#aq">b.</hi> weil mir es ausser der Obrigkeit <lb xml:id="I_94-24"/>auch mein Körper verbietet, den für seine Entblössung die hiesige <lb n="25" xml:id="I_94-25"/> Abwechselung von Kälte und Wärme, Regen und Sonnenschein hart
+                  <lb xml:id="I_94-26"/>genug bestrafen würde. <hi rendition="#aq">c.</hi> weil ich
+               die Geselschaft aller derer, die <lb xml:id="I_94-27"/>Kleider tragen, entberen
+               müste. Eine solche Entberung würd’ ich nicht <lb xml:id="I_94-28"/>verschmerzen
+               können, da ich alsdan von allen denen, die ich belachen <lb xml:id="I_94-29"/>mus, um
+               sat zu werden, niemand mer hätte als mich selbst. Ich könte <lb n="30" xml:id="I_94-30"/> noch tausend Unbequemlichkeiten, welche gänzliche Naktheit vor
+                  <lb xml:id="I_94-31"/>meiner iezigen Bekleidung voraus hat, anfüren; allein ich
+               schneide die <lb xml:id="I_94-32"/>fernern Beantwortungen ab, die Sie eben so ser
+               ermüden würden als <lb xml:id="I_94-33"/>mich selbst. —</p>
+            <lb xml:id="I_94-34"/>
+            <p>„Die ware Philosophie wil nie, daß sich andre nach uns richten, <lb n="35" xml:id="I_94-35"/> „sondern daß wir uns nach andern richten“ sagen Sie endlich;
+               aber <lb xml:id="I_94-36"/>verlang’ ich denn, daß sich andre wie ich tragen sollen?
+               Und eben darum <lb xml:id="I_94-37"/> müssen auch diese andern nicht verlangen, daß
+               man sich wie sie tragen <lb xml:id="I_95-1"/>sol. Bin ich ihnen anstössig, so sind
+               sie mir auch anstössig; das klügste <lb xml:id="I_95-2"/>ist also, nur sich, aber
+               nicht dem Nachbar die Schellenkappe zuzuschneiden.</p>
+            <lb xml:id="I_95-3"/>
+            <p>Überhaupt halte ich die beständige Rüksicht, die wir in allen unsern <lb xml:id="I_95-4"/>Handlungen auf fremde Urteile nemen, für das Gift unsrer Ruhe,
+                  <lb n="5" xml:id="I_95-5"/>unsrer Vernunft und unsrer Tugend. An dieser
+               Sklavenkette hab’ ich <lb xml:id="I_95-6"/>lange gefeilt; aber ich hoffe kaum, sie
+               iemals ganz zu zerreissen. So <lb xml:id="I_95-7"/>begehe ich z. B. eben darum in
+                  <placeName>Leipzig</placeName> mit Absicht sonderbare Hand<note corresp="#I_95-8">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005948">
+                        <placeName>Leipzig</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="I_95-8" rendition="#hyphen"/>lungen, um mich an den Tadel andrer zu
+               gewönen; und <hi rendition="#g">scheine</hi> ein <lb xml:id="I_95-9"/>Nar, um die
+               Narren ertragen zu lernen. Hierin sind Sie andrer <lb n="10" xml:id="I_95-10"/>Meinung, das weis ich; aber ich wolte Sie durch diesen Brief auch <lb xml:id="I_95-11"/>nicht bekeren, sondern mich nur rechtfertigen. Immerhin mögen
+               Sie <lb xml:id="I_95-12"/>künftig glauben, daß ich aus <hi rendition="#g">falschen</hi> Gründen handle; wenn Sie nur <lb xml:id="I_95-13"/>nicht glauben,
+               daß ich <hi rendition="#g">one</hi> Gründe handle. — Überhaupt scheint mir <lb xml:id="I_95-14"/>dieser ganze Brief so lächerlich, daß ich mich vor mir selbst
+               wegen den<metamark>[</metamark>!<metamark>]</metamark>
+               <lb n="15" xml:id="I_95-15"/>Inhalt desselben nur durch Ihr Beispiel entschuldigen
+               kan. Durch eben <lb xml:id="I_95-16"/>dasselbe werden Sie die Freimütigkeit desselben
+               entschuldigen. Sie <lb xml:id="I_95-17"/>erschrekten mich mit einem so lauten „Schach
+               dem König!“ daß ich <lb xml:id="I_95-18"/>über das Spiel den Spieler vergas und
+               nichts zu verhüten suchte als <lb xml:id="I_95-19"/>die Enttronung meines Königs. Da
+               übrigens das Disputiren in sovielen <lb n="20" xml:id="I_95-20"/>Stükken mit dem
+               Schachspielen übereinkomt: indem man dort Ideen <lb xml:id="I_95-21"/>auf Papier, und
+               da hölzerne Figuren auf dem Bret gegeneinander zu <lb xml:id="I_95-22"/>Felde stelt;
+               so hoffe ich, daß die beiden Sachen auch darinnen einander <lb xml:id="I_95-23"/>änlich bleiben werden, daß sie die Entzweiung der Spieler nicht über die <lb xml:id="I_95-24"/>Dauer der Veranlassung verlängern. Die besten Freunde zanken
+               sich <lb n="25" xml:id="I_95-25"/>bei dem Spiel; allein sobald die Spieler das
+               Schachbret — den <lb xml:id="I_95-26"/>
+               <hi rendition="#aq">campus martius</hi> — zur Aufbewarung der versönten Krieger zu<lb xml:id="I_95-27" rendition="#hyphen"/>geschlossen, so schliessen sie ihre Herzen
+               auf und trinken in freund<lb xml:id="I_95-28" rendition="#hyphen"/>schaftlicher
+               Gesprächigkeit das bittre Lagerbier mit der Aufmerksam<lb xml:id="I_95-29" rendition="#hyphen"/>keit, der sie vorher nur das Spiel gewürdigt. Das Gegenbild
+               zu diesem <lb n="30" xml:id="I_95-30"/>Gleichnis darf nicht blos Ihren, es wird auch
+               meinen Brief ver<lb xml:id="I_95-31" rendition="#hyphen"/>schönern; und selbst, wenn
+               Sie Ihre Toleranz nur auf heterodoxe <note corresp="#I_95-32">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001738">
+                        <persName>
+                           <name type="reg">Heterodoxe</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_95-32"/>Meinungen, nicht auf heterodoxe Kleidungen ausdenten, so würd’
+               ich <lb xml:id="I_95-33"/>Sie im ersten zu ser nachamen, als daß ich Sie im andern
+               nachamen und <lb xml:id="I_95-34"/>gegen die nicht tolerant sein solte, die es nicht
+               sind. <lb n="35" xml:id="I_95-35"/>
+            </p>
+            <p>Dem Präludium Ihres Briefs bin ich auch ein kleines Akkom<lb xml:id="I_95-36" rendition="#hyphen"/>pagnement schuldig. Die Leute, die Sie Mükken nennen, werd’
+               ich nie <lb xml:id="I_95-37"/> für Mükken, wenigstens nicht in Beziehung auf mich
+               ansehen. Auch <lb xml:id="I_96-1"/>hies ich sie nur Frösche in Rüksicht auf
+               Nachtigallen, aber nicht <metamark>[</metamark>in<metamark>]</metamark>
+               <lb xml:id="I_96-2"/>Rüksicht auf mich, der ich nicht einmal zu einem Hänfling d. h.
+               zu <lb xml:id="I_96-3"/>einem Echo der Philomelen tauge. Ich bin mit dem Stolze
+               dieser <note corresp="#I_96-4">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003219">
+                        <persName>
+                           <name type="reg">Philomele</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_96-4"/>Personen über das <hi rendition="#g">Dasein</hi> ihrer
+               Verdienste einig; aber ich bin nur <lb n="5" xml:id="I_96-5"/> nicht mit ihrem
+               Hochmut über die <hi rendition="#g">Anzal</hi> derselben einig; ihr Stolz <lb xml:id="I_96-6"/>mus Recht haben: denn sonst würden Sie ihre Geselschaft ganz
+                  ver<lb xml:id="I_96-7" rendition="#hyphen"/>meiden; allein ihr Hochmut kan doch
+               nicht Recht haben: denn sonst <lb xml:id="I_96-8"/>würden Sie sie nicht Mükken
+               schelten.</p>
+            <lb xml:id="I_96-9"/>
+            <p>Sie vergleichen Sich mit dem Kato; in der Grösse des Ernstes, aber <note corresp="#I_96-10">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000595" ana="†">
+                        <persName> Marcus Porcius <name type="reg">Cato Minor</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="10" xml:id="I_96-10"/> nicht in der Anwendung desselben mögen Sie ihm
+               änlichen. Denn <lb xml:id="I_96-11"/>eben dieser Man war so wenig der Resonanzboden
+               fremder Mäuler, <lb xml:id="I_96-12"/>daß er nach dem Essen (wie Plutarch berichtet)
+               one Unterkleid und bar<note corresp="#I_96-13">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009418">
+                        <author>Plutarch (um 46 - um 120 n. Chr.), Biograph und akademischer
+                           Philosoph</author>
+                        <title>Biographien</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_96-13" rendition="#hyphen"/>fus auf dem Markt spazieren gieng — und
+               noch überdies als Konsul.</p>
+            <lb xml:id="I_96-14"/>
+            <p>Hier folgen Ihre Bücher, von dem gewönlichen Dank und der <lb n="15" xml:id="I_96-15"/> gewönlichen Bitte begleitet. Die Briefe der Ninon sind (nach dem <note corresp="#I_96-16">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002398" ana="†">
+                        <persName> Ninon de <name type="reg">Lenclos</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_96-16"/>Augenschein und der Geschichte, davon der erste ein <hi rendition="#aq">testis ocularis</hi> und <lb xml:id="I_96-17"/>die andre eine <hi rendition="#aq">testis auricularis</hi> ist) apokryphisch und gehören einer <lb xml:id="I_96-18"/>andern Mutter. Die Ninon verheuratete sich weder mit einer
+                  subluna<lb xml:id="I_96-19" rendition="#hyphen"/>rischen Mansperson noch mit dem
+               supralunarischen Phöbus; sondern <note corresp="#I_96-20">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003221">
+                        <persName>
+                           <name type="reg">Phöbus</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="20" xml:id="I_96-20"/> lies sich von beiden blos augenblikliche Genüsse ihrer
+               Reize abstelen <lb xml:id="I_96-21"/>und gebar daher weder Bücher noch Söne und
+               Töchter, sondern nur <lb xml:id="I_96-22"/>wizige Einfälle und Bastarte. — Eben so
+               ist La Bruy<metamark>[</metamark>e<metamark>]</metamark>re nicht der <note corresp="#I_96-23">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009044" ana="†">
+                        <author>La Bruyère, Jean de (1645-1696), franz. Moralist</author>
+                        <title>Les caractères (1688)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_96-23"/>Vater, sondern höchstens der Grosvater des dritten Teils seiner
+                  <lb xml:id="I_96-24"/>Karaktere, der an Wiz, Satire und Menschenkentnis blos der
+                  Stief<lb n="25" xml:id="I_96-25" rendition="#hyphen"/>bruder der andern ist. — Man
+               traktirt gewönlich Leute, von denen man <lb xml:id="I_96-26"/>auf eine lange Zeit
+               Abschied nimt; da ich in meinem künftigen Briefe <lb xml:id="I_96-27"/>auch Abschied
+               nemen und in vierzehn Tagen Hof auf lange verlassen <note corresp="#I_96-28">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005841">
+                        <placeName>Hof im Vogtland</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="I_96-28"/>werde, so hoff’ ich von Ihnen, daß Sie meinen Geist noch einmal
+               mit <lb xml:id="I_96-29"/>Ihren Büchern traktiren. Der Küchenzettel der geistigen
+               Speisen wäre <lb n="30" xml:id="I_96-30"/> folgender:</p>
+            <lb xml:id="I_96-31"/>
+            <p>etliche neue Bände der Chronologen, deren Verfasser die Britten so <note corresp="#I_96-32">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005715">
+                        <placeName>England, englisch, Britannien</placeName>
+                     </place>
+                  </listPlace>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010052" ana="†">
+                        <author>Wekhrlin, Wilhelm Ludwig (1739-1792), aufklärerischer Publizist,
+                           Satiriker</author>
+                        <title>Chronologen (1779-1781)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_96-32"/>
+               <hi rendition="#et">ser hasset wie Sie, der mir aber demungeachtet so ser gefält wie
+                     <lb xml:id="I_96-33"/>Sie —</hi>
+            </p>
+            <lb xml:id="I_96-34"/>
+            <list>
+               <item>Merkwürdigkeiten der Kalmükken — <note corresp="#I_96-35">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002015" ana="†">
+                           <persName>
+                              <name type="reg">Kalmücken</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003145" ana="†">
+                           <persName> Peter Simon <name type="reg">Pallas</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-010309" ana="†">
+                           <author/>
+                           <title>Merkwürdigkeiten der Morduanen, Auszug aus Pallas Reisen
+                              (1773-1777)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb n="35" xml:id="I_96-35"/>
+               </item>
+               <item>Sulzer’s Theorie der schönen Künste etc. erster Teil.</item>
+               <note corresp="#I_96-36">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009844">
+                        <author>Sulzer, Johann Georg (1720-1779), Ästhetiker, Philosoph und
+                           Erzieher</author>
+                        <title>Allgemeine Theorie der Schönen Künste (1771/74 u. ö.)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_96-36"/>
+               <item>Schrökh’s Kirchengeschichte, zweiter oder dritter Teil.</item>
+            </list>
+            <note corresp="#I_96-37">
+               <listBibl type="lineReference" subtype="werke">
+                  <bibl corresp="#JP-009670">
+                     <author>Schroeckh (Schrökh), Johann Matthias (1733-1808), Professor der
+                        Geschichte in Wittenberg</author>
+                     <title>Christliche Kirchengeschichte (1768-1803)</title>
+                  </bibl>
+               </listBibl>
+            </note>
+            <lb xml:id="I_96-37"/>
+            <p>Sie haben in Ihrem lezten Brief die Beurteilung der Stelle in der <lb xml:id="I_97-1"/>Piece des H. Doppelmaiers, die ich Ihnen angedeutet, vergessen.</p>
+            <note corresp="#I_97-2">
+               <listBibl type="lineReference" subtype="werke">
+                  <bibl corresp="#JP-008305">
+                     <author>Doppelmaier (Doppelmair, Doppelmayer), Johann Georg Gottfried
+                        (1753-1826), Arzt in Schwarzenbach a. d. Saale, später in Russland</author>
+                     <title>Über Spiesglastinktur (1783)</title>
+                  </bibl>
+               </listBibl>
+            </note>
+            <lb xml:id="I_97-2"/>
+            <p>Drei lere Seiten sind eine starke Versuchung für mich, allerlei <lb xml:id="I_97-3"/>Dummes von mir zu geben; allein mein Kopf ist iezt zu erschöpft, sie <lb xml:id="I_97-4"/>auszufüllen, und ich bin des Schreibens müde wie Sie sat des
+               Lesens. <lb n="5" xml:id="I_97-5"/>So wie der Buchbinder die Zal der volgedrukten
+               Blätter mit einem <lb xml:id="I_97-6"/>leren krönet, das vielleicht nicht lerer ist
+               als die vollen: so mag das <lb xml:id="I_97-7"/>lezte Blat meines Briefs das Amen der
+               drei andern sein. Vielleicht <lb xml:id="I_97-8"/>würde ich noch diese Seite
+               wenigstens bis zum ersten Viertel sich <lb xml:id="I_97-9"/>vergrössern lassen; wenn
+               ich dem Zuruffe des Balzak folgte, der mir <note corresp="#I_97-10">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000204">
+                        <persName> Jean-Louis Guez de <name type="reg">Balzac</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="10" xml:id="I_97-10"/>anrät, an eine spizigere Pointe zu spiesen</p>
+            <lb xml:id="I_97-11"/>
+            <closer>
+               <salute>
+                  <cb/>
+                  <date>
+                     <hi rendition="#left">
+                        <placeName>Hof</placeName> den <date>22. Jul. <lb type="ig"/>1783</date>.</hi>
+                  </date>
+                  <cb/>
+                  <hi rendition="#right">Ihren <lb type="ig"/>gehors. Diener <lb type="ig"/>J. P. F.
+                     Richter</hi>
+                  <lb xml:id="I_97-12"/>
+               </salute>
+            </closer>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Brit. Museum. 5½ S. 4°. <hi rendition="#i">K</hi>: 18
+                  [aus</hi> 15]. Hof den 20. <metamark>[</metamark>!<metamark>]</metamark> J. An
+               Vogel. <lb/>
+               <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>: Wahrheit 3,214×. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>: Nachlaß 3,230. <hi rendition="#i">B</hi>: IV. Abt.,
+                  I, Nr. 18. <hi rendition="#i">A</hi>: IV. Abt., I, Nr.</hi>
+               <hi rendition="#aq">19. </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">92</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">13</hi>
+               </hi>
+               <lb/>öfter] <hi rendition="#aq">aus</hi> öfters <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">21</hi> auch] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi> d. h. eine deutsche] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">28</hi> Be<lb rendition="#hyphen"/>urteilung] <hi rendition="#aq">aus</hi> Rechtfertigung <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">31</hi> langen] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">93</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">5</hi> andre<hi rendition="#sup">2</hi>] <hi rendition="#aq">aus</hi> die <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">29</hi> erst auszumachen] <hi rendition="#aq">aus</hi> zu
+               erweisen <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">35</hi> gab] <hi rendition="#aq">aus</hi> giebt <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>,</hi> gab’<hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">37</hi> auf] <lb/>
+               <hi rendition="#aq">aus</hi> durch <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">94</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">20</hi> verbieten] <hi rendition="#aq">danach gestr.</hi> würden
+                  <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">25</hi> hiesige] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">33</hi> ermüden] <hi rendition="#aq">aus</hi> ermüdet haben <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">95</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">3</hi> Nachbar] <hi rendition="#aq">aus</hi> Nachbarn <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">8</hi> mit Ab<lb rendition="#hyphen"/>sicht] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">25</hi> der Veranlassung] <hi rendition="#aq">aus</hi> des
+               Gegenstandes <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">26</hi> Schachbret] <lb/>
+               <hi rendition="#aq">davor gestr.</hi> hölzerne Behältnis der <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">27</hi> Aufbewarung] Bewarung <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">30</hi> der] <hi rendition="#aq">aus</hi> deren <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">34</hi> nachamen<hi rendition="#sup">1</hi>] nachamten <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">96</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">2</hi> hies] <hi rendition="#aq">aus</hi> hiess’ <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">15</hi> von] <hi rendition="#aq">aus</hi> mit <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>,</hi> mit <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">24</hi> dritten] zurükgeschikten <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">27</hi> künftigen] lezten <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#b">
+                  <hi rendition="#aq">97</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">6</hi> der<hi rendition="#sup">1</hi>
+               <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">7</hi> krönet] die Buchhändler die gedrukten Seiten mit einer
+               leren <lb/>krönen <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">11</hi> spiessen <hi rendition="#aq">
+                  <hi rendition="#i">K</hi> (vgl.</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">75</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">7</hi>)</p>
+            <lb/>
+            <p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">93</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">4</hi>
+               <hi rendition="#aq">f. Vogel hatte geschrieben: „Sie müßen … einsehen, daß Sie nicht
+                  <lb/>der einzige Erdensohn sind — sondern daß Sie wie die Ameise in dem
+                  <lb/>Ameisen Haufen — auf der Erdkugel im Gewimmel leben. Jede Ameise hat</hi>
+               <lb/>
+               <hi rendition="#aq">eine Gestalt und ein Kleid mit der andern überein — und läst
+                  sichs eine <lb/>nur im geringsten einfallen — sich für ihren Kameraden was
+                  sonderliches <lb/>herauszunehmen — patsch — und sie ist des Todes.“ <hi rendition="#rkd">7–13</hi> Vogel hatte — <lb/>ohne Angabe des Fundorts — aus
+                     <hi rendition="#g">Youngs</hi> 4. Satire auf die Ruhmbegierde <lb/>zitiert:
+                  „Wenn gleich die Mode töricht ist, so bequemt euch darnach: ihr <lb/>zeigt mehr
+                  Verstand, wenn ihr andrer Torheiten, als wenn ihr eure eigne <lb/>tragt. Wofern
+                  ihr das, was aus der Mode ist, schäzt, so dünkt mich ihr <lb/>soltet euch bemühen,
+                  weise zu werden.“ <hi rendition="#rkd">19–27</hi> Vogel hatte aus <hi rendition="#g">Senekas</hi>
+                  <lb/>Briefen (I, 5 u. II, 14) zitiert: „Quid si nos hominum consuetudine coepe<lb rendition="#hyphen"/>rimus excerpere? Intus omnia dissimilia sint: frons nostra
+                  populo conveniat. <lb/>Id agemus ut meliorem vitam quam vulgus sequamur, non
+                  contrariam. <lb/>Temperetur vita inter bonos mores et publicos. Non conturbabit
+                  sapiens <lb/>publicos mores, nec populum in se vitae novitate convertet.“ <hi rendition="#rkd">30</hi>ff. Vgl. <hi rendition="#i">B</hi>: <lb/>„Sie tadeln
+                  vermuthlich die Philosophie des <hi rendition="#g">Diogenes</hi> — die ihren
+                  <lb/>Helden so sehr von andern Menschen absonderte, daß sie ihn in ein Faß
+                  <lb/>stekte. Wie können Sie sich Gerechtigkeit wiederfahren laßen, wenn Ihre
+                  <lb/>Philosophie — auf ähnliche Weise mit Ihnen umspringt.“ <hi rendition="#g">Rousseau</hi> hat <lb/>sich m. W. nicht über Diogenesgeäußert. <hi rendition="#g">Wieland:</hi> „Sokrates mainomenos <lb/>oder die Dialogen des
+                  Diogenes von Sinope“ (1770). „<hi rendition="#g">Antoinette,</hi> ein
+                  <lb/>Mährlein aus der andern Welt“, <placeName>Leipzig</placeName> 1776 (von E. A.
+                  Anton von Göch<lb rendition="#hyphen"/>hausen). <hi rendition="#b">94</hi>,<hi rendition="#rkd">20</hi> Vgl. <hi rendition="#i">B</hi>: „Noch eine Frage an
+                  Sie — können Sie sie hinläng<lb rendition="#hyphen"/>lich beantworten — so bitte
+                  ich fusfällig ab. <hi rendition="#g">Warum gehen Sie nicht <lb/>nackend? jezt im
+                     Sommer?</hi> Ihr Körper verbietets Ihnen nicht? Was <lb/>denn? die Mode?“ <hi rendition="#b">95</hi>,<hi rendition="#rkd">36</hi>ff. Vogels Brief hatte
+                  begonnen: „Jupiter kan <lb/>nicht so ernst aussehen — wenn er donnert als Sie wenn
+                  Sie recensiren — <lb/>nicht Bücher — sondern menschliche <hi rendition="#g">Mücken.</hi> Warum laßen Sie diese <lb/>Sumser nicht schwärmen — und hat man
+                  wohl je gehört, daß man auf <lb/>dergleichen Insekten aus groben Geschütze
+                  geschossen hat? Indessen <lb/>schaffen auch Mücken Nutzen, und das Quacken der
+                  Frösche ist auch <lb/>Melodie.“ <hi rendition="#b">96</hi>,<hi rendition="#rkd">10</hi> Vogel hatte versöhnend geschlossen: „Ihrem Zuspruch <lb/>sehe ich mit
+                  großen Vergnügen entgegen — und Ihr <hi rendition="#g">Cato</hi> wird Ihnen beim
+                  <lb/>Eintritt hold entgegen lächeln.“<hi rendition="#rkd">
+                     <hi rendition="#aq">
+                        <add resp="#MB">13</add>
+                     </hi>
+                  </hi>
+                  <hi rendition="#aq">
+                     <add resp="#MB">f. Plutarch berichtet dies von Cato minor (von Utica), der aber
+                        nicht</add>
+                     <lb/>
+                     <add resp="#MB"> Konsul war.</add>
+                  </hi>
+                  <hi rendition="#rkd">23–26</hi> Den dritten Teil von <hi rendition="#g">La
+                     Bruyères</hi>
+                  <lb/>„Caractères“ bildet in manchen Ausgaben die (1700 zuerst erschienene)
+                  <lb/>„Suite des Caractères etc.“, die in der Tat unecht ist. <hi rendition="#rkd">32</hi> „<hi rendition="#g">Chronologen,</hi>
+                  <lb/>ein periodisches Werk“, 12 Bände, 1779—81 (von W. L. Weckhrlin); Ex<lb rendition="#hyphen"/>zerpte aus dem 1. u. 2. Band im 11. Exzerptenband
+                  (Schwarzenbach 1781). <lb/>
+                  <hi rendition="#rkd">35</hi> „<hi rendition="#g">Merkwürdigkeiten</hi> der
+                  Morduanen, Kosaken, Kalmüken, Kirgisen, <lb/>Baschkiren etc., ein Auszug aus
+                  Pallas’ Reisen“, Riga 1773—77, 3 Teile. <lb/>
+                  <hi rendition="#rkd">36</hi> Joh. Georg <hi rendition="#g">Sulzer,</hi>
+                  „Allgemeine Theorie der schönen Künste“, 4 Bde, <lb/>
+                  <placeName>Leipzig</placeName> 1771—74. <hi rendition="#b">97</hi>,<hi rendition="#rkd">3</hi> Hier beginnt die 6. Seite des Briefs. <hi rendition="#rkd">11</hi> Vgl. <hi rendition="#b">75</hi>,<hi rendition="#rkd">6</hi>f.</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

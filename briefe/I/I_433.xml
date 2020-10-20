@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="I_433">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="433">433. An Renate Wirth. </title>
+            <title n="digital">An Renate Wirth. Bayreuth, 4. Juli 1793. </title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=I_433</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/I/I_433</idno>
+               <idno type="TELOTAID">I_433</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="I">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
+               <biblScope n="text" unit="page">
+                  <num>388</num>
+                  <num>389</num>
+                  <num>390</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>539</num>
+                  <num>540</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+            <listPerson type="commentary">
+               <person corresp="#JP-001117">
+                  <persName> Hellmuth von <name type="reg">Flotow</name>
+                  </persName>
+               </person>
+            </listPerson>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1793-07-04">4. Juli 1793</date>
+               <placeName key="JP-005574" ref="http://www.geonames.org/2951825">Bayreuth</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-003126" ref="http://d-nb.info/gnd/117189545">
+                  <name type="reg">Otto</name> Renate </persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=I_432">30. Juni 1793</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=I_435">7. Juli 1793</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <byline>
+               <hi rendition="#left">Eilig</hi>
+            </byline>
+            <dateline>
+               <hi rendition="#right">
+                  <hi rendition="#aq">
+                     <placeName>Bayreuth</placeName> d. <date>4 Jul. 1793</date>
+                  </hi>
+                  <metamark>[</metamark>Donnerstag<metamark>]</metamark>.</hi>
+            </dateline>
+            <lb xml:id="I_388-11"/>
+            <opener>
+               <salute>
+                  <hi rendition="#et">Liebe Freundin,</hi>
+               </salute>
+            </opener>
+            <lb xml:id="I_388-12"/>
+            <p>Ich fahre in einem Freudenmeer auf und ab und seh’ darin weder <lb xml:id="I_388-13"/>Himmel noch Erde mehr. —</p>
+            <lb xml:id="I_388-14"/>
+            <p>Aus Neustadt send’ ich Ihnen erst einen Brief, der gescheut und <note corresp="#I_388-15">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006068">
+                        <placeName>Neustadt an der Aisch</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb n="15" xml:id="I_388-15"/> lang ist, welches beides sein Verfasser ist. —</p>
+            <lb xml:id="I_388-16"/>
+            <p>Eine Violine neben mir — die stat auf Schafsdärmern
+                  <metamark>[</metamark>!<metamark>]</metamark> auf <lb xml:id="I_388-17"/>Aether zu
+               spielen scheint — sezt meinen Brief in Musik und geigt mir <lb xml:id="I_388-18"/>meine Gedanken vor. —</p>
+            <lb xml:id="I_388-19"/>
+            <p>Ich wil auf den Hauptpunkt kommen: dieser Brief sol die Zucker<lb n="20" xml:id="I_388-20" rendition="#hyphen"/> zange sein, womit ich einen von Ihnen
+               herauslange. —</p>
+            <lb xml:id="I_388-21"/>
+            <p>Es ist so:</p>
+            <lb xml:id="I_388-22"/>
+            <p>Die kleine Flotowin ist schön — himlisch — eben so unschuldig als <note corresp="#I_388-23">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002466" ana="†">
+                        <persName> Caroline (Karoline) von <name type="reg">Lindenfels</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_388-23"/>bescheiden — eben so gut gebildet im Gesichte als im Geiste —
+               sie <lb xml:id="I_388-24"/>ist … <lb n="25" xml:id="I_388-25"/>
+            </p>
+            <p>Jezt wil ich aber recht vernünftig alles von vorn anfangen. Ich <lb xml:id="I_388-26"/>trug demnach vorgestern Ihren Brief hin — und als selbige nicht <lb xml:id="I_388-27"/>zu Hause war: gab ich ihn nicht her — sondern kam gestern damit
+               wieder <lb xml:id="I_388-28"/>und gab ihn her, als selbige von Mehringer hergerufen
+               wurde. Gleich <note corresp="#I_388-29">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002728">
+                        <persName> Georg Jakob <name type="reg">Mehringer</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_388-29"/>darauf trat auch der Prediger Müller aus Kulmbach ein. Dan
+                  trat<note corresp="#I_388-30">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002908" ana="†">
+                        <persName> Jakob Adam <name type="reg">Müller</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005929" ana="†">
+                        <placeName>Kulmbach </placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb n="30" xml:id="I_388-30"/> er wieder ab und ich auch, aber eine Stunde später und
+               aus wars.</p>
+            <lb xml:id="I_388-31"/>
+            <p>Ich habe die Ehre mit besond<metamark>[</metamark>rer<metamark>]</metamark>
+               Hochachtung zu verharren</p>
+            <lb xml:id="I_388-32"/>
+            <closer>
+               <salute>
+                  <hi rendition="#right">Deroselben <lb xml:id="I_388-33"/>gehors. Diener <lb xml:id="I_388-34"/>J. P. F. Richter <lb n="35" xml:id="I_388-35"/>
+                  </hi>
+               </salute>
+            </closer>
+            <lb xml:id="I_388-36"/>
+            <postscript>
+               <p>Jezt fang’ ich erst recht an. Die Flotowin sol (<hi rendition="#g">Sonne</hi> und
+                     <hi rendition="#g">Mond</hi>
+                  <note corresp="#I_389-1">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002466" ana="ff">
+                           <persName> Caroline (Karoline) von <name type="reg">Lindenfels</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="I_389-1"/>wegen) der <hi rendition="#g">Regenbogen</hi> oder die Iris
+                  heissen. Die sanfte Iris hatte <note corresp="#I_389-2">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001892">
+                           <persName>
+                              <name type="reg">Iris</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="I_389-2"/>kaum die Einhändigung meines Briefs — von dem ihr Mehringer
+                     <note corresp="#I_389-3">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002728">
+                           <persName> Georg Jakob <name type="reg">Mehringer</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="I_389-3"/>schon abends gesagt — erwarten können und kam sogleich dem
+                     <hi rendition="#aq">Jean <lb xml:id="I_389-4"/>Paul</hi> nachgefahren. Sie
+                  öfnete den Brief unter 4 Augen (ihre ab<lb n="5" xml:id="I_389-5" rendition="#hyphen"/>gerechnet) — hatte nicht das Herz, ihn gleich zu lesen —
+                  (a propos Ihr <lb xml:id="I_389-6"/>breites Brief-Ufer beweiset zugleich Ihre
+                  Höflichkeit und Ihre Träg<lb xml:id="I_389-7" rendition="#hyphen"/>heit) — aber
+                  sie sah jede Minute hinein — endlich hatte sie ihn durch — <lb xml:id="I_389-8"/>—
+                  Sol ich Ihnen denn alles herzeichnen, mit welcher Liebe sie der <lb xml:id="I_389-9"/>Ihrigen, d. h. Ihrem Stilschweigen Vorwürfe machte — wie
+                  schön <lb n="10" xml:id="I_389-10"/>ihr die Fragen nach Ihrem Befinden und die
+                     herzlichgute<metamark>[</metamark>n<metamark>]</metamark> Er<lb xml:id="I_389-11" rendition="#hyphen"/>innerungen an die schönen Tage standen,
+                  die das Band der Freundschaft <lb xml:id="I_389-12"/>nahmen und es um Sie beide
+                  zogen — und wie sie mir die halbe Lüge <lb xml:id="I_389-13"/>durch ihre Augen, in
+                  denen ich eben so gern die Freude als die Unschuld&gt; <lb xml:id="I_389-14"/>zittern sehe, abgenöthigt, daß Sie bald nach Bayreuth kämen. — <note corresp="#I_389-15">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005574">
+                           <placeName>Bayreuth (Stadt)</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="15" xml:id="I_389-15"/>Vielleicht kömt sie bald 〈in 5 Wochen〉, um Ihren
+                  Vater zu besuchen, <lb xml:id="I_389-16"/>nach Hof. — Blos um wieder neben diesem
+                  sanften Regenbogen zu <lb xml:id="I_389-17"/>stehen, reis’ ich rükwärts wieder
+                  über Bayreuth: denn da giebt sie mir <note corresp="#I_389-18">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005574">
+                           <placeName>Bayreuth (Stadt)</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="I_389-18"/>(nach ihrem Versprechen) einen Brief an Sie mit. Aber ich
+                  möcht’ ihr <lb xml:id="I_389-19"/>nach der ersten Freude eine zweite geben —
+                  nämlich einen zweiten <lb n="20" xml:id="I_389-20"/>Brief von Ihnen. Jezt
+                  schreitet meine Bitte auf: daß Sie die Güte <lb xml:id="I_389-21"/>haben, an den
+                  guten Regenbogen am Sontage zu schreiben — <hi rendition="#g">an <lb xml:id="I_389-22"/>mich</hi> auch mit — mir beide Briefe nach Neustadt zu
+                  schicken, couver<note corresp="#I_389-23">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006068">
+                           <placeName>Neustadt an der Aisch</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="I_389-23" rendition="#hyphen"/>tiert an Wernlein oder an mich mit dem
+                  blossen Beisaz: bei H. Kolla<note corresp="#I_389-24">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004687">
+                           <persName> Friedrich <name type="reg">Wernlein</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="I_389-24" rendition="#hyphen"/>borat<metamark>[</metamark>or<metamark>]</metamark>
+                  <hi rendition="#aq">Wernlein</hi> abzugeben — in diesem Briefe ihr meine tolle <lb n="25" xml:id="I_389-25"/>Bitte zu schreiben oder auch nicht — damit ich beim
+                  Empfange des <lb xml:id="I_389-26"/>ihrigen etwas in Händen habe, womit ich ihn
+                  gleich bezahle. — Wenn <lb xml:id="I_389-27"/>Sie mir nichts nach Neustadt
+                  schicken: schick’ ich nichts nach Hof; aber <note corresp="#I_389-28">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005841">
+                           <placeName>Hof im Vogtland</placeName>
+                        </place>
+                        <place corresp="#JP-006068">
+                           <placeName>Neustadt an der Aisch</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="I_389-28"/>Sie werden eine Gabe nicht versagen, bei der Sie eben so
+                  eigennüzig <lb xml:id="I_389-29"/>als uneigennüzig zu sein brauchen, weil Sie ja
+                  noch von jemand anders <lb n="30" xml:id="I_389-30"/>belohnet und beantwortet
+                  werden als von mir.</p>
+               <lb xml:id="I_389-31"/>
+               <p>— — Vermengen Sie nicht, liebe Freundin, meinen Ton mit <lb xml:id="I_389-32"/>meinem Gefühl. Ach Sie müssen es ja so gut wissen wie ich, daß alle die <lb xml:id="I_389-33"/>Bilder der Freude, alle die Echos unserer Wünsche, die vor
+                  uns vorüber<lb xml:id="I_389-34" rendition="#hyphen"/>rücken, den öden Menschen
+                  vol Seufzer und vol Wünsche nur beklem<lb n="35" xml:id="I_389-35" rendition="#hyphen"/>men, nicht befriedigen — daß alle die schönen, wie Gemälde
+                  unsrer <lb xml:id="I_389-36"/>Hofnungen vor uns aufgeschlagnen, Landschaften mit
+                  den Bergen, die <lb xml:id="I_389-37"/> sie ummauern, mit den Blumenflächen, die
+                  auf ihnen zittern, mit den <lb xml:id="I_390-1"/>umhergeworfnen Wolken, die mit
+                  grossen Schatten von einem Berg <lb xml:id="I_390-2"/>zum andern fliehen, daß sag
+                  ich das ganze uns überströmende Konzert <lb xml:id="I_390-3"/>der grossen Erde
+                  doch nichts thut als längst begrabne Klagetöne, un<lb xml:id="I_390-4" rendition="#hyphen"/>mögliche Wünsche, eine drückende Sehnsucht, die auf dieser
+                  Erde <lb n="5" xml:id="I_390-5"/> verhungert, und <hi rendition="#g">Erinnerungen,</hi> die so blas wie <hi rendition="#g">Hofnungen</hi> aus<lb xml:id="I_390-6" rendition="#hyphen"/>sehen, aufzuwecken. Ach wenn sich doch
+                  jeder, der bei den magischen <lb xml:id="I_390-7"/>Gebirgen und bei der Sonne, die
+                  hinter ihnen niederrint, sehnend sagt: <lb xml:id="I_390-8"/>„o dort drüben,
+                  hinter den Bergen, hinter der Sonne wohnt ein <lb xml:id="I_390-9"/>schöneres
+                  Land, und glüklichere Tage und bessere Menschen!“ wenn <lb n="10" xml:id="I_390-10"/> sich doch jeder antwortete: „hinter den Bergen und der
+                  Sonne steht <lb xml:id="I_390-11"/>„auch ein Armer wie du und hat auch Wünsche wie
+                  du und wir sind <lb xml:id="I_390-12"/>„alle nicht glüklich!“ — Und doch, wenn
+                  mans sagt, hat man gar nichts, <lb xml:id="I_390-13"/>nicht einmal die Sehnsucht.
+                  —</p>
+               <lb xml:id="I_390-14"/>
+               <p>— — Die Musik neben mir und mein Herumtaumeln in der Natur <lb n="15" xml:id="I_390-15"/> öfnen Ihnen mein ganzes Ich, auf Kosten Ihrer Geduld.</p>
+               <lb xml:id="I_390-16"/>
+               <p>Leben Sie recht wol und recht unter dem freien Himmel und haben <lb xml:id="I_390-17"/>Sie Ihre Träume auch ausserhalb des Schlafs. — Und du lieber
+                     <lb xml:id="I_390-18"/>Mond, der bei meiner Abreise im lezten Viertel war und
+                  bei meiner <lb xml:id="I_390-19"/>Ankunft wieder <hi rendition="#g">vol</hi> sein
+                  wird, hänge sanft an deinem Himmel — dein <lb n="20" xml:id="I_390-20"/> sanftes
+                  Licht macht mich zu weich, dein stilles Niederschauen zieht <lb xml:id="I_390-21"/>mein Herz zu dir hinauf — und es drükt sich an dich an — und fühlt <lb xml:id="I_390-22"/>doch, daß der Mond so veränderlich ist und bleibt — o mein
+                  guter, <lb xml:id="I_390-23"/>sanfter Mond! —</p>
+               <lb xml:id="I_390-24"/>
+               <p>Verzeihen Sie dieses Vergessen — meinen Brief können Sie <hi rendition="#g">vor-</hi>
+                  <lb n="25" xml:id="I_390-25"/>
+                  <hi rendition="#g">lesen,</hi> aber nicht <hi rendition="#g">vorzeigen.</hi> —
+                  Meine Empfehlung an Ihre Frau <note corresp="#I_390-26">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004756">
+                           <persName> Dorothea Friederike <name type="reg">Wirth</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="I_390-26"/>Mama, Papa — an mein Schwestergen — an meine Blumen<note corresp="#I_390-27">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004757">
+                           <persName> Eleonora Johanna Katharina <name type="reg">Wirth</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-004758">
+                           <persName> Erdmuthe Concordia <name type="reg">Wirth</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-004761">
+                           <persName> Johann Gottlob Joachim <name type="reg">Wirth</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="I_390-27" rendition="#hyphen"/>Lieferantin und an alle — Leben Sie
+                  wol......</p>
+            </postscript>
+            <lb xml:id="I_390-28"/>
+            <postscript>
+               <p>2. Postskript. Ihre Briefe müssen mit nächster Post abgehen, weil <lb xml:id="I_390-29"/>wir schon am Montag in Neustadt sind.</p>
+            </postscript>
+            <note corresp="#I_390-30">
+               <listPlace type="lineReference">
+                  <place corresp="#JP-006068">
+                     <placeName>Neustadt an der Aisch</placeName>
+                  </place>
+               </listPlace>
+            </note>
+            <lb n="30" xml:id="I_390-30"/>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Berlin acc. ms. 1900. 50 (derzeit BJK). 7⅙ S. 4°. <hi rendition="#i">K</hi> (nach Nr.</hi> 434): Aus <hi rendition="#aq">
+                  <hi rendition="#i">Bayreuth</hi>: <hi rendition="#i">An Renata <lb/>d. 4 Jul.
+                     1793. i</hi>: Nachlaß 4,239. <hi rendition="#i">J</hi>: Täglichsbeck S. 41. <hi rendition="#i">A</hi>: IV. Abt., I, Nr.</hi>
+               <hi rendition="#aq">144.</hi>
+               <lb/>
+               <hi rendition="#b">
+                  <hi rendition="#aq">388</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">18</hi>
+               </hi> Aether] Violinen <hi rendition="#aq">
+                  <hi rendition="#i">K</hi> (Schreibversehen?)</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">389</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">7</hi>
+               </hi> breites Briefufer] <hi rendition="#aq">aus</hi>
+               <lb/>Rand <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">12</hi> das] <hi rendition="#aq">aus</hi> den <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">18</hi> rükwärts] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">19</hi> ihr] ich <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">34</hi> Echo <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#b">
+                  <hi rendition="#aq">390</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">6</hi>
+               </hi> so blas] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>,</hi> blaß <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">11</hi> antwortete] <hi rendition="#aq">aus</hi> sagte <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">12</hi> auch] <hi rendition="#aq">beide<lb rendition="#hyphen"/>mal nachtr. <hi rendition="#i">H</hi>
+               </hi> und<hi rendition="#sup">2</hi>
+               <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">13</hi> glüklich] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">21</hi> zu] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">22</hi> an<hi rendition="#sup">2</hi>] <lb/>
+               <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">29</hi> Ihre Briefe müssen] <hi rendition="#aq">aus</hi> Ihr
+               Brief mus <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Jean Paul reiste zu Fuß mit Christian Otto über Bayreuth nach
+                     Neu<lb rendition="#hyphen"/>stadt a. d. Aisch, um Wernlein zu besuchen. <hi rendition="#b">388</hi>,<hi rendition="#rkd">23</hi> Karoline von <hi rendition="#g">Flotow,</hi>
+                  <lb/>Tochter des Bayreuther Kammerdirektors Hellmuth von Flotow (1741—97),
+                  <lb/>geb. 12. Okt. 1774, 1796 verh. mit dem Baron Friedr. von Lindenfels auf
+                  <lb/>Thumsenreuth (1769—1827), gest. 5. Jan. 1850; vgl. G. von Flotow, Bei<lb rendition="#hyphen"/>träge zur Geschichte der Familie von Flotow, Dresden 1844,
+                  Nr. 141, und <lb/>Jean-Paul-Blätter, 19. Jg., 1944, S. 45—48, wo folgende Stelle
+                  aus <lb/>Karolinens Tagebuch angeführt wird: „3. Juli 1793 hatte ich eine uner<lb rendition="#hyphen"/>wartete Freude über die andere. Herr Richter, ein
+                  Gelehrter aus Hof, ist <lb/>gestern beim Herrn Forstmeister gewesen und hatte
+                  einen Brief von der <lb/>Demoiselle Wirth an mich, den er aber nur selbst
+                  einhändigen wollte. Dies</hi>
+               <lb/>
+               <hi rendition="#aq">tat er heute und machte mich dadurch wieder ganz vergnügt, … da
+                  ich <lb/>von Herrn Richter erfuhr, daß Demoiselle Wirth diesen Sommer oder doch
+                  <lb/>gewiß künftig wieder hieher kommen würde. Ich hatte kaum den Brief
+                  <lb/>gelesen, als der Herr Schloßprediger Müller von Kulm kam und meine
+                  <lb/>Freude noch um vieles vergrößerte.“ <hi rendition="#rkd">26—31</hi> Jean Paul
+                  parodiert hier seine <lb/>Unfähigkeit zu ausführlichem und zusammenhängendem
+                  Erzählen, deret<lb rendition="#hyphen"/>wegen er von seinen Hofer Freunden und
+                  Freundinnen oft verspottet <lb/>wurde (vgl. seinen Brief an Otto v. 6. Febr.
+                  1802). <hi rendition="#g">Mehringer:</hi> s. zu <lb/>Nr. 223. Jakob Adam <hi rendition="#g">Müller</hi> (1760—1805), ein Bruder des Trogen<lb rendition="#hyphen"/>predigers (s. Nr. 45†), seit 1791 Schloßprediger in
+                  Kulmbach (Fikenscher; <lb/>Weißmann Nr. 5418). <hi rendition="#b">389</hi>,<hi rendition="#rkd">21—27</hi> Renate erfüllte die Bitte, s. <hi rendition="#b">391</hi>,<hi rendition="#rkd">20—26</hi>. <lb/>
+                  <hi rendition="#b">390</hi>,<hi rendition="#rkd">7—14</hi> Vgl. I. Abt., III,
+                     301,<hi rendition="#rkd">24—35</hi> (Hesperus). <hi rendition="#rkd">27</hi>f.
+                     <hi rendition="#g">Schwesterchen:</hi>
+                  <lb/>Erdmuth Wirth, s. zu Nr. 295. <hi rendition="#g">Blumen-Lieferantin:</hi>
+                  Johanna, s. <lb/>Nr.</hi> 336†.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

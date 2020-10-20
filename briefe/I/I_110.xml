@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="I_110">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="110">110. An Oerthel in Töpen. </title>
+            <title n="digital">An Johann Adam Lorenz von Oerthel. Hof, 29. Juli 1785. </title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=I_110</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/I/I_110</idno>
+               <idno type="TELOTAID">I_110</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="I">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
+               <biblScope n="text" unit="page">
+                  <num>169</num>
+                  <num>170</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>464</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1785-07-29">29. Juli 1785</date>
+               <placeName key="JP-005841" ref="http://www.geonames.org/2902768">Hof</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-003050" ref="http://d-nb.info/gnd/11710633X">
+                  <name type="reg">Oerthel</name> Johann Adam Lorenz von</persName>
+               <placeName key="JP-006345" ref="http://www.geonames.org/2821864">Töpen bei
+                  Hof</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=I_106">24. Mai 1785</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=I_111">9. August 1785</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <salute>
+                  <hi rendition="#et">Lieber Örthel,</hi>
+               </salute>
+            </opener>
+            <lb n="15" xml:id="I_169-15"/>
+            <p>Rochefoucauld sagt: der Dank hat oft nur die Absicht, noch mehr <note corresp="#I_169-16">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002331">
+                        <persName> François Duc de <name type="reg">La Rochefoucauld </name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_169-16"/>zu bekommen. Das ist so richtig, daß ich dir meinen Dank für
+               dein <lb xml:id="I_169-17"/>Papier — indem ich dir diesen halben Bogen davon schenke
+               — blos <lb xml:id="I_169-18"/>darum bezeuge, um wo möglich einen ganzen habhaft zu
+               werden, auf <lb xml:id="I_169-19"/>dem du mich versichern must, daß er mir
+                  gehöret.<lb n="20" xml:id="I_169-20"/>
+            </p>
+            <p>Der iunge Joerdens, der bisher den Namen eines <hi rendition="#g">Fixsterns</hi>
+               führen <note corresp="#I_169-21">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001952" ana="†">
+                        <persName> Johann Heinrich <name type="reg">Joerdens</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_169-21"/>konte, weil er sich wenig bewegte und von niemand <hi rendition="#g">Licht</hi> entlehnte, <lb xml:id="I_169-22"/>hat sich in der
+               vorigen Woche in einen ordentlichen <hi rendition="#g">Wandelstern</hi>
+               <lb xml:id="I_169-23"/>verkehret und scheinet iezt vielleicht schon in Berlin. Das
+               Ziel, worauf <note corresp="#I_169-24">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005586">
+                        <placeName>Berlin</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="I_169-24"/>er aus ist, ist, seinen Kopf auf einen bessern Fus zu sezen
+               als er bisher <lb n="25" xml:id="I_169-25"/>noch konte und einige medizinische
+               Kentnisse zu erlangen: er wird bei <lb xml:id="I_169-26"/>verschiedenen grossen
+               Männern Berlins einsprechen und mit iedem so <lb xml:id="I_169-27"/>umgehen, daß er
+               ihn nicht ohne Vergnügen wieder entlässet. Da man <lb xml:id="I_169-28"/>in Bayreuth
+               einsah, daß seiner Verdienste und Kentnisse so wenig <note corresp="#I_169-29">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005574">
+                        <placeName>Bayreuth (Stadt)</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="I_169-29"/>Legion wären, daß man vielmehr kein Mittel unversucht lassen
+                  dürfte,<lb n="30" xml:id="I_169-30"/>ihn zu neuen anzufrischen und anzufeuern: so
+               sind ihm höhern Orts zu <lb xml:id="I_169-31"/>seiner Reise <hi rendition="#g">zweihundert Gulden Reisegeld</hi> verwilligt worden; <lb xml:id="I_169-32"/>und
+               er reiset und lernet iezt auf Kosten unsers ganzen Landes. Fahre <note corresp="#I_169-33">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005575">
+                        <placeName>Bayreuth, Markgrafschaft </placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="I_169-33"/>wol, glükliches Schif, das Gold und Ballast träget und kehre
+               bereichert <lb xml:id="I_169-34"/>nach Hause; aber ich möchte um wieviel nicht der
+               Staat sein, der auf <lb n="35" xml:id="I_169-35"/>
+               <lb xml:id="I_169-36"/> dich sein Kapital giebt und mit dir einen glüklichen
+                  Grosavantur<lb xml:id="I_170-1" rendition="#hyphen"/>handel zu treiben gedenkt. —
+               Sechs Wochen wil er da verweilen; <lb xml:id="I_170-2"/>und am <hi rendition="#g">siebenten</hi> Tage wil er nach einer so beschwerlichen Selbst<lb xml:id="I_170-3" rendition="#hyphen"/>erschaffung ruhen so lange er einen Athem
+               hat.</p>
+            <lb xml:id="I_170-4"/>
+            <p>Ein gewisser Schreiber, Drechsel, den dein H. Vater kent, sizt hier <note corresp="#I_170-5">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000859" ana="†">
+                        <persName>
+                           <name type="reg">Drechsel</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003051" ana="†">
+                        <persName> Johann Georg von <name type="reg">Oerthel</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="5" xml:id="I_170-5"/> in gefänglicher Haft, weil man von ihm sowol Beweise
+               hat, daß er <lb xml:id="I_170-6"/>etliche male gestohlen, als Muthmassung, daß er das
+               Pasquil (in der <lb xml:id="I_170-7"/>vorigen Woche) gemacht, das eine Konduitenliste
+               der hiesigen Kauf<lb xml:id="I_170-8" rendition="#hyphen"/>leute war und besonders
+               die iungen Leute, die auf einem neulichen <lb xml:id="I_170-9"/>kleinen Balle waren,
+               z. B. die Fischers und Köhlers Mädgen und die <note corresp="#I_170-10">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001099">
+                        <persName> Michael Abraham <name type="reg">Fischer</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-002171">
+                        <persName> Franz August <name type="reg">Köhler</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="10" xml:id="I_170-10"/> beiden Otto’s in schlechten und pöbelhaften Versen
+               angrif.</p>
+            <note corresp="#I_170-11">
+               <listPerson type="lineReference">
+                  <person corresp="#JP-003106" ana="?">
+                     <persName> Albrecht <name type="reg">Otto</name>
+                     </persName>
+                  </person>
+                  <person corresp="#JP-003112" ana="?">
+                     <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                     </persName>
+                  </person>
+                  <person corresp="#JP-003116" ana="†">
+                     <persName> Christiane Dorothea <name type="reg">Otto</name>
+                     </persName>
+                  </person>
+               </listPerson>
+            </note>
+            <lb xml:id="I_170-11"/>
+            <p>Ungeachtet ich kaum von dir weg bin — in der That ich bin es nicht <lb xml:id="I_170-12"/>einmal ganz und ein Theil meines Wesens, das ein Doppellauter
+               ist, <lb xml:id="I_170-13"/>sizt noch immer in deiner Stube und schreibt — so komm’
+               ich doch <lb xml:id="I_170-14"/>im <metamark>[</metamark>!<metamark>]</metamark>
+               nächsten schönen Tage sehr früh einmal wieder, um dich zu einem <lb n="15" xml:id="I_170-15"/> sehr frühen Spaziergange aufzuwekken, und gehe abends ganz
+               spät <lb xml:id="I_170-16"/>wieder fort.</p>
+            <lb xml:id="I_170-17"/>
+            <p>Ein Advokat hier entschuldigte seine Versäumung des <hi rendition="#g">fünften</hi>
+               <lb xml:id="I_170-18"/>Termins mit der — Krankheit seines Kindes und scheint dadurch
+               denen <lb xml:id="I_170-19"/>einen Vorwand mehr gegeben zu haben, die den Juristen
+               vorrükken zu <lb n="20" xml:id="I_170-20"/> können glauben, daß sie den zärtlichern
+               Regungen zuweilen zuviel Plaz <lb xml:id="I_170-21"/>lassen.</p>
+            <lb xml:id="I_170-22"/>
+            <p>Möchtest du mir nicht das Fräulein Sternheim <hi rendition="#g">bald</hi> auf kurze
+                  <note corresp="#I_170-23">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009048">
+                        <author>La Roche (Laroche), Marie Sophie von, geb. Gutermann (1730-1807),
+                           Schriftstellerin</author>
+                        <title>Geschichte des Fräuleins von Sternheim (1771)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_170-23"/>Zeit schikken? Lasse sie aber nicht ohne Brautführer weg, ich
+               meine <lb xml:id="I_170-24"/>ohne einen Brief von dir. Lebe so wol als ich neulich
+               bei dir. <lb n="25" xml:id="I_170-25"/>
+            </p>
+            <closer>
+               <salute>
+                  <cb/>
+                  <date>
+                     <hi rendition="#left">
+                        <placeName>Hof</placeName> den <date>29. Jul. 1785.</date>
+                     </hi>
+                  </date>
+                  <cb/>
+                  <hi rendition="#right">Richter</hi>
+                  <lb xml:id="I_170-26"/>
+               </salute>
+            </closer>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Berlin JP. 2 S. 4°; auf der 4. S. Adresse:</hi> Herrn
+               Herrn Adam von <lb/>Oerthel in Töpen. <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>: Wahrheit 3,411×. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>: Nachlaß</hi>
+               <hi rendition="#aq">2,317×. </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">170</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">23</hi>
+               </hi> das <lb/>Fräulein] <hi rendition="#aq">aus</hi> die Fräulein <hi rendition="#rkd">24</hi> Lasse] <hi rendition="#aq">aus</hi> Las</p>
+            <lb/>
+            <p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">169</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">21</hi>
+               </hi>
+               <hi rendition="#aq">ff. Joh. Heinr. <hi rendition="#g">Joerdens</hi> (13. Okt. 1764 —
+                  24. Dez. 1813), Sohn <lb/>des „weißen Doktors“ (s. <hi rendition="#b">107</hi>,<hi rendition="#rkd">8</hi>†), hatte schon auf dem Hofer Gymnasium <lb/>(28. Juni
+                  1780) eine Rede „Vom Nutzen der gelehrten Reisen“ gehalten, <lb/>1782—83 in
+                  Leipzig Medizin studiert und wurde später Arzt und Hofrat in <lb/>Hof (s.
+                  Fikenscher; Weißmann Nr. 6514; Schreinert S. 25, Note 64); <lb/>Hermann schreibt
+                  am 11. Juli 1785 aus Leipzig an Albrecht Otto, Joerdens <lb/>habe ihn auf der
+                  Durchreise nach Berlin besucht (Schreinert S. 45). <lb/>
+                  <hi rendition="#b">170</hi>,<hi rendition="#rkd">5</hi>
+                  <hi rendition="#g">Drechsel:</hi> der alte Oerthel warnt seinen Sohn schon in
+                  einem Brief <lb/>vom 8. Sept. 1781 vor diesem „bösen Buben“, der seine Schelmerei
+                  nicht <lb/>lassen könne. <hi rendition="#rkd">10</hi> Apotheker <hi rendition="#g">Fischer</hi> und Bürgermeister <hi rendition="#g">Köhler</hi> (Nr. 161†). <lb/>
+                  <hi rendition="#rkd">23</hi> „<hi rendition="#g">Geschichte des Fräuleins von
+                     Sternheim</hi>“, Leipzig 1771, von <lb/>Sophie von Laroche, der Freundin
+                  Wielands.</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

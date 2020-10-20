@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="I_124">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="124">124. An Oerthel in Töpen. </title>
+            <title n="digital">An Johann Adam Lorenz von Oerthel. Hof, 5. November 1785. </title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=I_124</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/I/I_124</idno>
+               <idno type="TELOTAID">I_124</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="I">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
+               <biblScope n="text" unit="page">
+                  <num>180</num>
+                  <num>181</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>467</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1785-11-05">5. November 1785</date>
+               <placeName key="JP-005841" ref="http://www.geonames.org/2902768">Hof</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-003050" ref="http://d-nb.info/gnd/11710633X">
+                  <name type="reg">Oerthel</name> Johann Adam Lorenz von</persName>
+               <placeName key="JP-006345" ref="http://www.geonames.org/2821864">Töpen bei
+                  Hof</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=I_112">10. September 1785</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=I_121">1. November 1785</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <dateline>
+               <hi rendition="#right">
+                  <placeName>Hof</placeName> den <date>5 Nov. 85</date>
+                  <metamark>[</metamark>Sonnabend<metamark>]</metamark>
+               </hi>
+            </dateline>
+            <lb xml:id="I_180-16"/>
+            <opener>
+               <salute>
+                  <hi rendition="#et">Lieber Örthel,</hi>
+               </salute>
+            </opener>
+            <lb xml:id="I_180-17"/>
+            <p>Ich sehe dich also erst in Schwarzenbach; denn heute mus ich dahin. <note corresp="#I_180-18">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006268">
+                        <placeName>Schwarzenbach a. d. Saale</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="I_180-18"/>Hier ist dein herlicher Eberhard, der mir noch besser gefallen
+               als Eulers <note corresp="#I_180-19">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008310" ana="†">
+                        <author>Eberhard, Johann Peter (1727-1779), Arzt und Naturforscher</author>
+                        <title>Abhandlungen aus der Naturlehre (1766-1779)</title>
+                     </bibl>
+                     <bibl corresp="#JP-008350">
+                        <author>Euler, Leonhard, Mathematiker (1707-1783)</author>
+                        <title>Briefe an eine deutsche Prinzessinn (1769-1773 u. ö.)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_180-19"/>Briefe. Wenn seine ganze Physik auch so herlich ist, so les’
+               ich sie bei dir. <note corresp="#I_180-20">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008311" ana="?">
+                        <author>Eberhard, Johann Peter (1727-1779), Arzt und Naturforscher</author>
+                        <title>Erste Gründe der Naturlehre (1753)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="20" xml:id="I_180-20"/>
+            </p>
+            <p>Die Ottos sind nun gänzlich mit dir ausgesöhnet oder vielmehr nur <note corresp="#I_180-21">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003116">
+                        <persName> Christiane Dorothea <name type="reg">Otto</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_180-21"/>der Kaufman; denn die andern waren nicht mit dir zerfallen.
+               Wenn <note corresp="#I_180-22">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003118">
+                        <persName> Christoph <name type="reg">Otto</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_180-22"/>dein Herder ankomt: so lasse mir es wissen; ich reise diesem
+               Manne <note corresp="#I_180-23">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008692" ana="†">
+                        <author>Herder, Johann Gottfried (seit 1801) von (1744-1803)</author>
+                        <title>Ideen zur Philosophie der Geschichte der Menschheit
+                           (1784-1791)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_180-23"/>nach von Schwarzenbach nach Töpen. Begehrest du von den
+               Büchern, <note corresp="#I_180-24">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006268">
+                        <placeName>Schwarzenbach a. d. Saale</placeName>
+                     </place>
+                     <place corresp="#JP-006345">
+                        <placeName>Töpen bei Hof</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="I_180-24"/>die ich von Rehau erhalten, unter meiner Abwesenheit einige:
+               so <note corresp="#I_180-25">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006182">
+                        <placeName>Rehau, Oberfranken</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb n="25" xml:id="I_180-25"/> komme her. Ich habe iezt den Zizero des Garve —
+               Schroekhs al<note corresp="#I_180-26">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008451">
+                        <author>Garve, Christian (1742-1798), Popularphilosoph</author>
+                        <title>Cicero-Übersetzung (1783)</title>
+                     </bibl>
+                     <bibl corresp="#JP-009669">
+                        <author>Schroeckh (Schrökh), Johann Matthias (1733-1808), Professor der
+                           Geschichte in Wittenberg</author>
+                        <title>Allgemeine Biographie (1767-1791)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_180-26" rendition="#hyphen"/>gemeine Biographie 2<hi rendition="#sup">ten</hi> Th. bei den Ottos — <hi rendition="#aq">Dictionnaire des <note corresp="#I_180-27">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003116">
+                           <persName> Christiane Dorothea <name type="reg">Otto</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-009057">
+                           <author>Lacombe de Prezel, Honoré (Werk, Hrsg.)</author>
+                           <title>Dictionnaire des Portraits Historiques (1768-1769)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="I_180-27"/>portraits historiques, Anecdotes des hommes illustres</hi>
+               — etc.</p>
+            <lb xml:id="I_180-28"/>
+            <p>Dein Kamerarius hat zweimal die Todesangst ausstehen müssen. <note corresp="#I_180-29">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008226" ana="†">
+                        <author>Camerarius (Kamerarius), Philipp (1537-1624), Jurist</author>
+                        <title>Opera (1591ff.)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_180-29"/>Dein Bote trug ihn nebst meinem Mobiliarvermögen zu Gulden.
+                  <note corresp="#I_180-30">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001441">
+                        <persName> Christian Gottlieb <name type="reg">Gulden</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="30" xml:id="I_180-30"/> Der Junge des Gulden, den der Kamerarius an nichts
+               erinnerte als <lb xml:id="I_180-31"/>an seine Verdammung, sezte ihn in das
+               Makulaturkästgen bei (wie <lb xml:id="I_180-32"/>etwan im Bambergischen die
+               Missethäter, deren Tod beschlossen <note corresp="#I_180-33">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005561">
+                        <placeName>Bamberg</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="I_180-33"/>worden, in gewisse Kästen gesperret werden) und mein Bruder
+               rettete <note corresp="#I_180-34">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003481">
+                        <persName> Johann Paul Friedrich <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_180-34"/>den grossen Gelehrten, dessen Verbrechen, fals er ia deren
+               einige <lb n="35" xml:id="I_180-35"/> begangen, längst veriähret sind, eben von einer
+               nahen Viertheilung.</p>
+            <lb xml:id="I_180-36"/>
+            <p>In Archenholz Reise durch England, die nach der Rezension herlich <note corresp="#I_181-1">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008044" ana="†">
+                        <author>Archenholtz (Archenholz), Johann Wilhelm von (1743 - 1812),
+                           Publizist, Historiker</author>
+                        <title>England und Italien (1785)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_181-1"/>sein mus, stehet diese Anekdote. In England verkaufen
+               bekantlich die <note corresp="#I_181-2">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005715">
+                        <placeName>England, englisch, Britannien</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="I_181-2"/>Bettelweiber einander krüpelhafte Kinder, die bei ihnen wie bei
+                  <lb xml:id="I_181-3"/>andern Menschen ein schönes Gesicht, die Stelle eines
+                  Empfehlungs<lb xml:id="I_181-4" rendition="#hyphen"/>schreiben vertreten und ihren
+               Gewinst vergrössern helfen. Eine hatte<lb n="5" xml:id="I_181-5"/>sich ein Kind, das
+               nicht sehr verunstaltet aussah, theuer angeschaft: „ein <lb xml:id="I_181-6"/>„so
+               schönes Kind, sagte eine andere, für so viel Geld? Für das Geld <lb xml:id="I_181-7"/>„hättest du den grösten Krüpel bekommen können.“</p>
+            <lb xml:id="I_181-8"/>
+            <p>Seit der Zeit, daß du in Töpen bist, vermag ich nicht, dir einen <note corresp="#I_181-9">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006345">
+                        <placeName>Töpen bei Hof</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="I_181-9"/>Brief zuzufertigen, der sich durch poetische Figuren empfähle
+               und einen<lb n="10" xml:id="I_181-10"/>Rang unter dem <hi rendition="#g">schönen
+                  Geschlechte</hi> der Briefe verlangen dürfte. <lb xml:id="I_181-11"/>Ich hofte es
+               heute vielleicht dahin zu bringen, wenn ich schönes Papier <lb xml:id="I_181-12"/>nähme und, da der Körper so sehr über die Sele schaltet, durch den <lb xml:id="I_181-13"/>Körper des Briefes seine Sele schön zu machen suchte; allein
+               ich habe <lb xml:id="I_181-14"/>Ursache zu glauben, daß es mir nicht gelungen und daß
+               du das Sprich<lb n="15" xml:id="I_181-15" rendition="#hyphen"/>wort auf mich anwenden
+               werdest: <hi rendition="#aq">docti male pingunt.</hi>
+            </p>
+            <lb xml:id="I_181-16"/>
+            <p>Leb wol lieber Örthel. Noch hab’ ich es vergessen, dir zu schreiben, <lb xml:id="I_181-17"/>daß die Vorerinnerung, (dein <hi rendition="#aq">voluntas dei
+                     <hi rendition="#g">antecedens</hi>
+               </hi>) die du <lb xml:id="I_181-18"/>deinem kaufmännischen Brief an den Otto
+               voransteltest, deinem <note corresp="#I_181-19">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003118">
+                        <persName> Christoph <name type="reg">Otto</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_181-19"/>Herzen Ehre macht und mir mehr gefallen, als alles Wizige
+               womit du<lb n="20" xml:id="I_181-20"/>dich hättest rächen können: diese Vorerinnerung
+               giebt dir <hi rendition="#aq">veniam <lb xml:id="I_181-21"/>aetatis</hi> und zeigt —
+               ich rede warlich ernsthaft — daß du dich dem <lb xml:id="I_181-22"/>Manne
+               näherst.</p>
+            <lb xml:id="I_181-23"/>
+            <closer>
+               <salute>
+                  <hi rendition="#right">R.</hi>
+                  <lb xml:id="I_181-24"/>
+               </salute>
+            </closer>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Berlin JP. 2 S. 4°. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>: Wahrheit 3,413×. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>: Nachlaß</hi>
+               <hi rendition="#aq">2,319 ×.</hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">180</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">19</hi>
+               </hi>
+               <hi rendition="#aq">f. Wahrscheinlich Joh. Peter <hi rendition="#g">Eberhard</hi>
+                  (1727—79), „Vermischte <lb/>Abhandlungen aus der Naturlehre, Arzneigelahrtheit und
+                  Moral“, 3 Teile, <lb/>Erfurt u. Leipzig 1766—79; Exzerpte daraus im 9. Band von
+                  1785. Mit <lb/>dessen „Physik“ sind wohl die „Ersten Gründe der Naturlehre“,
+                  Erfurt u. <lb/>Leipzig 1753, gemeint. Leonhard <hi rendition="#g">Eulers</hi>
+                  „Briefe an eine Prinzessin über <lb/>verschiedene Gegenstände aus der Physik und
+                  Philosophie“ hatte Richter <lb/>schon 1778/79 in der 2. Auflage, Leipzig 1773,
+                  gelesen und exzerpiert; vgl. <lb/>I. Abt., XVI, Einl. S. XXXI. <hi rendition="#rkd">23</hi>
+                  <hi rendition="#g">Herder:</hi> wohl die „Ideen zur Philosophie <lb/>der
+                  Geschichte der Menschheit“ (1784ff.); Exzerpte aus dem 2. Band im <lb/>9. Band von
+                  1785. <hi rendition="#rkd">27</hi> „Dictionnaire des portraits historiques,
+                  anecdotes et <lb/>traits remarquables des hommes illustres“, Paris 1768 (von
+                  Honoré La <lb/>Combe de Prezel). <hi rendition="#rkd">29</hi> Philipp <hi rendition="#g">Camerarius</hi> (1537—1624), „Opera horarum <lb/>subcisivarum
+                  sive meditationes historicae“, 3 Zenturien, 1591ff.; Exzerpte <lb/>daraus im 9.
+                  Band von 1785. <hi rendition="#b">181</hi>,<hi rendition="#rkd">1–8</hi>
+                  <hi rendition="#g">Archenholz,</hi> „England und Italien“, <lb/>1. Band, Leipzig
+                  1785, S. 121; rezensiert in der Allg. Literaturzeitung, <lb/>4. Okt. 1785,
+                  Nr.</hi>
+               <hi rendition="#aq"> 235.</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

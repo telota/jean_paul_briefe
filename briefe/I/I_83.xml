@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="I_83">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="83">83. An Oerthel in Leipzig. </title>
+            <title n="digital">An Johann Adam Lorenz von Oerthel. Hof, 5. Dezember 1784. </title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=I_83</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/I/I_83</idno>
+               <idno type="TELOTAID">I_83</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="I">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
+               <biblScope n="text" unit="page">
+                  <num>132</num>
+                  <num>133</num>
+                  <num>134</num>
+                  <num>135</num>
+                  <num>136</num>
+                  <num>137</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>456</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1784-12-05">5. Dezember 1784</date>
+               <placeName key="JP-005841" ref="http://www.geonames.org/2902768">Hof</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-003050" ref="http://d-nb.info/gnd/11710633X">
+                  <name type="reg">Oerthel</name> Johann Adam Lorenz von</persName>
+               <placeName key="JP-005948" ref="http://www.geonames.org/2879139">Leipzig</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=I_82">16. November 1784</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=I_89">21. Januar 1785</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <lb type="ig"/>
+            <lb xml:id="I_132-16"/>
+            <opener>
+               <salute>
+                  <hi rendition="#et">Mein lieber Örthel!</hi>
+               </salute>
+            </opener>
+            <lb xml:id="I_132-17"/>
+            <p>Es ist mir ordentlich als wenn ich nach langer Zeit dich wieder <lb xml:id="I_132-18"/>einmal sähe, da ich dir schreibe. Aber wir wollen iezt noch nichts mit <lb xml:id="I_132-19"/>einander reden, sondern stilschweigend zuhören, was unsere
+               Briefe, <lb n="20" xml:id="I_132-20"/> dieser und dein lezter, mit einander reden
+               werden. Doch kan ich auch <lb xml:id="I_132-21"/>protokolliren was sie sagen.</p>
+            <lb xml:id="I_132-22"/>
+            <p>
+               <hi rendition="#g">Angenehmes Gespräch, das dieser Brief mit deinem <lb xml:id="I_132-23"/>leztern</hi> (vom 24 Nov.) <hi rendition="#g">gehalten hat;
+                  dein vorvoriger Brief <lb xml:id="I_132-24"/>komt zulezt auch dazu und macht die
+                  Unterredung noch</hi>
+               <lb n="25" xml:id="I_132-25"/>
+               <hi rendition="#c">
+                  <hi rendition="#g">lebhafter und lauter.</hi>
+               </hi>
+            </p>
+            <lb xml:id="I_132-26"/>
+            <p>(Die beiden Briefe gehen mit einander die Stube auf und nieder <lb xml:id="I_132-27"/>und meiner fähret so fort:) Aber, lieber Brief, sag’ mir, von wem hast <lb xml:id="I_132-28"/>du dein Deutsch gelernet. — Dein Brief: Warum? — Mein Brief:
+                  <note corresp="#I_132-29">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-0056716" ana="ff">
+                        <placeName>Sprache, Stil; Deutschland, deutsche</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="I_132-29"/>weil du einen guten Sprachmeister must gehabt haben. — Dein
+               Brief: <lb n="30" xml:id="I_132-30"/>ich habe gar keinen gehabt: mein Bisgen Deutsch
+               hat mir mein Vater, <lb xml:id="I_132-31"/>der Herr von Örthel, beigebracht; es ist
+               nur meine <hi rendition="#g">Vaters</hi>prache. — <lb xml:id="I_132-32"/>Mein Brief:
+               So ist dein H. Vater ein geschikter Man und er solte ein <lb xml:id="I_132-33"/>Sprachmeister werden. Ich habe in der vorigen Messe mit ver<lb xml:id="I_132-34" rendition="#hyphen"/>schiedenen geschikten Büchern zu sprechen Gelegenheit gehabt;
+               aber <lb n="35" xml:id="I_132-35"/>
+               <lb xml:id="I_132-36"/> wahrhaftig ich hör’ dich weit lieber. Mein Papa, der H.
+               Richter, hat <lb xml:id="I_133-1"/>mir zwar auch im Deutschen Stunden gegeben — denn
+               er hält viel <lb xml:id="I_133-2"/>auf Privatinformazion —; aber mein Vater ist doch
+               in allem ein <lb xml:id="I_133-3"/>sonderbarer Kauz. Er hat sich blos auf das
+               Deutsche geleget — neu<lb xml:id="I_133-4" rendition="#hyphen"/>lich sagte er sogar
+               zu mir: „die wahre Bestimmung des Menschen ist<lb n="5" xml:id="I_133-5"/>„eigentlich, daß er, eh’ er die Welt verlässet, gut Deutsch reden lerne; <lb xml:id="I_133-6"/>„aber wie viele verfehlen sie und wie wenigen kan man die
+               Grabschrift <lb xml:id="I_133-7"/>„sezen: hier ruhet ein Man, der Deutsch reden
+               konte. Darum, lieber <lb xml:id="I_133-8"/>„Brief, lege dich blos auf deine
+               Muttersprache; mit der komst du <lb xml:id="I_133-9"/>„überal fort und ieder wird
+               dich schäzen“ — er ist daher bei allen guten <lb n="10" xml:id="I_133-10"/>Sprachmeistern Deutschlands herumgezogen und einem gewissen <lb xml:id="I_133-11"/>
+               <hi rendition="#g">Lessing</hi> gab er für iede Woche, den Tag 14. Stunden, beinahe
+                  <note corresp="#I_133-12">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002424">
+                        <persName> Gotthold Ephraim <name type="reg">Lessing</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_133-12"/>
+               <hi rendition="#g">Einen</hi> Groschen Informirgeld — gleichwol, — — du weist es ia.
+                  <lb xml:id="I_133-13"/>Indessen hätt’ er doch endlich wol etwas gelernet; aber
+               unglüklicher <lb xml:id="I_133-14"/>Weise wurde er in <placeName>Leipzig</placeName>
+               mit einem alten Übersezer, der 4 oder 5. <note corresp="#I_133-15">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005948">
+                        <placeName>Leipzig</placeName>
+                     </place>
+                  </listPlace>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010037" ana="ff†">
+                        <author>Waser, Heinrich (1714-1777), Übersetzer</author>
+                        <title>Swifts satirische und ernsthafte Schriften (1755-1766)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="15" xml:id="I_133-15"/>Treppen hoch (d. i. 5. Fächer hoch im Repositorium) bei
+               Seilern <note corresp="#I_133-16">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004011">
+                        <persName> Johann Conrad <name type="reg">Seiler</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_133-16"/>wohnte, bekant. In diesen alten Man verliebte er sich nach und
+               nach <lb xml:id="I_133-17"/>und er lag zulezt den ganzen Tag <hi rendition="#g">bei
+                  (über)</hi> ihm: von diesem lies er <lb xml:id="I_133-18"/>sich gewisse Bonsmots
+                  <metamark>[</metamark>!<metamark>]</metamark> eines gewissen alten englischen
+                  Spas<note corresp="#I_133-19">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-00571514">
+                        <placeName>Humor, Satire, Witz; England, englisch, Britannien</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="I_133-19" rendition="#hyphen"/>machers, Swifts, verdolmetschen, wiewol
+               ich glaube, der alte Über<note corresp="#I_133-20">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009852" ana="†">
+                        <author>Swift, Jonathan (1667-1745)</author>
+                        <title>Werke (allgemein)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="20" xml:id="I_133-20" rendition="#hyphen"/>sezer hat ihn manchmal zum Narren
+               gehabt. Allein wenn er nur nicht <lb xml:id="I_133-21"/>darüber auch zugleich die <hi rendition="#g">alte, hole, stammelnde Stimme</hi> des alten <lb xml:id="I_133-22"/>Mannes liebgewonnen hätte! Denn seitdem spricht er völlig wie der <lb xml:id="I_133-23"/>alte Übersezer und es bringt ihn nichts davon ab. — Übrigens
+               weis <lb xml:id="I_133-24"/>ich wol, ist mein Vater ein vortreflicher Man, ein Man
+               von den <lb n="25" xml:id="I_133-25"/>grösten Talenten und er sagte mir gestern: er
+               habe noch nichts ge<lb xml:id="I_133-26" rendition="#hyphen"/>schrieben, was nicht,
+               auch gleich in seiner ersten Gestalt, seinen völligen <lb xml:id="I_133-27"/>Beifal
+               erhalten hätte. — Aber ich rede ia allein in Einem fort und <lb xml:id="I_133-28"/>verstosse mich gegen die Regel des theatralischen Dialogs mit meinen <lb xml:id="I_133-29"/>langen Monologen so sehr als H. Prof. Hempel in seinem
+                  russischen<note corresp="#I_133-30">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006218" ana="†">
+                        <placeName>Russland, Russen, russisch</placeName>
+                     </place>
+                  </listPlace>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008669" ana="†">
+                        <author>Hempel, Christoph Gottlob (1748-1824), Magister der Philosophie in
+                           Leipzig</author>
+                        <title>Peter der Große (1780)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="30" xml:id="I_133-30"/>Drama, dem dein H. Vater einen schönen Stok aus
+               Vergessenheit <lb xml:id="I_133-31"/>geschenkt; ich ersuche dich daher, doch auch ein
+               wenig zu reden. — Dein <lb xml:id="I_133-32"/>Brief:</p>
+            <lb xml:id="I_133-33"/>
+            <milestone rendition="#hr" unit="section"/>
+            <lb type="ig"/>
+            <p>Ich bin dieser Einkleidung schon müde. Was ich mit Einem Worte <lb xml:id="I_133-34"/>sagen könte, das sagt sie in 10. Dazu sind deine 2. Briefe nicht der Art, <lb n="35" xml:id="I_133-35"/>daß ich sie im lustigen Tone beantworten könte.</p>
+            <lb xml:id="I_133-36"/>
+            <p>(Der Anblik des kleinen Pakets wird dich gegen meine Saumseligkeit <lb xml:id="I_134-1"/>im Verkaufe des Manuskripts erzürnet haben; aber du must deinen
+                  <note corresp="#I_134-2">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010513">
+                        <title>Auswahl aus des Teufels Papieren (1789)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_134-2"/>Zorn widerruffen: denn eben die Post, die dir diesen Brief
+               bringet, <lb xml:id="I_134-3"/>bringet dem H. Reiche mein Manuskript, das er an dich
+               wieder zurük<note corresp="#I_134-4">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003380" ana="?">
+                        <persName> Philipp Erasmus <name type="reg">Reich</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_134-4" rendition="#hyphen"/>geben wird, wenn ers nicht annimt, wie ich
+                  fürchte.)<note n="*)" place="foot">Wie du schon gesehen, so hab’ ich meine Meinung
+                  wieder geändert.</note> Seit meiner <lb n="5" xml:id="I_134-5"/> Abreise hab’ ich
+               12 Bogen umgearbeitet, die neu gearbeiteten un<lb xml:id="I_134-6" rendition="#hyphen"/>gerechnet. Jede Umänderung, die ich machte, war eine
+               Bestätigung <lb xml:id="I_134-7"/>des Tadels des H. Weiße und ich geb’ ihm iezt in
+               allem Recht. Ich <note corresp="#I_134-8">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004639">
+                        <persName> Christian Felix <name type="reg">Weiße</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_134-8"/>habe schon so oft den Kritiken, über die ich anfangs die
+               schiefen Achseln <lb xml:id="I_134-9"/>zukte, zulezt Folge geleistet, daß ich mir für
+               die Zukunft vorsezen werde,<lb n="10" xml:id="I_134-10"/> unter die Gründe, womit ein
+               berühmter Man seine Aussprüche unter<lb xml:id="I_134-11" rendition="#hyphen"/>stüzet, auch sein Ansehen zu rechnen und auf seinen Ruhm mehr Ge<lb xml:id="I_134-12" rendition="#hyphen"/>wicht als auf meine Einwürfe zu legen d. h.
+               meine Vernunft zuweilen <lb xml:id="I_134-13"/>gefangen zu nehmen. Im Grunde giebt es
+               gar keine Gefangennehmung <lb xml:id="I_134-14"/>der Vernunft, und die
+               Entschliessung, einem andern aufs Wort zu <lb n="15" xml:id="I_134-15"/> glauben, ist
+               eben ein Kind meiner Vernunft und verdankt dieser ihre <lb xml:id="I_134-16"/>Festigkeit: aber die Theologen bedenken nur nicht, daß diese Ent<lb xml:id="I_134-17" rendition="#hyphen"/>schliessung (zu ihrer Gefangennehmung in
+               theologischen Sachen) nur <lb xml:id="I_134-18"/>von historischen
+               Wahrscheinlichkeiten gewirket wird und gleichwol sol <lb xml:id="I_134-19"/>sie auch
+               auf wirkliche Widersprüche sich erstrekken, der Grund von <lb n="20" xml:id="I_134-20"/> Sumpf, der ein Kartenhäusgen sehr gut trägt, sol einen
+               steinernen <lb xml:id="I_134-21"/>Pallast tragen und die <hi rendition="#g">Wahrscheinlichkeit,</hi> daß die Apostel uns <note corresp="#I_134-22">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000111">
+                        <persName>
+                           <name type="reg">Apostel</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_134-22"/>nicht betrogen, wie es ihre Proselyten thaten, sol bei uns das
+                  Über<lb xml:id="I_134-23" rendition="#hyphen"/>gewicht über die <hi rendition="#g">Gewisheit,</hi> daß 3 wol nicht 1. ist, behaupten. —</p>
+            <lb xml:id="I_134-24"/>
+            <p>Deine Klagen über die Intoleranz (auf dem ersten Blatte deines <lb n="25" xml:id="I_134-25"/> lezten Briefes) hast du gewis nicht ganz auf mich gerichtet;
+               sie wären <lb xml:id="I_134-26"/>alsdan wol gelinder; auch hab’ ich dir niemals — die
+               einzigen Augen<lb xml:id="I_134-27" rendition="#hyphen"/>blikke der Hize des
+               Disputirens ausgenommen — offenbaren Anlas zu <lb xml:id="I_134-28"/>ihnen gegeben. O
+               wenn man sich vom Ehrgeize so leicht loszu<lb xml:id="I_134-29" rendition="#hyphen"/>wikkeln vermöchte als vom Eigennuze, wie leicht wäre dan die Tugend! <lb n="30" xml:id="I_134-30"/> Aber so trit der erstere auf die Bühne wieder auf, von der man
+               mit <lb xml:id="I_134-31"/>Mühe den leztern veriagte, und alle Fehler, die diesen
+               begleiteten, <lb xml:id="I_134-32"/>vermehren wieder das Gefolge von ienem. Ich
+               beneide wol schwerlich <lb xml:id="I_134-33"/>dem Nächsten sein Glük, noch gönn’ ich
+               ihm sein Elend; auch werd’ ich <lb xml:id="I_134-34"/>wol schwerlich ihn bestehlen,
+               noch auch mich ie entschliessen, ihn zu <lb n="35" xml:id="I_134-35"/>
+               <lb xml:id="I_134-36"/> peinigen, oder sonst hart zu sein — aber lieber Moralist! das
+               alles bin <lb xml:id="I_135-1"/>ich nur dan nicht, wenn von Geldsachen die Rede ist.
+               Sprichst du <lb xml:id="I_135-2"/>hingegen von Ehre und guter Meinung des andern —
+               wahrhaftig dan <lb xml:id="I_135-3"/>zieh’ ich meinen alten Adam wieder an, den ich
+               eben bei Seite geleget <note corresp="#I_135-4">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000019">
+                        <persName>
+                           <name type="reg">Adam</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_135-4"/>hatte und nun hält mich nichts mehr ab, wieder neidisch zu sein
+               — <lb n="5" xml:id="I_135-5"/>wiewol blos auf den Verstand des andern — wieder
+               schadenfroh zu <lb xml:id="I_135-6"/>sein — wiewol blos über seine Demüthigung, wenn
+               ich im Disputiren <lb xml:id="I_135-7"/>das Feld behielt — ihm Qual durch meinen
+               Tiefsin und meinen Ruhm <lb xml:id="I_135-8"/>zu machen, und den leztern ihm wo
+               möglich zum Theil zu mausen. So <lb xml:id="I_135-9"/>eine Besserung kan ich aber
+               keinen Tausch des Lasters gegen Tugend, <lb n="10" xml:id="I_135-10"/>sondern
+               höchstens einen Tausch der Schwärze gegen Flekken nennen.</p>
+            <lb xml:id="I_135-11"/>
+            <milestone rendition="#hr" unit="section"/>
+            <lb type="ig"/>
+            <p>Allemal lass’ ich das, was ich unterbreche, unvollendet. Ich wolte dir <lb xml:id="I_135-12"/>noch viel auf deine zwei vortreflichen Briefe antworten; aber
+               ich mus <lb xml:id="I_135-13"/>es verschieben. Denn ich bin überhaupt durch das
+               immerwährende <lb xml:id="I_135-14"/>Brüten über meinem Manuskript ganz entkräftet
+               und sieche an aller <note corresp="#I_135-15">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010513">
+                        <title>Auswahl aus des Teufels Papieren (1789)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="15" xml:id="I_135-15"/>
+               <hi rendition="#g">Hize</hi> und <hi rendition="#g">Kraftlosigkeit</hi> einer
+               sizenden Henne. Das Verbessern ist <lb xml:id="I_135-16"/>gegen das Schaffen, das
+               Brüten gegen das Legen, wahre <hi rendition="#g">Hunds-</hi>
+               <lb xml:id="I_135-17"/>arbeit; und in der That hätt’ ich den Rezensenten die
+               Ausbrütung <lb xml:id="I_135-18"/>meiner Satiren überlassen sollen: so hab’ ich schon
+               oft gelesen, daß man <lb xml:id="I_135-19"/>
+               <hi rendition="#g">Hunde</hi> zum Aussizen der Eier nimt, wiewol auch <hi rendition="#g">Kapaunen</hi> sehr <lb n="20" xml:id="I_135-20"/>wol dazu
+               angehen.</p>
+            <lb xml:id="I_135-21"/>
+            <milestone rendition="#hr" unit="section"/>
+            <lb type="ig"/>
+            <p>Es ist kein gutes Zeichen für meine Selenkräfte, daß ich in Para<lb xml:id="I_135-22" rendition="#hyphen"/>graphen schreibe. — Der H. Pfarrer in Rehau giebt zu Ostern
+               ein <note corresp="#I_135-23">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004474">
+                        <persName> Erhard Friedrich <name type="reg">Vogel</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_135-23"/>Buch heraus und hat schon seinen Verleger. Über das Vergnügen,
+                  <note corresp="#I_135-24">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002538">
+                        <persName> Buchhandlung in Bayreuth <name type="reg">Lübeckische</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009962">
+                        <author>Vogel, Erhard Friedrich (1750-1823), Theologe, Pfarrer in Rehau und
+                           Arzberg, später Superintendent (ab 1810 Dekan) in Wunsiedel</author>
+                        <title>Raffinerien (1785-1786)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_135-24"/>mich bei der Schöpfung desselben zu Rathe ziehen zu können und
+                  <lb n="25" xml:id="I_135-25"/>durch den glüklichen Zufal meiner Flucht einen so
+               geschikten Accoucheur <lb xml:id="I_135-26"/>habhaft geworden zu sein, hat er es mir
+               gern vergessen, daß ich ihm <lb xml:id="I_135-27"/>seinen Katalogus verloren habe. Er
+               hat einmal ein Buch unter der <note corresp="#I_135-28">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009961">
+                        <author>Vogel, Erhard Friedrich (1750-1823), Theologe, Pfarrer in Rehau und
+                           Arzberg, später Superintendent (ab 1810 Dekan) in Wunsiedel</author>
+                        <title>Erklärung des Neuen Testaments von einem Heiden (Exegetisches Werk,
+                           unter diesem Titel nicht vollendet)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_135-28"/>Feder gehabt, das besser war als sein ieziges, welches er
+               indessen auch <lb xml:id="I_135-29"/>noch nicht ganz volendet hat. Wenn ich ihm doch
+               alzeit meine wahre <lb n="30" xml:id="I_135-30"/>Meinung sagen dürfte, oder alzeit
+               ihn von derselben überzeugen <lb xml:id="I_135-31"/>könte! Aber glüklicherweise
+               stelle ich mir dich zum Muster vor und <lb xml:id="I_135-32"/>halte meinen Tadel so
+               höflich zurük als du den deinigen: denn ge<lb xml:id="I_135-33" rendition="#hyphen"/>wöhnlich wartest du erst, bis andere meine Fehler aufdekken, eh’ du <lb xml:id="I_135-34"/> gestehest, daß du wol nicht umhin könnest, sie auch zu sehen.
+               — Aber <lb xml:id="I_136-1"/>die eigentliche Ursache, warum ich dir von seinem Buche
+               schreibe, ist, <lb xml:id="I_136-2"/>ich wil dich etwas bitten: er wil nämlich einen
+               gewissen alten Aufsaz <lb xml:id="I_136-3"/>von mir („über die vielen Religionen in
+               der Welt“) in dasselbe einrükken <note corresp="#I_136-4">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010941">
+                        <title>Über die Religionen in der Welt (1786)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_136-4"/>(ich thue mir indessen auf das Glük dieses Aufsazes wol nicht
+               viel zu <lb n="5" xml:id="I_136-5"/> gute, wenn ich wache; aber gestern wars mir doch
+               so im Traume, als <lb xml:id="I_136-6"/>ob ich mit der Einrükkung desselben an
+               verschiedenen Orte<metamark>[</metamark>n<metamark>]</metamark> stark <lb xml:id="I_136-7"/>geprahlet hätte). Dieser Aufsaz ist nun sehr verbessert unter
+               meinen <lb xml:id="I_136-8"/>Papieren zu finden, aus dem du ihn hervorgraben solst.
+               Er stehet in <lb xml:id="I_136-9"/>dem Manuskripte, worinnen das Lob der Dumheit ist
+               und welches in<note corresp="#I_136-10">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010590">
+                        <title>Das Lob der Dumheit (Dummheit) [1781-82]</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="10" xml:id="I_136-10"/> zwo Hälften zertrennet ist: davon die eine das besagte
+               Lob, und die <lb xml:id="I_136-11"/>andere Rapsodien enthält, deren erste dieser
+               Aufsaz ist. Dieses Mskpt. <note corresp="#I_136-12">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010873">
+                        <title>Rhapsodien [1781]</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_136-12"/>ist in einem der Fächer der Kommode in meiner Kammer. Das ist
+                  <lb xml:id="I_136-13"/>aber nur meine erste Bitte. Meine zwote ist: oben auf dem
+               Gesimse der <lb xml:id="I_136-14"/>Kammer stehet mein Kästgen mit Briefen; in diesem
+               ist eine bogen<lb n="15" xml:id="I_136-15" rendition="#hyphen"/>lange Antwort und
+               Widerlegung des gedachten Aufsazes, deren Ver<lb xml:id="I_136-16" rendition="#hyphen"/>fasser der H. Pfarrer ist; das wil er auch haben. (Beides
+               brauchst du <note corresp="#I_136-17">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004474">
+                        <persName> Erhard Friedrich <name type="reg">Vogel</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_136-17"/>nur in deinem Wäschkästgen mitbeizulegen; solte es auch nur
+               wegen ge<lb xml:id="I_136-18" rendition="#hyphen"/>wissen wizigen Ähnlichkeiten sein,
+               die ich zwischen beiden nicht umsonst <lb xml:id="I_136-19"/>wil gefunden haben.)
+               Indessen kan ich für diese 2. Bitten wenig oder <lb n="20" xml:id="I_136-20"/>
+               nichts. Nun kommen eigentlich meine. Die dritte ist: trage das Paket <lb xml:id="I_136-21"/>an den H. v. Archenholz in die Gelehrtenbuchhandlung. Die
+               vierte <note corresp="#I_136-22">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000119">
+                        <persName> Johann Wilhelm von <name type="reg">Archenholtz</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-0056660">
+                        <placeName>Buchhandlung der Gelehrten (Gelehrtenbuchhandlung); Dessau und
+                           Leipzig</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="I_136-22"/>ist: trage das andere zu Reiche. Die fünfte ist: trage den
+               Brief zur <note corresp="#I_136-23">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003380" ana="?">
+                        <persName> Philipp Erasmus <name type="reg">Reich</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_136-23"/>Weinertin. Die sechste ist: trage einen andern Brief zum
+               Herman, dem <note corresp="#I_136-24">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001694" ana="†">
+                        <persName> Johann Bernhard <name type="reg">Hermann</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-004631" ana="†">
+                        <persName>
+                           <name type="reg">Weinert</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_136-24"/>das Gesicht und die Stimme seines Vaters, den ich nun
+               gesprochen, <note corresp="#I_136-25">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001698" ana="†">
+                        <persName> Johann Jakob <name type="reg">Hermann</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="25" xml:id="I_136-25"/>wahrhaftig keine Schande macht. Die <hi rendition="#g">siebente</hi> und lezte Bitte ist: <lb xml:id="I_136-26"/>thue einmal selber eine
+               an mich. Im Vater Unser sind auch 7. Bitten, <lb xml:id="I_136-27"/>wie mir iezt erst
+               einfält, zu meinem grösten Vergnügen. Doch möchte <lb xml:id="I_136-28"/>ich dich
+               auch noch ersuchen, gesund zu sein.</p>
+            <lb xml:id="I_136-29"/>
+            <p>Aus meiner künftigen Antwort auf deinen leztern Brief wil ich <lb n="30" xml:id="I_136-30"/> doch das ausheben, daß mir deine Bemerkung von denen, „die
+               glauben, <lb xml:id="I_136-31"/>„Got könne die Tugend aus blosser Liebe zur
+               Volkommenheit lieben, <lb xml:id="I_136-32"/>„und gleichwol läugnen, daß es die
+               Menschen, ohne Rüksicht auf Be<lb xml:id="I_136-33" rendition="#hyphen"/>„lohnung,
+               auch können“ ausnehmend gefället etc.</p>
+            <lb xml:id="I_136-34"/>
+            <p>Schreib’ mir doch die Urtheile derer, die sich durch meine Flucht von <lb n="35" xml:id="I_136-35"/> mir bestohlen glauben. Dieser lere und kurze Brief — gleichwol
+                  werd’<lb xml:id="I_136-36"/>ich ihn mir einmal wieder zurükgeben lassen, um ihn in
+               mein Korrespon<lb xml:id="I_136-37" rendition="#hyphen"/> denzbuch einzutragen, weil
+               ich ihn noch nicht abgeschrieben; und selbst <lb xml:id="I_137-1"/>diese leztern 6.
+               Worte wil ich mit abschreiben — verdienet kaum deine <lb xml:id="I_137-2"/>Antwort.
+               Dennoch wird es dein Schade nicht sein, wenn du dem <lb xml:id="I_137-3"/>Beispiele,
+               das ich dir vorm Jahre gab, nachzueifern fortfährest und <lb xml:id="I_137-4"/>mehr
+               schreibest als der, an den geschrieben wird. Auch kanst du von <lb n="5" xml:id="I_137-5"/>den Sinesern immer die Sitte annehmen, nach der sie an die
+                  Vor<note corresp="#I_137-6">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005646">
+                        <placeName>China </placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="I_137-6" rendition="#hyphen"/>nehmsten am kleinsten und engsten
+               schreiben; ie grösser der Man, desto <lb xml:id="I_137-7"/>kleiner die Buchstaben;
+               und ie enger du schreiben wirst, desto höflicher <lb xml:id="I_137-8"/>wirst du
+               schreiben, wiewol ich schwerlich hoffen darf, daß du an mich <lb xml:id="I_137-9"/>etwan so höflich schreiben wirst, daß ich es gar nicht lesen könte. — <lb n="10" xml:id="I_137-10"/>Deine Briefe haben für mich noch einen andern Nuzen, den du
+               gewis <lb xml:id="I_137-11"/>mir am meisten gönnen wirst; den du aber nicht
+               erräthest.</p>
+            <lb xml:id="I_137-12"/>
+            <p>(Wie steht es mit den armen Schneidersleuten im schwarzen <note corresp="#I_137-13">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003826" ana="†">
+                        <persName>
+                           <name type="reg">Schneider</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-00594836" ana="†">
+                        <placeName>Schwarzes Brett; Leipzig</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="I_137-13"/>Brette? Dein H. Vater wolte ihnen ihr Geld schikken.)</p>
+            <note corresp="#I_137-14">
+               <listPerson type="lineReference">
+                  <person corresp="#JP-003051">
+                     <persName> Johann Georg von <name type="reg">Oerthel</name>
+                     </persName>
+                  </person>
+               </listPerson>
+            </note>
+            <lb xml:id="I_137-14"/>
+            <p>Nicht blos <hi rendition="#aq">vale</hi> sondern auch <hi rendition="#aq">cura ut
+                  valeas:</hi> bei dir ist das nicht <lb n="15" xml:id="I_137-15"/>einerlei, wie bei
+               dem Zizero. Möchtest du so zufrieden leben können wie <note corresp="#I_137-16">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000641">
+                        <persName> Marcus Tullius <name type="reg">Cicero </name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_137-16"/>dein</p>
+            <lb xml:id="I_137-17"/>
+            <closer>
+               <salute>
+                  <hi rendition="#et">Freund</hi>
+                  <lb type="ig"/>
+                  <cb/>
+                  <date>
+                     <hi rendition="#left">
+                        <placeName>Hof</placeName> den <date>5. Dez. 84</date>.</hi>
+                  </date>
+                  <cb/>
+                  <hi rendition="#right">Richter</hi>
+                  <lb xml:id="I_137-18"/>
+               </salute>
+            </closer>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Berlin JP. 6 S. 4°. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>: Wahrheit 3,373×. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>: Nachlaß</hi>
+               <hi rendition="#aq">2,294×.</hi>
+               <lb/>
+               <hi rendition="#b">
+                  <hi rendition="#aq">132</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">29</hi>
+               </hi> Deutsch] <hi rendition="#aq">hier und im folgenden möglicherweise auch</hi>
+               deutsch <hi rendition="#rkd">32</hi> nur] <lb/>
+               <hi rendition="#aq">aus</hi> sonach <hi rendition="#rkd">34</hi> in] <hi rendition="#aq">aus</hi> auf <hi rendition="#b">
+                  <hi rendition="#aq">133</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">1</hi>
+               </hi> Papa] <hi rendition="#aq">davor gestr.</hi> Vater hat mir <hi rendition="#rkd">6</hi> eigent<lb rendition="#hyphen"/>lich] <hi rendition="#aq">aus</hi>
+               unstreit[ig] <hi rendition="#rkd">10</hi> fort] <hi rendition="#aq">aus</hi> durch
+                  <hi rendition="#rkd">29</hi> des] der <hi rendition="#b">
+                  <hi rendition="#aq">134</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">3</hi>
+               </hi> widerruffen] <hi rendition="#aq">aus</hi>
+               <lb/>wiederruffen <hi rendition="#rkd">16</hi> eben] <hi rendition="#aq">aus</hi>
+               wieder <hi rendition="#rkd">18</hi> in theologischen Sachen] <hi rendition="#aq">nachtr.</hi>
+               <hi rendition="#rkd">20</hi> auch <lb/>
+               <hi rendition="#aq">bis</hi> erstrekken] <hi rendition="#aq">aus</hi> wirkliche
+               Widersprüche unter sich begreiffen <hi rendition="#b">
+                  <hi rendition="#aq">135</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">2</hi>
+               </hi> Sprichst <lb/>du] <hi rendition="#aq">aus</hi> Sprecht ihr <hi rendition="#rkd">26</hi> Accoucheur] <hi rendition="#aq">aus</hi> Akkoucheur <hi rendition="#b">
+                  <hi rendition="#aq">136</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">9</hi>
+               </hi> hervorgraben solst] <lb/>
+               <hi rendition="#aq">aus</hi> hervorzugraben von mir gebeten wirst <hi rendition="#b">
+                  <hi rendition="#aq">137</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">7</hi>
+               </hi> Man] <hi rendition="#aq">aus</hi> Gegenstand <hi rendition="#rkd">12</hi>
+               <lb/>erräthest] <hi rendition="#aq">aus</hi> erräthst <hi rendition="#aq">aus</hi>
+               vermuthest</p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#b">133</hi>,<hi rendition="#rkd">15</hi>ff. Der <hi rendition="#g">alte Übersetzer</hi> ist Heinrich Waser (1714—77), der <lb/>„Swifts satirische
+                  und ernsthafte Schriften“, Zürich 1755—66, in 8 Bänden <lb/>herausgab. <hi rendition="#rkd">30</hi>f. Chr. Gottlob <hi rendition="#g">Hempel</hi>
+                  (1748—1824), Magister der Philo<lb rendition="#hyphen"/>sophie in
+                     <placeName>Leipzig</placeName>: „Peter der Große, Kaiser von Rußland“,
+                  musikalisches <lb/>Drama, <placeName>Leipzig</placeName> 1780; Richter verwechselt
+                  ihn mit dem <hi rendition="#b">31</hi>,<hi rendition="#rkd">20</hi>† genannten
+                  <lb/>Professor. <hi rendition="#b">134</hi>,<hi rendition="#rkd">4</hi>
+                  <hi rendition="#g">Reiche:</hi> vgl. Nr. 85†. <hi rendition="#rkd">8</hi>
+                  <hi rendition="#g">Tadeldes H. Weiße:</hi> vgl. <hi rendition="#b">113</hi>,<hi rendition="#rkd">21</hi>f. <lb/>
+                  <hi rendition="#b">135</hi>,<hi rendition="#rkd">23</hi>ff. Über <hi rendition="#g">Vogels Buch</hi> s. zu Nr. 68, über sein früheres <hi rendition="#b">59</hi>,<hi rendition="#rkd">1</hi>f. <hi rendition="#b">136</hi>,<hi rendition="#rkd">3</hi>ff. <lb/>Der Aufsatz „<hi rendition="#g">Über die vielen Religionen in der Welt</hi>“ (vgl. zu Nr. 17) <lb/>wurde im 2.
+                  Band der „Raffinerien“, S. 260—270, abgedruckt. <hi rendition="#rkd">22 </hi>
+                  <hi rendition="#g">Archen<lb rendition="#hyphen"/>holz:</hi> s. Nr. 84. <hi rendition="#rkd">24</hi>
+                  <hi rendition="#g">Weinertin:</hi> Richters <placeName>Leipzig</placeName>er
+                  Speisewirtin, bei der <lb/>er Schulden hinterlassen hatte; vgl. <hi rendition="#b">142</hi>,<hi rendition="#rkd">32</hi>ff. Der Brief an <hi rendition="#g">Hermann</hi> war <lb/>vermutlich von dessen Vater, nicht von Richter, denn
+                  Hermann schreibt <lb/>am 23. Januar 1785 an Albrecht Otto, er stehe jetzt gut mit
+                  Richter, aber <lb/>noch habe keiner an den andern geschrieben (Schreinert S.
+                  32f.). <hi rendition="#rkd">36</hi>ff. <lb/>Diese Nachtragung des Briefs im <hi rendition="#g">Korrespondenzbuch</hi> ist unterblieben. <lb/>
+                  <hi rendition="#b">137</hi>,<hi rendition="#rkd">13</hi>f. Über die <hi rendition="#g">Schneidersleuteimschwarzen Brett</hi> gibt Schreinert <lb/>S.
+                  18, Note 50, Auskunft.</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="I_20">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="20">20. An Pfarrer Vogel in Rehau. </title>
+            <title n="digital">An Erhard Friedrich Vogel. Leipzig, 8. März 1782. </title>
+            <editor>
+               <persName ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=I_20</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/I/I_20</idno>
+               <idno type="TELOTAID">I_20</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="I">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
+               <biblScope n="text" unit="page">
+                  <num>37</num>
+                  <num>38</num>
+                  <num>39</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>429</num>
+                  <num>430</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+            <listBibl type="commentary" subtype="werke-jp">
+               <bibl corresp="#JP-010941">
+                  <title>Über die Religionen in der Welt (1786)</title>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1782-03-08">8. März 1782</date>
+               <placeName key="JP-005948" ref="http://www.geonames.org/2879139">Leipzig</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-004474" ref="http://d-nb.info/gnd/100056458">
+                  <name type="reg">Vogel</name> Erhard Friedrich</persName>
+               <placeName key="JP-006182" ref="http://www.geonames.org/2849446">Rehau,
+                  Oberfranken</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=I_17">November 1781</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=I_22">11. April 1782</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <lb type="ig"/>
+            <lb xml:id="I_37-12"/>
+            <opener>
+               <salute>
+                  <hi rendition="#et">Hocherwürdiger und hochgelerter Herr, <lb xml:id="I_37-13"/>Hochzuvererender Herr Pfarrer!</hi>
+               </salute>
+            </opener>
+            <lb xml:id="I_37-14"/>
+            <p>Ich wag’ es kaum, mich bei Denenselben zu entschuldigen — soviel <lb n="15" xml:id="I_37-15"/>hab’ ich zu entschuldigen! Ihnen nicht nur keine Briefe zu
+               schreiben, <lb xml:id="I_37-16"/>sondern auch keine zu beantworten — Sie in der
+               Ungewisheit über <lb xml:id="I_37-17"/>das Schiksal Ihres Schreibens, in Furcht wegen
+               der Folgen desselben, <lb xml:id="I_37-18"/>und in der warscheinlichen Meinung meiner
+               Unhöflichkeit und Un<lb xml:id="I_37-19" rendition="#hyphen"/>dankbarkeit zu lassen —
+               gewis dieses hätten Sie nie von mir erwartet, <lb n="20" xml:id="I_37-20"/>wenn es
+               nicht geschehen wäre; allein dieses hätt’ ich auch nie getan, <lb xml:id="I_37-21"/>wenn ich nicht gemust hätte. Das Folgende meines Briefs wird dieses <lb xml:id="I_37-22"/>deutlicher machen, und das beiliegende Paket wird es
+               beweisen.</p>
+            <lb xml:id="I_37-23"/>
+            <p>Ich hab’ Ihr erstes gütiges Schreiben, das Sie vom 23. September <lb xml:id="I_37-24"/>datirten, zu Anfang des Novembers erhalten. Den 7. Oktober schikt’<lb n="25" xml:id="I_37-25"/>ich Ihnen einen Brief mit einem Aukzionskatalog. Vielleicht
+               haben <lb xml:id="I_37-26"/>Sie diesen gar nicht bekommen, so wie ich den Ihrigen
+               spät bekommen <lb xml:id="I_37-27"/>habe. Auch Ihre vortrefliche Anmerkungen hab’ ich
+               erhalten, die mir <lb xml:id="I_37-28"/>eben soviel Vergnügen als Ihnen Sorge gemacht
+               haben. Gewis ich <lb xml:id="I_37-29"/>würd’ es ser bedauert haben, wenn sie nicht in
+               meine Hände gekommen <lb n="30" xml:id="I_37-30"/>wären; aber ich würd’ es noch
+               unendlich mer bedauert haben, wenn <lb xml:id="I_37-31"/>Sie dafür in die Hände der
+               orthodoxen Henker gekommen wären. Ich <note corresp="#I_37-32">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003082">
+                        <persName>
+                           <name type="reg">Orthodoxe</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_37-32"/>hab’ Ihnen nun die Sorge in Rüksicht Ihrer benommen; möcht’ ich
+                  <lb xml:id="I_37-33"/>Ihnen doch auch den Verdacht in Rüksicht meiner benemen
+               können! <lb xml:id="I_37-34"/>Ich hatte neulich schon drei Bögen von meiner Antwort
+               auf Ihr <lb n="35" xml:id="I_37-35"/> voriges Schreiben verfertigt — Und doch felte
+               noch die Helfte meiner <lb xml:id="I_38-1"/>Antwort, noch die Neuigkeiten, die ich
+               gesamlet hatte, noch die Gegen<lb xml:id="I_38-2" rendition="#hyphen"/>anmerkungen,
+               mit denen ich Sie belästigen wolte. Aber Geschäfte <lb xml:id="I_38-3"/>häuften sich
+               an Geschäfte, um mir das Vergnügen, an Sie zu schreiben, <lb xml:id="I_38-4"/>zu
+               rauben, und Ihnen die Langweile, mich zu lesen, zu ersparen. Und dies <lb n="5" xml:id="I_38-5"/> waren solche Geschäfte, die meine ordentlichen hinderten. Sie
+               wissen <lb xml:id="I_38-6"/>vielleicht, daß ich arm bin; aber dies wissen Sie
+               vielleicht nicht, daß <lb xml:id="I_38-7"/>man mir meine Armut nicht erleichtert. Man
+               mus vorher einem <lb xml:id="I_38-8"/>Gönner durch Geld zu verstehen geben, daß man
+               Geld brauche; d. h. <lb xml:id="I_38-9"/>man mus nicht arm sein, wenn man reich
+               werden wil. Dieses fält <lb n="10" xml:id="I_38-10"/>bei mir weg; und kein Verteiler
+               fremder Woltaten achtet mich für <lb xml:id="I_38-11"/>bedürftig genug, mir das
+               Fremde zu schenken, weil ich ihm das Meinige <lb xml:id="I_38-12"/>nicht schenken
+               kan. Noch obendrein hat mir Got 4 Füsse versagt, mit <lb xml:id="I_38-13"/>welchen
+               man sich den gnädigen Blik eines Gönners und etliche Bro<lb xml:id="I_38-14" rendition="#hyphen"/>samen von seinem Überflus erkriechen kan. Ich kan weder ein
+               falscher <lb n="15" xml:id="I_38-15"/> Schmeichler, noch ein modischer Nar sein, und
+               weder durch die Beweg<lb xml:id="I_38-16" rendition="#hyphen"/>lichkeit meiner Zunge
+               noch meines Rükkens Freunde gewinnen. <lb xml:id="I_38-17"/>Sezzen Sie noch hinzu,
+               daß die meisten Professoren, weder Zeit, noch <lb xml:id="I_38-18"/>Gelegenheit,
+               weder den Willen noch das Vermögen zu helfen haben; <lb xml:id="I_38-19"/>daß der
+               Zugang zu ihnen durch die Menge derer, die schmeicheln oder <lb n="20" xml:id="I_38-20"/> betrügen, denen unmöglich gemacht wird, die keines von beiden
+               tun <lb xml:id="I_38-21"/>wollen; daß es Stolz verraten würde, wenn man nach der
+               Gelegenheit <lb xml:id="I_38-22"/>haschen wolte, ihnen eine gute Seite zu zeigen —
+               Denken Sie sich dies <lb xml:id="I_38-23"/>alles zusammen, so wissen Sie meine Lage;
+               aber Sie wissen noch nicht, <lb xml:id="I_38-24"/>wie ich sie verbessere. Es fiel mir
+               einmal ein, so zu denken: „ich wil <lb n="25" xml:id="I_38-25"/> „Bücher schreiben,
+               um Bücher kaufen zu können; ich wil das Publikum <lb xml:id="I_38-26"/>„beleren,
+               (erlauben Sie diesen falschen Ausdruk wegen der Antitese) <lb xml:id="I_38-27"/>„um
+               auf der Akademie lernen zu können; ich wil den Endzwek zum <lb xml:id="I_38-28"/>„Mittel machen und die Pferde hinter den Wagen spannen, um aus <lb xml:id="I_38-29"/>„dem bösen Holwege zu kommen!“ Ich änderte nun die Art meines <lb n="30" xml:id="I_38-30"/> Studirens; ich las wizzige Schriftsteller, den Seneka, den
+               Ovid, den <note corresp="#I_38-31">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003131">
+                        <persName> (Publius Ovidius Naso) <name type="reg">Ovid</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-004016">
+                        <persName> Lucius Annaeus d. J. <name type="reg">Seneca </name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_38-31"/>Pope, den Young, den Swift, den Voltaire, den Rousseau, den
+                  <note corresp="#I_38-32">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003273">
+                        <persName> Alexander <name type="reg">Pope</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003602">
+                        <persName> Jean-Jacques <name type="reg">Rousseau</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-004223">
+                        <persName> Jonathan <name type="reg">Swift</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-004505">
+                        <persName> (François Marie Arouet) <name type="reg">Voltaire</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-004834">
+                        <persName> Edward <name type="reg">Young</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_38-32"/>Boileau, und was weis ich alles? — <hi rendition="#g">Erasmus</hi>
+               <hi rendition="#aq">encomium moriae</hi>
+               <note corresp="#I_38-33">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000411">
+                        <persName> Nicolas <name type="reg">Boileau-Despréaux</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008334">
+                        <author>Erasmus,von Rotterdam, Desiderius(1466 oder 1469 - 1536),
+                           humanistischer Gelehrter, Philosoph und Philologe</author>
+                        <title>Lob der Torheit (Moriae Encomium) (1509-1511)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_38-33"/>brachte mich auf den Einfal, die Dumheit zu loben. Ich fieng
+               an; ich <note corresp="#I_38-34">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010590">
+                        <title>Das Lob der Dumheit (Dummheit) [1781-82]</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_38-34"/>verbesserte; ich fand da Hindernisse, wo ich sie nicht suchte,
+               und da keine,<lb n="35" xml:id="I_38-35"/> wo ich sie erwartete; und endigte an dem
+               Tage, wo ich Ihren schäzbaren <lb xml:id="I_38-36"/>Brief bekam. Sie werden denken
+               „wunderbar!“ wenn Sie nicht <lb xml:id="I_38-37"/> denken „töricht!“ Hier haben Sie
+               meinen Versuch, den Versuch eines <lb xml:id="I_39-1"/>neunzeniärigen Menschen. Ein
+               Professor, dem ich dieses Schrif<metamark>[</metamark>t<metamark>]</metamark>gen
+                  <note corresp="#I_39-2">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004025" ana="†">
+                        <persName> Chr. Gottlieb <name type="reg">Seydlitz </name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_39-2"/>durch eine dritte Person in die Hand spielte, versagte mir nicht
+               ganz <note corresp="#I_39-3">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003050" ana="†">
+                        <persName> Johann Adam Lorenz von <name type="reg">Oerthel</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_39-3"/>seinen Beifal; aber darf ich auch auf den Ihrigen hoffen?
+               Vielleicht <lb xml:id="I_39-4"/>machen Sie folgende Rezension vom Lobe der Dumheit:
+               „Der Ver<lb n="5" xml:id="I_39-5" rendition="#hyphen"/>„fasser kan sich ser leicht an
+               die Stelle der Dumheit sezzen — man <lb xml:id="I_39-6"/>„glaubt sie selbst reden zu
+               hören — gewis die Gotheit hat ihn begeistert, <lb xml:id="I_39-7"/>„die er gelobt
+               hat.“ — Verzeihen Sie, daß ich Ihnen so ein durch<lb xml:id="I_39-8" rendition="#hyphen"/>strichnes, unleserliches und unkorrigirtes Manuskript
+               geschikt habe. <lb xml:id="I_39-9"/>Ich hatte zu wenig Zeit, es nochmals
+               abzuschreiben. Ich werde Ihnen <lb n="10" xml:id="I_39-10"/>den grösten Dank
+               abstatten, wenn Sie mir, eh’ ich das Manuskript <lb xml:id="I_39-11"/>dem Verleger
+               überlasse, einige Nachricht in Ansehung des Werts <lb xml:id="I_39-12"/>desselben,
+               des Akkords mit dem Verleger, u. s. w. erteilen, und noch mer, <lb xml:id="I_39-13"/>wenn Sie mir die auffallendsten Feler desselben anzeigen. — Doch genug <lb xml:id="I_39-14"/>von der Sache: sonst schreib’ ich einen schlechten Brief über
+               ein <lb n="15" xml:id="I_39-15"/>schlechtes Buch.</p>
+            <lb xml:id="I_39-16"/>
+            <p>Wenn ich zu Ostern das Vergnügen haben werde, Sie zu sprechen: <lb xml:id="I_39-17"/>so werd’ ich Ihnen alles das sagen, was mir weder der Raum noch die <lb xml:id="I_39-18"/>Zeit erlaubt zu schreiben. Ich habe 2 Avertissements beigelegt.
+               Wenn <lb xml:id="I_39-19"/>Sie die neue Gotaische Ausgabe der voltairischen Werke für
+               30 rtl. <note corresp="#I_39-20">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005791" ana="†">
+                        <placeName>Gotha</placeName>
+                     </place>
+                  </listPlace>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009981" ana="†">
+                        <author>Voltaire (d.i. François Marie Arouet) (1694-1778)</author>
+                        <title>uvres complètes (1784-1790)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="20" xml:id="I_39-20"/>wünschen, so brauchen Sie nur zu pränumeriren — wenn Sie
+               aber die <lb xml:id="I_39-21"/>prächtige Pariser Ausgabe derselben für ½ rtl.
+               wünschen, so brauchen <note corresp="#I_39-22">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006122" ana="†">
+                        <placeName>Paris</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="I_39-22"/>Sie nur in die Lotterie zu sezzen. Bis zu Ostern steht die
+               Pränumerazion <lb xml:id="I_39-23"/>auf iene offen. —</p>
+            <lb xml:id="I_39-24"/>
+            <p>Ich hoffe, noch einen Brief von Ihnen vor meiner Abreise zu<lb n="25" xml:id="I_39-25"/>erhalten. Der meinige ist schlechter als alle meine schlechten —
+               denn <lb xml:id="I_39-26"/>wirklich schon die zweite oder dritte Zeile ist falsch.
+               Sie werden den <lb xml:id="I_39-27"/>Schlaf, der in meinen Augen ist, durch die Post
+               in die Ihrigen <lb xml:id="I_39-28"/>bekommen. Ich habe Ihnen geschwind geantwortet,
+               und schlecht geant<lb xml:id="I_39-29" rendition="#hyphen"/>wortet. Sie werden vor
+               Ungeduld und Langweile nichts mer wünschen, <lb n="30" xml:id="I_39-30"/>als daß ich
+               mich nenne</p>
+            <lb xml:id="I_39-31"/>
+            <closer>
+               <salute>
+                  <hi rendition="#et">Ew. Hocherwürden</hi>
+                  <lb type="ig"/>
+                  <cb/>
+                  <date>
+                     <hi rendition="#left">
+                        <placeName>Leipzig</placeName> den <date>8<hi rendition="#sup">ten</hi> März
+                              <lb type="ig"/>1782</date>.</hi>
+                  </date>
+                  <cb/>
+                  <hi rendition="#right">gehorsamster Diener <lb type="ig"/>J. P. F. Richter</hi>
+               </salute>
+            </closer>
+            <lb xml:id="I_39-32"/>
+            <milestone rendition="#hr" unit="section"/>
+         </div>
+         <div type="comment">
+            <lb/>
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Brit. Museum. 3 S. 2°. <hi rendition="#i">K</hi>
+                  (Konzept, am Schluß Kopie): XI.</hi> An Vogel, <lb/>Pf[arrer] in Rehau, den 8
+               März. 1782. <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>: Wahrheit 3,173 ×. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>: Nach<lb rendition="#hyphen"/>laß 3,210. <hi rendition="#i">B</hi>: IV. Abt., I, Nr. 4 und 6. <hi rendition="#i">A</hi>: IV.
+                  Abt., I, Nr. 7.</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">37</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">15</hi> wag’ es kaum] mag kaum an<lb rendition="#hyphen"/>fangen
+                  <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">18</hi> wegen] <hi rendition="#aq">aus</hi> über <hi rendition="#aq">
+                  <hi rendition="#i">HK</hi>
+               </hi>
+               <hi rendition="#rkd">22</hi> Das <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">23</hi> beweisen.] Dieser ganze <lb/>Brief wird im Grunde nichts
+               als eine Entschuldigung, und das Beiliegende <lb/>Paquet wird der Beweis von der
+               Warheit derselben sein. <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">27</hi> bekommen] <hi rendition="#aq">aus</hi>
+               <lb/>erhalten <hi rendition="#aq">
+                  <hi rendition="#i">K</hi> (beidemal)</hi>
+               <hi rendition="#rkd">32</hi> dafür] darüber <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">35</hi> neulich] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>, fehlt <hi rendition="#i">K</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#b">
+                  <hi rendition="#aq">38</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">1</hi> Und <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">6</hi> hinderten.] Und doch hatt’ ich erst den halben Brief
+               beantwortet, <lb/>und noch keine Neuigkeiten geschrieben, und keine Gegenanmerkungen
+               gemacht. <lb/>Sie sehen, ich hatte mir damals [?] vorgenommen, Ihnen Langweile zu
+               machen; <lb/>allein meine Umstände verboten mir es, und noch dazu solche, die mich
+               von <lb/>meinen ordentlichen abhielten. <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">8</hi> Man <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">13</hi> kan.] — blos weil ich keine <lb/>reichen Vettern habe.
+               Ich habe kein Stipendium, keinen Freitisch, keine Infor<lb rendition="#hyphen"/>mazion, gar nichts. <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">15</hi> Ich <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">22</hi> wollen] Ich kan weder ein Schmeichler des <lb/>Stolzes
+               [?], noch ein Nar der Mode sein; weder meine Zunge, noch mein Rükken <lb/>verschaffen
+               mir Freunde. Wer wird mir also in Leipzig seine Beschüzzung [?] und <lb/>Hülfe
+               erteilen? wer solte mich deren nicht ganz unwürdig halten? — Sezz’ ich <lb/>hinzu,
+               daß man sich unmöglich durch den Haufen von Schmeichlern und Be<lb rendition="#hyphen"/>trügern, Dum[heit] und Stolz Anbetenden [?] zu einem
+               Professor hindurch <lb/>drängen kan <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+                  <hi rendition="#rkd">22</hi>f.</hi> nach der Gelegenheit haschen wolte]
+               Gelegenheit suchte <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">23</hi> gute] vorteilhafte <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi> zeigen] <hi rendition="#aq">danach</hi> und daß überhaupt die, die iunge Leute
+               <lb/>zu befördern versprechen, meistens nur die befördern, die es nicht brauchen <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">25</hi> sie verbessere] mich aus ihr herauszuziehen [hoffe] <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi> Es <hi rendition="#aq">bis</hi> denken:] Ich <lb/>dachte bei mir selber: „Ich
+               wil wizzig werden, um sat zu werden; <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">30</hi> Ich <hi rendition="#aq">bis</hi>
+               <lb/>
+               <hi rendition="#rkd">31</hi> Studirens] Nun war meine ganze Lebensart verändert <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">35</hi> ich<hi rendition="#sup">1</hi>
+               <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">37</hi> bekam] <lb/>ich fur fort, es gelang, und eben [?] bin
+               ich fertig <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+                  <hi rendition="#rkd">37</hi> und</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">39</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">1</hi> denken] sagen <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <lb/>den Versuch] <hi rendition="#aq">davor</hi> aber blos <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">2</hi> dem <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">3</hi> spielte] dem ich ihn durch eine <lb/>zweite Hand lesen
+               lies <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">6</hi> man <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">7</hi> hören] niemand als er kan sie so meisterhaft <lb/> dum
+               reden lassen <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">8</hi> so <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">10</hi> abzuschreiben] in der Geschwindigkeit ein so <lb/>elend
+               geschriebnes [?] Manuskript geschikt habe; ich wolte Ihren Brief sogleich
+               <lb/>beantworten, und hatte nur noch eines übrig, welches ich dem V[erleger] <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">17</hi>
+               <lb/>Wenn] <hi rendition="#aq">aus</hi> Da <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">26</hi> meinige] <hi rendition="#aq">aus</hi> meine <hi rendition="#aq">davor gestr.</hi> iezzige <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Vogel hatte am 4. März geschrieben, er fürchte, sein Brief vom
+                  23. Sep<lb rendition="#hyphen"/>tember, auf den er noch keine Antwort erhalten,
+                  sei verloren gegangen, <lb/>vielleicht gar nebst den Anmerkungen (über Richters
+                  Aufsatz von den <lb/>vielen Religionen) in orthodoxe, also inquisitorische Hände
+                  geraten. <hi rendition="#b">37</hi>,<hi rendition="#rkd">35</hi>
+                  <lb/>
+                  <hi rendition="#g">Antwort:</hi> Nr. 17. <hi rendition="#b">38</hi>,<hi rendition="#rkd">25</hi>ff. Vgl. Grönländische Prozesse 1,36f. (I. Abt., I, <lb/>
+                  <hi rendition="#b">24</hi>,<hi rendition="#rkd">6–8</hi>). <hi rendition="#b">39</hi>,<hi rendition="#rkd">1</hi>
+                  <hi rendition="#g">Versuch:</hi> „Das Lob der Dumheit“ (II. Abt., I, 292—347).
+                  <lb/>2 <hi rendition="#g">Professor:</hi> Seydlitz, vgl. <hi rendition="#b">54</hi>,<hi rendition="#rkd">13</hi>†. <hi rendition="#rkd">3</hi>
+                  <hi rendition="#g">dritte Person:</hi> Oerthel, der mit <lb/>Seydlitz bekannt war
+                  und Vorlesungen bei ihm hörte. <hi rendition="#rkd">19–24</hi> In <hi rendition="#g">Gotha</hi>
+                  <lb/>erschienen 1785—88 Voltaires Oeuvres complètes in 71 Bänden; mit der <lb/>
+                  <hi rendition="#g">Pariser</hi> Ausgabe ist wohl die 1785ff. in Kehl erschienene
+                  Prachtausgabe <lb/>in 92 Bänden gemeint.</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

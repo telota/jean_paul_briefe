@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="I_31">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="31">31. An Frau Richter in Hof. </title>
+            <title n="digital">An Sophie Rosine Richter. Leipzig, 27. Januar 1783. </title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=I_31</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/I/I_31</idno>
+               <idno type="TELOTAID">I_31</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="I">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
+               <biblScope n="text" unit="page">
+                  <num>51</num>
+                  <num>52</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>433</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1783-01-27">27. Januar 1783</date>
+               <placeName key="JP-005948" ref="http://www.geonames.org/2879139">Leipzig</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-003496" ref="http://d-nb.info/gnd/1095113143">
+                  <name type="reg">Richter</name> Sophie Rosine </persName>
+               <placeName key="JP-005841" ref="http://www.geonames.org/2902768">Hof</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=I_29">21. August 1782</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=I_35">3. April 1783</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <lb type="ig"/>
+            <lb xml:id="I_51-14"/>
+            <opener>
+               <salute>
+                  <hi rendition="#et">
+                     <metamark>[</metamark>Liebe<metamark>]</metamark> Mama!</hi>
+               </salute>
+            </opener>
+            <lb n="15" xml:id="I_51-15"/>
+            <p>Vergeben Sie mir, daß ich Ihnen erst <hi rendition="#aq">
+                  <metamark>[</metamark>
+                  <hi rendition="#i">Lücke</hi>
+                  <metamark>]</metamark>
+               </hi> wil ich sie beide auf <lb xml:id="I_51-16"/>einmal beantworten <hi rendition="#aq">
+                  <metamark>[</metamark>
+                  <hi rendition="#i">Lücke</hi>
+                  <metamark>]</metamark>
+               </hi> in Rüksicht des Örtels einen andern Weg <note corresp="#I_51-17">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003051">
+                        <persName> Johann Georg von <name type="reg">Oerthel</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_51-17"/>g <hi rendition="#aq">
+                  <metamark>[</metamark>
+                  <hi rendition="#i">Lücke</hi>
+                  <metamark>]</metamark>
+               </hi> Gelde zu verhelfen. Anstat an ihn zu schreiben, wie Sie <lb xml:id="I_51-18"/>
+               <hi rendition="#aq">
+                  <metamark>[</metamark>
+                  <hi rendition="#i">Lücke</hi>
+                  <metamark>]</metamark>
+               </hi> ihn durch eine Lüge zu hintergehen, die er sehr
+               unwarsch<metamark>[</metamark>einlich <lb xml:id="I_51-19"/>fin<metamark>]</metamark>den würde, hab’ ichs so gemacht. Ich habe dem iungen Örtel
+                  gesagt,<note corresp="#I_51-20">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003050">
+                        <persName> Johann Adam Lorenz von <name type="reg">Oerthel</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="20" xml:id="I_51-20"/>daß er nach Haus schreibt, und seinem Vater sagt, daß
+               ich das Geld, <lb xml:id="I_51-21"/>das er mir aufheben wolte, nicht brauche, weil
+               ich mir selbst welches <lb xml:id="I_51-22"/>verdienen könte. Auf diese Weise wird er
+               es Ihnen verabfolgen lassen. <lb xml:id="I_51-23"/>Ich weis überhaupt nicht, was der
+               alte Örtel mir für Geld aufheben <note corresp="#I_51-24">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003051">
+                        <persName> Johann Georg von <name type="reg">Oerthel</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_51-24"/>wil, da die Kapitalien ia Ihnen, und nicht mir gehören. So ists
+               also <lb n="25" xml:id="I_51-25"/>besser, als wenn ich Ihrem Rathe gefolgt hätte:
+               denn wer weis wie viel <lb xml:id="I_51-26"/>Zeit vergangen wäre, bis mein Brief an
+               den Örtel gekommen, bis das <lb xml:id="I_51-27"/>Geld an mich; und ich es endlich
+               wieder an Sie geschikt hätte. Der <lb xml:id="I_51-28"/>iunge Örtel wird es seinem
+               Vater auch ein wenig derb sagen. — <note corresp="#I_51-29">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003050">
+                        <persName> Johann Adam Lorenz von <name type="reg">Oerthel</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_51-29"/>Wegen der Diebin, der Riesin, rathe ich Ihnen um wie viel
+               nicht, etwas <note corresp="#I_51-30">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003515">
+                        <persName>
+                           <name type="reg">Riese</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="30" xml:id="I_51-30"/>mit ihr anzufangen. Dies Mensch hat nun keine Ehre mehr
+               zu ver<lb xml:id="I_51-31" rendition="#hyphen"/>lieren; vielleicht sagte sie aus
+               Bosheit alles, was sie in Rüksicht des <lb xml:id="I_51-32"/>Hausses weis, das der
+               Grosmutter zugeschrieben worden; Sie ver<note corresp="#I_51-33">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002300" ana="†">
+                        <persName> Eva Barbara <name type="reg">Kuhn</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_51-33" rendition="#hyphen"/>stehen mich schon. Was wollen Sie iezt neue
+               Streitigkeiten anfangen; <lb xml:id="I_51-34"/>und es fragt sich ia noch, ob sie
+               Ihnen Ihr Geld bezalen kan; sie wird <lb n="35" xml:id="I_51-35"/>
+               <lb xml:id="I_51-36"/> ia wenig mehr haben. — Ich glaube nicht, daß eine Bitschrift
+               beim <lb xml:id="I_52-1"/>Landeshauptman was helfen wird; er denkt Sie brauchen es
+               wegen <note corresp="#I_52-2">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004651" ana="†">
+                        <persName> Philipp Ludwig von <name type="reg">Weitershausen</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_52-2"/>Ihrer Erbschaft nicht — doch können Sie es probiren, fragen Sie
+               nur <lb xml:id="I_52-3"/>noch andre Leute darum. — Was ich Ihnen neulich einmal
+               geschrieben, <lb xml:id="I_52-4"/>daß ich Leipzig verlassen wolte, ist noch sehr
+               ungewis; vor Michaelis <note corresp="#I_52-5">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005948">
+                        <placeName>Leipzig</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb n="5" xml:id="I_52-5"/> wenigstens nicht; und vielleicht da auch nicht. Und unter
+               der Zeit seh’<lb xml:id="I_52-6"/>ich Sie auch einmal. Ich gedenke nämlich zwar nicht
+               auf künftige <lb xml:id="I_52-7"/>Ostern, aber doch auf die Pfingstfeiertage bei
+               Ihnen zu sein, wenn <lb xml:id="I_52-8"/>mich nichts abhält. Aber Sie müssen mir
+               vorher schreiben, wo ich <lb xml:id="I_52-9"/>meine Studierstube haben sol, da alle
+               Ihre Stuben vermiethet sind.<lb n="10" xml:id="I_52-10"/> Könte ich nun nicht auf die
+               par Wochen eine kleine <hi rendition="#aq">
+                  <metamark>[</metamark>
+                  <hi rendition="#i">Lücke</hi>
+                  <metamark>]</metamark>
+               </hi> daß ich zu <lb xml:id="I_52-11"/>Ihnen im Schlafrok aus und <hi rendition="#aq">
+                  <metamark>[</metamark>
+                  <hi rendition="#i">Lücke</hi>
+                  <metamark>]</metamark>
+               </hi> gern bezahlen. — Ich bin recht <lb xml:id="I_52-12"/>wol <hi rendition="#aq">
+                  <metamark>[</metamark>
+                  <hi rendition="#i">Lücke</hi>
+                  <metamark>]</metamark>
+               </hi> doch vor allem, ob mein Hund noch <hi rendition="#aq">
+                  <metamark>[</metamark>
+                  <hi rendition="#i">Lücke</hi>
+                  <metamark>]</metamark>
+               </hi> gar nichts <lb xml:id="I_52-13"/>mehr von sich hören. — Noch eine andre
+                  <metamark>[</metamark>Ursache,<metamark>]</metamark> warum ich Ihnen <lb xml:id="I_52-14"/>nicht gleich schrieb, war, ich wolte an den Pfarrer in Rehau
+               schreiben, <note corresp="#I_52-15">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004474">
+                        <persName> Erhard Friedrich <name type="reg">Vogel</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006182">
+                        <placeName>Rehau, Oberfranken</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb n="15" xml:id="I_52-15"/> und ihm zugleich mein Buch <hi rendition="#aq">
+                  <metamark>[</metamark>
+                  <hi rendition="#i">Lücke</hi>
+                  <metamark>]</metamark>
+               </hi> schikken, das nun noch nicht ganz <note corresp="#I_52-16">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010724">
+                        <title>Grönländische Prozesse, oder Satirische Skizzen (1783, 1822)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_52-16"/>gedrukt ist und worauf ich warte. Bei diesem Buche fält mir
+               etwas <lb xml:id="I_52-17"/>Unangenehmes ein. Ich hörte neulich, daß schon das ganze
+               liebe Hof <lb xml:id="I_52-18"/>wüste, daß ich ein Buch geschrieben, und dafür 50
+               rtl. (welche Lüge!) <lb xml:id="I_52-19"/>bekommen hätte. Das ist mir nicht lieb, daß
+               es alle Leute wissen; Sie <lb n="20" xml:id="I_52-20"/> hätten es niemand sagen
+               sollen; aber vielleicht haben es meine Brüder <note corresp="#I_52-21">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003481">
+                        <persName> Johann Paul Friedrich <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_52-21"/>in dem ganzen Gymnasium ausgetrommelt. — Ich habe was ver<note corresp="#I_52-22">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-00584113">
+                        <placeName>Gymnasium; Hof im Vogtland</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="I_52-22" rendition="#hyphen"/>gessen. Wenn Ihnen der Örtel das Geld nicht
+               gleich von selber <note corresp="#I_52-23">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003051">
+                        <persName> Johann Georg von <name type="reg">Oerthel</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_52-23"/>überschikt; so schikken Sie nur hinunter zu ihm, und lassen ihm
+               sagen, <lb xml:id="I_52-24"/>daß er für mich kein Geld aufzuheben brauchte, daß mir
+               keine Kapitale <lb n="25" xml:id="I_52-25"/>gehörten und daß es erst auf Sie ankomme,
+               was ich bekommen solte <lb xml:id="I_52-26"/>und so weiter. — Ich wünsche Ihnen
+               Gesundheit und bin</p>
+            <lb xml:id="I_52-27"/>
+            <closer>
+               <salute>
+                  <hi rendition="#et">Ihr <lb type="ig"/>gehors. Sohn</hi>
+                  <lb type="ig"/>
+                  <cb/>
+                  <date>
+                     <hi rendition="#left">
+                        <placeName>Leipzig</placeName> den <date>27 Jenner 1783</date>.</hi>
+                  </date>
+                  <cb/>
+                  <hi rendition="#right">J. P. F. Richter</hi>
+                  <lb n="30" type="ig"/>
+               </salute>
+            </closer>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Goethe- u. Schiller-Archiv. 1¾ S. 4°; die Schrift ist
+                  teilweise durch <lb/>Säure zerstört.</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">51</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">33</hi> Hausses] <hi rendition="#aq">aus</hi> Hauses (<hi rendition="#aq">vgl.</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">6</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">24</hi> ) <hi rendition="#b">
+                  <hi rendition="#aq">52</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">7</hi> auf künftige] <hi rendition="#aq">aus</hi>
+               <lb/>zu künftigen</p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Vgl. zu Nr. 23. <hi rendition="#b">51</hi>,<hi rendition="#rkd">33</hi> Die <hi rendition="#g">Großmutter</hi> Kuhn war am 21. März 1782
+                  <lb/>gestorben. <hi rendition="#b">52</hi>,<hi rendition="#rkd">2</hi>
+                  <hi rendition="#g">Landeshauptmann</hi> in Hof war Philipp Ludwig von
+                  <lb/>Weitershausen (1727—95); vgl. Nr. 136, Wahrheit 3,347 und II. Abt., II,
+                     <lb/>271,<hi rendition="#rkd">10. 4</hi>
+                  <hi rendition="#g">neulich:</hi>
+                  <hi rendition="#b">46</hi>,<hi rendition="#rkd">32–35</hi>. <hi rendition="#rkd">11</hi> Vgl. <hi rendition="#b">47</hi>,<hi rendition="#rkd">1</hi>f. <hi rendition="#rkd">19</hi> 50 rtl.: vgl.</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">67</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">4</hi>
+               </hi>
+               <hi rendition="#aq">.</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

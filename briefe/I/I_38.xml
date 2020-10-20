@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="I_38">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="38">38. An Dr. Doppelmaier in Schwarzenbach. </title>
+            <title n="digital">An Johann Georg Gottfried Doppelmaier. Leipzig, 14. April 1783. </title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=I_38</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/I/I_38</idno>
+               <idno type="TELOTAID">I_38</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="I">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
+               <biblScope n="text" unit="page">
+                  <num>63</num>
+                  <num>64</num>
+                  <num>65</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>437</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+               <p>Konzept, am Schluß Kopie</p>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1783-04-14">14. April 1783</date>
+               <placeName key="JP-005948" ref="http://www.geonames.org/2879139">Leipzig</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000850" ref="http://d-nb.info/gnd/1031952047">
+                  <name type="reg">Doppelmaier</name> Johann Georg Gottfried</persName>
+               <placeName key="JP-006268" ref="http://www.geonames.org/6558969">Schwarzenbach a. d.
+                  Saale</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=I_36">4. April 1783</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <lb type="ig"/>
+            <lb xml:id="I_63-9"/>
+            <dateline>
+               <hi rendition="#right">
+                  <metamark>[</metamark>
+                  <placeName>Leipzig</placeName>, <date>14. April 1783</date>
+                  <metamark>]</metamark>
+               </hi>
+            </dateline>
+            <lb n="10" xml:id="I_63-10"/>
+            <p>Sie gaben Ihrem Briefe keine Aufschrift; dadurch erteilen Sie mir <lb xml:id="I_63-11"/>das Recht, den meinigen mit dieser zu zieren — Sie nennen mich
+                  <lb xml:id="I_63-12"/>keinen Hochgeerten Hern; darum nenne ich Sie meinen Freund
+               und <lb xml:id="I_63-13"/>schreibe Ihnen in einem andern Tone als dem Ton der
+                  Höflich<lb xml:id="I_63-14" rendition="#hyphen"/>keit, die gleich den Schlangen
+               zwar geschmeidig aber eben so kalt ist. <lb n="15" xml:id="I_63-15"/>Doch eh’ ich
+               weiter geh’, mus ich einen Argwon heben, zu welchem <lb xml:id="I_63-16"/>Sie die
+               Schreibart meiner Briefe vielleicht berechtigen könte. Meine <lb xml:id="I_63-17"/>Schriftstellerei hat meine Gedanken 〈meine Sprache〉 einmal an <lb xml:id="I_63-18"/>Wendungen gewönt, deren Gezwungenheit sich mit Wärme des <lb xml:id="I_63-19"/>Herzens wenig zu vertragen 〈so ser zu streiten〉 scheint. Antitesen und<lb n="20" xml:id="I_63-20"/>Gleichnisse sind nun in meinem Gehirn eingewurzelt, daß sie
+               selbst <lb xml:id="I_63-21"/>meinen Träumen anhängen, selbst die Sprache meines
+               Herzens mit <lb xml:id="I_63-22"/>Gallizismen verunstalten. — Wenn ich daher nicht so
+               warm schreibe als <note corresp="#I_63-23">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-0057450">
+                        <placeName>Gallizismus; Frankreich</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="I_63-23"/>ich füle, wenn die Ergiessungen des Herzens auf ihrem Wege
+               durch den <lb xml:id="I_63-24"/>Kopf an Wärme verlieren, so wissen
+                  <metamark>[</metamark>Sie<metamark>]</metamark> meine Ursache. Warum <lb n="25" xml:id="I_63-25"/>felt mir doch die simple Natursprache des einzigen, guten,
+               teuren <metamark>[</metamark>?<metamark>]</metamark>
+               <lb xml:id="I_63-26"/>Rousseau, um Ihnen zu sagen, daß Sie mein Herz ganz haben, daß
+                  <note corresp="#I_63-27">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003602">
+                        <persName> Jean-Jacques <name type="reg">Rousseau</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_63-27"/>Ihre Antwort meine Hofnung übertroffen, daß ich gewis überzeugt
+                  <lb xml:id="I_63-28"/>bin, wenn Sie — O ihr neuen, empfindlichen Gekken der
+               Deutschen, die <note corresp="#I_63-29">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-0056690">
+                        <placeName>Deutsche; Deutschland , deutsch , Germanien,
+                           Vaterland</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="I_63-29"/>ihr mit dem Mädgen weint, um mit ihm zu huren, und mit dem
+               Freunde, <lb n="30" xml:id="I_63-30"/>um in etlichen Minuten zu zanken, warum raubt
+               ihr andern, deren <lb xml:id="I_63-31"/>Herz Empfindungen nicht nachäffet aber fült,
+               durch die Torheit <metamark>[</metamark>?<metamark>]</metamark>
+               <lb xml:id="I_63-32"/>den Mut, eine gemisgebrauchte
+                  <metamark>[</metamark>!<metamark>]</metamark> Sprache zu reden. Mein Freund, <lb xml:id="I_63-33"/>man hat der erkünstelten Tränen soviel vergossen, daß man sich
+               der <lb xml:id="I_63-34"/>waren schämt, und die Empfindsamkeit scheint in
+               Gefüllosigkeit aus<lb n="35" xml:id="I_63-35" rendition="#hyphen"/>zuarten
+               〈überzugehen〉.</p>
+            <lb xml:id="I_63-36"/>
+            <p>Sie sind nicht nur mein Freund, sondern Sie waren es auch. — <lb xml:id="I_64-1"/>Meinem Vergnügen über Ihres gleicht nichts als der Anteil, den ich <lb xml:id="I_64-2"/>an Ihrem Schmerze über die Undankbarkeit Ihres Vaterlands neme.
+                  <note corresp="#I_64-3">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005575">
+                        <placeName>Bayreuth, Markgrafschaft </placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="I_64-3"/>Mir ist immer (um offenherzig zu sein) das Sonderbare Ihres <lb xml:id="I_64-4"/>Schiksals aufgefallen — die Natur, die bei Ihnen weder Kopf noch
+                  <lb n="5" xml:id="I_64-5"/> Herz vergas, vergas beides bei denen, mit denen Sie
+               leben. Dieses <lb xml:id="I_64-6"/>Land verdient, daß Sie es verlassen; und Sie
+               verdienen, daß Sie ein <lb xml:id="I_64-7"/>zehnmal besseres finden, ein Land, wo Sie
+               der Priester nicht verfolgt, <lb xml:id="I_64-8"/>und der Arzt 〈die Kollegen〉 nicht
+               beneidet; wo Ihren Kopf ein <lb xml:id="I_64-9"/>Gönner belont und Ihr Herz ein
+               Freund liebt, der Ihrer Freundin <note corresp="#I_64-10">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000850">
+                        <persName> Johann Georg Gottfried <name type="reg">Doppelmaier</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="10" xml:id="I_64-10"/> gleicht. Ich bin von der Warheit Ihrer Gründe für Ihre
+               Absicht so <lb xml:id="I_64-11"/>ser überzeuget, — Übrigens halt’ ich von der Liebe
+               zum Vaterland <lb xml:id="I_64-12"/>nicht viel. Die Teologen erweisen die
+               Gleichgültigkeit des Orts, wo <lb xml:id="I_64-13"/>man begraben wird, durch die
+               Floskel: „die Erde ist des Hern“; ich <lb xml:id="I_64-14"/>möchte dieses auf den Ort
+               anwenden, wo man geboren wird. Warum <lb n="15" xml:id="I_64-15"/> sol denn dies
+               Stükgen Welt, über das mich meine Mutter 9 Monate <note corresp="#I_64-16">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003496">
+                        <persName> Sophie Rosine <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_64-16"/>als Embryon herumgetragen, mer Liebe verdienen, als der Flek,
+               den <lb xml:id="I_64-17"/>ich viele Jare mit gewichsten Stiefeln betreten? Warum sol
+               mir die <lb xml:id="I_64-18"/>Kindheit einen Aufenthalt mer veredeln als das mänliche
+               Alter? Sol <lb xml:id="I_64-19"/>die Vaterlandsliebe unsern Freunden und Anverwandten
+               gewidmet <lb n="20" xml:id="I_64-20"/> sein; so ist iedes Land mein Vaterland: denn
+               überal findet man Freunde, <lb xml:id="I_64-21"/>oft merere und bessere, als man
+               verläst. Auch müste sonach unsre <lb xml:id="I_64-22"/>Vaterlandsliebe auswandern
+               oder sterben, wenn unsre Freunde aus<lb xml:id="I_64-23" rendition="#hyphen"/>wandern
+               oder sterben. Sie ist eine Sonne, deren Stralen der un<lb xml:id="I_64-24" rendition="#hyphen"/>wissende Barbar anbetet, und der Professor der Optik
+               zerspält. <lb n="25" xml:id="I_64-25"/> Klopfstok
+                  <metamark>[</metamark>!<metamark>]</metamark> mag allenfalls die Vaterlandsliebe
+               besingen, und ein <note corresp="#I_64-26">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002139">
+                        <persName> Friedrich Gottlieb <name type="reg">Klopstock</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_64-26"/>Schweizer sie hegen. Auch ists eine bekante Bemerkung, daß die
+               Liebe <note corresp="#I_64-27">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-0062720">
+                        <placeName>Schweizer; Schweiz </placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="I_64-27"/>eines Lands sich wenig mit seiner Aufklärung vertrage, und daß
+               — <lb xml:id="I_64-28"/>Ich werde nie ein Opfer und Bewoner des meinigen werden.
+                  Vor<note corresp="#I_64-29">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005575">
+                        <placeName>Bayreuth, Markgrafschaft </placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="I_64-29" rendition="#hyphen"/>züglich, da ich weder Teologie studire und
+               keines Amts fähig bin; solten <lb n="30" xml:id="I_64-30"/> aber in der weiten Welt
+               meiner satirischen Geisel törichte Rükken <lb xml:id="I_64-31"/>felen, so würd’ ich
+               auf Extrapost in mein geliebtes Vaterland hin<lb xml:id="I_64-32" rendition="#hyphen"/>eilen. — Eben diese Untreue an der Teologie macht mich unfähig, Ihr <lb xml:id="I_64-33"/>überaus gütiges Anerbieten zu etwas zu benüzen als zur Vermerung
+                  <lb xml:id="I_64-34"/>meiner Dankbarkeit. <lb n="35" xml:id="I_64-35"/>
+            </p>
+            <p>Entschuldigen Sie beim Pfarrer in Rehau mein Stilschweigen
+                  <metamark>[</metamark>da<note corresp="#I_64-36">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004474">
+                        <persName> Erhard Friedrich <name type="reg">Vogel</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006182">
+                        <placeName>Rehau, Oberfranken</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="I_64-36" rendition="#hyphen"/>mit<metamark>]</metamark>, womit ich die
+               Feler dieses Briefes entschuldigen mus, mit der <lb xml:id="I_64-37"/> Verfertigung
+               meines Buchs nämlich, das allen andern Geschäften <note corresp="#I_65-1">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010724">
+                        <title>Grönländische Prozesse, oder Satirische Skizzen (1783, 1822)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_65-1"/>Zeit und Kräfte wegfrist, um in 12
+                  <metamark>[</metamark>?<metamark>]</metamark> Monaten 14 Bogen dikker zu <lb xml:id="I_65-2"/>werden. Man mus hierin die Frauen nachamen, die sich in den Be<lb xml:id="I_65-3" rendition="#hyphen"/>schwerlichkeiten der Schwangerschaft und
+               Geburt mit der Hofnung <lb xml:id="I_65-4"/>auf die Schwelgerei im Kindbet trösten.
+                  <lb n="5" xml:id="I_65-5"/>
+            </p>
+            <p>Hier würd’ ich meinen Brief, der so ler wie der Kopf und der <lb xml:id="I_65-6"/>Beutel eines Poeten ist, schliessen, wenn Sie den Ihrigen nicht so <lb xml:id="I_65-7"/>angenem geschlossen hätten. One einen schwedenborgischen Traum
+                  <note corresp="#I_65-8">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004222">
+                        <persName> Emanuel von <name type="reg">Swedenborg</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_65-8"/>bei den Lokken herzuziehen etc. bitt’ ich Sie, mich Ihrer
+               vortreflichen <lb xml:id="I_65-9"/>Freundin mit aller der Wärme zu empfelen, mit der
+               Sie sie lieben und <note corresp="#I_65-10">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000851">
+                        <persName> Friederike Karoline Sophie Eleonore <name type="reg">Doppelmaier
+                           </name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="10" xml:id="I_65-10"/>ich sie verere. Zu diesem allem wolt’ ich noch
+               hinzusezen, daß Sie nun <lb xml:id="I_65-11"/>in demselben Zimmer eine vortrefliche
+               Lobrede und eine schlechte <lb xml:id="I_65-12"/>Satire auf das schöne Geschlecht
+               besizen — daß ferner die Mytologie <lb xml:id="I_65-13"/>eine himlische und dan eine
+               irdische Venus kent, davon die leztere in <note corresp="#I_65-14">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004418">
+                        <persName>
+                           <name type="reg">Venus </name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_65-14"/>Leipzig von 1000 Priesterinnen angebetet wird, die man nicht
+               Weiber <note corresp="#I_65-15">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005948">
+                        <placeName>Leipzig</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb n="15" xml:id="I_65-15"/>sondern Damen nent, und davon die erstere nur Eine —
+               doch dies alles <lb xml:id="I_65-16"/>mag ich nicht hinzusezen, weil Voltaire sagt,
+               man mus nicht iede <note corresp="#I_65-17">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004505">
+                        <persName> (François Marie Arouet) <name type="reg">Voltaire</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_65-17"/>Warheit sagen. — Ungeachtet Ihnen mein Buch schon einige
+                  <metamark>[</metamark>Lang<note corresp="#I_65-18">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010724">
+                        <title>Grönländische Prozesse, oder Satirische Skizzen (1783, 1822)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_65-18" rendition="#hyphen"/>weile<metamark>]</metamark> macht, so wil
+               ich Ihnen doch nächstens mit einem andern Briefe <lb xml:id="I_65-19"/>noch einige
+               machen. etc.<lb n="20" xml:id="I_65-20"/>
+               <lb xml:id="I_65-21"/>
+            </p>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">K</hi> (Konzept, am Schluß Kopie): 5. [am Schluß datiert:]</hi>
+               Den 14 Apr. <lb/>
+               <hi rendition="#aq">
+                  <hi rendition="#i">i</hi>: Wahrheit 3,234×. Voran geht ein nicht verwerteter
+                  Anfang:</hi> Ihr Brief <lb/>enthült mir die Schönheit Ihres Herzens so ser, daß
+               ich die Schönheit des Kopfes <lb/>übersehe. — Man befürchtet vom Satiriker
+               Unempfindlichkeit; aber die Gallen<lb rendition="#hyphen"/>blase, aus der die Satire
+               schöpft, ist weit entfernt vom Herzen, das nur liebt; <lb/>sie mus darein erst durch
+               die Adern, grosse Holader <hi rendition="#aq">[aus</hi> Aorte] kommen. <hi rendition="#b">
+                  <hi rendition="#aq">63</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">17</hi>
+               <lb/>meiner Briefe] <hi rendition="#aq">aus</hi> dieser Zeilen <hi rendition="#rkd">20</hi> scheint] <hi rendition="#aq">danach gestr.</hi> aber bei mir gewis
+               <lb/>verträgt <hi rendition="#rkd">23</hi> Wenn] <hi rendition="#aq">davor
+                  gestr.</hi> Jeden gekünstelten Ausdruk meiner Empfindung <lb/>übersezen Sie sich
+               daher in iene simple Sprache <hi rendition="#rkd">24</hi> Ergiessungen] <hi rendition="#aq">aus</hi> Empfin<lb rendition="#hyphen"/>dungen <hi rendition="#rkd">25</hi> meine Ursache] <hi rendition="#aq">aus</hi> die
+               Entschuldigung <hi rendition="#rkd">28</hi>
+               <hi rendition="#aq">f.</hi> gewis überzeugt bin] <lb/>
+               <hi rendition="#aq">aus</hi> Ihnen ganz glaube <hi rendition="#rkd">31</hi> um <hi rendition="#aq">bis</hi> zanken] <hi rendition="#aq">aus</hi> one Gründe empfindet
+               und zankt <lb/>
+               <hi rendition="#b">
+                  <hi rendition="#aq">64</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">1</hi> Sie sind <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">2</hi> Anteil] <hi rendition="#aq">nachtr. anstelle von</hi> Aus
+               diesem werden Sie den <lb/>Anteil ersehen <hi rendition="#rkd">4</hi> Mir <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">6</hi> leben.] <hi rendition="#aq">nachtr.</hi>
+               <hi rendition="#rkd">9</hi> wo <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">10</hi> liebt] <hi rendition="#aq">aus</hi> wo Ihr Kopf
+               <lb/>einen Gönner, und Ihr Herz einen Freund antrift <hi rendition="#rkd">13</hi> Die
+                  <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">15</hi> wird.] <hi rendition="#aq">nachtr. <lb/>anstelle
+                  von</hi> Die Teologen behaupten die Gleichgültigkeit des Begräbnisses<lb rendition="#hyphen"/>ortes <metamark>[</metamark>!<metamark>]</metamark> durch das
+               Sprüchelgen:.... ich tue dasselbe bei dem Geburtsort. <lb/>
+               <hi rendition="#rkd">22</hi> Auch <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">25</hi> zerspält.] <hi rendition="#aq">nachtr. anstelle von</hi>
+               — auch würde daraus folgen, daß <lb/>meine Vaterlandliebe mit meinen Anverwandten
+               auswandern und sterben <lb/>müste.. <hi rendition="#rkd">27</hi> Schweizer] <hi rendition="#aq">aus</hi> Republikaner <hi rendition="#rkd">32</hi>
+               <hi rendition="#aq">f.</hi> hineilen] <hi rendition="#aq">vielleicht</hi> heimeilen <lb/>
+               <hi rendition="#b">
+                  <hi rendition="#aq">65</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">6–20</hi>
+               <hi rendition="#aq">nachtr. anstelle von</hi> Ich wil gleich das Ende Ihres Briefs
+               beantworten <lb/>und das Schönste desselben. Ich mag Ihr schönes Lob „eine selten
+               gute, liebe <lb/>Gattin“ mit keiner galanten <hi rendition="#aq">[aus</hi> durch
+               keine höfliche] Schminke bekleksen, und <lb/>one einen schwedenborgischen Traum an
+               den Lokken herzuziehen, bitte ich Sie, <lb/>eine Freundin, die eine so beredte <hi rendition="#aq">[aus</hi> ware] Lobrede des Geschlechts ist, auf das <lb/>ich eine
+               ziemlich schlechte Satire gemacht, <hi rendition="#aq">[abgebrochen]</hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">65</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">8</hi>
+               <hi rendition="#aq">
+                  <hi rendition="#g">schwedenborgischen Traum:</hi> vgl. <hi rendition="#b">62</hi>,<hi rendition="#rkd">7</hi>f. <hi rendition="#rkd">13</hi>
+                  <hi rendition="#g">Satire auf das <lb/>schöne Geschlecht:</hi> im 1. Band der
+                  Grönländischen Prozesse.</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
