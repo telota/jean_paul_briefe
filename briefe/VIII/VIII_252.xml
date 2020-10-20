@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VIII_252">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="256">252. An König Max Joseph von Bayern. </title>
+            <title n="digital">An Maximilian IV. Joseph. Bayreuth, Anfang März 1822.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=VIII_252</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/VIII/VIII_252</idno>
+               <idno type="TELOTAID">VIII_252</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <biblScope n="text" unit="page">
+                  <num>153</num>
+                  <num>154</num>
+                  <num>155</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>376</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+               <p>Konzept für Heydel</p>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date notBefore="1822-03-01" notAfter="1822-03-10">Anfang März 1822</date>
+               <placeName key="JP-005574" ref="http://www.geonames.org/2951825">Bayreuth</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-002694" ref="http://d-nb.info/gnd/118579428">
+                  <name type="reg">Maximilian IV. Joseph</name>
+               </persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VII_129">13. Dezember
+                  1815</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <note type="ig">Konzept für Heydel</note>
+            <dateline>
+               <hi rendition="#right">
+                  <metamark>[</metamark>
+                  <placeName>Bayreuth</placeName>, <date>Anfang März 1822</date>
+                  <metamark>]</metamark>
+               </hi>
+            </dateline>
+            <note corresp="#VIII_153-2">
+               <listPerson type="lineReference">
+                  <person corresp="#JP-001742">
+                     <persName>
+                        <name type="reg">Heydel</name>
+                     </persName>
+                  </person>
+               </listPerson>
+            </note>
+            <lb xml:id="VIII_153-2"/>
+            <p>
+               <hi rendition="#c">
+                  <hi rendition="#aq">p. p.</hi>
+               </hi>
+            </p>
+            <lb xml:id="VIII_153-3"/>
+            <p>Dem Throne des gütigsten Königs, welchen ein beglücktes Reich um<lb xml:id="VIII_153-4" rendition="#hyphen"/>gibt, muß sich traurig mit Bitten ein
+               Staatsdiener zu nähern wagen,<lb n="5" xml:id="VIII_153-5"/>welchem ein
+               fortberaubendes Misgeschick aus 35 Dienstjahren nichts als<lb xml:id="VIII_153-6"/>das Bewußtsein seines Diensteifers und die Hoffnung auf seinen König<lb xml:id="VIII_153-7"/>übrig gelassen — alles Übrige um ihn und seine Kinder her ist
+                  Dürftig<lb xml:id="VIII_153-8" rendition="#hyphen"/>keit und eine finster bewölkte
+               Zukunft.</p>
+            <lb xml:id="VIII_153-9"/>
+            <p>Euer K. Maj. geruhen allergnädigst, meine Leidensgeschichte ganz<lb n="10" xml:id="VIII_153-10"/>kurz zu vernehmen; denn es ist Pflicht, vor dem gütigsten
+               der Könige<lb xml:id="VIII_153-11"/>trübe Jahre in Zeilen zusammenzudrängen.</p>
+            <lb xml:id="VIII_153-12"/>
+            <p>Mein Vater, der Pfalzbaiersche Hofkriegsrath in <hi rendition="#aq">Manheim,</hi>
+                  hinter<note corresp="#VIII_153-13">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005995">
+                        <placeName>Mannheim </placeName>
+                     </place>
+                     <place corresp="#JP-0055695">
+                        <placeName>Pfalzbayern; Bayern </placeName>
+                     </place>
+                     <place corresp="#JP-0059950">
+                        <placeName>Rheinbrücke; Mannheim </placeName>
+                     </place>
+                     <place corresp="#JP-006191">
+                        <placeName>Rheinpfalz</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VIII_153-13" rendition="#hyphen"/>ließ fünf unerzogne Kinder und Armuth.
+               Im 13<hi rendition="#sup">ten</hi> Jahr wurde ich<lb xml:id="VIII_153-14"/>Kadet; und
+               diente dann als Offizier überhaupt 20 Jahre; und in den<lb n="15" xml:id="VIII_153-15"/>Feldzügen von 1800, 1805, 1806 und 1807 gegen Frankreich,
+                  Öst<note corresp="#VIII_153-16">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-00574610">
+                        <placeName>Politik, Krieg, Militär; Frankreich, französisch</placeName>
+                     </place>
+                     <place corresp="#JP-006097">
+                        <placeName>Österreich</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VIII_153-16" rendition="#hyphen"/>reich und Preußen. Das Bombardement von
+                  <hi rendition="#aq">Manheim</hi> nahm mir<note corresp="#VIII_153-17">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005995">
+                        <placeName>Mannheim </placeName>
+                     </place>
+                     <place corresp="#JP-006166">
+                        <placeName>Preußen, preußisch</placeName>
+                     </place>
+                     <place corresp="#JP-0059950">
+                        <placeName>Rheinbrücke; Mannheim </placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VIII_153-17"/>Armen durch Brand meine ganze Habe; und der nothwendige
+                  fünfjährige<lb xml:id="VIII_153-18"/>Aufwand als Regiments- und als
+               General-Adjutant häufte zu den alten<lb xml:id="VIII_153-19"/>Schulden neue an.<lb n="20" xml:id="VIII_153-20"/>
+            </p>
+            <p>Im J<metamark>[</metamark>ahre<metamark>]</metamark> 1807 wurde ich Oberzollbeamter
+               in <hi rendition="#aq">Wangen</hi> mit der Ein<note corresp="#VIII_153-21">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006387">
+                        <placeName>Wangen a. d. Argen</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VIII_153-21" rendition="#hyphen"/>nahme von 800 fl. und heirathete die
+               Tochter des gleichfalls armen Haupt<lb xml:id="VIII_153-22" rendition="#hyphen"/>manns <hi rendition="#aq">Bauer;</hi> voll Hoffnung und Wunsch, durch Sparen
+               abzuzahlen.</p>
+            <note corresp="#VIII_153-23">
+               <listPerson type="lineReference">
+                  <person corresp="#JP-000231">
+                     <persName>
+                        <name type="reg">Bauer</name>
+                     </persName>
+                  </person>
+               </listPerson>
+            </note>
+            <lb xml:id="VIII_153-23"/>
+            <p>Aber nach 5 Monaten rief mich aus dem wohlfeilen <hi rendition="#aq">Wangen</hi>
+                  die<note corresp="#VIII_153-24">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006387">
+                        <placeName>Wangen a. d. Argen</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VIII_153-24"/>Zufriedenheit meiner Obern nach <hi rendition="#aq">München</hi> als Zollbeamter. Die<note corresp="#VIII_153-25">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006040">
+                        <placeName>München</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb n="25" xml:id="VIII_153-25"/>Transportkosten — die Theuerung der Hauptstadt — die
+                  Einquar<lb xml:id="VIII_153-26" rendition="#hyphen"/>tierungen und meine
+               Unterstützung meiner alten Mutter machten mich<lb xml:id="VIII_153-27"/>von neuem
+               ärmer.</p>
+            <lb xml:id="VIII_153-28"/>
+            <p>Nach drittehalb schweren Jahren wurde ich 1809 als Zollinspektor<lb xml:id="VIII_153-29"/>mit 200 fl. Zulage auf den Frühling nach <hi rendition="#aq">Nürnberg</hi> und auf den Herbst<note corresp="#VIII_153-30">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006085">
+                        <placeName>Nürnberg</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb n="30" xml:id="VIII_153-30"/>nach <hi rendition="#aq">Bamberg</hi> bestimmt.</p>
+            <note corresp="#VIII_153-31">
+               <listPlace type="lineReference">
+                  <place corresp="#JP-005561">
+                     <placeName>Bamberg</placeName>
+                  </place>
+               </listPlace>
+            </note>
+            <lb xml:id="VIII_153-31"/>
+            <p>Die Glückssonne schien wieder durch die Wolken meines Lebens zu<lb xml:id="VIII_153-32"/>brechen; aber sie verschwand sogleich darhinter. Denn als
+               ich schon nach<lb xml:id="VIII_153-33"/>dem Verkauf des Hausgeräthes und nach allen
+               Opfern reisefertig da<lb xml:id="VIII_153-34" rendition="#hyphen"/>stand: begann der
+               östreichische Krieg — und ich blieb noch ein Jahr in<note corresp="#VIII_153-35">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006097">
+                        <placeName>Österreich</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb n="35" xml:id="VIII_153-35"/>
+               <hi rendition="#aq">München</hi> ohne Gehaltszulage.</p>
+            <note corresp="#VIII_153-36">
+               <listPlace type="lineReference">
+                  <place corresp="#JP-006040">
+                     <placeName>München</placeName>
+                  </place>
+               </listPlace>
+            </note>
+            <lb xml:id="VIII_153-36"/>
+            <p>Endlich kam ich als Oberzollbeamter nach <hi rendition="#aq">Cronach,</hi> aber die
+                  Gehalts<note corresp="#VIII_154-1">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005927">
+                        <placeName>Kronach in Oberfranken</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VIII_154-1" rendition="#hyphen"/>zulage blieb mir blos versprochen.</p>
+            <lb xml:id="VIII_154-2"/>
+            <p>Nach 10 Monaten kam ich als Oberzollbeamter nach <hi rendition="#aq">Bamberg;</hi>
+               <note corresp="#VIII_154-3">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005561">
+                        <placeName>Bamberg</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VIII_154-3"/>aber noch ohne Zulage; bis ich endlich nach dem 5<hi rendition="#sup">ten</hi> Monat eine von<lb xml:id="VIII_154-4"/>400 fl. erhielt.
+               Nun aber mußte ich dem <hi rendition="#aq">Aerar</hi> die erhaltenen Umzugs<lb n="5" xml:id="VIII_154-5" rendition="#hyphen"/>kosten von 300 fl. bei dem Versetzen von
+                  <hi rendition="#aq">München</hi> nach <hi rendition="#aq">Cronach</hi> und<note corresp="#VIII_154-6">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005927">
+                        <placeName>Kronach in Oberfranken</placeName>
+                     </place>
+                     <place corresp="#JP-006040">
+                        <placeName>München</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VIII_154-6"/>von da nach <hi rendition="#aq">Bamberg</hi> wieder
+               zurückzahlen.</p>
+            <note corresp="#VIII_154-7">
+               <listPlace type="lineReference">
+                  <place corresp="#JP-005561">
+                     <placeName>Bamberg</placeName>
+                  </place>
+               </listPlace>
+            </note>
+            <lb xml:id="VIII_154-7"/>
+            <p>An dieses Unglück schloß sich ein größeres an, die Wiedererstattung<lb xml:id="VIII_154-8"/>von 500 fl., deren Raub aus meinem Geschäftszimmer
+                  (wahrscheinlich<lb xml:id="VIII_154-9"/>in der Meßzeit während des Zudrangs der
+               Zollpflichtigen) ich erst spät<lb n="10" xml:id="VIII_154-10"/>unter dem arbeitvollen
+               Ordnen der verworrenen Registratur von<lb xml:id="VIII_154-11"/>170,000 fl.
+               wahrnahm.</p>
+            <lb xml:id="VIII_154-12"/>
+            <p>Jetzt hatten meine wahrhaft <hi rendition="#g">unverschuldeten</hi> Schulden,
+                  womit<lb xml:id="VIII_154-13"/>mich Unglück und Zinsenwucher zugleich beluden, die
+               schreckliche Höhe<lb xml:id="VIII_154-14"/>von 4000 fl. erreicht, gegen welche ich
+               nur durch einen gerichtlichen<lb n="15" xml:id="VIII_154-15"/>Vergleich jährlicher
+               successiver Abzahlung aus meinem Gehalte eine<lb xml:id="VIII_154-16"/>schmerzliche
+               Hülfe fand.</p>
+            <lb xml:id="VIII_154-17"/>
+            <p>Mit einem ⅔ Gehalte nun zu leben nebst vier Kindern — unter<lb xml:id="VIII_154-18"/>Einquartierungen — durch die Hungerjahre 1816 und 1817 hindurch —<lb xml:id="VIII_154-19"/>hieß nicht leben, sondern leiden.<lb n="20" xml:id="VIII_154-20"/>
+            </p>
+            <p>Endlich wurde ich 1818 aus dem theuern <hi rendition="#aq">Bamberg</hi> wieder
+               versetzt zur<note corresp="#VIII_154-21">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005561">
+                        <placeName>Bamberg</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VIII_154-21"/>Errichtung des dritten Oberzollamtes, nach <hi rendition="#aq">Miltenberg,</hi> blos um drei<note corresp="#VIII_154-22">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006026">
+                        <placeName>Miltenberg</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VIII_154-22"/>Hoffnungen getäuscht zu sehen, erstlich die der
+               Wohlfeilheit, zweitens die<lb xml:id="VIII_154-23"/>Hoffnung einer Bildung für meine
+               Kinder, da das Gymnasium auf<lb xml:id="VIII_154-24" rendition="#hyphen"/>gehoben und
+               alle Schulen entfernt waren. Eine dritte Hoffnung ging<lb n="25" xml:id="VIII_154-25"/>verloren, jedoch nur für mich, nicht für den Staat.</p>
+            <lb xml:id="VIII_154-26"/>
+            <p>Ich vermuthete nämlich große Zolldefraudazionen bei der Holz<lb xml:id="VIII_154-27" rendition="#hyphen"/>Ausfuhr auf dem Main; — und fand nach einer
+                  vierzehntägigen<note corresp="#VIII_154-28">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005989">
+                        <placeName>Main</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VIII_154-28"/>Arbeit von Abmessung, Abzählung und Berechnung
+                  ungeheuerer<lb xml:id="VIII_154-29"/>Massen der verschiedensten Holzgattungen —
+               eine Arbeit, die mich ein<lb n="30" xml:id="VIII_154-30" rendition="#hyphen"/>mal in
+               Lebensgefahr, in den Mainstrom stürzte — eine solche Menge<note corresp="#VIII_154-31">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005989">
+                        <placeName>Main</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VIII_154-31"/>von Defraudanten, daß mir gerichtlich nach Werth-Maßgabe
+                  des<lb xml:id="VIII_154-32"/>Objektes nach der Vorschrift des Gesetzes ein mehr
+               als 1200 fl. be<lb xml:id="VIII_154-33" rendition="#hyphen"/>tragender <hi rendition="#aq">Denunciations</hi>-Antheil zuerkannt wurde.</p>
+            <lb xml:id="VIII_154-34"/>
+            <p>Aber mein Misgeschick entwandte mir wieder diesen Antheil; das<lb n="35" xml:id="VIII_154-35"/>Amts-Personale neidete, klagte und kehrte eine spätere, im
+                  Oktober<lb xml:id="VIII_154-36"/>1819 zur Zeit meiner Entdeckung gar noch nicht
+               geborene Verfügung,<lb xml:id="VIII_154-37"/> welche den <hi rendition="#aq">Denunciations</hi>-Antheil an das ganze Personale vertheilt,<lb xml:id="VIII_155-1"/>gegen mich und ich bekam nur den sechsten Theil und die fünf
+                  müßigen<lb xml:id="VIII_155-2"/>Zuschauer die übrigen fünf Theile.</p>
+            <lb xml:id="VIII_155-3"/>
+            <p>Nach 21 Bittmonaten kam ich als Oberzollbeamter nach <hi rendition="#aq">Baireut</hi>
+               <note corresp="#VIII_155-4">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005574">
+                        <placeName>Bayreuth (Stadt)</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VIII_155-4"/>mit 1200 fl. Gehalt, wovon ich jährlich an meine Gläubiger
+               400 fl.<lb n="5" xml:id="VIII_155-5"/>vertragmäßig zahle. Aber auch diese letzte <hi rendition="#aq">Station</hi> sollte gleichsam meine<lb xml:id="VIII_155-6"/>siebente Leidens-<hi rendition="#aq">Station</hi> werden; indem eine vorjährige
+                  Verordnung<lb xml:id="VIII_155-7"/>allen Kassenbeamten ein Amtsbürgschafts-Kapital
+               von 800 fl. auf<lb xml:id="VIII_155-8" rendition="#hyphen"/>erlegt, wofür ich wieder
+               ⅙ Abzug von meinem schon mit Abzug ver<lb xml:id="VIII_155-9" rendition="#hyphen"/>minderten Gehalte geben muß. — —<lb n="10" xml:id="VIII_155-10"/>
+            </p>
+            <p>Und so stehe ich denn in der Nacht meines Schicksals mit nassen<lb xml:id="VIII_155-11"/>Augen, aber mit kindlichem Herzen vor dem Vater des
+                  Vaterlands<lb xml:id="VIII_155-12"/>und mit der letzten, aber desto stärkeren
+               Hoffnung auf seinen Gnaden<lb xml:id="VIII_155-13" rendition="#hyphen"/>blick,
+               welcher als Sonnenblick mein kaltes überwölktes Leben durch<lb xml:id="VIII_155-14" rendition="#hyphen"/>dringt und erleuchtet.<lb n="15" xml:id="VIII_155-15"/>
+            </p>
+            <p>Alles war bisher in diesem düstern Leben Verarmung — meine<lb xml:id="VIII_155-16"/>Geburt war eine — meine militärische Laufbahn war eine — jede Ver<lb xml:id="VIII_155-17" rendition="#hyphen"/>setzung wurde zu einer Zurücksetzung;
+               und sogar die Zwischenakte des<lb xml:id="VIII_155-18"/>Schicksals plünderten den
+               Verarmten.</p>
+            <lb xml:id="VIII_155-19"/>
+            <p>Jetzo hebe ich in meinem 48<hi rendition="#sup">ten</hi> Lebens- und Leidensjahre mit
+                  meiner<lb n="20" xml:id="VIII_155-20"/>nachleidenden Gattin und mit vier
+               unerzognen Kindern die Hände zu<lb xml:id="VIII_155-21"/>Ew. M. bittend auf, und zwar
+               zum erstenmale, ob mir gleich in früherer<lb xml:id="VIII_155-22"/>Zeit das hohe
+               Glück, Ihnen persönlich bekannt zu werden, und schon<lb xml:id="VIII_155-23"/>meiner
+               seel. Mutter das zweite geworden, von Ihrer Huld jährliche<lb xml:id="VIII_155-24"/>Hülfe zu empfangen.<lb n="25" xml:id="VIII_155-25"/>
+            </p>
+            <p>Mein Unglück hat für mich gesprochen; das Herz meines Königs wird<lb xml:id="VIII_155-26"/>antworten.<lb xml:id="VIII_155-27"/>
+            </p>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">K</hi> (Konzept): SBB, Nachlass Jean Paul, Fasz. 26. 6⅔ S. 4°.
+                  Zahlreiche Korrekturen.</hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Vgl. Nr. 253 und 256. <hi rendition="#b">153</hi>,<hi rendition="#rkd">17</hi>
+                  <hi rendition="#g">Bombardement von Mannheim:</hi>
+                  <lb/>im November</hi>
+               <hi rendition="#aq">1795.</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VIII_132">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="133">*132. An Max Richter in Heidelberg. </title>
+            <title n="digital">An Max Richter. Bayreuth, 25. Dezember 1820.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=VIII_132</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/VIII/VIII_132</idno>
+               <idno type="TELOTAID">VIII_132</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <biblScope n="text" unit="page">
+                  <num>86</num>
+                  <num>87</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>354</num>
+                  <num>355</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+               <p>Druck</p>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1820-12-25">25. Dezember 1820</date>
+               <placeName key="JP-005574" ref="http://www.geonames.org/2951825">Bayreuth</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-003490" ref="http://d-nb.info/gnd/116512636">
+                  <name type="reg">Richter</name> Max </persName>
+               <placeName key="JP-005819" ref="http://www.geonames.org/2907911">Heidelberg</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VIII_128">18. Dezember
+                  1820</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VIII_146">20. Februar
+                  1821</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <dateline>
+               <hi rendition="#right">
+                  <hi rendition="#aq">
+                     <placeName>Baireut</placeName> d. <date>25 Dec. 1820</date>
+                  </hi>
+               </hi>
+            </dateline>
+            <lb xml:id="VIII_86-23"/>
+            <p>Mein guter Max! Deine Briefe haben mich sehr erfreuet und gerührt.<lb xml:id="VIII_86-24"/>Aber die theologische Kanne-gießerei, die du bei <hi rendition="#aq">Feuerbach</hi> einsaugst,<note corresp="#VIII_86-25">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001068">
+                        <persName> Joseph Anselm <name type="reg">Feuerbach</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-002022">
+                        <persName>
+                           <name type="reg">Kanne</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-002021">
+                        <persName> Johann Arnold <name type="reg">Kanne</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="25" xml:id="VIII_86-25"/>beängstigt mich für deine Jugend; eine
+               unwiederbringliche Zeit, die du<lb xml:id="VIII_86-26"/>heiter ohne Mönchgrillen
+               zubringen mußt, wenn nicht meine Erwar<lb xml:id="VIII_86-27" rendition="#hyphen"/>tungen von dir untergehen sollen. Dieser immer und ewig einseitige<lb xml:id="VIII_86-28"/>Kanne ist gerade so schwärmerisch in seiner Theologie und
+                  sinnlosen<note corresp="#VIII_86-29">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002022">
+                        <persName>
+                           <name type="reg">Kanne</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-002021">
+                        <persName> Johann Arnold <name type="reg">Kanne</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_86-29"/>Typologie und in dem erbärmlichen Leben seiner Heiligen, wie
+               ers in seinen<lb n="30" xml:id="VIII_86-30"/>„Urkunden“ war, wo er alle historische
+               Personen des Alten Testaments<note corresp="#VIII_86-31">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010368">
+                        <author/>
+                        <title>Testament, Altes</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VIII_86-31"/>für bloße astronomische Zeichen 〈Sinnbilder〉 ansah. Studiere
+               doch die<lb xml:id="VIII_86-32"/> Entstehung 〈Geschichte〉 des Christenthums, der
+               Evangelien und<note corresp="#VIII_87-1">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000629" ana="ff">
+                        <persName>
+                           <name type="reg">Christen</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_87-1"/>Apostelbriefe, die man erst am Ende des 2<hi rendition="#sup">ten</hi> Jahr-<hi rendition="#g">Hunderts</hi> zum<note corresp="#VIII_87-2">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010237">
+                        <author/>
+                        <title>Evangelien</title>
+                     </bibl>
+                     <bibl corresp="#JP-008038">
+                        <author>Apostel, Jünger</author>
+                        <title>Briefe</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VIII_87-2"/>Theil durch Irenäus kennen lernte, und eigentlich ihr
+               Verzeichnis An<note corresp="#VIII_87-3">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001891">
+                        <persName>
+                           <name type="reg">Irenäus von Lyon</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_87-3" rendition="#hyphen"/>fangs des 3<hi rendition="#sup">ten</hi>
+               durch Origenes. Siehe nach, wie diese Apostel noch<note corresp="#VIII_87-4">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000111" ana="ff">
+                        <persName>
+                           <name type="reg">Apostel</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003078">
+                        <persName>
+                           <name type="reg">Origenes</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_87-4"/>immer eingeschränkte Juden (eine erbärmliche, unmoralische
+               Sekte mit<note corresp="#VIII_87-5">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001977">
+                        <persName>
+                           <name type="reg">Juden</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="5" xml:id="VIII_87-5"/>ihrem zornigen Jehova) blieben und z. B. Hurerei und
+               Blutspeisen mit<note corresp="#VIII_87-6">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001940">
+                        <persName>
+                           <name type="reg">Jehova</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_87-6"/>gleicher Wärme verboten (Apost.-Gesch. 15, 20), oder wie sie,
+               z. B.<note corresp="#VIII_87-7">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008037">
+                        <author>Apostel</author>
+                        <title>Apostelgeschichte</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VIII_87-7"/>Paulus mit Petrus, unter einander zankten oder Paulus sich
+               wider sie<note corresp="#VIII_87-8">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003166">
+                        <persName>
+                           <name type="reg">Paulus</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003199">
+                        <persName>
+                           <name type="reg">Petrus</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_87-8"/>lobte (2 Epist. an die Korinther K. 11. 12.), oder wie sie
+               einen 12<hi rendition="#sup">ten</hi>
+               <lb xml:id="VIII_87-9"/>Apostel durch das Loos wählten. In allen Reden Christi ist
+               kein Wort<note corresp="#VIII_87-10">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000634">
+                        <persName>
+                           <name type="reg">Christus</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="10" xml:id="VIII_87-10"/>von der wahnsinnigen Lehre von allen mit Adam
+               zugleich mitfallenden<note corresp="#VIII_87-11">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000019">
+                        <persName>
+                           <name type="reg">Adam</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_87-11"/>〈gefallenen〉 Seelen oder gar von der Genugthuung. Gott
+               bekehre dich<lb xml:id="VIII_87-12"/>zu dem heitern Christenthum eines Herders,
+               Jacobi, Kant. Lies doch<note corresp="#VIII_87-13">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001675">
+                        <persName> Johann Gottfried von <name type="reg">Herder</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-001909">
+                        <persName> Friedrich Heinrich <name type="reg">Jacobi</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-002024">
+                        <persName> Immanuel <name type="reg">Kant</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_87-13"/>Paulus Kommentar über die 3 Evangelien oder frage ihn
+               selber. Kanne<note corresp="#VIII_87-14">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002022">
+                        <persName>
+                           <name type="reg">Kanne</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-002021">
+                        <persName> Johann Arnold <name type="reg">Kanne</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010237">
+                        <author/>
+                        <title>Evangelien</title>
+                     </bibl>
+                     <bibl corresp="#JP-009367">
+                        <author>Paulus, Heinrich Eberhard Gottlob (1761-1851), Professor der
+                           Theologie in Heidelberg</author>
+                        <title>Kommentar über das Neue Testament (1800ff.)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VIII_87-14"/>ist ein schlechter Exeget und Historiker. Lies doch lieber,
+               wie ich in Leipzig,<note corresp="#VIII_87-15">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005948">
+                        <placeName>Leipzig</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb n="15" xml:id="VIII_87-15"/>1) Arrians Epiktet, 2) des liebenden Antonins
+               Selbstbetrachtungen und<note corresp="#VIII_87-16">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000146">
+                        <persName>
+                           <name type="reg">Arrian(os) </name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-000975">
+                        <persName>
+                           <name type="reg">Epiktet</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008034">
+                        <author>Antonin(us), Marcus Aurelius, römischer Kaiser</author>
+                        <title>Selbstbetrachtungen</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VIII_87-16"/>3) Plutarchs Biographien. Es gibt keine andere Offenbarung
+               als die<note corresp="#VIII_87-17">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009418">
+                        <author>Plutarch (um 46 - um 120 n. Chr.), Biograph und akademischer
+                           Philosoph</author>
+                        <title>Biographien</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VIII_87-17"/>noch fortdauernde; und ein Christ wie <hi rendition="#aq">Herder</hi> steht höher als Petrus.<note corresp="#VIII_87-18">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001675">
+                        <persName> Johann Gottfried von <name type="reg">Herder</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003199">
+                        <persName>
+                           <name type="reg">Petrus</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_87-18"/>Unsere ganze Orthodoxie ist wie der Katholizismus erst in
+               die Evangelien<note corresp="#VIII_87-19">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002064">
+                        <persName>
+                           <name type="reg">Katholiken </name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003082">
+                        <persName>
+                           <name type="reg">Orthodoxe</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010237">
+                        <author/>
+                        <title>Evangelien</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VIII_87-19"/>hinein getragen worden, und jedes Jahrhundert trägt seine
+               neuen An<lb n="20" xml:id="VIII_87-20" rendition="#hyphen"/>sichten hinein. Höre den
+               alten Voß über die erste Kirchengeschichte.<note corresp="#VIII_87-21">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004524">
+                        <persName> Johann Heinrich <name type="reg">Voß</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_87-21"/>O könnt’ ich doch bald über mein Werk gegen das
+               Überchristenthum! —<note corresp="#VIII_87-22">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010946">
+                        <title>Überchristentum [1817ff.]</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VIII_87-22"/>Mit dem neuern Mönchthum wirst du dir Freuden und Kräfte und
+                  Feuer<lb xml:id="VIII_87-23"/>abtödten und am Ende — nichts werden. Was mich
+               einigermaßen über<lb xml:id="VIII_87-24"/>deinen überchristlichen 〈<hi rendition="#aq">ultra</hi>-christlichen〉 Trübsinn beruhigen könnte,<lb n="25" xml:id="VIII_87-25"/>wäre etwa, daß er eine körperliche Quelle in deinem
+               übertriebnen Sitzen<lb xml:id="VIII_87-26"/>und Studieren hätte; freilich ein
+               schwacher Trost. Einige Jahre hält<lb xml:id="VIII_87-27"/>es die Jugendkraft aus und
+               du überflügelst manche um einige Jahre in<lb xml:id="VIII_87-28"/>Kenntnissen; aber
+               dann kommst du wie Kapp als Scheinlebendiger, nicht<note corresp="#VIII_87-29">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002028">
+                        <persName> Christian <name type="reg">Kapp</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_87-29"/>als Scheintodter, zu mir zurück, und gerade in den Jahren
+               der Vollreife,<lb n="30" xml:id="VIII_87-30"/>wo das Höchste errungen werden muß, im
+                  25<hi rendition="#sup">ten</hi>, 30<hi rendition="#sup">ten</hi>, sitzest du
+                  bleich<lb xml:id="VIII_87-31"/>und geknickt vor Arzneigläsern. Gott verschone mich
+               mit diesem Anblick!</p>
+            <lb xml:id="VIII_87-32"/>
+            <p>— Die Kränklichkeit des unersetzlichen Voß ängstigt mich; grüße mir<note corresp="#VIII_87-33">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004520">
+                        <persName> Heinrich <name type="reg">Voß</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_87-33"/>sie alle warm, die Guten ....</p>
+            <lb xml:id="VIII_87-34"/>
+            <p>Nun lebe wohl, theuerer Sohn, und das neue Jahr bringe dir neue<lb n="35" xml:id="VIII_87-35"/>Freuden mit.</p>
+            <lb xml:id="VIII_87-36"/>
+            <closer>
+               <salute>
+                  <hi rendition="#right">Richter</hi>
+                  <lb xml:id="VIII_87-37"/>
+               </salute>
+            </closer>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>: Wahrheit 8,287×. *<hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>: Max Richter Nr. 6×. <hi rendition="#i">B</hi>: IV.
+                  Abt., VIII, Nr. 80, 82-83.<lb/>
+                  <hi rendition="#i">A</hi>: IV. Abt., VIII, Nr.</hi>
+               <hi rendition="#aq">87. </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">86</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">25</hi>
+               </hi>
+               <hi rendition="#g">Kanne</hi>-Gießerei <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+               </hi>
+               <hi rendition="#sup">1</hi>
+               <hi rendition="#rkd">31</hi> historische] <hi rendition="#aq">so <hi rendition="#i">J</hi>
+               </hi>
+               <hi rendition="#sup">1</hi>, historischen <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+               </hi>
+               <hi rendition="#sup">2</hi>
+               <lb/>
+               <hi rendition="#b">
+                  <hi rendition="#aq">87</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">1</hi>
+               </hi> Geschichte der Entstehung <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>
+                  <hi rendition="#rkd">8</hi>f.</hi> wider sie lobte] rühmte <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+               </hi>
+               <hi rendition="#sup">1</hi>
+               <hi rendition="#rkd">13 </hi>Herder <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+               </hi>
+               <hi rendition="#sup">1</hi>
+               <lb/>
+               <hi rendition="#rkd">16</hi> Betrachtungen <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+               </hi>
+               <hi rendition="#sup">1</hi>
+               <hi rendition="#rkd">22</hi> über] an <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+               </hi>
+               <hi rendition="#sup">1</hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Maxens anfänglich heitere Stimmung in Heidelberg war bald in
+                  eine<lb/>depressive umgeschlagen; seine Briefe ergingen sich mehr und mehr
+                  in<lb/>kleinmütigen Selbstanklagen und krankhaft anmutenden
+                  religiösen<lb/>Schwärmereien. Er hatte sich einem eifrigen Bibelstudium ergeben
+                  und</hi>
+               <lb/>
+               <hi rendition="#aq">in seinem letzten Briefe den Vater gebeten, ihm seine Gedanken
+                  über<lb/>Bibelauslegung mitzuteilen: „Ich höre so vieles und Dein Urtheil ist
+                  mir<lb/>das einzig wahre.“ <hi rendition="#b">86</hi>,<hi rendition="#rkd">25</hi>
+                  Anselm <hi rendition="#g">Feuerbach</hi> (1798—1851), der Sohn<lb/>des
+                  Kriminalisten und Vater des Malers, hatte sich 1819 als Erlanger<lb/>Student unter
+                  dem Einfluß <hi rendition="#g">Kannes</hi> einer mystischen Theologie
+                  zugewandt<lb/>und war darüber in schwere Gemütsverstimmung verfallen. Jean Paul
+                  hatte<lb/>ihn in Löbichau kennengelernt (s. Persönl. Nr. 281). Er war im Herbst
+                  1820<lb/>gleichzeitig mit Max Richter nach Heidelberg gekommen, um dort Phi<lb rendition="#hyphen"/>lologie zu studieren; Max nennt ihn seinen „recht innigen
+                  Freund“; vgl.<lb/>Nr. 163†. <hi rendition="#rkd">30</hi>f. Gemeint sind <hi rendition="#g">Kannes</hi> „Leben und aus dem Leben merk<lb rendition="#hyphen"/>würdiger Christen“ (1816—17; vgl. II. Abt., IV, 310,<hi rendition="#rkd">25–29</hi>) und seine von<lb/>J. P. bevorworteten „Ersten Urkunden der
+                  Geschichte“ (1808, s. I. Abt.,<lb/>XVI, 281). <hi rendition="#b">87</hi>,<hi rendition="#rkd">8</hi>f. <hi rendition="#g">Paulus lobt sich:</hi> vgl. I.
+                  Abt., I, <hi rendition="#b">10</hi>,<hi rendition="#rkd">15–17</hi>. <hi rendition="#rkd">14</hi>
+                  <hi rendition="#g">Paulus’<lb/>Kommentar zu den Evangelien:</hi> vgl. Bd. VII, Nr.
+                     476,<hi rendition="#b">238</hi>,<hi rendition="#rkd">10</hi>†;
+                  Exzerpte<lb/>daraus Fasz. 2 c, Bd. 47. <hi rendition="#rkd">29</hi>
+                  <hi rendition="#g">Kapp:</hi> vgl. Nr. 318 und</hi>
+               <hi rendition="#aq">379.</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

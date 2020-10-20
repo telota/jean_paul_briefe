@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VIII_86">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="87">86. An Heinrich Voß in Heidelberg. </title>
+            <title n="digital">An Heinrich Voß. Bayreuth, 25. August 1820.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=VIII_86</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/VIII/VIII_86</idno>
+               <idno type="TELOTAID">VIII_86</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <biblScope n="text" unit="page">
+                  <num>61</num>
+                  <num>62</num>
+                  <num>63</num>
+                  <num>64</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>345</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+            <listPerson type="commentary">
+               <person corresp="#JP-004507">
+                  <persName> Abraham Sophus <name type="reg">Voß</name>
+                  </persName>
+               </person>
+            </listPerson>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1820-08-25">25. August 1820</date>
+               <placeName key="JP-005574" ref="http://www.geonames.org/2951825">Bayreuth</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-004520" ref="http://d-nb.info/gnd/100689590">
+                  <name type="reg">Voß</name> Heinrich</persName>
+               <placeName key="JP-005819" ref="http://www.geonames.org/2907911">Heidelberg</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VIII_80">19. Juli 1820 bis 31.
+                  Juli 1820</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VIII_91">30. August 1820</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <dateline>
+               <hi rendition="#right">
+                  <hi rendition="#aq">
+                     <placeName>Baireut</placeName> d. <date>25<hi rendition="#sup">ten</hi> Aug.
+                        1820</date>
+                  </hi>
+                  <metamark>[</metamark>Freitag<metamark>]</metamark>
+               </hi>
+            </dateline>
+            <lb n="25" xml:id="VIII_61-25"/>
+            <p>Mein geliebtester Heinrich! Wie wird dieser Komet ein Stern der<note corresp="#VIII_61-26">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010605" ana="ff">
+                        <title>Der Komet (1820-1822)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VIII_61-26"/>Liebe von mir gegen dich! Und wie führen alle seine Fehler
+               und Exzen<lb xml:id="VIII_61-27" rendition="#hyphen"/>trizitäten mich immer näher an
+               deinen Herzmittelpunkt! — Ich kann dir<lb xml:id="VIII_61-28"/>nicht sagen, wie ich
+               mich immer innerlich bedanke und schäme und so gern<lb xml:id="VIII_61-29"/>deiner
+               Mühen etwas weniger machte!<lb n="30" xml:id="VIII_61-30"/>
+            </p>
+            <p>Dein Brief vom 15<hi rendition="#sup">ten</hi>, also vom Dienstage, kam erst
+               vorgestern, also<lb xml:id="VIII_61-31"/>den 23<hi rendition="#sup">ten</hi> an;
+               hingegen dein vorvoriger am Mittwoch abgegangner<lb xml:id="VIII_61-32"/>schon
+               Sonnabends; schreibe also immer Mittwochs. — Wunderbar<lb xml:id="VIII_61-33"/>
+               erräthst, ergänzest und verbesserst du mich. Kümmere dich nur nicht um<lb xml:id="VIII_62-1"/>meine Hineinkorrektur; denn auch da schreib’ ich oft etwas
+               anderes als<lb xml:id="VIII_62-2"/>ich gewollt. — Deine Noten zum 1<hi rendition="#sup">ten</hi> Bande kann ich ihrer Kürze<lb xml:id="VIII_62-3"/>wegen
+               nicht im Mspt finden; und ich verlasse mich auf dein Treffen und<lb xml:id="VIII_62-4"/>höchstens auf das Druckfehler-Verzeichnis, da doch alles zu
+               spät wäre.<lb n="5" xml:id="VIII_62-5"/>Auch in deinen Bemerkungen über den 2<hi rendition="#sup">ten</hi> Band bewunderte ich deinen<lb xml:id="VIII_62-6"/>Restaurator-Geist. — Es wird doch kein Nachdrucker den 1<hi rendition="#sup">ten</hi> Band<lb xml:id="VIII_62-7"/>in <hi rendition="#aq">Frankfurt</hi>
+               erangeln? — Da der 2<hi rendition="#sup">te</hi> zu stark wird, so send’ ich dir<note corresp="#VIII_62-8">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005743">
+                        <placeName>Frankfurt a. M.</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VIII_62-8"/>nur noch Ein Blättchen nach, sammt der Vorrede über den
+                  Traum<note corresp="#VIII_62-9">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010616">
+                        <title>Der Komet (1820-1822): Vorrede zum 2. Bändchen
+                           (Traumgeber-Orden)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VIII_62-9" rendition="#hyphen"/>geberorden 〈welche aber nicht
+               vorreden-weit zu drucken ist〉, worüber<lb n="10" xml:id="VIII_62-10"/>du mir noch
+               nichts gesagt. —</p>
+            <lb xml:id="VIII_62-11"/>
+            <p>
+               <hi rendition="#g">Du allein</hi> veranlaßest durch dein Loben, daß ich mit frischer
+                  Freude<lb xml:id="VIII_62-12"/>gestärkt, den dritten Band zur Michaelis Messe 1821
+               liefere, zumal da so<lb xml:id="VIII_62-13"/>viel davon so gut wie geboren ist und da
+               gerade darin Gebäude auf<lb xml:id="VIII_62-14" rendition="#hyphen"/>treten, gegen
+               welche die zwei ersten Bändchen nur Vorstadthäuserchen<lb n="15" xml:id="VIII_62-15"/>aufführen. Ein Kain, oder ewiger Jude wird darin sprechen, der über<note corresp="#VIII_62-16">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001024">
+                        <persName>
+                           <name type="reg">Ewiger Jude</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-001998">
+                        <persName>
+                           <name type="reg">Kain </name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_62-16"/>dem Leibgeber aber grausend steht. — Auch die Charaktere
+               (sind sie klar<note corresp="#VIII_62-17">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010547">
+                        <title>Blumen- Frucht- und Dornenstükke (Blumen-, Frucht- und Dornenstücke)
+                           (Siebenkäs) (1796-97 [1796]): Leibgeber</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VIII_62-17"/>und recht?) müssen sich erst noch weiten und sich aus dem
+               Schlafe aus<lb xml:id="VIII_62-18" rendition="#hyphen"/>dehnen zum Handeln, besonders
+               Süptitz, Libette und Renovanz. Bei dem<lb xml:id="VIII_62-19"/>letzten schmerzet mich
+               die Namen-Gleichheit mit dem Rudolstädter<note corresp="#VIII_62-20">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006213" ana="†">
+                        <placeName>Rudolstadt</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb n="20" xml:id="VIII_62-20"/>Kunsthändler, da leider <hi rendition="#g">mein</hi>
+               Renovanz späterhin unendlich kunst-hart,<lb xml:id="VIII_62-21"/>kunstwarm und
+               herzkalt erscheinen muß. Ich kann nichts dafür, gegen den<lb xml:id="VIII_62-22"/>Zufall; — inzwischen darf ich mich doch
+                  <metamark>[</metamark>durch<metamark>]</metamark> dieses häßliche Namen<lb xml:id="VIII_62-23" rendition="#hyphen"/>Durchschneiden meines Kometen durch eine
+               fremde Bahn nicht an dem<lb xml:id="VIII_62-24"/>Laufenlassen desselben hindern
+               lassen. — Bei Gelegenheit! Du siehst,<lb n="25" xml:id="VIII_62-25"/>wie ich schon im
+               vertraulichsten Briefe mich verschreiben und verbessern<lb xml:id="VIII_62-26"/>muß.
+               — Mein <hi rendition="#aq">Max</hi> wird diesen Monat an meiner Brust ankommen,<note corresp="#VIII_62-27">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003490">
+                        <persName> Max <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_62-27"/>und zwar aus Salzburg, wohin ich ihm einen Ausflug erlaubt.
+                  <hi rendition="#aq">Thiersch</hi>
+               <note corresp="#VIII_62-28">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004281">
+                        <persName> Friedrich <name type="reg">Thiersch</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006230">
+                        <placeName>Salzburg</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VIII_62-28"/>geht nicht nach Italien, blos nach <hi rendition="#aq">Gotha</hi> u.s.w. Über meinen auf dem<note corresp="#VIII_62-29">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005791">
+                        <placeName>Gotha</placeName>
+                     </place>
+                     <place corresp="#JP-005872">
+                        <placeName>Italien</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VIII_62-29"/>Musenberg sicher horstenden <hi rendition="#aq">Max</hi> bin
+               ich in <hi rendition="#aq">Heidelberg</hi> gesichert<note corresp="#VIII_62-30">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005819">
+                        <placeName>Heidelberg</placeName>
+                     </place>
+                     <place corresp="#JP-006125">
+                        <placeName>Parnass, Musenberg</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb n="30" xml:id="VIII_62-30"/>genug. Nur dieß schreibe mir noch: wie die
+               sogenannten akademischen<lb xml:id="VIII_62-31"/>
+               <hi rendition="#aq">Rénoncen</hi> (eine erbärmliche Bezeichnung bei Rock- und
+                  Wort-Deut<note corresp="#VIII_62-32">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-0056716">
+                        <placeName>Sprache, Stil; Deutschland, deutsche</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VIII_62-32" rendition="#hyphen"/>schen) zwischen Burschen- und
+                  Landsman<metamark>[</metamark>n<metamark>]</metamark>schaft innen stehen, und
+                  ob<lb xml:id="VIII_62-33"/>sie eine eigne feste Klasse, oder nur eine schlechte
+               Parias-Kaste bilden.<lb xml:id="VIII_62-34"/>
+               <hi rendition="#aq">Max</hi> kommt nach einer kurzen Fußreise wahrscheinlich künftige
+                  Woche<note corresp="#VIII_62-35">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003490">
+                        <persName> Max <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="35" xml:id="VIII_62-35"/>hier an. — <hi rendition="#aq">Miedel</hi> geht vor
+               Angst nach Leipzig; <hi rendition="#aq">Welden</hi> wegen<note corresp="#VIII_62-36">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002820">
+                        <persName> Johann Friedrich Hermann <name type="reg">Miedel</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-004654">
+                        <persName> Karl Georg <name type="reg">Welden</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005948">
+                        <placeName>Leipzig</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VIII_62-36"/>Familienbanden nach Würzburg, <hi rendition="#aq">Max</hi>
+               zu dir. — Für den Damen<note corresp="#VIII_62-37">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003490">
+                        <persName> Max <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006422">
+                        <placeName>Würzburg</placeName>
+                     </place>
+                  </listPlace>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008269">
+                        <author>Cotta, Johann Friedrich (Hg.)</author>
+                        <title>Taschenbuch für Damen auf das Jahr (1798 ff.)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VIII_62-37" rendition="#hyphen"/> kalender hab’ ich eine Darstellung
+               meines Aufenthaltes in Löbichau ge<note corresp="#VIII_63-1">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005969">
+                        <placeName>Löbichau </placeName>
+                     </place>
+                  </listPlace>
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010556">
+                        <title>Briefblättchen an die Leserin des Damen-Taschenbuchs (1821)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VIII_63-1" rendition="#hyphen"/>liefert. — Neulich blieb ein armer
+               Student <hi rendition="#aq">Kornfeld</hi> aus Pesth mehre<note corresp="#VIII_63-2">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002214">
+                        <persName> Moritz <name type="reg">Kornfeld</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006135">
+                        <placeName>Pest </placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VIII_63-2"/>Wochen hier, um mich zu sehen und zu lesen, ein Studierender
+                  der<lb xml:id="VIII_63-3"/>Medizin und der Poesie; die Hauptsache aber war, daß
+               sein reicher<lb xml:id="VIII_63-4"/>Gönner, ein junger Kaufmann in Pesth, ihm die
+               Wahl gelassen, auf<note corresp="#VIII_63-5">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006135">
+                        <placeName>Pest </placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb n="5" xml:id="VIII_63-5"/>seine Kosten mit ihm nach Italien zu gehen oder hieher.
+               —</p>
+            <note corresp="#VIII_63-6">
+               <listPlace type="lineReference">
+                  <place corresp="#JP-005872">
+                     <placeName>Italien</placeName>
+                  </place>
+               </listPlace>
+            </note>
+            <lb xml:id="VIII_63-6"/>
+            <p>Jetzo zur Antwort auf deine trefflichen Fragen und Berichtigungen</p>
+            <note corresp="#VIII_63-7">
+               <listBibl type="lineReference" subtype="werke-jp">
+                  <bibl corresp="#JP-010605" ana="ff">
+                     <title>Der Komet (1820-1822)</title>
+                  </bibl>
+               </listBibl>
+            </note>
+            <lb xml:id="VIII_63-7"/>
+            <list>
+               <item>Seit. 7. hast du das „ob“ und alles richtig gemacht.</item>
+               <lb xml:id="VIII_63-8"/>
+               <item>S. 11. Der Maler heißt Hackert.</item>
+               <note corresp="#VIII_63-9">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001462">
+                        <persName> Jakob Philipp <name type="reg">Hackert</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_63-9"/>
+               <item>S. 17. Grunderde ist ein alchemischer Ausdruck.</item>
+               <lb n="10" xml:id="VIII_63-10"/>
+               <item>S. 4. Weylands Abenteuer.</item>
+               <note corresp="#VIII_63-11">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010078">
+                        <author>Weyland, Philipp Christoph (Christian?) (1766-1843), Beamter in
+                           Sachsen-Weimar und Schriftsteller</author>
+                        <title>Kleine Abenteuer zu Wasser und zu Land (1802-1810)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VIII_63-11"/>
+               <item>S. 19. allerdings sollte es heissen „verpfändete Marggrafschaft“.</item>
+               <lb xml:id="VIII_63-12"/>
+               <item>S. 25 lies: „wenn ich die Ehescheidung von seiner Frau und alle seine<lb xml:id="VIII_63-13"/>Schulden bezahlt habe.“</item>
+               <lb xml:id="VIII_63-14"/>
+               <item>S. 37 lies: „so daß wirklich für die Welt der Mensch ein Bissen (<hi rendition="#aq">bolus</hi>)<lb n="15" xml:id="VIII_63-15"/>ist, den ein
+                  organischer Leib nur zweimal verspürt, erstlich wenn<lb xml:id="VIII_63-16"/>er
+                  eintritt in den <hi rendition="#g">Schlund,</hi> zweitens, wenn er austritt aus<lb xml:id="VIII_63-17"/>dem <hi rendition="#g">After,</hi> zwischen beiden aber
+                  ungefühlt durch den ganzen<lb xml:id="VIII_63-18"/>Unterleib durchrückt.“</item>
+               <lb xml:id="VIII_63-19"/>
+               <item>S. 61. Lies: „Schon lange, lieber <hi rendition="#aq">M. Grimold de la
+                     Regnière,</hi> wollt’ ich<note corresp="#VIII_63-20">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-008576">
+                           <author>Grimod (Grimold) de la Reynière (Regnière), Alexander Balthasar
+                              Laurent (1758-1838), französischer Gastronom</author>
+                           <title>Almanach des Gourmands (1803-1812)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb n="20" xml:id="VIII_63-20"/>eine Hand drücken, die, obwol eine linke<note n="*)" place="foot">Am besten sagt’ ichs wol in einer Note deutlich, daß er die
+                     rechte verloren.</note>, (Sie sollten die rechte<lb xml:id="VIII_63-21"/>noch
+                  haben) Essern trefflich vorschneidet, so wie vorschreibt.“</item>
+               <lb xml:id="VIII_63-22"/>
+               <item>S. 77 „<hi rendition="#aq">Fi!</hi> Ob ichs weiß oder nicht.“ Dein <hi rendition="#aq">Sacre-dieu</hi> ginge zwar an<lb xml:id="VIII_63-23"/>sich an,
+                  und würde gerade ordentlich passen in den Zusammen<lb xml:id="VIII_63-24" rendition="#hyphen"/>hang; aber seine Flüche sollen eben immer in keinen und
+                     wider<lb n="25" xml:id="VIII_63-25"/>jeden passen.</item>
+               <lb xml:id="VIII_63-26"/>
+               <item>S. 82 Allerdings wär’s besser, wenn es nach dir hieße: „ich werde im<lb xml:id="VIII_63-27"/>Fürstenmantel Ihn etc. ansingen.“</item>
+               <lb xml:id="VIII_63-28"/>
+               <item>S. 88 „Zunge“ fand ich in meinen Exzerpten; aber doch ist Lunge<lb xml:id="VIII_63-29"/>wahrscheinlicher.</item>
+               <lb n="30" xml:id="VIII_63-30"/>
+               <item>S. 98 Der zinnene Paradesarg wog 42 Zentner; du hattest also Recht.</item>
+               <lb xml:id="VIII_63-31"/>
+               <item>S. 99. „Einleitung zur Ceremonial-Wissenschaft der großen Herrn etc. etc.<note corresp="#VIII_63-32">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-009515">
+                           <author>Rohr, Julius Bernhard von (1688-1742), Kameralist</author>
+                           <title>Einleitung zur Ceremonial-Wissenschaft (1729)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VIII_63-32"/>von Julio Bernhard von Rohr. 1729. Seit. 825.</item>
+            </list>
+            <lb xml:id="VIII_63-33"/>
+            <p>Nun grüße die Deinigen und Meinigen! — Habe Dank! — Lebe wol!</p>
+            <lb xml:id="VIII_63-34"/>
+            <closer>
+               <salute>
+                  <hi rendition="#right">Dein Richter<lb n="35" xml:id="VIII_63-35"/>
+                  </hi>
+               </salute>
+            </closer>
+            <lb xml:id="VIII_63-36"/>
+            <postscript>
+               <p>Nachschrift. Noch etwas mir Wichtiges! Im 6<hi rendition="#sup">ten</hi> Kapitel,
+                  wo die<lb xml:id="VIII_64-1"/>heitern Kirmeßgäste anlangen etc. etc., ließ ich
+                  doppelt-unrichtig den<lb xml:id="VIII_64-2"/>Apotheker im Zanke zu seinen 3
+                  Schwestern sagen: ihr drei Höllen<lb xml:id="VIII_64-3" rendition="#hyphen"/>flüsse. — Weg damit! Setze dafür: du milder schwesterlicher Dreizack —<lb xml:id="VIII_64-4"/>Oder auch später: ihr lieben 3 Höllenrichterinnen oder ihr
+                  heiligen Drei<lb n="5" xml:id="VIII_64-5"/>Königinnen.<lb xml:id="VIII_64-6"/>
+               </p>
+            </postscript>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Landesbibl. Eutin. 6 S. 8°. <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#sup">1</hi>: Voß 25 Aug. <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+                  <hi rendition="#sup">2</hi> (von Karolinens<lb/>Hand): Berlin JP. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>: Voß S. 112× (als Anfang von Nr. 91). <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>: Schnei<lb rendition="#hyphen"/>der Nr. 5×. <hi rendition="#i">A</hi>: IV. Abt., VIII, Nr.</hi>
+               <hi rendition="#aq">67. </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">61</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">27</hi>
+               </hi> gegen dich] zu dir <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#sup">1</hi>
+               <hi rendition="#rkd">30</hi> deiner Mühen] <hi rendition="#aq">aus</hi>
+               <lb/>deine Mühe <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">31</hi> vorgestern] <hi rendition="#aq">aus</hi> gestern <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">32</hi> vorvoriger] <hi rendition="#aq">aus</hi> voriger <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">33 </hi>Sonnabends] <hi rendition="#aq">aus</hi> am Sonnabend
+                  <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">62</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">3</hi>
+               </hi> ihrer Kürze] <hi rendition="#aq">aus</hi> Kürze und des<lb/>Abdrucks <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">5</hi> Druckfehler-] <hi rendition="#aq">aus</hi> Erraten- <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+                  <hi rendition="#rkd">12</hi>f.</hi> mit frischer Freude ge<lb rendition="#hyphen"/>stärkt] <hi rendition="#aq">aus</hi> frische Freude gewinnend <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">15</hi> gegen welche] <hi rendition="#aq">aus</hi> wogegen <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">25</hi> Laufenlassen desselben hindern lassen] <hi rendition="#aq">aus</hi> Lauflassen meines Schwanzsterns <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">31</hi> wie] <hi rendition="#aq">aus</hi> ob <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd"> 32 </hi>Rock-] <hi rendition="#aq">aus</hi> Tracht- <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">35</hi> Fußreise] <hi rendition="#aq">danach gestr.</hi>
+               <lb/>durch Salzburg <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">62</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">9</hi>
+               </hi>
+               <hi rendition="#aq">
+                  <hi rendition="#g">Ein Blättchen:</hi> s. I. Abt., XV, Einl. S. XXXVI. <hi rendition="#rkd">20</hi>f. <hi rendition="#g">Reno<lb rendition="#hyphen"/>vanz:</hi> es gab in Rudolstadt einen Hofbuch- und -kunsthändler
+                  Heinr.<lb/>Aug. Renovanz (1783—1843), worauf anscheinend Voß, dessen
+                  Bruder<lb/>Abraham dort lebte, J. P. aufmerksam gemacht hatte. <hi rendition="#g">Salzburg:</hi> vgl.<lb/>Bd. VII, Nr. 577,<hi rendition="#b">302</hi>,<hi rendition="#rkd">28</hi>
+                  <hi rendition="#b">63</hi>,<hi rendition="#rkd">2</hi>
+                  <hi rendition="#g">Kornfeld:</hi> vgl. Nr. 149†. <hi rendition="#rkd">8</hi>ff.
+                  Die betreffenden<lb/>Stellen finden sich I. Abt., XV, <hi rendition="#b">145</hi>,<hi rendition="#rkd">21</hi>, <hi rendition="#b">147</hi>,<hi rendition="#rkd">22</hi>, <hi rendition="#b">149</hi>,<hi rendition="#rkd">28</hi>, <hi rendition="#b">144</hi>,<hi rendition="#rkd">35</hi>, <hi rendition="#b">150</hi>,<hi rendition="#rkd">32</hi>,<lb/>
+                  <hi rendition="#b">153</hi>,<hi rendition="#rkd">12</hi>f., <hi rendition="#b">158</hi>,<hi rendition="#rkd">13–17</hi>, <hi rendition="#b">170</hi>,<hi rendition="#rkd">7–10</hi>, <hi rendition="#b">176</hi>,<hi rendition="#rkd">32</hi> (s. das Faksimile), <hi rendition="#b">178</hi>,<hi rendition="#rkd">27</hi>f., <hi rendition="#b">181</hi>,<hi rendition="#rkd">33</hi>,<lb/>
+                  <hi rendition="#b">182</hi>,<hi rendition="#rkd">23</hi>, <hi rendition="#b">186</hi>.35f., <hi rendition="#b">204</hi>,<hi rendition="#rkd">32</hi>f.,</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">205</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">18</hi>
+               </hi>
+               <hi rendition="#aq">.</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

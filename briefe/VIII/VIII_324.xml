@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VIII_324">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="328">324. An Heinrich Voß in Heidelberg. </title>
+            <title n="digital">An Heinrich Voß. Bayreuth, 6. August 1822.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=VIII_324</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/VIII/VIII_324</idno>
+               <idno type="TELOTAID">VIII_324</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <biblScope n="text" unit="page">
+                  <num>195</num>
+                  <num>196</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>392</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1822-08-06">6. August 1822</date>
+               <placeName key="JP-005574" ref="http://www.geonames.org/2951825">Bayreuth</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-004520" ref="http://d-nb.info/gnd/100689590">
+                  <name type="reg">Voß</name> Heinrich</persName>
+               <placeName key="JP-005819" ref="http://www.geonames.org/2907911">Heidelberg</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VIII_313">25. Juni 1822</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VIII_327">17. August 1822 bis
+                  18. August 1822</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <dateline>
+               <hi rendition="#right">
+                  <hi rendition="#aq">
+                     <placeName>Baireut</placeName>
+                  </hi> d. <date>6<hi rendition="#sup">ten</hi> Aug. 1822</date>
+               </hi>
+            </dateline>
+            <lb xml:id="VIII_195-16"/>
+            <p>Mein geliebter Heinrich! Jetzo läßt mir wieder dein Schweigen über<lb xml:id="VIII_195-17"/>das Schicksal des Kometen die Wahl unter trüben
+               Vermuthungen; ob<note corresp="#VIII_195-18">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010605">
+                        <title>Der Komet (1820-1822)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VIII_195-18"/>deine Kränklichkeit sich nicht gehoben — ob nicht der
+               kleinere Werth des<lb xml:id="VIII_195-19"/>dritten Bandes dir die Mittheilung deines
+               Urtheils erschwere — ob<lb n="20" xml:id="VIII_195-20"/>nicht der Druck noch anstehe
+               — ob du dem Rittmeister Leoprechting<note corresp="#VIII_195-21">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002414">
+                        <persName> von <name type="reg">Leoprechting</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_195-21"/>etwas mitgegeben; denn abgegeben hat er nichts, ausgenommen
+                  in<lb xml:id="VIII_195-22"/>voriger Woche seinen Körper an die Erde. Beruhige mich
+               bald, Guter!<lb xml:id="VIII_195-23"/>— Wol das mehrfache Lob deines lieben Vaters,
+               aber nicht dessen Buch<note corresp="#VIII_195-24">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004524">
+                        <persName> Johann Heinrich <name type="reg">Voß</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010001">
+                        <author>Voß, Johann Heinrich (1751-1826), Dichter und Übersetzer</author>
+                        <title>Voß gegen Perthes (1822)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VIII_195-24"/>selber gegen <hi rendition="#aq">Perthes</hi> hab’ ich
+               gelesen. Eigentlich geht die Buchhändler<note corresp="#VIII_195-25">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009373">
+                        <author>Perthes, Friedrich Christoph (1772-1843), Verlagsbuchhändler in
+                           Hamburg</author>
+                        <title>Zurechtweisung (1819)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="25" xml:id="VIII_195-25" rendition="#hyphen"/>gelegenheitpost am richtigsten
+               und kürzesten den Umweg über Leipzig. —<note corresp="#VIII_195-26">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005948">
+                        <placeName>Leipzig</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VIII_195-26"/>In der Abendzeitung wirst du mich finden mit einigen
+               Lobworten über<note corresp="#VIII_195-27">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010162">
+                        <author/>
+                        <title>Abend-Zeitung (Dresden 1817 ff.)</title>
+                     </bibl>
+                  </listBibl>
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010518">
+                        <title>Berichtigung eines chronologischen Irrtums (1822)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VIII_195-27"/>Dresden und Einem Schollen-〈Stein-〉wurf auf ein Neckarschaf
+               in der<note corresp="#VIII_195-28">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005687">
+                        <placeName>Dresden</placeName>
+                     </place>
+                     <place corresp="#JP-006052" rend="-schaf">
+                        <placeName>Neckar</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VIII_195-28"/>Neckarzeitung. — <hi rendition="#aq">Tieck</hi> — wider
+                  welchen<note n="*)" place="foot">Doch sprach <hi rendition="#aq">T.</hi> nur kurz
+                  mit Ja <hi rendition="#g">für</hi> und ich blos etwas länger <hi rendition="#g">gegen</hi>
+                  <hi rendition="#aq">Schl.,</hi>
+                  <lb type="ig"/>in Schonung verwandtschaftlicher Verhältnisse.</note> ich des
+               glattzüngigen, alle<note corresp="#VIII_195-29">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004302">
+                        <persName> Ludwig (Pseud. Peter Leberecht, Gottlieb Färber) <name type="reg">Tieck</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010317">
+                        <author/>
+                        <title>Neckarzeitung</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VIII_195-29"/>shakesp. Alpen nur umschiffenden, nicht ersteigenden
+               Schlegels Über<note corresp="#VIII_195-30">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005518">
+                        <placeName>Alpen</placeName>
+                     </place>
+                  </listPlace>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009619">
+                        <author>Schlegel, August Wilhelm (1767-1845)</author>
+                        <title>Shakespeare-Übersetzung (1797ff.)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="30" xml:id="VIII_195-30" rendition="#hyphen"/>setzung verwarf gegen eure
+               treudeutsche und deutschtreue, was Clodius<note corresp="#VIII_195-31">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000657" ana="†">
+                        <persName> Christian August Heinrich <name type="reg">Clodius</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009999">
+                        <author>Voß, Johann Heinrich (1751-1826), Dichter und Übersetzer</author>
+                        <title>Shakespeare-Übersetzung (begonnen von Heinrich und Abraham Voß,
+                           fortgesetzt von diesen und Johann Heinrich Voß 1810-1815,
+                           1818-1829)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VIII_195-31"/> schon gezeigt — will eine neue Rezension Sh.s geben. Er
+               glaubt an die<note corresp="#VIII_196-1">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004029">
+                        <persName> William <name type="reg">Shakespeare </name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_196-1"/>unwahrscheinlichste Möglichkeit, daß <hi rendition="#aq">Sh.</hi> katholisch gewesen. — Von<note corresp="#VIII_196-2">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002064">
+                        <persName>
+                           <name type="reg">Katholiken </name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_196-2"/>des matten Gesellen (Pustkuchen) Wanderjahren hab’ ich nur
+               den 1. B.<note corresp="#VIII_196-3">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009443" ana="†">
+                        <author>Pustkuchen, Johann Friedrich Wilhelm (1793-1834), Theologe und
+                           Schriftsteller</author>
+                        <title>Wilhelm Meisters Wanderjahre (1821-1822). S. auch Goethe.</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VIII_196-3"/>gelesen; und mag auch nichts weiter von diesem bissigen
+                  Überchristen,<note corresp="#VIII_196-4">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004359">
+                        <persName>
+                           <name type="reg">Überchristen</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_196-4"/>der vor Jahren meine
+                  Charakterist<metamark>[</metamark>ik<metamark>]</metamark> auf Kosten der
+                  Goetheschen<note corresp="#VIII_196-5">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001353">
+                        <persName> Johann Wolfgang von <name type="reg">Goethe</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="5" xml:id="VIII_196-5"/>moralischer fand, mich aber jetzo, weil ich auf seine
+               Bitte um einen<lb xml:id="VIII_196-6"/>Aufsatz über die Musik blos schwieg, nicht
+               nennt. — <hi rendition="#aq">Hofmann</hi> hatte<note corresp="#VIII_196-7">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001789">
+                        <persName> Ernst Theodor Amadeus <name type="reg">Hoffmann</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_196-7"/>sich zuletzt aus dem poetischen Wahnsinn in einen wirklichen
+                  hinein<lb xml:id="VIII_196-8" rendition="#hyphen"/>geschrieben. Sein Floh ist
+               nicht wie der physische ein Miniatürelephant,<note corresp="#VIII_196-9">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008753">
+                        <author>Hoffmann, Ernst Theodor Amadeus (1776-1822)</author>
+                        <title>Meister Floh (1822)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VIII_196-9"/>sondern ein Insekt, das gutes Blut absaugt. — Im herrlichen
+                  <hi rendition="#aq">Scott</hi>
+               <note corresp="#VIII_196-10">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003975" ana="†">
+                        <persName> Walter <name type="reg">Scott</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="10" xml:id="VIII_196-10"/>misfällt mir die willkürliche Breite der Gespräche
+               und der Mangel an<lb xml:id="VIII_196-11"/>Einheit des Interesse. Wie lange muß man
+               sich z. B. im Piraten durch<note corresp="#VIII_196-12">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009731">
+                        <author>Scott, Walter</author>
+                        <title>Der Pirat (1822)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VIII_196-12"/>die Leute durchirren, bis man den Helden endlich erwischt.
+               — Wenn dir<lb xml:id="VIII_196-13"/>der Buchhändler <hi rendition="#aq">Max</hi> aus
+               Breslau meinen Gruß überbringt: so bitt’<note corresp="#VIII_196-14">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002693">
+                        <persName> Joseph <name type="reg">Max</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005622">
+                        <placeName>Breslau</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VIII_196-14"/>ihn, von mir einen mitzunehmen an einen gewissen Gymnasiast
+                  <hi rendition="#aq">Pohl</hi>
+               <note corresp="#VIII_196-15">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003263">
+                        <persName> Eduard <name type="reg">Pohl</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="15" xml:id="VIII_196-15"/>in Breslau, dessen Gemüth und Poesie ich herzlich
+               liebgewonnen, ohne<note corresp="#VIII_196-16">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005622">
+                        <placeName>Breslau</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VIII_196-16"/>daß ich doch aus Zeitmangel ihm meine warme Anerkennung
+                  schrift<lb xml:id="VIII_196-17" rendition="#hyphen"/>lich gezeigt. Der Himmel, der
+               ihm so viel gegeben, geb’ ihm fort! —<lb xml:id="VIII_196-18"/>Meine halbierte
+               Gesundheit muß ich im Herbste — wegen des ent<lb xml:id="VIII_196-19" rendition="#hyphen"/>schieden grimmigen Winters — durch Gehen und Bluten
+                  restaurieren<lb n="20" xml:id="VIII_196-20"/>wie einen alten Torso. — Meine <hi rendition="#aq">Odilie</hi> wächst und blüht schön in<note corresp="#VIII_196-21">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003491">
+                        <persName> Odilie Minna <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_196-21"/>
+               <hi rendition="#aq">Würzburg,</hi> meine <hi rendition="#aq">Emma</hi> noch mehr hier
+               und auch meine <hi rendition="#aq">C<metamark>[</metamark>aroline<metamark>]</metamark>
+               </hi>
+               <note corresp="#VIII_196-22">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003469">
+                        <persName> Caroline <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003471">
+                        <persName> Emma <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006422">
+                        <placeName>Würzburg</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VIII_196-22"/>ist sehr gesund.<note type="editorial">
+                  <hi rendition="#aq">
+                     <hi rendition="#i">
+                        <metamark>[</metamark>Schluß fehlt<metamark>]</metamark>
+                     </hi>
+                  </hi>
+               </note>
+               <lb xml:id="VIII_196-23"/>
+            </p>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Landesbibl. Eutin. 3⅔ S. 8°; vom zweiten Blatt ist ein
+                  großes Stück<lb/>herausgeschnitten, wahrscheinlich von H. Voß für Joseph Max. <hi rendition="#i">K</hi>
+                  <hi rendition="#sup">1</hi>: <hi rendition="#i">Voß</hi>
+               </hi>
+               <lb/>in <hi rendition="#aq">
+                  <hi rendition="#i">Heidelb.</hi>
+               </hi> 7. Aug. <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+                  <hi rendition="#sup">2</hi> (von Karolinens Hand): Berlin JP. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>: Breslauer<lb/>Zeitung Nr. 1×. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>: Voß S. 142×. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">3</hi>: Schneider Nr. 11×. <hi rendition="#i">B</hi>: IV.
+                  Abt., VIII, Nr. 184.<lb/>
+                  <hi rendition="#i">A</hi>: IV. Abt., VIII, Nr.</hi>
+               <hi rendition="#aq">194. </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">195</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">18</hi>
+               </hi> Vermuthungen] <hi rendition="#aq">aus</hi> Veranlassungen <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">22 </hi>etwas] <hi rendition="#aq">davor<lb/>gestr.</hi> nicht
+                  <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">28</hi> Einem] <hi rendition="#aq">aus</hi> dem <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">29</hi> wider] <hi rendition="#aq">aus</hi> gegen <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">30</hi> Alpen]<lb/>Höhen <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#sup">1</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">196</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">2</hi>
+               </hi> unwahrscheinlichste] <hi rendition="#aq">aus</hi> unwahrscheinliche <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">7</hi> hatte] <hi rendition="#aq">aus</hi>
+               <lb/>schrieb <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>,</hi> schrieb <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#sup">1</hi>
+               <hi rendition="#rkd">8</hi> einen] den <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#sup">1</hi>
+               <hi rendition="#rkd">9</hi> nicht <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">10</hi> absaugt] ungleich dem<lb/>physischen, der ein
+               Miniatürelephant, uns das gesunde Blut aussaugt <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#sup">1</hi>
+               <lb/>
+               <hi rendition="#rkd">13</hi> Wenn <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">18</hi> fort!] <hi rendition="#aq">fehlt <hi rendition="#i">H</hi> (herausgeschnitten);</hi> Wenn <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">18</hi> gezeigt.<lb/>
+               <hi rendition="#aq">aus <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi> ergänzt,</hi> Der Himmel <hi rendition="#aq">bis</hi>
+               fort! <hi rendition="#aq">aus <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#sup">1</hi>
+               <hi rendition="#rkd">19 </hi>Meine <hi rendition="#aq">bis</hi> ich] Ich
+               muß<lb/>meinen halbierten Körper <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#sup">1</hi>
+               <hi rendition="#rkd">21 </hi>Torso] Rock <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+               </hi>
+               <hi rendition="#sup">2</hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">195</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">25</hi>
+               </hi>
+               <hi rendition="#aq">
+                  <hi rendition="#g">Perthes</hi> war bald darauf persönlich bei J. P., s. Persönl.
+                  Nr. 321.<lb/>
+                  <hi rendition="#rkd">31</hi>f. <hi rendition="#g">Clodius</hi> (s. <hi rendition="#b">14</hi>,<hi rendition="#rkd">1</hi>†) hatte die Vossische
+                  Shakespeare-Übersetzung im<lb/>Hermes, 1819, I, S. 87—141, ausführlich besprochen.
+                     <hi rendition="#rkd">33</hi>
+                  <hi rendition="#g">Verwandt<lb rendition="#hyphen"/>schaft</hi> bestand zwischen
+                  Tieck und Schlegel nicht, doch stand Tiecks<lb/>Schwester Sophie (Bernhardi) zu A.
+                  W. Schlegel in intimer Beziehung.<lb/>
+                  <hi rendition="#b">196</hi>,<hi rendition="#rkd">2–7</hi>
+                  <hi rendition="#g">Pustkuchen</hi>: vgl. <hi rendition="#b">164</hi>,<hi rendition="#rkd">31</hi>ff.; Voß hatte geschrieben: „Der Ver<lb rendition="#hyphen"/>fasser der unächten Wanderjahre macht mir am wenigsten
+                  Freude, wo<lb/>er gegen Göthe Recht hat. Wahrlich alle Wahrheiten sind mit
+                     Schief<lb rendition="#hyphen"/>heiten untermengt, die in <hi rendition="#g">der</hi> Umgebung auf mich als Lüge wirken.“<lb/>
+                  <hi rendition="#rkd">7–10</hi> E. T. A. <hi rendition="#g">Hoffmann</hi> war am
+                  24. Juli 1822 gestorben; kurz vorher<lb/>war noch sein Märchen „Meister Floh“
+                  erschienen. <hi rendition="#rkd">10–13</hi>
+                  <hi rendition="#g">Scott</hi>: vgl.<lb/>
+                  <hi rendition="#b">164</hi>,<hi rendition="#rkd">33</hi>ff.; Voß hatte
+                  geschrieben, er verstehe nicht recht, was J. P. mit<lb/>der „in Brüche zerstückten
+                  Einheit des Interesse“ meine; vgl. auch den<lb/>Anfang des 21. Kapitels des
+                  Kometen (I. Abt., XV, 413). <hi rendition="#rkd">14 </hi>
+                  <hi rendition="#g">Buch<lb rendition="#hyphen"/>händler Max</hi>: s. Nr. 336†. <hi rendition="#rkd">15 </hi>
+                  <hi rendition="#g">Pohl</hi>: s. Nr.</hi>
+               <hi rendition="#aq">429†.</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

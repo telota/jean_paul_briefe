@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VIII_80">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="80">80. An Heinrich Voß in Heidelberg. </title>
+            <title n="digital">An Heinrich Voß. Bayreuth, 19. Juli 1820 bis 31. Juli 1820.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=VIII_80</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/VIII/VIII_80</idno>
+               <idno type="TELOTAID">VIII_80</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <biblScope n="text" unit="page">
+                  <num>57</num>
+                  <num>58</num>
+                  <num>59</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>343</num>
+                  <num>344</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+            <listPerson type="commentary">
+               <person corresp="#JP-003173">
+                  <persName> Wilhelm <name type="reg">Paulus</name>
+                  </persName>
+               </person>
+            </listPerson>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date corresp="writingSession1" when="1820-07-19">19. Juli 1820</date>
+               <date corresp="writingSession2" when="1820-07-28">28. Juli 1820</date>
+               <date corresp="writingSession3" when="1820-07-30">30. Juli 1820</date>
+               <date corresp="writingSession4" when="1820-07-31">31. Juli 1820</date>
+               <placeName key="JP-005574" ref="http://www.geonames.org/2951825">Bayreuth</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-004520" ref="http://d-nb.info/gnd/100689590">
+                  <name type="reg">Voß</name> Heinrich</persName>
+               <placeName key="JP-005819" ref="http://www.geonames.org/2907911">Heidelberg</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VIII_60">18. Juni 1820</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VIII_86">25. August 1820</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <div n="writingSession1">
+               <lb xml:id="VIII_57-22"/>
+               <dateline>
+                  <hi rendition="#right">
+                     <hi rendition="#aq">
+                        <placeName>Baireut</placeName>
+                     </hi> d. <date>19. Jul. 1820</date>
+                  </hi>
+               </dateline>
+               <lb xml:id="VIII_57-23"/>
+               <p>Ich will schon heute an dich schreiben, mein Theuerster, ob ich gleich<lb xml:id="VIII_57-24"/>weiß, daß du erst nach Wochen dieses Blatt erhalten
+                     kannst.<lb n="25" xml:id="VIII_57-25"/>
+               </p>
+            </div>
+            <div n="writingSession2">
+               <dateline>
+                  <hi rendition="#right">
+                     <hi rendition="#aq">d. 28 Jul.</hi>
+                  </hi>
+               </dateline>
+               <lb xml:id="VIII_57-26"/>
+               <p>Übermorgen soll das Mspt fort, dessen Abgang so lange meine Worte<note corresp="#VIII_57-27">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010605">
+                           <title>Der Komet (1820-1822)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VIII_57-27"/>an dich, du Lieber, verspätet hat. Übermorgen oder Morgen
+                  kann ich<lb xml:id="VIII_57-28"/>noch vollends einen Brief von dir erhalten, damit
+                  nur meines endlichen<lb xml:id="VIII_57-29"/>Schreibens kein Ende ist. Ach Gott!
+                  wie schöner wär’s, deine Hand<lb n="30" xml:id="VIII_57-30"/>in meiner zu haben,
+                  anstatt durch die eine die andere ins Dintenfaß zu<lb xml:id="VIII_57-31"/>bringen. —</p>
+               <lb xml:id="VIII_57-32"/>
+            </div>
+            <div n="writingSession3">
+               <dateline>
+                  <hi rendition="#right">
+                     <hi rendition="#aq">d.</hi> 30<hi rendition="#sup">ten</hi>
+                     <hi rendition="#aq">Jul.</hi>
+                  </hi>
+               </dateline>
+               <lb xml:id="VIII_57-33"/>
+               <p>Morgen soll das Mspt fort. Über 6 Wochen war ich kein literarischer<note corresp="#VIII_57-34">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010605" ana="ff">
+                           <title>Der Komet (1820-1822)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VIII_57-34"/>Sechswöchner, sondern feierte in <hi rendition="#aq">München.</hi> Diesem zweiten Bande<note corresp="#VIII_57-35">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006040">
+                           <placeName>München</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="35" xml:id="VIII_57-35"/> folgen noch die (im Morgenblatte abgedruckte)
+                  Vorrede über den<note corresp="#VIII_58-1">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-010313">
+                           <author/>
+                           <title>Morgenblatt für gebildete Stände (1807ff.)</title>
+                        </bibl>
+                     </listBibl>
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010616">
+                           <title>Der Komet (1820-1822): Vorrede zum 2. Bändchen
+                              (Traumgeber-Orden)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VIII_58-1"/>Traumgeberorden — welche ich der Zensur wegen nach Berlin
+                     ge<note corresp="#VIII_58-2">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005586">
+                           <placeName>Berlin</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VIII_58-2" rendition="#hyphen"/>schickt — und einige Kapitel.
+                  Berichtige das Titelblatt, falls es dem des<lb xml:id="VIII_58-3"/>1<hi rendition="#sup">ten</hi> Bandes nicht gleichförmig wäre. — Bitte den
+                  Buchhändler um die<note corresp="#VIII_58-4">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000959">
+                           <persName> Joseph <name type="reg">Engelmann</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VIII_58-4"/>Bestimmung der möglichen Druckgröße dieser Sendung. —
+                  Jetzo setz’<lb n="5" xml:id="VIII_58-5"/>ich seit deinem Loben wieder umgekehrt
+                  den ersten Theil über den zweiten<lb xml:id="VIII_58-6"/>hinauf, weil dieser in
+                  seiner Geschichte mit Riesenschildkrötenfüßen in<lb xml:id="VIII_58-7"/>seinem
+                  Sande langsam fortrückt und weil er nicht ganz verbergen kann,<lb xml:id="VIII_58-8"/>daß er <hi rendition="#g">vor</hi> dem ersten geschaffen
+                  worden. So ist immer der Richterstuhl<lb xml:id="VIII_58-9"/>eines Autors gegen
+                  sich selber ein Drehstuhl und seine Urtheile über<lb n="10" xml:id="VIII_58-10"/>andere sind fester als die über sich. — Aber gegen das Ende des Bandes<lb xml:id="VIII_58-11"/>thut sich für die heiterste, beweglichste und reichste
+                  Geschichte eine weite<lb xml:id="VIII_58-12"/>Ebene auf; — und gerade da geh ich
+                  für einige Zeit mit meiner Feder<lb xml:id="VIII_58-13"/>nach Hause. — Ums Himmels
+                  Willen mache du unermüdlicher Mit<lb xml:id="VIII_58-14" rendition="#hyphen"/>arbeiter dir keine Bedenklichkeiten über Freiexemplare; ein schönstes<lb n="15" xml:id="VIII_58-15"/>gebührt dir ohnehin von <hi rendition="#g">mir;</hi> und
+                  andere nimm; mir bleiben ihrer immer<lb xml:id="VIII_58-16"/>genug. Den <hi rendition="#aq">Hesperus</hi> bringt dir im Oktober mein Sohn mit. — Bei<note corresp="#VIII_58-17">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003490">
+                           <persName> Max <name type="reg">Richter</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010727">
+                           <title>Hesperus (1795)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VIII_58-17"/>dieser Gelegenheit thu’ ich an dich wichtige Fragen —
+                  weniger in<lb xml:id="VIII_58-18"/>meinem Namen als für den Generalkommissar <hi rendition="#aq">v. Welden</hi> und für den<note corresp="#VIII_58-19">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004655">
+                           <persName> Konstantin Ludwig Freiherr von <name type="reg">Welden</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VIII_58-19"/>Kammerrath <hi rendition="#aq">Miedel,</hi> die beide
+                  ihre Söhne nach <hi rendition="#aq">Heidelberg</hi> zu schicken<note corresp="#VIII_58-20">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002819">
+                           <persName> Johann Chr. Martin <name type="reg">Miedel</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-002820">
+                           <persName> Johann Friedrich Hermann <name type="reg">Miedel</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-004654">
+                           <persName> Karl Georg <name type="reg">Welden</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005819">
+                           <placeName>Heidelberg</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="20" xml:id="VIII_58-20"/>sich bedenken und doch wünschen — nämlich, wie
+                  groß die neulichen<lb xml:id="VIII_58-21"/>akademischen Unruhen gewesen und welche
+                  da überhaupt auf Kosten der<lb xml:id="VIII_58-22"/>Lebens Sicherheit zu
+                  befürchten sind. Schreibe mir es zur Beruhigung<lb xml:id="VIII_58-23"/>meiner
+                  Kommittenten recht klar und bestimmt; volle Wahrheit über<lb xml:id="VIII_58-24"/>diesen Punkt kann ich blos von meinem Heinrich erwarten. Auch<lb n="25" xml:id="VIII_58-25"/>sage mir, ob bei euch öfter Prüfungen mit Studenten
+                     vorgenommen<lb xml:id="VIII_58-26"/>werden. Mache, sei so gut, deine
+                  Antwortstelle zur Noth für Vorlesen<lb xml:id="VIII_58-27"/>tauglich.</p>
+               <lb xml:id="VIII_58-28"/>
+            </div>
+            <div n="writingSession4">
+               <dateline>
+                  <hi rendition="#right">31. Jul.</hi>
+               </dateline>
+               <lb xml:id="VIII_58-29"/>
+               <p>— Wie verlang’ ich immer von dir! Wunderbar hast du in allen<note corresp="#VIII_58-30">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010605" ana="ff">
+                           <title>Der Komet (1820-1822)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb n="30" xml:id="VIII_58-30"/>deinen Korrekturen des Kometen Recht; fahre nur
+                  kühner fort, denn<lb xml:id="VIII_58-31"/>was wärs denn sogar Gefährliches, wenn
+                  einmal deine Gedanken an die<lb xml:id="VIII_58-32"/>Stelle der meinigen träten?
+                  Nur Einmal erriethest du nicht auf der 4<hi rendition="#sup">ten</hi>
+                  <lb xml:id="VIII_58-33"/>Seite des ersten Vorkapitels: „aber der Himmel (wünsch’
+                  ich) verschone<lb xml:id="VIII_58-34"/>künftig ein solches mitseufzendes Wesen mit
+                  dem Anblicke <hi rendition="#g">jener</hi>
+                  <lb n="35" xml:id="VIII_58-35"/>trübern beseelten Spielpuppen der Männerfäuste“ —
+                  ich meine unter<lb xml:id="VIII_58-36"/> Puppen geradezu die von der Lustseuche
+                  verstümmelten Huren. Zur<lb xml:id="VIII_59-1"/>Deutlichkeit wollen wir unter den
+                  Druckfehlern und Verbesserungen<lb xml:id="VIII_59-2"/>setzen: der Männerfäuste im
+                  Lustseuchenhaus 〈häusern〉, oder wenn dir<lb xml:id="VIII_59-3"/>dieses zu stark
+                  klingt, in Lasterhäusern. — Ich sehe so oft immer ge<lb xml:id="VIII_59-4" rendition="#hyphen"/>schrieben, was gar nicht dasteht, in meiner und in fremder
+                     Schrift;<lb n="5" xml:id="VIII_59-5"/>kümmere dich also oft sogar um
+                  Korrekturen nicht zu viel. — Carové<note corresp="#VIII_59-6">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000587">
+                           <persName> Friedrich Wilhelm <name type="reg">Carové</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VIII_59-6"/>erfreuete uns neulich; er heirathet die Braut nicht, weil
+                  sie nicht warm<note corresp="#VIII_59-7">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003971">
+                           <persName> Pauline <name type="reg">Schwendler</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VIII_59-7"/>genug für ihn ist, oder höchstens es zu sehr für andere. —
+                  Ich verreise<lb xml:id="VIII_59-8"/>in diesem Jahre schwerlich wieder. — In
+                  München wollte Schlichtegroll<note corresp="#VIII_59-9">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003771">
+                           <persName> Adolf Heinrich Friedrich (ab 1808) von <name type="reg">Schlichtegroll</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006040">
+                           <placeName>München</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VIII_59-9"/>und Roth mich in die Akademie hineinbereden; aber meine
+                     Arbeiten,<note corresp="#VIII_59-10">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003587">
+                           <persName> Friedrich <name type="reg">Roth</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0055700">
+                           <placeName>Bayerische Akademie der Wissenschaften; Bayern </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="10" xml:id="VIII_59-10"/>der Charakter der Altmünchner und der bettelhaften
+                     Flachgegend<note corresp="#VIII_59-11">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006040">
+                           <placeName>München</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VIII_59-11"/>sperren mich heraus. — Der Herzog <hi rendition="#aq">Alexander</hi> aus Rußland (Bruder<note corresp="#VIII_59-12">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000057">
+                           <persName> Friedrich Karl <name type="reg">Alexander</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006218">
+                           <placeName>Russland, Russen, russisch</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VIII_59-12"/>des H<metamark>[</metamark>erzogs<metamark>]</metamark>
+                  Wilhelm in Stuttgart) gibt mir in hiesiger <hi rendition="#aq">Fantaisie</hi>
+                  <note corresp="#VIII_59-13">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004727">
+                           <persName>
+                              <name type="reg">Wilhelm</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-00557421">
+                           <placeName>Fantaisie (Phantasie) bei Bayreuth; Bayreuth
+                              (Stadt)</placeName>
+                        </place>
+                        <place corresp="#JP-006315">
+                           <placeName>Stuttgart </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VIII_59-13"/>fast tägliche Stelldichein der Liebe; sogar eine
+                  Lobinschrift auf mich ließ<lb xml:id="VIII_59-14"/>er in einen dortigen Felsen
+                  hauen, für mich eine aufrechte Grabplatte. —<lb n="15" xml:id="VIII_59-15"/>
+               </p>
+               <p>Das Ende des 2<hi rendition="#sup">ten</hi> Bandes und die fruchtbare Leichtigkeit
+                     fortzu<note corresp="#VIII_59-16">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010605">
+                           <title>Der Komet (1820-1822)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VIII_59-16" rendition="#hyphen"/>fahren und mich selber schreibend zu
+                  erquicken, läßt mich ordentlich<lb xml:id="VIII_59-17"/>noch schwanken zwischen
+                  künftigen philosophischen Werken und zwischen<lb xml:id="VIII_59-18"/>dreierlei
+                  Arten von ästhetischen, die ich zu machen wähle. — Verzeihe<lb xml:id="VIII_59-19"/>das Schweigen, das jedoch immer den Fehler hat, daß man vor Über<lb n="20" xml:id="VIII_59-20" rendition="#hyphen"/>fluß neuen Stoffs den verzögerten
+                  alten vergißt. — Alle Herzen um<lb xml:id="VIII_59-21"/>dein Herz seien gegrüßt;
+                  und gedrückt an eine verwandte Brust. —<lb xml:id="VIII_59-22"/>Auch meinen 3 <hi rendition="#aq">Paulus,</hi> welche schon seit 3 Unglückblitzen (für jede<note corresp="#VIII_59-23">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003168">
+                           <persName> Heinrich Eberhard Gottlob <name type="reg">Paulus</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003171">
+                           <persName> Karoline <name type="reg">Paulus</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003170">
+                           <persName> Karoline <name type="reg">Paulus</name>, ihr Bruder
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003172">
+                           <persName> Sophie <name type="reg">Paulus</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VIII_59-23"/>Brust ein besonderer) den Zuschauer ergreifen, aber noch
+                  mehr den<lb xml:id="VIII_59-24"/>Freund erschüttern und gewinnen, sage meine
+                  dankbarsten, liebe<lb n="25" xml:id="VIII_59-25" rendition="#hyphen"/>vollsten
+                  Grüße; und Gott segne meine Sophia! —</p>
+               <note corresp="#VIII_59-26">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003172">
+                        <persName> Sophie <name type="reg">Paulus</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_59-26"/>
+               <closer>
+                  <salute>Antworte schleunigst deinem<lb xml:id="VIII_59-27"/>
+                     <hi rendition="#right">Richter</hi>
+                     <lb xml:id="VIII_59-28"/>
+                  </salute>
+               </closer>
+            </div>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Landesbibl. Eutin. 4 S. 4°; mehrere Stellen am Rande angestr.<lb/>
+                  <hi rendition="#i">K</hi>
+                  <hi rendition="#sup">1</hi> (Konzept, nach Nr. 65): <hi rendition="#i">Voß.</hi>
+               </hi> Jul. <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+                  <hi rendition="#sup">2</hi>: <hi rendition="#i">Voß.</hi>
+               </hi> 31 Jul. <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+                  <hi rendition="#sup">3</hi> (von Karo<lb rendition="#hyphen"/>linens Hand): Berlin
+                  JP. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>: Voß S. 112×. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>: Schneider Nr.</hi>
+               <hi rendition="#aq">4×.</hi>
+               <lb/>
+               <hi rendition="#b">
+                  <hi rendition="#aq">57</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">24</hi>
+               </hi> schon heute] <hi rendition="#aq">aus</hi> nur <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#aq">
+                  <hi rendition="#rkd">34</hi>
+               </hi> war] <hi rendition="#aq">aus</hi> hatt’ <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">58</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">5</hi>
+               </hi> Jetzo <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">11</hi> sich.]<lb/>So ist der Mensch, wenigstens der Autor.
+               Jetzo kehrt sich meine Furcht [<hi rendition="#aq">aus</hi>
+               <lb/>Angst] um und ich habe über den 2ten Band die größere, schon blos weil er
+               dem<lb/>gepriesenen 1ten unähnlich ist. <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#sup">1</hi>
+               <hi rendition="#rkd">7</hi> Riesen] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">8</hi> fortrückt] <hi rendition="#aq">aus</hi>
+               <lb/> schleicht <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi> verbergen] <hi rendition="#aq">aus</hi> verhehlen <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">10 </hi>seine <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">11</hi> sich] er urtheilt über<lb/>andere fester und
+               unverrückter als über sich <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#sup">2</hi>
+               <hi rendition="#rkd">28</hi> tauglich] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">29</hi> 31. Jul.]<lb/>
+               <hi rendition="#aq">a. R. nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">59</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">4</hi>
+               </hi> sehe] <hi rendition="#aq">aus</hi> schreibe <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">21</hi> den verzögerten alten vergißt]<lb/>
+               <hi rendition="#aq">aus</hi> nicht den verschwiegnen alten gibt <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi> 23 schon] <hi rendition="#aq">aus</hi> wirklich <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#b">58</hi>,<hi rendition="#rkd">22</hi>
+               <hi rendition="#aq">Über die <hi rendition="#g">akademischen Unruhen</hi> in
+                  Heidelberg s. <hi rendition="#b">62</hi>,<hi rendition="#rkd">31–34</hi>
+                  und<lb/>Gustav Partheys Jugenderinnerungen (1871), 2. Teil, S. 374f. <hi rendition="#rkd">33</hi>ff. S. I. Abt.,<lb/>XV, <hi rendition="#b">22</hi>,<hi rendition="#rkd">12</hi>ff. <hi rendition="#b">59</hi>,<hi rendition="#rkd">6–8</hi>
+                  <hi rendition="#g">Carové</hi> war mit Jean Pauls Patenkind Pauline<lb/>Schwendler
+                  verlobt, s. IV. Abt. (Br. an J. P.), VII, Nr. 131. <hi rendition="#rkd">11 </hi>
+                  <hi rendition="#g">Altmünchner:</hi> wohl<lb/>für Altbaiern, vgl. <hi rendition="#b">49</hi>,<hi rendition="#rkd">9</hi>. <hi rendition="#rkd">14</hi>f. Die noch vorhandene <hi rendition="#g">Lobinschrift</hi> in
+                  der<lb/>Fantaisie lautete (wie Karoline Richter am 4. Aug. 1820 an Max
+                  meldete):<lb/>„Jean Paul! Dem sinnigen und erhabenen Dichter, Deutschlands
+                     vorzüg<lb rendition="#hyphen"/>lichstem Musensohne, dem Freunde der Natur und
+                  Kunst, Deutschlands<lb/>Zierde, Deutschlands Stolz!“ <hi rendition="#rkd">23</hi>
+                  3 <hi rendition="#g">Unglückblitze:</hi> Sophies unglückliche<lb/>Heirat, der Tod
+                  des Sohnes Wilhelm (28. Aug. 1819), Paulus’ Ausweisung<lb/>aus Württemberg
+                  (Juli</hi>
+               <hi rendition="#aq">1819).</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

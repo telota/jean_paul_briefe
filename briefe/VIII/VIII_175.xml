@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VIII_175">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="177">175. An Max Richter in Heidelberg. </title>
+            <title n="digital">An Max Richter. Bayreuth, 10. Mai 1821 bis 11. Mai 1821.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=VIII_175</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/VIII/VIII_175</idno>
+               <idno type="TELOTAID">VIII_175</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <biblScope n="text" unit="page">
+                  <num>113</num>
+                  <num>114</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>363</num>
+                  <num>364</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+            <listPerson type="commentary">
+               <person corresp="#JP-001068">
+                  <persName> Joseph Anselm <name type="reg">Feuerbach</name>
+                  </persName>
+               </person>
+            </listPerson>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date corresp="writingSession1" when="1821-05-10">10. Mai 1821</date>
+               <date corresp="writingSession2" when="1821-05-11">11. Mai 1821</date>
+               <placeName key="JP-005574" ref="http://www.geonames.org/2951825">Bayreuth</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-003490" ref="http://d-nb.info/gnd/116512636">
+                  <name type="reg">Richter</name> Max </persName>
+               <placeName key="JP-005819" ref="http://www.geonames.org/2907911">Heidelberg</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VIII_163">26. März 1821</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VIII_178">20. Mai 1821</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <div n="writingSession1">
+               <lb xml:id="VIII_113-6"/>
+               <dateline>
+                  <hi rendition="#right">
+                     <hi rendition="#aq">
+                        <placeName>Baireut</placeName>
+                     </hi> d. <date>10<hi rendition="#sup">ten</hi> Mai 1821</date>
+                  </hi>
+               </dateline>
+               <lb xml:id="VIII_113-7"/>
+               <p>Mein guter Max! Deiner verbesserten Hand kann ich nun wieder<lb xml:id="VIII_113-8"/>schreiben, aber nicht fassen kann ich sie, wie ich doch
+                  hoffte; denn ich reise<lb xml:id="VIII_113-9"/>in diesem Frühling nicht. Zum
+                  Reisen brauch’ ich festen blauen Himmel;<lb n="10" xml:id="VIII_113-10"/>dieser
+                  wird aber wöchentlich unterbrochen werden durch Strichgewitter;<lb xml:id="VIII_113-11"/>höchstens im September ist Hoffnung zur Bläue und Reise.
+                     Überhaupt<lb xml:id="VIII_113-12"/>ermattet mit meiner Lebens Lust meine
+                  Reiselust; und das Schönste<lb xml:id="VIII_113-13"/>aller Reisen hatt ich doch in
+                     <hi rendition="#aq">Heidelberg</hi> zum 1<hi rendition="#sup">ten</hi> male.
+                  Auch hab’ ich<note corresp="#VIII_113-14">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005819">
+                           <placeName>Heidelberg</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VIII_113-14"/>für 2 neue Auflagen und sonst so gar viel zu thun; so
+                  will ich denn mein<note corresp="#VIII_113-15">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010648">
+                           <title>Die unsichtbare Loge (1793) </title>
+                        </bibl>
+                        <bibl corresp="#JP-010724">
+                           <title>Grönländische Prozesse, oder Satirische Skizzen (1783,
+                              1822)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb n="15" xml:id="VIII_113-15"/>Bißchen Leben lieber gar verschreiben als
+                  verreisen. Mich dauert außer<lb xml:id="VIII_113-16"/>dir nur mein <hi rendition="#aq">Heinrich</hi> und <hi rendition="#aq">Kreuznach,</hi> das aber
+                  eben wegen seiner<note corresp="#VIII_113-17">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004520">
+                           <persName> Heinrich <name type="reg">Voß</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005924">
+                           <placeName>Kreuznach</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VIII_113-17"/>2 Tagreisen, die zu meinen 4 Tagreisen stießen, mich
+                  abhält (<hi rendition="#g">jetzo</hi>
+                  <lb xml:id="VIII_113-18"/>nämlich). Übrigens leb’ ich hier, da ich <hi rendition="#aq">Emanuel</hi> so selten sehe, fast ohne<note corresp="#VIII_113-19">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003087">
+                           <persName> Emanuel <name type="reg">Osmund</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VIII_113-19"/>einen — Mann. —<lb n="20" xml:id="VIII_113-20"/>
+               </p>
+               <p>Meinem <hi rendition="#aq">Heinrich</hi> bringe Seelengruß und Briefdank, zumal
+                  für sein<note corresp="#VIII_113-21">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004520">
+                           <persName> Heinrich <name type="reg">Voß</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VIII_113-21"/>so heiteres, launiges, witziges Hochzeitprogramm an die
+                     <hi rendition="#aq">Rothhammel.</hi>
+                  <note corresp="#VIII_113-22">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003588">
+                           <persName> Luise <name type="reg">Rothhammel</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VIII_113-22"/>Er sollte von solcher Schöpferkraft gedruckten und
+                  artistischen Gebrauch<lb xml:id="VIII_113-23"/>machen, sag’ ihm. „Säh ich ihn doch
+                  selber als Cikade mit einem Roth<lb xml:id="VIII_113-24" rendition="#hyphen"/>hammelchen davon laufen“ schrieb mir der ihn grüßende <hi rendition="#aq">Emanuel.</hi>
+                  <note corresp="#VIII_113-25">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003087">
+                           <persName> Emanuel <name type="reg">Osmund</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="25" xml:id="VIII_113-25"/>Er verzeihe mein heutiges Schweigen, zumal da ich
+                  ihm sein <hi rendition="#g">gedrucktes</hi>
+                  <lb xml:id="VIII_113-26"/>vergebe. — <hi rendition="#aq">Hegels</hi>
+                  Phänomenologie hab’ ich mir selber gekauft; an<note corresp="#VIII_113-27">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-008643">
+                           <author>Hegel, Georg Wilhelm Friedrich (1770-1831)</author>
+                           <title>Phänomenologie des Geistes (1807)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VIII_113-27"/>Scharfsinn ist er jetzo fast der Erste. Das Wahre such’
+                  ich bei den jetzigen<lb xml:id="VIII_113-28"/>Philosophen gar nicht. — Recht
+                  erwünscht ist mir dein Kollegium der<lb xml:id="VIII_113-29"/>Kirchengeschichte
+                  bei dem braven gründlichen und trotz allem scheinbaren<lb n="30" xml:id="VIII_113-30"/>Unglauben wahrhaft glaubenden <hi rendition="#aq">Paulus.</hi> Kirchengeschichte ist das<note corresp="#VIII_113-31">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003168">
+                           <persName> Heinrich Eberhard Gottlob <name type="reg">Paulus</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VIII_113-31"/>stärkste Gegengift alles überchristlichen berauschenden
+                  Giftes — nimm<note corresp="#VIII_113-32">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004359">
+                           <persName>
+                              <name type="reg">Überchristen</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VIII_113-32"/>eine rechte Porzion davon ein, deines überladenen Magens
+                  wegen.</p>
+               <lb xml:id="VIII_113-33"/>
+               <p>In Rücksicht der Duellsache hast du vergessen, daß du mir an einem<lb xml:id="VIII_113-34"/>Abend an Eides statt versprochen, dich nie zu schlagen
+                  und einen Trien<lb n="35" xml:id="VIII_113-35" rendition="#hyphen"/> niums-Unsinn
+                  zu verachten, zu welchem später Männer keine Belei<lb xml:id="VIII_114-1" rendition="#hyphen"/>digung zwänge. Nothwehr mit Zunge und Hand gegen beide
+                     〈Zunge<lb xml:id="VIII_114-2"/>und Hand〉 sind allein und auf der Stelle
+                  erlaubt. — „Es ist ja Ihr Blut,<lb xml:id="VIII_114-3"/>sagte <hi rendition="#aq">Emanuel</hi> zu mir, so wie Ihr Geld, wenn er es hergibt.“ Letztes<note corresp="#VIII_114-4">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003087">
+                           <persName> Emanuel <name type="reg">Osmund</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VIII_114-4"/>bezieht sich darauf, daß du mich um mein Geld beraubst —
+                  und gar um<lb n="5" xml:id="VIII_114-5"/>ein Kapital von 24 fl. — wenn du irgend
+                  einem Tropf das Meinige gibst.<lb xml:id="VIII_114-6"/>Unter Duell-Drohung könnte
+                  man dich ja ausplündern. Ich verbiete dir<lb xml:id="VIII_114-7"/>diese Eingriffe
+                  in mein Eigenthum hiemit streng auf immer. — Deine<lb xml:id="VIII_114-8"/>Rechnung ist höchst unvollständig. Wie kannst du, da ich dir am 27<hi rendition="#sup">ten</hi> Dez.<lb xml:id="VIII_114-9"/>100 fl. geschickt, doch
+                  noch vom Jenner an bis Mai Mittagessen<lb n="10" xml:id="VIII_114-10"/>schuldig
+                  sein? Vollends steht dabei, „was du noch anderwärts schuldig,<lb xml:id="VIII_114-11"/>habest du noch nachzutragen.“ Ich fodere von dir eine
+                     bestimmte<lb xml:id="VIII_114-12"/>Rechnung, was du von Geld übrig hast oder
+                  was du schuldig bist. Sonst<lb xml:id="VIII_114-13"/>müßt’ ich dich früher von dem
+                  so theuern Heidelberg abrufen; wohin du<note corresp="#VIII_114-14">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005819">
+                           <placeName>Heidelberg</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VIII_114-14"/>schon 210 fl. bekommen. — Ich habe mich in eine trübe
+                  Laune hinein<lb n="15" xml:id="VIII_114-15" rendition="#hyphen"/>geschrieben und
+                  fahre lieber Morgen fort.</p>
+               <lb xml:id="VIII_114-16"/>
+            </div>
+            <div n="writingSession2">
+               <dateline>
+                  <hi rendition="#right">d. 11<hi rendition="#sup">ten</hi> Mai</hi>
+               </dateline>
+               <lb xml:id="VIII_114-17"/>
+               <p>Hier ist doch ein Blättchen an meinen Heinrich, so wie eine Anweisung<note corresp="#VIII_114-18">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004520">
+                           <persName> Heinrich <name type="reg">Voß</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VIII_114-18"/>auf 50 fl. — Alle meine Reiseplane oszillieren noch bis
+                  sie endlich in<lb xml:id="VIII_114-19"/>einer festen Mitte ausschwanken. <hi rendition="#aq">München</hi> hält mir immer seinen<note corresp="#VIII_114-20">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006040">
+                           <placeName>München</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="20" xml:id="VIII_114-20"/>Regenmonat vor die Augen. — Wie gern säh’ ich
+                  dich, mein lieber<lb xml:id="VIII_114-21"/>Sohn, mitten in der schönsten Umgebung
+                  von Freunden und Gegenden!<lb xml:id="VIII_114-22"/>— Bleibe nur immer deinem <hi rendition="#aq">Münchner</hi> Fluge und Streben getreu und<note corresp="#VIII_114-23">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006040">
+                           <placeName>München</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VIII_114-23"/>belohne deine Eltern durch dein Glück!</p>
+               <lb xml:id="VIII_114-24"/>
+               <closer>
+                  <salute>
+                     <hi rendition="#right">Dein<lb n="25" xml:id="VIII_114-25"/>Vater<lb xml:id="VIII_114-26"/>J. P. F. Richter</hi>
+                     <lb xml:id="VIII_114-27"/>
+                  </salute>
+               </closer>
+            </div>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: FDH. 4 S. 8° (etwas defekt). <hi rendition="#i">K</hi>:
+                     <hi rendition="#i">Max</hi>
+               </hi>
+               <lb/>11. Mai <hi rendition="#aq">(nur Überschrift). <hi rendition="#i">J</hi>: Max
+                  Richter Nr. 9×. <hi rendition="#i">B</hi>: IV. Abt., VIII, Nr. 102. <hi rendition="#i">A</hi>: IV. Abt., VIII, Nr. 109.<lb/>
+                  <hi rendition="#b">113</hi>,<hi rendition="#rkd">7</hi>
+               </hi>10]<hi rendition="#aq"> aus</hi> 20 <hi rendition="#rkd">22</hi> an] <hi rendition="#aq">aus</hi> für <hi rendition="#rkd">30</hi> trotz] <hi rendition="#aq">aus</hi> bei <hi rendition="#rkd">33</hi> überladenen] <hi rendition="#aq">aus</hi>
+               <lb/>giftreichen [?] <hi rendition="#rkd">35</hi>
+               <hi rendition="#aq">f.</hi> Trienniums-] <hi rendition="#aq">nachtr.</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">114</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">2</hi>
+               </hi> zwänge] <hi rendition="#aq">aus</hi> zwingt <hi rendition="#rkd">13</hi> übrig]<lb/>
+               <hi rendition="#aq">aus</hi> noch</p>
+            <lb/>
+            <p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">113</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">22</hi>
+               </hi>
+               <hi rendition="#aq">
+                  <hi rendition="#g">Rothhammel:</hi> s. Bd. VII, Nr. 22; Max hatte
+                  geschrieben,<lb/>Heinrich Voß sei als Hochzeitpoet aufgetreten mit
+                  anspielungsreichen<lb/>Gedichten, in denen auch J. P. und er selber („mit tief
+                  mystischen Ge<lb rendition="#hyphen"/>danken“) vorkomme (s. Briefe von H. Voß,
+                  III, 1838, S. 121ff.). <hi rendition="#rkd">26</hi>
+                  <hi rendition="#g">ge-</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#aq">
+                  <hi rendition="#g">drucktes</hi> (Schweigen): vgl. <hi rendition="#b">116</hi>,<hi rendition="#rkd">4–6</hi>†. <hi rendition="#rkd">34 </hi>
+                  <hi rendition="#g">Duellsache:</hi> ein liederlicher<lb/>Erlanger Student, über
+                  den Max sich zu Dritten abfällig geäußert hatte,<lb/>hatte ihn gefordert; durch
+                  Feuerbachs Vermittlung war die Sache gütlich<lb/>beigelegt worden.</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

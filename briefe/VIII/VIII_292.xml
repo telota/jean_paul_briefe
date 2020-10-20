@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VIII_292">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="296">292. An Karoline Richter. </title>
+            <title n="digital">An Caroline Richter. Dresden, 23. Mai 1822 bis 27. Mai 1822.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=VIII_292</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/VIII/VIII_292</idno>
+               <idno type="TELOTAID">VIII_292</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <biblScope n="text" unit="page">
+                  <num>178</num>
+                  <num>179</num>
+                  <num>180</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>385</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+            <listPerson type="commentary">
+               <person corresp="#JP-000949">
+                  <persName> Otto Leopold Freiherr von <name type="reg">Ende</name>
+                  </persName>
+               </person>
+               <person corresp="#JP-003490">
+                  <persName> Max <name type="reg">Richter</name>
+                  </persName>
+               </person>
+            </listPerson>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date corresp="writingSession1" when="1822-05-23">23. Mai 1822</date>
+               <date corresp="writingSession2" when="1822-05-24">24. Mai 1822</date>
+               <date corresp="writingSession3" when="1822-05-25">25. Mai 1822</date>
+               <date corresp="writingSession4" when="1822-05-26">26. Mai 1822</date>
+               <date corresp="writingSession5" when="1822-05-27">27. Mai 1822</date>
+               <placeName key="JP-005687" ref="http://www.geonames.org/2935022">Dresden</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-003469" ref="http://d-nb.info/gnd/116512539">
+                  <name type="reg">Richter</name> Caroline </persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VIII_283">16. Mai 1822 bis 20.
+                  Mai 1822</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VIII_295">28. Mai 1822 bis 31.
+                  Mai 1822</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <div n="writingSession1">
+               <lb xml:id="VIII_178-11"/>
+               <dateline>
+                  <hi rendition="#right">
+                     <hi rendition="#aq">
+                        <placeName>Dresden</placeName>
+                     </hi> d. <date>23<hi rendition="#sup">ten</hi> Mai &lt;Donnerst.&gt;
+                        1822</date>
+                  </hi>
+               </dateline>
+               <lb xml:id="VIII_178-12"/>
+               <salute>
+                  <hi rendition="#et">Meine geliebte Karoline!</hi>
+               </salute>
+               <lb xml:id="VIII_178-13"/>
+               <p>Dein am Donnerstage abgegangner und Montags angelangter<lb xml:id="VIII_178-14"/>Brief hat mir lauter Gelingen gemeldet und gebracht; so wie ich über<lb n="15" xml:id="VIII_178-15" rendition="#hyphen"/>haupt der Vorsehung für ein seltenes
+                  Zusammentreffen günstiger<lb xml:id="VIII_178-16"/>Umstände — im Gegensatze der
+                  Münchner ungünstigen — danken<note corresp="#VIII_178-17">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006040">
+                           <placeName>München</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VIII_178-17"/>muß. Aber die Lückenhaftigkeit meines Lebens bezieht
+                  sich ja, wie du<lb xml:id="VIII_178-18"/>wissen könntest, nur auf das Alter, das
+                  die Dichtfreude der Jugend aus<lb xml:id="VIII_178-19" rendition="#hyphen"/>schließt, auf mein zu starkes Gefühl der wenigen Jahre, die mich wenig<lb n="20" xml:id="VIII_178-20"/>mehr vollenden lassen, und auf das andere der Zeit aus
+                     Sekunden<lb xml:id="VIII_178-21" rendition="#hyphen"/>Vertröpfeln — und auf das
+                  letzte, das uns beide nun nicht mehr ver<lb xml:id="VIII_178-22" rendition="#hyphen"/>lassen kann auf dem Wege nach der <hi rendition="#aq">Fantaisie.</hi>
+               </p>
+               <note corresp="#VIII_178-23">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-00557421" ana="†">
+                        <placeName>Fantaisie (Phantasie) bei Bayreuth; Bayreuth (Stadt)</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VIII_178-23"/>
+            </div>
+            <div n="writingSession2">
+               <dateline>
+                  <hi rendition="#right">den 24<hi rendition="#sup">ten</hi> Mai</hi>
+               </dateline>
+               <lb xml:id="VIII_178-24"/>
+               <p>Ich habe dir neulich, meine Karoline, mit einer irrigen Voraus<lb n="25" xml:id="VIII_178-25" rendition="#hyphen"/>setzung Unrecht gethan, weil ich an
+                  das Aufmauern eines hohen Ofens<lb xml:id="VIII_178-26"/>wie deiner, dachte; aber
+                  ein so wohlfeiler ist mir gerade recht lieb, zumal<lb xml:id="VIII_178-27"/>da ein
+                  strenger Winter für mich entschieden ist. — Kannst du mir kein<lb xml:id="VIII_178-28"/>Andenken für die liebe, liebe Minona zu kaufen anrathen,
+                  das nicht zu<note corresp="#VIII_178-29">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000009">
+                           <persName> Minona Laura <name type="reg">Abeken</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-004103">
+                           <persName> Emma <name type="reg">Spazier</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VIII_178-29"/>theuer und doch ihrer würdig wäre? Sinne nach. Neulich
+                  bei dem<lb n="30" xml:id="VIII_178-30"/>vortrefflichen Schwarz in <hi rendition="#aq">Friedstein</hi> — der mir 16 Flaschen seines selber<note corresp="#VIII_178-31">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003940">
+                           <persName> Georg <name type="reg">Schwartz</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005761">
+                           <placeName>Friedstein, Weingut bei Dresden</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VIII_178-31"/>gebauten Burgunders gegeben, dessen Bezahlung in Geld
+                     anzunehmen<lb xml:id="VIII_178-32"/>er mir hoff ich ohne Zweideutigkeit
+                  versprochen — sang Minona, nach<note corresp="#VIII_178-33">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000009">
+                           <persName> Minona Laura <name type="reg">Abeken</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-004103">
+                           <persName> Emma <name type="reg">Spazier</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VIII_178-33" rendition="#hyphen"/>dem die schöne Frau von <hi rendition="#aq">Schwarz</hi> mit Operkraft ein langes italienisches<note corresp="#VIII_178-34">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003937">
+                           <persName> Emily <name type="reg">Schwartz</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0058723">
+                           <placeName>Musik, Oper; Italien</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VIII_178-34"/>Kunstwerk herrlich vorgetragen,<lb n="35" xml:id="VIII_178-35"/>
+               </p>
+               <lb type="ig"/>
+            </div>
+            <div n="writingSession3">
+               <dateline>
+                  <hi rendition="#right">
+                     <hi rendition="#g">Sonnabends</hi>
+                  </hi>
+               </dateline>
+               <lb xml:id="VIII_179-1"/>
+               <p>da sang Minona das Göthesche Italienlied mit so vollen, reinen, aber<note corresp="#VIII_179-2">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000009">
+                           <persName> Minona Laura <name type="reg">Abeken</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-004103">
+                           <persName> Emma <name type="reg">Spazier</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005872">
+                           <placeName>Italien</placeName>
+                        </place>
+                     </listPlace>
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-008537">
+                           <author>Goethe, Johann Wolfgang von (1749-1832)</author>
+                           <title>Gedichte: Mignon</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VIII_179-2"/>gedämpften Flötentönen, daß ich eine ½ Stunde lang meine
+                     Rührung<lb xml:id="VIII_179-3"/>zu bekämpfen hatte. Immer voll Kopf- oder
+                  Zahnschmerzen <note n="*)" place="foot">Am 1 Pfingsttage kam sie wie wahnsinnig
+                     vor Zahnschmerz <hi rendition="#g">mit</hi> der Magd<lb type="ig"/>Nachts zu
+                     mir, als ich schon schlief; und zum Glück magnetisierte <hi rendition="#g">ich</hi> ihr im Freien,<lb n="35" type="ig"/>einen ruhigen Schlaf bis
+                     morgens 8 Uhr ein.</note> bleibt<lb xml:id="VIII_179-4"/>sie doch heiter und
+                  geschäftig. — Graf Nostitz soll (ich sah ihn noch<note corresp="#VIII_179-5">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003017">
+                           <persName> Gottlob Adolf Ernst Graf von, (Pseud. Arthur von Nordstern)
+                                 <name type="reg">Nostitz und Jänkendorf</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="5" xml:id="VIII_179-5"/>nicht) <hi rendition="#aq">Baireut</hi> sehr schön
+                  und dich, Zu-Fleißige, malend gefunden haben.<note corresp="#VIII_179-6">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005574">
+                           <placeName>Bayreuth (Stadt)</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VIII_179-6"/>— Hier sind meist schöne und doch nicht zu heiße Tage,
+                  und ich werde<lb xml:id="VIII_179-7"/>den Sommerrock mir ersparen können. —</p>
+               <lb xml:id="VIII_179-8"/>
+            </div>
+            <div n="writingSession4">
+               <dateline>
+                  <hi rendition="#right">1<hi rendition="#sup">ten</hi> Pfingsttag
+                        <metamark>[</metamark>26. Mai<metamark>]</metamark>
+                  </hi>
+               </dateline>
+               <lb xml:id="VIII_179-9"/>
+               <p>Ich kann deine Briefe immer kaum erwarten, da sie mir ja von<lb n="10" xml:id="VIII_179-10"/>3 Geliebten berichten, dir aber meiner nur von 1
+                  Menschen. Morgen<lb xml:id="VIII_179-11"/>Mittags, wo einer kommen muß, will ich
+                  mehr nachtragen über die<lb xml:id="VIII_179-12"/>Abreise. Dresden hab’ ich nun
+                  ziemlich ausgenossen und ich sehne mich<note corresp="#VIII_179-13">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005687">
+                           <placeName>Dresden</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VIII_179-13"/>in mein Haus und nach meinen Arbeiten und Gärten, was
+                  alles hier<lb xml:id="VIII_179-14"/>fehlt. Kraft und Feuer ist hier wenig, — wenn
+                  ich Menschen wie <hi rendition="#aq">Tieck,</hi>
+                  <note corresp="#VIII_179-15">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004302">
+                           <persName> Ludwig (Pseud. Peter Leberecht, Gottlieb Färber) <name type="reg">Tieck</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="15" xml:id="VIII_179-15"/>bei dem ich gestern gegessen, ausnehme — kein
+                  Muth zur Sprache oder<lb xml:id="VIII_179-16"/>gar Satire über Staatverfassung.
+                  Ferner hab’ ich das Unglück, immer<lb xml:id="VIII_179-17"/>10, 15 auf einmal zu
+                  hören, so wie Frauen in ganzen Herden zu sprechen,<lb xml:id="VIII_179-18"/>wenn
+                  ich abgelebte Dichterinnen ausnehme. — Im <hi rendition="#aq">Stern</hi> wurde
+                     mir<note corresp="#VIII_179-19">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-00568711">
+                           <placeName>Gasthof Der Blaue Stern; Dresden</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VIII_179-19"/>ein Pickenick von Ammon und Schütz gegeben.
+                     Kalkreich<metamark>[</metamark>!<metamark>]</metamark>, Kind,<note corresp="#VIII_179-20">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000073">
+                           <persName> Christoph Friedrich von <name type="reg">Ammon</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-002012">
+                           <persName> Friedrich Graf von <name type="reg">Kalckreuth</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-002107">
+                           <persName> Johann Friedrich <name type="reg">Kind</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003890">
+                           <persName> Karl Heinrich Ferdinand <name type="reg">Schütz</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="20" xml:id="VIII_179-20"/>Theodor Hell, Wolke, Tieck, Malsburg, Raden,
+                  Maria Weber (der<note corresp="#VIII_179-21">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002592">
+                           <persName> Ernst Friedrich Georg Otto, Freiherr von der <name type="reg">Malsburg</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003338">
+                           <persName> Wilhelm Friedrich August <name type="reg">Raden</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-004302">
+                           <persName> Ludwig (Pseud. Peter Leberecht, Gottlieb Färber) <name type="reg">Tieck</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-004609">
+                           <persName> Carl Maria von <name type="reg">Weber</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-004742">
+                           <persName> Karl Gottlieb Theodor (Pseud. Theodor Hell) <name type="reg">Winkler</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-004803">
+                           <persName> Christian Heinrich <name type="reg">Wolke</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VIII_179-21"/>geniale Komponist des Freischützen), Roos, und noch
+                  mehre Dichter<note corresp="#VIII_179-22">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003570" ana="†">
+                           <persName> Richard (d.i. Karl August Engelhardt) <name type="reg">Roos</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-010041">
+                           <author>Weber, Carl (Karl) Maria von (1786-1826)</author>
+                           <title>Der Freischütz (1821)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VIII_179-22"/>waren dabei. Die seltensten Weine schwemmten alles zu
+                  einem Freuden<lb xml:id="VIII_179-23" rendition="#hyphen"/>und Freundschaft-Chaos
+                  zusammen; und ich mußte wirklich von so<lb xml:id="VIII_179-24"/>vieler die
+                  Nebenbuhlerschaft aufopfernden Liebe hingerissen werden.<lb n="25" xml:id="VIII_179-25"/>Hinterher kamen noch Kranz und Gedicht. Heute sollt ich
+                  vielen davon<lb xml:id="VIII_179-26"/>noch einen ganzen Tag zu einer Wasserfarth
+                  hergeben; aber einen<lb xml:id="VIII_179-27"/>ganzen kann ich nicht ohne alle
+                  Einsamkeit hinbringen. So werd’ ich<lb xml:id="VIII_179-28"/>auch einer Pohlin <hi rendition="#aq">Feldhousen,</hi> deren Mann ankommt, die Fahrt nach<note corresp="#VIII_179-29">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004410">
+                           <persName> Maria Theresia <name type="reg">Velthusen</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-004414">
+                           <persName> Johann Heinrich Christian <name type="reg">Velthusen</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006155">
+                           <placeName>Polen </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VIII_179-29"/>der berühmten sächsischen Schweiz abschlagen. — Im mir
+                     schlecht<note corresp="#VIII_179-30">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006226">
+                           <placeName>Sächsische Schweiz</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="30" xml:id="VIII_179-30"/>geschilderten Theater war ich noch nicht. — Heute
+                  will ich zum zweiten<note corresp="#VIII_179-31">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-00568724">
+                           <placeName>Theater; Dresden</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VIII_179-31"/>mal die Kirchenmusik hören, ob mir gleich der Anblick
+                  der Messe viel<note corresp="#VIII_179-32">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-00568718">
+                           <placeName>Katholische Hofkirche; Dresden</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VIII_179-32"/>versäuert. — Die 3 Fürstinnen sind wieder entflogen. —
+                  Ergriffen und<note corresp="#VIII_179-33">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000854">
+                           <persName> Herzogin von Kurland <name type="reg">Dorothea</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VIII_179-33"/> erhoben hat mich nichts mehr als Elisa Recke, da sie
+                  bei der <hi rendition="#aq">Ende</hi> für<note corresp="#VIII_180-1">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000948">
+                           <persName> Henriette Freifrau von <name type="reg">Ende</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003370">
+                           <persName> Elisa von der <name type="reg">Recke</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VIII_180-1"/>meinen Geburttagwunsch auf einmal begeistert meine Hände
+                  an ihre<lb xml:id="VIII_180-2"/>Brust drückte, Du sagte und dankte und mir die
+                  Stirn küßte. — <hi rendition="#aq">Ende</hi>
+                  <note corresp="#VIII_180-3">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000948" ana="†">
+                           <persName> Henriette Freifrau von <name type="reg">Ende</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VIII_180-3"/>gedachte, wie natürlich, nie des <hi rendition="#aq">Carové-schen</hi> Streits.</p>
+               <note corresp="#VIII_180-4">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000587" ana="†">
+                        <persName> Friedrich Wilhelm <name type="reg">Carové</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_180-4"/>
+               <p>— Die Kirchenmusik vom großen <hi rendition="#aq">Hasse</hi> ist wie eine neue
+                  Welt auf<note corresp="#VIII_180-5">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001563">
+                           <persName> Johann Adolf <name type="reg">Hasse</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-00568718">
+                           <placeName>Katholische Hofkirche; Dresden</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="5" xml:id="VIII_180-5"/>mich gestürzt, ein wogendes Tonmeer, das sich doch
+                  wie ein Strom nach<lb xml:id="VIII_180-6"/>Einer Richtung bewegt. Lange, lange
+                  hab’ ich solche Sänger und einen<lb xml:id="VIII_180-7"/>solchen Künstler nicht
+                  gehört. Wie gönnte ich deinem Ohre und deinem<lb xml:id="VIII_180-8"/>Herzen einen
+                  solchen Himmel wie deinem Auge den hiesigen Bilder<lb xml:id="VIII_180-9" rendition="#hyphen"/>himmel! Und bekommen wirst du ihn einmal auch gewiß.</p>
+               <lb xml:id="VIII_180-10"/>
+            </div>
+            <div n="writingSession5">
+               <dateline>
+                  <hi rendition="#right">d. 27<hi rendition="#sup">ten</hi> Mai &lt;Montag&gt;</hi>
+               </dateline>
+               <lb xml:id="VIII_180-11"/>
+               <p>Bei dem Gastmal im Stern bekam ich von <hi rendition="#aq">Ammon</hi> die
+                     feierliche<note corresp="#VIII_180-12">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000073">
+                           <persName> Christoph Friedrich von <name type="reg">Ammon</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-00568711">
+                           <placeName>Gasthof Der Blaue Stern; Dresden</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VIII_180-12"/>Zusage eines Stipendiums für <hi rendition="#aq">Richard.</hi> — Nur einige male as ich bei<note corresp="#VIII_180-13">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004107">
+                           <persName> Richard Otto <name type="reg">Spazier</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VIII_180-13"/>Minna Mittags; und so 2 mal im Gasthofe. — Der herrliche
+                     <hi rendition="#aq">Schütz,</hi>
+                  <note corresp="#VIII_180-14">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003890">
+                           <persName> Karl Heinrich Ferdinand <name type="reg">Schütz</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-004393">
+                           <persName> Wilhelmine <name type="reg">Uthe-Spazier</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VIII_180-14"/>der seiner Engländerin ein besonderes Haus ganz nach
+                  englischer Bau<note corresp="#VIII_180-15">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003889">
+                           <persName> Frau <name type="reg">Schütz</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0057157">
+                           <placeName>Frauen; England, englisch, Britannien</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="15" xml:id="VIII_180-15" rendition="#hyphen"/>art außer Dresden schaffen
+                  ließ, schenkte mir 6 <hi rendition="#aq">Bouteillen</hi> engl. <hi rendition="#aq">Ale</hi>
+                  <note corresp="#VIII_180-16">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0057151" rend="Ale">
+                           <placeName>Bier; England, englisch, Britannien</placeName>
+                        </place>
+                        <place corresp="#JP-005687">
+                           <placeName>Dresden</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VIII_180-16"/>(Oel) und 1 Büchse engl. Senfpulver, das nirgend hier zu
+                  finden ist.<note corresp="#VIII_180-17">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-00571523">
+                           <placeName>Senf; England, englisch, Britannien</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VIII_180-17"/>Etwas Besseres genoß ich nie und wir können künftig bei
+                  unsern Gast<lb xml:id="VIII_180-18" rendition="#hyphen"/>malen damit wahrhaft
+                  glänzen, wenn wir vollends das Rindfleisch<lb xml:id="VIII_180-19"/>und die Gäste
+                  dazu setzen wollten. — Der berühmte Professor <hi rendition="#aq">Vogel</hi>
+                  <note corresp="#VIII_180-20">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004466">
+                           <persName> Carl Christian <name type="reg">Vogel von Vogelstein</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="20" xml:id="VIII_180-20"/>will mich malen; noch scheu’ ich das Sitzen.</p>
+               <lb xml:id="VIII_180-21"/>
+               <p>— — Leider ist nichts angekommen; vielleicht durch Post-Schuld.<lb xml:id="VIII_180-22"/>Die am Mittwoch und Donnerstag aufgegebnen Briefe laufen
+                     am<lb xml:id="VIII_180-23"/>schnell<metamark>[</metamark>st<metamark>]</metamark>en; die am Freitag 8
+                  Tage. Gott gebe nur, daß du mir mein<lb xml:id="VIII_180-24"/>ganzes Glück — dich
+                  — unversehrt wiedergeben kannst. — Der guten<lb n="25" xml:id="VIII_180-25"/>
+                  <hi rendition="#aq">Emma</hi> kann ich aus Mangel eurer Briefe jetzo nichts
+                  schreiben. Mein<note corresp="#VIII_180-26">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003471">
+                           <persName> Emma <name type="reg">Richter</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VIII_180-26"/>letzter ging Montags (den 20<hi rendition="#sup">ten</hi>) ab. — Lebe froh, liebes theures Herz!</p>
+               <lb xml:id="VIII_180-27"/>
+               <closer>
+                  <salute>
+                     <hi rendition="#right">Richter</hi>
+                     <lb xml:id="VIII_180-28"/>
+                  </salute>
+               </closer>
+            </div>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Berlin JP. 6½ S. 8°. <hi rendition="#i">J</hi>:
+                  Nerrlich Nr. 198×. <hi rendition="#i">B</hi>: IV. Abt., VIII, Nr. 162. <hi rendition="#i">A</hi>: IV. Abt., VIII, Nr.</hi>
+               <hi rendition="#aq">171.</hi>
+               <lb/>
+               <hi rendition="#b">
+                  <hi rendition="#aq">178</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">20</hi>
+               </hi> wenig] <hi rendition="#aq">davor gestr.</hi> nicht <hi rendition="#rkd">22</hi>
+               Vertröpfeln] <hi rendition="#aq">aus</hi> Forttröpfeln das letzte]<lb/>
+               <hi rendition="#aq">aus</hi> ein andere(s) uns beide] <hi rendition="#aq">aus</hi>
+               dich auch <hi rendition="#rkd">26</hi> weil] <hi rendition="#aq">aus</hi> da <hi rendition="#rkd">30</hi> bei] <hi rendition="#aq">davor<lb/>gestr.</hi> als <hi rendition="#b">
+                  <hi rendition="#aq">179</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">6</hi>
+               </hi> Zu-] <hi rendition="#aq">nachtr.</hi>
+               <hi rendition="#rkd">26</hi> vielen davon] <hi rendition="#aq">nachtr.</hi>
+               <hi rendition="#rkd">32</hi> Anblick] <hi rendition="#aq">aus</hi>
+               <lb/>Unsinn <hi rendition="#b">
+                  <hi rendition="#aq">180</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">2</hi>
+               </hi>
+               <hi rendition="#aq">f.</hi> an ihre Brust] <hi rendition="#aq">nachtr.</hi>
+               <hi rendition="#rkd">20</hi> setzen] <hi rendition="#aq">aus</hi> suchen</p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Angekommen 30. Mai. Karoline hatte ihn gebeten, sich ganz
+                  sorglos<lb/>dem Genießen zu überlassen, „ohne die Foderungen Deiner —
+                  poetischen<lb/>Grillenkrankheiten und ohne die geniale Reizbarkeit, die Dich um
+                  den<lb/>Genuß einer so schönen Gegenwart nicht bringen sollte — doch
+                  Deine<lb/>zwar nur leise hin und wieder anged<hi rendition="#g">eutete</hi>
+                  Sehnsucht nach irgend etwas<lb/>Unaussprechlichem wird wohl wie ein Seufzer
+                  entstanden und vergangen<lb/>sein, und Du bist doch wohl <hi rendition="#g">ganz
+                     froh!</hi>“ <hi rendition="#b">178</hi>,<hi rendition="#rkd">21</hi>f. <hi rendition="#g">Sekunden-Ver<lb rendition="#hyphen"/>tröpfeln:</hi> vgl. Bd.
+                  VII, Nr. 317,<hi rendition="#b">143</hi>,<hi rendition="#rkd">6</hi>ff.†. <hi rendition="#rkd">23</hi> Am Wege nach der <hi rendition="#g">Fantaisie</hi>
+                  <lb/>liegt der Bayreuther Friedhof (mit Maxens Grab). <hi rendition="#rkd">25–28</hi> Karoline hatte<lb/>sich gegen J. P.s „sanften Vorwurf wegen des <hi rendition="#g">Ofens</hi>“ (<hi rendition="#b">170</hi>,<hi rendition="#rkd">27–30</hi>) gerecht<lb rendition="#hyphen"/>fertigt. <hi rendition="#b">179</hi>,<hi rendition="#rkd">2</hi>
+                  <hi rendition="#g">Goethes Italienlied:</hi> vgl. Persönl. Nr. 130, S. 294. <hi rendition="#rkd">5</hi> Gottlob<lb/>Adolf Ernst Graf von <hi rendition="#g">Nostitz</hi> und Jänkendorf (1765—1836), sächs.<lb/>Konferenzminister, der
+                  unter dem Pseudonym Arthur von Nordstern als<lb/>Dichter auftrat. <hi rendition="#rkd">
+                     <hi rendition="#aq">
+                        <add resp="#MB">19</add>
+                     </hi>
+                  </hi>
+                  <hi rendition="#aq"/>
+                  <hi rendition="#aq">
+                     <hi rendition="#i">
+                        <add resp="#MB">Stern</add>
+                     </hi>
+                     <add resp="#MB">: ein Gasthaus in Dresden.</add>
+                  </hi>
+                  <hi rendition="#rkd">20</hi>
+                  <hi rendition="#g">Kalkreich:</hi> Friedrich Ernst Adolf Karl Graf Kalck<lb rendition="#hyphen"/>reuth (1790—1873), dramatischer Dichter. <hi rendition="#rkd">22</hi> Richard <hi rendition="#g">Roos,</hi>
+                  Pseudonym<lb/>des Dresdner Schriftstellers Karl August Engelhardt (1768—1834);
+                  vgl.<lb/>Persönl. Nr. 313. <hi rendition="#rkd">29</hi>
+                  <hi rendition="#g">Feldhousen:</hi> richtig Velthusen, s. Nr. 333 und<lb/>IV. Abt.
+                  (Br. an J. P.), VIII, Nr. 198. <hi rendition="#rkd">31–33</hi>
+                  <hi rendition="#g">Kirchenmusik:</hi> vgl. Br. III, 71 (21. Mai<lb/>1798). <hi rendition="#b">180</hi>,<hi rendition="#rkd">4</hi>
+                  <hi rendition="#g">Carovésche Streit:</hi> Frau von Endes Sohn Otto hatte<lb/>mit
+                  Fr. W. Carové einen Konflikt gehabt, und es hatte eine peinliche<lb/>Szene
+                  gegeben, als Karoline Richter im Oktober 1821 in Heidelberg in<lb/>Carovés
+                  Begleitung zu Frau von Ende gekommen war. <hi rendition="#rkd">14–20</hi> Vgl. Nr.
+                  321†;<lb/>das 1821 von Schütz erbaute Haus lag am Seetor. <hi rendition="#rkd">20</hi>f. Karl Christian<lb/>
+                  <hi rendition="#g">Vogel</hi> von Vogelstein (1788—1868), bekannter
+                  Porträtist.</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

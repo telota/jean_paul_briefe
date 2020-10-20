@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VIII_500">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="505">500. An Georg Reimer (in Leipzig?). </title>
+            <title n="digital">An Georg Andreas Reimer. Bayreuth, 7. Oktober 1825.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=VIII_500</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/VIII/VIII_500</idno>
+               <idno type="TELOTAID">VIII_500</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <biblScope n="text" unit="page">
+                  <num>290</num>
+                  <num>291</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>426</num>
+                  <num>427</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+               <p>Kopie</p>
+            </msDesc>
+            <listPerson type="commentary">
+               <person corresp="#JP-000501">
+                  <persName> Friedrich Arnold <name type="reg">Brockhaus</name>
+                  </persName>
+               </person>
+               <person corresp="#JP-000698">
+                  <persName> Johann Friedrich Freiherr <name type="reg">Cotta von Cottendorf</name>
+                  </persName>
+               </person>
+               <person corresp="#JP-002693">
+                  <persName> Joseph <name type="reg">Max</name>
+                  </persName>
+               </person>
+               <person corresp="#JP-003482">
+                  <persName> Johann Paul Friedrich <name type="reg">Richter</name>
+                  </persName>
+               </person>
+               <person corresp="#JP-004107">
+                  <persName> Richard Otto <name type="reg">Spazier</name>
+                  </persName>
+               </person>
+            </listPerson>
+            <listBibl type="commentary" subtype="werke">
+               <bibl corresp="#JP-008524">
+                  <author>Goethe, Johann Wolfgang von (1749-1832)</author>
+                  <title>Werke (Schriften)</title>
+               </bibl>
+            </listBibl>
+            <listBibl type="commentary" subtype="werke-jp">
+               <bibl corresp="#JP-010775">
+                  <title>Kleine Bücherschau (1825)</title>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1825-10-07">7. Oktober 1825</date>
+               <placeName key="JP-005574" ref="http://www.geonames.org/2951825">Bayreuth</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-003408" ref="http://d-nb.info/gnd/118831194">
+                  <name type="reg">Reimer</name> Georg Andreas</persName>
+               <placeName key="JP-005948" ref="http://www.geonames.org/2879139">Leipzig</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VIII_350">16. November
+                  1822</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VIII_501">12. Oktober 1825
+               </ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <note type="ig">Kopie</note>
+            <dateline>
+               <hi rendition="#right">
+                  <placeName>Baireut</placeName> den <date>7<hi rendition="#sup">ten</hi> Okt.
+                     1825</date>
+               </hi>
+            </dateline>
+            <lb xml:id="VIII_290-16"/>
+            <p>Auf Ihr so wohlwollendes Schreiben vom 12<hi rendition="#sup">ten</hi> Sept. muß
+                  ich<note corresp="#VIII_290-17">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010983" ana="ff†">
+                        <title>Werke, opera omnia (Sämtliche Werke, ab 1826)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VIII_290-17"/>wenigstens eine vorläufige Antwort geben, da Cotta, an den
+               ich den<note corresp="#VIII_290-18">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000698">
+                        <persName> Johann Friedrich Freiherr <name type="reg">Cotta von
+                              Cottendorf</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_290-18"/>11<hi rendition="#sup">ten</hi> Sept. schrieb, und dem ich
+               14 Tage nachher durch seine Buch<lb xml:id="VIII_290-19" rendition="#hyphen"/>handlung ein neues Treibmittel nachschickte, mir noch immer die Ant<lb n="20" xml:id="VIII_290-20" rendition="#hyphen"/>wort schuldig blieb, weil ihn der Dampf
+               — das Schießpulver der<lb xml:id="VIII_290-21"/>neuesten Zeit — bis nach Strasburg
+               und über den Rhein hin ver<note corresp="#VIII_290-22">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006187">
+                        <placeName>Rhein</placeName>
+                     </place>
+                     <place corresp="#JP-006310">
+                        <placeName>Straßburg</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VIII_290-22" rendition="#hyphen"/>sprengte; aber mein Warten soll nicht
+               wie eine Sünde bei Ihnen aus<lb xml:id="VIII_290-23" rendition="#hyphen"/>sehen. Ihre
+               letzte Gegenwart und Ihr letzter Brief stärken mich nun<lb xml:id="VIII_290-24"/>mit
+               dem vollsten Zutrauen zur gegenseitigen glücklichen Ausführung<lb n="25" xml:id="VIII_290-25"/>unsres Geschäfts. Aber über Einen Punkt, lieber Reimer,
+                  mis<lb xml:id="VIII_290-26" rendition="#hyphen"/>verstanden Sie mich. Nicht zur
+               vorgeschlagnen allgemeinen Kaufsumme<lb xml:id="VIII_290-27"/>habe ich Ja gesagt,
+               sondern nur das so vielen Zufälligkeiten ausgesetzte<lb xml:id="VIII_290-28"/>Nachzahlen weise ich von mir ab. Mein und Ihr Tod, so viele dann<lb xml:id="VIII_290-29"/>eintretende Mittelspersonen, kurz die ganze Unsicherheit der
+                  Zukunft,<lb n="30" xml:id="VIII_290-30"/>erschweren Berechnung und Genuß. Daher
+               wollte ich z. B. für den<lb xml:id="VIII_290-31"/>vielleicht nicht zu theuern Kometen
+               den von Ihrer Güte gebotnen Nach<note corresp="#VIII_290-32">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010605">
+                        <title>Der Komet (1820-1822)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VIII_290-32" rendition="#hyphen"/>schuß nicht annehmen.</p>
+            <lb xml:id="VIII_290-33"/>
+            <p>Wollen Sie demnach zur frühern Kaufsumme von 20,000 Rth. so<lb xml:id="VIII_290-34" rendition="#hyphen"/>gleich die angebotene Nachschußsumme der drei Absatzperioden,
+                  also<lb n="35" xml:id="VIII_290-35"/>in Allem 35,000 Rth. geben, so sind wir einig
+               und der Grundstein unsres<lb xml:id="VIII_290-36"/> literarischen Baues ist gelegt.
+               Einen solch rechtlich abwägenden Mann<lb xml:id="VIII_291-1"/>brauche ich zur
+               Ermunterung gar nicht an die neuern Beispiele und an<lb xml:id="VIII_291-2"/>das
+               ungerechte Göthes zu erinnern, der jetzt mehr vom Publikum fodert<note corresp="#VIII_291-3">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001353">
+                        <persName> Johann Wolfgang von <name type="reg">Goethe</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_291-3"/>als sonst je von seinem Fleiße. — Dem guten Max in Breslau
+                  habe<note corresp="#VIII_291-4">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002693">
+                        <persName> Joseph <name type="reg">Max</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_291-4"/>ich auch mit keiner Zeile etwas versprochen, und sein
+                  Geldanerbieten<lb n="5" xml:id="VIII_291-5"/>mit keiner beantwortet, sondern immer
+               Ihre und Cottas Verhältnisse<note corresp="#VIII_291-6">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000698">
+                        <persName> Johann Friedrich Freiherr <name type="reg">Cotta von
+                              Cottendorf</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_291-6"/>entgegengesetzt. — Bleibt Alles so wie ich es jetzt hoffe,
+               so schreibe ich<lb xml:id="VIII_291-7"/>an den Großherzog von Baden und die Kaiserin
+               von Östreich, Schirm<note corresp="#VIII_291-8">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002052">
+                        <persName> Auguste <name type="reg">Karoline</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-002528">
+                        <persName> Großherzog von Baden <name type="reg">Ludwig</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005557">
+                        <placeName>Baden </placeName>
+                     </place>
+                     <place corresp="#JP-006097">
+                        <placeName>Österreich</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VIII_291-8" rendition="#hyphen"/>herrn und Schutzheilige gegen den
+               Nachdruck.</p>
+            <lb xml:id="VIII_291-9"/>
+            <p>Mein trefflicher Neffe Spazier ist schon als litterarischer Adjunkt<note corresp="#VIII_291-10">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004107">
+                        <persName> Richard Otto <name type="reg">Spazier</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="10" xml:id="VIII_291-10"/>und mechanischer Arbeiter — wegen der beiden
+               Basilisken in den Au<lb xml:id="VIII_291-11" rendition="#hyphen"/>gen — zu mir
+               geladen, damit ich wenigstens immer vier Lieferungen vor<lb xml:id="VIII_291-12"/>Ihnen voraus bin. Es gehe Ihnen, mein Reimer, innig wohl.</p>
+            <lb xml:id="VIII_291-13"/>
+            <closer>
+               <salute>
+                  <hi rendition="#right">Ihr etc.</hi>
+                  <lb xml:id="VIII_291-14"/>
+               </salute>
+            </closer>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">K</hi> (von Emmas Hand) ohne Überschrift. <hi rendition="#i">i</hi>: Beilage zur Leipziger<lb/>Zeitung, 15. Dez. 1881, Nr. 100. <hi rendition="#i">B</hi>: IV. Abt., VIII, Nr. 347. <hi rendition="#i">A</hi>: IV.
+                  Abt., VIII, Nr.</hi>
+               <hi rendition="#aq">351. </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">290</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">18</hi>
+               </hi>
+               <lb/>an den] von dem <hi rendition="#rkd">28</hi> das] <hi rendition="#aq">aus</hi>
+               daß <hi rendition="#rkd">30</hi> Unsicherkeit <hi rendition="#b">
+                  <hi rendition="#aq">291</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">8</hi>
+               </hi> Östreich] <hi rendition="#aq">aus</hi>
+               <lb/>Österreich</p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Nach <hi rendition="#i">A</hi> war J. P.s Brief vom 9. Okt., <hi rendition="#i">B</hi> ist nicht vom 12., sondern vom<lb/>24. Sept. datiert.
+                  Reimer nimmt darin Bezug auf die Bedingungen, die<lb/>er bei seiner persönlichen
+                  Anwesenheit in Bayreuth (im Sommer 1825)<lb/>J. P. vorgeschlagen habe, und
+                  wiederholt, daß die von ihm gebotene<lb/>Summe (20 000 Taler) nur als
+                  Minimalbetrag anzusehen sei, den er J. P.<lb/>und den Seinen auf alle Fälle
+                  sichern wolle. Er wünsche zwar den Preis<lb/>der ganzen Ausgabe möglichst niedrig
+                  zu halten, nicht wesentlich über<lb/>30 Taler, erbiete sich aber — trotz J. P.s
+                  Ablehnung jeder Vermehrung<lb/>der gebotenen Summe — nach Absatz von 3000
+                  Exemplaren 5000 Taler<lb/>nachzuzahlen, nach Absatz von 4000 noch einmal 5000
+                  Taler und nach<lb/>Absatz der ganzen, auf 5000 Exemplare bestimmten Auflage noch
+                  ein<lb/>drittesmal 5000 Taler, so daß sich die Summe auf 35000 Taler
+                  erhöhen<lb/>würde. Seine früheren Bedenken wegen der möglichen Ansprüche
+                  Cottas<lb/>glaube er durch die Erwägung beschwichtigen zu können, daß Cotta
+                  bei<lb/>seinen Unternehmungen sich auch niemals um die Ansprüche
+                  früherer<lb/>Verleger gekümmert habe, daß er (Cotta) in einem Lande wohne, wo
+                  der<lb/>Nachdruck nicht verpönt sei, und daß er weniger Werke J. P.s in
+                  Verlag<lb/>habe als er (Reimer), von denen noch dazu einige vergriffen seien.
+                  Mit<lb/>Joseph Max dagegen solle sich J. P. wegen dessen viel
+                  untergeordneteren<lb/>Ansprüchen gütlich auseinandersetzen, ferner die geeigneten
+                  Schritte tun,<lb/>um in Österreich, Baden und Württemberg den Nachdruck zu
+                  bekämpfen.<lb/>J. P.s Antwort erbat Reimer nach Leipzig, wohin er am 30. Sept.
+                  abgehen<lb/>und wo er bis 16. Okt. bleiben werde. — Aus einem Brief Reimers
+                  an<lb/>Karoline Richter aus Leipzig vom 7. Okt. 1825 (Berlin JP) geht
+                  hervor,<lb/>daß diese am 3. Okt. — anscheinend ohne Wissen J. P.s — und
+                  gleichzeitig<lb/>auch Richard Spazier aus Dresden an Reimer geschrieben und unter
+                  Hin-</hi>
+               <lb/>
+               <hi rendition="#aq">weis darauf, daß Brockhaus Goethe für eine Gesamtausgabe 80 000
+                  Taler<lb/>angeboten habe (vgl. Sophienausgabe, IV. Abt., 40. Bd., S. 442),
+                  eine<lb/>Erhöhung der Kaufsumme auf 40 000 Taler gefordert hatten.
+                  Reimer<lb/>macht dagegen geltend, daß Spazier in einem früheren Schreiben
+                  nur<lb/>30 000 Taler verlangt, daß J. P. selbst sogar sein erstes Angebot
+                  von<lb/>20 000 Talern für übergenügend angesehen, und daß J. Max nur 14 000
+                  Taler<lb/>geboten habe (vielmehr 15 000, s. zu Nr. 487), erklärt sich aber
+                  bereit,<lb/>eventuell die Auflage zu vergrößern und für weiteren Absatz von
+                  je<lb/>1000 Exemplaren je 5000 Taler nachzuzahlen.</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

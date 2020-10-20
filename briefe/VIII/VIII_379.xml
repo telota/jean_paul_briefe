@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VIII_379">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="383">379. An Professor Mehmel in Erlangen. </title>
+            <title n="digital">An Gottlieb Ernst August Mehmel. Bayreuth, 27. Mai 1823.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=VIII_379</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/VIII/VIII_379</idno>
+               <idno type="TELOTAID">VIII_379</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <biblScope n="text" unit="page">
+                  <num>225</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>403</num>
+                  <num>404</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+            <listPerson type="commentary">
+               <person corresp="#JP-002022">
+                  <persName>
+                     <name type="reg">Kanne</name>
+                  </persName>
+               </person>
+               <person corresp="#JP-002021">
+                  <persName> Johann Arnold <name type="reg">Kanne</name>
+                  </persName>
+               </person>
+            </listPerson>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1823-05-27">27. Mai 1823</date>
+               <placeName key="JP-005574" ref="http://www.geonames.org/2951825">Bayreuth</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-002726" ref="http://d-nb.info/gnd/117002771">
+                  <name type="reg">Mehmel</name> Gottlieb Ernst August</persName>
+               <placeName key="JP-005722" ref="http://www.geonames.org/2929567">Erlangen
+               </placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VII_103">28. Oktober 1815</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VIII_404">31. Oktober
+                  1823</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <dateline>
+               <hi rendition="#right">
+                  <hi rendition="#aq">
+                     <placeName>Baireut</placeName>
+                  </hi> d. <date>27<hi rendition="#sup">ten</hi> Mai 1823</date>
+               </hi>
+            </dateline>
+            <lb xml:id="VIII_225-2"/>
+            <p>Höchstgeschätzter Herr Hofrath! Ich kann mir meine Erlanger Tage<note corresp="#VIII_225-3">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005722">
+                        <placeName>Erlangen </placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VIII_225-3"/>— diese ruhigen, aber heitern Sabbathtage — nicht
+               zurückmalen, ohne<lb xml:id="VIII_225-4"/>Ihr Bild und die einzelnen Bogen Ihrer
+               Moral — ich wünschte, ganze<note corresp="#VIII_225-5">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009167">
+                        <author>Mehmel, Gottlieb Ernst August (1761-1840), Professor der Philosophie
+                           in Erlangen</author>
+                        <title>Lehrbuch der Sittengeschichte (1811)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="5" xml:id="VIII_225-5"/>moralische Alphabete brächten mir so schöne Morgen als
+               Sie mit Ihren<lb xml:id="VIII_225-6"/>Bogen damals — in das schöne geistige
+               Stillleben zu bringen. Hier<lb xml:id="VIII_225-7"/>schreib’ ich nun an Sie, um
+               vielleicht auch einem andern durch Sie zu<lb xml:id="VIII_225-8"/>Erlanger Tagen zu
+               verhelfen.</p>
+            <lb xml:id="VIII_225-9"/>
+            <p>Ich spreche vom <hi rendition="#aq">Dr. Kapp.</hi> Seine <hi rendition="#aq">Sylvae
+                  Cratyli,</hi> schon aus Flug<note corresp="#VIII_225-10">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002028" ana="ff">
+                        <persName> Christian <name type="reg">Kapp</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008899">
+                        <author>Kapp, Christian (1798-1874), Professor der Philosophie in
+                           Heidelberg, Sohn von Johann Kapp</author>
+                        <title>Sylvae cratuli (1822)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="10" xml:id="VIII_225-10" rendition="#hyphen"/>samen früherer Jahre
+               aufgegangen, sind ein Garten voll philologischer<lb xml:id="VIII_225-11"/>Knospen.
+               Sein späteres Buch „Christus und die Weltgeschichte“ wird<note corresp="#VIII_225-12">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000634">
+                        <persName>
+                           <name type="reg">Christus</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008898">
+                        <author>Kapp, Christian (1798-1874), Professor der Philosophie in
+                           Heidelberg, Sohn von Johann Kapp</author>
+                        <title>Christus und die Weltgeschichte (1823)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VIII_225-12"/>Sie — so wie mich — mehr mit seinen frühen Kenntnissen und
+                  Kräften,<lb xml:id="VIII_225-13"/>mit seiner Stärke der Kombinazionen und
+               Übersichten ansprechen, als<lb xml:id="VIII_225-14"/>mit der Aehnlichkeit, die er als
+               junger Mann mit der neuesten, auch in<lb n="15" xml:id="VIII_225-15"/>Erlangen
+               residierenden Zeit zu theilen scheint, welche uns statt des<note corresp="#VIII_225-16">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005722">
+                        <placeName>Erlangen </placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VIII_225-16"/>Lichtes ein infusorisches Chaos von
+                  indisch-poetisch-mystisch-über<note corresp="#VIII_225-17">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001888">
+                        <persName>
+                           <name type="reg">Indianer</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-002950">
+                        <persName>
+                           <name type="reg">Mystiker</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-0058590">
+                        <placeName>Indianer, Inder; Indien</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VIII_225-17" rendition="#hyphen"/>glaubigem Christenthum liefert. Die
+               jugendliche Aehnlichkeit wird ver<note corresp="#VIII_225-18">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004359">
+                        <persName>
+                           <name type="reg">Überchristen</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_225-18" rendition="#hyphen"/>fliegen, aber dafür ein reifer,
+               vielgewandter, religiöser Geist zurück<lb xml:id="VIII_225-19"/>bleiben, nach der
+               Dephlegmatisazion der Zeit.<lb n="20" xml:id="VIII_225-20"/>
+            </p>
+            <p>Sein frommes Gemüth, seine kindliche Bescheidenheit, sein religiöses<lb xml:id="VIII_225-21"/>Streben nach dem Höchsten in Glauben und Lernen spricht sich
+                  fast<lb xml:id="VIII_225-22"/>bei seine ersten Erscheinung aus; und ein Theil
+               seines geistigen Werths<lb xml:id="VIII_225-23"/>sich leider durch das, was der
+               Körper dazu heropfern mußte. Denn der<lb xml:id="VIII_225-24"/>Baum des Erkenntnisses
+               wurde eine parasitische aussaugende Pflanze<lb n="25" xml:id="VIII_225-25"/>seines
+               Nervensystems.</p>
+            <lb xml:id="VIII_225-26"/>
+            <p>Nun kommt es — nach allem was ich höre — auf Ihre Stimme an,<lb xml:id="VIII_225-27"/>vortrefflicher, das Gute auch außerhalb des Landtagsaals im Lehrsaal<note corresp="#VIII_225-28">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002345">
+                        <persName>
+                           <name type="reg">Landtag</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-0055691">
+                        <placeName>Landtag, Stände; Bayern </placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VIII_225-28"/>beschirmender Mann, ob der Jüngling seine Heilung in der
+                  Lehrthätig<lb xml:id="VIII_225-29" rendition="#hyphen"/>keit und alle Früchte der
+               mühsamen Jugendsaat endlich finden soll im —<lb n="30" xml:id="VIII_225-30"/>Professorkatheder.</p>
+            <lb xml:id="VIII_225-31"/>
+            <p>Ihrer Einsicht brauch’ ich nichts weiter zu sagen und abzuverlangen,<lb xml:id="VIII_225-32"/>und Ihrem Herzen noch weniger. Leben Sie recht wohl!</p>
+            <lb xml:id="VIII_225-33"/>
+            <closer>
+               <salute>
+                  <hi rendition="#right">Ihr<lb xml:id="VIII_225-34"/>ergebenster<lb n="35" xml:id="VIII_225-35"/>Jean Paul Fr. Richter</hi>
+               </salute>
+            </closer>
+            <lb xml:id="VIII_225-36"/>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: ehem. Hermann Kiewy, Hamburg. 4 S. 8º. <hi rendition="#i">K</hi> (von Karolinens Hand):<lb/>
+                  <hi rendition="#i">Mehmel!</hi>
+               </hi> den 27ten Mai 1823. <hi rendition="#aq">
+                  <hi rendition="#i">i</hi>: Beilage zur Leipziger Zeitung, 15. Dez.<lb/>1881,
+                  Nr.</hi>
+               <hi rendition="#aq">100. </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">225</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">5</hi>
+               </hi> ganze] <hi rendition="#aq">aus</hi> andere <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">14 </hi>Übersichten] Ansichten <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">16</hi> welche] <hi rendition="#aq">aus</hi> die <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">18</hi> gläubigem <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">24</hi> heropfern] opfern <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Während seines Aufenthalts in Erlangen im Juni 1811 hatte J.
+                  P.<lb/>einzelne Bogen von Mehmels damals im Druck befindlichem „Lehrbuch<lb/>der
+                  Sittenlehre“ zu lesen bekommen; vgl. IV. Abt. (Br. an J. P.), VI, Nr. 131. <hi rendition="#b">225</hi>,<hi rendition="#rkd">10</hi>ff.<lb/>
+                  <hi rendition="#g">Kapp</hi>: vgl. Nr. 318†; seine Schrift „Christus und die
+                  Weltgeschichte, oder<lb/>Sokrates und die Wissenschaft“ erschien anonym 1823 im
+                  Verlag Mohr<lb/>&amp; Zimmer in Heidelberg; das „infusorische Chaos“ war in
+                  Erlangen durch<lb/>Kanne vertreten. Vgl. <hi rendition="#b">232</hi>,<hi rendition="#rkd">16–19</hi>. — Kapp habilitierte sich 1823 in Er-</hi>
+               <lb/>
+               <lb/>
+               <hi rendition="#aq">langen, wurde dort 1824 a. o. Professor der Philosophie, gab aber
+                  1833<lb/>sein Amt auf.</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

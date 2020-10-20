@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VIII_431">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="435">431. An Eduard Hitzig in Berlin. </title>
+            <title n="digital">An Julius Eduard Hitzig. Bayreuth, 30. April 1824.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=VIII_431</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/VIII/VIII_431</idno>
+               <idno type="TELOTAID">VIII_431</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <biblScope n="text" unit="page">
+                  <num>256</num>
+                  <num>257</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>414</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+            <listPerson type="commentary">
+               <person corresp="#JP-000602">
+                  <persName> Adelbert von <name type="reg">Chamisso</name>
+                  </persName>
+               </person>
+               <person corresp="#JP-001121">
+                  <persName> Friedrich <name type="reg">Förster</name>
+                  </persName>
+               </person>
+               <person corresp="#JP-001627">
+                  <persName> Otto Friedrich Theodor <name type="reg">Heinsius</name>
+                  </persName>
+               </person>
+               <person corresp="#JP-001636">
+                  <persName> Karl Friedrich Ludwig <name type="reg">Hellwig</name>
+                  </persName>
+               </person>
+               <person corresp="#JP-002470">
+                  <persName> Heinrich Friedrich <name type="reg">Link</name>
+                  </persName>
+               </person>
+               <person corresp="#JP-003924">
+                  <persName> Johannes <name type="reg">Schulze</name>
+                  </persName>
+               </person>
+               <person corresp="#JP-004803">
+                  <persName> Christian Heinrich <name type="reg">Wolke</name>
+                  </persName>
+               </person>
+               <person corresp="#JP-004851">
+                  <persName> Johann August <name type="reg">Zeune</name>
+                  </persName>
+               </person>
+            </listPerson>
+            <listPlace type="commentary">
+               <place corresp="#JP-00558620">
+                  <placeName>Gasthof Englisches Haus; Berlin</placeName>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1824-04-30">30. April 1824</date>
+               <placeName key="JP-005574" ref="http://www.geonames.org/2951825">Bayreuth</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-001768" ref="http://d-nb.info/gnd/119209349">
+                  <name type="reg">Hitzig</name> Julius Eduard</persName>
+               <placeName key="JP-005586" ref="http://www.geonames.org/2950159">Berlin</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VIII_377">20. Mai 1823</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <dateline>
+               <hi rendition="#right">
+                  <hi rendition="#aq">
+                     <placeName>Baireut</placeName> d. <date>30<hi rendition="#sup">ten</hi> Apr.
+                        1824</date>
+                  </hi>
+               </hi>
+            </dateline>
+            <lb xml:id="VIII_256-22"/>
+            <p>Guter, nachsichtiger, thätiger Glaubiger und Gläubiger! Denn in<lb xml:id="VIII_256-23"/>der That meine Schuld an baarem Dank ist groß; und zwar für
+                  Thaten<lb xml:id="VIII_256-24"/>und Briefe zugleich. Sie allein waren ja der
+               Stifter des Leserfestes.<lb n="25" xml:id="VIII_256-25"/>
+            </p>
+            <p>Etwas entschuldigt mich der Anlaß selber, der Geburttag, der immer<lb xml:id="VIII_256-26"/>auch ein Geburttag von Antworten und allerlei Arbeiten wird.
+                  Auch<lb xml:id="VIII_256-27"/>der Frühling eignet sich so viel Zeit von mir zu,
+               als wohnt’ ich in einer<lb xml:id="VIII_256-28"/>großen Stadt; und wahrlich er ist ja
+               auch eine und zwar die schönste. —<lb xml:id="VIII_256-29"/>Wie kann ich aber Ihrem
+               herrlichen, mir unvergeßlichen <hi rendition="#aq">Berlin</hi> —<note corresp="#VIII_256-30">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005586">
+                        <placeName>Berlin</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb n="30" xml:id="VIII_256-30"/>dieser Bergstadt der deutschen Kultur, der
+               gesellschaftlichen, ästhetischen<note corresp="#VIII_256-31">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-0056690">
+                        <placeName>Deutsche; Deutschland , deutsch , Germanien,
+                           Vaterland</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VIII_256-31"/>und philosophischen, genug Dank und Freude bezeigen? Grüßen
+               Sie von<note corresp="#VIII_256-32">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-0056713">
+                        <placeName>Philosophie; Deutschland, deutsche</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VIII_256-32"/> mir noch die Toastdichter, besonders <hi rendition="#aq">Schüller, v. Ahlefeldt</hi> und <hi rendition="#aq">Fouqué.</hi>
+               <note corresp="#VIII_257-1">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000044">
+                        <persName> Johann Georg Jacob von <name type="reg">Ahlefeldt</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-001138">
+                        <persName> Friedrich Freiherr de la Motte <name type="reg">Fouqué</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003888">
+                        <persName> Johann Eduard <name type="reg">Schüller</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008424">
+                        <author>Fouqué, Friedrich Freiherr de la Motte (Pseud. Pellegrin)
+                           (1777-1843),romantischer Erzähler, Dramatiker und Lyriker</author>
+                        <title>Der Ritter und die Bauern (1811)</title>
+                     </bibl>
+                     <bibl corresp="#JP-008425">
+                        <author>Fouqué, Friedrich Freiherr de la Motte (Pseud. Pellegrin)
+                           (1777-1843),romantischer Erzähler, Dramatiker und Lyriker</author>
+                        <title>Undine (1811)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VIII_257-1"/>Überhaupt wünscht’ ich wol Namen einiger Theilnehmer und
+                  Theil<lb xml:id="VIII_257-2" rendition="#hyphen"/>nehmerinnen, in so fern es
+               bedeutende sind, wenigstens zur stillen Freude<lb xml:id="VIII_257-3"/>und Liebe zu
+               wissen.</p>
+            <lb xml:id="VIII_257-4"/>
+            <p>Noch einen frühern Dank als den letzten hab’ ich Ihnen für Ihren<note corresp="#VIII_257-5">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008747">
+                        <author>Hitzig, Julius Eduard (1780-1849), Kriminalrat, Verleger und
+                           Schriftsteller in Berlin</author>
+                        <title>Lebensabriß Zacharias Werners (1823)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="5" xml:id="VIII_257-5"/>
+               <hi rendition="#aq">Werner</hi> zu sagen, mit welchem Sie mich viel näher bekannt
+                  gemacht<note corresp="#VIII_257-6">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004683">
+                        <persName> Zacharias <name type="reg">Werner</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_257-6"/>und dadurch von manchen Seiten her ausgesöhnt haben. Hätten
+                  wir<lb xml:id="VIII_257-7"/>nur mehre so lebendige Lebensbeschreibungen als blos
+               zwei; und Sie<lb xml:id="VIII_257-8"/>sollten der Freund von mehr als einem großen
+               deutschen Schriftsteller<note corresp="#VIII_257-9">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-0056690">
+                        <placeName>Deutsche; Deutschland , deutsch , Germanien,
+                           Vaterland</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VIII_257-9"/>gewesen sein. Der gute <hi rendition="#aq">Werner</hi> fiel,
+               wie der noch kräftigere <hi rendition="#aq">Hofmann,</hi>
+               <note corresp="#VIII_257-10">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001789">
+                        <persName> Ernst Theodor Amadeus <name type="reg">Hoffmann</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="10" xml:id="VIII_257-10"/>in den poetischen Gährbottich unserer Zeit, wo alle
+               Literaturen, Frei<lb xml:id="VIII_257-11" rendition="#hyphen"/>heiten, Geschmäcke und
+               Ungeschmäcke durch einander brausen, und<lb xml:id="VIII_257-12"/>wo man alles
+               findet, ausgenommen Wahrheit und den Glanz der Feile.<lb xml:id="VIII_257-13"/>Beide
+               hätten sich zu Lessings Zeiten am Studium reiner entwickelt.</p>
+            <note corresp="#VIII_257-14">
+               <listPerson type="lineReference">
+                  <person corresp="#JP-002424">
+                     <persName> Gotthold Ephraim <name type="reg">Lessing</name>
+                     </persName>
+                  </person>
+               </listPerson>
+            </note>
+            <lb xml:id="VIII_257-14"/>
+            <p>Ich habe in meinem 62<hi rendition="#sup">ten</hi> Jahre oft auf einen meiner
+                  Festtrinker<lb n="15" xml:id="VIII_257-15"/>und Festtrunksprecher würdigen
+               Streckvers gesonnen; aber noch immer<lb xml:id="VIII_257-16"/>wollte nichts
+               kommen.</p>
+            <lb xml:id="VIII_257-17"/>
+            <p>Leben Sie wohl, mein lieber Theilnehmer, mit Ihrer trefflichen<lb xml:id="VIII_257-18"/>Tochter und allen Ihrigen!</p>
+            <note corresp="#VIII_257-19">
+               <listPerson type="lineReference">
+                  <person corresp="#JP-001767">
+                     <persName> Eugenie <name type="reg">Hitzig</name>
+                     </persName>
+                  </person>
+               </listPerson>
+            </note>
+            <lb xml:id="VIII_257-19"/>
+            <closer>
+               <salute>
+                  <hi rendition="#right">Ihr ergebenster<lb n="20" xml:id="VIII_257-20"/>Jean Paul
+                     Fr. Richter</hi>
+                  <lb xml:id="VIII_257-21"/>
+               </salute>
+            </closer>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Landesarchiv, Berlin. 3 S. 8º. <hi rendition="#i">K</hi>: <hi rendition="#i">Hitzig</hi>
+               </hi> in <hi rendition="#aq">
+                  <hi rendition="#i">Berlin</hi>
+               </hi> 30 Apr.<lb/>
+               <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>: Vossische Zeitung, 17. Mai 1824, Nr. 115×.
+                  (Wiederabgedr.: Zerstreute<lb/>Blätter von J. P. Fr. Richter, gesammelt durch H.
+                  von Hohenlinden,<lb/>Leipzig 1826, 1. Bd., S. 288, mit der falschen Angabe:
+                  Abendzeitung 1824.)<lb/>
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>: Der Gesellschafter, 17. Dez. 1825, Nr. 201×. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">3</hi>: W. Dorow, Denk<lb rendition="#hyphen"/>schriften u.
+                  Briefe, 5. Bd. (1841), S. 33. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">4</hi>: Jahrbuch des Vereins f. d.<lb/>Geschichte Berlins,
+                  1953, S. 132f. <hi rendition="#i">B</hi>
+                  <hi rendition="#sup">1</hi>: IV. Abt., VIII, Nr. 256. <hi rendition="#i">B</hi>
+                  <hi rendition="#sup">2</hi>: IV. Abt., VIII, Nr.</hi>
+               <hi rendition="#aq">284. </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">257</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">1</hi>
+               </hi> die]<lb/>
+               <hi rendition="#aq">aus</hi> manche <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">7</hi> her] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">9</hi> deutschen] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">10</hi> gute] <hi rendition="#aq">aus</hi>
+               <lb/>arme <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">13 </hi>Wahrheit und den Glanz der Feile] <hi rendition="#aq">aus</hi> Fleiß <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Vgl. Nr. 377†. Hitzig hatte mit <hi rendition="#i">B</hi>
+                  <hi rendition="#sup">1</hi> seinen „Lebensabriß Zacharias<lb/>
+                  <hi rendition="#g">Werners</hi>“ (1823) übersandt, in <hi rendition="#i">B</hi>
+                  <hi rendition="#sup">2</hi> eine von ihm (anonym) in der Vossischen<lb/>Zeitung v.
+                  1. März 1824, Nr. 52, veröffentlichte Einladung zur Teilnahme<lb/>an einem
+                  Festessen, das zur Feier von Jean Pauls 62. (!) Geburtstag am<lb/>21. März 1824 im
+                  Englischen Hause in Berlin stattfinden sollte. Der<lb/>Bericht über diese Feier in
+                  der Vossischen Zeitung v. 23. März, Nr. 71,<lb/>nennt als Teilnehmer und
+                  Toastredner Hitzig, Chamisso, Fouqué, Zeune,<lb/>Wolke, Heinsius, (Friedr.)
+                  Förster, Schulze (wohl Joh., 1786—1869, Geh.<lb/>Oberregierungsrat), (Heinr.
+                  Friedr.) Link (Botaniker, 1767—1851),<lb/>Musikdirektor (K. Fr. Ludwig) Hellwig
+                  (1773—1838), Ahlefeldt (vgl.<lb/>IV. Abt. (Br. an J. P.), VIII, Nr. 291). <add resp="#MB">In einem Brief vom 20. März 1823 (</add>
+                  <hi rendition="#i">
+                     <add resp="#MB">H</add>
+                  </hi>
+                  <add resp="#MB"> im Schiller-National-</add>
+                  <lb/>
+                  <add resp="#MB"> museum, Marbach) lehnt Fouqué eine Einladung zum folgenden Abend
+                     ab, da er versprochen habe, an einer Feier von Jean Pauls Geburtstag im
+                     Englischen Haus teilzunehmen. Vermutlich hat er sich in der Jahreszahl
+                     geirrt.</add>
+                  <hi rendition="#b">257</hi>,<hi rendition="#rkd">1</hi>
+                  <hi rendition="#g">Schüller</hi>: vgl. IV. Abt. (Br. an J. P.), VIII, Nr.</hi>
+               <hi rendition="#aq">99.</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VIII_1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="1">1. An Karoline Richter in Berlin. </title>
+            <title n="digital">An Caroline Richter. Bayreuth, 2. Januar 1820.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=VIII_1</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/VIII/VIII_1</idno>
+               <idno type="TELOTAID">VIII_1</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <biblScope n="text" unit="page">
+                  <num>1</num>
+                  <num>2</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>327</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+            <listPerson type="commentary">
+               <person corresp="#JP-003933">
+                  <persName> Isaak Joseph <name type="reg">Schwabacher</name>
+                  </persName>
+               </person>
+            </listPerson>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1820-01-02">2. Januar 1820</date>
+               <placeName key="JP-005574" ref="http://www.geonames.org/2951825">Bayreuth</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-003469" ref="http://d-nb.info/gnd/116512539">
+                  <name type="reg">Richter</name> Caroline</persName>
+               <placeName key="JP-005586" ref="http://www.geonames.org/2950159">Berlin</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VII_611">22. Dezember 1819 bis
+                  23. Dezember 1819</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VIII_2">4. Januar 1820 bis 5.
+                  Januar 1820</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <dateline>
+               <hi rendition="#right">
+                  <hi rendition="#aq">
+                     <placeName>Baireut</placeName>
+                  </hi> d. <date>2<hi rendition="#sup">ten</hi> Jenn. 1820</date>
+                  <metamark>[</metamark>Sonntag<metamark>]</metamark>
+               </hi>
+            </dateline>
+            <lb xml:id="VIII_1-2"/>
+            <p>Meine geliebte Seele! Deinen eingeschloßnen Brief vom 25<hi rendition="#sup">ten</hi>
+                  Dez.<lb xml:id="VIII_1-3"/>hab’ ich erhalten, und du nun meinen vom 24<hi rendition="#sup">ten</hi> wol auch. Ob gleich<lb xml:id="VIII_1-4"/>
+               <hi rendition="#aq">Emma</hi> am Mittwoche etwas an die Mutter auf die fahrende Post
+                  gibt<note corresp="#VIII_1-5">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003471">
+                        <persName> Emma <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="5" xml:id="VIII_1-5"/>und ich und alles da mitschreibt: so send’ ich dir doch
+               dieses Blättchen,<lb xml:id="VIII_1-6"/>damit du über alles beruhigt bleibst.
+               Erstlich verweile unbesorgt so lange,<lb xml:id="VIII_1-7"/>bis du das <hi rendition="#g">ganze</hi> Ziel deiner Reise gewonnen hast; hier kommts auf<lb xml:id="VIII_1-8"/>einige Wochen nicht an <note n="*)" place="foot">So kannst du
+                  auch bei deinem <hi rendition="#g">jetzigen</hi> Gepäcke nicht mit schon
+                     gefüllter<lb xml:id="VIII_1-28"/>Fuhrgelegenheit reisen, sondern in eigner nach
+                     <hi rendition="#aq">Halle.</hi>
+                  <note corresp="#VIII_1-29">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005809">
+                           <placeName>Halle a. d. Saale</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VIII_1-29"/>
+               </note>. Die Seeligkeit des Zusammenlebens wird<lb xml:id="VIII_1-9"/>nur verschoben,
+               nicht abgekürzt. — Da dein guter Vater überall mit<note corresp="#VIII_1-10">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002703">
+                        <persName> Johann Siegfried Wilhelm <name type="reg">Mayer</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="10" xml:id="VIII_1-10"/>größter Vorsicht handelte: so nimm seine bei <hi rendition="#aq">Richter</hi> stehenden<note corresp="#VIII_1-11">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003488">
+                        <persName>
+                           <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_1-11"/>1000 rtl. und schlage sie zu deinem Kapital und entschädige
+                  <hi rendition="#aq">Minna</hi> für<note corresp="#VIII_1-12">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004393">
+                        <persName> Wilhelmine <name type="reg">Uthe-Spazier</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_1-12"/>das Agio durch die 100 rtl. die er dir schuldig ist. Will <hi rendition="#aq">Minna</hi> nicht: so<lb xml:id="VIII_1-13"/>steht dir in jedem
+               Falle die <hi rendition="#g">Hälfte</hi> davon rechtlich zu, die du bei dem<lb xml:id="VIII_1-14"/>Kaufmann stehen lässest. <hi rendition="#aq">Emanuel</hi> räth
+               dir, so viel als möglich dein<note corresp="#VIII_1-15">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003087">
+                        <persName> Emanuel <name type="reg">Osmund</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003488">
+                        <persName>
+                           <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="15" xml:id="VIII_1-15"/>Geld in Berlin anzulegen; hier ist keines sicher
+               unterzubringen. Er<note corresp="#VIII_1-16">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005586">
+                        <placeName>Berlin</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VIII_1-16"/>will mir leider selber, wenn er seine Güter verkauft hat,
+               meine Gelder<lb xml:id="VIII_1-17"/>wiedergeben. Durch <hi rendition="#aq">Schwabacher</hi> können wir uns hier alles für <hi rendition="#aq">Berlin</hi>
+               <note corresp="#VIII_1-18">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003933">
+                        <persName> Isaak Joseph <name type="reg">Schwabacher</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_1-18"/>auszahlen lassen. Verwandle daher, der Reisegefahren wegen,
+               dein Geld<lb xml:id="VIII_1-19"/>in Anweisungen, welche du hier bezahlt bekommst.
+               Ziehe doch Männer<lb n="20" xml:id="VIII_1-20"/>zu Rathe; kann denn <hi rendition="#aq">Ahlefeldt</hi> hier kein Mann sein? —</p>
+            <note corresp="#VIII_1-21">
+               <listPerson type="lineReference">
+                  <person corresp="#JP-000044">
+                     <persName> Johann Georg Jacob von <name type="reg">Ahlefeldt</name>
+                     </persName>
+                  </person>
+               </listPerson>
+            </note>
+            <lb xml:id="VIII_1-21"/>
+            <p>Wende dich in der Möbel-Versendung an den Buchhändler <hi rendition="#aq">Reimer,</hi>
+               <note corresp="#VIII_1-22">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003408">
+                        <persName> Georg Andreas <name type="reg">Reimer</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_1-22"/>der dir als Kaufmann gewiß rathen kann. Nur vertraue ja
+               solche Schätze<lb xml:id="VIII_1-23"/>
+               <hi rendition="#g">sichern</hi> Fuhrleuten an. Beinahe wäre Theilung unter mehr als
+                  einen<lb xml:id="VIII_1-24"/>Fuhrmann zur Sicherheit gut. — Meine Fußgicht,
+               Blutbeule, und<lb n="25" xml:id="VIII_1-25"/>Diarrhöe sind gänzlich besiegt; eine
+               zweimalige, etwas theuere Ein<lb xml:id="VIII_1-26" rendition="#hyphen"/>reibung, die
+               ich mir früher hätte verschreiben sollen, stärkte die<lb xml:id="VIII_1-27"/>
+               Eingeweide so, daß sogar die jetzige große Kälte — die jedoch<lb xml:id="VIII_2-1"/>meine Lungennerven noch nicht antastet — mich unbeschädigt läßt.<lb xml:id="VIII_2-2"/>Hier hast du das Rezept; ½ Theelöffel voll reibst du ein,
+                  doch<lb xml:id="VIII_2-3"/>nur im Falle der Krankheit. — <hi rendition="#aq">Max</hi> ist gesund, glücklich, aber zu<note corresp="#VIII_2-4">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003490">
+                        <persName> Max <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_2-4"/>fleißig. Einen Brief von dir hab’ ich ihm geschickt. Am
+                  Mitt<lb n="5" xml:id="VIII_2-5" rendition="#hyphen"/>woche will ich dir von ihm
+               mitschicken. — Die Mädchen sind herr<note corresp="#VIII_2-6">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003471">
+                        <persName> Emma <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003491">
+                        <persName> Odilie Minna <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_2-6" rendition="#hyphen"/>lich-gesund. Ihre Weihnachtfreude übertraf
+               jede vorige. — Erfülle<lb xml:id="VIII_2-7"/>ja <hi rendition="#aq">Schwabachers</hi>
+               Wünsche nicht ohne fremde Rathpflege. — Die<note corresp="#VIII_2-8">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003933">
+                        <persName> Isaak Joseph <name type="reg">Schwabacher</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_2-8"/>Proben von glatten Papierstückchen hast du ganz vergessen. —
+                  Ängstige<lb xml:id="VIII_2-9"/>dich also ja nicht ein Bischen meinetwegen; was du
+               thust, ist mir recht. —<lb n="10" xml:id="VIII_2-10"/>Grüße die vortreffliche Mutter
+               und Julius. Der Himmel sei in dir und<note corresp="#VIII_2-11">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002709">
+                        <persName> Julie Henriette <name type="reg">Mayer</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-004106">
+                        <persName> Julius <name type="reg">Spazier</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_2-11"/>um dich!</p>
+            <lb xml:id="VIII_2-12"/>
+            <closer>
+               <salute>
+                  <hi rendition="#right">Richter</hi>
+               </salute>
+            </closer>
+            <lb xml:id="VIII_2-13"/>
+            <postscript>
+               <p>Mein erster Brief in diesem Jahre ist also an dich, du liebe Seele!<lb xml:id="VIII_2-14"/>Mögen alle meine lauten und stillen Wünsche für dich
+                     eintreffen!<lb n="15" xml:id="VIII_2-15"/>
+               </p>
+            </postscript>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Slg. Kippenberg Nr. 3134. 4 S. 8°. <hi rendition="#i">B</hi>: IV. Abt., VII, Nr. 240.<lb/>
+                  <hi rendition="#i">A</hi>: IV. Abt., VIII, Nr.</hi>
+               <hi rendition="#aq">2. </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">1</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">7</hi>
+               </hi> verweile] <hi rendition="#aq">davor gestr.</hi> bleibe <hi rendition="#rkd">8</hi> gewonnen] <hi rendition="#aq">aus</hi> erreicht<lb/>
+               <hi rendition="#b">
+                  <hi rendition="#aq">2</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">1</hi>
+               </hi> jedoch] <hi rendition="#aq">aus</hi> auch</p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Angekommen 6. Januar. Karoline hatte in ihrem einem Schreiben <hi rendition="#g">an</hi>
+                  <lb/>den Hauswirt Schwabacher beigeschlossenen Brief ihre Rückkehr für<lb/>Mitte
+                  Januar in Aussicht gestellt und Erbschaftsangelegenheiten er<lb rendition="#hyphen"/>örtert. <hi rendition="#b">2</hi>,<hi rendition="#rkd">8</hi>
+                  <hi rendition="#g">Schwabachers Wünsche:</hi> vgl. Bd. VII, Nr. 603, <hi rendition="#b">319</hi>,<hi rendition="#rkd">17–19</hi>†. <hi rendition="#rkd">9</hi>
+                  <hi rendition="#g">Pro<lb rendition="#hyphen"/>ben von Papierstücken:</hi> vgl.
+                  Bd. VII, Nr. 606,</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">321</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">20–22</hi>
+               </hi>
+               <hi rendition="#aq">.</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

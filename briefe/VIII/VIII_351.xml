@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VIII_351">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="355">*351. An Ernst Ludwig Grosse in Hannover. </title>
+            <title n="digital">An Ernst Ludwig Grosse. Bayreuth, 20. November 1822 bis 1. Dezember
+               1822.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=VIII_351</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/VIII/VIII_351</idno>
+               <idno type="TELOTAID">VIII_351</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <biblScope n="text" unit="page">
+                  <num>210</num>
+                  <num>211</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>398</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+               <p>Druck</p>
+            </msDesc>
+            <listPerson type="commentary">
+               <person corresp="#JP-001353">
+                  <persName> Johann Wolfgang von <name type="reg">Goethe</name>
+                  </persName>
+               </person>
+            </listPerson>
+            <listBibl type="commentary" subtype="werke-jp">
+               <bibl corresp="#JP-010955">
+                  <title>Vermählung der zwei höchsten Mächte der Erde (1823)</title>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date corresp="writingSession1" when="1822-11-20">20. November 1822</date>
+               <date corresp="writingSession2" when="1822-12-01">1. Dezember 1822</date>
+               <placeName key="JP-005574" ref="http://www.geonames.org/2951825">Bayreuth</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-001420" ref="http://d-nb.info/gnd/116869690">
+                  <name type="reg">Grosse</name> Ernst Ludwig</persName>
+               <placeName key="JP-005815" ref="http://www.geonames.org/2910831">Hannover</placeName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <div n="writingSession1">
+               <lb xml:id="VIII_210-11"/>
+               <dateline>
+                  <hi rendition="#right">
+                     <hi rendition="#aq">
+                        <placeName>Baireut</placeName> d. <date>20 Nov. 1822</date>
+                     </hi>
+                  </hi>
+               </dateline>
+               <lb xml:id="VIII_210-12"/>
+               <p>Meine Antwort wird wie ein Trauerspiel aus Schmerz und Freude<note corresp="#VIII_210-13">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-008581" ana="ff">
+                           <author>Grosse, Ernst Ludwig (1802-1871), Publizist</author>
+                           <title>Graf Gordo (1822)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VIII_210-13"/>gemacht; nur mit dem Unterschiede, daß die Freude
+                  überwiegt. Und<lb xml:id="VIII_210-14"/>diese ist: daß ein Jüngling von 19 Jahren
+                  schon so viel ausführt, und<lb n="15" xml:id="VIII_210-15"/>doch noch 10 mal mehr
+                  verspricht. Am meisten ragt vor die Gewalt und<lb xml:id="VIII_210-16"/>Flamme
+                  Ihrer Dikzion — und die Kraft und Freiheit der Übergänge,<lb xml:id="VIII_210-17"/>sammt der Lebendigkeit des Dialogs. Auch hat Ihr Janus mit der<note corresp="#VIII_210-18">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001935">
+                           <persName>
+                              <name type="reg">Janus</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VIII_210-18"/>tragischen Larve hinter sich eine komische. Der
+                  Sentenzen, so wie der<lb xml:id="VIII_210-19"/>einzelnen lieblichsten Bilder und
+                  Ergießungen (wie S. 37. 38. 43. 85.<lb n="20" xml:id="VIII_210-20"/>111) gedenke
+                  ich ihrer Menge wegen gar nicht. Kühn und neu ist der<lb xml:id="VIII_210-21"/>Friedenschluß und — mir wenigstens — recht. Kurz das herrlichste<lb xml:id="VIII_210-22"/>Trauerspiel können Sie geben — nach 5 Jahren, höchstens
+                  nach 10;<lb xml:id="VIII_210-23"/>denn dieses ist es noch nicht, und überhaupt
+                  kaum eines. Der matte, blos<lb xml:id="VIII_210-24"/>in ruchlosen Worten, nicht
+                  einmal Thaten fortrasende Held ist kein<lb n="25" xml:id="VIII_210-25"/>Charakter;
+                  so ist seine Umgebung eben so charakterlos-wahnsinnig und<lb xml:id="VIII_210-26"/>ruchlos.</p>
+               <lb xml:id="VIII_210-27"/>
+               <lb type="ig"/>
+            </div>
+            <div n="writingSession2">
+               <dateline>
+                  <hi rendition="#right">
+                     <hi rendition="#aq">d. 1 Dec.</hi>
+                  </hi>
+               </dateline>
+               <lb xml:id="VIII_210-28"/>
+               <p>Die lange Aussetzung dieser mir so wichtigen Antwort beweise<lb xml:id="VIII_210-29"/>Ihnen die Menge meiner Störungen durch Geschäfte, Briefe,
+                     Besuche,<lb n="30" xml:id="VIII_210-30"/>körperliche Winterübel und
+                  literarische Arbeiten. Mit dieser Menge<lb xml:id="VIII_210-31"/>entschuldigen Sie
+                  daher gütig die flache Kürze meines Urtheils. Unter<lb xml:id="VIII_210-32"/>allen
+                  dichterischen Schöpfungen ist die der Charaktere die schwerste,<lb xml:id="VIII_210-33"/>und nur darin überragt Shakespeare <hi rendition="#g">alle</hi> Dichter. Erst im Alter und<note corresp="#VIII_210-34">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004029">
+                           <persName> William <name type="reg">Shakespeare </name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VIII_210-34"/>erst an historischen Stoffen gewann Schiller
+                  Charakteristik. — <hi rendition="#aq">Goethen</hi>
+                  <note corresp="#VIII_210-35">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001353">
+                           <persName> Johann Wolfgang von <name type="reg">Goethe</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003737">
+                           <persName> Friedrich (ab 1802) von <name type="reg">Schiller</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="35" xml:id="VIII_210-35"/> und noch mehr <hi rendition="#aq">Shakespeare</hi> ahmen Sie stark nach; — und Sie sollten<note corresp="#VIII_211-1">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004029">
+                           <persName> William <name type="reg">Shakespeare </name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VIII_211-1"/>eine Zeitlang andere Dichter lesen, die griechischen
+                  ohnehin — aber<note corresp="#VIII_211-2">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005796">
+                           <placeName>Griechenland, Griechen</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VIII_211-2"/>jeder Jüngling ist früher Kopie als Urbild, früher der
+                  fremden Dichter<lb xml:id="VIII_211-3"/>Echo als deren Aeolharfe; denn jeder ist
+                  ein Schüler der Zeit, bevor er<lb xml:id="VIII_211-4"/>ein Lehrer einer spätern
+                  wird. — Was Ihrem Stücke die Leserinnen<lb n="5" xml:id="VIII_211-5"/>(die
+                  Zuhörerinnen ohnedieß) entziehen muß, ist das häufige nackte Auf<lb xml:id="VIII_211-6" rendition="#hyphen"/>treten der tiefsten Sinnlichkeit,
+                  vollends eine so böse aus Göthe’s Elegien<note corresp="#VIII_211-7">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-008513" ana="†">
+                           <author>Goethe, Johann Wolfgang von (1749-1832)</author>
+                           <title>Gedichte: Elegien</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VIII_211-7"/>entlehnte Stelle <hi rendition="#aq">p.</hi> 156. —
+                  Verzeihen Sie meine nur durch Gedanken<lb xml:id="VIII_211-8" rendition="#hyphen"/>striche vermittelten Sprünge. Gerade um der Dichtkunst zu leben und<lb xml:id="VIII_211-9"/>zu reifen, sollten Sie Fremdartiges treiben, nicht einmal
+                  Theater- oder<lb n="10" xml:id="VIII_211-10"/>Redaktörwesen; gerade unter dem
+                  Schnee des gemeinen Geschäft<lb xml:id="VIII_211-11" rendition="#hyphen"/>lebens
+                  wächst das poetische desto grüner. Was liebte und lernte nicht<lb xml:id="VIII_211-12"/>unser Göthe in allen unpoetischen Wissenschaften von der
+                     Osteologie<note corresp="#VIII_211-13">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001353">
+                           <persName> Johann Wolfgang von <name type="reg">Goethe</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VIII_211-13"/>und Mineralogie an! Auch muß ja das Leben selber noch
+                  früher etwas<lb xml:id="VIII_211-14"/>werth sein als dessen Darstellung. Bei Ihrem
+                  Überschusse von Kräften<lb n="15" xml:id="VIII_211-15"/>sind Sie jedem
+                  bürgerlichen Geschäfte gewachsen. Nur scheint mir der<lb xml:id="VIII_211-16"/>Umweg dazu durch ein theueres Studieren in Leipzig viel zu lange.<note corresp="#VIII_211-17">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005948">
+                           <placeName>Leipzig</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VIII_211-17"/>Könnten Sie denn nicht bei Ihren griechischen und
+                     mathematischen<note corresp="#VIII_211-18">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005796">
+                           <placeName>Griechenland, Griechen</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VIII_211-18"/>Kenntnissen ein Schulamt gewinnen? — Vor der Hand rathe
+                     ich<lb xml:id="VIII_211-19"/>Ihnen einen Roman zu schreiben, der für den Vater
+                  einer in 11 Tagen<lb n="20" xml:id="VIII_211-20"/>geschaffenen Bertha mehr Spiel
+                  und doch ein Spiel mit Gewinn sein<note corresp="#VIII_211-21">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-008580" ana="†">
+                           <author>Grosse, Ernst Ludwig (1802-1871), Publizist</author>
+                           <title>Bertha (ungedruckt)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VIII_211-21"/>muß. — Die Wahrhaftigkeit, die ich dem Einzelnen, und
+                  noch mehr der<lb xml:id="VIII_211-22"/>Vielheit schuldig bin, verbietet mir eine
+                  lobende Rezension des Gordo<note corresp="#VIII_211-23">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-008581">
+                           <author>Grosse, Ernst Ludwig (1802-1871), Publizist</author>
+                           <title>Graf Gordo (1822)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VIII_211-23"/>zu schreiben, wenn ich nicht mit dem Lobe zugleich auch
+                  den Tadel<lb xml:id="VIII_211-24"/>erweitert ausspräche. Aber dieß dagegen werde
+                  ich thun, daß ich im<lb n="25" xml:id="VIII_211-25"/>Jenner des Morgenblattes in
+                  einer Note auf die herrlichen Geschöpfe<note corresp="#VIII_211-26">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-010313">
+                           <author/>
+                           <title>Morgenblatt für gebildete Stände (1807ff.)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VIII_211-26"/>aufmerksam mache, die eine so kraftreiche Frühgeburt
+                  trotz aller ihrer<lb xml:id="VIII_211-27"/>Misglieder der Dichtkunst verspricht.
+                  Sie wissen nicht, wie einem<lb xml:id="VIII_211-28"/>Schriftsteller von nur
+                  einigem Rufe wieder von allen Schriftstellern<lb xml:id="VIII_211-29"/>bittend und
+                  fodernd zugesetzt wird; um so mehr verzeihe ich Göthen,<note corresp="#VIII_211-30">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001353" ana="†">
+                           <persName> Johann Wolfgang von <name type="reg">Goethe</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="30" xml:id="VIII_211-30"/>der länger und stärker bestürmt wurde als irgend
+                  einer.</p>
+               <lb xml:id="VIII_211-31"/>
+               <p>Leben Sie froher, halten Sie daher Leidenschaftlichkeit nicht für<lb xml:id="VIII_211-32"/>Nahrung und Attribut des Dichters, sondern für Gift
+                  desselben. Ich<lb xml:id="VIII_211-33"/>grüße Ihre Gattin.</p>
+               <note corresp="#VIII_211-34">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001421" ana="†">
+                        <persName> Linda <name type="reg">Grosse</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_211-34"/>
+               <closer>
+                  <salute>
+                     <hi rendition="#right">Jean Paul Fr. Richter<lb n="35" xml:id="VIII_211-35"/>
+                     </hi>
+                  </salute>
+               </closer>
+               <trailer>
+                  <address>
+                     <addrLine>
+                        <metamark>[</metamark>Adr.<metamark>]</metamark> Herrn <hi rendition="#aq">Ernst Grosse, stud. jur.</hi> Frei. Abzugeben in der<lb xml:id="VIII_211-36"/>Hahn’schen Hofbuchhandlung, <hi rendition="#aq">Hannover.</hi>
+                        <note corresp="#VIII_211-37">
+                           <listPerson type="lineReference">
+                              <person corresp="#JP-001488">
+                                 <persName>
+                                    <name type="reg">Hahn'sche</name>
+                                 </persName>
+                              </person>
+                           </listPerson>
+                           <listPlace type="lineReference">
+                              <place corresp="#JP-005815">
+                                 <placeName>Hannover</placeName>
+                              </place>
+                           </listPlace>
+                        </note>
+                        <lb xml:id="VIII_211-37"/>
+                     </addrLine>
+                  </address>
+               </trailer>
+            </div>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+                  <hi rendition="#sup">1</hi>: <hi rendition="#i">Große</hi>
+               </hi> in <hi rendition="#aq">
+                  <hi rendition="#i">Hannov.</hi> 20 [aus</hi>
+               <hi rendition="#aq">25]</hi> Nov. ab 1 Dez. *<hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+                  <hi rendition="#sup">2</hi> (alte Kopie von<lb/>fremder Hand): Berlin. <hi rendition="#i">K</hi>
+                  <hi rendition="#sup">3</hi> (alte Kopie von fremder Hand): Dr. B.
+                  Scholz,<lb/>Frankfurt a. M. <hi rendition="#i">J</hi>: Ernst Grosse, Lebewohl,
+                  Augsburg 1831, S. 13×.<lb/>
+                  <hi rendition="#i">i</hi>
+                  <hi rendition="#sup">1</hi>: Nationalzeitung (Berlin), 4. Dez. 1892,
+                  Sonntagsbeilage Nr. 49 (nach<lb/>
+                  <hi rendition="#i">K</hi>
+                  <hi rendition="#sup">2</hi>). <hi rendition="#i">i</hi>
+                  <hi rendition="#sup">2</hi>: Münchner Neueste Nachrichten, 16./17. Juli 1921, Nr.
+                  296<lb/>(nach <hi rendition="#i">K</hi>
+                  <hi rendition="#sup">3</hi>, dat. 20. Nov. 12, ohne Angabe des Adressaten)×. <hi rendition="#b">210</hi>,<hi rendition="#rkd">21</hi>
+               </hi>111]<lb/>110<hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#sup">3</hi>
+               <hi rendition="#rkd">22</hi> Friedensschluß <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+                  <hi rendition="#sup">2</hi>
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#sup">3</hi>
+               <hi rendition="#rkd">26</hi> charakterlos-] <hi rendition="#aq">so <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#sup">1</hi>, charakterlos, <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+                  <hi rendition="#sup">2</hi>
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#sup">3</hi>
+               <lb/>
+               <hi rendition="#rkd">34</hi> überragt] <hi rendition="#aq">so <hi rendition="#i">K</hi>
+                  <hi rendition="#sup">1</hi>
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#sup">3</hi>, überwiegt <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#sup">2</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">211</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">4</hi>
+               </hi> Aeolharfe] <hi rendition="#aq">so <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#sup">1</hi>, Aeolsharfe <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+                  <hi rendition="#sup">2</hi>
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#sup">3</hi>
+               <lb/>
+               <hi rendition="#rkd">5</hi> ein] der <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#sup">3</hi>
+               <hi rendition="#rkd">6</hi> nackte] <hi rendition="#aq">fehlt <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#sup">3</hi>
+               <hi rendition="#rkd">8 </hi>nur] <hi rendition="#aq">fehlt <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#sup">3</hi>
+               <hi rendition="#rkd">11</hi> Redaktörwesen] <hi rendition="#aq">so <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#sup">1</hi>,<lb/>Redactionswesen <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#sup">2</hi>, Redaktör Wesen <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#sup">3</hi> Geschäftlebens] <hi rendition="#aq">so <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#sup">1</hi>, Geschäfts<lb rendition="#hyphen"/>lebens <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+                  <hi rendition="#sup">2</hi>
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#sup">3</hi>
+               <hi rendition="#rkd">12</hi> poetische] <hi rendition="#aq">so <hi rendition="#i">K</hi>
+                  <hi rendition="#sup">1</hi>
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#sup">3</hi>, Poetische <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#sup">2</hi>
+               <hi rendition="#rkd">15</hi> Bei <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">34</hi> Gattin.]<lb/>
+               <hi rendition="#aq">fehlt <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#sup">3</hi>
+               <hi rendition="#rkd">30</hi> fodernd] <hi rendition="#aq">so <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#sup">1</hi>, fordernd <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#sup">2</hi>
+               <hi rendition="#rkd"> 35</hi> Fr. Richter] <hi rendition="#aq">fehlt <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#sup">3</hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Ernst Ludwig <hi rendition="#g">Grosse,</hi> geb. 1802 in
+                  Mühlhausen (Thür.), hatte das<lb/>Lyceum in Hannover besucht, später in Göttingen
+                  Jura studiert (s.<lb/>Goedeke XI, 297). Sein Trauerspiel „Graf Gordo“, Hannover
+                  1822, hatte<lb/>er „den erhabenen und inniggeliebten Lehrern J. W. v. Goethe und
+                  Jean<lb/>Paul Friedrich Richter“ gewidmet und zugesandt. J. P. wies in
+                  einer<lb/>Fußnote seines Morgenblatt-Aufsatzes „Vermählung der zwei
+                  höchsten<lb/>Mächte der Erde“ (Febr. 1823) auf das unreife Machwerk hin. <hi rendition="#b">211</hi>,<hi rendition="#rkd">7</hi>f. Graf<lb/>Gordo S. 156:
+                  „Quer’ Unnatur! — Aufs Vieh den Mann / Stürzt geile<lb/>Brunst.“ Vgl. <hi rendition="#g">Goethes</hi> Römische <hi rendition="#g">Elegien</hi> XIX, 448:
+                  „Mann erhitzt er<lb/>[Amor] auf Mann, treibt die Begierde aufs Tier.“ <hi rendition="#rkd">21</hi>
+                  <hi rendition="#g">Bertha</hi>: ein un<lb rendition="#hyphen"/>gedruckt
+                  gebliebenes, verloren gegangenes Drama von Grosse. 30f. <hi rendition="#g">Goethe</hi>
+                  <lb/>hatte Grosse in Weimar abgewiesen. <hi rendition="#rkd">34 </hi>
+                  <hi rendition="#g">Gattin</hi>: Lina, der Grosse den<lb/>„Gordo“ zugeeignet hatte,
+                  wurde erst später seine legitime Frau.</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
