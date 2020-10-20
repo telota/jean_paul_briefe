@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="V_412">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="413">*412. An Ernst Wagner. </title>
+            <title n="digital">An Johann Ernst Wagner. Bayreuth, 28. September 1807.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=V_412</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/V/V_412</idno>
+               <idno type="TELOTAID">V_412</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
+               <biblScope n="text" unit="page">
+                  <num>169</num>
+                  <num>170</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>333</num>
+                  <num>334</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+               <p>Druck</p>
+            </msDesc>
+            <listBibl type="commentary" subtype="werke">
+               <bibl corresp="#JP-010020">
+                  <author>Wagner, Johann Ernst (1769-1812), Romanschriftsteller</author>
+                  <title>Die reisenden Maler (1806)</title>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1807-09-28">28. September 1807</date>
+               <placeName key="JP-005574" ref="http://www.geonames.org/2951825">Bayreuth</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-004556" ref="http://d-nb.info/gnd/11709501X">
+                  <name type="reg">Wagner</name> Johann Ernst</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=V_215">2. Mai 1806</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=V_422">31. Oktober 1807</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <dateline>
+               <hi rendition="#right">
+                  <hi rendition="#aq">
+                     <placeName>Bayreuth</placeName> d. <date>28 Sept. 1807</date>
+                  </hi>
+               </hi>
+            </dateline>
+            <lb xml:id="V_169-8"/>
+            <p>Unter allen Briefschreibern, die jetzt auf der Erde an einander<lb xml:id="V_169-9"/>
+               schreiben, bin ich ohne Frage der schlimmste; und ich sollte wie die<lb n="10" xml:id="V_169-10"/> 72 päbstlichen Schreiber den Namen Abbreviator haben; denn
+                  eine<lb xml:id="V_169-11"/> stärkere Abbreviatur gibts nicht als — völliges
+               Schweigen. Noch<lb xml:id="V_169-12"/> dazu warf mir jeden Tag Ihr Manuskript, das
+               ich sogleich und so<lb xml:id="V_169-13"/> froh gelesen, meine Verstockung vor und
+               bekehrte mich doch nicht<lb xml:id="V_169-14"/> eher als heute. Aber wahrlich! die
+               bauende Anarchie der Politik um<lb n="15" xml:id="V_169-15"/> uns her wirft sich
+               zuletzt auch in die Studier-Mansarden.</p>
+            <lb xml:id="V_169-16"/>
+            <p>Ich bin sehr begierig auf Ihre angekündigte „Nachhausereise“.<note corresp="#V_169-17">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010019" ana="†">
+                        <author>Wagner, Johann Ernst (1769-1812), Romanschriftsteller</author>
+                        <title>Reisen aus der Fremde in die Heimat (1808)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="V_169-17"/> Aber schmerzlich war (und wär) es mir, wenn Sie das
+                  einfältigste<lb xml:id="V_169-18"/> Versprechen — was eben sein eignes Gegentheil
+               ist — halten wollten,<lb xml:id="V_169-19"/> das Sie je gegeben, nämlich Ihre ganze
+               Schriftstellerei auf 3 Festtags<lb n="20" xml:id="V_169-20" rendition="#hyphen"/>
+               Werke, wie eine Arie <hi rendition="#aq">à trois notes</hi> zu beschränken. Wenige
+                  Autoren,<note corresp="#V_169-21">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009521">
+                        <author>Rousseau, Jean-Jacques (1712-1778)</author>
+                        <title>Air de trois notes (1781)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="V_169-21"/> die so frei, eben so wol an sich als an die Leser schrieben,
+                  wurden<lb xml:id="V_169-22"/> noch so gut von Kampfparteien aufgenommen als Sie.
+                  Mögen<lb xml:id="V_169-23"/> Sie mir erfreulichere Nachrichten von Ihrem Körper
+               geben können,<lb xml:id="V_169-24"/> als ich leider bekommen! Freilich sind
+               Rückenmark und Gehirnmark<lb n="25" xml:id="V_169-25"/> im Antagonismus und jenes muß
+               die Ausgaben dieses tragen. Indeß<lb xml:id="V_169-26"/> bin ich durch meine eigne
+               Lebensgeschichte gewiß, daß jeder nur so<lb xml:id="V_169-27"/> viel krank ist als er
+               will — sobald er Leibes-<hi rendition="#aq">Memoires</hi> führt —<lb xml:id="V_169-28"/> wär’ es auch nur in der Memorie — und sobald er soviel
+                  Arznei<lb xml:id="V_169-29" rendition="#hyphen"/> kunde gelernt, als er braucht,
+               um der Leibmedikus eines einzigen<lb n="30" xml:id="V_169-30"/> Leibes zu werden. So
+               ist z. B. einem Kopfe, und überhaupt einem<lb xml:id="V_169-31"/>
+               <hi rendition="#aq">homo emunctae naris</hi> (solcher Nase als Präsident <hi rendition="#aq">Heim</hi> hat) kein<note corresp="#V_169-32">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001603">
+                        <persName> Johann Ludwig <name type="reg">Heim</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-001833" ana="†">
+                        <persName>
+                           <name type="reg">Horaz </name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="V_169-32"/> Katarrh zu vergeben, und er, der so leicht lange Nasen
+                  auszutheilen<lb xml:id="V_169-33"/> vermag, sollte sich am wenigsten mit einer
+               fließenden behaften.<lb xml:id="V_169-34"/> Ich hingegen habe meine sonstige
+               halbmonatliche Migraine schon<lb n="35" xml:id="V_169-35"/> auf <hi rendition="#aq">Menses</hi> herabgebracht, aber ohne jährliche 12 Halbtöne von<lb xml:id="V_169-36"/> Schmerzen; denn mein <hi rendition="#aq">Laudanum Sydenh.</hi>
+               (für dessen Rath dem<lb xml:id="V_170-1"/>
+               <hi rendition="#aq">D. Jahn</hi> ewiger Dank in meiner künftigen
+                  Selbst-Lebensbeschrei<note corresp="#V_170-2">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001920">
+                        <persName> Friedrich <name type="reg">Jahn</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010883">
+                        <title>Selberlebensbeschreibung [1818]</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="V_170-2" rendition="#hyphen"/>bung gesagt werden soll) langt ungleich der
+               preussischen Macht, allzeit<lb xml:id="V_170-3"/> früher an als die Übermacht.</p>
+            <lb xml:id="V_170-4"/>
+            <p>Mein Junge ist ein Ries’chen; die Kleinste, Odilia, eine Fee;<note corresp="#V_170-5">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003490">
+                        <persName> Max <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003491">
+                        <persName> Odilie Minna <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="5" xml:id="V_170-5"/> alles ist gesund bis zur Mutter hinauf. Meine drei
+               Kinder waren<note corresp="#V_170-6">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003469">
+                        <persName> Caroline <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003483">
+                        <persName> Johann Paul Friedrich <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="V_170-6"/> Mitarbeiter an der Levana, über welche ich Ihr und Heims
+                  Urtheil<note corresp="#V_170-7">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001603">
+                        <persName> Johann Ludwig <name type="reg">Heim</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010811">
+                        <title>Levana (1807)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="V_170-7"/> zu haben wünschte. Apropos! In Zschokke’s Miszellen steht
+                  ein<note corresp="#V_170-8">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010160">
+                        <author>Zschokke, Heinrich (1771-1848), deutsch-schweizerischer
+                           Schriftsteller (Werk, Hrsg.)</author>
+                        <title>Miszellen der neuesten Weltkunde (1807-1813)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="V_170-8"/> Urtheil darüber von einem E ..., der mich, meine Frau und die
+                  vor<note corresp="#V_170-9">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003469">
+                        <persName> Caroline <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="V_170-9" rendition="#hyphen"/>treffliche Heim kennen will. Fragen Sie
+               diese doch, wer unter ihren<note corresp="#V_170-10">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001604">
+                        <persName> Johanna <name type="reg">Heim</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="10" xml:id="V_170-10"/> E-Bekannten ein Hofmeister gewesen; denn dieser
+               scheint er mir zu<lb xml:id="V_170-11"/> sein, oder gewesen zu sein.</p>
+            <lb xml:id="V_170-12"/>
+            <p>Unsere unvergeßliche Heim hat im Frühling einen köstlichen<note corresp="#V_170-13">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001604">
+                        <persName> Johanna <name type="reg">Heim</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="V_170-13"/> Brief voll Herz und Kraft und Schmuck an meine Frau
+                  geschrieben;<note corresp="#V_170-14">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003469">
+                        <persName> Caroline <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="V_170-14"/> es fehlte wenig, so antwortete ich sonst brummendes <hi rendition="#g">Unthier</hi> ihr<lb n="15" xml:id="V_170-15"/> selber und verkehrte
+               mich in ein Schoß<hi rendition="#g">thierchen.</hi> Ich wollte, ich<lb xml:id="V_170-16"/> könnte ihr jetzt die Hand drücken und ihrem alten Schelling
+                  dazu.<note corresp="#V_170-17">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001599" ana="†">
+                        <persName> Anton <name type="reg">Heim</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003713" ana="†">
+                        <persName> Friedrich Wilhelm Joseph (ab 1812) von <name type="reg">Schelling</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="V_170-17"/> Flammte neuer Krieg von der östreichischen Gränze herüber:
+                  so<note corresp="#V_170-18">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006097">
+                        <placeName>Österreich</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="V_170-18"/> zög’ ich vielleicht mit Familie und Bier wieder nach
+               Meiningen, vor<note corresp="#V_170-19">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006012">
+                        <placeName>Meiningen </placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="V_170-19"/> der Hand und vor der Faust.<lb n="20" xml:id="V_170-20"/>
+            </p>
+            <p>Noch in diesem Jahre kommt in München bei Scherer ein<note corresp="#V_170-21">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003725">
+                        <persName> Joseph <name type="reg">Scherer</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006040">
+                        <placeName>München</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="V_170-21"/> lustiges Büchlein von mir mit sehr ernsten Noten heraus:
+                  Des<lb xml:id="V_170-22"/> Feldpredigers Attila Schmelzle Reise nach Flätz; sammt
+               der Beichte<note corresp="#V_170-23">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006166">
+                        <placeName>Preußen, preußisch</placeName>
+                     </place>
+                  </listPlace>
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010516">
+                        <title>Beichte des Teufels bei einem Staatsmanne (1809)</title>
+                     </bibl>
+                     <bibl corresp="#JP-010627">
+                        <title>Des Feldpredigers Schmelzle Reise nach Flätz (1809)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="V_170-23"/> des Teufels bei einem Staatsmanne (welche letzte von der
+                  Zensur<lb xml:id="V_170-24"/> des Morgenblattes nicht angenommen worden). Der
+                  Feldprediger<note corresp="#V_170-25">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010313">
+                        <author/>
+                        <title>Morgenblatt für gebildete Stände (1807ff.)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="25" xml:id="V_170-25"/> — ein ewig laufender Hase oder Jude — erzählt seine
+                  Flucht-Reise,<note corresp="#V_170-26">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001977">
+                        <persName>
+                           <name type="reg">Juden</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="V_170-26"/> um zu beweisen, daß er eine überkühne englische Dogge, wenn
+                  nicht<note corresp="#V_170-27">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-0057154">
+                        <placeName>Dogge; England, englisch, Britannien</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="V_170-27"/> das englische Wappen selber sei. Viele mußten darüber lachen,
+                  die<note corresp="#V_170-28">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005715">
+                        <placeName>England, englisch, Britannien</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="V_170-28"/> es gelesen, z. B. ich.</p>
+            <lb xml:id="V_170-29"/>
+            <p>Grüßen Sie mir jetzt meine Menschen: Zwei hab’ ich schon ge<lb n="30" xml:id="V_170-30" rendition="#hyphen"/> nannt; dann meinen prächtigen Reiter und
+               Autor Heim, dann beide<note corresp="#V_170-31">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001603">
+                        <persName> Johann Ludwig <name type="reg">Heim</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="V_170-31"/> Schwendler, den langen Regierungsrath Donnop,
+                  Panzerbieter<note corresp="#V_170-32">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000848">
+                        <persName> Georg Karl Wilhelm Freiherr von <name type="reg">Donop </name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003149">
+                        <persName> Friedrich Christian <name type="reg">Panzerbieter</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003964">
+                        <persName> Auguste Sophie Henriette <name type="reg">Schwendler</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003966">
+                        <persName> Friedrich Christian August <name type="reg">Schwendler</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="V_170-32"/> und Jahn. Leben Sie froh und ahmen Sie mich nicht nach in
+                  mei<note corresp="#V_170-33">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001920">
+                        <persName> Friedrich <name type="reg">Jahn</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="V_170-33" rendition="#hyphen"/>nem verruchten Schweigen, sondern
+               schreiben Sie, sobald Sie ge<lb xml:id="V_170-34" rendition="#hyphen"/> lesen.<lb n="35" xml:id="V_170-35"/>
+            </p>
+            <closer>
+               <salute>
+                  <hi rendition="#right">J. P. F. Richter</hi>
+                  <lb xml:id="V_170-36"/>
+               </salute>
+            </closer>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>: <hi rendition="#i">Wagner in Meinungen 28 Sept.</hi>
+               </hi> ab den 4 Okt. <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>: Mosengeil Nr. 7×<lb/> (28. Nov.). <hi rendition="#i">i</hi> (z. T. aus <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi> ergänzt): Wahrheit 7,104×. *<hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>: Denkw.<lb/> 3,146×. <hi rendition="#i">B</hi>: IV.
+                  Abt., V, Nr. 95. <hi rendition="#i">A</hi>: IV. Abt., V, Nr.</hi>
+               <hi rendition="#aq">145. </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">169</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">12</hi>
+               </hi> völliges] <hi rendition="#aq">fehlt <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>
+               </hi>
+               <hi rendition="#rkd">13</hi> jeden]<lb/>
+               <hi rendition="#aq">so <hi rendition="#i">KJ</hi>
+                  <hi rendition="#sup">1</hi>,</hi> jeder <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>
+               </hi>
+               <hi rendition="#rkd">15</hi> bauende] <hi rendition="#aq">fehlt <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>
+               </hi>
+               <hi rendition="#rkd">17</hi> „Heimreise“ <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>
+                  <hi rendition="#rkd">18</hi> Klammern<lb/> fehlen <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>
+               </hi>
+               <hi rendition="#rkd">21</hi> einschränken <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">23</hi> kämpfenden Parteien <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>
+               </hi>
+               <hi rendition="#rkd">25</hi> bekommen]<lb/>
+               <hi rendition="#aq">so <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>,</hi> bekomme <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>
+               </hi>
+               <hi rendition="#rkd">27</hi> gewiß] <hi rendition="#aq">aus</hi> gewis <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">30</hi> gelernt hat <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>
+               </hi> um] <hi rendition="#aq">fehlt <hi rendition="#i">K</hi>
+               </hi>
+               <lb/> einzigen] <hi rendition="#aq">so <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>,</hi> einzelnen <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#rkd">31</hi>
+               </hi> und <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">32</hi> als] <hi rendition="#aq">
+                  <hi rendition="#i">homo</hi>
+               </hi> solch Nas. (<hi rendition="#aq">
+                  <hi rendition="#i">emunct. nar.</hi>
+               </hi>)<lb/> als <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>,</hi> der eine Nase wie <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>
+                  <hi rendition="#i">i</hi>
+               </hi>
+               <hi rendition="#rkd">33</hi> er] <hi rendition="#aq">so <hi rendition="#i">K</hi>,</hi> Er <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>,</hi> der <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>
+                  <hi rendition="#rkd">36</hi>
+                  <hi rendition="#i">Menses</hi>]</hi> das<lb/> Monatliche <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>
+                  <hi rendition="#i">i</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">170</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">3</hi>
+               </hi> allzeit] <hi rendition="#aq">so <hi rendition="#i">K</hi>,</hi> allezeit <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>
+               </hi>
+               <hi rendition="#rkd">8</hi> Apropos <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">12 </hi>sein.]<lb/>
+               <hi rendition="#aq">so <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>, fehlt <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>
+               </hi>
+               <hi rendition="#rkd">13</hi> Unsere <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">17</hi> dazu.] <hi rendition="#aq">fehlt <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>
+               </hi>
+               <hi rendition="#rkd">19</hi> wieder] <hi rendition="#aq">so <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>
+                  <hi rendition="#i">i</hi>, fehlt <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">21</hi> in München bei Scherer] <hi rendition="#aq">so <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>, fehlt <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>
+               </hi>
+               <hi rendition="#rkd">22</hi> Des <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">28</hi> sei.] <hi rendition="#aq">so <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi> (z. T. <hi rendition="#i">K</hi>),</hi>
+               <lb/> (Attila Schmelzle’s Reise nach Flätz etc. etc.) <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>
+               </hi>
+               <hi rendition="#rkd">30</hi> Grüßen <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">33</hi> Jahn.] <hi rendition="#aq">fehlt <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>
+               </hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Wagner hatte im Juni 1806 den gedruckten 2. Band der
+                  „Reisenden<lb/> Maler“ und das Manuskript der beiden ersten „Briefe aus
+                  Liebenstein“<lb/> geschickt und noch einmal um einen Titel für diese gebeten (vgl.
+                     <hi rendition="#b">90</hi>,<hi rendition="#rkd">10–15</hi>†).<lb/>
+                  <hi rendition="#b">169</hi>,<hi rendition="#rkd">21</hi>
+                  <hi rendition="#g">Arie à troisnotes:</hi> von Rousseau, vgl. I. Abt., IX, 533,<hi rendition="#rkd">17</hi>ff. <hi rendition="#rkd">32</hi>
+                  <hi rendition="#g">homo<lb/> emunctae naris:</hi> vgl. Horaz, Satiren I, 4, 8. <hi rendition="#rkd">35</hi>
+                  <hi rendition="#g">Migraine:</hi> vgl. I. Abt.,<lb/> VIII, 298ff. <hi rendition="#b">170</hi>,<hi rendition="#rkd">1</hi>
+                  <hi rendition="#g">Laudanum Sydenh.:</hi> s. Bd. IV, Nr. 299, 166,<hi rendition="#rkd">19</hi>. <hi rendition="#rkd">2</hi> D. <hi rendition="#g">Jahn:</hi>
+                  <lb/> in Meiningen, s. Bd. IV, zu Nr. 154. <hi rendition="#rkd">8—12</hi>
+                  <hi rendition="#g">Zschokkes Miszellen</hi> f. d.<lb/> neueste Weltkunde, 1. Juli
+                  1807, Nr. 52: „Noch ein Wörtchen über Jean<lb/> Pauls Levana oder Erziehungslehre.
+                  (Ein Brief an den Verfasser.)“ <hi rendition="#rkd">17</hi> Der<lb/>
+                  <hi rendition="#g">alte Schelling</hi> ist der Hofrat Heim, der sich für
+                  Schellings Philosophie<lb/> interessierte, s. <hi rendition="#b">225</hi>,<hi rendition="#rkd">20</hi>; in <hi rendition="#i">A</hi> heißt es: „Der dicke
+                  Heim freute sich sehr<lb/> über den ‚alten Schelling‘“. <hi rendition="#rkd">31</hi> Präsident Heim.</hi>
+            </p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="V_335">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="336">335. An Jacobi. </title>
+            <title n="digital">An Friedrich Heinrich Jacobi. Bayreuth, 28. Dezember 1806 bis 30.
+               März 1807.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=V_335</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/V/V_335</idno>
+               <idno type="TELOTAID">V_335</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
+               <biblScope n="text" unit="page">
+                  <num>137</num>
+                  <num>138</num>
+                  <num>139</num>
+                  <num>140</num>
+                  <num>141</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>321</num>
+                  <num>322</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date corresp="writingSession1" when="1806-12-28">28. Dezember 1806</date>
+               <date corresp="writingSession2" when="1807-03-25">25. März 1807</date>
+               <date corresp="writingSession3" when="1807-03-30">30. März 1807</date>
+               <placeName key="JP-005574" ref="http://www.geonames.org/2951825">Bayreuth</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-001909" ref="http://d-nb.info/gnd/118556312">
+                  <name type="reg">Jacobi</name> Friedrich Heinrich</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=V_233">14. August 1806 bis 15.
+                  August 1806</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=V_397">6. September 1807</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <div n="writingSession1">
+               <lb xml:id="V_137-22"/>
+               <dateline>
+                  <hi rendition="#right">
+                     <hi rendition="#aq">
+                        <placeName>Bayreuth</placeName> d. <date>28 Dec. 1806</date>
+                     </hi>.</hi>
+               </dateline>
+               <lb xml:id="V_137-23"/>
+               <p>Du und Fürsten allein können es machen, daß ich auf einem ganzen<lb xml:id="V_137-24"/> Bogen anfange, <hi rendition="#g">diese,</hi> weil ich
+                  ihnen Platz lassen, <hi rendition="#g">du,</hi> weil ich selber<lb n="25" xml:id="V_137-25"/> einen haben will, um mit dir ein Wort — obwol blos auf
+                     meinem<lb xml:id="V_137-26"/> Kanapee, worauf ich, Kinder und Hund und
+                  Kanarienvogel ihren gei<note corresp="#V_137-27">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003483">
+                           <persName> Johann Paul Friedrich <name type="reg">Richter</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="V_137-27" rendition="#hyphen"/>stigen Gehalt auslassen — zu reden. —
+                  Ich bin in <hi rendition="#aq">Bayreuth</hi> geblieben<note corresp="#V_137-28">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005574">
+                           <placeName>Bayreuth (Stadt)</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="V_137-28"/> — und mein Muth war nicht der Mühe werth; denn es war
+                     nichts<lb xml:id="V_137-29"/> zu bekämpfen; leicht wie eine Gewitterwolke voll
+                  Abendsonne zog<lb n="30" xml:id="V_137-30"/> die Schlagwolke des Kriegs über das
+                  Land hin und traf erst fern<note corresp="#V_137-31">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005575">
+                           <placeName>Bayreuth, Markgrafschaft </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="V_137-31"/> von uns; als Aurora wird sie, hoff’ ich, umkehren und
+                     heim<note corresp="#V_137-32">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000174">
+                           <persName>
+                              <name type="reg">Aurora</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="V_137-32"/> ziehen.</p>
+               <lb xml:id="V_137-33"/>
+               <p>Den schönen Herbst, der zu dir geführet hätte, sperrten mir<lb xml:id="V_138-1"/>
+                  Levana und der Krieg zu. Ich weiß aber gewiß, daß der März hell,<note corresp="#V_138-2">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010811">
+                           <title>Levana (1807)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="V_138-2"/> kalt, reis’bar wird; — und dahin vertröst’ ich mich in
+                  meiner Nach<lb xml:id="V_138-3" rendition="#hyphen"/>barschafts-Armuth. Wahrlich
+                  das einzige Geistreiche, was einem<lb xml:id="V_138-4"/> noch begegnet, ist, daß
+                  es etwas Unglück gibt, das zu bekriegen ist.<lb n="5" xml:id="V_138-5"/> Denke dir
+                  den deutschen Sumpf nur auf 50 Jahre noch fortge<note corresp="#V_138-6">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0056690">
+                           <placeName>Deutsche; Deutschland , deutsch , Germanien,
+                              Vaterland</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="V_138-6" rendition="#hyphen"/>standen mit seiner grünen Priestleyschen
+                  Materie, diese wahre<note corresp="#V_138-7">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003289" rend="grüne Materie">
+                           <persName> Joseph <name type="reg">Priestley</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="V_138-7"/>
+                  <hi rendition="#aq">materia peccans</hi> des Jahrhunderts. Freilich zeigt das
+                     Durchwühlen<lb xml:id="V_138-8"/> des Sumpfes Schlamm oben; aber unten war er
+                  doch früher.</p>
+               <lb xml:id="V_138-9"/>
+               <p>— Und so muß man, als eine lebendige unwillkürliche <hi rendition="#aq">Figura</hi>
+                  <lb n="10" xml:id="V_138-10"/>
+                  <hi rendition="#aq">Praeteritionis</hi> von allem sprechen, was man zu übergehen
+                     denkt;<lb xml:id="V_138-11"/> ich meine von Politik.</p>
+               <lb xml:id="V_138-12"/>
+               <p>... Ich habe Fichte’s neueste Drillinge gelesen. 1. Die Vorgeburt<note corresp="#V_138-13">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-008370">
+                           <author>Fichte, Johann Gottlieb (1762-1814)</author>
+                           <title>Anweisung zum seligen Leben (1806)</title>
+                        </bibl>
+                        <bibl corresp="#JP-008377">
+                           <author>Fichte, Johann Gottlieb (1762-1814)</author>
+                           <title>Grundzüge des gegenwärtigen Zeitalters (1806)</title>
+                        </bibl>
+                        <bibl corresp="#JP-008380" ana="†">
+                           <author>Fichte, Johann Gottlieb (1762-1814)</author>
+                           <title>Über das Wesen des Gelehrten (1806)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="V_138-13"/> über die Gelehrten gelte denn als Nachgeburt. 2.</p>
+               <lb xml:id="V_138-14"/>
+            </div>
+            <div n="writingSession2">
+               <dateline>
+                  <hi rendition="#right">d. 25. März 1807.</hi>
+               </dateline>
+               <lb n="15" xml:id="V_138-15"/>
+               <p>Trefflicher! Vergib mir meine Sünde gegen mich selber. Blos<lb xml:id="V_138-16"/>
+                  weil ich an dich die längsten Briefe schreiben will, schreib’ ich so viele<lb xml:id="V_138-17"/> kurze an andere, deren Antworten mich nur wie Zeitungen
+                     inter<lb xml:id="V_138-18" rendition="#hyphen"/>essieren, daß ich zu nichts
+                  komme, nämlich zu keiner Antwort von<lb xml:id="V_138-19"/> dir. Genug, was hilft
+                  Reuschreiben über Nichtschreiben ohne Handeln?<lb n="20" xml:id="V_138-20"/> — Du
+                  bist schriftstellerisch auch in diesem Falle. — Das Schlimmste<lb xml:id="V_138-21"/> ist dann für mich, daß ich über allem Neuen, das ich dir
+                  sagen muß,<lb xml:id="V_138-22"/> dann das Alte vergessen, was ich auch sagen
+                  wollte.</p>
+               <lb xml:id="V_138-23"/>
+               <p>Haben die Zeitungen mehr Recht als bei <hi rendition="#g">kleinern Siegen,</hi>
+                  <lb xml:id="V_138-24"/> daß du wirklich die Akademie organisiert und der König die
+                     Wieder<note corresp="#V_138-25">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002694">
+                           <persName>
+                              <name type="reg">Maximilian IV. Joseph</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0055700">
+                           <placeName>Bayerische Akademie der Wissenschaften; Bayern </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="25" xml:id="V_138-25" rendition="#hyphen"/> geburt getauft mit seinem
+                  Namen? — <note n="a)" place="foot">Seitdem hab’ ich die frohe Nachricht deiner
+                     akademischen Regentschaft sogar<lb xml:id="V_138-34"/> im <hi rendition="#aq">Moniteur</hi> gelesen. Ich möchte wissen, ob ich nicht auch in die Akademie
+                        hinein<note corresp="#V_138-35">
+                        <listBibl type="lineReference" subtype="werke">
+                           <bibl corresp="#JP-010312">
+                              <author/>
+                              <title>Moniteur, französisches Amtsblatt (1799ff.)</title>
+                           </bibl>
+                        </listBibl>
+                     </note>
+                     <lb n="35" xml:id="V_138-35" rendition="#hyphen"/> könnte und ob 39 Bände und
+                     die bisherigen Fürsten, die mich blos von diesen leben<lb xml:id="V_138-36"/>
+                     hießen, nicht dazu führen dürften.<lb xml:id="V_138-37"/>
+                  </note>
+               </p>
+               <lb xml:id="V_138-26"/>
+               <p>Über deinen Magen, deine Augen, vier Gehirnkammern, Lungen<lb xml:id="V_138-27" rendition="#hyphen"/>flügel und deine Einbildungen davon wünsch’ ich dein Wort;
+                  ob ich<lb xml:id="V_138-28"/> gleich — nach meiner metereologisch-pathologischen
+                  Prognose —<lb xml:id="V_138-29"/> diesen leichten Vor- und Spiel-Winter für einen
+                  Freund deiner<lb n="30" xml:id="V_138-30"/> Natur ansehe, wenn nicht der
+                  Nachwinter alles verlorne Böse ein<lb xml:id="V_138-31" rendition="#hyphen"/>holt.
+                  — Vergilt mir ja nicht, Guter, mein Böses mit Schlimmern,<lb xml:id="V_138-32"/>
+                  sondern sage mir sogleich alles über Akademie und Leib.</p>
+               <lb xml:id="V_138-33"/>
+               <p>Ich werde täglich gesünder — gesund bin ich ohnehin — aber<lb xml:id="V_139-1"/>
+                  auch dümmer; <note n="*)" place="foot">Mir fehlt zu 90 Jahren und 90 Oktavbänden,
+                     die ich darin mache, nichts als<lb xml:id="V_139-34"/> Wachsthum der
+                     Weinfässer. Mit dem Heidelberger wollt’ ich jeden überleben und<note corresp="#V_139-35">
+                        <listPlace type="lineReference">
+                           <place corresp="#JP-005819">
+                              <placeName>Heidelberg</placeName>
+                           </place>
+                        </listPlace>
+                     </note>
+                     <lb n="35" xml:id="V_139-35"/> überschreiben.<lb xml:id="V_139-36"/>
+                  </note> vielleicht eben darum. Ich spüre in mir mehr das<lb xml:id="V_139-2"/>
+                  Gebähren als Erzeugen. Himmel, wie liebt’ ich sonst nicht meine<lb xml:id="V_139-3"/> Sachen, ehe kaum das Streusandfaß darüber gekommen war!<lb xml:id="V_139-4"/> Jetzt muß die Presse erst ihnen einigen Glanz aufdrücken
+                     〈aufplätten〉<lb n="5" xml:id="V_139-5"/> bei mir. So war ich z. B. in Angst
+                  über meine <hi rendition="#aq">Levana;</hi> — und doch<note corresp="#V_139-6">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010811">
+                           <title>Levana (1807)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="V_139-6"/> hör’ ich, will sie mancher loben. Ich weiß nicht, was du
+                  thust; aber<lb xml:id="V_139-7"/> (dieß ist mein Schreib-Jammer) erst jetzt thu’
+                  ichs auch. — — Ich<lb xml:id="V_139-8"/> bitte ernstlich um deine mir so starke
+                  reiche Meinung.</p>
+               <lb xml:id="V_139-9"/>
+               <p>Vor einem Monate steckte ich ganz im organischen Magnetismus<lb n="10" xml:id="V_139-10"/> von <hi rendition="#g">Wienholt,</hi> der drei redliche
+                  Bände davon geschrieben. Ich bin<note corresp="#V_139-11">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-010114" ana="†">
+                           <author>Wienholt, Arnold (1749-1804), Dr. med. in Bremen</author>
+                           <title>Heilkraft des thierischen Magnetismus (1802-1805)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="V_139-11"/> — und zwar schon seit Gmelin — dafür; ich sag’ es aber
+                  hier nur,<note corresp="#V_139-12">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-008487">
+                           <author>Gmelin, Eberhard (1761-1809), Mediziner in Heilbronn</author>
+                           <title>Über thierischen Magnetismus (1787-89)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="V_139-12"/> um zu fragen, ob er dir nicht wenigstens so viel
+                     Marter-Reitze<lb xml:id="V_139-13"/> wegspielen könnte, daß du wenn nicht
+                  deinen Allwill endigtest, doch<note corresp="#V_139-14">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-008810">
+                           <author>Jacobi, Friedrich Heinrich (1743-1819), Philosoph und
+                              Schriftsteller</author>
+                           <title>Eduard Allwills Briefsammlung (1775-92)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="V_139-14"/> deine Jupiters Kette gegen die Nihilisten. Wenn das
+                     Schicksal<note corresp="#V_139-15">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001987">
+                           <persName>
+                              <name type="reg">Jupiter </name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003011">
+                           <persName>
+                              <name type="reg">Nihilisten</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="15" xml:id="V_139-15"/> dich, mit deiner Seh-Kraft und Fühl-Kraft zugleich,
+                  nicht schöner<lb xml:id="V_139-16"/> stellen konnte als gerade in unsere Zeit
+                  hinein, wo die Spekulazion<lb xml:id="V_139-17"/> mit <hi rendition="#g">Höhen</hi> nach <hi rendition="#g">Höhen</hi> (nur warens keine dichten Berge)
+                     den<lb xml:id="V_139-18"/> Riesensturm gegen den <hi rendition="#g">Himmel</hi>
+                  unternahm: so dauert es mich<lb xml:id="V_139-19"/> desto mehr, daß deine
+                  körperliche Lage deine geistige Stellung nicht<lb n="20" xml:id="V_139-20"/>
+                  begünstigt. Gibt es denn gar keinen Wahrheits-Freund, der dich<lb xml:id="V_139-21"/> bestiehlt, alles notiert, numeriert, ordnet und am Ende
+                  sich einbildet:<lb xml:id="V_139-22"/> er habe das Meiste errathen? — Ich bin
+                  überzeugt, daß du in Ge<lb xml:id="V_139-23" rendition="#hyphen"/>sprächen gerade
+                  die Kraft verschwendest, die du den Büchern auf<lb xml:id="V_139-24" rendition="#hyphen"/> sparst, aber aus Körper-Angst und Druck nicht zu geben
+                     hoffest;<lb n="25" xml:id="V_139-25"/> und du wirst philosophisch so bestohlen
+                  von Zuhörern wie <hi rendition="#aq">Herder</hi>
+                  <note corresp="#V_139-26">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001675">
+                           <persName> Johann Gottfried von <name type="reg">Herder</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="V_139-26"/> und <hi rendition="#aq">Goethe</hi> artistisch. —</p>
+               <note corresp="#V_139-27">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001353">
+                        <persName> Johann Wolfgang von <name type="reg">Goethe</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="V_139-27"/>
+            </div>
+            <div n="writingSession3">
+               <dateline>
+                  <hi rendition="#right">d. 30. M<metamark>[</metamark>ärz<metamark>]</metamark>
+                  </hi>
+               </dateline>
+               <lb xml:id="V_139-28"/>
+               <p>Was ich dir über <hi rendition="#aq">Fichte</hi> schreiben wollen, hab’ ich zum
+                  Glück für<note corresp="#V_139-29">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001073" ana="ff†">
+                           <persName> Johann Gottlieb <name type="reg">Fichte</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="V_139-29"/> deine Weile rein vergessen. Nur dieß weiß ich noch, daß
+                     mir<lb n="30" xml:id="V_139-30"/> das Buch über den Gelehrten am kahlesten und
+                  das über das<note corresp="#V_139-31">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-008370">
+                           <author>Fichte, Johann Gottlieb (1762-1814)</author>
+                           <title>Anweisung zum seligen Leben (1806)</title>
+                        </bibl>
+                        <bibl corresp="#JP-008380">
+                           <author>Fichte, Johann Gottlieb (1762-1814)</author>
+                           <title>Über das Wesen des Gelehrten (1806)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="V_139-31"/> seelige Leben am besten vorgekommen. Wie er aber mit
+                     seinem<lb xml:id="V_139-32"/> rohen Idealismus — der den Begriff zu Gott dem
+                  Vater macht —<lb xml:id="V_139-33"/> und sonst, mit dir zusammen zu kommen glauben
+                  kann, oder mit seinem<lb xml:id="V_140-1"/> ihm fremden leeren Nachsprechen über
+                  Religion und Liebe, dieß<lb xml:id="V_140-2"/> erklär’ ich mir — leicht, weil er
+                  niemand lieset und versteht als sich<lb xml:id="V_140-3"/> und dieß nur halb. Was
+                  du längst in deinem <hi rendition="#aq">Hume</hi> für den Idealis<note corresp="#V_140-4">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-008816">
+                           <author>Jacobi, Friedrich Heinrich (1743-1819), Philosoph und
+                              Schriftsteller</author>
+                           <title>David Hume (1787)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="V_140-4" rendition="#hyphen"/>mus gesagt, und so hundert andere
+                  Antiken, bringt er als seine<lb n="5" xml:id="V_140-5"/> Novitäten vor uns. Er mag
+                  nachsinnen und nachsprechen so viel er<lb xml:id="V_140-6"/> will, er zeigt doch,
+                  daß niemand über sein Gemüth hinaus, philo<lb xml:id="V_140-7" rendition="#hyphen"/>sophieren kann. Daß ihn <hi rendition="#aq">Schelling</hi> (und die <hi rendition="#aq">L<metamark>[</metamark>iteratur<metamark>]</metamark>Zeitung</hi>)<note corresp="#V_140-8">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003713" ana="†">
+                           <persName> Friedrich Wilhelm Joseph (ab 1812) von <name type="reg">Schelling</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-010170">
+                           <author/>
+                           <title>Allgemeine Literatur-Zeitung (Literaturzeitung) (Jena 1785ff., ab
+                              1804 Halle)</title>
+                        </bibl>
+                        <bibl corresp="#JP-010275" ana="†">
+                           <author/>
+                           <title>Jenaische Allgemeine Literaturzeitung (1804ff.)</title>
+                        </bibl>
+                        <bibl corresp="#JP-008380" ana="†">
+                           <author>Fichte, Johann Gottlieb (1762-1814)</author>
+                           <title>Über das Wesen des Gelehrten (1806)</title>
+                        </bibl>
+                        <bibl corresp="#JP-009568" ana="†">
+                           <author>Schelling, Friedrich Wilhelm Joseph (ab 1812) von
+                              (1775-1854)</author>
+                           <title>Darlegung des Verhältnisses der Naturphilosophie zur Fichteschen
+                              Lehre (1806)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="V_140-8"/> recht zwickt und kneipt, gefällt mir sehr; nur daß jener
+                  wieder sein<lb xml:id="V_140-9"/>
+                  <hi rendition="#aq">duo</hi> auch nach einem <hi rendition="#aq">Singularis</hi>
+                  dekliniert und <hi rendition="#aq">unus, una, unum</hi>
+                  <lb n="10" xml:id="V_140-10"/> nach einem Plural; und wie alle die Frage für die
+                  Antwort hält.<lb xml:id="V_140-11"/> Aus Platons Parmenides konnt’ er sich Stützen
+                  und Einwürfe<note corresp="#V_140-12">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-009405">
+                           <author>Platon (Plato) (427-347 v. Chr.)</author>
+                           <title>Parmenides</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="V_140-12"/> holen. Übrigens gefällt mir an <hi rendition="#aq">Fichte</hi> der energische Karakter und<lb xml:id="V_140-13"/> die edle
+                  Prosa.</p>
+               <lb xml:id="V_140-14"/>
+               <p>In deinem <hi rendition="#aq">Anti-Koerte</hi> ist mir und deinen
+                     a<metamark>[</metamark>ndern<metamark>]</metamark> Freunden die<note corresp="#V_140-15">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002195">
+                           <persName> Wilhelm <name type="reg">Körte </name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-008827" ana="†">
+                           <author>Jacobi, Friedrich Heinrich (1743-1819), Philosoph und
+                              Schriftsteller(Werk)</author>
+                           <title>Was gebieten Ehre, Sittlichkeit und Recht (1806)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb n="15" xml:id="V_140-15"/> treffliche Stelle über Freundschaft blos darum
+                  nicht so sehr auf<lb xml:id="V_140-16" rendition="#hyphen"/>gefallen — bei der
+                  Kenntnis deines Systems und Herzens —,<lb xml:id="V_140-17"/> weswegen in einer
+                  Demantgrube der Grubenherr derselben mit einem<lb xml:id="V_140-18"/> Solitaire im
+                  Ringe nicht so viel Aufsehen erregen würde als etwa<lb xml:id="V_140-19"/> damit
+                  am Traualtar.<lb n="20" xml:id="V_140-20"/>
+               </p>
+               <p>Lieber Heinrich, spare ja deine Antwort nicht lange auf; ich habe<lb xml:id="V_140-21"/> Erquickung in diesem abmattenden <hi rendition="#aq">Bayreuth</hi> und noch mehr das<note corresp="#V_140-22">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005574">
+                           <placeName>Bayreuth (Stadt)</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="V_140-22"/> Wiederanschauen deiner Liebe nöthig. Von meiner Reise
+                     nach<lb xml:id="V_140-23"/>
+                  <hi rendition="#aq">München</hi> werd’ ich — jetzt ausgenommen — nicht mehr und
+                     nicht<note corresp="#V_140-24">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006040">
+                           <placeName>München</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="V_140-24"/> eher sprechen als ein Paar <hi rendition="#g">Mai</hi>-Tage vorher, oder auch <hi rendition="#g">Junius-</hi>
+                  <lb n="25" xml:id="V_140-25"/> Tage. Denn der July wird so schlecht als die beiden
+                     Vormonate<lb xml:id="V_140-26"/> schön. Ich wollte, ich hätte dir meine
+                  Wetter-Augurien, die ich<lb xml:id="V_140-27"/> am Oktober auf ein ½ Jahr andern
+                  gegeben, schriftlich geschenkt,<lb xml:id="V_140-28"/> da mit du wüßtest, wie
+                  wenig ich lüge und betrüge.</p>
+               <lb xml:id="V_140-29"/>
+               <p>Lebe wol, mein theuerer Heinrich. Gott gebe, daß dein Schweigen<lb n="30" xml:id="V_140-30"/> nur in mir die böse Ursache hatte. Ich grüsse deine
+                     Schwester-Dio<note corresp="#V_140-31">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000807">
+                           <persName>
+                              <name type="reg">Dioskuren</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-001906">
+                           <persName> Charlotte und Helene <name type="reg">Jacobi</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="V_140-31" rendition="#hyphen"/>skuren, die dich, an jedem Arme eine,
+                  sanft durch das Leben führen.</p>
+               <lb xml:id="V_140-32"/>
+               <closer>
+                  <salute>
+                     <hi rendition="#right">J. P. F. Richter</hi>
+                  </salute>
+               </closer>
+               <lb xml:id="V_140-33"/>
+               <postscript>
+                  <p>N. S. Wenn ich jemand z. B. <hi rendition="#aq">Eschenmaier</hi> nach dem
+                        ersten<note corresp="#V_140-34">
+                        <listBibl type="lineReference" subtype="werke">
+                           <bibl corresp="#JP-008346">
+                              <author>Eschenmayer, Adam Karl August (1768-1852), Mediziner und
+                                 Philosoph</author>
+                              <title>Einleitung in die Natur und Geschichte (1806)</title>
+                           </bibl>
+                        </listBibl>
+                     </note>
+                     <lb xml:id="V_140-34"/> Eindrucke zu stark lobe (besonders <hi rendition="#aq">Schelling</hi>): so mein’ ich und fühl’<note corresp="#V_140-35">
+                        <listPerson type="lineReference">
+                           <person corresp="#JP-003713">
+                              <persName> Friedrich Wilhelm Joseph (ab 1812) von <name type="reg">Schelling</name>
+                              </persName>
+                           </person>
+                        </listPerson>
+                     </note>
+                     <lb n="35" xml:id="V_140-35"/> ich nur den Geist, der sich ausspricht, nicht
+                     die einzelnen Sätze. Bei<lb xml:id="V_140-36"/> Gott, ich nehme jetzt jedes
+                     transszendente Werk mit wahrer Kälte<lb xml:id="V_141-1"/> in die Hand — oder
+                     aus Scherz — oder zur Gymnastik —; aber<lb xml:id="V_141-2"/> leider ohne alle
+                     Hoffnung, meine dürstende Seele in diesen arabischen<note corresp="#V_141-3">
+                        <listPlace type="lineReference">
+                           <place corresp="#JP-005531">
+                              <placeName>Arabien</placeName>
+                           </place>
+                        </listPlace>
+                     </note>
+                     <lb xml:id="V_141-3"/> Wüsten, mit einer Quelle Wahrheit zu stärken, so sehr
+                     auch diese<lb xml:id="V_141-4"/> Wüsten wie ihre Urbilder, durch
+                     Stralenbrechung von weitem<lb n="5" xml:id="V_141-5"/> Meere vorspiegeln.</p>
+                  <lb xml:id="V_141-6"/>
+                  <p>In meiner Levana mußt du die Stellen von Kants Idealen der<note corresp="#V_141-7">
+                        <listPerson type="lineReference">
+                           <person corresp="#JP-002024" ana="†">
+                              <persName> Immanuel <name type="reg">Kant</name>
+                              </persName>
+                           </person>
+                        </listPerson>
+                        <listBibl type="lineReference" subtype="werke-jp">
+                           <bibl corresp="#JP-010811" ana="†">
+                              <title>Levana (1807)</title>
+                           </bibl>
+                        </listBibl>
+                     </note>
+                     <lb xml:id="V_141-7"/> Vernunft blos auf die Sittlichkeit einschränken.<lb xml:id="V_141-8"/>
+                  </p>
+               </postscript>
+            </div>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Goethe- u. Schiller-Archiv. 8 S. 4°. Präsentat:
+                  Legations Rath Richter<lb/> e. d. 7ten Apr. 1807. b. d. 11ten May. <hi rendition="#i">K</hi>: <hi rendition="#i">Jacobi</hi>
+               </hi> v. 28 <hi rendition="#aq">
+                  <hi rendition="#i">Dec.</hi>
+               </hi> bis 29 März.<lb/>
+               <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>: Jacobi S. 122. <hi rendition="#i">B</hi>: IV. Abt., V,
+                  Nr.</hi>
+               <hi rendition="#aq">105. </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">137</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">27</hi>
+               </hi> und Kanarienvogel] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>,<lb/>
+                  fehlt <hi rendition="#i">K</hi>
+               </hi> geistigen] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">31</hi> das Land] <hi rendition="#aq">aus</hi> uns <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">32</hi> umkehren und]<lb/> wieder <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+                  <hi rendition="#b">138</hi>,<hi rendition="#rkd">6</hi>f.</hi> noch fortgestanden]
+                  <hi rendition="#aq">aus</hi> fortstehen <hi rendition="#aq">aus</hi> stehen <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+                  <hi rendition="#rkd">8</hi>
+                  <hi rendition="#i">peccans</hi>]<lb/> danach gestr. <hi rendition="#i">et agens
+                     H</hi>
+                  <hi rendition="#rkd">10</hi>f.</hi> unwillkürliche <hi rendition="#aq">
+                  <hi rendition="#i">Figura Praeteritionis</hi>] aus<lb/>
+                  <hi rendition="#i">Figura Praeteritionis</hi>
+               </hi> wider Willen <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">11</hi> zu übergehen] <hi rendition="#aq">davor</hi> gerade <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">28</hi> Einbildungen] <hi rendition="#aq">aus</hi> Meinungen <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+                  <hi rendition="#rkd">34–37</hi> die Note steht oben auf der<lb/> 3. Seite auf dem
+                  Kopfe <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">139</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">14</hi>
+               </hi> wegspielen] <hi rendition="#aq">vielleicht</hi> wegspülen <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">17</hi> hin<lb rendition="#hyphen"/> ein] <hi rendition="#aq">danach gestr. *) und a. R. gestr.</hi> *) Sage, in welcher Zeit <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#b">140</hi>,<hi rendition="#rkd">2</hi> ihm]<lb/>
+               <hi rendition="#aq">davor gestr.</hi> nachgesprochnen <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi> leeren] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">5</hi> andere] fremde <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">6</hi> nachsinnen] <hi rendition="#aq">aus</hi> eindringen <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">11</hi> und <hi rendition="#aq">bis</hi> hält] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">12</hi> Einwürfe]<lb/> Zweifel <hi rendition="#aq">aus</hi>
+               Beweise <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">18</hi> der Grubenherr derselben] <hi rendition="#aq">aus</hi>
+               ein Mann <hi rendition="#aq">
+                  <hi rendition="#i">HK</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">32</hi> sanft] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">35</hi> zu] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>,</hi> so <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">35</hi> besonders <hi rendition="#aq">
+                  <hi rendition="#i">Schelling</hi>] aus</hi>
+               <lb/> so auch <hi rendition="#aq">
+                  <hi rendition="#i">Fichte H</hi>
+               </hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">138</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">13</hi>
+               </hi>
+               <hi rendition="#aq">
+                  <hi rendition="#g">Fichtes neueste Drillinge:</hi> „Über das Wesen des
+                  Gelehrten“,<lb/> „Grundzüge des gegenwärtigen Zeitalters“, „Anweisung zum seligen
+                  Leben,<lb/> oder Religionslehre“, sämtlich Berlin 1806 erschienen. <hi rendition="#b">139</hi>,<hi rendition="#rkd">10</hi> Arnold<lb/>
+                  <hi rendition="#g">Wienholt,</hi> „Heilkraft des thierischen Magnetismus“
+                  (1802—06); Exzerpte<lb/> daraus im 39. Band (Sept. 1806); vgl. Jean Pauls Aufsatz
+                  „Muthmaßungen<lb/> über einige Wunder des organischen Magnetismus“ im Museum (I.
+                  Abt.,<lb/> XVI, 9—43). <hi rendition="#rkd">12</hi> Eberhard <hi rendition="#g">Gmelin,</hi> „Über thierischen Magnetismus“<lb/> (1787—89). <hi rendition="#b">140</hi>,<hi rendition="#rkd">3</hi>
+                  <hi rendition="#g">Fichte liest und versteht niemand:</hi> vgl. Bd. III,</hi>
+               <lb/>
+               <hi rendition="#aq">Nr, 179, 137,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">17</hi>
+               </hi>
+               <hi rendition="#aq">f. u. I. Abt., XVI, 343,<hi rendition="#rkd">33</hi>f. (Rezension
+                  der „Reden an die deutsche<lb/> Nation“). <hi rendition="#rkd">8</hi>
+                  <hi rendition="#g">Schelling:</hi> in der Schrift „Darlegung des wahren Verhält<lb rendition="#hyphen"/> nisses der Naturphilosophie zu der verbesserten
+                  Fichteschen Lehre“ (1806)<lb/> und in der Rezension der Schrift „Über das Wesen
+                  des Gelehrten“ in der<lb/> Jenaischen Allg. Literaturzeitung, 26. u. 27. Juni
+                  1806, Nr. 150f.; vgl.<lb/> I. Abt., XVI, 344,<hi rendition="#rkd">10</hi>. <hi rendition="#rkd">15</hi>
+                  <hi rendition="#g">Anti-Koerte:</hi> s. Nr. 226; die Stelle über<lb/> Freundschaft
+                  S. 11f. <hi rendition="#rkd">34 </hi>
+                  <hi rendition="#g">Eschenmaier:</hi> s. <hi rendition="#b">95</hi>,<hi rendition="#rkd">8</hi>ff. <hi rendition="#b">141</hi>,<hi rendition="#rkd">7</hi>f. <hi rendition="#g">Levana:</hi>
+                  <lb/> I. Abt., XII,</hi>
+               <hi rendition="#aq">373,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">10</hi>
+               </hi>
+               <hi rendition="#aq">.</hi>
+            </p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

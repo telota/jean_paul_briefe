@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="V_92">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="93">92. An Gustav von Brinckmann in Berlin. </title>
+            <title n="digital">An Karl Gustav von Brinckmann. Bayreuth, 2. April 1805.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=V_92</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/V/V_92</idno>
+               <idno type="TELOTAID">V_92</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
+               <biblScope n="text" unit="page">
+                  <num>33</num>
+                  <num>34</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>276</num>
+                  <num>277</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+            <listPerson type="commentary">
+               <person corresp="#JP-001675">
+                  <persName> Johann Gottfried von <name type="reg">Herder</name>
+                  </persName>
+               </person>
+               <person corresp="#JP-001909">
+                  <persName> Friedrich Heinrich <name type="reg">Jacobi</name>
+                  </persName>
+               </person>
+               <person corresp="#JP-002430">
+                  <persName> Rahel <name type="reg">Levin</name>
+                  </persName>
+               </person>
+               <person corresp="#JP-003767">
+                  <persName> Friedrich <name type="reg">Schleiermacher</name>
+                  </persName>
+               </person>
+               <person corresp="#JP-004524">
+                  <persName> Johann Heinrich <name type="reg">Voß</name>
+                  </persName>
+               </person>
+            </listPerson>
+            <listBibl type="commentary" subtype="werke-jp">
+               <bibl corresp="#JP-010970">
+                  <title>Vorschule der Aesthetik (1804)</title>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1805-04-02">2. April 1805</date>
+               <placeName key="JP-005574" ref="http://www.geonames.org/2951825">Bayreuth</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000500" ref="http://d-nb.info/gnd/116519770">
+                  <name type="reg">Brinckmann</name> Karl Gustav von</persName>
+               <placeName key="JP-005586" ref="http://www.geonames.org/2950159">Berlin</placeName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <dateline>
+               <hi rendition="#right">
+                  <hi rendition="#aq">
+                     <placeName>Bayreuth</placeName> d. <date>2. Apr. 1805</date>
+                  </hi>
+               </hi>
+            </dateline>
+            <lb n="25" xml:id="V_33-25"/>
+            <p>Ihr Brief — den ich erst Ende vorigen Monats bekam — hat<lb xml:id="V_33-26"/> mir
+               viele Freude, obgleich keine neue Bekanntschaft mitgebracht.<lb xml:id="V_33-27"/>
+               Schon in <hi rendition="#aq">Weimar</hi> und in <hi rendition="#aq">Berlin</hi> und
+               sogar von meiner Frau —<note corresp="#V_33-28">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003469">
+                        <persName> Caroline <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005586">
+                        <placeName>Berlin</placeName>
+                     </place>
+                     <place corresp="#JP-006395">
+                        <placeName>Weimar</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="V_33-28"/> deren Schwester <hi rendition="#aq">Minna</hi> Sie kannte —
+               wurde mir Ihr Name mit<note corresp="#V_33-29">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004393">
+                        <persName> Wilhelmine <name type="reg">Uthe-Spazier</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="V_33-29"/> der Liebe genannt, die Ihre Gedichte rechtfertigen. Ich danke
+                  Ihnen<lb n="30" xml:id="V_33-30"/> für Ihren Lebenslauf, worin ein Stück
+               Lebensflug ist und durch<lb xml:id="V_33-31"/> welchen Ihre Gedichte, die mir durch
+               ihren rein-menschlichen Stoff<note corresp="#V_33-32">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008196" ana="†">
+                        <author>Brinckmann, Karl Gustav von (1764-1847), schwedischer Diplomat und
+                           Dichter</author>
+                        <title>Gedichte (1804)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="V_33-32"/> und durch eine in dieser wildernden Zeit seltene Schön-Form
+                  innig<lb xml:id="V_33-33"/> gefallen, noch individuelle Klarheit erhalten. — Jeder
+               Geist — er<lb xml:id="V_34-1"/> stehe so hoch als er wolle — gleicht ein wenig dem
+               Tynnichos <note n="*)" place="foot">
+                  <hi rendition="#aq">Plat. Jon.</hi> 534.<note corresp="#V_34-36">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-009404">
+                           <author>Platon (Plato) (427-347 v. Chr.)</author>
+                           <title>Ion</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="V_34-36"/>
+               </note> und<note corresp="#V_34-2">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004357" ana="†">
+                        <persName>
+                           <name type="reg">Tynnichos</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="V_34-2"/> hat am Ende wie die Sonne doch auf seiner poetischen
+                  Weltkugel<lb xml:id="V_34-3"/> nur ein Ländchen, ein Quito oder dergleichen (so
+               wie sein Feuerland<note corresp="#V_34-4">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005734">
+                        <placeName>Feuerland </placeName>
+                     </place>
+                     <place corresp="#JP-006172" ana="†">
+                        <placeName>Quito, goldreiche Hauptstadt von Ecuador</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="V_34-4"/> ohnehin) wo alle Kräfte und Stralen seines Lebens vereinigt
+                  am<lb n="5" xml:id="V_34-5"/> besten treffen und alles hervortreiben zu Einem
+               Garten. Jeder hat<lb xml:id="V_34-6"/> einen andern Grad der Länge (nicht der
+               Breite). Ich glaube nun,<lb xml:id="V_34-7"/> eine idyllische Darstellung des
+               vornehmen Lebens, das so gut als das<note corresp="#V_34-8">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010782" ana="†">
+                        <title>Komischer Anhang zum Titan (1800-1801): Idylle auf das vornehme
+                           Leben</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="V_34-8"/> niedere durch Absonderungen poetisch zu verklären ist, müßte
+                  Ihnen<lb xml:id="V_34-9"/> sehr gelingen — jetzt, nicht sonst. Denn mit der
+               Überschätzung desselben<lb n="10" xml:id="V_34-10"/> beginnt man, darauf kommt die
+               verkennende Verachtung, endlich<lb xml:id="V_34-11"/> bleibt man im Tag- und
+               Nacht-Ausgleichen stehen.</p>
+            <lb xml:id="V_34-12"/>
+            <p>Mein Hoffnungs-Axiom war bisher: „ich begegne am Ende<lb xml:id="V_34-13"/> jedem,
+               und wär’ er in Eutin, wohin mich die siberische Haide gewiß<note corresp="#V_34-14">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005729">
+                        <placeName>Eutin</placeName>
+                     </place>
+                     <place corresp="#JP-005978">
+                        <placeName>Lüneburger Heide</placeName>
+                     </place>
+                     <place corresp="#JP-006281">
+                        <placeName>Sibirien</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="V_34-14"/> nie lässet“ Und ich hatte Recht; denn Jacobi zieht nach <hi rendition="#aq">München.</hi>
+               <note corresp="#V_34-15">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001909">
+                        <persName> Friedrich Heinrich <name type="reg">Jacobi</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006040">
+                        <placeName>München</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb n="15" xml:id="V_34-15"/> Eben so werd’ ich Wandervogel doch wol einmal mit einem
+               wie Sie<lb xml:id="V_34-16"/> mich kreutzen, dessen linker Flügel einem Tropik-,
+               dessen rechter einem<lb xml:id="V_34-17"/> Eis-Vogel angehört; das Gegentheil wäre ja
+               närrischer als der<lb xml:id="V_34-18"/> Zufall.</p>
+            <lb xml:id="V_34-19"/>
+            <p>Frau <hi rendition="#aq">v. Kalb</hi> aus <hi rendition="#aq">Weimar,</hi> welche ich
+               wie <hi rendition="#aq">Descartes</hi> die Erde,<note corresp="#V_34-20">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000785">
+                        <persName> René <name type="reg">Descartes </name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-002007" ana="†">
+                        <persName> Charlotte von <name type="reg">Kalb</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006395">
+                        <placeName>Weimar</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb n="20" xml:id="V_34-20"/> eine inkrustierte Sonne nennen möchte, ist in <hi rendition="#aq">Berlin. Fichte</hi> oder<note corresp="#V_34-21">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001073">
+                        <persName> Johann Gottlieb <name type="reg">Fichte</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005586">
+                        <placeName>Berlin</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="V_34-21"/> mein Schwiegervater sagt Ihnen ihre Wohnung.</p>
+            <note corresp="#V_34-22">
+               <listPerson type="lineReference">
+                  <person corresp="#JP-002703">
+                     <persName> Johann Siegfried Wilhelm <name type="reg">Mayer</name>
+                     </persName>
+                  </person>
+               </listPerson>
+            </note>
+            <lb xml:id="V_34-22"/>
+            <p>Es würde mich in jedem Falle sehr erfreuen, wenn Sie etwas über<lb xml:id="V_34-23"/>
+               mich entweder dem Publikum gäben oder mir oder beiden.</p>
+            <lb xml:id="V_34-24"/>
+            <p>Je mehr die Leute das <hi rendition="#g">Leben</hi> nur zu einem Anhängsel der
+                  Lebens<lb n="25" xml:id="V_34-25" rendition="#hyphen"/>
+               <hi rendition="#g">Mittel</hi> machen: desto mehr erfreuete mich Ihre
+                  Versicherung,<lb xml:id="V_34-26"/> daß Sie das Leben selber zu einem Kunstwerk
+               machen und folglich<lb xml:id="V_34-27"/> das Übergewicht der Individualität im
+               Rein-Menschlichen theils<lb xml:id="V_34-28"/> vernichten theils ausgleichen theils
+               benützen. Die Aufgabe aber ist<lb xml:id="V_34-29"/> gerade so schwer als die der
+               Annäherung des Endlichen ans Unend<lb n="30" xml:id="V_34-30" rendition="#hyphen"/>
+               liche —; denn es ist eigentlich dieselbe.</p>
+            <lb xml:id="V_34-31"/>
+            <p>Was hätte man noch zu sagen, wäre Papier und Zeit nicht so<lb xml:id="V_34-32"/>
+               theuer, eigne und fremde? Aber wie gesagt, ich begegne Ihnen.</p>
+            <lb xml:id="V_34-33"/>
+            <p>Es geh’ Ihnen wol!</p>
+            <lb xml:id="V_34-34"/>
+            <closer>
+               <salute>
+                  <hi rendition="#right">Jean Paul Fr. Richter</hi>
+                  <lb n="35" xml:id="V_34-35"/>
+               </salute>
+            </closer>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Brinckmann-Archiv, Trolle-Ljungby. 4 S. 8°. <hi rendition="#i">K</hi>: <hi rendition="#i">Brinkmann</hi>
+               </hi> 2 Apr.<lb/>
+               <hi rendition="#aq">
+                  <hi rendition="#i">i</hi>: Wahrheit 7,27×. <hi rendition="#i">B</hi>: IV. Abt., V,
+                  Nr.</hi>
+               <hi rendition="#aq">32. </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">33</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">33</hi>
+               </hi> Schön-Form] <hi rendition="#aq">davor gestr.</hi> Form <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#b">
+                  <hi rendition="#aq">34</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">2</hi>
+               </hi> gleicht <hi rendition="#aq">bis</hi> und] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>, fehlt <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">3</hi> wie die Sonne] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">4</hi> nur]<lb/>
+               <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>, fehlt <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">5</hi> ohnehin] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi> am bestens <hi rendition="#aq">[so!] nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">6</hi> alles]<lb/>
+               <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">7</hi> nun] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">8</hi> idyllische] <hi rendition="#aq">davor gestr.</hi> Idylle
+                  <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">9</hi> poetisch<lb/> zu verklären ist] <hi rendition="#aq">aus</hi> sich poetisch verklären kann <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">10</hi> sonst] <hi rendition="#aq">aus</hi> früher <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">11</hi> ver<lb rendition="#hyphen"/> kennende] <hi rendition="#aq">davor gestr.</hi> verachtende <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">15</hi> nie] <hi rendition="#aq">aus</hi> nicht <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi> läßt <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">16</hi> wie<lb/>
+               <hi rendition="#aq">bis</hi> 17 kreutzen] <hi rendition="#aq">aus</hi> andern <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">17</hi> mich] <hi rendition="#aq">nachtr. <hi rendition="#i">HK</hi>
+               </hi> kreutzen] <hi rendition="#aq">danach gestr.</hi>
+               <lb/> können <hi rendition="#aq">
+                  <hi rendition="#i">HK</hi>
+               </hi>
+               <hi rendition="#rkd">26</hi> Ihre Versicherung] <hi rendition="#aq">aus</hi> Ihr Wort
+                  <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">29</hi> ausgleichen] <hi rendition="#aq">aus</hi>
+               <lb/> vergleichen <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+                  <hi rendition="#rkd">30</hi>f.</hi> Unendlichen <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Carl Gustav von <hi rendition="#g">Brinckmann</hi> (1764—1847),
+                  kgl. schwedischer Chargé<lb/> d’affaires am preußischen Hofe, mit Jacobi, Herder,
+                  Schleiermacher, Rahel<lb/> befreundet, hatte seine „Gedichte“ (1. Bändchen, Berlin
+                  1804; darin S. 251<lb/> ein Gedicht auf Jean Paul) übersandt mit einem langen
+                  Begleitschreiben,<lb/> worin er sich begeistert über die Ästhetik ausspricht, zu
+                  deren Rezensierung<lb/> ihn Jacobi aufgefordert habe (vgl. Zoeppritz 1,343f.), und
+                  ausführlich sein<lb/> Bekanntwerden mit Jean Pauls Schriften und seinen ganzen
+                  religiösen<lb/> und geistigen Entwicklungsgang schildert. Er habe eine Rhapsodie
+                  über<lb/> Jean Pauls Genie und Schriften verfaßt, die er ihm gelegentlich
+                  einmal<lb/> geschrieben oder gedruckt übersenden werde. An seinen Gedichten sei
+                  die<lb/> strenge Vossische Versifikation das einzige Untadelhafte. Er habe sich
+                  darauf</hi>
+               <lb/>
+               <hi rendition="#aq">beschränkt, „nichts mit so anhaltender Sorgfalt zu einem <hi rendition="#g">Kunstwerk</hi> aus<lb rendition="#hyphen"/> zubilden als das <hi rendition="#g">Leben</hi> selbst“. <hi rendition="#b">34</hi>,<hi rendition="#rkd">2</hi> Der Chalkidier <hi rendition="#g">Tynnichos</hi>
+                  hatte<lb/> nach der angeführten Stelle einen herrlichen, allgemein gesungenen
+                  Päan<lb/> gedichtet, sonst aber nur ganz belanglose Gedichte. <hi rendition="#rkd">4</hi> Die peruanische<lb/> Stadt <hi rendition="#g">Quito</hi> war ein
+                  Hauptfundort für Gold. <hi rendition="#rkd">8</hi> Eine satirische <hi rendition="#g">„Idylle<lb/> auf das vornehme Leben“</hi> hatte Jean Paul im
+                  Anhang zum Titan ge<lb rendition="#hyphen"/> geben (I. Abt., VIII, 273—276.) <hi rendition="#rkd">20</hi>f. Charlotte von <hi rendition="#g">Kalb</hi> äußert
+                  sich<lb/> im Brief an J. P. IV. Abt., V, Nr. 45 ziemlich abfällig über Brinckmann.
+                     <hi rendition="#g">Descartes:</hi>
+                  <lb/> s. Bd. VI, Nr. 756, 323,<hi rendition="#rkd">2</hi>f., I. Abt., XII, 343,<hi rendition="#rkd">10</hi>f. — Zu einer Begegnung zwischen<lb/> Jean Paul und
+                  Brinckmann ist es nicht gekommen.</hi>
+            </p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

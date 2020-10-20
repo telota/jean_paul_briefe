@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="V_530">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="531">530. An Christian Otto in Königsberg. </title>
+            <title n="digital">An Christian Otto. Bayreuth, 22. Mai 1808 bis 23. Mai 1808.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=V_530</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/V/V_530</idno>
+               <idno type="TELOTAID">V_530</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
+               <biblScope n="text" unit="page">
+                  <num>216</num>
+                  <num>217</num>
+                  <num>218</num>
+                  <num>219</num>
+                  <num>220</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>354</num>
+                  <num>355</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date corresp="writingSession1" when="1808-05-22">22. Mai 1808</date>
+               <date corresp="writingSession2" when="1808-05-23">23. Mai 1808</date>
+               <placeName key="JP-005574" ref="http://www.geonames.org/2951825">Bayreuth</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-003112" ref="http://d-nb.info/gnd/118590804">
+                  <name type="reg">Otto</name> Christian </persName>
+               <placeName key="JP-005907" ref="http://www.geonames.org/554234">Königsberg</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=V_74-fb">Freitag, den 2.
+                  Dezember 8</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=V_69-fb">Oktober (?) 1808</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <div n="writingSession1">
+               <lb xml:id="V_216-26"/>
+               <dateline>
+                  <hi rendition="#right">
+                     <hi rendition="#aq">
+                        <placeName>Bayreuth</placeName> d. <date>22. Mai 1808</date>
+                     </hi>.</hi>
+               </dateline>
+               <lb xml:id="V_216-27"/>
+               <p>Lieber Otto! Über das Schweigen schweig’ ich. — Morgen<lb xml:id="V_216-28"/> geht
+                  deine Finanzen-Würdigung<note n="**)" place="foot">Der Titel ist, wenn du keinen
+                     nachschickst, über das ..... Finanzwesen.<lb type="ig"/> 3 <hi rendition="#aq">Ld’or</hi> hab’ ich verlangt, weil er mir immer alles bewilligt und weil
+                     jeder Autor<lb type="ig"/> herunter muß mit Fodern.<lb n="35" type="ig"/>
+                  </note> an <hi rendition="#aq">Cotta</hi> ab, die ihres möglichen<note corresp="#V_216-29">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000698">
+                           <persName> Johann Friedrich Freiherr <name type="reg">Cotta von
+                                 Cottendorf</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-009339">
+                           <author>Otto, Christian (Georg Christian) (Pseud. Georgius, Christianus)
+                              (1763-1828), Jurist, einer der engsten Freunde von Jean Paul</author>
+                           <title>Niedersteigende Zeichen Preußens (1808-1812)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="V_216-29"/> Einflußes wegen mir nicht schnell genug erscheinen kann.
+                     Kein<lb n="30" xml:id="V_216-30"/>
+                  <lb type="ig"/> Wort hab’ ich ausgestrichen — ausgenommen 2 Schreibfehler<lb xml:id="V_217-1" rendition="#hyphen"/>buchstaben, Dividente und <hi rendition="#aq">Caracter</hi> —; erstlich gabst du mir kein<lb xml:id="V_217-2"/> Recht dazu, zu Schnitten die oft ja ins organische Leben zu tief<lb xml:id="V_217-3"/> eingreifen; zweitens ists die Frage, ob man für die
+                  Deutschen zu<note corresp="#V_217-4">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0056716">
+                           <placeName>Sprache, Stil; Deutschland, deutsche</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="V_217-4"/> weitläuftig (zu kurz wol) sein kann. Jeden einzelnen Satz
+                  drückst du<lb n="5" xml:id="V_217-5"/> auch meistens mit der <hi rendition="#g">höchsten</hi> Kürze aus; nur — dieß ist dein<lb xml:id="V_217-6"/> Fehler —
+                  bringst du ihn, so wie er dir immer heller wird, immer<lb xml:id="V_217-7"/> mit
+                  den neuen Helligkeiten wieder vor, oft mehrmals. Jedem aber<lb xml:id="V_217-8"/>
+                  muß es so gehen, der es weniger geschickt macht als ich, der ich ins<lb xml:id="V_217-9"/> Schmierbuch alle möglichen Entwicklungen vorher hinwerfe
+                     und<lb n="10" xml:id="V_217-10"/> dann ruhig die beste auslese oder
+                  zusammenpresse, um daran wieder<lb xml:id="V_217-11"/> Welt und Nachwelt zu
+                  entwickeln, oder eigentlich (um bescheidener<lb xml:id="V_217-12"/> zu sein) blos
+                  zu belehren.</p>
+               <lb xml:id="V_217-13"/>
+               <p>— Im Winter hätt’ ich oft gewünscht, du wärest mir auf der<lb xml:id="V_217-14"/>
+                  Gasse oder in der <hi rendition="#aq">Harmonie</hi> aufgestoßen; du hättest dann
+                  auf meiner<note corresp="#V_217-15">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0055741">
+                           <placeName>Harmonie-Gesellschaft; Bayreuth (Stadt)</placeName>
+                        </place>
+                        <place corresp="#JP-00557443">
+                           <placeName>Rollwenzelei; Bayreuth (Stadt)</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="15" xml:id="V_217-15"/> linken Achsel mein festbleibendes Eichhörnchen
+                  gesehen, das nicht<lb xml:id="V_217-16"/> beißt und nicht pißt (denn letzteres
+                  thuts jeden Morgen um 6 Uhr).<lb xml:id="V_217-17"/> Gleichwol halt’ ichs jetzt
+                  für gewagt, daß ich das Thier, da ich<lb xml:id="V_217-18"/> bei <hi rendition="#aq">Dobernek</hi> einen Sohn aus der Taufe hob, in der Tasche
+                     hatte,<note corresp="#V_217-19">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000819">
+                           <persName> Friedrich Ludwig Ferdinand von <name type="reg">Dobeneck</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-000820" ana="†">
+                           <persName> Friedrich Ludwig Ferdinand von <name type="reg">Dobeneck</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="V_217-19"/> in die ich während der Taufrede mehrmals greifen mußte, um
+                  es mit<lb n="20" xml:id="V_217-20"/> dem Schnupftuch einzubauen 〈niederzuhalten〉;
+                  denn während ich<lb xml:id="V_217-21"/> meinen armen leider seeligen Pathen in den
+                  Armen hielt, hätt’<lb xml:id="V_217-22"/> ich durchaus nichts machen können, wenn
+                  das Thier herauf auf meine<lb xml:id="V_217-23"/> Achsel gekrochen wäre,
+                  vielleicht zur allgemeinen Stöhrung des<lb xml:id="V_217-24"/> Taufaktus und
+                  Ernstes. In einem Sack an meinem Kanapee schläft<lb n="25" xml:id="V_217-25"/> das
+                  Hörnchen. —</p>
+               <lb xml:id="V_217-26"/>
+               <p>Meine Friedenspredigt (mit unzähligen Druckfehlern) sagt dir<note corresp="#V_217-27">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010713">
+                           <title>Friedens-Predigt an Deutschland (1808)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="V_217-27"/> einige Bekehrungen in mir von <hi rendition="#aq">Buchholz.</hi> Und doch hat mich die<note corresp="#V_217-28">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000528" ana="†">
+                           <persName> Friedrich <name type="reg">Buchholz</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="V_217-28"/> Zensur wenn nicht entmannt 〈verschnitten〉, doch
+                  beschnitten zwei<lb xml:id="V_217-29" rendition="#hyphen"/>mal. Es ist jetzt eine
+                  verdammte Zeit für einen, der über sie lachen<lb n="30" xml:id="V_217-30"/> will.
+                  „Die Beichte des Teufels bei einem Staatsmanne“ absolvierte<note corresp="#V_217-31">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010516">
+                           <title>Beichte des Teufels bei einem Staatsmanne (1809)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="V_217-31"/> der Zensor des Morgenblatts nicht; doch kommt sie jetzt
+                  mit des<note corresp="#V_217-32">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-010313">
+                           <author/>
+                           <title>Morgenblatt für gebildete Stände (1807ff.)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="V_217-32"/> Feldpredigers <hi rendition="#aq">Attila Schmelzle</hi>
+                  Reise nach <hi rendition="#aq">Flätz</hi> heraus, vielleicht<note corresp="#V_217-33">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010627">
+                           <title>Des Feldpredigers Schmelzle Reise nach Flätz (1809)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="V_217-33"/> mein
+                     ausgearbeite<metamark>[</metamark>t<metamark>]</metamark>ster
+                     regelrichti<metamark>[</metamark>g<metamark>]</metamark>ster Spaß ohne die
+                     geringste<lb xml:id="V_217-34"/> Ausschweifung oder Selbsteinmischung; man
+                  müßte denn — und<lb n="35" xml:id="V_217-35"/> man hätte Recht — die unten auf <hi rendition="#g">jeder</hi> Seite stehenden Noten<lb xml:id="V_217-36"/> (bloße
+                  Einfälle ohne allen Text-Bezug) dafür halten wollen.<lb xml:id="V_217-37"/>
+                  Michaelis kommen 2 Bändchen vermischte (alte und neue) Schriften;<note corresp="#V_218-1">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010574">
+                           <title>D. Katzenbergers Badereise (1809)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="V_218-1"/> die Badreise eines <hi rendition="#aq">D.</hi>
+                  Katzenbergers soll in dir den kleinen Sprech<lb xml:id="V_218-2" rendition="#hyphen"/>Zynismus deines alten Freundes, der so oft mit dir über
+                  den Ekel<lb xml:id="V_218-3"/> scherzte, etwas wieder (hoff’ ich) auffrischen.
+                  Wahrscheinlich kommt<lb xml:id="V_218-4"/> auch Michaelis mein <hi rendition="#aq">Fibel</hi> heraus; nämlich die Biographie eines<note corresp="#V_218-5">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010807">
+                           <title>Leben Fibels (1812)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb n="5" xml:id="V_218-5"/> gewissen <hi rendition="#aq">Fibels,</hi> der das
+                  fränkisch-sächsische Abcbuch gemacht, das<note corresp="#V_218-6">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0057390">
+                           <placeName>Franken; Franken</placeName>
+                        </place>
+                        <place corresp="#JP-006224">
+                           <placeName>Sachsen, Kursachsen, sächsisch</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="V_218-6"/> mit den Kupfern und Versen: „ein Affe gar poßierlich ist
+                  etc.“ —<lb xml:id="V_218-7"/> voran, ausgegeben wird. Eine Satire auf die
+                     Lebensbeschreiber<lb xml:id="V_218-8"/>
+                  <hi rendition="#aq">Kants</hi> u. a. Ohne den Krieg wäre meine <hi rendition="#aq">Levana</hi> gewiß schon<note corresp="#V_218-9">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002024">
+                           <persName> Immanuel <name type="reg">Kant</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010811">
+                           <title>Levana (1807)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="V_218-9"/> wieder aufgelegt geworden; auch hab’ ich mir bei ihr wie
+                  bei <metamark>[</metamark>der<metamark>]</metamark>
+                  <lb n="10" xml:id="V_218-10"/>
+                  <hi rendition="#aq">Vorschule</hi> die Nachzahlung des 6<hi rendition="#sup">ten</hi>
+                  <hi rendition="#aq">Ld’or</hi> bedungen; und von<note corresp="#V_218-11">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010970">
+                           <title>Vorschule der Aesthetik (1804)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="V_218-11"/>
+                  <hi rendition="#aq">Perthes</hi> hab’ ich diese auch schon bekommen. Sonderbar!
+                  bei keinem<note corresp="#V_218-12">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003188">
+                           <persName> Friedrich Christoph <name type="reg">Perthes</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003190">
+                           <persName> Johannes <name type="reg">Perthes</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="V_218-12"/> Buche fürchtete ich mehr das Urtheil und Schicksal als bei
+                     dieser<lb xml:id="V_218-13"/>
+                  <hi rendition="#aq">Levana;</hi> so wie ich eben so hoffte das des <hi rendition="#aq">Titans.</hi> Aber so über<note corresp="#V_218-14">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010897">
+                           <title>Titan (1800-1803)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="V_218-14" rendition="#hyphen"/>rascht immer das Publikum, wenigstens
+                  unangenehm. — In der<lb n="15" xml:id="V_218-15"/>
+                  <hi rendition="#aq">Heidelberger
+                        L<metamark>[</metamark>iteratur<metamark>]</metamark> Zeitung</hi> helf’ ich
+                  sehr mit rezensieren;<note corresp="#V_218-16">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-010265">
+                           <author/>
+                           <title>Heidelbergische Jahrbücher der Literatur (1808ff.)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="V_218-16"/> und ich werde überhaupt stark gesucht. Jetzt sollte Geld
+                  unter den<lb xml:id="V_218-17"/> Leuten sein; ich bekäme vieles davon.</p>
+               <lb xml:id="V_218-18"/>
+               <p>Mein Inneres übrigens ist jetzt starr, trocken, kalt; der Frühling<lb xml:id="V_218-19"/> und alle seine Sternenhimmel haben mir nichts an; ich
+                  bleibe starr<lb n="20" xml:id="V_218-20" rendition="#hyphen"/> kalt, bis das große
+                  Welt-〈Europa’s-〉 Spiel gewonnen ist. Dieß<note corresp="#V_218-21">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005728">
+                           <placeName>Europa</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="V_218-21"/> hält mich indeß nicht ab — denn es spornt mich an —, zum
+                     All<lb xml:id="V_218-22" rendition="#hyphen"/>Besten mit Einzel-Kräften feurig
+                  mit zu wirken. Welchen die Zeit<lb xml:id="V_218-23"/> niederschlägt, der richte
+                  zuerst diese wieder auf und dann sich mit;<lb xml:id="V_218-24"/> wenn die
+                  Vielheit der Teufel etwas vermag, so noch mehr die der<lb n="25" xml:id="V_218-25"/> Engel; noch mehr, sag’ ich; denn die menschliche Natur gibt 10 Engeln<lb xml:id="V_218-26"/> das Übergewicht über 100 Teufel.<note n="*)" place="foot">Denn wäre dieß nicht: so wäre bei der Überzahl der Schwachen und Dummen<lb n="35" type="ig"/> und Schlimmen längst die Menschheit eingesunken anstatt
+                     gestiegen.</note>
+               </p>
+               <lb xml:id="V_218-27"/>
+               <p>Was werden wir einmal einander — eigentlich du — auf und ab<lb xml:id="V_218-28" rendition="#hyphen"/> gehend und zu unmäßig dabei trinkend, nicht zu sagen
+                  haben? Du<lb xml:id="V_218-29"/> kannst jetzt — und wenn du deinen halben Kopf zu
+                  Hause lässest —<lb n="30" xml:id="V_218-30"/> überall den beliebtesten
+                  aufgewecktesten Gesellschafter spielen blos<lb xml:id="V_218-31"/> durch Erzählen.
+                  Ich werde wie ein nasser begoßner Hund dabei<lb xml:id="V_218-32"/> stehen und
+                  tropfen. — Dein schönes Glück hat mich nur erfreuet,<lb xml:id="V_218-33"/> aber
+                  gar nicht überrascht; und hättest du etwas von meinem kecken<lb xml:id="V_218-34"/> Eingreifen ins Leben, du hättest jenes früher haben können. Ich bin<lb xml:id="V_219-1"/> begierig, ob du nicht, wenn du kommst, als Weltmann mir
+                     ähnlicher<lb xml:id="V_219-2"/> geworden erscheinst; ich sollt es aber denken,
+                  da dich die vornehmsten<lb xml:id="V_219-3"/> Personen kühner hinaufgebildet.</p>
+               <lb xml:id="V_219-4"/>
+               <p>Herzlich freu’ ich mich auf deine künftige Freude an meinen drei<lb n="5" xml:id="V_219-5"/> durchaus unähnlichen, aber unverdorben aufknospenden
+                     Kindern;<note corresp="#V_219-6">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003483">
+                           <persName> Johann Paul Friedrich <name type="reg">Richter</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="V_219-6"/> und es wäre mir schwer, deine Auswahl zu weissagen. Ach
+                     wärest<lb xml:id="V_219-7"/> du nur da! — Und doch kann ich nichts wünschen,
+                  als was dein<lb xml:id="V_219-8"/> künftiges Glück <hi rendition="#g">ausb</hi>auet. Laß ja in diesen entwaffnenden Zeiten<lb xml:id="V_219-9"/> Griff
+                  und Heft nicht fahren, sobald du einmal die Faust darin hast<lb n="10" xml:id="V_219-10"/> wie jetzt! Auf Große verlass’ ich mich keine Minute länger
+                  als meine<lb xml:id="V_219-11"/> Gegenwart dauert; eine schwache Allmacht, da man
+                  so oft zur<lb xml:id="V_219-12"/> Thüre hinaus und fort muß, und wär’s nur, um das
+                  zu pissen, was<lb xml:id="V_219-13"/> man drinnen getrunken.</p>
+               <lb xml:id="V_219-14"/>
+               <p>Ein Koffer voll Briefe an mich wartet auf dich; auch von deinen<lb n="15" xml:id="V_219-15"/> hieher hab’ ich gehört, sie selber aber nicht; die
+                  schlechtesten Christen<note corresp="#V_219-16">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000629">
+                           <persName>
+                              <name type="reg">Christen</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="V_219-16"/> wissen jetzt mehr aus den Briefen der Apostel als ich und
+                     <hi rendition="#aq">Emanuel</hi>
+                  <note corresp="#V_219-17">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003087">
+                           <persName> Emanuel <name type="reg">Osmund</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-008038">
+                           <author>Apostel, Jünger</author>
+                           <title>Briefe</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="V_219-17"/> aus deinen. Und doch ist <hi rendition="#aq">Amöne</hi>
+                  vielleicht weiter und kecker zu<note corresp="#V_219-18">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003108">
+                           <persName> Amöne (Pseud. Amalie von Obyrn) <name type="reg">Otto</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="V_219-18"/> Werk gegangen als du gewünscht; hundert Menschen, nicht
+                     blos<lb xml:id="V_219-19"/> hier, schon unterwegs durften jedes Wort von dir
+                  lesen, das du auf<lb n="20" xml:id="V_219-20"/> den — Umschlag geschrieben. Auch
+                  außen solltest du dir gleich bleiben<lb xml:id="V_219-21"/> und nicht für alle
+                  Welt schreiben.</p>
+               <lb xml:id="V_219-22"/>
+            </div>
+            <div n="writingSession2">
+               <dateline>
+                  <hi rendition="#right">23 M<metamark>[</metamark>ai<metamark>]</metamark>
+                  </hi>
+               </dateline>
+               <lb xml:id="V_219-23"/>
+               <head>
+                  <hi rendition="#g">Nachschrift</hi>
+               </head>
+               <lb xml:id="V_219-24"/>
+               <p>Was half Groß-Quart? Ich habe doch nicht Platz genug für<lb n="25" xml:id="V_219-25"/> meine Worte; — den hat blos der Bogengang in der
+                     Eremitage.<note corresp="#V_219-26">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-00557419" ana="†">
+                           <placeName>Eremitage (Hermitage), Schloss und Park; Bayreuth
+                              (Stadt)</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="V_219-26"/> Ich beneide dich um dein durchgearbeitetes Stück Leben
+                  (nur den<lb xml:id="V_219-27"/> Flucht-Anfang ausgenommen); wie ideen- und
+                  kräfte-arm sind<lb xml:id="V_219-28"/> dagegen 10 Stuben-Jahre! In deinem
+                  Schicksale ist etwas — fast<lb xml:id="V_219-29"/> wie in meinem —; nämlich ein
+                  wachsendes Erhöhen und Vertiefen;<lb n="30" xml:id="V_219-30"/> aber jede Tiefe
+                  ist kleiner als die vorige, und folglich steigt die Er<lb xml:id="V_219-31" rendition="#hyphen"/> höhung. Dieser Krieg sollte dir viel Vertrauen auf einen
+                     freundlichen<lb xml:id="V_219-32"/> Genius deines Lebens geben. —</p>
+               <lb xml:id="V_219-33"/>
+               <p>Erkundige dich doch recht nach <hi rendition="#aq">Hamann</hi> und schreibe von
+                     ihm.<note corresp="#V_219-34">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001508">
+                           <persName> Johann Georg <name type="reg">Hamann</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="V_219-34"/> Du könntest gerade zu zu seinem natürlichen Sohne gehen
+                  und ihn<note corresp="#V_219-35">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001509">
+                           <persName> Johann Michael <name type="reg">Hamann</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="35" xml:id="V_219-35"/> von mir grüßen und fragen, wenn einmal
+                     diese<metamark>[</metamark>s<metamark>]</metamark> grüne Gewölbe<note corresp="#V_219-36">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-00568715">
+                           <placeName>Grünes Gewölbe; Dresden</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="V_219-36"/> des Geistes dem Publikum aufgethan wird; ich meine die
+                     Sammlung<note corresp="#V_220-1">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001508">
+                           <persName> Johann Georg <name type="reg">Hamann</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="V_220-1"/> seiner <hi rendition="#aq">opera.</hi>
+               </p>
+               <lb xml:id="V_220-2"/>
+               <p>Ich will mich auf nichts mehr besinnen; damit ich aufhöre. —<lb xml:id="V_220-3"/>
+                  Liesest du das Morgenblatt?</p>
+               <note corresp="#V_220-4">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010313">
+                        <author/>
+                        <title>Morgenblatt für gebildete Stände (1807ff.)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="V_220-4"/>
+               <p>Meine Frau grüßt dich herzlich — und ich auch; und wünsche<note corresp="#V_220-5">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003469">
+                           <persName> Caroline <name type="reg">Richter</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="5" xml:id="V_220-5"/> dir Freude als Balsam und als Nahrung.</p>
+               <lb xml:id="V_220-6"/>
+               <closer>
+                  <salute>
+                     <hi rendition="#right">R. <lb xml:id="V_220-7"/>
+                     </hi>
+                  </salute>
+               </closer>
+            </div>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Goethe- u. Schiller-Archiv, Weimar. 4 S. 4°; die
+                  Nachschrift: Berlin JP,<lb/> 1¾ S. 8°. <hi rendition="#i">K</hi> (nach Nr. 532):
+                     <hi rendition="#i">Otto</hi>
+               </hi> 22 Mai. <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>: Otto 4,188×. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>: Wahr<lb rendition="#hyphen"/> heit 7,113×. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">3</hi>: Nerrlich Nr. 109×. <hi rendition="#i">B</hi>: IV.
+                  Abt., V, Nr. 118. <hi rendition="#b">216</hi>,<hi rendition="#rkd">30</hi>f.</hi>
+               Kein Wort]<lb/>
+               <hi rendition="#aq">aus</hi> Keine Zeile <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">217</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">7</hi>
+               </hi> heller] <hi rendition="#aq">aus</hi> deutlicher <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">11</hi> oder zusammenpresse]<lb/>
+               <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">12</hi> bescheidener] <hi rendition="#aq">aus</hi> nicht
+               unbescheiden <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">16</hi> festbleibendes] <hi rendition="#aq">aus</hi>
+               <lb/> festsitzendes <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">17</hi> letzteres] <hi rendition="#aq">aus</hi> es <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+                  <hi rendition="#rkd">29</hi>f.</hi> zweimal] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">218</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">22</hi>
+               </hi> hält ...<lb/> ab] <hi rendition="#aq">aus</hi> hindert ... <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi> zum] <hi rendition="#aq">danach gestr.</hi> großen <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">23</hi> Welchen] <hi rendition="#aq">aus</hi> Wen <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">24</hi> zuerst diese] <hi rendition="#aq">aus</hi> eben sie <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">25</hi> Vielheit] <hi rendition="#aq">aus</hi> Menge <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">30</hi> lässest] <hi rendition="#aq">aus</hi>
+               <lb/> läßt <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">31</hi> den <hi rendition="#aq">bis</hi> spielen] der
+               aufgeweckteste Gesellschafter sein <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>, so auch<lb/> erst <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">219</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">1</hi>
+               </hi> früher] <hi rendition="#aq">aus</hi> eher <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">2</hi> als Weltmann] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">6</hi> unver<lb rendition="#hyphen"/> dorben] <hi rendition="#aq">aus</hi> engelrein <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">9</hi> entwaffnenden] <hi rendition="#aq">aus</hi> entwaffneten
+                  <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">14</hi> drinnen<lb/> getrunken] <hi rendition="#aq">aus</hi>
+               getrunken bei ihnen <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">17</hi> aus] <hi rendition="#aq">aus</hi> von <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+                  <hi rendition="#rkd">18</hi>f.</hi> zu Werk]<lb/>
+               <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">21</hi> außen] <hi rendition="#aq">aus</hi> hier <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi> gleich] <hi rendition="#aq">davor gestr.</hi> mehr <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">26</hi> den hat<lb/> blos] <hi rendition="#aq">aus</hi> Dazu
+               gehört <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">28</hi> sind] <hi rendition="#aq">aus</hi> wären <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">30</hi> Erhöhen] <hi rendition="#aq">aus</hi> Erheben <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">32</hi> Vertrauen] <hi rendition="#aq">aus</hi> Zuversicht <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">36</hi> dieses] das <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">220</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">1</hi>
+               </hi> die Sammlung]<lb/>
+               <hi rendition="#aq">davor gestr.</hi> Herausgabe <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Otto hatte sich in dem Brief an Emanuel (s. Nr. 521†) über Jean
+                  Pauls<lb/> Schweigen bitter beklagt. <hi rendition="#b">217</hi>,<hi rendition="#rkd">5–13</hi> Vgl. Bd. II, 119,<hi rendition="#rkd">5</hi>–<hi rendition="#rkd">11</hi> u. VI, 32,<hi rendition="#rkd">31</hi>–33,<hi rendition="#rkd">4</hi>.<lb/>
+                  <hi rendition="#rkd">22</hi> Das Patenkind war am 16. März 1808 gestorben. <hi rendition="#rkd">28</hi> Der Publizist</hi>
+               <lb/>
+               <hi rendition="#aq">Friedrich <hi rendition="#g">Buchholz</hi> war sehr
+                  napoleonfreundlich und englandfeindlich<lb/> eingestellt; vgl. <hi rendition="#b">239</hi>,<hi rendition="#rkd">3</hi>. <hi rendition="#rkd">29</hi>
+                  <hi rendition="#g">Zensur:</hi> s. die Lücken I. Abt., XIV, 23,<hi rendition="#rkd">22</hi> u.<lb/> 36,<hi rendition="#rkd">18</hi>. <hi rendition="#b">218</hi>,<hi rendition="#rkd">3</hi>
+                  <hi rendition="#g">Ekel:</hi> vgl. Bd. III, Nr. 288, 208,<hi rendition="#rkd">1</hi>. <hi rendition="#rkd">8</hi>f. <hi rendition="#g">Lebensbeschreiber<lb/> Kants:</hi> s. I. Abt., XIII, Einl. S. LXXXIX. <hi rendition="#rkd">25</hi>ff. Lieblingsgedanke,<lb/> vgl. Bd. II, Nr. 127, 93,<hi rendition="#rkd">9–12</hi>, I. Abt., XIV, 50,<hi rendition="#rkd">1</hi>ff.,
+                  XVII, 40,<hi rendition="#rkd">17</hi>ff., 438,<hi rendition="#rkd">30</hi>ff. <hi rendition="#b">219</hi>,<hi rendition="#rkd">26</hi>
+                  <lb/>
+                  <hi rendition="#g">Bogengang in der Eremitage:</hi> ein noch heute vorhandener
+                     Lauben<lb rendition="#hyphen"/> gang im Park, in dem Jean Paul mit seinen
+                  Freunden diskurrierend auf<lb/> und ab zu gehen pflegte. <hi rendition="#rkd">35</hi>
+                  <hi rendition="#g">Hamanns natürlicher Sohn:</hi> vgl. Bd.<lb/> VI, Nr. 660,
+                     286,<hi rendition="#rkd">10</hi>f. <hi rendition="#b">220</hi>,<hi rendition="#rkd">1</hi>f. <hi rendition="#g">Sammlung seiner opera:</hi> vgl.
+                  Bd. VI, Nr. 629, 258,<hi rendition="#rkd">21</hi>ff.†,<lb/> VII, Nr.</hi>
+               <hi rendition="#aq">326†.</hi>
+            </p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

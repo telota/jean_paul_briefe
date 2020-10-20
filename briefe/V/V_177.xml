@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="V_177">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="178">177. An Jacobi in München. </title>
+            <title n="digital">An Friedrich Heinrich Jacobi. Bayreuth, 17. Dezember 1805.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=V_177</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/V/V_177</idno>
+               <idno type="TELOTAID">V_177</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
+               <biblScope n="text" unit="page">
+                  <num>70</num>
+                  <num>71</num>
+                  <num>72</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>293</num>
+                  <num>294</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+            <listPerson type="commentary">
+               <person corresp="#JP-001358">
+                  <persName> Caroline <name type="reg">Goldschmidt</name>
+                  </persName>
+               </person>
+               <person corresp="#JP-001857">
+                  <persName> Christoph Wilhelm <name type="reg">Hufeland</name>
+                  </persName>
+               </person>
+            </listPerson>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1805-12-17">17. Dezember 1805</date>
+               <placeName key="JP-005574" ref="http://www.geonames.org/2951825">Bayreuth</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-001909" ref="http://d-nb.info/gnd/118556312">
+                  <name type="reg">Jacobi</name> Friedrich Heinrich</persName>
+               <placeName key="JP-006040" ref="http://www.geonames.org/2867714">München</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=V_101">15. April 1805 bis 4.
+                  Mai 1805</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=V_199">21. Januar 1806 bis 6.
+                  März 1806</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <dateline>
+               <hi rendition="#right">
+                  <hi rendition="#aq">
+                     <placeName>Bayreuth</placeName> d. <date>17 Dec. 1805</date>
+                  </hi>
+               </hi>
+            </dateline>
+            <p>Lieber Heinrich! Ich bin dir wider meine und für deine Weise<lb xml:id="V_70-17"/>
+               sehr lange eine Antwort auf dein vorletztes Schreiben aus Dresden,<note corresp="#V_70-18">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005687">
+                        <placeName>Dresden</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="V_70-18"/> worin du mir ein letztes aus Weimar versprochen, schuldig
+                  geblieben.<note corresp="#V_70-19">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006395">
+                        <placeName>Weimar</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="V_70-19"/> Noch dazu hatt’ ich mir dich selber versprochen. Jetzt thät’
+               ich letzteres<lb n="20" xml:id="V_70-20"/> freilich weniger, wohnt’ ich sogar auf
+               einem Meierhofe unweit<lb xml:id="V_70-21"/> München. Aber dieß nimmt mir immer nicht
+               die Hoffnung, dich zu<note corresp="#V_70-22">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006040">
+                        <placeName>München</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="V_70-22"/> sehen, wenn ich — selber komme im Frühling. Gott weiß,
+                  welche<lb xml:id="V_70-23"/> Wolken den Weg und die Zeit dahin überdecken werden;
+               — doch<lb xml:id="V_70-24"/> fürcht’ ich wenige; das Elend sucht jetzt mehr im Raum
+               als in der<lb n="25" xml:id="V_70-25"/> Zeit sich auszudehnen.</p>
+            <lb xml:id="V_70-26"/>
+            <p>Ich konnte — wenigstens anfangs des Kriegs und deiner An<lb xml:id="V_70-27" rendition="#hyphen"/> kunft — keine Zeitung lesen, ohne deine Lage zu berechnen
+               und dein<lb xml:id="V_70-28"/> Himmelslicht hinter dem Pulverdampf. Vielleicht
+               ersetzt dir —<lb xml:id="V_70-29"/> wie du wol besser wissen als ich ahnen kann — <hi rendition="#g">eine ganz neue</hi>
+               <lb n="30" xml:id="V_70-30"/> Zeit den Verlust der alten.</p>
+            <lb xml:id="V_70-31"/>
+            <p>Wer dich nur gesehen, den fragt’ ich, z. B. v. Knebel, Langer<note corresp="#V_70-32">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002149">
+                        <persName> Karl Ludwig von <name type="reg">Knebel</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-002357">
+                        <persName> Johann Gottfried <name type="reg">Langermann</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="V_70-32" rendition="#hyphen"/> mann. Über Göthe schreib mir etwas.
+               Langermann malt dich zu<note corresp="#V_70-33">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001353">
+                        <persName> Johann Wolfgang von <name type="reg">Goethe</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="V_70-33"/> meiner Freude sehr gesund und zu deinem Verdruß; denn du
+                  unter<lb xml:id="V_71-1" rendition="#hyphen"/>schreibst dich wie Voltaire gern als
+               den alten Kranken. Sei aber nur<note corresp="#V_71-2">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004505">
+                        <persName> (François Marie Arouet) <name type="reg">Voltaire</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="V_71-2"/> wie er lange genug krank, ein halbes Säkul hindurch!</p>
+            <lb xml:id="V_71-3"/>
+            <p>Neulich hätt’ ich beinahe aus zu großer Liebe für dich auf der<lb xml:id="V_71-4"/>
+               Stelle an dich geschrieben, als ein Fuhrmann zu mir kam und sich<lb n="5" xml:id="V_71-5"/> den Vater eines Sohnes nannte, der schon so lange bei dir in
+                  Diensten<lb xml:id="V_71-6"/> steht. Er hatte doch einiges aus der nächsten Quelle
+               geschöpft, für die<lb xml:id="V_71-7"/> er selber die erste war. Da ich aber so lange
+               wartete, bis er mir die<lb xml:id="V_71-8"/> versprochne Einlage an seinen Sohn
+               einhändigte: so schrieb ich<lb xml:id="V_71-9"/> freilich — da er noch nicht
+               wiedergekommen — erst heute.<lb n="10" xml:id="V_71-10"/>
+            </p>
+            <p>Du alter Weltmann und Weltweiser, du warst im Stande, in<lb xml:id="V_71-11"/> der
+               rohen krustigen erdscholligen Aussenseite (nämlich der mora<lb xml:id="V_71-12" rendition="#hyphen"/>lischen, nicht der bloßen körperlichen) doch die schöne, auch
+                  von<lb xml:id="V_71-13"/>
+               <hi rendition="#aq">Herder</hi> und <hi rendition="#aq">Goethe</hi> so geachtete
+               Oreade zu verkennen, die im Berge<note corresp="#V_71-14">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001353">
+                        <persName> Johann Wolfgang von <name type="reg">Goethe</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-001675">
+                        <persName> Johann Gottfried von <name type="reg">Herder</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="V_71-14"/> wohnt, genannt Fr. <hi rendition="#aq">v. Kalb?</hi> Und die
+               sehr schön hingezogne Mittel<note corresp="#V_71-15">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002007" ana="†">
+                        <persName> Charlotte von <name type="reg">Kalb</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006028">
+                        <placeName>Mittelmark</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb n="15" xml:id="V_71-15" rendition="#hyphen"/> Marks-Ebene, <hi rendition="#aq">Mde Herz,</hi> diese kalte Musaik zufälliger Urtheile,<note corresp="#V_71-16">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001728" ana="†">
+                        <persName> Henriette <name type="reg">Herz</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="V_71-16"/> über jene zu setzen? — Ich wurde zwar von ihr in Berlin sehr
+                  ge<note corresp="#V_71-17">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005586">
+                        <placeName>Berlin</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="V_71-17" rendition="#hyphen"/> sucht; aber ich (Unverheiratheter) wäre
+               nicht einmal fähig gewesen,<lb xml:id="V_71-18"/> sie sinnlich zu lieben, geschweige
+               anders. Gutmüthig ist sie aber sehr;<lb xml:id="V_71-19"/> und für Künstler-Augen —
+               z. B. meiner Frau — ist ihr Kopf fast<note corresp="#V_71-20">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003469">
+                        <persName> Caroline <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="20" xml:id="V_71-20"/> nach der Antike ausgearbeitet. Kurz ich könnte bei ihr
+                  höchstens<lb xml:id="V_71-21"/> wachen, nie — träumen.</p>
+            <lb xml:id="V_71-22"/>
+            <p>Über theoretische Philosophie zu schreiben ist jetzt auf der kriegs<lb xml:id="V_71-23" rendition="#hyphen"/>schwankenden Erde keine Möglichkeit; man
+               dankt Gott für ein Stück<lb xml:id="V_71-24"/> praktischer und lustiger. Indeß
+               begehr’ ich ein noch größeres, und du<lb n="25" xml:id="V_71-25"/> sollst meine Bitte
+               um den Weg dazu erhören helfen. Ich sitze nämlich<lb xml:id="V_71-26"/> hier mitten
+               im Glanze der Natur, am Vorstadts Pol, an der Haupt<note corresp="#V_71-27">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-00557417">
+                        <placeName>Dürschnitz (Durschnitz), Vorstadt; Bayreuth (Stadt)</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="V_71-27" rendition="#hyphen"/> strasse aus dem Baierschen. Wird nun
+               wieder Krieg — wogegen<note corresp="#V_71-28">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005569">
+                        <placeName>Bayern </placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="V_71-28"/> freilich nicht nur meine Berechnung, sondern auch ein
+                  Lebens-Aber<lb xml:id="V_71-29" rendition="#hyphen"/>glaube spricht, den ich dir
+               einmal entdecken will — so kann mir der<lb n="30" xml:id="V_71-30"/> Natur <hi rendition="#g">glanz</hi> um vieles verdeckt werden durch einen ganz andern,<lb xml:id="V_71-31"/> der mich wahrhaft stören würde, wenn er aufs Papier fiele, auf
+                  das<lb xml:id="V_71-32"/> ich mein neuestes Werk „J. P. Erziehungslehre“ schreibe.
+               Kurz ich<note corresp="#V_71-33">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010811">
+                        <title>Levana (1807)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="V_71-33"/> wollte nämlich in sochem Fall an den Churfürsten — dem oder
+                  dessen<note corresp="#V_71-34">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002694">
+                        <persName>
+                           <name type="reg">Maximilian IV. Joseph</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="V_71-34"/> nächstem Hofe doch mein Name bekannt ist — mich mit der Bitte
+                  um<lb n="35" xml:id="V_71-35"/> Einen Protektor, Paraklet und Schirmvogt (Ein
+               Infanterist sei es)<lb xml:id="V_71-36"/> wenden, der mich gegen zwei Alliierte
+               schützte; und an dich mit<note corresp="#V_71-37">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005569">
+                        <placeName>Bayern </placeName>
+                     </place>
+                     <place corresp="#JP-00574610">
+                        <placeName>Politik, Krieg, Militär; Frankreich, französisch</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="V_71-37"/> der Bitte um die rechte Übergabe, sogar um die in Baiern
+                  übliche<note corresp="#V_72-1">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005569">
+                        <placeName>Bayern </placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="V_72-1"/>
+               <hi rendition="#aq">Courtoisie.</hi> In jedem Falle erwart’ ich also deinen Brief,
+                  wenn<lb xml:id="V_72-2"/> nicht <hi rendition="#g">vor,</hi> doch <hi rendition="#g">mit</hi> dem Kriege; folglich Gegengift mit Gift. —</p>
+            <lb xml:id="V_72-3"/>
+            <p>Meine Erziehungslehre wird mir schwer, da ich weder in den<note corresp="#V_72-4">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010811">
+                        <title>Levana (1807)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="V_72-4"/> aufsteigenden noch niedersteigenden 〈Humor〉 Enthusiasmus
+                  darin<lb n="5" xml:id="V_72-5"/> gerathen darf, sondern in der Mitte der Ruhe und
+               ewiger Sentenzen<lb xml:id="V_72-6"/> bleiben muß.</p>
+            <lb xml:id="V_72-7"/>
+            <p>Über die Vorschule — das Freiheitsbüchlein etc. wünscht’ ich wol<note corresp="#V_72-8">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010712">
+                        <title>Freiheits-Büchlein (1805)</title>
+                     </bibl>
+                     <bibl corresp="#JP-010970">
+                        <title>Vorschule der Aesthetik (1804)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="V_72-8"/> dein Wort — hier hör’ ich nicht einmal ein mattes, geschweige
+                  ein<lb xml:id="V_72-9"/> heißes.<lb n="10" xml:id="V_72-10"/>
+            </p>
+            <p>O wie wirft sich die Zeit durcheinander, Heinrich! Und immer<lb xml:id="V_72-11"/>
+               bereitet ein Chaos nur ein neues vor! Wahrlich nur die Buchläden<lb xml:id="V_72-12"/> sind die Kasematten der Zeit; über den chaotischen Wassern schwebt<lb xml:id="V_72-13"/> der gedruckte Geist. Ohne Bücher wäre die verdorbne Welt —
+                  die<lb xml:id="V_72-14"/> sich nicht immerfort, wie sonst, mit Völker-Quellen aus
+               Norden er<lb n="15" xml:id="V_72-15" rendition="#hyphen"/> frischen kann und die
+               zuletzt keine andern Natur-Wilden zur Lehre<lb xml:id="V_72-16"/> und Wehre mehr
+               haben wird als die sie selber erzeugt unter dem<lb xml:id="V_72-17"/> Namen Kinder —
+               zugleich eine verlorne Welt; eine gerichtete ohne<lb xml:id="V_72-18"/>
+               Auferstehung.</p>
+            <lb xml:id="V_72-19"/>
+            <p>Aber <hi rendition="#g">Licht</hi> wird zuletzt alles besiegen, nicht nur das <hi rendition="#g">Feuer.</hi>
+               <lb n="20" xml:id="V_72-20"/>
+            </p>
+            <p>Was wäre nicht zu sagen, oder gar zu hören, Lieber, wenn ich<lb xml:id="V_72-21"/> an
+               deinem Tische säße, oder du an meinem?</p>
+            <lb xml:id="V_72-22"/>
+            <p>Sage nur du jetzt etwas schnell, damit ich vergesse, daß du mir<lb xml:id="V_72-23"/>
+               Pol-Geiste vorüber gegangen, wie ein Venus-Durchgang, nur am<lb xml:id="V_72-24"/>
+               Aequator ersichtlich. Schreibe!<lb n="25" xml:id="V_72-25"/>
+            </p>
+            <p>Ich grüße dich und deine <metamark>[</metamark>Schwestern<metamark>]</metamark> mit
+               herzlicher Liebe!</p>
+            <note corresp="#V_72-26">
+               <listPerson type="lineReference">
+                  <person corresp="#JP-001906">
+                     <persName> Charlotte und Helene <name type="reg">Jacobi</name>
+                     </persName>
+                  </person>
+               </listPerson>
+            </note>
+            <lb xml:id="V_72-26"/>
+            <closer>
+               <salute>
+                  <hi rendition="#right">J. P. F. Richter</hi>
+                  <lb xml:id="V_72-27"/>
+               </salute>
+            </closer>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Berlin JP. 7½ S. 8°. Präsentat: e. d. 22ten. b. — 19ten
+                  Jan. 1806.<lb/> Einige Stellen von Jacobi rot unterstrichen. <hi rendition="#i">K</hi>: <hi rendition="#i">Jacobi d. 18</hi>[!] <hi rendition="#i">Dec.</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>: Wahrheit 7,77×. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>: Roth Nr. 302×. *<hi rendition="#i">J</hi>
+                  <hi rendition="#sup">3</hi>: Jean Pauls Sämtl.<lb/> Werke, 2. Aufl., Bd. 29, S.
+                  334. <hi rendition="#i">A</hi>: IV. Abt., V, Nr.</hi>
+               <hi rendition="#aq">75. </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">70</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">20</hi>
+               </hi> ich letzteres] <hi rendition="#aq">aus</hi> ichs <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">21</hi> wohnt’ ich sogar] <hi rendition="#aq">aus</hi> und
+               wohnt’ ich <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi> unweit] bei <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">25</hi> weniger <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <lb/> Raum] <hi rendition="#aq">davor nachtr. gestr.</hi> Ort <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi> in der Zeit] <hi rendition="#aq">aus</hi> im Zeitraum <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">26</hi> aus<lb rendition="#hyphen"/> zudehnen] auszubreiten <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">29</hi> Himmelslicht] <hi rendition="#aq">aus</hi> Licht <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">71</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">2</hi>
+               </hi> .Sei aber]<lb/>
+               <hi rendition="#aq">aus</hi> ‚und sei <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">3</hi> lange genug] <hi rendition="#aq">aus</hi> recht lange
+               noch <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>, recht lange <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">8</hi> erste]<lb/>
+               <hi rendition="#aq">aus</hi> nähere <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">12</hi> erdscholligen] <hi rendition="#aq">aus</hi> scholligen
+                  <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">15</hi> schön hingezogne] <hi rendition="#aq">aus</hi>
+               <lb/> eben zugeschnittene <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">16</hi> kalte] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">21</hi> bei ihr] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">23</hi> theoreti<lb rendition="#hyphen"/> sche] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">32</hi> auf <hi rendition="#aq">bis</hi> 33 Werk] <hi rendition="#aq">aus</hi> in meinem neuesten Werke <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">36</hi> In<lb rendition="#hyphen"/> fanterist] <hi rendition="#aq">aus</hi> Mann <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">72</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">1</hi>
+               </hi> um die] <hi rendition="#aq">aus</hi> der <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi> in Baiern übliche] <hi rendition="#aq">aus</hi>
+               <lb/> übliche baiersche <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">2</hi> erwart’] <hi rendition="#aq">aus</hi> erwarte <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">14</hi> gedruckte] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">17</hi> und<lb/> Wehre] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi> gezeugt <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">21</hi> nicht] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi> oder gar zu hören,]<lb/>
+               <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">24</hi> Pol-Geiste] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">71</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">11</hi>
+               </hi>
+               <hi rendition="#aq">ff. Vgl. Emanuel an Thieriot, 23. Juni 1805; „Jacobi schrieb
+                  dem<lb/> Richter, daß ihm die (gute) <hi rendition="#g">Kalb</hi> gar nicht
+                  gefallen hätte, und daß er’s<lb/> der Armen sogar hätte fühlen lassen.“ An seine
+                  Berliner Freundin Karoline<lb/> Goldschmidt schreibt Emanuel am 17. Sept. 1805
+                  (Apelt): „Ihre Schilderun<lb rendition="#hyphen"/> gen der H[erz] und der K[alb]
+                  fand ich so gut, daß ich sie meinem Richter<lb/> (nur ihm) lesen lassen mußte. Als
+                  er mir Ihren Brief zurückschickte, schrieb<lb/> er auf das Kuvert: ‚von der
+                  scharfsehenden und mithin mit mir eingläubigen<lb/> G.‘ Er freut sich dieser
+                  Zeichnungen so sehr, daß er wünschte, mit Ver<lb rendition="#hyphen"/> schweigung
+                  Ihres Namens, Gebrauch davon machen zu können, wider<lb/> Jacobi. Ich habe ihm
+                  aber keine Hofnung zu Ihrer Einwilligung gemacht.“<lb/> Friedrich Kohlrausch
+                  schildert in seinen Lebenserinnerungen (Hannover<lb/> 1863), S. 79, wie Jacobi
+                  sich in einer Gesellschaft bei Hufeland nur mit der<lb/> Herz unterhalten und die
+                  Kalb vernachlässigt habe. <hi rendition="#b">71</hi>,<hi rendition="#rkd">29</hi>f. <hi rendition="#g">Aberglaube:</hi>
+                  <lb/> wohl der „Dualismus“-Glaube, s. <hi rendition="#b">80</hi>,<hi rendition="#rkd">19–21</hi>, <hi rendition="#b">112</hi>,<hi rendition="#rkd">17–20</hi>, Bd. III, 349,<hi rendition="#rkd">5</hi>f.,<lb/> IV, 258,<hi rendition="#rkd">6</hi>–<hi rendition="#rkd">8</hi>. <hi rendition="#rkd">37</hi>
+                  <hi rendition="#g">zwei Alliierte:</hi> Bayern und Franzosen.</hi>
+            </p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

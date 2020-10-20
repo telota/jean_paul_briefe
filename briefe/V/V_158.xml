@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="V_158">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="159">158. An Thieriot in Offenbach. </title>
+            <title n="digital">An Paul Emile Thieriot. Bayreuth, 16. Oktober 1805.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=V_158</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/V/V_158</idno>
+               <idno type="TELOTAID">V_158</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
+               <biblScope n="text" unit="page">
+                  <num>62</num>
+                  <num>63</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>290</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1805-10-16">16. Oktober 1805</date>
+               <placeName key="JP-005574" ref="http://www.geonames.org/2951825">Bayreuth</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-004275" ref="http://d-nb.info/gnd/117338370">
+                  <name type="reg">Thieriot</name> Paul Emile </persName>
+               <placeName key="JP-006099" ref="http://www.geonames.org/2857807">Offenbach bei
+                  Frankfurt a. M.</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=V_128">27. August 1805</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=V_183">10. Januar 1806</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <dateline>
+               <hi rendition="#right">
+                  <hi rendition="#aq">
+                     <placeName>Bayreuth</placeName>
+                  </hi> am Gallustag <date>
+                     <metamark>[</metamark>16. Okt.<metamark>]</metamark> 1805</date>
+               </hi>
+            </dateline>
+            <note corresp="#V_62-21">
+               <listPerson type="lineReference">
+                  <person corresp="#JP-001250">
+                     <persName>
+                        <name type="reg">Gallus</name>
+                     </persName>
+                  </person>
+               </listPerson>
+            </note>
+            <p>Nur spielt der Vorwinter den Nachwinter jetzt. — Überhaupt ist<lb xml:id="V_62-22"/>
+               jetzt eine Zeit voll Wolken, hinter denen Schlachtfelder und der<lb xml:id="V_62-23"/> Teufel und seine Nebenteufel liegen können. —</p>
+            <lb xml:id="V_62-24"/>
+            <p>An Herzog und Kanne hab’ ich geschrieben.<note corresp="#V_62-25">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000943">
+                        <persName> August Leopold <name type="reg">Emil</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-002022">
+                        <persName>
+                           <name type="reg">Kanne</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-002021">
+                        <persName> Johann Arnold <name type="reg">Kanne</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="25" xml:id="V_62-25"/>
+            </p>
+            <p>Ich wollte, Sie kämen hieher, um nur drei Tage lang uneinig mit<lb xml:id="V_62-26"/>
+               sich zu sein — wiewol noch die Frage ist, ob Sie dem guten lebhaften<lb xml:id="V_62-27"/> Thieriot über irgend etwas entschieden Recht geben — welches
+                  von<lb xml:id="V_62-28"/> meinen 3 Kindern Sie stärker lieben sollen als das
+               vierte, womit<note corresp="#V_62-29">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003483">
+                        <persName> Johann Paul Friedrich <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="V_62-29"/> ich Sie meine. —<lb n="30" xml:id="V_62-30"/>
+            </p>
+            <p>Manteufels Brief ist vortrefflich. Sollte sein Wunsch, einen<note corresp="#V_62-31">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002609">
+                        <persName> Otto <name type="reg">Manteuffel </name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-002607" ana="†">
+                        <persName> Otto Freiherr von <name type="reg">Manteuffel </name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="V_62-31"/> moralischen Erziehungs-Katechismus von Ihnen zu erhalten,
+                  mehr<lb xml:id="V_62-32"/> ein Ernst als eine stachlichte Ironie gewesen sein, die
+               jedoch der<lb xml:id="V_62-33"/> Freund dem Freunde so leicht gestattet? — Ich
+               besorge letzteres;<lb xml:id="V_62-34"/> auch weiß Ihr guter alter Bekannter gewiß,
+               wie gern Sie das Bei<lb xml:id="V_63-1" rendition="#hyphen"/>ßende vergeben, sobald
+               es treffend ist.</p>
+            <lb xml:id="V_63-2"/>
+            <p>Einen Thaler <hi rendition="#g">holländische Glaskiele</hi> bin ich Ihnen zwar<note corresp="#V_63-3">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-0058470">
+                        <placeName>Glaskiele; Holland</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="V_63-3"/> schuldig, zahl’ ihn aber, wenn Sie kommen, mit 1 Exemplar
+                  der<lb xml:id="V_63-4"/>
+               <hi rendition="#aq">Vorschule</hi> ab, welche bekanntlich 3 Laubthaler kostet. Es
+               geht gut<note n="*)" place="foot">879 Exemplare waren schon zu Ostern verkauft.<lb n="35" type="ig"/>
+               </note>
+               <note corresp="#V_63-5">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010970">
+                        <title>Vorschule der Aesthetik (1804)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="5" xml:id="V_63-5"/> ab, und ich wollte, ich könnte meine Freiexemplare auch
+               los werden,<lb xml:id="V_63-6"/> wenigstens theuerer als oben. Damit ich Ihnen aber
+               doch 1 rtl.<lb xml:id="V_63-7"/> schuldig bleibe und nachher bezahle, ersuch’ ich Sie
+               noch um 1 Federn<lb xml:id="V_63-8"/> Bund, aber fast um bessere. Doch waren im
+               vorigen einige, welche<lb xml:id="V_63-9"/> durch die Folie der schlechten um sie
+               her, etwas gewannen.<lb n="10" xml:id="V_63-10"/>
+            </p>
+            <p>Ihre Freundin grüss’ ich recht herzlich über den Rhein hinüber.</p>
+            <note corresp="#V_63-11">
+               <listPerson type="lineReference">
+                  <person corresp="#JP-004277" ana="†">
+                     <persName> Eva <name type="reg">Thieriot</name>
+                     </persName>
+                  </person>
+               </listPerson>
+               <listPlace type="lineReference">
+                  <place corresp="#JP-006187" ana="†">
+                     <placeName>Rhein</placeName>
+                  </place>
+               </listPlace>
+            </note>
+            <lb xml:id="V_63-11"/>
+            <p>Über Luthers Denkmal steht im neuesten Stück des <hi rendition="#aq">nordischen<note corresp="#V_63-12">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-009069">
+                           <author>Lange, Karl Julius (d.i. Alexander Davidson oder Daveson) (Werk,
+                              Hrsg.)</author>
+                           <title>Der Nordische Merkur (1805)</title>
+                        </bibl>
+                        <bibl corresp="#JP-010022">
+                           <author>Wagner, Johann Ernst (1769-1812), Romanschriftsteller</author>
+                           <title>Willibalds Ansichten des Lebens (1805)</title>
+                        </bibl>
+                     </listBibl>
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010984">
+                           <title>Wünsche für Luthers Denkmal (1805)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="V_63-12"/> Merkurs</hi> und im künftigen etwas von mir. — Ich arbeite
+                  unauf<lb xml:id="V_63-13" rendition="#hyphen"/>hörlich an meiner Erziehungslehre;
+               dem durchgehenden Ernst<note corresp="#V_63-14">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010811">
+                        <title>Levana (1807)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="V_63-14"/> in den Kapiteln füg’ ich zuweilen eine andere Beilage bei. Ich
+                  sehne<lb n="15" xml:id="V_63-15"/> mich aber in meine romantische Welt zurück. —
+               Lesen Sie doch<lb xml:id="V_63-16"/> Wilibalds Ansichten des Lebens von Wagner in
+               Meiningen.</p>
+            <note corresp="#V_63-17">
+               <listPlace type="lineReference">
+                  <place corresp="#JP-006012">
+                     <placeName>Meiningen </placeName>
+                  </place>
+               </listPlace>
+            </note>
+            <lb xml:id="V_63-17"/>
+            <p>Ich hörte zwei Blinde, Dulon (Flöte) und Friedizi (Geige); jener<note corresp="#V_63-18">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000866">
+                        <persName> Friedrich Ludwig <name type="reg">Dulon</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-001163" ana="†">
+                        <persName>
+                           <name type="reg">Fridzeri </name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="V_63-18"/> gefiel meinen Augen und Ohren besser. —</p>
+            <lb xml:id="V_63-19"/>
+            <p>Ich schlafe hier allmählich ein und nur zuweilen werd’ ich munter<lb n="20" xml:id="V_63-20"/> und sage: gute Nacht!</p>
+            <lb xml:id="V_63-21"/>
+            <p>Jetzt hab’ ich einen Abschreiber, der nach einem künstlichen Plane<lb xml:id="V_63-22"/> Register aus meinen Exzerpten zieht. Das soll mirs künftig
+                  leicht<lb xml:id="V_63-23"/> machen, dann und wann anzuspielen.</p>
+            <lb xml:id="V_63-24"/>
+            <p>Ich bin noch immer jokos oder scherzhaft und sehne mich nach<lb n="25" xml:id="V_63-25"/> Ihnen.</p>
+            <lb xml:id="V_63-26"/>
+            <p>Lebt wol, Alter! Kommt! — Am Ende schneid’ ich für Euch die<lb xml:id="V_63-27"/>
+               Schlafrocks-Klappe, woran ich meine Autorfedern abwische, als ein<lb xml:id="V_63-28"/> Briefchen ab und Ihr geht es durch in Euerer Antwort.<lb xml:id="V_63-29"/>
+            </p>
+            <closer>
+               <salute>
+                  <hi rendition="#right">Richter</hi>
+                  <lb n="30" xml:id="V_63-30"/>
+               </salute>
+            </closer>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Berlin Varnh. 213 (derzeit BJK). 4 S. 8°. <hi rendition="#i">K</hi>: <hi rendition="#i">Thieriot. *J</hi>: Denkw. 1,468×.<lb/>
+                  <hi rendition="#i">B</hi>: IV. Abt., V, Nr. 58 (?) und 61. <hi rendition="#i">A</hi>: IV. Abt., V, Nr.</hi>
+               <hi rendition="#aq">68. </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">62</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">23</hi>
+               </hi> voll] <hi rendition="#aq">aus</hi> von <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">25</hi> Herzog] <hi rendition="#aq">davor<lb/> gestr.</hi> den
+                  <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">28</hi> welches] <hi rendition="#aq">davor gestr.</hi> ob Sie
+                  <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">31</hi> Sollte] <hi rendition="#aq">aus</hi> Sollt’ er<lb/> die
+                  <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">32</hi> Erziehungs-] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">63</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">3</hi>
+               </hi>
+               <hi rendition="#g">holländische Glaskiele</hi>] <hi rendition="#aq">aus</hi>
+               <lb/> Federn <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">7</hi> als oben] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">20</hi> werd’] <hi rendition="#aq">davor gestr.</hi> ermunter
+                  <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">22</hi> nach]<lb/>
+               <hi rendition="#aq">davor gestr.</hi> ordentlich <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">27</hi> Am <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">29</hi> Antwort.] Wenn ich Ihnen meine<lb/> Rockklappe, woran
+               ich die Autorfedern abstreife, schickte: so gingen Sie sie<lb/> durch und versetzten
+               etwas. <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">29</hi> in] <hi rendition="#aq">davor gestr.</hi> Wort für Wort
+                  <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Der Brief wurde durch Emanuel am 20. Oktober bestellt. Thieriot
+                  hatte<lb/> sich in einem Brief an Emanuel vom 10. Oktober über Richters
+                  Schweigen<lb/> beklagt. <hi rendition="#b">62</hi>,<hi rendition="#rkd">31</hi>
+                  <hi rendition="#g">Manteufel</hi> (s. IV. Abt. (Br. an J. P.), III.1, Nr. 82)
+                  hatte in einem Brief<lb/> vom 17. Februar/23. Mai 1805 an Thieriot (<hi rendition="#i">H</hi>: Berlin Varnh.; <hi rendition="#i">J</hi>: Abend<lb rendition="#hyphen"/> zeitung, 13. Jan. 1843, Nr. 11×) diesen anläßlich der
+                  Geburt seines Sohnes<lb/> Otto (des späteren preuß. Ministerpräsidenten) um
+                  pädagogische Ratschläge<lb/> gebeten. <hi rendition="#b">63</hi>,<hi rendition="#rkd">11</hi>
+                  <hi rendition="#g">Freundin:</hi> Eva Hoffmann. Thieriot fragt in <hi rendition="#i">A</hi>, was „über<lb/> den Rhein hinüber“ heißen solle; Jean
+                  Paul denkt vielleicht an Evas Vater<lb rendition="#hyphen"/> stadt Mainz; sie war
+                  aber damals in Offenbach. <hi rendition="#rkd">10</hi>
+                  <hi rendition="#g">Dulon:</hi> s. I. Abt.,<lb/> X, <hi rendition="#b">98</hi>,<hi rendition="#rkd">16</hi>; <hi rendition="#g">Friedizi:</hi> richtig Fridzeri
+                  oder Fritzeri, Frizeri, auch Frixer<lb/> (1741—1825), italienischer blinder
+                  Organist, Violinist und Komponist.<lb/> 28 <hi rendition="#g">Schlafrockklappe:</hi> s. I. Abt., X, 461,<hi rendition="#rkd">26</hi>f.
+                  (Vult) und Persönl. 384,<hi rendition="#rkd">25</hi>f.</hi>
+            </p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>
