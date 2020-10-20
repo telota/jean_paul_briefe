@@ -23,4 +23,4 @@ Frederike Neuber (neuber@bbaw.de), Berlin-Brandenburgische Akademie der Wissensc
 
 ## Aktualisierungen
 
-* 20.10.2020: Publikation der Daten der Briefe von Jean Paul (Version vom 1.6.2020)
+* 20.10.2020: Publikation der Daten der Briefe von Jean Paul (Version vom 1.6.2018)
