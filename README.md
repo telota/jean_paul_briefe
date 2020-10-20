@@ -5,9 +5,13 @@ Daten der digitalen Edition "Jean Paul – Sämtliche Briefe digital"
 
 https://www.jeanpaul-edition.de
 
+## Inhalte
+
+briefe: Briefe von Jean Paul
+
 ## Zitation
 
-"Jean Paul – Sämtliche Briefe digital". Herausgegeben im Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften von Markus Bernauer, Norbert Miller und Frederike Neuber (2018–).
+Daten der Edition "Jean Paul – Sämtliche Briefe digital". Herausgegeben im Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften von Markus Bernauer, Norbert Miller und Frederike Neuber (2018–).
 
 ## Lizenz
 
