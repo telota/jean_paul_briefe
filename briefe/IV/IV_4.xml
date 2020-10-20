@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IV_4">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="4">4. An Herder in Weimar. </title>
+            <title n="digital">An Johann Gottfried von Herder. Berlin, 8. Oktober 1800 bis 17.
+               Oktober 1800.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=IV_4</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/IV/IV_4</idno>
+               <idno type="TELOTAID">IV_4</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1960.</title>
+               <biblScope n="text" unit="page">
+                  <num>2</num>
+                  <num>3</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>317</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date corresp="writingSession1" when="1800-10-08">8. Oktober 1800</date>
+               <date corresp="writingSession2" when="1800-10-17">17. Oktober 1800</date>
+               <placeName key="JP-005586" ref="http://www.geonames.org/2950159">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-001675" ref="http://d-nb.info/gnd/118549553">
+                  <name type="reg">Herder</name> Johann Gottfried von</persName>
+               <placeName key="JP-006395" ref="http://www.geonames.org/2812482">Weimar</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=III_465">16. Mai 1800</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=IV_25">6. November 1800 bis 11.
+                  November 1800</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <div type="writingSession1">
+               <lb xml:id="IV_2-7"/>
+               <dateline>
+                  <hi rendition="#right">
+                     <hi rendition="#aq">
+                        <placeName>Berlin</placeName>
+                     </hi> d. <date>8. Okt. 1800</date>
+                     <metamark>[</metamark>Mittwoch<metamark>]</metamark>.</hi>
+               </dateline>
+               <lb xml:id="IV_2-8"/>
+               <p>Unvergeslichster Freund! Die erste Zeile, die ich auf die Post schicke,<lb xml:id="IV_2-9"/>ist an Sie. Am vorigen Freitag kam ich — nach einem Rast-
+                     und<lb n="10" xml:id="IV_2-10"/>Regentag in <hi rendition="#aq">Dessau</hi> —
+                  hier an samt einer Berliner guten und armen<note corresp="#IV_2-11">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005586">
+                           <placeName>Berlin</placeName>
+                        </place>
+                        <place corresp="#JP-005665">
+                           <placeName>Dessau</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="IV_2-11"/>Kammerjungfer, die ich in <hi rendition="#aq">Dessau</hi>
+                  auf mein Kutschkissen gebettet. Die<lb xml:id="IV_2-12"/>Weiber sind die besten
+                  Ripienstimmen des Lebens die mir noch zu Ohren<lb xml:id="IV_2-13"/>kamen. Ich
+                  wolte, ich wäre kein Solosänger. —</p>
+               <lb xml:id="IV_2-14"/>
+               <p>Ich habe kaum noch eine halbe Million Besuche gemacht und ver<lb n="15" xml:id="IV_2-15" rendition="#hyphen"/>schiebe das Mehrere erst auf die Zukunft.
+                     <hi rendition="#aq">Buri,</hi> dessen neugefärbter<note corresp="#IV_2-16">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000559">
+                           <persName> Friedrich <name type="reg">Bury</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="IV_2-16"/>Göthe hier nicht gefallen wil, wurde einen <hi rendition="#aq">da Vinci</hi> für 80 Dukaten<note corresp="#IV_2-17">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001353">
+                           <persName> Johann Wolfgang von <name type="reg">Goethe</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-002407" ana="†">
+                           <persName>
+                              <name type="reg">Leonardo da Vinci</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="IV_2-17"/>an den König los, ein anderes Stük für 30 an die Königin und
+                     eines<note corresp="#IV_2-18">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001187">
+                           <persName>
+                              <name type="reg">Friedrich Wilhelm III.</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-002548">
+                           <persName>
+                              <name type="reg">Luise</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="IV_2-18"/>für 10 an — ich weis nicht und malte die Prinzessin Taxis. —
+                     Merkel<note corresp="#IV_2-19">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002774">
+                           <persName> Garlieb <name type="reg">Merkel</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-004298">
+                           <persName> Therese Mathilde Amalie Fürstin von <name type="reg">Thurn und
+                                 Taxis</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="IV_2-19"/>sizt noch auf seinem Richterstuhl, dem die Lehne fehlt, und
+                  hält seine<lb n="20" xml:id="IV_2-20"/>Zunge für das Zünglein in der Themiswage
+                  und ist mit dem stillen<note corresp="#IV_2-21">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004261">
+                           <persName>
+                              <name type="reg">Themis</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="IV_2-21"/>Beifalle zufrieden, den ihm H. Merkel zolt. Da hier so viele
+                  auf ihn<lb xml:id="IV_2-22"/>zürnen — besonders wegen seiner Bulle gegen den <hi rendition="#aq">Titan</hi> — so fang’<note corresp="#IV_2-23">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-009187" ana="†">
+                           <author>Merkel, Garlieb (1769-1850), Schriftsteller</author>
+                           <title>Briefe an ein Frauenzimmer (1800-1803)</title>
+                        </bibl>
+                     </listBibl>
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010897" ana="†">
+                           <title>Titan (1800-1803)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="IV_2-23"/>ich almählig auch an, mich zu ereifern und gedenke ihn bei
+                     <hi rendition="#aq">Sander</hi>
+                  <note corresp="#IV_2-24">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003658">
+                           <persName> Johann Daniel <name type="reg">Sander</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="IV_2-24"/>höflich anzufeinden.<lb n="25" xml:id="IV_2-25"/>
+               </p>
+               <p>Gestern wurde Mozarts <hi rendition="#aq">Requiem</hi> als Todtenfeier des
+                     herlichen<note corresp="#IV_2-26">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-009233">
+                           <author>Mozart, Wolfgang Amadeus (1756-1791)</author>
+                           <title>Requiem (1791)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="IV_2-26"/>
+                  <hi rendition="#aq">Fasches</hi> von seiner Singschule in der Garnisonkirche
+                  gegeben und der<note corresp="#IV_2-27">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001039" ana="†">
+                           <persName> Karl <name type="reg">Fasch</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-00558617">
+                           <placeName>Garnisonkirche; Berlin</placeName>
+                        </place>
+                        <place corresp="#JP-00558649">
+                           <placeName>Singakademie; Berlin</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="IV_2-27"/>Ertrag — 12 gr. kostete das Billet und 2000 Menschen waren
+                  darin —<lb xml:id="IV_2-28"/>für das Bürger-Rettungs-Institut bestimt. Giebt es
+                  eine rührendere<lb xml:id="IV_2-29"/>Zusammenstellung als diese dreifache
+                  Beziehung? — In manchen<lb n="30" xml:id="IV_2-30"/>Stellen ziehen die
+                  Mozartischen Donnerwolken und in andern schlagen<lb xml:id="IV_2-31"/>seine
+                  Nachtigallen; aber das Ganze wird nicht von seiner harmonischen<lb xml:id="IV_2-32"/>gewaltigen Weltseele getragen und verknüpft. In der lezten
+                  Fuge er<lb xml:id="IV_2-33" rendition="#hyphen"/>innert die Wiederholung einer
+                  nächsten rührend an seinen sterbenden<lb xml:id="IV_2-34"/>Geist, der schon halb
+                  mit der Lippe unter dem Todesschleier, die lezten<lb n="35" xml:id="IV_2-35"/>
+                  Worte zweimal stammelt. — Ich muste unter den kanonischen Ent<lb xml:id="IV_3-1" rendition="#hyphen"/>zückungen oft an Ihre denken und an Ihre Wünsche. —</p>
+               <lb xml:id="IV_3-2"/>
+               <p>Alle meine häuslichen Verhältnisse sind durch <hi rendition="#aq">Ahlefeldt,</hi>
+                     meinen<note corresp="#IV_3-3">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000044">
+                           <persName> Johann Georg Jacob von <name type="reg">Ahlefeldt</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="IV_3-3"/>Stuben- und Herzens-Nachbar, heiter und gesellig. Meine
+                     schriftstelle<lb xml:id="IV_3-4" rendition="#hyphen"/>rische Spinmaschine ist
+                  im besten Gang und alle Räder laufen und<lb n="5" xml:id="IV_3-5"/>sausen darin
+                  zum Besten dieses und der künftigen Jahrhunderte. Ich<lb xml:id="IV_3-6"/>bin
+                  begierig zu wissen, wie der holländische Glaskiel, womit ich Ihnen<note corresp="#IV_3-7">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0058470">
+                           <placeName>Glaskiele; Holland</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="IV_3-7"/>ein Geschenk gemacht,</p>
+               <lb xml:id="IV_3-8"/>
+            </div>
+            <div n="writingSession2">
+               <dateline>
+                  <hi rendition="#right">d. 17. Okt.</hi>
+               </dateline>
+               <lb xml:id="IV_3-9"/>
+               <p>sich noch hält ... Aus dieser langen Stockung mitten im Perioden<lb n="10" xml:id="IV_3-10"/>sehen Sie das Treiben durch die Strassen, wozu noch das
+                  Zimmern am<lb xml:id="IV_3-11"/>Titan komt. Verzeihen Sie daher diesen öden
+                  luftigen Brief. — Daß<note corresp="#IV_3-12">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010897">
+                           <title>Titan (1800-1803)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="IV_3-12"/>die <hi rendition="#aq">Berlepsch</hi> in Meklenburg ist und
+                     (<hi rendition="#g">unter uns</hi>) doch wahrscheinlich<note corresp="#IV_3-13">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001542">
+                           <persName> Emilie Dorothea Friederike <name type="reg">Harmes</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006010">
+                           <placeName>Mecklenburg</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="IV_3-13"/>wieder nach Schotland geht, wissen Sie wohl. — Fr. v. Berg,
+                  die ich<note corresp="#IV_3-14">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000297">
+                           <persName> Caroline Friedericke von <name type="reg">Berg</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006260">
+                           <placeName>Schottland, Schotten</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="IV_3-14"/>mit ihrer Tochter bei dem Minister <hi rendition="#aq">v.
+                     Alvensleben</hi> gesprochen, eine<note corresp="#IV_3-15">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000069">
+                           <persName> Philipp Karl Graf <name type="reg">Alvensleben</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-004528">
+                           <persName> Luise Gräfin von <name type="reg">Voß</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="15" xml:id="IV_3-15"/>geistige Amazone, gedenkt Ihrer und Ihrer Harzreise
+                  mit ihr noch mit<note corresp="#IV_3-16">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005816" ana="†">
+                           <placeName>Harz</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="IV_3-16"/>dem schönsten Feuer der Liebe. —</p>
+               <lb xml:id="IV_3-17"/>
+               <p>Ihre liebe Gattin möge diesmal mein Schweigen gegen sie ent<note corresp="#IV_3-18">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001670">
+                           <persName> Caroline <name type="reg">Herder</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="IV_3-18" rendition="#hyphen"/>schuldigen, da ja fast dieser Brief
+                  eines ist. Alles um Ihren Tisch sei<lb xml:id="IV_3-19"/>gegrüsset. Alle Stunden
+                  kan mir das Leben wiederbringen, nur nicht<lb n="20" xml:id="IV_3-20"/>die
+                  glänzenden von 8 bis 10½ Uhr an Ihrer Seite; und keine Freude<lb xml:id="IV_3-21"/>kan diese Sehnsucht mildern. Leben Sie wohl, Geliebtester!</p>
+               <lb xml:id="IV_3-22"/>
+               <closer>
+                  <salute>
+                     <hi rendition="#right">R.</hi>
+                  </salute>
+               </closer>
+               <lb xml:id="IV_3-23"/>
+               <postscript>
+                  <p>
+                     <hi rendition="#smaller">Der Tolle Bury ist bey Richter, und raucht Tobac bey
+                        seinem Freund<note corresp="#IV_3-24">
+                           <listPerson type="lineReference">
+                              <person corresp="#JP-000559">
+                                 <persName> Friedrich <name type="reg">Bury</name>
+                                 </persName>
+                              </person>
+                           </listPerson>
+                        </note>
+                        <lb xml:id="IV_3-24"/>
+                     </hi>
+                  </p>
+               </postscript>
+            </div>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Goethe- u. Schiller-Archiv. 4 S. 8°; die Nachschrift
+                  von Bury steht<lb/>am obern Rand der 4. S. <hi rendition="#i">K</hi> (nach Nr. 5):
+                     <hi rendition="#i">Herd.</hi>
+               </hi> 17. Okt. <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>: Herders<lb/>Nachlaß Nr. 34×.</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">2</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">11</hi>
+               </hi> guten und armen] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+                  <hi rendition="#rkd">18 </hi>
+               </hi>30] <hi rendition="#aq">aus </hi>60<lb/>
+               <hi rendition="#aq">danach gestr.</hi> denk’ ich <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi> an die Königin] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+                  <hi rendition="#rkd">19 </hi>
+               </hi>10]<hi rendition="#aq"> aus </hi>30<hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>— ich weis nicht] <hi rendition="#aq">aus</hi> andere <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">21</hi> stillen] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">23</hi> wegen seiner]<lb/>
+               <hi rendition="#aq">aus</hi> über seine <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">24 </hi>ihn] <hi rendition="#aq">aus</hi> ihm <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+                  <hi rendition="#rkd">28 </hi>
+               </hi>2000]<hi rendition="#aq"> aus </hi>4000<hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">29</hi> Giebt]<lb/>
+               <hi rendition="#aq">aus</hi> Giebts <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">34</hi> rührend] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">3</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">4</hi>
+               </hi> und Herzens-] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">8</hi>
+               <lb/>Geschenk] <hi rendition="#aq">davor gestr.</hi> kleines <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">17</hi> schönsten] <hi rendition="#aq">aus</hi> schönen <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">20</hi> Stunden]<lb/>
+               <hi rendition="#aq">danach gestr.</hi> und schönere <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">2</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">16</hi>
+               </hi>
+               <hi rendition="#aq">f. <hi rendition="#g">Buris Goethe:</hi> s. Bd. III, Nr. 373,
+                     273,<hi rendition="#rkd">28</hi>. <hi rendition="#rkd">17</hi>
+                  <hi rendition="#g">da Vinci:</hi> eine Kopie<lb/>des früher dem Lionardo
+                  zugeschriebenen Bildes „Christus unter den<lb/>Schriftgelehrten“; s. I. Abt.,
+                  VIII, 372,1–4†. <hi rendition="#rkd">18 </hi>Die Königin kaufte<lb/>von Bury „Die
+                  Tugend“ (nach IV. Abt. (Br. an J.P.), IV, Nr. 92). <hi rendition="#rkd">23</hi>
+                  Garlieb <hi rendition="#g">Merkel</hi>
+                  <lb/>hatte im dritten seiner im Sanderschen Verlag erscheinenden „Briefe<lb/>an
+                  ein Frauenzimmer über die wichtigsten Produkte der schönen Literatur“<lb/>(Sept.
+                  1800) den 1. Band des <hi rendition="#g">Titan</hi> scharf mitgenommen; s. I.
+                  Abt.,<lb/>VIII, Einl. S. XCIV. <hi rendition="#rkd">26</hi>f. <hi rendition="#g">Fasch</hi> (s. Bd. III, Nr. 482, 347,<hi rendition="#rkd">15</hi>†) war am 3.
+                  Aug.<lb/>1800 gestorben. <hi rendition="#b">3</hi>,<hi rendition="#rkd">7</hi>
+                  <hi rendition="#g">Glaskiel:</hi> s. Bd. III, Nr. 512, 370,9. <hi rendition="#rkd">14–17 </hi>Frau von<lb/>
+                  <hi rendition="#g">Berg:</hi> s. Nr. 127†; sie hatte im Mai 1783 mit Herder eine
+                  Harzreise ge<lb rendition="#hyphen"/>macht. <hi rendition="#rkd">20</hi>f. Vgl.
+                  Bd. III, Nr. 430, 310,<hi rendition="#rkd">6</hi>ff.</hi>
+            </p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

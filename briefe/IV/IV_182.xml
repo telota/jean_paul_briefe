@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IV_182">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="188">182. An Thieriot in Leipzig. </title>
+            <title n="digital">An Paul Emile Thieriot. Bayreuth, 1. September 1801.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=IV_182</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/IV/IV_182</idno>
+               <idno type="TELOTAID">IV_182</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1960.</title>
+               <biblScope n="text" unit="page">
+                  <num>100</num>
+                  <num>101</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>356</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1801-09-01">1. September 1801</date>
+               <placeName key="JP-005574" ref="http://www.geonames.org/2951825">Bayreuth</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-004275" ref="http://d-nb.info/gnd/117338370">
+                  <name type="reg">Thieriot</name> Paul Emile </persName>
+               <placeName key="JP-005948" ref="http://www.geonames.org/2879139">Leipzig</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=IV_131">14. Mai 1801</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=IV_233">16. Januar 1802 bis 20.
+                  Januar 1802</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <dateline>
+               <hi rendition="#right">
+                  <hi rendition="#aq">
+                     <placeName>Bayreuth</placeName> d. <date>1. Sept. 1801</date>
+                  </hi>.</hi>
+            </dateline>
+            <lb xml:id="IV_100-24"/>
+            <p>Lieber Thieriot! Wo ist Ihre Feder? — Ihr Roman? — Hundert<lb n="25" xml:id="IV_100-25"/>Dinge, die Sie mir zu sagen haben? Ich size in Meiningen
+               seelig fest<note corresp="#IV_100-26">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006012">
+                        <placeName>Meiningen </placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="IV_100-26"/>und lasse dahin adressieren. Ich fasse Ihr schnelles
+               Schweigen nicht.<lb xml:id="IV_100-27"/>Worüber geht jezt Ihr Lebenslauf, über die
+               Studierstube oder über<lb xml:id="IV_100-28"/>einen Hörsaal oder über die Geige? —
+               Jezt könten Sie einmal zu mir<lb xml:id="IV_100-29"/>kommen und bei mir logieren; wir
+               wolten sprechen, weil Sie niemand<lb n="30" xml:id="IV_100-30"/>weiter hätten.</p>
+            <lb xml:id="IV_100-31"/>
+            <p>Der Überbringer dieses, ein heller philosophischer Jude, vielleicht<note corresp="#IV_100-32">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001977">
+                        <persName>
+                           <name type="reg">Juden</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IV_100-32"/>der beste moralische Mensch, den ich je sah, <hi rendition="#aq">Emanuel,</hi> mein Freund<note corresp="#IV_100-33">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003087">
+                        <persName> Emanuel <name type="reg">Osmund</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IV_100-33"/>wil Sie kennen, nicht kennen lernen. Auch sein Kopf, nicht
+               blos sein<lb xml:id="IV_100-34"/>Herz, gehört nicht unter die Doubletten der
+                  Menschheit.<lb n="35" xml:id="IV_100-35"/>
+            </p>
+            <p>
+               <hi rendition="#g">Hier</hi> weis ich nicht mehr was ich von Ihrem Briefe zu
+                  beantworten<lb xml:id="IV_101-1"/>habe. Ihr Urtheil über die Gräfin ist
+               vortreflich und — komisch, da<note corresp="#IV_101-2">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003964" ana="†">
+                        <persName> Auguste Sophie Henriette <name type="reg">Schwendler</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IV_101-2"/>Sie es ihrem ältern Bekanten schicken; ich las eine kurze
+                  Topographie<lb xml:id="IV_101-3"/>meines Zimmers, die mir der
+                  V<metamark>[</metamark>erfasser<metamark>]</metamark> sandte, damit ich mich zu<lb xml:id="IV_101-4" rendition="#hyphen"/>rechtfände darin. —<lb n="5" xml:id="IV_101-5"/>
+            </p>
+            <p>Meine Arbeit und Lust ist jezt der 3<hi rendition="#sup">te</hi> zu Ostern kommende
+                  Titan,<note corresp="#IV_101-6">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010897">
+                        <title>Titan (1800-1803)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="IV_101-6"/>der vol ent- und verwickelnder Geschichte ist und dessen
+               Anhang ein<note corresp="#IV_101-7">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010779" ana="†">
+                        <title>Komischer Anhang zum Titan (1800-1801)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="IV_101-7"/>Anhängselgen wird und kaum. — <hi rendition="#aq">J. P.</hi>
+               hat keine frohe Ehe, sondern<lb xml:id="IV_101-8"/>die froheste; alle seine Träume
+               reichen nun durchs helle Tagslicht, und<lb xml:id="IV_101-9"/>der Idealismus des
+               Herzens ist ein Realismus geworden. Ich kenne<lb n="10" xml:id="IV_101-10"/>nichts
+               bessers als das beste Weib zu haben; sogar die Poesie zieht<note corresp="#IV_101-11">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003469">
+                        <persName> Caroline <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IV_101-11"/>Zinsen davon. — Unendlich viel schreiben Sie mir, Lieber!
+               Lesen Sie<lb xml:id="IV_101-12"/>Schleiermachers Reden über die Religion und Marias
+                  Satiren.<note corresp="#IV_101-13">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008192">
+                        <author>Brentano, Clemens (Klemens) (Pseud. Maria) (1778-1842)</author>
+                        <title>Satiren und poetische Spiele (1800)</title>
+                     </bibl>
+                     <bibl corresp="#JP-009642">
+                        <author>Schleiermacher, Friedrich (1768-1834)</author>
+                        <title>Reden über die Religion (1800)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="IV_101-13"/>
+               <hi rendition="#aq">Adio, Carissimo!</hi>
+               <lb xml:id="IV_101-14"/>
+            </p>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Berlin Varnh. 213 (derzeit BJK). 3 S. 8°; auf der 4. S.
+                  Adr.:</hi> H. Paul Thieriot <hi rendition="#aq">
+                  <hi rendition="#i">Leipzig.<lb/>K</hi> (nach Nr.</hi> 184): Thieriot — <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>: Denkw. 1,434×. <hi rendition="#i">B</hi>: IV. Abt., IV,
+                  Nr. 138. <hi rendition="#i">A</hi>:<lb/>IV. Abt., IV, Nr.</hi>
+               <hi rendition="#aq">175. </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">100</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">28</hi>
+               </hi> Lebenslauf] Lebensplan <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">101</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">6</hi>
+               </hi> zu Ostern kommende]<lb/>
+               <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">100</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">25</hi>
+               </hi>
+               <hi rendition="#aq">
+                  <hi rendition="#g">Roman:</hi> s. zu Nr. 13. <hi rendition="#b">101</hi>,<hi rendition="#rkd">2</hi> Thieriot hatte die <hi rendition="#g">Gräfin</hi>
+                     Schla<lb rendition="#hyphen"/>brendorff in Leipzig kennengelernt. <hi rendition="#rkd">7</hi>f. Der dritte Band des Titan erhielt<lb/>keinen <hi rendition="#g">Anhang</hi>. <hi rendition="#rkd">13</hi> „<hi rendition="#g">Satiren</hi> und poetische Spiele von <hi rendition="#g">Maria</hi>“<lb/>(d.
+                  i. Clemens Brentano), Leipzig 1801; vgl. I. Abt., XI,</hi>
+               <hi rendition="#aq">363,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">13</hi>
+               </hi>
+               <hi rendition="#aq">.</hi>
+            </p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

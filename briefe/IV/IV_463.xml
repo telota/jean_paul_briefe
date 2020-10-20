@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IV_463">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="470">463. An Christian Otto. </title>
+            <title n="digital">An Christian Otto. Coburg, 24. April 1804 bis 3. Mai 1804.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=IV_463</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/IV/IV_463</idno>
+               <idno type="TELOTAID">IV_463</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1960.</title>
+               <biblScope n="text" unit="page">
+                  <num>288</num>
+                  <num>289</num>
+                  <num>290</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>421</num>
+                  <num>422</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date corresp="writingSession1" when="1804-04-24">24. April 1804</date>
+               <date corresp="writingSession2" when="1804-04-28">28. April 1804</date>
+               <date corresp="writingSession3" when="1804-05-03">3. Mai 1804</date>
+               <placeName key="JP-005649" ref="http://www.geonames.org/2939951">Coburg </placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-003112" ref="http://d-nb.info/gnd/118590804">
+                  <name type="reg">Otto</name> Christian </persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=IV_430">11. Dezember 1803 bis
+                  17. Dezember 1803</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=IV_466">15. Mai 1804</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <div type="writingSession1">
+               <lb xml:id="IV_288-9"/>
+               <dateline>
+                  <hi rendition="#right">
+                     <hi rendition="#aq">
+                        <placeName>Koburg</placeName> d. <date>24. Apr. 1804</date>
+                     </hi>.</hi>
+               </dateline>
+               <lb n="10" xml:id="IV_288-10"/>
+               <p>Neuigkeiten hab’ ich leider zu viel zum Schreiben, obwol zum<lb xml:id="IV_288-11"/>Erzählen nicht zu viel. Z. B. Wangenheim ist ohne Pension abgesetzt<note corresp="#IV_288-12">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004599">
+                           <persName> Karl August Freiherr von <name type="reg">Wangenheim</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="IV_288-12"/>und geht klagend nach Wien. Sein Sohn ist im Herbste
+                     gestorben,<note corresp="#IV_288-13">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004600">
+                           <persName> Karl August Freiherr von <name type="reg">Wangenheim</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006405">
+                           <placeName>Wien</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="IV_288-13"/>sein Mädchen war von 3 Aerzten aufgegeben und ich rettete
+                  es durch<note corresp="#IV_288-14">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004598">
+                           <persName> Fanny <name type="reg">Wangenheim</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="IV_288-14"/>Wein. — Ich selber wie ich längst voraussah wurde in die
+                     Unter<lb n="15" xml:id="IV_288-15" rendition="#hyphen"/>suchung gegen <hi rendition="#aq">Wangenheim</hi> durch die Kommission gezogen<note n="*)" place="foot">über ein Gespräch mit dem Herzog.<note corresp="#IV_288-35">
+                        <listPerson type="lineReference">
+                           <person corresp="#JP-001154">
+                              <persName> Friedrich Anton <name type="reg">Franz</name>
+                              </persName>
+                           </person>
+                        </listPerson>
+                     </note>
+                     <lb n="35" xml:id="IV_288-35"/>
+                  </note>. Meinen<lb xml:id="IV_288-16"/>Brief an den Herzog und mein Aufsagen des
+                  Hofs und jenes gut<note corresp="#IV_288-17">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001154">
+                           <persName> Friedrich Anton <name type="reg">Franz</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="IV_288-17" rendition="#hyphen"/>machende Antwort und noch einige
+                  wichtige Briefe schickte ich dir<lb xml:id="IV_288-18"/>wenn ich sie nicht
+                  vielleicht jede Stunde zu brauchen besorgte. Du<lb xml:id="IV_288-19"/>wirst
+                  staunen. Ich war zu keiner <hi rendition="#g">persönlichen</hi> Erscheinung als
+                     frem<lb n="20" xml:id="IV_288-20" rendition="#hyphen"/>der
+                     Legaz<metamark>[</metamark>ions<metamark>]</metamark>
+                     R<metamark>[</metamark>ath<metamark>]</metamark> verbunden; wählte sie aber
+                  doch, um meinen<lb xml:id="IV_288-21"/>Spaß und meine Prüfung zu haben. — Mein Max
+                  hatte das Husten<note corresp="#IV_288-22">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003490">
+                           <persName> Max <name type="reg">Richter</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="IV_288-22" rendition="#hyphen"/>fieber. Er ist fast zu zart und eine
+                  gewaltige Virtuosen-Seele bewohnt<lb xml:id="IV_288-23"/>den Lilienleib. Ich kann
+                  ihm beinahe Verzückungen und entzückt-nasse<lb xml:id="IV_288-24"/>Augen
+                  anpfeifen. — <hi rendition="#aq">Emma</hi> zog wieder aus dem Zufalls-Rade
+                     etwas<note corresp="#IV_288-25">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003471">
+                           <persName> Emma <name type="reg">Richter</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="25" xml:id="IV_288-25"/>heraus, Rienzi nämlich. — Wer sich nicht mit den
+                  Umgebungen ver<note corresp="#IV_288-26">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-009341">
+                           <author>Otto, Christian (Georg Christian) (Pseud. Georgius, Christianus)
+                              (1763-1828), Jurist, einer der engsten Freunde von Jean Paul</author>
+                           <title>Rienzo (1803)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="IV_288-26" rendition="#hyphen"/>ändert, sondern festbleibt, stellt
+                  eben dadurch sein Verhältniß zu ihnen<lb xml:id="IV_288-27"/>und also sich als
+                  etwas Verändertes dar.<note n="**)" place="foot">Gleich einem Ufer schein’ ich dem
+                     zu fließen, der ja blos selber fließet.<lb xml:id="IV_288-36"/>
+                  </note> Ich bin überzeugt, daß<lb xml:id="IV_288-28"/>man mich jetzt für
+                  veränderlich ausschreiet, blos weil ich fortwill und<lb xml:id="IV_288-29"/>fortmuß, da alles um mich her möcht ich sagen schon fortgezogen ist.<lb n="30" xml:id="IV_288-30"/>
+                  <hi rendition="#aq">Wangenheim</hi> und <hi rendition="#aq">Kretschm.</hi> sind
+                  für mich fort; auch der Hof in<note corresp="#IV_288-31">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002256">
+                           <persName> Theodor Conrad (seit 1801) von <name type="reg">Kretschmann</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-004599">
+                           <persName> Karl August Freiherr von <name type="reg">Wangenheim</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="IV_288-31"/>mancher Rücksicht. Das Hebammenwesen gefällt mir hier so
+                     wenig,<lb xml:id="IV_288-32"/>daß ich den künftigen November gegen das Ende
+                  nicht hier ausstehen<lb xml:id="IV_288-33"/>könnte. Meine Hauswirthin heirathet —
+                  und Anfangs Augusts muß<note corresp="#IV_288-34">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003284" ana="†">
+                           <persName>
+                              <name type="reg">Prätorius</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003283" ana="†">
+                           <persName> Heinrich Karl <name type="reg">Prätorius</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="IV_288-34"/> ich aus dem Hause. Das Schicksal — das weis ich stets
+                  voraus —<lb xml:id="IV_289-1"/>trifft immer so mit meinen Gründen zusammen, daß es
+                  mir, wenn ich<lb xml:id="IV_289-2"/>noch schwanke, die nöthigsten dazu leiht. Nach
+                     <hi rendition="#aq">Bayreuth</hi> wünscht’<note corresp="#IV_289-3">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005574">
+                           <placeName>Bayreuth (Stadt)</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="IV_289-3"/>ich und <hi rendition="#aq">C.</hi> nun — und ich für <hi rendition="#aq">C.</hi> besonders — 1) weil hier unser Um<note corresp="#IV_289-4">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003469">
+                           <persName> Caroline <name type="reg">Richter</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="IV_289-4" rendition="#hyphen"/>gang nur adelicher<note n="*)" place="foot">Der bürgerliche ist mit weniger Ausnahme zu öde.</note> war, der
+                  aber zur rechten Gemeinschaft des<lb n="5" xml:id="IV_289-5"/>Lebens und Treibens
+                  zu wenig hilft — In Meiningen war beides<note corresp="#IV_289-6">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006012">
+                           <placeName>Meiningen </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="IV_289-6"/>besser und näher, als in
+                     hies<metamark>[</metamark>iger<metamark>]</metamark> größeren Stadt. Freilich
+                     mit<lb xml:id="IV_289-7"/>einigen Menschen so recht verwickelt zu sein — hin
+                  und her zu ge<lb xml:id="IV_289-8" rendition="#hyphen"/>nießen — alles zu theilen,
+                  sogar die Lust — alles zu erzählen, sogar<lb xml:id="IV_289-9"/>die Noth — kurz
+                  ein Höfer-Beisammenleben ist etwas, was man ewig<note corresp="#IV_289-10">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005841">
+                           <placeName>Hof im Vogtland</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="10" xml:id="IV_289-10"/>vermißt außer dem bürgerlichen Geburts-Kreise. <hi rendition="#aq">Amoene</hi> und <hi rendition="#aq">C.</hi>
+                  <note corresp="#IV_289-11">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003108">
+                           <persName> Amöne (Pseud. Amalie von Obyrn) <name type="reg">Otto</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003469">
+                           <persName> Caroline <name type="reg">Richter</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="IV_289-11"/>würden sich sehr lieben und suchen, das weiß ich.</p>
+               <lb xml:id="IV_289-12"/>
+               <p>Etwas würd’ ich reell entrathen durch Mangel an Hofwesen, das<lb xml:id="IV_289-13"/>weiß ich auch. Von längst gesättigter, (schon
+                  litterarisch-satter) Eitel<lb xml:id="IV_289-14" rendition="#hyphen"/>keit ist
+                  nicht die Rede; aber das leichtere Beisammensein (denn vor<lb n="15" xml:id="IV_289-15"/>keinem Fürsten bin ich verlegen, aber bei einem
+                     Höf<metamark>[</metamark>er<metamark>]</metamark> Konrektor etc.<note corresp="#IV_289-16">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005841">
+                           <placeName>Hof im Vogtland</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="IV_289-16"/>giebts <hi rendition="#aq">gÃªne</hi>) — das Sein im
+                  Mittelpunkt des Hörsaals politischer<lb xml:id="IV_289-17"/>und eleganter,
+                  artistischer Neuigkeiten — die anderweitige Lust an<lb xml:id="IV_289-18"/>Frauen
+                  und an Weinen —</p>
+               <lb xml:id="IV_289-19"/>
+            </div>
+            <div n="writingSession2">
+               <dateline>
+                  <hi rendition="#right">
+                     <hi rendition="#aq">d. 28 Apr.</hi>
+                  </hi>
+               </dateline>
+               <lb n="20" xml:id="IV_289-20"/>
+               <p>Bitte wenigstens Emanuel (der Schnelle wegen) mir zu schreiben,<note corresp="#IV_289-21">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003087">
+                           <persName> Emanuel <name type="reg">Osmund</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="IV_289-21"/>wie es in Bayreuth steht mit der 1) Bücher-Ebbe und Fluth
+                     und<note corresp="#IV_289-22">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005574">
+                           <placeName>Bayreuth (Stadt)</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="IV_289-22"/>Journalistikum 2) Klubbs 3) Adel 4) überhaupt welche
+                     bedeutende<lb xml:id="IV_289-23"/>Männer und Weiber zu treffen sind 5) und ob
+                  anfangs Augusts ein<lb xml:id="IV_289-24"/>schönes Logis (theuer sei es immer d.
+                  h. 70, 80, 90 fl. rh.) zu bekom<lb n="25" xml:id="IV_289-25" rendition="#hyphen"/>men, das in der Vorstadt und gegen das Freie liegt wie deines. Ich<lb xml:id="IV_289-26"/>werde dir mündlich erzählen, wie sehr auch meine anfangs
+                     ratifizierten<lb xml:id="IV_289-27"/>Rechnungen auf den Fürstenhof sich wieder
+                  auslöschten. Dumm ists,<lb xml:id="IV_289-28"/>mit Frau und Küche zu wandern; und
+                  dumm wars, daß ich sonst als<note corresp="#IV_289-29">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003469">
+                           <persName> Caroline <name type="reg">Richter</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="IV_289-29"/>geflügelter <hi rendition="#aq">garçon</hi> nicht mehrere
+                  Städte durchzog.<lb n="30" xml:id="IV_289-30"/>
+               </p>
+               <p>Einen Auszug aus dem römischen <hi rendition="#aq">Bullarium</hi> in 4 Bänden
+                     (be<lb xml:id="IV_289-31" rendition="#hyphen"/>titelt: römische Religions
+                  Kasse) könntest du hier käuflich haben. —<note corresp="#IV_289-32">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-008587" ana="†">
+                           <author>Güntherode (Guentherode, Günderrode), Karl Freiherr von
+                              (1740-1795), Theologe und Jurist</author>
+                           <title>Die Römische Religionskasse (1787-1788)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="IV_289-32"/>Die Geschichte der Konklave von <hi rendition="#aq">Clemens V</hi> bis <hi rendition="#aq">Innocens XII</hi> fand<note corresp="#IV_289-33">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001889">
+                           <persName>
+                              <name type="reg">Innozenz XII.</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-002125">
+                           <persName>
+                              <name type="reg">Klemens V.</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="IV_289-33"/>ich neulich ohne näheren Titel in den <hi rendition="#aq">mélanges d’histoire par</hi> etc.<note corresp="#IV_289-34">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-009947" ana="†">
+                           <author>Vigneul de Marville, M. de (Noël, gen. Bonaventure dArgonne)
+                              (1640-1704), Pariser Jurist und Literat</author>
+                           <title>Mélanges d'histoire et de littérature (1699-1701)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="IV_289-34"/>
+                  <hi rendition="#aq">Marville</hi> gepriesen angeführt und gewiß für dich tauglich.
+                     —<lb n="35" xml:id="IV_289-35"/>
+               </p>
+               <lb xml:id="IV_289-36"/>
+               <p> Hier schick’ ich dir mein altes Schuldenbuch. Bei den 55 fl. bleib’ es!<lb xml:id="IV_290-1"/>Sobald du alles zurückzahlst, muß auch ausgemittelt werden,
+                     was<lb xml:id="IV_290-2"/>deine Mutter meiner geliehen. Eine Rechnung von <hi rendition="#aq">Christoph</hi> über<note corresp="#IV_290-3">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003114">
+                           <persName> Christiane Dorothea <name type="reg">Otto</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003118">
+                           <persName> Christoph <name type="reg">Otto</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="IV_290-3"/>Weine und Strümpfe fiel mir neulich in die Hände; und du
+                  sollst sie<lb xml:id="IV_290-4"/>haben. Denn Eile hat es darum nicht, weil ich
+                  zwar die Schuld<lb n="5" xml:id="IV_290-5" rendition="#hyphen"/>verschreibung
+                  annehme — denn ich weiß voraus, wie sehr meine<lb xml:id="IV_290-6"/>Kinder
+                  verarmen —, aber nie bei meinen Lebzeiten zahlbar, folglich<note corresp="#IV_290-7">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001545" rend="Göttin der Verschwiegenheit II">
+                           <persName> Gott des Schweigens <name type="reg">Harpokrates</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003483">
+                           <persName> Johann Paul Friedrich <name type="reg">Richter</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="IV_290-7"/>nie (denn ich könnte lange leben) zinsbar, was sich von
+                  selber versteht.<lb xml:id="IV_290-8"/>Du schreibst, ich möge deine Bürgschaft im
+                  Briefe anerkennen; ich<lb xml:id="IV_290-9"/>hoffe aber, daß du dieß nur scherzend
+                  geschrieben oder probierend, da<lb n="10" xml:id="IV_290-10"/>du mir doch so viel
+                  Jurisprudenz (schon aus den Flegeljahren) zu<note corresp="#IV_290-11">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010695">
+                           <title>Flegeljahre (1804-1805)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="IV_290-11" rendition="#hyphen"/>trauen kannst, daß ich werde
+                  Instrumente fodern. — H. <hi rendition="#aq">v. Rhamm</hi>
+                  <note corresp="#IV_290-12">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003462">
+                           <persName>
+                              <name type="reg">Rhamm</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="IV_290-12"/>war sehr mit Euch beiden zufrieden und ich mit ihm. —
+                     Frankreich<note corresp="#IV_290-13">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003087" ana="?">
+                           <persName> Emanuel <name type="reg">Osmund</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003108" ana="?">
+                           <persName> Amöne (Pseud. Amalie von Obyrn) <name type="reg">Otto</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-00574610">
+                           <placeName>Politik, Krieg, Militär; Frankreich, französisch</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="IV_290-13"/>anlangend, so wird ja der deutsche Wunsch, die Freiheit
+                  mit solchem<note corresp="#IV_290-14">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0056690">
+                           <placeName>Deutsche; Deutschland , deutsch , Germanien,
+                              Vaterland</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="IV_290-14"/>zu theilen, selber von Fürsten erfüllt; da wir jetzt ganz
+                  nicht nur wie<lb n="15" xml:id="IV_290-15"/>Frankreich, sondern auch sogar von
+                  Frankreich regieret werden, wie die<lb xml:id="IV_290-16"/>gleiche <hi rendition="#g">Preß</hi>-Freiheit, und das Emigranten-<hi rendition="#g">Pressen</hi> in Deutsch<note corresp="#IV_290-17">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000942">
+                           <persName>
+                              <name type="reg">Emigranten</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="IV_290-17" rendition="#hyphen"/>land gewiß beweisen. Denn kein Hahn
+                  darf (darnach) krähen dem<lb xml:id="IV_290-18"/>gallischen, daß dieser den
+                  verläugnenden Petrus zu erinnern vergißt.</p>
+               <note corresp="#IV_290-19">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003199">
+                        <persName>
+                           <name type="reg">Petrus</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IV_290-19"/>
+               <p>
+                  <hi rendition="#aq">Emanuel</hi> soll nach Schwaben mit der Frau Israels gereiset
+                     sein.<note corresp="#IV_290-20">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000969" ana="†">
+                           <persName> Eva <name type="reg">Enzel</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003087">
+                           <persName> Emanuel <name type="reg">Osmund</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006262">
+                           <placeName>Schwaben</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="20" xml:id="IV_290-20"/>Er vergebe mir mein Schweigen, da ich 20 Druckbogen
+                  Aesthetik nach<note corresp="#IV_290-21">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010970">
+                           <title>Vorschule der Aesthetik (1804)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="IV_290-21"/>Leipzig fördern mußte. — Was lässet denn der gute treue
+                     Thieriot<note corresp="#IV_290-22">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004275">
+                           <persName> Paul Emile <name type="reg">Thieriot</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005948">
+                           <placeName>Leipzig</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="IV_290-22"/>
+                  <hi rendition="#g">von sich hören</hi>? Letzteres würd’ er gewiß unterstreichen
+                  des Wort<lb xml:id="IV_290-23" rendition="#hyphen"/>spiels wegen. — Und wem soll
+                  ich die Aesthetik dedizieren, insofern ich<note corresp="#IV_290-24">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010970">
+                           <title>Vorschule der Aesthetik (1804)</title>
+                        </bibl>
+                        <bibl corresp="#JP-010974">
+                           <title>Vorschule der Aesthetik (1804): Widmung</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="IV_290-24"/>
+                  <hi rendition="#g">etwas haben</hi> und doch mit Überzeugung preisen will? Dem
+                     König<note corresp="#IV_290-25">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001187">
+                           <persName>
+                              <name type="reg">Friedrich Wilhelm III.</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="25" xml:id="IV_290-25"/>in Preussen (die Theorie dem Mann, wie die Praxis
+                  〈Titan〉 der<note corresp="#IV_290-26">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010926">
+                           <title>Titan (1800-1803): Widmung (Der Traum der Wahrheit)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="IV_290-26"/>Frau)? — Dem Baierfürsten? — Dem neuen Herzog von Gotha?
+                     —<note corresp="#IV_290-27">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000943">
+                           <persName> August Leopold <name type="reg">Emil</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-002548">
+                           <persName>
+                              <name type="reg">Luise</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-002694">
+                           <persName>
+                              <name type="reg">Maximilian IV. Joseph</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="IV_290-27"/>Dem Minister v. Hardenberg? — Rathe an!</p>
+               <note corresp="#IV_290-28">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001530">
+                        <persName> Karl August Freiherr von <name type="reg">Hardenberg</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IV_290-28"/>
+            </div>
+            <div n="writingSession3">
+               <dateline>
+                  <hi rendition="#right">d. 3. Mai.</hi>
+               </dateline>
+               <lb xml:id="IV_290-29"/>
+               <p>Hier sind die Flegeljahre mit unzähligen Druckfehlern. Ich bin<note corresp="#IV_290-30">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010695">
+                           <title>Flegeljahre (1804-1805)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb n="30" xml:id="IV_290-30"/>begierig, wie dir diese neue Form gefällt oder
+                  nicht, desgleich<metamark>[</metamark>en<metamark>]</metamark> die<lb xml:id="IV_290-31"/>Rezension des Titans in
+                     <metamark>[</metamark>der<metamark>]</metamark>
+                  <hi rendition="#aq">L<metamark>[</metamark>itteratur<metamark>]</metamark>
+                        Z<metamark>[</metamark>eitung<metamark>]</metamark>.</hi> Gott weiß
+                     aber<note corresp="#IV_290-32">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001837" ana="†">
+                           <persName> Franz Christoph <name type="reg">Horn</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-010170" ana="†">
+                           <author/>
+                           <title>Allgemeine Literatur-Zeitung (Literaturzeitung) (Jena 1785ff., ab
+                              1804 Halle)</title>
+                        </bibl>
+                     </listBibl>
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010897" ana="†">
+                           <title>Titan (1800-1803)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="IV_290-32"/>wenn du sie liesest, geschweige beurtheilst. Endlich kommt
+                  ein Monat<lb xml:id="IV_290-33"/>voll schöner Tage. Meine vorige
+                     Aequinokz<metamark>[</metamark>ial<metamark>]</metamark> Beobachtung wurde<lb xml:id="IV_290-34"/>nach einem Lügner von Buche zugeschnitten. Ich will wieder
+                     auf<lb n="35" xml:id="IV_290-35"/>eigne Füsse; Mai und Juny werden göttlich,
+                  July regnerisch. Ge<lb xml:id="IV_290-36" rendition="#hyphen"/>nieße du und Amöne
+                  jene recht aus.</p>
+               <closer>
+                  <salute>
+                     <hi rendition="#right">R.</hi>
+                     <note corresp="#IV_290-37">
+                        <listPerson type="lineReference">
+                           <person corresp="#JP-003108">
+                              <persName> Amöne (Pseud. Amalie von Obyrn) <name type="reg">Otto</name>
+                              </persName>
+                           </person>
+                        </listPerson>
+                     </note>
+                     <lb xml:id="IV_290-37"/>
+                  </salute>
+               </closer>
+            </div>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Berlin JP. 8 S. 8°. <hi rendition="#i">K</hi>: <hi rendition="#i">Otto</hi>
+               </hi> 14 Ap. <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>: Otto 4,156×. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>: Nerrlich<lb/>Nr. 106×. <hi rendition="#i">B</hi>: IV.
+                  Abt., IV, Nr. 339. <hi rendition="#i">A</hi>: IV. Abt., IV, Nr.</hi>
+               <hi rendition="#aq">351. </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">288</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">11</hi>
+               </hi> Schreiben] <hi rendition="#aq">aus</hi> schreiben <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/> obwol] <hi rendition="#aq">aus</hi> obwohl <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+                  <hi rendition="#rkd">14</hi>
+               </hi>3]<hi rendition="#aq"> aus </hi>2<hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">23</hi> gewaltige] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">26</hi> Um<lb rendition="#hyphen"/>gebungen] <hi rendition="#aq">aus</hi> Veränderungen <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">27</hi> stellt] <hi rendition="#aq">davor gestr.</hi> scheint
+                  <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi> sein<lb/>Verhältniß] <hi rendition="#aq">aus</hi> seinen Unter <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">28</hi> Verändertes] <hi rendition="#aq">aus</hi> Veränderliches
+                  <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">32</hi> gefällt] <hi rendition="#aq">aus</hi> gefiel <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">33</hi> den] <hi rendition="#aq">aus</hi> im <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi> gegen das Ende] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+                  <lb/>
+                  <hi rendition="#b">289</hi>,<hi rendition="#rkd">4</hi>
+               </hi>1)]<hi rendition="#aq"> nachtr.(?) <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">8</hi> einigen] <hi rendition="#aq">aus</hi> ein Paar <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">16</hi> bei] <hi rendition="#aq">aus</hi> wol vor <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">17</hi> giebts <hi rendition="#aq">
+                  <hi rendition="#i">gÃªne</hi>] nachtr., versehentlich vor</hi> etc. <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi> das Sein im] <hi rendition="#aq">aus</hi> der <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">18</hi> artistischen] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi> anderweitige] <hi rendition="#aq">aus</hi> sonstige <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+                  <hi rendition="#rkd">22</hi>f.</hi> und Journalisti<lb rendition="#hyphen"/>kum]
+                  <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">25</hi> d. h. <hi rendition="#aq">bis</hi> rh.] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">32</hi> Religions] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>käuflich] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">35</hi> gepriesen] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">290</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">7</hi>
+               </hi> meinen] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">12</hi> werde] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">14</hi> wird] <hi rendition="#aq">aus</hi> ist <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi> die] <hi rendition="#aq">davor gestr.</hi> einigen Antheil<lb/>an <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">19</hi> daß dieser] <hi rendition="#aq">aus</hi> der <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi> zu] <hi rendition="#aq">davor gestr.</hi> nicht <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">20</hi> mit der Frau<lb/>Israels] <hi rendition="#aq">nachtr.
+                     <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">25</hi>
+               <hi rendition="#g">haben</hi>] <hi rendition="#aq">aus</hi>
+               <hi rendition="#g">will</hi>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi> preisen] <hi rendition="#aq">aus</hi> loben <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">26</hi> wie]<lb/>
+               <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">28</hi> an] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">30 </hi>mit unzähligen Druckfehlern] <hi rendition="#aq">nachtr.
+                     <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">31 </hi>desgleichen <hi rendition="#aq">bis <hi rendition="#rkd">32</hi>
+                  <hi rendition="#i">L. Z.</hi>] nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">33</hi> liesest] <hi rendition="#aq">aus</hi> liest <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">34</hi> Beobachtung]<lb/>
+               <hi rendition="#aq">aus</hi> Proph[ez]eiung <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">288</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">14</hi>
+               </hi>
+               <hi rendition="#aq">f. Vgl. Persönl. Nr. 151. <hi rendition="#rkd">26 </hi>
+                  <hi rendition="#g">Rienzi:</hi> s. zu Nr. 421. <hi rendition="#rkd">34 </hi>
+                  <hi rendition="#g">Haus<lb rendition="#hyphen"/>wirthin:</hi> Gruner, s. zu Nr.
+                  338; sie heiratete am 11. Sept. 1804 den<lb/>Kanzleidirektor Heinrich Karl
+                  Prätorius. <hi rendition="#b">289</hi>,<hi rendition="#rkd">23</hi>f. Vgl. Bd. VI,
+                     203,<hi rendition="#rkd">31</hi>f.<lb/>
+                  <hi rendition="#rkd">31</hi>f. Die <hi rendition="#g">Römische
+                     Religionskasse,</hi> ein Anhang zum Römischen Gesetz<lb rendition="#hyphen"/>buch, 3 Bände, Karlsruhe 1787—88; Exzerpte daraus im 37. Bande<lb/>(Nov. 1803).
+                     <hi rendition="#rkd">34</hi>f. Vigneul de <hi rendition="#g">Marville,</hi>
+                  Mélanges d’histoire et de<lb/>littérature, 3 vol., Rouen 1699—1701; Exzerpte
+                  ebenda. <hi rendition="#b">290</hi>,<hi rendition="#rkd">1</hi>ff. Vgl.<lb/>
+                  <hi rendition="#b">55</hi>,<hi rendition="#rkd">12</hi>. <hi rendition="#rkd">20</hi>
+                  <hi rendition="#g">Israel</hi> (Enzel), Emanuels älterer Bruder, hatte sich
+                  am<lb/>29. April 1804 wiederverheiratet. <hi rendition="#rkd">32</hi> Die <hi rendition="#g">Rezension des Titan</hi> in der<lb/>(Hallischen) Allg.
+                  Literaturzeitung, 14. März 1804, Nr. 79f., ist von<lb/>Franz Horn.</hi>
+            </p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

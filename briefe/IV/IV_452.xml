@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IV_452">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="459">452. An Emanuel. </title>
+            <title n="digital">An Emanuel. Coburg, 13. März 1804 bis 16. März 1804.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=IV_452</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/IV/IV_452</idno>
+               <idno type="TELOTAID">IV_452</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1960.</title>
+               <biblScope n="text" unit="page">
+                  <num>282</num>
+                  <num>283</num>
+                  <num>284</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>419</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date corresp="writingSession1" when="1804-03-13">13. März 1804</date>
+               <date corresp="writingSession2" when="1804-03-16">16. März 1804</date>
+               <placeName key="JP-005649" ref="http://www.geonames.org/2939951">Coburg </placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-003087" ref="http://d-nb.info/gnd/117154776">
+                  <name type="reg">Osmund</name> Emanuel</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=IV_448">18. Februar 1804 bis
+                  26. Februar 1804</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=IV_454">21. März 1804</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <div type="writingSession1">
+               <lb xml:id="IV_282-9"/>
+               <dateline>
+                  <hi rendition="#right">
+                     <hi rendition="#aq">
+                        <placeName>Koburg</placeName>
+                     </hi> d. <date>13. März 1804</date>.</hi>
+               </dateline>
+               <lb n="10" xml:id="IV_282-10"/>
+               <p>Schon wieder red’ ich drei Worte mit Ihnen. Ich habe jezt eine<lb xml:id="IV_282-11"/>Liebhaberei für Briefe an Sie. An jemand anders schreib’
+                  ich jezt<lb xml:id="IV_282-12"/>fast kaum mehr. — Zuerst über das Duel! Es ist
+                  keines möglich,<lb xml:id="IV_282-13"/>seitdem <hi rendition="#aq">W<metamark>[</metamark>angenheim<metamark>]</metamark>
+                  </hi> in der Konferenz öffentlich den Verkauf von<note corresp="#IV_282-14">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004599">
+                           <persName> Karl August Freiherr von <name type="reg">Wangenheim</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="IV_282-14"/>
+                  <hi rendition="#aq">E<metamark>[</metamark>rkersreuth<metamark>]</metamark>
+                  </hi> einen <hi rendition="#g">„Betrug“</hi> genant. Wer einen solchen
+                     Vorwurf<note corresp="#IV_282-15">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005720">
+                           <placeName>Erkersreuth</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="15" xml:id="IV_282-15"/>noch auf sich trägt: ist nicht stifts- und
+                  degenfähig und ebenbürtig zu<lb xml:id="IV_282-16"/>Stich und Schus. Man mus nach
+                  Duel-Gesezen, noch einige Ehre im<lb xml:id="IV_282-17"/>Leibe haben, um durch
+                  leztern geschossen zu werden. Jezt sizt der<lb xml:id="IV_282-18"/>Sieges-Adler
+                  wieder <hi rendition="#aq">W.</hi> auf der Schulter; der G. R. Lange findet<note corresp="#IV_282-19">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002347">
+                           <persName> Friedrich Wendelin <name type="reg">Lang</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="IV_282-19"/>schon ein <hi rendition="#aq">deficit</hi> von 70,000 und
+                  sein Prinz trit ihm folglich bei<note n="*)" place="foot">Neuerdings wieder nicht
+                     mehr so wahr.<lb n="35" type="ig"/>
+                  </note>;<note corresp="#IV_282-20">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002391">
+                           <persName> Prinz Karl von <name type="reg">Leiningen</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="20" xml:id="IV_282-20"/>auch konferiert jezt <hi rendition="#aq">W.</hi>
+                  mit <hi rendition="#aq">L.</hi> — Vorgestern sah ich den
+                     M<metamark>[</metamark>inister<metamark>]</metamark>
+                  <note corresp="#IV_282-21">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002256">
+                           <persName> Theodor Conrad (seit 1801) von <name type="reg">Kretschmann</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="IV_282-21"/>sehr traurig am Hofe. Er rührte mich wider Willen und ich
+                  kan es<lb xml:id="IV_282-22"/>überhaupt zu keinem rechten Hasse gegen ihn bringen.
+                  Ich weis recht<lb xml:id="IV_282-23"/>gut warum: 1) mich hat er persönlich nie
+                  gedrükt sondern beglükt —<lb xml:id="IV_282-24"/>2) ich habe immer mehr Verstand
+                  als Gefühl und Religiosität bei<lb n="25" xml:id="IV_282-25"/>ihm gesucht; und
+                  wurde folglich nicht erst entzaubert — 3) Kraft ist<lb xml:id="IV_282-26"/>immer
+                  edel; seine ewige Thätigkeit des Lernens und Thuns; sein<lb xml:id="IV_282-27"/>Hinübergreifen in alle fernsten Fächer, seine persönliche <hi rendition="#g">kalte</hi> Selbst<lb xml:id="IV_282-28" rendition="#hyphen"/>Wehr (ungeachtet
+                  seines Zornfeuers bei <hi rendition="#g">kleinen</hi> Verhältnissen) und<lb xml:id="IV_282-29"/>seine augenblikliche Mobil-Machung des ganzen Ideen-Lagers,
+                  die ich<lb n="30" xml:id="IV_282-30"/>noch bei keinem Menschen so gefunden; aber
+                  was am meisten ist</p>
+               <lb xml:id="IV_282-31"/>
+            </div>
+            <div n="writingSession2">
+               <dateline>
+                  <hi rendition="#left">d. 16.</hi>
+               </dateline>
+               <lb xml:id="IV_282-32"/>
+               <p>— ja das weis ich jezt nicht mehr, wenn es nicht die Achtung ist, die<lb xml:id="IV_282-33"/>man für jede grosse Geistes Kraft (daher man Eroberern so
+                  viel ver<lb xml:id="IV_282-34" rendition="#hyphen"/> giebt z. B. Friedrich <hi rendition="#aq">II)</hi> und besonders für die empfindet, welche mit<note corresp="#IV_283-1">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001181">
+                           <persName>
+                              <name type="reg">Friedrich II.</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="IV_283-1"/>glühendem Stempel ihre Bilder der Aussen-Welt aufprägt. —
+                     Vor<lb xml:id="IV_283-2" rendition="#hyphen"/>gestern bekam ich Ihre Briefgen.
+                  Ich dankte Gott, daß <hi rendition="#aq">Thieriot</hi> nicht<note corresp="#IV_283-3">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004275" ana="†">
+                           <persName> Paul Emile <name type="reg">Thieriot</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="IV_283-3"/>auf der Donau ersoffen war. Er sei mit alter und ältester
+                  Liebe ge<note corresp="#IV_283-4">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005682" ana="†">
+                           <placeName>Donau</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="IV_283-4" rendition="#hyphen"/>grüsset; ich versprech’ ihm, nächstens
+                  einen Brief zu versprechen. —<lb n="5" xml:id="IV_283-5"/>Meine ästhetischen
+                  Untersuchungen sind schon 25 Drukbogen stark. —<note corresp="#IV_283-6">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010970">
+                           <title>Vorschule der Aesthetik (1804)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="IV_283-6"/>Den Brief der <hi rendition="#aq">Helmina v. Klenke</hi>
+                  oder <hi rendition="#aq">Hastfehr</hi> und
+                     d<metamark>[</metamark>en<metamark>]</metamark>
+                  <hi rendition="#aq">Herder<note corresp="#IV_283-7">
+                        <listPerson type="lineReference">
+                           <person corresp="#JP-000619">
+                              <persName> Helmina von <name type="reg">Chézy</name>
+                              </persName>
+                           </person>
+                           <person corresp="#JP-001670">
+                              <persName> Caroline <name type="reg">Herder</name>
+                              </persName>
+                           </person>
+                        </listPerson>
+                     </note>
+                     <lb xml:id="IV_283-7" rendition="#hyphen"/>schen</hi> erbitte samt sehr alten
+                  Ladenhütern baldigst zurük, z. B. <hi rendition="#aq">Meu<note corresp="#IV_283-8">
+                        <listPerson type="lineReference">
+                           <person corresp="#JP-002794">
+                              <persName> Johann Daniel <name type="reg">Meusel</name>
+                              </persName>
+                           </person>
+                        </listPerson>
+                     </note>
+                     <lb xml:id="IV_283-8" rendition="#hyphen"/>sels</hi> Rechnung besonders. — Die
+                  Grosfürstin zieht wirklich nach<note corresp="#IV_283-9">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000091">
+                           <persName>
+                              <name type="reg">Anna Feodorowna</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="IV_283-9"/>
+                  <hi rendition="#aq">Fantaisie</hi> ein wenig. Auch hätt’ ich vorher durch Sie den
+                     Kastellan<note corresp="#IV_283-10">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-00557421">
+                           <placeName>Fantaisie (Phantasie) bei Bayreuth; Bayreuth
+                              (Stadt)</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="10" xml:id="IV_283-10"/>befragen müssen, ob es das Getäfel leidet, wenn <hi rendition="#aq">Emma</hi> darauf pisset,<note corresp="#IV_283-11">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003471">
+                           <persName> Emma <name type="reg">Richter</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="IV_283-11"/>oder obs so viel ist, als wenn der Vater auf der Strasse
+                  die Polizei<lb xml:id="IV_283-12"/>anlokt. — Was macht jezt mein Balbier-Bruder in
+                     <hi rendition="#aq">Bayreuth</hi> für<note corresp="#IV_283-13">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003478">
+                           <persName> Johann Adam Christian <name type="reg">Richter</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005574">
+                           <placeName>Bayreuth (Stadt)</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="IV_283-13"/>Sensazion? Ich hoffe auf dem Kin die kleinste. Ich bin ein
+                     ordentlicher<lb xml:id="IV_283-14"/>Kindernar geworden und finde die Rolle
+                  einer Kindermagd blos lieb<note corresp="#IV_283-15">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003483">
+                           <persName> Johann Paul Friedrich <name type="reg">Richter</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="15" xml:id="IV_283-15" rendition="#hyphen"/>lich. Aber wie in Ehen über
+                  Erziehen gezankt wird, davon haben Sie<lb xml:id="IV_283-16"/>keinen Begrif,
+                  sondern ich. <hi rendition="#aq">Max</hi> sticht in feiner Haut, Grazien- und<note corresp="#IV_283-17">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001393">
+                           <persName>
+                              <name type="reg">Grazien</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003490">
+                           <persName> Max <name type="reg">Richter</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="IV_283-17"/>philanthropischem Lächeln und Gesichts-Adel die <hi rendition="#aq">Emma</hi> aus, auch in<note corresp="#IV_283-18">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003471">
+                           <persName> Emma <name type="reg">Richter</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="IV_283-18"/>Ruhe und Kraft — kurz es ist ein Man, nämlich ein Mängen.
+                  — Den<lb xml:id="IV_283-19"/>Verf. der Beilage 17 kenn ich nicht. — Nächstens
+                  send’ ich Ihnen<lb n="20" xml:id="IV_283-20"/>meine Aequinokzial-Beobachtungen auf
+                  das Semester. So weit ich<lb xml:id="IV_283-21"/>heute bin, geht das Wetter an;
+                  nämlich vom 28 März bis 18 April<lb xml:id="IV_283-22"/>wirds <hi rendition="#g">ganz</hi> hel, blau, schön, Nächte kalt, 19—22 gestreift, Nächte<lb xml:id="IV_283-23"/>wärmer, es neigt sich zum folgenden Wetter — dan vom 23 bis
+                     Ende<lb xml:id="IV_283-24"/>und bis 12 Mai regnerisch. Den 13<hi rendition="#sup">ten</hi> könt’ ich erst heute nach 8 Uhr<lb n="25" xml:id="IV_283-25"/>weissagen. Ich kan Ihnen nicht beschreiben, wie mich die
+                     Bestimtheit<lb xml:id="IV_283-26"/>erfreuet, womit ich jezt von Monat in Monat
+                  hinaussehe, und wärs<lb xml:id="IV_283-27"/>auch nur, um mich darnach zu
+                  richten.</p>
+               <lb xml:id="IV_283-28"/>
+               <p>Noch steht das hiesige politische Gewitter fest und stil, ohne<lb xml:id="IV_283-29"/>Wetterscheide und Ableiter.<lb n="30" xml:id="IV_283-30"/>
+               </p>
+               <p>Leben Sie wohl und sorgen Sie ein wenig mehr für Ihre Freude,<lb xml:id="IV_283-31"/>an die Sie oft gar nicht denken vor fremder.</p>
+               <lb xml:id="IV_283-32"/>
+               <closer>
+                  <salute>
+                     <hi rendition="#right">R.</hi>
+                  </salute>
+               </closer>
+               <lb xml:id="IV_283-33"/>
+               <postscript>
+                  <p>Der Erbprinz sol eine Art 2<hi rendition="#sup">ter</hi> Minister werden und
+                     der 1 bleiben;<note corresp="#IV_283-34">
+                        <listPerson type="lineReference">
+                           <person corresp="#JP-000996">
+                              <persName>
+                                 <name type="reg">Ernst I.</name>
+                              </persName>
+                           </person>
+                           <person corresp="#JP-002256">
+                              <persName> Theodor Conrad (seit 1801) von <name type="reg">Kretschmann</name>
+                              </persName>
+                           </person>
+                        </listPerson>
+                     </note>
+                     <lb xml:id="IV_283-34"/>der jezt dem Stadtrathe unendlich viel nachgiebt, <hi rendition="#aq">cunctando devic<lb n="35" xml:id="IV_283-35" rendition="#hyphen"/>turus.</hi>
+                  </p>
+               </postscript>
+               <lb xml:id="IV_283-36"/>
+               <postscript>
+                  <p>
+                     <date>
+                        <hi rendition="#right">d. 18.</hi>
+                     </date>
+                  </p>
+                  <lb xml:id="IV_284-1"/>
+                  <p>
+                     <hi rendition="#aq">C.</hi> grüßet Sie und will bei Muße selber schreiben.
+                     Apropos heute<note corresp="#IV_284-2">
+                        <listPerson type="lineReference">
+                           <person corresp="#JP-003469">
+                              <persName> Caroline <name type="reg">Richter</name>
+                              </persName>
+                           </person>
+                        </listPerson>
+                     </note>
+                     <lb xml:id="IV_284-2"/>nahm ich die alte Orthographie wieder an.<lb xml:id="IV_284-3"/>
+                  </p>
+               </postscript>
+            </div>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: SBa. 4 S. 8°. Vermerk Emanuels: Am 25ten beantw. (nicht
+                     er<lb rendition="#hyphen"/>halten) <hi rendition="#i">K</hi> (nach Nr. 450):
+                     <hi rendition="#i">Eman.</hi>
+               </hi> 13 März. <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>: Denkw. 1,154×.<lb/>
+                  <hi rendition="#i">B</hi>: IV. Abt., IV, Nr.</hi>
+               <hi rendition="#aq">331. </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">282</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">17</hi>
+               </hi> muß <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi> noch] <hi rendition="#aq">aus</hi> schon <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">21</hi> mit] <hi rendition="#aq">davor gestr.</hi>
+               <lb/>häufig <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">27</hi> ewige] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">28</hi>
+               <hi rendition="#g">kalte</hi>] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">31</hi> so] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">34</hi> daher] <hi rendition="#aq">aus</hi> da <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi> viel] leicht <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">283</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">2</hi>
+               </hi> Aussen] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+                  <hi rendition="#rkd">7</hi>f.</hi> und den<lb/>
+               <hi rendition="#aq">
+                  <hi rendition="#i">Herderschen</hi>] nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">8 </hi>sehr] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi> baldigst] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">13</hi> Bruder]<lb/>Adam <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">22</hi> heute] <hi rendition="#aq">aus</hi> jezt <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">23</hi> wirds] <hi rendition="#aq">aus</hi> ists <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>22]<hi rendition="#aq"> aus </hi>24<hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">24</hi> es <hi rendition="#aq">bis</hi> Wetter] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>23]<hi rendition="#aq"> aus </hi>25<hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">25</hi> Denn <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi> könt’] <hi rendition="#aq">aus</hi> kan <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">29</hi> steht] <hi rendition="#aq">aus</hi> ist <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">282</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">26</hi>
+               </hi>
+               <hi rendition="#aq">f. <hi rendition="#g">Kraft ist immer edel:</hi> vgl. I. Abt.,
+                  XI, 202,16f. (Vorschule<lb/>der Ästhetik, § 58). <hi rendition="#b">283</hi>,<hi rendition="#rkd">3–5</hi> Emanuel hatte einen Brief <hi rendition="#g">Thieriots,</hi>
+                  <lb/>der von Regensburg zu Schiff nach Wien gereist war, gesandt, worin
+                  es<lb/>heißt: „Wie ich Richtern liebe? So daß ich ihn da fast hasse, wo ich ihn<lb/>
+                  <hi rendition="#g">nicht</hi> lieben kann. Heftig den Heftigen, <hi rendition="#g">ein wenig</hi> mitwechselnd den<lb/>Wechselnden, überall bauend auf einen den
+                  Sukzessionen substruirten<lb/>Grund der Gleichheit und Allseitigkeit, Allblick
+                  könnt’ ich auch sagen, und<lb/>am Ende auf eine närrische Aehnlichkeit mit mir
+                  selber, die ich an mir<lb/>niedriger schätze. (Ich glaubte ich schreibe an ihn.) —
+                  Dann ist er an mir<lb/>mehr mit meinem Contra einverstanden und vielleicht etwas
+                  prävenirt,<lb/>so wie Du für das Pro.“ 7 <hi rendition="#g">Brief der
+                     Helmina:</hi> an J. P. IV. Abt., IV, Nr. 316.<lb/>
+                  <hi rendition="#rkd">12</hi>f. Vgl. <hi rendition="#b">269</hi>,<hi rendition="#rkd">7</hi>ff. <hi rendition="#rkd">34</hi>
+                  <hi rendition="#g">Erbprinz:</hi> Ernst</hi>
+               <hi rendition="#aq">(1784—1806—1844)</hi>.</p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

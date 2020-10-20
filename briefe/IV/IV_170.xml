@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IV_170">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="176">170. An Christian Otto. </title>
+            <title n="digital">An Salomon Friedrich Merkel und Christian Otto. Meiningen, 28. Juli
+               1801.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=IV_170</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/IV/IV_170</idno>
+               <idno type="TELOTAID">IV_170</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1960.</title>
+               <biblScope n="text" unit="page">
+                  <num>92</num>
+                  <num>93</num>
+                  <num>94</num>
+                  <num>95</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>353</num>
+                  <num>354</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1801-07-28">28. Juli 1801</date>
+               <placeName key="JP-006012" ref="http://www.geonames.org/2872225">Meiningen
+               </placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-002776" ref="http://d-nb.info/gnd/12438272X">
+                  <name type="reg">Merkel</name> Salomon Friedrich </persName>
+               <persName key="JP-003112" ref="http://d-nb.info/gnd/118590804">
+                  <name type="reg">Otto</name> Christian </persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=IV_154">26. Juni 1801 bis 29.
+                  Juni 1801</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=IV_181">29. August 1801</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <dateline>
+               <hi rendition="#right">
+                  <hi rendition="#aq">
+                     <placeName>M<metamark>[</metamark>einingen<metamark>]</metamark>
+                     </placeName>
+                  </hi> d. <date>28. July 1801</date>.</hi>
+            </dateline>
+            <lb xml:id="IV_92-33"/>
+            <p>Lieber! Ich wolte erst auf den Abgang meines Schreibens an<lb xml:id="IV_92-34"/>
+               <hi rendition="#aq">Hardenberg</hi> und auf die Ankunft deines dritten warten, eh’
+               ich dieses<note corresp="#IV_92-35">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001530">
+                        <persName> Karl August Freiherr von <name type="reg">Hardenberg</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="35" xml:id="IV_92-35"/> brächte; aber nur jenen hab’ ich erlebt. — Was hier
+               den Brief<lb xml:id="IV_93-1" rendition="#hyphen"/>wechsel versüsset und erleichtert,
+               ist daß er wenig zu tragen hat;<lb xml:id="IV_93-2"/>was kan ich hier erleben als das
+               was ich erleben lasse, nämlich meine<lb xml:id="IV_93-3"/>Schreib-Szenen? — Jezt
+               könt’ ich, ohne Ungestüm, nicht in deinem<lb xml:id="IV_93-4"/>Falle sein; früher war
+               ich in manchen noch schlimmern. Ich knirschte<lb n="5" xml:id="IV_93-5"/>zu sehr <hi rendition="#aq">Ã  la Giannozzo.</hi> — Samuels neues Betragen und Schreiben<note corresp="#IV_93-6">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003485">
+                        <persName> Johann Samuel <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010629">
+                        <title>Des Luftschiffers Giannozzo Seebuch (1801)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="IV_93-6"/>gefält mir; mehr aber geben kan ich nicht; ich wil endlich, so
+               oft be<lb xml:id="IV_93-7" rendition="#hyphen"/>trogen, sparen, wenigstens für meine
+                  <hi rendition="#aq">C.,</hi> die ich lieber mit ihrem<note corresp="#IV_93-8">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003469" ana="ff">
+                        <persName> Caroline <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IV_93-8"/>zweiten Namen, <hi rendition="#aq">Leopoldine</hi> nennen
+               solte. Sie hat — was ich von<lb xml:id="IV_93-9"/>keiner weiblichen Seele weiter
+               sagen kan — <hi rendition="#g">gar keinen morali<lb n="10" xml:id="IV_93-10" rendition="#hyphen"/>schen</hi> Fet- oder Rostflecken; ich habe also, zumal da
+               sie eben so sehr die<lb xml:id="IV_93-11"/>Liebe (Aufopferung) selber ist als die
+               Tugend, alles von und an ihr,<lb xml:id="IV_93-12"/>was der Eigensin nur wil. Das
+               bessert mich. Sie fehlt blos mit der<lb xml:id="IV_93-13"/>Phantasie oder dem
+               Verstande, hat zuviel poetische Trunkenheit und<lb xml:id="IV_93-14"/>gutmüthige
+               Voraussezung. Aber mein kleinstes Bereden — nicht Be<lb n="15" xml:id="IV_93-15" rendition="#hyphen"/>zanken — drükt sie schon zu sehr. Noch immer bin ich ihr ein
+                  <hi rendition="#aq">J. P.,</hi>
+               <lb xml:id="IV_93-16"/>nicht <hi rendition="#aq">R.</hi> Und sie lieb’ ich in der Ehe
+               blos romantischer, heisser, ewiger<lb xml:id="IV_93-17"/>als vorher. —</p>
+            <lb xml:id="IV_93-18"/>
+            <p>Eben wurd’ ich durch Theegeselschaft bei mir gehindert. — <hi rendition="#aq">Gleim</hi>
+               <note corresp="#IV_93-19">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001328">
+                        <persName> Johann Wilhelm Ludwig <name type="reg">Gleim</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IV_93-19"/>schikte mir ein Silberschreibzeug mit Versen, die stat des <hi rendition="#aq">Giannozzo</hi>
+               <note corresp="#IV_93-20">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010629">
+                        <title>Des Luftschiffers Giannozzo Seebuch (1801)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="20" xml:id="IV_93-20"/>mehr Liebe begehren. — <hi rendition="#aq">Herders</hi>
+               beiliegender Brief <note n="*)" place="foot">Sende ihn gleich wieder ohne die
+                  andern.</note> war eine<note corresp="#IV_93-21">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001675">
+                        <persName> Johann Gottfried von <name type="reg">Herder</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IV_93-21"/>grüne Anhöhe vol herabrinnender Quellen; ich kam ohne Hofnung
+                  der<lb xml:id="IV_93-22"/>alten Liebe zu ihm — wegen meines Umgangs mit den
+                  Schlegelisten<note corresp="#IV_93-23">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003762">
+                        <persName>
+                           <name type="reg">Schlegelianer</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IV_93-23"/>— und erhielt eine wärmere, am meisten durch meine Frau. —
+                  Der<note corresp="#IV_93-24">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003469">
+                        <persName> Caroline <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IV_93-24"/>Herzog war einmal hier, ich muste Mittags und Abends bei ihm
+                  essen<note corresp="#IV_93-25">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001289">
+                        <persName> Herzog von Sachsen-Meiningen <name type="reg">Georg I.</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="25" xml:id="IV_93-25"/>und er wird mich immer angeln wollen; er hat viel Sin
+               und Kentnis<lb xml:id="IV_93-26"/>und Güte; aber — und hier niemand — keine Poesie
+               und Philosophie;<lb xml:id="IV_93-27"/>indes ist doch hier nicht rohe Kanzlei- oder
+               Komtoir-Verbildung wie<lb xml:id="IV_93-28"/>in <hi rendition="#aq">Bayreuth</hi> und
+                  <hi rendition="#aq">H<metamark>[</metamark>of<metamark>]</metamark>.</hi> —
+               Schreibe mir doch über die Rudolstädter<note corresp="#IV_93-29">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002455">
+                        <persName> Ernst Christian Wilhelm <name type="reg">Liebmann</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005574">
+                        <placeName>Bayreuth (Stadt)</placeName>
+                     </place>
+                     <place corresp="#JP-005841">
+                        <placeName>Hof im Vogtland</placeName>
+                     </place>
+                     <place corresp="#JP-006213">
+                        <placeName>Rudolstadt</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="IV_93-29"/>Konkursmassa, damit ich mich wenigstens von Monat zu Monat<lb n="30" xml:id="IV_93-30"/>bezahlen lasse. — <hi rendition="#aq">Amönens</hi>
+               trefliche Version — so weit sie sich aus<note corresp="#IV_93-31">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003108" ana="†">
+                        <persName> Amöne (Pseud. Amalie von Obyrn) <name type="reg">Otto</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003273" ana="†">
+                        <persName> Alexander <name type="reg">Pope</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009323">
+                        <author>Otto, Amöne (Johanna Christiana Amöna), geb. Herold (Pseud. Amalie
+                           von Obyrn) (1774-1837), Schriftstellerin, Tochter von Johann Georg
+                           Herold, ab 1800 Ehefrau von Georg Christian Otto</author>
+                        <title>Ossian. Proben einer Übersetzung (1801)</title>
+                     </bibl>
+                     <bibl corresp="#JP-009741" ana="†">
+                        <author>Seckendorff-Aberdar, Franz Karl Leopold von Freiherr (1775-1809),
+                           Schriftsteller (Werk, Hrsg.)</author>
+                        <title>Neujahrs-Taschenbuch von Weimar (1801)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="IV_93-31"/>sich selber erklärt — hab’ ich an niemand geschikt, weil
+                  Monats<lb xml:id="IV_93-32" rendition="#hyphen"/>schriften für Versionen nichts
+               geben und weil die ossianischen schon<note corresp="#IV_93-33">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010330" ana="†">
+                        <author/>
+                        <title>Ossian (Dichtungen von James Macpherson, 1736-1796)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="IV_93-33"/>viel zu oft da waren — einen Theil darin noch dazu
+               abgerechnet, den<lb xml:id="IV_93-34"/>schon Göthe im <hi rendition="#aq">Werther</hi> übersezte. — Aber bringe ihre gute recht<note corresp="#IV_93-35">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008523">
+                        <author>Goethe, Johann Wolfgang von (1749-1832)</author>
+                        <title>Werther (1774)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="35" xml:id="IV_93-35"/> sehr <hi rendition="#g">gezogne</hi> Feder lieber dazu
+               — was sie so gut könte — daß sie<lb xml:id="IV_94-1"/>etwas eignes fertigt; für
+               dieses wil ich froh der Lootsen und Weg<lb xml:id="IV_94-2" rendition="#hyphen"/>zeiger sein und man wird mirs danken. —</p>
+            <lb xml:id="IV_94-3"/>
+            <p>Herzlich dank’ ich dir für deine Schulzerei; du gabst mir mehr als ich<note corresp="#IV_94-4">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010695" ana="†">
+                        <title>Flegeljahre (1804-1805)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="IV_94-4"/>annehmen darf ohne Plagiat. Die Sache ist nur eine Nebenpartie
+                  des<lb n="5" xml:id="IV_94-5"/>Gemäldes. Mündlich mehr. Manches, z. B. das
+                  Kindbett’schieben<lb xml:id="IV_94-6"/>gegen die Soldatenbinde hatt ich schon. —
+               Ich bin, besonders um<lb xml:id="IV_94-7"/>Fenster in dein jeziges Ich zu haben, auf
+               deine Worte über meine ge<lb xml:id="IV_94-8" rendition="#hyphen"/>drukten Sachen
+               begierig. — Danke <hi rendition="#aq">Emanuel; C.</hi> sol ein Dinten<note corresp="#IV_94-9">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003087">
+                        <persName> Emanuel <name type="reg">Osmund</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003469">
+                        <persName> Caroline <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IV_94-9" rendition="#hyphen"/>Portrait seiner Frau beilegen; warlich in
+                  <hi rendition="#aq">Berlin</hi> fänd’ er so vielerlei<note corresp="#IV_94-10">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001977">
+                        <persName>
+                           <name type="reg">Juden</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005586">
+                        <placeName>Berlin</placeName>
+                     </place>
+                     <place corresp="#JP-0055861">
+                        <placeName>Juden; Berlin</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb n="10" xml:id="IV_94-10"/>(zumal da ich ihn an seine Beschneidungs Genossin, die
+                  <hi rendition="#aq">Mdme Herz</hi>
+               <note corresp="#IV_94-11">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001728">
+                        <persName> Henriette <name type="reg">Herz</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IV_94-11"/>empfähle) daß er gewis wie ich wiederkäme — begleitet. —</p>
+            <lb xml:id="IV_94-12"/>
+            <p>
+               <hi rendition="#aq">C.</hi> sehnt sich nach Euch beiden und <hi rendition="#aq">Emanuel</hi> und der Gegend so<note corresp="#IV_94-13">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003087">
+                        <persName> Emanuel <name type="reg">Osmund</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003108">
+                        <persName> Amöne (Pseud. Amalie von Obyrn) <name type="reg">Otto</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003469">
+                        <persName> Caroline <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IV_94-13"/>sehr, daß ich gewis im <hi rendition="#aq">Sept.</hi> mir
+               einen <hi rendition="#aq">Bayreuther</hi> Wagen bestelle<note corresp="#IV_94-14">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005574">
+                        <placeName>Bayreuth (Stadt)</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="IV_94-14"/>hieher <note n="*)" place="foot">Hier ist wenig Fuhrwerk;
+                  frage doch nach dem Preis, du köntest dan mit<lb n="35" type="ig"/>ob es gleich
+                  für nichts weiter zu rechnen wäre als ein Fahrt.</note>. — Sie hat nicht Einen
+               grosstädtischen Miszug, und<lb n="15" xml:id="IV_94-15"/>liebt die Einsamkeit fast zu
+               sehr; so wie sie hier alle Leute, bis zu<lb xml:id="IV_94-16"/>dem Hof-Gärtner — der
+               mich darum beschenkte und mit Recht —<lb xml:id="IV_94-17"/>gewint. —</p>
+            <lb xml:id="IV_94-18"/>
+            <p>Der sonst trefliche <hi rendition="#aq">Heß</hi> irt ganz über hier. — Ich arbeite
+               wie ein<note corresp="#IV_94-19">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006012" ana="†">
+                        <placeName>Meiningen </placeName>
+                     </place>
+                  </listPlace>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008731" ana="†">
+                        <author>Heß, Jonas Ludwig von (1756-1823), Publizist und
+                           Reiseschriftsteller</author>
+                        <title>Durchflüge durch Deutschland (1793-1800)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="IV_94-19"/>Vieh am 3. Titan; alles fliesset mir. Jezt wird mir das
+                  Stubenhocken<note corresp="#IV_94-20">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010897">
+                        <title>Titan (1800-1803)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="20" xml:id="IV_94-20"/>eine Lust. Sonst hätt’ ich nicht 3 Tage so leben
+               können.</p>
+            <lb xml:id="IV_94-21"/>
+            <p>Sage dem dummen <hi rendition="#aq">M. Höfer</hi> (ja wohl ein <hi rendition="#aq">Höfer</hi>) was <hi rendition="#aq">Harden<note corresp="#IV_94-22">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001530">
+                           <persName> Karl August Freiherr von <name type="reg">Hardenberg</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-001774" ana="†">
+                           <persName> Friedrich Wilhelm <name type="reg">Höfer</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005841">
+                           <placeName>Hof im Vogtland</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="IV_94-22" rendition="#hyphen"/>berg</hi> nicht könne, könne einer noch
+               weniger, der den Narren nicht<lb xml:id="IV_94-23"/>kenne. — Mein Pathgen <hi rendition="#aq">Wernlein</hi>
+               <metamark>[</metamark>!<metamark>]</metamark> war wieder bei mir und lies sich<note corresp="#IV_94-24">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004678" ana="†">
+                        <persName> Johann Friedrich Benjamin <name type="reg">Werner</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IV_94-24"/>bitlich und borgend 3 rtl. schenken. Dümmer<hi rendition="#u">s</hi> giebt<hi rendition="#u">s</hi> nicht<hi rendition="#u">s</hi>. — Bei<lb n="25" xml:id="IV_94-25"/>der Geheim Räthin Zink haus’ ich wenn du oder <hi rendition="#aq">Emanuel</hi> uns die<note corresp="#IV_94-26">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003087">
+                        <persName> Emanuel <name type="reg">Osmund</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-004864">
+                        <persName> von <name type="reg">Zink</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IV_94-26"/>Freude eurer Erscheinung in den Hinterhof auf eine artige
+                  äussere<lb xml:id="IV_94-27"/>Vortreppe herauftragen wolt ins linke oder rechte
+               Zimmer 1 Stok<lb xml:id="IV_94-28" rendition="#hyphen"/>werkgen hoch. Wie ein Junge
+               die Spinmaschine, so dreh’ ich mit<lb xml:id="IV_94-29"/>Einem Finger — der Ehering
+               liegt daran — die grössere, womit das<lb n="30" xml:id="IV_94-30"/>Glük, die Ordnung
+               und Labyrinths-Faden, Liebesseile etc. gesponnen<lb xml:id="IV_94-31"/>werden, kurz
+               das Haushaltungsgetriebe, das ungemein richtig geht<lb xml:id="IV_94-32"/>ohne Abgang
+               Eines Zähngens. Es thut mir herzlich
+               <metamark>[</metamark>leid<metamark>]</metamark>, daß die<lb xml:id="IV_94-33"/>Menschen dem deinigen manche Zähngen ausbrechen. Schreib nur<lb xml:id="IV_94-34"/>
+               wenigstens zu deinen litterarischen Akten, nicht litterarischer sondern<lb xml:id="IV_95-1"/>politischer Rüksicht wegen, das <hi rendition="#aq">concepit.</hi> —</p>
+            <lb xml:id="IV_95-2"/>
+            <p>Was du hier siehst, ist ganz neu angesezte Dinte, wovon ich dir<lb xml:id="IV_95-3"/>ein Näpfgen (du magst es dan durch deine verdünnen) mitgebe oder<lb xml:id="IV_95-4"/>mitbringe.<lb n="5" xml:id="IV_95-5"/>
+            </p>
+            <p>Lebe wohl. Bitte Emanuel um Vergebung daß ich nichts an ihn<note corresp="#IV_95-6">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003087">
+                        <persName> Emanuel <name type="reg">Osmund</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IV_95-6"/>schrieb als 8 Seiten, nämlich diese. Grüsse <hi rendition="#aq">Amöne.</hi> —<note corresp="#IV_95-7">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003108">
+                        <persName> Amöne (Pseud. Amalie von Obyrn) <name type="reg">Otto</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IV_95-7"/>
+            </p>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Berlin JP. 8 S. 8°. <hi rendition="#i">K</hi>: <hi rendition="#i">Otto</hi>
+               </hi> 31 [!] Jul. <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>: Otto 4,46× (28.<lb/>Aug.). <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>: Nerrlich Nr. 89× (28. Aug.). <hi rendition="#i">B</hi>: IV. Abt., IV, Nr. 157. <hi rendition="#i">A</hi>: IV. Abt., IV,
+                  Nr.</hi>
+               <hi rendition="#aq">167.</hi>
+               <lb/>
+               <hi rendition="#b">
+                  <hi rendition="#aq">92</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">33</hi>
+               </hi> July] <hi rendition="#aq">von Amönens Hand verb. in</hi> Aug. <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">93</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">5</hi>
+               </hi> in manchen]<lb/>
+               <hi rendition="#aq">aus</hi> darin <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">10</hi> weiblichen] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">12</hi> Liebe] <hi rendition="#aq">aus</hi> Tugend <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi> Tugend]<lb/>
+               <hi rendition="#aq">aus</hi> Liebe <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">16</hi> ein] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">27</hi> — und hier niemand —] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">28</hi>
+               <lb/>indes <hi rendition="#aq">bis <hi rendition="#rkd">29</hi>
+                  <hi rendition="#i">Hof</hi>] nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">34</hi> viel] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi> darin] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#b">94</hi>,<hi rendition="#rkd">1</hi>
+               <lb/>sehr] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi> könte] <hi rendition="#aq">aus</hi> kan <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">8 </hi>jeziges] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">17 </hi>Hof-] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">25</hi> und borgend] <hi rendition="#aq">nachtr., aus</hi> und
+               leihend <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+                  <hi rendition="#rkd">28</hi>f.</hi> 1 Stokwerkgen hoch]<lb/>
+               <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+                  <hi rendition="#b">95</hi>,<hi rendition="#rkd">1</hi>f.</hi> sondern politischer]
+                  <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">4 </hi>magst] <hi rendition="#aq">aus</hi> kanst <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Das richtige Datum hat wohl <hi rendition="#i">K.</hi>
+                  <hi rendition="#b">93</hi>,<hi rendition="#rkd">21</hi>
+                  <hi rendition="#g">Herders Brief:</hi> an J. P.<lb/>IV. Abt., IV, Nr. 158. <hi rendition="#rkd">29–31</hi> Vgl. <hi rendition="#b">10</hi>,<hi rendition="#rkd">18</hi>f. <hi rendition="#rkd">31</hi>ff. Otto hatte Proben
+                  von Übersetzungen<lb/>
+                  <hi rendition="#g">Amönens</hi> aus Ossian und Pope gesandt, die er in
+                  Seckendorffs Taschen<lb rendition="#hyphen"/>buch unterzubringen hoffte. Auf
+                  dieser Stelle beruht jedenfalls der Absatz<lb/>in dem apokryphen Brief an Amöne v.
+                  23. Dez. 1799 (s. Bd. III, 484,<lb/>Nr.</hi>
+               <hi rendition="#aq">366): </hi>Die mir beigelegte Ossianische Übersetzung, meine
+               Theure, ist schön<lb/>und poetisch; nur Schade, daß sich gerade mehrere daran gemacht
+               haben. Ich<lb/>wünschte Sie hätten etwas anderes zu Ihren Arbeiten gewählt. (<hi rendition="#aq">Otto 4,278.)<lb/>
+                  <hi rendition="#b">94</hi>,<hi rendition="#rkd">4–7</hi> Otto hatte sehr
+                  ausführlich die von Jean Paul <hi rendition="#b">73</hi>,<hi rendition="#rkd">13–16</hi> verlangten<lb/>Kollisionsmöglichkeiten dargelegt. <hi rendition="#rkd">9–12</hi> Vgl. <hi rendition="#b">79</hi>,<hi rendition="#rkd">36</hi> und Nr. 183. <hi rendition="#rkd">19</hi> L. v.<lb/>
+                  <hi rendition="#g">Heß</hi> hatte sich in seinen „Durchflügen durch Deutschland“
+                  (s. Bd. III,<lb/>Nr. 511, 366,<hi rendition="#rkd">30</hi>†) sehr abfällig über
+                  Meiningen geäußert, was Otto erwähnt hatte.<lb/>22 Wahrscheinlich Friedrich
+                  Wilhelm <hi rendition="#g">Höfer</hi> (1751—?), ehemaliger Zucht<lb rendition="#hyphen"/>hausprediger in St. Georgen bei Bayreuth, der 1798 „durch
+                  ein trauriges<lb/>Mißgeschick“ seines Amtes enthoben worden war (Fikenscher). <hi rendition="#rkd">24</hi>f.<lb/>
+                  <hi rendition="#g">Wernlein:</hi> versehentlich oder scherzhaft statt Werner; vgl.
+                  Bd. III,<lb/>379,<hi rendition="#rkd">6</hi>†; zu den drei unterstrichenen s vgl.
+                  Bd. III, 168,<hi rendition="#rkd">16</hi>f. <hi rendition="#b">95</hi>,<hi rendition="#rkd">1</hi>f. Vgl.<lb/>
+                  <hi rendition="#b">83</hi>,<hi rendition="#rkd">8</hi>f.</hi>
+            </p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

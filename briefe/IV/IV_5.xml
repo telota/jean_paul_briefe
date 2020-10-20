@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IV_5">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="5">5. An Böttiger in Weimar. </title>
+            <title n="digital">An Carl August Böttiger. Berlin, 17. Oktober 1800.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=IV_5</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/IV/IV_5</idno>
+               <idno type="TELOTAID">IV_5</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1960.</title>
+               <biblScope n="text" unit="page">
+                  <num>3</num>
+                  <num>4</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>317</num>
+                  <num>318</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+            <listBibl type="commentary" subtype="werke">
+               <bibl corresp="#JP-009905">
+                  <author>Tieck (Tiek, Thieck), Ludwig (Pseud. Peter Leberecht, Gottlieb Färber)
+                     (1773-1853)</author>
+                  <title>Der gestiefelte Kater (1797)</title>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1800-10-17">17. Oktober 1800</date>
+               <placeName key="JP-005586" ref="http://www.geonames.org/2950159">Berlin</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000400" ref="http://d-nb.info/gnd/118824775">
+                  <name type="reg">Böttiger</name> Carl August</persName>
+               <placeName key="JP-006395" ref="http://www.geonames.org/2812482">Weimar</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=III_531">30. September
+                  1800</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=IV_29">15. November 1800</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <dateline>
+               <hi rendition="#right">
+                  <hi rendition="#aq">
+                     <placeName>Berlin</placeName>.</hi> d. <date>17. Okt. 1800</date>.</hi>
+            </dateline>
+            <lb xml:id="IV_3-26"/>
+            <p>Zuerst die beiden Bücher die ich nicht gestohlen da ich nicht einmal<note corresp="#IV_3-27">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004127" ana="†">
+                        <persName> Germaine Baronne de <name type="reg">Staël-Holstein</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IV_3-27"/>aus Büchern stehle — ich gab sie meiner Hausfrau zum
+                  Zurüktragen;<note corresp="#IV_3-28">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002290">
+                        <persName> Wilhelmine Auguste <name type="reg">Kühnoldt</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IV_3-28"/>wahrscheinlich vergas sie den Ort und brachte sie zu <hi rendition="#aq">Herder.</hi> — Im<note corresp="#IV_3-29">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001675">
+                        <persName> Johann Gottfried von <name type="reg">Herder</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IV_3-29"/>heutigen Brief bin ich noch in Rüksicht des Stofs ein <hi rendition="#aq">pauvre honteux.</hi>
+               <lb n="30" xml:id="IV_3-30"/>Ein Paar Worte über Mozarts <hi rendition="#aq">Requiem,</hi> Büri und Merkel kan<note corresp="#IV_3-31">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000559">
+                        <persName> Friedrich <name type="reg">Bury</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-002774">
+                        <persName> Garlieb <name type="reg">Merkel</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009233">
+                        <author>Mozart, Wolfgang Amadeus (1756-1791)</author>
+                        <title>Requiem (1791)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="IV_3-31"/>Ihnen <hi rendition="#aq">Herder</hi> vorlesen da ichs nicht
+               von mir gewinnen kan, mich —<note corresp="#IV_3-32">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001675">
+                        <persName> Johann Gottfried von <name type="reg">Herder</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IV_3-32"/>ausser meinen Büchern — zu wiederholen. Grosse Gelehrte hab’
+                  ich<lb xml:id="IV_3-33"/>hier weniger noch besucht als gelehrte Grosse; dreimal as
+               ich bei dem<lb xml:id="IV_3-34"/>treflichen Minister <hi rendition="#aq">v.
+                  Alvensleben,</hi> wo ich auch den guten <hi rendition="#aq">Ifland</hi>
+               <note corresp="#IV_3-35">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000069">
+                        <persName> Philipp Karl Graf <name type="reg">Alvensleben</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-001879" ana="†">
+                        <persName> August Wilhelm <name type="reg">Iffland</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008158" ana="†">
+                        <author>Böttiger (Bötticher), Karl August (1760-1835), Philologe, Pädagoge
+                           und Altertumsforscher</author>
+                        <title>Entwicklung des Ifflandischen Spiels (1796)</title>
+                     </bibl>
+                     <bibl corresp="#JP-008162" ana="†">
+                        <author>Böttiger (Bötticher), Karl August (1760-1835), Philologe, Pädagoge
+                           und Altertumsforscher</author>
+                        <title>Zum Besten unserer Muttersprache (1811)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="35" xml:id="IV_3-35"/>fand. Sein eignes Zeugnis und sein Spiel in der
+               Lästerschule beweisen<note corresp="#IV_3-36">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-00558652" ana="†">
+                        <placeName>Theater (Französisches Komödienhaus, Schauspielhaus,
+                           Nationaltheater); Berlin</placeName>
+                     </place>
+                  </listPlace>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009786" ana="†">
+                        <author>Sheridan, Richard Princeley (1751-1816), engl. Dramatiker</author>
+                        <title>The School for Scandal (1777)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="IV_3-36"/> den Saz den ich oft schon gegen seinen Todfeind <hi rendition="#aq">Bernh<metamark>[</metamark>ardi<metamark>]</metamark>
+               </hi> ver<note corresp="#IV_4-1">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000319">
+                        <persName> August Ferdinand <name type="reg">Bernhardi</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IV_4-1" rendition="#hyphen"/>focht, daß er dem kalten Verstande nur die
+               eine Hälfte, und dem Genie<lb xml:id="IV_4-2"/>die andere danke. Denn das, was diese
+               Beobachtungen macht, ge<lb xml:id="IV_4-3" rendition="#hyphen"/>braucht und in Ein
+               organisiertes Ganze verknüpft, mus doch Genie<lb xml:id="IV_4-4"/>sein. — <hi rendition="#aq">Flek</hi> hätte beinahe den fünften tragischen Akt auf seine
+                  eigne<note corresp="#IV_4-5">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001106" ana="†">
+                        <persName> Ferdinand <name type="reg">Fleck</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="5" xml:id="IV_4-5"/>Rechnung gespielt; aber er kam davon als Monorch. Monarch
+                  —<lb xml:id="IV_4-6"/>Monorch; Verwechslung beider ist in unserm anorchischen
+                  Säkulum<lb xml:id="IV_4-7"/>sehr leicht.</p>
+            <lb xml:id="IV_4-8"/>
+            <p>Merkel hält nicht gut in meiner Nähe aus; was den Hühnern eine<note corresp="#IV_4-9">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002774">
+                        <persName> Garlieb <name type="reg">Merkel</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IV_4-9"/>mit Fuchsdärmern <metamark>[</metamark>!<metamark>]</metamark>
+               bezogne Harfe ist, bin ich ihm. Bei <hi rendition="#aq">Sander</hi>
+               <note corresp="#IV_4-10">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003658">
+                        <persName> Johann Daniel <name type="reg">Sander</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="10" xml:id="IV_4-10"/>war ich. Den lebensfrohen und nicht lebenssatten,
+               lustigen <hi rendition="#aq">Teller</hi> sah<note corresp="#IV_4-11">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004253">
+                        <persName> Wilhelm Abraham <name type="reg">Teller</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IV_4-11"/>ich bei dem ehrlichen <hi rendition="#aq">Herz;</hi> eben da
+               auch <hi rendition="#aq">Zölner</hi> und <hi rendition="#aq">Nicolai,</hi>
+                  dieses<note corresp="#IV_4-12">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003000">
+                        <persName> Christoph Friedrich <name type="reg">Nicolai </name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-004870">
+                        <persName> Johann Friedrich <name type="reg">Zöllner</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IV_4-12"/>trefliche Diogenes-Laerzius-Paar vol Anekdoten, deren
+                  Wahrheit<note corresp="#IV_4-13">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000803">
+                        <persName> Laërtius <name type="reg">Diogenes</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IV_4-13"/>beide durch ihre evangelistische Harmonie und durch die
+               tägliche Wieder<note corresp="#IV_4-14">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010237">
+                        <author/>
+                        <title>Evangelien</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="IV_4-14" rendition="#hyphen"/>holung schön beweisen. Durch <hi rendition="#aq">Herder</hi> hab’ ich (wenige ausgenommen)<lb n="15" xml:id="IV_4-15"/>allen Geschmak am hiesigen gelehrten Prosaisten-Stab verloren.
+                  Der<lb xml:id="IV_4-16"/>Stab wil mirs verdenken, daß er mir nicht
+               ausserordentlich gefället;<lb xml:id="IV_4-17"/>aber wenn Menschen ganz gedrukt
+               werden können wie hier, so sucht<lb xml:id="IV_4-18"/>man besser die auf, die nicht
+               gedrukt werden können, nämlich die Wei<lb xml:id="IV_4-19" rendition="#hyphen"/>ber.
+               Nikolai’s Werk über die Perücken ist mit Einsicht und nicht frivol<note corresp="#IV_4-20">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009287">
+                        <author>Nicolai (Nikolai), Christoph Friedrich (1733-1811), Schriftsteller
+                           und Verleger</author>
+                        <title>Über den Gebrauch der falschen Haare (1801)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="20" xml:id="IV_4-20"/>sondern in einem dem Gegenstande angemessenen Ernste
+                  abgefasset<lb xml:id="IV_4-21"/>und ohne die Sprünge einer wilden Phantasie —
+               ausgenommen ein<lb xml:id="IV_4-22"/>Paar auf die Zöpfe. — <hi rendition="#aq">Fichte</hi> und die Ausstellung sah ich nicht. Er<note corresp="#IV_4-23">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001073" ana="†">
+                        <persName> Johann Gottlieb <name type="reg">Fichte</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-0061650" ana="†">
+                        <placeName>Königliche Akademie der bildenden Künste und mechanischen
+                           Wissenschaften zu Berlin; Preußen </placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="IV_4-23"/>lebt hier ganz eingebauet und schweigend. <hi rendition="#aq">Alvensleben</hi> bewies an<note corresp="#IV_4-24">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000069">
+                        <persName> Philipp Karl Graf <name type="reg">Alvensleben</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IV_4-24"/>einer grossen Tafel seine Unschädlichkeit dadurch, daß er jeden
+                  fragte,<lb n="25" xml:id="IV_4-25"/>ob er ihn gelesen; und da ihn keiner gelesen,
+               auch er nicht: so schlos er,<lb xml:id="IV_4-26"/>daß Bücher nicht sonderlich schaden
+               könten, die man gar nicht — läse.</p>
+            <lb xml:id="IV_4-27"/>
+            <p>Grüssen Sie recht herzens-warm meinen <hi rendition="#aq">Wieland,</hi> die Herzogin
+                  A<metamark>[</metamark>ma<note corresp="#IV_4-28">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000090">
+                        <persName>
+                           <name type="reg">Anna Amalia</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-004710">
+                        <persName> Christoph Martin <name type="reg">Wieland</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IV_4-28" rendition="#hyphen"/>lie<metamark>]</metamark> und ihre
+               Satelliten; auch <hi rendition="#aq">Falk;</hi> und die Ihrigen. Leben Sie wohl.</p>
+            <note corresp="#IV_4-29">
+               <listPerson type="lineReference">
+                  <person corresp="#JP-001032">
+                     <persName> Johannes Daniel <name type="reg">Falk</name>
+                     </persName>
+                  </person>
+               </listPerson>
+            </note>
+            <lb xml:id="IV_4-29"/>
+            <postscript>
+               <p>1. N. S. Ich und mein <hi rendition="#aq">Ahlefeldt</hi> leben in einem Paar
+                     Himmeln<note corresp="#IV_4-30">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000044">
+                           <persName> Johann Georg Jacob von <name type="reg">Ahlefeldt</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="30" xml:id="IV_4-30"/>mit und neben einander.</p>
+            </postscript>
+            <lb xml:id="IV_4-31"/>
+            <postscript>
+               <p> 2. N. S. Grüssen Sie, wenn sie Ihnen begegnet, meine unverges<lb xml:id="IV_4-32" rendition="#hyphen"/>liche Hausfrau und sagen Sie ihr, es gehe mir so wohl als
+                  sei ich unter<note corresp="#IV_4-33">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002290">
+                           <persName> Wilhelmine Auguste <name type="reg">Kühnoldt</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="IV_4-33"/>ihrem Dach.</p>
+            </postscript>
+            <lb xml:id="IV_4-34"/>
+            <postscript>
+               <p>3. N. S. Archenholz hat meinen Aufsaz über die <hi rendition="#aq">Corday</hi> für
+                     meine<note corresp="#IV_4-35">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000119" ana="†">
+                           <persName> Johann Wilhelm von <name type="reg">Archenholtz</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-008043" ana="†">
+                           <author>Archenholtz (Archenholz), Johann Wilhelm von (1743-1812),
+                              Publizist, Historiker (Werk, Hrsg.)</author>
+                           <title>Minerva, Zeitschrift (1792ff.)</title>
+                        </bibl>
+                     </listBibl>
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010592" ana="†">
+                           <title>Der 17. Juli oder Charlotte Corday (1801)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb n="35" xml:id="IV_4-35"/>beste Arbeit erklärt; welche Unwahrheit mir lieb
+                  ist.</p>
+            </postscript>
+            <lb xml:id="IV_4-36"/>
+            <postscript>
+               <p>
+                  <hi rendition="#aq">Bury</hi> malt <hi rendition="#aq">Fichte.</hi>
+               </p>
+               <note corresp="#IV_4-37">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000559">
+                        <persName> Friedrich <name type="reg">Bury</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-001073">
+                        <persName> Johann Gottlieb <name type="reg">Fichte</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IV_4-37"/>
+            </postscript>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Germ. Museum, Nürnberg. 3 S. 4°; auf der 4. S.
+                  Adr.:</hi> H. Oberkon<lb rendition="#hyphen"/>sistorialrath <hi rendition="#aq">
+                  <hi rendition="#i">Böttiger Weimar. K</hi> (nach Nr. 3): <hi rendition="#i">Böttiger</hi>
+               </hi> 17 Okt. <hi rendition="#aq">
+                  <hi rendition="#i">B</hi>:<lb/>IV. Abt., IV, Nr. 6. <hi rendition="#i">A</hi>: IV.
+                  Abt., IV, Nr. 28. <hi rendition="#b">3</hi>,<hi rendition="#rkd">30</hi>
+                  <hi rendition="#i">pauvre</hi>] davor</hi> moralischer <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">31</hi> kan] <hi rendition="#aq">aus</hi> sol <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#b">
+                  <hi rendition="#aq">4</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">1</hi>
+               </hi> oft schon] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi> verfocht] <hi rendition="#aq">aus</hi> verfechte <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+                  <hi rendition="#rkd">3</hi>f.</hi> gebraucht] <hi rendition="#aq">aus</hi>
+               <lb/> ordnet <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#aq">
+                  <hi rendition="#rkd">7</hi>
+               </hi> beider] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi> unsern <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi> Säkulum] Zeiten <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">12 </hi>dem<lb/>ehrlichen] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+                  <hi rendition="#rkd">18</hi>f.</hi> Menschen ... können ... die] <hi rendition="#aq">aus</hi> ein Mensch ...<lb/>kan ... den <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">19</hi> nämlich] <hi rendition="#aq">aus</hi> und das sind <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">20</hi> mit Einsicht und] <hi rendition="#aq">aus</hi>
+               <lb/>sehr gut, <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">22</hi> die] <hi rendition="#aq">aus</hi> grosse <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">23</hi> Paar] <hi rendition="#aq">danach gestr.</hi> mal <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">27</hi>
+               <lb/>sonderlich] <hi rendition="#aq">aus</hi> sehr <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Nach <hi rendition="#i">A</hi> wurde der Brief (wohl zusammen mit
+                  Nr. 4 und 6) durch einen<lb/>lievländischen Kurier bestellt. <hi rendition="#b">3</hi>,<hi rendition="#rkd">27</hi> Böttiger hatte geschrieben, Jean<lb/>Paul
+                  sei ihm mit zwei <hi rendition="#g">Büchern</hi> (darunter eines von der Staël)
+                     durchge<lb rendition="#hyphen"/>gangen. <hi rendition="#rkd">35</hi>
+                  <hi rendition="#g">Alvensleben:</hi> s. Nr. 16†. Über <hi rendition="#g">Ifflands</hi> Spiel hatte Bötti<lb rendition="#hyphen"/>ger 1796 eine Schrift
+                  herausgegeben, die Tieck im „Gestiefelten Kater“<lb/>(1797) verspottet hatte. 36
+                  R. Br. Sheridans „<hi rendition="#g">Lästerschule</hi>“ wurde<lb/>am 13. Okt. 1800
+                  gegeben. <hi rendition="#b">4</hi>,<hi rendition="#rkd">5</hi>f. <hi rendition="#g">Fleck</hi> hatte durch eine Operation eine<lb/>Hode verloren und
+                  trat erst am 18. Dezember wieder auf. 9f. Vgl.<lb/>I. Abt., VI, 19,<hi rendition="#rkd">35</hi> und Persönl. 61,<hi rendition="#rkd">7</hi>f. <hi rendition="#rkd">11 </hi>Wilhelm Abraham <hi rendition="#g">Teller</hi>
+                  <lb/>(1734—1804), Oberkonsistorialrat in Berlin, aufgeklärter Theolog. <hi rendition="#rkd">12</hi>
+                  <lb/>Markus <hi rendition="#g">Herz</hi> (1747—1803), Arzt und Philosoph
+                  (Kantianer), Henriettens<lb/>Gatte. <hi rendition="#g">Zöllner:</hi> s. Bd. III,
+                  Nr. 482, 346,<hi rendition="#rkd">3</hi>†. <hi rendition="#rkd">20</hi>
+                  <hi rendition="#g">Nicolai</hi>, „Über den Gebrauch<lb/>der falschen Haare und
+                  Perücken in alten und neuern Zeiten“, Berlin<lb/>1801. <hi rendition="#rkd">23
+                  </hi>Nach <hi rendition="#g">Fichte</hi> und der Kunstausstellung hatte Böttiger
+                  sich<lb/>erkundigt. <hi rendition="#rkd">35</hi>
+                  <hi rendition="#g">Archenholz</hi> hatte in seiner Zeitschrift „Minerva“,
+                  1800,<lb/>3. Bd., S. 560, Jean Pauls Aufsatz über Charlotte Corday günstig
+                     bespro<lb rendition="#hyphen"/>chen.</hi>
+            </p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

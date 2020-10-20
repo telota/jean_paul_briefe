@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="IV_326">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="332">326. An Emanuel. </title>
+            <title n="digital">An Emanuel. Meiningen, 18. Oktober 1802.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=IV_326</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/IV/IV_326</idno>
+               <idno type="TELOTAID">IV_326</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1960.</title>
+               <biblScope n="text" unit="page">
+                  <num>186</num>
+                  <num>187</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>389</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+            <listPerson type="commentary">
+               <person corresp="#JP-003112">
+                  <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                  </persName>
+               </person>
+            </listPerson>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1802-10-18">18. Oktober 1802</date>
+               <placeName key="JP-006012" ref="http://www.geonames.org/2872225">Meiningen
+               </placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-003087" ref="http://d-nb.info/gnd/117154776">
+                  <name type="reg">Osmund</name> Emanuel</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=IV_321">9. Oktober 1802</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=IV_328">3. November 1802</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <dateline>
+               <hi rendition="#right">
+                  <hi rendition="#aq">
+                     <placeName>Meiningen</placeName>
+                  </hi> d. <date>18. Okt. 1802</date>.</hi>
+            </dateline>
+            <lb xml:id="IV_186-17"/>
+            <p>Anlangend das Bier: ists freilich betrübt, daß ich, seit ich Ihren<note corresp="#IV_186-18">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-0055740">
+                        <placeName>Bier; Bayreuth (Stadt)</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="IV_186-18"/>Brief habe, mich jeden Tag auf Eine <hi rendition="#aq">Bout.</hi> heruntergesezt, um etwan<lb xml:id="IV_186-19"/>zu langen bis zum
+                  12<hi rendition="#sup">ten</hi> oder 13<hi rendition="#sup">ten</hi>
+               <hi rendition="#aq">Nov.,</hi> wo hoffentlich mein kraus<lb n="20" xml:id="IV_186-20" rendition="#hyphen"/>haariger spashafter oft in <hi rendition="#aq">Bayreuth</hi>
+               gewesener und wohlfeiler<note n="*)" place="foot">
+                  <metamark>[</metamark>
+                  <hi rendition="#aq">
+                     <hi rendition="#i">von Karoline:</hi>
+                  </hi>
+                  <metamark>]</metamark> Für den Eimer von <hi rendition="#aq">Koburg</hi> 1
+                     Laubthaler.<note corresp="#IV_186-33">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003469">
+                           <persName> Caroline <name type="reg">Richter</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005649">
+                           <placeName>Coburg </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="IV_186-33"/>
+               </note>
+               <note corresp="#IV_186-21">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005574">
+                        <placeName>Bayreuth (Stadt)</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="IV_186-21"/>Einspänner wieder <hi rendition="#aq">retour</hi> sein kan.
+               Ich bitte Sie um scharfe Be<lb xml:id="IV_186-22" rendition="#hyphen"/>stimmungen in
+               dieser bedeutenden Sache.</p>
+            <lb xml:id="IV_186-23"/>
+            <p>Damit Sie an <hi rendition="#aq">Emma’s</hi> Tauftag einen Tropfen trinken und
+                  keinen<note corresp="#IV_186-24">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003471" ana="ff†">
+                        <persName> Emma <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IV_186-24"/>übrig lassen können, so zeig’ ich Ihnen hiemit an, daß g. G.
+               — <hi rendition="#aq">s. v. (f)</hi>
+               <lb n="25" xml:id="IV_186-25"/>— den 24 dies die innere und äussere Kopf-Taufe
+                  zusammenfallen<lb xml:id="IV_186-26"/>sollen. Der Himmel und die Post machen nur,
+               daß meine Nachricht<lb xml:id="IV_186-27"/>nicht hinter dem Aktus anlange! Der Name
+               ist: <hi rendition="#aq">Emma, Emanuele,<lb xml:id="IV_186-28"/>Georgine, Amalie,
+                  Idoine.</hi> Leztern Titans Namen geb’ ich aus<note corresp="#IV_186-29">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010911">
+                        <title>Titan (1800-1803): Idoine</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="IV_186-29"/>pädagogischer Klugheit. Meine <hi rendition="#aq">C.</hi> mag
+               die Pathen vorsummieren.<note corresp="#IV_186-30">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003469">
+                        <persName> Caroline <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="30" xml:id="IV_186-30"/>
+            </p>
+            <p>
+               <hi rendition="#aq">Otto</hi> ist mir ellenlange Briefe schuldig; Sie schuhlange. —
+                  <hi rendition="#aq">C.</hi> und<note corresp="#IV_186-31">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003112">
+                        <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003469">
+                        <persName> Caroline <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IV_186-31"/>
+               <hi rendition="#aq">E.</hi> (künftig bedeutet <hi rendition="#aq">E.</hi> allemal
+               meine <hi rendition="#aq">Emma</hi>), (dies mein <hi rendition="#aq">
+                  <hi rendition="#b">e c.</hi> 〈et</hi>
+               <lb xml:id="IV_186-32"/>
+               <hi rendition="#aq">caetera〉</hi> nach dem Tod,) sind gesund; nur ist noch viel
+                  verdamtes<lb xml:id="IV_187-1"/>Weiberwesen um mich herum. — Gehen Sie nach <hi rendition="#aq">Berlin?</hi> Ich möchte<note corresp="#IV_187-2">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005586">
+                        <placeName>Berlin</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="IV_187-2"/>Ihnen vorher Instrukzionen und Karten geben; Sie landen in
+                  einer<lb xml:id="IV_187-3"/>neuen Weltpartie an. — Der Herzog ist in Wien und
+               München. —<note corresp="#IV_187-4">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001289" ana="†">
+                        <persName> Herzog von Sachsen-Meiningen <name type="reg">Georg I.</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006040">
+                        <placeName>München</placeName>
+                     </place>
+                     <place corresp="#JP-006405">
+                        <placeName>Wien</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="IV_187-4"/>Mit diesem Jahre, (sagen Sie sich und <hi rendition="#aq">Otto,</hi>) wird der Titan (40 etc.<note corresp="#IV_187-5">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003112">
+                        <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="5" xml:id="IV_187-5"/>Bogen etwan) beschlossen und zugespert. Ich bat Gott
+               stil immer, nur<lb xml:id="IV_187-6"/>nicht mich vor diesem Ende in meines zu rufen.
+               — Freilich passet diese<lb xml:id="IV_187-7"/>Bitte auch für die 2 nächsten Werke.
+               Auch die <hi rendition="#aq">op<metamark>[</metamark>era<metamark>]</metamark>
+                  omnia</hi> möcht’<lb xml:id="IV_187-8"/>ich vorher geben eh’ droben meine <hi rendition="#aq">op<metamark>[</metamark>era<metamark>]</metamark>
+                     minusc<metamark>[</metamark>ula<metamark>]</metamark> et majuscula</hi>
+               <lb xml:id="IV_187-9"/>gerichtet würden; denn so ist der Mensch. Ich weis nicht; seit
+               der <hi rendition="#aq">E</hi>
+               <lb n="10" xml:id="IV_187-10"/>sehn’ ich mich sehr nach meinem alten <hi rendition="#aq">E/O</hi> oder ö<note n="*)" place="foot">
+                  <hi rendition="#aq">Otto, Emanuel.</hi>
+                  <lb n="35" xml:id="IV_187-35"/>
+               </note> (Nent Euch das ö),<note corresp="#IV_187-11">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003112">
+                        <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IV_187-11"/>der Diphthong solte sie sehen. — Lebt wohl! Von <hi rendition="#aq">Renate</hi> möcht ich<note corresp="#IV_187-12">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003126">
+                        <persName> Renate <name type="reg">Otto</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IV_187-12"/>etwas wissen. Sie stekt nun einmal als ein Stiftgen fest in
+                  meiner<lb xml:id="IV_187-13"/>Vergangenheits-Musaik. — Sonderbar-gesund bin ich
+               (indes oder<lb xml:id="IV_187-14"/>weil ich wenig zu Leuten komme), Dank dem <hi rendition="#aq">b<metamark>[</metamark>ayreuther<metamark>]</metamark>
+                  B.〈iere〉</hi>
+               <note corresp="#IV_187-15">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-0055740">
+                        <placeName>Bier; Bayreuth (Stadt)</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb n="15" xml:id="IV_187-15"/>und dessen Geber! —</p>
+            <lb xml:id="IV_187-16"/>
+            <floatingText>
+               <body>
+                  <div rendition="#smaller">
+                     <note type="editorial">
+                        <hi rendition="#aq">
+                           <hi rendition="#i">von Karoline:</hi>
+                        </hi>
+                     </note>
+                     <p>Die Pathen sind:</p>
+                     <note corresp="#IV_187-17">
+                        <listPerson type="lineReference">
+                           <person corresp="#JP-003469">
+                              <persName> Caroline <name type="reg">Richter</name>
+                              </persName>
+                           </person>
+                        </listPerson>
+                     </note>
+                     <lb xml:id="IV_187-17"/>
+                     <list>
+                        <item>Herzogin v. <hi rendition="#aq">Weimar.</hi>
+                        </item>
+                        <note corresp="#IV_187-18">
+                           <listPerson type="lineReference">
+                              <person corresp="#JP-000090">
+                                 <persName>
+                                    <name type="reg">Anna Amalia</name>
+                                 </persName>
+                              </person>
+                           </listPerson>
+                        </note>
+                        <lb xml:id="IV_187-18"/>
+                        <item>Herzog v. <hi rendition="#aq">Meiningen.</hi>
+                        </item>
+                        <note corresp="#IV_187-19">
+                           <listPerson type="lineReference">
+                              <person corresp="#JP-001289">
+                                 <persName> Herzog von Sachsen-Meiningen <name type="reg">Georg
+                                       I.</name>
+                                 </persName>
+                              </person>
+                           </listPerson>
+                        </note>
+                        <lb xml:id="IV_187-19"/>
+                        <item>Frl. v. <hi rendition="#aq">Hendtrich.</hi>
+                        </item>
+                     </list>
+                     <note corresp="#IV_187-20">
+                        <listPerson type="lineReference">
+                           <person corresp="#JP-001649">
+                              <persName> Amalie (?) von <name type="reg">Hendrich</name>
+                              </persName>
+                           </person>
+                        </listPerson>
+                     </note>
+                     <lb n="20" xml:id="IV_187-20"/>
+                     <list>
+                        <item>Hofräthin <hi rendition="#aq">Heim.</hi>
+                        </item>
+                        <note corresp="#IV_187-21">
+                           <listPerson type="lineReference">
+                              <person corresp="#JP-001604">
+                                 <persName> Johanna <name type="reg">Heim</name>
+                                 </persName>
+                              </person>
+                           </listPerson>
+                        </note>
+                        <lb xml:id="IV_187-21"/>
+                        <item>Präsident <hi rendition="#aq">Heim.</hi>
+                        </item>
+                        <lb xml:id="IV_187-22"/>
+                        <item>Sekretair Schwendler.</item>
+                        <note corresp="#IV_187-23">
+                           <listPerson type="lineReference">
+                              <person corresp="#JP-003966">
+                                 <persName> Friedrich Christian August <name type="reg">Schwendler</name>
+                                 </persName>
+                              </person>
+                           </listPerson>
+                        </note>
+                        <lb xml:id="IV_187-23"/>
+                        <item>mein Vater.</item>
+                        <note corresp="#IV_187-24">
+                           <listPerson type="lineReference">
+                              <person corresp="#JP-002703">
+                                 <persName> Johann Siegfried Wilhelm <name type="reg">Mayer</name>
+                                 </persName>
+                              </person>
+                           </listPerson>
+                        </note>
+                        <lb xml:id="IV_187-24"/>
+                        <item>(und<note n="**)" place="foot">
+                              <metamark>[</metamark>
+                              <hi rendition="#aq">
+                                 <hi rendition="#i">von Jean Paul:</hi>
+                              </hi>
+                              <metamark>]</metamark> Nur zum Spasse, denn ich lies das Trio gar
+                              nicht ins<lb type="ig"/>Kirchenbuch bringen.</note> 3 Tanten aus
+                              Berlin).<note corresp="#IV_187-25">
+                              <listPerson type="lineReference">
+                                 <person corresp="#JP-002705">
+                                    <persName> Johann Siegfried Wilhelm <name type="reg">Mayer</name>
+                                    </persName>
+                                 </person>
+                                 <person corresp="#JP-003332" ana="?">
+                                    <persName> Frau von <name type="reg">Rabe</name>
+                                    </persName>
+                                 </person>
+                              </listPerson>
+                              <listPlace type="lineReference">
+                                 <place corresp="#JP-005586">
+                                    <placeName>Berlin</placeName>
+                                 </place>
+                              </listPlace>
+                           </note>
+                           <lb n="25" xml:id="IV_187-25"/>
+                        </item>
+                     </list>
+                     <lb xml:id="IV_187-26"/>
+                     <p>
+                        <hi rendition="#et">und der Besizer dieses Verzeichnisses.</hi>
+                     </p>
+                     <note corresp="#IV_187-27">
+                        <listPerson type="lineReference">
+                           <person corresp="#JP-003469">
+                              <persName> Caroline <name type="reg">Richter</name>
+                              </persName>
+                           </person>
+                           <person corresp="#JP-003471">
+                              <persName> Emma <name type="reg">Richter</name>
+                              </persName>
+                           </person>
+                        </listPerson>
+                     </note>
+                     <lb xml:id="IV_187-27"/>
+                     <note type="editorial">
+                        <hi rendition="#aq">
+                           <hi rendition="#i">von Karoline:</hi>
+                        </hi>
+                     </note>
+                     <p>Guten Morgen, bester <hi rendition="#aq">Emanuel</hi> — mein Kind schreit,
+                           daher<lb xml:id="IV_187-28"/>nichts weiter.</p>
+                  </div>
+               </body>
+            </floatingText>
+         </div>
+         <!--<div rendition="#smaller">
+            <note type="editorial">
+               <hi rendition="#aq">
+                  <hi rendition="#i">von Karoline:</hi>
+               </hi>
+            </note>
+            <p>Die Pathen sind:</p>
+            <lb/>
+            <list>
+               <item>Herzogin v. <hi rendition="#aq">Weimar.</hi>
+               </item>
+               <lb/>
+               <item>Herzog v. <hi rendition="#aq">Meiningen.</hi>
+               </item>
+               <lb/>
+               <item>Frl. v. <hi rendition="#aq">Hendtrich.</hi>
+               </item>
+            </list>
+            <lb n="20"/>
+            <list>
+               <item>Hofräthin <hi rendition="#aq">Heim.</hi>
+               </item>
+               <lb/>
+               <item>Präsident <hi rendition="#aq">Heim.</hi>
+               </item>
+               <lb/>
+               <item>Sekretair Schwendler.</item>
+               <lb/>
+               <item>mein Vater.</item>
+               <lb/>
+               <item>(und<note n="**)" place="foot">
+                     <metamark>[</metamark>
+                     <hi rendition="#aq">
+                        <hi rendition="#i">von Jean Paul:</hi>
+                     </hi>
+                     <metamark>]</metamark> Nur zum Spasse, denn ich lies das Trio gar nicht ins<lb type="ig"/>Kirchenbuch bringen.</note> 3 Tanten aus Berlin).<lb n="25"/>
+               </item>
+            </list>
+            <lb/>
+            <p>
+               <hi rendition="#et">und der Besizer dieses Verzeichnisses.</hi>
+            </p>
+            <lb/>
+            <note type="editorial">
+               <hi rendition="#aq">
+                  <hi rendition="#i">von Karoline:</hi>
+               </hi>
+            </note>
+            <p>Guten Morgen, bester <hi rendition="#aq">Emanuel</hi> — mein Kind schreit,
+               daher<lb/>nichts weiter.</p>
+         </div>-->
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: SBa. 3 S. 8°; auf der 4. S. Adr.:</hi> H. <hi rendition="#aq">
+                  <hi rendition="#i">Emanuel Bayreuth</hi>
+               </hi> fr. <hi rendition="#aq">Ver<lb rendition="#hyphen"/>merk Emanuels: 28ten Oct.
+                  beantw. (nicht erhalten) <hi rendition="#i">K</hi>: <hi rendition="#i">Eman. 18.
+                     Nov.</hi>
+                  <lb/>[!] <hi rendition="#i">J</hi>: Denkw. 1,114×. <hi rendition="#b">186</hi>,<hi rendition="#rkd">17</hi>
+               </hi>18.]<hi rendition="#aq"> aus </hi>10.<hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">23</hi> in dieser bedeutenden<lb/>Sache] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">25</hi> können] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+                  <hi rendition="#rkd">26 </hi>
+               </hi>24]<hi rendition="#aq"> aus </hi>27<hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi> Kopf-]<lb/>
+               <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+                  <hi rendition="#rkd">29</hi>
+                  <hi rendition="#i">Georgine</hi>] nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">31</hi> schuhlange] <hi rendition="#aq">aus</hi> Schuhlange <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#b">
+                  <hi rendition="#aq">187</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">1</hi>
+               </hi> dem] meinem <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">2</hi> herum] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">9</hi> eh’] <hi rendition="#aq">danach gestr.</hi> ich <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">11</hi> Euch] <hi rendition="#aq">aus</hi> euch <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">12</hi> Diphthong] <hi rendition="#aq">so <hi rendition="#i">K</hi>,</hi> Diphtong <hi rendition="#aq">
+                  <hi rendition="#i">H</hi> (vgl.</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">193</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">21</hi>
+               </hi>
+               <hi rendition="#aq">)</hi> sie]<lb/>mich <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">186</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">25</hi>
+               </hi>
+               <hi rendition="#aq">f. </hi>
+               <hi rendition="#aq">Die Taufe hatte schon am 17. Oktober stattgefunden, s. <hi rendition="#b">189</hi>,<hi rendition="#rkd">15–19</hi>.<lb/>
+                  <hi rendition="#b">187</hi>,<hi rendition="#rkd">4</hi> Über diese Reise des
+                  Herzogs s. I. Abt., XII, 289,<hi rendition="#rkd">36</hi>ff. <hi rendition="#rkd">18–26</hi> Das<lb/>Meininger Kirchenbuch nennt außer den hier angeführten
+                  Paten noch<lb/>Christian Otto, aber nicht die drei Tanten und Emanuel.</hi>
+            </p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>
