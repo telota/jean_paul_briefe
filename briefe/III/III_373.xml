@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="III_373">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="378">373. An Friedrich von Oertel in Belgershain. </title>
+            <title n="digital">An Friedrich Benedikt von Oertel. Weimar, 27. Dezember 1799 bis 2.
+               Januar 1800.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=III_373</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/III/III_373</idno>
+               <idno type="TELOTAID">III_373</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
+               <biblScope n="text" unit="page">
+                  <num>271</num>
+                  <num>272</num>
+                  <num>273</num>
+                  <num>274</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>486</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date corresp="writingSession1" when="1799-12-27">27. Dezember 1799</date>
+               <date corresp="writingSession2" when="1799-12-29">29. Dezember 1799</date>
+               <date corresp="writingSession3" when="1800-01-02">2. Januar 1800</date>
+               <placeName key="JP-006395" ref="http://www.geonames.org/2812482">Weimar</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-003039" ref="http://d-nb.info/gnd/100802834">
+                  <name type="reg">Oertel</name> Friedrich Benedikt von</persName>
+               <placeName key="JP-005578" ref="http://www.geonames.org/2951254">Belgershain bei
+                  Leipzig</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=III_321">28. September
+                  1799</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=III_454">29. April 1800 bis 1.
+                  Mai 1800</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <div n="writingSession1">
+               <note corresp="#III_271-20">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010762">
+                        <title>Hesperus (1795): Viktor</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="20" xml:id="III_271-20"/>
+               <dateline>
+                  <hi rendition="#right">
+                     <hi rendition="#aq">
+                        <placeName>Weimar</placeName> d. <date>27. Dec. 99</date>
+                     </hi>.</hi>
+               </dateline>
+               <lb xml:id="III_271-21"/>
+               <p>Mein alter lieber Freund! Keine grössere, wenigstens keine schönere<lb xml:id="III_271-22"/>Überraschung kontest du mir gewähren als die, daß du
+                  gerade durch<lb xml:id="III_271-23"/>ein eignes Werk dich gegen mich widerlegst
+                  und mich gegen dich be<note corresp="#III_271-24">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-009304" ana="ff†">
+                           <author>Oertel, Friedrich Benedikt von (Pseud. Theophilus Speck)
+                              (1767-1807), Schriftsteller</author>
+                           <title>Diethelm (1800)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="III_271-24" rendition="#hyphen"/>stätigst. Du kenst deine ungerechte
+                  Selbstrezension von deiner dra<lb n="25" xml:id="III_271-25" rendition="#hyphen"/>matischen Unfähigkeit und meine Antikritik. Noch denselben Nach<lb xml:id="III_271-26" rendition="#hyphen"/> mittag genos ich dein Werkgen bis auf
+                  den lezten Tropfen. Die<lb xml:id="III_272-1"/>Karakterist<metamark>[</metamark>ik<metamark>]</metamark> deiner Personen ist
+                  durchaus herlich, fest und fein,<lb xml:id="III_272-2"/>besonders die weibliche;
+                  und besser als bei Voß — die Situazionen, die<note corresp="#III_272-3">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-009996" ana="†">
+                           <author>Voß, Johann Heinrich (1751-1826), Dichter und Übersetzer</author>
+                           <title>Luise. Ein ländliches Gedicht in drei Idyllen (1783-84, 1795 u.
+                              ö.)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="III_272-3"/>Landschaft, das Komische (das besonders) und die Fabel
+                  lob’ ich. An<lb xml:id="III_272-4"/>der leztern ist nur die zertrennende 2jährige
+                  Abwesenheit des Helden<lb n="5" xml:id="III_272-5"/>ein Eksteingen. Du hättest
+                  vielleicht die Szene mit der Erwartung seiner<lb xml:id="III_272-6"/>Rükkehr öfnen
+                  können mit Einschiebung des Vergangnen; oder doch<lb xml:id="III_272-7"/>ihn auf
+                  einem Paar Seiten durch die Welt führen und die Schilderung<lb xml:id="III_272-8"/>der Weiber zum <hi rendition="#g">Bei</hi>werk machen können. Ergreifend ist <hi rendition="#aq">p.</hi> 50 ausser<lb xml:id="III_272-9"/>dem ganzen Abend die
+                  hohe Nichtvolendung der Zeile, und die herliche<lb n="10" xml:id="III_272-10"/>einfache Zeile selber. Du siehst nun, was du vermagst. Was ich tadle,<lb xml:id="III_272-11"/>betrift blos die Härten, Dunkelheiten und Neuerungen des
+                     Vers<lb xml:id="III_272-12" rendition="#hyphen"/>baues, die aber in jedem
+                  Gesange milder werden. An individueller<lb xml:id="III_272-13"/>Wahrheit sind die
+                     Schwest<metamark>[</metamark>ern<metamark>]</metamark>
+                     v<metamark>[</metamark>on<metamark>]</metamark> Lesbos weit übertroffen;
+                     freilich<note corresp="#III_272-14">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-008668">
+                           <author>Helvig, Amalie von, geb. von Imhoff</author>
+                           <title>Die Schwestern von Lesbos (1799)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="III_272-14"/>die von der Geschichte bescheerte Fabel weniger. — Du
+                  solst rathen,<lb n="15" xml:id="III_272-15"/>ob ich alle 3 Exemplare noch habe. —
+                  Mir grauset nun vor meiner<lb xml:id="III_272-16"/>alg<metamark>[</metamark>emeinen<metamark>]</metamark> Welthistorie in
+                  Millionen Bänden. Daher schreib ich<lb xml:id="III_272-17"/>am liebsten an Jacobi,
+                  zu dem ich nicht von mir sondern von Ideen<note corresp="#III_272-18">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001909">
+                           <persName> Friedrich Heinrich <name type="reg">Jacobi</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_272-18"/>rede. — Wahrscheinlich — um einer Freundin gleich weit
+                     entgegen<note corresp="#III_272-19">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004228">
+                           <persName> Josephine von <name type="reg">Sydow</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_272-19" rendition="#hyphen"/>zureisen — komm’ ich im Februar nach
+                     <hi rendition="#aq">Berlin</hi> also nach <hi rendition="#aq">Leipzig;</hi>
+                     hier<note corresp="#III_272-20">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005586">
+                           <placeName>Berlin</placeName>
+                        </place>
+                        <place corresp="#JP-005948">
+                           <placeName>Leipzig</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="20" xml:id="III_272-20"/>bring ich dir Briefe und Nachrichten mit. — Nur
+                  die nächsten: das<lb xml:id="III_272-21"/>edelste weibliche Wesen, (das ich in <hi rendition="#aq">Hildburghausen</hi> fand, Fräul.<note corresp="#III_272-22">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005832">
+                           <placeName>Hildburghausen</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="III_272-22"/>
+                  <hi rendition="#aq">Caroline v. Feuchtersleben</hi>), mit dem ich meine vorigen
+                     Spiel<note corresp="#III_272-23">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001059" ana="ff">
+                           <persName> Caroline Henriette Susanne Friederike von <name type="reg">Feuchtersleben</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_272-23" rendition="#hyphen"/>Kameradinnen der Liebe gar nicht
+                  vergleichen darf, wird im künftigen<lb xml:id="III_272-24"/>Jahre die Meinige, <hi rendition="#g">wenn</hi> die verneinenden Verwandten bejahen.<note corresp="#III_272-25">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001061">
+                           <persName> Christoph Erdmann Feuchter von <name type="reg">Feuchtersleben</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="25" xml:id="III_272-25"/>Ein Brief-Fragment, das <hi rendition="#aq">Herdern</hi> zu ihrem Freund machte, leg’ ich<note corresp="#III_272-26">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001675">
+                           <persName> Johann Gottfried von <name type="reg">Herder</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_272-26"/>bei.<lb xml:id="III_272-27"/>
+               </p>
+            </div>
+            <div n="writingSession2">
+               <dateline>
+                  <hi rendition="#right">
+                     <hi rendition="#aq">d. 29. Dec.</hi>
+                  </hi>
+               </dateline>
+               <lb xml:id="III_272-28"/>
+               <p>
+                  <hi rendition="#g">Schweige</hi> über das Vorige. Ich habe so viel über die stolze
+                     hohe<lb xml:id="III_272-29"/>Seele zu sagen, daß ichs jezt nicht kan, gerade
+                  jezt, wo sie, da sie ihrer<lb n="30" xml:id="III_272-30"/>Mutter das Geständnis
+                  ihres Verhältnis gemacht, nun mit mir von<note corresp="#III_272-31">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001067">
+                           <persName> Rosalie Sophie Marie von <name type="reg">Feuchtersleben</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_272-31"/>kalten, obwohl gegen sie warmen, Verwandten den Raub oder
+                     die<note corresp="#III_272-32">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001061">
+                           <persName> Christoph Erdmann Feuchter von <name type="reg">Feuchtersleben</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_272-32"/>Gabe der innern Zukunft erwartet. Lasse mich nicht reden
+                  jezt, warlich<lb xml:id="III_272-33"/>du hörest alles. —<lb xml:id="III_272-34"/>
+               </p>
+               <p>Mein <hi rendition="#aq">Herder</hi> kan mich nun nicht 2 Abende entbehren; und
+                  ich ihn<note corresp="#III_272-35">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001675">
+                           <persName> Johann Gottfried von <name type="reg">Herder</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="35" xml:id="III_272-35"/>nicht — nim ihn aus <hi rendition="#aq">Weimar</hi> heute, so bin ich morgen nicht mehr<note corresp="#III_272-36">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006395">
+                           <placeName>Weimar</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="III_272-36"/> darin. Ich hass’ es. — <hi rendition="#aq">Kotzebue</hi>
+                  komt zu mir, giebt mir seine Stücke<note corresp="#III_273-1">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002228">
+                           <persName> August von <name type="reg">Kotzebue</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_273-1"/>zur Kritik; er ist schwach, aber auch nichts bessers oder
+                     schlimmers.<lb xml:id="III_273-2"/>— Der <hi rendition="#aq">Titan</hi> wird
+                  der Herzogin v. <hi rendition="#aq">Hildburghausen</hi> und ihren<note corresp="#III_273-3">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000608">
+                           <persName> Georgine Luise Friederike <name type="reg">Charlotte</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010926">
+                           <title>Titan (1800-1803): Widmung (Der Traum der Wahrheit)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="III_273-3"/>3 Schwestern dediziert; sie gab mir die liebevolleste
+                  Erlaubnis dazu.<note corresp="#III_273-4">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001168">
+                           <persName> Fürstin zu Solms <name type="reg">Friederike</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-002548">
+                           <persName>
+                              <name type="reg">Luise</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-004298">
+                           <persName> Therese Mathilde Amalie Fürstin von <name type="reg">Thurn und
+                                 Taxis</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_273-4"/>Ihr Kopf ist für mich so schön, daß ich immer darüber
+                  vergesse, daß<lb n="5" xml:id="III_273-5"/>ein Fürstenhut darauf sizt. —<lb xml:id="III_273-6"/>
+               </p>
+            </div>
+            <div n="writingSession3">
+               <dateline>
+                  <hi rendition="#right">d. <date>2. Jenn. 1800</date>.</hi>
+               </dateline>
+               <lb xml:id="III_273-7"/>
+               <p>Ich möchte deine Hand jezt drücken und dan aufmachen und dan dir<lb xml:id="III_273-8"/>lauter gute <hi rendition="#aq">Auspizien</hi> aus ihr
+                  vorlesen. Sei recht glüklich mit deiner<lb xml:id="III_273-9"/>Beglückenden!
+                     —<note corresp="#III_273-10">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003036">
+                           <persName> Friederike Sophie von <name type="reg">Oertel</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="10" xml:id="III_273-10"/>
+                  <lb type="ig"/>
+               </p>
+               <p>3 Jahre hintereinander hieng immer die Wage vom Himmel, die<lb xml:id="III_273-11"/>für mich eine Ehe entschied oder zerris. — Sie hängt noch. —<lb xml:id="III_273-12"/>
+               </p>
+               <p>Über Fichte’s Philosophie, die ich jezt aus ihren eignen Wurzeln<note corresp="#III_273-13">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001073">
+                           <persName> Johann Gottlieb <name type="reg">Fichte</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_273-13"/>kenne, hab’ ich eine <hi rendition="#g">widerlegende</hi>
+                     Satire<note n="*)" place="foot">Noch wenige kennen das Fichtische System, aus
+                     seiner Appellazion ist gar<note corresp="#III_273-35">
+                        <listPerson type="lineReference">
+                           <person corresp="#JP-001073">
+                              <persName> Johann Gottlieb <name type="reg">Fichte</name>
+                              </persName>
+                           </person>
+                        </listPerson>
+                     </note>
+                     <lb n="35" xml:id="III_273-35"/>nichts zu nehmen.<lb xml:id="III_273-36"/>
+                  </note> gemacht (<hi rendition="#aq">clavis Fich<note corresp="#III_273-14">
+                        <listBibl type="lineReference" subtype="werke-jp">
+                           <bibl corresp="#JP-010571">
+                              <title>Clavis Fichtiana (1800)</title>
+                           </bibl>
+                        </listBibl>
+                     </note>
+                     <lb xml:id="III_273-14" rendition="#hyphen"/>tiana seu Leibgeberiana</hi>), die
+                  hier so viel Beifal findet, daß man mich<lb n="15" xml:id="III_273-15"/>beredet,
+                  sie stat ins Akzessit-Bändgen des <hi rendition="#aq">Titans,</hi> besonders
+                     drucken<note corresp="#III_273-16">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010779">
+                           <title>Komischer Anhang zum Titan (1800-1801)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="III_273-16"/>zu lassen der Gemeinnüzigkeit halber. Jezt ist der <hi rendition="#aq">Clavis</hi> bei <hi rendition="#aq">Jacobi,</hi>
+                  <note corresp="#III_273-17">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001909">
+                           <persName> Friedrich Heinrich <name type="reg">Jacobi</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_273-17"/>dessen philosophisches <hi rendition="#aq">Votum</hi>
+                  mich bisher in allen meinen Aufsäzen<lb xml:id="III_273-18"/>tröstete. — Lies doch
+                     <hi rendition="#aq">Neeb</hi> „Vernunft gegen Vernunft“ den mir<note corresp="#III_273-19">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-009282">
+                           <author>Neeb, Johann (1767-1843), Philosoph</author>
+                           <title>Vernunft gegen Vernunft (1797)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="III_273-19"/>
+                  <hi rendition="#aq">Jacobi</hi> empfohlen; er ist wenigstens — herlich.<note corresp="#III_273-20">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001909">
+                           <persName> Friedrich Heinrich <name type="reg">Jacobi</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="20" xml:id="III_273-20"/>
+                  <lb type="ig"/>
+               </p>
+               <p>Ich wolte dich, da ich nun schon in 3 Parzen-Gestalten vorn an<note corresp="#III_273-21">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003155">
+                           <persName>
+                              <name type="reg">Parzen</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003205" ana="†">
+                           <persName> Heinrich <name type="reg">Pfenninger</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-008168" ana="†">
+                           <author>Bollinger, Friedrich Wilhelm (1777-1825), Kupferstecher</author>
+                           <title>Porträtstich von Jean Paul</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="III_273-21"/>Büchern stehe — vor dem <hi rendition="#aq">Hesperus,</hi> der alg<metamark>[</metamark>emeinen<metamark>]</metamark>
+                  deutschen Biblio<note corresp="#III_273-22">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-009291" ana="†">
+                           <author>Nicolai (Nikolai), Christoph Friedrich (1733-1811),
+                              Schriftsteller und Verleger (Werk, Hrsg.)</author>
+                           <title>Allgemeine deutsche Bibliothek (1765-1796, 1793-1806 Neue)</title>
+                        </bibl>
+                     </listBibl>
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010727">
+                           <title>Hesperus (1795)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="III_273-22" rendition="#hyphen"/>thek und vor einer Breslauer Samlung
+                  berühmter Gelehrter, wo die<note corresp="#III_273-23">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005622">
+                           <placeName>Breslau</placeName>
+                        </place>
+                     </listPlace>
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-010210">
+                           <author/>
+                           <title>Bildnisse merkwürdiger deutscher Schriftsteller (1799)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="III_273-23"/>Aeznadel mich eben so sehr tadelnd als die Feder lobend,
+                  entstelte — ich<lb xml:id="III_273-24"/>wolte dich schon lange bitten der Welt zu
+                  sagen, daß sie betrogen wird.<lb n="25" xml:id="III_273-25"/>Thu’ es, wenn du <hi rendition="#g">grosse</hi> Lust dazu hast. Jezt malt mich ein herlicher<lb xml:id="III_273-26"/>Mensch aus Rom, <hi rendition="#aq">Büri</hi> — weil <hi rendition="#aq">Herder</hi> und er nicht ablies —, der<note corresp="#III_273-27">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000559" ana="†">
+                           <persName> Friedrich <name type="reg">Bury</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-001675">
+                           <persName> Johann Gottfried von <name type="reg">Herder</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006205">
+                           <placeName>Rom, römisch</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="III_273-27"/>hier <hi rendition="#aq">Herder,</hi> die Herzogin, Göthe
+                  malt und dan nach <hi rendition="#aq">Berlin</hi> abfliegt,<note corresp="#III_273-28">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001353">
+                           <persName> Johann Wolfgang von <name type="reg">Goethe</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-002544">
+                           <persName> Auguste <name type="reg">Luise</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005586">
+                           <placeName>Berlin</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="III_273-28"/>die Königin zu malen und dan nach <hi rendition="#aq">Rom,</hi> um die Welt zu malen.<note corresp="#III_273-29">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002548">
+                           <persName>
+                              <name type="reg">Luise</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_273-29"/>
+                  <hi rendition="#aq">Herdern</hi> hat er genialisch verewigt und verkörpert.<lb n="30" xml:id="III_273-30"/>
+                  <lb type="ig"/>
+               </p>
+               <p>Alles was du über dein Brief-Schweigen sagst, wird von meinem<lb xml:id="III_273-31"/>
+                  <hi rendition="#g">innigsten unpartheiischen</hi> Gefühl widerlegt. Hüte dich;
+                     deine<lb xml:id="III_273-32"/>grosse moralische Kraft, die ich so ehre, ist und
+                  war dem Egoismus ver<lb xml:id="III_273-33" rendition="#hyphen"/>wandter als du
+                  weist. Du hast reichlicher die (in unserer Zeit seltenern)<lb xml:id="III_273-34"/> Tugenden und Opfer gegen dich als die gegen andere und du bist<lb xml:id="III_274-1"/>schwerer <hi rendition="#g">nachzuahmen</hi> als zu <hi rendition="#g">ergänzen.</hi> — Für dein Lob in <hi rendition="#aq">Diet<note corresp="#III_274-2">
+                        <listBibl type="lineReference" subtype="werke">
+                           <bibl corresp="#JP-009304" ana="†">
+                              <author>Oertel, Friedrich Benedikt von (Pseud. Theophilus Speck)
+                                 (1767-1807), Schriftsteller</author>
+                              <title>Diethelm (1800)</title>
+                           </bibl>
+                        </listBibl>
+                     </note>
+                     <lb xml:id="III_274-2" rendition="#hyphen"/>helm</hi> dank’ ich dir innig, ob
+                  gleich darin der <hi rendition="#g">Dichter</hi> und der <hi rendition="#g">Freund</hi>
+                  <lb xml:id="III_274-3"/>zngleich gemalt, wovon schon einer hinreicht, zu
+                  verschönern und glän<lb xml:id="III_274-4" rendition="#hyphen"/>zend die Wolke zu
+                  färben und diese vorher zu machen.<lb n="5" xml:id="III_274-5"/>
+               </p>
+               <p>Zwar nicht übermässig viele, aber doch an 3,000,000,000,000 Dinge<lb xml:id="III_274-6"/>hab’ ich dir beiläufig vorzutragen.<lb xml:id="III_274-7"/>
+               </p>
+               <p>Lebe wohl! Und arbeite immer mit auch für die Welt! — Und mache<lb xml:id="III_274-8"/>deiner sanften aus Herzen geschafnen <hi rendition="#aq">Sophie</hi> soviel Freude als sie<note corresp="#III_274-9">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003036">
+                           <persName> Friederike Sophie von <name type="reg">Oertel</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_274-9"/>giebt und geben wil. Fahre wohl!<lb n="10" xml:id="III_274-10"/>
+               </p>
+               <closer>
+                  <salute>
+                     <hi rendition="#right">Richter</hi>
+                     <lb xml:id="III_274-11"/>
+                  </salute>
+               </closer>
+            </div>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Berlin JP. 8 S. 8°. <hi rendition="#i">K</hi> (nach
+                  Nr.</hi> 369): Oertel 27 <hi rendition="#aq">
+                  <hi rendition="#i">Dec.</hi>
+               </hi> bis 2 Jenn. <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>:<lb/>Denkw. 1,382×. <ref target="#p271_l24">
+                     <hi rendition="#b">271</hi>,<hi rendition="#rkd">24</hi>
+                  </ref>f.</hi> bestätitigst <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <ref target="#p272_l8">
+                  <hi rendition="#b">
+                     <hi rendition="#aq">272</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">8</hi>
+                  </hi>
+               </ref>
+               <hi rendition="#aq"/>und <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">9</hi> machen] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">11</hi> einfache] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">12</hi> Dunkelheiten] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">32</hi> Verwandten] <hi rendition="#aq">davor<lb/>gestr.</hi>
+               Herzen <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <ref target="#p273_l13">
+                  <hi rendition="#b">273</hi>,<hi rendition="#rkd">13</hi>
+               </ref> ihren] <hi rendition="#aq">aus</hi> seinen <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">24</hi> entstelte] <hi rendition="#aq">aus</hi> entstelt hat <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">34</hi> reichlicher] <hi rendition="#aq">aus</hi> mehr <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <ref target="#p274_l4">
+                  <hi rendition="#b">274</hi>,<hi rendition="#rkd">4</hi>
+               </ref> gemalt] <hi rendition="#aq">aus</hi> gemacht <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">5</hi> vorher] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+            </p>
+            <p>
+               <hi rendition="#aq">Oertel hatte sein episches Gedicht <hi rendition="#g">„Diethelm“,</hi> Leipzig 1800, eine<lb/>Nachahmung von Vossens „Luise“,
+                  gesandt, worin (S. 71f.) Jean Pauls<lb/>rühmend gedacht ist; vgl. <ref target="#p287_l31">
+                     <hi rendition="#b">287</hi>,<hi rendition="#rkd">31</hi>
+                  </ref>ff. <ref target="#p272_l14">
+                     <hi rendition="#b">272</hi>,<hi rendition="#rkd">14</hi>
+                  </ref>
+                  <hi rendition="#g">Schwestern von Lesbos:</hi>
+                  <lb/>vgl. <ref target="#p247_l8">
+                     <hi rendition="#b">247</hi>,<hi rendition="#rkd">8</hi>
+                  </ref>†. <ref target="#p273_l21">
+                     <hi rendition="#b">273</hi>,<hi rendition="#rkd">21</hi>
+                  </ref>
+                  <hi rendition="#rkd">—26</hi> Vgl. <ref target="#p231_l31">
+                     <hi rendition="#b">231</hi>,<hi rendition="#rkd">31</hi>
+                  </ref>†; der Kupferstich vor dem 48. Bande<lb/>der Neuen Allg. Deutschen
+                  Bibliothek (von Bollinger, 1799) geht ebenfalls<lb/>auf Pfenninger zurück. Otto
+                  hatte schon im Brief an J. P. IV. Abt., III.1, Nr. 61 gemeint,<lb/>Jean Paul müsse
+                  irgendwo anzeigen, daß Pfenningers Stich ihn entstelle.<lb/>
+                  <hi rendition="#rkd">26</hi>f. Über dieses Porträt von Friedrich <hi rendition="#g">Buri</hi> (oder Bury, 1763—1823) ist<lb/>Näheres nicht bekannt.
+                     <hi rendition="#rkd">33</hi>
+                  <hi rendition="#g">Egoismus:</hi> vgl. <ref target="#p369_l13">
+                     <hi rendition="#b">369</hi>,<hi rendition="#rkd">13</hi>
+                  </ref>ff.</hi>
+               <lb/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

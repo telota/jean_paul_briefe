@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="III_385">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="390">385. An Josephine von Sydow. </title>
+            <title n="digital">An Josephine von Sydow. Weimar, 19. Januar 1800.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=III_385</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/III/III_385</idno>
+               <idno type="TELOTAID">III_385</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
+               <biblScope n="text" unit="page">
+                  <num>278</num>
+                  <num>279</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>489</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1800-01-19">19. Januar 1800</date>
+               <placeName key="JP-006395" ref="http://www.geonames.org/2812482">Weimar</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-004228" ref="http://d-nb.info/gnd/100379591">
+                  <name type="reg">Sydow</name> Josephine von</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=III_362">18. November 1799 bis
+                  18. Dezember 1799</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=III_421">17. März 1800</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <byline>
+               <hi rendition="#aq">Eiligst</hi>
+            </byline>
+            <dateline>
+               <hi rendition="#right">
+                  <hi rendition="#aq">
+                     <placeName>Weimar</placeName> d. <date>19. Jenn. 1800</date>
+                  </hi>.</hi>
+            </dateline>
+            <lb xml:id="III_278-19"/>
+            <p>
+               <hi rendition="#aq">Theuerste! Hier leg’ ich Ihnen einen schoenern Plan zu unse<lb n="20" xml:id="III_278-20" rendition="#hyphen"/>rer Zusammenkunft ans Herz. Die
+                  Leipziger Messe fält dieses<note corresp="#III_278-21">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0059485">
+                           <placeName>Messe; Leipzig</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="III_278-21" rendition="#hyphen"/>mal in den blühenden Mai — Freunde
+                  aus Berlin und Weimar<note corresp="#III_278-22">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005586">
+                           <placeName>Berlin</placeName>
+                        </place>
+                        <place corresp="#JP-006395">
+                           <placeName>Weimar</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="III_278-22"/>besuchen sie — also hab’ ich eine Reise unter schönerem
+                     Wetter<lb xml:id="III_278-23"/>und mit günstigern Umständen. Und da komm’ ich
+                     <hi rendition="#g">unfehlbar.</hi>
+                  <lb xml:id="III_278-24"/>Noch mehr: ich weis durch eigne und fremde Beobachtungen
+                     den<lb n="25" xml:id="III_278-25"/>Gang des Wetters voraus: der ganze Februar
+                  ist trübe (die lezten<lb xml:id="III_278-26"/>Tage des Januars sind hel); der
+                  Anfang und die Mitte des Märzes<lb xml:id="III_278-27"/>sind heiter; der April
+                  nicht, die Passionswoche ausgenommen;<lb xml:id="III_278-28"/>aber fast der ganze
+                  Mai ist götlich. Der Weg von Leipzig nach<note corresp="#III_278-29">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005948">
+                           <placeName>Leipzig</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="III_278-29"/>Berlin geht im Februar aus einer Hölle in die andere.
+                     Meine<note corresp="#III_278-30">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005586">
+                           <placeName>Berlin</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="30" xml:id="III_278-30"/>jezigen Geschäfte und Verwiklungen sperren mich
+                  für jezt ein.<lb xml:id="III_278-31"/>Auch reisete ich nie im Winter. Unter meine
+                  Verwiklungen ge<lb xml:id="III_278-32" rendition="#hyphen"/>hört jezt der
+                  Widerstand, den die Verwandten Carolinens unserer</hi>
+               <note corresp="#III_278-33">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001061">
+                        <persName> Christoph Erdmann Feuchter von <name type="reg">Feuchtersleben</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="III_278-33"/>
+               <hi rendition="#aq">Vereinigung thun. Ich weis nicht, ob ich es meiner geliebten<lb xml:id="III_279-1"/>Josephine schon geschrieben habe, daß sie ein Fräulein
+                     von<lb xml:id="III_279-2"/>Feuchtersleben in Hildburghausen ist (mais tais-toi,
+                  amie); daß sie<note corresp="#III_279-3">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001059">
+                           <persName> Caroline Henriette Susanne Friederike von <name type="reg">Feuchtersleben</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005832">
+                           <placeName>Hildburghausen</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="III_279-3"/>eine kurze Zeit bei der Herzogin als Hofdame vikarierte.
+                  Erst im<note corresp="#III_279-4">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000608">
+                           <persName> Georgine Luise Friederike <name type="reg">Charlotte</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_279-4"/>vorigen Sommer fanden wir uns. Sie ist ausgebildet, stolz,
+                     weich,<lb n="5" xml:id="III_279-5"/>warm und heilig. — Zu Klotilde und zu allen
+                  meinen Weibern<note corresp="#III_279-6">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010747">
+                           <title>Hesperus (1795): Klotilde</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="III_279-6"/>hatt’ ich keine Modelle, ich nahm sie aus meinem Herzen,
+                     und<lb xml:id="III_279-7"/>am Ende fand ich sie auch <hi rendition="#g">ausser</hi> demselben; nur die gute<lb xml:id="III_279-8"/>Josephine hab’ ich
+                  früher gefunden als gemalt; und ihr beschei<lb xml:id="III_279-9" rendition="#hyphen"/>denes Auge würd’ es nicht errathen, wo ich sie malte und
+                     meinte.<lb n="10" xml:id="III_279-10"/>— Sie haben diesesmal beinahe immer nur
+                  gefragt und ich kan<lb xml:id="III_279-11"/>also immer nur antworten. Meine Ehe
+                  ist (wenn nicht die Ver<note corresp="#III_279-12">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001061">
+                           <persName> Christoph Erdmann Feuchter von <name type="reg">Feuchtersleben</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_279-12" rendition="#hyphen"/>wandten ein doppeltes Glük grausam
+                  vernichten) in diesem Jahr;<lb xml:id="III_279-13"/>mein Wohnort ist <hi rendition="#g">wo ich</hi> wil. Ich stehe nicht dafür, daß ich<lb xml:id="III_279-14"/>nicht eine Zeitlang in Berlin einmal wohne — und dan,
+                     Gute,<note corresp="#III_279-15">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005586">
+                           <placeName>Berlin</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="15" xml:id="III_279-15"/>wär’ ich dir so nahe! Im Februar eine Reise zu
+                  Ihnen zu machen,<lb xml:id="III_279-16"/>verboten mir blos <hi rendition="#g">physische</hi> Verhältnisse, aber keine <hi rendition="#g">mora<lb xml:id="III_279-17" rendition="#hyphen"/>lischen</hi> — allein im Mai, Gute!
+                  Ich weis es nicht — ach ich<lb xml:id="III_279-18"/>möchte — mir fehlet nichts
+                  dazu als — Zeit. Denn so lang ich<lb xml:id="III_279-19"/>nicht zu Hause bin,
+                  arbeit’ ich nicht. Ich bin nicht reich; und ob<lb n="20" xml:id="III_279-20"/>ich
+                  gleich für den gedrukten Bogen 5 Louisd’or bekomme: so<lb xml:id="III_279-21"/>werd’ ich es doch nicht, weil ich nach dem Gelde zu wenig<lb xml:id="III_279-22"/>frage.</hi>
+               <lb xml:id="III_279-23"/>
+            </p>
+            <p>
+               <hi rendition="#aq">In Deutschland leidet eine Gallierin vielleicht mehr in der<note corresp="#III_279-24">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0056690">
+                           <placeName>Deutsche; Deutschland , deutsch , Germanien,
+                              Vaterland</placeName>
+                        </place>
+                        <place corresp="#JP-0057460" ana="†">
+                           <placeName>Frauen; Frankreich, französisch</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="III_279-24"/>Jugend als im Alter; unsere Männer haben entweder zu
+                     wenig<lb n="25" xml:id="III_279-25"/>Feuer oder zu wenig Delikatesse; selten
+                  verbinden sie beides;<lb xml:id="III_279-26"/>dazu sind sie oft sogar in der Liebe
+                  langweilig. Nur eine leere<lb xml:id="III_279-27"/>eitle Seele, nie die Ihrige kan
+                  das Alter scheuen; Sie sezen sich<lb xml:id="III_279-28"/>in dieses mit Ihren <hi rendition="#g">jezigen</hi> Wünschen; aber es komt und bringt<lb xml:id="III_279-29"/>
+                  <hi rendition="#g">andere</hi> mit. — Und ich bleibe deiner Seele immer treu! —
+                     Wie<lb n="30" xml:id="III_279-30"/>wird der Mai uns blühen! — Wenn du mich
+                  siehest, hast du gerade<lb xml:id="III_279-31"/>meinen Titan gelesen und liebst
+                  mich ein wenig mehr; wie ich<note corresp="#III_279-32">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010897">
+                           <title>Titan (1800-1803)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="III_279-32"/>dich nach jedem neuen Briefe. Ach neulich war ich wie ein
+                     Kind<lb xml:id="III_279-33"/>bei deinem Portrait und streichelte mit dem Finger
+                  über das<lb xml:id="III_279-34"/>Augenlied vor Liebe. — Du siehst wie ich an dich
+                  denke. Sei<lb n="35" xml:id="III_279-35"/>daher fester im Glauben an mich und
+                  werde nicht so leicht durch<lb xml:id="III_279-36"/>ein Schweigen irre, Theuere,
+                  Liebe, Liebe!</hi>
+               <lb xml:id="III_279-37"/>
+            </p>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: DLA, Marbach. 4 S. 8°. <hi rendition="#i">K</hi>: <hi rendition="#i">Sydow</hi>
+               </hi> 20[!] Jenn.<lb/>
+               <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>: Denkw. 2,195. <hi rendition="#i">B</hi>: IV. Abt.,
+                  III.2, Nr. 295. <hi rendition="#i">A</hi>: IV. Abt., III.2, Nr. 318 und 334. <ref target="#p278_l30">
+                     <hi rendition="#b">278</hi>,<hi rendition="#rkd">30</hi>
+                  </ref>
+                  <hi rendition="#i">geht</hi>] aus<lb/>
+                  <hi rendition="#i">ist</hi>
+                  <hi rendition="#i">H</hi>
+                  <hi rendition="#rkd">32</hi>
+                  <hi rendition="#i">reisete</hi>] aus <hi rendition="#i">reiset’</hi>
+                  <hi rendition="#i">H</hi>
+                  <ref target="#p279_l2">
+                     <hi rendition="#b">279</hi>,<hi rendition="#rkd">2</hi>
+                  </ref>
+                  <hi rendition="#i">ein</hi>] aus <hi rendition="#i">eine</hi>
+                  <hi rendition="#i">H</hi>
+                  <hi rendition="#rkd">22</hi>
+                  <hi rendition="#i">es doch nicht</hi>]<lb/>aus <hi rendition="#i">doch nicht
+                     reich</hi>
+                  <hi rendition="#i">H</hi>
+                  <hi rendition="#rkd">24</hi>
+                  <hi rendition="#i">Gallierin</hi>]</hi> Französin <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+                  <hi rendition="#rkd">25</hi>
+                  <hi rendition="#i">unsere</hi> bis <hi rendition="#rkd">26</hi>
+                  <hi rendition="#i">beides</hi>]<lb/>gestr. <hi rendition="#i">K</hi>
+                  <hi rendition="#rkd">31</hi>
+                  <hi rendition="#i">hast</hi>] aus <hi rendition="#i">hastu</hi>
+                  <hi rendition="#i">H</hi>
+                  <hi rendition="#rkd">34</hi>
+                  <hi rendition="#i">streichelte</hi>] aus <hi rendition="#i">fuhr</hi>
+                  <hi rendition="#i">H</hi>
+                  <hi rendition="#rkd">37</hi> die<lb/>Unterschrift fehlt wohl nur aus Platzmangel
+                     <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+            </p>
+            <p>
+               <hi rendition="#aq">Josephine hatte um baldigen bestimmten Bescheid gebeten, ob er
+                  im<lb/>Februar nach Berlin kommen könne, da sie später durch die
+                  Übernahme<lb/>ihres bisher verpachteten Gutes in Anspruch genommen sei; was ihn
+                  denn<lb/>abhalte, zu ihr nach Pommern zu kommen (vgl. <ref target="#p261_l11">
+                     <hi rendition="#b">261</hi>,<hi rendition="#rkd">11</hi>
+                  </ref>f.)? <ref target="#p279_l6">
+                     <hi rendition="#b">279</hi>,<hi rendition="#rkd">6</hi>
+                  </ref>f. Sie<lb/>hatte gefragt, ob Klotilde das Abbild seiner Geliebten sei. <hi rendition="#rkd">24</hi>ff. Sie hatte<lb/>geschrieben, sie habe oft Heimweh und
+                  fürchte sich namentlich vor dem<lb/>Alter, wo eine Frau in Deutschland so viel
+                  schlechter daran sei als in<lb/>Frankreich.</hi>
+               <lb/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

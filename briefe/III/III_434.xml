@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="III_434">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="439">434. An Jacobi. </title>
+            <title n="digital">An Friedrich Heinrich Jacobi. Gotha und Weimar, 1. April 1800 bis 7.
+               April 1800.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=III_434</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/III/III_434</idno>
+               <idno type="TELOTAID">III_434</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
+               <biblScope n="text" unit="page">
+                  <num>315</num>
+                  <num>316</num>
+                  <num>317</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>503</num>
+                  <num>504</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date corresp="writingSession1" when="1800-04-01">1. April 1800</date>
+               <date corresp="writingSession2" when="1800-04-02">2. April 1800</date>
+               <date corresp="writingSession3" when="1800-04-07">7. April 1800</date>
+               <placeName key="JP-005791" ref="http://www.geonames.org/2918752">Gotha</placeName>
+               <placeName key="JP-005791" ref="http://www.geonames.org/2918752">Gotha</placeName>
+               <placeName key="JP-006395" ref="http://www.geonames.org/2812482">Weimar</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-001909" ref="http://d-nb.info/gnd/118556312">
+                  <name type="reg">Jacobi</name> Friedrich Heinrich</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=III_412">21. Februar 1800 bis
+                  6. März 1800</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=III_473">29. Mai 1800 bis 8.
+                  Jun 1800</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <div n="writingSession1">
+               <lb xml:id="III_315-3"/>
+               <dateline>
+                  <hi rendition="#right">
+                     <hi rendition="#aq">
+                        <placeName>Gotha</placeName>
+                     </hi> d. <date>1. Apr. 1800</date>.</hi>
+               </dateline>
+               <lb xml:id="III_315-4"/>
+               <p>Lieber Heinrich! Wenn ich eine Reise um die Welt machte, so würd’<lb n="5" xml:id="III_315-5"/>ich dir wenigstens aus jeder Insel und jedem Hafen
+                  schreiben, ob ich<lb xml:id="III_315-6"/>dir gleich nichts Geographisches davon
+                  gebe. — Dein lezter Brief war<lb xml:id="III_315-7"/>für mich ein Buch, nämlich
+                  ein herliches. Ich wil aus dem Kopfe<lb xml:id="III_315-8"/>darauf antworten.<lb xml:id="III_315-9"/>
+               </p>
+               <p>Gebe Gott, daß dich die Ichs-Kaste so lange angreift bis du böse<note corresp="#III_315-10">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001075">
+                           <persName>
+                              <name type="reg">Fichtianer</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="10" xml:id="III_315-10"/>wirst und sie noch mehr polemisch, nicht blos
+                  thetisch erschütterst. Sie<lb xml:id="III_315-11"/>solte es (vergieb das
+                  Un-Gleichnis) wie die Indianer machen, die<note corresp="#III_315-12">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001888">
+                           <persName>
+                              <name type="reg">Indianer</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0058590">
+                           <placeName>Indianer, Inder; Indien</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="III_315-12"/>nach den Affen auf zu hohen Kokosbäumen so lange mit
+                     Steinen<lb xml:id="III_315-13"/>werfen, bis sie sich wehren mit — Kokosnüssen.
+                  — Forbergs Dedukzion<note corresp="#III_315-14">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001073" ana="†">
+                           <persName> Johann Gottlieb <name type="reg">Fichte</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-010337" ana="†">
+                           <author/>
+                           <title>Philosophisches Journal (1795-1800). Hrsg. von Friedrich
+                              ImmanuelNiethammer und Johann Gottlieb Fichte</title>
+                        </bibl>
+                        <bibl corresp="#JP-008404" ana="†">
+                           <author>Forberg, Friedrich Karl (1770-1848), Pädagoge, Philologe und
+                              Philosoph</author>
+                           <title>Versuch einer Deduktion der Kategorien (1797)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="III_315-14"/>der
+                     Kateg<metamark>[</metamark>orien<metamark>]</metamark> hatte ich gerade im
+                  Hause. Nach seinen vorgehenden<lb n="15" xml:id="III_315-15"/>Briefen und nach der
+                  schroffen Manier, womit er wie Leibgeber das<note corresp="#III_315-16">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-008403" ana="†">
+                           <author>Forberg, Friedrich Karl (1770-1848), Pädagoge, Philologe und
+                              Philosoph</author>
+                           <title>Briefe über die neueste Philosophie (1797)</title>
+                        </bibl>
+                     </listBibl>
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010571">
+                           <title>Clavis Fichtiana (1800)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="III_315-16"/>System vorhebt, halt’ ichs für — Persiflage wie du. —
+                  Aber Himmel,<lb xml:id="III_315-17"/>wie konte Gerstenberg dich die <hi rendition="#aq">initia critica</hi> in Gleichnissen lehren<note corresp="#III_315-18">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001305" ana="†">
+                           <persName> Heinrich Wilhelm von <name type="reg">Gerstenberg</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_315-18"/>wollen? — Ich möchte wissen, da er alles, was wir bisher
+                  für Kent<lb xml:id="III_315-19" rendition="#hyphen"/>nisse oder Materie hielten,
+                  zum Formalen der Vorstellung zertreibt,<lb n="20" xml:id="III_315-20"/>was denn
+                  noch für ein Materiales, vom <hi rendition="#aq">X</hi> oder Nichts
+                     Verschiedenes,<lb xml:id="III_315-21"/>übrig bliebe. Das Spiegelgleichnis hat
+                  keine Folie. Denn die Ver<lb xml:id="III_315-22" rendition="#hyphen"/>zerrung
+                  liegt nicht im Spiegel, sondern im 3<hi rendition="#sup">ten</hi> Wesen, das gar
+                     nicht<lb xml:id="III_315-23"/>hereingehört. Fält der Strahl im spizen Winkel
+                  auf, so mus er so<lb xml:id="III_315-24"/>abprallen; ferner könte der konische
+                  Spiegel, da auf ihn so gut wie auf<lb n="25" xml:id="III_315-25"/>den planen,
+                  einige Strahlen im rechten Winkel fallen <hi rendition="#g">müssen,</hi>
+                  <lb xml:id="III_315-26"/>durch die Berechnung der verschiedenen Einfalswinkel die
+                     wahre<lb xml:id="III_315-27"/>Gestalt entdecken. Endlich ist das verzogne
+                  Gesicht Millionenmal<lb xml:id="III_315-28"/>mehr 〈reicher〉 als das kritische <hi rendition="#aq">X.</hi> Nach der Kritik reflektiert ja unser<note corresp="#III_315-29">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-008890">
+                           <author>Kant, Immanuel (1724-1804)</author>
+                           <title>Kritik der reinen Vernunft (1781)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="III_315-29"/>Spiegel die Objekte <hi rendition="#g">ohne</hi> Hülfe
+                  ihrer Strahlen. — Nichts hat er von<lb n="30" xml:id="III_315-30"/>deinem Alwil
+                  und deinem Hume <hi rendition="#aq">p.</hi> 121 hierüber widerlegt.<note corresp="#III_315-31">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-008810">
+                           <author>Jacobi, Friedrich Heinrich (1743-1819), Philosoph und
+                              Schriftsteller</author>
+                           <title>Eduard Allwills Briefsammlung (1775-92)</title>
+                        </bibl>
+                        <bibl corresp="#JP-008816">
+                           <author>Jacobi, Friedrich Heinrich (1743-1819), Philosoph und
+                              Schriftsteller</author>
+                           <title>David Hume (1787)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="III_315-31"/>
+               </p>
+               <p>Wie sehr das Ich vom blossen Bewustsein persönlicher Verhältnisse<lb xml:id="III_315-32"/>in Platners Sin zu trennen sei: mach’ ich mir oft dadurch
+                  deutlich, daß<note corresp="#III_315-33">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003248">
+                           <persName> Ernst <name type="reg">Platner</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_315-33"/>ich — gesezt ich würde durch die Seelenwanderung ein
+                     Negersklave,<note corresp="#III_315-34">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003952" ana="†">
+                           <persName>
+                              <name type="reg">Schwarze Mohren</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_315-34"/>aber ohne von meinen jezigen Verhältnissen mehr im
+                  Gedächtnis <metamark>[</metamark>zu<metamark>]</metamark>
+                  <lb n="35" xml:id="III_315-35"/>haben als von denen vor der Geburt — gleichwohl
+                  davor schaudere;<lb xml:id="III_315-36"/> ob wohl es scheinen solte, als sei es so
+                  viel als leide ein fremdes Ich.<lb xml:id="III_316-1"/>
+               </p>
+               <p>Fichte ist in dem Grade subjektiv, daß er gar keine Existenz, die<note corresp="#III_316-2">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001073">
+                           <persName> Johann Gottlieb <name type="reg">Fichte</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_316-2"/>immer objektiv ist, zulassen, sondern die eigne immer als
+                  ein subjektives<lb xml:id="III_316-3"/>Handeln geben solte; kurz er solte die
+                  Schöpfung läugnen.<lb xml:id="III_316-4"/>
+               </p>
+               <p>Ich weis jezt, wo unser gemeinschaftlicher Fokus im Punkte des<lb n="5" xml:id="III_316-5"/>Träumens ist. Die Dinge ordnen die Vernunft mit Gewalt,
+                  sagst du;<lb xml:id="III_316-6"/>durch einen Ruk 〈Zuk〉 werden wir beim Erwachen
+                  auf einmal ver<lb xml:id="III_316-7" rendition="#hyphen"/>nünftig, sagt’ ich; aber
+                  es ist dein Saz: denn komt nicht dieser Ruk von<lb xml:id="III_316-8"/>äussern
+                  Dingen, nämlich den Nerven? Nur von Empfindungen<lb xml:id="III_316-9"/>
+                  <hi rendition="#g">ausserhalb</hi> des Körpers wolt’ ichs nicht abgeleitet
+                     wissen.<lb n="10" xml:id="III_316-10"/>
+               </p>
+               <p>Fichte und Schlegel wollen selber jezt eine <hi rendition="#aq">Litteraturzeitung</hi>
+                  <note corresp="#III_316-11">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001073">
+                           <persName> Johann Gottlieb <name type="reg">Fichte</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003757">
+                           <persName> August Wilhelm <name type="reg">Schlegel</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003760">
+                           <persName> Friedrich <name type="reg">Schlegel</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_316-11"/>edieren betittelt: „Anti-Litteraturzeitung“.<lb xml:id="III_316-12"/>
+               </p>
+               <p>Der Fichtianismus wird glaub’ ich sein handelndes Leben nicht hoch<note corresp="#III_316-13">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001075">
+                           <persName>
+                              <name type="reg">Fichtianer</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_316-13" rendition="#hyphen"/>bringen; aber was hilft der Tod des
+                  Teufels, wenn seine Grosmutter<lb xml:id="III_316-14"/>fortlebt, die kritische
+                     Philosophie?<note corresp="#III_316-15">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002025">
+                           <persName>
+                              <name type="reg">Kantianer</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="15" xml:id="III_316-15"/>
+               </p>
+               <p>Je älter man wird, desto demüthiger glaubt man an die Almacht<lb xml:id="III_316-16"/>der Objektivität. Gott ist das wahreste und einzige
+                  Subjekt. Ach wie<lb xml:id="III_316-17"/>viel ist nicht an 〈in〉 uns selber,
+                  Bewustsein und Wollen ausgenommen,<lb xml:id="III_316-18"/>Objekt! —<lb xml:id="III_316-19"/>
+               </p>
+               <p>Ich ziehe im Sommer aus <hi rendition="#aq">Weimar,</hi> suche aber noch auf der
+                     Karte<note corresp="#III_316-20">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006395">
+                           <placeName>Weimar</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="20" xml:id="III_316-20"/>den Ort, wohin ich mein Ehebette stelle. <hi rendition="#aq">Weimar</hi> hab’ ich nicht so<lb xml:id="III_316-21"/>wohl
+                  ausgekernt als ausgehülset. Wie wil ich dir meine <hi rendition="#aq">Caroline</hi>
+                  <note corresp="#III_316-22">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001059" ana="ff">
+                           <persName> Caroline Henriette Susanne Friederike von <name type="reg">Feuchtersleben</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_316-22"/>malen ausser durch Fakta, die am Ende zur Biographie
+                  würden. Sie hat<lb xml:id="III_316-23"/>einen ernstern strengern Geist als meiner
+                  ist der oft das Steckenpferd<lb xml:id="III_316-24"/>des sternischen — ist; desto
+                  besser wird sich Strenge und Nachgiebigkeit<note corresp="#III_316-25">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004163">
+                           <persName> Laurence (Pseudonym Yorick) <name type="reg">Sterne</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="25" xml:id="III_316-25"/>ausgleichen — Bei der zartesten Weichheit der
+                  Empfindung die<lb xml:id="III_316-26"/>kühnste Festigkeit des Entschlusses und
+                  allen Stolz der weiblichen Ehre.<lb xml:id="III_316-27"/>Gegen die Verwandten, die
+                  uns zertheilen wolten, kämpfte sie, indem<note corresp="#III_316-28">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001061">
+                           <persName> Christoph Erdmann Feuchter von <name type="reg">Feuchtersleben</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_316-28"/>sie sich zum Doppelopfer der Liebe für jene und mich
+                  machte, schonend,<lb xml:id="III_316-29"/>fest und siegend an. Ihr sind alle
+                  künftigen Schiksale mit mir gleich<lb n="30" xml:id="III_316-30" rendition="#hyphen"/>gültig; sie treibt jezt eben so eifrig die
+                  Haushaltungskunde als sonst<lb xml:id="III_316-31"/>Botanik und Astronomie. Sie
+                  war die Lieblingin und Schülerin eines<lb xml:id="III_316-32"/>vortreflichen
+                  Vaters; und doch liebt und schont sie — was ich bei<note corresp="#III_316-33">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001060">
+                           <persName> Christoph Erdmann Feuchter von <name type="reg">Feuchtersleben</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_316-33"/>solchen Mädgen selten fand — ihre zarte Mutter unendlich.
+                     <hi rendition="#aq">Herder</hi>
+                  <note corresp="#III_316-34">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001067">
+                           <persName> Rosalie Sophie Marie von <name type="reg">Feuchtersleben</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-001675">
+                           <persName> Johann Gottfried von <name type="reg">Herder</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_316-34"/>dem sie ihre von ihr selber poussierte kleine Wachsbüste
+                  gesandt und<lb n="35" xml:id="III_316-35"/>zu dem ich eine Cousine und einige
+                  Briefe von ihr gebracht, sehnet sich<note corresp="#III_316-36">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000252" ana="†">
+                           <persName> Auguste von <name type="reg">Beck</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_316-36"/>nach ihr wie nach einer Geliebten. — Du hast doch noch
+                  kein Bild von<lb xml:id="III_316-37"/> ihr; daher geb ich dir wie <hi rendition="#aq">Herd.</hi> einige Blätter von ihr, die <hi rendition="#g">vor</hi>
+                  <note corresp="#III_317-1">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001675">
+                           <persName> Johann Gottfried von <name type="reg">Herder</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_317-1"/>unserm jezigen Verhältnis geschrieben worden<note n="*)" place="foot">Deinem treuen Herzen darf ich ja mit meinem noch ein anderes
+                        anvertrauen.<lb n="35" type="ig"/>
+                  </note>. Wie wil ich mit<lb xml:id="III_317-2"/>luftigen Worten ihre überströmende
+                  Liebe, die Kraft, Wünsche unter<lb xml:id="III_317-3" rendition="#hyphen"/>zuordnen und Leiden mit Lächeln zu bedecken, die äussere Heiterkeit<lb xml:id="III_317-4"/>dieses von Jahrelangen Schmerzen erzognen Herzens und die
+                     Gleich<lb n="5" xml:id="III_317-5" rendition="#hyphen"/>gültigkeit gegen Tand
+                  und ihre Frömmigkeit malen!<lb xml:id="III_317-6"/>
+               </p>
+               <p>Solche französische Abstrakzionen geben nie das <hi rendition="#aq">vinculum
+                        sub<note corresp="#III_317-7">
+                        <listPlace type="lineReference">
+                           <place corresp="#JP-0057467">
+                              <placeName>Literatur; Frankreich, französisch</placeName>
+                           </place>
+                        </listPlace>
+                     </note>
+                     <lb xml:id="III_317-7" rendition="#hyphen"/>stantiale</hi> eines Karakters, die
+                  Individualität, die drei Reden oder<lb xml:id="III_317-8"/>1 Handlung darstellen.
+                  Das dramatische Geheimnis der Karakteristik<lb xml:id="III_317-9"/>beruht auf
+                  jenem <hi rendition="#aq">vinculum.</hi>
+                  <lb n="10" xml:id="III_317-10"/>
+                  <lb type="ig"/>
+               </p>
+               <p>Ich werde mich neben <hi rendition="#aq">C.</hi> heiligen; ich finde — wie in
+                  allem womit<lb xml:id="III_317-11"/>ich <hi rendition="#g">zögerte</hi> — die
+                  Vorsicht in dem gewundnen hart neben Abgründen<lb xml:id="III_317-12"/>vorbeistreichenden Gange zu ihr.<lb xml:id="III_317-13"/>
+               </p>
+            </div>
+            <div n="writingSession2">
+               <dateline>
+                  <hi rendition="#right">d. 2 Apr.</hi>
+               </dateline>
+               <lb xml:id="III_317-14"/>
+               <p>Unsere Meinung über <hi rendition="#aq">Forberg</hi> empfängt von einem
+                     Briefe<note corresp="#III_317-15">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-008404">
+                           <author>Forberg, Friedrich Karl (1770-1848), Pädagoge, Philologe und
+                              Philosoph</author>
+                           <title>Versuch einer Deduktion der Kategorien (1797)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb n="15" xml:id="III_317-15"/>desselben an <hi rendition="#aq">Schaefer</hi>
+                  hier ein neues Gewicht, weil er ihn darin ver<note corresp="#III_317-16">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003689" ana="†">
+                           <persName> Wilhelm Friedrich <name type="reg">Schäfer</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_317-16" rendition="#hyphen"/>sichert, er gehe weit „von Fichte’s
+                  offenbarem Atheismus“ ab.<note corresp="#III_317-17">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000156">
+                           <persName>
+                              <name type="reg">Atheisten</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-001073" ana="†">
+                           <persName> Johann Gottlieb <name type="reg">Fichte</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-008371" ana="†">
+                           <author>Fichte, Johann Gottlieb (1762-1814)</author>
+                           <title>Appellation an das Publikum (1799)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="III_317-17"/>
+               </p>
+               <p>Die Frau <hi rendition="#aq">Schlichtegrols,</hi> meine Freundin, sah dich als sie
+                     noch<note corresp="#III_317-18">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003778">
+                           <persName> Auguste <name type="reg">Schlichtegroll</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_317-18"/>eine geborne <hi rendition="#aq">Rousseau</hi> war, in
+                  Pempelfort und denkt deiner mit<note corresp="#III_317-19">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006131">
+                           <placeName>Pempelfort bei Düsseldorf</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="III_317-19"/>Entzückung. Beim Himmel! du kontest die Weiber wie eine
+                     Zentral<lb n="20" xml:id="III_317-20" rendition="#hyphen"/>sonne die Welten,
+                  hinter dir nach ziehen und durch den Himmel<lb xml:id="III_317-21"/>führen.<lb xml:id="III_317-22"/>
+               </p>
+            </div>
+            <div n="writingSession3">
+               <dateline>
+                  <hi rendition="#right">
+                     <hi rendition="#aq">
+                        <placeName>Weimar</placeName> d. 7. Apr.</hi>
+                  </hi>
+               </dateline>
+               <lb xml:id="III_317-23"/>
+               <p>Diese Korrektur Bogen des <hi rendition="#aq">Clavis</hi> kanst du als Makulatur
+                     be<note corresp="#III_317-24">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010571">
+                           <title>Clavis Fichtiana (1800)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="III_317-24" rendition="#hyphen"/>handeln. Vielleicht komt <hi rendition="#aq">Reinholdt</hi> zu dir; ich möchte mit seiner Ge<note corresp="#III_317-25">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003424">
+                           <persName> Karl Leonhard <name type="reg">Reinhold</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="25" xml:id="III_317-25" rendition="#hyphen"/>nehmigung sein Urtheil wissen.
+                  — Möge dieser giftige Winter dir<lb xml:id="III_317-26"/>keinen Nachwinter der
+                  Krankheit nachlassen! — Grüsse deine lieben<lb xml:id="III_317-27"/>Schwestern,
+                  die mir allemal so gut mit gemalet werden, wenn ich mir<note corresp="#III_317-28">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001906">
+                           <persName> Charlotte und Helene <name type="reg">Jacobi</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_317-28"/>dich von einem Augenzeugen malen lasse. — Lebe wohl,
+                  guter Hein<lb xml:id="III_317-29" rendition="#hyphen"/>rich!<lb n="30" xml:id="III_317-30"/>
+                  <lb type="ig"/>
+               </p>
+               <closer>
+                  <salute>
+                     <hi rendition="#right">Richter</hi>
+                  </salute>
+               </closer>
+               <lb xml:id="III_317-31"/>
+               <postscript>
+                  <p>Kanst du mir nicht einmal irgend einen Brief von <hi rendition="#aq">Baggesen</hi>
+                     <note corresp="#III_317-32">
+                        <listPerson type="lineReference">
+                           <person corresp="#JP-000196" ana="†">
+                              <persName> Jens Immanuel (ursprüngl. Jens Peter) <name type="reg">Baggesen</name>
+                              </persName>
+                           </person>
+                        </listPerson>
+                     </note>
+                     <lb xml:id="III_317-32"/>schicken ohne Verrath an der Freundschaft? Seine Laune
+                     ist für mich<lb xml:id="III_317-33"/>Salz, Würze, Zimt und Honig.<lb xml:id="III_317-34"/>
+                  </p>
+               </postscript>
+            </div>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Berlin JP. 8 S. 8°. Präsentat: Jean Paul e. d. 16ten
+                  April 1800,<lb/>b. 11ten May. (nicht erhalten) <hi rendition="#i">K</hi>:</hi>
+               Jakobi d. 7. Apr. <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>: Jacobi S. 57×.<lb/>
+                  <hi rendition="#i">B</hi>: IV. Abt., III.1, Nr.</hi>
+               <hi rendition="#aq">338. </hi>
+               <ref target="#p315_l13">
+                  <hi rendition="#b">
+                     <hi rendition="#aq">315</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">13</hi>
+                  </hi>
+               </ref> zu hohen] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">24</hi> hereingehört] <hi rendition="#aq">aus</hi> hereingeht
+                  <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">26</hi> einige] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">30</hi> die Objekte] <hi rendition="#aq">aus</hi> das Objekt <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi> ihrer] <hi rendition="#aq">aus</hi> von<lb/>dessen <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi> Strahlen] <hi rendition="#aq">aus</hi> Stralen <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi> Nichts <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">31</hi> widerlegt.] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">33</hi> in Platners Sin] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">34</hi> Negersklave] <hi rendition="#aq">aus</hi> Mohr <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>,</hi> Mohr <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <lb/>
+               <ref target="#p316_l1">
+                  <hi rendition="#b">
+                     <hi rendition="#aq">316</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">1</hi>
+                  </hi>
+               </ref> ob <hi rendition="#aq">bis</hi> sei es] <hi rendition="#aq">aus</hi> und doch
+               scheint es, es sei <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">3</hi> die eigne] <hi rendition="#aq">aus</hi> sie <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">4</hi> kurz <hi rendition="#aq">bis</hi> läugnen] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">5</hi> gemeinschaftlicher] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">24</hi> meiner<lb/>ist der oft] <hi rendition="#aq">aus</hi> ich
+               mit meinem <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">30</hi> künftigen Schiksale] <hi rendition="#aq">aus</hi> Lagen
+                  <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">36</hi> Cousine] <hi rendition="#aq">aus</hi> Kousine <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <ref target="#p317_l1">
+                  <hi rendition="#b">
+                     <hi rendition="#aq">317</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">1</hi>
+                  </hi>
+               </ref> die <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">2</hi> worden*)] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">4</hi> Leiden]<lb/>
+               <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi> äussere] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">24</hi> Korrektur] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+            </p>
+            <p>
+               <hi rendition="#aq">Seinem Handkalender zufolge war Jean Paul vom 30. März bis 4.
+                  April<lb/>1800 in Gotha. <ref target="#p315_l12">
+                     <hi rendition="#b">315</hi>,<hi rendition="#rkd">12</hi>
+                  </ref>
+                  <hi rendition="#rkd">—14</hi> Vgl. Bd. I, 241,<hi rendition="#rkd">8</hi>f. <hi rendition="#rkd">14—17</hi> Jacobi hatte Jean<lb/>Paul gebeten, den „Versuch
+                  einer Deduktion der Kategorien“ von Fr.<lb/>K. <hi rendition="#g">Forberg</hi> im
+                  12. Heft des Philosophischen Journals von 1797 zu lesen,<lb/>den Fichte für eine
+                  getreue Darstellung des innersten Geistes seines Systems<lb/>erklärt habe. Vor
+                  diesem Versuch stehen „Briefe über die neueste Philo<lb rendition="#hyphen"/>sophie“ von Forberg. 22 <hi rendition="#g">Gerstenberg</hi> versucht in dem <ref target="#p283_l12">
+                     <hi rendition="#b">283</hi>,<hi rendition="#rkd">12</hi>
+                  </ref>† genannten<lb/>Brief Jacobis Behauptung von dem Nihilismus der kritischen
+                  Philosophie<lb/>durch ein <hi rendition="#g">Spiegelgleichnis</hi> zu widerlegen.
+                     <ref target="#p316_l5">
+                     <hi rendition="#b">316</hi>,<hi rendition="#rkd">5</hi>
+                  </ref>
+                  <hi rendition="#rkd">—10</hi> Vgl. <ref target="#p251_l36">
+                     <hi rendition="#b">251</hi>,<hi rendition="#rkd">36</hi>
+                  </ref>ff.<lb/>
+                  <hi rendition="#rkd">36</hi>
+                  <hi rendition="#g">Cousine:</hi> eigentlich Nichte (Auguste von Beck). <ref target="#p317_l7">
+                     <hi rendition="#b">317</hi>,<hi rendition="#rkd">7</hi>
+                  </ref>
+                  <hi rendition="#rkd">—10</hi> Vgl.<lb/>I.Abt., XI, 208,<hi rendition="#rkd">28</hi>ff. (Vorschule der Ästhetik, § 60). <hi rendition="#rkd">16</hi>
+                  Wilhelm Friedrich<lb/>
+                  <hi rendition="#g">Schäfer</hi> (1750—1831), Oberhofprediger in Gotha, Verf. einer
+                  Schrift<lb/>gegen Fichtes „Appellation“. <hi rendition="#rkd">32—34</hi> Jacobi
+                  teilte diese Stelle am 26. Mai<lb/>1800 <hi rendition="#g">Baggesen</hi> mit.</hi>
+               <lb/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

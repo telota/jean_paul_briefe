@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="III_466">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="474">466. An Christian Otto. </title>
+            <title n="digital">An Christian Otto. Weimar und Leipzig, 16. Mai 1800 bis 19. Mai
+               1800.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=III_466</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/III/III_466</idno>
+               <idno type="TELOTAID">III_466</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
+               <biblScope n="text" unit="page">
+                  <num>332</num>
+                  <num>333</num>
+                  <num>334</num>
+                  <num>335</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>510</num>
+                  <num>511</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date corresp="writingSession1" when="1800-05-16">16. Mai 1800</date>
+               <date corresp="writingSession2" when="1800-05-19">19. Mai 1800</date>
+               <placeName key="JP-006395" ref="http://www.geonames.org/2812482">Weimar</placeName>
+               <placeName key="JP-005948" ref="http://www.geonames.org/2879139">Leipzig</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-003112" ref="http://d-nb.info/gnd/118590804">
+                  <name type="reg">Otto</name> Christian </persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=III_430">14. März 1800 bis 28.
+                  ärz 1800</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=III_482">13. Juni 1800 bis 7.
+                  Juli 1800</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <div n="writingSession1">
+               <lb xml:id="III_332-18"/>
+               <dateline>
+                  <hi rendition="#right">
+                     <hi rendition="#aq">
+                        <placeName>Weimar</placeName>
+                     </hi> d. <date>16. Mai 1800</date>
+                  </hi>
+               </dateline>
+               <lb xml:id="III_332-19"/>
+               <p>Morgen geh ich nach <hi rendition="#aq">Leipzig</hi> und dan nach <hi rendition="#aq">Berlin.</hi> Himmel! ich<note corresp="#III_332-20">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005586">
+                           <placeName>Berlin</placeName>
+                        </place>
+                        <place corresp="#JP-005948">
+                           <placeName>Leipzig</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="20" xml:id="III_332-20"/>müste in einen Dintenteich eintunken, um dir das
+                  Nöthigste ganz kurz<lb xml:id="III_332-21"/>zu sagen. Mit <hi rendition="#g">gerührter Freude</hi> las ich gerade am Abend, wo ich<lb xml:id="III_332-22"/>mit den <hi rendition="#aq">Herders</hi> von <hi rendition="#aq">Ilmenau</hi>
+                  und der Zusammenkunft mit <hi rendition="#aq">C.</hi> zu<note corresp="#III_332-23">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001059">
+                           <persName> Caroline Henriette Susanne Friederike von <name type="reg">Feuchtersleben</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-001670">
+                           <persName> Caroline <name type="reg">Herder</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-001675">
+                           <persName> Johann Gottfried von <name type="reg">Herder</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005858">
+                           <placeName>Ilmenau</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="III_332-23" rendition="#hyphen"/>rükkam, das schöne Glük deines guten
+                  Bruders; recht innigst bewegt’<note corresp="#III_332-24">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003106" ana="†">
+                           <persName> Albrecht <name type="reg">Otto</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006087" ana="†">
+                           <placeName>Oberkotzau </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="III_332-24"/>es mich, ob gleich der scharfe Stein auf diesem schönen
+                  Wege lag, daß<lb n="25" xml:id="III_332-25"/>du dabei fast verlierest. Das sol
+                  nicht sein. Wil denn das Schiksal alles<lb xml:id="III_332-26"/>dein Ergeben und
+                  deine Klugheit und deinen Werth mit gar nichts be<lb xml:id="III_332-27" rendition="#hyphen"/>lohnen? O lieber Otto! — Aber es wird, es mus schon die
+                     Nemesis<note corresp="#III_332-28">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002982">
+                           <persName>
+                              <name type="reg">Nemesis</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_332-28"/>schicken mit ihrer Wage, um dich — aber mit und zu etwas
+                     besserem<lb xml:id="III_332-29"/>als man sonst die sächsischen Kurfürsten —
+                  darauf auszuwägen.<note corresp="#III_332-30">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006224">
+                           <placeName>Sachsen, Kursachsen, sächsisch</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="30" xml:id="III_332-30"/>— An deinem Namenstag war mein Herz in <hi rendition="#aq">Wonsiedel</hi> — wohin ich<note corresp="#III_332-31">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006424" ana="†">
+                           <placeName>Wunsiedel </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="III_332-31"/>mich unaussprechlich sehne — und sah Euch gute Menschen
+                  auch als<note corresp="#III_332-32">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004686" ana="†">
+                           <persName> Friederike Christiane <name type="reg">Wernlein</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-004687" ana="†">
+                           <persName> Friedrich <name type="reg">Wernlein</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_332-32"/>glükliche und dankte dem Himmel, daß er blau dazu war.
+                  Schreibe mir<lb xml:id="III_332-33"/>ja deinen Ehrentag; ich wil ihn stil in
+                  meiner Brust mit feiern, ob ich<lb xml:id="III_332-34"/>gleich eine zu
+                  überfliessende habe, als daß ich sie in einen solchen Tag<lb n="35" xml:id="III_332-35"/>hineintragen dürfte. —<lb xml:id="III_332-36"/>
+               </p>
+               <p>Friedr. <hi rendition="#aq">Schlegel</hi> war blos darum 1 ½ Tag in <hi rendition="#aq">Weimar,</hi> um 1 ½ Tag<note corresp="#III_333-1">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003760">
+                           <persName> Friedrich <name type="reg">Schlegel</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006395">
+                           <placeName>Weimar</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="III_333-1"/>in meiner Stube zu sein. Wir haben uns leicht verständigt.
+                  Er liebte<lb xml:id="III_333-2"/>mich und meine Werke von jeher — im neuesten
+                  Athenäum nahm er<note corresp="#III_333-3">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-009624" ana="†">
+                           <author>Schlegel, August Wilhelm und Friedrich (Werk, Hrsg.)</author>
+                           <title>Athenäum (1798-1800)</title>
+                        </bibl>
+                        <bibl corresp="#JP-009626" ana="†">
+                           <author>Schlegel, Friedrich (1772-1829)</author>
+                           <title>Brief über den Roman (1800)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="III_333-3"/>schon viele Invektiven zurük — und jezt mehr und ich ihn;
+                  er ist kindlich,<lb xml:id="III_333-4"/>sanft und genialisch-auffassend; aber er
+                  ist in der Philosophie und<lb n="5" xml:id="III_333-5"/>Gelehrsamkeit 10mal
+                  seichter als ich gedacht; er konte mir auf meine<lb xml:id="III_333-6"/>Anti-Fichtianismen so wenig antworten, daß ich glaube, er kent nicht<note corresp="#III_333-7">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001075">
+                           <persName>
+                              <name type="reg">Fichtianer</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_333-7"/>einmal das ganze System. — Franz Koch, der Mundharmonist,
+                     dankte<note corresp="#III_333-8">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002161">
+                           <persName> Franz von Paula <name type="reg">Koch</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_333-8"/>mir für seine Empfehlung im <hi rendition="#aq">Hesperus</hi>
+                  <note n="*)" place="foot">wegen des Glüks in allen Städten.</note>; ich werde mit
+                  in den An<note corresp="#III_333-9">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010727">
+                           <title>Hesperus (1795)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="III_333-9" rendition="#hyphen"/>schlagzettel gesezt; er gewan hier
+                  soviel, daß er sich in der Zeitung<lb n="10" xml:id="III_333-10"/>bedankte. Er
+                  klagt, daß noch ein Psevdo-Harmoniker auch auf den<lb xml:id="III_333-11"/>
+                  <hi rendition="#aq">Hesperus</hi> reise. — Auch <hi rendition="#aq">Thieriot</hi>
+                  mit seiner Geige war hier und durch<note corresp="#III_333-12">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004275">
+                           <persName> Paul Emile <name type="reg">Thieriot</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_333-12"/>mich damit bei <hi rendition="#aq">Herder, Goethe,</hi>
+                  am Hofe. — Von der Auflage die<note corresp="#III_333-13">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001353">
+                           <persName> Johann Wolfgang von <name type="reg">Goethe</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-001675">
+                           <persName> Johann Gottfried von <name type="reg">Herder</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010897">
+                           <title>Titan (1800-1803)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="III_333-13"/>du erhälst, sind 2000 Exemplare gedrukt, 100 noch bessere
+                     <note n="**)" place="foot">Es ist umgekehrt, du bekomst hier die beste; aber
+                     beide sind kaum zu unter<lb n="35" type="ig" rendition="#hyphen"/>scheiden.</note>, die ich<lb xml:id="III_333-14"/>noch nicht habe, und 900
+                  schlechte. — Meinen Aufsaz über die <hi rendition="#aq">Corday</hi>
+                  <note corresp="#III_333-15">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010592">
+                           <title>Der 17. Juli oder Charlotte Corday (1801)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb n="15" xml:id="III_333-15"/>giebt, nach dem Meskatalog der ehrliche
+                  Buchhändler so heraus:<note corresp="#III_333-16">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004431">
+                           <persName> Johann Friedrich <name type="reg">Vieweg</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_333-16"/>„historisches Taschenbuch f. 1801
+                     heraus<metamark>[</metamark>ge<metamark>]</metamark>geben von F. Genz und<note corresp="#III_333-17">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001285">
+                           <persName> Friedrich von <name type="reg">Gentz</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-008468">
+                           <author>Gentz, Friedrich von, Johann Heinrich Voß und Jean Paul (Werk,
+                              Hrsg.)</author>
+                           <title>Taschenbuch für 1801 (Vieweg)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="III_333-17"/>Jean Paul“ — Schreibe mir von meinem <hi rendition="#aq">Samuel</hi> —<note corresp="#III_333-18">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003485">
+                           <persName> Johann Samuel <name type="reg">Richter</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_333-18"/>
+               </p>
+               <p>Federn! — Bier! —<lb xml:id="III_333-19"/>
+               </p>
+               <p>Was du von der <hi rendition="#aq">Liebmännin</hi> schreibst, diese Sinlichkeit
+                  war ihr<note corresp="#III_333-20">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002454" ana="†">
+                           <persName> Caroline <name type="reg">Liebmann</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="20" xml:id="III_333-20"/>längst anzusehen und anzuhören. Aber hierüber bin
+                  ich deiner theo<lb xml:id="III_333-21" rendition="#hyphen"/>logischen orthodoxen
+                  Meinung längst nicht mehr sowenig wie <hi rendition="#aq">Herder.</hi>
+                  <note corresp="#III_333-22">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001675">
+                           <persName> Johann Gottfried von <name type="reg">Herder</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003082">
+                           <persName>
+                              <name type="reg">Orthodoxe</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_333-22"/>Schon in meinem <hi rendition="#aq">Hesperus</hi> sagt’
+                  ich von Klotilden ahnend, aber ver<note corresp="#III_333-23">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010747" ana="†">
+                           <title>Hesperus (1795): Klotilde</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="III_333-23" rendition="#hyphen"/>dekt: in der höchsten Liebe sind die
+                     <hi rendition="#g">besten</hi> Mädgen wie die <hi rendition="#g">guten.</hi>
+                  <lb xml:id="III_333-24"/>Anders: jezt weis ichs <hi rendition="#g">gewis: aus</hi>
+                  Liebe sind sie alle, alle sinlich und<lb n="25" xml:id="III_333-25"/>es komt nur
+                  auf die Schlechtigkeit, gehaltene Stufenfolge und das<lb xml:id="III_333-26"/>besonnene Feuer des Mannes an, jede die ihn heftig <hi rendition="#g">liebt,</hi> zum lezten<lb xml:id="III_333-27"/>Punkt zu führen, weil diesen
+                  die Natur mit eben so vielem Rechte<lb xml:id="III_333-28"/>begehrt wie den Kus,
+                  und weil der Punkt nicht an und für sich, sondern<lb xml:id="III_333-29"/>nur
+                  unter Bedingungen (wie Essen und Trinken und Küssen) unmoralisch<lb n="30" xml:id="III_333-30"/>ist, indes z. B. Lüge etc. es unter jeder ist. Hier
+                  veracht’ ich blos den<lb xml:id="III_333-31"/>Man; denn das Weib nüzet 〈befolgt〉,
+                  aber giebt nicht den Anlas.<lb xml:id="III_333-32"/>Liebe aus Sinlichkeit hat die
+                  Bessere nicht, aber wohl Sinlichkeit aus<lb xml:id="III_333-33"/> Liebe. — Und
+                  doch nehm’ ich nichts von meiner alten Achtung für die<lb xml:id="III_334-1"/>weibliche Reinheit zurük; keine (gute) glaubt, daß sie fallen könne,<lb xml:id="III_334-2"/>weil keine sogar ihre körperliche unbändige Reizbarkeit d.
+                  h. Be<lb xml:id="III_334-3" rendition="#hyphen"/>trun<metamark>[</metamark>ken<metamark>]</metamark>heit kent; daher kommen
+                  ihre komischen Verwunderungen,<lb xml:id="III_334-4"/>daß eine fiel und anders
+                  handelte als sie sprach; (da sie doch dachte wie<lb n="5" xml:id="III_334-5"/>sie
+                  sprach); sie glauben, weil sie die Versuchung nicht wünschen, sie<lb xml:id="III_334-6"/>darum auch besiegen zu können, oder auch weil sie sich bei
+                  derselben nie<lb xml:id="III_334-7"/>den Geliebten sondern einen Fremden denken
+                  oder weil sie sie sich gleich<lb xml:id="III_334-8"/>mit dem Höllenfeuer 〈Extrem〉
+                  denken ohne den langen Höllenweg<lb xml:id="III_334-9"/>〈die Gradazion〉 dazu.
+                  Diese Kentnis, mus ich dir sagen, macht einen<lb n="10" xml:id="III_334-10"/>eigentlich nicht sonderlich moralisch stark bei diesem Geschlecht, weil<lb xml:id="III_334-11"/>man dabei auf keine Subsidien zu rechnen hat als auf
+                  eigne. — Ich<lb xml:id="III_334-12"/>habe entscheidende Erfahrungen; und bin blos
+                  über die Art verlegen,<lb xml:id="III_334-13"/>wie ich öffentlich die Mädgen
+                  hierüber warnen sol.<lb xml:id="III_334-14"/>
+               </p>
+               <p>Hier sol der nöthige Saz stehen: daß ich — juristisch betrachtet, aber<lb n="15" xml:id="III_334-15"/>gar nicht moralisch — durch eigne Fügungen des Schiksals
+                  seit meiner<lb xml:id="III_334-16"/>Abreise aus Schwarzenbach in die — Prima noch
+                  derselbe juristische<note corresp="#III_334-17">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006268">
+                           <placeName>Schwarzenbach a. d. Saale</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="III_334-17"/>Junggeselle bin, fast. <note n="*)" place="foot">wär’
+                     einmal das Gegentheil, würd’ ich dirs so frei bekennen wie Rousseau<note corresp="#III_334-35">
+                        <listBibl type="lineReference" subtype="werke">
+                           <bibl corresp="#JP-009522">
+                              <author>Rousseau, Jean-Jacques (1712-1778)</author>
+                              <title>Confessions (1781)</title>
+                           </bibl>
+                        </listBibl>
+                     </note>
+                     <lb n="35" xml:id="III_334-35"/>der Welt, der 100 etc. mal gefehlt.<lb xml:id="III_334-36"/>
+                  </note>
+                  <lb xml:id="III_334-18"/>
+               </p>
+               <p>Ach wie meine Seele sonst so heilig war und so dum! Der Teufel<lb xml:id="III_334-19"/>hole das erste zerrüttende Wort, das mir die Kalb sagte
+                  und was fort<note corresp="#III_334-20">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002007">
+                           <persName> Charlotte von <name type="reg">Kalb</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="20" xml:id="III_334-20" rendition="#hyphen"/>brante! — Und doch kan ich
+                  Freundinnen früherer Zeit nur in jenem<lb xml:id="III_334-21"/>magischen Lichte
+                  anschauen, so sehr, daß ich deiner Nachricht wegen der<lb xml:id="III_334-22"/>Liebmännin — deren tadelhafte Antwort „es siehts niemand“ schon<note corresp="#III_334-23">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002454">
+                           <persName> Caroline <name type="reg">Liebmann</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_334-23"/>eine tadelhafte Frage und also einen zweideutigen
+                  Referendar voraus<lb xml:id="III_334-24" rendition="#hyphen"/>sezt — auf ihr
+                  Ankündigungsbillet, blos weil die Kohle meiner Liebe<lb n="25" xml:id="III_334-25"/>für sie ins Wasser gefallen war, einen Anstandsbrief zurükschrieb und<lb xml:id="III_334-26"/>mich mit der
+                     Berlin<metamark>[</metamark>er<metamark>]</metamark> Reise entschuldigte. Den
+                  Tag <hi rendition="#g">darauf</hi> kamen<note corresp="#III_334-27">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005586">
+                           <placeName>Berlin</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="III_334-27"/>beide. Ich liebte die schöne Freundin recht herzlich
+                  wieder und wir waren<note corresp="#III_334-28">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002455">
+                           <persName> Ernst Christian Wilhelm <name type="reg">Liebmann</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_334-28"/>froh; — später gieng sie zur <hi rendition="#aq">Schrœder;</hi> da verlangte er 200 rtl.<note corresp="#III_334-29">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003863">
+                           <persName> Corona Elisabeth Wilhelmine <name type="reg">Schröter</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_334-29"/>geliehen — 80 gab ich ihm doch; aber er ist so zerstreuet
+                  und leer, daß<lb n="30" xml:id="III_334-30"/>er in den Schein den gar nicht sezte,
+                  ders ihm geliehen, sondern nur<lb xml:id="III_334-31"/>sich. Aber ich kan und darf
+                  dem <hi rendition="#g">Glauben an die Menschheit</hi> nichts<lb xml:id="III_334-32"/>abschlagen, daher ich heute für einen fremden
+                  hypochondrischen Doktor<note corresp="#III_334-33">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000919" ana="?†">
+                           <persName> Christian Friedrich <name type="reg">Eisenlohr</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_334-33"/>aus Schwaben bei einem Buchbinder bürgte, der ihm ein
+                     Miethpferd<note corresp="#III_334-34">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006262" ana="†">
+                           <placeName>Schwaben</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="III_334-34"/> nach <hi rendition="#aq">Gotha</hi> geliehen. Noch hat
+                  mich der Verlas auf Menschheit und<note corresp="#III_335-1">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005791">
+                           <placeName>Gotha</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="III_335-1"/>Physiognomie nicht betrogen und bestraft.<lb xml:id="III_335-2"/>
+               </p>
+            </div>
+            <div n="writingSession2">
+               <dateline>
+                  <hi rendition="#right">
+                     <hi rendition="#aq">
+                        <placeName>Leipzig</placeName>
+                     </hi> d. 19. Mai <metamark>[</metamark>Montag<metamark>]</metamark>.</hi>
+               </dateline>
+               <lb xml:id="III_335-3"/>
+               <p>Es war keine Zeit zum Einbinden des <hi rendition="#aq">Clavis.</hi> Ändere
+                  erstlich alle<note corresp="#III_335-4">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010571">
+                           <title>Clavis Fichtiana (1800)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="III_335-4"/>angezeigte Drukfehler, weil sie nicht heraus zu rathen
+                  sind und be<lb n="5" xml:id="III_335-5" rendition="#hyphen"/>sonders den nicht
+                  angezeigten: in der Vorrede S. <hi rendition="#aq">IX</hi> v. u. Zeile 4.<lb xml:id="III_335-6"/>lies stat frei <hi rendition="#g">freier.</hi>
+                  <lb xml:id="III_335-7"/>
+               </p>
+               <p>Passe ja mit deinem Antworten nicht auf meine Zurükkehr; die<lb xml:id="III_335-8"/>früher da ist als der doppelte Brieflauf. — Ich wil nicht lange in<lb xml:id="III_335-9"/>
+                  <hi rendition="#aq">Berlin</hi> bleiben. Über <hi rendition="#aq">Dessau</hi> geh’
+                  ich zurük.<note corresp="#III_335-10">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005586">
+                           <placeName>Berlin</placeName>
+                        </place>
+                        <place corresp="#JP-005665">
+                           <placeName>Dessau</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="10" xml:id="III_335-10"/>
+                  <lb type="ig"/>
+               </p>
+               <p>
+                  <hi rendition="#aq">Herder</hi> fand in <hi rendition="#aq">Ilmenau Caroline</hi>
+                  über alle meine Malereien und<note corresp="#III_335-11">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001059">
+                           <persName> Caroline Henriette Susanne Friederike von <name type="reg">Feuchtersleben</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-001675">
+                           <persName> Johann Gottfried von <name type="reg">Herder</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005858">
+                           <placeName>Ilmenau</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="III_335-11"/>fast über alle Weiber, und betete sie an, wie sie ihn
+                  anbetete. Es<lb xml:id="III_335-12"/>war<metamark>[</metamark>en<metamark>]</metamark> die blauesten Maitage. Sie
+                  hat etwas Hohes Ungemeines,<lb xml:id="III_335-13"/>was sogar die Weltleute ergrif
+                  und die <hi rendition="#aq">Herderin</hi> übertraf. Seit dieser<note corresp="#III_335-14">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001670">
+                           <persName> Caroline <name type="reg">Herder</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_335-14"/>Reise ist mein Bund mit ihr —— aufgelöset; und nach einem
+                  Brief, in<lb n="15" xml:id="III_335-15"/>dem ich ihr alles auseinandergesezt,
+                  erwart’ ich von ihr das ewige<lb xml:id="III_335-16"/>Trennungswort. Ich kan dir
+                  unmöglich dieses lange Räthsel, worin<lb xml:id="III_335-17"/>nur moralische
+                  Karaktere spielen, auflösen. Nun treibt und stürmt mich<lb xml:id="III_335-18"/>das Schiksal wieder in ein unbestimtes wüstes Leben hinein in einer<lb xml:id="III_335-19"/>innern Verfassung, worüber es keine Worte giebt. Meine
+                     Gesundheit<lb n="20" xml:id="III_335-20"/>ist fest, ob sie wohl in <hi rendition="#aq">Ilmenau</hi> an einer Vormittagsszene wankte.<note corresp="#III_335-21">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005858">
+                           <placeName>Ilmenau</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="III_335-21"/>Lebe wohl!<lb xml:id="III_335-22"/>
+               </p>
+               <p>Den Freitag geh ich nach <hi rendition="#aq">Berlin.</hi>
+                  <note corresp="#III_335-23">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005586">
+                           <placeName>Berlin</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="III_335-23"/>
+               </p>
+            </div>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Goethe- u. Schiller-Archiv. 7½ S. 4°. <hi rendition="#i">K</hi>:</hi> Otto 16—19. Mai.<lb/>
+               <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>: Otto 3,273×. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>: Nerrlich Nr. 76. <hi rendition="#i">B</hi>: IV. Abt.,
+                  III.2, Nr. 371. <hi rendition="#i">A</hi>: IV. Abt., III.2, Nr.</hi>
+               <hi rendition="#aq">389.</hi>
+               <lb/>
+               <ref target="#p332_l21">
+                  <hi rendition="#b">
+                     <hi rendition="#aq">332</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">21</hi>
+                  </hi>
+               </ref>
+               <hi rendition="#aq"/>müste] <hi rendition="#aq">aus</hi> möchte <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">22</hi>
+               <hi rendition="#g">gerührter</hi>] <hi rendition="#aq">aus</hi>
+               <hi rendition="#g">rührender</hi>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">29</hi> und zu]<lb/>
+               <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi> besserem] <hi rendition="#aq">aus</hi> bessern <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">32</hi> Euch] <hi rendition="#aq">aus</hi> euch <hi rendition="#aq">
+                  <hi rendition="#i">H</hi> (vielleicht von<lb/>anderer Hand)</hi>
+               <hi rendition="#rkd">33</hi> dazu] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">35</hi> überfliessende] <hi rendition="#aq">aus</hi>
+               überflüssige <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">36</hi> hineintragen] <hi rendition="#aq">aus</hi> tragen <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi> dürfte] könte <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <ref target="#p333_l1">
+                  <hi rendition="#b">
+                     <hi rendition="#aq">333</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">1</hi>
+                  </hi>
+               </ref> 1½ Tag<hi rendition="#sup">1</hi>] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">16</hi> nach dem Meskatalog] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">17</hi> herausgeben] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">21</hi> längst]<lb/>
+               <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">22</hi> orthodoxen] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">23</hi> von Klotilden] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">27</hi> be<lb rendition="#hyphen"/>sonnene] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi> ihn] <hi rendition="#aq">davor gestr.</hi> er <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">28</hi> diesen] <hi rendition="#aq">aus</hi> ihn <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi> eben]<lb/>
+               <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">29</hi> der] <hi rendition="#aq">aus</hi> jener <hi rendition="#aq">aus</hi> dieser <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">31</hi> indes <hi rendition="#aq">bis</hi> ist] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">33</hi> wohl]<lb/>
+               <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">35</hi> bekomst] <hi rendition="#aq">davor gestr.</hi> hast <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <ref target="#p334_l8">
+                  <hi rendition="#b">
+                     <hi rendition="#aq">334</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">8</hi>
+                  </hi>
+               </ref> sie<hi rendition="#sup">1</hi>] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">12</hi> Ich<lb/>
+               <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">14</hi> sol.] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">17</hi> noch] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi> juristische Junggeselle] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">18</hi> fast] <hi rendition="#aq">stand erst vor</hi>
+               <hi rendition="#rkd">16</hi> seit <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+                  <hi rendition="#rkd">20</hi>f.</hi> fortbrante] <hi rendition="#aq">aus</hi>
+               fortbrent <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">25</hi> meiner]<lb/>
+               <hi rendition="#aq">aus</hi> der <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">32</hi> und darf] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">33</hi> fremden] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">34</hi> bürgte]<lb/>
+               <hi rendition="#aq">aus</hi> stand <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <ref target="#p335_l19">
+                  <hi rendition="#b">
+                     <hi rendition="#aq">335</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">19</hi>
+                  </hi>
+               </ref> ein] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi> in<hi rendition="#sup">2</hi>] <hi rendition="#aq">aus</hi> mit <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+            </p>
+            <p>
+               <hi rendition="#aq">Angekommen 27. Mai mit dem 1. Band des Titan nebst Anhang
+                  und<lb/>Clavis. </hi>
+               <ref target="#p332_l24">
+                  <hi rendition="#b">332</hi>,<hi rendition="#rkd">24</hi>
+               </ref>
+               <hi rendition="#rkd">—26</hi>
+               <hi rendition="#aq"> Albrecht Otto hatte sich verlobt und war Amtmann in<lb/>Kotzau
+                  geworden; Christian sah sich dadurch zu pekuniären Einschrän<lb rendition="#hyphen"/>kungen genötigt. <hi rendition="#rkd">31</hi>
+                  <hi rendition="#g">Namenstag:</hi> 14. Mai (Christian); am 13. war<lb/>Friederike
+                  Otto in <hi rendition="#g">Wunsiedel</hi> mit Wernlein getraut worden. <hi rendition="#rkd">34 </hi>
+                  <hi rendition="#g">Ehren<lb rendition="#hyphen"/>tag:</hi> am 30. Juni wurde Otto
+                  mit Amöne getraut. <ref target="#p333_l3">
+                     <hi rendition="#b">333</hi>,<hi rendition="#rkd">3</hi>
+                  </ref>f. <hi rendition="#g">Athenäum:</hi>
+                  <lb/>3. Bd., S. 113, im „Brief über den Roman“. <hi rendition="#rkd">13</hi>
+                  <hi rendition="#g">Auflage:</hi> vom Titan;<lb/>vgl. zu Nr. 440. <hi rendition="#rkd">15—18 </hi>Vgl. Nr. 492a. <hi rendition="#rkd">20</hi>ff.
+                  Karoline <hi rendition="#g">Liebmann</hi> war,<lb/>nach <hi rendition="#i">B</hi>,
+                  acht Wochen nach ihrer Heirat „mit guten Hoffnungen, die besser<lb/>als von 20
+                  Wochen“, in Hof gewesen und hatte auf Vorhalten unbefangen<lb/>geäußert, man sehe
+                  es doch nicht. <hi rendition="#rkd">23</hi>
+                  <hi rendition="#g">Hesperus:</hi> I.Abt., IV, 164,<hi rendition="#rkd">7</hi>f.<lb/>
+                  <hi rendition="#rkd">25ff.</hi> Vgl. I.Abt., IX, 127,<hi rendition="#rkd">10—18</hi>, XII, 232,<hi rendition="#rkd">35</hi>ff. (Levana, § 87). <ref target="#p334_l20">
+                     <hi rendition="#b">334</hi>,<hi rendition="#rkd">20</hi>
+                  </ref>
+                  <hi rendition="#g">Kalb:</hi>
+                  <lb/>vgl. <ref target="#p139_l32">
+                     <hi rendition="#b">139</hi>,<hi rendition="#rkd">32</hi>
+                  </ref>f. <hi rendition="#rkd">32</hi>ff. Vgl. I.Abt., X, 375,<hi rendition="#rkd">31</hi>ff. (Walt); <hi rendition="#g">Doktor aus Schwa<lb rendition="#hyphen"/>ben:</hi> ein in Jean Pauls Nachlaß (Fasz. 10) vorhandenes Verzeichnis
+                  von<lb/>Personen, mit denen er bekannt geworden war, nennt unterm Jahre
+                  1800<lb/>einen Dr. Eisenlohr aus Tübingen, vermutlich Christian Friedrich
+                  E.,<lb/>Verf. von „Historischen Bemerkungen über die Taufe“, Tübingen 1804.<lb/>
+                  <ref target="#p335_l6">
+                     <hi rendition="#b">335</hi>,<hi rendition="#rkd">6</hi>
+                  </ref>f. I.Abt., IX,</hi>
+               <hi rendition="#aq">461,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">33</hi>
+               </hi>
+               <hi rendition="#aq">.</hi>
+               <lb/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

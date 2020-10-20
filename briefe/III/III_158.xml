@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="III_158">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="161">158. An Herder. </title>
+            <title n="digital">An Johann Gottfried von Herder. Weimar, 23. November 1798.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=III_158</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/III/III_158</idno>
+               <idno type="TELOTAID">III_158</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
+               <biblScope n="text" unit="page">
+                  <num>117</num>
+                  <num>118</num>
+                  <num>119</num>
+                  <num>120</num>
+                  <num>121</num>
+                  <num>122</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>432</num>
+                  <num>433</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1798-11-23">23. November 1798</date>
+               <placeName key="JP-006395" ref="http://www.geonames.org/2812482">Weimar</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-001675" ref="http://d-nb.info/gnd/118549553">
+                  <name type="reg">Herder</name> Johann Gottfried von</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=III_120">17. August 1798</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=III_262">12. Mai 1799</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <dateline>
+               <hi rendition="#right">
+                  <hi rendition="#aq">
+                     <placeName>Weimar</placeName>
+                  </hi> d. <date>23 Nov. 98</date>
+                  <metamark>[</metamark>Freitag<metamark>]</metamark>.</hi>
+            </dateline>
+            <lb xml:id="III_117-19"/>
+            <p>Verehrtester und Geliebtester! Empfangen Sie meinen kindlichsten<note corresp="#III_117-20">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008695" ana="†" next="122-28">
+                        <author>Herder, Johann Gottfried (seit 1801) von (1744-1803)</author>
+                        <title>Metakritik (1799)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="20" xml:id="III_117-20"/>Dank für die ehrende Erlaubnis, neben der ersten
+               Leserin Ihr erster<note corresp="#III_117-21">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001670">
+                        <persName> Caroline <name type="reg">Herder</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="III_117-21"/>Leser zu werden, und für das schöne Schauspiel, wie Phöbus,
+               in dessen<note corresp="#III_117-22">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003221">
+                        <persName>
+                           <name type="reg">Phöbus</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="III_117-22"/>Hand man nur Lichtstrahlen, die Leier und Arzeneipflanzen
+                  gewohnt<lb xml:id="III_117-23"/>war, den Pfeil gegen den — kritischen Python nimt.
+               Über das Ganze<note corresp="#III_117-24">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008890" ana="ff">
+                        <author>Kant, Immanuel (1724-1804)</author>
+                        <title>Kritik der reinen Vernunft (1781)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="III_117-24"/>kan ich ausser dem, was ich mündlich gesagt, über die schöne
+                  Vereini<lb n="25" xml:id="III_117-25" rendition="#hyphen"/>gung der schärfsten
+               Dialektik mit der volsten und hellesten Sprache<lb xml:id="III_117-26"/>— der
+               gelehrten Kentnisse mit den menschlichen — des Krieges mit<lb xml:id="III_117-27"/>dem Frieden und der Vernunft mit der Sprache — und über den wohl<lb xml:id="III_117-28" rendition="#hyphen"/>thätigen Anblik wie Sie das Schlachtfeld
+               wieder besäen oder wie<lb xml:id="III_117-29"/>Lukul, neue Früchte aus dem besiegten
+               Lande mitbringen — über<note corresp="#III_117-30">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002552">
+                        <persName> (Lucius Licinius Lucullus) <name type="reg">Lukull</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="30" xml:id="III_117-30"/>alles das kan ich wenig sagen, weil ich ja kaum Zeit
+               genug zur Rolle des<lb xml:id="III_117-31"/>Teufelsadvokaten erhalte. — Mög’ Ihnen am
+               Ziele Ihrer olympischen<note corresp="#III_117-32">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-0061030">
+                        <placeName>Spiele; Olympia</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="III_117-32"/>Bahn ausser meinem <hi rendition="#g">Zuschauer-</hi>Urtheil
+               einmal auch das eines<lb xml:id="III_117-33"/>
+               <hi rendition="#g">Richters</hi> und dem Siege einmal eine <hi rendition="#g">ikonische</hi> Statue beschieden<lb xml:id="III_118-1"/>sein! —<lb xml:id="III_118-2"/>
+            </p>
+            <p>Hier sind meine Asterisken, die ich mit Furcht und einem Omen<lb xml:id="III_118-3"/>— denn heute ist eine <hi rendition="#g">Mondsfinsternis</hi> — und ohne die
+                  Hofnung<lb xml:id="III_118-4"/>gebe, daß die meinige auch unsichtbar wie die
+               andere bleibe.<lb n="5" xml:id="III_118-5"/>
+            </p>
+            <p>
+               <hi rendition="#et">
+                  <note n="*)" place="foot">Der Strich über der Zahl zeigt die <hi rendition="#g">zweite</hi> Seite des Blattes an; und die<lb type="ig"/>Buchstaben am Rande
+                     des Blattes den Gegenstand der Anmerkung selber.</note> Blat 3̄.<hi rendition="#aq">a</hi>) Der Überschus in einer Erkentnis, die die Sinne nur<lb xml:id="III_118-6"/>
+                  <hi rendition="#g">veranlasten,</hi> nicht <hi rendition="#g">gaben,</hi> mus doch
+                  etwas anders und früher als<lb xml:id="III_118-7"/>die Veranlassung, und mithin
+                  ein <hi rendition="#aq">a priori</hi> da sein; und mir scheint<lb xml:id="III_118-8"/>die zweite Frage Kants nur die Antwort oder Fortsezung
+                  nicht die<lb xml:id="III_118-9"/>Wiederholung der ersten zu sein. — <hi rendition="#aq">b</hi>) Auch die durch keine Er<lb n="10" xml:id="III_118-10" rendition="#hyphen"/>fahrung mögliche <hi rendition="#g">Nothwendigkeit</hi>
+                  der synthetischen mathe<lb xml:id="III_118-11" rendition="#hyphen"/>matischen Säze
+                  ist ein <hi rendition="#aq">prius.</hi> „<hi rendition="#g">erkenn’ ich durch sich
+                     an</hi>“ scheint<lb xml:id="III_118-12"/>ein anderes Wort für <hi rendition="#aq">a priori</hi> zu sein. — <hi rendition="#aq">c</hi>) „Aus dem
+                     Leeren<lb xml:id="III_118-13"/>schliesset sich nichts“ aber das <hi rendition="#aq">a priori</hi> (oder <hi rendition="#aq">prius,</hi> oder <hi rendition="#g">erstes</hi>(?)<lb xml:id="III_118-14"/>
+                  <hi rendition="#aq">primum,</hi> welches alles 1 Sache ist) sagt Kant, ist ja
+                  nichts Leeres,<lb n="15" xml:id="III_118-15"/>sondern eben dein „<hi rendition="#g">inneres Datum</hi>“.</hi>
+               <lb xml:id="III_118-16"/>
+            </p>
+            <p>
+               <hi rendition="#et">Bl. 4<hi rendition="#aq">a</hi>) Auf dieser Seite ist das blosse
+                  Versprechen der Widerlegung,<lb xml:id="III_118-17"/>das weiterhin durch ihre
+                  Erscheinung unnöthig wird.</hi>
+               <lb xml:id="III_118-18"/>
+            </p>
+            <p>
+               <hi rendition="#et">Bl. 4̄.<hi rendition="#aq">a</hi>) Mir scheint die unbezifferte
+                  Reihe klarer.</hi>
+               <lb xml:id="III_118-19"/>
+            </p>
+            <p>
+               <hi rendition="#et">Bl. 9<hi rendition="#aq">a</hi>) „Fals es nicht seiner Natur nach
+                  nothwendig ist“ Woran<lb n="20" xml:id="III_118-20"/>erkenn ich diese
+                  Natur-Nothwendigkeit als eben durch das <hi rendition="#aq">a<lb xml:id="III_118-21"/>priori?</hi>
+               </hi>
+               <lb xml:id="III_118-22"/>
+            </p>
+            <p>
+               <hi rendition="#et">Bl. 9<hi rendition="#aq">a</hi>̄) 4 = 2 + 2 ist eben nach dieser
+                  Schule nicht identisch. Lieber<lb xml:id="III_118-23"/>0 = <hi rendition="#aq">a —
+                     a.</hi>
+               </hi>
+               <lb xml:id="III_118-24"/>
+            </p>
+            <p>
+               <hi rendition="#et">Bl. 10<hi rendition="#aq">a</hi>) Indes lassen Sie doch einige
+                  mathematische als synthetisch<lb n="25" xml:id="III_118-25"/>zu. „Erfahrung“ aber
+                  kan sie nicht synthetisch machen, weil sie<lb xml:id="III_118-26"/>die
+                  Nothwendigkeit nicht geben kan; und bei den „höhern Grund<lb xml:id="III_118-27" rendition="#hyphen"/>säzen“ komt immer, wenn sie nicht analytisch sind, die
+                  Frage über<lb xml:id="III_118-28"/>die Synthese wieder. — Im nächsten Saze „7 + 5
+                  = 12“ scheint<lb xml:id="III_118-29"/>auf Kants Beweise keine Rüksicht genommen zu
+                     sein.<lb n="30" xml:id="III_118-30"/>
+               </hi>
+            </p>
+            <p>
+               <hi rendition="#et">Bl. 10̅<hi rendition="#aq">a</hi>) „<hi rendition="#g">diese</hi>
+                  <hi rendition="#b">gleichsam</hi>
+                  <hi rendition="#g">selbst sind</hi>“ Diese dunkeln Worte sind<lb xml:id="III_119-1"/>entweder Kants Meinung (wie der Beisaz „in den Regeln
+                     des<lb xml:id="III_119-2"/>Verstandes“ bestätigt) oder sie können nicht gelten,
+                  da die Mathe<lb xml:id="III_119-3" rendition="#hyphen"/>matik eine grössere
+                  Nothwendigkeit hat als die Erfahrung ver<lb xml:id="III_119-4" rendition="#hyphen"/>leiht, weil jene ihre Beweise nie aus dieser führt, sondern umgekehrt<lb n="5" xml:id="III_119-5"/>aus ihren Beweisen auf diese schliesset (Bl. 89 sagen Sie
+                     dasselbe),<lb xml:id="III_119-6"/>z. B. daß die Hyperbel und Assymptote
+                  einander nie berühren,<lb xml:id="III_119-7"/>welches in der Konstrukzion nicht
+                  darzustellen ist.</hi>
+               <lb xml:id="III_119-8"/>
+            </p>
+            <p>
+               <hi rendition="#et">
+                  <hi rendition="#aq">b</hi>) Eben daß die Wirkung die Ursache voraussezt, ist die
+                     Noth<lb xml:id="III_119-9" rendition="#hyphen"/>wendigkeit der Synthese; denn
+                  troz der innigen Verbindung ist<lb n="10" xml:id="III_119-10"/>doch die Ursache
+                  etwas anders als die Wirkung, das Wirkende<lb xml:id="III_119-11"/>etwas anders
+                  als das Gewirkte, so wie <hi rendition="#g">früher.</hi>
+               </hi>
+               <lb xml:id="III_119-12"/>
+            </p>
+            <p>
+               <hi rendition="#et">11<hi rendition="#aq">a</hi>) Gegen diesen Absaz werden viele
+                  Neins aufstehen oder gar Er<lb xml:id="III_119-13" rendition="#hyphen"/>weise, daß
+                  die kant. Meinung mit andern Worten behauptet werde.</hi>
+               <lb xml:id="III_119-14"/>
+            </p>
+            <p>
+               <hi rendition="#et">12<hi rendition="#aq">a</hi>) <hi rendition="#g">An</hi> der
+                  Erfahrung werden die Vernunfts-Synthesen angewandt,<lb n="15" xml:id="III_119-15"/>geübt, <hi rendition="#g">bewust;</hi> aber nicht <hi rendition="#g">durch</hi>
+                  sie gegeben — wird man sagen.</hi>
+               <lb xml:id="III_119-16"/>
+            </p>
+            <p>
+               <hi rendition="#et">17<hi rendition="#aq">a</hi>) Im kritischen System, das die ganze
+                  Sinnenwelt zum Geschöpf<lb xml:id="III_119-17"/>der Kategorien und der Anschauung
+                     <hi rendition="#aq">a priori</hi> macht und das den<lb xml:id="III_119-18"/>Raum <hi rendition="#g">in uns</hi> sezt, und mithin die ihn bewohnende
+                     Sinnenwelt<lb xml:id="III_119-19"/>auch, ist der widerlegte Saz konsequent.<lb n="20" xml:id="III_119-20"/>
+               </hi>
+               <lb type="ig"/>
+            </p>
+            <p>
+               <hi rendition="#et">19̅<hi rendition="#aq">a</hi>) Der Elephant ist der Stunden- und
+                  die Ephemere der Terzien<lb xml:id="III_119-21" rendition="#hyphen"/>weiser; aber
+                  wenn in einer Stunde der eine Weiser 1 mal, der<lb xml:id="III_119-22"/>andere 60
+                  mal herumgeht: so ists doch nur Eine Stunde, nur Eine<lb xml:id="III_119-23"/>Zeit, obwohl in feinern oder gröbern Abschnitten; das Grössere<lb xml:id="III_119-24"/>misset hier das Kleinere, das Jahrtausend alle
+                     Lebenszeiten.<lb n="25" xml:id="III_119-25"/>
+               </hi>
+               <lb type="ig"/>
+            </p>
+            <p>
+               <hi rendition="#et">
+                  <hi rendition="#aq">b</hi>) Fält das Veränderliche <hi rendition="#g">ausser</hi>
+                  uns weg: so müssen wir doch<lb xml:id="III_119-26"/>eine Zeit denken, weil wir
+                  eines <hi rendition="#g">in uns</hi> zu zählen haben. Aber<lb xml:id="III_119-27"/>gegen Kant ist der Saz nicht.</hi>
+               <lb xml:id="III_119-28"/>
+            </p>
+            <p>
+               <hi rendition="#et">30̅<hi rendition="#aq">a</hi>) Es scheint doch als wenn das
+                  Bewustsein des Ichs unmittelbar<lb xml:id="III_119-29"/>mit dem Bewustsein des
+                  Nicht-Ichs sich verbände und beide ein<lb n="30" xml:id="III_119-30" rendition="#hyphen"/>ander wechselseitig voraussezten. Zum Unterschiede des <hi rendition="#g">Andern</hi>
+                  <lb xml:id="III_119-31"/>gehört schon der des <hi rendition="#g">Ichs.</hi>
+               </hi>
+               <lb xml:id="III_119-32"/>
+            </p>
+            <p>
+               <hi rendition="#et">37̅<hi rendition="#aq">a</hi>) Hier fehlt das Wort „fremd“.
+                  Einigemal fand ich nicht alles<lb xml:id="III_119-33"/>ausgestrichen was es sein
+                  solte.</hi>
+               <lb xml:id="III_119-34"/>
+            </p>
+            <p>
+               <hi rendition="#et">44. 45. Vol der scharfsinnigsten Bemerkungen. Besonders die auf
+                     der<lb n="35" xml:id="III_119-35"/>46<hi rendition="#sup">ten</hi> S. über
+                  Analogie; so wie alle Ihre positiven Stellen<lb xml:id="III_119-36"/>gleichsam <hi rendition="#aq">bowling-greens</hi> im Sande der Palästra.</hi>
+               <lb xml:id="III_119-37"/>
+            </p>
+            <p>
+               <hi rendition="#et">47̅<hi rendition="#aq">a</hi>) Diese Konsequenz solte Ihr
+                  gerecht-schonender Geist mildern<lb xml:id="III_120-1"/>oder löschen. In der
+                  angeführten Stelle zeigt uns unter der<lb xml:id="III_120-2"/>realistischen Haut
+                  blos der Idealismus seine Ohren, der die Natur<lb xml:id="III_120-3"/>in sich
+                  trägt und schaft.</hi>
+               <lb xml:id="III_120-4"/>
+            </p>
+            <p>
+               <hi rendition="#et">54̅<hi rendition="#aq">a</hi>) Doch, obwohl nicht aussen. Dadurch
+                  daß wir <hi rendition="#g">selber wirken,</hi>
+                  <lb n="5" xml:id="III_120-5"/>daß wir wollen und dan volbringen, wird uns in
+                  eigner Erfahrung<lb xml:id="III_120-6"/>Ursach’ und Wirkung gegeben, zu deren
+                  Begrif uns freilich die<lb xml:id="III_120-7"/>blosse Ahnenfolge der äussern Welt
+                  nie verhälfe.</hi>
+               <lb xml:id="III_120-8"/>
+            </p>
+            <p>
+               <hi rendition="#et">56̅<hi rendition="#aq">a</hi>) Ich weis nicht, ob nicht jeder
+                  Idealismus in der höchsten Konse<lb xml:id="III_120-9" rendition="#hyphen"/>quenz
+                  Egoismus werden mus. In der Sinnenwelt, die der Idealist<lb n="10" xml:id="III_120-10"/>nicht findet sondern erschaft, ist die Körper Larve jedes
+                  Ichs ja ein<lb xml:id="III_120-11"/>Theil dieser Schöpfung unter der
+                  Gehirnschaale; und der Idealist<lb xml:id="III_120-12"/>kan also nicht zum andern,
+                  d. h. zur Vorstellung sagen: „ich bin<lb xml:id="III_120-13"/>dir eine“ aber wohl:
+                  „du mir.“ — Das Folgende nimt den Idea<lb xml:id="III_120-14" rendition="#hyphen"/>listen in einem andern Sinne und giebt darin eine reizende Wesen<lb n="15" xml:id="III_120-15" rendition="#hyphen"/>kette.</hi>
+               <lb xml:id="III_120-16"/>
+            </p>
+            <p>
+               <hi rendition="#et">56̅ <metamark>[</metamark>
+                  <hi rendition="#aq">
+                     <hi rendition="#i">vielmehr</hi> 65̅<metamark>]</metamark> a</hi>) Dem schönen
+                  Spotte der vorigen Tafel scheint<lb xml:id="III_120-17"/>diese Note (zumal bei der
+                  Unschuld des Worts „transszend.“)<lb xml:id="III_120-18"/>nicht <hi rendition="#g">ebenbürtig</hi> zu sein.</hi>
+               <lb xml:id="III_120-19"/>
+            </p>
+            <p>
+               <hi rendition="#et">66̅<hi rendition="#aq">a</hi>) Eben so scheint fast nach dem
+                  komischen „Entwiklung aus<lb n="20" xml:id="III_120-20"/>Quellen“ das „trok. Weg“
+                  zu stark zu sein, man müste denn stat „ent<lb xml:id="III_120-21" rendition="#hyphen"/>wickeln“ die chemische Metapher von trokner Scheidung
+                  fortsezen.</hi>
+               <lb xml:id="III_120-22"/>
+            </p>
+            <p>
+               <hi rendition="#et">69<hi rendition="#aq">a</hi>) „Nozionen, die die Möglichkeit der
+                  Erfahrung übersteigen“<lb xml:id="III_120-23"/>Denn kan je der Unendliche, die
+                  Ewigkeit, die Schöpfung etc. ein<lb xml:id="III_120-24"/>Gegenstand der Erfahrung
+                     werden?<lb n="25" xml:id="III_120-25"/>
+               </hi>
+            </p>
+            <p>
+               <hi rendition="#et">74<hi rendition="#aq">b</hi>) 75 etc. Antinomien scheinen hier
+                  nur andern Kräften beigemessen<lb xml:id="III_120-26"/>zu werden; dauern aber
+                  fort. Der Phantasie kan man das Streben<lb xml:id="III_120-27"/>in einen
+                  unendlichen Raum etc. nicht mehr zuschreiben als das<lb xml:id="III_120-28"/>Streben nach einem obersten Grunde alles Daseins oder das nach<lb xml:id="III_120-29"/>der lezten Kausalität; welches Streben doch der Vernunft
+                     gehört<lb n="30" xml:id="III_120-30"/>und so jedes Streben nach dem
+                  Unbedingten. Überhaupt wird diese<lb xml:id="III_120-31"/>Darstellung viele
+                  Antichristen wecken. — Bl. 76 Da wir troz der Na<note corresp="#III_120-32">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000628">
+                           <persName>
+                              <name type="reg">Christen</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_120-32" rendition="#hyphen"/>turgeseze uns zuweilen frei- zuweilen
+                  nicht freihandelnd fühlen; da<lb xml:id="III_120-33"/>wir uns von dem Steine, der
+                  sich auch nach Naturgesezen bewegt,<lb xml:id="III_120-34"/>nicht im Grade sondern
+                  in der Art verschieden empfinden und eine<lb n="35" xml:id="III_120-35"/>Freiheit
+                  annehmen müssen, die früher als die Naturgeseze war, weil<lb xml:id="III_120-36"/>
+                  sie diese erschuf durch Gott: so scheint auch diese Antinomie wie die<lb xml:id="III_121-1"/>vorigen wenigstens den Ihnen gewöhnlichen Zusaz des auf<lb xml:id="III_121-2" rendition="#hyphen"/>gestelten Positiven zu bedürfen.</hi>
+               <lb xml:id="III_121-3"/>
+            </p>
+            <p>
+               <hi rendition="#et">79<hi rendition="#aq">a</hi>) Ich bekenn’ es, troz meines <hi rendition="#aq">horror vacui —critici,</hi> dauert meine<lb xml:id="III_121-4"/>Quaal über die Widersprüche und Fragen einer unendlichen und<lb n="5" xml:id="III_121-5"/>doch anfangenden Zeit <hi rendition="#aq">a parte
+                     ante,</hi> über die Gränze der Gränzen,<lb xml:id="III_121-6"/>ich meine über
+                  die rund um mich aufgehangene Sonnenwelt und<lb xml:id="III_121-7"/>über die Nacht
+                  um diese etc. etc. etc. gleichwohl fort.</hi>
+               <lb xml:id="III_121-8"/>
+            </p>
+            <p>
+               <hi rendition="#et">84<hi rendition="#aq">a</hi>) Das Wort Ohren und Schweif
+                  kontrastiert neben dem glänzenden<lb xml:id="III_121-9"/>Ur-Wesen unserer
+                     Hofnung.<lb n="10" xml:id="III_121-10"/>
+               </hi>
+               <lb type="ig"/>
+            </p>
+            <p>
+               <hi rendition="#et">85<hi rendition="#aq">a</hi>) „objektive Realität in Raum und
+                  Zeit“ ist nach der kritischen<lb xml:id="III_121-11"/>Schule ja nur subjektive.
+                  Zum Beweise führ ich die von Ihnen<lb xml:id="III_121-12"/>selber angeführte
+                  Stelle Blat 73̅ ganz oben, an. <hi rendition="#aq">b</hi>) Schönheit,<lb xml:id="III_121-13"/>Tugend ist aber nur <hi rendition="#g">an</hi> einem Wesen
+                  und keines, und der Unend<lb xml:id="III_121-14" rendition="#hyphen"/>liche ist
+                     <hi rendition="#g">eines</hi> und an keinem. Wenigstens fält diese Gleichung
+                     auf.<lb n="15" xml:id="III_121-15"/>
+               </hi>
+               <lb type="ig"/>
+            </p>
+            <p>
+               <hi rendition="#et">86̅<hi rendition="#aq">a</hi>) fehlet nach <hi rendition="#g">wenn</hi> „nicht“.</hi>
+               <lb xml:id="III_121-16"/>
+            </p>
+            <p>
+               <hi rendition="#et">89<hi rendition="#aq">a</hi>) Kant sagt das nicht, so wenig als
+                  man das Sehen sehen kan,<note corresp="#III_121-17">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002024">
+                           <persName> Immanuel <name type="reg">Kant</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_121-17"/>kont’ er sagen, daß man mit der (Zeit) Anschauung die
+                     Seele<lb xml:id="III_121-18"/>schaue, d. h. die Form mit derselben Form.
+                  „Schaue ewig den Raum<lb xml:id="III_121-19"/>„an, er wird dir so wenig Form der
+                  Sinlichkeit werden etc.“ Aber<lb n="20" xml:id="III_121-20"/>jener sol ja nichts
+                  weiter &lt;anders&gt; sein als diese, und er sol ja nicht<lb xml:id="III_121-21"/>Objekt, sondern Auge sein.</hi>
+               <lb xml:id="III_121-22"/>
+            </p>
+            <p>
+               <hi rendition="#et">90<hi rendition="#aq">a</hi>) Die Kantianer antworten, wir
+                  fragten nicht was <hi rendition="#g">nüzt,</hi> sondern<note corresp="#III_121-23">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002025">
+                           <persName>
+                              <name type="reg">Kantianer</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_121-23"/>was <hi rendition="#g">ist.</hi>
+               </hi>
+               <lb xml:id="III_121-24"/>
+            </p>
+            <p>
+               <hi rendition="#et">100<hi rendition="#aq">a</hi>) Gleichwohl sind es keine
+                  Interlokut- sondern Definitivfragen;<lb n="25" xml:id="III_121-25"/>und kein Wesen
+                  kan interessantere thun. Gegen den Scherz wie<lb xml:id="III_121-26"/>gegen die
+                  dreifache identische Antwort wird man vielerlei haben.</hi>
+               <lb xml:id="III_121-27"/>
+            </p>
+            <p>
+               <hi rendition="#et">103<hi rendition="#aq">a</hi>) Kant hält sich für
+                  verabscheuungswerth, wenn er die sitlichen<lb xml:id="III_121-28"/>Grundsäze
+                  aufgäbe, (welches eine Handlung wäre) nicht aber, wenn<lb xml:id="III_121-29"/>er
+                  die metaphysischen verliesse, obgleich diese jenen dienen. — —<lb n="30" xml:id="III_121-30"/>
+               </hi>
+               <lb type="ig"/>
+            </p>
+            <p>Der lezte Asteriskus wäre dieser: daß auf den strenggehaltenen, das<lb xml:id="III_121-31"/>Buch und den Widerleger verwirrenden Idealismus, der seine
+                  Wirbel<lb xml:id="III_121-32"/>z. B. Bl. 73̅, 46, 59̅ etc. schwindelnd treibt,
+               mehr Geschüz zu richten<lb xml:id="III_121-33"/>wäre.<note n="*)" place="foot">Auch
+                  gegen die Antinomien und die orientierenden Postulate wünscht’ ich<lb n="35" type="ig"/>mehr gesagt, nach Ihrer grossen Manier.</note> In Jakobi’s Realismus
+               stehen hinten die Stellen aus der<note corresp="#III_121-34">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008816">
+                        <author>Jacobi, Friedrich Heinrich (1743-1819), Philosoph und
+                           Schriftsteller</author>
+                        <title>David Hume (1787)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="III_121-34"/> Kritik gesammelt — und Fichte wirft sie den Kantianern vor
+               — woraus<note corresp="#III_122-1">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001073">
+                        <persName> Johann Gottlieb <name type="reg">Fichte</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-002025">
+                        <persName>
+                           <name type="reg">Kantianer</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="III_122-1"/>erscheint, daß nach ihr die ganze Natur ein blos im Raum in
+               uns, ge<lb xml:id="III_122-2" rendition="#hyphen"/>fassetes und von den Kategorien
+               figuriertes und ausgezaktes Gebäk sei.<lb xml:id="III_122-3"/>Das = <hi rendition="#aq">x</hi> an sich bleib’ uns, nach ihrer Meinung ewig ein <hi rendition="#aq">x</hi> und<lb xml:id="III_122-4"/>Nichts; nur weis ich nicht, mit
+               welchem Grund dieses Unerklärliche<lb n="5" xml:id="III_122-5"/>noch zur Erklärung
+               einer schon erklärten Sache beigezogen wird und<lb xml:id="III_122-6"/>wozu die von
+               uns geschafne Natur noch einen äussern Schöpfer<lb xml:id="III_122-7"/>braucht.<lb xml:id="III_122-8"/>
+            </p>
+            <p>Mich dünkt, die Rüge dieser Zweideutigkeit zwischen Realismus und<lb xml:id="III_122-9"/>Idealismus gehöre heller in Ihr Werk.<lb n="10" xml:id="III_122-10"/>
+            </p>
+            <p>— Und nun legen Sie, verehrtester Genius, Ihre lossprechende<lb xml:id="III_122-11"/>Hand auf meinen Kopf, der ausser der Kürze der Zeit, die durch Fremde<lb xml:id="III_122-12"/>noch enger ward, noch seine eigne Beschaffenheit für sich
+               hat. Es wurde<lb xml:id="III_122-13"/>mir schwer und zulezt widrig, durch Ihre
+               Blumenbeete und Frucht<lb xml:id="III_122-14" rendition="#hyphen"/>gärten stum zu
+               schleichen und nur hinter denselben oder bei Staubfäden<lb n="15" xml:id="III_122-15"/>
+               <hi rendition="#g">laut</hi> zu werden, denen nach meiner Meinung im Sexualsystem
+                  der<lb xml:id="III_122-16"/>kritischen Klassifikatoren ein Misgrif drohte. —<lb xml:id="III_122-17"/>
+            </p>
+            <p>Die Kürze der Zeit nahm meiner Sprache die Bescheidenheit — ich<lb xml:id="III_122-18"/>warf alles trocken hin und lies überal das „scheint“ weg —
+               wie meiner<lb xml:id="III_122-19"/>Lektüre die ausgestrichnen Stellen, die ich so
+               gern gelesen hätte.<lb n="20" xml:id="III_122-20"/>
+            </p>
+            <p>Ich hatte heute und gestern keine andern Gedanken als Ihre. Ich<lb xml:id="III_122-21"/>wuste nicht, daß ich schon heute am Freitag mein <hi rendition="#aq">Summarissimum</hi> als<lb xml:id="III_122-22"/>Teufelsadvokat
+               volführen würde.<lb xml:id="III_122-23"/>
+            </p>
+            <p>Verzeihen Sie einer Seele, die Sie so unaussprechlich liebt und<lb xml:id="III_122-24"/>ehrt, die Fehler der Eile — der Schwäche — des Sinnes — der
+                  Kentnis<lb n="25" xml:id="III_122-25"/>— der Kühnheit —; aber nicht des Herzens;
+               denn dieses kan und wird<lb xml:id="III_122-26"/>und sol nie in Fehler gegen seinen
+               geliebtesten Lehrer fallen. Und so<lb xml:id="III_122-27"/>
+               <hi rendition="#aq">vale et fave!</hi>
+            </p>
+            <closer>
+               <salute>
+                  <hi rendition="#sameLine">
+                     <hi rendition="#right">Richter</hi>
+                  </hi>
+                  <lb xml:id="III_122-28"/>
+               </salute>
+            </closer>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Berlin acc. ms. 1900. 198 (derzeit BJK). 13¾ S. 4°. <hi rendition="#i">K</hi>: <hi rendition="#i">Herder</hi>
+               </hi> 23 Nov. <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>: Herders Nachlaß<lb/>Nr. 20×. <hi rendition="#i">B</hi>:
+                  IV. Abt., III.1, Nr. 103. <hi rendition="#i">A</hi>: IV. Abt., III.1, Nr.</hi>
+               <hi rendition="#aq">104. </hi>
+               <ref target="#p117_l22">
+                  <hi rendition="#b">
+                     <hi rendition="#aq">117</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">22</hi>
+                  </hi>
+               </ref>
+               <hi rendition="#aq"/>wie] <hi rendition="#aq">aus</hi> wo <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <ref target="#p118_l1">
+                  <hi rendition="#b">
+                     <hi rendition="#aq">118</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">1</hi>
+                  </hi>
+               </ref>
+               <lb/>Siege] <hi rendition="#aq">aus</hi> Sieger <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">7</hi> etwas anders und] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">8</hi> da sein] <hi rendition="#aq">aus</hi>
+               <lb/>dasein <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">17</hi> Auf dieser Seite] <hi rendition="#aq">aus</hi> Hier <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">25</hi> mathematische] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">29</hi> nächsten] <hi rendition="#aq">aus</hi> eingeschlossenen
+                  <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">30</hi> aufs <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">32</hi> Buchstaben] <hi rendition="#aq">aus</hi>
+               näh.<lb/>Striche <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <ref target="#p119_l4">
+                  <hi rendition="#b">
+                     <hi rendition="#aq">119</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">4</hi>
+                  </hi>
+               </ref> Nothwendigkeit] <hi rendition="#aq">aus</hi> Gewisheit <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi> hat] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">6</hi>
+               <lb/>ihren den <hi rendition="#aq">aus</hi> diesen <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi> auf diese] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+                  <hi rendition="#rkd">17</hi> davor gestr.</hi> 15pp. So<lb/>vortreflich diese
+               Darstellung ist: so wird man sagen, nicht von der Art, wie wir<lb/>zur Vorstellung
+               des Raums, sondern davon ist die Rede, was der Raum selber<lb/>ist, ob eine Substanz,
+               eine Eigenschaft oder nur eine Idee. <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">31</hi> Unterschiede]<lb/>
+               <hi rendition="#aq">aus</hi> Begrif <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">36</hi> so <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">37 </hi>Palästra] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <ref target="#p120_l3">
+                  <hi rendition="#b">
+                     <hi rendition="#aq">120</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">3</hi>
+                  </hi>
+               </ref>
+               <hi rendition="#aq"/>realistischen] <hi rendition="#aq">aus</hi>
+               <lb/>dogmatischen <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+                  <hi rendition="#rkd">7</hi>f.</hi> die blosse Ahnenfolge] <hi rendition="#aq">aus</hi> das blosse Simultaneum <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">11</hi> findet] <hi rendition="#aq">aus</hi> sieht <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi> Körper] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">15</hi> darin] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi> Wesen<lb rendition="#hyphen"/>kette] <hi rendition="#aq">aus</hi> Folge <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">27</hi> dauern aber fort] <hi rendition="#aq">aus</hi> bleiben
+               aber da <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">29</hi> oder<lb/>
+               <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">30</hi> Kausalität] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">30</hi> welches <hi rendition="#aq">bis</hi> gehört] <hi rendition="#aq">aus</hi> das leztere Streben<lb/>gehört der Vernunft <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <ref target="#p121_l2">
+                  <hi rendition="#b">
+                     <hi rendition="#aq">121</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">2</hi>
+                  </hi>
+               </ref>
+               <hi rendition="#aq"/>den .. Zusaz] <hi rendition="#aq">aus</hi> des .. Zusazes <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">7</hi> rund]<lb/>
+               <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">10</hi> Ur-] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">23</hi> Die Kantianer antworten] <hi rendition="#aq">aus</hi>
+               Sie<lb/>antwortet <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">26</hi> kein] <hi rendition="#aq">aus</hi> jedes <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+                  <hi rendition="#rkd">33</hi>f.</hi> zu richten wäre] <hi rendition="#aq">aus</hi>
+               gerichtet<lb/>werden müste <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">34</hi> Stellen] <hi rendition="#aq">aus</hi> Data <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <ref target="#p122_l2">
+                  <hi rendition="#b">
+                     <hi rendition="#aq">122</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">2</hi>
+                  </hi>
+               </ref> nach ihr] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi> ge<lb rendition="#hyphen"/>fassetes] <hi rendition="#aq">aus</hi> geformtes <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">4</hi> nach ihrer Meinung] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">5</hi> dieses<lb/>Unerklärliche] <hi rendition="#aq">aus</hi> es
+                  <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">10</hi> heller] <hi rendition="#aq">aus</hi> lauter <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">16</hi> nach meiner Meinung]<lb/>
+               <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">25</hi>.<hi rendition="#rkd">27</hi> Fehler] <hi rendition="#aq">aus</hi> Mängel <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+            </p>
+            <p>
+               <hi rendition="#aq">Da sich das Manuskript der Metakritik in Herders Nachlaß erhalten
+                  hat,<lb/>so lassen sich die Stellen, auf die sich Jean Paul bezieht,
+                  größtenteils<lb/>genau angeben. Ich verweise im folgenden auf die Erstausgabe der
+                     Meta<lb rendition="#hyphen"/>kritik (Leipzig 1799) und führe die von Herder
+                  gestrichenen oder abge<lb rendition="#hyphen"/>änderten Stellen aus dem Manuskript
+                  (Ms.) im Wortlaut an. Bl. ̅3 a =<lb/>1. Teil, S. 20 („Dort wurde angenommen ...“);
+                  b und c = S. 21. Bl. 4 a =<lb/>S. 24; im Ms. ist vor „bleibt gleichergestalt <hi rendition="#g">Frage</hi>“ gestr.: „wird der<lb/>Erfolg zeigen, da es denn klar
+                  werden wird, ob ohne Veranlaßung der Sinne<lb/>der menschliche Verstand diese
+                  Begriffe sich je gebildet haben könne oder<lb/>haben würde? und mit welchem Recht
+                  er sich solche gebildet. Hier ist<lb/>darüber nichts zu sagen, da das blos ..
+                  [unleserlich] Merkmal ‚ein Ausschluß</hi>
+               <lb/>
+               <hi rendition="#aq">aller Erfahrung‘ zu solcher Behauptung ihrer inneren Bestimmung
+                  nach<lb/>keinen Grund giebt.“ Bl. 9 a = S. 47f. Bl. ̅9 a = S. 51. Bl. 10 a = S.
+                  56.<lb/>Bl. ͞10 a = S. 58; im Ms. hieß es: „Die Allgemeinheit und
+                  Nothwendigkeit<lb/>ihrer Sätze beruht nicht auf dem negativen Merkmahl, daß sie
+                  unabhängig<lb/>von aller Erfahrung, sondern vielmehr, daß sie aufs innigste mit
+                  der Er<lb rendition="#hyphen"/>fahrung verbunden und diese <hi rendition="#g">gleichsam selbst</hi> sind, sowohl an sich,<lb/>wenn sie auch nicht
+                  dargestellt würden ... [unleserlich] den Regeln des<lb/>Verstandes, als in der
+                  Darstellung selbst, die aus jenen ihrer Natur nach<lb/>folgt. Überhaupt ...“ (Bl.
+                  89 ist eines der ausgesonderten Blätter.) b =<lb/>S. 60 („denn im <hi rendition="#g">Geschehen</hi> setzen wir ...“). Bl. 11 a = S. 62 („so
+                  hätten<lb/>wir von einem Nichts geredet ...“). Bl. 12 a = S. 69 („daß sie ihren
+                     Ur<lb rendition="#hyphen"/>theilen von aller Erfahrung <hi rendition="#g">deßhalb</hi> Allgemeinheit und Nothwendigkeit<lb/>zuschriebe ...“). Bl. 15ff.
+                  (s. Lesarten) = S. 90ff. Bl. 17 a = S. 105 („alle<lb/>sinnliche Gegenstände
+                  Principien bekämen“). Bl. ͞19 a = S. 120; b =<lb/>S. 123. Bl. ͞30 a = S. 215 („Ein
+                  Gedanke, der das Selbstbewußtseyn bereits<lb/>voraussetzt ...“). Bl. 44,45 = S.
+                  319ff.; Bl. 46 = S. 333. Bl. ͞47 a =<lb/>S. 344; im Ms. hieß es: „so ist dies der
+                  ungeheuerste Glaube. Er sagt aus,<lb/>daß vor ihm keine Natur möglich gewesen, daß
+                  durch diese von ihm a<lb/>priori erfundene Sätze erst eine Natur möglich worden
+                  und wenn er seine<lb/>Beweisart ...“ Bl. 54 a = S. 389 („da mein Sinn nie siehet,
+                  daß etwas<lb/>
+                  <hi rendition="#g">wird</hi> ...“). Bl. 56 a nicht erhalten. Bl. ͞65 a = S. 479;
+                  im Ms. lautete der<lb/>Schlußsatz: „Der Name dieser Philosophie ist ein
+                  sprechender Name:<lb/>
+                  <hi rendition="#g">transscendent,</hi> d. i. sich selbst übersteigend.“ Bl. ͞66 a
+                  = 2. Teil, S. 9;<lb/>im Ms. hieß es: „den Begriff der <hi rendition="#g">Vernunft,</hi> wie er dem Verstande vor<lb rendition="#hyphen"/>liegt, auf
+                  trocknem Wege zu entwickeln.“ Bl. 69 a = S. 26. Bl. 74f. =<lb/>S. 85ff. Bl. 76 =
+                  S. 93ff. Bl. 79 a = S. 168 („die unvermeidlichen Antino<lb rendition="#hyphen"/>mieen ... verschwunden sind“). Bl. 84 a = S. 117; im Ms. hieß es:
+                  „weder<lb/>Kopf noch Füße, weder Ohren noch Schweif [verb. aus Schwanz]
+                  gebe.“<lb/>Bl. 85 a = S. 121 (Bl. ͞73 = S. 80); b = S. 123. Bl. 89 a =
+                  ausgesondertes<lb/>Blatt, wo der von Jean Paul beanstandete Satz gestrichen und
+                  dafür<lb/>gesetzt ist: „Mittelst des Raums als einer Form der Sinnlichkeit
+                  schauest<lb/>du an, als ob er dein inneres Teleskop wäre; du schauest ewig ins
+                  Blaue<lb/>hinein, mittelst seiner werden dir sowenig Gestalten als Triangel und
+                  Cirkel<lb/>werden ...“; der nächste Satz lautet unverändert: „Schaue deine
+                  Seele<lb/>mittelst der Zeitform immerhin an; ohne Gegenstände wirst du in ihr
+                  weder<lb/>Kategorien noch Schemate finden.“ Bl. 90 a = ausgesondertes Blatt,
+                  wo<lb/>es heißt: „Wird einer meiner Begriffe gesunder, wenn ich ihn ohne Kännt<lb rendition="#hyphen"/>niß der Sache als ein Schema a priori construire?“ Bl.
+                  100a = S. 239f.<lb/>Bl. 103 a = S. 262. Bl. ͞73, 46, ͞59 = S. 80ff., 1. Teil, S.
+                  331ff., 426ff. —<lb/>
+                  <ref target="#p121_l34">
+                     <hi rendition="#b">121</hi>,<hi rendition="#rkd">34</hi>
+                  </ref>
+                  <hi rendition="#g">Jacobis Realismus:</hi> „David Hume über den Glauben,
+                  oder<lb/>Idealismus und Realismus“, Breslau 1786; vgl. <ref target="#p137_l18">
+                     <hi rendition="#b">137</hi>,<hi rendition="#rkd">18</hi>
+                  </ref>f. <ref target="#p122_l20">
+                     <hi rendition="#b">122</hi>,<hi rendition="#rkd">20</hi>
+                  </ref> Vgl.</hi>
+               <lb/>
+               <ref target="#p113_l16">
+                  <hi rendition="#b">
+                     <hi rendition="#aq">113</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">16</hi>
+                  </hi>
+               </ref>
+               <hi rendition="#aq">.</hi>
+               <lb/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

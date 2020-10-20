@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="III_256">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="260">256. An Christian Otto. </title>
+            <title n="digital">An Christian Otto. Weimar, 25. April 1799 bis 7. Mai 1799.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=III_256</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/III/III_256</idno>
+               <idno type="TELOTAID">III_256</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
+               <biblScope n="text" unit="page">
+                  <num>186</num>
+                  <num>187</num>
+                  <num>188</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>456</num>
+                  <num>457</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date corresp="writingSession1" when="1799-04-25">25. April 1799</date>
+               <date corresp="writingSession2" when="1799-04-28">28. April 1799</date>
+               <date corresp="writingSession3" when="1799-05-06">6. Mai 1799</date>
+               <date corresp="writingSession4" when="1799-05-07">7. Mai 1799</date>
+               <placeName key="JP-006395" ref="http://www.geonames.org/2812482">Weimar</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-003112" ref="http://d-nb.info/gnd/118590804">
+                  <name type="reg">Otto</name> Christian </persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=III_237">4. April 1799 bis 5.
+                  April 1799</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=III_267">24. oder 25. Mai 1799
+                  bis 30. Mai 1799</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <div n="writingSession1">
+               <lb xml:id="III_186-11"/>
+               <dateline>
+                  <hi rendition="#right">
+                     <hi rendition="#aq">
+                        <placeName>W<metamark>[</metamark>eimar<metamark>]</metamark>
+                        </placeName> d. <date>25 Ap. 99</date>
+                     </hi>.</hi>
+               </dateline>
+               <lb xml:id="III_186-12"/>
+               <p>Gott segne dich, Lieber, für die heilende Freude, die mir dein Brief<lb xml:id="III_186-13"/>zubrachte. Ich bin jezt an meine Erupzionen so gewöhnt,
+                  daß mir alles<lb xml:id="III_186-14"/>darin altäglich vorkomt, die breitesten
+                  ausgenommen — blos der ganz<lb n="15" xml:id="III_186-15"/>spiralmässig in sich
+                  kehrende Plan erfreuete mich wie eine lange Rech<note corresp="#III_186-16">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010897" ana="ff†">
+                           <title>Titan (1800-1803)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="III_186-16" rendition="#hyphen"/>nung — auch dringt mir der hohe
+                  Albano ordentlich wie eine Rührung,<note corresp="#III_186-17">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010898">
+                           <title>Titan (1800-1803): Albano</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="III_186-17"/>eine zu ernste Manier auf — Kurz ich
+                     <metamark>[</metamark>
+                  <hi rendition="#aq">
+                     <hi rendition="#i">große Lücke</hi>
+                  </hi>
+                  <metamark>]</metamark>
+                  <lb xml:id="III_186-18"/>
+               </p>
+               <p>Liane sol dir künftig wie Blütengeist ins Herz ziehen — Und doch<note corresp="#III_186-19">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010915">
+                           <title>Titan (1800-1803): Liane</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="III_186-19"/>hab’ ich noch 2 andere, nie gezeichnete hohe Weiber.<note corresp="#III_186-20">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010911">
+                           <title>Titan (1800-1803): Idoine</title>
+                        </bibl>
+                        <bibl corresp="#JP-010917">
+                           <title>Titan (1800-1803): Linda</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb n="20" xml:id="III_186-20"/>
+               </p>
+               <p>Jeder Karakter sol eine Geschichte für sich formieren 〈z. B.<lb xml:id="III_186-21"/>Roquairol, Schoppe etc.〉, die aber in der Hauptgeschichte
+                  nur ein<note corresp="#III_186-22">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010921">
+                           <title>Titan (1800-1803): Roquairol</title>
+                        </bibl>
+                        <bibl corresp="#JP-010923">
+                           <title>Titan (1800-1803): Schoppe (Leibgeber)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="III_186-22"/>Kronrad, kein Zifferblatsrad wird; dieses
+                  Ineinanderschieben der Ge<lb xml:id="III_186-23" rendition="#hyphen"/>schichten
+                  macht alles so schwer.<lb xml:id="III_186-24"/>
+               </p>
+               <p>Was du von Einschieb<metamark>[</metamark>
+                  <hi rendition="#aq">
+                     <hi rendition="#i">Lücke</hi>
+                  </hi>
+                  <metamark>]</metamark> sagst <metamark>[</metamark>
+                  <hi rendition="#aq">
+                     <hi rendition="#i">große Lücke</hi>
+                  </hi>
+                  <metamark>]</metamark>
+                  <lb n="25" xml:id="III_186-25"/>
+               </p>
+               <p>kleinliche Idee vom Helden giebt. Wenn das vornen Dunkle nur<note corresp="#III_186-26">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010898" ana="†">
+                           <title>Titan (1800-1803): Albano</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="III_186-26"/>einigen Werth hat, so ists genug; daß es mit mehr
+                  Vortheil <hi rendition="#g">hinter</hi>
+                  <lb xml:id="III_186-27"/>der Erziehung stände, ändert nichts; sonst müst ich
+                  überhaupt das lezte<lb xml:id="III_186-28"/>Buch zuerst geben, weil dadurch jedes
+                  andere gewänne.<note n="*)" place="foot">Ich lege dir ein versiegeltes Blätgen
+                        <metamark>[</metamark>
+                     <hi rendition="#aq">
+                        <hi rendition="#i">Lücke</hi>
+                     </hi>
+                     <metamark>]</metamark> das sonderbar in d. jezig.<lb type="ig"/>Lesung
+                        <metamark>[</metamark>
+                     <hi rendition="#aq">
+                        <hi rendition="#i">Lücke</hi>
+                     </hi>
+                     <metamark>]</metamark> und das du erbrechen kanst — aber <metamark>[</metamark>
+                     <hi rendition="#aq">
+                        <hi rendition="#i">Lücke</hi>
+                     </hi>
+                     <metamark>]</metamark>
+                     <lb n="35" type="ig"/>
+                  </note> Beim Him<lb xml:id="III_186-29" rendition="#hyphen"/>mel! es sol sich eben
+                  erst vor der 2<hi rendition="#sup">ten</hi> Lesung aufthun.<lb n="30" xml:id="III_186-30"/>
+               </p>
+               <p>Rüge streng und <metamark>[</metamark>
+                  <hi rendition="#aq">
+                     <hi rendition="#i">große Lücke</hi>
+                  </hi>
+                  <metamark>]</metamark>
+                  <lb xml:id="III_186-31"/>
+               </p>
+               <p>
+                  <metamark>[</metamark>Mein Publikum macht jedem Menschen
+                     Ehre.<metamark>]</metamark>
+                  <lb xml:id="III_186-32"/>
+               </p>
+               <p>Du hattest nur da Unrecht, wo du — nichts sagtest.<lb xml:id="III_186-33"/>
+               </p>
+               <p>Über vieles erwart’ ich deinen 2<hi rendition="#sup">ten</hi> Brief nach den 2
+                  lezten Kapiteln,<lb xml:id="III_187-1"/>und unsere mündliche Rüksprache, die ich
+                  absichtlich der schönsten<lb xml:id="III_187-2"/>Frühlingszeit aufhebe.<lb xml:id="III_187-3"/>
+               </p>
+               <p>Apropos: Roquairol ist zwar Kammerrath; aber eine Militair<note corresp="#III_187-4">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010921">
+                           <title>Titan (1800-1803): Roquairol</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="III_187-4" rendition="#hyphen"/>stelle passet für ihn besser; allein
+                  er <metamark>[</metamark>
+                  <hi rendition="#aq">
+                     <hi rendition="#i">große Lücke</hi>
+                  </hi>
+                  <metamark>]</metamark>
+                  <lb n="5" xml:id="III_187-5"/>
+                  <lb type="ig"/>
+               </p>
+            </div>
+            <div n="writingSession2">
+               <dateline>
+                  <hi rendition="#right">
+                     <hi rendition="#aq">d. 28 Apr.</hi>
+                  </hi>
+               </dateline>
+               <lb xml:id="III_187-6"/>
+               <p>Obgleich alles erst den 8 Mai fortkomt: wil ich doch heute noch<lb xml:id="III_187-7"/>vorausschreiben. Den deutschen Hern nant’ ich früher <hi rendition="#aq">Couchey;</hi>
+                  <note corresp="#III_187-8">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0056702">
+                           <placeName>Deutscher Herr; Deutschland, deutsch</placeName>
+                        </place>
+                     </listPlace>
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010900">
+                           <title>Titan (1800-1803): Bouverot</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="III_187-8"/>er heisset aber <hi rendition="#aq">Bouverot;</hi> du must
+                  es dir aus der häslichen Hand des<lb xml:id="III_187-9"/>Lehnprobstes erklären, um
+                  so mehr da er alles verziffert, welches mir<note corresp="#III_187-10">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010914">
+                           <title>Titan (1800-1803): Legationsrat Hafenreffer</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb n="10" xml:id="III_187-10"/>Mühe genug macht.<lb xml:id="III_187-11"/>
+               </p>
+               <p>Das lezte Kapitel ist das einzige, das <hi rendition="#g">ganz</hi> erst jezt aus
+                     meiner<lb xml:id="III_187-12"/>Seele flos. — (die lezte Apostrophe ausgenommen,
+                  der 45. Zykel<lb xml:id="III_187-13"/>heute d. 7 Mai)<lb xml:id="III_187-14"/>
+               </p>
+               <p>Amöne möchte, daß ich mit <metamark>[</metamark>ihr und?<metamark>]</metamark> dir
+                  nach <hi rendition="#aq">Hof</hi> gienge; aber<note corresp="#III_187-15">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003108" ana="ff">
+                           <persName> Amöne (Pseud. Amalie von Obyrn) <name type="reg">Otto</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005841">
+                           <placeName>Hof im Vogtland</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="15" xml:id="III_187-15"/>
+                  <metamark>[</metamark>
+                  <hi rendition="#aq">
+                     <hi rendition="#i">Lücke</hi>
+                  </hi>
+                  <metamark>]</metamark> gekehrt — und bei dir <metamark>[</metamark>
+                  <hi rendition="#aq">
+                     <hi rendition="#i">Lücke</hi>
+                  </hi>
+                  <metamark>]</metamark> korrigi<metamark>[</metamark>
+                  <hi rendition="#aq">
+                     <hi rendition="#i">Lücke</hi>
+                  </hi>
+                  <metamark>]</metamark> wil ich<lb xml:id="III_187-16"/>
+                  <metamark>[</metamark>
+                  <hi rendition="#aq">
+                     <hi rendition="#i">Lücke</hi>
+                  </hi>
+                  <metamark>]</metamark> holen <metamark>[</metamark>
+                  <hi rendition="#aq">
+                     <hi rendition="#i">große Lücke</hi>
+                  </hi>
+                  <metamark>]</metamark>
+                  <lb xml:id="III_187-17"/>
+               </p>
+            </div>
+            <div n="writingSession3">
+               <dateline>
+                  <hi rendition="#right">
+                     <metamark>[</metamark>6. Mai?<metamark>]</metamark>
+                  </hi>
+               </dateline>
+               <lb xml:id="III_187-18"/>
+               <p>
+                  <metamark>[</metamark>Sie gefiel<metamark>]</metamark> auch der <hi rendition="#aq">Berlepsch,</hi> andern überhaupt sehr; sie betrug<note corresp="#III_187-19">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001542">
+                           <persName> Emilie Dorothea Friederike <name type="reg">Harmes</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_187-19"/>sich hier sehr gut und fest. Ihr Herz kanst du in die
+                  pontinischen Sümpfe<note corresp="#III_187-20">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006157">
+                           <placeName>Pontinische Sümpfe</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="20" xml:id="III_187-20"/>von Paris tauchen: du ziehest es diamant-rein
+                  wieder heraus. Diese<note corresp="#III_187-21">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006122">
+                           <placeName>Paris</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="III_187-21"/>weibliche Festigkeit, die unsern guten Einflüssen
+                  widersteht, beschirmt<lb xml:id="III_187-22"/>diese Wesen dafür gegen schlimme.
+                  Ein Man wirkt (syllogistisch) auf<lb xml:id="III_187-23"/>den Man mehr als auf ein
+                  Weib. Wir sahen uns wenig; ich bekam<lb xml:id="III_187-24"/>sogar (sie kan nicht
+                  ganz dafür) meine <metamark>[</metamark>al<metamark>]</metamark>ten Höfer <hi rendition="#aq">Vapeurs</hi> gegen<note corresp="#III_187-25">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005841">
+                           <placeName>Hof im Vogtland</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="25" xml:id="III_187-25"/>
+                  <metamark>[</metamark>sie<metamark>]</metamark> und ich sah, daß — wenn
+                     <metamark>[</metamark>
+                  <hi rendition="#aq">
+                     <hi rendition="#i">Lücke</hi>
+                  </hi>
+                  <metamark>]</metamark> ausnähme — ich in <hi rendition="#aq">Hof
+                        <metamark>[</metamark>
+                     <hi rendition="#i">Lücke</hi>
+                     <metamark>]</metamark>
+                  </hi>
+                  <note corresp="#III_187-26">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005841" ana="†">
+                           <placeName>Hof im Vogtland</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="III_187-26"/>die kalte Dumpfheit <metamark>[</metamark>
+                  <hi rendition="#aq">
+                     <hi rendition="#i">Lücke</hi>
+                  </hi>
+                  <metamark>]</metamark> überkommen <metamark>[</metamark>
+                  <hi rendition="#aq">
+                     <hi rendition="#i">Lücke</hi>
+                  </hi>
+                  <metamark>]</metamark> in mir auf, <metamark>[</metamark>
+                  <hi rendition="#aq">
+                     <hi rendition="#i">Lücke</hi>
+                  </hi>
+                  <metamark>]</metamark>
+                  <lb xml:id="III_187-27"/>Ort und die Zeit denke. <metamark>[</metamark>
+                  <hi rendition="#aq">
+                     <hi rendition="#i">Lücke</hi>
+                  </hi>
+                  <metamark>]</metamark> must’ <metamark>[</metamark>
+                  <hi rendition="#aq">
+                     <hi rendition="#i">große Lücke</hi>
+                  </hi>
+                  <metamark>]</metamark>
+                  <lb xml:id="III_187-28"/>
+               </p>
+               <p>vollends von (eigentlich überal unrechten) Besuchen. Denn welche hat<lb xml:id="III_187-29"/>denn ein Recht, sich blos durch ihre Moralität vom
+                     Zeremonialgesez<lb n="30" xml:id="III_187-30"/>zu dispensieren, was sie der
+                  andern absprechen wolte, die ja eben so gut<lb xml:id="III_187-31"/>eigne
+                  Richterin sein kan? — Mit der Schröder war sie <hi rendition="#g">ein</hi>mal bei
+                     mir,<note corresp="#III_187-32">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003863">
+                           <persName> Corona Elisabeth Wilhelmine <name type="reg">Schröter</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_187-32"/>und <hi rendition="#g">ohne</hi> jene auch einmal; aber
+                  es war am lezten Abend, wir sehnten<lb xml:id="III_187-33"/>uns beide; darauf
+                     <metamark>[</metamark>giengen<metamark>]</metamark> wir zu <hi rendition="#aq">Herder;</hi> auch wars <metamark>[</metamark>am<metamark>]</metamark>
+                     Tage;<note corresp="#III_187-34">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001675">
+                           <persName> Johann Gottfried von <name type="reg">Herder</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_187-34"/>und ein Mädgen wohnet <metamark>[</metamark>
+                  <hi rendition="#aq">
+                     <hi rendition="#i">Lücke</hi>
+                  </hi>
+                  <metamark>]</metamark> mir; und einmal ist
+                     k<metamark>[</metamark>einmal.<metamark>]</metamark>
+                  <lb n="35" xml:id="III_187-35"/>
+                  <lb type="ig"/>
+               </p>
+            </div>
+            <div n="writingSession4">
+               <dateline>
+                  <hi rendition="#right">d. 7 <metamark>[</metamark>Mai.<metamark>]</metamark>
+                  </hi>
+               </dateline>
+               <lb xml:id="III_187-36"/>
+               <p>Ich endige <metamark>[</metamark>
+                  <hi rendition="#aq">
+                     <hi rendition="#i">Lücke</hi>
+                  </hi>
+                  <metamark>]</metamark> das Bu<metamark>[</metamark>
+                  <hi rendition="#aq">
+                     <hi rendition="#i">große Lücke</hi>
+                  </hi>
+                  <metamark>]</metamark>
+                  <lb xml:id="III_187-37"/>
+               </p>
+               <p>
+                  <metamark>[</metamark>Der holde Tag, die freudigen Zufälle machten, daß nicht blos
+                     der<lb xml:id="III_188-1"/>Merkur durch die Sonne gieng, sondern auch Endes
+                     Unterschriebner.<metamark>]</metamark>
+                  <lb xml:id="III_188-2"/>
+               </p>
+               <p>Meine innern Gestalten trösten mich über die äussern, nur ergreifen<lb xml:id="III_188-3"/>sie mich stärker als diese und zu stark.<lb xml:id="III_188-4"/>
+               </p>
+               <p>Göthe und Schiller waren das leztemal ganz frostig gegen mich;<note corresp="#III_188-5">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001353" ana="†">
+                           <persName> Johann Wolfgang von <name type="reg">Goethe</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003737" ana="†">
+                           <persName> Friedrich (ab 1802) von <name type="reg">Schiller</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-004810" ana="†">
+                           <persName> Karoline <name type="reg">Wolzogen</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="5" xml:id="III_188-5"/>blos — wie man dort beim Thee sagte — weil ich an
+                  der <hi rendition="#aq">Herderschen</hi>
+                  <lb xml:id="III_188-6"/>Metakritik schuld sein und sogar Hand darin haben sol und
+                     Schiller<note corresp="#III_188-7">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-008695" ana="†">
+                           <author>Herder, Johann Gottfried (seit 1801) von (1744-1803)</author>
+                           <title>Metakritik (1799)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="III_188-7"/>hoft, unsere 〈<hi rendition="#aq">Herder</hi> und meine〉
+                  Freundschaft werde dadurch brechen.<note corresp="#III_188-8">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001675">
+                           <persName> Johann Gottfried von <name type="reg">Herder</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_188-8"/>
+               </p>
+               <p>Samuel gieng zur Messe nach Leipzig, mich wie Gotlieb sich aus<note corresp="#III_188-9">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003480">
+                           <persName> Johann Gottlieb <name type="reg">Richter</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003485">
+                           <persName> Johann Samuel <name type="reg">Richter</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005948">
+                           <placeName>Leipzig</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="III_188-9" rendition="#hyphen"/>drücket, „anzuschmieren und bei meinen
+                  Buchhändlern zu borgen <metamark>[</metamark>und<metamark>]</metamark>
+                  <lb n="10" xml:id="III_188-10"/>nach Amerika zu gehen.“ 8 Tage vorher <hi rendition="#g">eh</hi> es Gotlieb schrieb, ver<note corresp="#III_188-11">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005526">
+                           <placeName>Amerika </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="III_188-11" rendition="#hyphen"/>muthete ichs und schrieb daher an
+                  Matzdorf etc. Als er bei diesem<note corresp="#III_188-12">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002678">
+                           <persName> Carl August <name type="reg">Matzdorff </name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_188-12"/>
+                  <metamark>[</metamark>
+                  <hi rendition="#aq">
+                     <hi rendition="#i">Lücke</hi> Ld’or</hi> wolte: gab ers nicht;
+                     <metamark>[</metamark>
+                  <hi rendition="#aq">
+                     <hi rendition="#i">Lücke</hi>
+                     <metamark>]</metamark> Morus</hi> etc. Böhm schreibt<note corresp="#III_188-13">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000395">
+                           <persName> Georg Gottlieb <name type="reg">Böhm</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-002881" ana="†">
+                           <persName>
+                              <name type="reg">Morus</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="III_188-13"/>mir, er <metamark>[</metamark>habe
+                     ihm<metamark>]</metamark> 5 <hi rendition="#aq">Carolin</hi> zur Reise etc.
+                     gelassen.<lb xml:id="III_188-14"/>
+               </p>
+               <p>
+                  <metamark>[</metamark>
+                  <hi rendition="#aq">
+                     <hi rendition="#i">Lücke</hi>
+                  </hi>
+                  <metamark>]</metamark> nach <hi rendition="#aq">Hild<metamark>[</metamark>burghausen</hi> zu einer<metamark>]</metamark>
+                  lieben Freundin.<note corresp="#III_188-15">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001059">
+                           <persName> Caroline Henriette Susanne Friederike von <name type="reg">Feuchtersleben</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005832">
+                           <placeName>Hildburghausen</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="15" xml:id="III_188-15"/>
+               </p>
+               <p>
+                  <metamark>[</metamark>Deine lezten Briefe an mich, die in Couverts bestehen, habe
+                     richtig<lb xml:id="III_188-16"/>erhalten, aber es lieset sie unterwegs jeder
+                  Nar; du soltest die<lb xml:id="III_188-17"/>Couverts an mich einschlagen in
+                     fremde.<metamark>]</metamark>
+                  <metamark>[</metamark>
+                  <hi rendition="#aq">
+                     <hi rendition="#i">Lücke</hi>
+                  </hi>
+                  <metamark>]</metamark>
+                  <lb xml:id="III_188-18"/>
+               </p>
+               <p>Melde mir die Ankunft des Mspt bald.<note corresp="#III_188-19">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010897">
+                           <title>Titan (1800-1803)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="III_188-19"/>
+               </p>
+            </div>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Berlin JP. 8 S. 8° (die untere Hälfte durch Mäusefraß zerstört).<lb/>
+                  <hi rendition="#i">K</hi>:</hi> Otto den 8[!] Mai. <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>: Otto 3,77×. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>: Nerrlich Nr. 59×. <hi rendition="#i">B</hi>:<lb/>IV.
+                  Abt., III.1, Nr. 187. <hi rendition="#i">A</hi>: IV. Abt., III.1, Nr.</hi>
+               <hi rendition="#aq">216. </hi>
+               <ref target="#p186_l14">
+                  <hi rendition="#b">
+                     <hi rendition="#aq">186</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">14</hi>
+                  </hi>
+               </ref>
+               <hi rendition="#aq"/>alles <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">15</hi> ausgenommen] nur die breitesten<lb/>gefallen <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">17</hi> dringt] <hi rendition="#aq">aus</hi> nimt <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">18</hi> zu] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">20</hi> hohe] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">27</hi> daß] <hi rendition="#aq">davor gestr.</hi> aus der
+               Vermehrung desselben <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">29</hi> Buch] <hi rendition="#aq">aus</hi> Kapitel <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">30 </hi>vor] <hi rendition="#aq">aus</hi> bei <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>,</hi> bei <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+                  <hi rendition="#rkd">32</hi> aus <hi rendition="#i">K</hi>
+               </hi>
+               <ref target="#p187_l5">
+                  <hi rendition="#b">
+                     <hi rendition="#aq">187</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">5</hi>
+                  </hi>
+               </ref>
+               <hi rendition="#aq"/>ihn] <hi rendition="#aq">aus</hi> alles <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+                  <hi rendition="#rkd">13</hi>f. die Paren<lb rendition="#hyphen"/>these nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">19</hi> andern überhaupt sehr] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">22</hi> weibliche]<lb/>
+               <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">23</hi> Ein <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">24</hi> Weib.] <hi rendition="#aq">nachtr. nach</hi>
+               <hi rendition="#rkd">32</hi> kan? — <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">25</hi> nicht ganz]<lb/>
+               <hi rendition="#aq">aus</hi> wenig <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">35</hi> ein Mädgen wohnet] <hi rendition="#aq">aus</hi> Mädgen
+               wohnen <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+                  <ref target="#p188_l1">
+                     <hi rendition="#b">188</hi>,<hi rendition="#rkd">1</hi>
+                  </ref>f. aus <hi rendition="#i">K</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">6 </hi>— wie <hi rendition="#aq">bis</hi> sagte —] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">9</hi> zur Messe] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+                  <hi rendition="#rkd">16–18</hi> aus <hi rendition="#i">K</hi>
+               </hi>
+               <lb/>
+            </p>
+            <p>
+               <hi rendition="#aq">Mit Übersendung der 7. und 8. Jobelperiode des Titan. </hi>
+               <ref target="#p186_l25">
+                  <hi rendition="#b">
+                     <hi rendition="#aq">186</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">25</hi>
+                  </hi>
+               </ref>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">–30</hi>
+               </hi>
+               <hi rendition="#aq">
+                  <hi rendition="#rkd"/>Otto<lb/>hatte die Stellung von Albanos Jugendgeschichte
+                  nach den Szenen auf<lb/>Isola bella beanstandet, weil dadurch zwar die großen
+                  Charaktere gleich<lb/>herausgehoben würden, aber dafür im Anfang, wenigstens beim
+                  ersten<lb/>Lesen, manches etwas dunkel bleibe. Die Lücke ist dem Sinne nach
+                  etwa<lb/>so zu ergänzen: Was du von Einschiebung der Jugendgeschichte sagst,
+                  ist<lb/>richtig, sie war aber nötig, weil die Voranstellung eine zu kleinliche
+                  Idee<lb/>vom Helden gibt. <hi rendition="#rkd">34</hi> Das Blättchen enthielt
+                  vielleicht die Auflösung der<lb/>Verwicklungen des Romans, vgl. <ref target="#p175_l8">
+                     <hi rendition="#b">175</hi>,<hi rendition="#rkd">8</hi>
+                  </ref>
+                  <hi rendition="#rkd">–10</hi>, <ref target="#p290_l28">
+                     <hi rendition="#b">290</hi>,<hi rendition="#rkd">28</hi>
+                  </ref>
+                  <hi rendition="#rkd">–33</hi>. <ref target="#p187_l4">
+                     <hi rendition="#b">187</hi>,<hi rendition="#rkd">4</hi>
+                  </ref>f. Vgl.<lb/>I. Abt., VIII, 141,<hi rendition="#rkd">12</hi>f. <hi rendition="#rkd">16</hi> Vgl. <ref target="#p161_l31">
+                     <hi rendition="#b">161</hi>,<hi rendition="#rkd">31</hi>
+                  </ref>f. <hi rendition="#rkd">26–28</hi> ist etwa zu ergänzen: daß —<lb/>wenn ich
+                  dich ausnähme — ich in Hof wieder die kalte Dumpfheit wie<lb/>ehemals überkommen
+                  würde; sie steigt jedesmal in mir auf, wenn ich an<lb/>den Ort und die Zeit denke.
+                     <hi rendition="#rkd">29–35</hi> Vgl. <ref target="#p162_l34">
+                     <hi rendition="#b">162</hi>,<hi rendition="#rkd">34</hi>
+                  </ref>f. <ref target="#p188_l5">
+                     <hi rendition="#b">188</hi>,<hi rendition="#rkd">5</hi>
+                  </ref>
+                  <hi rendition="#rkd">–8</hi> An <hi rendition="#g">Goethes<lb/>und Schillers
+                     Kälte</hi> war schwerlich Jean Pauls Mitarbeit an der Meta<lb rendition="#hyphen"/>kritik schuld; Goethes Tagebuch v. 15. April 1799 notiert:
+                  „Abends bey<lb/>Frau v. Wolzogen. Zudringlichkeit Richters.“ Vermutlich handelt es
+                  sich<lb/>dabei um das Vorkommnis, das Goethe später einmal Schelling
+                  erzählte,</hi>
+               <lb/>
+               <hi rendition="#aq">s. Persönl. Nr. 74. Am 16. April war bei Goethe Teegesellschaft,
+                  an der u. a.<lb/>Schiller und Charlotte v. Kalb teilnahmen; vielleicht bezieht
+                  sich hierauf<lb/>Charlottens Bemerkung im IV. Abt. (Br. an J.P.), III.1, Nr. 185:
+                  „Gestern waren Wol<lb rendition="#hyphen"/>zogens bei mir; ich begreife nun mehr
+                  das Gespräch zwischen S. und G.,<lb/>und somit hat es auch eine ganz andere
+                  Auslegung.“ <hi rendition="#rkd">13</hi>
+                  <hi rendition="#g">Morus:</hi> ein<lb/>Bekannter der Feinds (erwähnt im Brief an
+                  J.P. IV. Abt., III.1, Nr. 46). <hi rendition="#g">Böhm:</hi> s. FB<lb/> Nr. 26. 15
+                  Vgl. Nr.</hi>
+               <hi rendition="#aq"> 267.</hi>
+               <lb/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

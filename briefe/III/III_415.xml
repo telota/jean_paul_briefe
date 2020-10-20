@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="III_415">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="420">415. An Gleim in Halberstadt. </title>
+            <title n="digital">An Johann Wilhelm Ludwig Gleim. Weimar, 9. März 1800.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=III_415</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/III/III_415</idno>
+               <idno type="TELOTAID">III_415</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
+               <biblScope n="text" unit="page">
+                  <num>303</num>
+                  <num>304</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>498</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1800-03-09">9. März 1800</date>
+               <placeName key="JP-006395" ref="http://www.geonames.org/2812482">Weimar</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-001328" ref="http://d-nb.info/gnd/118717758">
+                  <name type="reg">Gleim</name> Johann Wilhelm Ludwig</persName>
+               <placeName key="JP-005808" ref="http://www.geonames.org/2911662">Halberstadt</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=III_114">8. August 1798</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=III_468">21. Mai 1800</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <dateline>
+               <hi rendition="#right">
+                  <hi rendition="#aq">
+                     <placeName>Weimar</placeName>
+                  </hi> d. <date>9. März 1800</date>.</hi>
+            </dateline>
+            <lb xml:id="III_303-23"/>
+            <p>Geliebter, verehrter Vater Gleim! Wie kan ich Sie nach dem<lb xml:id="III_303-24"/>
+               <hi rendition="#g">lezten</hi> Blatte in den „<hi rendition="#g">Blumenstücken</hi>“
+               und nach dem lezten Blatte,<note corresp="#III_303-25">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010545" ana="†">
+                        <title>Blumen- Frucht- und Dornenstükke (Blumen-, Frucht- und Dornenstücke)
+                           (Siebenkäs) (1796-97 [1796]): Intelligenzblatt</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="25" xml:id="III_303-25"/>das Sie mir geschikt, anders nennen als Vater? — Und
+               so nante Sie<lb xml:id="III_303-26"/>mein ganzes Herz, als ich von Ihnen im Wagen mit
+               einem von Dank<lb xml:id="III_303-27" rendition="#hyphen"/>barkeit, Liebe und
+               Hochachtung aufgelösten Herzen von dem Ihrigen<lb xml:id="III_303-28"/>schied! —
+               Überal nenn’ ich Sie den Deutschen, wie man Friedrich, den<note corresp="#III_303-29">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001181">
+                        <persName>
+                           <name type="reg">Friedrich II.</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-0056690">
+                        <placeName>Deutsche; Deutschland , deutsch , Germanien,
+                           Vaterland</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="III_303-29"/>Einzigen nent; und in unserer Zeit sind leider Deutsche auch
+                  Einzige,<lb n="30" xml:id="III_303-30"/>wie Friedrich.<lb xml:id="III_303-31"/>
+            </p>
+            <p>In einem Monat werden Sie auf einmal 1 Buch und 2 Büchelgen<note corresp="#III_303-32">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010571">
+                        <title>Clavis Fichtiana (1800)</title>
+                     </bibl>
+                     <bibl corresp="#JP-010779">
+                        <title>Komischer Anhang zum Titan (1800-1801)</title>
+                     </bibl>
+                     <bibl corresp="#JP-010897">
+                        <title>Titan (1800-1803)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="III_303-32"/>von mir erhalten.<lb xml:id="III_303-33"/>
+            </p>
+            <p>Ich verändere mit meiner geistigen Lage auch meine geographische;<lb xml:id="III_303-34"/>und gehe aus <hi rendition="#aq">Weimar</hi> weg; aber mit
+               einer wunden Brust vol Blut,<note corresp="#III_303-35">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006395">
+                        <placeName>Weimar</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb n="35" xml:id="III_303-35"/>weil ich meine guten <hi rendition="#aq">Herders</hi>
+               verlasse und nie mehr finde; und weil ich<note corresp="#III_303-36">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001670">
+                        <persName> Caroline <name type="reg">Herder</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-001675">
+                        <persName> Johann Gottfried von <name type="reg">Herder</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="III_303-36"/> künftig kaum jemand noch halb so lieben kan wie diese
+               Geliebten. Wir<lb xml:id="III_304-1"/>sprechen so oft und so einig von unserem Gleim.
+               Er vergisset die Deut<note corresp="#III_304-2">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-0056690">
+                        <placeName>Deutsche; Deutschland , deutsch , Germanien,
+                           Vaterland</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="III_304-2" rendition="#hyphen"/>schen nicht und kein guter ihn!<lb xml:id="III_304-3"/>
+            </p>
+            <p>Lebe froh, edler Man! Dein Lebens-Nachsommer sei dir ein Nach<lb xml:id="III_304-4" rendition="#hyphen"/>frühling! Dein unaussprechlich-redliches Herz finde immer
+               eines, das<lb n="5" xml:id="III_304-5"/>antwortet und es werde nie getäuscht! Und wie
+               spät ich auch sterbe und<lb xml:id="III_304-6"/>wie sehr ich mich auch noch ändere:
+               ich werde immer und in der lezten<lb xml:id="III_304-7"/>Minute sagen: meinen Gleim
+               hab’ ich herzlich geliebt und hochgeachtet!<lb xml:id="III_304-8"/>— Und kein Herz
+               vergisset ihn!<lb xml:id="III_304-9"/>
+            </p>
+            <closer>
+               <salute>
+                  <hi rendition="#right">J. P. F. Richter</hi>
+                  <lb n="10" xml:id="III_304-10"/>
+               </salute>
+            </closer>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Gleimhaus, Halberstadt. 4 S. 8°. <hi rendition="#i">K</hi> (nach Nr.</hi> 417): Gleim d. 9. März.<lb/>
+               <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>: Körte×. (Wiederabgedr. Denkw. 3,49×.) <hi rendition="#i">i:</hi> Wahrheit 6,120. <hi rendition="#i">B</hi>:<lb/>IV. Abt.,
+                  III.2, Nr. 323. <hi rendition="#i">A</hi>: IV. Abt., III.2, Nr.</hi>
+               <hi rendition="#aq">342. </hi>
+               <ref target="#p303_l27">
+                  <hi rendition="#b">
+                     <hi rendition="#aq">303</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">27</hi>
+                  </hi>
+               </ref> von<hi rendition="#sup">2</hi>] <hi rendition="#aq">aus</hi> in <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">30</hi> Deutsche] <hi rendition="#aq">aus</hi> die<lb/>Deutschen
+                  <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">35</hi> wunden] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">36</hi> verlasse und] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <ref target="#p304_l1">
+                  <hi rendition="#b">
+                     <hi rendition="#aq">304</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">1</hi>
+                  </hi>
+               </ref> halb]<lb/>
+               <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+            </p>
+            <p>
+               <ref target="#p303_l25">
+                  <hi rendition="#b">
+                     <hi rendition="#aq">303</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">25</hi>
+                  </hi>
+               </ref>
+               <hi rendition="#aq">Das „Intelligenzblatt der Blumenstücke“ mit dem Dank an
+                  den<lb/>anonymen Spender (I.Abt., VI, 411f.) stand in der 1. Auflage am
+                  Schluß<lb/>des letzten Bandes. Jetzt hatte Gleim wieder eine Anweisung über 500
+                  fl.<lb/>als Beitrag zu den hochzeitlichen Ausgaben geschickt und sich
+                  dafür<lb/>von jedem künftigen Werke Jean Pauls ein Widmungsexemplar aus<lb rendition="#hyphen"/>gebeten; Richter solle aber nie etwas davon erwähnen und
+                  ihm keine<lb/>Geheimnisse schreiben, da er sich wegen seiner Augenschwäche Briefe
+                     vor<lb rendition="#hyphen"/>lesen lassen müsse. <hi rendition="#rkd">32</hi>
+                  Den 1. Band des Titan, den Anhang dazu und den<lb/>Clavis.</hi>
+               <lb/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

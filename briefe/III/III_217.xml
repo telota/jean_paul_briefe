@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="III_217">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="220">217. An Christian Otto. </title>
+            <title n="digital">An Christian Otto. Weimar, 1. März 1799.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=III_217</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/III/III_217</idno>
+               <idno type="TELOTAID">III_217</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
+               <biblScope n="text" unit="page">
+                  <num>160</num>
+                  <num>161</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>446</num>
+                  <num>447</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1799-03-01">1. März 1799</date>
+               <placeName key="JP-006395" ref="http://www.geonames.org/2812482">Weimar</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-003112" ref="http://d-nb.info/gnd/118590804">
+                  <name type="reg">Otto</name> Christian </persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=III_203">27. Januar 1799 bis 5.
+                  Februar 1799</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=III_224">1. März 1799 bis 14.
+                  März 1799</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <byline>
+               <hi rendition="#g">Ziemlich eilig wie du.</hi>
+            </byline>
+            <dateline>
+               <hi rendition="#right">
+                  <hi rendition="#aq">
+                     <placeName>W<metamark>[</metamark>eimar<metamark>]</metamark>
+                     </placeName>
+                  </hi> d. <date>1. März 99</date>.</hi>
+            </dateline>
+            <lb xml:id="III_160-2"/>
+            <p>Den 27<hi rendition="#sup">ten</hi> Febr. erhielt ich deinen. Jezt nach der Reihe.<lb xml:id="III_160-3"/>
+            </p>
+            <p>Über <hi rendition="#aq">Feind</hi> irrest du ganz; eben das Gegentheil must du aus
+                  seiner<note corresp="#III_160-4">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001047" ana="†">
+                        <persName> Johann Gottlob <name type="reg">Feind</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="III_160-4"/>Verweigerung schliessen. Wenn der <hi rendition="#aq">Titan 5
+                  Ld.</hi> komt: so kan ein<note corresp="#III_160-5">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010897">
+                        <title>Titan (1800-1803)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="5" xml:id="III_160-5"/>kleineres Stiefkind nicht auch soviel fodern. Auch war
+               weiter Druk be<note corresp="#III_160-6">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010558">
+                        <title>Briefe und bevorstehender Lebenslauf (1799)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="III_160-6" rendition="#hyphen"/>stimt. — Die Titanide nimt Amöne desto
+               lieber auf, da jezt ihr Man<note corresp="#III_160-7">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002007">
+                        <persName> Charlotte von <name type="reg">Kalb</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-002009" ana="†">
+                        <persName> Heinrich Julius Alexander von <name type="reg">Kalb</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003108">
+                        <persName> Amöne (Pseud. Amalie von Obyrn) <name type="reg">Otto</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="III_160-7"/>vom Herzog v. Zweibrücken nach München zum Avancement
+                  berufen<note corresp="#III_160-8">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002694" ana="†">
+                        <persName>
+                           <name type="reg">Maximilian IV. Joseph</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006040">
+                        <placeName>München</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="III_160-8"/>worden. Sie müste aber mit ihr auf ihr Landgut <hi rendition="#aq">Kalbsrieth</hi> (8 Stunden<note corresp="#III_160-9">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005884">
+                        <placeName>Kalbsrieth, Sachsen-Anhalt</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="III_160-9"/>von hier) in eine kleine aber reizende Einsamkeit. Die
+               Fürstin Karolath,<note corresp="#III_160-10">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003828">
+                        <persName> Erdmuthe Caroline Friederike Amalie Fürstin von <name type="reg">Schönaich-Carolath Beuthen</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="10" xml:id="III_160-10"/>zu der sie könte, taugt nichts, ist koket etc., der
+               Fürst dum; die ganze<note corresp="#III_160-11">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003829">
+                        <persName> Heinrich Carl (Karl) Erdmann Fürst von <name type="reg">Schönaich-Carolath -Beuthen</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="III_160-11"/>Lage gefährlich — in 8 Tagen käm’ er mit seiner <hi rendition="#aq">ars amandi,</hi> nach der<note corresp="#III_160-12">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009361">
+                        <author>Ovid (d.i. Publius Ovidius Naso) (43 v. Chr - 17 n. Chr.), röm.
+                           Dichter(Werk)</author>
+                        <title>Ars amandi</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="III_160-12"/>jezt algemeinen Frechheit. — Oertels Frau war über Briefe
+                  schon<note corresp="#III_160-13">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003036" ana="†">
+                        <persName> Friederike Sophie von <name type="reg">Oertel</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="III_160-13"/>eifersüchtig; also über die Briefstellerin noch leichter:
+               sonst wär’ es<lb xml:id="III_160-14"/>die weichste Stelle. — An die arme Karoline
+               denkt kein Mensch. —<note corresp="#III_160-15">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002454">
+                        <persName> Caroline <name type="reg">Liebmann</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="15" xml:id="III_160-15"/>Sag’ es einstweilen Amönen, und das noch, ich hätte
+               in meinem<note corresp="#III_160-16">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003108">
+                        <persName> Amöne (Pseud. Amalie von Obyrn) <name type="reg">Otto</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="III_160-16"/>Lezten auf diese Einladung der <hi rendition="#aq">Tit<metamark>[</metamark>anide<metamark>]</metamark>
+               </hi> eben angespielt. — Den<note corresp="#III_160-17">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002007">
+                        <persName> Charlotte von <name type="reg">Kalb</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="III_160-17"/>alten <hi rendition="#aq">Herold,</hi> den ich <hi rendition="#aq">Swift</hi> immer ähnlicher finde, hab’ ich seit einiger<note corresp="#III_160-18">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001714" ana="†">
+                        <persName> Johann Georg <name type="reg">Herold</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-004223">
+                        <persName> Jonathan <name type="reg">Swift</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="III_160-18"/>Zeit lieber; nur die Satans-Doublette neben ihm versäuert
+               ihn. —<note corresp="#III_160-19">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001711" ana="†">
+                        <persName> Gottlieb Christian <name type="reg">Herold</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-001715" ana="†">
+                        <persName> Johann Georg <name type="reg">Herold</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="III_160-19"/>Apropos ich logiere wieder bei dir, wenn du kanst; sag aber
+               doch der<lb n="20" xml:id="III_160-20"/>einladenden Amöne, daß ichs gethan hätte,
+               wären nichts als Schwestern<note corresp="#III_160-21">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001717">
+                        <persName> Johann Georg <name type="reg">Herold</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-002454">
+                        <persName> Caroline <name type="reg">Liebmann</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003108">
+                        <persName> Amöne (Pseud. Amalie von Obyrn) <name type="reg">Otto</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="III_160-21"/>im Haus. Aber 3 Tage wil ich ernstlich drunten hausen. — Wie
+                  hätt’<lb xml:id="III_160-22"/>ich dem dum-listigen Hölzel etwas geben können? Ich
+               bin ohnehin den<note corresp="#III_160-23">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001778" ana="?†">
+                        <persName> Heinrich Konrad <name type="reg">Hölzel</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-001779" ana="?†">
+                        <persName> Johann Lorenz <name type="reg">Hölzel</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="III_160-23"/>Schwarzenbachern, Höfern, Erlangern etc. herzlich gram. Du
+               sagst, ich<note corresp="#III_160-24">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005841">
+                        <placeName>Hof im Vogtland</placeName>
+                     </place>
+                     <place corresp="#JP-005722">
+                        <placeName>Erlangen </placeName>
+                     </place>
+                     <place corresp="#JP-006268">
+                        <placeName>Schwarzenbach a. d. Saale</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="III_160-24"/>sol mein Leben schonen. Oft wolt’ ich, ich hätte es nicht
+               mehr. Es<lb n="25" xml:id="III_160-25"/>wird mir täglich — eben weil alles ausser mir
+               gelingt — abgeschabter;<lb xml:id="III_160-26"/>eine Frau wäre noch der einzige
+               Firnis. Zuweilen ergrimm ich über<lb xml:id="III_160-27"/>meine von allen meinen
+               Verhältnissen ermordete Vergangenheit, über<lb xml:id="III_160-28"/>die bewölkte
+               Jugendwelt, die mir die Spizbuben um mich verdorben<lb xml:id="III_160-29"/>und die
+               mir kein Gott wiedergeben kan. Ach welchen Samen zu einem<lb n="30" xml:id="III_160-30"/>Paradies trug ich in meinem Herz und wie wenig liessen mir
+               die Raub<lb xml:id="III_160-31" rendition="#hyphen"/>vögel. Oft ärger’ ich mich
+               komisch, daß mir allein das Schiksal kein<lb xml:id="III_160-32"/>Präsent macht; hart
+               und kämpfend erober’ ich mir meinen Bissen —<lb xml:id="III_160-33"/>an einen
+               Glükszufal ist nicht zu denken. — <hi rendition="#aq">Retifs</hi> neue Werke kenst
+                  du<note corresp="#III_160-34">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003454">
+                        <persName> Nicolas Edme <name type="reg">Rétif de la Bretonne</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="III_160-34"/>wahrscheinlich nicht; sonst lobtest du ihn mehr. — Das
+               Liebste in<lb n="35" xml:id="III_160-35"/>deinem Brief war mir dein Kaufplan eines
+               Mittelspiz. — Am<note corresp="#III_160-36">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010788" ana="†" rend="Mittelspiz">
+                        <title>Konjektural-Biographie (Briefe und bevorstehender Lebenslauf)
+                           (1799)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="III_160-36"/>wenigsten gefält und nüzt mir dein neues Rezensier-<hi rendition="#aq">Summarissimum.</hi>
+               <lb xml:id="III_160-37"/> — Persönlich solt’ ich jezt weniger gegen die Rezensenten
+               haben, da<lb xml:id="III_161-1"/>sie mich jezt so uneingeschränkt loben als sonst
+               tadelten; in der <hi rendition="#aq">Erfurter</hi>
+               <note corresp="#III_161-2">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010316" ana="†">
+                        <author/>
+                        <title>Nachrichten von gelehrten Sachen (Erfurtische Nachrichten)
+                           (1797-1801)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="III_161-2"/>Zeitung stehen in 1 Stücke 2 Rezensionen (die erste ist sehr
+                  einfältig)<note corresp="#III_161-3">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010585" ana="†">
+                        <title>Das Kampaner Thal (1797)</title>
+                     </bibl>
+                     <bibl corresp="#JP-010841" ana="†">
+                        <title>Palingenesien (1798): Jean Pauls Fata und Werke von und in
+                           Nürnberg</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="III_161-3"/>die mich beide für ein Genie erklären, das verlöre bei dem
+                  Gehorsam<lb xml:id="III_161-4"/>gegen die Regeln des Aristoteles. Diese kritische
+               Jämmerlichkeit er<note corresp="#III_161-5">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008057">
+                        <author>Aristoteles</author>
+                        <title>Poetik</title>
+                     </bibl>
+                     <bibl corresp="#JP-009658">
+                        <author>Schneider, Johann Gottlob (Theaenus) (1750-1823), Altphilologe und
+                           Naturwissenschaftler</author>
+                        <title>Aristotelis De animalibus historiae libri X (1811,
+                           Übersetzung)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="5" xml:id="III_161-5" rendition="#hyphen"/>bittert mich. <hi rendition="#aq">Herder</hi> las sie uns bei der Herzogin vor zum Spas. —<note corresp="#III_161-6">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000090">
+                        <persName>
+                           <name type="reg">Anna Amalia</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-001675">
+                        <persName> Johann Gottfried von <name type="reg">Herder</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="III_161-6"/>Der Erdbal ist für mich durchlöchert; das macht mich aber
+               kekker und<lb xml:id="III_161-7"/>fester: was hab ich zu verlieren als die Korkkugel?
+               Nur die grünende<lb xml:id="III_161-8"/>und die gestirnte Natur liegt noch wie sonst
+               an meiner Brust. —<lb xml:id="III_161-9"/>
+            </p>
+            <p>Den Brief an <hi rendition="#aq">Emanuel,</hi> den du Renaten schikst, hatt ich lange
+                  ge<note corresp="#III_161-10">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003087">
+                        <persName> Emanuel <name type="reg">Osmund</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003126">
+                        <persName> Renate <name type="reg">Otto</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="10" xml:id="III_161-10" rendition="#hyphen"/>schrieben. — Den vom Bruder
+               Jacobi, dem ich jezt durch die von ihm<note corresp="#III_161-11">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001909" ana="†">
+                        <persName> Friedrich Heinrich <name type="reg">Jacobi</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="III_161-11"/>gewählte Duzbrüderschaft um ganze Jahre näher bin, sende mir
+                  bald<lb xml:id="III_161-12"/>in irgend einem Briefe wieder, wozu du deine
+               Schwester oder sonst<note corresp="#III_161-13">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004686">
+                        <persName> Friederike Christiane <name type="reg">Wernlein</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="III_161-13"/>jemand beredest. — Gegen die <hi rendition="#aq">Titanide</hi> steh ich fest. Ich habe zwar<note corresp="#III_161-14">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002007">
+                        <persName> Charlotte von <name type="reg">Kalb</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="III_161-14"/>2mal neulich eine Pfeife geraucht — wozu sie leider die
+               Fidibus und<lb n="15" xml:id="III_161-15"/>das Licht und Tabak brachte — aber jezt
+               ists verschworen. In einem<lb xml:id="III_161-16"/>solchen Fal, wo die andere Person
+               oft selber ausser dem Billigen (was<lb xml:id="III_161-17"/>dir unbegreiflich sein
+               mus) eine Heilige wird, ists nicht leicht, die<lb xml:id="III_161-18"/>Pfeife zum
+               Fenster hinauszuwerfen. — Hast du Thatsachen von der<note corresp="#III_161-19">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010592">
+                        <title>Der 17. Juli oder Charlotte Corday (1801)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="III_161-19"/>
+               <hi rendition="#aq">Corday:</hi> so sende sie mir; auf Böttigers Zureden versprach
+               ich etwas<note corresp="#III_161-20">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000400">
+                        <persName> Carl August <name type="reg">Böttiger</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-000687">
+                        <persName> Charlotte <name type="reg">Corday</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="20" xml:id="III_161-20"/>für den
+                  Berl<metamark>[</metamark>iner<metamark>]</metamark> Historischen Kalender (worin
+               Genz, Göthe etc.<note corresp="#III_161-21">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001285">
+                        <persName> Friedrich von <name type="reg">Gentz</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-001353" ana="†">
+                        <persName> Johann Wolfgang von <name type="reg">Goethe</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-004431" ana="†">
+                        <persName> Johann Friedrich <name type="reg">Vieweg</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005586" ana="†">
+                        <placeName>Berlin</placeName>
+                     </place>
+                  </listPlace>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008468" ana="†">
+                        <author>Gentz, Friedrich von, Johann Heinrich Voß und Jean Paul (Werk,
+                           Hrsg.)</author>
+                        <title>Taschenbuch für 1801 (Vieweg)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="III_161-21"/>arbeiten) und nahm diese Königin. So viel entsinn’ ich mich
+                  noch<lb xml:id="III_161-22"/>deutlich daß sie dem <hi rendition="#aq">Marat</hi>
+               das Lebenslicht ausgeblasen. — <hi rendition="#aq">Herder</hi>
+               <note corresp="#III_161-23">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001675">
+                        <persName> Johann Gottfried von <name type="reg">Herder</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-002614">
+                        <persName> Jean Paul <name type="reg">Marat</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="III_161-23"/>und ich und <hi rendition="#aq">Einsiedel</hi> geben (<hi rendition="#aq">sub rosa</hi>) 1800 eine ¼ Jahrsschrift<note corresp="#III_161-24">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000914">
+                        <persName> Friedrich Hildebrand Freiherr von <name type="reg">Einsiedel-Scharfenstein</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010194">
+                        <author/>
+                        <title>Aurora (geplante Monatsschrift, 1798-1800)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="III_161-24"/>heraus. — Mache doch daß mir der Spizbube <hi rendition="#aq">Georg</hi> ohne sein Wissen<note corresp="#III_161-25">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001715">
+                        <persName> Johann Georg <name type="reg">Herold</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="25" xml:id="III_161-25"/>25 Frankfurter Federn mitbringt. — Erzähle doch den
+               Mädgen mehr<note corresp="#III_161-26">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002454">
+                        <persName> Caroline <name type="reg">Liebmann</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003108">
+                        <persName> Amöne (Pseud. Amalie von Obyrn) <name type="reg">Otto</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-004686">
+                        <persName> Friederike Christiane <name type="reg">Wernlein</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-0057430">
+                        <placeName>Federn; Frankfurt a. M.</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="III_161-26"/>von meinen <hi rendition="#aq">Fatis;</hi> sie halten bei
+               mir darum an. — Du schweigst oft<lb xml:id="III_161-27"/>auf 1000 Sachen. —<lb xml:id="III_161-28"/>
+            </p>
+            <p>Und jezt wil ichs auch thun. Alle meine hiesigen Blumenketten sind<lb xml:id="III_161-29"/>noch unzerrissen. Ich wolte, der Teufel hätte mich nie nach
+                  <hi rendition="#aq">Leipzig</hi>
+               <note corresp="#III_161-30">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005948">
+                        <placeName>Leipzig</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb n="30" xml:id="III_161-30"/>geholt. — Lebe wohl und besorge, daß geschrieben
+               wird. — Den 1 B.<lb xml:id="III_161-31"/>v. <hi rendition="#aq">Titan</hi> wil ich in
+                  <hi rendition="#aq">Hof</hi> wieder überfahren 〈übertünchen〉 und da<note corresp="#III_161-32">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005841">
+                        <placeName>Hof im Vogtland</placeName>
+                     </place>
+                  </listPlace>
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010897">
+                        <title>Titan (1800-1803)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="III_161-32" rendition="#hyphen"/>lassen. —</p>
+            <closer>
+               <salute>
+                  <hi rendition="#sameLine">
+                     <hi rendition="#right">R.</hi>
+                  </hi>
+                  <lb xml:id="III_161-33"/>
+               </salute>
+            </closer>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Berlin JP. 7 S. 8°. <hi rendition="#i">K</hi>:</hi>
+               März 1. Otto. <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>: Otto 3,42. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>: Nerrlich<lb/>Nr. 53. <hi rendition="#i">B</hi>: IV.
+                  Abt., III.1, Nr. 139. <hi rendition="#i">A</hi>: IV. Abt., III.1, Nr. 152. <ref target="#p161_l4">
+                     <hi rendition="#b">161</hi>,<hi rendition="#rkd">4</hi>
+                  </ref>f.</hi> dem Gehorsam gegen die<lb/>Regeln] <hi rendition="#aq">aus</hi> den
+               Regeln <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">7</hi> das <hi rendition="#aq">bis</hi> 8 fester] darum bin ich
+               so muthig <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">8</hi> die<hi rendition="#sup">1</hi>] eine <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">9</hi> meiner Brust] meinem Herzen <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">11</hi> vom Bruder] <hi rendition="#aq">aus</hi> von <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">16</hi> und Tabak] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">17</hi> ausser dem Billigen] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">18</hi> eine Heilige]<lb/>
+               <hi rendition="#aq">davor gestr.</hi> nicht nur billigt son[dern] <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">24</hi> 1800] <hi rendition="#aq">aus </hi>1780<hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+            </p>
+            <p>
+               <ref target="#p160_l4">
+                  <hi rendition="#b">
+                     <hi rendition="#aq">160</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">4</hi>
+                  </hi>
+               </ref>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">–6</hi>
+               </hi>
+               <hi rendition="#aq">Otto hatte in <hi rendition="#i">B</hi> geschrieben: „<hi rendition="#g">Feind</hi> hat sich als ein Kaufmann<lb/>und noch schlechter
+                  gezeigt und blos darum, weil du viel zu wenig foderst<lb/>(3½ Ld’or). Warum gehst
+                  du von deinem Satz der 5 L. herunter?“ <hi rendition="#rkd">7–9</hi>
+                  <lb/>Der <hi rendition="#g">Herzog von Zweibrücken,</hi> Max Joseph, war am 16.
+                  Febr. 1799<lb/>Kurfürst von Bayern geworden; Major von Kalb wurde erst im
+                  November<lb/>1802 zum Oberst Ã  la suite der bayrischen Armee ernannt, vgl. <ref target="#p170_l17">
+                     <hi rendition="#b">170</hi>,<hi rendition="#rkd">17</hi>
+                  </ref>f.<lb/>
+                  <hi rendition="#rkd">10 </hi>
+                  <hi rendition="#g">Fürstin Karolath:</hi> Oertels Schwester, vgl. <ref target="#p139_l19">
+                     <hi rendition="#b">139</hi>,<hi rendition="#rkd">19</hi>
+                  </ref>†. <hi rendition="#rkd">13–15</hi> Oertel<lb/>hatte Amöne zu sich geladen;
+                  Otto hatte aber Bedenken geäußert, ob sie<lb/>zu Oertels Frau passe; vgl. <ref target="#p42_l15">
+                     <hi rendition="#b">42</hi>,<hi rendition="#rkd">15</hi>
+                  </ref>†. <hi rendition="#rkd">15 </hi>
+                  <hi rendition="#g">Karoline:</hi> Herold; vgl. Bd. II,<lb/>Nr. 735, 387,<hi rendition="#rkd">21</hi>f. <hi rendition="#rkd">17–19 </hi>Otto hatte sich über
+                  den alten <hi rendition="#g">Herold</hi> und seine beiden<lb/>Söhne, Georg und
+                  Christian, bitter beklagt. <hi rendition="#rkd">23</hi>
+                  <hi rendition="#g">Hölzel:</hi> vielleicht der<lb/>Bd. I, 350,<hi rendition="#rkd">11</hi>† genannte Schwarzenbacher, der anscheinend Jean Paul<lb/>angepumpt
+                  hatte; Otto hatte geraten, ihm eine abschlägige Antwort zu<lb/>erteilen. <hi rendition="#rkd">36 </hi>
+                  <hi rendition="#g">Mittelspitz:</hi> Jean Pauls erträumtes Landgut in der Kon<lb rendition="#hyphen"/>jekturalbiographie (I. Abt., VII, 455,<hi rendition="#rkd">22</hi>); Otto trug sich mit dem Gedanken,<lb/>im Jahr 1800 ein kleines Haus
+                  und Gut in der Nähe von Hof zu erwerben.<lb/>37f. Otto hatte sich über die
+                  Konjekturalbiographie nur allgemein lobend<lb/>geäußert; die wiederholte Erwähnung
+                  der Rezensenten darin hatte ihm<lb/>mißfallen. <ref target="#p161_l2">
+                     <hi rendition="#b">161</hi>,<hi rendition="#rkd">2</hi>
+                  </ref>f. Das 9. Stück der <hi rendition="#g">Erfurter Nachrichten</hi> von
+                  ge-</hi>
+               <lb/>
+               <hi rendition="#aq">lehrten Sachen von 1799 enthält Besprechungen des Kampanerthals
+                  und<lb/>der Palingenesien. <hi rendition="#rkd">11 </hi>Dieser <hi rendition="#g">Brief von Jacobi</hi> ist nicht erhalten. 15f.<lb/>
+                  <hi rendition="#g">Pfeife geraucht:</hi> Jean Paul bezeichnet mit diesem Ausdruck
+                  eine be<lb rendition="#hyphen"/>denkliche erotische Situation; vgl. <ref target="#p139_l33">
+                     <hi rendition="#b">139</hi>,<hi rendition="#rkd">33</hi>
+                  </ref> u. <ref target="#p347_l1">
+                     <hi rendition="#b">347</hi>,<hi rendition="#rkd">1</hi>
+                  </ref>. <hi rendition="#rkd">21</hi> Der <hi rendition="#g">Kalender</hi>
+                  <lb/>erschien als „Taschenbuch für 1801“ (ohne einen Beitrag Goethes)
+                  in<lb/>Braunschweig, wohin der Verleger Vieweg 1799 von Berlin übersiedelte.</hi>
+               <lb/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
