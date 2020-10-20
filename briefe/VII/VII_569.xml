@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VII_569">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="574">569. An Karoline Richter. </title>
+            <title n="digital">An Caroline Richter. Löbichau, 2. September 1819 bis 3. September
+               1819.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=VII_569</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/VII/VII_569</idno>
+               <idno type="TELOTAID">VII_569</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
+               <biblScope n="text" unit="page">
+                  <num>294</num>
+                  <num>295</num>
+                  <num>296</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>441</num>
+                  <num>442</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+            <listPerson type="commentary">
+               <person corresp="#JP-000853">
+                  <persName> Herzogin von Kurland <name type="reg">Dorothea</name>
+                  </persName>
+               </person>
+               <person corresp="#JP-000948">
+                  <persName> Henriette Freifrau von <name type="reg">Ende</name>
+                  </persName>
+               </person>
+            </listPerson>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date corresp="writingsession1" when="1819-09-02">2. September 1819</date>
+               <date corresp="writingsession2" when="1819-09-03">3. September 1819</date>
+               <placeName key="JP-005969" ref="http://www.geonames.org/6550547">Löbichau
+               </placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-003469" ref="http://d-nb.info/gnd/116512539">
+                  <name type="reg">Richter</name> Caroline</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VII_568">30. August 1819 bis
+                  31. August 1819</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VII_572">3. September
+                  1819</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <div n="writingSession1">
+               <lb xml:id="VII_294-1"/>
+               <dateline>
+                  <hi rendition="#right">
+                     <hi rendition="#aq">
+                        <placeName>Löbigau</placeName> d. <date>2. Sept. 1819</date>
+                     </hi>
+                  </hi>
+               </dateline>
+               <lb xml:id="VII_294-2"/>
+               <p>Meine gute Karoline! Wie will ich Erzählfeind fertig werden<lb xml:id="VII_294-3"/> nur mit zwei Tagen? Man lebt sich hier so ins Schloß hinein, daß<lb xml:id="VII_294-4"/> noch kein Beispiel vorhanden, daß einer nach 2 Tagen
+                     fortgegangen<lb n="5" xml:id="VII_294-5"/> wäre. <hi rendition="#aq">Marheinecke</hi> kam (von der <hi rendition="#aq">Reck</hi> geladen) auf 1 Tag
+                     hieher<note corresp="#VII_294-6">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002622">
+                           <persName> Philipp Konrad <name type="reg">Marheineke </name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003370">
+                           <persName> Elisa von der <name type="reg">Recke</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_294-6"/> und sitzt seit 4 Wochen noch da. Gestern saßen 36 Mann
+                     〈Tags<lb xml:id="VII_294-7"/> darauf 40〉 an der Mittagtafel. So lagern hier
+                  Kurländer und<note corresp="#VII_294-8">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005931">
+                           <placeName>Kurland, , Kurländer</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_294-8"/> Berliner 〈unter letzten 3 adeliche Studenten〉, —
+                  Feuerbach, Schink,<note corresp="#VII_294-9">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001069">
+                           <persName> Paul Johann Anselm Ritter von <name type="reg">Feuerbach</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003744">
+                           <persName> Johann Friedrich <name type="reg">Schink</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005586">
+                           <placeName>Berlin</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_294-9"/> Grafen nesterweise etc.etc., sogar der hallische
+                  Buchhändler Eberhard<note corresp="#VII_294-10">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000880">
+                           <persName> Christian August Gottlob <name type="reg">Eberhard</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005809">
+                           <placeName>Halle a. d. Saale</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="10" xml:id="VII_294-10"/> mit seiner dicken Frau saß gestern mit daran.
+                  Viele sind der <hi rendition="#aq">Reck</hi>
+                  <note corresp="#VII_294-11">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000881">
+                           <persName> Christian August Gottlob <name type="reg">Eberhard</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003370">
+                           <persName> Elisa von der <name type="reg">Recke</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_294-11"/> Geladne. In <hi rendition="#aq">Gera</hi> holte mich die
+                     <hi rendition="#aq">Ende</hi> und <hi rendition="#aq">Chassepot</hi> und <hi rendition="#aq">Mar<note corresp="#VII_294-12">
+                        <listPerson type="lineReference">
+                           <person corresp="#JP-000614">
+                              <persName> Anna Dorothea Elisabeth Gräfin de <name type="reg">Chassepot</name>
+                              </persName>
+                           </person>
+                           <person corresp="#JP-000948">
+                              <persName> Henriette Freifrau von <name type="reg">Ende</name>
+                              </persName>
+                           </person>
+                           <person corresp="#JP-002622">
+                              <persName> Philipp Konrad <name type="reg">Marheineke </name>
+                              </persName>
+                           </person>
+                        </listPerson>
+                        <listPlace type="lineReference">
+                           <place corresp="#JP-005777">
+                              <placeName>Gera</placeName>
+                           </place>
+                        </listPlace>
+                     </note>
+                     <lb xml:id="VII_294-12" rendition="#hyphen"/>heinecke</hi> ab. Meine Begleiter
+                  hatten während meines Anzugs einen<note corresp="#VII_294-13">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000949">
+                           <persName> Otto Leopold Freiherr von <name type="reg">Ende</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-001083">
+                           <persName>
+                              <name type="reg">Fircks </name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_294-13"/> gutmüthigen Sturm über das späte Ankommen (um 10 Uhr)
+                     aus<lb xml:id="VII_294-14" rendition="#hyphen"/>zustehen, da man schon um 8 auf
+                  sie rechnete. Die 3 Säle waren voll.<lb n="15" xml:id="VII_294-15"/> Noch abends
+                  sang die Fürstin von Hohenzollern mit einer Oper<note corresp="#VII_294-16">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003164">
+                           <persName> Fürstin von Hohenzollern-Hechingen <name type="reg">Pauline</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_294-16" rendition="#hyphen"/> stimme aus dem Tancred. — Ich habe
+                  unter den Nichtfürstlichen die<note corresp="#VII_294-17">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-009518">
+                           <author>Rossini, Gioachino (1792-1868)</author>
+                           <title>Tancred (1813)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VII_294-17"/> zwei besten Zimmer<note n="*)" place="foot">Die Reck
+                     hatte sie vorher gehabt.<note corresp="#VII_294-34">
+                        <listPerson type="lineReference">
+                           <person corresp="#JP-003370">
+                              <persName> Elisa von der <name type="reg">Recke</name>
+                              </persName>
+                           </person>
+                        </listPerson>
+                     </note>
+                     <lb xml:id="VII_294-34"/>
+                  </note> — dicht neben den <hi rendition="#aq">Ende</hi>schen. Für die
+                     kleinsten<note corresp="#VII_294-18">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000948">
+                           <persName> Henriette Freifrau von <name type="reg">Ende</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_294-18"/> Bequemlichkeiten, an die man gar nicht denkt, ist mit
+                  Aufwand ge<lb xml:id="VII_294-19" rendition="#hyphen"/> sorgt. Nur die seidne
+                  Wirthschaft jagt’ ich aus meinem Bette. —<lb n="20" xml:id="VII_294-20"/> Alle
+                  Treppen des Schlosses sind mit englischen Fußteppichen belegt,<note corresp="#VII_294-21">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0057159">
+                           <placeName>Fußteppich; England, englisch, Britannien</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_294-21"/> und die Säle und Zimmer der Herzogin so weich wattiert,
+                  daß ich<note corresp="#VII_294-22">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000853">
+                           <persName> Herzogin von Kurland <name type="reg">Dorothea</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_294-22"/> darauf schlafen könnte. Das Essen ist ganz nach guter
+                     altbürgerlicher<lb xml:id="VII_294-23"/> Sitte; um 12 oder 12½ wird zu Mittag
+                  gespeiset, fast lauter warme<lb xml:id="VII_294-24"/> Gerichte, wenn ich den
+                  Kuchen ausnehme. Das Abendessen ist schon<lb n="25" xml:id="VII_294-25"/> nach 6
+                  Uhr, hat aber einige Gerichte mehr (und alle sind trefflich)<lb xml:id="VII_294-26"/> und dabei den Schaugerichtaufsatz, ders am meisten vom
+                     <hi rendition="#aq">Diner</hi>
+                  <lb xml:id="VII_294-27"/> unterscheidet; erst nach der Abendtafel wird um 8½ Uhr
+                     Kaffee<lb xml:id="VII_294-28"/> getrunken, und um 10 Uhr Thee. Nach 12 Uhr
+                  denkt man schon<lb xml:id="VII_294-29"/> ans Bett. Mein Magen fügte sich bei
+                  einiger Mäßigkeit<note n="**)" place="foot">Ich merke, das hiesige bestimmte Leben
+                     greift den Körper nicht so an als<lb n="35" xml:id="VII_294-35"/> das
+                     Stuttgarter und Frankfurter.<note corresp="#VII_294-36">
+                        <listPlace type="lineReference">
+                           <place corresp="#JP-005743">
+                              <placeName>Frankfurt a. M.</placeName>
+                           </place>
+                           <place corresp="#JP-006315">
+                              <placeName>Stuttgart </placeName>
+                           </place>
+                        </listPlace>
+                     </note>
+                     <lb xml:id="VII_294-36"/>
+                  </note> gestern<lb n="30" xml:id="VII_294-30"/> recht gut in diesen alten
+                  Bürgerbrauch. Ich kenne keine größere<lb xml:id="VII_294-31"/> Freiheit als hier
+                  unter diesem <hi rendition="#g">italienischen</hi> Dache wohnt. Wäh<note corresp="#VII_294-32">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005872">
+                           <placeName>Italien</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_294-32" rendition="#hyphen"/>rend des fürstlichen Singens im 1
+                  Saale, hatten andere junge Leute<note corresp="#VII_294-33">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003164">
+                           <persName> Fürstin von Hohenzollern-Hechingen <name type="reg">Pauline</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_294-33"/> ihre lauten Spiele in einem 3<hi rendition="#sup">ten</hi>. An keiner Fürstentafel ist solche<lb xml:id="VII_295-1"/> Freiheit.
+                  Auch sind alle nöthigen Sekten da, Magnetisten und Gegen<note corresp="#VII_295-2">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000614" ana="†">
+                           <persName> Anna Dorothea Elisabeth Gräfin de <name type="reg">Chassepot</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-001069" ana="†">
+                           <persName> Paul Johann Anselm Ritter von <name type="reg">Feuerbach</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010827" ana="†">
+                           <title>Mutmaßungen über einige Wunder des organischen Magnetismus
+                              (1814)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VII_295-2" rendition="#hyphen"/>magnetisten, Ultras, Konstituzionelle,
+                  Feindinnen und Freundinnen<note corresp="#VII_295-3">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002205">
+                           <persName>
+                              <name type="reg">Konstitutionelle</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-004370">
+                           <persName>
+                              <name type="reg">Ultras</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_295-3"/> der neuesten Zeit, Gegenjuden und ein Paar Juden,
+                  worunter ich<note corresp="#VII_295-4">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001977">
+                           <persName>
+                              <name type="reg">Juden</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_295-4"/> gehöre. — Die Herzogin mag ich gar nicht anfangen zu
+                  loben, so<note corresp="#VII_295-5">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000853">
+                           <persName> Herzogin von Kurland <name type="reg">Dorothea</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="5" xml:id="VII_295-5"/> köstlich ist ihr Herz mit seiner Ruhe,
+                  Unbefangenheit, Liebe und<lb xml:id="VII_295-6"/> Milde, Gefallsuchtlosigkeit und
+                  seinem Gottessinne. Weit zieh’<lb xml:id="VII_295-7"/> ich sie von dieser Seite
+                  der Stuttgarter vor. Auch ist sie mit oder<note corresp="#VII_295-8">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001166">
+                           <persName> Herzogin von Württemberg <name type="reg">Friederike Franziska
+                                 Wilhelmine</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006315">
+                           <placeName>Stuttgart </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_295-8"/> nach der <hi rendition="#aq">Chassepot</hi> trotz der
+                  Jahre die schönste unter allen hier;<note corresp="#VII_295-9">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000614">
+                           <persName> Anna Dorothea Elisabeth Gräfin de <name type="reg">Chassepot</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_295-9"/> und die <hi rendition="#aq">Bomhard</hi> hatte über <hi rendition="#g">ihre</hi> Herzogin von Sagan nicht ganz<note corresp="#VII_295-10">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000424">
+                           <persName> Friederike <name type="reg">Bomhard </name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-004731">
+                           <persName> Herzogin von Sagan <name type="reg">Wilhelmine</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="10" xml:id="VII_295-10"/> Recht, so sehr man auch diese und alle Töchter
+                  lieben muß. Nie hab<lb xml:id="VII_295-11"/> ich ein schöneres und liebevolleres
+                  Küssen gesehen als das der Töchter<note corresp="#VII_295-12">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000854">
+                           <persName> Herzogin von Kurland <name type="reg">Dorothea</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_295-12"/> mit der Mutter. Gestern abends um 9 besucht’ ich kurz
+                  nach der<lb xml:id="VII_295-13"/> Mittagtafel zum ersten male die <hi rendition="#aq">Rek,</hi> die auf ihrem Kanap<hi rendition="#aq">é</hi>e
+                     lag<note corresp="#VII_295-14">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003370">
+                           <persName> Elisa von der <name type="reg">Recke</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_295-14"/> von ihren lieblichen (17, 15jährigen) Pflegetöchtern
+                  umspielt. Jetzo<note corresp="#VII_295-15">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000367" ana="†">
+                           <persName> Emilie von <name type="reg">Binzer</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-000837" ana="†">
+                           <persName> Marie Gräfin zu <name type="reg">Dohna</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003224" ana="†">
+                           <persName> Luise von <name type="reg">Piattoli </name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="15" xml:id="VII_295-15"/> lieb’ ich sie auch herzlich als den letzten
+                  Schlußbogen am schönsten<lb xml:id="VII_295-16"/> weiblichen Liebe- und
+                  Familienzirkel. —</p>
+               <lb xml:id="VII_295-17"/>
+               <p>Ich sitze stets neben der Herzogin und einer Tochter. Da letzte<note corresp="#VII_295-18">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000853">
+                           <persName> Herzogin von Kurland <name type="reg">Dorothea</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-000854">
+                           <persName> Herzogin von Kurland <name type="reg">Dorothea</name>, ihre
+                              Töchter </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_295-18"/> gestern fehlte und ich ihr mit dem <hi rendition="#g">linken</hi> tauben Ohre zur Rechten<lb xml:id="VII_295-19"/> saß und Feuerbach
+                  mit seinem <hi rendition="#g">rechten</hi> tauben ihr zur Linken: so<note corresp="#VII_295-20">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001069">
+                           <persName> Paul Johann Anselm Ritter von <name type="reg">Feuerbach</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="20" xml:id="VII_295-20"/> macht’ ich mir die Freude, daß wir beide die
+                  Plätze und Ohren wech<lb xml:id="VII_295-21" rendition="#hyphen"/>selten unter dem
+                  Essen, um besser zu hören. Es war hübsch. — Hab’<lb xml:id="VII_295-22"/> ich denn
+                  auch einen blauen Rock? Ich dachte anfangs, er gehöre<lb xml:id="VII_295-23"/>
+                  <hi rendition="#aq">Max;</hi> und der Himmel gebe, daß ihr seinen nicht
+                     eingepackt.<note corresp="#VII_295-24">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003490">
+                           <persName> Max <name type="reg">Richter</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_295-24"/>
+               </p>
+            </div>
+            <div n="writingSession2">
+               <dateline>
+                  <hi rendition="#right">d. 3. Sept.</hi>
+               </dateline>
+               <lb n="25" xml:id="VII_295-25"/>
+               <p>Gestern Nachmittags empfing ich in Tannefeld deinen herrlichen<note corresp="#VII_295-26">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006323">
+                           <placeName>Tannenfeld bei Löbichau</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_295-26"/> Brief der Liebe und Güte, der mir mitten unter den vier
+                     erfreuenden<note corresp="#VII_295-27">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001960">
+                           <persName> Herzogin von Acerenza <name type="reg">Johanna</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003164">
+                           <persName> Fürstin von Hohenzollern-Hechingen <name type="reg">Pauline</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003370" ana="?">
+                           <persName> Elisa von der <name type="reg">Recke</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-004731">
+                           <persName> Herzogin von Sagan <name type="reg">Wilhelmine</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_295-27"/> Wesen doch noch eine größere Freude brachte als ich
+                  schon hatte.<lb xml:id="VII_295-28"/> Wie hätt’ ich zum Kutscher von 3 Wochen
+                  sprechen können! Freilich<lb xml:id="VII_295-29"/> verrieselt hier die Zeit völlig
+                  unmerkbar und in ihrem Stundenglase<lb n="30" xml:id="VII_295-30"/> muß sie den
+                  feinsten durchsichtigsten Sand haben, weil man ihn nicht<lb xml:id="VII_295-31"/>
+                  laufen sieht und hört. Man ist ganz frei wie zu Hause und drückt<lb xml:id="VII_295-32"/> niemanden als Gast und so verfliegen die Tage wie zu
+                  Hause. Hätt<lb xml:id="VII_295-33"/> ich dich und die Kinder mit („warum haben Sie
+                  die <hi rendition="#aq">Emma,</hi> die<note corresp="#VII_295-34">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003471">
+                           <persName> Emma <name type="reg">Richter</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003483">
+                           <persName> Johann Paul Friedrich <name type="reg">Richter</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_295-34"/>
+                  <hi rendition="#aq">Carolina</hi> nicht mitgebracht?“ hört’ ich mehrmals): so
+                  blieb ich ein<lb n="35" xml:id="VII_295-35"/> Jahr da. Ein <hi rendition="#aq">D.
+                     Krotschke</hi> aus Mietau sitzt mit 2 Töchtern und<note corresp="#VII_295-36">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001415">
+                           <persName> von <name type="reg">Groschke</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-001417">
+                           <persName> von <name type="reg">Groschke</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006025">
+                           <placeName>Mietau</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_295-36"/> 1 Frau unter dem hiesigen Dache. — Schreibe mir daher
+                     bestimmt<note corresp="#VII_296-1">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001416">
+                           <persName> von <name type="reg">Groschke</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_296-1"/> den Tag des Empfangs meines Briefes und den des Abgangs
+                     von<lb xml:id="VII_296-2"/> deinem: damit ich alles wegen des langen Hin- und
+                     Herschreibens<lb xml:id="VII_296-3"/> berechnen kann für die Bestellung des
+                  Kutschers. Denn die herrliche<note corresp="#VII_296-4">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000853">
+                           <persName> Herzogin von Kurland <name type="reg">Dorothea</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_296-4"/> Frau kann unmöglich an einen hin und her gehenden
+                     Extrapostwagen<lb n="5" xml:id="VII_296-5"/> denken. — Mir wartet niemand
+                  besonders auf als der Bediente der<lb xml:id="VII_296-6"/>
+                  <hi rendition="#aq">Ende</hi> und die Bettmacherin; höchstens bringt mir einer das
+                     Bier,<note corresp="#VII_296-7">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000948">
+                           <persName> Henriette Freifrau von <name type="reg">Ende</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_296-7"/> das vierfaches heißt und stärker als das baireuter ist.
+                  Frage nur<note corresp="#VII_296-8">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0055740">
+                           <placeName>Bier; Bayreuth (Stadt)</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_296-8"/>
+                  <hi rendition="#aq">Otto,</hi> wie viel ich zu geben habe und ob dem so genannten
+                     Kastellan<note corresp="#VII_296-9">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003112">
+                           <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_296-9"/> etwas. Von <hi rendition="#aq">Hof</hi> bis <hi rendition="#aq">Löbigau</hi> hab ich so viel ausgegeben wie von<note corresp="#VII_296-10">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005841">
+                           <placeName>Hof im Vogtland</placeName>
+                        </place>
+                        <place corresp="#JP-005969">
+                           <placeName>Löbichau </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="10" xml:id="VII_296-10"/> meiner Stube bis in den Garten. — Grüße <hi rendition="#aq">Otto</hi> und <hi rendition="#aq">Emanuel</hi>
+                  <note corresp="#VII_296-11">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003087">
+                           <persName> Emanuel <name type="reg">Osmund</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003112">
+                           <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_296-11"/> von mir und <hi rendition="#aq">Tiedge,</hi> der ihnen
+                  sein Testament, nämlich die 6te Auflage<note corresp="#VII_296-12">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004311">
+                           <persName> Christoph August <name type="reg">Tiedge</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_296-12"/> der Urania durch mich zusenden will. — Die Seidenhosen
+                  liegen noch<note corresp="#VII_296-13">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-009925">
+                           <author>Tiedge, Christoph August (1752-1841), Schriftsteller</author>
+                           <title>Urania (1801)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VII_296-13"/> trefflich eingepackt und bleibens. — Um 10 Uhr muß der
+                  Brief fort<lb xml:id="VII_296-14"/> und ich habe dir noch das Wenigste gesagt. Man
+                  sieht sich hier —<lb n="15" xml:id="VII_296-15"/> wenigstens ich, da ich mir am
+                  Vormittag etwas ersparen will —<lb xml:id="VII_296-16"/> fast nur in allgemeiner
+                  Menge, obwol in Gruppen, und dieß dauert<lb xml:id="VII_296-17"/> von 12 Uhr bis
+                  12 Uhr, wiewol ich mir doch ein Paar Stunden<lb xml:id="VII_296-18"/> dazwischen
+                  herausschneide. Das Abendessen nach 6 Uhr halb bei<lb xml:id="VII_296-19"/> Tage
+                  halb bei Lichtern an der übervollen Tafel (denn es wird<lb n="20" xml:id="VII_296-20"/> meistens noch eine Nebentafel beigeschoben) hat etwas
+                     Roman<lb xml:id="VII_296-21" rendition="#hyphen"/>tisches und mir ist bisher
+                  alles, sogar das Bettgehen um 12 Uhr, gut<lb xml:id="VII_296-22"/> bekommen.
+                  Gestern war der Abend himmlisch, mit Tönen gefüllt<lb xml:id="VII_296-23"/> — ein
+                  Violin- und ein großer Klavierspieler — die singende Herzogin<note corresp="#VII_296-24">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004731">
+                           <persName> Herzogin von Sagan <name type="reg">Wilhelmine</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_296-24"/> 〈die Tochter〉 mit einer <hi rendition="#aq">NN</hi> und
+                  endlich ein Loblied auf die Herzogin<note corresp="#VII_296-25">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000853">
+                           <persName> Herzogin von Kurland <name type="reg">Dorothea</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="25" xml:id="VII_296-25"/> 〈die Mutter〉, das wir alle sangen, wiewol ich von
+                  mir selber nichts<lb xml:id="VII_296-26"/> hörte. — Ein lieblicheres, mehr
+                  italienisches, heiteres Landgut kann<note corresp="#VII_296-27">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005872">
+                           <placeName>Italien</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_296-27"/> ich mir nicht vorbilden als das in Tannefeld. Gäbe nur
+                  Gott einen<note corresp="#VII_296-28">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006323">
+                           <placeName>Tannenfeld bei Löbichau</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_296-28"/> bessern Himmel! — Gelesen hab’ ich noch wenig,
+                  gearbeitet noch<lb xml:id="VII_296-29"/> nichts. — Wenn der September sich nicht
+                  morgen ändert: so kommt<lb n="30" xml:id="VII_296-30"/> ein früher Winter und dann
+                  der Teufel und seine Großmutter. Ich<lb xml:id="VII_296-31"/> will daher noch ein
+                  Bischen froh sein. Grüße alle meine lieben<lb xml:id="VII_296-32"/> Kinderlein und
+                     <hi rendition="#aq">Odilie</hi> soll ja ihren Vater liebhaben und mit dir
+                     zu<note corresp="#VII_296-33">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003483">
+                           <persName> Johann Paul Friedrich <name type="reg">Richter</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003491">
+                           <persName> Odilie Minna <name type="reg">Richter</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_296-33"/> seiner Freude französisch sprechen. Schreibe recht viel
+                  und bald, du<note corresp="#VII_296-34">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-00574612">
+                           <placeName>Sprache, Stil, Schrift; Frankreich, französisch</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_296-34"/> liebe liebe Seele! Könnt’ ich nur dieses Leben mit dir
+                  theilen, du<lb n="35" xml:id="VII_296-35"/> solltest das größte Stück
+                  bekommen.</p>
+               <lb xml:id="VII_296-36"/>
+               <closer>
+                  <salute>
+                     <hi rendition="#right">R.</hi>
+                  </salute>
+               </closer>
+               <lb xml:id="VII_296-37"/>
+            </div>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Berlin JP. 8 S. 8°. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>: Wahrheit 8, 205×. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>: Nerrlich Nr. 177×.<lb/>
+                  <hi rendition="#b">294</hi>,<hi rendition="#rkd">15</hi>
+               </hi>8<hi rendition="#aq">] aus</hi> 7 <hi rendition="#rkd">22</hi> Säle] <hi rendition="#aq">aus</hi> Sääle <hi rendition="#rkd">28</hi> 8½] <hi rendition="#aq">aus</hi> 9 <hi rendition="#b">
+                  <hi rendition="#aq">295</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">7</hi>
+               </hi> seinem Gottes<lb rendition="#hyphen"/> sinne] <hi rendition="#aq">davor
+                  gestr.</hi> Religiosit[ät] <hi rendition="#rkd">8</hi> mit oder] <hi rendition="#aq">nachtr. <hi rendition="#rkd">15</hi>
+               </hi>15]<hi rendition="#aq"> aus</hi> 18<lb/> Pflegetöchtern] <hi rendition="#aq">aus</hi> Enkelinnen <hi rendition="#b">
+                  <hi rendition="#aq">296</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">6</hi>
+               </hi> niemand] <hi rendition="#aq">davor nachtr.</hi> mir (<hi rendition="#aq">J.
+                  P.<lb/> hatte wohl bei der eiligen Durchsicht</hi> Hier <hi rendition="#aq">statt</hi> Mir <hi rendition="#aq">gelesen</hi>) <hi rendition="#rkd">16</hi> am]<lb/>
+               <hi rendition="#aq">aus</hi> vom <hi rendition="#rkd">28</hi> vorbilden] <hi rendition="#aq">davor gestr.</hi> einb[ilden] Tannefeld] <hi rendition="#aq">aus</hi> Tennewald</p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Vgl. Frau von Endes Tagebuch (<hi rendition="#i">H</hi>:
+                  Alt-Jeßnitz), 2. Sept. 1819: „Le<lb/> matin Jean Paul vint chés nous et il me
+                  conta qu’il venoit d’écrire<lb/> 4 pages Ã  sa femme; l’id ée me vint que la
+                  Duchesse auroit un grand<lb/> plaisir de lire cette lettre. J’en fis part Ã  Jean
+                  Paul qui consentit<lb/> Ã  me la donner, effectivement il la lut encore avec moi
+                  pour réfléchir<lb/> s’il ne s’y trouvoit rien de choquant et me la donna. La
+                  Duchesse<lb/> eut grand plaisir de cette communication.“ Die oben angegebenen<lb/>
+                  Korrekturen sind wohl z. T. mit Rücksicht auf die Herzogin vor<lb rendition="#hyphen"/> genommen, z. B. die zu <hi rendition="#b">295</hi>,<hi rendition="#rkd">8</hi>. Die zweite Hälfte des Briefs hat die<lb/> Herzogin
+                  gewiß nicht zu lesen bekommen. <hi rendition="#b">294</hi>,<hi rendition="#rkd">6</hi> Philipp Konrad <hi rendition="#g">Mar<lb rendition="#hyphen"/>
+                     heineke</hi> (1780—1846), seit 1811 Prof. der Theologie in Berlin, Schel<lb rendition="#hyphen"/> lingianer, später Hegelianer; vgl. Persönl. Nr. 280, S.
+                  248. <hi rendition="#g">Reck:</hi> Elisa von<lb/> der Recke (1754—1833), die
+                  Stiefschwester der Herzogin von Kur<lb rendition="#hyphen"/> land; s. Nr. 600. <hi rendition="#rkd">9 </hi>Anselm, Ritter von <hi rendition="#g">Feuerbach</hi>
+                  (1775—1833),<lb/> der berühmte Kriminalist, Großvater des Malers. Joh. Friedr. <hi rendition="#g">Schink</hi>
+                  <lb/> (1755—1835), Theaterdichter, später Bibliothekar der Herzogin von</hi>
+               <lb/>
+               <hi rendition="#aq">Sagan. <hi rendition="#rkd">10</hi> Chr. Aug. Gottlieb <hi rendition="#g">Eberhard</hi> (1769—1845), Verleger von<lb/> Tiedges „Urania“,
+                  bekannt durch sein Idyll „Hannchen und die Küch<lb rendition="#hyphen"/> lein“.
+                     <hi rendition="#rkd">16</hi> Pauline, <hi rendition="#g">Fürstin von
+                     Hohenzollern-</hi>Hechingen (1782 bis<lb/> 1845), die zweite Tochter der
+                  Herzogin Dorothea. <hi rendition="#rkd">17</hi>
+                  <hi rendition="#g">Tancred:</hi> Oper<lb/> von Rossini (1813). <hi rendition="#b">295</hi>,<hi rendition="#rkd">2</hi>
+                  <hi rendition="#g">Magnetisten und Gegenmagnetisten:</hi>
+                  <lb/> die Chassepot schreibt im Brief an J. P. IV. Abt., VII, Nr. 210, sein
+                  Aufsatz über<lb/> den Magnetismus (I. Abt., XVI, 9) sei in Löbichau vorgelesen
+                  worden,<lb/> sie gedenke darüber mit ihm anzubinden; Frau von Ende erzählt in<lb/>
+                  ihrem Tagebuch, daß die Chassepot sich von J. P. magnetisieren ließ,<lb/> ebenso
+                  Feuerbach. <hi rendition="#rkd">8</hi>
+                  <hi rendition="#g">der Stuttgarter:</hi> Herzogin Wilhelm. <hi rendition="#rkd">10</hi> Wil<lb rendition="#hyphen"/> helmine, <hi rendition="#g">Herzogin von
+                     Sagan</hi> (1781—1839), die älteste Tochter<lb/> der Herzogin Dorothea. <hi rendition="#rkd">15</hi>
+                  <hi rendition="#g">Pflegetöchter:</hi> Emilie von Gerschau,<lb/> spätere Binzer;
+                  Louise Seignoret de Villiers, spätere Piattoli; Marie<lb/> Wilson, spätere Gräfin
+                  Dohna; es waren aber nicht Pflegetöchter der<lb/> Recke, sondern der Sagan und der
+                  Acerenza, z. T. wohl außereheliche<lb/> Töchter. <hi rendition="#rkd">26</hi>
+                  <hi rendition="#g">Tannenfeld,</hi> ein Schlößchen eine halbe Stunde von<lb/>
+                  Löbichau, wo die Töchter der Herzogin wohnten. Karolinens <hi rendition="#g">herr<lb rendition="#hyphen"/> licher Brief</hi> ist nicht erhalten; vgl.
+                  Tagebuch der Ende, 3. Sept.:<lb/> „J. P. me porta Ã  lire une lettre de sa femme,
+                  pour me distraire.“<lb/>
+                  <hi rendition="#rkd">27</hi>f. Die <hi rendition="#g">vier erfreuenden Wesen</hi>
+                  sind wohl die drei Töchter der<lb/> Herzogin von Kurland (die vierte, Dorothea,
+                  war damals abwesend)<lb/> und Elisa von der Recke. <hi rendition="#rkd">36</hi>
+                  <hi rendition="#g">Krotschke:</hi> ein Dr. von Groschke.<lb/>
+                  <hi rendition="#b">296</hi>,<hi rendition="#rkd">12</hi> Die 6. Auflage von <hi rendition="#g">Tiedges</hi> „Urania“ erschien 1819. <hi rendition="#rkd">24</hi>
+                  <hi rendition="#g">die<lb/> singende Herzogin:</hi> von Sagan. <hi rendition="#rkd">27</hi>
+                  <hi rendition="#g">heiteres:</hi> wohl aus euphoni<lb rendition="#hyphen"/> schen
+                  Gründen statt „heitereres“; vgl. I. Abt. <hi rendition="#b">88</hi>,<hi rendition="#rkd">10</hi>, wo die Original<lb rendition="#hyphen"/> ausgabe auch
+                  „Heiteres“ hat.</hi>
+            </p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

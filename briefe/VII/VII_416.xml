@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VII_416">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="420">416. An Karoline Richter. </title>
+            <title n="digital">An Caroline Richter. Frankfurt a. M., 2. Juni 1818 bis 3. Juni
+               1818.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=VII_416</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/VII/VII_416</idno>
+               <idno type="TELOTAID">VII_416</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
+               <biblScope n="text" unit="page">
+                  <num>192</num>
+                  <num>193</num>
+                  <num>194</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>407</num>
+                  <num>408</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+            <listPerson type="commentary">
+               <person corresp="#JP-000878">
+                  <persName> Karl <name type="reg">Ebenau</name>
+                  </persName>
+               </person>
+               <person corresp="#JP-001328">
+                  <persName> Johann Wilhelm Ludwig <name type="reg">Gleim</name>
+                  </persName>
+               </person>
+               <person corresp="#JP-003610">
+                  <persName> Karoline <name type="reg">Rudolphi</name>
+                  </persName>
+               </person>
+               <person corresp="#JP-003944">
+                  <persName> Friedrich Heinrich Christian <name type="reg">Schwarz</name>
+                  </persName>
+               </person>
+               <person corresp="#JP-004520">
+                  <persName> Heinrich <name type="reg">Voß</name>
+                  </persName>
+               </person>
+            </listPerson>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date corresp="writingsession1" when="1818-06-02">2. Juni 1818</date>
+               <date corresp="writingsession2" when="1818-06-03">3. Juni 1818</date>
+               <placeName key="JP-005743" ref="http://www.geonames.org/2925533">Frankfurt a.
+                  M.</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-003469" ref="http://d-nb.info/gnd/116512539">
+                  <name type="reg">Richter</name> Caroline</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VII_412">30. Mai (sonnabends)
+                  1818</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VII_418">6. Juni 1818 bis 8.
+                  Juni 1818</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <div n="writingSession1">
+               <lb xml:id="VII_192-6"/>
+               <dateline>
+                  <hi rendition="#right">
+                     <hi rendition="#aq">
+                        <placeName>Frankfurt am Main</placeName>
+                     </hi> d. <date>2. Jun. 〈Dienstags〉 1818</date>
+                  </hi>
+               </dateline>
+               <lb xml:id="VII_192-7"/>
+               <p>Meine Karoline! Jetzo geht es ganz anders. Am Sonntag zog<lb xml:id="VII_192-8"/>
+                  ich, weil ein Bekannter Jungs mich erkannte, auf dessen Einladung<note corresp="#VII_192-9">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001981">
+                           <persName> Franz Wilhelm <name type="reg">Jung</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-002595" ana="?">
+                           <persName> Gottfried <name type="reg">Malß</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_192-9"/> in das Haus des reichen Buchhändler <hi rendition="#aq">Wenners.</hi> Hier ist nun an<note corresp="#VII_192-10">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004670">
+                           <persName> Johann Friedrich <name type="reg">Wenner</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="10" xml:id="VII_192-10"/> kein Zahlen zu denken; mit Mühe hab’ ich das
+                  Bezahlen des Biers<lb xml:id="VII_192-11"/> und Weins durchgesetzt. Seine
+                  kränkliche, nicht schöne, aber edle<lb xml:id="VII_192-12"/> bescheidne kinderlose
+                  Frau — eine Zeichnerin 〈auch Sängerin〉 —,<note corresp="#VII_192-13">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004672">
+                           <persName> Johann Friedrich <name type="reg">Wenner</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_192-13"/> die mit ihm deßhalb in Rom war — meine wärmste Leserin —
+                     hat<note corresp="#VII_192-14">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006205">
+                           <placeName>Rom, römisch</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_192-14"/> bis auf die kleinsten Bequemlichkeiten herab
+                     gesorgt.<note n="*)" place="foot">Eben find ich unvermuthet einen Baro- und
+                     Thermometer in meiner Schlaf<lb type="ig" rendition="#hyphen"/> stube hängen,
+                     blos weil ich gestern mich über dem Essen scherzhaft wunderte, daß<lb type="ig"/> er keinen im Hause habe.</note> Drei herr<lb n="15" xml:id="VII_192-15" rendition="#hyphen"/> liche Zimmer hinter einander — meine besondere Treppe zum
+                     Aus<lb xml:id="VII_192-16" rendition="#hyphen"/>gange und doch den geraden
+                  Übergang in die Zimmer des andern<lb xml:id="VII_192-17"/> Flügels — neben dem
+                     Schreibkanap<hi rendition="#aq">é</hi>e die Klingel für den Bedienten<lb xml:id="VII_192-18"/> — sogar Wachslichter und silberne Leuchter — die freieste
+                     Einsam<lb xml:id="VII_192-19" rendition="#hyphen"/>keit — Sie weinte vor
+                  Freude, daß ich einzog; und er hat viel Ge<lb n="20" xml:id="VII_192-20" rendition="#hyphen"/> fälliges und Gutes und immer That ohne viel Worte und im
+                     Gesicht<lb xml:id="VII_192-21"/> Aehnlichkeit mit Göthe. — Der liberale <hi rendition="#aq">Wangenheim</hi> entführt mich<note corresp="#VII_192-22">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001353">
+                           <persName> Johann Wolfgang von <name type="reg">Goethe</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-004599">
+                           <persName> Karl August Freiherr von <name type="reg">Wangenheim</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_192-22"/> jeden Nachmittag und Abend entweder zu sich oder zu
+                  andern. Der<lb xml:id="VII_192-23"/> bremische Senator <hi rendition="#aq">Schmidt</hi> war mittags im schönen Forsthaus<note corresp="#VII_192-24">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004054">
+                           <persName> Johann <name type="reg">Smidt </name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005620">
+                           <placeName>Bremen</placeName>
+                        </place>
+                        <place corresp="#JP-0057433">
+                           <placeName>Forsthaus; Frankfurt a. M.</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_192-24"/> (ein Lustort) und abends in seinem Hause mein Wirth.
+                  Aber die<lb n="25" xml:id="VII_192-25"/> Bildergallerie der Tische und der
+                  Legazionräthe und Bundes<note corresp="#VII_192-26">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0057431">
+                           <placeName>Bundestag; Frankfurt a. M.</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_192-26" rendition="#hyphen"/>Abgesandten<note n="**)" place="foot">Jetzo freilich besteht die ganze Zahl in einigen wenigen erst; und von den<lb xml:id="VII_192-34"/> Frankfurtern selber erwart’ ich nichts.<note corresp="#VII_192-35">
+                        <listPlace type="lineReference">
+                           <place corresp="#JP-005743">
+                              <placeName>Frankfurt a. M.</placeName>
+                           </place>
+                        </listPlace>
+                     </note>
+                     <lb n="35" xml:id="VII_192-35"/>
+                  </note> erlasse mir, bis ich statt der Feder einen Mund dazu<lb xml:id="VII_192-27"/> nehme. Da kam auch die <hi rendition="#aq">Himly</hi> und
+                  ihr Mann zum Thee, welche<note corresp="#VII_192-28">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000046">
+                           <persName> Luise <name type="reg">Ahrends</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-001752">
+                           <persName> Johann Friedrich Wilhelm <name type="reg">Himly</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_192-28"/> nach dir nicht genug fragen konnte. Du hast dein Gesicht
+                  besser und<lb xml:id="VII_192-29"/> jünger bewahrt als sie ihres.<lb n="30" xml:id="VII_192-30"/>
+               </p>
+               <p>
+                  <hi rendition="#aq">Hehndrich</hi> mit seiner Frau (die französische Erzieherin)
+                     sprach<note corresp="#VII_193-1">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001650">
+                           <persName>
+                              <name type="reg">Hendrich</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-001651">
+                           <persName> Franz Josias von <name type="reg">Hendrich</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0057470">
+                           <placeName>(Gallier, Neufranken); Frankreich, Franzosen,
+                              französisch</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_193-1"/> ich gestern, die ihm zwei Kinder gegeben. Das achtjährige
+                     Mädchen<note corresp="#VII_193-2">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001652">
+                           <persName> Franz Josias von <name type="reg">Hendrich</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_193-2"/> ist sehr lieblich. Du wirst sehr von ihnen gegrüßt. Auf
+                  deine Ge<lb xml:id="VII_193-3" rendition="#hyphen"/> sundheit wurde gestern im
+                  Lustdorfe Bornheim mehr male getrunken.<note corresp="#VII_193-4">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005608">
+                           <placeName>Bornheim bei Frankfurt a. M.</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_193-4"/> — Der Erzieher <hi rendition="#aq">Engelmann</hi> ist um
+                  seine von dir aus dem Wasser<note corresp="#VII_193-5">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000962">
+                           <persName> Julius Bernhard <name type="reg">Engelmann</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="5" xml:id="VII_193-5"/> gezogne <hi rendition="#aq">Wallenfels</hi> (diesen
+                  Umstand wußt’ er) sehr bekümmert,<note corresp="#VII_193-6">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004580" next="193-7">
+                           <persName>
+                              <name type="reg">Wallenfels </name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_193-6"/> weil er vom unsittlichen Beispiele der Mutter gehört.
+                  Kannst du<lb xml:id="VII_193-7"/> mir und ihm es nicht widerlegen? —</p>
+               <lb xml:id="VII_193-8"/>
+               <p>Meine Adresse mache: abzugeben bei Herrn Buchhändler <hi rendition="#aq">Wenner</hi>
+                  <note corresp="#VII_193-9">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004670">
+                           <persName> Johann Friedrich <name type="reg">Wenner</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_193-9"/> in der Münzgasse.<note corresp="#VII_193-10">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0057435">
+                           <placeName>Mainzer Gasse; Frankfurt a. M.</placeName>
+                        </place>
+                        <place corresp="#JP-0057437">
+                           <placeName>Münzgasse; Frankfurt a. M.</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="10" xml:id="VII_193-10"/>
+               </p>
+               <p>So viele ja noch mehre schöne weibliche Gesichter es in Mainz<note corresp="#VII_193-11">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005990">
+                           <placeName>Mainz </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_193-11"/> gibt, so viele häßliche und zwar recht breithäßliche
+                  gibt es hier. Doch<lb xml:id="VII_193-12"/> sind mir fünf oder sieben auf den
+                  Gassen aufgestoßen, welche etwa<lb xml:id="VII_193-13"/> von weitem sich ziemlich
+                  mit unserer Elisabet messen dürften. —<note corresp="#VII_193-14">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000929">
+                           <persName>
+                              <name type="reg">Elisabeth</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_193-14"/> Jede Klavier-, Zeichnen- etc. etc. Stunde für Kinder
+                  kostet 1 fl. 6 kr.;<lb n="15" xml:id="VII_193-15"/>
+                  <hi rendition="#aq">Wangenheims bel Etage</hi> über 4000 fl. Miethe. — Die
+                     innere<note corresp="#VII_193-16">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004599">
+                           <persName> Karl August Freiherr von <name type="reg">Wangenheim</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_193-16"/> Pracht der Zimmer übertrifft jede baireuter; so wie die
+                  äußere der<note corresp="#VII_193-17">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005574">
+                           <placeName>Bayreuth (Stadt)</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_193-17"/> großen Häuser. Ich habe nicht das Herz, in die großen
+                     Kaufhallen<lb xml:id="VII_193-18"/> zu gehen und da etwa für einige Batzen
+                  etwas zu kaufen. — Frage<lb xml:id="VII_193-19"/> doch <hi rendition="#aq">Otto,</hi> wie mich die Mauth auf der Gränze (auf dem Wege<note corresp="#VII_193-20">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003112">
+                           <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="20" xml:id="VII_193-20"/> über Anspach) behandeln wird, wenn ich etwas, z.
+                  B. deine verlang<note corresp="#VII_193-21">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0055290">
+                           <placeName>Fürstentum; Ansbach </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_193-21" rendition="#hyphen"/>ten Messer im Koffer habe. — So sehr
+                  hang’ ich an meinem Häus<lb xml:id="VII_193-22" rendition="#hyphen"/>lichen, daß
+                  ich ordentlich den <hi rendition="#aq">Alert,</hi> den ich in die Kur gegeben,<lb xml:id="VII_193-23"/> mitten unter allen Genüßen vermisse. — <hi rendition="#aq">Betty Gleim</hi> will uns<note corresp="#VII_193-24">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001326">
+                           <persName> Betty <name type="reg">Gleim</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_193-24"/> gewiß in <hi rendition="#aq">Baireut</hi> besuchen. —
+                  Morgen muß ich Briefe von dir<note corresp="#VII_193-25">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005574">
+                           <placeName>Bayreuth (Stadt)</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="25" xml:id="VII_193-25"/> haben; du aber von mir schon <hi rendition="#g">drei</hi> außer diesem.</p>
+               <lb xml:id="VII_193-26"/>
+            </div>
+            <div n="writingSession2">
+               <dateline>
+                  <hi rendition="#right">d. 3<hi rendition="#sup">ten</hi> Jun.</hi>
+               </dateline>
+               <lb xml:id="VII_193-27"/>
+               <p>Heute kam der so sehnlich erwartete Brief, aber dein Rückfall<lb xml:id="VII_193-28"/> in deine mich folternden Zweifel und in allerlei Härten
+                  hat meinen<lb xml:id="VII_193-29"/> Nachmittag bewölkt. Ich wollte noch viel
+                  schreiben, aber ich muß<lb n="30" xml:id="VII_193-30"/> warten, bis ein zweiter
+                  Brief mich wieder erheitert. So gar glücklich<lb xml:id="VII_193-31"/> bin ich
+                  überhaupt nicht; und meine herrliche Wohnung ist mir am<lb xml:id="VII_193-32"/>
+                  Ende das Liebste. — Nach <hi rendition="#aq">Heidelberg</hi> schrieb ich erst
+                  Sonntags. —<note corresp="#VII_193-33">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005819" ana="†">
+                           <placeName>Heidelberg</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_193-33"/> Veranstalte, daß der Ofen neu gemacht wird. Ich weiß
+                  nicht, wie<lb xml:id="VII_193-34"/> ich etwas zu den Stubendielen geben soll. Daß
+                  nur meine Reposi<lb n="35" xml:id="VII_193-35" rendition="#hyphen"/> torien, wenn
+                  nicht unverrückt, doch ungeändert bleiben. — Dein<lb xml:id="VII_193-36"/> Vater
+                  vergißt, daß er ja eine Frau hat und du Kinder und Mann.<note corresp="#VII_194-1">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002703" ana="†">
+                           <persName> Johann Siegfried Wilhelm <name type="reg">Mayer</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-002709">
+                           <persName> Julie Henriette <name type="reg">Mayer</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003483">
+                           <persName> Johann Paul Friedrich <name type="reg">Richter</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_194-1"/> — Ich hatte heute viel schreiben wollen. Aber ich kann es
+                  in dieser<lb xml:id="VII_194-2"/> Woche nur thun, wenn dein neuester Brief kommt.
+                  — Thieriot<note corresp="#VII_194-3">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004275">
+                           <persName> Paul Emile <name type="reg">Thieriot</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_194-3"/> kommt nicht hieher und ich nicht hin, obgleich der über
+                  alles gütige<lb xml:id="VII_194-4"/> und brüderliche Wangenheim selber mich nach
+                  Mainz bringen wollte.<note corresp="#VII_194-5">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004599">
+                           <persName> Karl August Freiherr von <name type="reg">Wangenheim</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005990">
+                           <placeName>Mainz </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="5" xml:id="VII_194-5"/> Sei wie du in den letzten Tagen meiner Abreise
+                  warst; weiter kann<lb xml:id="VII_194-6"/> ich dir nichts wünschen und — mir!</p>
+               <lb xml:id="VII_194-7"/>
+               <closer>
+                  <salute>
+                     <hi rendition="#right">R.</hi>
+                  </salute>
+               </closer>
+               <lb xml:id="VII_194-8"/>
+               <postscript>
+                  <p>
+                     <hi rendition="#aq">Odilie</hi> soll ja die Vögel von Erschütterung und lauten
+                        Schlägen<note corresp="#VII_194-9">
+                        <listPerson type="lineReference">
+                           <person corresp="#JP-003491">
+                              <persName> Odilie Minna <name type="reg">Richter</name>
+                              </persName>
+                           </person>
+                        </listPerson>
+                     </note>
+                     <lb xml:id="VII_194-9"/> entfernen. Mit <hi rendition="#aq">Schubert</hi> bin
+                     ich zufrieden.<note corresp="#VII_194-10">
+                        <listPerson type="lineReference">
+                           <person corresp="#JP-003871" ana="†">
+                              <persName> Ernst Eberhard Gottfried von <name type="reg">Schubaert</name>
+                              </persName>
+                           </person>
+                        </listPerson>
+                     </note>
+                     <lb n="10" xml:id="VII_194-10"/>
+                  </p>
+                  <p>Dem Kutscher ließ ich durch einen Kellner 5 fl. zustellen; laß ihn<note corresp="#VII_194-11">
+                        <listPerson type="lineReference">
+                           <person corresp="#JP-001507">
+                              <persName>
+                                 <name type="reg">Ham</name>
+                              </persName>
+                           </person>
+                        </listPerson>
+                     </note>
+                     <lb xml:id="VII_194-11"/> doch fragen, wie viel er bekommen.<lb xml:id="VII_194-12"/>
+                  </p>
+               </postscript>
+            </div>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Berlin JP. 3 S. 4°; 4. S. Adr.:</hi> Frau
+               Legazionräthin <hi rendition="#aq">
+                  <hi rendition="#i">Richter,<lb/> Baireut.</hi> (Poststempel: Frankfurt 4. Juny.)
+                  Der Schluß von <hi rendition="#b">193</hi>,<hi rendition="#rkd">27</hi>
+                  <lb/> an ist abgeschnitten, weil Karoline ihn die Freunde nicht lesen lassen<lb/>
+                  wollte. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>: Wahrheit 8, 142×. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>: Nerrlich Nr. 154×. <hi rendition="#i">B</hi>: IV.
+                  Abt., VII, Nr. 115.<lb/>
+                  <hi rendition="#i">A</hi>: IV. Abt., VII, Nr.</hi>
+               <hi rendition="#aq">120. </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">192</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">8</hi>
+               </hi> Sonntag] <hi rendition="#aq">aus</hi> Sonnabend <hi rendition="#rkd">14</hi>
+               wärmste] <hi rendition="#aq">nachtr.</hi>
+               <lb/>
+               <hi rendition="#b">
+                  <hi rendition="#aq">193</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">2</hi>
+               </hi> zwei Kinder] <hi rendition="#aq">aus</hi> ein schönes Mädchen von <hi rendition="#rkd">4</hi> gedrunken <hi rendition="#rkd">17 </hi>so wie<lb/> die
+               äußere] <hi rendition="#aq">aus</hi> auch die <hi rendition="#rkd">24</hi> will] <hi rendition="#aq">aus</hi> wird <hi rendition="#rkd">31</hi> warten] <hi rendition="#aq">aus</hi> es verschieben<lb/> wieder] <hi rendition="#aq">aus</hi>
+               mehr <hi rendition="#b">
+                  <hi rendition="#aq">194</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">9</hi>
+               </hi> von] <hi rendition="#aq">aus</hi> vor</p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Angekommen 7. Juni. <hi rendition="#b">192</hi>,<hi rendition="#rkd">9</hi>
+                  <hi rendition="#g">ein Bekannter Jungs:</hi> wahrschein<lb rendition="#hyphen"/>
+                  lich der Lotteriedirektor Mals, s. <hi rendition="#b">207</hi>,<hi rendition="#rkd">11</hi>f., <hi rendition="#b">217</hi>,<hi rendition="#rkd">14</hi>ff. <hi rendition="#rkd">28</hi>
+                  <hi rendition="#g">Himly:</hi> Gleims<lb/> Großnichte, Luise, geb. Ahrends, s. Br.
+                  III, Nr. 115† u. 194†. <hi rendition="#b">193</hi>,<hi rendition="#rkd">1</hi>
+                  <lb/>
+                  <hi rendition="#g">Hehndrich:</hi> s. Br. IV, Nr. 166†. <hi rendition="#rkd">5</hi>
+                  <hi rendition="#g">Engelmann:</hi> wohl nicht der ehema<lb rendition="#hyphen"/>
+                  lige Sekretär des Frankfurter Museums (Bd. VI, Nr. 247†). <hi rendition="#rkd">14</hi>
+                  <hi rendition="#g">Elisa<lb rendition="#hyphen"/> bet:</hi> Richters Dienstmagd,
+                  vgl. <hi rendition="#b">203</hi>,<hi rendition="#rkd">17</hi>f. <hi rendition="#rkd">23</hi>
+                  <hi rendition="#g">Alert:</hi> als Karl Ebenau<lb/> am 11. Juni 1818 Jean Paul bei
+                  Wenner besuchte, „lag sein bekannter<lb/> weißer Spitz an seiner Seite auf dem
+                  Kanapee“. (Zeitschrift f. franz.<lb/> Sprache u. Lit., 17. Jg., 1895, I, 162.) Er
+                  hatte ihn also doch mit<lb rendition="#hyphen"/> genommen. 24 <hi rendition="#g">Betty Gleim</hi> (1781—1827), auch eine Großnichte des<lb/> Dichters,
+                  Pädagogin und Schriftstellerin, war mit der Rudolphi,<lb/> Schwarz und Voß in
+                  Heidelberg befreundet (Allg. Deutsche Biogr.<lb/> 49, 390). <hi rendition="#rkd">28—33</hi> Karoline war darüber beunruhigt, daß sie außer dem<lb/> ersten
+                  Brief aus Bamberg noch nichts von ihrem Mann bekommen,<lb/> und hatte sich und ihn
+                  mit eifersüchtigen Gedanken gequält; „wer<lb/> weiß, ob Du nicht die Anzeigen, die
+                  ich glühend erwartete, nach<lb/>
+                  <hi rendition="#g">Heidelberg</hi> schriebst und also schon jetzt anfingest, Deine
+                     Empfin<lb rendition="#hyphen"/> dungen zwischen mir und ihnen zu theilen, denen
+                  Du nun bald näher<lb/> sein wirst als mir.“ <hi rendition="#b">194</hi>,<hi rendition="#rkd">1</hi> Karolinens <hi rendition="#g">Vater</hi> hatte ihr
+                  geschrieben,<lb/> er habe am 1. Juni sein Bad bezogen und möchte, wenn dieses
+                  nicht<lb/> die gewünschte Wirkung tue, sie als Pflegerin an seiner Seite haben.<lb/>
+                  <hi rendition="#rkd">10</hi> Der General <hi rendition="#g">Schubaert</hi> (Br.
+                  VI, Nr. 967†) hatte versprochen,</hi>
+               <lb/>
+               <hi rendition="#aq">seine Schuld an Jean Paul in wenigen Tagen, wenn auch in zwei
+                     Ter<lb rendition="#hyphen"/> minen, mit Zinsen zu entrichten.</hi>
+            </p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

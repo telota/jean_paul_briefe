@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VII_331">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="331">331. An Heinrich Voß in Heidelberg. </title>
+            <title n="digital">An Heinrich Voß. Bayreuth, 28. September 1817.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=VII_331</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/VII/VII_331</idno>
+               <idno type="TELOTAID">VII_331</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
+               <biblScope n="text" unit="page">
+                  <num>149</num>
+                  <num>150</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>389</num>
+                  <num>390</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+            <listPerson type="commentary">
+               <person corresp="#JP-003469">
+                  <persName> Caroline <name type="reg">Richter</name>
+                  </persName>
+               </person>
+            </listPerson>
+            <listPlace type="commentary">
+               <place corresp="#JP-005574">
+                  <placeName>Bayreuth (Stadt)</placeName>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1817-09-28">28. September 1817</date>
+               <placeName key="JP-005574" ref="http://www.geonames.org/2951825">Bayreuth</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-004520" ref="http://d-nb.info/gnd/100689590">
+                  <name type="reg">Voß</name> Heinrich</persName>
+               <placeName key="JP-005819" ref="http://www.geonames.org/2907911">Heidelberg</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VII_320">5. September
+                  1817</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VII_346">5. November 1817</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <dateline>
+               <hi rendition="#right">
+                  <hi rendition="#aq">
+                     <placeName>Baireut</placeName>
+                  </hi> d. <date>28. Sept. 1817</date>
+                  <metamark>[</metamark>Sonntag<metamark>]</metamark>
+               </hi>
+            </dateline>
+            <lb xml:id="VII_149-13"/>
+            <p>Mein alter guter lieber Heinrich! Diesen Namen lieb’ ich be<lb xml:id="VII_149-14" rendition="#hyphen"/> sonders; auch weil mein bester (verstorbner) Bruder so hieß.
+                  —<note corresp="#VII_149-15">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003487">
+                        <persName> Justus Heinrich Wilhelm Christian <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="15" xml:id="VII_149-15"/> Durch deine Briefe wohn’ ich ordentlich bei dir und
+               folglich in<lb xml:id="VII_149-16"/>
+               <hi rendition="#aq">Heidelberg</hi> noch fort, dessen Vielgestirn mir niemal
+               untergehen soll.<note corresp="#VII_149-17">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005819">
+                        <placeName>Heidelberg</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VII_149-17"/> — Ich wollte nur, du hättest sinesisches Seidenpapier den
+               Bogen zu<note corresp="#VII_149-18">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005646" rend="Papier">
+                        <placeName>China </placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VII_149-18"/> 10¼ frankf. Ellen, worauf die Zeitung gedruckt wird, damit
+               du dich<note corresp="#VII_149-19">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005743" rend="Elle">
+                        <placeName>Frankfurt a. M.</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VII_149-19"/> weniger kurz zu fassen brauchtest. Deine Urtheile und
+                  Menschen<lb n="20" xml:id="VII_149-20" rendition="#hyphen"/> abschattungen sind
+               immer treffend. — Der niedrige <hi rendition="#aq">Krause</hi> soll mich<note corresp="#VII_149-21">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002238">
+                        <persName> Christian Sigismund <name type="reg">Krause</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009026">
+                        <author>Krause, Christian Sigismund (1758-1829), Assessor in Bayreuth,
+                           Rezensent</author>
+                        <title>Über Büchernachdruck (1783 und 1817)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VII_149-21"/> nie wie ein Taucher die Seeenten, zu sich hinunter ziehen.
+               Was ich<lb xml:id="VII_149-22"/> gegen den Nachdruck zu sagen wußte, hab’ ich ja
+               schon im vorjährigen<note corresp="#VII_149-23">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010886">
+                        <title>Sieben letzte oder Nachworte gegen den Nachdruck (1815)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VII_149-23"/> Morgenblatt weitläuftig gesagt. <hi rendition="#aq">Krause</hi> antwortet, wie oft<note corresp="#VII_149-24">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010313">
+                        <author/>
+                        <title>Morgenblatt für gebildete Stände (1807ff.)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VII_149-24"/> Weiber, meistens auf etwas anderes. — Erschüttert hat mich
+                  der<lb n="25" xml:id="VII_149-25"/> im Wissen barbareske <hi rendition="#aq">Hartung</hi> mit der Nachrede von Barbarsein<note corresp="#VII_149-26">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001561" ana="†">
+                        <persName> W. Chr. D. <name type="reg">Hartung</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VII_149-26"/> gegen meine Kinder, gegen sie, diese seeligsten der Kinder.
+               Nie übrigens<note corresp="#VII_149-27">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003483" ana="†">
+                        <persName> Johann Paul Friedrich <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VII_149-27"/> durfte der Unbedeutende mich seinen Freund nennen; aber zu
+                  meinem<lb xml:id="VII_149-28"/> Feinde hab’ ich den Zudringlichen durch meine
+               strenge Weigerung<lb xml:id="VII_149-29"/> gegen die <hi rendition="#aq">Wagnersche</hi> Philosophie gemacht, die er vor mir nach<note corresp="#VII_149-30">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004560">
+                        <persName> Johann Jakob <name type="reg">Wagner</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="30" xml:id="VII_149-30" rendition="#hyphen"/> und vorbeten wollte; und ich
+               ließ ihn zuletzt ergrimmt abziehen. —<lb xml:id="VII_149-31"/> Sage der guten
+               Hofräthin <hi rendition="#aq">Dapping</hi> meinen herzlichen Dank für<note corresp="#VII_149-32">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000749">
+                        <persName> Emilie <name type="reg">Dapping</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VII_149-32"/> den abendrothen Abend — und der guten <hi rendition="#aq">Sophie</hi> für Suppe und<note corresp="#VII_149-33">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000752">
+                        <persName> Sophie <name type="reg">Dapping</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VII_149-33"/> Blumen — und den übrigen lieben Wesen für das, was ich
+                  ihnen<lb xml:id="VII_150-1"/> unter dem Tanze gestohlen. Du kannst sogar dieses
+                  Brief-Winkel<lb xml:id="VII_150-2" rendition="#hyphen"/>chen für die Freundlichen
+               herausschneiden, wenn du Freude damit zu<lb xml:id="VII_150-3"/> machen glaubst.</p>
+            <lb xml:id="VII_150-4"/>
+            <p>Dein am Sonnabend abgegangner Brief kam schon am Mittwoch<lb n="5" xml:id="VII_150-5"/> an. — Dem vortrefflichen <hi rendition="#aq">Dittmar</hi> sage, daß ich die zweite
+                  Büste<note corresp="#VII_150-6">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000816">
+                        <persName> Woldemar von <name type="reg">Dittmar</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VII_150-6"/> an ihn abzugehen hindere, weil ich sein eignes Abreisen
+               fürchte und<lb xml:id="VII_150-7"/> daß ich also auf seine nähern Worte warten lasse.
+               — Bemerke, jeder<lb xml:id="VII_150-8"/> Gedankenstrich bedeutet in meinen Briefen
+               einen Gedanken-Absprung.<lb xml:id="VII_150-9"/> — Vor den Paulus halte ihr
+               monatliches Schweigen bei ein Paar<note corresp="#VII_150-10">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003169">
+                        <persName> Heinrich Eberhard Gottlob <name type="reg">Paulus</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="10" xml:id="VII_150-10"/> Besuchen zusammen mit deinem Fortschreiben bei
+               deinen Dekanaten,<lb xml:id="VII_150-11"/> Professuren, Übersetzungen und 32
+               Kompaßbriefschreibereien und<lb xml:id="VII_150-12"/> sage Sophien, es habe mir nicht
+               sonderlich wol gethan, sondern<note corresp="#VII_150-13">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003172">
+                        <persName> Sophie <name type="reg">Paulus</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VII_150-13"/> vielmehr weh. Dem dienstfreundlichen Wilhelm bringe einen
+                  Gruß,<note corresp="#VII_150-14">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003173">
+                        <persName> Wilhelm <name type="reg">Paulus</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VII_150-14"/> den ich neulich vergessen. — Meine Dioskuren-Herzen, <hi rendition="#aq">Otto</hi> und<note corresp="#VII_150-15">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000807">
+                        <persName>
+                           <name type="reg">Dioskuren</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003112">
+                        <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="15" xml:id="VII_150-15"/>
+               <hi rendition="#aq">Emanuel,</hi> lieben dich unendlich voraus, so wie meine <hi rendition="#aq">Caroline,</hi>
+               <note corresp="#VII_150-16">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003087">
+                        <persName> Emanuel <name type="reg">Osmund</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003469">
+                        <persName> Caroline <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VII_150-16"/> deren Handschrift sogar deiner ähnlicht. — <hi rendition="#aq">Stuttgart</hi> hol’ ich im<lb xml:id="VII_150-17"/> künftigen
+               Frühling gewis ein, oder mich der Tod. — Und so lebe<lb xml:id="VII_150-18"/> denn
+               wol, du ächter biederer Mensch!</p>
+            <lb xml:id="VII_150-19"/>
+            <closer>
+               <salute>
+                  <hi rendition="#right">Richter</hi>
+               </salute>
+               <lb n="20" xml:id="VII_150-20"/>
+            </closer>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Bayer. Staatsbibl. 1⅔ S. 8°. <hi rendition="#i">K</hi>
+                  <hi rendition="#sup">1</hi>: <hi rendition="#i">Voß</hi>
+               </hi> 28. Sept. <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+                  <hi rendition="#sup">2</hi> (von Karo<lb rendition="#hyphen"/> linens Hand):
+                  Berlin JP. <hi rendition="#i">i</hi> (nach <hi rendition="#i">K</hi>
+                  <hi rendition="#sup">2</hi>): Wahrheit 8, 123×. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>: Voß<lb/> S. 11×. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>: Petzet Nr. 4. <hi rendition="#i">A</hi>: IV. Abt.,
+                  VII, Nr.</hi>
+               <hi rendition="#aq">75? </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">149</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">17</hi>
+               </hi> niemal] <hi rendition="#aq">aus</hi> nie <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>,</hi> niemals <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+                  <lb/> (das s hier vielleicht nur aus Platzmangel weggelassen, doch kommt<lb/> die
+                  Form ohne s auch sonst vor)</hi>
+               <hi rendition="#rkd">27</hi> diese] die <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi> übrigens] <hi rendition="#aq">aus</hi> aber <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">30</hi> vor] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">31</hi> vorbeten] abbeten <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#sup">1</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">150</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">2</hi>
+               </hi> gestohlen] <hi rendition="#aq">aus</hi> genom<lb rendition="#hyphen"/> men <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">10</hi> Vor] <hi rendition="#aq">aus</hi> Bei <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Gleichzeitig mit diesem Briefe ging auch einer von Karoline an
+                  Voß<lb/> ab, worin sie ihm eine Locke Jean Pauls schickte, um die er sie in<lb/>
+                  einem Brief v. 5. Sept. (<hi rendition="#i">H</hi>: Prof. A. Kippenberg) gebeten hatte.<lb/>
+                  <hi rendition="#b">149</hi>,<hi rendition="#rkd">14</hi>f. <hi rendition="#g">Heinrich:</hi> vgl. den Anfang von Jean Pauls Brief an Jacobi<lb/> v. 15. Mai
+                  1799 (Br. III, Nr. 274). <hi rendition="#rkd">21—25</hi>
+                  <hi rendition="#g">Krause:</hi> vgl. Nr. 297, § 6†; Voß<lb/> hatte im Brief an J.
+                  P. IV. Abt., VII, Nr. 67 geschrieben, Krauses Schrift über den<lb/> Nachdruck sei
+                  sehr geschickt und gefährlich und nicht mit Witz ab<lb rendition="#hyphen"/>
+                  zutun; Ende Nov. 1817 schreibt er an Abeken: „Jean Paul bat mich<lb/> auf das
+                  dringendste, ich sollte die schärfste Lauge des Spottes und<lb/> des Unwillens,
+                  die ich vorrätig hätte, auf Krause ausschütten, und viel<lb rendition="#hyphen"/>
+                  leicht geschieht’s einmal. Nachher kehrte ich die Bitte gegen ihn<lb/> um.“ <hi rendition="#rkd">25—31</hi> W. C. <hi rendition="#g">Hartung,</hi> ein Sohn des
+                  Br. I, 359 genannten<lb/> Schwarzenbacher Diakons Joh. Christoph Hartung, 27.
+                  April 1811<lb/> als Dr. phil. in Heidelberg immatrikuliert (s. Matrikel der
+                  Universität<lb/> Heidelberg, Teil 5, Heidelberg 1904, S. 57), wo damals Joh. Jak.<lb/>
+                  <hi rendition="#g">Wagner</hi> Philosophie lehrte; vgl. I. Abt., XVII, Einl. S.
+                  LVIII;<lb/> Persönl. Nr. 208, S. 170. Voß hatte diese Äußerung in dem oben
+                  erwähnten<lb/> Brief an Karoline mitgeteilt, wozu Jean Paul an den Rand
+                  schrieb:</hi>
+               <lb/> Für mich die gräßlichste Verläumdung! Sollte man nicht unbekümmert<lb/>
+               schlecht <hi rendition="#g">scheinen</hi> den baireuter Hunden und Hündinnen, um
+               ihnen nur die<lb/> Verläumdung zu ersparen? <hi rendition="#aq">In dem oben
+                  angeführten Brief an Abeken<lb/> entschuldigt Voß seine Klätscherei damit, daß
+                  Hartung im Begriff sei,<lb/> nach Bayreuth zurückzukehren; „da war mir der Gedanke
+                     unerträg<lb rendition="#hyphen"/> lich, mein teurer J. P. könne den Kerl einmal
+                  wieder in sein Haus oder<lb/> an seinen gastlichen Tisch lassen.“ (Das Bayreuther
+                  Gerede über<lb/> Jean Pauls „Barbarei“ war u. a. dadurch entstanden, daß er
+                  seine</hi>
+               <lb/>
+               <hi rendition="#aq">Kinder zuweilen, horribile dictu! barfuß laufen ließ, wie er es
+                  in der<lb/> Levana empfiehlt, vgl. I. Abt., XII, 195.) <hi rendition="#rkd">33</hi>
+                  <hi rendition="#g">Sophie</hi> Dapping:<lb/> s. Nr.</hi>
+               <hi rendition="#aq">360.</hi>
+            </p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

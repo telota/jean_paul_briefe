@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VII_441">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="445">441. An Heinrich Voß in Heidelberg. </title>
+            <title n="digital">An Heinrich Voß. Bayreuth, 14. Juli 1818 bis 17. Juli 1818.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=VII_441</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/VII/VII_441</idno>
+               <idno type="TELOTAID">VII_441</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
+               <biblScope n="text" unit="page">
+                  <num>218</num>
+                  <num>219</num>
+                  <num>220</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>414</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date corresp="writingsession1" when="1818-07-14">14. Juli 1818</date>
+               <date corresp="writingsession2" when="1818-07-17">17. Juli 1818</date>
+               <placeName key="JP-005574" ref="http://www.geonames.org/2951825">Bayreuth</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-004520" ref="http://d-nb.info/gnd/100689590">
+                  <name type="reg">Voß</name> Heinrich</persName>
+               <placeName key="JP-005819" ref="http://www.geonames.org/2907911">Heidelberg</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VII_425">12. Juni 1818 bis 13.
+                  Juni 1818</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VII_449">31. Juli 1818 bis
+                  3.August 1818</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <div n="writingSession1">
+               <lb xml:id="VII_218-7"/>
+               <dateline>
+                  <hi rendition="#right">
+                     <hi rendition="#aq">
+                        <placeName>Baireut</placeName> d. <date>14. Jul. 1818</date>
+                     </hi>
+                  </hi>
+               </dateline>
+               <lb xml:id="VII_218-8"/>
+               <p>Mein immer mehr geliebter Heinrich, denn daran sind deine Briefe<lb xml:id="VII_218-9"/>
+                  <hi rendition="#et">und Thaten schuld!</hi>
+                  <lb n="10" xml:id="VII_218-10"/>
+               </p>
+               <p>Glücklich bin ich angekommen und noch glücklicher geworden unter<lb xml:id="VII_218-11"/> den Meinigen. Im nächsten Briefe will ich mir Zeit nehmen
+                     und<lb xml:id="VII_218-12"/> dir ein ernstes warmes Wort über oder für Ehe,
+                  Frau und Kinder<lb xml:id="VII_218-13"/> sagen, wiewol die nächste Nachbarschaft
+                  deines Herzens dir täglich<note corresp="#VII_218-14">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004516">
+                           <persName> Ernestine <name type="reg">Voß</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-004524">
+                           <persName> Johann Heinrich <name type="reg">Voß</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_218-14"/> dasselbe Wort durch Thaten predigt. — Laße mich zuerst
+                  die Ge<lb n="15" xml:id="VII_218-15" rendition="#hyphen"/> schäfte abthun. Daß mir
+                  um des Himmels und der Leser Willen<note corresp="#VII_218-16">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010540" ana="ff">
+                           <title>Blumen- Frucht- und Dornenstükke (Blumen-, Frucht- und
+                              Dornenstücke) (Siebenkäs) (1796-97 [1796])</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VII_218-16"/> ja nicht der Setzer die Druckfehler, die er so gut und
+                  reichlich gegeben,<lb xml:id="VII_218-17"/> zum zweiten male wieder zu setzen und
+                  anzuzeigen vergesse! Ich bitte<lb xml:id="VII_218-18"/> dich, Heinrich. — Ferner
+                  lasse dir vom <hi rendition="#aq">Engelmann</hi> selber <hi rendition="#g">buch<note corresp="#VII_218-19">
+                        <listPerson type="lineReference">
+                           <person corresp="#JP-000959">
+                              <persName> Joseph <name type="reg">Engelmann</name>
+                              </persName>
+                           </person>
+                        </listPerson>
+                     </note>
+                     <lb xml:id="VII_218-19" rendition="#hyphen"/> händlerisch</hi> sagen bis auf
+                  den Viertelbogen, wie stark der 3<hi rendition="#sup">te</hi> und<lb n="20" xml:id="VII_218-20"/> der 4<hi rendition="#sup">te</hi> Theil ausgefallen,
+                  damit ich es eben so buchhändlerisch an<note corresp="#VII_218-21">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001679">
+                           <persName> Luise von <name type="reg">Herder</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_218-21"/> meinen Verleger schreiben kann, der ohne seine Schuld
+                  mir noch<note corresp="#VII_218-22">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003408">
+                           <persName> Georg Andreas <name type="reg">Reimer</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_218-22"/> über die Hälfte des Ehrensolds schuldet. — Betreibe
+                  endlich die<lb xml:id="VII_218-23"/> schnelle Absendung der Freiexemplare. — Und
+                  dann bist du, wenn du<lb xml:id="VII_218-24"/> noch das Geld für den englischen
+                  Einband des Siebenkäses der guten<note corresp="#VII_218-25">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0057155">
+                           <placeName>Einband; England, englisch, Britannien</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="25" xml:id="VII_218-25"/>
+                  <hi rendition="#g">Koch</hi> ausgelegt, aus deinem Siebenkäsischen Fegefeuer
+                  heraus und<note corresp="#VII_218-26">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002160">
+                           <persName> Elisabeth <name type="reg">Koch</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_218-26"/> du gehest dann geradezu in den Siebenkäsischen Himmel,
+                  indem du<lb xml:id="VII_218-27"/> nämlich das Werk selber von vornen herein
+                  ordentlich liesest; —<lb xml:id="VII_218-28"/> was ich stark fodere, weil du für
+                  deine übergroße Korrektor-Liebe<lb xml:id="VII_218-29"/> gegen mich wenigstens
+                  wenn nicht einen Grund, doch einen Lohn<lb n="30" xml:id="VII_218-30"/> finden
+                  sollst. — —</p>
+               <lb xml:id="VII_218-31"/>
+               <p>Weiter wüßt’ ich nichts, was ich dir von Plagen und Handlungen<lb xml:id="VII_218-32"/> noch anzusinnen hätte.</p>
+               <lb xml:id="VII_218-33"/>
+               <p>Aber wegzulassen bekommst du einige, nämlich deine für deine<lb xml:id="VII_218-34"/> Zeit zu lange Schreiberei über <hi rendition="#aq">Schlegel</hi> und <hi rendition="#aq">Sophie Paulus.</hi> Du<note corresp="#VII_218-35">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003172" ana="ff">
+                           <persName> Sophie <name type="reg">Paulus</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003757" ana="ff">
+                           <persName> August Wilhelm <name type="reg">Schlegel</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="35" xml:id="VII_218-35"/> thust beiden Unrecht, nicht im Allgemeinen
+                  sondern in Rücksicht<lb xml:id="VII_219-1"/> meiner. Wie soll <hi rendition="#aq">Schlegel</hi> auch nur irgend einen Antheil an mir<lb xml:id="VII_219-2"/>
+                  nehmen, da ich ihn immer ohne einen und mit lauter Scherzen be<lb xml:id="VII_219-3" rendition="#hyphen"/>handelt und nicht einmal Abschied
+                  genommen habe, freilich auch<lb xml:id="VII_219-4"/> weil ich und er nie recht bei
+                  einander angekommen waren? Ich<lb n="5" xml:id="VII_219-5"/> vergäbe ihm auch jede
+                  pedantische Geckerei und Glanzsucht, wäre<lb xml:id="VII_219-6"/> nur sein Innen
+                  und Außen nicht ein langes Eisfeld selbsüchtiger<lb xml:id="VII_219-7"/> Kälte
+                  gegen Menschen und Wahrheiten und Wärme; er will nichts<lb xml:id="VII_219-8"/>
+                  hören <metamark>[</metamark>
+                  <hi rendition="#aq">
+                     <hi rendition="#i">gestrichen:</hi>
+                  </hi> (nicht einmal Gott)<metamark>]</metamark>
+                  <note n="*)" place="foot">Nie werde dieser Brief gedruckt, auch nach meinem Tode;
+                     nur Worte über<lb n="35" type="ig"/> einzelne blos an einzelne braucht man
+                     nicht auf die Wage zu legen.</note> als sich selber und im<lb xml:id="VII_219-9"/> Meere der Ewigkeit will er nichts sehen als sein
+                  Spiegelbild —<lb n="10" xml:id="VII_219-10"/> Übrigens legst du seinem Äußern bei
+                  der Wasserfahrt gewiß mehr<lb xml:id="VII_219-11"/> Anmaßung unter als da war;
+                  warum ertrug er denn mein kleines<lb xml:id="VII_219-12"/> Necken so lammhaft?
+                  —</p>
+               <lb xml:id="VII_219-13"/>
+            </div>
+            <div n="writingSession2">
+               <dateline>
+                  <hi rendition="#right">
+                     <hi rendition="#aq">d. 17<hi rendition="#sup">ten</hi> Jul.</hi>
+                  </hi>
+               </dateline>
+               <lb xml:id="VII_219-14"/>
+               <p>Dein gutgemeinter Ärger über Sophie — aber nicht die Liebe<note corresp="#VII_219-15">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003172" ana="ff">
+                           <persName> Sophie <name type="reg">Paulus</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="15" xml:id="VII_219-15" rendition="#hyphen"/> quelle desselben — hat mich
+                  halb komisch ergözt: Lasse sie doch die<lb xml:id="VII_219-16"/> Ellbogen
+                  aufstemmen und sie zärtlich anhören, wen sie will: was<lb xml:id="VII_219-17"/>
+                  geht es uns an? — Ich habe selber sie in der ersten Stunde (was die<lb xml:id="VII_219-18"/> Mutter dem <hi rendition="#aq">Frankfurt</hi> unrichtig
+                  zuschrieb) nicht so behandelt und<note corresp="#VII_219-19">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003171" next="219-20">
+                           <persName> Karoline <name type="reg">Paulus</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003170" ana="f">
+                           <persName> Karoline <name type="reg">Paulus</name>, ihr Bruder
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005743">
+                           <placeName>Frankfurt a. M.</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_219-19"/> gefunden wie sonst. Soll sie denn am alten Hausfreund
+                  ihrer Mutter<lb n="20" xml:id="VII_219-20"/> keinen Antheil nehmen? Aber seltsam
+                  genug hat sie ihn nie mit<lb xml:id="VII_219-21"/> Einem Worte gegen meine
+                  Ausfälle gedeckt; liebt sie nun auch nur<lb xml:id="VII_219-22"/> mäßig: so kann
+                  sie wenig Freude an mir gefunden haben. Freilich<lb xml:id="VII_219-23"/> so wie
+                  du, konnte nicht sie mir zum zweiten male vorkommen; denn<lb xml:id="VII_219-24"/>
+                  für dich hat die Abwesenheit mich noch mehr erwärmt, für sie fast<lb n="25" xml:id="VII_219-25"/> abgekühlt, da ich gar zu wenig Liebe und Nachsicht für
+                     andere<lb xml:id="VII_219-26"/> Menschen bei ihr finde. Zu reden und zu
+                  schreiben versucht und ver<lb xml:id="VII_219-27" rendition="#hyphen"/>mag sie
+                  auch nicht sehr; aber was könnt’ ich ihr vollends seit der<lb xml:id="VII_219-28"/> Abreise je mehr zu schreiben haben? Eine Freundin büßt man leichter<lb xml:id="VII_219-29"/> ein als einen Freund. — Gerade dir entgegengesetzt,
+                  vergeb’ ich ihr<lb n="30" xml:id="VII_219-30"/> 10 mal lieber das Lieben als das
+                  Heirathen des <hi rendition="#aq">Schlegel</hi>. Er freilich<lb xml:id="VII_219-31"/> wird, wenn sie auch nur mit Einem Flügel an seinen
+                     Spinnenfäden<lb xml:id="VII_219-32"/> klebt, sie so lange darin umdrehen bis er
+                  sie umstrickt in die Kanker<lb xml:id="VII_219-33" rendition="#hyphen"/>höle
+                  ziehen kann; aber einen ihres Charakters und ihrer Begeisterung<lb xml:id="VII_219-34"/> für mich unwürdigern 53jährigen Gatten voll Eis und
+                     Schaum<lb xml:id="VII_220-1"/> wüßt’ ich nicht für sie, der ich gern einen <hi rendition="#aq">Voß,</hi> einen <hi rendition="#aq">Carové</hi> zuge<note corresp="#VII_220-2">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000587">
+                           <persName> Friedrich Wilhelm <name type="reg">Carové</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-004520">
+                           <persName> Heinrich <name type="reg">Voß</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_220-2" rendition="#hyphen"/>führt hätte; aber dann sollte sie mir
+                  nicht mehr <hi rendition="#aq">Paula</hi> (von Vater<note corresp="#VII_220-3">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003166">
+                           <persName>
+                              <name type="reg">Paulus</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003168">
+                           <persName> Heinrich Eberhard Gottlob <name type="reg">Paulus</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_220-3"/> und mir her) sondern <hi rendition="#aq">Saula</hi>
+                  heißen. — Künftig schreibe mir lieber<lb xml:id="VII_220-4"/> recht viel von <hi rendition="#aq">Auth;</hi> welchen zu sehen sogar deine Pflicht der Wahr<note corresp="#VII_220-5">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000175">
+                           <persName>
+                              <name type="reg">Auth </name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="5" xml:id="VII_220-5" rendition="#hyphen"/> heitliebe ist.</p>
+               <lb xml:id="VII_220-6"/>
+               <p>
+                  <hi rendition="#aq">Thiedeman</hi> — den und dessen liebe Gattin grüße — gefiel
+                     mir<note corresp="#VII_220-7">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004308">
+                           <persName> Friedrich <name type="reg">Tiedemann</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-004310">
+                           <persName> Jenny Rosa <name type="reg">Tiedemann</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_220-7"/> sehr von seinem Gesichte an bis zu seiner Vielkenntnis.
+                  Die magne<lb xml:id="VII_220-8" rendition="#hyphen"/> tische Ketzerei stört mich
+                  an ihm nicht, wenn er nicht ein Verfolger<lb xml:id="VII_220-9"/> wird. — Drei
+                  Paar Weiberhandschuhe hab’ ich im Gasthofe gelassen;<note corresp="#VII_220-10">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0058197">
+                           <placeName>Gasthof Zum Carlsberg; Heidelberg</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="10" xml:id="VII_220-10"/> schwerlich aber hat sie die wiedergebende Hand
+                  gefunden. — Deiner<lb xml:id="VII_220-11"/> guten Mutter drücke die Hand, die so
+                  schön gibt und schreibt, und<note corresp="#VII_220-12">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004516">
+                           <persName> Ernestine <name type="reg">Voß</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_220-12"/> die kräftige deines Vaters. — Grüße die <hi rendition="#aq">Boie’s</hi> sehr. — Grüße in<note corresp="#VII_220-13">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000409">
+                           <persName> Heinrich Christian <name type="reg">Boie</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-004524">
+                           <persName> Johann Heinrich <name type="reg">Voß</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_220-13"/>
+                  <hi rendition="#aq">Paulus</hi> Hause Eltern und Tochter, und danke der Mutter
+                     besonders<note corresp="#VII_220-14">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003168">
+                           <persName> Heinrich Eberhard Gottlob <name type="reg">Paulus</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003171">
+                           <persName> Karoline <name type="reg">Paulus</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003170">
+                           <persName> Karoline <name type="reg">Paulus</name>, ihr Bruder
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003172">
+                           <persName> Sophie <name type="reg">Paulus</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_220-14"/> für ihre <hi rendition="#g">letzten</hi> Gefälligkeiten
+                  gegen mich. Du lebe wol, mein alter<lb n="15" xml:id="VII_220-15"/>
+                  unverändert-warm fortgeliebter Mensch!</p>
+               <lb xml:id="VII_220-16"/>
+               <closer>
+                  <salute>
+                     <hi rendition="#right">Richter</hi>
+                  </salute>
+               </closer>
+               <lb xml:id="VII_220-17"/>
+               <postscript>
+                  <p>Grüße mir Schuhmacher recht; ich fürchte, ich habe in der Eile<note corresp="#VII_220-18">
+                        <listPerson type="lineReference">
+                           <person corresp="#JP-003925">
+                              <persName> August Heinrich <name type="reg">Schumacher</name>
+                              </persName>
+                           </person>
+                        </listPerson>
+                     </note>
+                     <lb xml:id="VII_220-18"/> der Abfahrt nicht warm genug für seine Mühen und
+                        Gesinnungen<lb xml:id="VII_220-19"/> Abschied genommen. Sein Gedicht über
+                     die Künstler ist des Künstlers<lb n="20" xml:id="VII_220-20"/> würdig und er
+                     fahre nur fort.<lb xml:id="VII_220-21"/>
+                  </p>
+               </postscript>
+            </div>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Anfang (4 S. 8°, bis</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">220</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">1</hi>
+               </hi> Gatten): <hi rendition="#aq">Landesbibl. Eutin; Schluß<lb/> (1¼ S. 8°): Bayer.
+                  Staatsbibl. <hi rendition="#i">K</hi>
+                  <hi rendition="#sup">1</hi> (nach Nr. 443): <hi rendition="#i">Heidelb.</hi> [! aus<lb/>
+                  <hi rendition="#i">Bair.</hi>]</hi> d. 14 Jul. (ab 19<hi rendition="#sup">ten</hi>) an <hi rendition="#aq">
+                  <hi rendition="#i">Voß. K</hi>
+                  <hi rendition="#sup">2</hi> (von Karolinens Hand):<lb/> Berlin JP. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>: Voß S. 52× (nur der 1. Satz als Anfang von Nr. 449).<lb/>
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>: Petzet Nr. 7 (nur Schluß von</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">220</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">1</hi>
+               </hi> voll <hi rendition="#aq">an</hi>). <hi rendition="#b">
+                  <hi rendition="#aq">218</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">15</hi>
+               </hi> Laße] <hi rendition="#aq">aus</hi>
+               <lb/> Laß’ <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">16</hi> willen <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#sup">1</hi>
+               <hi rendition="#rkd">24</hi> du<hi rendition="#b">
+                  <hi rendition="#sup">1</hi>
+               </hi>] <hi rendition="#aq">danach</hi> ausgeplagt <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#sup">1</hi>
+               <hi rendition="#rkd">25</hi> Einband] <hi rendition="#aq">aus</hi>
+               <lb/> Band <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi> Siebenkäses] <hi rendition="#aq">aus</hi> Siebenkäs <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">30</hi> wenigstens] <hi rendition="#aq">aus</hi> doch immer <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">34</hi> einige] <hi rendition="#aq">aus</hi> einiges <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+                  <hi rendition="#b">219</hi>,<hi rendition="#rkd">4</hi>f.</hi> freilich auch weil]
+                  <hi rendition="#aq">aus</hi> zumal da <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">6</hi> ver<lb rendition="#hyphen"/> gäbe] verzeih <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#sup">1</hi>
+               <hi rendition="#rkd">8</hi> Wärme] <hi rendition="#aq">aus</hi> Herz <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">15</hi> Ärger] <hi rendition="#aq">aus</hi> Zorn <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">24</hi> so<lb/>
+               <hi rendition="#aq">bis</hi> vorkommen] <hi rendition="#aq">aus</hi> so wie dir,
+               konnt’ ich ihr zum zweiten male nicht vor<lb rendition="#hyphen"/> kommen <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">220</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">2</hi>
+               </hi> für <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">3</hi> hätte] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">3</hi> aber] <hi rendition="#aq">aus</hi> u. <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+                  <hi rendition="#rkd">5</hi>f.</hi> Wahr<lb rendition="#hyphen"/> heitliebe] <hi rendition="#aq">aus</hi> Wahrheit <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+                  <hi rendition="#rkd">7</hi>
+                  <hi rendition="#i">Tiedemann</hi> aus <hi rendition="#i">Thied. K</hi>
+               </hi>
+               <hi rendition="#sup">1</hi>
+               <hi rendition="#rkd">18</hi> Schuhmacher]<lb/>
+               <hi rendition="#aq">das 2. h vielleicht gestr. <hi rendition="#i">H</hi>
+               </hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Mit Nr. 444 (und 442?) und einem Brief von Emma (s. <hi rendition="#b">222</hi>,<hi rendition="#rkd">22</hi>).<lb/>
+                  <hi rendition="#b">218</hi>,<hi rendition="#rkd">34</hi>ff. Voß hatte offenbar
+                  über die zunehmende Intimität zwischen<lb/> A. W. Schlegel und Sophie Paulus
+                  berichtet, die Anfang August zur<lb/> Verlobung und am 30. August zur Hochzeit
+                  führte. <hi rendition="#b">219</hi>,<hi rendition="#rkd">20</hi>
+                  <hi rendition="#g">Haus<lb rendition="#hyphen"/> freund ihrer Mutter:</hi>
+                  Schlegel hatte schon in Jena im Paulusschen<lb/> Hause verkehrt (vgl. <hi rendition="#b">122</hi>,<hi rendition="#rkd">26—28</hi>). <hi rendition="#b">220</hi>,<hi rendition="#rkd">1</hi> Schlegel war noch nicht<lb/> 51. <hi rendition="#rkd">2</hi>
+                  <hi rendition="#g">Carov<hi rendition="#b">é</hi>:</hi> vgl. <hi rendition="#b">144</hi>,<hi rendition="#rkd">30</hi>. <hi rendition="#rkd">13</hi>
+                  <hi rendition="#g">Boies,</hi> die Verwandten von Vossens<lb/> Mutter, waren in
+                  Heidelberg zu Besuch. <hi rendition="#rkd">18</hi>
+                  <hi rendition="#g">Schuhmacher:</hi> s.</hi>
+               <hi rendition="#b">156</hi>,<hi rendition="#rkd">10</hi>†.</p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

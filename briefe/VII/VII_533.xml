@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VII_533">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="537">533. An Karoline Richter. </title>
+            <title n="digital">An Caroline Richter. Stuttgart, 16. Juni 1819 bis 17. Juni
+               1819.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=VII_533</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/VII/VII_533</idno>
+               <idno type="TELOTAID">VII_533</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
+               <biblScope n="text" unit="page">
+                  <num>270</num>
+                  <num>271</num>
+                  <num>272</num>
+                  <num>273</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>433</num>
+                  <num>434</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+            <listPerson type="commentary">
+               <person corresp="#JP-000948">
+                  <persName> Henriette Freifrau von <name type="reg">Ende</name>
+                  </persName>
+               </person>
+               <person corresp="#JP-003490">
+                  <persName> Max <name type="reg">Richter</name>
+                  </persName>
+               </person>
+               <person corresp="#JP-003491">
+                  <persName> Odilie Minna <name type="reg">Richter</name>
+                  </persName>
+               </person>
+               <person corresp="#JP-003872">
+                  <persName> Henriette Luise Eleonore von <name type="reg">Schubaert</name>
+                  </persName>
+               </person>
+               <person corresp="#JP-003995">
+                  <persName>
+                     <name type="reg">Seeligmann</name>
+                  </persName>
+               </person>
+            </listPerson>
+            <listPlace type="commentary">
+               <place corresp="#JP-005846">
+                  <placeName>Hohenberg </placeName>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date corresp="writingsession1" when="1819-06-16">16. Juni 1819</date>
+               <date corresp="writingsession2" when="1819-06-17">17. Juni 1819</date>
+               <placeName key="JP-006315" ref="http://www.geonames.org/2825297">Stuttgart
+               </placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-003469" ref="http://d-nb.info/gnd/116512539">
+                  <name type="reg">Richter</name> Caroline </persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VII_530">9. Juni 1819 bis
+                  12.Juni 1819</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VII_534">20. Juni 1819 bis 22.
+                  Juni 1819</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <div n="writingSession1">
+               <lb xml:id="VII_270-23"/>
+               <dateline>
+                  <hi rendition="#right">
+                     <hi rendition="#aq">
+                        <placeName>Stuttgart</placeName> d. </hi>
+                     <date>16<hi rendition="#sup">ten</hi> Jun. 〈Mittwoch〉 1819</date>
+                  </hi>
+               </dateline>
+               <lb xml:id="VII_270-24"/>
+               <p>Ich habe deine beiden Briefe, jeden nach 4 Tagen, erhalten. Von<lb n="25" xml:id="VII_270-25"/> hier aus gehen Briefe nur Mittwochs und Sonntags <hi rendition="#g">am Morgen</hi>
+                  <lb xml:id="VII_270-26"/> ab;<note n="*)" place="foot">folglich kannst du an
+                     keinen andern Tagen auf meine Briefe rechnen als<lb type="ig"/> Sonntags und
+                     Mittwochs.</note> folglich dieser erst Sonntags. Ich hoffe, du hast die gute<lb xml:id="VII_270-27"/>
+                  <hi rendition="#aq">Emma</hi> nicht mitgeschickt, nicht blos, um der Last so
+                  vieler Verbind<note corresp="#VII_270-28">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003471">
+                           <persName> Emma <name type="reg">Richter</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_270-28" rendition="#hyphen"/>lichkeiten auszuweichen, sondern
+                  besonders aus Reisegründen. Ich<lb xml:id="VII_270-29"/> habe im Wagen kaum mit
+                  meinem Gepäcke Raum; und der Pudel<lb n="30" xml:id="VII_270-30"/> kann durchaus
+                  nicht den ganzen Tag außer dem Wagen sein. Eine<lb xml:id="VII_270-31"/> größere
+                  Schwierigkeit wären die Schlafstellen. Die Reisekosten<lb xml:id="VII_271-1"/>
+                  würden sich verdoppeln, welche so groß sind, daß ich in Anspach für<note corresp="#VII_271-2">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0055290">
+                           <placeName>Fürstentum; Ansbach </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_271-2"/> ein elendes Abendessen 2 fl. 12 kr. zahlen müssen. Das
+                     Mittagessen<lb xml:id="VII_271-3"/> kostet gewöhnlich 1 fl. Lasse mir das
+                  Bißchen Bequemlichkeit, da<lb xml:id="VII_271-4"/> ich ohnehin so gar froh nicht
+                  bin, schon wegen des dummen Wetters.<lb n="5" xml:id="VII_271-5"/>
+                  <hi rendition="#aq">Emma</hi> ist noch jung genug, um 1000 mal besser die Welt zu
+                     genießen<note corresp="#VII_271-6">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003471">
+                           <persName> Emma <name type="reg">Richter</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_271-6"/> als ihr armgeborner Vater. Auch wär’ es mir gar nicht
+                  lieb, wenn<lb xml:id="VII_271-7"/> deine Einsamkeit gar verdreifacht würde. — Gott
+                  gebe, daß dir<lb xml:id="VII_271-8"/> niemand aus wolwollender Einfalt
+                  zuredet!</p>
+               <lb xml:id="VII_271-9"/>
+               <p>Hier wird man aus den Th<hi rendition="#aq">é</hi>es gewöhnlich ohne Abendbrod
+                     heim<lb n="10" xml:id="VII_271-10" rendition="#hyphen"/> geschickt, das ich
+                  dann für einige Groschen im Gasthofe suchen muß.<lb xml:id="VII_271-11"/> Gott!
+                  wie hungert mich nach einem Stückchen
+                     bair<metamark>[</metamark>euter<metamark>]</metamark> Bäcker<note corresp="#VII_271-12">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005574">
+                           <placeName>Bayreuth (Stadt)</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_271-12" rendition="#hyphen"/> brod. Das hiesige — blos aus Dinkel
+                  gebacken und ungesalzen —<lb xml:id="VII_271-13"/> schmeckt ungefähr wie
+                  getrockneter Kleister oder <hi rendition="#aq">papier <hi rendition="#g">maché;</hi>
+                  </hi>
+                  <lb xml:id="VII_271-14"/> und doch würgte ich es einige Abende — aus Sparsamkeit —
+                     mit<lb n="15" xml:id="VII_271-15"/> einem Stückchen Wurst hinein. Die hiesigen
+                     Milchbrödchen<lb xml:id="VII_271-16"/> schmecken wie euere Semmeln. Ich könnte
+                  mir wol abends hier<lb xml:id="VII_271-17"/> kochen lassen, aber der gute <hi rendition="#aq">Mohr</hi> ißt schon um 6 Uhr; also kann<note corresp="#VII_271-18">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002844">
+                           <persName> Karl <name type="reg">Mohr</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_271-18"/> ich ihm diesen Feueraufwand nicht zumuthen. Mein guter
+                     Kaffee<lb xml:id="VII_271-19"/> kostet mit allem mir bei ihm 12 kr. Das
+                  gefälligste dienstfertigste<lb n="20" xml:id="VII_271-20"/> Ehepaar, so wie die
+                  17jährige Magd, von der alle Baireuter Mägde<note corresp="#VII_271-21">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005574">
+                           <placeName>Bayreuth (Stadt)</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_271-21"/> Ordnung und Eile lernen könnten. Sogar lieber als im <hi rendition="#aq">Wenner<note corresp="#VII_271-22">
+                        <listPerson type="lineReference">
+                           <person corresp="#JP-004670">
+                              <persName> Johann Friedrich <name type="reg">Wenner</name>
+                              </persName>
+                           </person>
+                        </listPerson>
+                     </note>
+                     <lb xml:id="VII_271-22" rendition="#hyphen"/>schen</hi> Hause ist mir dieses
+                  häusliche Still- und Kleinleben. — Ich<lb xml:id="VII_271-23"/> habe gar zu viel
+                  zu erzählen und so wenig Zeit. Der Tisch liegt voll<lb xml:id="VII_271-24"/>
+                  Bücher aus der Bibliothek und von der <hi rendition="#aq">Huber</hi> etc.etc. —
+                  Das Besuchen<note corresp="#VII_271-25">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001851">
+                           <persName> Therese <name type="reg">Huber</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0063151">
+                           <placeName>Bibliothek; Stuttgart </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="25" xml:id="VII_271-25"/> am Morgen hört nicht auf und ich bin zuweilen von
+                  2 bis 10 außer<lb xml:id="VII_271-26"/> Haus — Arbeiten will ich auch ein wenig —
+                  Nehme doch ja <hi rendition="#aq">O<metamark>[</metamark>tto<metamark>]</metamark>
+                  </hi>
+                  <note corresp="#VII_271-27">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003112">
+                           <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_271-27"/> und <hi rendition="#aq">E<metamark>[</metamark>manuel<metamark>]</metamark>
+                  </hi> mein Schweigen nicht übel, zumal da ich in den<note corresp="#VII_271-28">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003087">
+                           <persName> Emanuel <name type="reg">Osmund</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_271-28"/> Briefen an dich manches für sie schreibe. — Gestern als
+                  ich auf der<note corresp="#VII_271-29">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-010170" ana="†">
+                           <author/>
+                           <title>Allgemeine Literatur-Zeitung (Literaturzeitung) (Jena 1785ff., ab
+                              1804 Halle)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VII_271-29"/> Silberburg (ein öffentlicher Lustberg mit Gärten, wo
+                  jeden Sonn<note corresp="#VII_271-30">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-00631545">
+                           <placeName>Silberburg; </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="30" xml:id="VII_271-30" rendition="#hyphen"/> abend Konzert ist) arbeitete,
+                  kamen 3 Deputierte der Tübingischen<note corresp="#VII_271-31">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006358" ana="†">
+                           <placeName>Tübingen</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_271-31"/> Studenten an, um mich zur Feier des 18<hi rendition="#sup">ten</hi> dahin einzuladen mittelst<lb xml:id="VII_271-32"/>
+                  eines sehr schönen Schreibens; ich schlug es natürlich mit vieler Artig<lb xml:id="VII_271-33" rendition="#hyphen"/>keit und Wendung ab. — Bekannt und
+                  geliebt bin ich hier hinlänglich<lb xml:id="VII_271-34"/> und in jeder Gassen-Ecke
+                  seh’ ich den Rücken eines Verehrers stehen.<lb n="35" xml:id="VII_271-35"/> Nur
+                  müßt’ es am Ende auch dem eitelsten Narren lästig fallen, daß<lb xml:id="VII_271-36"/> er an einem öffentlichen Orte (z. B. im Gartenkonzerte)
+                  nicht herum<lb xml:id="VII_271-37"/> gehen kann, — um etwa einige weibliche
+                  Gesichter anzusehen, oder<lb xml:id="VII_272-1"/> die Gartenpartien — ohne hinten
+                  und vornen und seitwärts von<lb xml:id="VII_272-2"/> 100 Augen verfolgt; oder,
+                  wenn er gar ins Sprechen kommt und<lb xml:id="VII_272-3"/> sagt: „Ihr Diener“ oder
+                  „eine Flasche Doppelbier“, von den nächsten<note corresp="#VII_272-4">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0063150">
+                           <placeName>Bier; Stuttgart </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_272-4"/> Ohren verschlungen zu werden. Gnade dann Gott dem
+                     armen<lb n="5" xml:id="VII_272-5"/> Narren, wenn er vollends etwas Dummes sagt
+                  anstatt das Aller<lb xml:id="VII_272-6" rendition="#hyphen"/> witzigste und
+                  Erhabenste. Einen oder ein Paar Verehrer und Ver<lb xml:id="VII_272-7" rendition="#hyphen"/>ehrerinnen an jedem Orte lass’ ich mir gefallen; man wird
+                     aber<lb xml:id="VII_272-8"/> am Ende so unverschämt und gleichgültig wie ein
+                  Prinz und thut<lb xml:id="VII_272-9"/> als sei man zu Hause, nämlich in
+                     Baireut.<note corresp="#VII_272-10">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005574">
+                           <placeName>Bayreuth (Stadt)</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="10" xml:id="VII_272-10"/>
+               </p>
+            </div>
+            <div n="writingSession2">
+               <dateline>
+                  <hi rendition="#right">Donnerstags</hi>
+               </dateline>
+               <lb xml:id="VII_272-11"/>
+               <p>Ich will doch auf gerade wol heute den Brief abschicken; ob er<lb xml:id="VII_272-12"/> vielleicht eher kommt. — Nur noch einiges. Der gute Graf
+                     Berol<note corresp="#VII_272-13">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000325">
+                           <persName> Paul Joseph Graf von <name type="reg">Beroldingen</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_272-13" rendition="#hyphen"/> dingen und sie nahmen mich neulich
+                  zu einem Pickenick auf die Geis<note corresp="#VII_272-14">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000324">
+                           <persName> Maximiliane <name type="reg">Beroldingen</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0063152">
+                           <placeName>Gaisburg (Geisburg); Stuttgart </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_272-14" rendition="#hyphen"/>burg (ein sehr schöner Berggarten),
+                  wo der österreichische Gesandte<note corresp="#VII_272-15">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006097">
+                           <placeName>Österreich</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="15" xml:id="VII_272-15"/> Trautmannsdorf, der baiersche Tautphäus, der
+                  preußische K<add resp="#MB">ü</add>ster<note corresp="#VII_272-16">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002295">
+                           <persName> Johann Emanuel von <name type="reg">Küster </name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-004249">
+                           <persName> Johann Nepomuk Franz Freiherr von <name type="reg">Tautphöus</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-004330">
+                           <persName> Joseph Graf von <name type="reg">Trauttmannsdorff</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005569">
+                           <placeName>Bayern </placeName>
+                        </place>
+                        <place corresp="#JP-006166">
+                           <placeName>Preußen, preußisch</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_272-16"/> (dessen Frau sich noch des Lebens mit dir grüßend
+                  erinnert), der<note corresp="#VII_272-17">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002294">
+                           <persName>
+                              <name type="reg">Küster </name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_272-17"/> hiesige Minister der auswärtigen Angelegenheiten
+                     Winzingrode,<note corresp="#VII_272-18">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004751">
+                           <persName> Heinrich Karl Friedrich Levin Graf von <name type="reg">Wintzingerode</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_272-18"/> der junge aber reichausgebildete Graf Kufstein, die
+                     Oberhofmeisterin<note corresp="#VII_272-19">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002285">
+                           <persName> Franz Seraphicus Graf von <name type="reg">Kuefstein </name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_272-19"/> von Seckendorf — eine Frau von der lustigsten Laune —
+                  und noch<note corresp="#VII_272-20">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003979">
+                           <persName> Julie Karoline Henriette Freifrau von <name type="reg">Seckendorff</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="20" xml:id="VII_272-20"/> andere Weiber waren und alles heiter und frei.
+                  Darauf oder abends<lb xml:id="VII_272-21"/> fuhr die Gesellschaft und ich mit dem
+                  Grafen nach der Silberburg,<note corresp="#VII_272-22">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002285">
+                           <persName> Franz Seraphicus Graf von <name type="reg">Kuefstein </name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-00631545">
+                           <placeName>Silberburg; </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_272-22"/> die schönste Stelle für mich. Alles Schöne liegt aber
+                  weit von<lb xml:id="VII_272-23"/>
+                  <hi rendition="#aq">Stuttgart;</hi> ach es ist kein Heidelberg oder Frankfurt. —
+                     <hi rendition="#aq">Cotta,</hi> bei<note corresp="#VII_272-24">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000698">
+                           <persName> Johann Friedrich Freiherr <name type="reg">Cotta von
+                                 Cottendorf</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005743">
+                           <placeName>Frankfurt a. M.</placeName>
+                        </place>
+                        <place corresp="#JP-005819">
+                           <placeName>Heidelberg</placeName>
+                        </place>
+                        <place corresp="#JP-006315">
+                           <placeName>Stuttgart </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_272-24"/> dem ich heute zum ersten male esse, kam schon
+                  Sonnabends; er ge<lb n="25" xml:id="VII_272-25" rendition="#hyphen"/> währt die
+                  reichste Unterhaltung bis sogar in die Philosophie hinein.<lb xml:id="VII_272-26"/> — Der Professor Reinbeck hat bei seinem Ehrenwort der Haus<note corresp="#VII_272-27">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003417">
+                           <persName> Georg von <name type="reg">Reinbeck</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_272-27" rendition="#hyphen"/>
+                     man<metamark>[</metamark>n<metamark>]</metamark>skost mich auf immer an seinen
+                  Tisch geladen. Er hielt es;<lb xml:id="VII_272-28"/> im niedlichen Eßzimmer stand
+                  ein Bett. Er hat eine herzige gebende,<lb xml:id="VII_272-29"/> obwol nicht schöne
+                  Frau. An demselben Tage ging ich mit dem<note corresp="#VII_272-30">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003416">
+                           <persName> Emilie von <name type="reg">Reinbeck</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="30" xml:id="VII_272-30"/> geheimen Rath von <hi rendition="#aq">Hartmann</hi> — als Muster verehrt und ein<note corresp="#VII_272-31">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001554">
+                           <persName> Johann Georg August von <name type="reg">Hartmann</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_272-31"/> Liebling der Königin — nach Geisburg, wo Reinbeck eine
+                     große<note corresp="#VII_272-32">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002061">
+                           <persName>
+                              <name type="reg">Katharina Pawlowna</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0063152">
+                           <placeName>Gaisburg (Geisburg); Stuttgart </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_272-32"/> Gesellschaft versammelt hatte, zumal von Weibern. Ich
+                     vergesse<lb xml:id="VII_272-33"/> aber die Namen, sobald ich sie gehört. — Die
+                  alte <hi rendition="#aq">Huber</hi> — bei der<note corresp="#VII_272-34">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001851">
+                           <persName> Therese <name type="reg">Huber</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_272-34"/> ich auch zum Th<hi rendition="#aq">é</hi>e war — ist
+                  voll Geist und Herz (das letzte werd’ ich<lb n="35" xml:id="VII_272-35"/> dir
+                  zeigen, wenn ich mit <hi rendition="#aq">Herder,</hi> dem Manne ihrer Tochter, von
+                     ihr<note corresp="#VII_272-36">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001679" ana="†">
+                           <persName> Luise von <name type="reg">Herder</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-001671" ana="†">
+                           <persName> Emil <name type="reg">Herder</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_272-36"/> spreche), konnte aber kaum in der Jugend schön gewesen
+                  sein. —<lb xml:id="VII_273-1"/> Dem Könige lass’ ich mich nicht vorstellen; er
+                  liest wenig und hat<note corresp="#VII_273-2">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004725">
+                           <persName>
+                              <name type="reg">Wilhelm I.</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_273-2"/> nur einige Offiziere bei sich. Eine Herzogin ... ich weiß
+                  nicht welche<note corresp="#VII_273-3">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001166">
+                           <persName> Herzogin von Württemberg <name type="reg">Friederike Franziska
+                                 Wilhelmine</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_273-3"/> auf dem Lande — will mich durch Matthison sehen und kann
+                     machen,<note corresp="#VII_273-4">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002676">
+                           <persName> Friedrich, ab 1809 von <name type="reg">Matthisson </name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_273-4"/> daß ich Hosen anziehe, die ich seit drei
+                     Jahre<metamark>[</metamark>n<metamark>]</metamark> vergeblich im Koffer<lb n="5" xml:id="VII_273-5"/> herum fahre. — Seit gestern und heute (und fast
+                  immer) genießen<lb xml:id="VII_273-6"/> wir liebliches Regenwetter und ich wäre
+                  das glücklichste Wesen von<lb xml:id="VII_273-7"/> der Welt, wenn ich eine
+                  Krautpflanze wäre oder ein Gerstenfeld. —<lb xml:id="VII_273-8"/> Sage dem <hi rendition="#aq">Eisenhut,</hi> daß er sich in der 1<hi rendition="#sup">ten</hi> Woche des Julius<note corresp="#VII_273-9">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000917">
+                           <persName>
+                              <name type="reg">Eisenhut</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_273-9"/> bereit hält für mich, aber durchaus seinen <hi rendition="#g">Sohn</hi> muß ich haben,<note corresp="#VII_273-10">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000918">
+                           <persName>
+                              <name type="reg">Eisenhut</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="10" xml:id="VII_273-10"/> nicht einmal den Vater. — Lasse jetzo an 50 Maß
+                  Bier abziehen<note corresp="#VII_273-11">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0055740">
+                           <placeName>Bier; Bayreuth (Stadt)</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_273-11"/> und gieße in das Weinfaß eine Flasche <hi rendition="#g">guten</hi> Wein nach. — Vergiß<lb xml:id="VII_273-12"/> ja nicht bei
+                  Schwabacher die Wechselsache. — <hi rendition="#aq">Otto</hi> möge doch<note corresp="#VII_273-13">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003112">
+                           <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003933">
+                           <persName> Isaak Joseph <name type="reg">Schwabacher</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_273-13"/>
+                  <hi rendition="#aq">Krausen</hi> sagen, daß ich, wenn ich da gewesen wäre, gern
+                  mit <hi rendition="#aq">Jacob</hi>
+                  <note corresp="#VII_273-14">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001926" ana="†">
+                           <persName> Ludwig Heinrich von <name type="reg">Jakob</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-002238" ana="†">
+                           <persName> Christian Sigismund <name type="reg">Krause</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_273-14"/> zu ihm gegangen wäre. Wahrlich bei meiner Verarmung an
+                     ge<lb n="15" xml:id="VII_273-15" rendition="#hyphen"/> lehrter Gesellschaft in
+                  Baireut muß ich Gott für jeden Ersatz danken.<note corresp="#VII_273-16">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005574">
+                           <placeName>Bayreuth (Stadt)</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_273-16"/> — Hätt’ ich den Festtag meiner geliebten <hi rendition="#aq">Odilie,</hi> die
+                     <metamark>[</metamark>ich<metamark>]</metamark> wenigstens<note corresp="#VII_273-17">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003491" ana="†">
+                           <persName> Odilie Minna <name type="reg">Richter</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_273-17"/> in der Abendmalkleidung sehen muß, abwarten wollen: so
+                     hätt’<lb xml:id="VII_273-18"/> ich deiner Einpacknoth wegen durchaus erst am
+                  Mittwoch abreisen<lb xml:id="VII_273-19"/> können; und da hätt’ es geregnet und
+                  ich wäre — zu Hause geblieben,<lb n="20" xml:id="VII_273-20"/> was freilich das
+                  Gescheidtere gewesen wäre. — Wie könnt’ ich an<note corresp="#VII_273-21">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004443" ana="†">
+                           <persName> Wilhelmine <name type="reg">Vitzthum</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_273-21"/> die Schweiz denken? Um mir nur weiß zu machen, eine
+                     Nebellinie<note corresp="#VII_273-22">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0062720" ana="†">
+                           <placeName>Schweizer; Schweiz </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_273-22"/> von ihr am Horizonte zu sehen, müßt ich wenigstens einen
+                  Tag lang<lb xml:id="VII_273-23"/> reisen. — Mein Briefchen an <hi rendition="#aq">Breul</hi> hast du doch übergeben? —<note corresp="#VII_273-24">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000491">
+                           <persName> Johann Veit Philipp Friedrich Karl <name type="reg">Breul</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_273-24"/> Meinen guten Kinderlein kann ich jetzo nicht antworten,
+                  nur danken;<note corresp="#VII_273-25">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003483">
+                           <persName> Johann Paul Friedrich <name type="reg">Richter</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="25" xml:id="VII_273-25"/> und das Gutsein des Max ist mir zugleich erwartet
+                  und erfreulich. —<note corresp="#VII_273-26">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003490">
+                           <persName> Max <name type="reg">Richter</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_273-26"/> Schreibe mir etwas, was dich — und folglich mich —
+                  erfreuet. —<lb xml:id="VII_273-27"/> Und so will ich denn meine hiesigen Wochen
+                  weiter hinduseln, und<lb xml:id="VII_273-28"/> dann die Baireuter, bis die ganze
+                  Narrheit vorbei ist.</p>
+               <note corresp="#VII_273-29">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005574">
+                        <placeName>Bayreuth (Stadt)</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VII_273-29"/>
+               <p>Es gehe dir wol, liebe Karoline!<lb n="30" xml:id="VII_273-30"/>
+               </p>
+               <closer>
+                  <salute>
+                     <hi rendition="#right">R.</hi>
+                  </salute>
+               </closer>
+               <lb xml:id="VII_273-31"/>
+               <postscript>
+                  <p>Grüße meine beiden Freunde und die herrliche <hi rendition="#aq">Welden.</hi>
+                  </p>
+                  <note corresp="#VII_273-32">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003087">
+                           <persName> Emanuel <name type="reg">Osmund</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003112">
+                           <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-004653">
+                           <persName> Josephine von <name type="reg">Welden</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_273-32"/>
+                  <p>Was schreibt dein Vater? — Ich bin schon 3 Abende zu Hause<note corresp="#VII_273-33">
+                        <listPerson type="lineReference">
+                           <person corresp="#JP-002703">
+                              <persName> Johann Siegfried Wilhelm <name type="reg">Mayer</name>
+                              </persName>
+                           </person>
+                        </listPerson>
+                     </note>
+                     <lb xml:id="VII_273-33"/> geblieben, ob mich gleich die <hi rendition="#aq">Huber</hi> gestern zu <hi rendition="#aq">Tautphaeus</hi> nehmen<note corresp="#VII_273-34">
+                        <listPerson type="lineReference">
+                           <person corresp="#JP-001851">
+                              <persName> Therese <name type="reg">Huber</name>
+                              </persName>
+                           </person>
+                           <person corresp="#JP-004249">
+                              <persName> Johann Nepomuk Franz Freiherr von <name type="reg">Tautphöus</name>
+                              </persName>
+                           </person>
+                        </listPerson>
+                     </note>
+                     <lb xml:id="VII_273-34"/> wollte; auch bei <hi rendition="#aq">Paulus</hi> bin
+                     ich seit dem ersten Besuche nicht wieder<note corresp="#VII_273-35">
+                        <listPerson type="lineReference">
+                           <person corresp="#JP-003171">
+                              <persName> Karoline <name type="reg">Paulus</name>
+                              </persName>
+                           </person>
+                           <person corresp="#JP-003170">
+                              <persName> Karoline <name type="reg">Paulus</name>, ihr Bruder
+                              </persName>
+                           </person>
+                           <person corresp="#JP-003172">
+                              <persName> Sophie <name type="reg">Paulus</name>
+                              </persName>
+                           </person>
+                        </listPerson>
+                     </note>
+                     <lb n="35" xml:id="VII_273-35"/> gewesen.</p>
+                  <lb xml:id="VII_273-36"/>
+                  <p>Ist der Vogel oder ein Frosch verhungert oder gar niemand?</p>
+               </postscript>
+               <lb xml:id="VII_273-37"/>
+            </div>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Goethe- u. Schiller-Archiv. 8 S. 8°. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>: Wahrheit<lb/> 8, 182× (als Schluß von Nr. 530). <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>: Nerrlich Nr. 172×. <hi rendition="#i">B</hi>
+                  <hi rendition="#sup">1</hi>: IV. Abt., VII, Nr. 183.<lb/>
+                  <hi rendition="#i">B</hi>
+                  <hi rendition="#sup">2</hi>: IV. Abt., VII, Nr. 184. <hi rendition="#i">A</hi>:
+                  IV. Abt., VI, Nr. 195. <hi rendition="#b">271</hi>,<hi rendition="#rkd">6</hi>
+                  <hi rendition="#i">Emma</hi>] davor gestr.</hi> Die besser] <hi rendition="#aq">aus</hi>
+               <lb/> mehr <hi rendition="#rkd">27</hi> wenig] <hi rendition="#aq">danach</hi> Für
+               mein geselliges Benehmen hab’ ich mir neue<lb/> Gesetze gegeben. Ich suche Ruhe,
+               vermeide überkochende Liebe; bin nicht<lb/> kühn und satirisch, und tische keine
+               Persönlichkeiten auf. Ich ken<hi rendition="#g">ne</hi> die<lb/> Nähe der Gefahr bei
+               fremdem Beifall und bei eignem. — Mein Schweigen<lb/> kann bei meinem vielen Reden
+               keiner Mißdeutung blos stehen, aber wohl<lb/> mein Reden; <hi rendition="#g">eine</hi> Minute schweigen bessert viele Reden aus. <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi> (diese<lb/> Sätze, die sich in <hi rendition="#i">H</hi> nicht finden, muß Förster aus einer andern Quelle<lb/> interpoliert
+                  haben, vermutlich aus dem Reisetagebuch)</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">272</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">2</hi>
+               </hi> von]<lb/>
+               <hi rendition="#aq">davor gestr.</hi> mit <hi rendition="#rkd">4</hi> von] <hi rendition="#aq">aus</hi> mit <hi rendition="#rkd">6</hi> vollends] <hi rendition="#aq">aus</hi> gar <hi rendition="#rkd">17</hi> grüßend] <hi rendition="#aq">nachtr.</hi>
+               <lb/>
+               <hi rendition="#b">
+                  <hi rendition="#aq">273</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">9</hi>
+               </hi> 1ten] <hi rendition="#aq">aus</hi> 2ten</p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Erst am 30. Juni, nach Nr. 534, angekommen. Karoline hatte in<lb/>
+                  <hi rendition="#i">B</hi>
+                  <hi rendition="#sup">2</hi> geschrieben, die Schwester der Enzel (Frau Seeligmann,
+                  s. <hi rendition="#b">268</hi>,<hi rendition="#rkd">25</hi>f.)<lb/> komme auf 8
+                  Tage nach Bayreuth und habe angeboten, eines von Jean<lb/> Pauls Kindern auf der
+                  Rückreise mit nach Stuttgart zu nehmen und<lb/> als Gast zu beherbergen, bis J. P.
+                  es wieder mit heimnehme; ob er<lb/> erlaube, daß <hi rendition="#g">Emma</hi>
+                  mitkomme, da Odilie nach Hohenberg gehe (zu<lb/> Schubaerts, vgl. Nr. 356†) und
+                  Max zu beschäftigt sei. <hi rendition="#b">
+                     <hi rendition="#aq">
+                        <add resp="#MB">270</add>
+                     </hi>
+                  </hi>
+                  <hi rendition="#aq">
+                     <add resp="#MB">,</add>
+                  </hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">
+                        <add resp="#MB">29—31</add>
+                     </hi>
+                  </hi>
+                  <hi rendition="#aq">
+                     <add resp="#MB">Vgl. die Schilderung des vollgepackten Wagens in der
+                        Selina,</add>
+                     <lb/>
+                     <add resp="#MB"> II. Abt., IV, 222,</add>
+                     <hi rendition="#rkd">
+                        <hi rendition="#aq">
+                           <add resp="#MB">27—</add>
+                        </hi>
+                     </hi>
+                  </hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">
+                        <add resp="#MB">30</add>
+                     </hi>
+                  </hi>
+                  <hi rendition="#aq">
+                     <add resp="#MB">.</add>
+                  </hi>
+                  <hi rendition="#b">271</hi>,<hi rendition="#rkd">27</hi>f. Karo<lb rendition="#hyphen"/> line hatte in <hi rendition="#i">B</hi>
+                  <hi rendition="#sup">1</hi> gebeten, er möge doch an Otto schreiben, der über
+                  ein<lb/> häusliches Unglück verstimmt sei. <hi rendition="#rkd">29—34</hi>
+                  Einladung der <hi rendition="#g">Tübingischen<lb/> Studenten:</hi> vgl. IV. Abt.
+                  (Br. an J. P.), VII, Nr. 186 und die Notiz über den Vorfall<lb/> in der
+                  (Hallischen) Allg. Literaturzeitung, Dez. 1819, Nr. 309. <hi rendition="#b">272</hi>,<hi rendition="#rkd">15</hi>ff.<lb/> Joseph Graf <hi rendition="#g">Trautmannsdorf</hi> (1788—1870, s. Wurzbach 47, 73f.).<lb/> Joh. Nepomuk Franz
+                  Xaver Freiherr von <hi rendition="#g">Tautphöus</hi> (zuweilen auch<lb/> Tautphäus
+                  geschrieben, 1765—1835), den J. P. schon 1799 in Hildburg<lb rendition="#hyphen"/>
+                  hausen gesehen hatte, s. Br. III, Nr. 329, <hi rendition="#b">260</hi>,<hi rendition="#rkd">22</hi>f. Heinrich Karl Friedrich Levin<lb/>
+                  <hi rendition="#g">Wintzingerode</hi> (1778—1856), erst seit 17. Mai 1819
+                  württemb. Mi<lb rendition="#hyphen"/> nister der auswärtigen Angelegenheiten.
+                  Franz Seraphicus Graf <hi rendition="#g">Kuef<lb rendition="#hyphen"/> stein</hi>
+                  (1794—?), s. Wurzbach 13, 314. Julie Henriette, geb. Freiin von<lb/>
+                  <hi rendition="#g">Seckendorff</hi> (1779—1837), seit 1802 Gattin des
+                  Obersthofmeisters<lb/> Karl Alex. Siegmund von Seckendorff. <hi rendition="#rkd">29</hi>ff. Reinbeck war seit 1817<lb/> in 2. Ehe verheiratet mit Emilie
+                  Hartmann, Tochter des Geheimrats<lb/> Joh. Georg August von <hi rendition="#g">Hartmann</hi> (1764—1849), des Leiters des</hi>
+               <lb/>
+               <hi rendition="#aq">Katharinenstiftes. 36 Therese Hubers Tochter Luise war mit
+                  Emil<lb/> von <hi rendition="#g">Herder</hi> (1783—1855) verheiratet, dem 5. Sohn
+                  des Dichters, der<lb/> seit einiger Zeit als Forstbeamter und bayerischer
+                  Regierungsrat in<lb/> Bayreuth lebte. <hi rendition="#b">273</hi>,<hi rendition="#rkd">2</hi>
+                  <hi rendition="#g">König:</hi> Wilhelm I. (1781—1816—1864).<lb/>
+                  <hi rendition="#rkd">3</hi>
+                  <hi rendition="#g">Herzogin:</hi> Wilhelm, s. <hi rendition="#b">275</hi>,<hi rendition="#rkd">5</hi>ff.†. <hi rendition="#rkd">9 </hi>
+                  <hi rendition="#g">Eisenhut:</hi> Bayreuther Fuhr<lb rendition="#hyphen"/> mann.
+                     <hi rendition="#rkd">13</hi>
+                  <hi rendition="#g">Schwabacher:</hi> Richters Hauswirt (seit 1817). <hi rendition="#rkd">13—16</hi>
+                  <hi rendition="#g">Jacob</hi>
+                  <lb/> (s. Bd. VI, Nr. 187) war, nach <hi rendition="#i">B</hi>
+                  <hi rendition="#sup">1</hi>, gleich nach Jean Pauls Abreise<lb/> gekommen, um ihn
+                  mit <hi rendition="#g">Krause</hi> auszusöhnen; vgl. IV. Abt. (Br. an J. P.),
+                  VII,<lb/> Nr. 205. <hi rendition="#rkd">17—21</hi>
+                  <hi rendition="#g">Odilie:</hi> vgl. <hi rendition="#b">264</hi>,<hi rendition="#rkd">30</hi>†; Karoline hatte in <hi rendition="#i">B</hi>
+                  <hi rendition="#sup">1</hi> bitter be<lb rendition="#hyphen"/> merkt, sie habe
+                  jede Feier ihres Geburtstags (7. Juni) verbeten, „denn<lb/> ein Tag, dem aus dem
+                  Wege zu reisen der Gatte selbst der Einsegnung<lb/> eines geliebten Kindes seine
+                  Gegenwart entzieht, verdient nicht von<lb/> seinen Freunden als ein Festtag
+                  begangen zu werden.“ (Der Satz ist<lb/> ausgestrichen, aber wohl erst a
+                  posteriori.) <hi rendition="#rkd">21—24</hi> Karoline hatte in<lb/>
+                  <hi rendition="#i">B</hi>
+                  <hi rendition="#sup">1</hi> gesch<hi rendition="#b">r</hi>ieben, eine Gräfin
+                  Vitzthum mit Tochter, Freundin der Ende,<lb/> (Gattin des Dresdner Hofmarschalls),
+                  die sie besucht habe, reise nach<lb/> der Schweiz und hoffe J. P. am Bodensee zu
+                  begegnen. <hi rendition="#rkd">24</hi>
+                  <hi rendition="#g">Breul:</hi>
+                  <lb/> s. FB Nr.</hi>
+               <hi rendition="#aq"> 41.</hi>
+            </p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

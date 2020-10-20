@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VII_359">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="360">359. An Heinrich Voß in Heidelberg. </title>
+            <title n="digital">An Heinrich Voß. Bayreuth, 15. Dezember 1817 bis 16. Dezember
+               1817.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=VII_359</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/VII/VII_359</idno>
+               <idno type="TELOTAID">VII_359</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
+               <biblScope n="text" unit="page">
+                  <num>162</num>
+                  <num>163</num>
+                  <num>164</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>394</num>
+                  <num>395</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date corresp="writingsession1" when="1817-12-15">15. Dezember 1817</date>
+               <date corresp="writingsession2" when="1817-12-16">16. Dezember 1817</date>
+               <placeName key="JP-005574" ref="http://www.geonames.org/2951825">Bayreuth</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-004520" ref="http://d-nb.info/gnd/100689590">
+                  <name type="reg">Voß</name> Heinrich</persName>
+               <placeName key="JP-005819" ref="http://www.geonames.org/2907911">Heidelberg</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VII_346">5. November 1817</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VII_369">12. Januar 1818</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <div n="writingSession1">
+               <lb xml:id="VII_162-9"/>
+               <dateline>
+                  <hi rendition="#right">
+                     <hi rendition="#aq">
+                        <placeName>Baireut</placeName>
+                     </hi> d. <date>15. Dez. 1817</date>
+                  </hi>
+               </dateline>
+               <lb n="10" xml:id="VII_162-10"/>
+               <p>Mein geliebter Heinrich! Etwas muß ich doch deinen schönen<lb xml:id="VII_162-11"/> Briefen beantworten — wenn ich auch in der Eile ihren ästhetischen<lb xml:id="VII_162-12"/> Werth nicht vergelte —, nämlich die Fragen. <hi rendition="#aq">Thieriot</hi> schrieb als<note corresp="#VII_162-13">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004275">
+                           <persName> Paul Emile <name type="reg">Thieriot</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_162-13"/> ein noch 18jähriger Anhänger 〈Schüler〉 <hi rendition="#aq">Hermanns</hi> wirklich den<note corresp="#VII_162-14">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001693">
+                           <persName> Gottfried <name type="reg">Hermann</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_162-14"/> Homer und seine Scholiasten. Er ist mehr als Liebhaber
+                  in der<note corresp="#VII_162-15">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001827">
+                           <persName>
+                              <name type="reg">Homer</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-009876">
+                           <author>Thieriot (Thyriot, Thyiriot, Thiriot), Paul Emile (Emil, Aemil)
+                              (1780-1831), Jurist, Philologe, Schriftsteller, Violinist und
+                              Erzieher, langjähriger Freund Jean Pauls</author>
+                           <title>Der Scholiast zum teutschen Homer (1798)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb n="15" xml:id="VII_162-15"/> griechischen und in der englischen Sprache,
+                  welcher letzten er schon<note corresp="#VII_162-16">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005796">
+                           <placeName>Griechenland, Griechen</placeName>
+                        </place>
+                        <place corresp="#JP-00571524">
+                           <placeName>Sprache, Stil; England, englisch, Britannien</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_162-16"/> als Jüngling einen stückweisen deutschen Shakspeare
+                     abzwang,<note corresp="#VII_162-17">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004029">
+                           <persName> William <name type="reg">Shakespeare </name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0056716">
+                           <placeName>Sprache, Stil; Deutschland, deutsche</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_162-17"/> übrigens voll Liebe, Reinheit, Redlichkeit, Eitelkeit,
+                     Unbesonnenheit<lb xml:id="VII_162-18"/> und Außen-Idiotismen. — Calderon
+                  spielte auf den alten Glauben<note corresp="#VII_162-19">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000568" ana="†">
+                           <persName> Pedro <name type="reg">Calderón de la Barca</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-009620" ana="†">
+                           <author>Schlegel, August Wilhelm (1767-1845)</author>
+                           <title>Vorlesungen über dramatische Kunst und Literatur (1809)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VII_162-19"/> an, daß nur Bockblut den Diamanten weich mache. —
+                  Übrigens ist<lb n="20" xml:id="VII_162-20"/> spanische Klang-Poesie uns
+                  unübersetzbar; und zum Theil die italie<note corresp="#VII_162-21">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0058722">
+                           <placeName>Literatur; Italien</placeName>
+                        </place>
+                        <place corresp="#JP-006290">
+                           <placeName>Spanien</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_162-21" rendition="#hyphen"/> nische; der Dante von Bachenschwanz
+                  ist mir in anderer Hinsicht<note corresp="#VII_162-22">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000746" ana="†">
+                           <persName>
+                              <name type="reg">Dante Alighieri</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-008071" ana="†">
+                           <author>Bachenschwanz, Leberecht (1729-1802), Schriftsteller und
+                              Übersetzer</author>
+                           <title>Dante-Übersetzung (1767/68)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VII_162-22"/> 1000 <metamark>[</metamark>mal<metamark>]</metamark>
+                  lieber als der von Kannegießer. Aber den Homer und<note corresp="#VII_162-23">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001827">
+                           <persName>
+                              <name type="reg">Homer</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-008884" ana="†">
+                           <author>Kannegießer, Karl Friedrich Ludwig (1781-1861),
+                              Übersetzer</author>
+                           <title>Dante-Übersetzung (1809 und 1814)</title>
+                        </bibl>
+                        <bibl corresp="#JP-009994">
+                           <author>Voß, Johann Heinrich (1751-1826), Dichter und Übersetzer</author>
+                           <title>Homer-Übersetzung (1781 und 1793)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VII_162-23"/> Virgil brachte doch dein Vater mit schweren klingenden
+                     Schätzen<note corresp="#VII_162-24">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004420">
+                           <persName> (Publius Vergilius Maro) <name type="reg">Vergil</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-010000">
+                           <author>Voß, Johann Heinrich (1751-1826), Dichter und Übersetzer</author>
+                           <title>Vergil-(Virgil-)Übersetzung (1799)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VII_162-24"/> zu uns herüber. —
+                     Yngur<metamark>[</metamark>d<metamark>]</metamark> ist im bösen Sinne eine
+                  Müllners Schuld<note corresp="#VII_162-25">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-009264">
+                           <author>Müllner, Adolph (1774-1829), Dramatiker und Erzähler</author>
+                           <title>König Yngurd (1817)</title>
+                        </bibl>
+                        <bibl corresp="#JP-009265">
+                           <author>Müllner, Adolph (1774-1829), Dramatiker und Erzähler</author>
+                           <title>Die Schuld (1816)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb n="25" xml:id="VII_162-25"/> selber; ist weder zu sehen, noch zu lesen; aber
+                  er rechnet wie all’ das<lb xml:id="VII_162-26"/> neue Schreibvolk seinen Schatten
+                  zu seiner Statur. — <hi rendition="#aq">Roberts</hi>
+                  <lb xml:id="VII_162-27"/> Gedichte gegen Napoleon sind mir ein leeres
+                     Sonnetten-Feuerwerk<note corresp="#VII_162-28">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-009501" ana="†">
+                           <author>Robert, Ludwig (1778-1832), Schriftsteller und Dramatiker, Bruder
+                              Rahel Levins (Varnhagens)</author>
+                           <title>Gedichte (1817)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VII_162-28"/> ohne Wärme; aber seine Jephta scheint mir trefflich. <hi rendition="#aq">Rückert</hi>
+                  <note corresp="#VII_162-29">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003612">
+                           <persName> Friedrich (Pseud. Freimund Raimar) <name type="reg">Rückert</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-009503">
+                           <author>Robert, Ludwig (1778-1832), Schriftsteller und Dramatiker, Bruder
+                              Rahel Levins (Varnhagens)</author>
+                           <title>Die Tochter Jephthas (1820)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VII_162-29"/> steht lyrisch hoch über ihm; nur übertäubt die
+                     Instrumentalmusik<lb n="30" xml:id="VII_162-30"/> der Sonnette seine
+                  dichterische Vokalmusik. Die meisten jetzigen<lb xml:id="VII_162-31"/> Sangvögel
+                  singen nach einer Drehorgel von Mustern, nicht aus<lb xml:id="VII_162-32"/>
+                  heissem Bruttrieb, wie die Nachtigall. — Dem lieben <hi rendition="#aq">Geib</hi>
+                  kann ich<note corresp="#VII_162-33">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001265">
+                           <persName> Karl <name type="reg">Geib</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_162-33"/> nichts geben. Mit jeder neuen Monat- etc. etc. schrift
+                  bekomm’ ich<lb xml:id="VII_162-34"/> einen neuen Feind, weil ich Mitarbeiter sein
+                  soll und nie kann und<lb n="35" xml:id="VII_162-35"/> darf, wenn ich nicht alle
+                  Kräfte und Genüße höherer Arbeiten zer<lb xml:id="VII_163-1" rendition="#hyphen"/>splittern will. —</p>
+               <lb xml:id="VII_163-2"/>
+            </div>
+            <div n="writingSession2">
+               <dateline>
+                  <hi rendition="#right">d. 16. Dezemb.</hi>
+               </dateline>
+               <lb xml:id="VII_163-3"/>
+               <p>An <hi rendition="#aq">Ungern-Sternberg</hi> hab’ ich schon den 14<hi rendition="#sup">ten</hi> Oktober einen<note corresp="#VII_163-4">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004379">
+                           <persName> Wilhelm Heilwig Karl Robert August Freiherr von <name type="reg">Ungern-Sternberg</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_163-4"/>
+                  <hi rendition="#g">beantworteten</hi> Brief mit den Stammbuchblättchen für <hi rendition="#aq">Vin<note corresp="#VII_163-5">
+                        <listPerson type="lineReference">
+                           <person corresp="#JP-004438">
+                              <persName> August von <name type="reg">Vincenti</name>
+                              </persName>
+                           </person>
+                        </listPerson>
+                     </note>
+                     <lb n="5" xml:id="VII_163-5" rendition="#hyphen"/> centi</hi> geschickt. —
+                  Meine Bitte, <hi rendition="#aq">Sophie
+                        P<metamark>[</metamark>aulus<metamark>]</metamark>
+                  </hi> auszuspionieren,<note corresp="#VII_163-6">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003172" ana="†">
+                           <persName> Sophie <name type="reg">Paulus</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_163-6"/> war blos die scherzhaft gesagte, mir damals von dieser
+                     Stummen<lb xml:id="VII_163-7"/> kleine <hi rendition="#aq">Fata</hi> zu
+                  schreiben; denn über ihr Inneres braucht’ ich niemand<lb xml:id="VII_163-8"/> zu
+                  fragen als sie selber, so offen-wahr ist sie und sie würde mir die<lb xml:id="VII_163-9"/> eine Hälfte eines Gedankens zeigen, eh’ sie noch wüßte,
+                  wie die<lb n="10" xml:id="VII_163-10"/> andere nur aussähe. — <hi rendition="#aq">Sophie Dapping</hi> gewinn’ ich immer lieber<note corresp="#VII_163-11">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000752">
+                           <persName> Sophie <name type="reg">Dapping</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_163-11"/> durch deine so schönen fast <hi rendition="#aq">con
+                     amore</hi> entworfnen Gemälde. —<lb xml:id="VII_163-12"/> Rezensiere immerhin
+                  meinen 2<hi rendition="#sup">ten</hi> Siebenkäs, aber in der <hi rendition="#aq">Jenaer<note corresp="#VII_163-13">
+                        <listBibl type="lineReference" subtype="werke">
+                           <bibl corresp="#JP-010275">
+                              <author/>
+                              <title>Jenaische Allgemeine Literaturzeitung (1804ff.)</title>
+                           </bibl>
+                        </listBibl>
+                        <listBibl type="lineReference" subtype="werke-jp">
+                           <bibl corresp="#JP-010540">
+                              <title>Blumen- Frucht- und Dornenstükke (Blumen-, Frucht- und
+                                 Dornenstücke) (Siebenkäs) (1796-97 [1796])</title>
+                           </bibl>
+                        </listBibl>
+                     </note>
+                     <lb xml:id="VII_163-13"/> L<metamark>[</metamark>iteratur<metamark>]</metamark>
+                     Zeitung,</hi> um meinem darin geifernden Feind <hi rendition="#aq">Krause</hi>
+                  <note corresp="#VII_163-14">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002238">
+                           <persName> Christian Sigismund <name type="reg">Krause</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_163-14"/> den Platz zum Wider-Bellen zu nehmen, das ich nach
+                     meinen<lb n="15" xml:id="VII_163-15"/> Saturnalien von ihm erwarte. Sonderbar
+                  genug! kann niemand<note corresp="#VII_163-16">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010877">
+                           <title>Saturnalien (1818)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VII_163-16"/> die zweite Auflage besser beurtheilen als der, welcher
+                  die Verbesse<lb xml:id="VII_163-17" rendition="#hyphen"/>rungen früher erfuhr als
+                  die Fehler der ersten, — nämlich du. —<lb xml:id="VII_163-18"/>
+                  <hi rendition="#aq">Dittmar</hi> ist dem Künstler noch meine Büste schuldig. Sage
+                     <hi rendition="#aq">Schwarz,</hi>
+                  <note corresp="#VII_163-19">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000816">
+                           <persName> Woldemar von <name type="reg">Dittmar</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003944">
+                           <persName> Friedrich Heinrich Christian <name type="reg">Schwarz</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_163-19"/> er solle, wenn er einmal in einem Kästchen nichts
+                  bekomme als eine<lb n="20" xml:id="VII_163-20"/> lange Nase, es verzeihen, weil es
+                  meine eigne sei, die der Künstler<lb xml:id="VII_163-21"/> wie ein <hi rendition="#aq">Tagliacozzo</hi> meinem Kopfe nachschicken wolle und die
+                     man<note corresp="#VII_163-22">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004236">
+                           <persName> Gasparo <name type="reg">Tagliacozzi </name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_163-22"/> mir dann in <hi rendition="#aq">Heidelberg</hi> so
+                  leicht aufsetzen kann wie eine Brille. —<note corresp="#VII_163-23">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005819">
+                           <placeName>Heidelberg</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_163-23"/> Bei der Mutter der schönen <hi rendition="#aq">Koch</hi>
+                  würd’ ich am Ende wohnen, wenn<note corresp="#VII_163-24">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002160">
+                           <persName> Elisabeth <name type="reg">Koch</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-004372">
+                           <persName> Katharina Elisabeth (Betty) <name type="reg">Umbreit</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_163-24"/> ich rechte Freiheit, zu bezahlen behielte — am
+                  allerersten mein Ge<lb n="25" xml:id="VII_163-25" rendition="#hyphen"/> tränk —;
+                  aber zwischen mir und euch liegen noch viele Berge und<lb xml:id="VII_163-26"/>
+                  Monate. — Lasse doch einmal die ewig-bewegliche Bachstelze aus<lb xml:id="VII_163-27"/> deinen Briefen hinausfliegen! Nicht eine halbe Minute
+                  lang war<lb xml:id="VII_163-28"/> ich über das winzige Ding verdrüßlich. — Wie
+                  spät komm’ ich in<lb xml:id="VII_163-29"/> diesem Briefe auf deine wahrhaft
+                  poetische Musik, welche du vom<lb n="30" xml:id="VII_163-30"/> alten Jahre in das
+                  neue verknüpfend überklingen läßest, und auf die<lb xml:id="VII_163-31"/>
+                  Seelenworte der herrlichen Mutter, deren Hand das Schönschreiben<note corresp="#VII_163-32">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004516">
+                           <persName> Ernestine <name type="reg">Voß</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_163-32"/> so leicht wird wie Schönhandeln! Diese Hand möcht’ ich
+                     lange<lb xml:id="VII_163-33"/> halten und drücken. Sie hat mich und meine Frau
+                  wie der Abend<note corresp="#VII_163-34">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003469">
+                           <persName> Caroline <name type="reg">Richter</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_163-34" rendition="#hyphen"/>gesang einer fernen Beterin erquickt.
+                  Gott lasse sie dir und dem<lb n="35" xml:id="VII_163-35"/> hochwürdigen Vater und
+                  euch alle sich einander im künftigen Jahre!<note corresp="#VII_163-36">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004524">
+                           <persName> Johann Heinrich <name type="reg">Voß</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_163-36"/> So viel kannst du mir leider nicht wünschen, denn ich
+                  habe so gar<lb xml:id="VII_163-37"/> lange keine Eltern mehr. Bewahre dir, du
+                  treuer Bruder, dein<note corresp="#VII_164-1">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003475">
+                           <persName> Johann Paul Friedrich <name type="reg">Richter</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_164-1"/> warmes, festes, reines Herz; dann brauchst du keinen
+                     Neujahr<lb xml:id="VII_164-2" rendition="#hyphen"/>wunsch weiter. Grüße alle,
+                  die dich und mich lieben und folglich alle<lb xml:id="VII_164-3"/> Grüßende,
+                  von</p>
+               <lb xml:id="VII_164-4"/>
+               <closer>
+                  <salute>
+                     <hi rendition="#right">deinem<lb n="5" xml:id="VII_164-5"/> J. P. F.
+                        Richter</hi>
+                  </salute>
+               </closer>
+               <lb xml:id="VII_164-6"/>
+               <postscript>
+                  <p>N.S. Jetzo kann ich dir nicht eher schreiben, als bis ich entweder<lb xml:id="VII_164-7"/> den 3<hi rendition="#sup">ten</hi> Theil des <hi rendition="#aq">Siebenkäs</hi> oder meine Nase schicke. Aus Mangel<note corresp="#VII_164-8">
+                        <listBibl type="lineReference" subtype="werke-jp">
+                           <bibl corresp="#JP-010540">
+                              <title>Blumen- Frucht- und Dornenstükke (Blumen-, Frucht- und
+                                 Dornenstücke) (Siebenkäs) (1796-97 [1796])</title>
+                           </bibl>
+                        </listBibl>
+                     </note>
+                     <lb xml:id="VII_164-8"/> an Zeit, meines <hi rendition="#aq">Emanuels</hi>
+                     Brief an dich zu begleiten, hielt ich ihn<note corresp="#VII_164-9">
+                        <listPerson type="lineReference">
+                           <person corresp="#JP-003087">
+                              <persName> Emanuel <name type="reg">Osmund</name>
+                              </persName>
+                           </person>
+                        </listPerson>
+                     </note>
+                     <lb xml:id="VII_164-9"/> so sündlich lange zurück.<lb n="10" xml:id="VII_164-10"/>
+                  </p>
+               </postscript>
+               <postscript>
+                  <p>
+                     <hi rendition="#aq">II</hi> N.S. Hüte dich vor <hi rendition="#aq">Brockhaus;</hi> schon das große Honorar<note corresp="#VII_164-11">
+                        <listPerson type="lineReference">
+                           <person corresp="#JP-000501" ana="†">
+                              <persName> Friedrich Arnold <name type="reg">Brockhaus</name>
+                              </persName>
+                           </person>
+                        </listPerson>
+                        <listBibl type="lineReference" subtype="werke">
+                           <bibl corresp="#JP-008199" ana="†">
+                              <author>Brockhaus, Friedrich Arnold (1772-1823),
+                                 Verlagsbuchhändler</author>
+                              <title>Conversationslexikon (1808 ff.)</title>
+                           </bibl>
+                           <bibl corresp="#JP-008200" ana="†">
+                              <author>Brockhaus, Friedrich Arnold, Verlagsbuchhändler (Werk,
+                                 Hrsg.)</author>
+                              <title>Deutsche Blätter (1813-1816)</title>
+                           </bibl>
+                        </listBibl>
+                     </note>
+                     <lb xml:id="VII_164-11"/> ist bedenklich. Einen edeln Freund von mir hat er
+                     sehr getäuscht.<note corresp="#VII_164-12">
+                        <listPerson type="lineReference">
+                           <person corresp="#JP-003112" ana="?">
+                              <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                              </persName>
+                           </person>
+                        </listPerson>
+                     </note>
+                     <lb xml:id="VII_164-12"/> Wenigstens verschiebt und mäkelt er stark.<lb xml:id="VII_164-13"/>
+                  </p>
+               </postscript>
+            </div>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Bayer. Staatsbibl. 3 S. 4°; 4. S. Adr.:</hi> Herrn
+               Professor Heinrich<lb/>
+               <hi rendition="#aq">
+                  <hi rendition="#i">Voß, Heidelberg.</hi>
+               </hi> Fr. <hi rendition="#aq">(Poststempel: Baireuth 17. Dez. 1817.) <hi rendition="#i">K</hi>
+                  <hi rendition="#sup">1</hi> (nach<lb/> Nr. 360): <hi rendition="#i">Voß 15. Dec.
+                     K</hi>
+                  <hi rendition="#sup">2</hi> (von Karolinens Hand): Berlin JP. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>:<lb/> Voß S. 29×. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>: Petzet Nr. 6. <hi rendition="#i">B</hi>: IV. Abt.,
+                  VII, Nr. 80. <hi rendition="#i">A</hi>: IV. Abt., VII, Nr.</hi>
+               <hi rendition="#aq">84. </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">162</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">15</hi>
+               </hi> Lieb<lb rendition="#hyphen"/> haber] <hi rendition="#aq">davor gestr.</hi>
+               Dile[ttant] <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">16</hi> welcher letzten] <hi rendition="#aq">aus</hi> der <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">17</hi> stück<lb rendition="#hyphen"/> weisen] <hi rendition="#aq">aus</hi> kleinen <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">21</hi> Klang] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">26</hi> ist] <hi rendition="#aq">davor gestr.</hi> sie <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">28</hi> Gedichte gegen Napoleon] <hi rendition="#aq">aus</hi>
+               neue Gedichte <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+                  <hi rendition="#rkd">29</hi>
+                  <hi rendition="#i">Rückert</hi>] davor<lb/> gestr. <hi rendition="#i">Reim</hi>[<hi rendition="#i">ar</hi>] <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">163</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">1</hi>
+               </hi> darf] <hi rendition="#aq">aus</hi> will <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">2</hi> will] <hi rendition="#aq">aus</hi> soll <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">12</hi> ent<hi rendition="#g">wo</hi>rf<lb rendition="#hyphen"/>
+               nen] <hi rendition="#aq">aus</hi> gemachten <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">15</hi> den <hi rendition="#aq">bis</hi> nehmen] <hi rendition="#aq">aus</hi> das Wider-Bellen zu wehren <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+                  <lb/>
+                  <hi rendition="#rkd">22</hi>
+                  <hi rendition="#i">Tagliacozzo</hi>] aus <hi rendition="#i">Tagliacozzi H</hi>
+               </hi>
+               <hi rendition="#rkd">25</hi> behielte] <hi rendition="#aq">aus</hi> hätte <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">162</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">13</hi>
+               </hi>
+               <hi rendition="#aq">ff. <hi rendition="#g">Thieriot:</hi> vgl. zu Nr. 345; Voß hatte,
+                  offenbar mit Bezug<lb/> auf <hi rendition="#b">156</hi>,<hi rendition="#rkd">18—21</hi>, geschrieben: „Ich weiß sehr gut Scherze von bittern<lb/> Satiren
+                  zu unterscheiden, auch wenn der Scherz, selbst der sehr muth<lb rendition="#hyphen"/> willige, meine Liebsten, meinen Vater, betrifft. Spricht
+                  aber einer mit<lb/> bitterer Unehrerbietigkeit von meinem Vater, verkennt
+                  absichtlich ge<lb rendition="#hyphen"/> gen bessere Überzeugung diesen edelsten
+                  der Männer, lästert ihn — ja,<lb/> dann bin ich hart und unversöhnlich.“ (Diese
+                  Stelle kann also nicht<lb/> schon in den Brief an J. P. IV. Abt., VII, Nr. 75
+                  gehören.) <hi rendition="#rkd">19</hi>ff. <hi rendition="#g">Calderon:</hi> s.
+                  dessen<lb/> Schauspiel „El mayor monstruo amor“, übers. von Gries,
+                  Schauspiele,<lb/> 3. Bd., 1818, S. 216; vgl. <hi rendition="#b">247</hi>,<hi rendition="#rkd">16—19</hi>â€ . Voß hatte sich anläßlich dieser<lb/> von ihm
+                  durchgesehenen Übersetzung gegen A. W. Schlegels Über<lb rendition="#hyphen"/>
+                  schätzung Calderons gewandt. <hi rendition="#rkd">22</hi>f. Lebr. <hi rendition="#g">Bachenschwanz’</hi> Prosa<lb rendition="#hyphen"/> übersetzung
+                  von Dantes Hölle und Fegefeuer erschien 1767 und 1768,<lb/> die von <hi rendition="#g">Kannegießer</hi> 1809 und 1814. <hi rendition="#rkd">25</hi>
+                  <hi rendition="#g">Müllners</hi> Trauerspiel<lb/> „König Yngurd“ (1817), das auf
+                  „Die Schuld“ (1816) folgte, war von<lb/> Voß getadelt worden; vgl. I. Abt., II,
+                     <hi rendition="#b">10</hi>,<hi rendition="#rkd">13</hi>. <hi rendition="#rkd">27—29</hi> Ludwig <hi rendition="#g">Robert</hi>
+                  <lb/> gab 1817 bei Cotta u. d. T. „Kämpfe der Zeit“ 12 Gedichte heraus,<lb/> von
+                  denen Proben im April 1817 im Morgenblatt (Nr. 95f.) erschienen;<lb/> über sein
+                  Drama „Die Tochter Jephthas“ s. Nr. 209†. <hi rendition="#rkd">29</hi>
+                  <hi rendition="#g">Rückert:</hi>
+                  <lb/> vgl. <hi rendition="#b">104</hi>,<hi rendition="#rkd">1</hi>f. <hi rendition="#rkd">33</hi>
+                  <hi rendition="#g">Geib:</hi> vgl. IV. Abt. (Br. an J. P.), VII, Nr. 79. <hi rendition="#b">163</hi>,<hi rendition="#rkd">6</hi>
+                  <hi rendition="#g">Sophie Paulus<lb/> auszuspionieren:</hi> s. <hi rendition="#b">156</hi>,<hi rendition="#rkd">16</hi>f. Sie hatte am 24. Nov. an Jean
+                  Paul<lb/> geschrieben: „Sie haben ihm [H. Voß] den Auftrag gegeben (über den<lb/>
+                  er sich den Kopf zerbrochen hat), mich um die Erlaubnis zu bitten,<lb/> mich
+                  auszuspionieren; ich habe sie ihm gern gegeben, denn ich wünsche,<lb/> nach meiner
+                  Wahrhaftigkeit, daß Sie mich mit allen meinen Fehlern<lb/> und Eigenheiten
+                  kennen.“ <hi rendition="#rkd">14—16</hi> In den <hi rendition="#g">Saturnalien</hi> erhielt <hi rendition="#g">Krause</hi>
+                  <lb/> wegen seiner Verteidigung des Nachdrucks einige Seitenhiebe. <hi rendition="#rkd">19—23</hi>
+                  <lb/> Vgl. Nr. 368. Der italienische Anatom Gaspare <hi rendition="#g">Tagliacozzo</hi> (oder<lb/> Tagliacozzi, 1545—99) war berühmt durch seine
+                  Kunst der Rhino<lb rendition="#hyphen"/> plastik; s. II. Abt., II, <hi rendition="#b">286</hi>,<hi rendition="#rkd">9</hi>. <hi rendition="#rkd">24</hi>
+                  <hi rendition="#g">Koch:</hi> die Wirtin vom „Karlsberg“<lb/> in Heidelberg, s.
+                  IV. Abt. (Br. an J. P.), VII, Nr. 146. <hi rendition="#rkd">27—29</hi>
+                  <hi rendition="#g">Bachstelze:</hi> s. <hi rendition="#b">156</hi>,<hi rendition="#rkd">4</hi>†;<lb/> Voß hatte sich wegen seiner verfehlten Konjektur
+                  weitläufig entschul<lb rendition="#hyphen"/> digt und sogar einen Neudruck des
+                  betreffenden Bogens erwogen.<lb/>
+                  <hi rendition="#rkd">32</hi>
+                  <hi rendition="#g">Seelenworte der Mutter:</hi> nicht erhalten; vgl. <hi rendition="#b">169</hi>,<hi rendition="#rkd">23</hi>. <hi rendition="#b">164</hi>,<hi rendition="#rkd">11—13</hi>
+                  <lb/> Bei <hi rendition="#g">Brockhaus</hi> erschien die Vossische
+                  Shakespeare-Übersetzung; der<lb/>
+                  <hi rendition="#g">edle Freund</hi> ist wohl Otto, der an Brockhaus’ „Deutschen
+                  Blättern“<lb/> und am Conversationslexikon mitgearbeitet hatte, s. Bd. VI, <lb/>
+                  Nr. 821 b. c. d, und Nr.</hi>
+               <hi rendition="#aq">839.</hi>
+            </p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VII_579">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="584">*579. An Heinrich Voß in Heidelberg. </title>
+            <title n="digital">An Heinrich Voß. Bayreuth, 23. September 1819.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=VII_579</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/VII/VII_579</idno>
+               <idno type="TELOTAID">VII_579</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
+               <biblScope n="text" unit="page">
+                  <num>303</num>
+                  <num>304</num>
+                  <num>305</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>444</num>
+                  <num>445</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+               <p>Druck</p>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1819-09-23">23. September 1819</date>
+               <placeName key="JP-005574" ref="http://www.geonames.org/2951825">Bayreuth</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-004520" ref="http://d-nb.info/gnd/100689590">
+                  <name type="reg">Voß</name> Heinrich</persName>
+               <placeName key="JP-005819" ref="http://www.geonames.org/2907911">Heidelberg</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VII_555">3. August 1819 bis 5.
+                  August 1819</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VII_584">12. Oktober 1819</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <dateline>
+               <hi rendition="#right">
+                  <hi rendition="#aq">
+                     <placeName>Baireut</placeName> d. <date>23<hi rendition="#sup">ten</hi> Sept.
+                        1819</date>
+                  </hi>
+               </hi>
+            </dateline>
+            <lb n="30" xml:id="VII_303-30"/>
+            <p>Mein geliebter Heinrich! Der Überbringer dieses eiligen Briefes<lb xml:id="VII_303-31"/> ist der Kammerrath <hi rendition="#aq">Miedel</hi> (ein
+               großer Mineralien- und Gemälde<note corresp="#VII_303-32">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002819">
+                        <persName> Johann Chr. Martin <name type="reg">Miedel</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VII_303-32" rendition="#hyphen"/>kenner und Geldinhaber), in dessen
+               Garten ich seit vielen Jahren<note corresp="#VII_303-33">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002818">
+                        <persName> Johann Chr. Martin <name type="reg">Miedel</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-0062780">
+                        <placeName>Miedel, Johann Chr. Martin; sein Garten</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VII_303-33"/> meine Sommerkinder geboren habe und der Heidelberg
+                  besuchen<note corresp="#VII_304-1">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005819">
+                        <placeName>Heidelberg</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VII_304-1"/> will, eh’ er seinen Sohn da auslernen läßt. Kannst du ihm
+                  einen<note corresp="#VII_304-2">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002820">
+                        <persName> Johann Friedrich Hermann <name type="reg">Miedel</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VII_304-2"/> Rath oder einen Rathgeber für seine Fragen geben, so wirst
+               du es<lb xml:id="VII_304-3"/> gerne thun. — Ich habe wieder 3 Wochen außer halb
+               meiner Studier<lb xml:id="VII_304-4" rendition="#hyphen"/>stube verträumt und zwar
+               bei der liebenswerthen Herzogin von<note corresp="#VII_304-5">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000853">
+                        <persName> Herzogin von Kurland <name type="reg">Dorothea</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="5" xml:id="VII_304-5"/> Kurland und ihren 3 Töchtern. Könnt’ ich dir nur in
+               der Kürze die<note corresp="#VII_304-6">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000854">
+                        <persName> Herzogin von Kurland <name type="reg">Dorothea</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VII_304-6"/> Froh-Abende ohne Gleichen hier herklexen! Und das
+                  zwanglose<lb xml:id="VII_304-7"/> Lust- und Tanz- und Sing- und Sprechleben! Nicht
+               ohne Beifall<lb xml:id="VII_304-8"/> spielt’ ich Blindekuh mit und verlas und machte
+               da einige kleine<lb xml:id="VII_304-9"/> Arbeiten. Doch erfreuete es mich am meisten,
+               daß ich, als ich mit<lb n="10" xml:id="VII_304-10"/> den Fürstinnen und andern —
+               sogar mit Frau von der <hi rendition="#aq">Recke</hi> —<note corresp="#VII_304-11">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000854">
+                        <persName> Herzogin von Kurland <name type="reg">Dorothea</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003370">
+                        <persName> Elisa von der <name type="reg">Recke</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VII_304-11"/> einige schwer-verwickelte Polonäsen tanzte, in mir den lang
+                  ver<lb xml:id="VII_304-12" rendition="#hyphen"/>steckten Tänzer ertappte. Auch
+               Gelehrte — denn die Edelleute rechne<lb xml:id="VII_304-13"/> ich für nichts — waren
+               in Menge da, Feuerbach, Schink, Mar<note corresp="#VII_304-14">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001069">
+                        <persName> Paul Johann Anselm Ritter von <name type="reg">Feuerbach</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-002622">
+                        <persName> Philipp Konrad <name type="reg">Marheineke </name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003744">
+                        <persName> Johann Friedrich <name type="reg">Schink</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VII_304-14" rendition="#hyphen"/>heinecke, Tiedge etc.etc. und unter 4
+               Wochen geht selten einer fort, wie<lb n="15" xml:id="VII_304-15"/> denn jene alle
+               noch da hausen.</p>
+            <lb xml:id="VII_304-16"/>
+            <p>Es war hübsch; indeß konnte doch nicht einmal Löbichau das <hi rendition="#g">erste<note corresp="#VII_304-17">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005969">
+                           <placeName>Löbichau </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_304-17"/> Heidelberg</hi> erreichen und an einen Heinrich war
+               ohnehin nicht zu<note corresp="#VII_304-18">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005819">
+                        <placeName>Heidelberg</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VII_304-18"/> denken.</p>
+            <lb xml:id="VII_304-19"/>
+            <p>Die Herzogin hatte mich durch H. v. <hi rendition="#aq">Ende</hi> und einen
+                  kurländi<note corresp="#VII_304-20">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000853">
+                        <persName> Herzogin von Kurland <name type="reg">Dorothea</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-000949">
+                        <persName> Otto Leopold Freiherr von <name type="reg">Ende</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005931">
+                        <placeName>Kurland, , Kurländer</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb n="20" xml:id="VII_304-20" rendition="#hyphen"/> schen Kreismarschall von <hi rendition="#aq">Firks</hi> mit Extrapost holen lassen: sonst<note corresp="#VII_304-21">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001083">
+                        <persName>
+                           <name type="reg">Fircks </name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VII_304-21"/> wär’ ich doch zu Hause geblieben.</p>
+            <lb xml:id="VII_304-22"/>
+            <p>Wie will ich dir in der Eile genug antworten? — Vorgestern kam<lb xml:id="VII_304-23"/> ich erst zurück. Dein guter Bruder hat mir den <hi rendition="#aq">Shakespeare</hi> ge<note corresp="#VII_304-24">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004507">
+                        <persName> Abraham Sophus <name type="reg">Voß</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009999">
+                        <author>Voß, Johann Heinrich (1751-1826), Dichter und Übersetzer</author>
+                        <title>Shakespeare-Übersetzung (begonnen von Heinrich und Abraham Voß,
+                           fortgesetzt von diesen und Johann Heinrich Voß 1810-1815,
+                           1818-1829)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VII_304-24" rendition="#hyphen"/>schickt, an welchem ich jetzt das erste
+               Stück genieße.<note n="*)" place="foot">Ich muß auf eine Gelegenheit sinnen, dir den
+                  neuen <hi rendition="#aq">Hesperus,</hi> der zu<note corresp="#VII_304-35">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010727">
+                           <title>Hesperus (1795)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb n="35" xml:id="VII_304-35"/> Michaelis ganz erscheint, zukommen zu lassen.<lb xml:id="VII_304-36"/>
+               </note> Letztes ist<note corresp="#VII_304-25">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009778" ana="†">
+                        <author>Shakespeare, William (Shakespear, Shakspeare, Shakespear,
+                           Schakespeare) (1564-1616)</author>
+                        <title>As You Like It (1599)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="25" xml:id="VII_304-25"/> mir ordentlich ein 2<hi rendition="#sup">tes</hi>
+               Original, so sprachgediegen, farbreich und<lb xml:id="VII_304-26"/> keck ist es
+               deinem Vater gelungen. Wenn er nur nicht zu oft wie ein<lb xml:id="VII_304-27"/>
+               <hi rendition="#aq">Ultra</hi> das Regierte dem Regierenden nachsetzte! — Das ganze
+                  Buch<note corresp="#VII_304-28">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004370">
+                        <persName>
+                           <name type="reg">Ultras</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VII_304-28"/> soll mir ein Nachsommer sein. Dein lieber Brief an meine
+                  Frau<note corresp="#VII_304-29">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003469">
+                        <persName> Caroline <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VII_304-29"/> wurde mir nachgeschickt. Ich mußte ihn der <hi rendition="#aq">Ende</hi> und der <hi rendition="#aq">Piatoli</hi>
+               <note corresp="#VII_304-30">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000948">
+                        <persName> Henriette Freifrau von <name type="reg">Ende</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003223">
+                        <persName> Julie von <name type="reg">Piattoli </name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="30" xml:id="VII_304-30"/> lesen lassen, welche beide in Achtung und Liebe für
+               dich wetteifern. —</p>
+            <lb xml:id="VII_304-31"/>
+            <p>Grüße mir wieder die so hart verletzten <hi rendition="#aq">Paulus,</hi> an die ich
+                  aus<note corresp="#VII_304-32">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003169" ana="†">
+                        <persName> Heinrich Eberhard Gottlob <name type="reg">Paulus</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003173" ana="†">
+                        <persName> Wilhelm <name type="reg">Paulus</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VII_304-32"/>
+               <hi rendition="#aq">Löbichau</hi> geschrieben.</p>
+            <lb xml:id="VII_304-33"/>
+            <p>Ich dachte seitdem oft an <hi rendition="#aq">Sophiens</hi> frühere Ahnung, daß sie
+                  zu<note corresp="#VII_304-34">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003172">
+                        <persName> Sophie <name type="reg">Paulus</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VII_304-34"/> glücklich sei, um nicht einmal unglücklich zu werden. —
+               Grüße mir<lb xml:id="VII_305-1"/> alle meine Lieben in <hi rendition="#aq">Heidelberg,</hi> die <hi rendition="#aq">Tiedemann,</hi> die <hi rendition="#aq">Sophie II</hi>
+               <note corresp="#VII_305-2">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000752">
+                        <persName> Sophie <name type="reg">Dapping</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-004310">
+                        <persName> Jenny Rosa <name type="reg">Tiedemann</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005819">
+                        <placeName>Heidelberg</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VII_305-2"/> und <hi rendition="#aq">Schwarz, Daub, Thibaut.</hi> Umarme
+               deine Eltern mit meiner<note corresp="#VII_305-3">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000755">
+                        <persName> Karl <name type="reg">Daub</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003944">
+                        <persName> Friedrich Heinrich Christian <name type="reg">Schwarz</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-004267">
+                        <persName> Anton Friedrich Justus <name type="reg">Thibaut</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-004516">
+                        <persName> Ernestine <name type="reg">Voß</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-004524">
+                        <persName> Johann Heinrich <name type="reg">Voß</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VII_305-3"/> Seele und sei recht glücklich in der stillen
+               Nachsommerjahrzeit, die<lb xml:id="VII_305-4"/> gerade in dieser Nacht anfängt.<lb n="5" xml:id="VII_305-5"/>
+            </p>
+            <closer>
+               <salute>
+                  <hi rendition="#right">Jean Paul</hi>
+                  <lb xml:id="VII_305-6"/>
+               </salute>
+            </closer>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+                  <hi rendition="#sup">1</hi>: <hi rendition="#i">Voß</hi>
+               </hi> 23 Sept. <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+                  <hi rendition="#sup">2</hi> (von Karolinens Hand): Berlin JP. <hi rendition="#i">B</hi>:<lb/> IV. Abt., VII, Nr. 212. <hi rendition="#i">A</hi>: IV. Abt., VI,
+                  Nr. 219? <hi rendition="#b">304</hi>,<hi rendition="#rkd">24</hi>
+                  <hi rendition="#i">Schakesp. K</hi>
+               </hi>
+               <hi rendition="#sup">1</hi>
+               <hi rendition="#rkd">28 </hi>dem Regierenden nach<lb rendition="#hyphen"/> setzte]
+                  <hi rendition="#aq">aus</hi> nach dem Regierenden setzte <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+                  <hi rendition="#sup">1</hi>
+                  <hi rendition="#rkd">35</hi>f. die Fußnote steht in <hi rendition="#i">K</hi>
+                  <hi rendition="#sup">2</hi>
+                  <lb/> eingeklammert im Text.</hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">304</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">2</hi>
+               </hi>
+               <hi rendition="#aq">
+                  <hi rendition="#g">Miedels Sohn</hi> Joh. Friedr. Hermann war ein Mitschüler
+                  von<lb/> Max Richter. <hi rendition="#rkd">9</hi>f. <hi rendition="#g">einige
+                     kleine Arbeiten:</hi> vgl. Nr. 584. <hi rendition="#rkd">23</hi>
+                  <hi rendition="#g">„Vor<lb rendition="#hyphen"/> gestern“</hi> stimmt nicht zum
+                  Datum; vermutlich ist der Brief schon<lb/> am 21. Sept. begonnen. <hi rendition="#rkd">24</hi>
+                  <hi rendition="#g">Bruder:</hi> Abraham, vgl. IV. Abt. (Br. an J. P.), VII, Nr.
+                  214.<lb/> Der 3. Bd. der Vossischen Shakespeare-Übersetzung enthält als
+                  erstes<lb/> Stück „Wie es euch gefällt“, übers. von J. H. Voß. <hi rendition="#rkd">32</hi>
+                  <hi rendition="#g">Paulus:</hi> vgl.</hi>
+               <lb/>
+               <hi rendition="#aq">FB Nr. 44. <hi rendition="#b">305</hi>,<hi rendition="#rkd">2</hi>
+                  <hi rendition="#g">Sophie</hi> II: Dapping. 4 <hi rendition="#g">Nachsommerjahr<lb rendition="#hyphen"/> zeit:</hi> am 23. Sept. 1819 abends 10 Uhr 40 begann
+                  der Herbst.</hi>
+            </p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

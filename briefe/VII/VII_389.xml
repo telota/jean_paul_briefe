@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VII_389">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="392">*389. An Heinrich Voß in Heidelberg. </title>
+            <title n="digital">An Heinrich Voß. Bayreuth, 17. März 1818.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=VII_389</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/VII/VII_389</idno>
+               <idno type="TELOTAID">VII_389</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
+               <biblScope n="text" unit="page">
+                  <num>179</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>401</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+               <p>Druck</p>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1818-03-17">17. März 1818</date>
+               <placeName key="JP-005574" ref="http://www.geonames.org/2951825">Bayreuth</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-004520" ref="http://d-nb.info/gnd/100689590">
+                  <name type="reg">Voß</name> Heinrich</persName>
+               <placeName key="JP-005819" ref="http://www.geonames.org/2907911">Heidelberg</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VII_382">6. März 1818 bis 10.
+                  März 1818</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VII_395">31. März 1818</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <dateline>
+               <hi rendition="#right">
+                  <hi rendition="#aq">
+                     <placeName>Baireut</placeName>
+                  </hi> d. <date>17 März 1818</date>
+                  <metamark>[</metamark>Dienstag<metamark>]</metamark>
+               </hi>
+            </dateline>
+            <lb xml:id="VII_179-12"/>
+            <p>Mein guter Heinrich! So hab’ ich also nichts zu beantworten,<lb xml:id="VII_179-13"/>
+               denn die Hoffnungen meines Briefes vom 10<hi rendition="#sup">ten</hi> auf deine
+                  Briefe<lb xml:id="VII_179-14"/> dauern und leben noch immer fort, eben weil sie
+               nicht erfüllt wurden.<lb n="15" xml:id="VII_179-15"/> An einen so großen Brief-Luxus
+               hast du mich verwöhnt! — Zum<lb xml:id="VII_179-16"/> Glücke kann ich deinem
+               Schweigen recht viele Ursachen leihen, die<lb xml:id="VII_179-17"/> alle keine
+               traurigen sind; und in dieser Woche, weiß ich, brichst du<lb xml:id="VII_179-18"/> es
+               ohnehin. Daher kürz’ ich diesen Brief ab. Der April oder der<lb xml:id="VII_179-19"/>
+               Mai bringt mich ohnehin unter eure Blüten. Ich grüße herzlich<lb n="20" xml:id="VII_179-20"/> deine geliebten Eltern und <hi rendition="#aq">Sophie
+                     P<metamark>[</metamark>aulus<metamark>]</metamark>.</hi> Ich mag kaum mehr<note corresp="#VII_179-21">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003172">
+                        <persName> Sophie <name type="reg">Paulus</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-004516">
+                        <persName> Ernestine <name type="reg">Voß</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-004524">
+                        <persName> Johann Heinrich <name type="reg">Voß</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VII_179-21"/> mit Dinte grüßen, da ich den lebendigen Gruß mit Augen und
+                  Lippen<lb xml:id="VII_179-22"/> so nahe vor mir habe, wenn Gott meine Hoffnung
+               segnet. —</p>
+            <lb xml:id="VII_179-23"/>
+            <p>Lebe wol, du warmer klarer Rechter!<lb xml:id="VII_179-24"/>
+            </p>
+            <closer>
+               <salute>
+                  <hi rendition="#right">Dein<lb n="25" xml:id="VII_179-25"/> J. P. F. Richter</hi>
+               </salute>
+            </closer>
+            <lb xml:id="VII_179-26"/>
+            <postscript>
+               <p>Die liebe Frau von <hi rendition="#aq">Piatoli</hi> hab’ ich noch gar nicht grüßen
+                     lassen;<note corresp="#VII_179-27">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003223" ana="†">
+                           <persName> Julie von <name type="reg">Piattoli </name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_179-27"/> daher grüße sie recht liebend. —</p>
+            </postscript>
+            <lb xml:id="VII_179-28"/>
+            <postscript>
+               <p>Gib sobald als möglich dem <hi rendition="#aq">Dr. Dapping</hi> jeden fertigen
+                     Band<note corresp="#VII_179-29">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000751">
+                           <persName> Karl <name type="reg">Dapping</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_179-29"/> des <hi rendition="#aq">Siebenkäs</hi> (als
+                  Freiexemplar) sammt Manuskript und Übrigem.<note corresp="#VII_179-30">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010540">
+                           <title>Blumen- Frucht- und Dornenstükke (Blumen-, Frucht- und
+                              Dornenstücke) (Siebenkäs) (1796-97 [1796])</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb n="30" xml:id="VII_179-30"/>
+               </p>
+            </postscript>
+            <postscript>
+               <p>N. S. Ich habe den Brief wieder geöffnet, um dir eine neue<lb xml:id="VII_179-31"/>
+                  <hi rendition="#aq">Siebenkäs</hi> Mühe zu machen. Sei nämlich so gut und streiche
+                     im<note corresp="#VII_179-32">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010540">
+                           <title>Blumen- Frucht- und Dornenstükke (Blumen-, Frucht- und
+                              Dornenstücke) (Siebenkäs) (1796-97 [1796])</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VII_179-32"/> Inhaltregister im 23<hi rendition="#sup">ten</hi>
+                  Kapitel weg: „Eröffnung der 6 Siegel“ und<lb xml:id="VII_179-33"/> setze im 24.
+                  Kap. dafür „Eröffnung der 7 Siegel“.</p>
+            </postscript>
+            <lb xml:id="VII_179-34"/>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+                  <hi rendition="#sup">1</hi>: <hi rendition="#i">Voß</hi>
+               </hi> d. 17. März. *<hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+                  <hi rendition="#sup">2</hi> (von Karolinens Hand): Berlin JP. <hi rendition="#i">J</hi>: Voß<lb/> S.</hi>
+               <hi rendition="#aq"> 48×. </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">179</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">14</hi>
+               </hi> Hoffnung <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#sup">2</hi>
+               <hi rendition="#rkd">15</hi> worden <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+               </hi>
+               <hi rendition="#rkd">16</hi> gewöhnt <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+               </hi>
+               <hi rendition="#rkd">18</hi> traurige <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <lb/>
+                  <hi rendition="#rkd">19</hi>f.</hi> oder der Mai] <hi rendition="#aq">so <hi rendition="#i">K</hi>
+                  <hi rendition="#sup">1</hi>
+                  <hi rendition="#i">J</hi>, fehlt <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#sup">2</hi>
+               <hi rendition="#rkd">24</hi> Warmer, Klarer, <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+               </hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">179</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">18</hi>
+               </hi>
+               <hi rendition="#aq">
+                  <hi rendition="#g">in dieser Woche:</hi> zu Jean Pauls Geburtstag. <hi rendition="#rkd">27</hi>
+                  <hi rendition="#g">Piatoli:</hi>
+                  <lb/> Julie v. Piattoli, geb. v. Vietinghoff, Gesellschaftsdame der Herzogin<lb/>
+                  Dorothea von Kurland; vgl. Persönl. Nr. 221, S.</hi>
+               <hi rendition="#aq">190f.</hi>
+            </p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

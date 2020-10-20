@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VII_528">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="532">528. An Karoline Richter. </title>
+            <title n="digital">An Caroline Richter. Stuttgart, 8. Juni 〈Dienstags〉 1819.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=VII_528</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/VII/VII_528</idno>
+               <idno type="TELOTAID">VII_528</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
+               <biblScope n="text" unit="page">
+                  <num>265</num>
+                  <num>266</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>431</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1819-06-08">8. Juni 〈Dienstags〉 1819</date>
+               <placeName key="JP-006315" ref="http://www.geonames.org/2825297">Stuttgart
+               </placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-003469" ref="http://d-nb.info/gnd/116512539">
+                  <name type="reg">Richter</name> Caroline </persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VII_527">6. Juni 1819</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VII_530">9. Juni 1819 bis
+                  12.Juni 1819</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <div>
+               <lb n="10" xml:id="VII_265-10"/>
+               <dateline>
+                  <hi rendition="#right">
+                     <hi rendition="#aq">
+                        <placeName>Stuttgart</placeName> d. </hi>
+                     <date>8<hi rendition="#sup">ten</hi> Jun. 〈Dienstags〉 1819</date>
+                  </hi>
+               </dateline>
+               <lb xml:id="VII_265-11"/>
+               <p>Gestern abends, meine gute Karoline, kam ich an. Nur einige<lb xml:id="VII_265-12"/> historische Worte, da der Kutscher auf sie wartet. Von <hi rendition="#aq">Dünckelsbühl</hi>
+                  <note corresp="#VII_265-13">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005678">
+                           <placeName>Dinkelsbühl </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_265-13"/> hab’ ich dir vorgestern geschrieben. Der ganze böse
+                  Anfang dieser<lb xml:id="VII_265-14"/> Reise gleicht meiner Frankfurter; ich hoffe
+                  also, daß auch die Fort<note corresp="#VII_265-15">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005743">
+                           <placeName>Frankfurt a. M.</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="15" xml:id="VII_265-15" rendition="#hyphen"/> setzung ihr ähnlich wird.
+                  Auch hier bin ich im größten, aber darum<lb xml:id="VII_265-16"/> ungemüthlichen
+                  Gasthofe wie dort abgestiegen. Noch hab ich nie<note corresp="#VII_265-17">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0063153">
+                           <placeName>Gasthof König von England; Stuttgart </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_265-17" rendition="#hyphen"/>mand gesprochen als gestern am Tische
+                  Haug. Benzel Sternau ist<note corresp="#VII_265-18">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000292">
+                           <persName> Christian Ernst Graf von <name type="reg">Bentzel-Sternau</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-001572">
+                           <persName> Friedrich <name type="reg">Haug</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_265-18"/> nicht hier. — Einen artigen Reisenachmittag hatt’ ich
+                     vorgestern,<lb xml:id="VII_265-19"/> wo ein fortregnendes Gewitter mit mir ging
+                  und ich den vortreff<lb n="20" xml:id="VII_265-20" rendition="#hyphen"/> lichen
+                  Kutscher statt des Pudels zu mir in den Wagen nahm; die<lb xml:id="VII_265-21"/>
+                  Pferde schlichen kaum, waren aber nicht mit hinein zu nehmen. —<lb xml:id="VII_265-22"/> Nur wenige Stellen der würtenbergischen Landschaft
+                  bestehen matt<note corresp="#VII_265-23">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006421">
+                           <placeName>Württemberg </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_265-23"/> neben Nürnberg, Bamberg, oder gar Frankfurt; die
+                     Menschen<note corresp="#VII_265-24">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005561">
+                           <placeName>Bamberg</placeName>
+                        </place>
+                        <place corresp="#JP-005743">
+                           <placeName>Frankfurt a. M.</placeName>
+                        </place>
+                        <place corresp="#JP-006085">
+                           <placeName>Nürnberg</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_265-24"/> sind nicht viel schöner, einige Männer ausgenommen, die
+                  mir mit<lb n="25" xml:id="VII_265-25"/> etwa 50 Wagen voll Betten und Familien
+                  entgegen fuhren nach<lb xml:id="VII_265-26"/> — Pohlen. Hier und in allen Städten
+                  sind wenig Menschen und<note corresp="#VII_265-27">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006155">
+                           <placeName>Polen </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_265-27"/> keine Lebhaftigkeit; aber Gutherzigkeit ist überall. —
+                  Jetzo geh ich<lb xml:id="VII_265-28"/> zu <hi rendition="#aq">Cotta;</hi> darauf
+                  werd’ ich mich entschließen können, wie und ob<note corresp="#VII_265-29">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000698">
+                           <persName> Johann Friedrich Freiherr <name type="reg">Cotta von
+                                 Cottendorf</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_265-29"/> ich mich einmiethe; denn in diesem Zimmer könnt’ ich,
+                  obgleich der<note corresp="#VII_265-30">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0063153">
+                           <placeName>Gasthof König von England; Stuttgart </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="30" xml:id="VII_265-30"/> Prinz von Koburg es für mich eingeweiht und ich
+                  das schönste<note corresp="#VII_265-31">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002413" ana="?†">
+                           <persName>
+                              <name type="reg">Leopold</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005649" ana="†">
+                           <placeName>Coburg </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_265-31"/> Exerzieren und Pauken schon um 5 Uhr Morgens sehen und
+                     genießen<lb xml:id="VII_265-32"/> kann, keinen Tag verleben. Alles wie in
+                  Frankfurt, wenn auch in<note corresp="#VII_265-33">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005743">
+                           <placeName>Frankfurt a. M.</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_265-33"/> kleinerem Maßstabe. — Beziehe ja die geweißte Stube
+                  nicht eher<lb xml:id="VII_265-34"/> als bis der Kalkgeruch verflogen. — Gar zu
+                  viel gabst du mir mit,<lb xml:id="VII_266-1"/> liebes Herz; und hier war mir immer
+                  wie bei dem Abendmal das<lb xml:id="VII_266-2"/> körperliche Essen ein geistiges
+                  und ein Liebemal. — Ich küsse meine<lb xml:id="VII_266-3"/> lieben Kinderlein. —
+                  Schreibe mir recht viel; aber schicke keine<note corresp="#VII_266-4">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003483">
+                           <persName> Johann Paul Friedrich <name type="reg">Richter</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_266-4"/> Briefe nach, nur die Inhaltanzeige. — Eben hör’ ich, daß
+                     <hi rendition="#aq">Cotta</hi>
+                  <note corresp="#VII_266-5">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000698">
+                           <persName> Johann Friedrich Freiherr <name type="reg">Cotta von
+                                 Cottendorf</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="5" xml:id="VII_266-5"/> erst Ende der Woche von seinem Landgute zurück
+                  kehrt. — Blos<note corresp="#VII_266-6">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005685">
+                           <placeName>Dotternhausen bei Balingen, Cottas Landgut</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_266-6"/> die stundenlange Einfahrt unter Alleen und zwischen
+                  Gärten von<lb xml:id="VII_266-7"/> Kannstadt in die Residenz ist eine der
+                  schönsten. Ich schreibe alles<note corresp="#VII_266-8">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005635">
+                           <placeName>Cannstatt bei Stuttgart</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_266-8"/> durch einander, in lauter Angst der Störung. Wäre nur
+                     schon<lb xml:id="VII_266-9"/> meine heutige Umquartierung vorbei. — Es werden
+                  jetzo viele Ge<lb n="10" xml:id="VII_266-10" rendition="#hyphen"/> witter kommen;
+                  hüte ja wegen Feuer die Schlüssel. — Grüße <hi rendition="#aq">O<metamark>[</metamark>tto<metamark>]</metamark>
+                  </hi>
+                  <note corresp="#VII_266-11">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003112">
+                           <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_266-11"/> und <hi rendition="#aq">E<metamark>[</metamark>manuel<metamark>]</metamark>.</hi> — Und so lebe
+                  denn froh, liebe treugeliebte Seele.</p>
+               <note corresp="#VII_266-12">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003087">
+                        <persName> Emanuel <name type="reg">Osmund</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VII_266-12"/>
+               <closer>
+                  <salute>
+                     <hi rendition="#right">Richter</hi>
+                  </salute>
+               </closer>
+               <lb xml:id="VII_266-13"/>
+               <postscript>
+                  <p>Ich habe den Brief wieder aufgemacht. <hi rendition="#aq">Cotta</hi> mit seiner
+                        ganzen<note corresp="#VII_266-14">
+                        <listPerson type="lineReference">
+                           <person corresp="#JP-000698">
+                              <persName> Johann Friedrich Freiherr <name type="reg">Cotta von
+                                    Cottendorf</name>
+                              </persName>
+                           </person>
+                        </listPerson>
+                     </note>
+                     <lb xml:id="VII_266-14"/> Familie ist auf sein Landgut bis Montags verreiset.
+                     Einen Brief<note corresp="#VII_266-15">
+                        <listPlace type="lineReference">
+                           <place corresp="#JP-005685">
+                              <placeName>Dotternhausen bei Balingen, Cottas Landgut</placeName>
+                           </place>
+                        </listPlace>
+                     </note>
+                     <lb n="15" xml:id="VII_266-15"/> an mich (von <hi rendition="#aq">Voß</hi>
+                     wahrscheinlich) hat er nach <hi rendition="#aq">Baireut</hi> gesandt;<note corresp="#VII_266-16">
+                        <listPerson type="lineReference">
+                           <person corresp="#JP-001981" ana="†">
+                              <persName> Franz Wilhelm <name type="reg">Jung</name>
+                              </persName>
+                           </person>
+                           <person corresp="#JP-004520" ana="†">
+                              <persName> Heinrich <name type="reg">Voß</name>
+                              </persName>
+                           </person>
+                        </listPerson>
+                        <listPlace type="lineReference">
+                           <place corresp="#JP-005574">
+                              <placeName>Bayreuth (Stadt)</placeName>
+                           </place>
+                        </listPlace>
+                     </note>
+                     <lb xml:id="VII_266-16"/> schicke mir ihn ja nicht wieder her, sondern nur das
+                     Bedeutendste des<lb xml:id="VII_266-17"/> Inhalts. — Bis diese neueste Minute
+                     ist mir wenig geglückt, von<lb xml:id="VII_266-18"/> der <hi rendition="#g">ältesten</hi> an.</p>
+               </postscript>
+               <lb xml:id="VII_266-19"/>
+            </div>
+            <div>
+               <note type="editorial">
+                  <hi rendition="#c">
+                     <metamark>[</metamark>*<hi rendition="#aq">
+                        <hi rendition="#i">auf besonderem Blatt</hi>
+                     </hi>
+                     <metamark>]</metamark>
+                  </hi>
+               </note>
+               <lb n="20" xml:id="VII_266-20"/>
+               <p>... und so will ich denn einige Reiseleiden rekapitulieren, um mir<note corresp="#VII_266-21">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010605" ana="†">
+                           <title>Der Komet (1820-1822)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VII_266-21"/> die Gegenwart zu verklären. Auf den Bergen Streitbergs
+                     riß<note corresp="#VII_266-22">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006311">
+                           <placeName>Streitberg</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_266-22"/> zweimal der Strang; in Wüstenstein wurde ich in eine
+                     Stuben<note corresp="#VII_266-23">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006423">
+                           <placeName>Wüstenstein bei Streitberg</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_266-23" rendition="#hyphen"/>kammer neben einer lauten Stube voll
+                  Kaufleute gesteckt. Die Nacht<note corresp="#VII_266-24">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0057222" ana="ff">
+                           <placeName>Gasthof Blaue Glocke; Erlangen </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_266-24"/> in Erlangen brachte Nachttoben der Studenten,
+                  Kanonieren, Heim<note corresp="#VII_266-25">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005722">
+                           <placeName>Erlangen </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="25" xml:id="VII_266-25" rendition="#hyphen"/> kommen vom Schützenberge. Der
+                  Hund murrt bei jedem Vorüber<note corresp="#VII_266-26">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0057221">
+                           <placeName>Burgberg; Erlangen </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_266-26" rendition="#hyphen"/>gehenden — der Nachtwächter tutet die
+                  Stunden und die Viertel<lb xml:id="VII_266-27" rendition="#hyphen"/>stunden —
+                  darauf ein Getön, als wenn eine Kuh nach ihrem Kalbe<lb xml:id="VII_266-28"/>
+                  schrie; dann, da es immer fortging, hielt ichs für den Ton eines un<lb xml:id="VII_266-29" rendition="#hyphen"/>bekannten Maschinenwerks; endlich
+                  errieth ich, daß es ein abscheu<lb n="30" xml:id="VII_266-30" rendition="#hyphen"/> liches Schnarchen war. Vom Anspacher Gastviehhof will ich gar<note corresp="#VII_266-31">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0055291">
+                           <placeName>Gasthof Schwarzer Adler; Ansbach </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_266-31"/> nicht sprechen; eine Kammer im zweiten Stockwerk, voller
+                     Gebälk,<lb xml:id="VII_266-32"/> mit einem elenden Bett und zwei Stühlen
+                  (weiter nichts) war die<lb xml:id="VII_266-33"/> von <hi rendition="#aq">E<metamark>[</metamark>nzel<metamark>]</metamark>
+                  </hi> gerühmte Pracht. — Dafür gab mir der frühe Reise<note corresp="#VII_266-34">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000970">
+                           <persName> Israel <name type="reg">Enzel</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_266-34" rendition="#hyphen"/>morgen das schöne Gefühl der eignen
+                  Jugend zurück. —<lb n="35" xml:id="VII_266-35"/>
+               </p>
+            </div>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Berlin JP (nur bis <hi rendition="#b">266</hi>,<hi rendition="#rkd">19</hi>). 2⅓ S. 4°; 4. S. Adr.:</hi> Frau Legazion<lb rendition="#hyphen"/> räthin <hi rendition="#aq">
+                  <hi rendition="#i">Richter</hi>
+               </hi> in <hi rendition="#aq">
+                  <hi rendition="#i">Baireut. J</hi>
+                  <hi rendition="#sup">1</hi>: Wahrheit 8,177×. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>: Nerrlich<lb/> Nr. 169×. <hi rendition="#i">A</hi>:
+                  IV. Abt., VII, Nr.</hi>
+               <hi rendition="#aq">188. </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">265</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">23</hi>
+               </hi> Landschaft] <hi rendition="#aq">davor gestr.</hi> Gegend matt]<lb/>
+               <hi rendition="#aq">nachtr.</hi>
+               <hi rendition="#rkd">29</hi> und ob] <hi rendition="#aq">nachtr.</hi>
+               <hi rendition="#rkd">33</hi> keinen] <hi rendition="#aq">davor gestr.</hi> bleib’ ich
+                  <hi rendition="#b">266</hi>,<hi rendition="#rkd">2</hi>
+               <lb/> immer] <hi rendition="#aq">aus</hi> jedesmal</p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Jean Paul war in Stuttgart im Gasthaus zum König von England<lb/>
+                  abgestiegen, s. <hi rendition="#b">267</hi>,<hi rendition="#rkd">12</hi>. <hi rendition="#b">265</hi>,<hi rendition="#rkd">18</hi>
+                  <hi rendition="#g">Haug:</hi> s. Nr. 551â€ . <hi rendition="#g">Benzel-Sternau:</hi>
+                  <lb/> s. Bd. VI, Nr. 691. <hi rendition="#rkd">31</hi>
+                  <hi rendition="#g">Prinz von Koburg:</hi> wohl Leopold, der spätere<lb/> König von
+                  Belgien (1790—1865); vgl. I. Abt., XVII, <hi rendition="#b">448</hi>,<hi rendition="#rkd">24</hi>. <hi rendition="#b">266</hi>,<hi rendition="#rkd">15</hi>f.<lb/> Der <hi rendition="#g">Brief</hi> war aus Heidelberg, aber
+                  nicht von Voß, sondern von Jung,<lb/> s. IV. Abt. (Br. an J. P.), VII, Nr. 180.
+                     <hi rendition="#rkd">20—35</hi> Dieser nur in <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi> erhaltene Absatz stand<lb/> wahrscheinlich auf einem
+                  nur für Karoline bestimmten Extrablatt, das<lb/> aber noch mehr enthalten haben
+                  muß, vgl. <hi rendition="#i">A</hi>: „Dein besonderes Blatt<lb/> an mich habe ich
+                  mit dankbarer Rührung gelesen, daß Du doch noch<lb/> die Güte für mich hast, mich
+                  aufrichten zu wollen.“ Das Erhaltene<lb/> erinnert stark an die „Reiseleiden“ des
+                  Frohauf Süptitz im Kometen,<lb/> I. Abt., XV, 427ff. <hi rendition="#rkd">
+                     <hi rendition="#aq">
+                        <add resp="#MB">24</add>
+                     </hi>
+                  </hi>
+                  <hi rendition="#aq">
+                     <add resp="#MB">ff. Nach Feststellung von Horst Heldmann (Nürnberg)
+                        logierte</add>
+                     <lb/>
+                     <add resp="#MB"> Jean Paul damals in Erlangen im Gasthof zur Blauen Glocke
+                        (jetzt Haupt-</add>
+                     <lb/>
+                     <add resp="#MB"> str. 46). Mit dem Schützenberg ist wahrscheinlich der Burgberg
+                        gemeint,</add>
+                     <lb/>
+                     <add resp="#MB"> wo zu Pfingsten die altberühmte Bergkirchweih gefeiert
+                        wurde.</add>
+                  </hi>
+               </hi>
+            </p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

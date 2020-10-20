@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VII_223">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="223">223. An Hofrat Böttiger in Dresden. </title>
+            <title n="digital">An Carl August Böttiger. Bayreuth, 21. September 1816.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=VII_223</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/VII/VII_223</idno>
+               <idno type="TELOTAID">VII_223</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
+               <biblScope n="text" unit="page">
+                  <num>87</num>
+                  <num>88</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>366</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1816-09-21">21. September 1816</date>
+               <placeName key="JP-005574" ref="http://www.geonames.org/2951825">Bayreuth</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000400" ref="http://d-nb.info/gnd/118824775">
+                  <name type="reg">Böttiger</name> Carl August</persName>
+               <placeName key="JP-005687" ref="http://www.geonames.org/2935022">Dresden</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=V_45-fb">8. August 1806</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VIII_281">15. Mai 1822</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <dateline>
+               <hi rendition="#right">
+                  <hi rendition="#aq">
+                     <placeName>Baireuth</placeName>
+                  </hi> d. <date>21. Sept. 1816</date>
+               </hi>
+            </dateline>
+            <lb n="20" xml:id="VII_87-20"/>
+            <p>Diese Hand werden Sie noch von alten Zeiten her kennen, wo<lb xml:id="VII_87-21"/>
+               sie Ihnen jede Woche ein paar mal zu danken hatte für Ihre lite<lb xml:id="VII_87-22" rendition="#hyphen"/> rarischen Gaben und Darlehne. Der Überbringer meines
+                  Blättchen<lb xml:id="VII_87-23"/> ist ein Professor <hi rendition="#aq">Wagner</hi> von hier, der wol durch seine philologischen<note corresp="#VII_87-24">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004569">
+                        <persName> Lorenz Heinrich <name type="reg">Wagner</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VII_87-24"/> und pädagogischen Verdienste das Glück einer Empfehlung an
+                  Sie<lb n="25" xml:id="VII_87-25"/> verdient. (In meiner <hi rendition="#aq">Levana</hi> hab’ ich ihm eine an das Publikum<note corresp="#VII_87-26">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010811">
+                        <title>Levana (1807)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VII_87-26"/> gegeben.) Ich komme eben aus einem Examen, wo
+                  11—13jährige<note corresp="#VII_87-27">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-00557427">
+                        <placeName>Gymnasium; Bayreuth (Stadt)</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VII_87-27"/> Knaben (worunter mein Sohn) sich nach täglichen 2
+                  Privatstunden<note corresp="#VII_87-28">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003490">
+                        <persName> Max <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VII_87-28"/> bei <hi rendition="#aq">Wagner</hi> (ohne eine andere
+               Schule) so philologisch gerüstet im<lb xml:id="VII_87-29"/> Homer und Ovid etc.etc.
+               herumtummelten, daß es tausend heutige<note corresp="#VII_87-30">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001827">
+                        <persName>
+                           <name type="reg">Homer</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003131">
+                        <persName> (Publius Ovidius Naso) <name type="reg">Ovid</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="30" xml:id="VII_87-30"/> Autoren gibt, denen solche Waffenstücke der alten
+               Kenntnisse zu<lb xml:id="VII_87-31"/> wünschen wären. <hi rendition="#aq">Wagners</hi> Begleiter ist ein katholischer Pfarrer,<note corresp="#VII_87-32">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002064">
+                        <persName>
+                           <name type="reg">Katholiken </name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VII_87-32"/>
+               <hi rendition="#aq">Oestreicher,</hi> ein Kunstanbeter; — also ein Bilderanbeter
+               Dresdens.</p>
+            <note corresp="#VII_87-33">
+               <listPerson type="lineReference">
+                  <person corresp="#JP-003059">
+                     <persName> Kaspar <name type="reg">Oesterreicher</name>
+                     </persName>
+                  </person>
+               </listPerson>
+               <listPlace type="lineReference">
+                  <place corresp="#JP-005687">
+                     <placeName>Dresden</placeName>
+                  </place>
+               </listPlace>
+            </note>
+            <lb xml:id="VII_87-33"/>
+            <p>Nun wollt’ ich, ich wäre unter den Empfohlnen und käme mit.<lb xml:id="VII_87-34"/>
+               Ich hätte vielerlei von Ihnen zu verlangen — nämlich Belehrungen.<lb n="35" xml:id="VII_87-35"/> Indeß erst nach 3, 4 Jahren, wo ich meine sämmtlichen Werke
+                  bei<note corresp="#VII_88-1">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010983">
+                        <title>Werke, opera omnia (Sämtliche Werke, ab 1826)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VII_88-1"/>
+               <hi rendition="#aq">Cotta</hi> heraus zu geben anfangen will, werd’ ich Sie näher
+                  fragen,<note corresp="#VII_88-2">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000698">
+                        <persName> Johann Friedrich Freiherr <name type="reg">Cotta von
+                              Cottendorf</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VII_88-2"/> wie dieß zu machen ist, bei so manchen Verlegern, gegen
+               welche ich<lb xml:id="VII_88-3"/> als junger Autor zu dumm und die als Seelen<hi rendition="#g">käufer</hi> gegen mich<lb xml:id="VII_88-4"/> zu pfiffig waren und
+               denen ich bei dem magersten Honorar (Sie<lb n="5" xml:id="VII_88-5"/> riethen mir
+               zuerst in <hi rendition="#aq">Weimar</hi> zur Erhöhung desselben) keine Anzahl<note corresp="#VII_88-6">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006395">
+                        <placeName>Weimar</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VII_88-6"/> der Abdrücke vorschrieb. Mein heroisches Mittel ist mein
+                  Be<lb xml:id="VII_88-7" rendition="#hyphen"/>wußtsein meines Rechts und ihres
+               Gewinns — und dann, nach<lb xml:id="VII_88-8"/> ihnen und ihren Exemplaren nichts zu
+               fragen, sondern heraus zu<lb xml:id="VII_88-9"/> geben.<lb n="10" xml:id="VII_88-10"/>
+            </p>
+            <p>Sie haben durch den Ausgang aus <hi rendition="#aq">Weimar</hi> mehr vertauscht
+                  als<note corresp="#VII_88-11">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006395">
+                        <placeName>Weimar</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VII_88-11"/> verloren; ich aber leider nur letztes. —</p>
+            <lb xml:id="VII_88-12"/>
+            <p>Sie sollten am ersten wenigstens Ihre <hi rendition="#aq">opuscula omnia</hi>
+                  sammeln,<lb xml:id="VII_88-13"/> da gerade diese sich wieder an so zerstreuete <hi rendition="#aq">opuscula</hi> gehängt wie<lb xml:id="VII_88-14"/> antike
+               Siegelringe an Modeuhrbänder.<lb n="15" xml:id="VII_88-15"/>
+            </p>
+            <p>Dem verehrten <hi rendition="#aq">Wolke</hi> schrieb ich nach <hi rendition="#aq">Dresden</hi> den 24<hi rendition="#sup">ten</hi> Mai,<note corresp="#VII_88-16">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004803">
+                        <persName> Christian Heinrich <name type="reg">Wolke</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005687">
+                        <placeName>Dresden</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VII_88-16"/> aber ohne Nachricht des Empfangs.</p>
+            <lb xml:id="VII_88-17"/>
+            <p>Sie haben gewiß etwas Besseres von <hi rendition="#aq">Wieland</hi> als seine ge<note corresp="#VII_88-18">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010090" ana="†">
+                        <author>Wieland, Christoph Martin (1733-1813)</author>
+                        <title>Briefe</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VII_88-18" rendition="#hyphen"/>druckten Briefe — seine Briefchen mein’
+               ich; können Sie diese geben?</p>
+            <lb xml:id="VII_88-19"/>
+            <p>Der Himmel gewähre Ihrer unbegreiflichen Thätigkeit und<lb n="20" xml:id="VII_88-20"/> Ihrem gelehrten Erntleben einen Körper, der das Bücken und Tragen<lb xml:id="VII_88-21"/> auf den weiten Schnitterfeldern aushält.</p>
+            <lb xml:id="VII_88-22"/>
+            <closer>
+               <salute>
+                  <hi rendition="#right">Ihr<lb xml:id="VII_88-23"/> fortdankender<lb xml:id="VII_88-24"/> Jean Paul Fr. Richter</hi>
+               </salute>
+               <lb n="25" xml:id="VII_88-25"/>
+            </closer>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Dresden. 4 S. 8°. <hi rendition="#i">K</hi>:</hi>
+               Hofrath <hi rendition="#aq">
+                  <hi rendition="#i">Böttiger</hi>
+               </hi> in<lb/>
+               <hi rendition="#aq">
+                  <hi rendition="#i">Dresden</hi>
+               </hi> 21. Sept. <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>: Funck S.</hi>
+               <hi rendition="#aq">172. </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">88</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">3</hi>
+               </hi> manchen] <hi rendition="#aq">aus</hi> vielen <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">21</hi> Erntleben] <hi rendition="#aq">aus</hi> Ernteleben <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Böttiger war Ostern 1804 von Weimar nach Dresden verzogen.<lb/>
+                  <hi rendition="#b">87</hi>,<hi rendition="#rkd">26</hi>
+                  <hi rendition="#g">Levana:</hi> § 156 (I. Abt., XII, 400). <hi rendition="#b">88</hi>,<hi rendition="#rkd">5</hi>f. <hi rendition="#g">Sie riethen mir<lb/>
+                     zuerst in Weimar:</hi> vgl. Br. II, Nr. 337. <hi rendition="#rkd">18</hi>f. Von
+                  dem 1813 verst. <hi rendition="#g">Wie<lb rendition="#hyphen"/> land</hi> waren
+                  1815 zwei Briefsammlungen erschienen. Von seinen zahl<lb rendition="#hyphen"/>
+                  reichen Briefen und Billetten an Böttiger (jetzt in der Sächs. Landes<lb rendition="#hyphen"/> bibl.) ist einiges in dem nach Böttigers Tode von dessen
+                  Sohn hgb.<lb/> Werk „Literarische Zustände und Zeitgenossen“ verwertet.</hi>
+            </p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>
