@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="II_337">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="338">337. An Christian Otto. </title>
+            <title n="digital">An Christian Otto. Weimar, 12. Juni 1796.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=II_337</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/II/II_337</idno>
+               <idno type="TELOTAID">II_337</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
+               <biblScope n="text" unit="page">
+                  <num>206</num>
+                  <num>207</num>
+                  <num>208</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>459</num>
+                  <num>460</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1796-06-12">12. Juni 1796</date>
+               <placeName key="JP-006395" ref="http://www.geonames.org/2812482">Weimar</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-003112" ref="http://d-nb.info/gnd/118590804">
+                  <name type="reg">Otto</name> Christian </persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=II_335">10. Juni 96</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=II_340">17. Juni 1796 bis 19.
+                  Juni 1796</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <dateline>
+               <hi rendition="#right">
+                  <hi rendition="#aq">
+                     <placeName>Weimar</placeName>
+                  </hi> d. <date>12 Jun. 1796</date>
+                  <lb xml:id="II_206-12"/>Sontags um 7 Uhr Morgens.</hi>
+            </dateline>
+            <lb xml:id="II_206-13"/>
+            <opener>
+               <salute>
+                  <hi rendition="#et">Lieber Bruder,</hi>
+               </salute>
+            </opener>
+            <lb xml:id="II_206-14"/>
+            <p>Gott sah gestern doch einen überglüklichen Sterblichen auf der<lb n="15" xml:id="II_206-15"/>Erde und der war ich — ach ich war es so sehr, daß ich wieder
+               an die<lb xml:id="II_206-16"/>Nemesis denken muste, und daß mich Herder mit dem <hi rendition="#aq">deus averruncus</hi>
+               <note corresp="#II_206-17">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001675">
+                        <persName> Johann Gottfried von <name type="reg">Herder</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-002982">
+                        <persName>
+                           <name type="reg">Nemesis</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_206-17"/>tröstete. — Ich kan mit meinem Schreiben nicht so lange
+               warten, bis<lb xml:id="II_206-18"/>
+               <metamark>[</metamark>ich<metamark>]</metamark> dir einen Brief schicke: ich wil nur
+               etwas sagen. Gestern gieng ich<lb xml:id="II_206-19"/>um elf Uhr — weil ihr
+               Einladungsbillet mich zweimal verfehlte — zur<note corresp="#II_206-20">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002007" ana="ff">
+                        <persName> Charlotte von <name type="reg">Kalb</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="20" xml:id="II_206-20"/>Ostheim (es ist die Schwester der Bayreutherin und ich
+               glaube, fast<note corresp="#II_206-21">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002008" ana="?†">
+                        <persName>
+                           <name type="reg">Kalb</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-002270" ana="?†">
+                        <persName> Wilhelmine von <name type="reg">Kropff</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005574" ana="†">
+                        <placeName>Bayreuth (Stadt)</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="II_206-21"/>meine auch) Ich hatte mir im Billet eine <hi rendition="#g">einsame Minute</hi> zur<lb xml:id="II_206-22"/>ersten ausbedungen, ein <hi rendition="#aq">coeur-à-coeur 〈tête-à-tête〉.</hi> Sie hat zwei<lb xml:id="II_206-23"/>grosse Dinge, grosse Augen wie ich noch keine sah, und eine
+                  grosse<lb xml:id="II_206-24"/>Seele. Sie spricht <hi rendition="#g">gerade</hi> so
+               wie Herder in den Briefen der Humanität<note corresp="#II_206-25">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008684">
+                        <author>Herder, Johann Gottfried (seit 1801) von (1744-1803)</author>
+                        <title>Briefe zur Beförderung der Humanität (1793-1797)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="25" xml:id="II_206-25"/>schreibt. Sie ist stark, vol, auch das Gesicht — ich
+               wil dir sie schon<lb xml:id="II_206-26"/>schildern. ¾ der Zeit brachte sie mit Lachen
+               hin — dessen Hälfte aber<note corresp="#II_206-27">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010913">
+                        <title>Titan (1800-1803): Julienne</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="II_206-27"/>nur Nervenschwäche ist — und ¼ mit Ernst, wobei sie die
+                  grossen<lb xml:id="II_206-28"/>fast ganz zugesunknen Augenlieder himlisch in die
+               Höhe hebt, wie wenn<lb xml:id="II_206-29"/>Wolken den Mond wechselsweise verhüllen
+               und entblössen. (Ich<lb n="30" xml:id="II_206-30"/>scheere mich um keine Richtigkeit
+               des Ausdruks aus Mangel der Zeit,<lb xml:id="II_206-31"/>ich wil dir blos <hi rendition="#g">viel</hi> schreiben) „Sie sind ein sonderbarer Mensch“ das<lb xml:id="II_206-32"/>sagte sie mir dreissigmal. Ach hier sind Weiber! Auch habe ich
+               sie alle<lb xml:id="II_206-33"/>zum Freunde, der ganze Hof bis zum Herzog lieset
+               mich. — Ich as aus<note corresp="#II_206-34">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000579">
+                        <persName>
+                           <name type="reg">Carl August</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_206-34"/>Ursachen nicht bei ihr; sie schrieb meine Ankunft dem Knebel
+                  (Kammer<note corresp="#II_206-35">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002149">
+                        <persName> Karl Ludwig von <name type="reg">Knebel</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="35" xml:id="II_206-35" rendition="#hyphen"/> herrn bei der Herzogin) Um 3 Uhr
+               kam ich wieder, und der auch. Er<note corresp="#II_207-1">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000090" ana="?">
+                        <persName>
+                           <name type="reg">Anna Amalia</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-002544" ana="?">
+                        <persName> Auguste <name type="reg">Luise</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_207-1"/>ist ein Hofman im Aeussern, aber soviel Wärme und Kentnisse,
+                  so<lb xml:id="II_207-2"/>einfach. Alle meine mänlichen Bekantschaften hier — ich
+               wolte, diese<lb xml:id="II_207-3"/>nicht allein — fiengen sich mit den wärmsten
+               Umarmungen an. Du<lb xml:id="II_207-4"/>findest hier nichts vom jämmerlichen
+               Gezierten in Hof, von der<note corresp="#II_207-5">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005841">
+                        <placeName>Hof im Vogtland</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb n="5" xml:id="II_207-5"/>jämmerlichen Sorge für die Mode — ich wolt, ich hätte
+               den grünen<lb xml:id="II_207-6"/>Talar behalten, oder blos den blauen Stuzrok noch
+               einmal wenden<lb xml:id="II_207-7"/>lassen. Er wolte mich zu Herder, und heute
+               mittags zum Essen zu<note corresp="#II_207-8">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001675">
+                        <persName> Johann Gottfried von <name type="reg">Herder</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_207-8"/>Göthe führen; aber ich blieb bei dem Vorsaz des <hi rendition="#aq">coeur-à-coeur</hi> (wenn<note corresp="#II_207-9">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001353">
+                        <persName> Johann Wolfgang von <name type="reg">Goethe</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_207-9"/>ich nämlich jemand zum erstenmal sehe). — (Heute Mittags ess’
+                  ich<lb n="10" xml:id="II_207-10"/>allein bei der Ostheim.) Gegen 5 Uhr giengen wir
+               3 in Knebels<note corresp="#II_207-11">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002007">
+                        <persName> Charlotte von <name type="reg">Kalb</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-002149" ana="ff">
+                        <persName> Karl Ludwig von <name type="reg">Knebel</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_207-11"/>Garten: unterwegs fuhr uns Einsiedel entgegen, der mich
+               geradezu bei<note corresp="#II_207-12">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000914">
+                        <persName> Friedrich Hildebrand Freiherr von <name type="reg">Einsiedel-Scharfenstein</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_207-12"/>dem Kopf nahm und der nur 3 Worte sagen konte, weil er die
+                  Herzogin<note corresp="#II_207-13">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000090" ana="?">
+                        <persName>
+                           <name type="reg">Anna Amalia</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-002544" ana="?">
+                        <persName> Auguste <name type="reg">Luise</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_207-13"/>in die Komödie begleiten muste, nachher aber sogleich wieder
+                  kam.<note corresp="#II_207-14">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-0063951">
+                        <placeName>Theater, Konzerte, Oper; Weimar</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="II_207-14"/>Nach einigen Minuten sagte Knebel: „wie sich das alles
+               himlisch fügt,<lb n="15" xml:id="II_207-15"/>dort kömt Herder und seine Frau mit den
+               2 Kindern“ — Und wir<note corresp="#II_207-16">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001670">
+                        <persName> Caroline <name type="reg">Herder</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-001675" ana="ff">
+                        <persName> Johann Gottfried von <name type="reg">Herder</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-001677">
+                        <persName> Johann Gottfried von <name type="reg">Herder</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_207-16"/>giengen ihm entgegen und unter dem freien Himmel lag ich
+               endlich an<lb xml:id="II_207-17"/>seinem Mund und an seiner Brust und ich konte vor
+               erstickender Freude<lb xml:id="II_207-18"/>kaum sprechen, und nur weinen und Herder
+               konte mich nicht sat um<lb xml:id="II_207-19" rendition="#hyphen"/>armen. Und als ich
+               mich umsah, waren die Augen Knebels auch<lb n="20" xml:id="II_207-20"/>nas ..... Mit
+               Herder bin <metamark>[</metamark>ich<metamark>]</metamark> jezt so bekant wie mit
+               dir. Er wolte<lb xml:id="II_207-21"/>schon längst an mich schreiben; und als er und
+               seine Frau, die mich<note corresp="#II_207-22">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001670">
+                        <persName> Caroline <name type="reg">Herder</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_207-22"/>herzlich liebt — sie ist eine nur anders modifizierte
+                  Ostheim<note n="*)" place="foot">Von solchen Weibern wie die Ostheim und Herder
+                  hat man ohne Umgang gar<lb n="35" type="ig"/>keinen Begrif, so sprechen und so
+                  fühlen sie.</note> —<note corresp="#II_207-23">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002007">
+                        <persName> Charlotte von <name type="reg">Kalb</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_207-23"/>durch Hof reiseten, wolten sie mich besuchen. Ich wolt’ ich
+               könte so<note corresp="#II_207-24">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005841">
+                        <placeName>Hof im Vogtland</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="II_207-24"/>unverschämt sein, daß ich dir alles sagen könte. Er lobte
+               fast alles an<lb n="25" xml:id="II_207-25"/>meinen Werken — sogar die grönländischen
+               Prozesse — Er sieht nicht<note corresp="#II_207-26">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010724">
+                        <title>Grönländische Prozesse, oder Satirische Skizzen (1783, 1822)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="II_207-26"/>so edel aus als ich mir ihn dachte; spricht aber so wie er in
+                  den<lb xml:id="II_207-27"/>Humanitätsbriefen schreibt. Er sagte, so oft er den
+               Hesperus gelesen,<note corresp="#II_207-28">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008684">
+                        <author>Herder, Johann Gottfried (seit 1801) von (1744-1803)</author>
+                        <title>Briefe zur Beförderung der Humanität (1793-1797)</title>
+                     </bibl>
+                  </listBibl>
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010727">
+                        <title>Hesperus (1795)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="II_207-28"/>so wär’ er 2 Tage zu Geschäften untauglich gewesen. An der
+                  Ab<note corresp="#II_207-29">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010939">
+                        <title>Ueber die natürliche Magie der Einbildungskraft (1796 [1795])</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="II_207-29" rendition="#hyphen"/>handlung über die Phantasie gefält ihm
+               alles. Er drükte mir immer<lb n="30" xml:id="II_207-30" rendition="#hyphen"/>fort die
+               Hand. Und ich sagte immer, da wir alle neben einander sassen,<lb xml:id="II_207-31"/>„wenn nur mein Otto da wäre und es hörte.“ (Knebel und Herder<note corresp="#II_207-32">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002149">
+                        <persName> Karl Ludwig von <name type="reg">Knebel</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003112">
+                        <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_207-32"/>wollen mir die berühmtesten Bücher zum Lesen, z. B. den <hi rendition="#aq">Moniteur</hi>
+               <note corresp="#II_207-33">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010312">
+                        <author/>
+                        <title>Moniteur, französisches Amtsblatt (1799ff.)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="II_207-33"/>mit merkantilischer Gelegenheit schicken) Herder liebt die
+                  Satire<lb xml:id="II_207-34"/> unendlich und hat sie, zumal die Ironie, mehr im
+               Munde als den<lb xml:id="II_208-1"/>Ernst. Er fragte mich bei den meisten Stellen
+               meiner Bücher, um die<lb xml:id="II_208-2"/>Veranlassung dazu: er gab mir ein
+               erdrückendes Lob, das Sprechen von<lb xml:id="II_208-3"/>deinem <hi rendition="#aq">Paul</hi> mag etwan, obwol in Intervallen, 5 Stunden den ganzen<lb xml:id="II_208-4"/>Abend gedauert haben. „Ich bekäme Sündenbezahlung, sagten
+                  alle,<lb n="5" xml:id="II_208-5"/>da der Meister und die Horen, zu 4, 5 <hi rendition="#aq">Ldor</hi> den Bogen, abgehen.“<note corresp="#II_208-6">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008545">
+                        <author>Goethe, Johann Wolfgang von (1749-1832)</author>
+                        <title>Wilhelm Meisters Lehrjahre (1795-1796)</title>
+                     </bibl>
+                     <bibl corresp="#JP-009609">
+                        <author>Schiller, Friedrich (ab 1802) von (1759-1805) (Werk, Hrsg.)</author>
+                        <title>Die Horen, Zeitschrift (1795-1797)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="II_208-6"/>„Ich würde jezt in Deutschland am meisten gelesen; in Leipzig
+                  hätten<note corresp="#II_208-7">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-0056690">
+                        <placeName>Deutsche; Deutschland , deutsch , Germanien,
+                           Vaterland</placeName>
+                     </place>
+                     <place corresp="#JP-005948">
+                        <placeName>Leipzig</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="II_208-7"/>alle Buchhändler Kommissionen auf mich.“ Wieland hat mich
+                  drei<note corresp="#II_208-8">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004710">
+                        <persName> Christoph Martin <name type="reg">Wieland</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_208-8" rendition="#hyphen"/>mal gelesen, sie bedauerten alle, daß er
+               aus dem Zirkel fehlte. Herder<note corresp="#II_208-9">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001675" ana="ff">
+                        <persName> Johann Gottfried von <name type="reg">Herder</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_208-9"/>erzählte, daß der alte Gleim den ganzen Tag und die ganze
+                  Nacht<note corresp="#II_208-10">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001328">
+                        <persName> Johann Wilhelm Ludwig <name type="reg">Gleim</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="10" xml:id="II_208-10"/>fortgelesen. Er wil mich heute Briefe von Haman an
+               sich lesen lassen. —<note corresp="#II_208-11">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001508">
+                        <persName> Johann Georg <name type="reg">Hamann</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_208-11"/>Er spricht von Kants System im höchsten Grade — verächtlich.
+                  —<note corresp="#II_208-12">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002024">
+                        <persName> Immanuel <name type="reg">Kant</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_208-12"/>Von seinen eignen Werken sprach Herder mit einer solchen
+                  Gering<lb xml:id="II_208-13" rendition="#hyphen"/>schäzung, die einem das Herz
+               durchschnit, daß man kaum das Herz<lb xml:id="II_208-14"/>hatte, sie zu loben: er wil
+               nicht einmal die „Ideen“ fortsezen. „Das<note corresp="#II_208-15">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008692">
+                        <author>Herder, Johann Gottfried (seit 1801) von (1744-1803)</author>
+                        <title>Ideen zur Philosophie der Geschichte der Menschheit
+                           (1784-1791)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="15" xml:id="II_208-15"/>Beste ist, was ich ausstreiche“ sagt er, weil er
+               nämlich nicht frei<lb xml:id="II_208-16"/>schreiben darf, denn er denkt von der
+               christlichen Religion was ich und<note corresp="#II_208-17">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000629">
+                        <persName>
+                           <name type="reg">Christen</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_208-17"/>du. — Abends assen wir <hi rendition="#g">alle</hi> bei der
+               Ostheim und tranken 2erlei<note corresp="#II_208-18">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002007">
+                        <persName> Charlotte von <name type="reg">Kalb</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_208-18"/>Wein und <hi rendition="#aq">Nigges</hi> (ein milderer
+               Bischof) Sie sind alle die eifrigsten<note corresp="#II_208-19">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-00571521">
+                        <placeName>Punsch; England, englisch, Britannien</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="II_208-19"/>Republikaner. Denke dir den unter Wein, Ernst, Spot, Wiz
+                  und<lb n="20" xml:id="II_208-20"/>Laune verschwelgten Abend und die
+               Vormitternacht; ich machte so<lb xml:id="II_208-21"/>viel Satiren auf die Fürsten wie
+               bei Herold, kurz ich war so lustig wie<note corresp="#II_208-22">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001714">
+                        <persName> Johann Georg <name type="reg">Herold</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_208-22"/>bei euch. Heute isset die ganze <hi rendition="#aq">XX</hi>ger Union bei Herder. Die Fran<note corresp="#II_208-23">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001675">
+                        <persName> Johann Gottfried von <name type="reg">Herder</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-00574610">
+                        <placeName>Politik, Krieg, Militär; Frankreich, französisch</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="II_208-23" rendition="#hyphen"/>zosen schicken einen Theil der
+               italienischen Armee an den Rhein und<note corresp="#II_208-24">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005872">
+                        <placeName>Italien</placeName>
+                     </place>
+                     <place corresp="#JP-006187">
+                        <placeName>Rhein</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="II_208-24"/>bedecken so mit vier freundschaftlichen Flügeln von Armeen
+                  die<lb n="25" xml:id="II_208-25"/>österr<metamark>[</metamark>eichische<metamark>]</metamark> Straussenbrut. —
+               Beim Himmel! jezt hab’ ich<note corresp="#II_208-26">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006097">
+                        <placeName>Österreich</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="II_208-26"/>Muth — ich getraue mir, mit dem 44<hi rendition="#sup">ten</hi> Hern zu sprechen und noch<lb xml:id="II_208-27"/>mehr mit dem
+               Bürgermeister Oertel, Köhler und deren Sipschaft. —<note corresp="#II_208-28">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002169">
+                        <persName> Franz August <name type="reg">Köhler</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003054">
+                        <persName> Samuel Friedrich <name type="reg">Oerthel</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_208-28"/>Ich habe dir noch nicht ⅓ erzählt. — Aber ein <hi rendition="#g">bitterster Tropfen</hi>
+               <lb xml:id="II_208-29"/>schwimt in meinem Heidelberger Freudenbecher: <hi rendition="#g">was <hi rendition="#aq">Jean Paul</hi>
+               </hi>
+               <note corresp="#II_208-30">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005819">
+                        <placeName>Heidelberg</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb n="30" xml:id="II_208-30"/>gewan, das <hi rendition="#g">verliert die
+                  Menschheit</hi> in seinen Augen: ach meine<lb xml:id="II_208-31"/>Ideale von
+               grösseren Menschen! — Ich wil dirs schon erklären. —<lb xml:id="II_208-32"/>Aber alle
+               meine Bekantschaften thun beinahe nichts als den Werth<lb xml:id="II_208-33"/>meines
+               geliebten Bruders O. vergrössern, und bleib’ ich ewig der<lb xml:id="II_208-34"/>deine<lb n="35" xml:id="II_208-35"/>
+            </p>
+            <closer>
+               <salute>
+                  <hi rendition="#right">Richter</hi>
+                  <lb xml:id="II_208-36"/>
+               </salute>
+            </closer>
+            <postscript>
+               <p>Man glaubt hier am Hofe, ich sei an einem gewesen und Knebel<note corresp="#II_209-1">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002149">
+                           <persName> Karl Ludwig von <name type="reg">Knebel</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-00639512">
+                           <placeName>Hof; Weimar</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="II_209-1"/> schlos es aus den Partikularitäten und ich kont’ ihm
+                  selber nicht recht<lb xml:id="II_209-2"/> sagen, wo ich sie aufgegabelt.</p>
+               <lb xml:id="II_209-3"/>
+               <p>Ich logier’ herlich im Erbprinz vorn heraus.<note corresp="#II_209-4">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0063959">
+                           <placeName>Gasthof Erbprinz; Weimar</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="II_209-4"/>
+               </p>
+            </postscript>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Berlin JP. 4 S. 4°. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>: Otto 1,334×. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>: Nord u. Süd, XLVI<lb/>(1888), S. 354×. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">3</hi>: Nerrlich Nr. 19. <hi rendition="#i">A</hi>: IV. Abt.,
+                  II, Nr.</hi>
+               <hi rendition="#aq">107. </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">206</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">23</hi>
+               </hi> hat] <hi rendition="#aq">aus</hi>
+               <lb/> hatte <hi rendition="#b">
+                  <hi rendition="#aq">207</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">9</hi>
+               </hi>
+               <hi rendition="#aq">f. die erste Parenthese nachtr. <hi rendition="#rkd">13</hi>
+               </hi>3]<hi rendition="#aq"> davor</hi> der <hi rendition="#rkd">17</hi> freiem<lb/>
+               <hi rendition="#rkd">31</hi> immer] <hi rendition="#aq">nachtr.</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">208</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">6</hi>
+               </hi> der Meister] <hi rendition="#aq">aus</hi> Goethe für <hi rendition="#rkd">11</hi> sich] <hi rendition="#aq">aus</hi> ihn<lb/>
+               <hi rendition="#rkd">15</hi> hatte] <hi rendition="#aq">aus</hi> hat <hi rendition="#rkd">19 </hi>Wein] <hi rendition="#aq">nachtr.</hi> eine Sie] <hi rendition="#aq">aus</hi> Es <hi rendition="#rkd">21</hi> die] <hi rendition="#aq">nachtr.</hi>
+               <lb/>
+               <hi rendition="#rkd">25</hi> bedecken] <hi rendition="#aq">aus</hi> schliessen <hi rendition="#rkd">30</hi> in meinem] <hi rendition="#aq">aus</hi> im <hi rendition="#rkd">31</hi> das] <hi rendition="#aq">nachtr.</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">209</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">1</hi>
+               </hi>
+               <lb/>am Hofe] <hi rendition="#aq">nachtr.</hi> einem] <hi rendition="#aq">danach
+                  gestr.</hi> Hofe</p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Der Brief kam erst am 22. Juni in Hof an. <hi rendition="#b">206</hi>,<hi rendition="#rkd">17</hi>
+                  <hi rendition="#g">deus averruncus:</hi>
+                  <lb/>eine Unheil abwehrende Gottheit. <hi rendition="#rkd">21</hi>
+                  <hi rendition="#g">Bayreutherin:</hi> vielleicht Char<lb rendition="#hyphen"/>lottens Schwester Eleonore (1764—1831), Gattin des Präsidenten Joh.<lb/>Aug. v.
+                  Kalb, die zwar in Bamberg lebte (vgl. Persönl. Nr. 182, S. 124ff.), sich
+                  aber<lb/>vorübergehend auch in Bayreuth aufgehalten hatte; möglicherweise
+                  ist<lb/>aber auch metaphorisch Frau v. Kropff gemeint, vgl. <hi rendition="#b">183</hi>,<hi rendition="#rkd">23</hi>. <hi rendition="#rkd">27</hi>f. <hi rendition="#g">Lachen<lb/>aus Nervenschwäche:</hi> diesen Zug hat Jean Paul der
+                  Prinzessin Julienne<lb/>im Titan geliehen, s. I. Abt., VIII, 136,<hi rendition="#rkd">26</hi> (30. Zykel).<add resp="#MB"/>
+                  <hi rendition="#b">
+                     <hi rendition="#aq">
+                        <add resp="#MB">206</add>
+                     </hi>
+                  </hi>
+                  <hi rendition="#aq">
+                     <add resp="#MB">,</add>
+                  </hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">
+                        <add resp="#MB">35</add>
+                     </hi>
+                  </hi>
+                  <hi rendition="#aq">
+                     <add resp="#MB">f. Knebel war nicht Kammerherr; die Herzogin ist wohl
+                        Anna</add>
+                     <lb/>
+                     <add resp="#MB"> Amalia.</add>
+                     <hi rendition="#b">
+                        <hi rendition="#aq">
+                           <add resp="#MB">208</add>
+                        </hi>
+                     </hi>
+                     <hi rendition="#aq">
+                        <add resp="#MB">,</add>
+                     </hi>
+                     <hi rendition="#rkd">
+                        <hi rendition="#aq">
+                           <add resp="#MB">19</add>
+                        </hi>
+                     </hi>
+                     <hi rendition="#aq"/>
+                     <hi rendition="#aq">
+                        <hi rendition="#i">
+                           <add resp="#MB">Nigges</add>
+                        </hi>
+                        <add resp="#MB">] eig. Negus (englisch auszusprechen), ein nach dem
+                           Erfin-</add>
+                        <lb/>
+                        <add resp="#MB"> der, einem englischen Oberst, genanntes punschartiges
+                           Getränk.</add>
+                     </hi>
+                  </hi>
+                  <hi rendition="#b">208</hi>,<hi rendition="#rkd">28</hi>
+                  <hi rendition="#g">Bürger<lb rendition="#hyphen"/>meister Oertel:</hi> s. Bd.
+                  I,</hi>
+               <hi rendition="#aq">Nr. 432, 387,</hi>
+               <hi rendition="#rkd">35</hi>†.</p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

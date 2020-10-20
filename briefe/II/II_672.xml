@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="II_672">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="673">672. An Herder. </title>
+            <title n="digital">An Johann Gottfried von Herder. Hof, 31. Juli 97.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=II_672</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/II/II_672</idno>
+               <idno type="TELOTAID">II_672</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
+               <biblScope n="text" unit="page">
+                  <num>356</num>
+                  <num>357</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>520</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1797-07-31">31. Juli 97</date>
+               <placeName key="JP-005841" ref="http://www.geonames.org/2902768">Hof</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-001675" ref="http://d-nb.info/gnd/118549553">
+                  <name type="reg">Herder</name> Johann Gottfried von</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=II_478">5. Dezember 1796</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=III_120">17. August 1798</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <dateline>
+               <hi rendition="#right">
+                  <hi rendition="#aq">
+                     <placeName>Hof</placeName>.</hi> d. <date>31 Jul. 97</date>.</hi>
+            </dateline>
+            <lb xml:id="II_356-2"/>
+            <p>Einziger und Erster! Als Raphael seinen <hi rendition="#g">Johannes</hi>
+                  erschaffen<note corresp="#II_356-3">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001962" ana="ff">
+                        <persName>
+                           <name type="reg">Johannes</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-001963" ana="?">
+                        <persName>
+                           <name type="reg">Johannes</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-001965" ana="ff" rend="Raffael?">
+                        <persName>
+                           <name type="reg">Johannes</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003341">
+                        <persName>
+                           <name type="reg">Raffael </name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_356-3"/>hatte, kont’ er mit so vielem Rechte wie Sie <hi rendition="#aq">(p. VIII</hi> im <hi rendition="#g">Johannes)</hi>
+               <lb xml:id="II_356-4"/>sagen: ich bin kein Maler. Aber wer sagt dan: ich bin einer?
+                  —<lb n="5" xml:id="II_356-5"/>
+            </p>
+            <p>Gott gebe, daß die künftigen Jahrhunderte Sie mit dem um<lb xml:id="II_356-6" rendition="#hyphen"/>fassenden latitudinarischen Sinne lesen, womit Sie
+               darstellen: dan<note corresp="#II_356-7">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002367">
+                        <persName>
+                           <name type="reg">Latitudinarier</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_356-7"/>sind — wenigstens auf dem Drukpapier — die Religionskriege
+                  vorüber.<lb xml:id="II_356-8"/>Aber da Sie wahrhaft poetisch und dramatisch in
+               Ihre Denkweise jede<lb xml:id="II_356-9"/>fremde, sowohl der Völker als Individuen,
+               auffassen und schonend ein<lb n="10" xml:id="II_356-10" rendition="#hyphen"/>weben,
+               da Sie aus jedem Irthum die Wahrheit ziehen: so findet jeder<lb xml:id="II_356-11"/>in Ihrem weiten System leichter seines als Ihres.<note n="*)" place="foot">Daher
+                  erhielten gerade Leibniz und Lessing, weil sie jeder menschlichen An<note corresp="#II_356-35">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002388">
+                           <persName> Gottfried Wilhelm <name type="reg">Leibniz</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-002424">
+                           <persName> Gotthold Ephraim <name type="reg">Lessing</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="35" xml:id="II_356-35" rendition="#hyphen"/>sicht ihr Recht gaben, für ihre
+                  nicht das ihrige.<lb xml:id="II_356-36"/>
+               </note> Daher ist das<lb xml:id="II_356-12"/>nicht immer blos <hi rendition="#aq">ad
+                  hominem</hi> geschrieben, was so scheint: sondern<lb xml:id="II_356-13"/>der <hi rendition="#g">Vorhang</hi> des Parrhasius ist oft selber ein <hi rendition="#g">Gemälde;</hi> wie Ihre<note corresp="#II_356-14">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003153">
+                        <persName>
+                           <name type="reg">Parrhasios</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_356-14"/>philosophischen und ästhetischen Untersuchungen mir beweisen,
+                  in<lb n="15" xml:id="II_356-15"/>denen allemal mit der <hi rendition="#g">Tiefe</hi> zugleich die <hi rendition="#g">Weite</hi> zunimt. Ich meine,<lb xml:id="II_356-16"/>je länger Sie ein Objekt beschauen, desto mehr Stralen aus dem
+                  Uni<lb xml:id="II_356-17" rendition="#hyphen"/>versum finden Sie darein laufend
+               und der Zirkel jeder Welle breitet<lb xml:id="II_356-18"/>sich zu einer Sphära
+               armillaris aus. Niemand ist verständlicher als der<lb xml:id="II_356-19"/>Einseitige
+               und dem Kurzsichtigen glaubt man am ersten, weil seine<lb n="20" xml:id="II_356-20"/>Gegenstände vor uns liegen.</p>
+            <lb xml:id="II_356-21"/>
+            <p>Wie alle Ihre dichterischen Übersezungen nur Metempsychosen<lb xml:id="II_356-22"/>
+               <hi rendition="#g">Ihres</hi> Geistes sind, so assimilieren Sie jede fremde Meinung,
+                  die<lb xml:id="II_356-23"/>Sie annehmen, zu Ihrer. — Ihr Johannes, der eine
+                  gelehrtere<lb xml:id="II_356-24"/>Kritik voraussezt als der Vorgänger, ist der
+               mehr rein-menschliche vom<note corresp="#II_356-25">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008702">
+                        <author>Herder, Johann Gottfried (seit 1801) von (1744-1803)</author>
+                        <title>Vom Erlöser (1796)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="25" xml:id="II_356-25"/>nazionellen Manierierten gesäuberte Abris des
+               Christenthums. Er<note corresp="#II_356-26">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000629">
+                        <persName>
+                           <name type="reg">Christen</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_356-26"/>stillet wie eine Ewigkeit sanft das Herz, nicht weil er
+               Fragen über die<lb xml:id="II_356-27"/>Religion — die schon der Geist der Zeit
+               entschieden hat — sondern<lb xml:id="II_356-28"/>weil er schwere Fragen über die
+               Geschichte der Menschheit auflöset.<lb xml:id="II_356-29"/>Vor Ihnen wurde jeder
+               redlichen Seele wie Rousseau’n der Glaube<note corresp="#II_356-30">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003602">
+                        <persName> Jean-Jacques <name type="reg">Rousseau</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="30" xml:id="II_356-30"/>und der Unglaube ans Evangelium gleich schwer.
+               Frappant wahr ist<note corresp="#II_356-31">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010237">
+                        <author/>
+                        <title>Evangelien</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="II_356-31"/>der lezte Period <hi rendition="#aq">p.</hi> 58.; —
+               erquickend wahr <hi rendition="#aq">p. 276—300 — p.</hi> 210 in<lb xml:id="II_356-32"/>der Note ist Ihre Meinung über die Aufer— —wachung Christi<note corresp="#II_356-33">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000634">
+                        <persName>
+                           <name type="reg">Christus</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_356-33"/>eben so klar als heterodox, die sogar der Orthodoxe annehmen
+                  könte,<note corresp="#II_356-34">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001738">
+                        <persName>
+                           <name type="reg">Heterodoxe</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003082">
+                        <persName>
+                           <name type="reg">Orthodoxe</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_356-34"/> wenn er fassete, daß auf der Erde entweder gar nichts oder
+                  alles<lb xml:id="II_357-1"/>Wunder ist und daß beides — einerlei ist — — <hi rendition="#aq">p.</hi> 249 358 378 sind<lb xml:id="II_357-2"/>merkwürdig. Am
+               meisten aber gefiel mir das, was Sie von <hi rendition="#aq">p.</hi> 1 bis<lb xml:id="II_357-3"/>416 sagen.</p>
+            <lb xml:id="II_357-4"/>
+            <p>Warum übersezen Sie nicht wenigstens das N. T. Ihre christlichen<note corresp="#II_357-5">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010369">
+                        <author/>
+                        <title>Testament, Neues</title>
+                     </bibl>
+                     <bibl corresp="#JP-008686" ana="†">
+                        <author>Herder, Johann Gottfried (seit 1801) von (1744-1803)</author>
+                        <title>Christliche Schriften (1794-1798)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="5" xml:id="II_357-5"/>Schriften sind eben so unentbehrlich als unersezlich;
+               nur wünscht’ ich<lb xml:id="II_357-6"/>für die Menge, daß Ihr Vorhang des
+               Allerheiligsten zuweilen einen<lb xml:id="II_357-7"/>weitern Ris erhielte, aber ohne
+               Golgatha. — Die Briefe über<note corresp="#II_357-8">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005788">
+                        <placeName>Golgatha</placeName>
+                     </place>
+                  </listPlace>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008684" ana="†">
+                        <author>Herder, Johann Gottfried (seit 1801) von (1744-1803)</author>
+                        <title>Briefe zur Beförderung der Humanität (1793-1797)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="II_357-8"/>Humanität sind dem inhumanen Jahrzehend Arzenei. —</p>
+            <lb xml:id="II_357-9"/>
+            <p>In allen Ihren Gemälden von der deutschen Litteratur scheint mir<note corresp="#II_357-10">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-0056690">
+                        <placeName>Deutsche; Deutschland , deutsch , Germanien,
+                           Vaterland</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb n="10" xml:id="II_357-10"/>zwar nicht der ironische Schlagschatten Swifts, aber
+               doch das ironische<note corresp="#II_357-11">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004223">
+                        <persName> Jonathan <name type="reg">Swift</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_357-11"/>Streiflicht Horazens vorzuwalten: Ihr griechischer Geist thut
+                  scheint<note corresp="#II_357-12">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001833">
+                        <persName>
+                           <name type="reg">Horaz </name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005796">
+                        <placeName>Griechenland, Griechen</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="II_357-12"/>es der Stadt Unrecht, wo er wohnt.</p>
+            <note corresp="#II_357-13">
+               <listPlace type="lineReference">
+                  <place corresp="#JP-006395">
+                     <placeName>Weimar</placeName>
+                  </place>
+               </listPlace>
+            </note>
+            <lb xml:id="II_357-13"/>
+            <p>In Ihren zerstreueten Blättern verschlang ich die Gedichte und die<note corresp="#II_357-14">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008690">
+                        <author>Herder, Johann Gottfried (seit 1801) von (1744-1803)</author>
+                        <title>Gedichte</title>
+                     </bibl>
+                     <bibl corresp="#JP-008706" ana="†">
+                        <author>Herder, Johann Gottfried (seit 1801) von (1744-1803)</author>
+                        <title>Zerstreute Blätter (1785-1797)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="II_357-14"/>Abhandlungen über die Unsterblichkeit: Fr. v. <hi rendition="#aq">Berlepsch</hi> (die auf eine<note corresp="#II_357-15">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001542">
+                        <persName> Emilie Dorothea Friederike <name type="reg">Harmes</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008696" ana="†">
+                        <author>Herder, Johann Gottfried (seit 1801) von (1744-1803)</author>
+                        <title>Palingenesie (1797)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="15" xml:id="II_357-15"/>für mich merkwürdige Weise Klarheit und Kälte und
+               Kraft und Phanta<lb xml:id="II_357-16" rendition="#hyphen"/>sie vereint) nahm das
+               Buch mir weg ins Bad. Ich liebe sie sehr ......<note corresp="#II_357-17">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005696" ana="?">
+                        <placeName>Eger </placeName>
+                     </place>
+                     <place corresp="#JP-005749" ana="?">
+                        <placeName>Franzensbad </placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="II_357-17"/>das kan eben so gut auf Ihre Abhandlungen als auf die Fr. v.
+                  <hi rendition="#aq">Ber<lb xml:id="II_357-18" rendition="#hyphen"/>lepsch</hi>
+               gehen, und die 2. ersten Zeilen oben leiden beides.</p>
+            <lb xml:id="II_357-19"/>
+            <p>Mein Urtheil oder vielmehr meine Freude über Ihre Beweise<lb n="20" xml:id="II_357-20"/>unserer Ewigkeit ist in meinem Kampanerthal schon voraus
+                  abgedrukt,<note corresp="#II_357-21">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010585">
+                        <title>Das Kampaner Thal (1797)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="II_357-21"/>worin ich zu meinem Entzücken mit Ihnen unwissend
+                  zusammentreffe.<lb xml:id="II_357-22"/>Fliegen Sie doch durch dieses Thal: es hat
+               nicht die Musaik des<lb xml:id="II_357-23"/>Münsters, sondern das weite Grün eines
+               Thales.</p>
+            <note corresp="#II_357-24">
+               <listPlace type="lineReference">
+                  <place corresp="#JP-0063100">
+                     <placeName>Münster; Straßburg</placeName>
+                  </place>
+               </listPlace>
+            </note>
+            <lb xml:id="II_357-24"/>
+            <p>Haben Sie Nachsicht, Geliebtester, mit diesem Briefe, den ich<lb n="25" xml:id="II_357-25"/>kallygraphisch und ästhetisch besser hätte schreiben müssen,
+               wenn nicht<lb xml:id="II_357-26"/>Zerstreuungen, Geschäfte, Zeitmangel, Reisen und —
+               Ihre Liebe meine<lb xml:id="II_357-27"/>Fürsprecher wären.</p>
+            <lb xml:id="II_357-28"/>
+            <p>Wie glänzend und wie sanft steht jezt Ihr Geist wie eine Abendsonne<lb xml:id="II_357-29"/>vor meinem und ich sage: bringe allen Augen deinen Morgen und
+                  dein<lb n="30" xml:id="II_357-30"/>Licht und bring’ es meinen auch!</p>
+            <lb xml:id="II_357-31"/>
+            <closer>
+               <salute>
+                  <hi rendition="#right">
+                     <hi rendition="#aq">Jean Paul</hi> Fr. Richter</hi>
+                  <lb xml:id="II_357-32"/>
+               </salute>
+            </closer>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Goethe- u. Schiller-Archiv. 8 S. 8°. <hi rendition="#i">K</hi>: <hi rendition="#i">Herder</hi>
+               </hi> 31 Jul. <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>: Herders<lb/>Nachlaß Nr. 15. <hi rendition="#i">B</hi>:
+                  IV. Abt., II, Nr.</hi>
+               <hi rendition="#aq">208. </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">356</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">11</hi>
+               </hi> die] <hi rendition="#aq">aus</hi> eine <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">14</hi> oft] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>,<lb/>fehlt <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">20</hi> seine] <hi rendition="#aq">aus</hi> die <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">26</hi> Manirierten <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">29</hi> schwere] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+                  <lb/>30f.</hi> Glaube und der] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">32</hi> der] <hi rendition="#aq">aus</hi> die <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">357</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">1</hi>
+               </hi> gar nichts oder]<lb/>
+               <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+                  <hi rendition="#rkd">12</hi>f.</hi> thut scheint es der Stadt] <hi rendition="#aq">aus</hi> scheint die Stadt zu <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">21</hi> Camp.<lb/>Thal <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Vgl. Nr. 657. Herders hatten geschickt: die 9. und 10. Sammlung
+                  der<lb/>„Briefe zur Beförderung der Humanität“; die 6. Sammlung der „Zer<lb rendition="#hyphen"/>streuten Blätter“ (darin Abschnitt III: „Palingenesie. Vom
+                     Wieder<lb rendition="#hyphen"/>kommen menschlicher Seelen“); die 3. Sammlung
+                  der „Christlichen<lb/>Schriften“ mit der Schrift „Von Gottes Sohn, der Welt
+                  Heiland; nach<lb/>Johannes’ Evangelium“ (416 Seiten, Fortsetzung der Schrift
+                  „Vom<lb/>Erlöser“, s. zu Nr. 379); sämtlich 1797 erschienen. <hi rendition="#b">357</hi>,<hi rendition="#rkd">19</hi> Die 2 <hi rendition="#g">ersten<lb/>Zeilen oben</hi> (auf der Seite) enthalten die Worte <hi rendition="#rkd">16</hi>f.</hi> Klarheit <hi rendition="#aq">bis</hi> vereint.<lb/>
+               <hi rendition="#rkd">23</hi>
+               <hi rendition="#aq">f. <hi rendition="#g">Musaik des Münsters:</hi> vgl.</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">358</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">23</hi>
+               </hi>
+               <hi rendition="#aq">†.</hi>
+            </p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

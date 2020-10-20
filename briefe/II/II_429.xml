@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="II_429">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="430">429. An Christian Otto. </title>
+            <title n="digital">An Christian Otto. Bayreuth, 11. Oktober 1796.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=II_429</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/II/II_429</idno>
+               <idno type="TELOTAID">II_429</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
+               <biblScope n="text" unit="page">
+                  <num>254</num>
+                  <num>255</num>
+                  <num>256</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>479</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date cert="medium" when="1796-10-11">11. Oktober 1796</date>
+               <placeName key="JP-005574" ref="http://www.geonames.org/2951825">Bayreuth</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-003112" ref="http://d-nb.info/gnd/118590804">
+                  <name type="reg">Otto</name> Christian </persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=II_420">1. Oktober 1796</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=II_435">17. Oktober 1796</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <dateline>
+               <hi rendition="#right">
+                  <hi rendition="#aq">
+                     <placeName>Bayreuth</placeName>
+                  </hi>
+                  <date>
+                     <metamark>[</metamark>11. ?<metamark>]</metamark> O<metamark>[</metamark>kt.
+                     1796</date>.<metamark>]</metamark>
+               </hi>
+            </dateline>
+            <lb xml:id="II_254-27"/>
+            <p>Ich wil dein langes Schreiben, Lieber, vorjezt unbeantwortet lassen<lb xml:id="II_254-28"/>und sogleich meines anfangen als wenn du mir gar nichts
+                  geschrieben<lb xml:id="II_254-29"/>hättest. — Ich konte mich gleich in den ersten
+               Tagen auf lauter frohe<lb n="30" xml:id="II_254-30"/>gefast machen, weil jene die —
+               fatalsten waren, die ich je hier ver<lb xml:id="II_254-31" rendition="#hyphen"/>sessen habe. Den Donnerstag wartete der Koffer nicht auf mich, weil<lb xml:id="II_254-32"/>ihn <hi rendition="#aq">Emanuel</hi> zu spät bekam — die Kropf
+               war auf einige Tage ver<note corresp="#II_254-33">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002270">
+                        <persName> Wilhelmine von <name type="reg">Kropff</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003087">
+                        <persName> Emanuel <name type="reg">Osmund</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_254-33" rendition="#hyphen"/>reiset — den Freitag war der Himmel vol
+               Wolken und mein Kopf vol<lb xml:id="II_254-34"/>Migraine — der Sonabend war vol Lust
+               — — und so giengs fort.<lb n="35" xml:id="II_254-35"/> Indessen verschattet mir das
+               Weimarsche Riesengebirg, troz aller<note corresp="#II_255-1">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006194">
+                        <placeName>Riesengebirge</placeName>
+                     </place>
+                     <place corresp="#JP-006395">
+                        <placeName>Weimar</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="II_255-1"/>neuen Freunde und Freuden hier, doch die besten Weinreben und
+                  man<lb xml:id="II_255-2" rendition="#hyphen"/>ches wird nicht zeitig. — Ich wil
+               dir einiges ausheben; aber das ver<lb xml:id="II_255-3" rendition="#hyphen"/>sprochene Intelligenzblat vom Kriege vermag ich nicht beizuschliessen,<lb xml:id="II_255-4"/>weil ichs schon wieder verloren habe aus dem Kopf. Das weis ich
+                  noch,<lb n="5" xml:id="II_255-5"/>daß alles den Krieg bestätigt und den Frieden
+               widerlegt.</p>
+            <lb xml:id="II_255-6"/>
+            <p>Ich war bei Völderndorf <metamark>[</metamark>und<metamark>]</metamark> esse Mitwochs
+               bei ihm. Ich halt’<note corresp="#II_255-7">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004445">
+                        <persName> Carl Friedrich Wilhelm Freiherr von <name type="reg">Voelderndorff und Waradein</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_255-7"/>ihn unter den Staatsdienern für den redlichsten Man im Lande.
+                  Ich<lb xml:id="II_255-8"/>fand blos Güte, Offenheit, Patriotismus und Feuer bei
+               ihm: er würde<lb xml:id="II_255-9"/>mich, wäre der Himmel und der Boden zu brauchen,
+               auf sein Landgut<lb n="10" xml:id="II_255-10"/>mitnehmen. Wir öfneten uns einander
+               weit und vol Wahrheit und<lb xml:id="II_255-11"/>Liebe. Sein Äusseres hat troz dem
+               Quartanfieber, nichts von eckigen<lb xml:id="II_255-12"/>Klippen und Felsen; es
+               gefiel mir. Wir kamen auch auf dich und deine<lb xml:id="II_255-13"/>Brüder zu reden;
+               und ich hoffe nicht daß ich euch mehr als christlich<note corresp="#II_255-14">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000629">
+                        <persName>
+                           <name type="reg">Christen</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003118">
+                        <persName> Christoph <name type="reg">Otto</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_255-14"/>und weiblich ist verläumdet und verschrieen habe. Deinen
+                  Albrecht<note corresp="#II_255-15">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003106">
+                        <persName> Albrecht <name type="reg">Otto</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="15" xml:id="II_255-15"/>lernt’ er erst aus seinen <hi rendition="#aq">gravaminibus</hi> gegen die Notarien-Dornenlese<lb xml:id="II_255-16"/>kennen.
+               „Die Schrift, sagt er, that ihm wohl und weh zugleich“ weh<lb xml:id="II_255-17"/>wegen des gekränkten Verdienstes und wohl wegen des existierenden.<lb xml:id="II_255-18"/>Er wolte durch ein Postskript sein Vergessen verbessern; aber
+                  man<lb xml:id="II_255-19"/>antwortete ihm befremdet in Anspach: das Buch sei
+               einmal geschlossen.<note corresp="#II_255-20">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-0055290">
+                        <placeName>Fürstentum; Ansbach </placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb n="20" xml:id="II_255-20"/>Heute (d. 12<hi rendition="#sup">ten)</hi> seh’ ich
+               ihn am Teller.</p>
+            <lb xml:id="II_255-21"/>
+            <p>Ich habe einen meisterhaften Klavieristen <hi rendition="#aq">Destouches</hi> gehört.
+                  Ich<note corresp="#II_255-22">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000786">
+                        <persName> Franz Seraph von <name type="reg">Destouches</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_255-22"/>habe einen sehr schönen und klugen Domhern (Rambold) bei der
+                  Kropf<note corresp="#II_255-23">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002270">
+                        <persName> Wilhelmine von <name type="reg">Kropff</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-004593" ana="†">
+                        <persName> Freiherr Franz von Paula <name type="reg">Wambold von
+                              Umstadt</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_255-23"/>fast jeden Tag gesehen. Bei dieser ists alte Himmelsleben:
+               nur daß<lb xml:id="II_255-24"/>Rambold ihr <hi rendition="#aq">pastor fido</hi> ist,
+               wodurch Ahlefeld ein <hi rendition="#aq">pastor infido</hi> ge<note corresp="#II_255-25">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000044">
+                        <persName> Johann Georg Jacob von <name type="reg">Ahlefeldt</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008586">
+                        <author>Guarini, Battista (1538-1612), ital Dichter und Gelehrter</author>
+                        <title>Il pastor fido (1590)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="25" xml:id="II_255-25" rendition="#hyphen"/>worden. Dieser hat sich von seiner
+               erotischen Auszehrung erholt und<lb xml:id="II_255-26"/>sieht ganz gut aus. — Die
+               Hofräthin Vogt, die meinetwegen das<note corresp="#II_255-27">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004498">
+                        <persName> Henriette <name type="reg">Voigt</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_255-27"/>2temal hieher gefahren war, gehöret wieder unter die
+                  ausgezeichnet<lb xml:id="II_255-28"/>elektrisierten und elektrisierenden Weiber —
+               alt ist sie freilich. —</p>
+            <lb xml:id="II_255-29"/>
+            <p>Ich schreibe diesesmal nur einen kurzen Brief weil ich (mit diesem)<lb n="30" xml:id="II_255-30"/>5 Briefe nach Hof zu machen habe, als Antworten auf <hi rendition="#g">fünf</hi> erhaltene.<note corresp="#II_255-31">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005841">
+                        <placeName>Hof im Vogtland</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="II_255-31"/>Die zwei, die ich jezt schreiben werde, an
+                  A<metamark>[</metamark>möne<metamark>]</metamark> und
+                  C<metamark>[</metamark>aroline<metamark>]</metamark>
+               <note corresp="#II_255-32">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002454">
+                        <persName> Caroline <name type="reg">Liebmann</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003108">
+                        <persName> Amöne (Pseud. Amalie von Obyrn) <name type="reg">Otto</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_255-32"/>überliefere bald. Hier hast du noch dazu Oertel seinen. — Zu
+                  <hi rendition="#aq">Koelle</hi>
+               <note corresp="#II_255-33">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002177">
+                        <persName> Georg Michael <name type="reg">Kölle</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003039">
+                        <persName> Friedrich Benedikt von <name type="reg">Oertel</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_255-33"/>mus ich, da er nicht da war, das zweitemal hingehen. Der
+               junge er<note corresp="#II_255-34">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002179">
+                        <persName> Johann Ludwig Christian <name type="reg">Kölle</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_255-34" rendition="#hyphen"/>zählte, Wieland habe von Erlang nach Hof
+               gehen wollen und der ver<note corresp="#II_255-35">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004710">
+                        <persName> Christoph Martin <name type="reg">Wieland</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005841">
+                        <placeName>Hof im Vogtland</placeName>
+                     </place>
+                     <place corresp="#JP-005722">
+                        <placeName>Erlangen </placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb n="35" xml:id="II_255-35" rendition="#hyphen"/>fluchte Mangel an Pferden in oder
+               nach Streitberg hab’ alles ver<note corresp="#II_255-36">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006311">
+                        <placeName>Streitberg</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="II_255-36" rendition="#hyphen"/>nichtet. Das sind die leidigen Folgen des
+               Kriegs.</p>
+            <lb xml:id="II_255-37"/>
+            <p>Wäre nicht die Ausgabe meiner Zeit eine wahre Geldausgabe:<lb xml:id="II_256-1"/>so
+               zög’ ich sobald nicht von hier, weil ich dem Feldman fast nicht viel<note corresp="#II_256-2">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001049">
+                        <persName>
+                           <name type="reg">Feldmann</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-00557425">
+                        <placeName>Gasthof Zur goldenen Sonne; Bayreuth (Stadt)</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="II_256-2"/>mehr zu zahlen habe als Hauszins, kein Kostgeld.</p>
+            <lb xml:id="II_256-3"/>
+            <p>Drei oder vier neue philosophische Schreibbögen mögen meiner<lb xml:id="II_256-4"/>Zählung nach gleich vorn im 1 Bande zu <hi rendition="#aq">Woldemars</hi> neuer
+                  Auflage<note corresp="#II_256-5">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008828" ana="†">
+                        <author>Jacobi, Friedrich Heinrich (1743-1819), Philosoph und
+                           Schriftsteller(Werk)</author>
+                        <title>Woldemar (1777/79, 1794, 1796 u. ö.)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="5" xml:id="II_256-5"/>gekommen sein und, wenn ich mich recht entsinne, einige
+               alte weg.</p>
+            <lb xml:id="II_256-6"/>
+            <p>Es ärgert mich nicht, daß mich der Teufel gerade ins Aequinok<lb xml:id="II_256-7" rendition="#hyphen"/>ziumswetter geführt, das ich erwartet hatte (aber früher):
+               ich habe in<lb xml:id="II_256-8"/>Hof, wo einen keine Fluth von Zimmer in Zimmer
+               spühlt, den Nach<note corresp="#II_256-9">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005841">
+                        <placeName>Hof im Vogtland</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="II_256-9" rendition="#hyphen"/>sommer besser zur Hand. Lebe wohl Alter!
+               Ich wolte, ich hätte die<lb n="10" xml:id="II_256-10"/>2 Briefe schon fertig.
+               Herzliche Grüsse an deine Schwester und an<note corresp="#II_256-11">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004686">
+                        <persName> Friederike Christiane <name type="reg">Wernlein</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_256-11"/>deinen lieben
+                  Justiziari<metamark>[</metamark>um<metamark>]</metamark>.</p>
+            <note corresp="#II_256-12">
+               <listPerson type="lineReference">
+                  <person corresp="#JP-003106">
+                     <persName> Albrecht <name type="reg">Otto</name>
+                     </persName>
+                  </person>
+               </listPerson>
+            </note>
+            <lb xml:id="II_256-12"/>
+            <closer>
+               <salute>
+                  <hi rendition="#right">Richter</hi>
+               </salute>
+            </closer>
+            <lb xml:id="II_256-13"/>
+            <postscript>
+               <p>N. S. Eben komm ich vom seel<metamark>[</metamark>igen<metamark>]</metamark>
+                     Ess<metamark>[</metamark>en<metamark>]</metamark>. Ich hätte den Völ<note corresp="#II_256-14">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004445">
+                           <persName> Carl Friedrich Wilhelm Freiherr von <name type="reg">Voelderndorff und Waradein</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="II_256-14" rendition="#hyphen"/>derndorf vor Liebe auch fressen mögen.
+                  Der biederste Man im spiz<lb n="15" xml:id="II_256-15" rendition="#hyphen"/>bübischen Bayreuth.</p>
+            </postscript>
+            <note corresp="#II_256-16">
+               <listPlace type="lineReference">
+                  <place corresp="#JP-005574">
+                     <placeName>Bayreuth (Stadt)</placeName>
+                  </place>
+               </listPlace>
+            </note>
+            <lb xml:id="II_256-16"/>
+            <postscript>
+               <p>2. N. S. Donnerstags: Sonabends fahr ich denk ich mit der Kropf<note corresp="#II_256-17">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002270">
+                           <persName> Wilhelmine von <name type="reg">Kropff</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="II_256-17"/>nach Bernek, bleibe in Münchberg und Sontags siz’ ich
+                  unter euch.<note corresp="#II_256-18">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005588">
+                           <placeName>Berneck , Bad</placeName>
+                        </place>
+                        <place corresp="#JP-006039">
+                           <placeName>Münchberg </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="II_256-18"/>Heute seh ich den <hi rendition="#aq">Cassino</hi> Bal von
+                  150 Menschen<note corresp="#II_256-19">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-00557415">
+                           <placeName>Casino (Cassino); Bayreuth (Stadt)</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="II_256-19"/>
+               </p>
+            </postscript>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Berlin JP. 8 S. 8° (defekt unter Verlust eines Teils
+                  des Datums und<lb/>eines Textworts <hi rendition="#b">255</hi>,<hi rendition="#rkd">7)</hi>. <hi rendition="#i">J</hi>: Otto 2,92× (August</hi>
+               <hi rendition="#aq">1797). </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">254</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">31</hi>
+               </hi> jene] <hi rendition="#aq">aus</hi>
+               <lb/>es je] <hi rendition="#aq">nachtr.</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">255</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">23</hi>
+               </hi> Rambold] <hi rendition="#aq">von fremder Hand verb. in</hi> Wambold<lb/>
+               <hi rendition="#rkd">35</hi> von] <hi rendition="#aq">aus</hi> in <hi rendition="#b">
+                  <hi rendition="#aq">256</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">5</hi>
+               </hi> gleich vorn im 1 Bande] <hi rendition="#aq">nachtr.</hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Der Brief ist jedenfalls schon vor dem 12. Okt. (<hi rendition="#b">255</hi>,<hi rendition="#rkd">21)</hi> begonnen, da<lb/>Jean
+                  Paul sonst <hi rendition="#b">255</hi>,<hi rendition="#rkd">7</hi> „heute“ statt
+                  „Mitwochs“ geschrieben hätte.<lb/>
+                  <hi rendition="#b">255</hi>,<hi rendition="#rkd">22</hi> Franz Seraph <hi rendition="#g">Destouches</hi> (1772—1844), später (1797) Musik<lb rendition="#hyphen"/>direktor in Erlangen und (1799) Konzertmeister in Weimar,
+                  gab nach der<lb/>„Bayreuther Zeitung“ am 22. Sept. und 21. Okt. 1796 öffentliche
+                     Kon<lb rendition="#hyphen"/>zerte; Jean Paul scheint ihn also privatim gehört
+                  zu haben. <hi rendition="#rkd">23</hi>
+                  <hi rendition="#g">Rambold</hi>
+                  <lb/>ist Hör- oder Schreibfehler; gemeint ist Karl Ludwig Friedrich
+                  Ferdinand<lb/>Johann Nepomuk Franz von Paula, Freiherr <hi rendition="#g">Wambold</hi> von Umstadt,<lb/>geb. 21. Mai 1769 in Mainz, seit 1. Febr. 1781
+                  Domherr in Würzburg,<lb/>gest. 14. Mai 1842 in Bamberg.
+                  (General-Personal-Schematismus der Erz<lb rendition="#hyphen"/>diözese Bamberg,
+                  hgb. von F. Wachter, Bamberg 1908, Nr. 10725.) Vgl.<lb/>
+                  <hi rendition="#b">339</hi>,<hi rendition="#rkd">16</hi>f. und Persönl. Nr. 221,
+                  S. 190,<hi rendition="#rkd">24</hi>ff. <hi rendition="#rkd">33</hi>
+                  <hi rendition="#g">Koelle:</hi> vgl. <hi rendition="#b">96</hi>,<hi rendition="#rkd">16</hi>†. <hi rendition="#rkd">35 </hi>
+                  <hi rendition="#g">Wieland</hi> war<lb/>im Sept. 1796 auf der Rückreise von der
+                  Schweiz (vgl. zu Nr. 339) durch<lb/>Erlangen gekommen. <hi rendition="#b">256</hi>,<hi rendition="#rkd">4–6</hi>Die „neue verbesserte Auflage“
+                  von<lb/>Fr. H. Jacobis Roman „<hi rendition="#g">Woldemar</hi>“ erschien 1796 in Königsberg.<lb/>
+                  <hi rendition="#rkd">12</hi>
+                  <hi rendition="#g">Justitiar:</hi> Albrecht Otto.</hi>
+            </p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

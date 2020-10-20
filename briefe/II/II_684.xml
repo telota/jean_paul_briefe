@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="II_684">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="685">684. An Ahlefeldt in Berlin. </title>
+            <title n="digital">An Johann Georg Jacob von Ahlefeldt. Hof, 22. August 97.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=II_684</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/II/II_684</idno>
+               <idno type="TELOTAID">II_684</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
+               <biblScope n="text" unit="page">
+                  <num>365</num>
+                  <num>366</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>523</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1797-08-22">22. August 97</date>
+               <placeName key="JP-005841" ref="http://www.geonames.org/2902768">Hof</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000044" ref="http://d-nb.info/gnd/none">
+                  <name type="reg">Ahlefeldt</name> Johann Georg Jacob von</persName>
+               <placeName key="JP-005586" ref="http://www.geonames.org/2950159">Berlin</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=II_516">30. Januar 97</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=III_38">2. Januar 1798</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <dateline>
+               <hi rendition="#right">
+                  <hi rendition="#aq">
+                     <placeName>Hof</placeName>
+                  </hi> d. <date>22 Aug. 97</date>.</hi>
+            </dateline>
+            <lb xml:id="II_365-31"/>
+            <opener>
+               <salute>
+                  <hi rendition="#et">Unverändert Geliebter,</hi>
+               </salute>
+            </opener>
+            <lb xml:id="II_365-32"/>
+            <p>Wie gros mein Brief-<hi rendition="#aq">horror naturalis</hi> sei, soltest du aus
+                  dem<lb xml:id="II_365-33"/>Schweigen auf solche Briefe wie deine schliessen, worin
+               eben so viel<lb xml:id="II_365-34"/>Gluth als Schimmer ist und deren Schwungfedern
+               eben so <hi rendition="#g">lang</hi> sind<lb n="35" xml:id="II_365-35"/>als <hi rendition="#g">glänzend.</hi> Ich schreibe jezt fast keine Briefe mehr als —
+               erste: den<lb xml:id="II_365-36"/> zweiten haben Wenige aufzuweisen ausser dir. Nun
+               zieh’ ich vollends<lb xml:id="II_366-1"/>auf immer von <hi rendition="#aq">Hof</hi>
+               nach <hi rendition="#aq">Leipzig</hi> (mit meinem Bruder) in den Strudel<note corresp="#II_366-2">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003485">
+                        <persName> Johann Samuel <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005841">
+                        <placeName>Hof im Vogtland</placeName>
+                     </place>
+                     <place corresp="#JP-005948">
+                        <placeName>Leipzig</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="II_366-2"/>der Arbeiten, Bücher, Lustbarkeiten, Bekantschaften — Dan
+                  braucht<lb xml:id="II_366-3"/>hoff ich das Schiksal nicht so viele
+               Maschinenmeister mehr, um unsere<lb xml:id="II_366-4"/>Körper-Karyatiden
+               zusammenzurücken und wir umarmen uns unter<lb n="5" xml:id="II_366-5"/>den Augen des
+                  3<hi rendition="#sup">ten</hi> Freundes.</p>
+            <note corresp="#II_366-6">
+               <listPerson type="lineReference">
+                  <person corresp="#JP-003039">
+                     <persName> Friedrich Benedikt von <name type="reg">Oertel</name>
+                     </persName>
+                  </person>
+               </listPerson>
+            </note>
+            <lb xml:id="II_366-6"/>
+            <p>Die <hi rendition="#aq">Kropff</hi> gieng, als ich im Egerbade war, hier durch zurük.
+                  Sie<note corresp="#II_366-7">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002270">
+                        <persName> Wilhelmine von <name type="reg">Kropff</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005696">
+                        <placeName>Eger </placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="II_366-7"/>bleibt die ewige milde <hi rendition="#aq">zona
+                  temperata.</hi>
+            </p>
+            <lb xml:id="II_366-8"/>
+            <p>Verzeih die Kürze! Du weist nicht, wie ich dein Herz liebe und deine<lb xml:id="II_366-9"/>Talente achte: ich brauche zu meiner wärmsten Liebe für dich
+                  kaum<lb n="10" xml:id="II_366-10"/>deine Briefe, geschweige meine; aber zu meiner
+               Freude brauch ich jene.</p>
+            <lb xml:id="II_366-11"/>
+            <p>Lebe glüklich!</p>
+            <lb xml:id="II_366-12"/>
+            <closer>
+               <salute>
+                  <hi rendition="#right">
+                     <hi rendition="#aq">Jean Paul</hi>
+                  </hi>
+               </salute>
+            </closer>
+            <lb xml:id="II_366-13"/>
+            <postscript>
+               <p>N. S. In Mahlman find’ ich ein ungemeines Talent für den<note corresp="#II_366-14">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002583" ana="†">
+                           <persName> Siegfried August <name type="reg">Mahlmann</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="II_366-14"/>elegischen Ausdruk der Empfindungen: aber wie sol ich
+                  einem nie<lb n="15" xml:id="II_366-15"/>Gesehenen einen <hi rendition="#g">zweiten</hi> Brief schreiben?</p>
+            </postscript>
+            <lb xml:id="II_366-16"/>
+            <trailer>
+               <address>
+                  <addrLine>
+                     <metamark>[</metamark>Adr.<metamark>]</metamark> Ihro Hochwohlgeboren dem H.
+                     Regierungsassessor <hi rendition="#aq">v. Ahle<lb xml:id="II_366-17" rendition="#hyphen"/>feld</hi> in <hi rendition="#aq">Berlin.</hi> d.
+                     E.</addrLine>
+               </address>
+            </trailer>
+            <lb xml:id="II_366-18"/>
+            <postscript>
+               <p>Sei so gut und sende die Inlage an M<note corresp="#II_366-19">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002678">
+                           <persName> Carl August <name type="reg">Matzdorff </name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="II_366-19"/>
+               </p>
+            </postscript>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Berlin acc. ms. 1931. 27 (derzeit BJK). 3 S. 8°; Adr.
+                  auf der 4. S. <hi rendition="#i">K</hi>:</hi> Ahlefeld 22 Aug. <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>: Dietmar<lb/>Nr. 3. <hi rendition="#i">B</hi>: IV. Abt.,
+                  II, Nr. 174, 191, 220. <hi rendition="#i">A</hi>: IV. Abt., III.1, Nr.</hi>
+               <hi rendition="#aq">11? </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">365</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">33</hi>
+               </hi> soltest] <hi rendition="#aq">davor<lb/>gestr.</hi> erken[st] <hi rendition="#rkd">35</hi> Schimmer] <hi rendition="#aq">danach</hi> (Wiz) <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">366</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">6</hi>
+               </hi>
+               <hi rendition="#aq">Der <hi rendition="#g">dritte Freund</hi> ist wohl Fr. von
+                  Oertel, dem aber Ahlefeldt<lb/>nicht sonderlich gefallen hatte. <hi rendition="#rkd">7</hi>
+                  <hi rendition="#g">Die Kropff:</hi> Ahlefeldt erwähnt im<lb/>IV. Abt. (Br. an J.
+                  P.), II, Nr. 220 den „Durchgang der Venus durch die Hofsche Sonne“.<lb/>
+                  <hi rendition="#rkd">14</hi>ff. Siegfried August <hi rendition="#g">Mahlmann</hi>
+                  (1771—1826), Jean Pauls nachmaliger<lb/>Schwager, hatte den Winter 1796/97 in
+                  Berlin verbracht, wo Ahlefeldt<lb/>sich mit ihm anfreundete; vgl. <hi rendition="#i">B</hi> (Nr. 170): „Du kennst und liebst<lb/>Mahlmann aus seinen
+                  Briefen; ... er verehrt dich enthusiastisch ... er be<lb rendition="#hyphen"/>grüßt dich durch mich ...“ (Nr. 188:) „Das was ich dir hier schicke ist<lb/>das
+                  Vermächtniß des guten Mahlmanns, welches er hier zurückließ und das<lb/>ich dir
+                  als executor übermache — wenn du ihm antworten willst, so sende<lb/>mir deinen
+                  Brief ...“ <hi rendition="#rkd">19</hi> M. = Matzdorff.</hi>
+            </p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>
