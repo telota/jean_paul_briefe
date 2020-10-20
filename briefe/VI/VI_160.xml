@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VI_160">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="161">160. An Friedrich Heinrich Jacobi in München. </title>
+            <title n="digital">An Friedrich Heinrich Jacobi. Bayreuth, 21. September 1809 bis 4.
+               Oktober 1809.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=VI_160</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/VI/VI_160</idno>
+               <idno type="TELOTAID">VI_160</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope unit="page">
+                  <num>54</num>
+                  <num>55</num>
+                  <num>56</num>
+                  <num>57</num>
+                  <num>58</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+            <listBibl type="commentary" subtype="werke">
+               <bibl corresp="#JP-008826">
+                  <author>Jacobi, Friedrich Heinrich (1743-1819), Philosoph und
+                     Schriftsteller(Werk)</author>
+                  <title>Von den göttlichen Dingen (1811)</title>
+               </bibl>
+               <bibl corresp="#JP-008965">
+                  <author>Köppen, Friedrich (1775-1858), Philosoph</author>
+                  <title>Darstellung des Wesens der Philosophie (1810)</title>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date corresp="writingSession1" when="1809-09-21">21. September 1809</date>
+               <date corresp="writingSession2" when="1809-09-24">24ten September 1809</date>
+               <date corresp="writingSession3" when="1809-10-04">4. Oktober 1809</date>
+               <placeName key="JP-005574" ref="http://www.geonames.org/2951825">Bayreuth</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-001909" ref="http://d-nb.info/gnd/118556312">
+                  <name type="reg">Jacobi</name> Friedrich Heinrich</persName>
+               <placeName key="JP-006040" ref="http://www.geonames.org/2867714">München</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=V_552">22. Juli 1808</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VI_314">22. Juli 1810</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <div n="writingSession1">
+               <lb xml:id="VI_54-22"/>
+               <dateline>
+                  <hi rendition="#right">
+                     <hi rendition="#aq">
+                        <placeName>Bayreuth</placeName> d. <date>21. Sept. 1809</date>
+                     </hi>
+                  </hi>
+               </dateline>
+               <lb xml:id="VI_54-23"/>
+               <p>Deine liebe Handschrift fuhr wie ein Sonnenblick aus dem<lb xml:id="VI_54-24"/>
+                  Winterhimmel in mein Aug’ und Herz, lieber Heinrich. Ich er<lb n="25" xml:id="VI_54-25" rendition="#hyphen"/> freue mich, daß du mich nicht <hi rendition="#g">ganz</hi> vergessen hast, und will daher<lb xml:id="VI_54-26"/>
+                  nicht nachwägen, wie groß das Stück ist, das dir von mir geblieben.<lb xml:id="VI_54-27"/> Eigentlich sollten Freunde in dieser <hi rendition="#g">dumpfen</hi> Zeit sich näher an<lb xml:id="VI_54-28"/> einander drängen, um
+                  gegen die Verflüchtigung der Plane und Aus<lb xml:id="VI_54-29" rendition="#hyphen"/>sichten und der äußern Thätigkeit sich durch die innere
+                  der Liebe<lb n="30" xml:id="VI_54-30"/> und der darin zurückwirkenden
+                  Vergangenheit einen festen Lebens<lb xml:id="VI_54-31" rendition="#hyphen"/>Kern
+                  zu bewahren. Es geschieht aber gerade das Gegentheil; die<lb xml:id="VI_54-32"/>
+                  Menschen lieben einander weniger, wenn sie neben einander nur<note corresp="#VI_54-33">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-010062">
+                           <author>Werner, Zacharias (1768-1823), Tragödiendichter</author>
+                           <title>Martin Luther oder die Kraft der Weihe (1807)</title>
+                        </bibl>
+                        <bibl corresp="#JP-010063">
+                           <author>Werner, Zacharias (1768-1823), Tragödiendichter</author>
+                           <title>Die Söhne des Thales (1803-1804)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VI_54-33"/> zuzuschauen haben.</p>
+               <lb xml:id="VI_54-34"/>
+               <p>Ich folge jetzt deinem Briefe.</p>
+               <lb xml:id="VI_55-1"/>
+               <p>In meinen sehr ernsten <hi rendition="#aq">Daemmerungen</hi> (sie sind die
+                     fortgesetzte<note corresp="#VI_55-2">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010576" ana="†">
+                           <title>Dämmerungen für Deutschland (1809)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VI_55-2"/> Friedens Predigt) wirst du mehr für dich finden als in
+                     meinen<note corresp="#VI_55-3">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010713">
+                           <title>Friedens-Predigt an Deutschland (1808)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VI_55-3"/> komischen Werken, welche dich, glaub’ ich, zu wenig
+                  ansprechen wie<lb xml:id="VI_55-4"/> mich viel. Ich erlaubte <hi rendition="#aq">Cotta</hi> — sie sind schon vom August 08<note corresp="#VI_55-5">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000698">
+                           <persName> Johann Friedrich Freiherr <name type="reg">Cotta von
+                                 Cottendorf</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="5" xml:id="VI_55-5"/> bis März 09 geschrieben — eine Verspätung der
+                  Herausgabe bis<lb xml:id="VI_55-6"/> zur Ostermesse 1810.<note n="*)" place="foot">Sie sollen doch schon im jetzigen Meßkatalog stehen.</note> — Nicht am
+                  Verlegen, sondern am Machen<lb xml:id="VI_55-7"/> deiner <hi rendition="#aq">opp.
+                     omn.</hi> fehlts. <hi rendition="#aq">Cotta</hi> nähme sie mit eben so viel
+                     Ver<note corresp="#VI_55-8">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000698">
+                           <persName> Johann Friedrich Freiherr <name type="reg">Cotta von
+                                 Cottendorf</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-008829">
+                           <author>Jacobi, Friedrich Heinrich (1743-1819), Philosoph und
+                              Schriftsteller(Werk)</author>
+                           <title>Werke (1812-1825)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VI_55-8" rendition="#hyphen"/>gnügen als du nachher über seine ganze
+                  liberale Handlungs Weise<lb xml:id="VI_55-9"/> haben würdest. Auch eigentlich
+                  nicht am Machen deiner Werke<lb n="10" xml:id="VI_55-10"/> fehlts; viele sind
+                  schon gemacht, so wie deine Briefe, aus denen<lb xml:id="VI_55-11"/> du geben
+                  willst; <hi rendition="#aq">Pensées Ã  la Pascal</hi> (die <hi rendition="#aq">Ã 
+                     la Montaigne</hi> weniger)<note corresp="#VI_55-12">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002860">
+                           <persName> Michel Eyquem de <name type="reg">Montaigne</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_55-12"/> kommen sogleich mit ihrer ganzen besten Form auf die Welt.
+                     Du<lb xml:id="VI_55-13"/> bist wirklich der jetzigen sich selber immer
+                  durchsichtiger aushölenden<lb xml:id="VI_55-14"/> Zeit deine Fülle und Aufopferung
+                  schuldig sogar (im Zeitmangel<lb n="15" xml:id="VI_55-15"/> durch Krankheit) auf
+                  einige Kosten der Form. Schreibe nur nicht<lb xml:id="VI_55-16"/> zu viele Briefe
+                  — von mir an bis zu <hi rendition="#aq">Goethe</hi> —; mit dem nämlichen<note corresp="#VI_55-17">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001353" ana="†">
+                           <persName> Johann Wolfgang von <name type="reg">Goethe</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-009366">
+                           <author>Pascal (Paskal), Blaise (1623-1662), französ. Philosoph und
+                              Physiker</author>
+                           <title>Pensées (1670)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VI_55-17"/> Magen, Kopfe, Auge (es ist hier blos vom
+                     Körper-Hemmschuh<lb xml:id="VI_55-18"/> an Apollons oder Psychens Wagen die
+                  Rede) hättest du eben so<lb xml:id="VI_55-19"/> gut 16 Seiten für den Druck, als 4
+                  für <hi rendition="#aq">Goethe</hi> ausarbeiten und<lb n="20" xml:id="VI_55-20"/>
+                  geben können.</p>
+               <lb xml:id="VI_55-21"/>
+               <p>Aber wie <hi rendition="#aq">Johnson</hi> Gespräche über Lesen und Schreiben<note n="**)" place="foot">
+                     <note place="left">35</note>Aber, hoff’ ich, mit Ausnahme der Empfängnis der
+                     Kunstwerke und<lb type="ig"/> Systeme und mit Ausnahme der Darstellung von
+                     deren Lebens- und Seelen<lb type="ig" rendition="#hyphen"/> Stellen.</note>
+                     setzte,<note corresp="#VI_55-22">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001966">
+                           <persName> Samuel <name type="reg">Johnson</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_55-22"/> so du (wahrscheinlich) Briefe über Bücher; — und in
+                  Rücksicht des<lb xml:id="VI_55-23"/> Genusses habt ihr beide Recht.
+                  Schriftstellerei muß man sich zu<lb xml:id="VI_55-24" rendition="#hyphen"/>letzt
+                  zur <hi rendition="#g">Pflicht</hi> machen; hätt’ ich indeß diesen Grundsatz
+                  nicht, so<lb n="25" xml:id="VI_55-25"/> wüßt ich nichts amüsanteres als Briefe und
+                  Gespräche. Du als<lb xml:id="VI_55-26"/> Präsident und Weltmann und <hi rendition="#aq">Thée</hi>-Geber — den meisten Arzneien<lb xml:id="VI_55-27"/>
+                  wird <hi rendition="#aq">Thée</hi> nachgetrunken —</p>
+               <lb xml:id="VI_55-28"/>
+            </div>
+            <div n="writingSession2">
+               <dateline>
+                  <hi rendition="#right">d. 24<hi rendition="#sup">ten</hi>
+                  </hi>
+               </dateline>
+               <lb xml:id="VI_55-29"/>
+               <p>„wirst zum Doppelgenusse des Gesprächs verlockt und genöthigt.“<lb n="30" xml:id="VI_55-30"/> So werd’ ich haben fortfahren wollen. Über <hi rendition="#aq">Werner</hi> bin ich deiner<note corresp="#VI_55-31">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004683" ana="†">
+                           <persName> Zacharias <name type="reg">Werner</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_55-31"/> ästhetischen und philosophischen Meinung. Am tollsten
+                  wurd’ ich<lb xml:id="VI_55-32"/> über seinen Luther; daß er aus Luther und
+                  Elisabeth solche zer<note corresp="#VI_55-33">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000702">
+                           <persName> Elisabeth <name type="reg">Cotta</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_55-33" rendition="#hyphen"/> floßne Fratzen-Schatten gemacht, dafür
+                  hätt’ ihm Luther seinen<lb xml:id="VI_56-1"/> ächten Band Tischreden an den Kopf
+                  geworfen. Der karfunkelnde<note corresp="#VI_56-2">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-009139">
+                           <author>Luther, Martin (1483-1546)</author>
+                           <title>Tischreden (1531-1546)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VI_56-2"/> Famulus allein ist ächt theatralisch, wenn er durch einen
+                     guten<lb xml:id="VI_56-3"/> Schauspieler, einen Weston, Foote, Carlin, oder
+                  auch Schuch<note corresp="#VI_56-4">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000581">
+                           <persName>
+                              <name type="reg">Carlin(o)</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-001129">
+                           <persName> Samuel <name type="reg">Foote</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003877">
+                           <persName> Franziskus <name type="reg">Schuch</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-004697">
+                           <persName> Thomas <name type="reg">Weston</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_56-4"/> richtig dargestellt wird. — Nicht die Darstellung des
+                     Mystischen<lb n="5" xml:id="VI_56-5"/> ist hier die Entheiligung desselben,
+                  sondern die Armuth daran bei<lb xml:id="VI_56-6"/> dem Bestreben, den Leser in der
+                  Guckkasten-Nacht unbestimmter<lb xml:id="VI_56-7"/> Floskeln mehr sehen zu lassen
+                  als der Kasten-Künstler selber sieht<lb xml:id="VI_56-8"/> und weiß. — Die letzten
+                  Auftritte des Attila waren mir eine wahn<note corresp="#VI_56-9">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-010061" ana="†">
+                           <author>Werner, Zacharias (1768-1823), Tragödiendichter</author>
+                           <title>Attila (1808)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VI_56-9" rendition="#hyphen"/>sinnige Verschraubung aller menschlichen
+                  Empfindungen wie sie<lb n="10" xml:id="VI_56-10"/> nur jetzt floriert.</p>
+               <lb xml:id="VI_56-11"/>
+            </div>
+            <div n="writingSession3">
+               <dateline>
+                  <hi rendition="#right">d. 4 Okt.</hi>
+               </dateline>
+               <lb xml:id="VI_56-12"/>
+               <p>
+                  <hi rendition="#aq">Koeppen</hi> war diese Woche bei mir. Sein
+                     nordisch-redlicher<note corresp="#VI_56-13">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002189">
+                           <persName> Friedrich <name type="reg">Köppen</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_56-13"/> Charakter und seine freie philosophische kraftvolle
+                  Ansicht haben<lb xml:id="VI_56-14"/> mir ihn mehr gewonnen und liebgemacht (so wie
+                  dem genialen<lb n="15" xml:id="VI_56-15"/>
+                  <hi rendition="#aq">D.</hi> Langermann) als er selber vielleicht vorausgesetzt, da
+                  ich durch<note corresp="#VI_56-16">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002357">
+                           <persName> Johann Gottfried <name type="reg">Langermann</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_56-16"/> Nachwehen meines Wechselfiebers<note n="*)" place="foot">Dennoch war ich nie auf dem Krankenbette — ausgenommen einmal in<lb type="ig"/> der Kindheit —<note place="right">35</note>
+                  </note>
+                  <metamark>[</metamark>ihn<metamark>]</metamark> zweimal nicht sehen konnte<lb xml:id="VI_56-17"/> und Einmal aus Arbeits-Ursach. Alles übrige erzähl’ er dir
+                  selber.</p>
+               <lb xml:id="VI_56-18"/>
+               <p>Der freche Tiek sammt seiner frechen Frau und Schwester sind<note corresp="#VI_56-19">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002157" ana="†">
+                           <persName> Sophie von <name type="reg">Knorring</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-004302">
+                           <persName> Ludwig (Pseud. Peter Leberecht, Gottlieb Färber) <name type="reg">Tieck</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-004304" ana="†">
+                           <persName> Amalie <name type="reg">Tieck</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_56-19"/> — nach <hi rendition="#aq">Bernhardi</hi> — wirklich
+                  katholisch geworden, um endlich das<note corresp="#VI_56-20">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000319">
+                           <persName> August Ferdinand <name type="reg">Bernhardi</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-002064">
+                           <persName>
+                              <name type="reg">Katholiken </name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="20" xml:id="VI_56-20"/> zu sein, was du von einem Dichter so sehr foderest.
+                  Nachdem nämlich<lb xml:id="VI_56-21"/> Tiek und Schlegel etc. lange genug aus
+                  poetischem Scheine und<note corresp="#VI_56-22">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003760">
+                           <persName> Friedrich <name type="reg">Schlegel</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_56-22"/> Spaße vor der h. Marie gekniet, haben sie zuletzt im
+                     prosaischen<note corresp="#VI_56-23">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002632">
+                           <persName>
+                              <name type="reg">Maria</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_56-23"/> Ernste angebetet, wie Lügner am Ende sich selber glauben.
+                     So<lb xml:id="VI_56-24"/> wird denn aus poetischer Form doch Stoff.<lb n="25" xml:id="VI_56-25"/>
+               </p>
+               <p>Dein Gegensatz der Wissenschaft — als Spinozismus und Pla<note corresp="#VI_56-26">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004115">
+                           <persName> Baruch <name type="reg">Spinoza</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-009408">
+                           <author>Platon (Plato) (427-347 v. Chr.)</author>
+                           <title>Platoniker</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VI_56-26" rendition="#hyphen"/>tonismus — wird neuerlich durch Oken
+                  recht klar, der „das Zero<note corresp="#VI_56-27">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-009315" ana="ff†">
+                           <author>Oken, Lorenz (1779-1851), Naturforscher und Arzt</author>
+                           <title>Lehrbuch der Naturphilosophie (1808-1811)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VI_56-27"/> „oder Nichts<note n="**)" place="foot">das er auch das
+                     Absolute nennt.</note> zum Inbegriff der Mathematik und Gott zum<lb xml:id="VI_56-28"/> „selbstbewußten Nichts macht und alle Einzelwesen zu
+                     bestimmten<lb xml:id="VI_56-29"/> „Nichtsen“ folglich zu <hi rendition="#g">bestimmten</hi>
+                  <hi rendition="#aq">
+                     <hi rendition="#b">Absolutis.</hi>
+                  </hi> Ich schrieb einmal<lb n="30" xml:id="VI_56-30"/> aus Spaß, dem
+                  transzendenten <hi rendition="#g">Steigern</hi> bleibe nun kein noch<note corresp="#VI_56-31">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001675">
+                           <persName> Johann Gottfried von <name type="reg">Herder</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_56-31"/> höheres Prinzip übrig als das Nichts; jetzt sagt <hi rendition="#g">der</hi> wirklich, „es<lb xml:id="VI_56-32"/> existiert nichts
+                  als das Nichts.“</p>
+               <lb xml:id="VI_56-33"/>
+               <p>Spaßhaft sind mir seine Sprünge wie er von <hi rendition="#aq">o</hi> (wenn wir
+                     das<lb xml:id="VI_57-1"/> römische Zahlensystem hätten, wär’ er um den ganzen
+                  Anfang aus<note corresp="#VI_57-2">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006205">
+                           <placeName>Rom, römisch</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VI_57-2"/>
+                  <hi rendition="#aq">o</hi>-Mangel gebracht) und vom leeren + und — zur Eins
+                     hinüber<lb xml:id="VI_57-3"/> setzen will. Sonst in andern Fächern ist er ein
+                  trefflicher Kopf,<lb xml:id="VI_57-4"/> aber durch einen Feen-Fluch der Zeit
+                  werden jetzt alle gute Köpfe,<lb n="5" xml:id="VI_57-5"/> wie in Dante’s Hölle die
+                  der Heuchler, umgedreht; die andern guten<note corresp="#VI_57-6">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-008284" ana="†">
+                           <author>Dante Alighieri (1265-1321)</author>
+                           <title>Inferno</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VI_57-6"/> köpft der Tod.</p>
+               <lb xml:id="VI_57-7"/>
+               <p>Okens Nichts ist ziemlich dem Un-Grunde gleich, den Schelling<note corresp="#VI_57-8">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003713">
+                           <persName> Friedrich Wilhelm Joseph (ab 1812) von <name type="reg">Schelling</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_57-8"/> in Gott anbringt, um allda für den Teufel Quartier zu
+                  machen.</p>
+               <lb xml:id="VI_57-9"/>
+               <p>
+                  <hi rendition="#aq">Ancillon</hi> hab’ ich noch nicht gelesen.<note corresp="#VI_57-10">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-008025" ana="†">
+                           <author>Ancillon, Frédéric (1767-1837), preußischer Minister des
+                              Auswärtigen</author>
+                           <title>Mélanges de littérature et de philosophie (1809)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb n="10" xml:id="VI_57-10"/>
+               </p>
+               <p>Deine Frage über Goethens Faust begehrt zur Antwort ein —<note corresp="#VI_57-11">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-008510">
+                           <author>Goethe, Johann Wolfgang von (1749-1832)</author>
+                           <title>Faust</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VI_57-11"/> Büchlein. Die poetische Kraftfülle darin begeistert mich.
+                  Ich weiß<lb xml:id="VI_57-12"/> wol, deine Frage meint mehr die philosophische als
+                     ästhetische<lb xml:id="VI_57-13"/> Schätzung. Eigentlich ists gegen die
+                  Titanen-Frechheit geschrieben,<note corresp="#VI_57-14">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004315">
+                           <persName>
+                              <name type="reg">Titanen</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_57-14"/> die er sehr leicht in seinem — Spiegel, wenigstens sonst,
+                     finden<lb n="15" xml:id="VI_57-15"/> konnte. Aber vor der Vollendung des Werks
+                  ist kein gerechtes<lb xml:id="VI_57-16"/> Urtheil möglich. Daß ihn der Teufel nur
+                  dann holen solle, wenn<lb xml:id="VI_57-17"/> er einmal wahrhaft befriedigt und
+                  seelig wäre, für diesen schweren<lb xml:id="VI_57-18"/> Punkt gibts mir keine
+                  Auflösung als die, daß er sich bekehrte und<lb xml:id="VI_57-19"/> sein hungriges
+                  Herz durch den Himmel stillte — und dann käme<lb n="20" xml:id="VI_57-20"/> der
+                  Teufel.</p>
+               <lb xml:id="VI_57-21"/>
+               <p>Mögen mir die <hi rendition="#g">Dämmerungen</hi> bald einen Brief von dir
+                     ein<note corresp="#VI_57-22">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010576">
+                           <title>Dämmerungen für Deutschland (1809)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VI_57-22" rendition="#hyphen"/>tragen. Lebe wol! Dein</p>
+               <lb xml:id="VI_57-23"/>
+               <closer>
+                  <salute>
+                     <hi rendition="#right">J. P. F. Richter</hi>
+                  </salute>
+               </closer>
+               <lb xml:id="VI_57-24"/>
+               <postscript>
+                  <p>N. S. Besser ists, ich frage dich als du mich. Nichts gibts<lb n="25" xml:id="VI_57-25"/> worüber ich lieber deine bestimmtere Meinung — wovon du
+                        nur<lb xml:id="VI_57-26"/> das Allgemeine in deinen Schriften gibst — hören
+                     würde und auf<lb xml:id="VI_57-27"/> was ich gewiß bei einer Durchreise durch
+                     Bayreuth am öftersten<note corresp="#VI_57-28">
+                        <listPlace type="lineReference">
+                           <place corresp="#JP-005574">
+                              <placeName>Bayreuth (Stadt)</placeName>
+                           </place>
+                        </listPlace>
+                     </note>
+                     <lb xml:id="VI_57-28"/> gekommen wäre, als der Punkt, worüber die jetzigen
+                        Schwärmer<lb xml:id="VI_57-29"/> nicht einmal viel schwärmen, weil ihnen
+                     mehr an ihrem <hi rendition="#g">Woher</hi>
+                     <lb n="30" xml:id="VI_57-30"/> als an ihrem <hi rendition="#g">Wohin</hi>
+                     gelegen ist. Herder’sche, sogar zuweilen<lb xml:id="VI_57-31"/> Lavatersche
+                     Analogien über das bestimmtere Ob und Wie der<note corresp="#VI_57-32">
+                        <listBibl type="lineReference" subtype="werke">
+                           <bibl corresp="#JP-009074">
+                              <author>Lavater, Johann Caspar (Kaspar) (1741-1801), Zürcher
+                                 reformierter Theologie und Pfarrer, Schriftsteller und
+                                 Physiognomiker</author>
+                              <title>Aussichten in die Ewigkeit (1768-1778)</title>
+                           </bibl>
+                        </listBibl>
+                     </note>
+                     <lb xml:id="VI_57-32"/> Zukunft sind mir gleichsam Hin- und Herschritte und
+                        Wendungen<lb xml:id="VI_57-33"/> in einem finstern Bergwerk, an dem man auf
+                     dem Boden einen<lb xml:id="VI_57-34"/> lichten kleinen Fleck erblickt; man
+                     trift vielleicht doch endlich mit<lb n="35" xml:id="VI_57-35"/> dem Auge oben
+                     den Strahl, der ihn macht und der in den — Himmel<lb xml:id="VI_57-36"/> ein
+                     wenig sehen läßt. Ich glaube jetzt einen höhern Standpunkt<lb xml:id="VI_57-37"/> für (nicht über) die Unsterblichkeit zu haben als im Kampaner Thal.<note corresp="#VI_58-1">
+                        <listBibl type="lineReference" subtype="werke-jp">
+                           <bibl corresp="#JP-010585">
+                              <title>Das Kampaner Thal (1797)</title>
+                           </bibl>
+                        </listBibl>
+                     </note>
+                     <lb xml:id="VI_58-1"/> Freilich wie das All zu Gott, so verhält sich immer
+                     dieses Leben —<lb xml:id="VI_58-2"/> mit seinem unbegreiflichen entzweieten
+                     Zwielicht — zum künftigen<lb xml:id="VI_58-3"/> — — aber dich will ich darüber
+                     hören, wenn auch nur auf 1 Brief<lb xml:id="VI_58-4" rendition="#hyphen"/>seite. — Nach dem Kampaner Thal wollt’ ich etwas Aehnliches<lb n="5" xml:id="VI_58-5"/> über das „Dasein Gottes“ (vergib dieses Pinselwort der
+                        Mensch<lb xml:id="VI_58-6" rendition="#hyphen"/>lein) schreiben; hielt mich
+                     aber noch nicht für fromm d. h. würdig<lb xml:id="VI_58-7"/> genug dazu. Jetzt
+                     könnt’ ich etwas viel besseres darüber sagen;<lb xml:id="VI_58-8"/> aber
+                     leider! das alte Hindernis ist noch da.</p>
+               </postscript>
+               <lb xml:id="VI_58-9"/>
+               <postscript>
+                  <p>2. N. S. Die alte <hi rendition="#aq">Herder</hi> ist auch todt.<note corresp="#VI_58-10">
+                        <listPerson type="lineReference">
+                           <person corresp="#JP-001670" ana="†">
+                              <persName> Caroline <name type="reg">Herder</name>
+                              </persName>
+                           </person>
+                        </listPerson>
+                     </note>
+                     <lb n="10" xml:id="VI_58-10"/>
+                  </p>
+               </postscript>
+            </div>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Berlin JP. 4 S. 4° und 6 S. 8°. Präsentat: e. d. 13t
+                  Oct. Nach</hi>
+               <lb/> 4. Okt. (<hi rendition="#b">56</hi>,<hi rendition="#rkd">12</hi>, <hi rendition="#aq">Beginn des Oktavblattes) hat Jacobi irrig zugesetzt:<lb/> 1810.
+                     <hi rendition="#i">K</hi>: <hi rendition="#i">Jacobi</hi>
+               </hi> 21. Sept. <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>: Roth Nr. 336 und Schluß von Nr. 333.<lb/>
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>: Jacobi S. 140, 146 (4. Okt. 1810) u. 138 (Schluß des
+                  Briefs v.<lb/> 22. Juli 1808). <hi rendition="#i">B</hi>: IV. Abt., VI, Nr.</hi>
+               <hi rendition="#aq">31. </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">55</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">2</hi>
+               </hi> sehr ernsten] <hi rendition="#aq">aus</hi> fast blos <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">5</hi> viel]<lb/>
+               <hi rendition="#aq">davor gestr.</hi> (zu) <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi> vom <hi rendition="#aq">bis <hi rend="bold">
+                     <hi rendition="#rkd">6</hi>
+                  </hi>
+               </hi>09]<hi rendition="#aq"> aus</hi> vor 1 Jahre <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">11</hi> viele] <hi rendition="#aq">aus</hi> sie <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">13</hi> ganzen besten] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">14</hi> durchsichtiger] dünner <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+                  <hi rendition="#rkd">24</hi>f.</hi> zuletzt] am<lb/> Ende <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">25</hi> indeß] <hi rendition="#aq">aus</hi> aber <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">30</hi> Doppelgenusse] <hi rendition="#aq">aus</hi>
+               Selbstgenusse <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">33</hi> solche] <hi rendition="#aq">davor gestr.</hi> alles Mark
+                  <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+                  <hi rendition="#b">56</hi>,<hi rendition="#rkd">1</hi>f.</hi> hätt’ .... geworfen]
+                  <hi rendition="#aq">aus</hi>
+               <lb/> würd’ .... werfen <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">10</hi> Verschraubung] <hi rendition="#aq">aus</hi> Verdrehung
+                  <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">14</hi> Charakter]<lb/>
+               <hi rendition="#aq">aus</hi> Karakter <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">20</hi> endlich] <hi rendition="#aq">aus</hi> wirklich <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">26</hi> Dein Gegensatz] <hi rendition="#aq">aus</hi> Deine<lb/>
+               Abtheilung <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">57</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">8</hi>
+               </hi> Un-Grunde <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">9</hi> machen.] <hi rendition="#aq">von Jacobi
+                  unterstrichen</hi>
+               <lb/>
+               <hi rendition="#rkd">9</hi> allda] <hi rendition="#aq">aus</hi> einen Ort <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi> Teufel] <hi rendition="#aq">danach gestr.</hi> zu haben ein <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">13</hi> ästhe<lb rendition="#hyphen"/> tische] <hi rendition="#aq">aus</hi> poetische <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">16</hi> vor der] <hi rendition="#aq">aus</hi> ohne die <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">18</hi> befriedigt] <hi rendition="#aq">aus</hi> glück<lb rendition="#hyphen"/> lich <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">28</hi> einer] <hi rendition="#aq">aus</hi> deiner <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">34</hi> Bergwerk] <hi rendition="#aq">aus</hi> Hause oder
+               Gewölbe <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">35</hi> man <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">37</hi> läßt.] <hi rendition="#aq">von Jacobi unterstr.</hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Wahrscheinlich erst am 10. Okt. abgegangen, vgl. Nr. 163 u.
+                  164.<lb/> Jacobi war durch die im Morgenblatt erschienenen Auszüge aus den<lb/>
+                     „<hi rendition="#g">Dämmerungen</hi>“ veranlaßt worden, nach langer Pause
+                  wieder an<lb/> J. P. zu schreiben. Er hatte u.a. den Besuch seines Jüngers Fr. <hi rendition="#g">Köp<lb rendition="#hyphen"/> pen</hi> angekündigt und berichtet,
+                  daß er an seinem vor 13 Jahren</hi>
+               <lb/>
+               <hi rendition="#aq">angefangenen Werke über Offenbarung arbeite, aber zweifle, ob er
+                  es<lb/> bei seinen abnehmenden Kräften zu Ende bringen werde. Er hatte eine<lb/>
+                  Abschrift seines Briefs an Goethe v. 19. Febr. 1808, worin er sich ab<lb rendition="#hyphen"/> fällig über Zacharias <hi rendition="#g">Werner,</hi>
+                  besonders über dessen „Attila“ ge<lb rendition="#hyphen"/> äußert, beigefügt,
+                  sowie anscheinend auch Goethes Antwort v.<lb/> 7. März 1808 (s. Nr. 163; über
+                  Werner Nr. 17†). <hi rendition="#g">Weston, Foote,<lb/> Carlin, Schuch:</hi>
+                  komische Schauspieler! <hi rendition="#g">Tieck</hi> selber war nicht<lb/>
+                  katholisch geworden, wohl aber seine Frau, seine Töchter und seine<lb/> Schwester
+                  Sophie Bernhardi. <hi rendition="#g">Oken:</hi> in seinem „Lehrbuch der Natur<lb rendition="#hyphen"/> philosophie“ (1808—11); vgl. I. Abt., XVII, 279 und
+                  Köppens „Dar<lb rendition="#hyphen"/> stellung des Wesens der Philosophie“ (1810),
+                  Vorwort, S. VIII. In<lb/>
+                  <hi rendition="#g">Dantes Hölle</hi> haben nicht die Heuchler (ipocriti, XXIII,
+                  92ff.),<lb/> sondern die Wahrsager die Köpfe nach rückwärts gewandt (XX, 13ff).
+                     <add resp="#MB">Jean Paul entnahm das Dante-Zitat wahrscheinlich</add>
+                  <lb/>
+                  <add resp="#MB"> aus Herders Zerstreuten Blättern, 1. Sammlung (1785), S. 245, wo
+                     sich der-</add>
+                  <lb/>
+                  <add resp="#MB"> selbe Irrtum findet.</add>
+                  <lb/>
+                  <hi rendition="#g">Ancillon:</hi> Jacobi hatte wohl dessen „Mélanges de
+                  littérature et de<lb/> philosophie“ (1809) erwähnt. Karoline <hi rendition="#g">Herder</hi> war am 15. Sept. 1809<lb/> in Weimar gestorben.</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

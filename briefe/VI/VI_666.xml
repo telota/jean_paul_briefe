@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VI_666">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="668">666. An Friedrich Heinrich Jacobi in München. </title>
+            <title n="digital">An Friedrich Heinrich Jacobi. Bayreuth, 15. August 1812.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=VI_666</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/VI/VI_666</idno>
+               <idno type="TELOTAID">VI_666</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope unit="page">
+                  <num>288</num>
+                  <num>289</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1812-08-15">15. August 1812</date>
+               <placeName key="JP-005574" ref="http://www.geonames.org/2951825">Bayreuth</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-001909" ref="http://d-nb.info/gnd/118556312">
+                  <name type="reg">Jacobi</name> Friedrich Heinrich</persName>
+               <placeName key="JP-006040" ref="http://www.geonames.org/2867714">München</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VI_640">6. Mai 1812</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VI_756">21. Mai 1813 bis 26.
+                  Mai 1813</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <dateline>
+               <hi rendition="#right">
+                  <hi rendition="#aq">
+                     <placeName>Baireuth</placeName> d. <date>15. Aug. 1812</date>
+                  </hi>
+               </hi>
+            </dateline>
+            <lb xml:id="VI_288-8"/>
+            <p>
+               <hi rendition="#c">
+                  <hi rendition="#g">
+                     <hi rendition="#b">Eiligst,</hi> weil mein Freund <hi rendition="#aq">Emanuel</hi> das Blättchen<note corresp="#VI_288-9">
+                        <listPerson type="lineReference">
+                           <person corresp="#JP-003087">
+                              <persName> Emanuel <name type="reg">Osmund</name>
+                              </persName>
+                           </person>
+                        </listPerson>
+                     </note>
+                     <lb xml:id="VI_288-9"/> morgen mit sich reisen läßt</hi>
+               </hi>
+               <lb n="10" xml:id="VI_288-10"/>
+            </p>
+            <p>Schlichtegroll schrieb mir nichts; und ich glaubte dich noch immer<note corresp="#VI_288-11">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003771" ana="†">
+                        <persName> Adolf Heinrich Friedrich (ab 1808) von <name type="reg">Schlichtegroll</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_288-11"/> dem Abendrothscheine der Gletscher gegenüber.</p>
+            <lb xml:id="VI_288-12"/>
+            <p>
+               <hi rendition="#aq">Emanuel</hi> in <hi rendition="#aq">Hesperus</hi> hat keine
+               Beziehung auf den wirklichen,<note corresp="#VI_288-13">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003087">
+                        <persName> Emanuel <name type="reg">Osmund</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010728">
+                        <title>Hesperus (1795): Emanuel (Dahore)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_288-13"/> der dieses Briefchen bringt und den ich <hi rendition="#g">später</hi> kennen lernte. Warum<lb xml:id="VI_288-14"/> trauet man mir denn die
+               Indelikatesse oder Indiskrezion zu, daß ich<lb n="15" xml:id="VI_288-15"/> einen
+               wirklichen Freund zu einem dichterischen Baugerüste und noch<lb xml:id="VI_288-16"/>
+               dazu mit seinem Namen, verbrauchen und auszimmern würde? Eher<lb xml:id="VI_288-17"/>
+               mit mir selber könnt’ ich sündlich umgehen und von mir Schlimmstes<lb xml:id="VI_288-18"/> und Bestes wörtlich entlehnen für Dichtkunst; aber nie mit
+                  einem<lb xml:id="VI_288-19"/> Freunde. Der wirkliche <hi rendition="#aq">Emanuel</hi> ist mir lieber, kompakter, viel<lb n="20" xml:id="VI_288-20" rendition="#hyphen"/> seitiger, kräftiger, als der im <hi rendition="#aq">Hesperus.</hi> — Von meinem zweiten,<note corresp="#VI_288-21">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010728">
+                        <title>Hesperus (1795): Emanuel (Dahore)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_288-21"/> aber frühern Freunde <hi rendition="#aq">Otto</hi> (der
+               gelehrten Welt unter dem Namen<note corresp="#VI_288-22">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003112">
+                        <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_288-22"/>
+               <hi rendition="#aq">Georgius</hi> bekannt) hab’ ich dir viel und warm erzählt.</p>
+            <lb xml:id="VI_288-23"/>
+            <p>Ich hätte von dir, seit unserer Sichtbarkeit, einen längern und<lb xml:id="VI_288-24"/> bestimmtern Brief erwartet; und ich fürchte, durch meine Sicht<lb n="25" xml:id="VI_288-25" rendition="#hyphen"/> barkeit bin ich dir noch unsichtbarer
+               geworden als es schon durch<lb xml:id="VI_288-26"/> meine komischen Werke
+               geschehen.</p>
+            <lb xml:id="VI_288-27"/>
+            <p>Ich wollte, du liehest mir durch <hi rendition="#aq">Emanuel</hi> — welcher deiner
+                  Seele<note corresp="#VI_288-28">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003087">
+                        <persName> Emanuel <name type="reg">Osmund</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_288-28"/> in der ersten Viertelstunde wolthun wird — das 12<hi rendition="#sup">te</hi> Heft des<lb xml:id="VI_288-29"/> rheinischen
+                  Archivs.<note corresp="#VI_288-30">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010354" ana="†">
+                        <author/>
+                        <title>Rheinisches Archiv für Geschichte und Literatur (1810-1814)</title>
+                     </bibl>
+                     <bibl corresp="#JP-009281" ana="†">
+                        <author>Neeb, Johann (1767-1843), Philosoph</author>
+                        <title>Über den Begriff von Gott (1811)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="30" xml:id="VI_288-30"/>
+            </p>
+            <p>Die <hi rendition="#aq">Vorschule</hi> (wie die <hi rendition="#aq">Levana</hi>)
+               erscheint 1813; ich muß in<note corresp="#VI_288-31">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010811">
+                        <title>Levana (1807)</title>
+                     </bibl>
+                     <bibl corresp="#JP-010970">
+                        <title>Vorschule der Aesthetik (1804)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_288-31"/> jener manches Lob (z. B. <hi rendition="#aq">Schellings</hi>) anglisieren oder abschneidend<note corresp="#VI_288-32">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003713">
+                        <persName> Friedrich Wilhelm Joseph (ab 1812) von <name type="reg">Schelling</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_288-32"/> verkürzen. Die Artikel über Romantik und das Lächerliche
+               sind sehr<lb xml:id="VI_288-33"/> erweitert, aber nicht verkürzt, nur tiefer
+               erwiesen.</p>
+            <lb xml:id="VI_288-34"/>
+            <p>Von <hi rendition="#aq">Reinhold</hi> konnt’ ich von jeher keinen Stoff
+                  gewinnen,<note corresp="#VI_288-35">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003424" ana="†">
+                        <persName> Karl Leonhard <name type="reg">Reinhold</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="35" xml:id="VI_288-35"/> höchstens Form. Ein Stückchen seines Herzens ist mir
+               lieber als<lb xml:id="VI_289-1"/> sein ganzes Gehirn. Nur polemisch erfreuet und
+               belehrt er mich in<lb xml:id="VI_289-2"/> der Philosophie wahrhaft.</p>
+            <lb xml:id="VI_289-3"/>
+            <p>Du siehst, ich gehe deinem Briefe zeilenweise nach.</p>
+            <lb xml:id="VI_289-4"/>
+            <p>Leider wurde eine der wichtigsten Äußerungen von dir gegen mich<lb n="5" xml:id="VI_289-5"/> — über Persönlichkeit und Erinnerung hinter dem Tode — durch
+                  die<lb xml:id="VI_289-6"/> Eßglocke unterbrochen und todtgeläutet. —</p>
+            <lb xml:id="VI_289-7"/>
+            <p>Mein Innerstes und Bestes hat jetzt nur Hoffnung und Sehnsucht<lb xml:id="VI_289-8"/>
+               des Lichts, aber <hi rendition="#g">keines;</hi> und ich bin <hi rendition="#aq">an<metamark>[</metamark>n<metamark>]</metamark>o</hi> 1812 darüber noch<lb xml:id="VI_289-9"/> trauriger geworden.<note n="*)" place="foot">Indeß kann man,
+                  sobald man das Licht nur recht will, ja warten; die<lb type="ig"/> Völker müssen
+                  auf dasselbe Jahrtausende warten, das Individuum aber nur bis<lb type="ig"/> an
+                  seinen Tod.<lb n="35" type="ig"/>
+               </note>
+               <lb n="10" xml:id="VI_289-10"/>
+            </p>
+            <p>Es gehe dir wol! Grüße deine mir recht lieben Schwestern!</p>
+            <note corresp="#VI_289-11">
+               <listPerson type="lineReference">
+                  <person corresp="#JP-001906">
+                     <persName> Charlotte und Helene <name type="reg">Jacobi</name>
+                     </persName>
+                  </person>
+               </listPerson>
+            </note>
+            <lb xml:id="VI_289-11"/>
+            <closer>
+               <salute>
+                  <hi rendition="#right">Richter</hi>
+               </salute>
+            </closer>
+            <lb xml:id="VI_289-12"/>
+            <postscript>
+               <p>N. S. Meine unbedeutenden Anmerkungen zu deinem <hi rendition="#aq">Hume</hi>
+                  <note corresp="#VI_289-13">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-008816" ana="†">
+                           <author>Jacobi, Friedrich Heinrich (1743-1819), Philosoph und
+                              Schriftsteller</author>
+                           <title>David Hume (1787)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VI_289-13"/> will ich nächstens in reingeschriebene Worte fassen. Gib
+                  doch jedem<lb xml:id="VI_289-14"/> deiner philosophischen Werke einen Anhang als
+                  Fruchtlese (ohne<lb n="15" xml:id="VI_289-15"/> systematischen Bindfaden) aus
+                  deinen trefflichen Bruchstücken, wovon<lb xml:id="VI_289-16"/> du mir einige im
+                  Wirthshaus in <hi rendition="#aq">Erlangen</hi> lesen lassen.</p>
+               <note corresp="#VI_289-17">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005722">
+                        <placeName>Erlangen </placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_289-17"/>
+            </postscript>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Berlin JP. 3 S. 8°. Präsentat: v. Jean Paul e. d.
+                  21ten, b. d.<lb/> 14 May XIII. <hi rendition="#i">K</hi>:</hi> Jakobi 15. Aug. <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>: Jacobi S. 161×. <hi rendition="#i">B</hi>: IV. Abt.,
+                  VI, Nr. 208.<lb/>
+                  <hi rendition="#i">A</hi>: IV. Abt., VI, Nr. 226. <hi rendition="#b">288</hi>,<hi rendition="#rkd">26</hi>f.</hi> durch meine komischen Werke] <hi rendition="#aq">aus</hi> in meinen komi<lb rendition="#hyphen"/> schen Werken <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">289</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">1</hi>
+               </hi> Form] <hi rendition="#aq">danach gestr.</hi> desselben <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">4</hi> deinem Briefe<lb/> zeilenweise nach] <hi rendition="#aq">aus</hi> deinen Brief zeilenweise durch <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Jacobi hatte geschrieben, Jean Paul wisse schon durch <hi rendition="#g">Schlichte<lb rendition="#hyphen"/> groll,</hi> daß er am 28.
+                  Juli wieder in München eingetroffen sei; Schl. hatte<lb/> aber seinen Brief nicht
+                  abgeschickt, s. an J. P. IV. Abt., VI, Nr. 219. Jean Pauls<lb/> Befürchtung, ihm
+                  nicht gefallen zu haben, weist Jacobi in <hi rendition="#i">A</hi> mit den</hi>
+               <lb/>
+               <hi rendition="#aq">Worten zurück: „Ich habe viel an Dich gedacht, viel und oft, und
+                  Dich<lb/> inniger geliebt und geehrt als je zuvor.“ Das 12. Heft des <hi rendition="#g">Rheini<lb rendition="#hyphen"/> schen Archivs</hi> f. Geschichte
+                  u. Literatur v. 1811 enthält eine an<lb/> Jacobi gerichtete Abhandlung von Neeb
+                  „Über den Begriff von Gott<lb/> nach der neuesten Philosophie“. <hi rendition="#g">Reinhold:</hi> Jacobi hatte geschrieben,<lb/> er beiße sich an dessen
+                  „Grundlegung“ (einer Synonymik f. den allg.<lb/> Sprachgebrauch in den philos.
+                  Wissenschaften, Kiel 1812) die Zähne<lb/> aus: „Welch ein unbegreiflicher Mensch
+                  ... Ein solcher Scharfsinn und<lb/> eine solche Stumpfheit hat sich wohl noch nie
+                  in einem Menschen bei<lb rendition="#hyphen"/> sammen gefunden.“ <hi rendition="#g">Erinnerung hinter dem Tode:</hi> vgl. die Nach<lb rendition="#hyphen"/> schrift von Nr. 160. <hi rendition="#g">kein Licht:</hi>
+                  vgl. Nr. 756†. <hi rendition="#g">Hume:</hi> vgl. <hi rendition="#b">271</hi>,<hi rendition="#rkd">33</hi>f†;<lb/> Jacobi hatte dringend um die verheißenen
+                  Anmerkungen gebeten.</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

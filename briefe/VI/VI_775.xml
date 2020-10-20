@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VI_775">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="777">775. An Paul und Eva Thieriot in Zürich. </title>
+            <title n="digital">An Eva Thieriot und Paul Emile Thieriot. Bayreuth, 3. Juli 1813 bis
+               12. Juli 1813.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=VI_775</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/VI/VI_775</idno>
+               <idno type="TELOTAID">VI_775</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope unit="page">
+                  <num>332</num>
+                  <num>333</num>
+                  <num>334</num>
+                  <num>335</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+            <listPerson type="commentary">
+               <person corresp="#JP-002559">
+                  <persName> Adam <name type="reg">Lux</name>
+                  </persName>
+               </person>
+               <person corresp="#JP-002560">
+                  <persName> Marianne <name type="reg">Lux</name>
+                  </persName>
+               </person>
+               <person corresp="#JP-002561">
+                  <persName> Sabine <name type="reg">Lux</name>
+                  </persName>
+               </person>
+               <person corresp="#JP-004277">
+                  <persName> Eva <name type="reg">Thieriot</name>
+                  </persName>
+               </person>
+            </listPerson>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date corresp="writingSession1" when="1813-07-03">3. Juli 1813</date>
+               <date corresp="writingSession2" when="1813-07-05">5. Juli 1813</date>
+               <date corresp="writingSession3" when="1813-07-12">12. Juli 1813</date>
+               <placeName key="JP-005574" ref="http://www.geonames.org/2951825">Bayreuth</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-004277" ref="http://d-nb.info/gnd/1078119090">
+                  <name type="reg">Thieriot</name> Eva</persName>
+               <persName key="JP-004275" ref="http://d-nb.info/gnd/117338370">
+                  <name type="reg">Thieriot</name> Paul Emile</persName>
+               <placeName key="JP-006434" ref="http://www.geonames.org/2657896">Zürich</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VI_67">3. April 1809</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VII_345">5. November 1817</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <div n="writingSession1">
+               <lb n="30" xml:id="VI_332-30"/>
+               <dateline>
+                  <hi rendition="#right">
+                     <hi rendition="#aq">
+                        <placeName>Baireuth</placeName> d. <date>
+                           <metamark>[</metamark>3.<metamark>]</metamark> Jul. 1813</date>
+                     </hi>
+                  </hi>
+               </dateline>
+               <lb xml:id="VI_332-31"/>
+               <p>Ich habe nicht den Muth, zu schreiben den heutigen oder dritten,<lb xml:id="VI_332-32"/> weil ich nur weiß, wann ich anfange, aber nicht wann ich
+                     endige.<lb xml:id="VI_332-33"/> Sonst übrigens stell’ ich es als feste Regel
+                  auf, nicht nur Monat-,<lb xml:id="VI_333-1"/> auch Jahrzahl vor Briefe zu
+                  schreiben, — unähnlich den Brief<lb xml:id="VI_333-2" rendition="#hyphen"/>
+                  stellerinnen; — nach vier Wochen oder Jahren entsinnt sich kein<lb xml:id="VI_333-3"/> Mensch mehr des Datum, so sehr auch jeder im Augenblicke
+                     des<lb xml:id="VI_333-4"/> Schreibens und Lesens kein Vergessen sich denklich
+                     denkt.<lb n="5" xml:id="VI_333-5"/>
+               </p>
+               <p>Mein guter alter Thieriot! Ihre Schreibgüte überwältigt<lb xml:id="VI_333-6"/>
+                  meine briefliche Faulthierheit. So oft fuhr ich mich an — denn<lb xml:id="VI_333-7"/> oft ärgert man sich, daß man nicht zwei mal 〈als Doublette〉
+                     da<lb xml:id="VI_333-8"/> ist, um mit dem einen Exemplare 〈Ich〉 das andere
+                  〈Dito Ich〉 zu<lb xml:id="VI_333-9"/> prügeln — daß ich auf Ihre mir so lieben, so
+                  reichen Briefe so<lb n="10" xml:id="VI_333-10"/> lange geschwiegen; und mein
+                  Schweigen auf hundert andere Briefe<lb xml:id="VI_333-11"/> war keine
+                  Entschuldigung bei Ihren, zumal da Sie immer mit<lb xml:id="VI_333-12"/> 2 Herzen
+                  und Köpfen auf einmal an mich schreiben durch Ihre<lb xml:id="VI_333-13"/>
+                  treffliche <hi rendition="#aq">Eva,</hi> die Äpfel von einem Baume des Erkenntnis
+                     reicht,<note corresp="#VI_333-14">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004277">
+                           <persName> Eva <name type="reg">Thieriot</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_333-14"/> auf welchem keine Schlange sitzt. Und ich will denn bei
+                     dieser<lb n="15" xml:id="VI_333-15"/> Gelegenheit auch nicht versäumet haben,
+                  meinen Glückwunsch zu<lb xml:id="VI_333-16"/> Ihrer nun vollstreckten Vermählung
+                  beider abzustatten und dabei<lb xml:id="VI_333-17"/> zu wünschen, daß sie und Sie
+                  nicht nur dieses Jahr, sondern auch<lb xml:id="VI_333-18"/> noch viele andere in
+                  vollem u. s. w.</p>
+               <lb xml:id="VI_333-19"/>
+               <p>Wahrlich, ich bin Ihrer Gattin herzlich gut, erstlich als einer<note corresp="#VI_333-20">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004277">
+                           <persName> Eva <name type="reg">Thieriot</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="20" xml:id="VI_333-20"/> solchen Frau und zweitens als einer solchen
+                  Dichterin und endlich<lb xml:id="VI_333-21"/> als allem was sie ist. Wenn ich sie
+                  nur einmal gesehen hätte! Wir<lb xml:id="VI_333-22"/> beide würden schon alte
+                  Freunde an der Thüre, blos wenn sie mir<lb xml:id="VI_333-23"/> nur zuriefe:
+                  herein! — <hi rendition="#g">Ihre</hi> Exzerpten aus ihr gefallen mir un<lb xml:id="VI_333-24" rendition="#hyphen"/>endlich und Sie sollten die Gute nur
+                  ganz abschreiben. Ich meines<lb n="25" xml:id="VI_333-25"/> Orts nähme in solchem
+                  Falle eine kurze Bleistiftfeder mit ins Ehe<lb xml:id="VI_333-26" rendition="#hyphen"/>bette und trüge an der Wand, was sie etwan darin sagte,
+                     heimlich<lb xml:id="VI_333-27"/> nach für den Tag. So aber geht für den <hi rendition="#aq">Tertium</hi> Wichtigstes<lb xml:id="VI_333-28"/> verloren.</p>
+               <lb xml:id="VI_333-29"/>
+            </div>
+            <div n="writingSession2">
+               <dateline>
+                  <hi rendition="#right">d. 5. Jul.</hi>
+               </dateline>
+               <lb n="30" xml:id="VI_333-30"/>
+               <p>Ich danke Ihnen, daß Sie mir immer Briefpost und fahrende Post<lb xml:id="VI_333-31"/> zugleich zuschicken, nämlich mit Ihren Briefen immer
+                     Menschen<lb xml:id="VI_333-32"/> wie Ackermann, Graff, Patzig. — Sie thäten mir
+                  einen Gefallen,<note corresp="#VI_333-33">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000018">
+                           <persName> Wilhelm Heinrich <name type="reg">Ackermann</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-001383">
+                           <persName> Eberhard Gottlieb <name type="reg">Graff</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003159">
+                           <persName> Gotthilf <name type="reg">Patzig</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_333-33"/> wenn Sie die Ihnen so nah’ seßhafte <hi rendition="#aq">Harms (Berlepsch)</hi> be<note corresp="#VI_333-34">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001542" ana="†">
+                           <persName> Emilie Dorothea Friederike <name type="reg">Harmes</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_333-34" rendition="#hyphen"/> suchten und ihr meinen Gruß und die
+                  wahrhafte Versicherung<lb n="35" xml:id="VI_333-35"/> brächten, wie warm sie in
+                  meinem Andenken lebe, da sie von hier<lb xml:id="VI_333-36"/> an bis nach <hi rendition="#aq">Regensburg</hi> mich unbeschreiblich verläumdet und<note corresp="#VI_334-1">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0061790">
+                           <placeName>Appellationsgerichts-Lokalkommission in Regensburg;
+                              Regensburg</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VI_334-1"/> Lügen über meine Trinkunmäßigkeit, ja Unsinn darüber,
+                     nachdem<lb xml:id="VI_334-2"/> ich alles ihr auf meinem Kanapee widerlegt und
+                  auf die Quellen<lb xml:id="VI_334-3"/> zurück geführt hatte, auf ihrem Wege
+                  auszusäen gut verstanden.<lb xml:id="VI_334-4"/> Wünschen Sie ihr übrigens, das
+                  Donnerwetter soll’ in sie fahren,<lb n="5" xml:id="VI_334-5"/> damit der Teufel
+                  aus ihr fährt, nämlich der, welcher die wenigsten<lb xml:id="VI_334-6"/> Menschen
+                  verläumdet, nämlich nur die guten.</p>
+               <lb xml:id="VI_334-7"/>
+               <p>Aber lieber besuchen Sie einen trefflichen Mann, der mir so<note corresp="#VI_334-8">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002938" ana="†">
+                           <persName> Johann David <name type="reg">Mumenthaler</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_334-8"/> viel Pfunde <hi rendition="#aq">Emme<metamark>[</metamark>n<metamark>]</metamark>thaler</hi> Käse geschickt
+                  als meine <hi rendition="#aq">opera</hi> wiegen,<note corresp="#VI_334-9">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005711">
+                           <placeName>Emmenthal im Kanton Bern</placeName>
+                        </place>
+                        <place corresp="#JP-0062710">
+                           <placeName>Käse; Schweiz</placeName>
+                        </place>
+                     </listPlace>
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010983">
+                           <title>Werke, opera omnia (Sämtliche Werke, ab 1826)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VI_334-9"/> die er alle hat und schätzt. Er heißt <hi rendition="#aq">Mumenthaler</hi> in <hi rendition="#aq">Langenthal.</hi>
+                  <note corresp="#VI_334-10">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005939">
+                           <placeName>Langenthal </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="10" xml:id="VI_334-10"/> Diesem köstlichen liebenden Manne bringen Sie
+                  einen ernst-warmen<lb xml:id="VI_334-11"/> Gruß und schildern Sie ihm mein In- und
+                  Exteriör lebhaft. Er<lb xml:id="VI_334-12"/> frißt Sie vor Liebe und Lust;
+                  dasselbe können Sie dann mit seinem<lb xml:id="VI_334-13"/> Käse thun. Auch
+                  schreiben Sie mir etwas Persönliches von diesem<lb xml:id="VI_334-14"/> Seltenen,
+                  dem ich mit Mühe auch das Seltene, nämlich die grön<note corresp="#VI_334-15">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010724">
+                           <title>Grönländische Prozesse, oder Satirische Skizzen (1783,
+                              1822)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb n="15" xml:id="VI_334-15" rendition="#hyphen"/> ländischen Prozesse und die
+                  Teufels Papiere verschaffen mußte.</p>
+               <note corresp="#VI_334-16">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010513">
+                        <title>Auswahl aus des Teufels Papieren (1789)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_334-16"/>
+            </div>
+            <div n="writingSession3">
+               <dateline>
+                  <hi rendition="#right">d. 12. Jul.</hi>
+               </dateline>
+               <lb xml:id="VI_334-17"/>
+               <p>Ich wollte, Sie hätten meinen <hi rendition="#g">Katzenberger</hi> und meinen <hi rendition="#g">Fibel</hi>
+                  <note corresp="#VI_334-18">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010574">
+                           <title>D. Katzenbergers Badereise (1809)</title>
+                        </bibl>
+                        <bibl corresp="#JP-010807">
+                           <title>Leben Fibels (1812)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VI_334-18"/> gelesen; man will viel daraus machen, was ich selber
+                  vorher, obwol<lb xml:id="VI_334-19"/> in anderem Sinne, auch wollte. Die neue um
+                  18 Bogen reichere<lb n="20" xml:id="VI_334-20"/>
+                  <hi rendition="#g">Vorschule</hi> ist auch da. Jetzo koch’ ich und brat’ ich an
+                     einem<note corresp="#VI_334-21">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010970">
+                           <title>Vorschule der Aesthetik (1804)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VI_334-21"/> großen komischen Werke. In diesem aber — hab’ ich mir
+                     ge<note corresp="#VI_334-22">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010605">
+                           <title>Der Komet (1820-1822)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VI_334-22" rendition="#hyphen"/>schworen — will ich nicht wie bisher,
+                  der ich in allen meinen ko<lb xml:id="VI_334-23" rendition="#hyphen"/>mischen
+                  Werken, gleich einem Kinde, das in <hi rendition="#g">Kugelg</hi>estalt geboren<lb xml:id="VI_334-24"/> und dann <hi rendition="#g">gerade</hi> in Wickelkissen
+                  gekreuzigt wird, immer den<lb n="25" xml:id="VI_334-25"/> strengsten Kunstregeln
+                  nachgab und leider nur zu regelrecht war,<lb xml:id="VI_334-26"/> es wieder thun,
+                  sondern ich will mich gehen lassen wie es geht —<lb xml:id="VI_334-27"/> hinauf
+                  hinab — flug- und sprungweise — wahrhaft kühn — frei<lb xml:id="VI_334-28"/> von
+                  allem Gellertismus und Dykismus — — Freund, ich will im<note corresp="#VI_334-29">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000875">
+                           <persName> Johann Gottfried <name type="reg">Dyk </name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-001279">
+                           <persName> Christian Fürchtegott <name type="reg">Gellert</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_334-29"/> Alter meine Jugend nachholen und postzipieren. —<lb n="30" xml:id="VI_334-30"/>
+               </p>
+               <p>Sie und <hi rendition="#aq">Eva</hi> sollten meine drei Kraftkinder, in Körper-
+                     und<note corresp="#VI_334-31">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003483">
+                           <persName> Johann Paul Friedrich <name type="reg">Richter</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-004277">
+                           <persName> Eva <name type="reg">Thieriot</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_334-31"/> Seelenblüte, sehen; und in angeerbter kindlicher
+                  Unschuld, obgleich<lb xml:id="VI_334-32"/> mein Junge jetzo fast mehr Griechisch
+                  kann als sein Vater. Wahr<note corresp="#VI_334-33">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003490">
+                           <persName> Max <name type="reg">Richter</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005796">
+                           <placeName>Griechenland, Griechen</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VI_334-33" rendition="#hyphen"/>lich in den ersten Quinquennien kann
+                  man den Kindern einen un<lb xml:id="VI_334-34" rendition="#hyphen"/>auslöschlichen
+                  Werth wie Unwerth anerziehen oder lassen; später<lb n="35" xml:id="VI_334-35"/>
+                  verderbt sie kein fremdes, ja kaum elterliches Widerspiel. — Gesund<lb xml:id="VI_334-36"/> bin ich von der Glatze bis zur Ferse. — Noch zog der Krieg
+                     nur<lb xml:id="VI_335-1"/> um mich mit seinen Blitzen herum; zög’ er aber über
+                  meine Glatze,<lb xml:id="VI_335-2"/> so müßt’ ich wol auf einige Stunden scheiden,
+                  um ganz wieder<lb xml:id="VI_335-3" rendition="#hyphen"/>zukommen. Ich könnte hier
+                  prophezeien, wär’ es <hi rendition="#aq">loci.</hi>
+               </p>
+               <lb xml:id="VI_335-4"/>
+               <p>Da mein treuer <hi rendition="#aq">Emanuel</hi> das Blatt einschließen will: so
+                     leg’<note corresp="#VI_335-5">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003087" ana="†">
+                           <persName> Emanuel <name type="reg">Osmund</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="5" xml:id="VI_335-5"/> ich kein neues mehr an, sondern wünsche wol zu leben
+                  und oft zu<lb xml:id="VI_335-6"/> geigen, da man wol Wissenschaften mit Vortheil
+                  eine Zeit lang<lb xml:id="VI_335-7"/> aussetzt, aber Kunstfertigkeiten nur mit
+                  Nachtheil.</p>
+               <lb xml:id="VI_335-8"/>
+            </div>
+            <div>
+               <head>
+                  <hi rendition="#g">Nachschrift.</hi>
+               </head>
+               <lb xml:id="VI_335-09"/>
+               <p>Gute <hi rendition="#aq">Eva</hi>! Da Weiber stets mit Nachschriften schließen —
+                     wie<lb n="10" xml:id="VI_335-10"/> denn <hi rendition="#aq">Eva</hi> selber ein
+                  Postskript <hi rendition="#aq">Adams,</hi> ja das der Schöpfung war<note corresp="#VI_335-11">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000019">
+                           <persName>
+                              <name type="reg">Adam</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-001021">
+                           <persName>
+                              <name type="reg">Eva</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_335-11"/> — so mach’ ich meinen ganzen Brief zu einer. Ich
+                  wünschte, Sie<lb xml:id="VI_335-12"/> schickten mir einen kleinen Waschzettel
+                  aller der bösen Seiten, die<lb xml:id="VI_335-13"/> Ihr guter Mann an sich erst in
+                  der Ehe wider Vermuthen auf<note corresp="#VI_335-14">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004275">
+                           <persName> Paul Emile <name type="reg">Thieriot</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_335-14" rendition="#hyphen"/> deckt. Für meinen eignen Gebrauch hab
+                  ich mir gute männliche<lb n="15" xml:id="VI_335-15"/> Fleckkugeln angeschafft und
+                  könnte dienen. Er hingegen kann wieder<lb xml:id="VI_335-16"/> bei meiner Frau
+                  nach weiblichen Fleckkugeln <hi rendition="#g">fragen.</hi> — Ich brauche<note corresp="#VI_335-17">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003469">
+                           <persName> Caroline <name type="reg">Richter</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_335-17"/> aber nicht erst eine Nachschrift zu beschließen, um Ihnen
+                  zu sagen,<lb xml:id="VI_335-18"/> mit welcher Hochachtung ich schon seit so langem
+                  verharrete</p>
+               <lb xml:id="VI_335-19"/>
+               <closer>
+                  <salute>
+                     <hi rendition="#right">Ihr<lb n="20" xml:id="VI_335-20"/> Jean Paul Fr.
+                        Richter</hi>
+                     <lb xml:id="VI_335-21"/>
+                  </salute>
+               </closer>
+            </div>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Berlin Varnh. 213 (derzeit BJK). 4½ S. 4°. (Es folgt
+                  noch ½ S. von Emanuel<lb/> an Eva.) <hi rendition="#i">K</hi> (nach Nr.</hi> 771):
+               Thieriot den 3. Jul. p. ab den 17. <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>: Wahr<lb rendition="#hyphen"/> heit 8, 5×. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>: Denkw. 1, 482×. <hi rendition="#i">B</hi>: IV. Abt.,
+                  VI, Nr. 119? <hi rendition="#b">332</hi>,<hi rendition="#rkd">31</hi> der
+                  Monatstag<lb/> ist ausradiert <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">33</hi> wann<hi rendition="#sup">1</hi>] <hi rendition="#aq">aus</hi> wenn <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">333</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">5</hi>
+               </hi> denkt] <hi rendition="#aq">aus</hi> dachte <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>,</hi>
+               <lb/> dachte <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+                  <hi rendition="#rkd">9</hi>f.</hi> zu prügeln] <hi rendition="#aq">aus</hi>
+               auszuprügeln <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>,</hi> auszuprügeln <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">14</hi> Äpfel<lb/> von einem] <hi rendition="#aq">aus</hi> einen
+               Apfel vom <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">17</hi> abzustatten] <hi rendition="#aq">aus</hi> zu überreichen
+                  <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">23</hi> würden <hi rendition="#aq">bis</hi> Thüre] <hi rendition="#aq">aus</hi> wären schon Freunde geworden <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">334</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">3</hi>
+               </hi> alles]<lb/>
+               <hi rendition="#aq">aus</hi> es <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">5</hi> Wünschen] <hi rendition="#aq">aus</hi> Sagen <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">34</hi> Quinquennien] <hi rendition="#aq">aus</hi> Jahren <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#b">
+                  <hi rendition="#aq">335</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">5</hi>
+               </hi> das Blatt] <hi rendition="#aq">aus</hi> den Brief <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">7</hi> Wissenschaften] <hi rendition="#aq">aus</hi> eine
+                  Wissen<lb rendition="#hyphen"/> schaft <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">11</hi> ja] und <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">15</hi> männliche] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">333</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">24</hi>
+               </hi>
+               <hi rendition="#aq">
+                  <hi rendition="#g">Exzerpten:</hi> Thieriot teilte in seinen Briefen häufig Aus<lb rendition="#hyphen"/> sprüche Evas mit; vgl. Nr. 449f. <hi rendition="#rkd">33</hi> Wilh. Heinr. <hi rendition="#g">Ackermann</hi>
+                  <lb/> (1789—1848), ein Voigtländer, Jünger Pestalozzis, 1811—13 in Yver<lb rendition="#hyphen"/> don, dann Lützowscher Jäger. <hi rendition="#g">Graff:</hi> s. Nr. 742†. <hi rendition="#g">Patzig:</hi> ?<lb/>
+                  <hi rendition="#rkd">34</hi> Emilie <hi rendition="#g">Harmes</hi> wohnte damals
+                  in Erlenbach am Zürchersee; vgl.<lb/> Nr. 394† und 410. <hi rendition="#b">334</hi>,<hi rendition="#rkd">8</hi>ff. Thieriot führte den Besuch bei <hi rendition="#g">Mumen<lb rendition="#hyphen"/> thaler</hi> sogleich im August
+                  1813 aus, s. IV. Abt. (Br. an J. P.), VI, Nr. 230. <hi rendition="#b">335</hi>,<hi rendition="#rkd">5</hi>
+                  <lb/>
+                  <hi rendition="#g">Emanuel</hi> erkundigt sich in den beigefügten Zeilen bei der
+                  aus Mainz<lb/> gebürtigen Eva nach der Familie Lux, besonders nach der Witwe
+                  und<lb/> der Tochter Marianne; Eva antwortete darauf erst 1816, sie erinnere<lb/>
+                  sich aus früher Zeit, von dieser Familie gehört, auch die Töchter ge<lb rendition="#hyphen"/> sehen zu haben; Marianne habe artig Klavier gespielt und
+                  gesund und<lb/> freundlich ausgesehen. <hi rendition="#rkd">16</hi>
+                  <hi rendition="#g">Fleckkugeln:</hi> vgl. <hi rendition="#b">201</hi>,<hi rendition="#rkd">22</hi>f. und <hi rendition="#b">275</hi>,<hi rendition="#rkd">1</hi>ff.</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

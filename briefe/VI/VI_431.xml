@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VI_431">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="432">431. An Hofrat Jung in Frankfurt a. M. </title>
+            <title n="digital">An Franz Wilhelm Jung. Bayreuth, 5. Januar 1811.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=VI_431</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/VI/VI_431</idno>
+               <idno type="TELOTAID">VI_431</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope unit="page">
+                  <num>170</num>
+                  <num>171</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1811-01-05">5. Januar 1811</date>
+               <placeName key="JP-005574" ref="http://www.geonames.org/2951825">Bayreuth</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-001981" ref="http://d-nb.info/gnd/117234303">
+                  <name type="reg">Jung</name> Franz Wilhelm</persName>
+               <placeName key="JP-005743" ref="http://www.geonames.org/2925533">Frankfurt a.
+                  M.</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VI_390">20. November 1810</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VI_446">21. Januar 1811</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <dateline>
+               <hi rendition="#right">
+                  <hi rendition="#aq">
+                     <placeName>Bayreuth</placeName> d. <date>5. Jenn. 1811</date>
+                  </hi>
+               </hi>
+            </dateline>
+            <lb xml:id="VI_170-22"/>
+            <p>Schon aus Ihrem Schweigen, und aus des Großherzogs<note corresp="#VI_170-23">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000742">
+                        <persName> Karl Theodor Reichsfreiherr von <name type="reg">Dalberg</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_170-23"/> Schreiben, vortrefflicher thätiger Freund, errieth ich, daß
+               Sie eben<lb xml:id="VI_170-24"/> der letztere wieder wären. Meinen Dank dafür zu dem
+               Danke Ihres<lb n="25" xml:id="VI_170-25"/> Bewußtseins! —</p>
+            <lb xml:id="VI_170-26"/>
+            <p>Für das Museum hab’ ich eben Aufsätze geschickt. — Sogar für<note corresp="#VI_170-27">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-0057438">
+                        <placeName>Museum; Frankfurt a. M.</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_170-27"/> den 8<hi rendition="#sup">ten</hi> Februar könnt’ ich ihm
+               wieder ein Blättchen senden, das sich<lb xml:id="VI_170-28"/> blos auf den Großherzog
+               bezöge, <hi rendition="#g">in so fern</hi> am 8<hi rendition="#sup">ten</hi> sein
+                  Geburts<note corresp="#VI_170-29">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000742">
+                        <persName> Karl Theodor Reichsfreiherr von <name type="reg">Dalberg</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_170-29" rendition="#hyphen"/>tag ist.<lb n="30" xml:id="VI_170-30"/>
+            </p>
+            <p>Ihr <hi rendition="#aq">Wenner</hi> gefällt mir als Mensch und Buchhändler
+                  zugleich.<note corresp="#VI_170-31">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004670">
+                        <persName> Johann Friedrich <name type="reg">Wenner</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_170-31"/> Mit ihm könnt’ ich über Ihren Vorschlag leichter einig
+                  werden<lb xml:id="VI_170-32"/> als mit mir — jetzt. Erstlich müßt’ ich schon ein
+               Jahr voraus<lb xml:id="VI_170-33"/> arbeiten und bereit haben, um frei und für die
+               Zeitung täglich ge<lb xml:id="VI_170-34" rendition="#hyphen"/>rüstet zu sein, zumal
+               da mich kleine Aufsätze mehr plagen als große,<lb n="35" xml:id="VI_170-35"/> so wie
+               den Menschen Moskiten mehr als Löwen. — Zweitens hab’<lb xml:id="VI_171-1"/> ich so
+               viele große Arbeiten in der Vorbereitung liegen, zu welchen<lb xml:id="VI_171-2"/>
+               ich immer nicht gelangen konnte. Kurz, nur Zeit lassen Sie mir;<lb xml:id="VI_171-3"/> damit ich nicht verspreche, was ich nicht halten kann.</p>
+            <lb xml:id="VI_171-4"/>
+            <p>Dem trefflichen <hi rendition="#aq">Wenner</hi> könnt’ ich übrigens ein gutes Buch
+                  von<note corresp="#VI_171-5">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004406" ana="†">
+                        <persName> Johann Friedrich <name type="reg">Varrentrapp</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-004670" ana="†">
+                        <persName> Johann Friedrich <name type="reg">Wenner</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="5" xml:id="VI_171-5"/> einem eben verstorbnen Freunde von mir, Regierungs
+                  Rath<lb xml:id="VI_171-6"/>
+               <hi rendition="#aq">v. Dobeneck,</hi> zum Verlage anbieten: „Des deutschen
+                  Mittelalters<note corresp="#VI_171-7">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008303">
+                        <author>Dobeneck, Friedrich Ludwig Ferdinand von (1770-1810),</author>
+                        <title>Des deutschen Mittelalters Volksglauben (1815)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_171-7"/> „Volksglauben und Heroensagen“ etwa zwei mäßige Bände
+                  stark;<lb xml:id="VI_171-8"/> alles aus alten Quellen geschöpft und diese
+               ungetrübt zugeleitet<lb xml:id="VI_171-9"/> und mit poetischem Sinne. Ich würde eine
+               Vorrede dazu machen.<note corresp="#VI_171-10">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010966">
+                        <title>Vorreden zu fremden Werken: Dobeneck, Des deutschen Mittelalters
+                           Volksglauben (1815)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="10" xml:id="VI_171-10"/> Doch wozu so viele vorläufige Worte, da ich doch
+               einen Theil des<lb xml:id="VI_171-11"/> Mspts und die Bestimmung der Bedingungen
+               schicken muß? —<lb xml:id="VI_171-12"/> Sogar der berühmte <hi rendition="#aq">Klüber</hi> in <hi rendition="#aq">Erlangen</hi> wollte von ihm Auf<note corresp="#VI_171-13">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002142">
+                        <persName> Johann Ludwig <name type="reg">Klüber</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005722">
+                        <placeName>Erlangen </placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_171-13" rendition="#hyphen"/>sätze über das Mittelalter.</p>
+            <lb xml:id="VI_171-14"/>
+            <p>Ich habe sehr im Thränen- oder Wein-Monat 1810 gelitten,<lb n="15" xml:id="VI_171-15"/> nicht an mir sondern mit tausend Menschen und hundert Städten.</p>
+            <lb xml:id="VI_171-16"/>
+            <p>Leben Sie froh, wenn es <hi rendition="#g">jetzt</hi> möglich ist, Sie recht
+                  herzlich<lb xml:id="VI_171-17"/> von mir geliebter Mann. Meine Frau würde Sie so
+               innig grüßen<note corresp="#VI_171-18">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003469" ana="†">
+                        <persName> Caroline <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_171-18"/> wie ich, wäre sie jetzt nicht bei ihrer kranken Schwester,
+               mit der<note corresp="#VI_171-19">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004393">
+                        <persName> Wilhelmine <name type="reg">Uthe-Spazier</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_171-19"/> sie nach <hi rendition="#aq">Berlin</hi> zu dem ging, der
+               Ihnen ähnlich ist. Leben Sie wol!<note corresp="#VI_171-20">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002703" ana="†">
+                        <persName> Johann Siegfried Wilhelm <name type="reg">Mayer</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005586">
+                        <placeName>Berlin</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb n="20" xml:id="VI_171-20"/>
+            </p>
+            <closer>
+               <salute>
+                  <hi rendition="#right">Ihr<lb xml:id="VI_171-21"/> Jean Paul Fr. Richter</hi>
+                  <lb xml:id="VI_171-22"/>
+               </salute>
+            </closer>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Stadtbibl. Braunschweig. 4 S. 8°. <hi rendition="#i">K</hi> (nach Nr. 435): <hi rendition="#i">Hofrath<lb/> Jung</hi>
+               </hi> 5 Jenn. <hi rendition="#aq">
+                  <hi rendition="#i">B</hi>: IV. Abt., VI, Nr.</hi>
+               <hi rendition="#aq">127.</hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Vgl. Nr. 390†. <hi rendition="#g">Aufsätze für Museum:</hi> vgl.
+                  FB Nr. 22;<lb/> Jung hatte um Beiträge zum Museum, dem „Schoßkind des
+                  Fürsten“,<lb/> gebeten. <hi rendition="#g">Wenner:</hi> Jung hatte im Auftrage
+                  seines Freundes, des Frank<lb rendition="#hyphen"/> furter Buchhändlers Wenner,
+                  der im Begriff stand, sich von seinem<lb/> Oheim und bisherigen Teilhaber
+                  Varrentrapp zu trennen, Jean Paul<lb/> den Vorschlag unterbreitet, die Redaktion
+                  eines Tageblatts zu über<lb rendition="#hyphen"/> nehmen gegen ein Jahreshonorar
+                  von 1000 fl. und besondere Hono<lb rendition="#hyphen"/> rierung eigner Beiträge;
+                  vgl. FB Nr. 28. <hi rendition="#g">Dobeneck:</hi> vgl.<lb/> Nr. 397†. Joh. Ludw.
+                     <hi rendition="#g">Klüber</hi> (1762—1837). <hi rendition="#g">Thränen- oder
+                        Wein<lb rendition="#hyphen"/> Monat 1810:</hi> wegen der besonders auch für
+                  Frankfurt katastrophalen<lb/> wirtschaftlichen Folgen der Kontinentalsperre. <hi rendition="#g">Meine Frau:</hi> Jung<lb/> hatte sich beklagt, daß sie ihn nicht
+                  habe grüßen lassen; sie hatte<lb/> ihn ihrem Vater ähnlich gefunden, s.</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">120</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">28</hi>
+               </hi>
+               <hi rendition="#aq">.</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

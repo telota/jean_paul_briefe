@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VI_291">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="292">291. An Charles de Villers in Göttingen. </title>
+            <title n="digital">An Charles Villers, de. Bayreuth, 19. Juni 1810.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=VI_291</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/VI/VI_291</idno>
+               <idno type="TELOTAID">VI_291</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope unit="page">
+                  <num>112</num>
+                  <num>113</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1810-06-19">19. Juni 1810</date>
+               <placeName key="JP-005574" ref="http://www.geonames.org/2951825">Bayreuth</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-004437" ref="http://d-nb.info/gnd/118627031">
+                  <name type="reg">Villers, de</name> Charles</persName>
+               <placeName key="JP-005786" ref="http://www.geonames.org/2918632">Göttingen</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VI_231">13. Februar 1810</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VI_354">17. September
+                  1810</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <dateline>
+               <hi rendition="#right">
+                  <hi rendition="#aq">
+                     <placeName>Bayreuth</placeName> d. <date>19. Jun. 1810</date>
+                  </hi>
+               </hi>
+            </dateline>
+            <lb xml:id="VI_112-16"/>
+            <p>Geliebter Villers! Dieses <hi rendition="#g">eilig</hi> geschriebne Blättchen
+                  bringt<lb xml:id="VI_112-17"/> Ihnen <hi rendition="#aq">M<hi rendition="#sup">de</hi> Laffont;</hi> deren Seele viel Ähnliches von ihrem Ge<note corresp="#VI_112-18">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002336">
+                        <persName>
+                           <name type="reg">Laffont</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_112-18" rendition="#hyphen"/>sichte hat und schön ist. Obgleich Frau
+               eines französischen Kapitäns,<note corresp="#VI_112-19">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-0057470">
+                        <placeName>(Gallier, Neufranken); Frankreich, Franzosen,
+                           französisch</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_112-19"/> ist sie doch eine deutsche geblieben an Gesinnung und Art.
+                  Schicken<note corresp="#VI_112-20">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-0056710">
+                        <placeName>Frauen; Deutschland, deutsche</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb n="20" xml:id="VI_112-20"/> Sie mir nur bald die Belohnung, nämlich eine schöne
+               Seele, die<lb xml:id="VI_112-21"/> mir von Ihnen noch mehr erzählt als diese Ihnen
+               von meiner<lb xml:id="VI_112-22"/> Frau und meinen Kindern erzählen wird.</p>
+            <note corresp="#VI_112-23">
+               <listPerson type="lineReference">
+                  <person corresp="#JP-003469">
+                     <persName> Caroline <name type="reg">Richter</name>
+                     </persName>
+                  </person>
+                  <person corresp="#JP-003483">
+                     <persName> Johann Paul Friedrich <name type="reg">Richter</name>
+                     </persName>
+                  </person>
+               </listPerson>
+            </note>
+            <lb xml:id="VI_112-23"/>
+            <p>Hier leg’ ich Ihnen die kopierte Bitte an den Herzog von Gotha<note corresp="#VI_112-24">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000943">
+                        <persName> August Leopold <name type="reg">Emil</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_112-24"/> bei, den ich darin nach seiner seltsamen obwol genialen
+               Natur be<lb n="25" xml:id="VI_112-25" rendition="#hyphen"/> handeln mußte. Ich
+               schweige vor Ihnen so lange als er schweigt;<lb xml:id="VI_112-26"/> aber dieß wissen
+               Sie, daß sein Ja auf unsern Doppelwunsch Ihnen<lb xml:id="VI_112-27"/> sogleich aus
+               meiner Hand zufliegen würde; dieß wäre für mich<lb xml:id="VI_112-28"/> der froheste
+               Brief, den ich <hi rendition="#aq">anno</hi> 1810 schriebe.</p>
+            <lb xml:id="VI_112-29"/>
+            <p>Ihr <hi rendition="#g">Werkchen</hi> über Luther — wofür ich danke — macht mich<note corresp="#VI_112-30">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009952">
+                        <author>Villers, Charles de (1765-1815), französisch-deutscher
+                           Schriftsteller</author>
+                        <title>Précis historique de la vie de Luther (1810)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="30" xml:id="VI_112-30"/> desto begieriger auf Ihr <hi rendition="#g">Werk</hi>
+               über ihn; komm’ es nur bald!</p>
+            <lb xml:id="VI_112-31"/>
+            <p>Eben so freu ich mich auf das Werkchen, worin Sie als <hi rendition="#aq">Sauve<lb xml:id="VI_112-32" rendition="#hyphen"/>Garde</hi> sich und mich vor und gegen
+               Ihre Landesleute steller. wollen,<note corresp="#VI_112-33">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-0057470">
+                        <placeName>(Gallier, Neufranken); Frankreich, Franzosen,
+                           französisch</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_112-33"/> wie Sie schon in anderem Sinne in <hi rendition="#aq">Lübeck</hi> gethan. Wollen Sie<note corresp="#VI_112-34">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005977" ana="†">
+                        <placeName>Lübeck</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_112-34"/> mir vorher das Manuskript zuschicken, so werd’ ich Ihnen
+                  aus<lb xml:id="VI_113-1"/>
+               <hi rendition="#g">einer Ursache</hi> danken, die Sie schlechterdings nicht
+                  errathen<lb xml:id="VI_113-2"/> können, die ich Ihnen aber künftig sagen werde;
+               denn an und für<lb xml:id="VI_113-3"/> sich bedarf es dieser Zusendung nicht, da Sie
+               Deutsch schreiben wie<note corresp="#VI_113-4">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-0056716">
+                        <placeName>Sprache, Stil; Deutschland, deutsche</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_113-4"/> ein Deutscher und Französisch wie blos der kräftigere
+                  Franzose;<note corresp="#VI_113-5">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-00574612">
+                        <placeName>Sprache, Stil, Schrift; Frankreich, französisch</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb n="5" xml:id="VI_113-5"/> und ich weiß, daß wenn es für mich einen Übersetzer ins
+                  Französische<lb xml:id="VI_113-6"/> gibt, (oder auch einen Rezensenten), daß Sie
+               es sind.</p>
+            <lb xml:id="VI_113-7"/>
+            <p>
+               <hi rendition="#aq">Bernadotte</hi>
+               <note n="*)" place="foot">Meinen Brief an <hi rendition="#aq">Bernadotte</hi> können
+                  Sie drucken lassen, wenn der Brief<lb type="ig"/> es verdient. Sie dürfen viel,
+                  weil Sie noch mehr können.</note> ging nicht durch <hi rendition="#aq">Bayreuth,</hi> also konnt’ er meine<note corresp="#VI_113-8">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000311">
+                        <persName> Jean Baptiste Jules <name type="reg">Bernadotte</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005574">
+                        <placeName>Bayreuth (Stadt)</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_113-8"/> Bitte nicht erfüllen; aber auch bei dem Durchgange hätt’ ers
+                  nicht<lb xml:id="VI_113-9"/> gekonnt; und ich hätte sie gar nicht thun sollen, da
+               man jede Frei<lb n="10" xml:id="VI_113-10" rendition="#hyphen"/> heit im Kriege
+               leichter erlangt als die von Einquartierung. —<lb xml:id="VI_113-11"/> Unter <hi rendition="#aq">Maitre du greffe</hi> meint’ ich einen Kammer-Registrator.</p>
+            <note corresp="#VI_113-12">
+               <listPerson type="lineReference">
+                  <person corresp="#JP-003849" ana="†">
+                     <persName> Johann Friedrich <name type="reg">Schramm</name>
+                     </persName>
+                  </person>
+               </listPerson>
+            </note>
+            <lb xml:id="VI_113-12"/>
+            <p>Ich war <hi rendition="#g">nie</hi> in Göttingen. Aber jetzt möcht’ ich wol da
+                  sein<note corresp="#VI_113-13">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005786">
+                        <placeName>Göttingen</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_113-13"/> und Ihnen meinen Brief und mich selber bringen. Freilich
+                  wird<lb xml:id="VI_113-14"/> die schöne Überbringerin Ihnen mehr Vergnügen geben;
+                  aber<note corresp="#VI_113-15">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002336">
+                        <persName>
+                           <name type="reg">Laffont</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="15" xml:id="VI_113-15"/> der Überbringer würde ein größeres haben.</p>
+            <lb xml:id="VI_113-16"/>
+            <closer>
+               <salute>
+                  <hi rendition="#right">Ihr<lb xml:id="VI_113-17"/> Jean Paul Fr. Richter</hi>
+               </salute>
+            </closer>
+            <lb xml:id="VI_113-18"/>
+            <trailer>
+               <address>
+                  <addrLine>
+                     <metamark>[</metamark>Adr.<metamark>]</metamark>
+                     <hi rendition="#aq">A Monsieur Charl. <hi rendition="#g">Villers,</hi> homme de
+                        lettres, homme<lb xml:id="VI_113-19"/> et — qui est plus — Villers Ã 
+                        Gottingue.</hi>
+                  </addrLine>
+               </address>
+            </trailer>
+            <lb n="20" xml:id="VI_113-20"/>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Stadtbibliothek Hamburg (Slg. Campe). 4 S. 8°;
+                  Adr.<lb/> auf einem Kuvert, dessen Zugehörigkeit durch <hi rendition="#i">K</hi>
+                  gesichert ist.<lb/>
+                  <hi rendition="#i">K</hi>: <hi rendition="#i">Villers 19 Jun. J</hi>: Magazin f.
+                  d. Literatur des In- u. Auslandes,<lb/> 1884, Nr. 27. (Adr. s. zu Nr.</hi>
+               <hi rendition="#aq">354.) </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">112</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">19</hi>
+               </hi> und schön ist] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+                  <lb/>
+                  <hi rendition="#rkd">22</hi>f.</hi> meiner Frau und] <hi rendition="#aq">nachtr.
+                     <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">33</hi> sich und] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi> Landesleute]<lb/>
+               <hi rendition="#aq">so auch <hi rendition="#i">K</hi> (auch I. Abt., XIV,</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">11</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">17</hi>
+               </hi>
+               <hi rendition="#aq">) </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">113</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">3</hi>
+               </hi> künftig] <hi rendition="#aq">aus</hi> nachher <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">5</hi> blos] <hi rendition="#aq">aus</hi> nur <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+                  <hi rendition="#rkd">33</hi>f.</hi> der Brief es] <hi rendition="#aq">aus</hi> ers
+                  <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">34</hi> dürfen viel]<lb/>
+               <hi rendition="#aq">unterstr. <hi rendition="#i">K</hi>
+               </hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#g">Mad. Laffont:</hi> vgl. FB Nr. 15. <hi rendition="#g">Werkchen
+                     über Luther:</hi>
+                  <lb/> s. zu Nr. 281; Villers plante ein größeres Werk über Luther, das un<lb rendition="#hyphen"/> vollendet blieb. <hi rendition="#g">Sauve-Garde:</hi>
+                  Villers hatte also wohl die Erfüllung<lb/> von Jean Pauls in Nr. 231 geäußertem
+                  Wunsch in Aussicht gestellt;<lb/> sein früher Tod (1815) hat ihn nicht dazu kommen
+                  lassen. In <hi rendition="#g">Lübeck</hi>
+                  <lb/> hatte Villers im November 1806 die Einwohner mutig gegen die plün<lb rendition="#hyphen"/> dernden Franzosen verteidigt. <hi rendition="#g">Bernadotte:</hi> vgl. zu Nr. 231; als<lb/> Maitre du greffe hatte Jean Paul in
+                  dem Brief an B. seinen damaligen<lb/> Hauswirt Schramm bezeichnet.</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

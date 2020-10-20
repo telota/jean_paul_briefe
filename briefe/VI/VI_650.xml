@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VI_650">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="652">650. An Otto. </title>
+            <title n="digital">An Christian Otto. Nürnberg, 12. Juni 1812 bis 17. Juni 1812.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=VI_650</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/VI/VI_650</idno>
+               <idno type="TELOTAID">VI_650</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope unit="page">
+                  <num>271</num>
+                  <num>272</num>
+                  <num>273</num>
+                  <num>274</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date corresp="writingSession1" when="1812-06-12">12. Juni 1812</date>
+               <date corresp="writingSession2" when="1812-06-13">13. Juni 1812</date>
+               <date corresp="writingSession3" when="1812-06-17">17. Juni 1812</date>
+               <placeName key="JP-006085" ref="http://www.geonames.org/2861650">Nürnberg</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-003112" ref="http://d-nb.info/gnd/118590804">
+                  <name type="reg">Otto</name> Christian</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VI_648">6. Juni 1812</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VI_657">10. Juli 1812</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <div n="writingSession1">
+               <lb xml:id="VI_271-21"/>
+               <dateline>
+                  <hi rendition="#right">
+                     <hi rendition="#aq">
+                        <placeName>Nürnberg</placeName> d. <date>12. Jun. 1812</date>
+                     </hi>
+                     <metamark>[</metamark>Freitag<metamark>]</metamark>
+                  </hi>
+               </dateline>
+               <lb xml:id="VI_271-22"/>
+               <p>Guten Abend, lieber Alter! Ich will endlich aus meiner stillen<lb xml:id="VI_271-23"/> Einsamkeit in deine hinein schreiben. — Wäre schönes
+                  Wetter und<lb xml:id="VI_271-24"/> die schöne Natur näher: so fehlte mir bei
+                  meinen guten Hausleuten<note corresp="#VI_271-25">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002248">
+                           <persName> Anna Magdalena <name type="reg">Krauß </name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="25" xml:id="VI_271-25"/> und bei so vielen Nürnberger Lesern nicht viel von
+                     <hi rendition="#aq">Erlangen.</hi> —<note corresp="#VI_271-26">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005722">
+                           <placeName>Erlangen </placeName>
+                        </place>
+                        <place corresp="#JP-006085">
+                           <placeName>Nürnberg</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VI_271-26"/> Über Jacobi wirst du am liebsten hören wollen. So oft wir
+                     auch<note corresp="#VI_271-27">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001909" ana="ff">
+                           <persName> Friedrich Heinrich <name type="reg">Jacobi</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_271-27"/> beisammen waren, so haben wir doch kaum auszureden
+                     angefangen;<lb xml:id="VI_271-28"/> und die ewigen Gespräche über Philosophie —
+                  welche aber seltener<lb xml:id="VI_271-29"/> Streitigkeiten als Mittheilungen und
+                  weitere Auseinanderwicklungen<lb n="30" xml:id="VI_271-30"/> waren — ließen mir zu
+                  vielen Fragen über sein Leben, seine frühern<lb xml:id="VI_271-31"/>
+                  Bekanntschaften gar keinen Raum. Er sucht wirklich mit reinem<lb xml:id="VI_271-32"/> warmen Eifer unausgesetzt nur die Wahrheit. Sein Buch
+                     über<note corresp="#VI_271-33">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-008816">
+                           <author>Jacobi, Friedrich Heinrich (1743-1819), Philosoph und
+                              Schriftsteller</author>
+                           <title>David Hume (1787)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VI_271-33"/> Realismus hat er mir für den neuen Druck zu Anmerkungen
+                     da<lb xml:id="VI_272-1" rendition="#hyphen"/>gelassen. Den neuen 1<hi rendition="#sup">ten</hi> Band seiner Werke bring’ ich mit. — Er<note corresp="#VI_272-2">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-008829">
+                           <author>Jacobi, Friedrich Heinrich (1743-1819), Philosoph und
+                              Schriftsteller(Werk)</author>
+                           <title>Werke (1812-1825)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VI_272-2"/> will mich durchaus nach <hi rendition="#aq">München</hi>
+                  haben zum Durchsehen und<note corresp="#VI_272-3">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006040">
+                           <placeName>München</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VI_272-3"/> Ordnen seiner Papiere, deren er mir mehrere gab, welchen
+                     zum<lb xml:id="VI_272-4"/> Drucke wenig an Stil und — Handschrift fehlt; (so
+                  ruhig und gleich<lb n="5" xml:id="VI_272-5" rendition="#hyphen"/> förmig ist auch
+                  letztere, wie sein ganzes Benehmen, Reden und sein<lb xml:id="VI_272-6"/> sanfter
+                  edler Sprachton). Schon in der ersten Viertelstunde mußt’<lb xml:id="VI_272-7"/>
+                  er meinen Sprüngen zwischen Ernst und Scherz zuschauen; und als<lb xml:id="VI_272-8"/> ich es halb entschuldigte, sagten die Schwestern, er thue
+                  selber oft<note corresp="#VI_272-9">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001906">
+                           <persName> Charlotte und Helene <name type="reg">Jacobi</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_272-9"/> deßgleichen. Übrigens scheint er mir doch nicht den
+                  rechten Sinn<lb n="10" xml:id="VI_272-10"/> für Scherz zu haben, daher er sich
+                  Katzenberger und Fibel nicht<note corresp="#VI_272-11">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010574">
+                           <title>D. Katzenbergers Badereise (1809)</title>
+                        </bibl>
+                        <bibl corresp="#JP-010807">
+                           <title>Leben Fibels (1812)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VI_272-11"/> hinaus vorlesen lassen (— freilich von den armen
+                  Schwestern; und<note corresp="#VI_272-12">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001906">
+                           <persName> Charlotte und Helene <name type="reg">Jacobi</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_272-12"/> ich billigte es selber und rieth ihnen, solche Sachen,
+                  wenn es zu<lb xml:id="VI_272-13"/> machen wäre, anstatt mit ihren Lippen
+                  vorzutragen, ihm lieber<lb xml:id="VI_272-14"/> auf einer Kempelischen
+                  Sprachmaschine vorzuspielen). Zuweilen<note corresp="#VI_272-15">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002083">
+                           <persName> Wolfgang von <name type="reg">Kempelen</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="15" xml:id="VI_272-15"/> nimmt ihm das Alter die Fortsetzung einer Idee;
+                  auch klagt er,<lb xml:id="VI_272-16"/> daß er sprechend jetzt nicht Herr genug
+                  über seine Darstellungen sei,<lb xml:id="VI_272-17"/> was ich aber nicht fand — Er
+                  hat überall Ruhe, nicht Kälte; kann<lb xml:id="VI_272-18"/> daher so <hi rendition="#g">leicht</hi> Feinde ansprechen, anhören und befriedigen als
+                     ich<lb xml:id="VI_272-19"/>
+                  <hi rendition="#g">schwer.</hi> Es bleibt die Vormitternacht mir rührend, wo wir
+                     <hi rendition="#g">allein,</hi>
+                  <lb n="20" xml:id="VI_272-20"/> er mit dem Schatten des Lichtschirms auf dem
+                  Gesichte, leise über<lb xml:id="VI_272-21"/> das Wichtigste sprachen. — Und doch —
+                  höre! — er sollte meinem<lb xml:id="VI_272-22"/> erdigen Herzball einen neuen Stoß
+                  zur Bewegung um die höhere<lb xml:id="VI_272-23"/> Sonne geben und mich heiligen
+                  und mir soviel sein wie <hi rendition="#aq">Herder,</hi>
+                  <note corresp="#VI_272-24">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001675">
+                           <persName> Johann Gottfried von <name type="reg">Herder</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_272-24"/> ja mehr als <hi rendition="#aq">Herder</hi> — er war
+                  beides nicht und meine frömmsten<lb n="25" xml:id="VI_272-25"/> Wünsche für mich
+                  können leider nun von niemand weiter erfüllt<lb xml:id="VI_272-26"/> werden als
+                  von mir selber. — „Hab’ ich nur ihn gesehen, hatt’<lb xml:id="VI_272-27"/> ich
+                  bisher gedacht, so werd’ ich ein neuer Mensch und begehre weiter<lb xml:id="VI_272-28"/> keinen edel-berühmten Mann mehr zu sehen.“ Ach! —</p>
+               <lb xml:id="VI_272-29"/>
+               <p>— Er sieht ganz gesund aus (wie auch sein Paß besagt) und<lb n="30" xml:id="VI_272-30"/> ißt mehr und trinkt so viel als ich und kann und thut vom
+                     morgen<lb xml:id="VI_272-31"/> an bis Vormitternacht in Einem fort unter
+                  Menschen, Genüssen<lb xml:id="VI_272-32"/> und auf Häuser- oder Visitenreisen
+                  sein. Ich blieb zu seiner Ver<lb xml:id="VI_272-33" rendition="#hyphen"/>
+                  wunderung meiner alten Regel treu, mitten aus der wärmsten Ge<lb xml:id="VI_272-34" rendition="#hyphen"/> sellschaft in meine kühle Einsamkeit
+                  zu laufen, um mich vom Erholen<lb n="35" xml:id="VI_272-35"/> zu erholen; z. B.
+                  aus der vollen Männer- und Weibergesellschaft<lb xml:id="VI_272-36"/> bei <hi rendition="#aq">Merkel</hi> nach einem überreichen Gastmal (er hat 5
+                  Häuser).</p>
+               <note corresp="#VI_272-37">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002775">
+                        <persName> Paul Wolfgang <name type="reg">Merkel</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_272-37"/>
+            </div>
+            <div n="writingSession2">
+               <dateline>
+                  <hi rendition="#right">d. 13 J.</hi>
+               </dateline>
+               <lb xml:id="VI_273-1"/>
+               <p>Und mein von vielen Reden der Menschen angefachtes Sprech<lb xml:id="VI_273-2" rendition="#hyphen"/>feuer — und <hi rendition="#aq">D. Erhard,</hi> der einmal
+                  gegen <hi rendition="#aq">Herder</hi> und mich ge<note corresp="#VI_273-3">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000986">
+                           <persName> Johann Benjamin <name type="reg">Erhard</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-001675">
+                           <persName> Johann Gottfried von <name type="reg">Herder</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-008336">
+                           <author>Erhard, Johann Benjamin (1766-1827), Arzt in Nürnberg,
+                              Schriftsteller, Kantianer</author>
+                           <title>Brief an Herrn Jean Paul (1800)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VI_273-3" rendition="#hyphen"/>schrieben<note n="*)" place="foot">Ich
+                     präsentierte mich ihm so: „Sie haben einmal den Teufel gelobt (im<note corresp="#VI_273-36">
+                        <listBibl type="lineReference" subtype="werke">
+                           <bibl corresp="#JP-008335">
+                              <author>Erhard, Johann Benjamin (1766-1827), Arzt in Nürnberg,
+                                 Schriftsteller, Kantianer</author>
+                              <title>Apologie des Teufels (1795)</title>
+                           </bibl>
+                        </listBibl>
+                     </note>
+                     <lb xml:id="VI_273-36"/> Niethammerschen Journal ein Aufsatz für dessen
+                     Existenz) — <hi rendition="#aq">Le voilÃ !</hi>“<note corresp="#VI_273-37">
+                        <listBibl type="lineReference" subtype="werke">
+                           <bibl corresp="#JP-010337">
+                              <author/>
+                              <title>Philosophisches Journal (1795-1800). Hrsg. von Friedrich
+                                 ImmanuelNiethammer und Johann Gottlieb Fichte</title>
+                           </bibl>
+                        </listBibl>
+                     </note>
+                     <lb xml:id="VI_273-37"/>
+                  </note> und dessen Materialismus ich jetzt bekämpfte — machten<note corresp="#VI_273-4">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002666">
+                           <persName>
+                              <name type="reg">Materialisten</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_273-4"/> es auch rathsam. Als ich Jacobi — es kommt seine Kehrseite
+                     —<note corresp="#VI_273-5">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001909" ana="ff">
+                           <persName> Friedrich Heinrich <name type="reg">Jacobi</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="5" xml:id="VI_273-5"/> fragte, ob ichs mit meiner Freiheit etc. etc. nicht
+                  übertriebe: bejahte<lb xml:id="VI_273-6"/> ers halb und doch nur so, daß ich
+                  keinen Nutzen von der Frage<lb xml:id="VI_273-7"/> hatte. Überall sieht er zu sehr
+                  und zu ängstlich auf seine Erscheinung<lb xml:id="VI_273-8"/> und Darstellung vor
+                  andern und wagt gar nichts; so wie er schon<lb xml:id="VI_273-9"/> früher meine
+                  Frage verneinte, ob ich öffentlich in der Dedikazion<lb n="10" xml:id="VI_273-10"/> des <hi rendition="#aq">Clavis</hi> an ihn sagen dürfte, er habe sie vor dem
+                  Drucke gelesen.<note corresp="#VI_273-11">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010571" ana="†">
+                           <title>Clavis Fichtiana (1800)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VI_273-11"/> Alle Rezensionen seines und Schellings Buchs führte er —
+                     sogar<note corresp="#VI_273-12">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-008826">
+                           <author>Jacobi, Friedrich Heinrich (1743-1819), Philosoph und
+                              Schriftsteller(Werk)</author>
+                           <title>Von den göttlichen Dingen (1811)</title>
+                        </bibl>
+                        <bibl corresp="#JP-009569">
+                           <author>Schelling, Friedrich Wilhelm Joseph (ab 1812) von
+                              (1775-1854)</author>
+                           <title>Denkmal der Schrift von den göttlichen Dingen des Herrn Jacobi
+                              (1812)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VI_273-12"/> die Anzeige in der <hi rendition="#aq">Hamburger</hi>
+                  Zeitung — in einzelne Blätter sauber<note corresp="#VI_273-13">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-010260">
+                           <author/>
+                           <title>Hamburger Zeitung</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VI_273-13"/> eingewickelt bei sich. (Im Vorbeigehen! In allen, sogar
+                     von<lb xml:id="VI_273-14"/> Kantianern wird er gelobt und sogar seine
+                  juristische Unschuld ge<note corresp="#VI_273-15">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002025">
+                           <persName>
+                              <name type="reg">Kantianer</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="15" xml:id="VI_273-15" rendition="#hyphen"/> zeigt. <hi rendition="#aq">Schelling</hi> verliert mit Recht. „Er ist dein 2<hi rendition="#sup">ter</hi>
+                  Aretin, sagt’<note corresp="#VI_273-16">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000123">
+                           <persName> Johann Christoph <name type="reg">Aretin</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003713">
+                           <persName> Friedrich Wilhelm Joseph (ab 1812) von <name type="reg">Schelling</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_273-16"/> ich, und hat deiner Philosophie blos zum Verbreiten
+                  genützt.“) —<lb xml:id="VI_273-17"/> Nachdem in <hi rendition="#aq">Erlangen</hi>
+                  die Professoren und wir alle seine Gesundheit<note corresp="#VI_273-18">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005722">
+                           <placeName>Erlangen </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VI_273-18"/> getrunken hatten: stand er auf und ging zu einiger
+                     Verwunderung<lb xml:id="VI_273-19"/> mit seinem Glase bei allen Trinkern herum
+                  und stieß auf ihre an. —<lb n="20" xml:id="VI_273-20"/> Etwas gehört dem Alter und
+                  den 4 weiblichen Händen an, die ihn<note corresp="#VI_273-21">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001906">
+                           <persName> Charlotte und Helene <name type="reg">Jacobi</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_273-21"/> tragen und wiegen. Er trägt schöne neumodisch
+                     herabgeschlagne<lb xml:id="VI_273-22"/> weißglatte Stiefel und Hosen von gutem
+                  Nanking und den jetzigen<lb xml:id="VI_273-23"/> grauen Russen-Hut (wahrscheinlich
+                  auch der Augen wegen). Als<note corresp="#VI_273-24">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006218">
+                           <placeName>Russland, Russen, russisch</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VI_273-24"/> am 1<hi rendition="#sup">ten</hi> Morgen ein schwarzer
+                  Halbzirkel von <hi rendition="#aq">Seebeck, Hegel,<note corresp="#VI_273-25">
+                        <listPerson type="lineReference">
+                           <person corresp="#JP-001588">
+                              <persName> Georg Wilhelm Friedrich <name type="reg">Hegel</name>
+                              </persName>
+                           </person>
+                           <person corresp="#JP-003990">
+                              <persName> Thomas Johann <name type="reg">Seebeck</name>
+                              </persName>
+                           </person>
+                        </listPerson>
+                     </note>
+                     <lb n="25" xml:id="VI_273-25"/> Niemeier, Schweigger</hi> ihn umsaß: hielten er
+                  und seine Schwestern<note corresp="#VI_273-26">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001906">
+                           <persName> Charlotte und Helene <name type="reg">Jacobi</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003004">
+                           <persName> August Hermann <name type="reg">Niemeyer </name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003956">
+                           <persName> Johann Salomon Christoph <name type="reg">Schweigger</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_273-26"/> vor uns ernsten Auskultanten einen ⅛ stündigen Rath, ob
+                  er und<lb xml:id="VI_273-27"/> beide entweder um 3 oder um 3½ Uhr dahin oder
+                  dorthin gehen<lb xml:id="VI_273-28"/> müssen und wie alles gut zu arrangieren
+                  wäre. — Daß er mich liebt,<lb xml:id="VI_273-29"/> weiß ich aus seinem
+                  jedesmaligen Abschiednehmen und aus der<lb n="30" xml:id="VI_273-30"/>
+                  <hi rendition="#g">Liebe</hi> seiner <hi rendition="#g">Schwestern,</hi> und aus
+                  den sanften Vorwürfen, wenn<note corresp="#VI_273-31">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001906">
+                           <persName> Charlotte und Helene <name type="reg">Jacobi</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_273-31"/> ich in den Intervallen seines Zuhauseseins nicht kam;
+                  aber wie viel<lb xml:id="VI_273-32"/> er an mir mit Recht und Unrecht tadelt, weiß
+                  ich nicht. Er spricht<lb xml:id="VI_273-33"/> ziemlich oft von seinen Werken; über
+                  meine persönlichen, mensch<lb xml:id="VI_273-34" rendition="#hyphen"/>lichen und
+                  frühern und schreibenden Verhältnisse hat er keine Frage<lb n="35" xml:id="VI_273-35"/> gethan<note n="*)" place="foot">Doch war auch die
+                     Überfülle des Redestoffs mit schuld; so wurde fast<lb xml:id="VI_274-31"/>
+                     nichts über die Welthändel und nicht genug über <hi rendition="#aq">Haman,
+                        Goethe</hi> und <hi rendition="#aq">Klopstock</hi>
+                     <note corresp="#VI_274-32">
+                        <listPerson type="lineReference">
+                           <person corresp="#JP-001353">
+                              <persName> Johann Wolfgang von <name type="reg">Goethe</name>
+                              </persName>
+                           </person>
+                           <person corresp="#JP-001508">
+                              <persName> Johann Georg <name type="reg">Hamann</name>
+                              </persName>
+                           </person>
+                           <person corresp="#JP-002139">
+                              <persName> Friedrich Gottlieb <name type="reg">Klopstock</name>
+                              </persName>
+                           </person>
+                        </listPerson>
+                     </note>
+                     <lb xml:id="VI_274-32"/> (und dieß nur auf meine Fragen) gesprochen.<lb xml:id="VI_274-33"/>
+                  </note>. — Im Politischen ist er ziemlich freimüthig. Das Übrige<lb xml:id="VI_274-1"/> mündlich.</p>
+               <lb xml:id="VI_274-2"/>
+               <p>— <hi rendition="#aq">Schrag</hi> ist recht dienstfertig gegen mich. Die Klage
+                  über die<note corresp="#VI_274-3">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003846">
+                           <persName> Johann Leonhard <name type="reg">Schrag</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_274-3"/> norddeutsche Büchersperre ist übertrieben; an <hi rendition="#aq">Perthes</hi> allein ver<note corresp="#VI_274-4">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003188">
+                           <persName> Friedrich Christoph <name type="reg">Perthes</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003190">
+                           <persName> Johannes <name type="reg">Perthes</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-00567011">
+                           <placeName>Norddeutschland, norddeutsch; Deutschland, deutsch</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VI_274-4" rendition="#hyphen"/> kaufte er 80 Fibel, und so nach
+                  Verhältnis in <hi rendition="#aq">Bremen</hi> etc. etc. — Der<note corresp="#VI_274-5">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005620">
+                           <placeName>Bremen</placeName>
+                        </place>
+                     </listPlace>
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010807">
+                           <title>Leben Fibels (1812)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb n="5" xml:id="VI_274-5"/> köstliche Schwabe, Medizinal <hi rendition="#aq">D.</hi> von <hi rendition="#aq">Hoven</hi>
+                  <note n="**)" place="foot">Durch mehrere Werke und sein neuestes über die Fieber
+                     berühmt und<note corresp="#VI_274-34">
+                        <listBibl type="lineReference" subtype="werke">
+                           <bibl corresp="#JP-008787">
+                              <author>Hoven, Friedrich Wilhelm von (1759-1838), Arzt in
+                                 Nürnberg</author>
+                              <title>Praktische Fieberlehre (1810)</title>
+                           </bibl>
+                        </listBibl>
+                     </note>
+                     <lb xml:id="VI_274-34"/> heute von mir rein geachtet.<lb xml:id="VI_274-35"/>
+                     <note place="right">35</note>
+                  </note>, ein Freund von<note corresp="#VI_274-6">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001848">
+                           <persName> Friedrich Wilhelm von <name type="reg">Hoven</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006262">
+                           <placeName>Schwaben</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VI_274-6"/> Kindheit auf von <hi rendition="#aq">Schiller</hi> und <hi rendition="#aq">Thürheim,</hi> erklärte mir des letztern<note corresp="#VI_274-7">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003737">
+                           <persName> Friedrich (ab 1802) von <name type="reg">Schiller</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-004292">
+                           <persName> Friedrich Karl Graf von <name type="reg">Thürheim</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_274-7"/>
+                  <hi rendition="#g">jetzt</hi> schuldloses Betragen gegen mich und er will ihn <hi rendition="#aq">détromper;</hi>
+                  <lb xml:id="VI_274-8"/> davon mündlich! — Wechsle mit <hi rendition="#aq">Emanuel</hi> Briefe, nämlich meine;<note corresp="#VI_274-9">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003087">
+                           <persName> Emanuel <name type="reg">Osmund</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_274-9"/> da ich nichts 2 mal erzähle. Gib diesen auch meiner Frau,
+                  da ich<note corresp="#VI_274-10">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003469">
+                           <persName> Caroline <name type="reg">Richter</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="10" xml:id="VI_274-10"/> doch genug noch mündlich zu sagen habe; und <hi rendition="#aq">Emanuel</hi> thue des<lb xml:id="VI_274-11" rendition="#hyphen"/>gleichen.</p>
+               <lb xml:id="VI_274-12"/>
+            </div>
+            <div n="writingSession3">
+               <dateline>Mitwochs Morgen <metamark>[</metamark>17. Jun.<metamark>]</metamark>
+               </dateline>
+               <lb xml:id="VI_274-13"/>
+               <p>Lebe wol! Auf meinen Simultanbrief hab’ ich noch keine einzige<lb xml:id="VI_274-14"/> Antwort, geschweige zwei —<lb n="15" xml:id="VI_274-15"/>
+               </p>
+            </div>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Berlin JP. 3 S. 4°. <hi rendition="#i">K</hi>: <hi rendition="#i">Otto 12 Jun. J</hi>
+                  <hi rendition="#sup">1</hi>: Wahrheit 7, 276×<lb/> (danach Nerrlich Nr. 136). <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>: Otto</hi>
+               <hi rendition="#aq">4, 197×. </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">271</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">28</hi>
+               </hi> auszureden] <hi rendition="#aq">aus</hi>
+               <lb/> zu reden <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">33</hi> Eifer] <hi rendition="#aq">davor gestr.</hi> steten <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">272</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">12</hi>
+               </hi> vorlesen] <hi rendition="#aq">aus</hi> lesen <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">14</hi> anstatt] statt <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">19</hi> Feinde] <hi rendition="#aq">aus</hi> mit Feinden reden
+               und <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">20</hi> die Vor<lb rendition="#hyphen"/> mitternacht] <hi rendition="#aq">aus</hi> der Abend <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">24</hi> soviel sein wie <hi rendition="#aq">
+                  <hi rendition="#i">Herder</hi>] aus</hi> das sein <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+                  <lb/>
+                  <hi rendition="#rkd">27</hi>f.</hi> hatt’ ich bisher gedacht] <hi rendition="#aq">aus</hi> sagt’ ich bisher <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">29</hi> edel-] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">31</hi> und thut] <hi rendition="#aq">aus</hi> oder will <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">273</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">7</hi>
+               </hi> Frage] <hi rendition="#aq">aus</hi> Sache <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">12</hi> führte] <hi rendition="#aq">aus</hi>
+               <lb/> hatt’ <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">18</hi> Nachdem] <hi rendition="#aq">aus</hi> Als <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+                  <hi rendition="#rkd">21</hi>f.</hi> die ihn tragen und wiegen] <hi rendition="#aq">aus</hi> auf<lb/> denen er getragen und gewiegt wird <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">24</hi> wahrscheinlich] <hi rendition="#aq">aus</hi> vielleicht<lb/>
+               <hi rendition="#aq">aus</hi> doch <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+                  <hi rendition="#rkd">27</hi>f.</hi> er und beide] <hi rendition="#aq">aus</hi> man
+                  <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">32</hi> Intervallen] <hi rendition="#aq">davor gestr.</hi>
+               <lb/> Morgen- <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">274</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">6</hi>
+               </hi> Medizinal] <hi rendition="#aq">aus</hi> Kreisrath <hi rendition="#aq">
+                  <hi rendition="#i">H Hoven</hi>] aus <hi rendition="#i">Hofen H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">7</hi> des letztern] <hi rendition="#aq">aus</hi> dessen <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#b">271</hi>,<hi rendition="#rkd">33</hi>
+               <hi rendition="#aq">f. <hi rendition="#g">Buch über Realismus:</hi> „David Hume“
+                  (1787); vgl.<lb/>
+                  <hi rendition="#b">289</hi>,<hi rendition="#rkd">13</hi>f. <hi rendition="#b">272</hi>,<hi rendition="#rkd">35</hi>f. <hi rendition="#g">vom Erholen zu
+                     erholen:</hi> vgl. I. Abt., XI,<lb/>
+                  <hi rendition="#b">164</hi>,<hi rendition="#rkd">34</hi>†. <hi rendition="#rkd">37</hi>
+                  <hi rendition="#g">Merkel,</hi> Paul Wolfgang (1756—1820), Nürnberger Kauf<lb rendition="#hyphen"/> mann und Markthelfer. <hi rendition="#b">273</hi>,<hi rendition="#rkd">3</hi>
+                  <hi rendition="#g">Erhard:</hi> vgl. Bd. III, Nr. 393, und<lb/> I. Abt., IX, <hi rendition="#b">493</hi>,<hi rendition="#rkd">17</hi>†. <hi rendition="#rkd">10</hi>f. <hi rendition="#g">Dedikazion des Clavis:</hi> vgl. Bd. III, <lb/>
+                  Nr. 391, IV. Abt., IX, Nr. 1.9 und I. Abt., VIII, Einl. S. CI. <hi rendition="#rkd">16</hi>
+                  <hi rendition="#g">Aretin:</hi> vgl. <hi rendition="#b">123</hi>,<hi rendition="#rkd">13</hi>†.<lb/>
+                  <hi rendition="#b">274</hi>,<hi rendition="#rkd">6</hi>
+                  <hi rendition="#g">Hoven:</hi> vgl. zu Nr. 581; seine „Praktische Fieberlehre“
+                  erschien<lb/> Nürnberg 1810. <hi rendition="#rkd">7</hi>
+                  <hi rendition="#g">Thürheim:</hi> vgl. Nr. 380†. <hi rendition="#rkd">14</hi>
+                  <hi rendition="#g">Simultanbrief:</hi>
+                  <lb/> Nr.</hi>
+               <hi rendition="#aq">648.</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

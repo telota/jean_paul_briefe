@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VI_259">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="260">*259. An Ernst Wagner in Meiningen. </title>
+            <title n="digital">An Johann Ernst Wagner. Bayreuth, 22. April 1810.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=VI_259</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/VI/VI_259</idno>
+               <idno type="TELOTAID">VI_259</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope unit="page">
+                  <num>100</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+               <p>Druck</p>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1810-04-22">22. April 1810</date>
+               <placeName key="JP-005574" ref="http://www.geonames.org/2951825">Bayreuth</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-004556" ref="http://d-nb.info/gnd/11709501X">
+                  <name type="reg">Wagner</name> Johann Ernst</persName>
+               <placeName key="JP-006012" ref="http://www.geonames.org/2872225">Meiningen</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VI_213">26. Dezember 1809</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VI_447">19. Januar 1811 bis 25.
+                  Januar 1811</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <dateline>
+               <hi rendition="#right">
+                  <hi rendition="#aq">
+                     <placeName>Bayreuth</placeName> d. <date>22 Apr. 1810</date>
+                  </hi>
+               </hi>
+            </dateline>
+            <lb xml:id="VI_100-9"/>
+            <p>Lieber Wagner! Ihr Brief hat mir ich weiß nicht ob mehr<lb n="10" xml:id="VI_100-10"/> Freude oder mehr Schmerz gebracht. Der letztere ist, daß ich mir den<lb xml:id="VI_100-11"/> Mann, der so viel Leben hat und gibt, immer es verlierend
+                  denken<lb xml:id="VI_100-12"/> soll; was ich nicht einmal medizinisch kann, oder
+               sonst konnte; daher<lb xml:id="VI_100-13"/> Sie auch <hi rendition="#aq">dato</hi>
+               noch leben. Eine poetische Seele wie die Ihrige ist<lb xml:id="VI_100-14"/> die beste
+               Wunder-Arzenei eines siechenden Leibes.<lb n="15" xml:id="VI_100-15"/>
+            </p>
+            <p>Aber Freude brachte mir Ihr Blatt nicht blos durch die Dar<lb xml:id="VI_100-16" rendition="#hyphen"/>stellung Ihrer liebenden Seele, sondern auch durch die
+                  Nachrichten<lb xml:id="VI_100-17"/> von Andern, die sie belohnen. So sei es! So
+               müssen Sie geliebt<lb xml:id="VI_100-18"/> werden! Und Sie werden noch mehr Gesänge
+               geben als Ihren<lb xml:id="VI_100-19"/> Schwanengesang!<lb n="20" xml:id="VI_100-20"/>
+            </p>
+            <p>Für Ihre empfangenen Bücher danke ich herzlich. Über den Titel<note corresp="#VI_100-21">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010015">
+                        <author>Wagner, Johann Ernst (1769-1812), Romanschriftsteller</author>
+                        <title>Ferdinand Miller (1809)</title>
+                     </bibl>
+                     <bibl corresp="#JP-010016" ana="†">
+                        <author>Wagner, Johann Ernst (1769-1812), Romanschriftsteller</author>
+                        <title>Historisches Abc (1810)</title>
+                     </bibl>
+                     <bibl corresp="#JP-010019">
+                        <author>Wagner, Johann Ernst (1769-1812), Romanschriftsteller</author>
+                        <title>Reisen aus der Fremde in die Heimat (1808)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_100-21"/> des neuesten schrieb ich an Cotta gestern mit der Bitte, ihn
+                  noch<note corresp="#VI_100-22">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000698">
+                        <persName> Johann Friedrich Freiherr <name type="reg">Cotta von
+                              Cottendorf</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_100-22"/> nicht ohne Ihre zweite Ratifikazion abdrucken zu lassen.
+                  Nämlich<lb xml:id="VI_100-23"/> „<hi rendition="#g">Lesebengel</hi>“ schreckt,
+               zumal auf einem Titelblatte, ab. Warum<lb xml:id="VI_100-24"/> nicht ABC-Schütze,
+               oder Buchstabier-Schütze, oder ABC- und<lb n="25" xml:id="VI_100-25"/>
+               Lese-Schütze?</p>
+            <lb xml:id="VI_100-26"/>
+            <p>Über die „Wahlverwandtschaften“ bin ich ganz Ihrer Meinung;<note corresp="#VI_100-27">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008543" ana="†">
+                        <author>Goethe, Johann Wolfgang von (1749-1832)</author>
+                        <title>Die Wahlverwandtschaften (1809)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_100-27"/> aber das jetzige Publikum ist es gewiß auch; und wozu ihm
+                  seine<lb xml:id="VI_100-28"/> eigne Meinung vorsagen?</p>
+            <lb xml:id="VI_100-29"/>
+            <p>Gegrüßt sei der alte hohe Ritter Truchseß — dann alles was den<note corresp="#VI_100-30">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004347">
+                        <persName> Christian Freiherr <name type="reg">Truchsess von
+                              Wetzhausen</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="30" xml:id="VI_100-30"/> Namen Heim führt ... O ich sehne mich wol nach drei
+                  Festtagen<note corresp="#VI_100-31">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001601">
+                        <persName>
+                           <name type="reg">Heim</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_100-31"/> in Meiningen und nach dem Anblicke der Herzogin, in welcher
+                  ich<note corresp="#VI_100-32">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002546" ana="†">
+                        <persName> Eleonore <name type="reg">Luise</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006012">
+                        <placeName>Meiningen </placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_100-32"/> — obwol schmerzhaft genug — meinen Freund Georg zum
+                  zweiten<note corresp="#VI_100-33">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001289">
+                        <persName> Herzog von Sachsen-Meiningen <name type="reg">Georg I.</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_100-33"/> male wieder lieben würde und müßte. Es geh’ Ihnen wie der
+                  Erde,<lb xml:id="VI_100-34"/> d. h. haben Sie Frühling!</p>
+            <closer>
+               <salute>
+                  <hi rendition="#right">J. P. F. Richter</hi>
+                  <lb n="35" xml:id="VI_100-35"/>
+               </salute>
+            </closer>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>: <hi rendition="#i">Wagner 22 Apr. J</hi>
+                  <hi rendition="#sup">1</hi>: Mosengeil Nr. 10×. *<hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>: Denkw. 3, 216.<lb/>
+                  <hi rendition="#i">B</hi>: IV. Abt., VI, Nr. 72. <hi rendition="#i">A</hi>: IV.
+                  Abt., VI, Nr.</hi>
+               <hi rendition="#aq">106? </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">100</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">15</hi>
+               </hi> Wunder-Arzenei] <hi rendition="#aq">so <hi rendition="#i">K</hi>,</hi> Wundarznei<lb/>
+               <lb/>
+               <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>
+               </hi>
+               <hi rendition="#rkd">18</hi> sie] Sie <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>
+                  <hi rendition="#rkd">21—29</hi> fehlt <hi rendition="#i">J</hi>
+               </hi>
+               <hi rendition="#sup">1</hi>
+               <hi rendition="#rkd">30</hi> alles <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">31</hi> führt] <hi rendition="#aq">fehlt <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>
+               </hi>
+               <hi rend="bold">
+                  <hi rendition="#rkd">31</hi>
+               </hi> O]<lb/> Ach <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>
+               </hi> drei] den <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>
+               </hi>
+               <hi rendition="#rkd">32</hi> Anblick <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>
+               </hi>
+               <hi rendition="#rkd">33</hi> zum <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">34</hi> müßte] wiedersehn würde <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">34</hi> Es <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">35</hi> Frühling!] Es blühe Ihnen, wie jetzt der Erde, ein
+               neuer<lb/> Frühling auf! <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>
+               </hi> geh’] <hi rendition="#aq">so <hi rendition="#i">K</hi>,</hi> gehe <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>
+               </hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Wagner hatte sich enthusiastisch über die Dämmerungen
+                  geäußert<lb/> und versprochen, sein neues, zu Ostern bei Cotta erscheinendes
+                  Werk<lb/> J. P. sogleich zuzuschicken; der Titel heiße nun: „Historisches ABC<lb/>
+                  eines vierzigjährigen Hennebergischen Lesebengels“; wenn derselbe<lb/> J. P. nicht
+                  anstehe, sei vielleicht in Tübingen noch Zeit zu einem andern.<lb/> (Es wurde dann
+                  „Lesebengel“ in „Fibelschützen“ geändert.) Er sei<lb/> gesundheitlich weiter sehr
+                  schwach, doch glücklich, da die <hi rendition="#g">Herzogin</hi>
+                  <lb/> von Meiningen (vgl. Nr. 348) versprochen habe, nach seinem Tode für<lb/>
+                  seine Familie zu sorgen. Er hatte einen Gruß von seinem Freunde<lb/>
+                  <hi rendition="#g">Truchseß</hi> ausgerichtet, der J. P. gern sehen möchte; J. P.
+                  möge doch<lb/> Meiningen einmal wieder besuchen. „Möchten doch nur einige
+                  Worte<lb/> von Ihnen über die <hi rendition="#g">Wahlverwandtschaften</hi> mein
+                  Urtheil berich<lb rendition="#hyphen"/> tigen! Mir ist die Sünde darin zu heilig
+                  behandelt. Und die Weiber<lb/> darinn sind mir zu dick... Aber der einzelnen
+                  Schönheiten Name ist<lb/> — Legio!“ <hi rendition="#g">Empfangene Bücher:</hi> 2.
+                  Bd. der „Reisen“ und „Ferdi<lb rendition="#hyphen"/> nand Miller“, vgl. IV. Abt.
+                  (Br. an J. P.), VI, Abb. Nr.</hi>
+               <hi rendition="#aq">3.</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

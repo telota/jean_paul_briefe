@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VI_224">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="225">224. An Cotta. </title>
+            <title n="digital">An Johann Friedrich Freiherr Cotta von Cottendorf. Bayreuth, Februar
+               1810.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=VI_224</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/VI/VI_224</idno>
+               <idno type="TELOTAID">VI_224</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope unit="page">
+                  <num>86</num>
+                  <num>87</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date notBefore="1810-02-01" notAfter="1810-02-28">Februar 1810</date>
+               <placeName key="JP-005574" ref="http://www.geonames.org/2951825">Bayreuth</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000698" ref="http://d-nb.info/gnd/11852240X">
+                  <name type="reg">Cotta von Cottendorf</name> Johann Friedrich Freiherr</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VI_221">9. Januar 1810</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VI_246">28. März 1810</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <dateline>
+               <hi rendition="#right">
+                  <hi rendition="#aq">
+                     <placeName>Bayreuth</placeName> d. </hi>
+                  <date>4. Jenn. <metamark>[</metamark>vielmehr Febr.<metamark>]</metamark>
+                     1810</date>
+               </hi>
+            </dateline>
+            <lb xml:id="VI_86-2"/>
+            <p>Auf Ihr letztes mir angenehmes Blättchen — aber jedes von<lb xml:id="VI_86-3"/> Ihnen
+               ist mir ein angenehmes — hab’ ich in Betreff der letzten<lb xml:id="VI_86-4"/>
+               Sendung für das Morgenblatt zu sagen, daß der unabgedruckte<note corresp="#VI_86-5">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010313">
+                        <author/>
+                        <title>Morgenblatt für gebildete Stände (1807ff.)</title>
+                     </bibl>
+                  </listBibl>
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010854" ana="†">
+                        <title>Programm der Feste oder Aufsätze (1809)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="5" xml:id="VI_86-5"/> Theil ganz wol bis zur Zeit des Urtheils liegen bleiben
+               kann. —<lb xml:id="VI_86-6"/> Meine künftigen vermischten Schriften geb’ ich Ihnen
+               mit Freuden<note corresp="#VI_86-7">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010726" ana="†">
+                        <title>Herbst-Blumine (1810-20)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_86-7"/> — um so mehr, da so viele Aufsätze aus Ihren Verlags-Zeit<lb xml:id="VI_86-8" rendition="#hyphen"/>schriften darein kämen —; aber vor der Hand,
+               d. h. vor 2 Messen<lb xml:id="VI_86-9"/>
+                  kanns<metamark>[</metamark>!<metamark>]</metamark> ich nicht aus Zeit-Mangel. <hi rendition="#aq">Zimmer</hi> gibt zur
+                  M<metamark>[</metamark>ichaelis<metamark>]</metamark>
+               <note corresp="#VI_86-10">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004858">
+                        <persName> Johann Georg <name type="reg">Zimmer</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-004857">
+                        <persName> Johann Georg <name type="reg">Zimmer</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="10" xml:id="VI_86-10"/> M<metamark>[</metamark>esse<metamark>]</metamark> 1810
+               den dritten Band des Katzenbergers. — Für <hi rendition="#aq">Perthes</hi>
+               <note corresp="#VI_86-11">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003188">
+                        <persName> Friedrich Christoph <name type="reg">Perthes</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003190">
+                        <persName> Johannes <name type="reg">Perthes</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010574">
+                        <title>D. Katzenbergers Badereise (1809)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_86-11"/> vaterländisches Museum hab’ ich ein ziemliches Paquet <hi rendition="#aq">„Nach<note corresp="#VI_86-12">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-009374">
+                           <author>Perthes, Friedrich Christoph (Werk, Hrsg.)</author>
+                           <title>Vaterländisches Museum (Hamburg 1810-1811)</title>
+                        </bibl>
+                     </listBibl>
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010828">
+                           <title>Nachdämmerungen für Deutschland (1810)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VI_86-12" rendition="#hyphen"/>daemmerungen für Deutschland“</hi>
+               abgeschickt. Sollte etwann<lb xml:id="VI_86-13"/> diese Zeitschrift gar nicht zu
+               Stande kommen: so send’ ich jene<lb xml:id="VI_86-14"/> Ihnen als Nachschrift zu den
+                  <hi rendition="#aq">Daemmerungen</hi> oder als <hi rendition="#g">kleines</hi>
+               <note corresp="#VI_86-15">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010576">
+                        <title>Dämmerungen für Deutschland (1809)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="15" xml:id="VI_86-15"/> 2<hi rendition="#sup">tes</hi> Theil<hi rendition="#g">chen</hi> derselben.</p>
+            <lb xml:id="VI_86-16"/>
+            <p>Hier leg’ ich ein Blättchen von meiner Schwägerin <hi rendition="#aq">Minna<note corresp="#VI_86-17">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004393">
+                           <persName> Wilhelmine <name type="reg">Uthe-Spazier</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_86-17"/> Spazier</hi> an die Redakzion bei, eine Rezension der <hi rendition="#aq">Urania</hi> betreffend.<note corresp="#VI_86-18">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002302" ana="†">
+                        <persName> Friedrich August <name type="reg">Kuhn</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010375" ana="†">
+                        <author/>
+                        <title>Urania, Taschenbuch für Damen (1810ff.)</title>
+                     </bibl>
+                  </listBibl>
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010683" ana="†">
+                        <title>Erden-Kreis-Relazion (1810)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_86-18"/> Sie beklagt sich sehr über diese. „Ein <hi rendition="#aq">Schulze</hi>, auch Mitarbeiter<note corresp="#VI_86-19">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003922" ana="?†">
+                        <persName> Friedrich August (Pseud. Friedrich Laun) <name type="reg">Schulze</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_86-19"/> des Morgenblatts, habe früher eine unpartheiischere <hi rendition="#g">ohne</hi> ihr<note corresp="#VI_86-20">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010313">
+                        <author/>
+                        <title>Morgenblatt für gebildete Stände (1807ff.)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="20" xml:id="VI_86-20"/> Wissen eingesandt.“ Ich weiß von nichts als von der
+                  <hi rendition="#aq">Urania</hi>
+               <lb xml:id="VI_86-21"/> selber, worin ich gerade die „Briefe eines genialen
+                  Frauenzimmers“<note corresp="#VI_86-22">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009940" ana="†">
+                        <author>Uthe-Spazier, Wilhelmine (Minna), geb. Mayer, verw. Spazier
+                           (1776-1825), Schriftstellerin, Schwägerin Jean Pauls, in erster Ehe mit
+                           Karl Spazier, später mit Johann Andreas Uthe verheiratet</author>
+                        <title>Briefe eines genialen Frauenzimmers (1809)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_86-22"/> so anziehend gefunden als früher in <hi rendition="#aq">Berlin</hi> die Urbilder dazu so<note corresp="#VI_86-23">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005586">
+                        <placeName>Berlin</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_86-23"/> abstoßend. Übrigens kann ich schon als Verwandter, und aus
+                  vielen<lb xml:id="VI_86-24"/> andern Gründen kein Wort für <hi rendition="#aq">Urania</hi> im Morgenblatt sagen;<note corresp="#VI_86-25">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010313">
+                        <author/>
+                        <title>Morgenblatt für gebildete Stände (1807ff.)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="25" xml:id="VI_86-25"/> aber dieß bitt’ ich Sie und die Redakzion, das Urtheil
+                  <hi rendition="#aq">Schulzens</hi>
+               <lb xml:id="VI_86-26"/> darin aufzunehmen, wie wol ich es nicht gelesen. Der
+                  unparteiische<lb xml:id="VI_86-27"/> Mann widerspricht sich selten; aber die
+               unparteiische Rezensur<lb xml:id="VI_86-28" rendition="#hyphen"/>Anstalt widerspreche
+               sich recht oft; und nichts war mir von jeher<lb xml:id="VI_86-29"/> in
+               Literatur-Zeitungen erwünschter und achtbarer, als in der näm<lb n="30" xml:id="VI_86-30" rendition="#hyphen"/> lichen zuweilen 2 widersprechende
+               Rezensionen 1 Buchs aufgenom<lb xml:id="VI_86-31" rendition="#hyphen"/>men zu finden.
+               Denn Zeit und Mitwelt widersprechen ja auch —<lb xml:id="VI_86-32"/> nun so ahme das
+               Journal es nach. — <hi rendition="#aq">Minna Sp.</hi> gehört übrigens<lb xml:id="VI_86-33"/> unter die genialsten Schreib-Weiber jetziger Zeit, die <hi rendition="#aq">Stael</hi> aus<note corresp="#VI_86-34">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004127">
+                        <persName> Germaine Baronne de <name type="reg">Staël-Holstein</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_86-34" rendition="#hyphen"/>genommen.<lb n="35" xml:id="VI_86-35"/>
+            </p>
+            <p>
+               <hi rendition="#aq">Wagners</hi> beide neueste Werke hab’ ich noch nicht
+               erhalten.</p>
+            <note corresp="#VI_86-36">
+               <listBibl type="lineReference" subtype="werke">
+                  <bibl corresp="#JP-010015" ana="†">
+                     <author>Wagner, Johann Ernst (1769-1812), Romanschriftsteller</author>
+                     <title>Ferdinand Miller (1809)</title>
+                  </bibl>
+                  <bibl corresp="#JP-010019" ana="†">
+                     <author>Wagner, Johann Ernst (1769-1812), Romanschriftsteller</author>
+                     <title>Reisen aus der Fremde in die Heimat (1808)</title>
+                  </bibl>
+               </listBibl>
+            </note>
+            <lb xml:id="VI_86-36"/>
+            <p>Leben Sie wol, lieber <hi rendition="#aq">Cotta</hi>! In der nächst-vorigen und
+                  jetzigen<lb xml:id="VI_86-37"/> Zeit haben Sie als wahrer deutscher Patriot
+               gearbeitet und<note corresp="#VI_87-1">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-0056690">
+                        <placeName>Deutsche; Deutschland , deutsch , Germanien,
+                           Vaterland</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_87-1"/> (merkantilisch) gewagt.</p>
+            <lb xml:id="VI_87-2"/>
+            <closer>
+               <salute>
+                  <hi rendition="#right">Ihr<lb xml:id="VI_87-3"/> Jean Paul Fr. Richter</hi>
+               </salute>
+            </closer>
+            <lb xml:id="VI_87-4"/>
+            <postscript>
+               <p>N. S. Die Ober-Zensur des Unter-Zensors bitt’ ich Sie mir<lb n="5" xml:id="VI_87-5"/> sogleich zu melden, ich müßte sie denn aus dem Morgenblatt
+                     er<note corresp="#VI_87-6">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-010313">
+                           <author/>
+                           <title>Morgenblatt für gebildete Stände (1807ff.)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VI_87-6" rendition="#hyphen"/>rathen können.</p>
+               <lb xml:id="VI_87-7"/>
+            </postscript>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Cotta-Archiv. 4 S. 8°. Präsentat: Empf. 14 Jan. [!] <hi rendition="#i">K</hi>: <hi rendition="#i">Cotta</hi>
+               </hi>
+               <lb/> 4 Febr. [<hi rendition="#aq">aus</hi> Jenn.] <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>: Cotta 1, 387×. <hi rendition="#i">B</hi>: IV. Abt., VI,
+                  Nr.</hi>
+               <hi rendition="#aq">63. </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">86</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">6</hi>
+               </hi> kann] <hi rendition="#aq">aus</hi>
+               <lb/> könne <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+                  <hi rendition="#rkd">8</hi>f.</hi> Zeitschriften] <hi rendition="#aq">aus</hi>
+               Zeit- und Jahreswerken <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">15</hi>
+               <hi rendition="#g">kleines</hi>]<lb/>
+               <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+                  <hi rendition="#rkd">19</hi>
+                  <hi rendition="#i">Schulze</hi>] davor gestr.</hi> Fr. <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">23</hi> anziehend] <hi rendition="#aq">aus</hi> trefflich <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">29</hi> widerspreche sich recht] <hi rendition="#aq">aus</hi>
+               widerspricht gern <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+                  <hi rendition="#rkd">30</hi>f.</hi> in der nämlichen]<lb/>
+               <hi rendition="#aq">aus</hi> darin <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">34</hi> Schreib-] <hi rendition="#aq">aus</hi> Buch- <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Cotta hatte gebeten, das Manuskript der zensurierten Aufsätze
+                  bis<lb/> zur Entscheidung der Sache behalten zu dürfen. Er sei gefragt
+                  worden,<lb/> ob er Jean Pauls Vermischte Werke verlege; „Sie können dieß be<lb rendition="#hyphen"/> antworten.“ <hi rendition="#g">Zimmer:</hi> vgl. Nr.
+                  166†. <hi rendition="#g">Rezension der Urania:</hi> in<lb/> der „Übersicht der
+                  neuesten Literatur“ Nr. 22 (Beilage zum Morgen<lb rendition="#hyphen"/> blatt Nr.
+                  302 vom 19. Dez. 1809); Jean Pauls „Erdkreis-Relazion“<lb/> wird darin „ein wenig
+                  langweilig“ gefunden, die „Briefe eines genialen<lb/> Frauenzimmers“ (von Minna
+                  Spazier) werden lächerlich gemacht. Der<lb/> ungenannte Rezensent war vielleicht
+                  Kuhn, vgl. Nr. 243. <hi rendition="#g">Schulze:</hi>
+                  <lb/> wohl Friedrich Laun; diese Rezension scheint nicht erschienen zu<lb/> sein.
+                     <hi rendition="#g">Wagner:</hi> vgl. die Nachschrift von Nr. 210 und IV. Abt.
+                  (Br. an J. P.), VI, <lb/> Abb. Nr. 3; Cotta hatte am 27. Dez. 1809 geschrieben:
+                  „Die Wagneriana<lb/> sollen an Sie bereits abgegangen seyn.“</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

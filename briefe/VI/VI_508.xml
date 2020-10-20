@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VI_508">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="509">508. An Cotta in Stuttgart. </title>
+            <title n="digital">An Johann Friedrich Freiherr Cotta von Cottendorf. Bayreuth, 15. Juli
+               1811.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=VI_508</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/VI/VI_508</idno>
+               <idno type="TELOTAID">VI_508</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope unit="page">
+                  <num>209</num>
+                  <num>210</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1811-07-15">15. Juli 1811</date>
+               <placeName key="JP-005574" ref="http://www.geonames.org/2951825">Bayreuth</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000698" ref="http://d-nb.info/gnd/11852240X">
+                  <name type="reg">Cotta von Cottendorf</name> Johann Friedrich Freiherr</persName>
+               <placeName key="JP-006315" ref="http://www.geonames.org/2825297">Stuttgart</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VI_26-fb">12. Mai 1811</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VI_516">2. August 1811</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <dateline>
+               <hi rendition="#right">
+                  <hi rendition="#aq">
+                     <placeName>Bayreuth</placeName> d. <date>15. Jul. 1811</date>
+                  </hi>
+               </hi>
+            </dateline>
+            <lb n="30" xml:id="VI_209-30"/>
+            <p>Wie werden wir es machen, lieber guter <hi rendition="#aq">Cotta?</hi> Ihr
+                  Schweigen<lb xml:id="VI_209-31"/> in allen Ihren vorvorigen Briefen in Rücksicht
+               des Damenkalenders<note corresp="#VI_209-32">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008269">
+                        <author>Cotta, Johann Friedrich (Hg.)</author>
+                        <title>Taschenbuch für Damen auf das Jahr (1798 ff.)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_209-32"/> ließ mich, zumal bei dem jetzigen Antiklimax des Buchhandels
+                  auf<lb xml:id="VI_209-33"/> ein Aussetzen des erstern schließen; — und ich habe
+               daher nichts<lb xml:id="VI_209-34"/> gemacht. Dabei bin ich jetzt noch mit der
+               Vollendung der „Fibels<note corresp="#VI_210-1">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010807">
+                        <title>Leben Fibels (1812)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_210-1"/> Biographie“ für die
+                  M<metamark>[</metamark>ichaelis<metamark>]</metamark>
+                  M<metamark>[</metamark>esse<metamark>]</metamark> beschäftigt. Ohne diese<lb xml:id="VI_210-2"/> hätt’ ich gewiß die zweite Herbstblumine gegeben; künftig
+                  aber<note corresp="#VI_210-3">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010726">
+                        <title>Herbst-Blumine (1810-20)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_210-3"/> bald, wenn mich nicht neue Auflagen der Vorschule der
+                  Aesthetik<note corresp="#VI_210-4">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010970">
+                        <title>Vorschule der Aesthetik (1804)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_210-4"/> und der <hi rendition="#aq">Levana</hi> hindern.<note corresp="#VI_210-5">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010811" ana="†">
+                        <title>Levana (1807)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="5" xml:id="VI_210-5"/>
+            </p>
+            <p>Die letztere betreffend, möcht ich fast eine Frage an Sie thun,<lb xml:id="VI_210-6"/> wenn sie nicht indiskret ist. H. Buchhändler <hi rendition="#aq">Bräuning</hi> in
+                  <hi rendition="#aq">Erlangen</hi>
+               <note corresp="#VI_210-7">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000492">
+                        <persName> Karl Gottlob Friedrich <name type="reg">Breuning </name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005722">
+                        <placeName>Erlangen </placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_210-7"/> sagte mir, die <hi rendition="#aq">Levana</hi> sei
+               vergriffen. <hi rendition="#aq">Vieweg,</hi> der mir schon bei<note corresp="#VI_210-8">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004431">
+                        <persName> Johann Friedrich <name type="reg">Vieweg</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_210-8"/> einem Absatze von 1500 Exemplaren, 1 <hi rendition="#aq">Louisdor</hi> für den Bogen<lb xml:id="VI_210-9"/> nachzuzahlen hätte, schrieb
+               mir nichts. Die zweite Auflage kann<lb n="10" xml:id="VI_210-10"/> ich geben wem ich
+               will. Vielleicht wissen Sie es durch Ihre Be<lb xml:id="VI_210-11" rendition="#hyphen"/> stellungen.</p>
+            <lb xml:id="VI_210-12"/>
+            <p>Ich bitte Sie um Verzeihung meines Irrthums über das Honorar<lb xml:id="VI_210-13"/>
+               von 1809 des Morgenblatts; ich habe Ihren Brief vom 11 Jul.<note corresp="#VI_210-14">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010313">
+                        <author/>
+                        <title>Morgenblatt für gebildete Stände (1807ff.)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_210-14"/> 1810 und also die Bescheinigung der Bezahlung gefunden.<lb n="15" xml:id="VI_210-15"/>
+            </p>
+            <p>Ich ersuche Sie, mir auch die neuest erschienenen Werke von<lb xml:id="VI_210-16"/>
+               <hi rendition="#aq">Müller</hi> durch Buchhändler-Gelegenheit zu übermachen.</p>
+            <note corresp="#VI_210-17">
+               <listBibl type="lineReference" subtype="werke">
+                  <bibl corresp="#JP-009257">
+                     <author>Müller, Johannes von (1752-1809), Schweizer Historiker</author>
+                     <title>Werke (1810-1819)</title>
+                  </bibl>
+               </listBibl>
+            </note>
+            <lb xml:id="VI_210-17"/>
+            <p>Alles was ich dem Damenkalender in der Eile geben könnte,<note corresp="#VI_210-18">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008269">
+                        <author>Cotta, Johann Friedrich (Hg.)</author>
+                        <title>Taschenbuch für Damen auf das Jahr (1798 ff.)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_210-18"/> wären abgerissene Bemerkungen über den Menschen, Einfälle
+                  u.<lb xml:id="VI_210-19"/> s. w.; nur nichts romantisches. — Leben Sie froh!<lb n="20" xml:id="VI_210-20"/>
+            </p>
+            <closer>
+               <salute>
+                  <hi rendition="#right">Ihr<lb xml:id="VI_210-21"/> Jean Paul Fr. Richter</hi>
+               </salute>
+            </closer>
+            <lb xml:id="VI_210-22"/>
+            <postscript>
+               <p>Kein Taschenkalender auf 1812 hat etwas von mir, wenn nicht<lb xml:id="VI_210-23"/>
+                  <hi rendition="#aq">Brockhausen</hi>
+                  <metamark>[</metamark>!<metamark>]</metamark> die zweite schon für 1811 bestimmte
+                     <hi rendition="#aq">Urania</hi> mit<note corresp="#VI_210-24">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000501">
+                           <persName> Friedrich Arnold <name type="reg">Brockhaus</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-010375" ana="†">
+                           <author/>
+                           <title>Urania, Taschenbuch für Damen (1810ff.)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VI_210-24"/> einem 1½ jährigen Aufsatze von mir nachliefert.<note corresp="#VI_210-25">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010884">
+                           <title>Selbst-Trauung des Pfarrers Scander -y (1812)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb n="25" xml:id="VI_210-25"/>
+               </p>
+               <lb xml:id="VI_210-26"/>
+            </postscript>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Cotta-Archiv. 2 S. 4°; 4. S. Adr.:</hi> Herrn <hi rendition="#aq">
+                  <hi rendition="#i">D. J. G.</hi> [!] <hi rendition="#i">Cotta/<lb/>
+                     Stuttgart.</hi>
+               </hi> Fr. Gr. <hi rendition="#aq">Präsentat: Empf. 18, [beantw.] eodem. <hi rendition="#i">K</hi> (nach<lb/> Nr. 502): <hi rendition="#i">Cotta d. 15. Jul.
+                     B</hi>: IV. Abt., VI, Nr. 160. <hi rendition="#i">A</hi>: IV. Abt., VI,
+                  Nr.</hi>
+               <hi rendition="#aq">168. </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">210</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">10</hi>
+               </hi> Die <hi rendition="#aq">bis</hi>
+               <lb/>
+               <hi rendition="#aq">
+                  <hi rendition="#rkd">11</hi>
+               </hi> will.] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#g">Vieweg:</hi> vgl. <hi rendition="#b">213</hi>,<hi rendition="#rkd">21</hi>f.; Cotta antwortete, die Levana müsse aller<lb rendition="#hyphen"/> dings vergriffen sein, denn schon im August 1809 habe
+                  Vieweg Velin<lb rendition="#hyphen"/> exemplare geschickt, weil andere fehlten.
+                     <hi rendition="#g">Irrthum:</hi> vgl. Nr. 483;<lb/> Cotta hatte erwidert, der
+                  Rechnungsirrtum liege bei Jean Paul. Die<lb/>
+                  <hi rendition="#g">Urania</hi> auf 1812 brachte Jean Pauls schon im März 1810
+                  geschriebene<lb/> „Selbst-Trauung“, vgl. <hi rendition="#b">160</hi>,<hi rendition="#rkd">7</hi>f†.</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

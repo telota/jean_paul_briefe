@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VI_493">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="494">493. An Karoline Richter. </title>
+            <title n="digital">An Caroline Richter. Erlangen, 14. Juni 1811.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=VI_493</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/VI/VI_493</idno>
+               <idno type="TELOTAID">VI_493</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope unit="page">
+                  <num>198</num>
+                  <num>199</num>
+                  <num>200</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1811-06-14">14. Juni 1811</date>
+               <placeName key="JP-005722" ref="http://www.geonames.org/2929567">Erlangen</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-003469" ref="http://d-nb.info/gnd/116512539">
+                  <name type="reg">Richter</name> Caroline</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VI_492">12. Juni 〈Mitwochs〉
+                  1811</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VI_494">16. Juni 1811 bis 18.
+                  Juni , Um 11 Uhr</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <dateline>
+               <hi rendition="#right">
+                  <hi rendition="#aq">
+                     <placeName>Erlangen</placeName> d. </hi>
+                  <date>14. Jun. 〈Freitags〉 1811</date>
+               </hi>
+            </dateline>
+            <lb xml:id="VI_198-13"/>
+            <p>Meine gute Karoline! Endlich bin ich ungetrübt heiter; denn<lb xml:id="VI_198-14"/>
+               ich bekam heute dein lang gewünschtes Blatt. Aber ich wußt’ es<lb n="15" xml:id="VI_198-15"/> schon aus meinen immer zutreffenden Ahnungen, daß meine
+                  hiesige<lb xml:id="VI_198-16"/> stille unschuldige Heiterkeit, an der kein Gott
+               etwas auszusetzen<lb xml:id="VI_198-17"/> finden könnte, kein Gewitter der schönen
+               Tage mir zuführen würde.<lb xml:id="VI_198-18"/> Habe für jedes Herzens Wort und für
+               die Herzens Thaten in meiner<lb xml:id="VI_198-19"/> Abwesenheit Dank. Vorigen
+               Sonntag erschrak ich ordentlich, daß<lb n="20" xml:id="VI_198-20"/> ich deinen
+               Geburtstag vergessen; und ich fand ihn im Kalender<lb xml:id="VI_198-21"/> unter dem
+               Namen <hi rendition="#aq">Lucretia,</hi> wodurch
+                  <metamark>[</metamark>ich<metamark>]</metamark> mir ihn immer gemerkt<lb xml:id="VI_198-22"/> als Aehnlichkeit. Nach meiner Rückkehr wollen wir ihn beide
+                  an<lb xml:id="VI_198-23"/> einem bestimmten Tage (und den 27<hi rendition="#sup">ten</hi> Mai dazu) nachfeiern.<lb xml:id="VI_198-24"/> Gäbest du genauer Acht, so
+               hättest du sehen können, daß ich den<lb n="25" xml:id="VI_198-25"/> Ring in der
+               letzten Maiwoche am kleinen Finger der rechten Hand<lb xml:id="VI_198-26"/> getragen.
+               Das Herz soll nächstens auch einmal seinen Festtag<lb xml:id="VI_198-27"/> haben.
+               —</p>
+            <lb xml:id="VI_198-28"/>
+            <p>Ich will jetzt alles ohne Ordnung schreiben, und das Ungleich<lb xml:id="VI_198-29" rendition="#hyphen"/>artige nur durch Gedankenstriche absondern. Lies unsern
+                  Freunden<lb n="30" xml:id="VI_198-30"/> vor was du willt, so wie du aus meinen
+               Briefen an sie zu lesen<lb xml:id="VI_198-31"/> hast. — Ich könnte mich freilich auf
+               geselligen Wogen umher<lb xml:id="VI_198-32"/> treiben (jeder kommt mir hier liebend
+               entgegen), aber ich habe so<lb xml:id="VI_198-33"/> viele Bücher vor mir, daß ich den
+               Morgen mir durch allerlei Winke<lb xml:id="VI_198-34"/> einsam gemacht.
+               Unbeschreiblich vergnügt bin ich in den hohen<lb xml:id="VI_199-1"/> Zimmern — keine
+               einzige alte Bequemlichkeit entbehrend — Abends<lb xml:id="VI_199-2"/> einsam lesend
+               und essend mit meinem Hunde. Noch immer hab ich<lb xml:id="VI_199-3"/> seit <hi rendition="#aq">Maxens</hi> Abreise abends nichts Warmes gegessen, nur Käse<note corresp="#VI_199-4">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003490">
+                        <persName> Max <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_199-4"/> und Preßsack. Freilich freu’ ich mich auf deine
+                  Abendsuppen,<lb n="5" xml:id="VI_199-5"/> Kartoffeln u.s.w. Ja auch auf die
+               Mittagskost; denn obgleich das<lb xml:id="VI_199-6"/>
+               <hi rendition="#aq">diner</hi> 30 kr. kostet und allerlei gute Gerichte kommen (doch
+               zieh ich<lb xml:id="VI_199-7"/> fast die <hi rendition="#aq">Sonne</hi> vor), so wäre
+               mir doch Ein derbes altväterliches<note corresp="#VI_199-8">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-00557425">
+                        <placeName>Gasthof Zur goldenen Sonne; Bayreuth (Stadt)</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_199-8"/> Gericht von dir lieber. Indeß meinetwegen läßt <hi rendition="#aq">Toussaint</hi> sogar<note corresp="#VI_199-9">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004327">
+                        <persName> Johann Albrecht <name type="reg">Toussaint</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_199-9"/> Kartoffeln braten zuweilen. — Die Magd kauft mir (ohne
+                  mein<lb n="10" xml:id="VI_199-10"/> Erinnern) für 4 kr. Milch, bringt mir den
+               abgeschöpften Rahm,<lb xml:id="VI_199-11"/> woran ich 2 Tage habe; die Milch säuft
+               der Hund und ich. Die<lb xml:id="VI_199-12"/> 2 Loth Kaffee kosten 10 kr. Von meinem
+               am 1 Pfingsttage ge<lb xml:id="VI_199-13" rendition="#hyphen"/>kauften 1 Groschen
+               Brod hab’ ich noch viel. Mittags trink’ ich<lb xml:id="VI_199-14"/> zum <hi rendition="#g">vielen</hi> Essen ¼ <hi rendition="#aq">Bouteille</hi> Wein; das
+               zweite Viertel hebt<lb n="15" xml:id="VI_199-15"/> mir <hi rendition="#aq">Toussaint</hi> auf. Entweder dieser Wein oder das treffliche<note corresp="#VI_199-16">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004327">
+                        <persName> Johann Albrecht <name type="reg">Toussaint</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_199-16"/> Bier (hier trink ich noch einmal so viel als in <hi rendition="#aq">Bayreuth</hi>) oder die<note corresp="#VI_199-17">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005574">
+                        <placeName>Bayreuth (Stadt)</placeName>
+                     </place>
+                     <place corresp="#JP-0057220">
+                        <placeName>Bier; Erlangen </placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_199-17"/> Luft oder der ungemein seltene Rosoglio-Trank oder das
+                  wenige<lb xml:id="VI_199-18"/> Arbeiten oder alles zusammen macht mich so gesund
+               wie ich seit<lb xml:id="VI_199-19"/> Jahren nicht war; Nachts keinen Wasserdurst, am
+               Morgen keine<lb n="20" xml:id="VI_199-20"/> Düsterheit, kein Zittern, Erbrechen
+               ohnehin nicht. Verzeihe dieses<lb xml:id="VI_199-21"/> Eingehen in körperliche
+               Kleinlichkeiten; aber du liebes Eheweib<lb xml:id="VI_199-22"/> nimmst ja eben darum
+               so vielen Antheil daran als ich an dem<lb xml:id="VI_199-23"/>
+               <hi rendition="#aq">Bulletin</hi> deiner geringsten Körperlichkeiten nehmen würde. —
+                  Die<lb xml:id="VI_199-24"/>
+               <hi rendition="#aq">Malzen</hi> grüßt und liebt dich herzlich und wünscht dich so
+               sehr her.<note corresp="#VI_199-25">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002594">
+                        <persName> wahrsch. Xaveria Fidelia, Freifrau von <name type="reg">Malsen
+                           </name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="25" xml:id="VI_199-25"/> „Hier, sagt sie, sei Logis und alles ⅓ wolfeiler;
+               keine Assembl<hi rendition="#aq">é</hi>en<lb xml:id="VI_199-26" rendition="#hyphen"/>„Jägerei wie in <hi rendition="#aq">Bayreuth;</hi> heute kommt eins, morgen eins;
+                  man<note corresp="#VI_199-27">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005574">
+                        <placeName>Bayreuth (Stadt)</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_199-27"/> „sei halb auf dem Lande.“ In der That fand ich sie im
+                  Garten<lb xml:id="VI_199-28"/> mit 3 Damen, wozu nachher 1 Franzose kam; kein
+               Gebacknes —<note corresp="#VI_199-29">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-0057470">
+                        <placeName>(Gallier, Neufranken); Frankreich, Franzosen,
+                           französisch</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_199-29"/> ein paar Früchte — mir Bier. So gestern in <hi rendition="#aq">Walthers</hi> Garten,<note corresp="#VI_199-30">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004587">
+                        <persName> Johann Salomon Nikolaus <name type="reg">Walther</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-0057220">
+                        <placeName>Bier; Erlangen </placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb n="30" xml:id="VI_199-30"/> wo viele Männer, nur Thee — ein Paar trockne gebackne
+                  Schnitz<lb xml:id="VI_199-31" rendition="#hyphen"/>chen von einem Bäcker — kein
+               Kuchen — kein Rack — kein Wein —<lb xml:id="VI_199-32"/> nur Bier — — und lauter
+               Lust. Das doppelte Gebäck und den Rack<lb xml:id="VI_199-33"/> (wenigstens für
+               Weiber) müssen wir künftig auch abkommen<lb xml:id="VI_199-34"/> lassen. —<lb n="35" xml:id="VI_199-35"/>
+            </p>
+            <p>— An die <hi rendition="#aq">Monts</hi> hab ich schon gedacht; morgen werd’ ich
+                  sie<note corresp="#VI_199-36">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002868" ana="†">
+                        <persName>
+                           <name type="reg">Monts</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_199-36"/> sehen und abends zurück kommen. — Der Erlanger Gegend
+                  hab’<note corresp="#VI_199-37">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005722">
+                        <placeName>Erlangen </placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_199-37"/> ich Unrecht gethan; <hi rendition="#aq">Mehmel</hi> hat mir
+               köstliche Umgebungen gezeigt,<note corresp="#VI_200-1">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002726">
+                        <persName> Gottlieb Ernst August <name type="reg">Mehmel</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_200-1"/> doch aber keine bayreuthischen. Wahrscheinlich komm’ ich erst
+                  Ende<note corresp="#VI_200-2">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005574">
+                        <placeName>Bayreuth (Stadt)</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_200-2"/> der künftigen Woche (lasse daher abends immer die Schlüssel
+                  in<lb xml:id="VI_200-3"/> deiner Abwesenheit bereit liegen). Ich habe noch so viel
+               zu lesen.<lb xml:id="VI_200-4"/> Eigentlich leb’ ich so wolfeil wie zu Hause, 2 fl.
+               Wochenzins ab<lb n="5" xml:id="VI_200-5" rendition="#hyphen"/> gerechnet, die ich
+               aber in <hi rendition="#aq">Bayreuth</hi> auch verschwenden würde bei<note corresp="#VI_200-6">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005574">
+                        <placeName>Bayreuth (Stadt)</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_200-6"/>
+               <hi rendition="#aq">Rollwenzel</hi> oder sonst. — Höfe und Weiber such’ ich jetzt
+                  weniger<note corresp="#VI_200-7">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003561">
+                        <persName> Anna Dorothea <name type="reg">Rollwenzel</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_200-7"/> als sonst; am Ende aber, deines Briefes wegen, geh’ ich doch
+                  zur<lb xml:id="VI_200-8"/> Marggräfin. Mich reuet nur die Morgen-Unterbrechung.
+                  Mich<note corresp="#VI_200-9">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004080" ana="†">
+                        <persName>
+                           <name type="reg">Sophie Karoline Marie</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_200-9"/> lieben hier alle meine Gesellschafter; noch keinem hab ich
+               eine un<lb n="10" xml:id="VI_200-10" rendition="#hyphen"/> angenehme Minute gemacht,
+               ihm höchstens eine genommen. —<lb xml:id="VI_200-11"/>
+               <hi rendition="#aq">Toussaint</hi> verspricht mir eine <hi rendition="#aq">Rétour-</hi>Fuhre. Überhaupt wäre, da<note corresp="#VI_200-12">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004327">
+                        <persName> Johann Albrecht <name type="reg">Toussaint</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_200-12"/> jetzt die Briefe entweder über <hi rendition="#aq">Nürnberg</hi> oder <hi rendition="#aq">Bamberg</hi> laufen, es<note corresp="#VI_200-13">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005561">
+                        <placeName>Bamberg</placeName>
+                     </place>
+                     <place corresp="#JP-006085">
+                        <placeName>Nürnberg</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_200-13"/> unbequem, sich in <hi rendition="#aq">Bayreuth</hi> einen
+               Wagen zu bestellen. — <hi rendition="#aq">Wagner</hi>
+               <note corresp="#VI_200-14">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004568" ana="†">
+                        <persName>
+                           <name type="reg">Wagner</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005574">
+                        <placeName>Bayreuth (Stadt)</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_200-14"/> treibt zwar seine Rechnung sehr hoch; aber der arme <hi rendition="#aq">Max</hi> muß<note corresp="#VI_200-15">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003490">
+                        <persName> Max <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="15" xml:id="VI_200-15"/> ja auch mit für den Sitz im Wagen bezahlen. — Grüße
+                  <hi rendition="#aq">Otto</hi>
+               <note corresp="#VI_200-16">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003112">
+                        <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_200-16"/> und meinen <hi rendition="#aq">Emanuel,</hi> der mit mir an
+               Einem Tage schrieb. —<note corresp="#VI_200-17">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003087">
+                        <persName> Emanuel <name type="reg">Osmund</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_200-17"/> Nicht einmal zum Grafen <hi rendition="#aq">Soden</hi> mag
+               ich gehen, ob ich ihn gleich<note corresp="#VI_200-18">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004063" ana="†">
+                        <persName> Julius Graf von <name type="reg">Soden</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_200-18"/> hier gesprochen und er mich in <hi rendition="#aq">Bayreuth</hi> besucht. — Hast du etwas<note corresp="#VI_200-19">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005574">
+                        <placeName>Bayreuth (Stadt)</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_200-19"/> mir nicht Liebes gethan oder erfahren: so schreib’ es mir
+                  lieber,<lb n="20" xml:id="VI_200-20"/> damit ich es unter weges verdaue und den
+               himmlischen Abend des<lb xml:id="VI_200-21"/> Wiedersehens geheilt durchlebe. — Soll
+               ich der Magd etwas mit<lb xml:id="VI_200-22" rendition="#hyphen"/>bringen?
+               Schwerlich. Oder was alsdann? — Ach die Post-Sperre<lb xml:id="VI_200-23"/> naht. Und
+               ich hätte meinem lieben treuen Herzen, das so sehr sich<lb xml:id="VI_200-24"/> jetzt
+               abarbeitet und mich so schön wieder liebt, so viel noch zu sagen.<lb n="25" xml:id="VI_200-25"/> — (Und es soll auch im nächsten Briefe gesagt werden.
+                  Himmel!<lb xml:id="VI_200-26"/> wie oft dacht ich mir die überwältigende
+               Entzückung, wenn so<lb xml:id="VI_200-27"/> Nachts nichts weiter als dein Gesicht mit
+               den unbeschreiblichen<lb xml:id="VI_200-28"/> Liebes Augen und dem Liebesblick, der
+               sich in ungewöhnlichen Linien<lb xml:id="VI_200-29"/> auch um das Auge herum zieht,
+               mir plötzlich erschiene wie eine<lb n="30" xml:id="VI_200-30"/> Gestalt aus der Luft.
+               Freilich wär’ es zu viel. Aber das Viele<lb xml:id="VI_200-31"/> bleibt mir doch,
+               denn ich komme und du lebst. Es gehe deiner Seele<lb xml:id="VI_200-32"/> wie
+               meiner!</p>
+            <lb xml:id="VI_200-33"/>
+            <closer>
+               <salute>
+                  <hi rendition="#right">R.</hi>
+               </salute>
+            </closer>
+            <lb xml:id="VI_200-34"/>
+            <postscript>
+               <p>N. S. Du solltest meine Palingenesien lesen, wo ich dieselbe<note corresp="#VI_200-35">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010841">
+                           <title>Palingenesien (1798): Jean Pauls Fata und Werke von und in
+                              Nürnberg</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb n="35" xml:id="VI_200-35"/> Reise nach <hi rendition="#aq">Erlangen</hi>
+                  gemacht in der Erdichtung einer Heirath —<note corresp="#VI_200-36">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005722">
+                           <placeName>Erlangen </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VI_200-36"/> Ferner meinen bevorstehenden Lebenslauf in <hi rendition="#aq">„Jean Pauls Briefen“.</hi>
+               </p>
+               <note corresp="#VI_200-37">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010558">
+                        <title>Briefe und bevorstehender Lebenslauf (1799)</title>
+                     </bibl>
+                     <bibl corresp="#JP-010788">
+                        <title>Konjektural-Biographie (Briefe und bevorstehender Lebenslauf)
+                           (1799)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_200-37"/>
+            </postscript>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Berlin JP. 7⅓ S. 8°. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>: Wahrheit 7, 250×. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>: Nerrlich<lb/> Nr. 130×. <hi rendition="#i">B</hi>:
+                  IV. Abt., VI, Nr. 159. <hi rendition="#i">A</hi>: IV. Abt., VI, Nr.</hi>
+               <hi rendition="#aq">162. </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">198</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">18</hi>
+               </hi> der schönen Tage] <hi rendition="#aq">aus</hi>
+               <lb/> eines schönen Tags <hi rendition="#rkd">23</hi> Nach] <hi rendition="#aq">aus</hi> Bei <hi rendition="#rkd">32</hi> auf] <hi rendition="#aq">aus</hi> im
+                  <hi rendition="#b">
+                  <hi rendition="#aq">199</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">22</hi>
+               </hi> Kleinlich<lb rendition="#hyphen"/> keiten] <hi rendition="#aq">aus</hi>
+               Kleinigkeiten <hi rendition="#rkd">26</hi> sei] <hi rendition="#aq">aus</hi> ist <hi rendition="#b">
+                  <hi rendition="#aq">200</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">6</hi>
+               </hi> verschwenden] <hi rendition="#aq">davor gestr.</hi>
+               <lb/> verthun <hi rendition="#rkd">7</hi> Höfe] <hi rendition="#aq">aus</hi> Nach
+               Höfen <hi rendition="#rkd">9</hi> Marggräfin] <hi rendition="#aq">davor gestr.</hi> Herzog<lb/>
+               <hi rendition="#rkd">23</hi> alsdann] <hi rendition="#aq">aus</hi> dann <hi rendition="#rkd">29</hi> in ungewöhnlichen] <hi rendition="#aq">aus</hi>
+               ungewöhnlich in</p>
+            <lb/>
+            <p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">198</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">21</hi>
+               </hi>
+               <hi rendition="#aq">
+                  <hi rendition="#g">Geburtstag:</hi> 7. Juni; der 27. Mai war der
+                  Hochzeitstag.<lb/> Karoline hatte über die ihr zuteil gewordenen Geschenke und
+                  Besuche<lb/> berichtet. <hi rendition="#b">199</hi>,<hi rendition="#rkd">8</hi>
+                  <hi rendition="#g">Sonne:</hi> der Bayreuther Gasthof. <hi rendition="#rkd">36</hi>
+                  <hi rendition="#g">Monts:</hi> Luise,<lb/> geb. von Budberg, seit 1792 verh. mit
+                  dem Grafen Louis Anton Felix<lb/> Monts de Mazin (1769—1848), preuß.
+                  Oberstleutnant; vielleicht die<lb/> in Nr. 105 genannte Gräfin; Karoline hatte
+                  geschrieben, Jean Paul<lb/> solle sie in Nürnberg besuchen. <hi rendition="#b">200</hi>,<hi rendition="#rkd">9</hi>
+                  <hi rendition="#g">Marggräfin:</hi> Sophie Karoline<lb/> Marie, die zweite
+                  Gemahlin des verst. Markgrafen Friedrich von Bay<lb rendition="#hyphen"/> reuth,
+                  gest. 1817; vgl. <hi rendition="#i">B</hi>: „Daß Dich Niemand zum Essen
+                  eingeladen<lb/> hat, begreif’ ich nicht — wir glaubten hier, Du würdest bei der
+                     Mark<lb rendition="#hyphen"/> gräfin gewesen sein und täglich in Saus und Braus
+                  leben.“ <hi rendition="#rkd">14 </hi>
+                  <hi rendition="#g">Wagner:</hi>
+                  <lb/> der Bayreuther Fuhrmann; Karoline hatte geschrieben, er habe ihr<lb/>
+                  <hi rendition="#g">zweimal</hi> für seine Zehrung 1 fl. 13 kr. abgefordert. <hi rendition="#rkd">18</hi> Fr. Julius H.,<lb/> Graf von <hi rendition="#g">Soden</hi> (1754—1831), der bekannte Theaterschriftsteller und<lb/>
+                  Nationalökonom, der 1811—13 in Erlangen lebte.</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

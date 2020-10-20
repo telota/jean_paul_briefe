@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VI_409">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="410">409. An Friedrich Heinrich Jacobi in München. </title>
+            <title n="digital">An Friedrich Heinrich Jacobi. Bayreuth, 18. Dezember 1810.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=VI_409</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/VI/VI_409</idno>
+               <idno type="TELOTAID">VI_409</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope unit="page">
+                  <num>161</num>
+                  <num>162</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1810-12-18">18. Dezember 1810</date>
+               <placeName key="JP-005574" ref="http://www.geonames.org/2951825">Bayreuth</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-001909" ref="http://d-nb.info/gnd/118556312">
+                  <name type="reg">Jacobi</name> Friedrich Heinrich</persName>
+               <placeName key="JP-006040" ref="http://www.geonames.org/2867714">München</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VI_314">22. Juli 1810</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VI_499">25. Juni 1811</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <dateline>
+               <hi rendition="#right">
+                  <hi rendition="#aq">
+                     <placeName>Bayreuth</placeName>
+                  </hi>
+                  <date>Dec. 18. 1810</date>
+               </hi>
+            </dateline>
+            <lb xml:id="VI_161-2"/>
+            <p>Mein alter und verjüngter Heinrich! Wie viel Freude und<lb xml:id="VI_161-3"/>
+               Hoffnung hat mir dein letzter Brief gebracht! — Freilich deine per<lb xml:id="VI_161-4" rendition="#hyphen"/>sönliche Erscheinung wäre mehr — aber zu
+               viel gewesen; und aller<lb n="5" xml:id="VI_161-5"/> dein Verstand hätte da nicht
+               vermocht, den meinigen aus der Freude<lb xml:id="VI_161-6"/> wieder zurechtzurücken
+               auf der Stelle. Ich halte auch den ganzen<lb xml:id="VI_161-7"/> Vorsatz für einen
+               flüchtigen sechsfach geflügelten Einfall. — Ach<lb xml:id="VI_161-8"/> gieb uns doch
+               deine Gedanken so wie sie funken- oder sternen-weise<lb xml:id="VI_161-9"/> aus dir
+               springen; was soll eine besondere steife Soldaten-Reihung<lb n="10" xml:id="VI_161-10"/> im Firmament? Ich habe bei dir noch keine Wiederholungen
+                  ge<lb xml:id="VI_161-11" rendition="#hyphen"/>funden, und zwar darum keine, weil
+               du organisch, nicht baukünstelnd<lb xml:id="VI_161-12"/> (syllogistisch) erschaffst.
+               Kann ein Vater <hi rendition="#g">denselben</hi> Sohn <hi rendition="#g">wieder</hi>
+               <lb xml:id="VI_161-13"/> erzeugen? — Familienähnliche Brüder höchstens. Mir thun
+                  jetzt<lb xml:id="VI_161-14"/> deine Schriften noth (nöthig); und <hi rendition="#aq">Leibnitz,</hi> den ich eben wieder<note corresp="#VI_161-15">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002388">
+                        <persName> Gottfried Wilhelm <name type="reg">Leibniz</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="15" xml:id="VI_161-15"/> lese und bewundere, erinnert mich zu oft an dich. Ein
+               solcher Doppel<lb xml:id="VI_161-16" rendition="#hyphen"/>Riese (von Philosophie und
+               Mathematik) ist doch nie erschienen<lb xml:id="VI_161-17"/> wie er gewesen. Über
+               seine 5 Briefe an <hi rendition="#aq">Clarke</hi> und dessen 5 Ant<note corresp="#VI_161-18">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000644">
+                        <persName> Samuel <name type="reg">Clarke</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009082">
+                        <author>Leibniz (Leipnitz, Leibnitz), Gottfried Wilhelm (1646-1716)</author>
+                        <title>Briefe an Clarke</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_161-18" rendition="#hyphen"/>worten sollte man Vorlesungen<note n="*)" place="foot">Beinahe komisch weiset jeder auf seine vorige Widerlegung zurück,
+                     indeß<lb xml:id="VI_161-32"/> der andere unwiderlegt immer dasselbe
+                  reproduziert. So liefen beide Parallel<lb xml:id="VI_161-33" rendition="#hyphen"/>
+                  linien ohne Berührung neben einander fort; aber oben in der Unendlichkeit<lb xml:id="VI_161-34"/> werden sie sich schon wie andre Parallellinien <note n="abc)" place="foot">nach der Analysis.<lb n="35" xml:id="VI_161-35"/>
+                  </note> berührt haben.</note> zur Gymnastik halten, um zu be<lb xml:id="VI_161-19" rendition="#hyphen"/> weisen — was du einmal gesagt — daß auch in
+                  Wissenschaften<lb n="20" xml:id="VI_161-20"/> Streiten nicht viel erobere —,
+               ausgenommen, setz’ ich dazu, Fechter<lb xml:id="VI_161-21" rendition="#hyphen"/>arme
+               und Fechteraugen.</p>
+            <lb xml:id="VI_161-22"/>
+            <p>Auf deine „Seelenwanderung“ nicht durch Leiber sondern durch<lb xml:id="VI_161-23"/>
+               Seelen oder Systeme freu’ ich mich innigst; zumal in der jetzigen<lb xml:id="VI_161-24"/> Zeit, wo der meiste <hi rendition="#aq">répos</hi> im
+               Bücher-Repositorium ist. Indeß<lb n="25" xml:id="VI_161-25"/> verzagt niemand weniger
+               an der Zeit oder Nazion als ich; oder<lb xml:id="VI_161-26"/> gar an der Vorsehung.
+               Wer überhaupt in einer Theodiz<hi rendition="#aq">é</hi>e irgend<lb xml:id="VI_161-27"/> ein kleines Übel mit der Gottheit zu reimen weiß, muß es
+                  auch<lb xml:id="VI_161-28"/> mit jedem größeren können, da der Einwand bei Größe
+               und bei<lb xml:id="VI_161-29"/> Kleinheit derselbe bleibt, Sonnenfinsternisse und
+               längste Nächte be<lb n="30" xml:id="VI_161-30" rendition="#hyphen"/> decken gleich
+               sehr die Ur-Sonne.</p>
+            <lb xml:id="VI_161-31"/>
+            <p>Stunden-lange Briefe mach’ ich oft an dich, wenn ich auf dem<lb xml:id="VI_162-1"/>
+                  Kanap<hi rendition="#aq">é</hi>e liege; richt’ ich mich aber auf, so ist alles
+               verflogen.</p>
+            <lb xml:id="VI_162-2"/>
+            <p>
+               <hi rendition="#aq">Göthe’s</hi> Farbenlehre hat mich durch seine wiederkehrende
+                  Mensch<note corresp="#VI_162-3">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008509">
+                        <author>Goethe, Johann Wolfgang von (1749-1832)</author>
+                        <title>Farbenlehre (1810)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_162-3" rendition="#hyphen"/>werdung sehr erquickt. Überhaupt bemerk’
+               ich an mehrerern, die<lb xml:id="VI_162-4"/> sonst, wie es in London einen
+               „höllischen Feuerklub“ gab, so zum<note corresp="#VI_162-5">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005972">
+                        <placeName>London</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb n="5" xml:id="VI_162-5"/> höllischen Frost-Klub gehörten, schönes Schmelzen<note n="*)" place="foot">Wie sehr mußt du wirken, da <hi rendition="#aq">Tiek,</hi>
+                  früher dein Freund nicht, bei <hi rendition="#aq">Ernst<note corresp="#VI_162-31">
+                        <listPerson type="lineReference">
+                           <person corresp="#JP-004302">
+                              <persName> Ludwig (Pseud. Peter Leberecht, Gottlieb Färber) <name type="reg">Tieck</name>
+                              </persName>
+                           </person>
+                        </listPerson>
+                     </note>
+                     <lb xml:id="VI_162-31"/> Wagner</hi> in <hi rendition="#aq">Meiningen</hi> dich
+                  für einen Gott erklärte.<note corresp="#VI_162-32">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004556">
+                           <persName> Johann Ernst <name type="reg">Wagner</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006012">
+                           <placeName>Meiningen </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VI_162-32"/>
+               </note>. Freilich in<lb xml:id="VI_162-6"/>
+               <hi rendition="#aq">Jena</hi> damals zeigte man leichter die Scham als das Herz und
+                  er<note corresp="#VI_162-7">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005875">
+                        <placeName>Jena</placeName>
+                     </place>
+                     <place corresp="#JP-00587511">
+                        <placeName>Reichardtscher Garten, Gartenhaus; Jena</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_162-7" rendition="#hyphen"/>röthete nur über — Thränen. Dieß hält aber
+               das Menschenherz<lb xml:id="VI_162-8"/> nicht lange aus; und ich bin überzeugt, daß
+               eben so viele Kälte<lb xml:id="VI_162-9"/> vorspiegeln als andere Wärme.<lb n="10" xml:id="VI_162-10"/>
+            </p>
+            <p>Lebe froh! Lieber kürz’ ich den Brief ab als daß ich ihn in der<lb xml:id="VI_162-11"/> Absicht seiner Verlängerung, immer liegen lasse. Du gehst in ein<lb xml:id="VI_162-12"/> neues Jahr; komme dir das Schöne, Frohe, Gute entgegen,
+                  das<lb xml:id="VI_162-13"/> du selber uns so oft schaffend zugeführt!</p>
+            <lb xml:id="VI_162-14"/>
+            <closer>
+               <salute>
+                  <hi rendition="#right">Dein alter<lb n="15" xml:id="VI_162-15"/> J. P. F.
+                     Richter</hi>
+               </salute>
+            </closer>
+            <lb xml:id="VI_162-16"/>
+            <postscript>
+               <p>Schreibe bald, wenn möglich.</p>
+            </postscript>
+            <lb xml:id="VI_162-17"/>
+            <postscript>
+               <p>N. S. Ich bitte dich sehr um Verzeihung des Korrigierens.<lb xml:id="VI_162-18"/>
+                  Mir ists unmöglich — und schreib’ ich an Fürsten — vorher ein<lb xml:id="VI_162-19"/> Konzept des Briefes aufzusetzen; denn es hälfe auch
+                  nichts, da ich<lb n="20" xml:id="VI_162-20"/> doch im Abschreiben des Konzeptes
+                  wieder ins Korrigieren hinein<lb xml:id="VI_162-21"/> geriethe.</p>
+            </postscript>
+            <lb xml:id="VI_162-22"/>
+            <postscript>
+               <p>2. N. S. Ich bitte dich, hab’ ich nicht Recht? Die jetzige Zeit<lb xml:id="VI_162-23"/> ist groß, aber die Menschen sind klein? — Folglich besteht
+                  die Zeit<lb xml:id="VI_162-24"/> aus etwas Höhern als Menschen sind. Nenn’ es
+                     Vergangenheit<lb n="25" xml:id="VI_162-25"/> oder Gottheit, beide verfließen in
+                  Eins.</p>
+               <lb xml:id="VI_162-26"/>
+            </postscript>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Berlin JP. 6 S. 8°. Mehrere Stellen von Jacobi rot
+                  angestrichen.<lb/> Präsentat: e. d. 24ten. <hi rendition="#i">K</hi>: <hi rendition="#i">Jacobi Dec. 18. J</hi>
+                  <hi rendition="#sup">1</hi>: Roth Nr. 339×.<lb/>
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>: Jacobi S. 149×. <hi rendition="#b">161</hi>,<hi rendition="#rkd">4</hi>f.</hi> persönliche] <hi rendition="#aq">aus</hi> eigne
+                  <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">8</hi> sechsfach<lb/> geflügelten] <hi rendition="#aq">darüber</hi> Seraphinen <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">9</hi> gieb] <hi rendition="#aq">aus</hi> gib <hi rendition="#aq">
+                  <hi rendition="#i">H</hi> (vgl.</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">165</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">2</hi>
+               </hi>
+               <hi rendition="#aq">. </hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">15</hi>
+               </hi>
+               <hi rendition="#aq">)</hi>
+               <lb/>
+               <hi rendition="#rkd">11</hi> im] <hi rendition="#aq">aus</hi> für das <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+                  <hi rendition="#rkd">13</hi>f.</hi>
+               <hi rendition="#g">wieder</hi> erzeugen] <hi rendition="#aq">aus</hi>
+               <hi rendition="#g">zwei</hi> mal zeugen <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">21</hi> ausgenommen] <hi rendition="#aq">aus</hi> außer <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi> Fechterarme] <hi rendition="#aq">aus</hi> Fechterkräfte <hi rendition="#aq">
+                  <hi rendition="#i">HK</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">30</hi> bleibt] <hi rendition="#aq">aus</hi> bliebe <hi rendition="#aq">aus</hi> ist <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">32</hi> weiset] <hi rendition="#aq">aus</hi> verweiset <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">162</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">2</hi>
+               </hi> richt’] <hi rendition="#aq">aus</hi>
+               <lb/> setz’ <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">14</hi> zugeführt] <hi rendition="#aq">aus</hi> entgegengeführt
+                  <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>,</hi> entgegengeführt <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">19</hi> schreib’]<lb/>
+               <hi rendition="#aq">
+                  <hi rendition="#g">aus</hi>
+               </hi> schrieb’ <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">24</hi> Folglich] <hi rendition="#aq">aus</hi> Also <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">31</hi> früher] <hi rendition="#aq">aus</hi> sonst <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Der beantwortete Brief ist nicht erhalten; vgl. aber Nr. 387.<lb/>
+                  <hi rendition="#g">Leibnitz—Clarke:</hi> vgl. I. Abt., XVII, 457; II. Abt., V,
+                  437, Nr. 61.<lb/>
+                  <hi rendition="#g">Tieck bei Ernst Wagner:</hi> s. IV. Abt. (Br. an J. P.), VI,
+                  Nr.</hi>
+               <hi rendition="#aq">106.</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

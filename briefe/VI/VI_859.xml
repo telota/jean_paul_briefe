@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VI_859">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="865">*859. An Professor Schweigger in Nürnberg. </title>
+            <title n="digital">An Johann Salomon Christoph Schweigger. Bayreuth, 16. April
+               1814.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=VI_859</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/VI/VI_859</idno>
+               <idno type="TELOTAID">VI_859</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope unit="page">
+                  <num>369</num>
+                  <num>370</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+               <p>Druck</p>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1814-04-16">16. April 1814</date>
+               <placeName key="JP-005574" ref="http://www.geonames.org/2951825">Bayreuth</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-003956" ref="http://d-nb.info/gnd/118795775">
+                  <name type="reg">Schweigger</name> Johann Salomon Christoph</persName>
+               <placeName key="JP-006085" ref="http://www.geonames.org/2861650">Nürnberg</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VI_641">10. Mai 1812</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=IX_19">9. August 1814</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <dateline>
+               <hi rendition="#right">
+                  <hi rendition="#aq">
+                     <placeName>Baireuth</placeName>
+                  </hi> d. <date>16 April 1814</date>
+               </hi>
+            </dateline>
+            <lb xml:id="VI_369-23"/>
+            <p>Mein wackerer Professor mehr als einer Wissenschaft! Für Ihr<lb xml:id="VI_369-24"/>
+               treffliches Büchlein schick’ ich Ihnen eines, worin auch Himmel<note corresp="#VI_369-25">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009721" ana="†">
+                        <author>Schweigger, Johann Salomon Christoph (1779-1857), Chemiker und
+                           Physiker</author>
+                        <title>Neues Journal für Chemie und Physik (1811-1820)</title>
+                     </bibl>
+                  </listBibl>
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010814">
+                        <title>Mars und Phöbus Thronwechsel (1814)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="25" xml:id="VI_369-25" rendition="#hyphen"/> körper spielen, obwol gegen die
+               gallischen dunkeln Erdkörper und<note corresp="#VI_369-26">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-00574610">
+                        <placeName>Politik, Krieg, Militär; Frankreich, französisch</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_369-26"/> die Zentralsonne des Teufels. Himmel! wie sind die
+                  kühnsten<note corresp="#VI_369-27">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002955">
+                        <persName>
+                           <name type="reg">Napoleon I. Bonaparte</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_369-27"/> Wünsche der Deutschen zu kühnsten Thaten geworden! Nur
+                  solche<note corresp="#VI_369-28">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-0056690">
+                        <placeName>Deutsche; Deutschland , deutsch , Germanien,
+                           Vaterland</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_369-28"/>
+               <hi rendition="#aq">miracula restitutionis</hi> konnten solche Teufels Wunder
+               aufheben. —<lb xml:id="VI_369-29"/> Ich habe oft dabei an Sie gedacht.<lb n="30" xml:id="VI_369-30"/>
+            </p>
+            <note corresp="#VI_369-31">
+               <listPerson type="lineReference">
+                  <person corresp="#JP-000634">
+                     <persName>
+                        <name type="reg">Christus</name>
+                     </persName>
+                  </person>
+               </listPerson>
+            </note>
+            <lb xml:id="VI_369-31"/>
+            <p>Ihr Buch hat mich sehr erquickt, d. h. belehrt. Sonderbar ists,<note corresp="#VI_370-1">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009721">
+                        <author>Schweigger, Johann Salomon Christoph (1779-1857), Chemiker und
+                           Physiker</author>
+                        <title>Neues Journal für Chemie und Physik (1811-1820)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_370-1"/> daß mit der Größe des Weltkörpers die Lichtentwicklung zu
+                  wachsen<lb xml:id="VI_370-2"/> scheint. Anziehung erklärt es nicht, da Licht
+               schwerlich der An<lb xml:id="VI_370-3" rendition="#hyphen"/>ziehung unterworfen ist,
+               und sogar, wenn dasselbe es wäre, der<lb xml:id="VI_370-4"/> Fall der großen
+               Zentralsonne einträte, die eben durch An- und<lb n="5" xml:id="VI_370-5"/>
+               Zurückziehung des Lichts nach Herschel unsichtbar bleibt. Der<note corresp="#VI_370-6">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001726">
+                        <persName> Friedrich Wilhelm <name type="reg">Herschel</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_370-6"/> größte Einwurf ist die Kleinheit des Kometenkerns, welcher
+                  gleich<lb xml:id="VI_370-7" rendition="#hyphen"/>wol zuweilen eine Lichthülle von
+               40 Millionen Meilen Länge er<lb xml:id="VI_370-8" rendition="#hyphen"/>zeugt. Denn
+               daß der Schweif nicht durch die Sonne angesetzt werde,<lb xml:id="VI_370-9"/> beweist
+               Gelpke gut daraus, weil er sonst, wenn er hinter dem Ko<note corresp="#VI_370-10">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008462">
+                        <author>Gelpke, August Heinrich Christian (1769-1842), Astronom</author>
+                        <title>Neue Ansicht der Kometen (1812)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="10" xml:id="VI_370-10" rendition="#hyphen"/> meten liegt, dunkel erscheinen
+               müßte.</p>
+            <lb xml:id="VI_370-11"/>
+            <p>Lieber Tetrarch von vier Wissens Welten, der physikalischen,<lb xml:id="VI_370-12"/>
+               chemischen, astronomischen und poetischen! Sie sollten Ihre Kraft,<lb xml:id="VI_370-13"/> wie Lessing Wahrheiten durch Kombinieren zu erwürfeln, öfter
+                  be<note corresp="#VI_370-14">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002424">
+                        <persName> Gotthold Ephraim <name type="reg">Lessing</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_370-14" rendition="#hyphen"/>nützen. Der Erfahrungen und der Erfahrer
+               haben wir Millionen,<lb n="15" xml:id="VI_370-15"/> und der Erklärungen und Erklärer
+               so wenige.</p>
+            <lb xml:id="VI_370-16"/>
+            <p>Leben Sie wol im geretteten und rettenden Deutschland! Einen<note corresp="#VI_370-17">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-0056690">
+                        <placeName>Deutsche; Deutschland , deutsch , Germanien,
+                           Vaterland</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_370-17"/> herzlichen Gruß an Ihre liebe Schwester.</p>
+            <note corresp="#VI_370-18">
+               <listPerson type="lineReference">
+                  <person corresp="#JP-003957">
+                     <persName> Johann Salomon Christoph <name type="reg">Schweigger</name>
+                     </persName>
+                  </person>
+               </listPerson>
+            </note>
+            <lb xml:id="VI_370-18"/>
+            <closer>
+               <salute>
+                  <hi rendition="#right">Ihr<lb xml:id="VI_370-19"/> Jean Paul Fr. Richter</hi>
+                  <lb n="20" xml:id="VI_370-20"/>
+               </salute>
+            </closer>
+            <postscript>
+               <p>Bringen Sie dem Professor <hi rendition="#aq">Heller</hi> meinen Gruß und meine
+                     Bitte<note corresp="#VI_370-21">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001635">
+                           <persName> Ludwig <name type="reg">Heller</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_370-21"/> um die Blätter von Aleph etc.</p>
+            </postscript>
+            <note corresp="#VI_370-22">
+               <listBibl type="lineReference" subtype="werke">
+                  <bibl corresp="#JP-008872">
+                     <author>Kanne, Johann Arnold (Pseud. Walther Bergius) (1773-1824),
+                        Schriftsteller, Mythologe und Sprachforscher)</author>
+                     <title>Blätter von Aleph bis Kuf (1801)</title>
+                  </bibl>
+               </listBibl>
+            </note>
+            <lb xml:id="VI_370-22"/>
+            <postscript>
+               <p>N. S. Ihren Satz von Sprüngen in der Natur hab’ ich in meiner<lb xml:id="VI_370-23"/>
+                  <hi rendition="#aq">Levana</hi> schon für organische Entwicklung<add resp="#MB">en</add> behauptet.</p>
+               <note corresp="#VI_370-24">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010811">
+                        <title>Levana (1807)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_370-24"/>
+            </postscript>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H </hi>zuletzt Kat. 679 Stargardt (März 2004), Nr. 266; davor
+                  u.a. <add resp="#MB">Kat. 555 Stargardt (Nov. 1961), Nr. 679</add>. <hi rendition="#i">K</hi>
+                  <hi rendition="#sup">1</hi> (Konzept): <hi rendition="#i">Schweigger April. K</hi>
+                  <hi rendition="#sup">2</hi> (der Schluß nach Nr.</hi>
+               <hi rendition="#aq">861):</hi>
+               <lb/> Schweigger 16 <hi rendition="#aq">
+                  <hi rendition="#i">Apr. i</hi> (<hi rendition="#i">K</hi>
+                  <hi rendition="#sup">1</hi> u. <hi rendition="#i">K</hi>
+                  <hi rendition="#sup">2</hi>): Denkw. 3, 265×. *<hi rendition="#i">J</hi>: Archiv
+                  für<lb/> Literaturgeschichte, 9. Bd., 1880, S. 336 (ohne Angabe des
+                  Adressaten,<lb/> Gestrichenes in eckigen Klammern). <hi rendition="#i">B</hi>: IV.
+                  Abt., VI, Nr. 236. <hi rendition="#i">A</hi>: IV. Abt., VI, Nr.</hi>
+               <hi rendition="#aq">246. </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">369</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">25</hi>
+               </hi>
+               <lb/> eines] <hi rendition="#aq">darüber <hi rendition="#i">Mars</hi>
+               </hi> u. <hi rendition="#aq">
+                  <hi rendition="#i">Phöbus K</hi>
+                  <hi rendition="#sup">2</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">370</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">1</hi>
+               </hi> ists] <hi rendition="#aq">danach gestr.</hi> auf der<lb/> einen Seite <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+               </hi>
+               <hi rendition="#rkd">4</hi> dasselbe es] <hi rendition="#aq">so <hi rendition="#i">K</hi>
+                  <hi rendition="#sup">2</hi>,</hi> dasselbe <hi rendition="#aq">aus</hi> es <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+               </hi> wäre] <hi rendition="#aq">aus</hi> ist <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#sup">2</hi>
+               <lb/>
+               <hi rendition="#rkd">7</hi> größte] <hi rendition="#aq">so <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#sup">2</hi>, große <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+               </hi>
+               <hi rendition="#rkd">10</hi> beweist] erweist <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+                  <hi rendition="#sup">2</hi>
+                  <hi rendition="#rkd">14</hi>f.</hi> benützen] <hi rendition="#aq">so <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#sup">2</hi>,<lb/> benutzen <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#rkd">21</hi>
+                  <hi rendition="#i">Heller</hi>] <hi rendition="#i">Keller J</hi> (fehlt <hi rendition="#i">K</hi>)</hi>
+               <hi rendition="#rkd">22</hi> vom <hi rendition="#aq">
+                  <hi rendition="#i">J. </hi>
+                  <hi rendition="#rkd">24</hi>
+                  <hi rendition="#i"/>
+               </hi>
+               <add resp="#MB">Entwicklungen</add>
+               <hi rendition="#aq">
+                  <add resp="#MB">] nach <hi rendition="#i">H</hi> (stand für die Textkonstitution
+                     nicht zur Verfügung)</add>
+                  <hi rendition="#i">K</hi>
+                  <hi rendition="#sup">1</hi> hat noch folgende<lb/> unbenutzte Sätze:</hi> Den
+               Übergang durch Größe in Planeten beweiset<lb/> Jupiter, der und dessen Trabanten in
+               ihrer Sonnenferne kein solches Licht<lb/> haben könnten. Im Ganzen würde überall der
+               größte selber leuchtende<lb/> Körper das meiste Licht haben, daher eben die Sonne. —
+               Warum will man<lb/> denn die Größe nicht mit der Ferne wachsen lassen, also mit der
+               Größe<lb/> das Licht? — Aber ein anderes Gesetz als das der Anziehung muß die
+                  Licht<lb rendition="#hyphen"/> verdickung bewirken, da überhaupt das Licht keine
+               Anziehung kennt, sonst<lb/> könnte der entblößte Sonnenkörper keine Dunkelheit
+               zeigen. Warum soll<lb/> denn alles Anziehung heißen was Zurückziehung ist. — Wie,
+               wenn der<lb/> Komet ein eigenes Verhältnis zum Lichte hätte? (Lichtsammler) —
+               eben<lb/> weil er einen andern Kern hat als jeder Weltkörper? Kann sich das
+               Licht<lb/> nicht auch e[inem] Stern zudichten [<hi rendition="#aq">aus</hi>
+               andichten]? — Die Sonne müßte<lb/> nach Verhältnis ein weit höheres Zodiakallicht
+               zeigen. — ... im Verstande<lb/> gibt es keinen Zufall; und die ganze Kombinazions
+               Rechnung muß in einer<lb/> höchsten Potenz den Schein der Zufälligkeit ablegen; denn
+               Zahlen sind so<lb/> gut von Gott geschaffen als Welten und Sachen. — Die Arterien
+               des<lb/> Universums zu Einem Herze zusammenziehen, was Gott ist. Frage: wird<lb/> von
+               der Sonne das Licht mehr angezogen oder mehr entwickelt — das<lb/> Licht könnte
+               leichter die Anziehung selber sein —</p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Mit „Mars und Phöbus“. Schweigger hatte eine kleine Schrift
+                  „Über<lb/> den Planeten- und Trabanten-Umlauf“ (Sonderabdruck aus seinem<lb/>
+                  Journal für Chemie und Physik) übersandt, die durch einige Fäden<lb/> mit einer
+                  früher übersandten „Über einige noch nicht erklärte che<lb rendition="#hyphen"/>
+                  mische Erscheinungen“ (Journal f. Chemie u. Physik, 5. Bd., 1812,<lb/> Nr. 1)
+                  zusammenhänge, und Jean Pauls Bemerkungen darüber erbeten.<lb/>
+                  <hi rendition="#g">Gelpke:</hi> s. II. Abt., IV, 147, Nr. 69†. <hi rendition="#g">Lessing:</hi> vgl. I. Abt., V,<lb/> 214†. <hi rendition="#g">Heller:</hi> s.
+                  Nr. 682†. <hi rendition="#g">Blätter von Aleph etc.:</hi> von Kanne, s.<lb/> Bd.
+                  IV, Nr. 189†. <hi rendition="#g">Levana:</hi> § 124 (I. Abt., XII, 348f.).</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

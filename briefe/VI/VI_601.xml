@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VI_601">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="603">601. An Cotta. </title>
+            <title n="digital">An Johann Friedrich Freiherr Cotta von Cottendorf. Bayreuth, 20.
+               Januar 1812.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=VI_601</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/VI/VI_601</idno>
+               <idno type="TELOTAID">VI_601</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope unit="page">
+                  <num>247</num>
+                  <num>248</num>
+                  <num>249</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1812-01-20">20. Januar 1812</date>
+               <placeName key="JP-005574" ref="http://www.geonames.org/2951825">Bayreuth</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000698" ref="http://d-nb.info/gnd/11852240X">
+                  <name type="reg">Cotta von Cottendorf</name> Johann Friedrich Freiherr</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VI_581">22. Dezember 1811</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VI_631">27. März 1812</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <div>
+               <lb n="5" xml:id="VI_247-5"/>
+               <dateline>
+                  <hi rendition="#right">
+                     <hi rendition="#aq">
+                        <placeName>Baireuth</placeName> d. <date>20 Jenn. 1812</date>
+                     </hi>
+                  </hi>
+               </dateline>
+               <lb xml:id="VI_247-6"/>
+               <p>
+                  <hi rendition="#aq">N.B.</hi> Dieser Brief wurde vor Empfang des Ihrigen vom<lb xml:id="VI_247-7"/> 14. Jenner angefangen.</p>
+               <lb xml:id="VI_247-8"/>
+               <p>Lieber <hi rendition="#aq">Cotta!</hi> Endlich bring’ ich meinen Aufsatz, dessen
+                     Länge<note corresp="#VI_247-9">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010570">
+                           <title>Bußpredigt über Vorausbezahlung auf Wolkens Werk (1812)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VI_247-9"/> sein Abschicken verzögerte. <hi rendition="#aq">Wolke</hi>
+                  ist nur kurze Veranlassung; das<note corresp="#VI_247-10">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004803">
+                           <persName> Christian Heinrich <name type="reg">Wolke</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="10" xml:id="VI_247-10"/> Meiste könnt’ ich eben so gut in meiner <hi rendition="#aq">Vorschule</hi> sagen.<note n="*)" place="foot">und überhaupt
+                     ist der Aufsatz so gut ein Kunstwerk als irgend ein Roman<lb xml:id="VI_247-34"/> von mir, nur nicht so leicht anschaubar.<lb n="35" xml:id="VI_247-35"/>
+                  </note> Schwer<note corresp="#VI_247-11">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010970">
+                           <title>Vorschule der Aesthetik (1804)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VI_247-11" rendition="#hyphen"/> lich wird auch der scheueste Zensor
+                  etwas darin zu streichen finden;<lb xml:id="VI_247-12"/> wär’ es indeßen doch: so
+                  bitt’ ich Sie, mir die Stelle, insofern der<lb xml:id="VI_247-13"/> Zusammenhang
+                  dabei litte, zu senden, damit ich ihn ergänze.</p>
+               <lb xml:id="VI_247-14"/>
+               <p>Hier ist auch <hi rendition="#aq">Schillers</hi> Gedicht.<lb n="15" xml:id="VI_247-15"/>
+               </p>
+               <p>Auf meinen Verlags Antrag der <hi rendition="#aq">Vorschule</hi> (vom 22. <hi rendition="#aq">Dec.</hi>) haben<note corresp="#VI_247-16">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010970" ana="†">
+                           <title>Vorschule der Aesthetik (1804)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VI_247-16"/> Sie mir noch nicht geantwortet, weil Sie wahrscheinlich
+                  auf den<lb xml:id="VI_247-17"/> Aufsatz warteten. Die <hi rendition="#aq">Levana,</hi> obgleich beinahe bis zum 3<hi rendition="#sup">ten</hi>
+                     Bande<note corresp="#VI_247-18">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010811" ana="†">
+                           <title>Levana (1807)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VI_247-18"/> wieder bessernd vollendet, kann ich erst im künftigen
+                  Monat senden,<lb xml:id="VI_247-19"/> da ein Aufsatz für das <hi rendition="#aq">Frankfurter Museum</hi> und neue Nachbesse<note corresp="#VI_247-20">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0057438">
+                           <placeName>Museum; Frankfurt a. M.</placeName>
+                        </place>
+                     </listPlace>
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010710">
+                           <title>Frage über das Entstehen der ersten Pflanzen (1814)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb n="20" xml:id="VI_247-20" rendition="#hyphen"/> rungen jener mich aufhalten.
+                  Die Anweisung der 40 <hi rendition="#aq">L.</hi> stellen Sie,<lb xml:id="VI_247-21"/> wie ich schon geschrieben, gefällig auf <hi rendition="#aq">Leipzig.</hi> Bei der Rechnung<note corresp="#VI_247-22">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005948">
+                           <placeName>Leipzig</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VI_247-22"/> des vorigen Jahres, <hi rendition="#aq">Morgenblatt</hi>
+                  und <hi rendition="#aq">Damen-Kalender</hi> betreffend,<note corresp="#VI_247-23">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-010313">
+                           <author/>
+                           <title>Morgenblatt für gebildete Stände (1807ff.)</title>
+                        </bibl>
+                        <bibl corresp="#JP-008269">
+                           <author>Cotta, Johann Friedrich (Hg.)</author>
+                           <title>Taschenbuch für Damen auf das Jahr (1798 ff.)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VI_247-23"/> vergessen Sie Ihre eigne Gegenrechnung nicht, welche
+                  durch J. von<lb xml:id="VI_247-24"/>
+                  <hi rendition="#aq">Müllers</hi> Werke stark sein muß.<note corresp="#VI_247-25">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-009257">
+                           <author>Müller, Johannes von (1752-1809), Schweizer Historiker</author>
+                           <title>Werke (1810-1819)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb n="25" xml:id="VI_247-25"/>
+               </p>
+               <p>Ich bitte Sie um baldige Nachricht des Empfangs, so wie um<lb xml:id="VI_247-26"/>
+                     baldigen<note n="**)" place="foot">und wenigst möglichen unterbrochnen Abdruck,
+                     zumal des Anfangs.<lb xml:id="VI_247-36"/>
+                  </note> Druck, schon des guten <hi rendition="#aq">Wolke</hi> wegen.</p>
+               <note corresp="#VI_247-27">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004803">
+                        <persName> Christian Heinrich <name type="reg">Wolke</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_247-27"/>
+               <closer>
+                  <salute>
+                     <hi rendition="#right">Ihr<lb xml:id="VI_247-28"/> Jean Paul Fr. Richter</hi>
+                  </salute>
+               </closer>
+               <lb xml:id="VI_247-29"/>
+               <postscript>
+                  <p>N. S. In der Ostermesse bitt’ ich Sie an H. Hofrath <hi rendition="#aq">Wolkens<lb n="30" xml:id="VI_247-30"/> Ordre</hi> die 2 rtl.
+                     Pränumerazion für sein Buch auf meine Rechnung<note corresp="#VI_247-31">
+                        <listBibl type="lineReference" subtype="werke">
+                           <bibl corresp="#JP-010130">
+                              <author>Wolke, Christian Heinrich (1741-1825), Pädagoge und
+                                 Sprachreformer</author>
+                              <title>Anleit zur deutschen Gesamtsprache (1812)</title>
+                           </bibl>
+                        </listBibl>
+                     </note>
+                     <lb xml:id="VI_247-31"/> zu bezahlen.</p>
+               </postscript>
+               <lb xml:id="VI_247-32"/>
+            </div>
+            <div>
+               <byline>
+                  <hi rendition="#et">
+                     <hi rendition="#aq">Verte</hi>
+                  </hi>
+               </byline>
+               <lb xml:id="VI_247-33"/>
+               <dateline>
+                  <hi rendition="#c">
+                     <hi rendition="#g">Nachschrift vom 25. Jenn.</hi>
+                  </hi>
+               </dateline>
+               <lb xml:id="VI_248-1"/>
+               <p>Ihren letzten Brief bekam ich durch Zufall 5 Tage zu spät. Meinen<lb xml:id="VI_248-2"/> herzlichen Dank für die Liberalität Ihres Anweisens
+                  ungeachtet des<lb xml:id="VI_248-3"/> wahrscheinlich zu übermächtigen Eindrucks,
+                  den der erste Augenblick<lb xml:id="VI_248-4"/> der bösen Nachricht gemacht. Noch
+                  las man ja in keiner Zeitung,<lb n="5" xml:id="VI_248-5"/> daß das bestehende zum
+                  Vortheil der Amortisazions-Kasse gegebne<lb xml:id="VI_248-6"/> Verbot, ein
+                  ausländisches Buch <hi rendition="#g">vor</hi> 20 Jahren nachzudrucken, zu<lb xml:id="VI_248-7" rendition="#hyphen"/>rückgenommen worden. S. <hi rendition="#aq">Voß.</hi> Zeiten. Sollte denn französischer<note corresp="#VI_248-8">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0057467">
+                           <placeName>Literatur; Frankreich, französisch</placeName>
+                        </place>
+                     </listPlace>
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-009985">
+                           <author>Voß, Christian Daniel (1761-1821), Professor der Philosophie in
+                              Halle</author>
+                           <title>Die Zeiten (1805-1820)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VI_248-8"/> Nachdruck sogar viel mehr schaden als östreichischer? Und
+                     sollten<note corresp="#VI_248-9">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006097">
+                           <placeName>Österreich</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VI_248-9"/>
+                  <hi rendition="#b">Deutsche</hi> ihn kaufen? — Ferner bleibt Ihnen ja bei meinen
+                     Werken<note corresp="#VI_248-10">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0056722">
+                           <placeName>Buchhandel; Deutschland, deutscher</placeName>
+                        </place>
+                        <place corresp="#JP-0056690">
+                           <placeName>Deutsche; Deutschland , deutsch , Germanien,
+                              Vaterland</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="10" xml:id="VI_248-10"/> der Schutz durch Pränumerazion und
+                     Subskripzion<note n="*)" place="foot">da ich gewis so viele Freunde in
+                     Deutschland habe als zu Ihrer Deckung<note corresp="#VI_248-35">
+                        <listPlace type="lineReference">
+                           <place corresp="#JP-0056690">
+                              <placeName>Deutsche; Deutschland , deutsch , Germanien,
+                                 Vaterland</placeName>
+                           </place>
+                        </listPlace>
+                     </note>
+                     <lb n="35" xml:id="VI_248-35"/> nöthig sind.</note> übrig. — Mein<lb xml:id="VI_248-11"/> Ihnen bekannter scharfsinniger Freund <hi rendition="#aq">Georgius</hi> glaubt, daß gerade<note corresp="#VI_248-12">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003112">
+                           <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_248-12"/> ein Krieg mit Rußland dem Buchhandel mehr Wege bahnen
+                     würde.<note corresp="#VI_248-13">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006218">
+                           <placeName>Russland, Russen, russisch</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VI_248-13"/> Ein anderer Freund, der in der vorigen Woche aus Rußland
+                     kam,<note corresp="#VI_248-14">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001926" ana="?">
+                           <persName> Ludwig Heinrich von <name type="reg">Jakob</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_248-14"/> wußte nichts von Courier-Wechsel, oder Zurüstung oder
+                  sonst einem<lb n="15" xml:id="VI_248-15"/> Kriegs Zeichen. Indeß da doch immer die
+                  Möglichkeit des Aus<lb xml:id="VI_248-16" rendition="#hyphen"/>bruchs so wie des
+                  Nachdrucks fortdroht und da ich meine Aesthetik<note corresp="#VI_248-17">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010970">
+                           <title>Vorschule der Aesthetik (1804)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VI_248-17"/> nicht für solche Unbestimmtheiten verschieben kann: so
+                  möge denn<lb xml:id="VI_248-18"/> uns beiden die gegenseitige Freiheit zurück
+                  gegeben sein. Gleich<lb xml:id="VI_248-19" rendition="#hyphen"/>wol frag’ ich,
+                  bevor ich Ihre letzte Antwort habe, nirgend anderswo<lb n="20" xml:id="VI_248-20"/> an, da ich ohnehin für die Aesthetik nur die Materalien, aber noch<lb xml:id="VI_248-21"/> nicht deren Form vollendet habe. — Auch über die <hi rendition="#aq">Levana</hi> bitt’<note corresp="#VI_248-22">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010811">
+                           <title>Levana (1807)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VI_248-22"/> ich Sie bald um bestimmteste Nachricht. Es wäre aber sehr
+                     schmerz<lb xml:id="VI_248-23" rendition="#hyphen"/>haft für meine
+                  Anhänglichkeit an den liberalen und letzten und<lb xml:id="VI_248-24"/> stärksten
+                  Assekurator des deutschen Buchhandels, wenn ich auf ein<note corresp="#VI_248-25">
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-0056722">
+                           <placeName>Buchhandel; Deutschland, deutscher</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb n="25" xml:id="VI_248-25" rendition="#hyphen"/> mal sogar zwei Werke — und
+                  meine wichtigsten — aus seinen<note corresp="#VI_248-26">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010970">
+                           <title>Vorschule der Aesthetik (1804)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VI_248-26"/> Händen in fremde müßte übergehen sehen. Noch hoff’
+                  ich.</p>
+               <lb xml:id="VI_248-27"/>
+               <p>Sehr bitt’ ich Sie, die Bußpredigt <hi rendition="#g">genau</hi> abdrucken zu
+                     lassen,<note corresp="#VI_248-28">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010570">
+                           <title>Bußpredigt über Vorausbezahlung auf Wolkens Werk (1812)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VI_248-28"/> z. B. Kriegfuß, nicht Kriegsfuß, so nicht Bildung<hi rendition="#b">s</hi>-Wechsel.</p>
+               <lb xml:id="VI_248-29"/>
+               <p>In irgend einer freien Viertelstunde machen Sie doch umsomehr<lb n="30" xml:id="VI_248-30"/> meine und Ihre Rechnung vom vorigen Jahre, da ich jetzt 40
+                     <hi rendition="#aq">Ld’or</hi>
+                  <lb xml:id="VI_248-31"/> von Ihnen voraus erhalten und ich gern weiß, wie viel ich
+                     schul<lb xml:id="VI_248-32" rendition="#hyphen"/>dig bin.</p>
+               <lb xml:id="VI_248-33"/>
+               <p>Für den Damenkalender kann ich nicht <hi rendition="#g">jetzt sogleich</hi> wegen
+                     so<note corresp="#VI_248-34">
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-008269">
+                           <author>Cotta, Johann Friedrich (Hg.)</author>
+                           <title>Taschenbuch für Damen auf das Jahr (1798 ff.)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VI_248-34"/> vieler Nebenarbeiten etwas liefern. Wäre denn nicht für
+                     ihn<note corresp="#VI_249-1">
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010784">
+                           <title>Komisches Taschenbuch mit Ramberg (geplant 1810ff.)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VI_249-1"/> irgend eine Hogarthische Bilderreihe zu erfinden, die ich
+                  dann er<note corresp="#VI_249-2">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-001802">
+                           <persName> William <name type="reg">Hogarth</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_249-2" rendition="#hyphen"/>klärte? —</p>
+               <lb xml:id="VI_249-3"/>
+               <closer>
+                  <salute>Leben Sie wol, Guter!<lb xml:id="VI_249-4"/>
+                     <hi rendition="#et">Ihr<lb n="5" xml:id="VI_249-5"/> Jean Paul Fr. Richter</hi>
+                     <lb xml:id="VI_249-6"/>
+                  </salute>
+               </closer>
+            </div>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Cotta-Archiv. 6 S. 8°. Präsentat: 1 Febr. 1812,
+                  [beantw.] 3 —.<lb/>
+                  <hi rendition="#i">K</hi>: <hi rendition="#i">Cotta.</hi>
+               </hi> 20. u. 25. Jenner (ab den 27ten). <hi rendition="#b">
+                  <hi rendition="#aq">247</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">7</hi>
+               </hi> Brief] <hi rendition="#aq">davor gestr.</hi>
+               <lb/> ganze <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">8</hi> angefangen] <hi rendition="#aq">aus</hi> geschrieben <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">21</hi> jener] <hi rendition="#aq">aus</hi> daran <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi> stellen]<lb/>
+               <hi rendition="#aq">aus</hi> geben <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">24</hi> durch <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">25</hi> muß] <hi rendition="#aq">aus</hi> J. von <hi rendition="#aq">
+                  <hi rendition="#i">Müller</hi>
+               </hi> stark macht <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+                  <lb/>
+                  <hi rendition="#rkd">27</hi>
+                  <hi rendition="#i">Wolke</hi>] aus <hi rendition="#i">Wolke’ns H</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">248</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">6</hi>
+               </hi> bestehende] <hi rendition="#aq">danach gestr.</hi> Gesetz <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <lb/> gegebne] <hi rendition="#aq">aus</hi> gemachte <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">9</hi> östreichischer] <hi rendition="#aq">aus</hi>
+               österreichischer <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">21</hi> für die]<lb/>
+               <hi rendition="#aq">aus</hi> zur <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">26</hi> sogar] <hi rendition="#aq">aus</hi> so <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">27</hi> übergehen] <hi rendition="#aq">aus</hi> gehen <hi rendition="#aq">
+                  <hi rendition="#i">HK</hi>
+               </hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Der Aufsatz über <hi rendition="#g">Wolke</hi> erschien im
+                  Morgenblatt v. 11.—19. Febr.<lb/> 1812, Nr. 36—43 (I. Abt., XVII, 275). <hi rendition="#g">Schillers Gedicht:</hi> s.<lb/>
+                  <hi rendition="#b">240</hi>,<hi rendition="#rkd">18—20</hi>†. — In dem nicht
+                  erhaltenen Brief v. 14. Jan. hatte Cotta<lb/> offenbar mit Rücksicht auf den
+                  drohenden Ausbruch des Krieges mit<lb/> Rußland und die Gefahr französischen
+                  Nachdrucks die vorläufige Ver<lb rendition="#hyphen"/> tagung des Drucks der
+                  Levana und der Vorschule für nötig erklärt.</hi>
+               <lb/>
+               <hi rendition="#b">248</hi>,<hi rendition="#rkd">8</hi>
+               <hi rendition="#aq">
+                  <hi rendition="#g">Voß’ Zeiten:</hi> vgl. Nr. 586†. <hi rendition="#rkd">14</hi>
+                  <hi rendition="#g">Ein anderer Freund:</hi> viel<lb rendition="#hyphen"/> leicht
+                  Jakob, s. IV. Abt. (Br. an J. P.), VI, Nr. 195. <hi rendition="#b">249</hi>,<hi rendition="#rkd">2</hi>
+                  <hi rendition="#g">Hogarthische Bilder<lb rendition="#hyphen"/> reihe:</hi>
+                  vgl.</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">84</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">34</hi>
+               </hi>
+               <hi rendition="#aq">†.</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

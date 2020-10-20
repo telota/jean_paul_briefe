@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VI_490">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="491">*490. An Otto. </title>
+            <title n="digital">An Christian Otto. Erlangen, 10. Juni 1811.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=VI_490</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/VI/VI_490</idno>
+               <idno type="TELOTAID">VI_490</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope unit="page">
+                  <num>195</num>
+                  <num>196</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+               <p>Druck</p>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1811-06-10">10. Juni 1811</date>
+               <placeName key="JP-005722" ref="http://www.geonames.org/2929567">Erlangen</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-003112" ref="http://d-nb.info/gnd/118590804">
+                  <name type="reg">Otto</name> Christian</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VI_503">Juni 1811</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VI_500">Ende Juni 1811</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <dateline>
+               <hi rendition="#right">
+                  <hi rendition="#aq">
+                     <placeName>Erlangen</placeName>
+                  </hi> d. <date>10. Jun. 1811</date>
+               </hi>
+            </dateline>
+            <lb xml:id="VI_195-2"/>
+            <p>Guten Abend, mein Alter! Seit langer, langer Zeit genoß ich<lb xml:id="VI_195-3"/>
+               nicht die fortgehende heitere Seelenharmonie wie jetzt. Die <hi rendition="#aq">ars</hi>
+               <note corresp="#VI_195-4">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010569">
+                        <title>Bruchstücke aus der Kunst, stets heiter zu sein (1814)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_195-4"/>
+               <hi rendition="#aq">semper gaudendi,</hi> die ich in Bayreuth theoretisch entwarf,
+                  setz’<note corresp="#VI_195-5">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005574">
+                        <placeName>Bayreuth (Stadt)</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb n="5" xml:id="VI_195-5"/> ich hier praktisch fort; und zwar was das Beste, mit
+               einer mich<lb xml:id="VI_195-6"/> selten täuschenden Ahnung, daß kein Schloßenwetter
+               in Bayreuth<lb xml:id="VI_195-7"/> die Gärten meines Lebens niederschlägt. Alle Leute
+               so gefällig —<lb xml:id="VI_195-8"/> Bücher mehr als zuviel; ich kann in <hi rendition="#aq">Welsens</hi> oder auch in <hi rendition="#aq">Walthers</hi>
+               <note corresp="#VI_195-9">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004587">
+                        <persName> Johann Salomon Nikolaus <name type="reg">Walther</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-0057227">
+                        <placeName>Welsgarten (Welsenscher Garten); Erlangen </placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_195-9"/> näherm Gartenhause wohnen und schreiben. <hi rendition="#aq">Toussaint</hi> darf keinen<note corresp="#VI_195-10">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004327">
+                        <persName> Johann Albrecht <name type="reg">Toussaint</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="10" xml:id="VI_195-10"/> Wunsch hören, weil er ihn sonst erfüllt; sogar die
+               Zeitungen schickt<lb xml:id="VI_195-11"/> er mir am Morgen, ob ich sie gleich 5
+               Stunden später an seiner<lb xml:id="VI_195-12"/> Wirthstafel auch zu lesen bekomme.
+               Noch hab’ ich bei niemand<note corresp="#VI_195-13">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-0057223">
+                        <placeName>Gasthof Goldner Walfisch; Erlangen </placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_195-13"/> gegessen und keine Erlangerin gesprochen. Hier hat man viel
+                  bessere<note corresp="#VI_195-14">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005722">
+                        <placeName>Erlangen </placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_195-14"/> Hörröhre für die Politik als in Bayreuth. <hi rendition="#aq">Meusel</hi> sagte mir, daß<note corresp="#VI_195-15">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002795">
+                        <persName> Johann Georg <name type="reg">Meusel</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005574">
+                        <placeName>Bayreuth (Stadt)</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb n="15" xml:id="VI_195-15"/> in Frankfurt nur einige alte englische Knöpfe
+               gefunden worden,<note corresp="#VI_195-16">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005743" ana="†">
+                        <placeName>Frankfurt a. M.</placeName>
+                     </place>
+                     <place corresp="#JP-00571513">
+                        <placeName>Handel; England, englisch, Britannien</placeName>
+                     </place>
+                     <place corresp="#JP-00571516">
+                        <placeName>Knöpfe; England, englisch, Britannien</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_195-16"/> überhaupt hab’ ich manche politische Neuigkeit hier
+               eingethan, die<lb xml:id="VI_195-17"/> ich schon in Bayreuth für dich auspacken
+               will.</p>
+            <note corresp="#VI_195-18">
+               <listPlace type="lineReference">
+                  <place corresp="#JP-005574">
+                     <placeName>Bayreuth (Stadt)</placeName>
+                  </place>
+               </listPlace>
+            </note>
+            <lb xml:id="VI_195-18"/>
+            <p>— Aber zu etwas Wichtigerm. (Da ich unmöglich dieselbe Sache<lb xml:id="VI_195-19"/>
+               dreimal schreiben kann, so ist meiner Meinung nach eine befriedi<lb n="20" xml:id="VI_195-20" rendition="#hyphen"/> gende Darstellung meines hiesigen
+               Aufenthalts schwerlich anders zu<lb xml:id="VI_195-21"/> gewinnen als daß man meine
+               dreierlei Briefe nach Bayreuth sorg<note corresp="#VI_195-22">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005574">
+                        <placeName>Bayreuth (Stadt)</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_195-22" rendition="#hyphen"/>fältig durchgeht und aus dreien die
+               gegenseitigen Erzählungen aus<lb xml:id="VI_195-23" rendition="#hyphen"/>hebt, bis
+               man das Ganze hat; einen andern Weg wüßt’ ich nicht<lb xml:id="VI_195-24"/>
+               vorzuschlagen.) Es kann sein, daß ich nächstens ein bedeutender<lb n="25" xml:id="VI_195-25"/> Chronolog werde; denn ich bin jetzt schon im Stande (aus
+                  dem<lb xml:id="VI_195-26"/> Kopfe) zu sagen: 4000 v. C. wurde Adam, 3000 v. C.
+                  Noahs<note corresp="#VI_195-27">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000019">
+                        <persName>
+                           <name type="reg">Adam</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003015">
+                        <persName>
+                           <name type="reg">Noah</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_195-27"/> Kasten gemacht — 2000 v. C. Semiramis, Joseph, Cecrops
+                  (als<note corresp="#VI_195-28">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000596">
+                        <persName>
+                           <name type="reg">Cecrops</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-001973">
+                        <persName>
+                           <name type="reg">Joseph</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-004013">
+                        <persName>
+                           <name type="reg">Semiramis</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_195-28"/> etwas besonderes bemerk’ ich, daß gerade diese eben so viele
+                  Jahre<lb xml:id="VI_195-29"/> von Adam als von Christo abstehen, nämlich 2000).
+               Will ich<note corresp="#VI_195-30">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000019">
+                        <persName>
+                           <name type="reg">Adam</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-000634">
+                        <persName>
+                           <name type="reg">Christus</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="30" xml:id="VI_195-30"/> aber nicht aus dem Kopfe schreiben, so wird es mir
+               leicht, anzu<lb xml:id="VI_195-31" rendition="#hyphen"/>geben, daß <hi rendition="#aq">anno</hi> 449 die Sachsen in England eingefallen (auch<note corresp="#VI_195-32">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005715">
+                        <placeName>England, englisch, Britannien</placeName>
+                     </place>
+                     <place corresp="#JP-006224">
+                        <placeName>Sachsen, Kursachsen, sächsisch</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_195-32"/> Kirchenglocken wurden 449 erfunden), daß 651 das Reich
+                  der<lb xml:id="VI_195-33"/> Sassaniden untergegangen; wie das Chalifat 1258; — 732
+                  die<note corresp="#VI_195-34">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003625">
+                        <persName>
+                           <name type="reg">Sassaniden</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_195-34"/> Araber bei Tours geschlagen wurden u. s. fort. Denn z. B.
+                  am<note corresp="#VI_195-35">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005531">
+                        <placeName>Arabien</placeName>
+                     </place>
+                     <place corresp="#JP-006349">
+                        <placeName>Tours</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb n="35" xml:id="VI_195-35"/> 23 Mai 1618 fing in Böhmen der 30jährige Krieg an,
+                  dagegen<note corresp="#VI_195-36">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005602">
+                        <placeName>Böhmen</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_195-36"/> entsetzte den 12 Sept. 1683 J. Sobieski von Polen Wien,
+               nicht zu<note corresp="#VI_195-37">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004062">
+                        <persName> Jan <name type="reg">Sobieski</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006155">
+                        <placeName>Polen </placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_195-37"/> gedenken des Friedens zu Baden den 7 Sept. 1714 etc. Und
+                  dieß<note corresp="#VI_196-1">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005558" rend="Frieden 1714">
+                        <placeName>Baden </placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_196-1"/> geht bis zur französischen Einverleibung der Hansestädte.
+                  Du<note corresp="#VI_196-2">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-00574610">
+                        <placeName>Politik, Krieg, Militär; Frankreich, französisch</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_196-2"/> kannst denken, was für Zahlen in diese Zwischenräume fallen
+                  müssen,<lb xml:id="VI_196-3"/> die ich künftig alle weiß so gut wie du. Und
+               wodurch? Durch ein<lb xml:id="VI_196-4"/> Ding für 1 fl. 12 kr. ganz in Gestalt und
+               Größe eines kleinen<lb n="5" xml:id="VI_196-5"/> englischen Taschenperspektivs oder
+               Stockknopfs. (Du kannst diese<note corresp="#VI_196-6">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005715">
+                        <placeName>England, englisch, Britannien</placeName>
+                     </place>
+                     <place corresp="#JP-00571525">
+                        <placeName>Taschenperspektiv; England, englisch, Britannien</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_196-6"/> rothsaffianene und mit Perlenmutter verzierte Röhre mit
+                  Einer<lb xml:id="VI_196-7"/> Hand umschließen.) Du sollst es selber sehen, um nur
+               zu begreifen,<lb xml:id="VI_196-8"/> wodurch ich auf einmal so weit in der
+               Chronologie vorgerückt. —<lb xml:id="VI_196-9"/> Und noch dazu kannst du dieses
+               Futteral weder vorn noch hinten<lb n="10" xml:id="VI_196-10"/> aufmachen. —</p>
+            <lb xml:id="VI_196-11"/>
+            <p>Ich sehne mich nach Bayreuther Briefen, die leider den Weg<note corresp="#VI_196-12">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005574">
+                        <placeName>Bayreuth (Stadt)</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_196-12"/> über Nürnberg nehmen und wöchentlich nur 3 mal ankommen.</p>
+            <note corresp="#VI_196-13">
+               <listPlace type="lineReference">
+                  <place corresp="#JP-006085">
+                     <placeName>Nürnberg</placeName>
+                  </place>
+               </listPlace>
+            </note>
+            <lb xml:id="VI_196-13"/>
+            <p>Lebe wol, mein guter Alter! Ich sehne mich nach deinem Wieder<lb xml:id="VI_196-14" rendition="#hyphen"/> sehen. Grüße deine Amöne.<note corresp="#VI_196-15">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003108">
+                        <persName> Amöne (Pseud. Amalie von Obyrn) <name type="reg">Otto</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="15" xml:id="VI_196-15"/>
+            </p>
+            <closer>
+               <salute>
+                  <hi rendition="#right">Dein R.</hi>
+                  <lb xml:id="VI_196-16"/>
+               </salute>
+            </closer>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>: Wahrheit 7, 246×. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>: Otto 4, 194× (vermischt mit Nr. 97).<lb/>
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi> und <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi> ergänzen einander teilweise.</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">195</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">3</hi>
+               </hi> mein] <hi rendition="#aq">fehlt <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>
+               </hi> langer,]<lb/>
+               <hi rendition="#aq">fehlt <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>
+               </hi>
+               <hi rendition="#rkd">4</hi> heitre <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>
+               </hi>
+               <hi rendition="#rkd">5</hi> setze <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>
+               </hi>
+               <hi rendition="#rkd">6</hi> (was das meiste) <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>
+               </hi> mich] <hi rendition="#aq">fehlt <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>
+               </hi>
+               <hi rendition="#rkd">8</hi> den<lb/> Garten <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>
+               </hi> so] sind hier <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>
+               </hi>
+               <hi rendition="#rkd">9</hi> hab’ ich mehr <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>
+               </hi>
+               <hi rendition="#rkd">10</hi> nahem <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>
+               </hi> wohnen]<lb/> rechnen <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>
+               </hi>
+               <hi rendition="#rkd">13</hi> Wirthtafel <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>
+               </hi> bekäme <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>
+               </hi> Noch hab’ ich] Und doch hab’ ich<lb/> noch <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>
+               </hi>
+               <hi rendition="#rkd">14</hi> noch keine <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>
+               </hi> Hier <hi rendition="#aq">bis</hi>
+               <hi rendition="#rkd">15</hi> Bayreuth.] <hi rendition="#aq">fehlt <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>
+                  <hi rendition="#rkd">15</hi>
+                  <hi rendition="#i">Meusel</hi> bis</hi>
+               <lb/>
+               <hi rendition="#rkd">18</hi> will.] <hi rendition="#aq">fehlt <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>
+                  <hi rendition="#rkd">19</hi> bis <hi rendition="#b">196</hi>,<hi rendition="#rkd">11</hi> fehlt <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi> (dafür Nr. 97)</hi>
+               <hi rendition="#aq"/>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">2</hi>
+               </hi>
+               <hi rendition="#aq">
+                  <hi rendition="#rkd">9</hi>
+               </hi> grade <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>
+               </hi>
+               <lb/>
+               <hi rendition="#rkd">37 </hi>2 Sept. <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>
+               </hi>
+               <hi rendition="#b">196</hi>,<hi rendition="#rkd">1</hi> 17 Sept. <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>
+                  <hi rendition="#rkd">12—15</hi> fehlt <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>
+               </hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Nr. 490—492 wurden zusammen durch Knippenberg bestellt. <hi rendition="#g">ars<lb/> semper gaudendi:</hi> s. II. Abt., IV, 1ff. Joh. Georg
+                     <hi rendition="#g">Meusel</hi> (1743<lb/> bis 1820), Prof. der Geschichte in
+                  Erlangen, Herausgeber des „Ge<lb rendition="#hyphen"/> lehrten Deutschland“. <hi rendition="#g">Frankfurt:</hi> Napoleon hatte im Oktober 1810<lb/> die
+                  Vernichtung aller englischen Waren angeordnet; vgl. zu Nr.</hi>
+               <hi rendition="#aq">390.</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VI_640">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="642">640. An Friedrich Heinrich Jacobi in München. </title>
+            <title n="digital">An Friedrich Heinrich Jacobi. Bayreuth, 6. Mai 1812.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=VI_640</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/VI/VI_640</idno>
+               <idno type="TELOTAID">VI_640</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope unit="page">
+                  <num>263</num>
+                  <num>264</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1812-05-06">6. Mai 1812</date>
+               <placeName key="JP-005574" ref="http://www.geonames.org/2951825">Bayreuth</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-001909" ref="http://d-nb.info/gnd/118556312">
+                  <name type="reg">Jacobi</name> Friedrich Heinrich</persName>
+               <placeName key="JP-006040" ref="http://www.geonames.org/2867714">München</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VI_526">13. August 1811</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VI_666">15. August 1812</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <dateline>
+               <hi rendition="#right">
+                  <hi rendition="#aq">
+                     <placeName>Baireuth</placeName> d. <date>6. Mai 1812</date>
+                  </hi>
+               </hi>
+            </dateline>
+            <lb n="10" xml:id="VI_263-10"/>
+            <p>Mein guter Heinrich! Dein Brief hat mir eine unerwartete<lb xml:id="VI_263-11"/>
+               Freude gemacht, zumal jetzt, wo man nicht einmal unerwartete<lb xml:id="VI_263-12"/>
+               Noth hat. Mit Vergnügen geh’ ich nach <hi rendition="#aq">Nürnberg</hi> und zwar
+                  um<note corresp="#VI_263-13">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006085">
+                        <placeName>Nürnberg</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_263-13"/> 1 Tag früher als du ankommst. Nur bestimme mir, wo
+                  möglich,<lb xml:id="VI_263-14"/> sogar Tagzeit deiner Ankunft und den Gasthof.
+               Professor <hi rendition="#aq">Schweiger</hi>
+               <note corresp="#VI_263-15">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003956">
+                        <persName> Johann Salomon Christoph <name type="reg">Schweigger</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="15" xml:id="VI_263-15"/> allda würde dir — bei möglichen Irrungen — meine
+                  Wohnung<lb xml:id="VI_263-16"/> sagen lassen können, damit ich richtiger käme. Ich
+               thue bei deinem<lb xml:id="VI_263-17"/> so großen Umwege — mög’ es belohnt werden,
+               daß dieses mal<lb xml:id="VI_263-18"/> Salomon selber zur Königin von Saba reiset —
+               nur die Frage,<note corresp="#VI_263-19">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003626">
+                        <persName>
+                           <name type="reg">Saba</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003647">
+                        <persName>
+                           <name type="reg">Salomo(n)</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_263-19"/> nicht die Bitte, ob du nicht erst auf der Rückkehr von <hi rendition="#aq">Heidelberg</hi>
+               <note corresp="#VI_263-20">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005819">
+                        <placeName>Heidelberg</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb n="20" xml:id="VI_263-20"/> über <hi rendition="#aq">Nürnberg</hi> gehen
+               könntest, da mich in <hi rendition="#g">diesem</hi> Monat die<note corresp="#VI_263-21">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006085">
+                        <placeName>Nürnberg</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_263-21"/> Ausarbeitung der <hi rendition="#aq">„Vorschule“</hi> etwas
+               drängt. Nimm aber keine<note corresp="#VI_263-22">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010970">
+                        <title>Vorschule der Aesthetik (1804)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_263-22"/> besondere Rücksicht darauf, so wenig wie ich, der ich mich
+               für das<lb xml:id="VI_263-23"/> Ende Monats schon reisefertig halte. Möge dich das
+               Opfer des<lb xml:id="VI_263-24"/> Umwegs nicht gereuen! Freilich das Ding im Autor,
+               das wider<lb n="25" xml:id="VI_263-25"/> deinen Wunsch den Katzenberger und Fibel
+               schreibt, muß auch im<note corresp="#VI_263-26">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010574">
+                        <title>D. Katzenbergers Badereise (1809)</title>
+                     </bibl>
+                     <bibl corresp="#JP-010807">
+                        <title>Leben Fibels (1812)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_263-26"/> Menschen vorkommen; indeßen will ich dir (wenn ich kann)
+                  wie<lb xml:id="VI_263-27"/> der Mond nur Eine Seite zukehren; und hat mich doch
+               bei aller<lb xml:id="VI_263-28"/> meiner Eckigkeit der Geistes- und Lebens-wunde <hi rendition="#aq">Herder</hi> auch innig<note corresp="#VI_263-29">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001675">
+                        <persName> Johann Gottfried von <name type="reg">Herder</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_263-29"/> liebgewonnen.<lb n="30" xml:id="VI_263-30"/>
+            </p>
+            <p>Mein Schweigen über dein treffliches Buch, das ich schon 4 mal<note corresp="#VI_263-31">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008826">
+                        <author>Jacobi, Friedrich Heinrich (1743-1819), Philosoph und
+                           Schriftsteller(Werk)</author>
+                        <title>Von den göttlichen Dingen (1811)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_263-31"/> gelesen, kam blos von deinem eignen auf meine Briefchen her;
+                  und<lb xml:id="VI_263-32"/> es schien mir, als wäre deine Gesinnung gegen mich
+               erkaltet. Bei<lb xml:id="VI_263-33" rendition="#hyphen"/>nahe hätt’ ich dir doch im
+               ersten Feuer des Genußes geschrieben<lb xml:id="VI_263-34"/> und als kleinen Dank
+               einen Aufsatz für das <hi rendition="#aq">Frankfurter Museum</hi> —<note corresp="#VI_263-35">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-0057438">
+                        <placeName>Museum; Frankfurt a. M.</placeName>
+                     </place>
+                  </listPlace>
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010710">
+                        <title>Frage über das Entstehen der ersten Pflanzen (1814)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="35" xml:id="VI_263-35"/> der noch ungedruckt bleibt — zugeschickt, nämlich
+               über das Ent<lb xml:id="VI_264-1" rendition="#hyphen"/>stehen der ersten Pflanzen,
+               Thiere und Menschen; — in welchem<lb xml:id="VI_264-2"/> ich das fast allgemein
+               angenommene, mir abscheuliche atomistische<lb xml:id="VI_264-3"/> Entstehen- und
+               Konglomerieren-Lassen lebendiger Wesen mit philo<lb xml:id="VI_264-4" rendition="#hyphen"/> sophischen und physiologischen etc. etc. Gründen angefallen.
+                  Vielleicht<lb n="5" xml:id="VI_264-5"/> bring’ ich dir eine Abschrift mit. Packe
+               auch recht viele Papiere<lb xml:id="VI_264-6"/> ein für mich.</p>
+            <lb xml:id="VI_264-7"/>
+            <p>Über dein Buch und deinen Feind, der mir oft beinahe körperlich<note corresp="#VI_264-8">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003713">
+                        <persName> Friedrich Wilhelm Joseph (ab 1812) von <name type="reg">Schelling</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008826">
+                        <author>Jacobi, Friedrich Heinrich (1743-1819), Philosoph und
+                           Schriftsteller(Werk)</author>
+                        <title>Von den göttlichen Dingen (1811)</title>
+                     </bibl>
+                     <bibl corresp="#JP-009569" ana="†">
+                        <author>Schelling, Friedrich Wilhelm Joseph (ab 1812) von
+                           (1775-1854)</author>
+                        <title>Denkmal der Schrift von den göttlichen Dingen des Herrn Jacobi
+                           (1812)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_264-8"/> weh gethan, mündlich das Mehrere! Er findet es selber — wie
+                  er<lb xml:id="VI_264-9"/> zu <hi rendition="#aq">Kraser</hi> sagte — zu hart. In
+               unserem Jahrhundert gibt es keine<note corresp="#VI_264-10">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001387">
+                        <persName> Johann Baptist <name type="reg">Graser</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="10" xml:id="VI_264-10"/> Dankbarkeit mehr, weder der Schüler, noch der
+               Eroberer. Mich<lb xml:id="VI_264-11"/> ekeln ordentlich jetzt die Philosophen, welche
+               wie <hi rendition="#aq">Schelling</hi> und<lb xml:id="VI_264-12"/>
+               <hi rendition="#aq">Fichte,</hi> immer eine neue Philosophie aus der Tasche spielen
+                  und<note corresp="#VI_264-13">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001073">
+                        <persName> Johann Gottlieb <name type="reg">Fichte</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_264-13"/> vorhalten, wenn man ihre alte angreift, und welche sich als
+                  um<lb xml:id="VI_264-14" rendition="#hyphen"/>gekehrte Proteuse, erst <hi rendition="#g">verwandeln,</hi> wenn man sie <hi rendition="#g">gebunden</hi>
+               <note corresp="#VI_264-15">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003297">
+                        <persName>
+                           <name type="reg">Proteus</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb n="15" xml:id="VI_264-15"/> hat zum Antwort geben. Wer Henker — nicht einmal
+               seine An<lb xml:id="VI_264-16" rendition="#hyphen"/>hänger — konnte wissen, daß er
+               die Endlichkeit zweimal setzt, ein<lb xml:id="VI_264-17" rendition="#hyphen"/>mal
+                  in,<note n="*)" place="foot">eben fallen mir die zwei Naturen in Christo ein; aber
+                  die menschliche war<note corresp="#VI_264-35">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000634">
+                           <persName>
+                              <name type="reg">Christus</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb n="35" xml:id="VI_264-35"/> doch nicht wider die göttliche.<lb xml:id="VI_264-36"/>
+               </note> einmal außer Gott? Er konnte eben so gut die Göttlich<lb xml:id="VI_264-18" rendition="#hyphen"/>keit zweimal setzen, einmal außen, einmal innen.</p>
+            <lb xml:id="VI_264-19"/>
+            <closer>
+               <salute>Lebe wol, lieber Bruder! Dein<lb n="20" xml:id="VI_264-20"/>
+                  <hi rendition="#et">J. P. F. Richter</hi>
+               </salute>
+            </closer>
+            <lb xml:id="VI_264-21"/>
+            <postscript>
+               <p>Lasse ja, der Sicherheit wegen, deine Antwort <hi rendition="#g">unfrankiert.</hi>
+               </p>
+               <lb xml:id="VI_264-22"/>
+            </postscript>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Berlin JP. 4 S. 8°. Präsentat: e. d. 11ten [Mai].
+                  Mehrere Stel<lb rendition="#hyphen"/> len von Jacobi rot angestr. <hi rendition="#i">K</hi>: <hi rendition="#i">Jacobi</hi>
+               </hi> 6. Mai (ab 8ten). <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">1</hi>: Wahrheit<lb/> 7, 268×. <hi rendition="#i">J</hi>
+                  <hi rendition="#sup">2</hi>: Jacobi S.</hi>
+               <hi rendition="#aq">158×. </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">263</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">19</hi>
+               </hi> Salomon] <hi rendition="#aq">davor gestr.</hi> der <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>,</hi>
+               <lb/> der Salomon <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#rkd">26</hi> schreibt] schrieb <hi rendition="#aq">
+                  <hi rendition="#i">K</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">264</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">4</hi>
+               </hi> -Lassen] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">5</hi> an<lb rendition="#hyphen"/> gefallen] <hi rendition="#aq">aus</hi> anfalle <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#g">Umweg:</hi> Jacobi reiste von München nach Heidelberg und
+                  Freiburg<lb/> zu seinem Bruder. <hi rendition="#g">Buch:</hi> „Von den göttlichen
+                  Dingen“ (1811).<lb/>
+                  <hi rendition="#g">Feind:</hi> Schelling, vgl. Nr. 622†. <hi rendition="#g">Kraser</hi> = Graser, s. Nr. 526.<lb/>
+                  <hi rendition="#g">Endlichkeit in und außer Gott:</hi> s. Schellings „Denkmal“, S.
+                  90f.</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

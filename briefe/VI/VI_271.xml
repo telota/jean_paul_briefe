@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="VI_271">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title n="print" type="letter" rend="272">271. An Cotta in Leipzig. </title>
+            <title n="digital">An Johann Friedrich Freiherr Cotta von Cottendorf. Bayreuth, 22. Mai
+               1810.</title>
+            <editor>
+               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
+                  <surname>Berend</surname>
+                  <forename>Eduard</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
+               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
+                  <surname>Markus</surname>
+                  <forename>Bernauer</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
+               <persName ref="http://d-nb.info/gnd/1121508855">
+                  <surname>Neuber</surname>
+                  <forename>Frederike</forename>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mitarbeit digitale Edition</resp>
+               <persName>
+                  <surname>Klappenbach</surname>
+                  <forename>Lou</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
+               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
+               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
+               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
+               (2018).</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2018-06-10</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+            <idno>
+               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=VI_271</idno>
+               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/VI/VI_271</idno>
+               <idno type="TELOTAID">VI_271</idno>
+            </idno>
+         </publicationStmt>
+         <notesStmt>
+            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
+               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                  Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope unit="page">
+                  <num>104</num>
+                  <num>105</num>
+               </biblScope>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
+            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
+            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
+            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
+            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
+            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
+            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
+            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
+            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
+               font-size:.7em</rendition>
+            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
+                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
+                  Paul)</persName>
+               <date when="1810-05-22">22. Mai 1810</date>
+               <placeName key="JP-005574" ref="http://www.geonames.org/2951825">Bayreuth</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000698" ref="http://d-nb.info/gnd/11852240X">
+                  <name type="reg">Cotta von Cottendorf</name> Johann Friedrich Freiherr</persName>
+               <placeName key="JP-005948" ref="http://www.geonames.org/2879139">Leipzig</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VI_257">20. April 1810</ref>
+               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=VI_317">26. Juli 1810</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <dateline>
+               <hi rendition="#right">
+                  <hi rendition="#aq">
+                     <placeName>Bayreuth</placeName> d. <date>22. Mai 1810</date>
+                  </hi>
+               </hi>
+            </dateline>
+            <lb xml:id="VI_104-14"/>
+            <p>Mitten unter Ihre Geschäfte schick’ ich Ihnen ein neues. Nämlich<lb n="15" xml:id="VI_104-15"/> der herrliche Dichter des „Schlangentödters“ — den ich in
+                  den<note corresp="#VI_104-16">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001138">
+                        <persName> Friedrich Freiherr de la Motte <name type="reg">Fouqué</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008413">
+                        <author>Fouqué, Friedrich Freiherr de la Motte (Pseud. Pellegrin)
+                           (1777-1843),romantischer Erzähler, Dramatiker und Lyriker</author>
+                        <title>Sigurd (1808)</title>
+                     </bibl>
+                     <bibl corresp="#JP-008424">
+                        <author>Fouqué, Friedrich Freiherr de la Motte (Pseud. Pellegrin)
+                           (1777-1843),romantischer Erzähler, Dramatiker und Lyriker</author>
+                        <title>Der Ritter und die Bauern (1811)</title>
+                     </bibl>
+                     <bibl corresp="#JP-008425">
+                        <author>Fouqué, Friedrich Freiherr de la Motte (Pseud. Pellegrin)
+                           (1777-1843),romantischer Erzähler, Dramatiker und Lyriker</author>
+                        <title>Undine (1811)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_104-16"/>
+               <hi rendition="#aq">Heidelberger Jahrbüchern</hi> so gelobt und dessen Rezension
+                  der<lb xml:id="VI_104-17"/> neuen Ausgabe, betitelt <hi rendition="#aq">Held des
+                  Nordens,</hi> vorgedruckt ist —,<note corresp="#VI_104-18">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008411">
+                        <author>Fouqué, Friedrich Freiherr de la Motte (Pseud. Pellegrin)
+                           (1777-1843),romantischer Erzähler, Dramatiker und Lyriker</author>
+                        <title>Der Held des Nordens (1810)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_104-18"/> nämlich der Baron <hi rendition="#aq">La Motte-Fouqué</hi>
+               bittet mich, diesen Brief an<lb xml:id="VI_104-19"/> Sie noch in der Messe
+               abzusenden, damit Sie mit seinem bisherigen<lb n="20" xml:id="VI_104-20"/> Verleger
+                  <hi rendition="#aq">Hitzig</hi> sich über den Verlag der Manuskripte
+                  besprechen<note corresp="#VI_104-21">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001768">
+                        <persName> Julius Eduard <name type="reg">Hitzig</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_104-21"/> können, die dieser nicht annehmen kann. Allerdings verdient
+                  <hi rendition="#aq">Fouqué</hi>
+               <lb xml:id="VI_104-22"/> einen Verleger wie <hi rendition="#aq">Cotta</hi> ist.</p>
+            <lb xml:id="VI_104-23"/>
+            <p>Ich danke Ihnen für Ihre schnelle Antwort und Gabe für<lb xml:id="VI_104-24"/>
+               Morgenblatts-Arbeiten; aber eben aus der Schnelle erklär’ ich<note corresp="#VI_104-25">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010313">
+                        <author/>
+                        <title>Morgenblatt für gebildete Stände (1807ff.)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="25" xml:id="VI_104-25"/> mir, daß Sie nicht Zeit gehabt, an meine Bitte vom 11
+                  August<lb xml:id="VI_104-26"/> 1809 zu denken, deren Bejahung von Ihnen hier
+               beiliegt, nämlich<lb xml:id="VI_104-27"/> mir die Aufsätze im Morgenblatt nach dem
+               Drucke <hi rendition="#aq">Schmelzle’s</hi>
+               <note corresp="#VI_104-28">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010627">
+                        <title>Des Feldpredigers Schmelzle Reise nach Flätz (1809)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_104-28"/> zu honorieren, weil ich sonst für jeden Aufsatz kaum Einen
+                  <hi rendition="#aq">Louisd’or</hi>
+               <lb xml:id="VI_104-29"/> bekäme, z. B. jetzt für 9 Aufsätze kaum 9 <hi rendition="#aq">Louis.</hi> Lassen Sie einen<lb n="30" xml:id="VI_104-30"/> Setzer
+               diese leichte Berechnung machen und schreiben Sie mir den<lb xml:id="VI_104-31"/>
+               kleinen Überrest zu Gute.</p>
+            <lb xml:id="VI_104-32"/>
+            <p>Mein Almanachs-Aufsatz habe blos diesen einfachern Titel:<note corresp="#VI_104-33">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010637" ana="†">
+                        <title>Die Elternliebe gegen Kinder (1811)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_104-33"/> „Eltern und Kinder. Eine Erzählung.“</p>
+            <lb xml:id="VI_104-34"/>
+            <p>Ich möchte wol zur M<metamark>[</metamark>ichaelis<metamark>]</metamark> Messe ein
+               Bändchen gesam<note corresp="#VI_104-35">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010726" ana="†">
+                        <title>Herbst-Blumine (1810-20)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="35" xml:id="VI_104-35" rendition="#hyphen"/> melter Schriftchen herausgeben
+               (den Titel weiß ich noch nicht), da<lb xml:id="VI_104-36"/> ich ohnehin in diesem
+               Jahre dem Publikum nichts anderes liefern<lb xml:id="VI_105-1"/> kann. Ich würde
+               Aufsätze von mir aus früherer Zeit z. B. aus<lb xml:id="VI_105-2"/> der Litteratur-
+               und Völkerkunde von Archenholz, mit aufnehmen<note corresp="#VI_105-3">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000119">
+                        <persName> Johann Wilhelm von <name type="reg">Archenholtz</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008042">
+                        <author>Archenholtz (Archenholz), Johann Wilhelm von (1743-1812), Publizist,
+                           Historiker (Werk, Hrsg.)</author>
+                        <title>Litteratur und Völkerkunde (Literatur und Völkerkunde) (1782-1791, ab
+                           1787 Neue)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_105-3"/> und aus Almanachen; nur müßten Sie mich belehren, was buch<lb xml:id="VI_105-4" rendition="#hyphen"/> händlerisch Rechtens ist, nämlich wie alt
+               ein Almanach etc. etc. sein<lb n="5" xml:id="VI_105-5"/> muß, damit man daraus nehmen
+               kann. Viele Leser wünschen diese<lb xml:id="VI_105-6"/> flüchtigen Kalender-Blumen in
+               Einen Strauß gebunden. Neu, viel<lb xml:id="VI_105-7" rendition="#hyphen"/>leicht
+               lang, wäre nur die Vorrede, und die Verbesserungen. Bei<lb xml:id="VI_105-8"/>
+               <hi rendition="#aq">Mohr und Zimmer</hi> kann ich schon des Titels wegen diese<note corresp="#VI_105-9">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002843">
+                        <persName> Buchhandlung <name type="reg">Mohr &amp; Zimmer</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-004858">
+                        <persName> Johann Georg <name type="reg">Zimmer</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-004857">
+                        <persName> Johann Georg <name type="reg">Zimmer</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_105-9"/> Sammlung nicht fortsetzen, da der <hi rendition="#aq">Katzenberger</hi> ja geschlossen<note corresp="#VI_105-10">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010574">
+                        <title>D. Katzenbergers Badereise (1809)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb n="10" xml:id="VI_105-10"/> ist. Thu’ ichs nicht, so kommt mir bald ein
+               Nachdrucker raubend<lb xml:id="VI_105-11"/> zuvor.</p>
+            <lb xml:id="VI_105-12"/>
+            <p>Die Antwort auf dieses alles erwart’ ich, wie sich versteht, nicht<lb xml:id="VI_105-13"/> aus <hi rendition="#aq">Leipzig</hi> sondern aus <hi rendition="#aq">Tübingen.</hi> Ein solches Bändchen — in<note corresp="#VI_105-14">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005948">
+                        <placeName>Leipzig</placeName>
+                     </place>
+                     <place corresp="#JP-006358">
+                        <placeName>Tübingen</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_105-14"/> zwei Abschnitte, in den ernsten und in den komischen
+               geordnet —<lb n="15" xml:id="VI_105-15"/> müßte nicht über 12 oder 14 Druckbogen
+               stark sein; und so könnten<lb xml:id="VI_105-16"/> wir in jedem Jahre eines
+               geben.</p>
+            <lb xml:id="VI_105-17"/>
+            <p>Bei dem Abdrucke der restierenden Aufsätze für das Morgen<note corresp="#VI_105-18">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010313">
+                        <author/>
+                        <title>Morgenblatt für gebildete Stände (1807ff.)</title>
+                     </bibl>
+                  </listBibl>
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010854" ana="†">
+                        <title>Programm der Feste oder Aufsätze (1809)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_105-18" rendition="#hyphen"/> blatt wünscht’ ich wol, daß die
+               Redakzion irgend einen feinen Wink<lb xml:id="VI_105-19"/> der schon frühern
+               Einsendung derselben gäbe.<lb n="20" xml:id="VI_105-20"/>
+            </p>
+            <p>Ich thue fast zu viele Bitten an Sie. Leben Sie wol und be<lb xml:id="VI_105-21" rendition="#hyphen"/>halten Sie mich so lieb als ich Sie!</p>
+            <lb xml:id="VI_105-22"/>
+            <closer>
+               <salute>
+                  <hi rendition="#right">Ihr<lb xml:id="VI_105-23"/> Jean Paul Fr. Richter</hi>
+                  <lb xml:id="VI_105-24"/>
+               </salute>
+            </closer>
+         </div>
+         <div type="comment">
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>: Cotta-Archiv. 6 S. 16°. Präsentat: 28 Mai, [beantw.] 31 —.<lb/>
+                  <hi rendition="#i">K</hi>: <hi rendition="#i">Cotta 22. Mai. J</hi>: Cotta 1,
+                  388×. <hi rendition="#i">B</hi>: IV. Abt., VI, Nr. 74. <hi rendition="#i">A</hi>:
+                  IV. Abt., VI, Nr. 81. <hi rendition="#b">104</hi>,<hi rendition="#rkd">19</hi>
+                  <lb/>
+                  <hi rendition="#i">Fouqué</hi>] aus <hi rendition="#i">Fouquet H</hi> (vgl. zu Nr.
+                  96)</hi>
+               <hi rendition="#rkd">26</hi> meine Bitte] <hi rendition="#aq">aus</hi> meinen<lb/>
+               Brief <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#rkd">33</hi> einfachern] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">105</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">4</hi>
+               </hi> belehren] <hi rendition="#aq">davor gestr.</hi> bestimmen <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+                  <lb/>
+                  <hi rendition="#rkd">7</hi>f.</hi> vielleicht] <hi rendition="#aq">aus</hi> aber
+                  <hi rendition="#aq">
+                  <hi rendition="#i">H</hi>
+               </hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">
+                  <hi rendition="#g">Fouqué:</hi> vgl. Nr. 298†. Der <hi rendition="#g">Almanachsaufsatz</hi> behielt im Damen<lb rendition="#hyphen"/> kalender und
+                  auch beim Wiederabdruck in der Herbst-Blumine 1815<lb/> den tautologischen Titel
+                  „Die Eltern-Liebe gegen Kinder“. <hi rendition="#g">Gesam<lb rendition="#hyphen"/>
+                     melte Schriftchen:</hi> Cotta erklärte sich in <hi rendition="#i">A</hi> zum
+                  Verlag bereit; aus<lb/> Almanachen etc. könne man nach etlichen Jahren alles
+                     wieder<lb rendition="#hyphen"/> abdrucken lassen. <hi rendition="#g">Mohr und
+                     Zimmer:</hi> vgl. Nr. 282. <hi rendition="#g">restierende<lb/> Aufsätze:</hi>
+                  vgl. Nr. 221†; Cotta hatte gemeldet, der Zensor sei ab<lb rendition="#hyphen"/>
+                  gesetzt, er wolle nun nach einiger Zeit versuchen, die unterdrückten<lb/> Aufsätze
+                  durchzubringen.</hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
