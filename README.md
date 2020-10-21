@@ -5,6 +5,12 @@ Daten der digitalen Edition "Jean Paul – Sämtliche Briefe digital"
 
 https://www.jeanpaul-edition.de
 
+## DOI des Datensatzes
+
+10.5281/zenodo.4109518
+
+Auf Zenodo: https://doi.org/10.5281/zenodo.4109518
+
 ## Inhalte
 
 briefe: Briefe von Jean Paul
