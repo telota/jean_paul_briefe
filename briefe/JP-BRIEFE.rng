@@ -1,0 +1,1057 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar ns="http://www.tei-c.org/ns/1.0" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <start>
+    <element name="TEI">
+      <attribute name="type">
+        <data type="NCName"/>
+      </attribute>
+      <attribute>
+        <name ns="http://www.w3.org/XML/1998/namespace">id</name>
+        <data type="NCName"/>
+      </attribute>
+      <element name="teiHeader">
+        <element name="fileDesc">
+          <element name="titleStmt">
+            <oneOrMore>
+              <ref name="title"/>
+            </oneOrMore>
+            <element name="editor">
+              <ref name="persName"/>
+            </element>
+            <oneOrMore>
+              <element name="respStmt">
+                <element name="resp">
+                  <text/>
+                </element>
+                <ref name="persName"/>
+              </element>
+            </oneOrMore>
+          </element>
+          <element name="editionStmt">
+            <element name="edition">
+              <text/>
+            </element>
+          </element>
+          <element name="publicationStmt">
+            <element name="publisher">
+              <element name="email">
+                <text/>
+              </element>
+              <oneOrMore>
+                <element name="orgName">
+                  <text/>
+                </element>
+              </oneOrMore>
+              <ref name="address"/>
+            </element>
+            <element name="pubPlace">
+              <data type="NCName"/>
+            </element>
+            <oneOrMore>
+              <ref name="date"/>
+            </oneOrMore>
+            <element name="availability">
+              <optional>
+                <attribute name="default">
+                  <data type="boolean"/>
+                </attribute>
+              </optional>
+              <element name="licence">
+                <attribute name="target">
+                  <data type="anyURI"/>
+                </attribute>
+                <ref name="p"/>
+              </element>
+            </element>
+            <ref name="idno"/>
+          </element>
+          <element name="notesStmt">
+            <ref name="note"/>
+          </element>
+          <element name="sourceDesc">
+            <optional>
+              <attribute name="default">
+                <data type="boolean"/>
+              </attribute>
+            </optional>
+            <ref name="bibl"/>
+            <element name="msDesc">
+              <optional>
+                <attribute name="status">
+                  <data type="NCName"/>
+                </attribute>
+              </optional>
+              <element name="msIdentifier">
+                <element name="collection">
+                  <text/>
+                </element>
+              </element>
+              <optional>
+                <ref name="p"/>
+              </optional>
+            </element>
+            <optional>
+              <ref name="listPerson"/>
+            </optional>
+            <optional>
+              <ref name="listPlace"/>
+            </optional>
+            <zeroOrMore>
+              <ref name="listBibl"/>
+            </zeroOrMore>
+          </element>
+        </element>
+        <element name="profileDesc">
+          <element name="correspDesc">
+            <optional>
+              <attribute name="default">
+                <data type="boolean"/>
+              </attribute>
+            </optional>
+            <oneOrMore>
+              <element name="correspAction">
+                <attribute name="type">
+                  <data type="NCName"/>
+                </attribute>
+                <optional>
+                  <ref name="note"/>
+                </optional>
+                <zeroOrMore>
+                  <ref name="persName"/>
+                </zeroOrMore>
+                <zeroOrMore>
+                  <choice>
+                    <ref name="date"/>
+                    <ref name="placeName"/>
+                  </choice>
+                </zeroOrMore>
+              </element>
+            </oneOrMore>
+            <optional>
+              <element name="correspContext">
+                <oneOrMore>
+                  <ref name="ref"/>
+                </oneOrMore>
+              </element>
+            </optional>
+          </element>
+        </element>
+      </element>
+      <element name="text">
+        <ref name="body"/>
+      </element>
+    </element>
+  </start>
+  <define name="title">
+    <element name="title">
+      <optional>
+        <attribute name="n">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="rend">
+          <data type="integer"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="rendition">
+          <data type="integer"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="type">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="add"/>
+          <ref name="hi"/>
+          <ref name="persName"/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="persName">
+    <element name="persName">
+      <optional>
+        <attribute name="cert">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="key">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="ref">
+          <data type="anyURI"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute>
+          <name ns="http://www.w3.org/XML/1998/namespace">id</name>
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="hi"/>
+          <element name="forename">
+            <data type="NCName"/>
+          </element>
+          <element name="name">
+            <optional>
+              <attribute name="instant">
+                <data type="boolean"/>
+              </attribute>
+            </optional>
+            <attribute name="type">
+              <data type="NCName"/>
+            </attribute>
+            <text/>
+          </element>
+          <element name="surname">
+            <data type="NCName"/>
+          </element>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="address">
+    <element name="address">
+      <element name="addrLine">
+        <oneOrMore>
+          <choice>
+            <text/>
+            <ref name="hi"/>
+            <ref name="lb"/>
+            <ref name="metamark"/>
+            <ref name="note"/>
+            <ref name="persName"/>
+            <ref name="placeName"/>
+          </choice>
+        </oneOrMore>
+      </element>
+      <optional>
+        <ref name="note"/>
+      </optional>
+      <optional>
+        <choice>
+          <ref name="lb"/>
+          <element name="country">
+            <data type="NCName"/>
+          </element>
+        </choice>
+      </optional>
+    </element>
+  </define>
+  <define name="date">
+    <element name="date">
+      <optional>
+        <attribute name="cert">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="corresp"/>
+      </optional>
+      <optional>
+        <attribute name="from">
+          <data type="date"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="instant">
+          <data type="boolean"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="n">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="notAfter">
+          <data type="date"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="notBefore">
+          <data type="date"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="to">
+          <data type="date"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="type">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="when">
+          <data type="date"/>
+        </attribute>
+      </optional>
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="add"/>
+          <ref name="hi"/>
+          <ref name="lb"/>
+          <ref name="metamark"/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="p">
+    <element name="p">
+      <optional>
+        <attribute name="part">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="rendition"/>
+      </optional>
+      <optional>
+        <attribute>
+          <name ns="http://www.w3.org/XML/1998/namespace">id</name>
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="add"/>
+          <ref name="date"/>
+          <ref name="formula"/>
+          <ref name="hi"/>
+          <ref name="lb"/>
+          <ref name="list"/>
+          <ref name="metamark"/>
+          <ref name="note"/>
+          <ref name="persName"/>
+          <ref name="placeName"/>
+          <ref name="ref"/>
+          <ref name="space"/>
+          <element name="fw">
+            <attribute name="place">
+              <data type="NCName"/>
+            </attribute>
+            <attribute name="type">
+              <data type="NCName"/>
+            </attribute>
+            <oneOrMore>
+              <choice>
+                <text/>
+                <ref name="hi"/>
+              </choice>
+            </oneOrMore>
+          </element>
+          <element name="supplied">
+            <data type="NCName"/>
+          </element>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="idno">
+    <element name="idno">
+      <optional>
+        <attribute name="type">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="idno"/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="note">
+    <element name="note">
+      <optional>
+        <attribute name="anchored">
+          <data type="boolean"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="corresp"/>
+      </optional>
+      <optional>
+        <attribute name="n"/>
+      </optional>
+      <optional>
+        <attribute name="place">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="type">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="date"/>
+          <ref name="hi"/>
+          <ref name="lb"/>
+          <ref name="listBibl"/>
+          <ref name="listPerson"/>
+          <ref name="listPlace"/>
+          <ref name="metamark"/>
+          <ref name="note"/>
+          <ref name="ref"/>
+          <ref name="space"/>
+          <element name="choice">
+            <element name="sic">
+              <data type="NCName"/>
+            </element>
+            <element name="corr">
+              <data type="NCName"/>
+            </element>
+          </element>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="bibl">
+    <element name="bibl">
+      <optional>
+        <attribute name="ana"/>
+      </optional>
+      <optional>
+        <attribute name="corresp"/>
+      </optional>
+      <optional>
+        <attribute name="default">
+          <data type="boolean"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="next">
+          <data type="NMTOKEN"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="rend"/>
+      </optional>
+      <optional>
+        <attribute name="status">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <optional>
+        <element name="author">
+          <text/>
+        </element>
+      </optional>
+      <ref name="title"/>
+      <zeroOrMore>
+        <element name="biblScope">
+          <optional>
+            <attribute name="n">
+              <data type="NCName"/>
+            </attribute>
+          </optional>
+          <attribute name="unit">
+            <data type="NCName"/>
+          </attribute>
+          <oneOrMore>
+            <choice>
+              <text/>
+              <element name="num">
+                <text/>
+              </element>
+            </choice>
+          </oneOrMore>
+        </element>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="listPerson">
+    <element name="listPerson">
+      <optional>
+        <attribute name="default">
+          <data type="boolean"/>
+        </attribute>
+      </optional>
+      <attribute name="type">
+        <data type="NCName"/>
+      </attribute>
+      <oneOrMore>
+        <element name="person">
+          <optional>
+            <attribute name="ana"/>
+          </optional>
+          <attribute name="corresp"/>
+          <optional>
+            <attribute name="instant">
+              <data type="boolean"/>
+            </attribute>
+          </optional>
+          <optional>
+            <attribute name="next">
+              <data type="NMTOKEN"/>
+            </attribute>
+          </optional>
+          <optional>
+            <attribute name="rend"/>
+          </optional>
+          <ref name="persName"/>
+        </element>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="listPlace">
+    <element name="listPlace">
+      <attribute name="type">
+        <data type="NCName"/>
+      </attribute>
+      <oneOrMore>
+        <element name="place">
+          <optional>
+            <attribute name="ana"/>
+          </optional>
+          <attribute name="corresp"/>
+          <optional>
+            <attribute name="next">
+              <data type="NMTOKEN"/>
+            </attribute>
+          </optional>
+          <optional>
+            <attribute name="rend"/>
+          </optional>
+          <ref name="placeName"/>
+        </element>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="listBibl">
+    <element name="listBibl">
+      <attribute name="subtype">
+        <data type="NCName"/>
+      </attribute>
+      <attribute name="type">
+        <data type="NCName"/>
+      </attribute>
+      <oneOrMore>
+        <ref name="bibl"/>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="placeName">
+    <element name="placeName">
+      <optional>
+        <attribute name="cert">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="corresp">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="key">
+          <data type="NMTOKEN"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="ref">
+          <data type="anyURI"/>
+        </attribute>
+      </optional>
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="hi"/>
+          <ref name="lb"/>
+          <ref name="metamark"/>
+          <ref name="placeName"/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="ref">
+    <element name="ref">
+      <optional>
+        <attribute name="subtype">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <attribute name="target">
+        <data type="anyURI"/>
+      </attribute>
+      <optional>
+        <attribute name="type">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="hi"/>
+          <ref name="metamark"/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="body">
+    <element name="body">
+      <zeroOrMore>
+        <ref name="div"/>
+      </zeroOrMore>
+      <optional>
+        <ref name="dateline"/>
+        <ref name="lb"/>
+        <ref name="p"/>
+      </optional>
+    </element>
+  </define>
+  <define name="hi">
+    <element name="hi">
+      <optional>
+        <attribute name="ana"/>
+      </optional>
+      <optional>
+        <attribute name="rend">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="rendition"/>
+      </optional>
+      <optional>
+        <attribute>
+          <name ns="http://www.w3.org/XML/1998/namespace">id</name>
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="add"/>
+          <ref name="date"/>
+          <ref name="formula"/>
+          <ref name="hi"/>
+          <ref name="lb"/>
+          <ref name="list"/>
+          <ref name="metamark"/>
+          <ref name="note"/>
+          <ref name="persName"/>
+          <ref name="placeName"/>
+          <ref name="ref"/>
+          <ref name="space"/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="add">
+    <element name="add">
+      <attribute name="resp"/>
+      <optional>
+        <attribute name="status">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="hi"/>
+          <ref name="metamark"/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="lb">
+    <element name="lb">
+      <optional>
+        <attribute name="n">
+          <data type="integer"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="rendition"/>
+      </optional>
+      <optional>
+        <attribute name="type">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute>
+          <name ns="http://www.w3.org/XML/1998/namespace">id</name>
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+    </element>
+  </define>
+  <define name="metamark">
+    <element name="metamark">
+      <text/>
+    </element>
+  </define>
+  <define name="formula">
+    <element name="formula">
+      <attribute name="notation">
+        <data type="NCName"/>
+      </attribute>
+      <text/>
+    </element>
+  </define>
+  <define name="list">
+    <element name="list">
+      <optional>
+        <attribute name="rendition"/>
+      </optional>
+      <zeroOrMore>
+        <choice>
+          <ref name="lb"/>
+          <ref name="note"/>
+          <element name="item">
+            <oneOrMore>
+              <choice>
+                <text/>
+                <ref name="add"/>
+                <ref name="date"/>
+                <ref name="hi"/>
+                <ref name="lb"/>
+                <ref name="list"/>
+                <ref name="metamark"/>
+                <ref name="note"/>
+                <ref name="p"/>
+              </choice>
+            </oneOrMore>
+          </element>
+        </choice>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="space">
+    <element name="space">
+      <attribute name="dim">
+        <data type="NCName"/>
+      </attribute>
+    </element>
+  </define>
+  <define name="div">
+    <element name="div">
+      <optional>
+        <attribute name="n">
+          <data type="NMTOKEN"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="org">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="part">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="rendition"/>
+      </optional>
+      <optional>
+        <attribute name="sample">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="type">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <zeroOrMore>
+        <choice>
+          <ref name="byline"/>
+          <ref name="cb"/>
+          <ref name="closer"/>
+          <ref name="dateline"/>
+          <ref name="div"/>
+          <ref name="figure"/>
+          <ref name="head"/>
+          <ref name="lb"/>
+          <ref name="lg"/>
+          <ref name="list"/>
+          <ref name="note"/>
+          <ref name="p"/>
+          <ref name="postscript"/>
+          <ref name="salute"/>
+          <ref name="space"/>
+          <ref name="table"/>
+          <element name="cit">
+            <element name="quote">
+              <ref name="hi"/>
+            </element>
+          </element>
+          <element name="floatingText">
+            <ref name="body"/>
+          </element>
+          <element name="milestone">
+            <attribute name="rendition"/>
+            <attribute name="unit">
+              <data type="NCName"/>
+            </attribute>
+          </element>
+          <element name="opener">
+            <optional>
+              <ref name="salute"/>
+            </optional>
+          </element>
+          <element name="trailer">
+            <choice>
+              <ref name="address"/>
+              <ref name="hi"/>
+            </choice>
+          </element>
+        </choice>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="dateline">
+    <element name="dateline">
+      <optional>
+        <attribute name="rendition"/>
+      </optional>
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="date"/>
+          <ref name="hi"/>
+          <ref name="lb"/>
+          <ref name="metamark"/>
+          <ref name="placeName"/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="lg">
+    <element name="lg">
+      <optional>
+        <attribute name="rendition"/>
+      </optional>
+      <optional>
+        <attribute name="type">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <optional>
+        <ref name="head"/>
+      </optional>
+      <zeroOrMore>
+        <choice>
+          <ref name="lb"/>
+          <ref name="lg"/>
+          <ref name="note"/>
+          <element name="l">
+            <oneOrMore>
+              <choice>
+                <text/>
+                <ref name="hi"/>
+                <ref name="lb"/>
+                <ref name="note"/>
+                <ref name="ref"/>
+              </choice>
+            </oneOrMore>
+          </element>
+        </choice>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="salute">
+    <element name="salute">
+      <optional>
+        <attribute name="rendition"/>
+      </optional>
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="cb"/>
+          <ref name="date"/>
+          <ref name="hi"/>
+          <ref name="lb"/>
+          <ref name="metamark"/>
+          <ref name="note"/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="table">
+    <element name="table">
+      <oneOrMore>
+        <choice>
+          <ref name="lb"/>
+          <ref name="note"/>
+          <element name="row">
+            <optional>
+              <attribute name="cols">
+                <data type="integer"/>
+              </attribute>
+            </optional>
+            <optional>
+              <attribute name="role">
+                <data type="NCName"/>
+              </attribute>
+            </optional>
+            <optional>
+              <attribute name="rows">
+                <data type="integer"/>
+              </attribute>
+            </optional>
+            <oneOrMore>
+              <element name="cell">
+                <optional>
+                  <attribute name="cols">
+                    <data type="integer"/>
+                  </attribute>
+                </optional>
+                <optional>
+                  <attribute name="role">
+                    <data type="NCName"/>
+                  </attribute>
+                </optional>
+                <optional>
+                  <attribute name="rows">
+                    <data type="integer"/>
+                  </attribute>
+                </optional>
+                <oneOrMore>
+                  <choice>
+                    <text/>
+                    <ref name="byline"/>
+                    <ref name="closer"/>
+                    <ref name="dateline"/>
+                    <ref name="hi"/>
+                    <ref name="lb"/>
+                    <ref name="metamark"/>
+                    <ref name="note"/>
+                    <ref name="p"/>
+                    <ref name="postscript"/>
+                  </choice>
+                </oneOrMore>
+              </element>
+            </oneOrMore>
+          </element>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="head">
+    <element name="head">
+      <optional>
+        <attribute name="n">
+          <data type="NMTOKEN"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="rendition"/>
+      </optional>
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="hi"/>
+          <ref name="lb"/>
+          <ref name="metamark"/>
+          <ref name="note"/>
+          <ref name="persName"/>
+          <ref name="placeName"/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="cb">
+    <element name="cb">
+      <empty/>
+    </element>
+  </define>
+  <define name="closer">
+    <element name="closer">
+      <optional>
+        <attribute name="rendition"/>
+      </optional>
+      <oneOrMore>
+        <choice>
+          <ref name="cb"/>
+          <ref name="dateline"/>
+          <ref name="lb"/>
+          <ref name="note"/>
+          <ref name="salute"/>
+        </choice>
+      </oneOrMore>
+      <optional>
+        <choice>
+          <ref name="address"/>
+          <ref name="hi"/>
+        </choice>
+      </optional>
+    </element>
+  </define>
+  <define name="postscript">
+    <element name="postscript">
+      <optional>
+        <attribute name="n">
+          <data type="integer"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="rendition"/>
+      </optional>
+      <optional>
+        <ref name="head"/>
+      </optional>
+      <zeroOrMore>
+        <choice>
+          <ref name="closer"/>
+          <ref name="lb"/>
+          <ref name="list"/>
+          <ref name="note"/>
+          <ref name="p"/>
+          <ref name="postscript"/>
+        </choice>
+      </zeroOrMore>
+      <optional>
+        <choice>
+          <ref name="lg"/>
+          <ref name="table"/>
+        </choice>
+      </optional>
+    </element>
+  </define>
+  <define name="byline">
+    <element name="byline">
+      <optional>
+        <attribute name="rendition"/>
+      </optional>
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="figure"/>
+          <ref name="hi"/>
+          <ref name="lb"/>
+          <ref name="metamark"/>
+          <ref name="note"/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="figure">
+    <element name="figure">
+      <empty/>
+    </element>
+  </define>
+</grammar>
