@@ -22,7 +22,7 @@ Daten der Edition "Jean Paul – Sämtliche Briefe digital". Herausgegeben im Au
 
 ## Lizenz
 
-CC-BY https://creativecommons.org/licenses/by/4.0/
+CC-BY-SA 4.0 
 
 ## Kontakt
 
