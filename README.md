@@ -13,7 +13,8 @@ Auf Zenodo: https://doi.org/10.5281/zenodo.4109518
 
 ## Inhalte
 
-briefe: Briefe von Jean Paul
+briefe: Briefe von Jean Paul in XML/TEI und zugehöriges relaxNG-Schema
+umfelbriefe: Briefe aus dem Umfeld Jean Pauls in XML/TEI und zugehöriges relaxNG-Schema
 
 ## Zitation
 
