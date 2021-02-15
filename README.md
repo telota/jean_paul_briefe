@@ -28,6 +28,4 @@ CC-BY-SA 4.0
 
 Frederike Neuber (neuber@bbaw.de), Berlin-Brandenburgische Akademie der Wissenschaften - TELOTA (telota@bbaw.de)
 
-## Aktualisierungen
 
-* 20.10.2020: Publikation der Daten der Briefe von Jean Paul (Version vom 1.6.2018)
