@@ -1,24 +1,28 @@
 # jean_paul_briefe
-Daten der digitalen Edition "Jean Paul – Sämtliche Briefe digital"
 
-## URL der digitalen Edition
+Daten der digitalen Briefedition "Jean Paul – Sämtliche Briefe digital" (https://www.jeanpaul-edition.de)
 
-https://www.jeanpaul-edition.de
+# Releases der Daten 
 
-## DOI des Datensatzes
+Die Releases entsprechen dem Updatezyklus der digitalen Edition.
 
-10.5281/zenodo.4109518
+* [v.1.0](https://github.com/telota/jean_paul_briefe/releases/tag/v.1.0) - 10.6.2018 (Launch der Edition, erstmalige Veröffentlichung der Brief von Jean Paul)
+* [v.2.0](https://github.com/telota/jean_paul_briefe/releases/tag/v.2.0) - 29.10.2020 (Re-Launch der Edition, erstmalige Veröffentlichung von Briefen aus Jean Pauls Umfeld)
+* [v.3.2](https://github.com/telota/jean_paul_briefe/releases/tag/v.3.2) - 15.2.2021 (Update der Edition, Publikation weiterer Briefe aus Jean Pauls Umfeld)
 
-Auf Zenodo: https://doi.org/10.5281/zenodo.4109518
+## Daten auf Zenodo
+
+* DOI: 10.5281/zenodo.4109518
+* Link: https://doi.org/10.5281/zenodo.4109518
 
 ## Inhalte
 
-briefe: Briefe von Jean Paul in XML/TEI und zugehöriges relaxNG-Schema
-umfelbriefe: Briefe aus dem Umfeld Jean Pauls in XML/TEI und zugehöriges relaxNG-Schema
+* briefe: Briefe von Jean Paul in XML/TEI und zugehöriges relaxNG-Schema
+* umfeldbriefe: Briefe aus dem Umfeld Jean Pauls in XML/TEI und zugehöriges relaxNG-Schema
 
 ## Zitation
 
-Daten der Edition "Jean Paul – Sämtliche Briefe digital". Herausgegeben im Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften von Markus Bernauer, Norbert Miller und Frederike Neuber (2018–).
+Daten der Edition "Jean Paul – Sämtliche Briefe digital". Herausgegeben im Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften von Markus Bernauer, Norbert Miller und Frederike Neuber (2018–). URL: https://github.com/telota/jean_paul_briefe; DOI: 10.5281/zenodo.4109518.
 
 ## Lizenz
 
