@@ -6,7 +6,7 @@ Daten der digitalen Briefedition "Jean Paul – Sämtliche Briefe digital" (http
 
 Die Releases entsprechen dem Updatezyklus der digitalen Edition.
 
-* [v.1.0](https://github.com/telota/jean_paul_briefe/releases/tag/v.1.0) - 10.6.2018 (Launch der Edition, erstmalige Veröffentlichung der Brief von Jean Paul)
+* [v.1.0](https://github.com/telota/jean_paul_briefe/releases/tag/v.1.0) - 10.6.2018 (Launch der Edition, erstmalige Veröffentlichung der Briefe von Jean Paul)
 * [v.2.0](https://github.com/telota/jean_paul_briefe/releases/tag/v.2.0) - 29.10.2020 (Re-Launch der Edition, erstmalige Veröffentlichung von Briefen aus Jean Pauls Umfeld)
 * [v.3.2](https://github.com/telota/jean_paul_briefe/releases/tag/v.3.2) - 15.2.2021 (Update der Edition, Publikation weiterer Briefe aus Jean Pauls Umfeld)
 
