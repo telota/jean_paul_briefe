@@ -10,6 +10,7 @@ Die Releases entsprechen dem Updatezyklus der digitalen Edition.
 * [v.2.0](https://github.com/telota/jean_paul_briefe/releases/tag/v.2.0) - 29.10.2020 (Re-Launch der Edition, erstmalige Veröffentlichung von Briefen aus Jean Pauls Umfeld)
 * [v.3.2](https://github.com/telota/jean_paul_briefe/releases/tag/v.3.2) - 15.2.2021 (Update der Edition, Publikation weiterer Briefe aus Jean Pauls Umfeld)
 * [v.4.0](https://github.com/telota/jean_paul_briefe/releases/tag/v.4.0) - 30.7.2021 (Update der Edition, Publikation weiterer Briefe aus Jean Pauls Umfeld)
+* [v.5.0](https://github.com/telota/jean_paul_briefe/releases/tag/v.5.0) - 1.3.2022 (Update der Edition, Publikation weiterer Briefe aus Jean Pauls Umfeld)
 
 ## Daten auf Zenodo
 
