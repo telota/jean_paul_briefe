@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:lang="en" n="testms" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>TEI for Manuscript Description</title>
+        <author>Axelle Lecroq</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>TEI Consortium</publisher>
+        <availability status="free">
+          <licence target="http://creativecommons.org/licenses/by-sa/3.0/">
+          Distributed under a Creative Commons Attribution-ShareAlike
+          3.0 Unported License</licence>
+          <licence target="http://www.opensource.org/licenses/BSD-2-Clause">
+            <p>Copyright 2013 TEI Consortium.</p>
+            <p>All rights reserved.</p>
+            <p>Redistribution and use in source and binary forms, with
+            or without modification, are permitted provided that the
+            following conditions are met:</p>
+            <list>
+              <item>Redistributions of source code must retain the
+              above copyright notice, this list of conditions and the
+              following disclaimer.</item>
+              <item>Redistributions in binary form must reproduce the
+              above copyright notice, this list of conditions and the
+              following disclaimer in the documentation and/or other
+              materials provided with the distribution.</item>
+            </list>
+            <p>This software is provided by the copyright holders and
+            contributors "as is" and any express or implied
+            warranties, including, but not limited to, the implied
+            warranties of merchantability and fitness for a particular
+            purpose are disclaimed. In no event shall the copyright
+            holder or contributors be liable for any direct, indirect,
+            incidental, special, exemplary, or consequential damages
+            (including, but not limited to, procurement of substitute
+            goods or services; loss of use, data, or profits; or
+            business interruption) however caused and on any theory of
+            liability, whether in contract, strict liability, or tort
+            (including negligence or otherwise) arising in any way out
+            of the use of this software, even if advised of the
+            possibility of such damage.</p>
+          </licence>
+          <p>TEI material can be licensed differently depending on the
+          use you intend to make of it. Hence it is made available
+          under both the CC+BY and BSD-2 licences. The CC+BY licence
+          is generally appropriate for usages which treat TEI content
+          as data or documentation. The BSD-2 licence is generally
+          appropriate for usage of TEI content in a software
+          environment. For further information or clarification,
+          please contact the <ref target="mailto:info@tei-c.org">TEI
+          Consortium</ref>.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Written from scratch.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>TEI for manuscript description</p>
+      
+      <schemaSpec ident="tei_ms" start="TEI" prefix="tei_" targetLang="en" docLang="en" source="file:///C:/Users/alecroq/Documents/gitlab/jeanpaul/schema/jpedition_odd.compiled.odd">
+       
+        <moduleRef key="core" include="abbr add addrLine address author bibl biblScope corr date del desc editor email expan foreign gap graphic hi item lb list listBibl milestone name note num orig p pb ptr pubPlace publisher ref resp respStmt term sic title teiCorpus unclear" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <moduleRef key="header" include="availability correspAction correspContext correspDesc edition editionStmt fileDesc idno keywords licence notesStmt profileDesc publicationStmt sourceDesc teiHeader textClass titleStmt" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <moduleRef key="tei"/>
+        <moduleRef key="textstructure" include="text TEI byline closer dateline div opener postscript salute trailer body signed"/>
+        <moduleRef key="msdescription" include="accMat collection handDesc handNote institution msDesc msIdentifier physDesc" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <moduleRef key="namesdates" include="country forename listPerson orgName persName person place placeName surname" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <moduleRef key="textcrit" include="listWit witness" />
+        <moduleRef key="transcr" include="ex facsimile space supplied mod subst"/>
+        <moduleRef key="figures" include="cell row table"/>
+        <moduleRef key="linking" include="anchor seg"/>
+        
+        <elementSpec ident="add" mode="change">
+          <attList>
+            <attDef ident="place" mode="change">
+            <valList mode="change" type="closed">
+              <valItem mode="add" ident="across"/>
+              <valItem mode="add" ident="intralinear"/>
+              <valItem mode="add" ident="left"/>
+              <valItem mode="add" ident="right"/>
+              <valItem mode="add" ident="sublinear"/>
+              <valItem mode="add" ident="superlinear"/>
+            </valList>
+            </attDef>
+            <attDef ident="hand" mode="change">
+              <valList mode="change" type="open">
+                <valItem mode="add" ident="#author"/>
+                <valItem mode="add" ident="#index"/>
+                <valItem mode="add" ident="#unknown"/>
+                <valItem mode="add" ident="#addressee"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="bibl" mode="change">
+          <attList>
+            <attDef ident="subtype" mode="change">
+              <valList mode="change" type="closed">
+                <valItem mode="add" ident="werk"/>
+                <valItem mode="add" ident="werke-jp"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="closer" mode="change">
+          <attList>
+            <attDef ident="rend" mode="change">
+              <valList mode="change" type="open">
+                <valItem mode="add" ident="paragraph"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        
+        <elementSpec ident="del" mode="change">
+          <attList>
+            <attDef ident="hand" mode="change">
+              <valList mode="change" type="open">
+                <valItem mode="add" ident="#author"/>
+                <valItem mode="add" ident="#unknown"/>
+                <valItem mode="add" ident="#addressee"/>
+              </valList>
+            </attDef>
+            <attDef ident="rendition" mode="change">
+              <valList mode="change" type="open">
+                <valItem mode="add" ident="#erased"/>
+                <valItem mode="add" ident="#ow"/>
+                <valItem mode="add" ident="#s"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="date" mode="change">
+          <attList>
+          <attList>
+            <attDef ident="calendar" mode="change">
+              <valList mode="change" type="open">
+                <valItem mode="add" ident="#Gregorian"/>
+              </valList>
+            </attDef>
+          </attList>
+            <attDef ident="hand" mode="change">
+              <valList mode="change" type="open">
+                <valItem mode="add" ident="#author"/>
+                <valItem mode="add" ident="#unknown"/>
+                <valItem mode="add" ident="#index"/>
+              </valList>
+            </attDef>
+            <attDef ident="rendition" mode="change">
+              <valList mode="change" type="open">
+                <valItem mode="add" ident="#smaller"/>
+              </valList>
+            </attDef>
+            <attDef ident="type" mode="change">
+              <valList mode="change" type="open">
+                <valItem mode="add" ident="attachment"/>
+                <valItem mode="add" ident="writingSession"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="foreign" mode="change">
+          <attList>
+            <attDef ident="xml:lang" mode="change">
+              <valList mode="change" type="semi">
+                <valItem mode="add" ident="lat"/>
+                <valItem mode="add" ident="fra"/>
+                <valItem mode="add" ident="eng"/>
+                <valItem mode="add" ident="grc"/>
+                <valItem mode="add" ident="it"/>
+                <valItem mode="add" ident="spa"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="gap" mode="change">
+          <attList>
+            <attDef ident="reason" mode="change">
+              <valList mode="add" type="closed">
+                <valItem mode="add" ident="covered"/>
+                <valItem mode="add" ident="empty"/>
+                <valItem mode="add" ident="fm"/>
+                <valItem mode="add" ident="illegible"/>
+                <valItem mode="add" ident="lost"/>
+                <valItem mode="add" ident="print"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="hi" mode="change">
+          <attList>
+            <attDef ident="hand" mode="change">
+              <valList mode="change" type="semi">
+                <valItem mode="add" ident="#author"/>
+                <valItem mode="add" ident="#unknown"/>
+              </valList>
+            </attDef>
+            <attDef ident="rendition" mode="change">
+              <valList mode="change" type="closed">
+                <valItem mode="add" ident="#left"/>
+                <valItem mode="add" ident="#right"/>
+                <valItem mode="add" ident="#aq"/>
+                <valItem mode="add" ident="#sup"/>
+                <valItem mode="add" ident="#u"/>
+                <valItem mode="add" ident="#uu"/>
+                <valItem mode="add" ident="#c"/>
+                <valItem mode="add" ident="#f"/>
+                <valItem mode="add" ident="#mMM"/>
+              </valList>
+            </attDef>
+            <attDef ident="rend" mode="change">
+              <valList mode="change" type="semi">
+                <valItem mode="add" ident="bold"/>
+                <valItem mode="add" ident="italic"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="milestone" mode="change">
+          <attList>
+            <attDef ident="rendition" mode="change">
+              <valList mode="change" type="semi">
+                <valItem mode="add" ident="#hr"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="mod" mode="change">
+          <attList>
+            <attDef ident="type" mode="change">
+              <valList mode="change" type="closed">
+                <valItem mode="add" ident="variant"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+       
+        <elementSpec ident="ref" mode="change">
+          <attList>
+            <attDef ident="subtype" mode="change">
+              <valList mode="change" type="closed">
+                <valItem mode="add" ident="comment"/>
+                <valItem mode="add" ident="document"/>
+                <valItem mode="add" ident="passage"/>
+                <valItem mode="add" ident="text"/>
+              </valList>
+            </attDef>
+            <attDef ident="type" mode="change">
+              <valList mode="add" type="semi">
+                <valItem mode="add" ident="comment"/>
+                <valItem mode="add" ident="contextLetter"/>
+                <valItem mode="add" ident="letter"/>
+                <valItem mode="add" ident="missingLetter"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="salute" mode="change">
+          <attList>
+            <attDef ident="rendition" mode="change">
+              <valList mode="change" type="semi">
+                <valItem mode="add" ident="#smaller"/>
+                <valItem mode="add" ident="#left"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="seg" mode="change">
+          <attList>
+            <attDef ident="rend" mode="change">
+              <valList mode="change" type="closed">
+                <valItem mode="add" ident="left"/>
+                <valItem mode="add" ident="mBottom"/>
+                <valItem mode="add" ident="mTop"/>
+                <valItem mode="add" ident="other"/>
+                <valItem mode="add" ident="right"/>
+              </valList>
+            </attDef>
+            <attDef ident="subtype" mode="change">
+              <valList mode="change" type="closed">
+                <valItem mode="add" ident="continuedText"/>
+                <valItem mode="add" ident="note"/>
+                <valItem mode="add" ident="other"/>
+                <valItem mode="add" ident="postscript"/>
+              </valList>
+            </attDef>
+            <attDef ident="style" mode="change">
+              <valList mode="change" type="closed">
+                <valItem mode="add" ident="rotate-0"/>
+                <valItem mode="add" ident="rotate-180"/>
+                <valItem mode="add" ident="rotate-90"/>
+              </valList>
+            </attDef>
+            <attDef ident="type" mode="change">
+              <valList mode="change" type="semi">
+                <valItem mode="add" ident="comment"/>
+                <valItem mode="add" ident="transposition"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="supplied" mode="change">
+          <attList>
+            <attDef ident="reason" mode="change">
+              <valList mode="change" type="closed">
+                <valItem mode="add" ident="covered"/>
+                <valItem mode="add" ident="damage"/>
+                <valItem mode="add" ident="omission"/>
+                <valItem mode="add" ident="print"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="sourceDesc" mode="change">
+          <content>
+            <elementRef key="listWit"/>
+            <elementRef key="p"/>
+          </content>
+        </elementSpec>
+        
+        <elementSpec ident="unclear" mode="change">
+          <attList>
+            <attDef ident="reason" mode="change">
+              <valList mode="add" type="semi">
+                <valItem mode="add" ident="covered"/>
+                <valItem mode="add" ident="damage"/>
+                <valItem mode="add" ident="illegible"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+      </schemaSpec>
+    </body>
+  </text>
+</TEI>

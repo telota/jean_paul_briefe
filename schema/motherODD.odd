@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:lang="en" n="testms" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Mutter ODD für die digitale Edition Jean Paul</title>
+        <author ref="https://orcid.org/0000-0002-1562-9966">Axelle Lecroq</author>
+      </titleStmt>
+      <publicationStmt>
+            <publisher>
+               <email>telota@bbaw.de</email>
+               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+      <sourceDesc/>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>Einführung</head>
+        <p>Die ODD der Edition wird in chaining gebaut. Die Mutter ODD ist eine Anpassung der DTABf für die Manuscript. Die body-ODDs sind dann mit der Mutter ODD verbunden.</p>
+        <p>Diese Mutter ODD enthält alle Elementen der Edition Jean Paul (teiHeader, body von den von-Briefe und Umfeldbriefe. Die teiHeader-Elemente der Edition sind in dieser ODD angepasst. Die Anpassungen der Von- und Umfeldbriefe body-Elementen sind in den jeweiligen ODDs enthalten. </p>
+      </div>
+      <div>
+      <head>Tabelle von allen Elementen der Edition</head>
+      
+      <schemaSpec ident="tei_ms" start="TEI teiCorpus" prefix="tei_" targetLang="en" docLang="en">
+        
+        <moduleRef key="core" include="abbr add addrLine address author bibl biblScope cb choice cit corr date del desc editor email expan foreign gap graphic head hi  item l lb list listBibl milestone name note num orig p pb ptr pubPlace publisher quote ref resp respStmt term sic title teiCorpus unclear"/>
+        <moduleRef key="header" include="availability correspAction correspContext correspDesc edition editionStmt fileDesc idno keywords licence notesStmt profileDesc publicationStmt sourceDesc teiHeader textClass titleStmt"/>
+        <moduleRef key="tei"/>
+        <moduleRef key="textstructure" include="text TEI byline closer dateline div floatingText opener postscript salute trailer body signed"/>
+        <moduleRef key="msdescription" include="accMat collection handDesc handNote institution msDesc msIdentifier physDesc"/>
+        <moduleRef key="namesdates" include="country forename listPerson orgName persName person place placeName surname listPerson listPlace"/>
+        <moduleRef key="textcrit" include="listWit witness" />
+        <moduleRef key="transcr" include="ex facsimile fw space supplied metamark mod subst"/>
+        <moduleRef key="figures" include="cell figure formula row table"/>
+        <moduleRef key="linking" include="anchor seg"/>
+        
+        <elementSpec ident="TEI" module="textstructure" mode="change">
+          <attList>
+            <!-- #AL: doctype rec (und nicht req), weil es kein @doctype in von-Briefe -->
+            <attDef ident="doctype" ns="http://www.telota.de" usage="rec">
+              <valList type="closed">
+                <valItem ident="letter"/>
+              </valList>
+            </attDef>
+            <attDef ident="xml:id" mode="change" usage="req">
+              <valList type="open"/>
+            </attDef>
+            <attDef ident="type" mode="change" usage="req">
+              <valList type="closed">
+                <valItem ident="context"/>
+                <valItem ident="letter"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <!-- teiHeader Elements -->
+        <elementSpec ident="term" mode="change">
+          <attList>
+            <attDef ident="corresp">
+              <datatype>
+                <dataRef name="string"></dataRef>
+              </datatype>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="bibl" mode="change">
+          <classes mode="change">
+            <memberOf key="att.global.linking"/>
+            <memberOf key="att.global.rendition"/>
+            <memberOf key="att.global" mode="delete"/>
+            <memberOf key="att.sortable" mode="delete"/>
+          </classes>
+          <attList>
+            <attDef ident="corresp">
+              <datatype>
+                <dataRef name="string"></dataRef>
+              </datatype>
+            </attDef>
+            <attDef ident="subtype" mode="change">
+              <valList type="closed" mode="change">
+                <valItem mode="add" ident="werk"/>
+                <valItem mode="add" ident="werke-jp"/>
+              </valList>
+            </attDef>
+            <attDef ident="type" mode="change">
+              <valList type="closed" mode="change">
+                <valItem mode="add" ident="baseText"/>
+                <valItem mode="add" ident="witnessText"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>  
+        
+        <elementSpec ident="sourceDesc" mode="change">
+          <content>
+            <sequence>
+              <elementRef key="listWit" minOccurs="0"/>
+              <elementRef key="p" minOccurs="0"/>
+              <elementRef key="bibl" minOccurs="0"/>
+              <elementRef key="msDesc" minOccurs="0"/>
+              <elementRef key="listBibl" minOccurs="0"/>
+            </sequence>
+          </content>
+        </elementSpec>
+        
+        <elementSpec ident="correspAction" mode="change">
+          <classes mode="change">
+            <memberOf key="att.global" mode="delete"/>
+            <memberOf key="att.sortable" mode="delete"/>
+          </classes>
+          <attList>
+            <attDef ident="type" mode="change" usage="req">
+              <valList type="closed">
+                <valItem ident="sent"/>
+                <valItem ident="received"/>
+              </valList>
+            </attDef>
+            <attDef ident="subtype" mode="delete"/>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="correspContext" mode="change">
+          <attList>
+            <attDef ident="n" mode="change">
+              <valList type="closed" mode="change">
+                <valItem mode="add" ident="corpus"/>
+                <valItem mode="add" ident="edition"/>
+                <valItem mode="add" ident="correspondence"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="date" mode="change">
+          <attList>
+            <attDef ident="calendar" mode="change">
+              <valList type="closed" mode="change">
+                <valItem mode="add" ident="#Gregorian"/>
+              </valList>
+            </attDef>
+            <attDef ident="type" mode="change">
+              <valList type="closed" mode="change">
+                <valItem mode="add" ident="publication"/>
+              </valList>
+            </attDef>
+            <attDef ident="cert" mode="change">
+              <valList type="closed" mode="change">
+                <valItem mode="add" ident="high"/>
+                <valItem mode="add" ident="low"/>
+                <valItem mode="add" ident="medium"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        
+          <elementSpec ident="gap" mode="change">
+          <attList>
+            <attDef ident="unit" mode="change">
+              <valList mode="change" type="closed">
+                <valItem mode="add" ident="words"/>
+                <valItem mode="add" ident="chars"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="handNote" mode="change">
+          <attList>
+            <attDef ident="corresp">
+              <datatype>
+                <dataRef name="string"></dataRef>
+              </datatype>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="hi" mode="change">
+          <attList>
+            <attDef ident="rend" mode="change">
+              <valList type="closed" mode="change">
+                <valItem mode="add" ident="bold"/>
+                <valItem mode="add" ident="italic"/>
+                <valItem mode="add" ident="underline"/>
+              </valList>
+            </attDef>
+            <attDef ident="cert" mode="change">
+              <valList type="closed" mode="change">
+                <valItem mode="add" ident="high"/>
+                <valItem mode="add" ident="low"/>
+                <valItem mode="add" ident="medium"/>
+              </valList>
+            </attDef>
+            <attDef ident="hand" mode="change">
+              <valList type="semi" mode="change">
+                <valItem mode="add" ident="#author"/>
+              </valList>
+            </attDef>
+            <attDef ident="rendition" mode="change">
+              <valList type="semi" mode="change">
+                <valItem mode="add" ident="#left"/>
+                <valItem mode="add" ident="#right"/>
+                <valItem mode="add" ident="#smaller"/>
+                <valItem mode="add" ident="#sameLine"/>
+                <valItem mode="add" ident="#aq"/>
+                <valItem mode="add" ident="#fr"/>
+                <valItem mode="add" ident="#rdk"/>
+                <valItem mode="add" ident="#sup"/>
+                <valItem mode="add" ident="#u"/>
+                <valItem mode="add" ident="#uu"/>
+                <valItem mode="add" ident="#g"/>
+                <valItem mode="add" ident="#et"/>
+                <valItem mode="add" ident="#i"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="institution" mode="change">
+          <classes mode="change">
+            <memberOf key="att.typed"/>
+          </classes>
+          <attList>
+            <attDef ident="type" mode="change">
+              <valList type="semi" mode="change">
+                <valItem mode="add" ident="shelfmark"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="licence" mode="change">
+          <attList>
+            <attDef ident="target" mode="change" usage="rec">
+              <valList type="closed" mode="change">
+                <valItem mode="add" ident="http://creativecommons.org/licenses/by-sa/4.0/"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="listBibl" mode="change">
+          <attList>
+            <attDef ident="type" mode="change">
+              <valList type="semi" mode="change">
+                <valItem mode="add" ident="commentary"/>
+              </valList>
+            </attDef>
+            <attDef ident="subtype" mode="change">
+              <valList type="semi" mode="change">
+                <valItem mode="add" ident="werke"/>
+                <valItem mode="add" ident="werke-jp"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="listPerson" mode="change">
+          <attList>
+            <attDef ident="type" mode="change">
+              <valList type="semi" mode="change">
+                <valItem mode="add" ident="commentary"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="listPlace" mode="change">
+          <attList>
+            <attDef ident="type" mode="change">
+              <valList type="semi" mode="change">
+                <valItem mode="add" ident="commentary"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="msDesc" mode="change">
+          <attList>
+            <attDef ident="type" mode="change">
+              <valList type="closed" mode="change">
+                <valItem mode="add" ident="baseText"/>
+                <valItem mode="add" ident="witnessText"/>
+              </valList>
+            </attDef>
+            <attDef ident="rend" mode="change">
+              <valList type="closed" mode="change">
+                <valItem mode="add" ident="concept"/>
+                <valItem mode="add" ident="copy"/>
+                <valItem mode="add" ident="manuscript"/>
+                <valItem mode="add" ident="manuscriptCopy"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="name" mode="change">
+          <classes mode="change">
+            <memberOf key="att.datable" mode="delete"/>
+            <memberOf key="att.editLike" mode="delete"/>
+            <memberOf key="att.personal" mode="delete"/>
+          </classes>
+          <attList>
+            <attDef ident="type" mode="change">
+              <valList type="semi" mode="change">
+                <valItem mode="add" ident="reg"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="note" mode="change">
+          <classes mode="change">
+            <memberOf key="att.anchoring" mode="delete"/>
+            <memberOf key="att.placement" mode="delete"/>
+            <memberOf key="att.pointing" mode="delete"/>
+            <memberOf key="att.written" mode="delete"/>
+          </classes>
+          <attList>
+            <attDef ident="type" mode="change">
+              <valList type="semi" mode="change">
+                <valItem mode="add" ident="remarkResponsability"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        
+        <elementSpec ident="persName" mode="change">
+          <classes mode="change">
+            <memberOf key="att.canonical"/>
+            <memberOf key="att.datable" mode="delete"/>
+            <memberOf key="att.editLike" mode="delete"/>
+            <memberOf key="att.personal" mode="delete"/>
+            <memberOf key="att.typed" mode="delete"/>
+          </classes>
+        </elementSpec>
+        
+        <elementSpec ident="placeName" mode="change">
+          <classes mode="change">
+            <memberOf key="att.canonical"/>
+            <memberOf key="att.global.linking"/>
+            <memberOf key="att.global.responsibility"/>
+            <memberOf key="att.datable" mode="delete"/>
+            <memberOf key="att.editLike" mode="delete"/>
+            <memberOf key="att.global" mode="delete"/>
+            <memberOf key="att.personal" mode="delete"/>
+          </classes>
+          <attList>
+            <attDef ident="cert" mode="change">
+              <valList type="closed" mode="change">
+                <valItem mode="add" ident="high"/>
+                <valItem mode="add" ident="low"/>
+                <valItem mode="add" ident="medium"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="ptr" mode="change">
+          <classes mode="change">
+            <memberOf key="att.declaring" mode="delete"/>
+            <memberOf key="att.internetMedia" mode="delete"/>
+            <memberOf key="att.cReferencing" mode="delete"/>
+            <memberOf key="att.declaring" mode="delete"/>
+            <memberOf key="att.global" mode="delete"/>
+            <memberOf key="att.pointing" mode="delete"/>
+          </classes>
+          <attList>
+            <attDef ident="subtype" mode="change">
+              <valList type="closed" mode="change">
+                <valItem mode="add" ident="brief"/>
+                <valItem mode="add" ident="umfeldbrief"/>
+              </valList>
+            </attDef>
+            <attRef name="target" class="att.pointing"/>
+            <attDef ident="type" mode="change">
+              <valList type="closed" mode="change">
+                <valItem mode="add" ident="prev"/>
+                <valItem mode="add" ident="next"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="ref" mode="change">
+          <classes mode="change">
+            <memberOf key="att.internetMedia" mode="delete"/>
+          </classes>
+          <attList>
+            <attDef ident="subtype" mode="change">
+              <valList type="closed" mode="change">
+                <valItem mode="add" ident="comment"/>
+                <valItem mode="add" ident="document"/>
+                <valItem mode="add" ident="passage"/>
+                <valItem mode="add" ident="text"/>
+              </valList>
+            </attDef>
+            <attDef ident="type" mode="change">
+              <valList type="closed" mode="change">
+                <valItem mode="add" ident="contextLetter"/>
+                <valItem mode="add" ident="letter"/>
+                <valItem mode="add" ident="missingLetter"/>
+                <valItem mode="add" ident="next"/>
+                <valItem mode="add" ident="prev"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="availability" mode="change">
+          <classes mode="change">
+            <memberOf key="att.declarable" mode="delete"/>
+            <memberOf key="att.global" mode="delete"/>
+          </classes>
+          <attList>
+            <attDef ident="status" mode="change">
+              <valList mode="change">
+                <valItem mode="delete" ident="unknown"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="biblScope" mode="change">
+          <attList>
+            <attDef ident="unit" mode="change">
+              <valList type="closed" mode="change">
+                <valItem mode="delete" ident="volume"/>
+                <valItem mode="delete" ident="issue"/>
+                <valItem mode="delete" ident="line"/>
+                <valItem mode="delete" ident="chapter"/>
+                <valItem mode="delete" ident="part"/>
+                <valItem mode="delete" ident="column"/>
+                <valItem mode="delete" ident="entry"/>
+              </valList>
+            </attDef>
+            <attDef ident="n" mode="change">
+              <valList type="closed" mode="change">
+                <valItem mode="add" ident="comment"/>
+                <valItem mode="add" ident="text"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="desc" mode="change">
+          <classes mode="change">
+            <memberOf key="att.global" mode="delete"/>
+          </classes>
+          <attList>
+            <attDef ident="type" mode="change">
+              <valList type="closed" mode="change">
+                <valItem mode="add" ident="accMat"/>
+              </valList>
+            </attDef>
+            <attDef ident="subtype" mode="delete"/>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="respStmt" mode="change">
+          <classes mode="change">
+            <memberOf key="att.global" mode="delete"/>
+          </classes>
+        </elementSpec>
+        <elementSpec ident="space" mode="change">
+          <classes mode="change">
+            <memberOf key="att.typed" mode="delete"/>
+          </classes>
+          <attList>
+            <attDef ident="unit" mode="change">
+              <valList mode="change">
+                <valItem mode="delete" ident="cm"/>
+                <valItem mode="delete" ident="mm"/>
+                <valItem mode="delete" ident="in"/>
+                <valItem mode="delete" ident="line"/>
+                <valItem mode="add" ident="section"/>
+                <valItem mode="delete" ident="char"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="title" mode="change">
+          <classes mode="change">
+            <memberOf key="att.datable" mode="delete"/>
+            <memberOf key="att.canonical" mode="delete"/>
+            <memberOf key="att.datable" mode="delete"/>
+          </classes>
+          <attList>
+            <attDef ident="type" mode="change">
+              <valList type="closed" mode="change">
+                <valItem mode="add" ident="letter"/>
+                <valItem mode="add" ident="missingLetter"/>
+                <valItem mode="add" ident="other"/>
+                <valItem mode="add" ident="stammbuch"/>
+              </valList>
+            </attDef>
+            <attDef ident="n" mode="change">
+              <valList type="semi" mode="change">
+                <valItem mode="add" ident="digital"/>
+                <valItem mode="add" ident="print"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="add" mode="change">
+          <classes mode="change">
+            <memberOf key="att.dimensions" mode="delete"/>
+            <memberOf key="att.placement" mode="delete"/>
+            <memberOf key="att.transcriptional" mode="delete"/>
+            <memberOf key="att.typed" mode="delete"/>
+          </classes>
+          <attList>
+            <attDef ident="resp" mode="change">
+              <valList type="semi" mode="change">
+                <valItem mode="add" ident="#MB"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="del" mode="change">
+          <classes mode="change">
+            <memberOf key="att.global.rendition"/>
+            <memberOf key="att.global" mode="delete"/>
+            <memberOf key="att.transcriptional" mode="delete"/>
+            <memberOf key="att.typed" mode="delete"/>
+          </classes>
+          <attList>
+            <attDef ident="cert" mode="change">
+              <valList type="closed" mode="change">
+                <valItem mode="add" ident="high"/>
+                <valItem mode="add" ident="low"/>
+                <valItem mode="add" ident="medium"/>
+              </valList>
+            </attDef>
+            <attDef ident="rendition" mode="change">
+              <valList type="semi" mode="change">
+                <valItem mode="add" ident="#s"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="idno" mode="change">
+          <classes mode="change">
+            <memberOf key="att.datable" mode="delete"/>
+            <memberOf key="att.sortable" mode="delete"/>
+          </classes>
+          <attList>
+            <attDef ident="type" mode="change">
+              <valList mode="change">
+                <valItem mode="add" ident="shelfmark"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="keywords" mode="change">
+          <classes mode="change">
+            <memberOf key="att.global" mode="delete"/>
+          </classes>
+          <attList>
+            <attDef ident="scheme" mode="change">
+              <valList type="closed" mode="change">
+                <valItem mode="add" ident="#correspondents"/>
+                <valItem mode="add" ident="#topics"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="person" mode="change">
+          <classes mode="change">
+            <memberOf key="att.editLike" mode="delete"/>
+            <memberOf key="att.sortable" mode="delete"/>
+          </classes>
+          <attList>
+            <attDef ident="change" mode="delete"/>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="rend" mode="change">
+              <valList type="closed" mode="change">
+                <valItem mode="add" ident="Fußnote"/>
+                <valItem mode="add" ident="Lesarten"/>
+              </valList>
+            </attDef>
+            <attDef ident="style" mode="delete"/>
+            <attDef ident="rendition" mode="delete"/>
+            <attDef ident="cert" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="source" mode="delete"/>
+          </attList>
+        </elementSpec>
+        
+      </schemaSpec>
+      </div>
+    </body>
+  </text>
+</TEI>
