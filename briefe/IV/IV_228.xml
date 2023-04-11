@@ -46,10 +46,13 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace>
-             
-            <date type="publication">2018</date><availability status="free"><licence target="http://creativecommons.org/licenses/by-sa/4.0/"/></availability>
-            
+            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+                     license</p>
+               </licence>
+            </availability>
          </publicationStmt>
          <notesStmt>
             <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
@@ -57,19 +60,8 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl>
-               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1960.</title>
-               <biblScope n="text" unit="page">
-                  <num>126</num>
-                  <num>127</num>
-                  <num>128</num>
-               </biblScope>
-               <biblScope n="comment" unit="page">
-                  <num>367</num>
-                  <num>368</num>
-               </biblScope>
-            </bibl>
+            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
+                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"/><biblScope n="comment" unit="page"/></bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -96,21 +88,16 @@
             </listPerson>
          </sourceDesc>
       </fileDesc>
-      
       <profileDesc>
-         <correspDesc>
-            <correspAction type="sent">
+         <correspDesc><correspAction type="sent">
                <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
                <date corresp="writingSession1" when="1802-01-09">9. Januar 1802</date>
                <date corresp="writingSession2" when="1802-01-12">12. Januar 1802</date>
                <placeName key="JP-006012">Meiningen
                </placeName>
-            </correspAction>
-            <correspAction type="received">
+            </correspAction><correspAction type="received">
                <persName key="JP-001670">Caroline (von) Herder</persName>
-            </correspAction>
-            
-         </correspDesc>
+            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="IV_227"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0303"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="IV_227"/><ptr type="next" subtype="brief" target="IV_230"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="IV_210"/><ptr type="next" subtype="brief" target="IV_249"/></correspContext></correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -332,16 +319,14 @@
                   Bekränzt und leicht<lb xml:id="IV_127-29"/>gehe die Zeit vor seiner innern
                   Ewigkeit vorüber! —<lb n="30" xml:id="IV_127-30"/>
                </p>
-               <p>Sehr, sehr freu’ ich mich der <hi rendition="#aq">Adrastea</hi> entgegen!</p>
-               <note corresp="#IV_127-31">
+               <p>Sehr, sehr freu’ ich mich der <hi rendition="#aq">Adrastea</hi> entgegen!<note corresp="#IV_127-31">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008680">
                         <author>Herder, Johann Gottfried (seit 1801) von (1744-1803)</author>
                         <title>Adrastea (1801-1803)</title>
                      </bibl>
                   </listBibl>
-               </note>
-               <lb xml:id="IV_127-31"/>
+               </note><lb xml:id="IV_127-31"/></p>
                <p>Der guten Herzogin Mutter und dem Zirkel dieses schimmernden<note corresp="#IV_127-32">
                      <listPerson type="lineReference">
                         <person corresp="#JP-000090">
@@ -353,8 +338,7 @@
                   </note>
                   <lb xml:id="IV_127-32"/>Mittelpunktes möcht’ ich gern hier durch Sie ein Grüslein
                   schicken —<lb xml:id="IV_127-33"/>auch Ihren Kindern und besonders dem schönen.
-                  —</p>
-               <note corresp="#IV_127-34">
+                  —<note corresp="#IV_127-34">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001677">
                         <persName> Johann Gottfried von <name type="reg">Herder</name>
@@ -365,8 +349,7 @@
                         </persName>
                      </person>
                   </listPerson>
-               </note>
-               <lb xml:id="IV_127-34"/>
+               </note><lb xml:id="IV_127-34"/></p>
                <p>Ich stehe mit dem Herzoge hier — der 10000 etc. mal moralischer<note corresp="#IV_128-1">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001289">
@@ -387,16 +370,14 @@
                   </note>
                   <lb xml:id="IV_128-2"/>sogar einigen wohlthätigen (aber unwilkürlichen) Einflus
                      zuschreibt.<lb xml:id="IV_128-3"/>Was könte erst ein <hi rendition="#aq">H<metamark>[</metamark>erder<metamark>]</metamark>
-                  </hi> wirken?</p>
-               <note corresp="#IV_128-4">
+                  </hi> wirken?<note corresp="#IV_128-4">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001675">
                         <persName> Johann Gottfried von <name type="reg">Herder</name>
                         </persName>
                      </person>
                   </listPerson>
-               </note>
-               <lb xml:id="IV_128-4"/>
+               </note><lb xml:id="IV_128-4"/></p>
                <p>Ich habe an einen Posenschraper in <hi rendition="#aq">Hamburg</hi> um Kiele,
                      an<note corresp="#IV_128-5">
                      <listPlace type="lineReference">
@@ -475,7 +456,7 @@
                </hi> Geistes-]<lb/>
                <hi rendition="#aq">aus</hi> Bücher- <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
-                  <hi rendition="#b">127</hi>,<hi rendition="#rkd">1</hi>
+                  <hi rendition="#b">127</hi>, <hi rendition="#rkd">1</hi>
                   <hi rendition="#i">ao</hi>] nachtr. <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">7</hi> Gattin] <hi rendition="#aq">aus</hi> Frau <hi rendition="#aq">
@@ -529,10 +510,10 @@
                <hi rendition="#aq">
                   <hi rendition="#g">Präsident Heim:</hi> s. Nr. 325†; die Beilage ist nicht erhalten.<lb/>
                   <hi rendition="#rkd">27–29</hi> Karoline Herder war noch nicht dazu gekommen, den
-                  2. Band des<lb/>Titan zu lesen. <hi rendition="#rkd">30</hi> Vgl. Bd. III, 310,<hi rendition="#rkd">12</hi>f. <hi rendition="#b">127</hi>,<hi rendition="#rkd">1</hi>
+                  2. Band des<lb/>Titan zu lesen. <hi rendition="#rkd">30</hi> Vgl. Bd. III, 310,<hi rendition="#rkd">12</hi>f. <hi rendition="#b">127</hi>, <hi rendition="#rkd">1</hi>
                   <hi rendition="#g">Gerning:</hi> s. Bd. III,<lb/>Nr. 164, 125,<hi rendition="#rkd">36</hi>†. <hi rendition="#rkd">3–6</hi> Die <hi rendition="#g">Erfurter</hi>
                   Literaturzeitung hatte Jean Paul zur Mit<lb rendition="#hyphen"/>arbeit
-                  aufgefordert; vgl. <hi rendition="#b">132</hi>,<hi rendition="#rkd">33</hi>f. <hi rendition="#rkd">8–12</hi> Nach einem Brief Karoline<lb/>Richters an ihren
+                  aufgefordert; vgl. <hi rendition="#b">132</hi>, <hi rendition="#rkd">33</hi>f. <hi rendition="#rkd">8–12</hi> Nach einem Brief Karoline<lb/>Richters an ihren
                   Vater v. 4. Jan. 1802 (<hi rendition="#i">H</hi>: Berlin JP) handelte es
                   sich<lb/>nicht um die versprochene Präbende, sondern vielleicht um jene
                   Pension<lb/>von kleinen Fürstinnen, reichen Edelleuten und Verehrern Jean Pauls,
@@ -555,16 +536,16 @@
                   ...“ Emanuel hatte in einem Brief an Karoline Herder v. 27. Dez.<lb/>1801 (<hi rendition="#i">H</hi>: Apelt) sich dahin geäußert, daß in dem zwischen
                   Adelbert<lb/>Herder und Voelderndorff ausgebrochenen Streit (s. zu Nr. 204 u.
                   206)<lb/>ersterer im Unrecht sei. (Die spätere schlimme Entwicklung
-                  Adelberts<lb/>sollte das bestätigen; s. auch <hi rendition="#b">270</hi>,<hi rendition="#rkd">1–5</hi>.) Vgl. IV. Abt. (Br. an J.P.), IV, Nr. 244. <hi rendition="#rkd">26</hi>f. Vgl.<lb/>I. Abt., XI, 430,<hi rendition="#rkd">35</hi>f. <hi rendition="#b">128</hi>,<hi rendition="#rkd">2</hi> ist
+                  Adelberts<lb/>sollte das bestätigen; s. auch <hi rendition="#b">270</hi>, <hi rendition="#rkd">1–5</hi>.) Vgl. IV. Abt. (Br. an J.P.), IV, Nr. 244. <hi rendition="#rkd">26</hi>f. Vgl.<lb/>I. Abt., XI, 430,<hi rendition="#rkd">35</hi>f. <hi rendition="#b">128</hi>, <hi rendition="#rkd">2</hi> ist
                   natürlich zu ergänzen: als der Herzog von<lb/>Weimar, mit dem Herders damals auf
                   sehr gespanntem Fuße standen;<lb/>s. Bd. III, Nr. 302, 222,<hi rendition="#rkd">34</hi>ff. <hi rendition="#rkd">3</hi>
-                  <hi rendition="#g">Einfluß:</hi> vgl. <hi rendition="#b">133</hi>,<hi rendition="#rkd">19–21</hi>. <hi rendition="#rkd">5</hi>
+                  <hi rendition="#g">Einfluß:</hi> vgl. <hi rendition="#b">133</hi>, <hi rendition="#rkd">19–21</hi>. <hi rendition="#rkd">5</hi>
                   <hi rendition="#g">Posenschraper:</hi>
                   <lb/>Händler mit Federkielen; Herder hatte im Brief an J. P. IV. Abt., IV, Nr. 158
                   auf Jean<lb/>Pauls Kargheit mit Gänsefedern angespielt, wozu dieser in einer
                   Fußnote<lb/>anmerkt:</hi> Ich hatte ihm <hi rendition="#g">eine,</hi> 5 Groschen
                werth, eine Glasfeder blos ge<lb rendition="#hyphen"/>schenkt, und fragte aus Berlin,
-               wie er damit schreibe. <hi rendition="#aq">Vgl. <hi rendition="#b">3</hi>,<hi rendition="#rkd">7</hi>f.</hi>
+               wie er damit schreibe. <hi rendition="#aq">Vgl. <hi rendition="#b">3</hi>, <hi rendition="#rkd">7</hi>f.</hi>
             </p>
             <lb/>
          </div>
