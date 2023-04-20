@@ -23,8 +23,8 @@ schema/
 
 Ein RNG wurde von den `von-Briefe.odd` und `umfeldbriefe.odd` generiert. Damit wurden die Briefe validiert. 
 
-### Dokumentation
-⚠️ _Die Dokumentation ist noch in Bearbeitungsprozess._
+### Kodierungsrichtlinien
+⚠️ _Die Kodierungsrichtlichien sind noch in Bearbeitungsprozess._
 Für jede ODD sind Dokumentationsdateien verfügbar in zwei Formaten (`pdf` und `html`). 
 
 
