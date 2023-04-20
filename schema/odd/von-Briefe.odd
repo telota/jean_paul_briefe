@@ -3,67 +3,91 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>TEI for Manuscript Description</title>
-        <author>Axelle Lecroq</author>
+        <title>ODD für body der Von-Briefe von der Jean Paul Edition</title>
+        <author ref="https://orcid.org/0000-0002-1562-9966">Axelle Lecroq</author>
       </titleStmt>
       <publicationStmt>
-        <publisher>TEI Consortium</publisher>
-        <availability status="free">
-          <licence target="http://creativecommons.org/licenses/by-sa/3.0/">
-          Distributed under a Creative Commons Attribution-ShareAlike
-          3.0 Unported License</licence>
-          <licence target="http://www.opensource.org/licenses/BSD-2-Clause">
-            <p>Copyright 2013 TEI Consortium.</p>
-            <p>All rights reserved.</p>
-            <p>Redistribution and use in source and binary forms, with
-            or without modification, are permitted provided that the
-            following conditions are met:</p>
-            <list>
-              <item>Redistributions of source code must retain the
-              above copyright notice, this list of conditions and the
-              following disclaimer.</item>
-              <item>Redistributions in binary form must reproduce the
-              above copyright notice, this list of conditions and the
-              following disclaimer in the documentation and/or other
-              materials provided with the distribution.</item>
-            </list>
-            <p>This software is provided by the copyright holders and
-            contributors "as is" and any express or implied
-            warranties, including, but not limited to, the implied
-            warranties of merchantability and fitness for a particular
-            purpose are disclaimed. In no event shall the copyright
-            holder or contributors be liable for any direct, indirect,
-            incidental, special, exemplary, or consequential damages
-            (including, but not limited to, procurement of substitute
-            goods or services; loss of use, data, or profits; or
-            business interruption) however caused and on any theory of
-            liability, whether in contract, strict liability, or tort
-            (including negligence or otherwise) arising in any way out
-            of the use of this software, even if advised of the
-            possibility of such damage.</p>
+        <publisher>
+          <email>telota@bbaw.de</email>
+          <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
+          <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+          <address>
+            <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+            <country>Germany</country>
+          </address>
+        </publisher>
+        <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+            <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
+              license</p>
           </licence>
-          <p>TEI material can be licensed differently depending on the
-          use you intend to make of it. Hence it is made available
-          under both the CC+BY and BSD-2 licences. The CC+BY licence
-          is generally appropriate for usages which treat TEI content
-          as data or documentation. The BSD-2 licence is generally
-          appropriate for usage of TEI content in a software
-          environment. For further information or clarification,
-          please contact the <ref target="mailto:info@tei-c.org">TEI
-          Consortium</ref>.</p>
         </availability>
       </publicationStmt>
-      <sourceDesc>
-        <p>Written from scratch.</p>
-      </sourceDesc>
+      <sourceDesc/>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-      <p>TEI for manuscript description</p>
-      
-      <schemaSpec ident="tei_ms" start="TEI" prefix="tei_" targetLang="en" docLang="en" source="file:///C:/Users/alecroq/Documents/gitlab/jeanpaul/schema/jpedition_odd.compiled.odd">
-       
+      <div1>
+        <head><gi>body</gi> eines von-Briefes der Jean Paul Edition edieren</head>
+      <div2>
+        <head>Briefanfang</head>
+        <p>Der Briefanfang wird mit einem Elementenreihenfolge angegeben. Im <gi>dateline</gi>-Element notiert, der eine Datumsangabe (<gi>date</gi>) und Schreibort (<gi>placeName</gi>) enthalten kann.</p>
+        <p>Der <gi>dateline</gi>-Element ist von dem <gi>opener</gi>-Element gefolt. Drin wird der <gi>salute</gi>-Element angelegt, in welche, die Anrede transkribiert wird.</p>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+          <dateline>
+              <placeName>Schwarzenbach</placeName>, <date>April 1781</date>
+          </dateline>
+          <lb xml:id="I_4-23"/>
+          <opener>
+            <salute>Hochgeehrtester Herr</salute>
+          </opener>
+        </egXML>
+      </div2>
+        
+        <div2>
+          <head>Briefschluss</head>
+          <p>Der Briefschluss wir in einem <gi>closer</gi>-Element notiert. Im <gi>salute</gi>Element wird die Grußformel, im <gi>signed</gi>-Element die Unterschrift notiert. </p>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <closer>
+              <salute>Dein Freund Richter</salute>
+            </closer>
+          </egXML>
+          <p>Ein Postskriptum kann dem Brief ebenfalls hinzugefügt werden. Dieses Postskriptum wird dann im <gi>postscript</gi>-Element eingefügt. Der Text ist in einem zusätzlichen <gi>p</gi>-Element transkribiert.</p>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <postscript>
+              <p><persName key="JP-002186">Konitzen</persName> könnt Ihr gelegentlich sagen,
+                ich möchte doch bald einmal wieder einen Brief von ihn erhalten.</p>
+            </postscript>
+          </egXML>
+        </div2>
+        <div2>
+          <head>Schreibakt</head>
+          <p>Ein Schreibakt wird mithilfe eines <gi>div</gi>-Element abgebildet. Die Nummer des Schreibakts wird im Attribut <code>@n</code> angegeben. </p>
+          <p>Der Schreiber des Schreibakts wird im Attribut <code>@hand</code> notiert. Folgende Werte sind möglich: <code>#author</code>, <code>#addresse</code>, <code>#unknown</code> und die editionsinterne ID aus dem Personenregister. </p>
+        </div2>
+        <div2>
+          <head>Ergänzungen und Verbesserungen der EditorInnen</head>
+          <p>Die Ergänzungen der EditorInnen werden im <gi>add</gi>-Element kodiert. Im <code>resp</code>-Attribut könnte die Namensinitialen der EditorInnen angegeben werden. </p>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <add resp="#XY">leicht um denselben, an den Nr. 178 und 180 gerichtet sind.</add>
+          </egXML>
+        </div2>
+      </div1>
+            
+      <div1>
+        <head>Einführung für die ODD</head>
+        <p>Die ODD der Edition wird in chaining gebaut. Die Mutter ODD ist eine Anpassung der DTABf für die Manuskripten. Die <gi>teiHeader</gi>-Elemente sind in der Mother ODD beschränkt.</p>
+        <p>Die <gi>body</gi>-ODDs sind jeweils mit der Mutter ODD verbunden. Diese ODD enthält die Anpassungen und Einschränkungen der <gi>body</gi>-Elemente von den von-Briefen.</p>
+        </div1>
+      <div1>
+        <head>Tabelle von den von-Briefe Elementen</head>
+        <p>Alle vewerndete Elemente für die Edition der von-Briefe sind in <gi>moduRef</gi> deklariert. Da die <gi>teiHeader</gi>-Elemente schon in der Mutter ODD angepasst wurden, sind in diese ODD nur die <gi>body</gi>-Elementen für die von-Briefe angepasst.</p>
+        
+        <!-- #AL: Um den RNG von dieser ODD mit Oxygen zu generieren, muss die Mutter ODD lokal gespeichert sein, und in @source verbunden sein. -->
+        <schemaSpec ident="tei_ms" start="TEI" prefix="tei_" targetLang="en" docLang="en" source="file:///C:/Users/alecroq/Documents/gitlab/jeanpaul/schema/jpedition_odd.compiled.odd">
+        
         <moduleRef key="core" include="abbr add addrLine address author bibl biblScope cb choice cit corr date del desc editor email gap graphic head hi item l lb list listBibl name note num orig p ptr pubPlace publisher quote ref resp respStmt term sic title teiCorpus" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
         <moduleRef key="header" include="availability correspAction correspContext correspDesc edition editionStmt fileDesc idno keywords licence notesStmt profileDesc publicationStmt sourceDesc teiHeader textClass titleStmt" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
         <moduleRef key="tei"/> 
@@ -73,9 +97,7 @@
         <moduleRef key="textcrit" include="listWit witness" />
         <moduleRef key="transcr" include="ex facsimile fw space supplied metamark"/>
         <moduleRef key="figures" include="cell figure formula row table"/>
-        
-        
-        <!-- Body Elements -->
+                
         <elementSpec ident="place" mode="change">
           <attList>
             <attDef ident="corresp">
@@ -248,6 +270,7 @@
         </elementSpec>  
         
       </schemaSpec>
+      </div1>
     </body>
   </text>
 </TEI>

@@ -24,18 +24,121 @@
                </licence>
             </availability>
          </publicationStmt>
-      <sourceDesc/>
+      <sourceDesc><p/></sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-      <div>
-        <head>Einführung</head>
-        <p>Die ODD der Edition wird in chaining gebaut. Die Mutter ODD ist eine Anpassung der DTABf für die Manuscript. Die body-ODDs sind dann mit der Mutter ODD verbunden.</p>
-        <p>Diese Mutter ODD enthält alle Elementen der Edition Jean Paul (teiHeader, body von den von-Briefe und Umfeldbriefe. Die teiHeader-Elemente der Edition sind in dieser ODD angepasst. Die Anpassungen der Von- und Umfeldbriefe body-Elementen sind in den jeweiligen ODDs enthalten. </p>
-      </div>
-      <div>
+      <div1>
+        <head>Metadaten in Jean Paul Edition edieren</head>
+        
+        <div2>
+          <head>Abschrift und Entwurf</head>
+          <p>Die Beschreibung der Quelle ist in einem<gi>sourceDesc</gi>-Element enthalten. Der Textzeuge wird in einem <gi>witness</gi>-Element erfasst. </p>
+          <p>Für die Umfeldbriefe wird im <gi>msDesc</gi>-Element (manuscript description) über das Attribut <code>rend</code> angegeben, ob es sich um eine Entwurf (concept), eine Abschrift (copy), einen Manuskript (manuscript) oder eine Kopie eines Manuskripts (manuscriptCopy) handelt. Die Detailangaben werden im <gi>msIdentifier</gi>-Element notiert, die aufbewahrende Institution in <gi>institution</gi> und die Sammlung (<gi>collection</gi>) und eine Signatur des Textzeugen (<code>idno/@type="shelfmark</code>). Die Handschriftenbeschreibung wird in <gi>physDesc</gi>-Element (physical description) notiert. Die Beschreibung erfolgt als Text in einem <gi>p</gi>-Element. </p>
+          <p>Für die von-Briefe enthält <gi>msDesc</gi> nur die Information über die Sammlung (<gi>collection</gi>).</p> 
+        <div3>
+          <head>Beispiel Umfeldbriefe:</head>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <witness>
+              <msDesc rend="manuscript" type="baseText">
+                <msIdentifier>
+                  <institution>BJK</institution>
+                  <collection>Berlin V</collection>
+                  <idno>
+                    <idno type="shelfmark">138</idno>
+                  </idno>
+                </msIdentifier>
+                <physDesc>
+                  <p> 1 Dbl. 8°, 2 S. </p>
+                </physDesc>
+              </msDesc>
+            </witness>
+          </egXML>
+        </div3>
+          <div3>
+            <head>Beispiel von-Briefe:</head>
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+              <msDesc>
+                <msIdentifier>
+                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
+                </msIdentifier>
+              </msDesc>
+            </egXML>
+          </div3>
+        </div2>
+        <div2>
+          <head>Anmerkung zum Text</head>
+          <p>Die Anmerkung der HerausgeberInnen erfolgt in einem <gi>notesStmt</gi>-Element.</p>
+        </div2>
+        <div2>
+          <head>AbsenderInnen, EmpfängerInnen, Ort und Datierung</head>
+          <p>Die Korrespondenzmetadaten eines Briefes werden im <gi>profileDesc</gi>-Element notiert. Dort wird ein <gi>correspDesc</gi>-Element angegeben. Es wird für den Absende- und den Empfangvorgang jeweils ein <gi>correspAction</gi>-Element angelegt. Das Attribut <code>@type</code> gibt dabei die Art der Kommunikationshandlung an; die Werte (<code>sent</code>, <code>received</code>) wurden den TEI-Richtlinien für <gi>correspAction</gi>entnommen.</p>
+          <p>Innerhalb des <gi>correspAction</gi>-Element können die Element <gi>persName</gi>, <gi>orgName</gi>, <gi>placeName</gi> und <gi>date</gi> verwendet werden. Die angabe zu Personen, Institutionen und Orten werden dabei über das Attribut <code>@key</code> mit der ID des entsprechenden Registereintrafs verknüpft.</p>
+          <p>Datumsangabe werden mit einem <gi>date</gi>-Element ausgezeignet und in dem Format <code>JJJJ-MM-TT</code> in den Attributen <code>@when</code> bzw. <code>@from</code>/<code>@to</code> oder <code>@notBefore</code>/<code>@notAfter</code> notiert. </p>
+          <p>Diese Information können sowohl für den Sender als auch den Empfäanger angegeben werden. </p>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+          <correspDesc>
+            <correspAction type="sent">
+              <persName key="JP-003087">Emanuel Osmund</persName>
+              <placeName key="JP-005574">Bayreuth (Stadt)</placeName>
+              <date when="1806-02-28" cert="high"/>
+            </correspAction>
+            <correspAction type="received">
+              <persName key="JP-004277">Eva Thieriot</persName>
+              <placeName key="JP-006099">Offenbach bei Frankfurt a. M.</placeName>
+            </correspAction>
+          </correspDesc>
+        </egXML>
+        </div2>
+        <div2>
+          <head>Korrespondenzkontext des Briefes</head>
+          <p>Der Korrespondenzkontext wird in <gi>correspDesc</gi> im Kindelement <gi>correspContext</gi> kodiert, in dem auf den Bezugs- bzw. Antwortbrief mit Hilfe des Elements <gi>ref</gi> verwiesen wird. In dessen Attrbut <code>@target</code> wird die interne ID des entsprechenden Briefs angegeben. Das Attribut <code>@type</code> gibt dabei an, ob es sich um einen Bezugs- oder einen Antwortbrief handelt. Das Attribut <code>subtype</code> gibt an, zu welcher Editionskorpus (<code>brief</code> oder <code>umfeldbrief</code>) der entsprechende Brief gehört.</p>
+        </div2>
+        <div2>
+          <head>Digitalisat</head>
+          <p>Digitalisate, die im Webangeboten Dritter zur Verfügung gestellt werden, können verlinkt werden. Digitalisate werden in <gi>facsimile</gi>-Element mit einzelnen <gi>graphic</gi>-Element durch den Attribut <code>@ref</code> notiert.</p>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+          <facsimile>
+            <graphic url="http://beispielurl.com/image"/>
+          </facsimile>
+        </egXML>
+        </div2>
+        <div2>
+          <head>Drucknachweis</head>
+          <p>Der Drucknachweis wird in <gi>witness</gi>-element angeben. Die Literaturangaben werden im <gi>bibl</gi>-element notiert. Das Attribut <code>@rend</code> gibt mit dem Wert <code>print</code> an, dass der Textzeuge ein Druck (und kein Manuskript) ist. </p>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+          <witness>
+            <bibl rend="print" type="baseText">Kalb, S. 151–152, Nr. 120 (HE Berend)</bibl>
+          </witness>
+        </egXML>
+        </div2>
+        <div2>
+          <head>HerausgeberInnen und MitarbeiterInnen</head>
+          <p>Angaben zu HerausgeberInnen und MitarbeiterInnen werden in einem <gi>respStmt</gi>-Element (statement of responsibility) notiert. Die Angabe zur Person werden im <gi>persName</gi>-Element angegeben. Im Attribut <code>@ref</code> wird die Referenz auf eine externe Datenbank in Form einer GND, VIAF oder URI notiert.</p>
+          <p> Die Art der Mitarbeit wird dabei in einem <gi>resp</gi>-Element näher bestimmt. In einem <gi>note</gi>-Element wird der Beitrag bezeichnet: EditorIn, Mitarbeit, Digitale Konzeption und
+            Modellierung.</p>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <respStmt ref="123456789">
+              <persName>
+                <surname>[Nachname]</surname>
+                <forename>[Vorname]</forename>
+              </persName>
+              <resp><note type="remarkResponsibility">Editorin</note></resp>
+            </respStmt>
+          </egXML>
+        </div2>
+        
+      </div1>
+      <div1>
+        <head>Einführung für die ODD</head>
+        <p>Die ODD der Edition wird in chaining gebaut. Die Mutter ODD ist eine Anpassung der DTABf für die Manuskripten. Die body-ODDs sind dann mit der Mutter ODD verbunden.</p>
+        <p>Diese Mutter ODD enthält alle Elementen der Edition Jean Paul (<gi>teiHeader</gi>, <gi>body</gi> von den von-Briefe und Umfeldbriefe. Die <gi>teiHeader</gi>-Elemente der Edition sind in dieser ODD angepasst. Die Anpassungen der Von- und Umfeldbriefe <gi>body</gi>-Elementen sind in den jeweiligen ODDs enthalten. </p>
+      </div1>
+      <div1>
       <head>Tabelle von allen Elementen der Edition</head>
+        <p>Alle benutzen Modulen sind mit einem <gi>moduleRef</gi> deklariert und deren Elements in <code>@include</code> erklärt.
+          In diesen <code>moduleRef/@include</code> findet man alle Elementen der ganzen Edition, d.h. die Elementen von <gi>teiHeader</gi> und <gi>body</gi> von den von-Briefe und Umfeldbriefe. Nur sind die Elemente des <gi>teiHeader</gi>s in dieser motherODD.odd mit einem <gi>elementSpec</gi> angepasst. </p>
       
       <schemaSpec ident="tei_ms" start="TEI teiCorpus" prefix="tei_" targetLang="en" docLang="en">
         
@@ -52,8 +155,8 @@
         
         <elementSpec ident="TEI" module="textstructure" mode="change">
           <attList>
-            <!-- #AL: doctype rec (und nicht req), weil es kein @doctype in von-Briefe -->
             <attDef ident="doctype" ns="http://www.telota.de" usage="rec">
+              <!--#AL Doctype ist als recommanded (und nicht req), weil es kein @doctype in den von-Briefe-->
               <valList type="closed">
                 <valItem ident="letter"/>
               </valList>
@@ -70,7 +173,26 @@
           </attList>
         </elementSpec>
         
-        <!-- teiHeader Elements -->
+        
+        <elementSpec ident="msDesc" mode="change">
+          <attList>
+            <attDef ident="type" mode="change">
+              <valList type="closed" mode="change">
+                <valItem mode="add" ident="baseText"/>
+                <valItem mode="add" ident="witnessText"/>
+              </valList>
+            </attDef>
+            <attDef ident="rend" mode="change">
+              <valList type="closed" mode="change">
+                <valItem mode="add" ident="concept"/>
+                <valItem mode="add" ident="copy"/>
+                <valItem mode="add" ident="manuscript"/>
+                <valItem mode="add" ident="manuscriptCopy"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
         <elementSpec ident="term" mode="change">
           <attList>
             <attDef ident="corresp">
@@ -293,24 +415,7 @@
           </attList>
         </elementSpec>
         
-        <elementSpec ident="msDesc" mode="change">
-          <attList>
-            <attDef ident="type" mode="change">
-              <valList type="closed" mode="change">
-                <valItem mode="add" ident="baseText"/>
-                <valItem mode="add" ident="witnessText"/>
-              </valList>
-            </attDef>
-            <attDef ident="rend" mode="change">
-              <valList type="closed" mode="change">
-                <valItem mode="add" ident="concept"/>
-                <valItem mode="add" ident="copy"/>
-                <valItem mode="add" ident="manuscript"/>
-                <valItem mode="add" ident="manuscriptCopy"/>
-              </valList>
-            </attDef>
-          </attList>
-        </elementSpec>
+        
         
         <elementSpec ident="name" mode="change">
           <classes mode="change">
@@ -612,7 +717,7 @@
         </elementSpec>
         
       </schemaSpec>
-      </div>
+      </div1>
     </body>
   </text>
 </TEI>

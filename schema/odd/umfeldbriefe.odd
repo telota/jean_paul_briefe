@@ -60,7 +60,98 @@
   </teiHeader>
   <text>
     <body>
-      <p>TEI for manuscript description</p>
+      <div1>
+        <head><gi>body</gi> eines Umfeldbriefes der Jean Paul Edition edieren</head>
+        <div2>
+          <head>Briefanfang</head>
+          <p>Der Briefanfang wird mit dem <gi>opener</gi>-Element angegeben. Im <gi>dateline</gi>-Element können sich eine Datumsangabe (<gi>date</gi>) und Schreibort (<gi>placeName</gi>) befinden.</p>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <opener>
+              <dateline>Meiningen den 26ten<lb/>Februar 12.</dateline>
+            </opener>
+          </egXML>
+        </div2>
+        <div2>
+          <head>Briefschluss</head>
+          <p>Der Briefschluss wird in einem <gi>closer</gi>-Element notiert. Im <gi>salute</gi>Element wird die Grußformel während die Unterschrift im <gi>signed</gi>-Element kodiert. </p>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <closer>
+              <signed>Ihre treue Dienerin<lb/>
+                Heimin, geb. Arnold
+              </signed>
+            </closer>
+          </egXML>
+          <p>Ein Postskriptum kann dem Brief ebenfalls hinzugefügt werden. Dieses Postskriptum wird dann im <gi>postscript</gi>-Element eingefügt. Der Text ist in einem zusätzlichen <gi>p</gi>-Element transkribiert.</p>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <postscript>
+              <p><persName key="JP-002186">Konitzen</persName> könnt Ihr gelegentlich sagen,
+                ich möchte doch bald einmal wieder einen Brief von ihn erhalten.</p>
+            </postscript>
+          </egXML>
+        </div2>
+        <div2>
+          <head>Schreibakt</head>
+          <p>Ein Schreibakt wird mithilfe eines <gi>div</gi>-Element abgebildet. Das Attribut <code>@type</code> des <gi>div</gi>-Element ist <code>writingSession</code>. Die Nummer des Schreibakts wird im Attribut <code>@n</code> angegeben. </p>
+          <p>Die SchreibaktschreiberInnen wird im Attribut <code>@hand</code> notiert. Folgende Werte sind möglich: <code>#author</code>, <code>#addresse</code>, <code>#unknown</code> und die editionsinterne ID aus dem Personenregister. </p>
+        </div2>
+      <div2>
+        <head>Fremdsprachen</head>
+        <p>Fremdsprachige Briefpassagen werden im <gi>foreign</gi>-Element kodiert, das das <code>xml:lang</code>-Attribut enthält. Innerhalb des <code>xml:lang</code>-Attributs werden mehrere Werte akzeptiert, die den Sprachen Lateinisch, Französisch, Englisch, Griechisch, Italienisch und Spanisch entsprechen. </p>
+      </div2>
+      <div2>
+        <head>Briefverweise</head>
+        <p>Der verwiesene Brief wird dann im Text mit dem <gi>ref</gi>-Element gekennzeichnet. Im Attribut <code>@type</code> wird angegeben, dass es sich tatsächlich um einen Brief (und kein Werk zum Beispiel) handelt, während im <code>@target</code>-Attribut die editionsinterne ID des verwiesenen Briefes steht.</p>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+          <ref type="letter" target="JP-UB0974">von 26.ten</ref>
+        </egXML>
+      </div2>
+      <div2>
+        <head>Textkorrekturen</head>
+        <p> Der gelöschte oder durchgestrichene Text von BriefschreiberInnen wird im <gi>del</gi>-Element kodiert. Mit dem <code>@rendition</code>Attribut kann angegeben werden, ob der Text zum Beispiel durchgestrichen oder unleserlich ist. </p>
+        <p>Hinzugefügter Text wird in einem <gi>add</gi>-Element kodiert. Mit dem <code>place</code>Attribut wird notiert, wo der hinzugefügte Text im Brief eingefügt wurde: über der Zeile, unter der Zeilen, rechts oder links...</p>
+        <p>Diese beiden Elemente können zusammen verwendet werden, wenn es sich um eine Textlöschung oder -streichung handelt, die von der Korrektur gefolgt ist. In diesem Fall werden die beiden Elemente in ein <gi>subst</gi>-Element eingefügt.</p>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+          <subst>
+            <del>r</del>
+            <add place="across">s</add>
+          </subst>
+        </egXML>
+      </div2>
+        <div2>
+        <head>Textverlust</head>
+        <p>Das <gi>gap</gi>Element bezeichnet einen Buchstaben oder ein Wort, das nicht transkribiert werden konnte. Die Gründe dafür können vielfältig sein: der Text ist unleserlich oder wurde überdeckt, das Papier ist zerrissen oder ähnliches. Das Attribut <code>@unit</code> gibt an, ob es sich um Wörter (<code>words</code>), Buchstaben (<code>chars</code>), Zeilen (<code>lines</code>) oder Seite (<code>pages</code>) handelt, während das Attribut <code>@n</code> die Anzahl der untranskribierte Textelemente angibt. </p>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+          <gap reason="illegible" unit="chars" quantity="1"/>
+        </egXML>
+      </div2>
+      <div2>
+        <head>Abkürzungen</head>
+        <p>Die Abkürzung sind im <gi>abbr</gi>-Element kodiert.</p>
+      </div2>
+      <div2>
+        <head>Ergänzungen und Verbesserungen der EditorInnen</head>
+        <p>Die Ergänzungen der EditorInnen werden im <gi>note</gi>-Element kodiert. Drin könnte die EditorIn zum Beispiel auf eine bestimmte Person, ein Werk oder ein Textpassage verweisen. </p>
+        <p>Die Textverbesserungen von der EditorInnen sind im <gi>choice</gi>-Element eingefügt. Drin wird das Briefschreiberswort im <gi>sic</gi>-Element getaggt, während die Wortverbesserung der EditorIn im <gi>corr</gi>-Element kodiert wird.</p> 
+        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+          <choice>
+            <sic>Lufschlößern</sic>
+            <corr>Luftschlößern</corr>
+          </choice>
+        </egXML>
+      </div2>
+        <div2>
+          <head>Verweis auf eine Person, einen Ort oder ein Werk</head>
+          <p>Ein Person wird mit dem Element <gi>persName</gi> verweist. Ein Ort wird im <gi>placeName</gi> kodiert. In diesen beiden Elemente befindet sich die editionsintern ID der verweisten Person oder Ort im <code>@key</code>-Attribut. </p>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            auch an Ihre <persName key="JP-002581">Schwester Mahlmann</persName>, wenn ich
+            vielleicht einen Tag in <placeName key="JP-005948">Leipzig</placeName> bleiben sollte.
+          </egXML>
+        </div2>
+      
+      </div1>
+      <div1>
+        <head>Tabelle von den von-Briefe Elementen</head>
+        <p>Alle vewerndete Elemente für die Edition der Emfeldbriefe sind in <gi>moduRef</gi> deklariert. Da die <gi>teiHeader</gi>-Elemente schon in der Mutter ODD angepasst wurden, sind in diese ODD nur die <gi>body</gi>-Elementen für die Umfeldbriefe angepasst.</p>
       
       <schemaSpec ident="tei_ms" start="TEI" prefix="tei_" targetLang="en" docLang="en" source="file:///C:/Users/alecroq/Documents/gitlab/jeanpaul/schema/jpedition_odd.compiled.odd">
        
@@ -350,6 +441,7 @@
         </elementSpec>
         
       </schemaSpec>
+      </div1>
     </body>
   </text>
 </TEI>
