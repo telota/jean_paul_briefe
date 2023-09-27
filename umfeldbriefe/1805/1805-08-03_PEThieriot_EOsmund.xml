@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt><title>Von Paul Emile Thieriot an Emanuel. Offenbach, 3. August 1805,
-                    Sonnabend</title><respStmt ref="http://d-nb.info/gnd/1155558472"><persName><surname>Jahnke</surname><forename>Selma</forename></persName><resp><note type="remarkResponsibility">Editorin</note></resp></respStmt><respStmt><persName ref="http://d-nb.info/gnd/1121508855"><surname>Neuber</surname><forename>Frederike</forename></persName><resp><note type="remarkResponsibility">Digitale Konzeption und Modellierung</note></resp></respStmt><respStmt><persName><surname>Rölcke</surname><forename>Michael</forename></persName><resp><note type="remarkResponsibility">Editor</note></resp></respStmt><respStmt><persName><surname>Axelle</surname><forename>Lecroq</forename></persName><resp><note type="remarkResponsibility">Digitale Modellierung</note></resp></respStmt><respStmt><persName><surname>Thielert</surname><forename>Pauline</forename></persName><resp><note type="remarkResponsibility">Mitarbeit</note></resp></respStmt></titleStmt><editionStmt><edition>Briefe aus Jean Pauls Umfeld. Herausgegeben an der Berlin-Brandenburgischen
+                    Sonnabend</title><respStmt ref="http://d-nb.info/gnd/1155558472"><persName><surname>Jahnke</surname><forename>Selma</forename></persName><resp><note type="remarkResponsibility">Editorin</note></resp></respStmt><respStmt><persName ref="http://d-nb.info/gnd/1121508855"><surname>Neuber</surname><forename>Frederike</forename></persName><resp><note type="remarkResponsibility">Digitale Konzeption und Modellierung</note></resp></respStmt><respStmt><persName><surname>Rölcke</surname><forename>Michael</forename></persName><resp><note type="remarkResponsibility">Editor</note></resp></respStmt><respStmt><persName><surname>Lecroq</surname><forename>Axelle</forename></persName><resp><note type="remarkResponsibility">Digitale Modellierung</note></resp></respStmt><respStmt><persName><surname>Thielert</surname><forename>Pauline</forename></persName><resp><note type="remarkResponsibility">Mitarbeit</note></resp></respStmt></titleStmt><editionStmt><edition>Briefe aus Jean Pauls Umfeld. Herausgegeben an der Berlin-Brandenburgischen
                 Akademie der Wissenschaften von Selma Jahnke und Michael Rölcke (2020-). In: Jean
                 Paul – Sämtliche Briefe digital. Herausgegeben im Auftrag der
                 Berlin-Brandenburgischen Akademie der Wissenschaften von Markus Bernauer, Norbert
@@ -19,12 +19,8 @@
                                     <idno type="shelfmark"/>
                                 </idno>
                             </msIdentifier>
-                            <physDesc><p>
-                                1 Bl. 1 S.
-                                 Ob das Gedicht auf S. 2 zum Brief gehört oder auf einem
-                                    Extrablatt niedergeschrieben wurde, ist nicht derzeit nicht
-                                    nachprüfbar.
-                            </p></physDesc>
+                            <physDesc><p> 1 Bl. 1 S. Ob das Gedicht auf S. 2 zum Brief gehört oder auf einem Extrablatt niedergeschrieben
+                                    wurde, ist derzeit nicht nachprüfbar. </p></physDesc>
                         </msDesc>
                     </witness>
                     <witness>
@@ -52,20 +48,29 @@
           
         </fileDesc>
         <profileDesc>
-            <correspDesc><correspAction type="sent">
+            <correspDesc>
+                <correspAction type="sent">
                     <persName key="JP-004275">Paul Emile Thieriot</persName>
                     <placeName key="JP-006099" cert="high">Offenbach bei Frankfurt a. M.</placeName>
                     <date when="1805-08-03" cert="high"/>
-                </correspAction><correspAction type="received">
+                </correspAction>
+                <correspAction type="received">
                     <persName key="JP-003087">Emanuel Osmund</persName>
-                </correspAction><correspContext>
+                </correspAction>
+                <correspAction type="read">
+                    <persName cert="medium" key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+                    <persName cert="medium" key="JP-003469">Caroline Richter</persName>
+                </correspAction>
+                <correspContext>
                     <ref type="next" target="JP-UB1610">Von Emanuel an Paul Emile Thieriot.
                         Bayreuth, 31. August 1805</ref>
-                </correspContext><note>Zum Schreibort: Der ohne Ortsangabe versehene Brief bezieht sich auf den in
-                    Offenbach abgefassten <ref type="letter" target="JP-UB1602">Brief vom 28.
-                        Juli bis 2. August 1805</ref>. Emanuel war also noch nicht
-                    nach
-                    Aschaffenburg abgereist.</note><correspContext n="edition"><ptr type="prev" subtype="brief" target="V_123"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0141"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0858"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0141"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="umfeldbrief" target="JP-UB1605"/><ptr type="next" subtype="umfeldbrief" target="JP-UB1607"/></correspContext></correspDesc>
+                </correspContext>
+                <note>Zum Schreibort: Der ohne Ortsangabe versehene Brief bezieht sich auf den in
+                    Offenbach abgefassten <ref type="letter" target="JP-UB1602">Brief vom 28. Juli
+                        bis 2. August 1805</ref>. Emanuel war also noch nicht nach Aschaffenburg
+                    abgereist.</note>
+               
+            </correspDesc>
             <textClass>
                 <keywords scheme="#correspondents">
                     <term corresp="#JP-012313">Thieriot-Kreis</term>
@@ -139,30 +144,34 @@
                         <del rendition="#s">Deinem</del>
                         <add place="superlinear" hand="#author"><del rendition="#s" cert="high" hand="#author">deßen</del></add>
                     </subst>
-                    <add place="superlinear" hand="#author">Deinem</add> Hause,<lb/>Dann sei rein <subst>
-                        <seg type="comment"><orig><del rendition="#s">auf</del></orig><note xml:id="nxnf_zfb_ptb">Durch Unterpunktung Streichung rückgängig
-                                gemacht.</note></seg>
-                        <add place="superlinear" hand="#author"><del rendition="#s" cert="high" hand="#author">für</del></add>
-                    </subst>
-                    <del rendition="#s">Deinem</del><add place="superlinear" hand="#author"><del rendition="#s" cert="high" hand="#author">deßen</del></add>
-                    <add place="superlinear" hand="#author">Deinem</add> Wege<lb/>Aus und ein, auf
-                    Deinen Stufen.</p>
+                    <add place="superlinear" hand="#author">Deinem</add> Hause,<lb/>Dann sei rein
+                        <seg type="comment"><orig><subst>
+                                <del rendition="#s">auf</del>
+                                <add place="superlinear" hand="#author"><del rendition="#s" cert="high" hand="#author">für</del></add>
+                            </subst>
+                            <del rendition="#s">Deinem</del><add place="superlinear" hand="#author"><del rendition="#s" cert="high" hand="#author">deßen</del></add>
+                            <add place="superlinear" hand="#author">Deinem</add></orig><note xml:id="nhh2_4by_pyb">Streichung von "auf" durch Unterpunktung
+                            rückgängig gemacht.</note></seg> Wege<lb/>Aus und ein, auf Deinen
+                    Stufen.</p>
                 <p>Dieses sind die ersten Dinge.</p>
                 <p>Sey dann rein im Erst Gedanken,<lb/>Danken gegen Gott und Himmel,<lb/>Danken für
                     Natur u. Erde,<lb/>Der aus Reiniger-Muth quillet.</p>
-                <p>Dann sey rein mit <subst>
-                        <seg type="comment"><orig><del rendition="#s">seinem</del></orig><note xml:id="nr2x_3gb_ptb">Durch Unterpunktung Streichung rückgängig
-                                gemacht.</note></seg>
-                        <add place="superlinear" hand="#author"><del rendition="#s"><gap reason="illegible" unit="words" quantity="1"/></del></add>
-                    </subst> Kleide<lb/>Einbildung – mit <subst>
-                        <del rendition="#s"><seg type="comment"><orig>seinem</orig><note xml:id="nrg3_xgb_ptb">Durch Unterpunktung Streichung rückgängig
-                                    gemacht.</note></seg></del>
-                        <add place="superlinear" hand="#author"><del rendition="#s" cert="high" hand="#author">deßen</del></add>
-                    </subst> Hause<lb/>Heißt Verstand – für <subst>
-                        <del rendition="#s"><seg type="comment"><orig>seine</orig><note xml:id="ndxf_dhb_ptb">Durch Unterpunktung Streichung rückgängig
-                                    gemacht.</note></seg></del>
-                        <add place="superlinear" hand="#author"><del rendition="#s" cert="high" hand="#author">deßen</del></add>
-                    </subst> Wege,<lb/>B'wegung, Geberd, Wort und Werke.</p>
+                <p>Dann sey rein mit <seg type="comment"><orig><subst>
+                                <del rendition="#s">seinem</del>
+                                <add place="superlinear" hand="#author"><del rendition="#s"><gap reason="illegible" unit="words" quantity="1"/></del></add>
+                            </subst></orig><note xml:id="nznm_wby_pyb">Streichung von "seinem" durch
+                            Unterpunktung rückgängig gemacht.</note></seg> Kleide<lb/>Einbildung –
+                    mit <seg type="comment"><orig><subst>
+                                <del rendition="#s">seinem</del>
+                                <add place="superlinear" hand="#author"><del rendition="#s" cert="high" hand="#author">deßen</del></add>
+                            </subst></orig><note xml:id="ngwn_zby_pyb">Streichung von "seinem" durch
+                            Unterpunktung rückgängig gemacht.</note></seg> Hause<lb/>Heißt Verstand
+                    – für <seg type="comment"><orig><subst>
+                                <del rendition="#s">seine</del>
+                                <add place="superlinear" hand="#author"><del rendition="#s" cert="high" hand="#author">deßen</del></add>
+                            </subst></orig><note xml:id="npsj_1cy_pyb">Streichung von "seine" durch
+                            Unterpunktung rückgängig gemacht.</note></seg> Wege,<lb/>B'wegung,
+                    Geberd, Wort und Werke.</p>
                 <p>Thu dann was der Tag Dich lehret.<anchor type="target" xml:id="stop_odp_r4f_stb"/></p>
                 <milestone unit="section" rendition="#hr"/>
             </div>

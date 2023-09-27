@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt><title>Von Caroline Richter an Georg Christian Otto. Meiningen, 21. Juni 1801,
-                    Sonntag</title><respStmt ref="http://d-nb.info/gnd/1155558472"><persName><surname>Jahnke</surname><forename>Selma</forename></persName><resp><note type="remarkResponsibility">Editorin</note></resp></respStmt><respStmt><persName ref="http://d-nb.info/gnd/1121508855"><surname>Neuber</surname><forename>Frederike</forename></persName><resp><note type="remarkResponsibility">Digitale Konzeption und Modellierung</note></resp></respStmt><respStmt><persName><surname>Rölcke</surname><forename>Michael</forename></persName><resp><note type="remarkResponsibility">Editor</note></resp></respStmt><respStmt><persName><surname>Axelle</surname><forename>Lecroq</forename></persName><resp><note type="remarkResponsibility">Digitale Modellierung</note></resp></respStmt><respStmt><persName><surname>Thielert</surname><forename>Pauline</forename></persName><resp><note type="remarkResponsibility">Mitarbeit</note></resp></respStmt></titleStmt><editionStmt><edition>Briefe aus Jean Pauls Umfeld. Herausgegeben an der Berlin-Brandenburgischen
+                    Sonntag</title><respStmt ref="http://d-nb.info/gnd/1155558472"><persName><surname>Jahnke</surname><forename>Selma</forename></persName><resp><note type="remarkResponsibility">Editorin</note></resp></respStmt><respStmt><persName ref="http://d-nb.info/gnd/1121508855"><surname>Neuber</surname><forename>Frederike</forename></persName><resp><note type="remarkResponsibility">Digitale Konzeption und Modellierung</note></resp></respStmt><respStmt><persName><surname>Rölcke</surname><forename>Michael</forename></persName><resp><note type="remarkResponsibility">Editor</note></resp></respStmt><respStmt><persName><surname>Lecroq</surname><forename>Axelle</forename></persName><resp><note type="remarkResponsibility">Digitale Modellierung</note></resp></respStmt><respStmt><persName><surname>Thielert</surname><forename>Pauline</forename></persName><resp><note type="remarkResponsibility">Mitarbeit</note></resp></respStmt></titleStmt><editionStmt><edition>Briefe aus Jean Pauls Umfeld. Herausgegeben an der Berlin-Brandenburgischen
                 Akademie der Wissenschaften von Selma Jahnke und Michael Rölcke (2020-). In: Jean
                 Paul – Sämtliche Briefe digital. Herausgegeben im Auftrag der
                 Berlin-Brandenburgischen Akademie der Wissenschaften von Markus Bernauer, Norbert
@@ -20,11 +20,11 @@
                             <physDesc><p>
                                 1 Dbl. 8°, 2⅔ S. Über dem Brief vfrH.: Wahrheit 6,200 / An Otto;
                                     unter dem Datum vfrH.: 1801. 
+                                </p>
                                 <handDesc>
-                                    <handNote xml:id="JP-999999"><persName>Johann Paul Friedrich
-                                            (Pseud. Jean Paul) Richter</persName></handNote>
-                                </handDesc>
-                            </p></physDesc>
+                                    <handNote corresp="#JP-999999">Richter, Johann Paul Friedrich
+                                        (Pseud. Jean Paul) ((1763-1825))</handNote>
+                                </handDesc></physDesc>
                         </msDesc>
                     </witness>
                     <witness>
@@ -34,18 +34,23 @@
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <correspDesc><correspAction type="sent">
+            <correspDesc>
+                <correspAction type="sent">
                     <persName key="JP-003469">Caroline Richter</persName>
                     <placeName key="JP-006012">Meiningen 
                </placeName>
                     <date when="1801-06-21" cert="high"/>
-                </correspAction><correspAction type="received">
+                </correspAction>
+                <correspAction type="received">
                     <persName key="JP-003112">Georg Christian Otto</persName>
-                </correspAction><correspContext>
+                </correspAction>
+                <correspContext>
                     <ref type="next" target="JP-UB1228">Von Georg Christian Otto an Caroline
                         Richter, Bayreuth, 30. Juni 1801</ref>
-                </correspContext><correspContext n="edition"><ptr type="prev" subtype="brief" target="IV_148"/><ptr type="next" subtype="brief" target="IV_149"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0265"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0710"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0598"/><ptr type="next" subtype="umfeldbrief" target="JP-UB1228"/></correspContext><note>Mit einem <ref type="letter" subtype="document" target="3-IV_149">Brief Jean
-                        Pauls an Christian Otto vom 21. oder 22. Juni 1801.</ref></note><correspContext n="edition"><ptr type="prev" subtype="brief" target="IV_148"/><ptr type="next" subtype="brief" target="IV_149"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0265"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0710"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0598"/><ptr type="next" subtype="umfeldbrief" target="JP-UB1228"/></correspContext></correspDesc>
+                </correspContext>
+                <note>Mit einem <ref type="letter" subtype="document" target="3-IV_149">Brief Jean
+                        Pauls an Christian Otto vom 21. oder 22. Juni 1801.</ref></note>
+            </correspDesc>
             <textClass>
                 <keywords scheme="#correspondents">
                     <term corresp="#JP-012320">Caroline Richter-Kreis</term>
@@ -98,9 +103,9 @@
                 <p>unsere junge Einrichtung, erst 5 Tage alt, hat noch tausend Mängel, doch finden
                     Sie <persName key="JP-999999">Richters</persName> Zimmer nach alter Sitte,
                     geordnet – und Sie werden Sich einheimisch fühlen,<seg type="comment">
-                        <orig>weil er nichts verändert</orig>
-                        <note xml:id="nqyz_phl_yjb">Wahrheit 6, S. 201 beschreibt in einer Fußnote
-                            die Einrichtung des Zimmers.</note></seg>.</p>
+                        <orig>weil er nichts verändert</orig><note xml:id="nqyz_phl_yjb">Wahrheit 6,
+                            S. 201 beschreibt in einer Fußnote die Einrichtung des
+                        Zimmers.</note></seg>.</p>
                 <p><pb n="2"/>meines ist auch freundlich, und häuslich – das Ihrige aber ganz
                     schlecht damit Sie nicht lange darin aushalten, und immer oben hinauf laufen.
                     ich bin ein lenksames Wesen, ich werde Ihren Wünschen gehorchen, Sie sollen nur
@@ -117,9 +122,8 @@
                 <p>Unendlich wohl thut <persName key="JP-999999">meinem Mann</persName> die Ruhe
                     nach einer fast drei Wochen langen Reise, denn wir sezten uns den zweiten Tag
                     nach unserer<seg type="comment">
-                        <orig>Trauung</orig>
-                        <note xml:id="nq44_ldl_yjb">Am <date when="1801-05-27" calendar="#Gregorian">27. Mai 1801</date>.</note></seg> (den <date when="1801-05-29" calendar="#Gregorian">29<hi rendition="#sup"><hi rendition="#uu" hand="#author" cert="high">ten</hi></hi> May</date>) im Wagen, der
-                    uns über<hi rendition="#aq">
+                        <orig>Trauung</orig><note xml:id="nq44_ldl_yjb">Am <date when="1801-05-27" calendar="#Gregorian">27. Mai 1801</date>.</note></seg> (den <date when="1801-05-29" calendar="#Gregorian">29<hi rendition="#sup"><hi rendition="#uu" hand="#author" cert="high">ten</hi></hi> May</date>)
+                    im Wagen, der uns über<hi rendition="#aq">
                         <placeName key="JP-006416">Wörlitz</placeName></hi> wo wir einen Tag
                     blieben, nach<hi rendition="#aq">
                         <placeName key="JP-006395">Weimar</placeName></hi> trug. wir ließen uns 14
@@ -148,10 +152,8 @@
                                 "als die Pferde fressen"</ref>.</note></seg>. den folgenden Abend
                     wählten wir <del rendition="#s" cert="high" hand="#author">noch</del> in<hi rendition="#aq">
                         <placeName key="JP-006012">Meinungen</placeName></hi><seg type="comment">
-                        <orig>eine Wohnung</orig>
-                        <note xml:id="nfxn_wgl_yjb">Bei der <persName key="JP-004864">Geheimrätin
-                                von Zink</persName>.</note></seg> um gleich unsere Sachen
-                    auszupacken.</p>
+                        <orig>eine Wohnung</orig><note xml:id="nfxn_wgl_yjb">Bei der <persName key="JP-004864">Geheimrätin von Zink</persName>.</note></seg> um
+                    gleich unsere Sachen auszupacken.</p>
                 <p>Nun erwarten wir den Aufgang der Sonne, und das Angesicht, darf ich sagen? <hi rendition="#u" hand="#author" cert="high">unseres</hi> Freundes. Wenn Sie
                     mich gesehn haben, darf ich die Bitte eher wagen oder unterlaßen, daß Sie mich
                     in das Herz Ihrer <persName key="JP-003108">Amöne</persName> einführen. So
