@@ -3,7 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title n="print" type="letter" rend="323">323. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, September 1817.</title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth, September 1817.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
+               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
                <biblScope n="text" unit="page">
                   <num>146</num>
                </biblScope>
@@ -77,14 +77,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date cert="medium" notBefore="1817-09-01" notAfter="1817-09-30">September
                   1817</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VII_316"/><ptr type="next" subtype="brief" target="VII_317"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VII_316"/><ptr type="next" subtype="brief" target="VII_317"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VII_316"/><ptr type="next" subtype="brief" target="VII_408a"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VII_316"/>
+               <ptr type="next" subtype="brief" target="VII_317"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VII_316"/>
+               <ptr type="next" subtype="brief" target="VII_317"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VII_316"/>
+               <ptr type="next" subtype="anbrief" target="IV-VII_92"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -103,7 +118,7 @@
                   <listPerson type="lineReference">
                      <person corresp="#JP-002955" ana="†">
                         <persName>
-                           <name type="reg">Napoleon I. Bonaparte</name>
+                           <name type="reg">Napoleon I. Bonaparte, Kaiser von Frankreich </name>
                         </persName>
                      </person>
                   </listPerson>
@@ -112,11 +127,11 @@
                Primatischen Pension zu 30 kr. abge<note corresp="#VII_146-27">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000742">
-                        <persName> Karl Theodor Reichsfreiherr von <name type="reg">Dalberg</name>
+                        <persName>Carl Theodor von <name type="reg">Dalberg</name>
                         </persName>
                      </person>
                      <person corresp="#JP-000970">
-                        <persName> Israel <name type="reg">Enzel</name>
+                        <persName>Israel <name type="reg">Enzel</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -128,9 +143,9 @@
                   Exemplar,<note corresp="#VII_146-30">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008006">
-                        <author>Adelung, Johann Christoph (1732-1806), Sprachforscher und
-                           Lexikograph</author>
-                        <title>Deutsche Sprachlehre für Schulen (1781 u. ö.)</title>
+                        <author>Adelung, Johann Christoph (1732–1806)</author>
+                        <title>Deutsche Sprachlehre. Zum Gebrauche der Schulen in den Königl. Preuß.
+                        Landen (Berlin: Christian Friedrich Voß und Sohn 1781)</title>
                      </bibl>
                   </listBibl>
                </note>

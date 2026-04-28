@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="539">538. An Mohr &amp; Zimmer in Heidelberg. </title>
-            <title n="digital">Von Jean Paul an Buchhandlung Mohr &amp; Zimmer. Bayreuth, 21. Juni 1808.</title>
+            <title n="print" type="letter" rend="538">538. An Mohr &amp; Zimmer in Heidelberg. </title>
+            <title n="digital">Von Jean Paul an Mohr &amp; Zimmer (Buchhandlung). Bayreuth, 21. Juni 1808, Dienstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
+               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
                <biblScope n="text" unit="page">
                   <num>222</num>
                </biblScope>
@@ -77,14 +77,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1808-06-21">21. Juni 1808</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-002843">Buchhandlung Mohr &amp; Zimmer</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-002843">Mohr &amp; Zimmer (Buchhandlung)</persName>
                <placeName key="JP-005819">Heidelberg</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0883"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0401"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="V_537"/><ptr type="next" subtype="brief" target="V_539"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="V_63-fb"/><ptr type="next" subtype="brief" target="V_572"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB0883"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB1809"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="V_537"/>
+               <ptr type="next" subtype="brief" target="V_539"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-V_178"/>
+               <ptr type="next" subtype="anbrief" target="IV-V_186"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -115,11 +130,11 @@
                Winter noch konnte mir <hi rendition="#aq">Perthes</hi> den<note corresp="#V_222-12">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003188">
-                        <persName> Friedrich Christoph <name type="reg">Perthes</name>
+                        <persName>Friedrich <name type="reg">Perthes</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003190">
-                        <persName> Johannes <name type="reg">Perthes</name>
+                        <persName>Johannes <name type="reg">Perthes</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -143,7 +158,7 @@
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010265">
                         <author/>
-                        <title>Heidelbergische Jahrbücher der Literatur (1808ff.)</title>
+                        <title>Heidelbergische Jahrbücher der Literatur (1808 ff.) </title>
                      </bibl>
                   </listBibl>
                </note>
@@ -166,15 +181,15 @@
                <p>Meine herzlichen Grüße an die würdigen Männer, die mir ge<note corresp="#V_222-27">
                      <listPerson type="lineReference">
                         <person corresp="#JP-000716">
-                           <persName> Friedrich <name type="reg">Creuzer</name>
+                           <persName>Friedrich <name type="reg">Creuzer</name>
                            </persName>
                         </person>
                         <person corresp="#JP-001345">
-                           <persName> Joseph von <name type="reg">Görres</name>
+                           <persName>Joseph von <name type="reg">Görres</name>
                            </persName>
                         </person>
                         <person corresp="#JP-002622">
-                           <persName> Philipp Konrad <name type="reg">Marheineke </name>
+                           <persName>Philipp Konrad <name type="reg">Marheineke</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -189,10 +204,15 @@
                   <hi rendition="#i">H</hi>: DLA, Marbach. 2½ S. 8°. <hi rendition="#i">K</hi>: <hi rendition="#i">Zimmer</hi>
                </hi> 21 Juny.<lb/>
                <hi rendition="#aq">
-                  <hi rendition="#i">B</hi>: IV. Abt., V, Nr. 178. <hi rendition="#i">A</hi>: IV.
-                  Abt., V, Nr.</hi>
+                  <hi rendition="#i">B</hi>: IV. Abt., 5, Nr. 178. <hi rendition="#i">A</hi>: IV. Abt., 5, Nr.</hi>
                <hi rendition="#aq">186. </hi>
-               <hi rendition="#b"><hi rendition="#aq">222</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">8</hi></hi> Januars] Jenner <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">222</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">8</hi>
+               </hi> Januars] Jenner <hi rendition="#aq">
                   <hi rendition="#i">K</hi>
                </hi>
                <hi rendition="#rkd">10</hi> Saat] <hi rendition="#aq">aus</hi> Aus<lb rendition="#hyphen"/>saat <hi rendition="#aq">

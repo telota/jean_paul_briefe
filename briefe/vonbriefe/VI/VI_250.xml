@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="251">250. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, 3. April 1810.</title>
+            <title n="print" type="letter" rend="250">250. An Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth, 3. April 1810, Dienstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>96</num></biblScope><biblScope n="comment" unit="page"><num>466</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>96</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>466</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -68,20 +76,35 @@
             </msDesc>
             <listPerson type="commentary">
                <person corresp="#JP-002925">
-                  <persName> Friedrich Karl <name type="reg">Münch</name>
+                  <persName>Friedrich Karl <name type="reg">Münch</name>
                   </persName>
                </person>
             </listPerson>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1810-04-03">3. April 1810</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB2037"/><ptr type="next" subtype="brief" target="VI_251"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_265"/><ptr type="next" subtype="brief" target="VI_251"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_265"/><ptr type="next" subtype="brief" target="VI_251"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB2037"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB1895"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_265"/>
+               <ptr type="next" subtype="brief" target="VI_251"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_265"/>
+               <ptr type="next" subtype="brief" target="VI_251"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -99,11 +122,11 @@
                   ant<note corresp="#VI_96-16">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003188">
-                        <persName> Friedrich Christoph <name type="reg">Perthes</name>
+                        <persName>Friedrich <name type="reg">Perthes</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003190">
-                        <persName> Johannes <name type="reg">Perthes</name>
+                        <persName>Johannes <name type="reg">Perthes</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -112,7 +135,7 @@
                von dir versprechen soll;<lb xml:id="VI_96-17"/> lies aber vorher den Brief. Über <hi rendition="#aq">Jacobi</hi> hört’ ich gestern wieder<note corresp="#VI_96-18">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001909">
-                        <persName> Friedrich Heinrich <name type="reg">Jacobi</name>
+                        <persName>Friedrich Heinrich <name type="reg">Jacobi</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -137,7 +160,7 @@
             <lb/>
             <p>
                <hi rendition="#aq">
-                  <hi rendition="#g">Perthes’ Brief:</hi> an J. P. IV. Abt., VI, Nr. 70; vgl. Nr.
+                  <hi rendition="#g">Perthes’ Brief:</hi> an J. P. IV. Abt., 6, Nr. 70; vgl. Nr.
                   277. <hi rendition="#g">Irrthum:</hi> vgl.<lb/> Nr.</hi>
                <hi rendition="#aq">245†.</hi>
             </p>

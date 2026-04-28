@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="393">389. An Henriette von Ende in Dresden. </title>
-            <title n="digital">Von Jean Paul an Henriette Freifrau von Ende. Ohne Ort, 1. August 1823.</title>
+            <title n="print" type="letter" rend="389">389. An Henriette von Ende in Dresden. </title>
+            <title n="digital">Von Jean Paul an Henriette von Ende. 1. August 1823, Freitag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>230</num>
                </biblScope>
@@ -77,20 +77,35 @@
             </msDesc>
             <listPerson type="commentary">
                <person corresp="#JP-000073">
-                  <persName> Christoph Friedrich von <name type="reg">Ammon</name>
+                  <persName>Christoph Friedrich von <name type="reg">Ammon</name>
                   </persName>
                </person>
             </listPerson>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1823-08-01">1. August 1823</date>
-            </correspAction><correspAction type="received">
-               <persName key="JP-000948">Henriette Freifrau von Ende</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000948">Henriette von Ende</persName>
                <placeName key="JP-005687">Dresden</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VIII_388"/><ptr type="next" subtype="brief" target="VIII_390"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VIII_388"/><ptr type="next" subtype="brief" target="VIII_390"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VIII_323"/><ptr type="next" subtype="brief" target="VIII_395"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-VIII_AN_12"/>
+               <ptr type="next" subtype="brief" target="VIII_390"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VIII_388"/>
+               <ptr type="next" subtype="brief" target="VIII_390"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VIII_323"/>
+               <ptr type="next" subtype="anbrief" target="IV-VIII_261"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -105,7 +120,7 @@
             <note corresp="#VIII_230-12">
                <listPerson type="lineReference">
                   <person corresp="#JP-003469">
-                     <persName> Caroline <name type="reg">Richter</name>
+                     <persName>Caroline <name type="reg">Richter</name>
                      </persName>
                   </person>
                </listPerson>
@@ -119,7 +134,7 @@
                von den Briefen meiner Frau<note corresp="#VIII_230-16">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003469">
-                        <persName> Caroline <name type="reg">Richter</name>
+                        <persName>Caroline <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -127,8 +142,8 @@
                <lb xml:id="VIII_230-16"/>Anlaß. Ihr Bleistift ist unter meinen 100 englischen gerade
                der beste;<note corresp="#VIII_230-17">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0057152">
-                        <placeName>Bleistifte; England, englisch, Britannien</placeName>
+                     <place corresp="#JP-011248">
+                        <placeName>Bleistifte</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -165,7 +180,7 @@
                Sohns wieder nach menschlichen Ansichten erfüllte.<note corresp="#VIII_230-30">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000949">
-                        <persName> Otto Leopold Freiherr von <name type="reg">Ende</name>
+                        <persName>Otto Leopold Freiherr von <name type="reg">Ende</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -185,7 +200,7 @@
                      gegrüßt.<note corresp="#VIII_230-34">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003370">
-                           <persName> Elisa von der <name type="reg">Recke</name>
+                           <persName>Elisa von der <name type="reg">Recke</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -201,9 +216,15 @@
                   Karoline, 1 S. von J. P.<lb/>
                   <hi rendition="#i">K</hi>: <hi rendition="#i">v. Ende</hi>
                </hi> 4ten [!] August. <hi rendition="#aq">
-                  <hi rendition="#i">A</hi>: IV. Abt., VIII, Nr.</hi>
+                  <hi rendition="#i">A</hi>: IV. Abt., 8, Nr.</hi>
                <hi rendition="#aq">261. </hi>
-               <hi rendition="#b"><hi rendition="#aq">230</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">14</hi></hi> Nun] Durch Ihre Güte <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">230</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">14</hi>
+               </hi> Nun] Durch Ihre Güte <hi rendition="#aq">
                   <hi rendition="#i">K</hi>
                </hi>
                <lb/>

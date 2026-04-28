@@ -2,8 +2,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="464">460. An Renate Otto in München. </title>
-            <title n="digital">Von Jean Paul an Renate Otto. Bayreuth, 5. November 1824.</title>
+            <title n="print" type="letter" rend="460">460. An Renate Otto in München. </title>
+            <title n="digital">Von Jean Paul an Renate Otto. Bayreuth, 5. November 1824,
+               Freitag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +46,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +62,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>271</num>
                   <num>272</num>
@@ -79,14 +80,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1824-11-05">5. November 1824</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003126">Renate Otto</persName>
                <placeName key="JP-006040">München</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB1387"/><ptr type="next" subtype="brief" target="VIII_42-fb"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VIII_459"/><ptr type="next" subtype="brief" target="VIII_42-fb"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VIII_454"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB1387"/>
+               <ptr type="next" subtype="brief" target="VIII_42-fb"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VIII_459"/>
+               <ptr type="next" subtype="brief" target="VIII_42-fb"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VIII_EB_52"/>
+               <ptr type="next" subtype="anbrief" target="IV-VIII_314"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -126,7 +142,7 @@
             <p>Nun komm’ ich zu meiner Frage. Den von Reichenbach empfohlenen<note corresp="#VIII_271-28">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003393">
-                        <persName> Georg von <name type="reg">Reichenbach</name>
+                        <persName>Georg von <name type="reg">Reichenbach</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -135,7 +151,7 @@
                   schleifen.<note corresp="#VIII_271-29">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003010">
-                        <persName> Joseph <name type="reg">Niggel</name>
+                        <persName>Joseph <name type="reg">Niggel</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -144,7 +160,7 @@
                bei dem Optikus<note corresp="#VIII_271-30">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003118">
-                        <persName> Christoph <name type="reg">Otto</name>
+                        <persName>Christoph <name type="reg">Otto</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -163,7 +179,7 @@
             <p>Die Hand meiner guten Odilie, wodurch ich Ihnen<note corresp="#VIII_271-33">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003491">
-                        <persName> Odilie Minna <name type="reg">Richter</name>
+                        <persName>Odilie <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -172,17 +188,19 @@
                   ein<lb xml:id="VIII_271-34"/> Zeichen, wie nöthig mir Gläser-Beistand ist. Ich
                grüße herzlich Ihren<lb xml:id="VIII_272-1"/>guten Christoph. Es gehe Ihnen allen
                wohl!<note corresp="#VIII_272-2">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-003111">
-                     <persName> Christian <name type="reg">Otto</name>
-                     </persName>
-                  </person>
-                  <person corresp="#JP-003118">
-                     <persName> Christoph <name type="reg">Otto</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="VIII_272-2"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003111">
+                        <persName>Christian <name type="reg">Otto</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003118">
+                        <persName>Christoph <name type="reg">Otto</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_272-2"/>
+            </p>
             <closer>
                <salute>
                   <hi rendition="#right">Ihr alter Freund<lb xml:id="VIII_272-3"/>Jean Paul Fr.
@@ -208,9 +226,15 @@
                   <hi rendition="#i">J</hi>
                   <hi rendition="#sup">1</hi>: Täglichsbeck Nr. 42. <hi rendition="#i">J</hi>
                   <hi rendition="#sup">2</hi>: Süddeutsche Monatshefte,<lb/>32. Bd. (Sept. 1935), S.
-                  762. <hi rendition="#i">A</hi>: IV. Abt., VIII, Nr.</hi>
+                  762. <hi rendition="#i">A</hi>: IV. Abt., 8, Nr.</hi>
                <hi rendition="#aq">314. </hi>
-               <hi rendition="#b"><hi rendition="#aq">271</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">13</hi></hi> Nov.] <hi rendition="#aq">von J. P. verb.<lb/>aus</hi> Oktober <hi rendition="#rkd">32</hi> Geschäfts] <hi rendition="#aq">von J. P. nachtr.</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">271</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">13</hi>
+               </hi> Nov.] <hi rendition="#aq">von J. P. verb.<lb/>aus</hi> Oktober <hi rendition="#rkd">32</hi> Geschäfts] <hi rendition="#aq">von J. P. nachtr.</hi>
             </p>
             <lb/>
             <p>

@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="274">270. An Odilie Richter in Würzburg. </title>
-            <title n="digital">Von Jean Paul an Odilie Minna Richter. Bayreuth, 31. März 1822.</title>
+            <title n="print" type="letter" rend="270">270. An Odilie Richter in Würzburg. </title>
+            <title n="digital">Von Jean Paul an Odilie Richter. Bayreuth, 31. März 1822, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>162</num>
                </biblScope>
@@ -77,14 +77,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1822-03-31">31. März 1822</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-003491">Odilie Minna Richter</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-003491">Odilie Richter</persName>
                <placeName key="JP-006422">Würzburg</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VIII_269"/><ptr type="next" subtype="brief" target="VIII_20-fb"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VIII_269"/><ptr type="next" subtype="brief" target="VIII_20-fb"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VII_213"/><ptr type="next" subtype="brief" target="VIII_23-fb"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VIII_269"/>
+               <ptr type="next" subtype="anbrief" target="IV-IX_2.74"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VIII_269"/>
+               <ptr type="next" subtype="brief" target="VIII_20-fb"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VIII_45"/>
+               <ptr type="next" subtype="anbrief" target="IV-VIII_EB_34"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -106,11 +121,11 @@
                Maßregeln deiner jetzigen Pflegeltern mit<note corresp="#VIII_162-6">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001608">
-                        <persName> Johann Georg <name type="reg">Heine</name>
+                        <persName>Johann Georg <name type="reg">Heine</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003031">
-                        <persName> Auguste <name type="reg">Oertel</name>
+                        <persName>Auguste <name type="reg">Oertel</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -119,7 +134,7 @@
                Mutter mein<note corresp="#VIII_162-7">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003469">
-                        <persName> Caroline <name type="reg">Richter</name>
+                        <persName>Caroline <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -143,7 +158,13 @@
                   <hi rendition="#i">H</hi>: Berlin JP. 2 S. 16°. <hi rendition="#i">J</hi>:
                   Nerrlich Nr.</hi>
                <hi rendition="#aq">195. </hi>
-               <hi rendition="#b"><hi rendition="#aq">162</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">3</hi></hi> viele] <hi rendition="#aq">aus</hi> recht</p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">162</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">3</hi>
+               </hi> viele] <hi rendition="#aq">aus</hi> recht</p>
          </div>
       </body>
    </text>

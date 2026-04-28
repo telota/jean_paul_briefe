@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="597">595. An Emanuel. </title>
-            <title n="digital">Von Jean Paul an Emanuel. Bayreuth, 14. Januar 1812.</title>
+            <title n="print" type="letter" rend="595">595. An Emanuel. </title>
+            <title n="digital">Von Jean Paul an Emanuel. Bayreuth, 14. Januar 1812, Dienstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>244</num></biblScope><biblScope n="comment" unit="page"><num>530</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>244</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>530</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1812-01-14">14. Januar 1812</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-003087">Emanuel Osmund</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_596"/><ptr type="next" subtype="brief" target="VI_597"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_596"/><ptr type="next" subtype="brief" target="VI_597"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_594"/><ptr type="next" subtype="brief" target="VI_598"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000941">Emanuel</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB2060"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_194"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_596"/>
+               <ptr type="next" subtype="brief" target="VI_597"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_594"/>
+               <ptr type="next" subtype="brief" target="VI_598"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -92,8 +115,8 @@
             <p>Guten Morgen, lieber <hi rendition="#aq">Emanuel!</hi> Ich soll morgen die
                   Familien<lb xml:id="VI_244-27" rendition="#hyphen"/>steuer in den <hi rendition="#aq">Cassino-</hi>Saal abschicken; und doch hab’ ich Ende<note corresp="#VI_244-28">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-00557415">
-                        <placeName>Casino (Cassino); Bayreuth (Stadt)</placeName>
+                     <place corresp="#JP-011041">
+                        <placeName>Casino (Cassino)</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -104,7 +127,7 @@
                wird bald seinen etymolo<note corresp="#VI_244-30">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005574" ana="†">
-                        <placeName>Bayreuth (Stadt)</placeName>
+                        <placeName>Bayreuth </placeName>
                      </place>
                   </listPlace>
                </note>
@@ -116,7 +139,13 @@
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: SBa. Präsentat: 14. Jan.</hi>
                <hi rendition="#aq">12. </hi>
-               <hi rendition="#b"><hi rendition="#aq">244</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">29</hi></hi> bezahlen</p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">244</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">29</hi>
+               </hi> bezahlen</p>
             <lb/>
             <p>
                <hi rendition="#aq">Von jetzt an schreibt Jean Paul Bayreuth mit i statt y.</hi>

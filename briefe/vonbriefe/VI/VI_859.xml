@@ -2,9 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="865">*859. An Professor Schweigger in Nürnberg. </title>
-            <title n="digital">Von Jean Paul an Johann Salomon Christoph Schweigger. Bayreuth, 16. April
-               1814.</title>
+            <title n="print" type="letter" rend="859">*859. An Professor Schweigger in Nürnberg. </title>
+            <title n="digital">Von Jean Paul an Johann Salomon Christoph Schweigger. Bayreuth, 16. April 1814, Samstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -46,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +60,16 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>369</num><num>370</num></biblScope><biblScope n="comment" unit="page"><num>573</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>369</num>
+                  <num>370</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>573</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -71,14 +79,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1814-04-16">16. April 1814</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003956">Johann Salomon Christoph Schweigger</persName>
                <placeName key="JP-006085">Nürnberg</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_858"/><ptr type="next" subtype="brief" target="VI_860"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_858"/><ptr type="next" subtype="brief" target="VI_860"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_641"/><ptr type="next" subtype="brief" target="IX_19"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_EB_113"/>
+               <ptr type="next" subtype="brief" target="VI_860"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_858"/>
+               <ptr type="next" subtype="brief" target="VI_860"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_236"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_247"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -96,9 +119,8 @@
                treffliches Büchlein schick’ ich Ihnen eines, worin auch Himmel<note corresp="#VI_369-25">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009721" ana="†">
-                        <author>Schweigger, Johann Salomon Christoph (1779-1857), Chemiker und
-                           Physiker</author>
-                        <title>Neues Journal für Chemie und Physik (1811-1820)</title>
+                        <author>Schweigger, Johann Salomon Christoph (1779–1857)</author>
+                        <title>Neues Journal für Chemie und Physik (1811–1820)</title>
                      </bibl>
                   </listBibl>
                   <listBibl type="lineReference" subtype="werke-jp">
@@ -110,8 +132,8 @@
                <lb n="25" xml:id="VI_369-25" rendition="#hyphen"/> körper spielen, obwol gegen die
                gallischen dunkeln Erdkörper und<note corresp="#VI_369-26">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-00574610">
-                        <placeName>Politik, Krieg, Militär; Frankreich, französisch</placeName>
+                     <place corresp="#JP-011308">
+                        <placeName>Politik, Krieg, Militär</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -120,7 +142,7 @@
                   <listPerson type="lineReference">
                      <person corresp="#JP-002955">
                         <persName>
-                           <name type="reg">Napoleon I. Bonaparte</name>
+                           <name type="reg">Napoleon I. Bonaparte, Kaiser von Frankreich </name>
                         </persName>
                      </person>
                   </listPerson>
@@ -128,30 +150,30 @@
                <lb xml:id="VI_369-27"/> Wünsche der Deutschen zu kühnsten Thaten geworden! Nur
                   solche<note corresp="#VI_369-28">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0056690">
-                        <placeName>Deutsche; Deutschland , deutsch , Germanien,
-                           Vaterland</placeName>
+                     <place corresp="#JP-011167">
+                        <placeName>Deutsche</placeName>
                      </place>
                   </listPlace>
                </note>
                <lb xml:id="VI_369-28"/>
                <hi rendition="#aq">miracula restitutionis</hi> konnten solche Teufels Wunder
                aufheben. —<lb xml:id="VI_369-29"/> Ich habe oft dabei an Sie gedacht.<lb n="30" xml:id="VI_369-30"/>
-            <note corresp="#VI_369-31">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-000634">
-                     <persName>
-                        <name type="reg">Christus</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="VI_369-31"/></p>
+               <note corresp="#VI_369-31">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000634">
+                        <persName>
+                           <name type="reg">Christus</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_369-31"/>
+            </p>
             <p>Ihr Buch hat mich sehr erquickt, d. h. belehrt. Sonderbar ists,<note corresp="#VI_370-1">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009721">
-                        <author>Schweigger, Johann Salomon Christoph (1779-1857), Chemiker und
-                           Physiker</author>
-                        <title>Neues Journal für Chemie und Physik (1811-1820)</title>
+                        <author>Schweigger, Johann Salomon Christoph (1779–1857)</author>
+                        <title>Neues Journal für Chemie und Physik (1811–1820)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -163,7 +185,7 @@
                Zurückziehung des Lichts nach Herschel unsichtbar bleibt. Der<note corresp="#VI_370-6">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001726">
-                        <persName> Friedrich Wilhelm <name type="reg">Herschel</name>
+                        <persName>Friedrich Wilhelm <name type="reg">Herschel</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -175,7 +197,7 @@
                Gelpke gut daraus, weil er sonst, wenn er hinter dem Ko<note corresp="#VI_370-10">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008462">
-                        <author>Gelpke, August Heinrich Christian (1769-1842), Astronom</author>
+                        <author>Gelpke, August Heinrich Christian (1769–1842)</author>
                         <title>Neue Ansicht der Kometen (1812)</title>
                      </bibl>
                   </listBibl>
@@ -188,7 +210,7 @@
                   be<note corresp="#VI_370-14">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002424">
-                        <persName> Gotthold Ephraim <name type="reg">Lessing</name>
+                        <persName>Gotthold Ephraim <name type="reg">Lessing</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -199,20 +221,21 @@
             <lb xml:id="VI_370-16"/>
             <p>Leben Sie wol im geretteten und rettenden Deutschland! Einen<note corresp="#VI_370-17">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0056690">
-                        <placeName>Deutsche; Deutschland , deutsch , Germanien,
-                           Vaterland</placeName>
+                     <place corresp="#JP-011167">
+                        <placeName>Deutsche</placeName>
                      </place>
                   </listPlace>
                </note>
                <lb xml:id="VI_370-17"/> herzlichen Gruß an Ihre liebe Schwester.<note corresp="#VI_370-18">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-003957">
-                     <persName> Johann Salomon Christoph <name type="reg">Schweigger</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="VI_370-18"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003957">
+                        <persName>Johann Salomon Christoph <name type="reg">Schweigger</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_370-18"/>
+            </p>
             <closer>
                <salute>
                   <hi rendition="#right">Ihr<lb xml:id="VI_370-19"/> Jean Paul Fr. Richter</hi>
@@ -224,7 +247,7 @@
                      Bitte<note corresp="#VI_370-21">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001635">
-                           <persName> Ludwig <name type="reg">Heller</name>
+                           <persName>Ludwig <name type="reg">Heller</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -234,8 +257,7 @@
             <note corresp="#VI_370-22">
                <listBibl type="lineReference" subtype="werke">
                   <bibl corresp="#JP-008872">
-                     <author>Kanne, Johann Arnold (Pseud. Walther Bergius) (1773-1824),
-                        Schriftsteller, Mythologe und Sprachforscher)</author>
+                     <author>Kanne, Johann Arnold (Pseud. Walther Bergius) (1773–1824)</author>
                      <title>Blätter von Aleph bis Kuf (1801)</title>
                   </bibl>
                </listBibl>
@@ -244,12 +266,14 @@
             <postscript>
                <p>N. S. Ihren Satz von Sprüngen in der Natur hab’ ich in meiner<lb xml:id="VI_370-23"/>
                   <hi rendition="#aq">Levana</hi> schon für organische Entwicklung<add resp="#MB">en</add> behauptet.<note corresp="#VI_370-24">
-                  <listBibl type="lineReference" subtype="werke-jp">
-                     <bibl corresp="#JP-010811">
-                        <title>Levana (1807)</title>
-                     </bibl>
-                  </listBibl>
-               </note><lb xml:id="VI_370-24"/></p>
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010811">
+                           <title>Levana (1807)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VI_370-24"/>
+               </p>
             </postscript>
          </div>
          <div type="comment">
@@ -265,16 +289,27 @@
                   <hi rendition="#sup">1</hi> u. <hi rendition="#i">K</hi>
                   <hi rendition="#sup">2</hi>): Denkw. 3, 265×. *<hi rendition="#i">J</hi>: Archiv
                   für<lb/> Literaturgeschichte, 9. Bd., 1880, S. 336 (ohne Angabe des
-                  Adressaten,<lb/> Gestrichenes in eckigen Klammern). <hi rendition="#i">B</hi>: IV.
-                  Abt., VI, Nr. 236. <hi rendition="#i">A</hi>: IV. Abt., VI, Nr.</hi>
+                  Adressaten,<lb/> Gestrichenes in eckigen Klammern). <hi rendition="#i">B</hi>: IV. Abt., 6, Nr. 236. <hi rendition="#i">A</hi>: IV. Abt., 6, Nr.</hi>
                <hi rendition="#aq">246. </hi>
-               <hi rendition="#b"><hi rendition="#aq">369</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">25</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">369</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">25</hi>
+               </hi>
                <lb/> eines] <hi rendition="#aq">darüber <hi rendition="#i">Mars</hi>
                </hi> u. <hi rendition="#aq">
                   <hi rendition="#i">Phöbus K</hi>
                   <hi rendition="#sup">2</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">370</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">1</hi></hi> ists] <hi rendition="#aq">danach gestr.</hi> auf der<lb/> einen Seite <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">370</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">1</hi>
+               </hi> ists] <hi rendition="#aq">danach gestr.</hi> auf der<lb/> einen Seite <hi rendition="#aq">
                   <hi rendition="#i">J</hi>
                </hi>
                <hi rendition="#rkd">4</hi> dasselbe es] <hi rendition="#aq">so <hi rendition="#i">K</hi>

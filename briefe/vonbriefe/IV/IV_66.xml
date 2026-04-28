@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="70">66. An Rahel Levin in Paris. </title>
-            <title n="digital">Von Jean Paul an Rahel Levin. Berlin, 9. Januar 1801.</title>
+            <title n="print" type="letter" rend="66">66. An Rahel Levin in Paris. </title>
+            <title n="digital">Von Jean Paul an Rahel Levin. Berlin, 9. Januar 1801, Freitag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,11 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"/><biblScope n="comment" unit="page"/></bibl>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page"/>
+               <biblScope n="comment" unit="page"/>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,14 +73,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1801-01-09">9. Januar 1801</date>
                <placeName key="JP-005586">Berlin</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-002430">Rahel Levin</persName>
                <placeName key="JP-006122">Paris</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0598"/><ptr type="next" subtype="brief" target="IV_6-fb"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="IV_80"/><ptr type="next" subtype="brief" target="IV_6-fb"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="IV_20"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB1221"/>
+               <ptr type="next" subtype="brief" target="IV_6-fb"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="IV_80"/>
+               <ptr type="next" subtype="brief" target="IV_6-fb"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-IV_58"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -131,9 +149,15 @@
                   <hi rendition="#i">J</hi>
                   <hi rendition="#sup">2</hi>: Briefwechsel zw. Varnhagen u. Rahel, 1. Bd., Leipzig
                   1874, S. 96.<lb/>
-                  <hi rendition="#i">B</hi>: IV. Abt., IV, Nr.</hi>
+                  <hi rendition="#i">B</hi>: IV. Abt., 4, Nr.</hi>
                <hi rendition="#aq">58. </hi>
-               <hi rendition="#b"><hi rendition="#aq">37</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">9</hi></hi> nicht<hi rendition="#sup">1</hi>] <hi rendition="#aq">aus</hi> nie <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">37</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">9</hi>
+               </hi> nicht<hi rendition="#sup">1</hi>] <hi rendition="#aq">aus</hi> nie <hi rendition="#aq">
                   <hi rendition="#i">H</hi>,</hi> nie <hi rendition="#aq">
                   <hi rendition="#i">K</hi>
                </hi> Mögen die Menschen] möge<lb/>man <hi rendition="#aq">
@@ -150,7 +174,13 @@
             </p>
             <lb/>
             <p>
-               <hi rendition="#b"><hi rendition="#aq">37</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">7</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">37</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">7</hi>
+               </hi>
                <hi rendition="#aq">Das <hi rendition="#g">Votivgemälde von Paris</hi> stand
                   wahrscheinlich in einem<lb/>(nicht erhaltenen) langen Brief Rahels an ihre
                   Schwägerin Markus, von<lb/>dem Jean Paul auf ihren Wunsch durch Frau v. Boye

@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="129">128. An Georg Joachim Göschen in Leipzig. </title>
-            <title n="digital">Von Jean Paul an Georg Joachim Göschen. Bayreuth, 31. Juli 1809.</title>
+            <title n="print" type="letter" rend="128">128. An Georg Joachim Göschen in Leipzig. </title>
+            <title n="digital">Von Jean Paul an Georg Joachim Göschen. Bayreuth, 31. Juli 1809, Montag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>43</num></biblScope><biblScope n="comment" unit="page"><num>442</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>43</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>442</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,14 +77,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1809-07-31">31. Juli 1809</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-001349">Georg Joachim Göschen</persName>
                <placeName key="JP-005948">Leipzig</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_127"/><ptr type="next" subtype="brief" target="VI_129"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_127"/><ptr type="next" subtype="brief" target="VI_129"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="V_197"/><ptr type="next" subtype="brief" target="VI_262"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_27"/>
+               <ptr type="next" subtype="brief" target="VI_129"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_127"/>
+               <ptr type="next" subtype="brief" target="VI_129"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-V_81"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_33"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -94,7 +117,7 @@
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010293">
                         <author/>
-                        <title>Kriegs-Kalender für gebildete Leser aller Stände (1809-1811)</title>
+                        <title>Kriegs-Kalender für gebildete Leser aller Stände (1809–1811) </title>
                      </bibl>
                   </listBibl>
                   <listBibl type="lineReference" subtype="werke-jp">
@@ -110,7 +133,7 @@
                   zu<note corresp="#VI_43-18">
                   <listPlace type="lineReference">
                      <place corresp="#JP-006097">
-                        <placeName>Österreich</placeName>
+                        <placeName>Österreich, Österreicher, österreichisch</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -119,7 +142,7 @@
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010293">
                         <author/>
-                        <title>Kriegs-Kalender für gebildete Leser aller Stände (1809-1811)</title>
+                        <title>Kriegs-Kalender für gebildete Leser aller Stände (1809–1811) </title>
                      </bibl>
                   </listBibl>
                </note>
@@ -127,8 +150,8 @@
             </p>
             <p>Sogar die sächsische Zensur, welche so gern amputiert — oft<note corresp="#VI_43-21">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-006224" rend="Zensur">
-                        <placeName>Sachsen, Kursachsen, sächsisch</placeName>
+                     <place corresp="#JP-006223" rend="Zensur">
+                        <placeName>Sachsen, Kursachsen, sächsisch </placeName>
                      </place>
                   </listPlace>
                </note>
@@ -150,7 +173,7 @@
                <p>1 N. S. Peter Stöcklein war wirklich der erste Buchhändler<note corresp="#VI_43-30">
                      <listPerson type="lineReference">
                         <person corresp="#JP-004176" ana="†">
-                           <persName> Peter <name type="reg">Stöcklein</name>
+                           <persName>Peter <name type="reg">Stöcklein</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -173,7 +196,7 @@
                      Briefe;<note corresp="#VI_43-33">
                      <listPerson type="lineReference">
                         <person corresp="#JP-002238">
-                           <persName> Christian Sigismund <name type="reg">Krause</name>
+                           <persName>Christian Sigismund <name type="reg">Krause</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -189,9 +212,15 @@
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Berlin acc. ms. 1901. 194 (derzeit BJK). 1½ S. 4°. <hi rendition="#i">K</hi>: <hi rendition="#i">Goeschen</hi>
                </hi> 31 Jul. <hi rendition="#aq">
-                  <hi rendition="#i">A</hi>: IV. Abt., VI, Nr.</hi>
+                  <hi rendition="#i">A</hi>: IV. Abt., 6, Nr.</hi>
                <hi rendition="#aq">33. </hi>
-               <hi rendition="#b"><hi rendition="#aq">43</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">18</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">43</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">18</hi>
+               </hi>
                <lb/> Östreicher] <hi rendition="#aq">aus</hi> Österreicher <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>

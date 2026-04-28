@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="8">7. An Frau von Scheve in Berlin. </title>
+            <title n="print" type="letter" rend="7">7. An Frau von Scheve in Berlin. </title>
             <title n="digital">Von Jean Paul an Friederike Wilhelmine von Scheve. Berlin, Oktober 1800.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="IX">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 9. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1964.</title>
+               <title n="IX">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 9. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1964.</title>
                <biblScope n="text" unit="page">
                   <num>6</num>
                   <num>7</num>
@@ -78,14 +78,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date cert="medium" notBefore="1800-10-01" notAfter="1800-10-31">Oktober 1800</date>
                <placeName key="JP-005586">Berlin</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003727">Friederike Wilhelmine von Scheve</persName>
                <placeName key="JP-005586">Berlin</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="IV_1-fb"/><ptr type="next" subtype="umfeldbrief" target="JP-UB1213"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="IV_1-fb"/><ptr type="next" subtype="brief" target="IV_1"/></correspContext><correspContext n="correspondence"><ptr type="next" subtype="brief" target="IV_3"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="IV_1-fb"/>
+               <ptr type="next" subtype="anbrief" target="IV-IV_1"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="IV_1-fb"/>
+               <ptr type="next" subtype="brief" target="IV_1"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="next" subtype="brief" target="IV_3"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -107,7 +121,7 @@
                   wie<note corresp="#IX_7-1">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000044">
-                        <persName> Johann Georg Jacob von <name type="reg">Ahlefeldt</name>
+                        <persName>Hans Georg von <name type="reg">Ahlefeldt</name>
                         </persName>
                      </person>
                   </listPerson>

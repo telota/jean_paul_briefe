@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="391">384. An Christian Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Coburg, 28. Juni 1803.</title>
+            <title n="print" type="letter" rend="384">384. An Christian Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Coburg, 28. Juni 1803, Dienstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,11 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"/><biblScope n="comment" unit="page"/></bibl>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page"/>
+               <biblScope n="comment" unit="page"/>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +73,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1803-06-28">28. Juni 1803</date>
                <placeName key="JP-005649">Coburg </placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB1478"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0336"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="IV_383"/><ptr type="next" subtype="brief" target="IV_394"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="IV_365"/><ptr type="next" subtype="brief" target="IV_386"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB1479"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB0336"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="IV_383"/>
+               <ptr type="next" subtype="brief" target="IV_394"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="IV_365"/>
+               <ptr type="next" subtype="anbrief" target="IV-IV_290"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -92,7 +111,7 @@
             <p>Es ist weiter nichts als daß ich auch einmal wieder auf Reisen<lb xml:id="IV_226-3"/>möchte und zwar nach <hi rendition="#aq">Bayreuth</hi> und <hi rendition="#aq">Wonsiedel.</hi> Schreibe mir daher,<note corresp="#IV_226-4">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005574">
-                        <placeName>Bayreuth (Stadt)</placeName>
+                        <placeName>Bayreuth </placeName>
                      </place>
                      <place corresp="#JP-006424">
                         <placeName>Wunsiedel </placeName>
@@ -103,7 +122,7 @@
                ich vermuthe aus seinem<note corresp="#IV_226-5">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003087">
-                        <persName> Emanuel <name type="reg">Osmund</name>
+                        <persName>Emanuel <name type="reg">Osmund</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -117,22 +136,24 @@
             <p>In einem halben Jahre hast du mir 1 mal geschrieben.<lb n="10" xml:id="IV_226-10"/>
             </p>
             <p>Über den Titan schreib’ etwas.<note corresp="#IV_226-11">
-               <listBibl type="lineReference" subtype="werke-jp">
-                  <bibl corresp="#JP-010897">
-                     <title>Titan (1800-1803)</title>
-                  </bibl>
-               </listBibl>
-            </note><lb xml:id="IV_226-11"/></p>
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010897">
+                        <title>Titan (1800-1803)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="IV_226-11"/>
+            </p>
             <p>Meine Menschen-Verhältnisse sind hier die lieblichsten, nur zu lang<lb xml:id="IV_226-12"/>für die Feder. Ortlof aus Erlang, als Polizeidirektor, ein
                   unendlich<note corresp="#IV_226-13">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003083" ana="†">
-                        <persName> Johann Andreas <name type="reg">Ortlof </name>
+                        <persName>Johann Andreas <name type="reg">Ortloff</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listPlace type="lineReference">
-                     <place corresp="#JP-005722">
+                     <place corresp="#JP-005721">
                         <placeName>Erlangen </placeName>
                      </place>
                   </listPlace>
@@ -152,14 +173,13 @@
                die wichtigsten Papiere vor<note corresp="#IV_226-16">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002256">
-                        <persName> Theodor Conrad (seit 1801) von <name type="reg">Kretschmann</name>
+                        <persName>Theodor Konrad von <name type="reg">Kretschmann</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009031">
-                        <author>Kretschmann, Theodor Conrad (Konrad) (seit 1801) von (1762-1820),
-                           Regierungsrat in Bayreuth, 1801-1808 Minister in Coburg</author>
+                        <author>Kretschmann, Theodor Conrad von (1762–1820)</author>
                         <title>Die Organisation der Coburg-Saalfeldischen Lande (1803)</title>
                      </bibl>
                   </listBibl>
@@ -168,7 +188,8 @@
                an <metamark>[</metamark>den<metamark>]</metamark> Herzog und sein<note corresp="#IV_226-17">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001154">
-                        <persName> Friedrich Anton <name type="reg">Franz</name>
+                        <persName>
+                           <name type="reg">Franz, Herzog von Sachsen-Coburg-Saalfeld</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -193,14 +214,25 @@
                   <hi rendition="#i">H</hi>: Berlin JP. 3 S. 8°. <hi rendition="#i">K</hi>: <hi rendition="#i">Otto</hi>
                </hi> 28 Jun. (<hi rendition="#aq">nur Überschrift) <hi rendition="#i">J</hi>
                   <hi rendition="#sup">1</hi>: Otto<lb/>4,127×. <hi rendition="#i">J</hi>
-                  <hi rendition="#sup">2</hi>: Nerrlich Nr. 101. <hi rendition="#i">A</hi>: IV.
-                  Abt., IV, Nr.</hi>
+                  <hi rendition="#sup">2</hi>: Nerrlich Nr. 101. <hi rendition="#i">A</hi>: IV. Abt., 4, Nr.</hi>
                <hi rendition="#aq">290. </hi>
-               <hi rendition="#b"><hi rendition="#aq">226</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">5</hi></hi> wenn] <hi rendition="#aq">aus</hi> ob <hi rendition="#rkd">18</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">226</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">5</hi>
+               </hi> wenn] <hi rendition="#aq">aus</hi> ob <hi rendition="#rkd">18</hi>
                <lb/>alle Dokumente] <hi rendition="#aq">aus</hi> alles</p>
             <lb/>
             <p>
-               <hi rendition="#b"><hi rendition="#aq">226</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">13</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">226</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">13</hi>
+               </hi>
                <hi rendition="#aq">Dr. Joh. Andr. <hi rendition="#g">Ortloff</hi> (1769—1828),
                   Professor der Philosophie<lb/>in Erlangen, seit 1803 in Koburg.</hi>
             </p>

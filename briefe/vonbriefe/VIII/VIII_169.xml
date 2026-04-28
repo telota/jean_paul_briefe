@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="171">169. An Georg Reimer in Berlin. </title>
-            <title n="digital">Von Jean Paul an Georg Andreas Reimer. Bayreuth, 17. April 1821.</title>
+            <title n="print" type="letter" rend="169">169. An Georg Reimer in Berlin. </title>
+            <title n="digital">Von Jean Paul an Georg Andreas Reimer. Bayreuth, 17. April 1821, Dienstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>110</num>
                   <num>111</num>
@@ -78,14 +78,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1821-04-17">17. April 1821</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003408">Georg Andreas Reimer</persName>
                <placeName key="JP-005586">Berlin</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB1010"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0470"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VIII_168"/><ptr type="next" subtype="brief" target="VIII_170"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VIII_90"/><ptr type="next" subtype="brief" target="VIII_192"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB1010"/>
+               <ptr type="next" subtype="anbrief" target="IV-VIII_103"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VIII_168"/>
+               <ptr type="next" subtype="brief" target="VIII_170"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VIII_100"/>
+               <ptr type="next" subtype="anbrief" target="IV-VIII_105"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -107,8 +122,7 @@
                meiner würdig handeln? <hi rendition="#aq">Cotta</hi> war bei mir Ihr erster<note corresp="#VIII_110-23">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000698">
-                        <persName> Johann Friedrich Freiherr <name type="reg">Cotta von
-                              Cottendorf</name>
+                        <persName>Johann Friedrich von <name type="reg">Cotta</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -140,7 +154,7 @@
             <p>Ihren andern Wunsch, der zweiten Herausgabe der unsichtbaren<note corresp="#VIII_110-31">
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010648" ana="ff">
-                        <title>Die unsichtbare Loge (1793) </title>
+                        <title>Die unsichtbare Loge (1793) (Mumien) </title>
                      </bibl>
                   </listBibl>
                </note>
@@ -160,23 +174,27 @@
                <lb n="35" xml:id="VIII_110-35" rendition="#hyphen"/> baren dritten Loge — nicht
                geben; aber zu verbessern ist doch so viel,<lb xml:id="VIII_111-1"/>z. B. die
                ausländischen Wörter, und besonders die Lücken oder zu dünne<lb xml:id="VIII_111-2"/>Fäden der Geschichte, geschähe letztes auch nur mit wenigen Zeilen; und<lb xml:id="VIII_111-3"/>eine neue Vorrede kommt auch dazu. —<note corresp="#VIII_111-4">
-               <listBibl type="lineReference" subtype="werke-jp">
-                  <bibl corresp="#JP-010666">
-                     <title>Die unsichtbare Loge (1793): Vorreden</title>
-                  </bibl>
-               </listBibl>
-            </note><lb xml:id="VIII_111-4"/></p>
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010666">
+                        <title>Die unsichtbare Loge (1793): Vorreden</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VIII_111-4"/>
+            </p>
             <p>Es kommt aber noch etwas dazu, nämlich meine „grönländischen<note corresp="#VIII_111-5">
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010724">
-                        <title>Grönländische Prozesse, oder Satirische Skizzen (1783, 1822)</title>
+                        <title>Grönländische Prozesse, oder Satirische Skizzen (1783,
+                        1822)</title>
                      </bibl>
                   </listBibl>
                </note>
                <lb n="5" xml:id="VIII_111-5"/>Prozesse“, deren neue Auflage ich der <hi rendition="#aq">Vossischen</hi> Buchhandlung schon<note corresp="#VIII_111-6">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004533">
-                        <persName> Buchhandlung <name type="reg">Vossische</name>
+                        <persName>
+                           <name type="reg">Vossische Buchhandlung</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -203,7 +221,7 @@
                   </listPlace>
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010648">
-                        <title>Die unsichtbare Loge (1793) </title>
+                        <title>Die unsichtbare Loge (1793) (Mumien) </title>
                      </bibl>
                   </listBibl>
                </note>
@@ -227,11 +245,12 @@
                <note corresp="#VIII_111-21">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003848" ana="†">
-                        <persName> Carl Friedrich <name type="reg">Schramm</name>
+                        <persName>Carl Friedrich <name type="reg">Schramm</name>
                         </persName>
                      </person>
                      <person corresp="#JP-004533">
-                        <persName> Buchhandlung <name type="reg">Vossische</name>
+                        <persName>
+                           <name type="reg">Vossische Buchhandlung</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -264,14 +283,14 @@
                der Münchner <hi rendition="#aq">Literaturzeitung.</hi> — Es geh’<note corresp="#VIII_111-27">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002189">
-                        <persName> Friedrich <name type="reg">Köppen</name>
+                        <persName>Friedrich <name type="reg">Köppen</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010314">
                         <author/>
-                        <title>Münchener allgemeine Literatur-Zeitung (1819-1822)</title>
+                        <title>Münchener allgemeine Literatur-Zeitung (1819–1822) </title>
                      </bibl>
                   </listBibl>
                </note>
@@ -287,12 +306,24 @@
          <div type="comment">
             <p>
                <hi rendition="#aq">
-                  <hi rendition="#i">H</hi>: Germ. Museum, Nürnberg. 4 S. 8°. <hi rendition="#i">K</hi>: <hi rendition="#i">Reimer 17 Apr. B</hi>: IV. Abt., VIII, Nr. 74 und 100.<lb/>
-                  <hi rendition="#i">A</hi>: IV. Abt., VIII, Nr.</hi>
+                  <hi rendition="#i">H</hi>: Germ. Museum, Nürnberg. 4 S. 8°. <hi rendition="#i">K</hi>: <hi rendition="#i">Reimer 17 Apr. B</hi>: IV. Abt., 8, Nr. 74 und 100.<lb/>
+                  <hi rendition="#i">A</hi>: IV. Abt., 8, Nr.</hi>
                <hi rendition="#aq">105. </hi>
-               <hi rendition="#b"><hi rendition="#aq">110</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">24</hi></hi> wurde] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">110</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">111</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">6</hi></hi> deren neue Auflage] <hi rendition="#aq">aus</hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">24</hi>
+               </hi> wurde] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               </hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">111</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">6</hi>
+               </hi> deren neue Auflage] <hi rendition="#aq">aus</hi>
                <lb/>welche <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
@@ -304,7 +335,7 @@
             <lb/>
             <p>
                <hi rendition="#aq">Reimer hatte sich beklagt, daß J. P. seinen letzten Brief (an J.
-                  P.<lb/>, IV. Abt., VIII, Nr. 74) nicht beantwortet habe, und gefragt, ob der 3.
+                  P.<lb/>, IV. Abt., 8, Nr. 74) nicht beantwortet habe, und gefragt, ob der 3.
                   Band des Kometen<lb/>zu Michaelis erscheinen könne. Die Unsichtbare Loge sei
                   vergriffen, er<lb/>wolle gleich eine neue Auflage herausgeben, womöglich schon zu
                      Jo<lb rendition="#hyphen"/>hannis. <hi rendition="#b">110</hi>, <hi rendition="#rkd">23</hi>f. <hi rendition="#g">Cotta erster Bürge:</hi> vgl. Bd.

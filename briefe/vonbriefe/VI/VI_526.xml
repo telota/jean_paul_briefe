@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="527">526. An Friedrich Heinrich Jacobi in München. </title>
-            <title n="digital">Von Jean Paul an Friedrich Heinrich Jacobi. Bayreuth, 13. August 1811.</title>
+            <title n="print" type="letter" rend="526">526. An Friedrich Heinrich Jacobi in München. </title>
+            <title n="digital">Von Jean Paul an Friedrich Heinrich Jacobi. Bayreuth, 13. August 1811, Dienstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,16 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>218</num><num>219</num></biblScope><biblScope n="comment" unit="page"><num>518</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>218</num>
+                  <num>219</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>518</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,14 +78,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1811-08-13">13. August 1811</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-001909">Friedrich Heinrich Jacobi</persName>
                <placeName key="JP-006040">München</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_525"/><ptr type="next" subtype="brief" target="VI_30-fb"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_525"/><ptr type="next" subtype="brief" target="VI_30-fb"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_499"/><ptr type="next" subtype="brief" target="VI_640"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_525"/>
+               <ptr type="next" subtype="brief" target="VI_30-fb"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_525"/>
+               <ptr type="next" subtype="brief" target="VI_30-fb"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_EB_55"/>
+               <ptr type="next" subtype="brief" target="VI_640"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -94,7 +118,7 @@
                   <listPerson type="lineReference">
                      <person corresp="#JP-002064">
                         <persName>
-                           <name type="reg">Katholiken </name>
+                           <name type="reg">Katholiken</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -102,7 +126,7 @@
                <lb xml:id="VI_218-3" rendition="#hyphen"/> lische Pfarrer <hi rendition="#aq">Oestreicher</hi>, ein im Charakter wackerer und im Geiste<note corresp="#VI_218-4">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003059">
-                        <persName> Kaspar <name type="reg">Oesterreicher</name>
+                        <persName>Kaspar <name type="reg">Oesterreicher</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -114,7 +138,7 @@
                Kreisrath <hi rendition="#aq">Kraser,</hi> den du vielleicht aus seiner<note corresp="#VI_218-8">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001387">
-                        <persName> Johann Baptist <name type="reg">Graser</name>
+                        <persName>Johann Baptist <name type="reg">Graser</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -123,9 +147,9 @@
                worin er die Gottähnlich<note corresp="#VI_218-9">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008566">
-                        <author>Graser, Johann Baptist (1766-1841), Schulrat in Bayreuth</author>
+                        <author>Graser, Johann Baptist (1766–1841)</author>
                         <title>Divinität oder das Princip der einzig wahren Menschenerziehung
-                           (1811)</title>
+                        (1811)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -133,18 +157,20 @@
                theoretisch auf einer<lb n="10" xml:id="VI_218-10"/> so guten Seite kennst als er
                praktisch noch mehr in den Schulen<lb xml:id="VI_218-11"/>
                <hi rendition="#aq">Bambergs</hi> bekannt ist.<note corresp="#VI_218-12">
-               <listPlace type="lineReference">
-                  <place corresp="#JP-005561">
-                     <placeName>Bamberg</placeName>
-                  </place>
-               </listPlace>
-            </note><lb xml:id="VI_218-12"/></p>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005561">
+                        <placeName>Bamberg</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_218-12"/>
+            </p>
             <p>Mit Freuden las ich im <hi rendition="#aq">Morgenblatte</hi> von der endlichen
                   Er<note corresp="#VI_218-13">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010313" ana="†">
                         <author/>
-                        <title>Morgenblatt für gebildete Stände (1807ff.)</title>
+                        <title> Morgenblatt für gebildete Stände (1807 ff.)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -152,8 +178,7 @@
                mir sehr noth thut und<note corresp="#VI_218-14">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008826" ana="†">
-                        <author>Jacobi, Friedrich Heinrich (1743-1819), Philosoph und
-                           Schriftsteller(Werk)</author>
+                        <author>Jacobi, Friedrich Heinrich (1743–1819)</author>
                         <title>Von den göttlichen Dingen (1811)</title>
                      </bibl>
                   </listBibl>
@@ -169,7 +194,7 @@
                <lb n="15" xml:id="VI_218-15"/> sein, arbeite. Zur Messe kommt bei <hi rendition="#aq">Schrag</hi> in <hi rendition="#aq">Nürnberg</hi> meine<note corresp="#VI_218-16">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003846">
-                        <persName> Johann Leonhard <name type="reg">Schrag</name>
+                        <persName>Johann Leonhard <name type="reg">Schrag</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -195,8 +220,8 @@
                   Auflagen<note corresp="#VI_218-18">
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010806">
-                        <title>Leben des vergnügten Schulmeisterleins Maria Wuz (Schulmeisterlein
-                           Maria Wutz) (1793)</title>
+                        <title>Leben des vergnügten Schulmeisterleins Maria Wuz
+                        (Schulmeisterlein Maria Wutz) (1793)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -230,7 +255,7 @@
                gelesen. — Gib dem Pfarrer<note corresp="#VI_219-2">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003059">
-                        <persName> Kaspar <name type="reg">Oesterreicher</name>
+                        <persName>Kaspar <name type="reg">Oesterreicher</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -255,7 +280,13 @@
                <lb/> Heinr. Jakobi 13 Aug. <hi rendition="#aq">
                   <hi rendition="#i">J</hi>: Jacobi S.</hi>
                <hi rendition="#aq">155. </hi>
-               <hi rendition="#b"><hi rendition="#aq">218</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">5</hi></hi> sich] <hi rendition="#aq">aus</hi> dir <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">218</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">5</hi>
+               </hi> sich] <hi rendition="#aq">aus</hi> dir <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">7</hi> Wahr<lb rendition="#hyphen"/>scheinlich] <hi rendition="#aq">aus</hi> Vielleicht <hi rendition="#aq">

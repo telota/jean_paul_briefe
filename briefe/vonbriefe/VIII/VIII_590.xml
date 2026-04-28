@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="595">590. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, Ohne Datum.</title>
+            <title n="print" type="letter" rend="590">590. An Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>318</num>
                </biblScope>
@@ -78,13 +78,25 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspContext n="edition"><ptr type="next" subtype="brief" target="VIII_591"/></correspContext><correspContext n="corpus"><ptr type="next" subtype="brief" target="VIII_591"/></correspContext><correspContext n="correspondence"><ptr type="next" subtype="brief" target="VIII_591"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="next" subtype="brief" target="I_1"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="next" subtype="brief" target="I_1"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="next" subtype="brief" target="I_108"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -97,17 +109,18 @@
                mir zu besondern Arbeiten und Festen<lb xml:id="VIII_318-6"/>haben. Jetzo, da niemand
                Wein stiehlt als ich, lang’ ich lange; z. B.<lb xml:id="VIII_318-7"/>noch 54
                Franzkrüge und 5 Flaschen besitz’ ich. —<note corresp="#VIII_318-8">
-               <listPlace type="lineReference">
-                  <place corresp="#JP-00574614">
-                     <placeName>Wein; Frankreich, französisch</placeName>
-                  </place>
-               </listPlace>
-            </note><lb xml:id="VIII_318-8"/></p>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-011312">
+                        <placeName>Wein</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VIII_318-8"/>
+            </p>
             <p>Ich danke für den angebotnen Ovid. Max braucht die Metamor<note corresp="#VIII_318-9">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009360">
-                        <author>Ovid (d.i. Publius Ovidius Naso) (43 v. Chr - 17 n. Chr.), röm.
-                           Dichter</author>
+                        <author>Ovid (d. i. Publius Ovidius Naso) (43 v. Chr–17 n. Chr.)</author>
                         <title>Metamorphosen</title>
                      </bibl>
                   </listBibl>
@@ -117,7 +130,7 @@
             <p>Bist du heute auch bei <hi rendition="#aq">Schuckmann</hi>?<note corresp="#VIII_318-11">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003878">
-                        <persName> Caspar Friedrich Freiherr von <name type="reg">Schuckmann</name>
+                        <persName>Kaspar Friedrich Freiherr von <name type="reg">Schuckmann</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -129,11 +142,23 @@
             <p>
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Berlin JP.</hi>
-               <hi rendition="#b"><hi rendition="#aq">318</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">2</hi></hi> Stein] <hi rendition="#aq">nachtr.</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">318</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">2</hi>
+               </hi> Stein] <hi rendition="#aq">nachtr.</hi>
                <hi rendition="#rkd">3 </hi>Proben] <hi rendition="#aq">aus</hi> Weinproben</p>
             <lb/>
             <p>
-               <hi rendition="#aq">Terminus a quo: Ende</hi> 1812 (jetzo, Geburttag). <hi rendition="#b"><hi rendition="#aq">318</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">7</hi></hi>
+               <hi rendition="#aq">Terminus a quo: Ende</hi> 1812 (jetzo, Geburttag). <hi rendition="#b">
+                  <hi rendition="#aq">318</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">7</hi>
+               </hi>
                <hi rendition="#aq">
                   <hi rendition="#g">Weindieb<lb rendition="#hyphen"/>stahl</hi>: vgl. Bd. VI, Nr.
                   781. </hi>

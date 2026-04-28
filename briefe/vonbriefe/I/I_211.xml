@@ -3,7 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title n="print" type="letter" rend="211">211. An Pfarrer Vogel in Rehau. </title>
-            <title n="digital">Von Jean Paul an Erhard Friedrich Vogel. Hof, 2. März 1788. </title>
+            <title n="digital">Von Jean Paul an Erhard Friedrich Vogel. Hof, 2. März 1788, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="I">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
+               <title n="I">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
                <biblScope n="text" unit="page">
                   <num>235</num>
                   <num>236</num>
@@ -78,15 +78,30 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1788-03-02">2. März 1788</date>
                <placeName key="JP-005841">Hof</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-004474">Erhard Friedrich Vogel</persName>
                <placeName key="JP-006182">Rehau,
                   Oberfranken</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="I_210"/><ptr type="next" subtype="brief" target="I_212"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="I_210"/><ptr type="next" subtype="brief" target="I_212"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="I_207"/><ptr type="next" subtype="brief" target="I_213"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-I_72"/>
+               <ptr type="next" subtype="anbrief" target="IV-I_73"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="I_210"/>
+               <ptr type="next" subtype="brief" target="I_212"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-I_70"/>
+               <ptr type="next" subtype="anbrief" target="IV-I_73"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -111,7 +126,7 @@
                Sie <note corresp="#I_235-24">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009524" ana="†">
-                        <author>Rousseau, Jean-Jacques (1712-1778)</author>
+                        <author>Rousseau, Jean-Jacques (1712–1778)</author>
                         <title>Julie ou La Nouvelle Héloise (1761)</title>
                      </bibl>
                   </listBibl>
@@ -137,27 +152,28 @@
                   ecrites de la Montagne,</hi> die ich Ihnen <note corresp="#I_236-1">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009526" ana="†">
-                        <author>Rousseau, Jean-Jacques (1712-1778)</author>
+                        <author>Rousseau, Jean-Jacques (1712–1778)</author>
                         <title>Lettres écrites de la Montagne (1764)</title>
                      </bibl>
                   </listBibl>
                </note>
                <lb xml:id="I_236-1"/>hier aus der
                   Oert<metamark>[</metamark>helschen<metamark>]</metamark> Bibliothek leihe.<note corresp="#I_236-2">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-003051">
-                     <persName> Johann Georg von <name type="reg">Oerthel</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="I_236-2"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003051">
+                        <persName>Johann Georg von <name type="reg">Oerthel</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_236-2"/>
+            </p>
             <p>Ich bitte Sie um recht viele Bände der <hi rendition="#aq">Bibliotheque choisie,</hi>
                <hi rendition="#g">noch <note corresp="#I_236-3">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-009080">
-                           <author>LeClerc (Le Clerc, Clericus), Jean (1657-1736), Theologe und
-                              Philologe</author>
-                           <title>Bibliothèque choisie (1703-1713)</title>
+                           <author>LeClerc, Jean (1657–1736)</author>
+                           <title>Bibliothèque choisie (1703–1713)</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -165,18 +181,17 @@
                Auch erfreuen Sie mich mit etwas von <note corresp="#I_236-4">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009081">
-                        <author>LeClerc (Le Clerc, Clericus), Jean (1657-1736), Theologe und
-                           Philologe</author>
-                        <title>Bibliothèque universelle et historique (1686-1693)</title>
+                        <author>LeClerc, Jean (1657–1736)</author>
+                        <title>Bibliothèque universelle et historique (1686–1693)</title>
                      </bibl>
                   </listBibl>
                </note>
                <lb xml:id="I_236-4"/>Ihren neuen Mesbüchern, wenigstens mit dem Barth. <note corresp="#I_236-5">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008083">
-                        <author>Bahrdt (Barthd, Barth, Bahrd), Carl (Karl) Friedrich (1740-1792),
-                           Theologe</author>
-                        <title>System der moralischen Religion (1787)</title>
+                        <author>Bahrdt, Carl Friedrich (1740–1792)</author>
+                        <title>System der moralischen Religion zur endlichen Beruhigung für Zweifler und
+                        Denker (2 Bde., Berlin: Vieweg 1787)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -210,11 +225,16 @@
                   <hi rendition="#i">K</hi> (nur der Schlußsatz) ohne Überschrift <lb/>am Schluß von
                   Nr. 213. <hi rendition="#i">J</hi>
                   <hi rendition="#sup">1</hi>: Wahrheit 4,190. <hi rendition="#i">J</hi>
-                  <hi rendition="#sup">2</hi>: Nachlaß 3,262. <hi rendition="#i">A</hi>: IV. Abt.,
-                  I, Nr.</hi>
+                  <hi rendition="#sup">2</hi>: Nachlaß 3,262. <hi rendition="#i">A</hi>: IV. Abt., 1, Nr.</hi>
                <hi rendition="#aq">73.</hi>
                <lb/>
-               <hi rendition="#b"><hi rendition="#aq">236</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">7</hi></hi> wenigen] <hi rendition="#rkd">5</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">236</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">7</hi>
+               </hi> wenigen] <hi rendition="#rkd">5</hi>
                <hi rendition="#aq">
                   <hi rendition="#i">K</hi>
                </hi> abfütterte] speisen können <hi rendition="#aq">

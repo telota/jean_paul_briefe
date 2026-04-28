@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="553">552. An Jacobi. </title>
-            <title n="digital">Von Jean Paul an Friedrich Heinrich Jacobi. Bayreuth, 22. Juli 1808.</title>
+            <title n="print" type="letter" rend="552">552. An Jacobi. </title>
+            <title n="digital">Von Jean Paul an Friedrich Heinrich Jacobi. Bayreuth, 22. Juli 1808, Freitag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
+               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
                <biblScope n="text" unit="page">
                   <num>226</num>
                   <num>227</num>
@@ -80,13 +80,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1808-07-22">22. Juli 1808</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-001909">Friedrich Heinrich Jacobi</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="V_550"/><ptr type="next" subtype="brief" target="V_551"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="V_550"/><ptr type="next" subtype="brief" target="V_551"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="V_397"/><ptr type="next" subtype="brief" target="VI_160"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="V_550"/>
+               <ptr type="next" subtype="brief" target="V_551"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="V_550"/>
+               <ptr type="next" subtype="brief" target="V_551"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="V_397"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_31"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -103,7 +118,7 @@
             <p>Mein theurer Heinrich! Der Ueberbringer dieses Briefes ist<note corresp="#V_226-20">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003976" ana="ff">
-                        <persName> Gustav Anton Freiherr von (Pseud. Patrick Peal) <name type="reg">Seckendorf</name>
+                        <persName>Gustav Anton Freiherr von <name type="reg">Seckendorf</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -132,11 +147,11 @@
                Jacobs und Schlichte<note corresp="#V_226-34">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001917">
-                        <persName> Friedrich <name type="reg">Jacobs</name>
+                        <persName>Friedrich <name type="reg">Jacobs</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003771">
-                        <persName> Adolf Heinrich Friedrich (ab 1808) von <name type="reg">Schlichtegroll</name>
+                        <persName>Friedrich <name type="reg">Schlichtegroll</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -159,18 +174,18 @@
                <note corresp="#V_227-7">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003469">
-                        <persName> Caroline <name type="reg">Richter</name>
+                        <persName>Caroline <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
                </note>
                <lb xml:id="V_227-7"/> meine im März in der hiesigen Harmonie (einem Klubb) ange<note corresp="#V_227-8">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0055741">
-                        <placeName>Harmonie-Gesellschaft; Bayreuth (Stadt)</placeName>
+                     <place corresp="#JP-011035">
+                        <placeName>Harmonie-Gesellschaft</placeName>
                      </place>
-                     <place corresp="#JP-00557443">
-                        <placeName>Rollwenzelei; Bayreuth (Stadt)</placeName>
+                     <place corresp="#JP-011072">
+                        <placeName>Rollwenzelei</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -181,13 +196,11 @@
             <p>Ganz wie du; denn erst neulich fand ich im wiedergelesenen alten<lb xml:id="V_227-11"/> Museum zwei anonyme Aufsätze, einen über das: Etwas über<note corresp="#V_227-12">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008166" ana="†">
-                        <author>Boie, Heinrich Christian (und Christian Wilhelm Dohm) (Werk,
-                           Hrsg.)</author>
-                        <title>Deutsches Museum (1776-1791, ab 1789 Neues)</title>
+                        <author>Boie, Heinrich Christian; Dohm, Christian Wilhelm (Hrsg.)</author>
+                        <title>Deutsches Museum (1776–1791, ab 1789 Neues)</title>
                      </bibl>
                      <bibl corresp="#JP-008811" ana="†">
-                        <author>Jacobi, Friedrich Heinrich (1743-1819), Philosoph und
-                           Schriftsteller</author>
+                        <author>Jacobi, Friedrich Heinrich (1743–1819)</author>
                         <title>Aufsätze im Deutschen Museum (1783)</title>
                      </bibl>
                   </listBibl>
@@ -196,7 +209,7 @@
                   cachets,</hi> welche durchaus<note corresp="#V_227-13">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002424" ana="†">
-                        <persName> Gotthold Ephraim <name type="reg">Lessing</name>
+                        <persName>Gotthold Ephraim <name type="reg">Lessing</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -209,8 +222,7 @@
                Geschichts-Auge deiner Antritts-Rede halten wollte; jetzt hab’ ich<note corresp="#V_227-18">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008821">
-                        <author>Jacobi, Friedrich Heinrich (1743-1819), Philosoph und
-                           Schriftsteller</author>
+                        <author>Jacobi, Friedrich Heinrich (1743–1819)</author>
                         <title>Über gelehrte Gesellschaften (Akademierede, 1807)</title>
                      </bibl>
                   </listBibl>
@@ -222,8 +234,7 @@
                auf deine (verkündigten) Anmerkungen zu Schel<note corresp="#V_227-22">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009572">
-                        <author>Schelling, Friedrich Wilhelm Joseph (ab 1812) von
-                           (1775-1854)</author>
+                        <author>Schelling, Friedrich Wilhelm Joseph von (1775–1854)</author>
                         <title>Ueber das Verhältnis der bildenden Künste zur Natur (1807)</title>
                      </bibl>
                   </listBibl>
@@ -250,7 +261,8 @@
                besser gewesen.<note corresp="#V_227-32">
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010713">
-                        <title>Friedens-Predigt an Deutschland (1808)</title>
+                        <title>Friedens-Predigt an Deutschland (Heidelberg: Mohr und Zimmer
+                        1808)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -259,13 +271,15 @@
                sittlichen Welt — —<lb xml:id="V_227-34"/> mit diesem zusammen könnte, glaub’ ich,
                sogar ein Mönch, ein<lb xml:id="V_228-1"/> Ximenes, alle Staatsmänner im Errathen
                überflügeln.<note corresp="#V_228-2">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-004828">
-                     <persName> Francisco <name type="reg">Ximenes de Cisneros</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="V_228-2"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004828">
+                        <persName>Francisco <name type="reg">Ximenes de Cisneros</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="V_228-2"/>
+            </p>
             <p>Mich engt die Unentschiedenheit der jetzigen Welt in allen meinen<lb xml:id="V_228-3"/> Planen ein, oft in solchen, die sich auf sechs Groschen oder sechs<lb xml:id="V_228-4"/> Schritte belaufen. Indeß wird mir doch die Überzeugung immer<lb n="5" xml:id="V_228-5"/> durchgreifender, daß ja überall die äußere Welt nur von
                einer Unent<lb xml:id="V_228-6" rendition="#hyphen"/>schiedenheit in eine andere
                höhere überschwanke und man also, um<lb xml:id="V_228-7"/> etwas zu wagen, warten
@@ -294,15 +308,15 @@
                herzlich deine Schwestern, die Frauen von Schlichtegroll und<note corresp="#V_228-22">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001906">
-                        <persName> Charlotte und Helene <name type="reg">Jacobi</name>
+                        <persName>Charlotte und Helene <name type="reg">Jacobi</name>
                         </persName>
                      </person>
                      <person corresp="#JP-001916">
-                        <persName> Christiane <name type="reg">Jacobs</name>
+                        <persName>Christiane <name type="reg">Jacobs</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003778">
-                        <persName> Auguste <name type="reg">Schlichtegroll</name>
+                        <persName>Auguste <name type="reg">Schlichtegroll</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -311,11 +325,11 @@
                   jeder<note corresp="#V_228-23">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001917">
-                        <persName> Friedrich <name type="reg">Jacobs</name>
+                        <persName>Friedrich <name type="reg">Jacobs</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003771">
-                        <persName> Adolf Heinrich Friedrich (ab 1808) von <name type="reg">Schlichtegroll</name>
+                        <persName>Friedrich <name type="reg">Schlichtegroll</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -334,7 +348,7 @@
                <p>Patrick Peale gefällt mir immer mehr durch seinen reinen festen<note corresp="#V_228-27">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003976" ana="ff">
-                           <persName> Gustav Anton Freiherr von (Pseud. Patrick Peal) <name type="reg">Seckendorf</name>
+                           <persName>Gustav Anton Freiherr von <name type="reg">Seckendorf</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -356,16 +370,16 @@
                   fl. er gleichfalls kam, so daß er sich durch<lb xml:id="V_228-34"/> Fischen
                   erhielt — der dann in Sachsen Landeshauptmann wurde —<note corresp="#V_228-35">
                      <listPlace type="lineReference">
-                        <place corresp="#JP-006224">
-                           <placeName>Sachsen, Kursachsen, sächsisch</placeName>
+                        <place corresp="#JP-006223">
+                           <placeName>Sachsen, Kursachsen, sächsisch </placeName>
                         </place>
                      </listPlace>
                   </note>
                   <lb n="35" xml:id="V_228-35"/> in Wittenberg die französischen und sächsischen
                   Verhältnisse aus<note corresp="#V_228-36">
                      <listPlace type="lineReference">
-                        <place corresp="#JP-00574610">
-                           <placeName>Politik, Krieg, Militär; Frankreich, französisch</placeName>
+                        <place corresp="#JP-011308">
+                           <placeName>Politik, Krieg, Militär</placeName>
                         </place>
                         <place corresp="#JP-006415">
                            <placeName>Wittenberg</placeName>
@@ -377,7 +391,7 @@
                      <listPerson type="lineReference">
                         <person corresp="#JP-001190">
                            <persName>
-                              <name type="reg">Friedrich</name>
+                              <name type="reg">Friedrich, Herzog von Sachsen-Hildburghausen</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -392,7 +406,7 @@
                      <listPerson type="lineReference">
                         <person corresp="#JP-001175">
                            <persName>
-                              <name type="reg">Friedrich August I.</name>
+                              <name type="reg">Friedrich August I., König von Sachsen</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -401,8 +415,7 @@
                   wegen, welcher seine Rechtlichkeit nicht aushielt, selber<note corresp="#V_229-2">
                      <listPerson type="lineReference">
                         <person corresp="#JP-002445">
-                           <persName>
-                              <name type="reg">Lichtenstein (?)</name>
+                           <persName>Minister <name type="reg">Lichtenstein (?)</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -412,7 +425,7 @@
                   Völderndorf gab<note corresp="#V_229-4">
                      <listPerson type="lineReference">
                         <person corresp="#JP-004445">
-                           <persName> Carl Friedrich Wilhelm Freiherr von <name type="reg">Voelderndorff und Waradein</name>
+                           <persName>Carl Friedrich Wilhelm Freiherr von <name type="reg">Voelderndorff und Waradein</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -421,7 +434,7 @@
                      Mög’<note corresp="#V_229-5">
                      <listPerson type="lineReference">
                         <person corresp="#JP-002086">
-                           <persName> Karl Freiherr <name type="reg">Kesling von Berger</name>
+                           <persName>Karl Freiherr <name type="reg">Kesling von Berger</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -449,17 +462,29 @@
                   <hi rendition="#sup">1</hi>: Roth Nr. 333× (der letzte Absatz gehört<lb/> zum
                   Brief v. 21. Sept. 1809, Bd. VI, Nr. 160). <hi rendition="#i">J</hi>
                   <hi rendition="#sup">2</hi>: Jacobi S. 133× (die<lb/> 2. Nachschrift, S. 138f.,
-                  gehört zum Brief Bd. VI, Nr. 160). <hi rendition="#i">A</hi>: IV. Abt., VI,<lb/>
+                  gehört zum Brief Bd. VI, Nr. 160). <hi rendition="#i">A</hi>: IV. Abt., 6,<lb/>
                   Nr.</hi>
                <hi rendition="#aq">31. </hi>
-               <hi rendition="#b"><hi rendition="#aq">226</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">25</hi></hi> Kammerdirektors-] <hi rendition="#aq">aus</hi> Kammerraths- <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">226</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">25</hi>
+               </hi> Kammerdirektors-] <hi rendition="#aq">aus</hi> Kammerraths- <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">30</hi> weiteifernde]<lb/>
                <hi rendition="#aq">aus</hi> weitereifernde <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">227</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">1</hi></hi> können] <hi rendition="#aq">aus</hi> werden <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">227</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">1</hi>
+               </hi> können] <hi rendition="#aq">aus</hi> werden <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">5</hi> kamst] <hi rendition="#aq">aus</hi> kamest <hi rendition="#aq">
@@ -482,7 +507,13 @@
                <hi rendition="#aq">davor gestr.</hi> metaphysischen <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">228</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">1</hi></hi> mit diesem] <hi rendition="#aq">aus</hi> dieß <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">228</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">1</hi>
+               </hi> mit diesem] <hi rendition="#aq">aus</hi> dieß <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">6</hi> durch<lb rendition="#hyphen"/>greifender] eingreifender
@@ -510,7 +541,13 @@
                </hi>
                <hi rendition="#rkd">20</hi> und<lb/> läßt] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">229</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">6</hi></hi> eine <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">229</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">6</hi>
+               </hi> eine <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
             </p>

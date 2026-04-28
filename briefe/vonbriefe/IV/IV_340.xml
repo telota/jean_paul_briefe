@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="346">*340. An Emanuel. </title>
-            <title n="digital">Von Jean Paul an Emanuel. Meiningen, 27. Januar 1803.</title>
+            <title n="print" type="letter" rend="340">*340. An Emanuel. </title>
+            <title n="digital">Von Jean Paul an Emanuel. Meiningen, 27. Januar 1803, Donnerstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,11 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"/><biblScope n="comment" unit="page"/></bibl>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page"/>
+               <biblScope n="comment" unit="page"/>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -70,14 +74,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1803-01-27">27. Januar 1803</date>
                <placeName key="JP-006012">Meiningen
                </placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-003087">Emanuel Osmund</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0255"/><ptr type="next" subtype="brief" target="IV_341"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="IV_338"/><ptr type="next" subtype="brief" target="IV_341"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="IV_335"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0553"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000941">Emanuel</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB4610"/>
+               <ptr type="next" subtype="brief" target="IV_341"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="IV_338"/>
+               <ptr type="next" subtype="brief" target="IV_341"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="IV_335"/>
+               <ptr type="next" subtype="brief" target="IV_347"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -94,40 +113,43 @@
             <p>Lieber Alter und Neuer! Meine Frau sol morgen den Brief fort<note corresp="#IV_198-25">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003469">
-                        <persName> Caroline <name type="reg">Richter</name>
+                        <persName>Caroline <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
                </note>
                <lb n="25" xml:id="IV_198-25" rendition="#hyphen"/>sezen, wenn ich fort bin; denn ich
                gehe auf 12 oder 14 Tage mit dem<lb xml:id="IV_198-26"/>Herzog nach <hi rendition="#aq">Gotha, Weimar, Rudolstadt</hi> und <hi rendition="#aq">Sonneberg.</hi>
-            <note corresp="#IV_198-27">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-001289">
-                     <persName> Herzog von Sachsen-Meiningen <name type="reg">Georg I.</name>
-                     </persName>
-                  </person>
-               </listPerson>
-               <listPlace type="lineReference">
-                  <place corresp="#JP-005791">
-                     <placeName>Gotha</placeName>
-                  </place>
-                  <place corresp="#JP-006213">
-                     <placeName>Rudolstadt</placeName>
-                  </place>
-                  <place corresp="#JP-006287">
-                     <placeName>Sonneberg in Thüringen</placeName>
-                  </place>
-                  <place corresp="#JP-006395">
-                     <placeName>Weimar</placeName>
-                  </place>
-               </listPlace>
-            </note><lb xml:id="IV_198-27"/></p>
+               <note corresp="#IV_198-27">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001289">
+                        <persName>
+                           <name type="reg">Georg I., Herzog von Sachsen-Meiningen</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005791">
+                        <placeName>Gotha</placeName>
+                     </place>
+                     <place corresp="#JP-006213">
+                        <placeName>Rudolstadt</placeName>
+                     </place>
+                     <place corresp="#JP-006287">
+                        <placeName>Sonneberg </placeName>
+                     </place>
+                     <place corresp="#JP-006395">
+                        <placeName>Weimar</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="IV_198-27"/>
+            </p>
             <p> Was ich hier selber sagen wolte ist, daß ich nicht begreife, warum<lb xml:id="IV_198-28"/>Sie mir oder uns auf das Schreiben v. 26 <hi rendition="#aq">Dec.</hi> 1802 nichts antworten,<lb xml:id="IV_198-29"/>da doch sogar Otto Sie
                beschämt, der mir schon im kürzlichen Oktober<note corresp="#IV_198-30">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003112">
-                        <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                        <persName>Georg Christian <name type="reg">Otto</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -154,7 +176,13 @@
                   <hi rendition="#sup">1</hi>): Wahrheit</hi>
                <lb/>
                <hi rendition="#aq">6,260. </hi>
-               <hi rendition="#b"><hi rendition="#aq">198</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">26</hi></hi> gehe <hi rendition="#aq">bis<hi rendition="#rkd"> 27</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">198</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">26</hi>
+               </hi> gehe <hi rendition="#aq">bis<hi rendition="#rkd"> 27</hi>
                   <hi rendition="#i">Sonneberg</hi>
                </hi>] verreise <hi rendition="#aq">
                   <hi rendition="#i">K</hi>
@@ -171,7 +199,13 @@
             </p>
             <lb/>
             <p>
-               <hi rendition="#b"><hi rendition="#aq">198</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">30</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">198</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">30</hi>
+               </hi>
                <hi rendition="#aq">
                   <hi rendition="#g">Oktober:</hi> vielmehr September, s. IV. Abt. (Br. an J.P.),
                   IV, Nr.</hi>

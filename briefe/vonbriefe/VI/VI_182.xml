@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="183">182. An Emanuel. </title>
-            <title n="digital">Von Jean Paul an Emanuel. Bayreuth, 13. November 1809.</title>
+            <title n="print" type="letter" rend="182">182. An Emanuel. </title>
+            <title n="digital">Von Jean Paul an Emanuel. Bayreuth, 13. November 1809, Montag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>67</num></biblScope><biblScope n="comment" unit="page"><num>452</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>67</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>452</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1809-11-13">13. November 1809</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-003087">Emanuel Osmund</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_181"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0912"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_181"/><ptr type="next" subtype="brief" target="VI_183"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_181"/><ptr type="next" subtype="brief" target="VI_183"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000941">Emanuel</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_181"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_47"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_181"/>
+               <ptr type="next" subtype="brief" target="VI_183"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_181"/>
+               <ptr type="next" subtype="brief" target="VI_183"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -91,21 +114,23 @@
             <lb xml:id="VI_67-4"/>
             <p>Sie geben mir noch einen schönen Abend, nicht durch das Bier<note corresp="#VI_67-5">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0055740">
-                        <placeName>Bier; Bayreuth (Stadt)</placeName>
+                     <place corresp="#JP-011034">
+                        <placeName>Bier</placeName>
                      </place>
                   </listPlace>
                </note>
                <lb n="5" xml:id="VI_67-5"/> sondern durch das Erinnern desselben und durch die
                Nachricht von<lb xml:id="VI_67-6"/>
                <hi rendition="#aq">Otto.</hi> Sogar in die Freundschaft gehört ein Sturm. —<note corresp="#VI_67-7">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-003112" ana="†">
-                     <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="VI_67-7"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003112" ana="†">
+                        <persName>Georg Christian <name type="reg">Otto</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_67-7"/>
+            </p>
             <p>Schlafen Sie wol, mein Freund, von dem keine Gewalt mich<lb xml:id="VI_67-8"/> so
                leicht losreißt, nicht einmal Ihre.</p>
             <lb xml:id="VI_67-9"/>
@@ -119,7 +144,7 @@
          <div type="comment">
             <p>
                <hi rendition="#aq">
-                  <hi rendition="#i">H</hi>: SBa. Präsentat: Am 13 Nov. 9. <hi rendition="#i">B</hi>: IV. Abt., VI, Nr.</hi>
+                  <hi rendition="#i">H</hi>: SBa. Präsentat: Am 13 Nov. 9. <hi rendition="#i">B</hi>: IV. Abt., 6, Nr.</hi>
                <hi rendition="#aq">47.</hi>
             </p>
             <lb/>

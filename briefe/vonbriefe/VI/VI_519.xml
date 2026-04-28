@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="520">519. An Dr. Brendel in Erlangen. </title>
-            <title n="digital">Von Jean Paul an Sebald Brendel. Bayreuth, 2. August 1811.</title>
+            <title n="print" type="letter" rend="519">519. An Dr. Brendel in Erlangen. </title>
+            <title n="digital">Von Jean Paul an Sebald Brendel. Bayreuth, 2. August 1811, Freitag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,17 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>215</num><num>216</num></biblScope><biblScope n="comment" unit="page"><num>516</num><num>517</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>215</num>
+                  <num>216</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>516</num>
+                  <num>517</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -70,14 +80,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date cert="medium" when="1811-08-02">2. August 1811</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-000483">Sebald Brendel</persName>
-               <placeName key="JP-005722">Erlangen</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_518"/><ptr type="next" subtype="brief" target="VI_520"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_518"/><ptr type="next" subtype="brief" target="VI_520"/></correspContext><correspContext n="correspondence"><ptr type="next" subtype="brief" target="VII_18-fb"/></correspContext></correspDesc>
+               <placeName key="JP-005721">Erlangen</placeName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_518"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB4659"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_518"/>
+               <ptr type="next" subtype="brief" target="VI_520"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="next" subtype="anbrief" target="IV-VI_216"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -96,7 +120,7 @@
                ins Ohr gesagte) thu’ <metamark>[</metamark>ich<metamark>]</metamark>
                <note corresp="#VI_215-16">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-005722">
+                     <place corresp="#JP-005721">
                         <placeName>Erlangen </placeName>
                      </place>
                   </listPlace>
@@ -104,7 +128,7 @@
                <lb xml:id="VI_215-16"/> um meine Rechnung für das Valet-Nachtmahl bei <hi rendition="#aq">Toussaint,</hi> dem<note corresp="#VI_215-17">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004327">
-                        <persName> Johann Albrecht <name type="reg">Toussaint</name>
+                        <persName>Johann Albrecht <name type="reg">Toussaint</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -113,17 +137,17 @@
                   Länge<lb xml:id="VI_215-18"/> einer kalten Thomas Nacht. Die zweite betrift Ihr
                   Klub-Bier;<note corresp="#VI_215-19">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0057220" ana="ff">
-                        <placeName>Bier; Erlangen </placeName>
+                     <place corresp="#JP-011274" ana="ff">
+                        <placeName>Bier</placeName>
                      </place>
                   </listPlace>
                </note>
                <lb xml:id="VI_215-19"/> Klub-Leim hätt’ ich geschrieben, wäre <hi rendition="#aq">Erlangen Bayreuth.</hi> Ob<note corresp="#VI_215-20">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005574">
-                        <placeName>Bayreuth (Stadt)</placeName>
+                        <placeName>Bayreuth </placeName>
                      </place>
-                     <place corresp="#JP-005722">
+                     <place corresp="#JP-005721">
                         <placeName>Erlangen </placeName>
                      </place>
                   </listPlace>
@@ -144,7 +168,7 @@
                <lb xml:id="VI_215-26"/> haben, wenn das Wetter, der Klub und Sie, oder <hi rendition="#aq">Mehmel</hi> oder<note corresp="#VI_215-27">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002726">
-                        <persName> Gottlieb Ernst August <name type="reg">Mehmel</name>
+                        <persName>Gottlieb Ernst August <name type="reg">Mehmel</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -154,7 +178,7 @@
                   mit<note corresp="#VI_215-28">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004327" ana="†">
-                        <persName> Johann Albrecht <name type="reg">Toussaint</name>
+                        <persName>Johann Albrecht <name type="reg">Toussaint</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -163,7 +187,7 @@
                wollten. Je<lb xml:id="VI_215-29" rendition="#hyphen"/>der Geld-Preis, um welchen ich
                meinen Erlanger Leib wieder erstehe<note corresp="#VI_215-30">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-005722">
+                     <place corresp="#JP-005721">
                         <placeName>Erlangen </placeName>
                      </place>
                   </listPlace>
@@ -175,7 +199,7 @@
                wie Ihren H. Grafen.<note corresp="#VI_215-33">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003591">
-                        <persName> Karl Julius Heinrich Graf von <name type="reg">Rottenhan</name>
+                        <persName>Karl Graf von <name type="reg">Rottenhan</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -184,7 +208,7 @@
                Gruße noch: „ich dächte dar<note corresp="#VI_215-34">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002726">
-                        <persName> Gottlieb Ernst August <name type="reg">Mehmel</name>
+                        <persName>Gottlieb Ernst August <name type="reg">Mehmel</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -210,7 +234,13 @@
                </hi> Brändel in <hi rendition="#aq">
                   <hi rendition="#i">Erlang.</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">215</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">16</hi></hi> thu’] <hi rendition="#aq">aus</hi> ist <hi rendition="#rkd">17</hi> meine<lb/>
+               <hi rendition="#b">
+                  <hi rendition="#aq">215</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">16</hi>
+               </hi> thu’] <hi rendition="#aq">aus</hi> ist <hi rendition="#rkd">17</hi> meine<lb/>
                Rechnung] <hi rendition="#aq">aus</hi> meinen Rechnungs Beitrag dem <hi rendition="#aq">bis</hi>
                <hi rendition="#rkd">19</hi> Nacht.] <hi rendition="#aq">aus</hi> das<lb/> freilich
                die Thomas Nacht hätte dauern sollen, können, um die Thomaße,<lb/> die keine Freude —
@@ -229,7 +259,13 @@
                <hi rendition="#aq">
                   <hi rendition="#i">Charte</hi>]<lb/> aus <hi rendition="#i">Carte</hi>
                   <hi rendition="#rkd">34</hi>f.</hi> „ich dächte darüber nach.“] <hi rendition="#aq">aus</hi> daß ich [<hi rendition="#aq">gestr.</hi> nachsinne]<lb/>
-               nach- und bedenke. <hi rendition="#b"><hi rendition="#aq">216</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">1</hi></hi> haben sich] <hi rendition="#aq">verb. in</hi> erscheinen <hi rendition="#rkd">2</hi> kommen] <hi rendition="#aq">verb.<lb/> in</hi> erscheinen <hi rendition="#aq">und wiederherg.</hi> wieder] <hi rendition="#aq">aus</hi> zurück.
+               nach- und bedenke. <hi rendition="#b">
+                  <hi rendition="#aq">216</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">1</hi>
+               </hi> haben sich] <hi rendition="#aq">verb. in</hi> erscheinen <hi rendition="#rkd">2</hi> kommen] <hi rendition="#aq">verb.<lb/> in</hi> erscheinen <hi rendition="#aq">und wiederherg.</hi> wieder] <hi rendition="#aq">aus</hi> zurück.
                   <hi rendition="#aq">danach gestr. <hi rendition="#i">Toussaint</hi>
                </hi>
                <lb/> zu grüßen; er ist der schönste Bund von Deutschen und Franzosen.</p>

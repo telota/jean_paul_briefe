@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="541">540. An Emanuel. </title>
-            <title n="digital">Von Jean Paul an Emanuel. Bayreuth, 25. September 1811.</title>
+            <title n="print" type="letter" rend="540">540. An Emanuel. </title>
+            <title n="digital">Von Jean Paul an Emanuel. Bayreuth, 25. September 1811, Mittwoch.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>224</num></biblScope><biblScope n="comment" unit="page"><num>520</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>224</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>520</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1811-09-25">25. September 1811</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-003087">Emanuel Osmund</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_539"/><ptr type="next" subtype="brief" target="VI_541"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_539"/><ptr type="next" subtype="brief" target="VI_541"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_539"/><ptr type="next" subtype="brief" target="VI_549"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000941">Emanuel</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_539"/>
+               <ptr type="next" subtype="brief" target="VI_541"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_539"/>
+               <ptr type="next" subtype="brief" target="VI_541"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_539"/>
+               <ptr type="next" subtype="brief" target="VI_549"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -93,7 +116,7 @@
                heute dem <hi rendition="#aq">Fischer</hi> das Miethgeld sammt der Anzeige des<note corresp="#VI_224-17">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001090">
-                        <persName> Gottfried Theodor Christoph <name type="reg">Fischer</name>
+                        <persName>Gottfried Theodor Christoph <name type="reg">Fischer</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -101,7 +124,7 @@
                <lb xml:id="VI_224-17"/> morgendlichen Auszugs schicken. <hi rendition="#aq">Caroline</hi> aber will das Geld,<note corresp="#VI_224-18">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003469">
-                        <persName> Caroline <name type="reg">Richter</name>
+                        <persName>Caroline <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -118,7 +141,13 @@
             <p>
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Berlin JP.</hi>
-               <hi rendition="#b"><hi rendition="#aq">224</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">18</hi></hi> Auszugs] <hi rendition="#aq">aus</hi> Abzugs</p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">224</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">18</hi>
+               </hi> Auszugs] <hi rendition="#aq">aus</hi> Abzugs</p>
             <lb/>
             <p>
                <hi rendition="#aq">Das Billett lag unter denen an Otto, war aber, wie das „Sie“

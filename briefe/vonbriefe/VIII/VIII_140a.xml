@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="141">140a. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, Januar 1821.</title>
+            <title n="print" type="letter" rend="140a">140a. An Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth, Januar 1821.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>92</num>
                </biblScope>
@@ -77,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date notBefore="1821-01-01" notAfter="1821-01-31">Januar 1821</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VIII_138"/><ptr type="next" subtype="brief" target="VIII_140b"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VIII_138"/><ptr type="next" subtype="brief" target="VIII_140b"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VIII_124"/><ptr type="next" subtype="brief" target="VIII_140b"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VIII_138"/>
+               <ptr type="next" subtype="brief" target="VIII_140b"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VIII_138"/>
+               <ptr type="next" subtype="brief" target="VIII_140b"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VIII_124"/>
+               <ptr type="next" subtype="brief" target="VIII_140b"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -101,14 +116,13 @@
                   majorenn<lb xml:id="VIII_92-11"/>gemachten Franzwein, den ich nun bei <hi rendition="#aq">Hartmann</hi> gegen ein Oxhofft<note corresp="#VIII_92-12">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001558">
-                        <persName>
-                           <name type="reg">Hartmann</name>
+                        <persName>Gastwirt <name type="reg">Hartmann</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listPlace type="lineReference">
-                     <place corresp="#JP-00574614">
-                        <placeName>Wein; Frankreich, französisch</placeName>
+                     <place corresp="#JP-011312">
+                        <placeName>Wein</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -120,7 +134,7 @@
                </hi> lange im Kopfe herum<note corresp="#VIII_92-15">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003469">
-                        <persName> Caroline <name type="reg">Richter</name>
+                        <persName>Caroline <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -131,7 +145,7 @@
                   einen<note corresp="#VIII_92-18">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004066">
-                        <persName> Samuel Thomas von <name type="reg">Soemmerring</name>
+                        <persName>Samuel Thomas von <name type="reg">Soemmerring</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -151,7 +165,13 @@
                   <hi rendition="#i">H</hi>: Berlin JP. <hi rendition="#b">92</hi>, <hi rendition="#rkd">13</hi>f.</hi> Austrägalgerichts</p>
             <lb/>
             <p>
-               <hi rendition="#b"><hi rendition="#aq">92</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">18</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">92</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">18</hi>
+               </hi>
                <hi rendition="#aq">
                   <hi rendition="#g">Sömmerring</hi> war schon im Okt. 1820 nach Frankfurt a.
                   M.<lb/>zurückgekehrt.</hi>

@@ -2,9 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="319">313. An Herzog Georg von Meiningen. </title>
-            <title n="digital">Von Jean Paul an Herzog von Sachsen-Meiningen Georg I. Meiningen, 19. September
-               1802.</title>
+            <title n="print" type="letter" rend="313">313. An Herzog Georg von Meiningen. </title>
+            <title n="digital">Von Jean Paul an Georg I., Herzog von Sachsen-Meiningen. Meiningen, 19. September 1802, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -46,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +60,11 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"/><biblScope n="comment" unit="page"/></bibl>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page"/>
+               <biblScope n="comment" unit="page"/>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -71,14 +74,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1802-09-19">19. September 1802</date>
                <placeName key="JP-006012">Meiningen
                </placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-001289">Herzog von Sachsen-Meiningen Georg I.</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="IV_312"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0822"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="IV_312"/><ptr type="next" subtype="brief" target="IV_314"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="IV_312"/><ptr type="next" subtype="brief" target="IV_330"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-001289">Georg I., Herzog von Sachsen-Meiningen</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB4608"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB0822"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="IV_312"/>
+               <ptr type="next" subtype="brief" target="IV_314"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="IV_312"/>
+               <ptr type="next" subtype="brief" target="IV_330"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -115,13 +133,15 @@
                      </listPlace>
                   </note>
                   <lb xml:id="IV_177-28"/>oder nach Grimmathal geht.</hi>
-            <note corresp="#IV_177-29">
-               <listPlace type="lineReference">
-                  <place corresp="#JP-005797">
-                     <placeName>Grimmathal bei Meiningen</placeName>
-                  </place>
-               </listPlace>
-            </note><lb xml:id="IV_177-29"/></p>
+               <note corresp="#IV_177-29">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005797">
+                        <placeName>Grimmathal bei Meiningen</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="IV_177-29"/>
+            </p>
             <p>Ich kan Attestate von meinem Prinzipal beibringen, daß ich so<lb n="30" xml:id="IV_177-30"/>wenig von der Jagd verstehe als er und daß ich stets hinter
                   seinem<lb xml:id="IV_177-31"/>Stok der nächste bin; und die einzige niedere Jagd
                und freie Pürsch,<lb xml:id="IV_177-32"/>die ich mir erlaube, weil mich der
@@ -129,8 +149,11 @@
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010351">
                         <author/>
-                        <title>Reichs-Anzeiger (Reichsanzeiger) (1793ff.), vorher: Der
-                           Anzeiger(1791-1793), hrsg. von Rudolf Zacharias Becker</title>
+                        <title>Reichs-Anzeiger (Reichsanzeiger) (1793 ff.), vorher: Der Anzeiger
+                        (1791–1793), später: Allgemeiner Anzeiger der Deutschen (1806–1829), hrsg.
+                        von
+                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Rudolf
+                        Zacharias Becker<?oxy_custom_end?></title>
                      </bibl>
                   </listBibl>
                </note>
@@ -163,7 +186,13 @@
                   noch ein Zusatz, s. Nr. 328. <hi rendition="#i">i</hi> (nach <hi rendition="#i">K</hi>
                   <hi rendition="#sup">2</hi>): Wahrheit</hi>
                <hi rendition="#aq">6,248. </hi>
-               <hi rendition="#b"><hi rendition="#aq">177</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">20</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">177</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">20</hi>
+               </hi>
                <lb/>
                <hi rendition="#aq">
                   <hi rendition="#i">pp</hi>] fehlt <hi rendition="#i">K</hi>
@@ -230,7 +259,13 @@
                <hi rendition="#aq">
                   <hi rendition="#i">K</hi>
                   <hi rendition="#sup">2</hi> ist die an Emanuel und Otto gesandte Kopie, s.</hi>
-               <hi rendition="#b"><hi rendition="#aq">190</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">14</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">190</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">14</hi>
+               </hi>
                <hi rendition="#aq">.</hi>
             </p>
             <lb/>

@@ -2,9 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="505">501. An Cotta. </title>
-            <title n="digital">Von Jean Paul an Johann Friedrich Freiherr Cotta von Cottendorf. Bayreuth, 27.
-               Januar 1819.</title>
+            <title n="print" type="letter" rend="501">501. An Cotta. </title>
+            <title n="digital">Von Jean Paul an Johann Friedrich Cotta von Cottendorf. Bayreuth, 27. Januar 1819, Mittwoch.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -46,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -61,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
+               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
                <biblScope n="text" unit="page">
                   <num>252</num>
                   <num>253</num>
@@ -78,24 +77,39 @@
             </msDesc>
             <listPerson type="commentary">
                <person corresp="#JP-000699">
-                  <persName> Johann Georg <name type="reg">Cotta von Cottendorf</name>
+                  <persName>Johann Georg Freiherr <name type="reg">Cotta von Cottendorf</name>
                   </persName>
                </person>
                <person corresp="#JP-000700">
-                  <persName> Wilhelmine <name type="reg">Cotta von Cottendorf</name>
+                  <persName>Wilhelmine Freiin <name type="reg">Cotta von Cottendorf</name>
                   </persName>
                </person>
             </listPerson>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1819-01-27">27. Januar 1819</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-000698">Johann Friedrich Freiherr Cotta von Cottendorf</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VII_500"/><ptr type="next" subtype="brief" target="VII_502"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VII_500"/><ptr type="next" subtype="brief" target="VII_502"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VII_497"/><ptr type="next" subtype="brief" target="VII_544"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000698">Johann Friedrich von Cotta</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-VII_164"/>
+               <ptr type="next" subtype="brief" target="VII_502"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VII_500"/>
+               <ptr type="next" subtype="brief" target="VII_502"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VII_163"/>
+               <ptr type="next" subtype="anbrief" target="IV-VII_EB_69"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -112,7 +126,8 @@
             <p>Ihr heutiger Brief hat mir Freude mitgebracht. Da ich erst Ihre<note corresp="#VII_252-29">
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010949" ana="ff">
-                        <title>Unternacht-Gedanken über den magnetischen Weltkörper (1819)</title>
+                        <title>Unternacht-Gedanken über den magnetischen Weltkörper
+                        (1819)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -131,7 +146,8 @@
                   <listPerson type="lineReference">
                      <person corresp="#JP-002061" ana="†">
                         <persName>
-                           <name type="reg">Katharina Pawlowna</name>
+                           <name type="reg">Katharina Pawlowna, ab 1809 Herzogin von Oldenburg, ab 1816 Königin
+                            von Württemberg</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -158,17 +174,19 @@
                </note>
                <lb xml:id="VII_253-13"/> Könige gegeben und einen deutschen Churfürsten als Beilage
                dazu.<note corresp="#VII_253-14">
-               <listPlace type="lineReference">
-                  <place corresp="#JP-0056690">
-                     <placeName>Deutsche; Deutschland , deutsch , Germanien, Vaterland</placeName>
-                  </place>
-               </listPlace>
-            </note><lb xml:id="VII_253-14"/></p>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-011167">
+                        <placeName>Deutsche</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VII_253-14"/>
+            </p>
             <p>Dennoch will ich Stuttgart sehen. Wäre nur <hi rendition="#aq">Wangenheim</hi>
                   da!<note corresp="#VII_253-15">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004599">
-                        <persName> Karl August Freiherr von <name type="reg">Wangenheim</name>
+                        <persName>Karl August Freiherr von <name type="reg">Wangenheim</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -179,7 +197,7 @@
                   <listPerson type="lineReference">
                      <person corresp="#JP-004725">
                         <persName>
-                           <name type="reg">Wilhelm I.</name>
+                           <name type="reg">Wilhelm I., König von Württemberg</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -203,14 +221,26 @@
                   fremder Hand): <hi rendition="#i">Cotta</hi>
                </hi> 27<hi rendition="#sup">ten</hi> Jenn. <hi rendition="#aq">
                   <hi rendition="#i">J</hi>: Cotta 2,514×. <hi rendition="#i">B</hi>
-                  <hi rendition="#sup">1</hi>: IV. Abt., VII, Nr. 159.<lb/>
+                  <hi rendition="#sup">1</hi>: IV. Abt., 7, Nr. 159.<lb/>
                   <hi rendition="#i">B</hi>
-                  <hi rendition="#sup">2</hi>: IV. Abt., VII, Nr.</hi>
+                  <hi rendition="#sup">2</hi>: IV. Abt., 7, Nr.</hi>
                <hi rendition="#aq">163. </hi>
-               <hi rendition="#b"><hi rendition="#aq">252</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">31</hi></hi> Ihrem Unterschiede] <hi rendition="#aq">aus</hi> Ihrer Rücksicht <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">252</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">31</hi>
+               </hi> Ihrem Unterschiede] <hi rendition="#aq">aus</hi> Ihrer Rücksicht <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">253</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">1</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">253</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">1</hi>
+               </hi>
                <lb/> Absicht und Darstellung] <hi rendition="#aq">aus</hi> Absichten <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>

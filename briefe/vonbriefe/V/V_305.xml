@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="306">305. An Knebel in Jena. </title>
-            <title n="digital">Von Jean Paul an Karl Ludwig von Knebel. Bayreuth, 16. Januar 1807.</title>
+            <title n="print" type="letter" rend="305">305. An Knebel in Jena. </title>
+            <title n="digital">Von Jean Paul an Karl Ludwig von Knebel. Bayreuth, 16. Januar 1807, Freitag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
+               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
                <biblScope n="text" unit="page">
                   <num>125</num>
                   <num>126</num>
@@ -81,14 +81,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1807-01-16">16. Januar 1807</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-002149">Karl Ludwig von Knebel</persName>
                <placeName key="JP-005875">Jena</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="V_304"/><ptr type="next" subtype="brief" target="V_306"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="V_304"/><ptr type="next" subtype="brief" target="V_306"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="V_135"/><ptr type="next" subtype="brief" target="V_376"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="V_304"/>
+               <ptr type="next" subtype="brief" target="V_306"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="V_304"/>
+               <ptr type="next" subtype="brief" target="V_306"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-V_115"/>
+               <ptr type="next" subtype="anbrief" target="IV-V_119"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -118,8 +133,8 @@
                entrückte nachschimmernde<lb xml:id="V_126-2"/> Aue hinüber. Gott sei nur Dank, daß
                man die Leidtragenden der<lb xml:id="V_126-3"/> langen Leiche des deutschen Reichs<hi rendition="#g">körpers</hi> nur noch hat! —<note corresp="#V_126-4">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0056730">
-                        <placeName>Reich; Deutschland, deutsches</placeName>
+                     <place corresp="#JP-011195">
+                        <placeName>Reich</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -130,7 +145,7 @@
                </hi> Land zog die Kriegs-Hagelwolke nur<note corresp="#V_126-7">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005575">
-                        <placeName>Bayreuth, Markgrafschaft </placeName>
+                        <placeName>Markgrafschaft (Fürstentum, Land, Vaterland)</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -191,7 +206,7 @@
                   und<note corresp="#V_126-31">
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010727">
-                        <title>Hesperus (1795)</title>
+                        <title>Hesperus (3 Bde., Berlin: Matzdorff 1795)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -223,7 +238,7 @@
                      </bibl>
                      <bibl corresp="#JP-010686">
                         <title>Ergänzblatt (Ergänzungsblatt) zur Levana (1807): Dedikation für
-                           Sophie Paulus (handschriftlich)</title>
+                        Sophie Paulus (handschriftlich)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -233,7 +248,7 @@
             <p>Ich sehne mich nach Ihnen, nach <hi rendition="#aq">Goethe</hi> und <hi rendition="#aq">Weimar.</hi> Was die<note corresp="#V_127-12">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001353">
-                        <persName> Johann Wolfgang von <name type="reg">Goethe</name>
+                        <persName>Johann Wolfgang von <name type="reg">Goethe</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -247,7 +262,8 @@
                   von<note corresp="#V_127-13">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002544" ana="†">
-                        <persName> Auguste <name type="reg">Luise</name>
+                        <persName>
+                           <name type="reg">Luise, Herzogin von Sachsen-Weimar-Eisenach</name>
                         </persName>
                      </person>
                      <person corresp="#JP-002632">
@@ -261,11 +277,11 @@
                   bekannt<note corresp="#V_127-14">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001675">
-                        <persName> Johann Gottfried von <name type="reg">Herder</name>
+                        <persName>Johann Gottfried von <name type="reg">Herder</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003737">
-                        <persName> Friedrich (ab 1802) von <name type="reg">Schiller</name>
+                        <persName>Friedrich (ab 1802) von <name type="reg">Schiller</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -274,13 +290,15 @@
             </p>
             <p>Ich habe beinahe seit ¼ Jahr nicht über Kunst und Philosophie<lb xml:id="V_127-16"/>
                gesprochen; ich bin <hi rendition="#g">hier.</hi>
-            <note corresp="#V_127-17">
-               <listPlace type="lineReference">
-                  <place corresp="#JP-005574">
-                     <placeName>Bayreuth (Stadt)</placeName>
-                  </place>
-               </listPlace>
-            </note><lb xml:id="V_127-17"/></p>
+               <note corresp="#V_127-17">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005574">
+                        <placeName>Bayreuth </placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="V_127-17"/>
+            </p>
             <p>Wir haben — außer den Trinkgläser-Konzerten — jetzt hier keine<lb xml:id="V_127-18"/>
                Konzerte; — und wir gewinnen — da wir dabei keine Musik<lb xml:id="V_127-19"/>
                verlieren (sobald wir sie nicht hören, wie ich leider gestern) —<lb n="20" xml:id="V_127-20"/> wenigstens Geld, Einlaßgeld. Letzteres spare man, weil wir
@@ -289,34 +307,36 @@
             <p>Ich danke Gott, daß Herder bei Gott ist — desgleichen Gleim, der<note corresp="#V_127-23">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001328" ana="†">
-                        <persName> Johann Wilhelm Ludwig <name type="reg">Gleim</name>
+                        <persName>Johann Wilhelm Ludwig <name type="reg">Gleim</name>
                         </persName>
                      </person>
                      <person corresp="#JP-001675">
-                        <persName> Johann Gottfried von <name type="reg">Herder</name>
+                        <persName>Johann Gottfried von <name type="reg">Herder</name>
                         </persName>
                      </person>
                   </listPerson>
                </note>
                <lb xml:id="V_127-23"/> einen falschen Hut von Friedrich <hi rendition="#aq">II.</hi>
                hatte.<note corresp="#V_127-24">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-001181" ana="†">
-                     <persName>
-                        <name type="reg">Friedrich II.</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="V_127-24"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001181" ana="†">
+                        <persName>
+                           <name type="reg">Friedrich II., König von Preußen</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="V_127-24"/>
+            </p>
             <p>Ich, meine Frau, meine Drei-Kraft-Dreifaltigkeit von Kindern<note corresp="#V_127-25">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003469">
-                        <persName> Caroline <name type="reg">Richter</name>
+                        <persName>Caroline <name type="reg">Richter</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003483">
-                        <persName> Johann Paul Friedrich <name type="reg">Richter</name>
-                        </persName>
+                        <persName>
+                           <name type="reg">Richter</name>, seine Kinder</persName>
                      </person>
                   </listPerson>
                </note>
@@ -324,24 +344,26 @@
                Frei-Jungen hören,<note corresp="#V_127-26">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003490">
-                        <persName> Max <name type="reg">Richter</name>
+                        <persName>Max <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
                </note>
                <lb xml:id="V_127-26"/> der halb humoristisch ist, oder überhaupt meine 3
                   Kinder-Vignetten<lb xml:id="V_127-27"/> zur Levana.<note corresp="#V_127-28">
-               <listBibl type="lineReference" subtype="werke-jp">
-                  <bibl corresp="#JP-010811">
-                     <title>Levana (1807)</title>
-                  </bibl>
-               </listBibl>
-            </note><lb xml:id="V_127-28"/></p>
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010811">
+                        <title>Levana (1807)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="V_127-28"/>
+            </p>
             <p>Eben geh’ ich zu Fräulein <hi rendition="#aq">v. Knebel,</hi> um vielleicht auf
                   Morgen<note corresp="#V_127-29">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002147">
-                        <persName> Henriette von <name type="reg">Knebel</name>
+                        <persName>Henriette von <name type="reg">Knebel</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -353,7 +375,7 @@
                   —<note corresp="#V_127-31">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002357">
-                        <persName> Johann Gottfried <name type="reg">Langermann</name>
+                        <persName>Johann Gottfried <name type="reg">Langermann</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -361,17 +383,19 @@
                <lb xml:id="V_127-31"/> und der alte Kopf, nämlich ein Kopf.</p>
             <lb xml:id="V_127-32"/>
             <p>Empfangen Sie noch einmal meinen rechten Dank für Ihre Blätter.<lb xml:id="V_127-33"/> Ich und meine Frau grüßen Sie und die Ihrige recht herzlich.<note corresp="#V_127-34">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-002150">
-                     <persName> Luise Dorothea Ulrika Emilia von <name type="reg">Knebel</name>
-                     </persName>
-                  </person>
-                  <person corresp="#JP-003469">
-                     <persName> Caroline <name type="reg">Richter</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="V_127-34"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002150">
+                        <persName>Luise von <name type="reg">Knebel</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003469">
+                        <persName>Caroline <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="V_127-34"/>
+            </p>
             <closer>
                <salute>
                   <hi rendition="#right">J. P. F. Richter</hi>
@@ -395,7 +419,7 @@
                      </listPlace>
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-008946" ana="†">
-                           <author>Knebel, Karl Ludwig von (1744-1834), Schriftsteller</author>
+                           <author>Knebel, Karl Ludwig von (1744–1834)</author>
                            <title>Gedichte</title>
                         </bibl>
                      </listBibl>
@@ -413,8 +437,8 @@
                   <hi rendition="#i">J</hi>
                   <hi rendition="#sup">1</hi>: Doe<lb rendition="#hyphen"/>ring (1832) 2,185 ×. <hi rendition="#i">J</hi>
                   <hi rendition="#sup">2</hi>: Knebel Nr. 9. <hi rendition="#i">i</hi>: Wahrheit
-                  7,98×. <hi rendition="#i">B</hi>: IV. Abt., V, Nr. 115.<lb/>
-                  <hi rendition="#i">A</hi>: IV. Abt., V, Nr. 119. <hi rendition="#b">126</hi>, <hi rendition="#rkd">3</hi>f.</hi> der langen Leiche des] <hi rendition="#aq">aus</hi> des langen <hi rendition="#aq">
+                  7,98×. <hi rendition="#i">B</hi>: IV. Abt., 5, Nr. 115.<lb/>
+                  <hi rendition="#i">A</hi>: IV. Abt., 5, Nr. 119. <hi rendition="#b">126</hi>, <hi rendition="#rkd">3</hi>f.</hi> der langen Leiche des] <hi rendition="#aq">aus</hi> des langen <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">8</hi> Schlossen <hi rendition="#aq">

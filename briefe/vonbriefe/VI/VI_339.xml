@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="340">339. An Emanuel. </title>
-            <title n="digital">Von Jean Paul an Emanuel. Bayreuth, 26. August 1810.</title>
+            <title n="print" type="letter" rend="339">339. An Emanuel. </title>
+            <title n="digital">Von Jean Paul an Emanuel. Bayreuth, 26. August 1810, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>132</num></biblScope><biblScope n="comment" unit="page"><num>484</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>132</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>484</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1810-08-26">26. August 1810</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-003087">Emanuel Osmund</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_338"/><ptr type="next" subtype="brief" target="VI_340"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_338"/><ptr type="next" subtype="brief" target="VI_340"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_333"/><ptr type="next" subtype="brief" target="VI_340"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000941">Emanuel</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_EB_38"/>
+               <ptr type="next" subtype="brief" target="VI_340"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_338"/>
+               <ptr type="next" subtype="brief" target="VI_340"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_333"/>
+               <ptr type="next" subtype="brief" target="VI_340"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -104,7 +127,7 @@
                <p>Mein Max weint aus Liebe, weil ich fortgehe. Du guter<note corresp="#VI_132-24">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003490">
-                           <persName> Max <name type="reg">Richter</name>
+                           <persName>Max <name type="reg">Richter</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -118,10 +141,16 @@
             <p>
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: SBa. Präsentat: Abgereiset nach Bamberg am 26 Aug. 10.<lb/>
-                  <hi rendition="#i">J</hi>: Denkw. 1, 228. <hi rendition="#i">A</hi>: IV. Abt., VI,
+                  <hi rendition="#i">J</hi>: Denkw. 1, 228. <hi rendition="#i">A</hi>: IV. Abt., 6,
                   Nr.</hi>
                <hi rendition="#aq">98. </hi>
-               <hi rendition="#b"><hi rendition="#aq">132</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">22</hi></hi> einen] <hi rendition="#aq">aus</hi> Einen<hi rendition="#rkd"> 24</hi> weil]
+               <hi rendition="#b">
+                  <hi rendition="#aq">132</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">22</hi>
+               </hi> einen] <hi rendition="#aq">aus</hi> Einen<hi rendition="#rkd"> 24</hi> weil]
                   <hi rendition="#aq">aus</hi> daß</p>
          </div>
       </body>

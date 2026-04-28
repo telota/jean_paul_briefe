@@ -2,9 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="448">*447. An Ernst Wagner in Meiningen. </title>
-            <title n="digital">Von Jean Paul an Johann Ernst Wagner. Bayreuth, 19. Januar 1811 bis 25. Januar
-               1811.</title>
+            <title n="print" type="letter" rend="447">*447. An Ernst Wagner in Meiningen. </title>
+            <title n="digital">Von Jean Paul an Johann Ernst Wagner. Bayreuth, 19. bis 25. Januar 1811.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -46,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +60,16 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>178</num><num>179</num></biblScope><biblScope n="comment" unit="page"><num>502</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>178</num>
+                  <num>179</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>502</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -71,16 +79,31 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date corresp="writingSession1" when="1811-01-19">19. Januar 1811</date>
                <date corresp="writingSession2" when="1811-01-23">23. Januar 1811</date>
                <date corresp="writingSession3" when="1811-01-25">25. Januar 1811</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-004556">Johann Ernst Wagner</persName>
                <placeName key="JP-006012">Meiningen</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0195"/><ptr type="next" subtype="brief" target="VI_444"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_443"/><ptr type="next" subtype="brief" target="VI_444"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_259"/><ptr type="next" subtype="brief" target="VI_548"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB0195"/>
+               <ptr type="next" subtype="brief" target="VI_444"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_443"/>
+               <ptr type="next" subtype="brief" target="VI_444"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_106"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_166"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -99,7 +122,7 @@
                <p>Heute am Tage der Rückkehr meiner Frau aus Berlin schreib’<note corresp="#VI_178-22">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003469">
-                           <persName> Caroline <name type="reg">Richter</name>
+                           <persName>Caroline <name type="reg">Richter</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -114,8 +137,9 @@
                   steht im Zeichen des<note corresp="#VI_178-24">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-010016" ana="†">
-                           <author>Wagner, Johann Ernst (1769-1812), Romanschriftsteller</author>
-                           <title>Historisches Abc (1810)</title>
+                           <author>Wagner, Johann Ernst (1769–1812)</author>
+                           <title>Historisches ABC eines vierzigjährigen Hennebergischen Fiebelschützen
+                        (Tübingen: Cotta 1810)</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -124,7 +148,7 @@
                      <listPerson type="lineReference">
                         <person corresp="#JP-000110">
                            <persName>
-                              <name type="reg">Apollo </name>
+                              <name type="reg">Apollo</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -134,9 +158,11 @@
                   Adelungsche; auch wäre freilich die Dicke die einzige<note corresp="#VI_178-27">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-008007">
-                           <author>Adelung, Johann Christoph (1732-1806), Sprachforscher und
-                              Lexikograph</author>
-                           <title>Wörterbuch der Hochdeutschen Mundart (1774-1786 u. ö.)</title>
+                           <author>Adelung, Johann Christoph (1732–1806)</author>
+                           <title>Versuch eines vollständigen grammatisch-kritischen Wörterbuches der
+                        Hochdeutschen Mundart, mit beständiger Vergleichung der übrigen Mundarten,
+                        besonders aber der oberdeutschen (5 Bde., Breitkopf, Leipzig 1774–1786 u.
+                        ö.)</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -167,8 +193,8 @@
                <p>Ehe Sie Ihren „Jesus von Nazareth“ malen, lesen Sie ja vorher<note corresp="#VI_179-10">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-010018" ana="†">
-                           <author>Wagner, Johann Ernst (1769-1812), Romanschriftsteller</author>
-                           <title>Jesus von Nazareth</title>
+                           <author>Wagner, Johann Ernst (1769–1812)</author>
+                           <title>Jesus von Nazareth (unveröffentlicht)</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -176,8 +202,8 @@
                   mich der 13<hi rendition="#sup">te</hi> Apostel.<note corresp="#VI_179-11">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-008686">
-                           <author>Herder, Johann Gottfried (seit 1801) von (1744-1803)</author>
-                           <title>Christliche Schriften (1794-1798)</title>
+                           <author>Herder, Johann Gottfried von (1744–1803)</author>
+                           <title>Christliche Schriften (1794–1798)</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -197,7 +223,7 @@
                   dessen Antlitz nun ohne den<note corresp="#VI_179-15">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001675">
-                           <persName> Johann Gottfried von <name type="reg">Herder</name>
+                           <persName>Johann Gottfried von <name type="reg">Herder</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -205,8 +231,8 @@
                   <lb n="15" xml:id="VI_179-15"/> hebenden Geist verfällt in der Kirche, die ich nie
                   betreten werde;<note corresp="#VI_179-16">
                      <listPlace type="lineReference">
-                        <place corresp="#JP-00639519">
-                           <placeName>Petri-Paul-Kirche, Stadtkirche; Weimar</placeName>
+                        <place corresp="#JP-011705">
+                           <placeName>Petri-Paul-Kirche, Stadtkirche</placeName>
                         </place>
                         <place corresp="#JP-006395" ana="†">
                            <placeName>Weimar</placeName>
@@ -237,8 +263,7 @@
                      Heim<note corresp="#VI_179-22">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001601">
-                           <persName>
-                              <name type="reg">Heim</name>
+                           <persName>Familie <name type="reg">Heim</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -266,10 +291,15 @@
                   <hi rendition="#sup">1</hi>: Mosengeil Nr. 11.<lb/>
                   <hi rendition="#i">i</hi>: Wahrheit 7, 199 (an einigen Stellen aus <hi rendition="#i">J</hi>
                   <hi rendition="#sup">1</hi> ergänzt). *<hi rendition="#i">J</hi>
-                  <hi rendition="#sup">2</hi>: Denkw.<lb/> 3, 236. <hi rendition="#i">B</hi>: IV.
-                  Abt., VI, Nr. 106. <hi rendition="#i">A</hi>: IV. Abt., VI, Nr.</hi>
+                  <hi rendition="#sup">2</hi>: Denkw.<lb/> 3, 236. <hi rendition="#i">B</hi>: IV. Abt., 6, Nr. 106. <hi rendition="#i">A</hi>: IV. Abt., 6, Nr.</hi>
                <hi rendition="#aq">166. </hi>
-               <hi rendition="#b"><hi rendition="#aq">178</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">22</hi></hi> Heute <hi rendition="#aq">bis</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">178</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">22</hi>
+               </hi> Heute <hi rendition="#aq">bis</hi>
                <hi rendition="#rkd">23</hi> endlich] Heute<lb/> endlich schreibe ich Ihnen <hi rendition="#aq">
                   <hi rendition="#i">J</hi>
                   <hi rendition="#sup">1</hi>
@@ -326,7 +356,13 @@
                   <hi rendition="#sup">1</hi>
                </hi>
                <lb/>
-               <hi rendition="#b"><hi rendition="#aq">179</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">3</hi></hi> Kindheitsfreude <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">179</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">3</hi>
+               </hi> Kindheitsfreude <hi rendition="#aq">
                   <hi rendition="#i">J</hi>
                   <hi rendition="#sup">1</hi>
                </hi>

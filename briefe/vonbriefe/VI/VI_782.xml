@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="784">782. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, 22. Juli 1813.</title>
+            <title n="print" type="letter" rend="782">782. An Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth, 22. Juli 1813, Donnerstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>340</num></biblScope><biblScope n="comment" unit="page"><num>561</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>340</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>561</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -68,20 +76,35 @@
             </msDesc>
             <listPerson type="commentary">
                <person corresp="#JP-003991">
-                  <persName> Thomas Johann <name type="reg">Seebeck</name>
+                  <persName>Thomas Johann <name type="reg">Seebeck</name>
                   </persName>
                </person>
             </listPerson>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date cert="medium" when="1813-07-22">22. Juli 1813</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_781"/><ptr type="next" subtype="brief" target="VI_783"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_781"/><ptr type="next" subtype="brief" target="VI_783"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_780"/><ptr type="next" subtype="brief" target="VI_788"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_781"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_EB_93"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_781"/>
+               <ptr type="next" subtype="brief" target="VI_783"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_780"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_EB_93"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -100,7 +123,7 @@
                   A<metamark>[</metamark>möne<metamark>]</metamark> hätte dir schon<note corresp="#VI_340-4">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003108">
-                        <persName> Amöne (Pseud. Amalie von Obyrn) <name type="reg">Otto</name>
+                        <persName>Amöne <name type="reg">Otto</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -114,7 +137,7 @@
             <p>Nach den reinsten Zeugnissen, z. B. der Donauer, der es<note corresp="#VI_340-9">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000845">
-                        <persName> Frau von <name type="reg">Donauer</name>
+                        <persName>Frau <name type="reg">Donauer</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -123,7 +146,7 @@
                <hi rendition="#aq">Sackenreiter</hi> gesagt, ist die Magd als Diebin bekannt.<note corresp="#VI_340-10">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003634">
-                        <persName> Johann Heinrich August <name type="reg">Sackenreuter </name>
+                        <persName>Johann Heinrich August <name type="reg">Sackenreuter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -136,7 +159,13 @@
             <p>
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Berlin JP.</hi>
-               <hi rendition="#b"><hi rendition="#aq">340</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">6</hi></hi> mir] <hi rendition="#aq">aus</hi> ich</p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">340</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">6</hi>
+               </hi> mir] <hi rendition="#aq">aus</hi> ich</p>
             <lb/>
             <p>
                <hi rendition="#aq">Karoline hat später darunter geschrieben: „Als wir in der

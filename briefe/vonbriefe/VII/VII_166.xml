@@ -3,8 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title n="print" type="stammbuch" rend="166">166. In Christian Kapps stammbuch. </title>
-            <title n="digital">Eintrag in ein Stammbuch. Von Jean Paul an Christian Kapp. Bayreuth, Ende März oder
-               Anfang April 1816.</title>
+            <title n="digital">Eintrag in ein Stammbuch. Von Jean Paul an Christian Kapp. Bayreuth, Ende März oder Anfang April 1816.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -46,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -61,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
+               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
                <biblScope n="text" unit="page">
                   <num>63</num>
                </biblScope>
@@ -78,21 +77,35 @@
             </msDesc>
             <listPerson type="commentary">
                <person corresp="#JP-002078">
-                  <persName> Gottfried <name type="reg">Keller</name>
+                  <persName>Gottfried <name type="reg">Keller</name>
                   </persName>
                </person>
             </listPerson>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date notBefore="1816-03-21" notAfter="1816-04-10">Ende März oder Anfang April
                   1816</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-002028">Johann Georg Christian Kapp</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VII_163"/><ptr type="next" subtype="brief" target="VII_164"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VII_163"/><ptr type="next" subtype="brief" target="VII_164"/></correspContext><correspContext n="correspondence"><ptr type="next" subtype="brief" target="VIII_318"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-002028">Christian Kapp</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VII_163"/>
+               <ptr type="next" subtype="anbrief" target="IV-VII_22"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VII_163"/>
+               <ptr type="next" subtype="brief" target="VII_164"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="next" subtype="brief" target="VIII_318"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -111,7 +124,7 @@
                edlen Vaters würdig, aus der Nazionalstadt Deutschlands zurück<note corresp="#VII_63-18">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002036">
-                        <persName> Johann <name type="reg">Kapp</name>
+                        <persName>Johann <name type="reg">Kapp</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -119,9 +132,8 @@
                      <place corresp="#JP-005586">
                         <placeName>Berlin</placeName>
                      </place>
-                     <place corresp="#JP-0056690">
-                        <placeName>Deutsche; Deutschland , deutsch , Germanien,
-                           Vaterland</placeName>
+                     <place corresp="#JP-011167">
+                        <placeName>Deutsche</placeName>
                      </place>
                   </listPlace>
                </note>

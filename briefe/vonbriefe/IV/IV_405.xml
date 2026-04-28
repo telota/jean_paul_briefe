@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="412">405. An Friedrich von Oertel in Leipzig. </title>
-            <title n="digital">Von Jean Paul an Friedrich Benedikt von Oertel. Coburg, 28. September 1803.</title>
+            <title n="print" type="letter" rend="405">405. An Friedrich von Oertel in Leipzig. </title>
+            <title n="digital">Von Jean Paul an Friedrich Benedikt von Oertel. Coburg, 28. September 1803, Mittwoch.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,11 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"/><biblScope n="comment" unit="page"/></bibl>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page"/>
+               <biblScope n="comment" unit="page"/>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,14 +73,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1803-09-28">28. September 1803</date>
                <placeName key="JP-005649">Coburg </placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003039">Friedrich Benedikt von Oertel</persName>
                <placeName key="JP-005948">Leipzig</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB1496"/><ptr type="next" subtype="umfeldbrief" target="JP-UB1497"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="IV_404"/><ptr type="next" subtype="brief" target="IV_406"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="IV_166"/><ptr type="next" subtype="brief" target="IV_419"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-IV_300"/>
+               <ptr type="next" subtype="anbrief" target="IV-IV_EB_57"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="IV_404"/>
+               <ptr type="next" subtype="brief" target="IV_406"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="IV_166"/>
+               <ptr type="next" subtype="anbrief" target="IV-IV_304"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -96,14 +115,14 @@
                   logiertest<note corresp="#IV_239-30">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000355" ana="†">
-                        <persName> Johann Gottlob <name type="reg">Beygang</name>
+                        <persName>Johann Gottlob <name type="reg">Beygang</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010318" ana="†">
                         <author/>
-                        <title>Neue Leipziger Literaturzeitung (1803ff.)</title>
+                        <title>Neue Leipziger Literaturzeitung (1803 ff.)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -111,20 +130,22 @@
                   Veränderung<lb xml:id="IV_239-31"/>meiner Veränderung finden würdest. Machte die
                Ehe eben so poetisch<lb xml:id="IV_239-32"/>als moralisch: man müste mit den
                Orientalern heirathen.<note corresp="#IV_239-33">
-               <listPlace type="lineReference">
-                  <place corresp="#JP-006106">
-                     <placeName>Orient, Morgenland</placeName>
-                  </place>
-               </listPlace>
-            </note><lb xml:id="IV_239-33"/></p>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006106">
+                        <placeName>Orient, Morgenland</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="IV_239-33"/>
+            </p>
             <p>Doch bin ich seelig — mein Kind ein Engel — meine Frau beides<note corresp="#IV_240-1">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003469">
-                        <persName> Caroline <name type="reg">Richter</name>
+                        <persName>Caroline <name type="reg">Richter</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003471">
-                        <persName> Emma <name type="reg">Richter</name>
+                        <persName>Emma <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -133,7 +154,7 @@
                   ich<note corresp="#IV_240-2">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003490">
-                        <persName> Max <name type="reg">Richter</name>
+                        <persName>Max <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -141,7 +162,7 @@
                <lb xml:id="IV_240-2"/>gern ein B voran wünsche. — Der geigende <hi rendition="#aq">Thieriot</hi> logiert bei mir,<note corresp="#IV_240-3">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004275">
-                        <persName> Paul Emile <name type="reg">Thieriot</name>
+                        <persName>Paul Emile <name type="reg">Thieriot</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -167,11 +188,11 @@
                Grüsse <hi rendition="#aq">Beigang,</hi> dem<note corresp="#IV_240-10">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000355">
-                        <persName> Johann Gottlob <name type="reg">Beygang</name>
+                        <persName>Johann Gottlob <name type="reg">Beygang</name>
                         </persName>
                      </person>
                      <person corresp="#JP-004104">
-                        <persName> Johann Karl Gottlieb <name type="reg">Spazier</name>
+                        <persName>Karl <name type="reg">Spazier</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -182,7 +203,7 @@
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010318" ana="†">
                         <author/>
-                        <title>Neue Leipziger Literaturzeitung (1803ff.)</title>
+                        <title>Neue Leipziger Literaturzeitung (1803 ff.)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -198,20 +219,20 @@
                   ge<lb n="15" xml:id="IV_240-15" rendition="#hyphen"/>säete Moos blühen. Aus <hi rendition="#aq">Cotta’s</hi> Taschenbuch wirst du auch sehen, daß<note corresp="#IV_240-16">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000698">
-                        <persName> Johann Friedrich Freiherr <name type="reg">Cotta von
-                              Cottendorf</name>
+                        <persName>Johann Friedrich von <name type="reg">Cotta</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008269">
-                        <author>Cotta, Johann Friedrich (Hg.)</author>
+                        <author>Cotta, Johann Friedrich (1764–1832) (Hrsg.)</author>
                         <title>Taschenbuch für Damen auf das Jahr (1798 ff.)</title>
                      </bibl>
                   </listBibl>
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010849">
-                        <title>Polymeter: Flegeljahre und Taschenbuch für Damen auf 1814</title>
+                        <title>Polymeter: Flegeljahre und Taschenbuch für Damen auf
+                        1814</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -220,10 +241,12 @@
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010540">
                         <title>Blumen- Frucht- und Dornenstükke (Blumen-, Frucht- und Dornenstücke)
-                           (Siebenkäs) (1796-97 [1796])</title>
+                        (Siebenkäs) oder Ehestand, Tod und Hochzeit des Armenadvokaten F. St.
+                        Siebenkäs im Reichsmarktflecken Kuhschnappel (Berlin, Matzdorff 1796-97
+                        [1796])</title>
                      </bibl>
                      <bibl corresp="#JP-010695">
-                        <title>Flegeljahre (1804-1805)</title>
+                        <title>Flegeljahre. Eine Biographie (4 Bde., Tübingen: Cotta 1804-1805)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -259,11 +282,11 @@
                   einige<note corresp="#IV_240-29">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003469">
-                        <persName> Caroline <name type="reg">Richter</name>
+                        <persName>Caroline <name type="reg">Richter</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003471">
-                        <persName> Emma <name type="reg">Richter</name>
+                        <persName>Emma <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -287,13 +310,24 @@
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Goethe- u. Schiller-Archiv. 4¾ S. 8°. <hi rendition="#i">K</hi>
                </hi> Oertel 28 Sept. <hi rendition="#aq">
-                  <hi rendition="#i">J</hi>:<lb/>Denkw. 1,392. <hi rendition="#i">A</hi>: IV. Abt.,
-                  IV, Nr.</hi>
+                  <hi rendition="#i">J</hi>:<lb/>Denkw. 1,392. <hi rendition="#i">A</hi>: IV. Abt., 4, Nr.</hi>
                <hi rendition="#aq">304. </hi>
-               <hi rendition="#b"><hi rendition="#aq">239</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">33</hi></hi> mit] <hi rendition="#aq">davor gestr.</hi> wie <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">239</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">33</hi>
+               </hi> mit] <hi rendition="#aq">davor gestr.</hi> wie <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">240</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">5</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">240</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">5</hi>
+               </hi>
                <lb/>diesem] <hi rendition="#aq">davor gestr.</hi> meinem <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
@@ -317,7 +351,13 @@
             </p>
             <lb/>
             <p>
-               <hi rendition="#b"><hi rendition="#aq">239</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">30</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">239</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">30</hi>
+               </hi>
                <hi rendition="#aq">Oertel war Mitarbeiter der in <hi rendition="#g">Beygangs</hi>
                   Verlag erscheinenden<lb/>Neuen Leipziger Literaturzeitung (Fortsetzung der
                   Teutschen Fama, s.<lb/>Bd. III, Nr. 523, 378,<hi rendition="#rkd">29</hi>†). <hi rendition="#b">240</hi>, <hi rendition="#rkd">10</hi>

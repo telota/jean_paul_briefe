@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="671">670. An Emilie von Berlepsch in Franzensbad. </title>
-            <title n="digital">Von Jean Paul an Emilie Dorothea Friederike Harmes. Hof, 30. Juli 97.</title>
+            <title n="print" type="letter" rend="670">670. An Emilie von Berlepsch in Franzensbad. </title>
+            <title n="digital">Von Jean Paul an Emilie von Berlepsch. Hof, 30. Juli 1797, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
+               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
                <biblScope n="text" unit="page">
                   <num>354</num>
                   <num>355</num>
@@ -78,15 +78,30 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
-               <date when="1797-07-30">30. Juli 97</date>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
+               <date when="1797-07-30">30. Juli 1797</date>
                <placeName key="JP-005841">Hof</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-001542">Emilie Dorothea Friederike Harmes</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-010992">Emilie von Berlepsch</persName>
                <placeName key="JP-005749">Franzensbad
                </placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="II_27-fb"/><ptr type="next" subtype="brief" target="II_671"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="II_27-fb"/><ptr type="next" subtype="brief" target="II_671"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="II_27-fb"/><ptr type="next" subtype="brief" target="II_697"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-II_217"/>
+               <ptr type="next" subtype="brief" target="II_671"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="II_27-fb"/>
+               <ptr type="next" subtype="brief" target="II_671"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="II_27-fb"/>
+               <ptr type="next" subtype="brief" target="II_697"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -109,7 +124,7 @@
             <p>Warum sezet Ihre liebe Sehnsucht nicht die meinige voraus? —<lb xml:id="II_355-1"/>Ich habe dem Schmerze die schwersten Steuern abgetragen und ich<note corresp="#II_355-2">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003496" ana="†">
-                        <persName> Sophie Rosine <name type="reg">Richter</name>
+                        <persName>Sophie Rosine <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -133,7 +148,7 @@
                   Fode<note corresp="#II_355-7">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001714">
-                        <persName> Johann Georg <name type="reg">Herold</name>
+                        <persName>Johann Georg <name type="reg">Herold</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -141,12 +156,14 @@
                <lb xml:id="II_355-7" rendition="#hyphen"/>rungen macht, kam dieses einzige mal mit
                erfülten zurük und wünscht<lb xml:id="II_355-8"/>sehr, Sie wieder zu finden wenn
                nicht bei Eger doch in seinem Hause.<note corresp="#II_355-9">
-               <listPlace type="lineReference">
-                  <place corresp="#JP-005696">
-                     <placeName>Eger </placeName>
-                  </place>
-               </listPlace>
-            </note><lb xml:id="II_355-9"/></p>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005696">
+                        <placeName>Eger </placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="II_355-9"/>
+            </p>
             <p>Ach in Ihrem Herzen ist mehr Liebe als in Ihrem Auge und darum<lb n="10" xml:id="II_355-10"/>werden Sie nicht gekant und nicht glüklich. — Möchten Sie
                lieber an<lb xml:id="II_355-11"/>meinen Schlüssen und meinen Erfahrungen als an
                meinen Empfin<lb xml:id="II_355-12" rendition="#hyphen"/>dungen Antheil nehmen! Ich
@@ -165,11 +182,11 @@
             <p>Ihre guten Kinder gewinn’ ich immer lieber: die sanftesten Grüsse<note corresp="#II_355-18">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000307">
-                        <persName> Friedrich <name type="reg">Berlepsch</name>
+                        <persName>Friedrich <name type="reg">Berlepsch</name>
                         </persName>
                      </person>
                      <person corresp="#JP-002443">
-                        <persName> Luise (Louise Charlotte) <name type="reg">Lichtenberg</name>
+                        <persName>Luise <name type="reg">Lichtenberg</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -189,13 +206,25 @@
                   <hi rendition="#i">H</hi>: DLA, Marbach. 4 S. 8°. <hi rendition="#i">K</hi>: <hi rendition="#i">Berleps.</hi>
                </hi> 30 Jul.<lb/>
                <hi rendition="#aq">
-                  <hi rendition="#i">i</hi>: Denkw. 2,100. <hi rendition="#i">B</hi>: IV. Abt., II,
+                  <hi rendition="#i">i</hi>: Denkw. 2,100. <hi rendition="#i">B</hi>: IV. Abt., 2,
                   Nr.</hi>
                <hi rendition="#aq">214. </hi>
-               <hi rendition="#b"><hi rendition="#aq">354</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">26</hi></hi> klang] <hi rendition="#aq">davor gestr.</hi> war <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">354</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">26</hi>
+               </hi> klang] <hi rendition="#aq">davor gestr.</hi> war <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">355</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">4</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">355</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">4</hi>
+               </hi>
                <lb/>morgends] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">7</hi> den Geist Ihres Geschlechts] <hi rendition="#aq">aus</hi>

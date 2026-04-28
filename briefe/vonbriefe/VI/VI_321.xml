@@ -2,9 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="322">321. An Professor Schwarz in Heidelberg. </title>
-            <title n="digital">Von Jean Paul an Friedrich Heinrich Christian Schwarz. Bayreuth, 30. Juli
-               1810.</title>
+            <title n="print" type="letter" rend="321">321. An Professor Schwarz in Heidelberg. </title>
+            <title n="digital">Von Jean Paul an Friedrich Heinrich Christian Schwarz. Bayreuth, 30. Juli 1810, Montag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -46,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +60,16 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>125</num><num>126</num></biblScope><biblScope n="comment" unit="page"><num>481</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>125</num>
+                  <num>126</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>481</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -70,21 +78,36 @@
             </msDesc>
             <listPerson type="commentary">
                <person corresp="#JP-000393">
-                  <persName> Philipp August <name type="reg">Böckh</name>
+                  <persName>August <name type="reg">Böckh</name>
                   </persName>
                </person>
             </listPerson>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1810-07-30">30. Juli 1810</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003944">Friedrich Heinrich Christian Schwarz</persName>
                <placeName key="JP-005819">Heidelberg</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_320"/><ptr type="next" subtype="brief" target="VI_322"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_320"/><ptr type="next" subtype="brief" target="VI_322"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_14-fb"/><ptr type="next" subtype="brief" target="VI_463"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_91"/>
+               <ptr type="next" subtype="brief" target="VI_322"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_320"/>
+               <ptr type="next" subtype="brief" target="VI_322"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_14-fb"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_101"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -104,12 +127,11 @@
                Rezensionen zweier guten Bücher wiewol aus verschiednen Fächern.<note corresp="#VI_125-32">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008411">
-                        <author>Fouqué, Friedrich Freiherr de la Motte (Pseud. Pellegrin)
-                           (1777-1843),romantischer Erzähler, Dramatiker und Lyriker</author>
+                        <author>Fouqué, Friedrich Freiherr de la Motte (1777–1843)</author>
                         <title>Der Held des Nordens (1810)</title>
                      </bibl>
                      <bibl corresp="#JP-008965">
-                        <author>Köppen, Friedrich (1775-1858), Philosoph</author>
+                        <author>Köppen, Friedrich (1775–1858)</author>
                         <title>Darstellung des Wesens der Philosophie (1810)</title>
                      </bibl>
                   </listBibl>
@@ -119,7 +141,7 @@
                      </bibl>
                      <bibl corresp="#JP-010867">
                         <title>Rezensionen: Köppen, Darstellung des Wesens der Philosophie
-                           (1810)</title>
+                        (1810)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -147,14 +169,14 @@
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010265">
                         <author/>
-                        <title>Heidelbergische Jahrbücher der Literatur (1808ff.)</title>
+                        <title>Heidelbergische Jahrbücher der Literatur (1808 ff.) </title>
                      </bibl>
                   </listBibl>
                </note>
                <lb xml:id="VI_126-8"/> gesehen, weil das hiesige „Journalistikum“ vom Staatsrath <hi rendition="#aq">Langer<note corresp="#VI_126-9">
                      <listPerson type="lineReference">
                         <person corresp="#JP-002357">
-                           <persName> Johann Gottfried <name type="reg">Langermann</name>
+                           <persName>Johann Gottfried <name type="reg">Langermann</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -162,29 +184,31 @@
                   <lb xml:id="VI_126-9" rendition="#hyphen"/>mann</hi> abging mit ihm selber und der
                hiesige Kanzlei-Bibliothekar<note corresp="#VI_126-10">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-00557433">
-                        <placeName>Kanzlei-Bibliothek; Bayreuth (Stadt)</placeName>
+                     <place corresp="#JP-011061">
+                        <placeName>Kanzlei-Bibliothek</placeName>
                      </place>
                   </listPlace>
                </note>
                <lb n="10" xml:id="VI_126-10"/>
                <hi rendition="#aq">Wagner</hi> sie bisher ohne sie zu bekommen, verschrieben.<note corresp="#VI_126-11">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-004569" ana="†">
-                     <persName> Lorenz Heinrich <name type="reg">Wagner</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="VI_126-11"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004569" ana="†">
+                        <persName>Lorenz Heinrich <name type="reg">Wagner</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_126-11"/>
+            </p>
             <p>Zwei Brüder <hi rendition="#aq">v. Gerlach</hi> aus <hi rendition="#aq">Berlin</hi> —
                wovon einer dahin zu<note corresp="#VI_126-12">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001296" ana="†">
-                        <persName> Gustav Wilhelm <name type="reg">Gerlach</name>
+                        <persName>Wilhelm <name type="reg">Gerlach</name>
                         </persName>
                      </person>
                      <person corresp="#JP-001298" ana="†">
-                        <persName> Leopold <name type="reg">Gerlach</name>
+                        <persName>Leopold <name type="reg">Gerlach</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -206,7 +230,7 @@
                <lb xml:id="VI_126-14" rendition="#hyphen"/>kehrende bat mich, ihm einen Einlaß<hi rendition="#g">zettel</hi> bei <hi rendition="#aq">Dlle Rudolphi</hi> zu<note corresp="#VI_126-15">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003610">
-                        <persName> Karoline <name type="reg">Rudolphi</name>
+                        <persName>Karoline <name type="reg">Rudolphi</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -214,13 +238,15 @@
                <lb n="15" xml:id="VI_126-15"/> verschaffen. In Ihrer Hand liegt der <hi rendition="#g">Zettel.</hi> Ich grüße die<lb xml:id="VI_126-16"/>
                <hi rendition="#aq">Rudolphi,</hi> meine poetische Nebengevatterin. Leben Sie
                wol!<note corresp="#VI_126-17">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-003949" ana="†">
-                     <persName> Lina <name type="reg">Schwarz</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="VI_126-17"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003949" ana="†">
+                        <persName>Caroline <name type="reg">Schwarz</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_126-17"/>
+            </p>
             <closer>
                <salute>
                   <hi rendition="#right">Ihr<lb xml:id="VI_126-18"/> Jean Paul Fr. Richter</hi>
@@ -238,7 +264,7 @@
                   <hi rendition="#sup">3</hi> (nach Nr.</hi> 317): Den 30 July an <hi rendition="#aq">
                   <hi rendition="#i">Schwarz in Heidelb.<lb/> vide Beilage</hi> [d. i. wahrscheinl.
                      <hi rendition="#i">K</hi>
-                  <hi rendition="#sup">2</hi>]. <hi rendition="#i">A</hi>: IV. Abt., VI, Nr. 101.
+                  <hi rendition="#sup">2</hi>]. <hi rendition="#i">A</hi>: IV. Abt., 6, Nr. 101.
                      <hi rendition="#b">125</hi>, <hi rendition="#rkd">31</hi> darüber gestr.<lb/>
                   <hi rendition="#i">Citissime K</hi>
                   <hi rendition="#sup">2</hi>
@@ -250,7 +276,13 @@
                   <hi rendition="#i">K</hi>
                   <hi rendition="#sup">2</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">126</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">1</hi></hi> Kunst-Gewissen] <hi rendition="#aq">aus</hi> Gewissen und Kunst <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">126</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">1</hi>
+               </hi> Kunst-Gewissen] <hi rendition="#aq">aus</hi> Gewissen und Kunst <hi rendition="#aq">
                   <hi rendition="#i">K</hi>
                   <hi rendition="#sup">2</hi>
                </hi>

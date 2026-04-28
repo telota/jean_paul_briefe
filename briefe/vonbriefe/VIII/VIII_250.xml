@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="254">250. An Emanuel. </title>
-            <title n="digital">Von Jean Paul an Emanuel Osmund. Bayreuth, 27. Februar 1822.</title>
+            <title n="print" type="letter" rend="250">250. An Emanuel. </title>
+            <title n="digital">Von Jean Paul an Emanuel Osmund. Bayreuth, 27. Februar 1822, Mittwoch.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>152</num>
                </biblScope>
@@ -77,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date cert="medium" when="1822-02-27">27. Februar 1822</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003087">Emanuel Osmund</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VIII_249"/><ptr type="next" subtype="brief" target="VIII_251"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VIII_249"/><ptr type="next" subtype="brief" target="VIII_251"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VIII_249"/><ptr type="next" subtype="brief" target="VIII_251"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-VIII_143"/>
+               <ptr type="next" subtype="brief" target="VIII_251"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VIII_249"/>
+               <ptr type="next" subtype="brief" target="VIII_251"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VIII_249"/>
+               <ptr type="next" subtype="brief" target="VIII_251"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -100,7 +115,7 @@
             <p>Guten Morgen, mein Emanuel! Ich habe der reichen Frachtbüchse<lb xml:id="VIII_152-19"/>einige Rückfracht von <hi rendition="#aq">Lange</hi> (gegen <hi rendition="#aq">Feuerbach</hi> und den Landtag) mit<note corresp="#VIII_152-20">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001069">
-                        <persName> Paul Johann Anselm Ritter von <name type="reg">Feuerbach</name>
+                        <persName>Paul Johann Anselm Ritter von <name type="reg">Feuerbach</name>
                         </persName>
                      </person>
                      <person corresp="#JP-002345">
@@ -109,24 +124,24 @@
                         </persName>
                      </person>
                      <person corresp="#JP-002348" ana="†">
-                        <persName> Karl Heinrich (ab 1808) Ritter von <name type="reg">Lang</name>
+                        <persName>Karl Heinrich, Ritter von <name type="reg">Lang</name>
                         </persName>
                      </person>
                      <person corresp="#JP-004663" ana="†">
-                        <persName> Michael Ludwig <name type="reg">Wellmer</name>
+                        <persName>Michael Ludwig <name type="reg">Wellmer</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0055691">
-                        <placeName>Landtag, Stände; Bayern </placeName>
+                     <place corresp="#JP-011028">
+                        <placeName>Landtag, Stände</placeName>
                      </place>
                   </listPlace>
                </note>
                <lb n="20" xml:id="VIII_152-20" rendition="#hyphen"/>gegeben, die auch <hi rendition="#aq">Otto</hi> gern durchlaufen wird. Eben mach’ ich mich<note corresp="#VIII_152-21">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003112">
-                        <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                        <persName>Georg Christian <name type="reg">Otto</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -134,11 +149,11 @@
                <lb xml:id="VIII_152-21"/>wieder reisefertig in die Rollwenzelei, wohin mir immer <hi rendition="#aq">Vaerst</hi> nach<note corresp="#VIII_152-22">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003561">
-                        <persName> Anna Dorothea <name type="reg">Rollwenzel</name>
+                        <persName>Anna Dorothea <name type="reg">Rollwenzel</name>
                         </persName>
                      </person>
                      <person corresp="#JP-004400">
-                        <persName> Eugen, Baron von <name type="reg">Vaerst</name>
+                        <persName>Eugen Baron von <name type="reg">Vaerst</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -151,7 +166,13 @@
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: SBa. Präsentat: 27 [?] Febr.</hi>
                <hi rendition="#aq"> 22. </hi>
-               <hi rendition="#b"><hi rendition="#aq">152</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">20</hi></hi> den Landtag] <hi rendition="#aq">aus</hi> die<lb/>Abge(ordneten) <hi rendition="#rkd">22</hi> wohin] <hi rendition="#aq">aus</hi> wo</p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">152</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">20</hi>
+               </hi> den Landtag] <hi rendition="#aq">aus</hi> die<lb/>Abge(ordneten) <hi rendition="#rkd">22</hi> wohin] <hi rendition="#aq">aus</hi> wo</p>
             <lb/>
             <p>
                <hi rendition="#aq">Die <hi rendition="#g">Rückfracht</hi> waren vermutlich die

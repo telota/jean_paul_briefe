@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="341">340. An Emanuel. </title>
-            <title n="digital">Von Jean Paul an Emanuel. Bayreuth, 6. April 1807.</title>
+            <title n="print" type="letter" rend="340">340. An Emanuel. </title>
+            <title n="digital">Von Jean Paul an Emanuel. Bayreuth, 6. April 1807, Montag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
+               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
                <biblScope n="text" unit="page">
                   <num>142</num>
                </biblScope>
@@ -77,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1807-04-06">6. April 1807</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-003087">Emanuel Osmund</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0239"/><ptr type="next" subtype="brief" target="V_341"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="V_339"/><ptr type="next" subtype="brief" target="V_341"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0239"/><ptr type="next" subtype="brief" target="V_343"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000941">Emanuel</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB0239"/>
+               <ptr type="next" subtype="brief" target="V_341"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="V_339"/>
+               <ptr type="next" subtype="brief" target="V_341"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="V_338"/>
+               <ptr type="next" subtype="brief" target="V_343"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -102,16 +117,15 @@
                Frau hinuntergetragen, <hi rendition="#aq">Emma</hi> früher anzuziehen als <hi rendition="#aq">Loew</hi> kommt<note corresp="#V_142-21">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002493">
-                        <persName>
-                           <name type="reg">Löw</name>
+                        <persName>Diener <name type="reg">Löw</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003469">
-                        <persName> Caroline <name type="reg">Richter</name>
+                        <persName>Caroline <name type="reg">Richter</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003471">
-                        <persName> Emma <name type="reg">Richter</name>
+                        <persName>Emma <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -123,7 +137,7 @@
             <p>Christophs Brief hat mich unendlich erfreuet.<note corresp="#V_142-25">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003118">
-                        <persName> Christoph <name type="reg">Otto</name>
+                        <persName>Christoph <name type="reg">Otto</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -138,11 +152,23 @@
                   <hi rendition="#i">H</hi>: SBa. Präsentat: 6 April 7. Auf der Rücks. Zeilen von
                   Karoline.</hi>
                <lb/>
-               <hi rendition="#b"><hi rendition="#aq">142</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">20</hi></hi> wie immer] <hi rendition="#aq">nachtr.</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">142</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">20</hi>
+               </hi> wie immer] <hi rendition="#aq">nachtr.</hi>
             </p>
             <lb/>
             <p>
-               <hi rendition="#b"><hi rendition="#aq">142</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">19</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">142</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">19</hi>
+               </hi>
                <hi rendition="#aq">Emanuel hatte wohl über eine falsche Wetterprophezeiung Jean<lb/>
                   Pauls gescherzt. <hi rendition="#rkd">25</hi> Christoph Otto.</hi>
             </p>

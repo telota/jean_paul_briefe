@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="447">442. An Elisa Feind in Leipzig. </title>
-            <title n="digital">Von Jean Paul an Dorothea Elisabeth Feind. Weimar, 7. April 1800.</title>
+            <title n="print" type="letter" rend="442">442. An Elisa Feind in Leipzig. </title>
+            <title n="digital">Von Jean Paul an Elisabeth (Elisa) Feind. Weimar, 7. April 1800, Montag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
+               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
                <biblScope n="text" unit="page">
                   <num>319</num>
                   <num>320</num>
@@ -78,14 +78,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1800-04-07">7. April 1800</date>
                <placeName key="JP-006395">Weimar</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-001046">Dorothea Elisabeth Feind</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-001046">Elisabeth (Elisa) Feind</persName>
                <placeName key="JP-005948">Leipzig</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="III_437"/><ptr type="next" subtype="umfeldbrief" target="JP-UB1205"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="III_437"/><ptr type="next" subtype="brief" target="III_438"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="III_386"/><ptr type="next" subtype="brief" target="III_485"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="III_437"/>
+               <ptr type="next" subtype="anbrief" target="IV-III.2_358"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="III_437"/>
+               <ptr type="next" subtype="brief" target="III_438"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="III_386"/>
+               <ptr type="next" subtype="brief" target="III_485"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -126,8 +141,8 @@
                sich und an andere. Ich scheue<note corresp="#III_319-32">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003481">
-                        <persName> Johann Paul Friedrich <name type="reg">Richter</name>
-                        </persName>
+                        <persName>
+                           <name type="reg">Richter</name>, seine Brüder</persName>
                      </person>
                   </listPerson>
                </note>
@@ -136,7 +151,7 @@
                Namen meiner Braut<note corresp="#III_320-1">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001059">
-                        <persName> Caroline Henriette Susanne Friederike von <name type="reg">Feuchtersleben</name>
+                        <persName>Caroline von <name type="reg">Feuchtersleben</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -169,7 +184,7 @@
                   Rollen spielen<lb type="ig"/>können.</note>.<note corresp="#III_320-8">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004275">
-                        <persName> Paul Emile <name type="reg">Thieriot</name>
+                        <persName>Paul Emile <name type="reg">Thieriot</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -184,7 +199,7 @@
             <p>Grüssen Sie die gute Hähnel recht herzlich und sagen Sie ihr, wie<note corresp="#III_320-9">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001468">
-                        <persName> Marianne Elisabeth <name type="reg">Hänel</name>
+                        <persName>Elisabeth <name type="reg">Hänel</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -197,7 +212,7 @@
                   angefangen?<note corresp="#III_320-14">
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010727">
-                        <title>Hesperus (1795)</title>
+                        <title>Hesperus (3 Bde., Berlin: Matzdorff 1795)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -221,12 +236,24 @@
                   <hi rendition="#sup">2</hi>: Neue Zeitung (Berlin),<lb/>14. Nov. 1950, Nr. 267
                   (mit Faksimile der ersten Seite).</hi>
                <ref target="#p319_l31">
-                  <hi rendition="#b"><hi rendition="#aq">319</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">31</hi></hi>
+                  <hi rendition="#b">
+                     <hi rendition="#aq">319</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">31</hi>
+                  </hi>
                </ref> noch zu<lb/>Zunder] <hi rendition="#aq">aus</hi> nichts <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
                <ref target="#p320_l2">
-                  <hi rendition="#b"><hi rendition="#aq">320</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">2</hi></hi>
+                  <hi rendition="#b">
+                     <hi rendition="#aq">320</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">2</hi>
+                  </hi>
                </ref>
                <hi rendition="#aq"/>genant] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
                </hi>
@@ -236,7 +263,13 @@
             </p>
             <p>
                <ref target="#p319_l29">
-                  <hi rendition="#b"><hi rendition="#aq">319</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">29</hi></hi>
+                  <hi rendition="#b">
+                     <hi rendition="#aq">319</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">29</hi>
+                  </hi>
                </ref>
                <hi rendition="#aq">ff. Das <hi rendition="#g">Faß voll Betten</hi> hatte Jean Paul
                   beim Verlassen Leipzigs<lb/>bei Feinds zurückgelassen, vgl. Nr.</hi>

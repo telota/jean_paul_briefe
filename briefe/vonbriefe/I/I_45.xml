@@ -3,7 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title n="print" type="letter" rend="45">45. An Trogenprediger Chr. Adam Müller in Hof. </title>
-            <title n="digital">Von Jean Paul an Christian Adam Müller. Hof, 15. Juni 1783. </title>
+            <title n="digital">Von Jean Paul an Christian Adam Müller. Hof, 15. Juni 1783, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="I">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
+               <title n="I">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
                <biblScope n="text" unit="page">
                   <num>73</num>
                </biblScope>
@@ -83,14 +83,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1783-06-15">15. Juni 1783</date>
                <placeName key="JP-005841">Hof</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-002901">Christian Adam Müller</persName>
                <placeName key="JP-005841">Hof</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="I_44"/><ptr type="next" subtype="brief" target="I_46"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="I_44"/><ptr type="next" subtype="brief" target="I_46"/></correspContext><correspContext n="correspondence"><ptr type="next" subtype="brief" target="I_203"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-I_14"/>
+               <ptr type="next" subtype="brief" target="I_46"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="I_44"/>
+               <ptr type="next" subtype="brief" target="I_46"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="next" subtype="brief" target="I_203"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -111,23 +125,25 @@
                Komplimenten <lb xml:id="I_73-6"/>angemeldet zu sein:</p>
             <lb xml:id="I_73-7"/>
             <p>Lebensläufe zweiter, oder dritter Band.<note corresp="#I_73-8">
-               <listBibl type="lineReference" subtype="werke">
-                  <bibl corresp="#JP-008740">
-                     <author>Hippel, Theodor Gottlieb (seit 1790) von (1741-1796),
-                        Schriftsteller</author>
-                     <title>Lebensläufe nach aufsteigender Linie (1778-1781)</title>
-                  </bibl>
-               </listBibl>
-            </note><lb xml:id="I_73-8"/></p>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008740">
+                        <author>Hippel, Theodor Gottlieb von (1741–1796)</author>
+                        <title>Lebensläufe nach aufsteigender Linie (1778–1781)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_73-8"/>
+            </p>
             <p>Lemgoer Bibliothek vom Jare 1782 oder auch 81.<note corresp="#I_73-9">
-               <listBibl type="lineReference" subtype="werke">
-                  <bibl corresp="#JP-010196" ana="†">
-                     <author/>
-                     <title>Auserlesene Bibliothek der neuesten deutschen Literatur (Lemgo
-                        1772-1781)</title>
-                  </bibl>
-               </listBibl>
-            </note><lb xml:id="I_73-9"/></p>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010196" ana="†">
+                        <author/>
+                        <title>Auserlesene Bibliothek der neuesten deutschen Literatur (Lemgo 1772–1781) </title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_73-9"/>
+            </p>
             <p>Ich werde Ihnen danken, nicht nur wenn Sie mir diese Bitte er<lb n="10" xml:id="I_73-10" rendition="#hyphen"/>füllen, sondern auch wenn Sie sie blos
                vergeben. Sogar die Gestalt <lb xml:id="I_73-11"/>derselben braucht Vergebung: „denn
                das Papier erfur unter meinen <lb xml:id="I_73-12"/>Händen, stat der Beschneidung die

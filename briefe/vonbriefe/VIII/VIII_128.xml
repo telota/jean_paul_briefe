@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="129">128. An Max Richter in Heidelberg. </title>
-            <title n="digital">Von Jean Paul an Max Richter. Bayreuth, 18. Dezember 1820.</title>
+            <title n="print" type="letter" rend="128">128. An Max Richter in Heidelberg. </title>
+            <title n="digital">Von Jean Paul an Max Richter. Bayreuth, 18. Dezember 1820, Montag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>84</num>
                   <num>85</num>
@@ -78,14 +78,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1820-12-18">18. Dezember 1820</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003490">Max Richter</persName>
                <placeName key="JP-005819">Heidelberg</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0406"/><ptr type="next" subtype="umfeldbrief" target="JP-UB1004"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VIII_127"/><ptr type="next" subtype="brief" target="VIII_8-fb"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0695"/><ptr type="next" subtype="brief" target="VIII_132"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB0406"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB1004"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VIII_127"/>
+               <ptr type="next" subtype="brief" target="VIII_8-fb"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VIII_83"/>
+               <ptr type="next" subtype="brief" target="VIII_132"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -107,7 +122,7 @@
                <note corresp="#VIII_84-27">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003087">
-                        <persName> Emanuel <name type="reg">Osmund</name>
+                        <persName>Emanuel <name type="reg">Osmund</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -120,7 +135,7 @@
                <note corresp="#VIII_84-32">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004630">
-                        <persName> Kajetan von <name type="reg">Weiller</name>
+                        <persName>Kajetan von <name type="reg">Weiller</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -133,7 +148,7 @@
                   <listPerson type="lineReference">
                      <person corresp="#JP-002064">
                         <persName>
-                           <name type="reg">Katholiken </name>
+                           <name type="reg">Katholiken</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -145,8 +160,8 @@
                <hi rendition="#aq">Responsor. I</hi> Welche Kollegien hörst du? — Die über das
                   römische<note corresp="#VIII_85-1">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0062030">
-                        <placeName>Recht; Rom</placeName>
+                     <place corresp="#JP-011633">
+                        <placeName>Recht</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -156,11 +171,11 @@
                <hi rendition="#aq">Resp. II</hi> Warum nennst du <hi rendition="#aq">Manheim</hi>
                „abscheulich“? Gegen mich<note corresp="#VIII_85-3">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-005995" ana="†">
+                     <place corresp="#JP-005994" ana="†">
                         <placeName>Mannheim </placeName>
                      </place>
-                     <place corresp="#JP-0059950" ana="†">
-                        <placeName>Rheinbrücke; Mannheim </placeName>
+                     <place corresp="#JP-011534" ana="†">
+                        <placeName>Rheinbrücke</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -170,18 +185,20 @@
                <hi rendition="#aq">Respons. III</hi> Was sagen manche, z. B. die <hi rendition="#aq">Paulus</hi> zu meinem<note corresp="#VIII_85-5">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003169">
-                        <persName> Heinrich Eberhard Gottlob <name type="reg">Paulus</name>
+                        <persName>Familie <name type="reg">Paulus</name>
                         </persName>
                      </person>
                   </listPerson>
                </note>
                <lb n="5" xml:id="VIII_85-5"/>„Kometen“?<note corresp="#VIII_85-6">
-               <listBibl type="lineReference" subtype="werke-jp">
-                  <bibl corresp="#JP-010605">
-                     <title>Der Komet (1820-1822)</title>
-                  </bibl>
-               </listBibl>
-            </note><lb xml:id="VIII_85-6"/></p>
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010605">
+                        <title>Der Komet (1820-1822)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VIII_85-6"/>
+            </p>
             <p>
                <hi rendition="#aq">Respon. IV</hi> Schicke mir wie gesagt, deine Rechnung, damit ich
                   dir<lb xml:id="VIII_85-7"/>einen neuen Wechsel übermache.</p>
@@ -189,8 +206,8 @@
             <p>Deine Weihnachten kannst du auch aus der Vergangenheit zurück<lb xml:id="VIII_85-9"/>genießen, wie du mit deinen Schwestern neben deinem Vater auf dem<note corresp="#VIII_85-10">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003483">
-                        <persName> Johann Paul Friedrich <name type="reg">Richter</name>
-                        </persName>
+                        <persName>
+                           <name type="reg">Richter</name>, seine Kinder</persName>
                      </person>
                   </listPerson>
                </note>
@@ -210,9 +227,21 @@
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: FDH. 3½ S. 8°. <hi rendition="#i">J</hi>: Max Richter
                   Nr. 5×.<lb/>
-                  <hi rendition="#i">B</hi>: IV. Abt., VIII, Nr. 80 und 72. <hi rendition="#i">A</hi>: IV. Abt., VIII, Nr.</hi>
+                  <hi rendition="#i">B</hi>: IV. Abt., 8, Nr. 80 und 72. <hi rendition="#i">A</hi>: IV. Abt., 8, Nr.</hi>
                <hi rendition="#aq">87. </hi>
-               <hi rendition="#b"><hi rendition="#aq">84</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">29</hi></hi> für] <hi rendition="#aq">aus</hi> über <hi rendition="#b"><hi rendition="#aq">85</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">11</hi></hi> könnt’</p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">84</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">29</hi>
+               </hi> für] <hi rendition="#aq">aus</hi> über <hi rendition="#b">
+                  <hi rendition="#aq">85</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">11</hi>
+               </hi> könnt’</p>
             <lb/>
             <p>
                <hi rendition="#b">

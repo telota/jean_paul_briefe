@@ -2,10 +2,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="other" rend="346">**345. Ins Fremdenbuch des Gasthauses in
+            <title n="print" type="other" rend="345">**345. Ins Fremdenbuch des Gasthauses in
                Sanspareil. </title>
-            <title n="digital">Von Jean Paul an Gasthaus Sanspareile. Bayreuth, Sanspareil, 2. September
-               1810.</title>
+            <title n="digital">Von Jean Paul in das Fremdenbuch des Gasthauses Sanspareil. Bayreuth,
+               Sanspareil, 2. September 1810, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -47,7 +47,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -61,8 +62,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>135</num></biblScope><biblScope n="comment" unit="page"><num>485</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>135</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>485</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -71,16 +79,27 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date cert="medium" when="1810-09-02">2. September 1810</date>
-               <placeName key="JP-005573">Bayreuth,
+               <placeName key="JP-011073">Bayreuth,
                   Sanspareil</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-004882">Gasthaus Sanspareil</persName>
-               <placeName key="JP-005573">Bayreuth,
+               <placeName key="JP-011073">Bayreuth,
                   Sanspareil</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_361"/><ptr type="next" subtype="brief" target="VI_346"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_361"/><ptr type="next" subtype="brief" target="VI_346"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_361"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_101"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_361"/>
+               <ptr type="next" subtype="brief" target="VI_346"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -96,8 +115,8 @@
             <lb xml:id="VI_135-2"/>
             <p>Zum Andenken an diese artig auseinander gebrochene Schweiz,<note corresp="#VI_135-3">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0062720">
-                        <placeName>Schweizer; Schweiz </placeName>
+                     <place corresp="#JP-011673">
+                        <placeName>Schweizer</placeName>
                      </place>
                   </listPlace>
                </note>

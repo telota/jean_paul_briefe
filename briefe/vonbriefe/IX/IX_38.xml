@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="40">38. An Knebel in Jena. </title>
-            <title n="digital">Von Jean Paul an Karl Ludwig von Knebel. Bayreuth, 6. Mai 1809.</title>
+            <title n="print" type="letter" rend="38">38. An Knebel in Jena. </title>
+            <title n="digital">Von Jean Paul an Karl Ludwig von Knebel. Bayreuth, 6. Mai 1809, Samstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="IX">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 9. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1964.</title>
+               <title n="IX">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 9. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1964.</title>
                <biblScope n="text" unit="page">
                   <num>22</num>
                </biblScope>
@@ -77,14 +77,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1809-05-06">6. Mai 1809</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-002149">Karl Ludwig von Knebel</persName>
                <placeName key="JP-005875">Jena</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB1074"/><ptr type="next" subtype="brief" target="VI_87"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_86"/><ptr type="next" subtype="brief" target="VI_87"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_17"/><ptr type="next" subtype="brief" target="VI_88"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB1074"/>
+               <ptr type="next" subtype="brief" target="VI_87"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_86"/>
+               <ptr type="next" subtype="brief" target="VI_87"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_6"/>
+               <ptr type="next" subtype="brief" target="VI_88"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -104,7 +119,7 @@
             <p>Der Überbringer, H. <hi rendition="#aq">D. Hudtwalker</hi> aus Hamburg, der auf<note corresp="#IX_22-17">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001854">
-                        <persName> Martin Hieronymus <name type="reg">Hudtwalcker</name>
+                        <persName>Martin Hieronymus <name type="reg">Hudtwalcker</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -121,8 +136,8 @@
                      <place corresp="#JP-005869">
                         <placeName>Isola Bella im Lago Maggiore</placeName>
                      </place>
-                     <place corresp="#JP-0062720">
-                        <placeName>Schweizer; Schweiz </placeName>
+                     <place corresp="#JP-011673">
+                        <placeName>Schweizer</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -144,13 +159,15 @@
                meine rein-lustigsten Erzeugnisse.</p>
             <lb xml:id="IX_22-22"/>
             <p>Geben Sie mir Nachrichten über Ihren Schreibtisch — und Ihr<lb xml:id="IX_22-23"/>Leben und Ihren Kleinen, der nun gewiß keiner mehr ist.<note corresp="#IX_22-24">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-002145">
-                     <persName> Carl (Karl) Wilhelm von <name type="reg">Knebel</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="IX_22-24"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002145">
+                        <persName>Carl Wilhelm von <name type="reg">Knebel</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IX_22-24"/>
+            </p>
             <p>Herzliche Grüße an diese Drei!</p>
             <closer>
                <salute>
@@ -167,7 +184,13 @@
                   <hi rendition="#i">H</hi>: DLA, Marbach. 2 S. 8°; 4. S. Adr.:</hi> Herrn Major<lb/>
                <hi rendition="#aq">
                   <hi rendition="#i">v. Knebel, Jena</hi>
-               </hi> d. Freundschaft. <hi rendition="#b"><hi rendition="#aq">22</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">16</hi></hi>
+               </hi> d. Freundschaft. <hi rendition="#b">
+                  <hi rendition="#aq">22</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">16</hi>
+               </hi>
                <hi rendition="#aq"/>oder fehlen] <hi rendition="#aq">nachtr.</hi>
                <hi rendition="#rkd">22</hi> rein-] <hi rendition="#aq">nachtr.</hi>
                <lb/>

@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="215">214. An Friedrich Köppen in München. </title>
-            <title n="digital">Von Jean Paul an Friedrich Köppen. Bayreuth, 29. Dezember 1809.</title>
+            <title n="print" type="letter" rend="214">214. An Friedrich Köppen in München. </title>
+            <title n="digital">Von Jean Paul an Friedrich Köppen. Bayreuth, 29. Dezember 1809, Freitag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>82</num></biblScope><biblScope n="comment" unit="page"><num>458</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>82</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>458</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -70,14 +78,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1809-12-29">29. Dezember 1809</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-002189">Friedrich Köppen</persName>
                <placeName key="JP-006040">München</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_213"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0917"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_213"/><ptr type="next" subtype="brief" target="VI_9-fb"/></correspContext><correspContext n="correspondence"><ptr type="next" subtype="brief" target="VIII_143"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_59"/>
+               <ptr type="next" subtype="anbrief" target="IV-IX_2.38"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_213"/>
+               <ptr type="next" subtype="brief" target="VI_9-fb"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_42"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_64"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -97,7 +120,7 @@
                mußte also lange auf Titel rathen. Titel seines Buchs: Harmonie<note corresp="#VI_82-5">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008965" ana="†">
-                        <author>Köppen, Friedrich (1775-1858), Philosoph</author>
+                        <author>Köppen, Friedrich (1775–1858)</author>
                         <title>Darstellung des Wesens der Philosophie (1810)</title>
                      </bibl>
                   </listBibl>
@@ -117,9 +140,8 @@
                Brennpunkte des Wissens — Geist der metaphysischen<note corresp="#VI_82-8">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009214">
-                        <author>Montesquieu, Charles de (1689-1755), französischer
-                           Staatsdenker</author>
-                        <title>L’Esprit des lois (1748)</title>
+                        <author>Montesquieu, Charles de (1689–1755)</author>
+                        <title>L'Esprit des lois (1748)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -127,16 +149,16 @@
                   —<note corresp="#VI_82-9">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008680">
-                        <author>Herder, Johann Gottfried (seit 1801) von (1744-1803)</author>
-                        <title>Adrastea (1801-1803)</title>
+                        <author>Herder, Johann Gottfried von (1744–1803)</author>
+                        <title>Adrastea (1801–1803)</title>
                      </bibl>
                   </listBibl>
                </note>
                <lb xml:id="VI_82-9"/> Vorherbestimmte Harmonie der Philosophen — Ideen zur Idee
                   —<note corresp="#VI_82-10">
                   <listPerson type="lineReference">
-                     <person corresp="#JP-002389">
-                        <persName> Gottfried Wilhelm <name type="reg">Leibniz</name>
+                     <person corresp="#JP-002388">
+                        <persName>Gottfried Wilhelm <name type="reg">Leibniz</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -146,12 +168,11 @@
                Stunde lange seine <metamark>[</metamark>Kannes<metamark>]</metamark> ab<note corresp="#VI_82-12">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002022" ana="†">
-                        <persName>
-                           <name type="reg">Kanne</name>
+                        <persName>Johann Arnold <name type="reg">Kanne</name>
                         </persName>
                      </person>
                      <person corresp="#JP-002021" ana="†">
-                        <persName> Johann Arnold <name type="reg">Kanne</name>
+                        <persName>Johann Arnold <name type="reg">Kanne</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -165,8 +186,8 @@
             <p>
                <hi rendition="#aq">
                   <hi rendition="#i">K</hi>: <hi rendition="#i">Koeppen 29 Dec. i</hi>: Denkw. 3,
-                  231× (29. Dez. 1810). <hi rendition="#i">B</hi>: IV. Abt., VI, Nr. 42.<lb/>
-                  <hi rendition="#i">A</hi>: IV. Abt., VI, Nr.</hi>
+                  231× (29. Dez. 1810). <hi rendition="#i">B</hi>: IV. Abt., 6, Nr. 42.<lb/>
+                  <hi rendition="#i">A</hi>: IV. Abt., 6, Nr.</hi>
                <hi rendition="#aq">64.</hi>
             </p>
             <lb/>

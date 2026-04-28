@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="559">554. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, Ohne Datum.</title>
+            <title n="print" type="letter" rend="554">554. An Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>310</num>
                </biblScope>
@@ -78,13 +78,25 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspContext n="edition"><ptr type="next" subtype="brief" target="VIII_555"/></correspContext><correspContext n="corpus"><ptr type="next" subtype="brief" target="VIII_555"/></correspContext><correspContext n="correspondence"><ptr type="next" subtype="brief" target="VIII_555"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="next" subtype="brief" target="I_1"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="next" subtype="brief" target="I_1"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="next" subtype="brief" target="I_108"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -93,8 +105,7 @@
             <p>Guten Abend, lieber Otto! Spaßvögel haben dem Kapitän <hi rendition="#aq">Donner<note corresp="#VIII_310-16">
                      <listPerson type="lineReference">
                         <person corresp="#JP-000846">
-                           <persName>
-                              <name type="reg">Donnerfeld</name>
+                           <persName>Kapitän <name type="reg">Donnerfeld</name>
                            </persName>
                         </person>
                      </listPerson>

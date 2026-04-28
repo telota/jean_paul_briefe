@@ -3,7 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title n="print" type="letter" rend="42">42. An Karoline Herold. </title>
-            <title n="digital">Von Jean Paul an Caroline Liebmann. Hof, 11. November 94.</title>
+            <title n="digital">Von Jean Paul an Caroline Herold. Hof, 11. November 1794, Dienstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
+               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
                <biblScope n="text" unit="page">
                   <num>32</num>
                   <num>33</num>
@@ -78,13 +78,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1794-11-11">11. November 94</date>
                <placeName key="JP-005841">Hof</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-002454">Caroline Liebmann</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="II_43"/><ptr type="next" subtype="brief" target="II_44"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="II_43"/><ptr type="next" subtype="brief" target="II_44"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="II_39"/><ptr type="next" subtype="brief" target="II_44"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-011773">Caroline Herold</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="II_43"/>
+               <ptr type="next" subtype="anbrief" target="IV-II_12"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="II_43"/>
+               <ptr type="next" subtype="brief" target="II_44"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="II_39"/>
+               <ptr type="next" subtype="brief" target="II_44"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -108,11 +123,11 @@
                Stimmen meiner verstorbenen Freunde wurden, die noch<note corresp="#II_32-10">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001694">
-                        <persName> Johann Bernhard <name type="reg">Hermann</name>
+                        <persName>Johann Bernhard <name type="reg">Hermann</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003050">
-                        <persName> Johann Adam Lorenz von <name type="reg">Oerthel</name>
+                        <persName>Adam Lorenz von <name type="reg">Oerthel</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -140,7 +155,7 @@
                ein ErdenLeben, um nur den<note corresp="#II_32-32">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005841">
-                        <placeName>Hof im Vogtland</placeName>
+                        <placeName>Hof</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -159,7 +174,7 @@
                wil ich meinen Bruder um 5 Uhr mit<note corresp="#II_33-8">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003485">
-                        <persName> Johann Samuel <name type="reg">Richter</name>
+                        <persName>Samuel <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -180,7 +195,13 @@
                <hi rendition="#aq">f.</hi> Gedanken] <hi rendition="#aq">nachtr.</hi>
                <hi rendition="#rkd">32</hi> Erden]<lb/>
                <hi rendition="#aq">nachtr.</hi>
-               <hi rendition="#b"><hi rendition="#aq">33</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">8</hi></hi> fürchte] <hi rendition="#aq">davor gestr.</hi> hoffe</p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">33</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">8</hi>
+               </hi> fürchte] <hi rendition="#aq">davor gestr.</hi> hoffe</p>
             <lb/>
          </div>
       </body>

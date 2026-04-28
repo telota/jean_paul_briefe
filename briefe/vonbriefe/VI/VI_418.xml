@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="419">418. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, 30. Dezember 1810.</title>
+            <title n="print" type="letter" rend="418">418. An Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth, 30. Dezember 1810, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>166</num></biblScope><biblScope n="comment" unit="page"><num>497</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>166</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>497</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1810-12-30">30. Dezember 1810</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_417"/><ptr type="next" subtype="umfeldbrief" target="JP-UB1091"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_417"/><ptr type="next" subtype="brief" target="VI_422"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_405"/><ptr type="next" subtype="brief" target="VI_587"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_417"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB1091"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_417"/>
+               <ptr type="next" subtype="brief" target="VI_422"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_405"/>
+               <ptr type="next" subtype="brief" target="VI_587"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -93,17 +116,16 @@
                auf dem Kanapee auf dich. — Ich fahre heute mit 3 Kindern und<note corresp="#VI_166-19">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003483">
-                        <persName> Johann Paul Friedrich <name type="reg">Richter</name>
-                        </persName>
+                        <persName>
+                           <name type="reg">Richter</name>, seine Kinder</persName>
                      </person>
                   </listPerson>
                </note>
                <lb xml:id="VI_166-19"/> 1 Pferde auf die <hi rendition="#aq">Hermitage.</hi> Ist
                draußen einem Hunde ein Ge<note corresp="#VI_166-20">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-00557419">
-                        <placeName>Eremitage (Hermitage), Schloss und Park; Bayreuth
-                           (Stadt)</placeName>
+                     <place corresp="#JP-011045">
+                        <placeName>Eremitage (Hermitage), Schloss und Park</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -112,7 +134,7 @@
                versicherte mich ernsthaft, sein Schneidermeister habe das<note corresp="#VI_166-22">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004569">
-                        <persName> Lorenz Heinrich <name type="reg">Wagner</name>
+                        <persName>Lorenz Heinrich <name type="reg">Wagner</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -131,8 +153,9 @@
                ein glücklicher Mann. — Endlich hat der Buch<lb xml:id="VI_166-26" rendition="#hyphen"/>binder Zeit gewonnen. Was hier von <hi rendition="#g">Müller</hi> folgt, ist das<note corresp="#VI_166-27">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009257" ana="†">
-                        <author>Müller, Johannes von (1752-1809), Schweizer Historiker</author>
-                        <title>Werke (1810-1819)</title>
+                        <author>Müller, Johannes von (1752–1809)</author>
+                        <title>Johannes von Müller sämmtliche Werke. Herausgegeben von Johann Georg
+                        Müller (27 Bde., Tübingen: Cotta 1810–1819)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -148,7 +171,13 @@
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Berlin JP. Präsentat: Sonntag, den 30 Xbr.</hi>
                <hi rendition="#aq">10. </hi>
-               <hi rendition="#b"><hi rendition="#aq">166</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">20</hi></hi> draußen]<lb/>
+               <hi rendition="#b">
+                  <hi rendition="#aq">166</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">20</hi>
+               </hi> draußen]<lb/>
                <hi rendition="#aq">aus</hi> da <hi rendition="#rkd">24</hi>
                <hi rendition="#aq">f.</hi> zu fechten bekäme] <hi rendition="#aq">aus</hi> fechten
                müßte</p>

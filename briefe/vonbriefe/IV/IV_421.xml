@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="428">421. An Christian Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Coburg, 5. November 1803.</title>
+            <title n="print" type="letter" rend="421">421. An Christian Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Coburg, 5. November 1803, Samstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,11 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"/><biblScope n="comment" unit="page"/></bibl>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page"/>
+               <biblScope n="comment" unit="page"/>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +73,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1803-11-05">5. November 1803</date>
                <placeName key="JP-005649">Coburg </placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="IV_420"/><ptr type="next" subtype="brief" target="IV_422"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="IV_420"/><ptr type="next" subtype="brief" target="IV_422"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="IV_412"/><ptr type="next" subtype="brief" target="IV_39-fb"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="IV_420"/>
+               <ptr type="next" subtype="brief" target="IV_422"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="IV_420"/>
+               <ptr type="next" subtype="brief" target="IV_422"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-IV_307"/>
+               <ptr type="next" subtype="brief" target="IV_39-fb"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -93,7 +112,7 @@
                <note corresp="#IV_249-4">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005574">
-                        <placeName>Bayreuth (Stadt)</placeName>
+                        <placeName>Bayreuth </placeName>
                      </place>
                      <place corresp="#JP-005649">
                         <placeName>Coburg </placeName>
@@ -105,7 +124,7 @@
                </hi> und daß ich gestern die Gelegenheit versäumt. Woltest du<lb n="5" xml:id="IV_249-5"/>denn nicht — da du wie sol ich sagen, leichter als <hi rendition="#aq">Emanuel</hi> Leute,<note corresp="#IV_249-6">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003087">
-                        <persName> Emanuel <name type="reg">Osmund</name>
+                        <persName>Emanuel <name type="reg">Osmund</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -116,8 +135,8 @@
                nichts thut als daß er mir einen<lb xml:id="IV_249-9"/>Eimer von welchem Bier er wil
                bestelt und schikt? Jezt sollen seine<note corresp="#IV_249-10">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0055740">
-                        <placeName>Bier; Bayreuth (Stadt)</placeName>
+                     <place corresp="#JP-011034">
+                        <placeName>Bier</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -128,19 +147,21 @@
                </note>, des<note corresp="#IV_249-12">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004382">
-                        <persName> Karl Philipp von <name type="reg">Unruh</name>
+                        <persName>Karl Philipp von <name type="reg">Unruh</name>
                         </persName>
                      </person>
                   </listPerson>
                </note>
                <lb xml:id="IV_249-12" rendition="#hyphen"/>gleichen <hi rendition="#aq">Uhlfelder</hi> von mir grüssen.<note corresp="#IV_249-13">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-004367">
-                     <persName> Simon <name type="reg">Uhlfelder</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="IV_249-13"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004367">
+                        <persName>Simon <name type="reg">Uhlfelder</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IV_249-13"/>
+            </p>
             <p>Du hast noch einen vorvorigen Brief von Jakobi. — <hi rendition="#g">Schiksal</hi>
                <note place="right">
                   <hi rendition="#aq">NB</hi>
@@ -148,7 +169,7 @@
                <note corresp="#IV_249-14">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001909">
-                        <persName> Friedrich Heinrich <name type="reg">Jacobi</name>
+                        <persName>Friedrich Heinrich <name type="reg">Jacobi</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -159,8 +180,7 @@
                bezahle nichts; denn ich versprach:<note corresp="#IV_249-16">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003584">
-                        <persName>
-                           <name type="reg">Roth</name>
+                        <persName>? <name type="reg">Roth</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -170,7 +190,7 @@
                jezt an<note corresp="#IV_249-17">
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010695">
-                        <title>Flegeljahre (1804-1805)</title>
+                        <title>Flegeljahre. Eine Biographie (4 Bde., Tübingen: Cotta 1804-1805)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -192,14 +212,12 @@
                einigen Spas und Reiz verstattet. — Rienzi<note corresp="#IV_249-20">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009341" ana="†">
-                        <author>Otto, Christian (Georg Christian) (Pseud. Georgius, Christianus)
-                           (1763-1828), Jurist, einer der engsten Freunde von Jean Paul</author>
+                        <author>Otto, Christian (Pseud. Georgius, Christianus, 1763–1828)</author>
                         <title>Rienzo (1803)</title>
                      </bibl>
                      <bibl corresp="#JP-010138" ana="†">
-                        <author>Woltmann, Karl Ludwig (ab 1806) von (1770-1817), Historiker (Werk,
-                           Hrsg.)</author>
-                        <title>Geschichte und Politik, Zeitschrift (1800-1805)</title>
+                        <author>Woltmann, Karl Ludwig (ab 1806) von (1770–1817) (Hrsg.)</author>
+                        <title>Geschichte und Politik, Zeitschrift (1800–1805)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -207,10 +225,9 @@
                Einleitung; aber<note corresp="#IV_249-21">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009330" ana="†">
-                        <author>Otto, Christian (Georg Christian) (Pseud. Georgius, Christianus)
-                           (1763-1828), Jurist, einer der engsten Freunde von Jean Paul</author>
+                        <author>Otto, Christian (Pseud. Georgius, Christianus, 1763–1828)</author>
                         <title>Einleitung zu einer Geschichte des Europäischen Gleichgewichts
-                           (1801)</title>
+                        (1801)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -226,7 +243,7 @@
                <hi rendition="#aq">Huber</hi> macht im Freimüthigen die mit — <hi rendition="#aq">b</hi> — bezeichneten Ur<note corresp="#IV_249-27">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001850">
-                        <persName> Ludwig Ferdinand <name type="reg">Huber</name>
+                        <persName>Ludwig Ferdinand <name type="reg">Huber</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -245,17 +262,17 @@
             <note corresp="#IV_249-30">
                <listPerson type="lineReference">
                   <person corresp="#JP-003087">
-                     <persName> Emanuel <name type="reg">Osmund</name>
+                     <persName>Emanuel <name type="reg">Osmund</name>
                      </persName>
                   </person>
                   <person corresp="#JP-004275">
-                     <persName> Paul Emile <name type="reg">Thieriot</name>
+                     <persName>Paul Emile <name type="reg">Thieriot</name>
                      </persName>
                   </person>
                </listPerson>
                <listPlace type="lineReference">
                   <place corresp="#JP-005574">
-                     <placeName>Bayreuth (Stadt)</placeName>
+                     <placeName>Bayreuth </placeName>
                   </place>
                </listPlace>
             </note>
@@ -264,9 +281,15 @@
          <div type="comment">
             <p>
                <hi rendition="#aq">
-                  <hi rendition="#i">H</hi>: Berlin JP. 3 S. 8°; Adr. auf der 4. S. <hi rendition="#i">K</hi>: <hi rendition="#i">Otto</hi> 5. <hi rendition="#i">J</hi>: Otto<lb/>4,150×. <hi rendition="#i">B</hi>: IV. Abt., IV, Nr. 307. <hi rendition="#i">A</hi>: IV. Abt., IV, Nr.</hi>
+                  <hi rendition="#i">H</hi>: Berlin JP. 3 S. 8°; Adr. auf der 4. S. <hi rendition="#i">K</hi>: <hi rendition="#i">Otto</hi> 5. <hi rendition="#i">J</hi>: Otto<lb/>4,150×. <hi rendition="#i">B</hi>: IV. Abt., 4, Nr. 307. <hi rendition="#i">A</hi>: IV. Abt., 4, Nr.</hi>
                <hi rendition="#aq">339. </hi>
-               <hi rendition="#b"><hi rendition="#aq">249</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">6</hi></hi> als <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">249</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">6</hi>
+               </hi> als <hi rendition="#aq">
                   <hi rendition="#i">Emanuel</hi>] nachtr. <hi rendition="#i">H</hi>
                </hi>
                <lb/>
@@ -300,7 +323,13 @@
             </p>
             <lb/>
             <p>
-               <hi rendition="#b"><hi rendition="#aq">249</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">12</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">249</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">12</hi>
+               </hi>
                <hi rendition="#aq">Karl Philipp von <hi rendition="#g">Unruh</hi> (1731—1805),
                   Generalleutnant, Chef<lb/>des Inf.-Rgts. Nr. 45 in Bayreuth. <hi rendition="#rkd">14–16 </hi>Otto hatte mit Bezug auf<lb/>
                   <hi rendition="#b">243</hi>, <hi rendition="#rkd">25</hi>† geschrieben: „Sehr

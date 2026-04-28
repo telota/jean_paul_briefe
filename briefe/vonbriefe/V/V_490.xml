@@ -2,10 +2,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="491">490. An Friedrich Heinrich von der Hagen in
+            <title n="print" type="letter" rend="490">490. An Friedrich Heinrich von der Hagen in
                Berlin. </title>
-            <title n="digital">Von Jean Paul an Friedrich Heinrich von der Hagen. Bayreuth, 29. Februar
-               1808.</title>
+            <title n="digital">Von Jean Paul an Friedrich Heinrich von der Hagen. Bayreuth, 29. Februar 1808, Montag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -47,7 +46,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -62,8 +62,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
+               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
                <biblScope n="text" unit="page">
                   <num>200</num>
                   <num>201</num>
@@ -82,14 +81,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1808-02-29">29. Februar 1808</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-001478">Friedrich Heinrich von der Hagen</persName>
                <placeName key="JP-005586">Berlin</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="V_489"/><ptr type="next" subtype="umfeldbrief" target="JP-UB1794"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="V_489"/><ptr type="next" subtype="brief" target="V_491"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="V_489"/>
+               <ptr type="next" subtype="anbrief" target="IV-V_AN_44"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="V_489"/>
+               <ptr type="next" subtype="brief" target="V_491"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-V_139"/>
+               <ptr type="next" subtype="anbrief" target="IV-V_AN_44"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -107,7 +121,7 @@
             <p>... Ich mußte Ihr Werk erst lesen und eigne machen, eh’ ich,<note corresp="#V_200-24">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008597" ana="ff†">
-                        <author>Hagen, Friedrich Heinrich von der (1780-1856), Germanist</author>
+                        <author>Hagen, Friedrich Heinrich von der (1780–1856)</author>
                         <title>Nibelungenlied (1807)</title>
                      </bibl>
                   </listBibl>
@@ -119,9 +133,8 @@
             <lb xml:id="V_200-27"/>
             <p>Das Lied der Nibelungen steht mit der Fülle seines deutschen und<note corresp="#V_200-28">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0056690">
-                        <placeName>Deutsche; Deutschland , deutsch , Germanien,
-                           Vaterland</placeName>
+                     <place corresp="#JP-011167">
+                        <placeName>Deutsche</placeName>
                      </place>
                   </listPlace>
                   <listBibl type="lineReference" subtype="werke">
@@ -163,13 +176,13 @@
                deutsch-antiken Roste Tiecks — Mir haben von jeher Volks<note corresp="#V_200-34">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004302">
-                        <persName> Ludwig (Pseud. Peter Leberecht, Gottlieb Färber) <name type="reg">Tieck</name>
+                        <persName>Ludwig <name type="reg">Tieck</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0056700">
-                        <placeName>Altdeutsch; Deutschland, deutsch</placeName>
+                     <place corresp="#JP-011169">
+                        <placeName>Altdeutsch</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -179,15 +192,17 @@
                   zu.<lb xml:id="V_201-2"/> Ein anderes ist Prose, welche weit mehr Glanz erfodert,
                um poe<note corresp="#V_201-3">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0056700">
-                        <placeName>Altdeutsch; Deutschland, deutsch</placeName>
+                     <place corresp="#JP-011169">
+                        <placeName>Altdeutsch</placeName>
                      </place>
                   </listPlace>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010223" ana="†">
                         <author/>
-                        <title>Deutsche Gedichte des Mittelalters (1808), hg. von Friedrich Heinrich
-                           vonder Hagen und Johann Gustav Gottlieb Büsching)</title>
+                        <title><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="roelcke" timestamp="20220503T131532+0100" comment="umziehen, Herausgeber bekannt" mid="3"?>Deutsche
+                        Gedichte des Mittelalters (1808), hg. von Friedrich Heinrich von der Hagen
+                        und Johann Gustav Gottlieb
+                        Büsching)<?oxy_custom_end?><?oxy_comment_end mid="3"?></title>
                      </bibl>
                   </listBibl>
                </note>
@@ -216,11 +231,11 @@
                      </hi>
                   </hi>
                   <hi rendition="#aq">
-                     <add resp="#MB" status="unremarkable">gedruckt IV. Abt., V, Anhang Nr.
+                     <add resp="#MB" status="unremarkable">gedruckt IV. Abt., 5, Anhang Nr.
                         44.</add>
                   </hi>
                   <lb/>
-                  <hi rendition="#i">B</hi>: IV. Abt., V, Nr.</hi>
+                  <hi rendition="#i">B</hi>: IV. Abt., 5, Nr.</hi>
                <hi rendition="#aq">139.</hi>
             </p>
             <lb/>

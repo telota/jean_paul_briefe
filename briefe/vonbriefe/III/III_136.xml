@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="138">136. An Christian Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Leipzig, 9. Oktober 1798.</title>
+            <title n="print" type="letter" rend="136">136. An Christian Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Leipzig, 9. Oktober 1798, Dienstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
+               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
                <biblScope n="text" unit="page">
                   <num>104</num>
                   <num>105</num>
@@ -79,13 +79,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1798-10-09">9. Oktober 1798</date>
                <placeName key="JP-005948">Leipzig</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="III_135"/><ptr type="next" subtype="brief" target="III_140"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="III_135"/><ptr type="next" subtype="brief" target="III_140"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="III_135"/><ptr type="next" subtype="brief" target="III_137"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-III.1_91"/>
+               <ptr type="next" subtype="brief" target="III_140"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="III_135"/>
+               <ptr type="next" subtype="brief" target="III_140"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-III.1_87"/>
+               <ptr type="next" subtype="brief" target="III_137"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -103,21 +118,21 @@
                meiner Herzkammern wohnenden geliebtesten <hi rendition="#aq">Ema<note corresp="#III_105-2">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003087" ana="†">
-                           <persName> Emanuel <name type="reg">Osmund</name>
+                           <persName>Emanuel <name type="reg">Osmund</name>
                            </persName>
                         </person>
                      </listPerson>
                      <listPlace type="lineReference">
-                        <place corresp="#JP-00557442" ana="†">
-                           <placeName>Retraite bei Bayreuth; Bayreuth (Stadt)</placeName>
+                        <place corresp="#JP-011071" ana="†">
+                           <placeName>Retraite bei Bayreuth</placeName>
                         </place>
                      </listPlace>
                   </note>
                   <lb xml:id="III_105-2" rendition="#hyphen"/>nuel,</hi> der keinen Fehler hat als
                seine italienische Buchhandlung<metamark>[</metamark>!<metamark>]</metamark> im<note corresp="#III_105-3">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0058721">
-                        <placeName>Buchhaltung; Italien</placeName>
+                     <place corresp="#JP-011448">
+                        <placeName>Buchhaltung</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -125,7 +140,7 @@
                   durch<note corresp="#III_105-4">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003126">
-                        <persName> Renate <name type="reg">Otto</name>
+                        <persName>Renate <name type="reg">Otto</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -137,8 +152,11 @@
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010351" ana="†">
                         <author/>
-                        <title>Reichs-Anzeiger (Reichsanzeiger) (1793ff.), vorher: Der
-                           Anzeiger(1791-1793), hrsg. von Rudolf Zacharias Becker</title>
+                        <title>Reichs-Anzeiger (Reichsanzeiger) (1793 ff.), vorher: Der Anzeiger
+                        (1791–1793), später: Allgemeiner Anzeiger der Deutschen (1806–1829), hrsg.
+                        von
+                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Rudolf
+                        Zacharias Becker<?oxy_custom_end?></title>
                      </bibl>
                   </listBibl>
                </note>
@@ -146,18 +164,17 @@
                   Blat<note corresp="#III_105-7">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003757" ana="†">
-                        <persName> August Wilhelm <name type="reg">Schlegel</name>
+                        <persName>August Wilhelm <name type="reg">Schlegel</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003760" ana="†">
-                        <persName> Friedrich <name type="reg">Schlegel</name>
+                        <persName>Friedrich <name type="reg">Schlegel</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009328" ana="†">
-                        <author>Otto, Christian (Georg Christian) (Pseud. Georgius, Christianus)
-                           (1763-1828), Jurist, einer der engsten Freunde von Jean Paul</author>
+                        <author>Otto, Christian (Pseud. Georgius, Christianus, 1763–1828)</author>
                         <title>D. Cölestini güldne Seelen-Apotheke</title>
                      </bibl>
                   </listBibl>
@@ -168,11 +185,11 @@
                komm ich im Frühling gewis. —<note corresp="#III_105-9">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002141" ana="†">
-                        <persName> Christian Adolf <name type="reg">Klotz</name>
+                        <persName>Christian Adolf <name type="reg">Klotz</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003087">
-                        <persName> Emanuel <name type="reg">Osmund</name>
+                        <persName>Emanuel <name type="reg">Osmund</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -180,8 +197,8 @@
                <lb xml:id="III_105-9"/>Die <hi rendition="#aq">Koehler</hi> war gotlob nicht bei
                mir. Du weist schon, daß ich nach<note corresp="#III_105-10">
                   <listPerson type="lineReference">
-                     <person corresp="#JP-000824" ana="†">
-                        <persName> Helene <name type="reg">Dobrowolsky</name>
+                     <person corresp="#JP-011764" ana="†">
+                        <persName>Helene <name type="reg">Köhler</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -197,7 +214,7 @@
                   </listPerson>
                   <listPlace type="lineReference">
                      <place corresp="#JP-005841">
-                        <placeName>Hof im Vogtland</placeName>
+                        <placeName>Hof</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -215,11 +232,11 @@
                <note corresp="#III_105-13">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001527">
-                        <persName> Heinrich Ulrich Erasmus Freiherr von <name type="reg">Hardenberg</name>
+                        <persName>Heinrich Ulrich Erasmus Freiherr von <name type="reg">Hardenberg</name>
                         </persName>
                      </person>
                      <person corresp="#JP-004710">
-                        <persName> Christoph Martin <name type="reg">Wieland</name>
+                        <persName>Christoph Martin <name type="reg">Wieland</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -232,16 +249,16 @@
                Land. — Ich<lb xml:id="III_105-17"/>logiere bei dem Satler <hi rendition="#aq">Kienholz</hi> auf dem Markt. — Gestern war<note corresp="#III_105-18">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002289" ana="†">
-                        <persName> Johann Georg Christoph <name type="reg">Kühnoldt</name>
+                        <persName>Johann Georg Christoph <name type="reg">Kühnholdt</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listPlace type="lineReference">
-                     <place corresp="#JP-00594824">
-                        <placeName>Markt; Leipzig</placeName>
+                     <place corresp="#JP-011500">
+                        <placeName>Markt</placeName>
                      </place>
-                     <place corresp="#JP-00639515" ana="†">
-                        <placeName>Markt; Weimar</placeName>
+                     <place corresp="#JP-011701" ana="†">
+                        <placeName>Markt</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -250,11 +267,11 @@
                wie — nur feiner und ge<note corresp="#III_105-19">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004290">
-                        <persName> Moritz August von <name type="reg">Thümmel</name>
+                        <persName>Moritz August von <name type="reg">Thümmel</name>
                         </persName>
                      </person>
                      <person corresp="#JP-004639">
-                        <persName> Christian Felix <name type="reg">Weiße</name>
+                        <persName>Christian Felix <name type="reg">Weiße</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -263,13 +280,13 @@
                Zedwiz) sieht er aus. Vom<note corresp="#III_105-20">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001950">
-                        <persName> Georg Christoph <name type="reg">Joerdens</name>
+                        <persName>Georg Christoph <name type="reg">Joerdens</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listPlace type="lineReference">
                      <place corresp="#JP-006428">
-                        <placeName>Zedtwitz bei Hof</placeName>
+                        <placeName>Zedtwitz </placeName>
                      </place>
                   </listPlace>
                </note>
@@ -289,9 +306,8 @@
                Ostern kommenden) Bande noch schlim<note corresp="#III_105-23">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009895">
-                        <author>Thümmel, Moritz August von (1738-1817), Schriftsteller</author>
-                        <title>Reise in die mittäglichen Provinzen von Frankreich
-                           (1791-1805)</title>
+                        <author>Thümmel, Moritz August von (1738–1817)</author>
+                        <title>Reise in die mittäglichen Provinzen von Frankreich (1791–1805)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -299,9 +315,8 @@
                lezten) sich bekehre, fuhr ein sarkastischer<lb xml:id="III_105-24"/>Glanz über das
                deutsche Gesicht. —<note corresp="#III_105-25">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0056690">
-                        <placeName>Deutsche; Deutschland , deutsch , Germanien,
-                           Vaterland</placeName>
+                     <place corresp="#JP-011167">
+                        <placeName>Deutsche</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -312,7 +327,7 @@
                   und<note corresp="#III_105-26">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001542">
-                        <persName> Emilie Dorothea Friederike <name type="reg">Harmes</name>
+                        <persName>Emilie <name type="reg">Harmes</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -327,9 +342,9 @@
                </note>
                <lb xml:id="III_105-27"/>regenspurgisch bleibe — Darin stekt mein Friede. —<note corresp="#III_105-28">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0061790">
-                        <placeName>Appellationsgerichts-Lokalkommission in Regensburg;
-                           Regensburg</placeName>
+                     <place corresp="#JP-011619">
+                        <placeName>Appellationsgerichts-Lokalkommission in
+                        Regensburg</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -338,11 +353,12 @@
             <p>Hier kan man sein Haar entweder <hi rendition="#aq">à  la Brutus,</hi> oder <hi rendition="#aq">Titus</hi> oder<note corresp="#III_105-29">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000524" ana="?">
-                        <persName> Lucius Iunius <name type="reg">Brutus</name>
+                        <persName>Lucius Iunius <name type="reg">Brutus</name>
                         </persName>
                      </person>
                      <person corresp="#JP-004317">
-                        <persName> (Titus Flavius Vespasianus) <name type="reg">Titus</name>
+                        <persName>
+                           <name type="reg">Titus, Römischer Kaiser</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -367,7 +383,7 @@
                schlechter — die Alten nachahmen als<note corresp="#III_105-31">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000065">
-                        <persName> Die <name type="reg">Alten</name>
+                        <persName>Die <name type="reg">Alten</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -375,8 +391,8 @@
                <lb xml:id="III_105-31"/>die grosse Nazion. — Die Weiber windeln leider jezt den Kopf
                   ganz<note corresp="#III_105-32">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0057464">
-                        <placeName>Grande Nation; Frankreich, französisch</placeName>
+                     <place corresp="#JP-011321">
+                        <placeName>Grande Nation</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -398,11 +414,16 @@
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Berlin JP. 4 S. 8°. <hi rendition="#i">J</hi>
                   <hi rendition="#sup">1</hi>: Otto 2,350×. <hi rendition="#i">J</hi>
-                  <hi rendition="#sup">2</hi>: Nerrlich Nr. 46. <hi rendition="#i">B</hi>:<lb/>IV.
-                  Abt., III.1, Nr. 87. <hi rendition="#i">A</hi>: IV. Abt., III.1, Nr.</hi>
+                  <hi rendition="#sup">2</hi>: Nerrlich Nr. 46. <hi rendition="#i">B</hi>:<lb/>IV. Abt., 3.1, Nr. 87. <hi rendition="#i">A</hi>: IV. Abt., 3.1, Nr.</hi>
                <hi rendition="#aq">93. </hi>
                <ref target="#p105_l3">
-                  <hi rendition="#b"><hi rendition="#aq">105</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">3</hi></hi>
+                  <hi rendition="#b">
+                     <hi rendition="#aq">105</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">3</hi>
+                  </hi>
                </ref>
                <hi rendition="#aq"/>Buchhandlung] <hi rendition="#aq">wohl versehentlich statt</hi>
                <lb/>Buchhaltung <hi rendition="#rkd">6</hi> und in] <hi rendition="#aq">nachtr.</hi>
@@ -414,7 +435,13 @@
             </p>
             <p>
                <ref target="#p105_l2">
-                  <hi rendition="#b"><hi rendition="#aq">105</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">2</hi></hi>
+                  <hi rendition="#b">
+                     <hi rendition="#aq">105</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">2</hi>
+                  </hi>
                </ref>
                <hi rendition="#aq"/>
                <hi rendition="#aq">Otto hatte aus Bayreuth geschrieben, wo er 14 Tage zu Besuch

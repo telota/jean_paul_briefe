@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="139">134. An Christian Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Berlin, 11. Mai 1801 bis 18. Mai 1801.</title>
+            <title n="print" type="letter" rend="134">134. An Christian Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Berlin, 11. bis 18. Mai 1801.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,11 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"/><biblScope n="comment" unit="page"/></bibl>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page"/>
+               <biblScope n="comment" unit="page"/>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,14 +73,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date corresp="writingSession1" when="1801-05-11">11. Mai 1801</date>
                <date corresp="writingSession2" when="1801-05-18">18. Mai 1801</date>
                <placeName key="JP-005586">Berlin</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="IV_130"/><ptr type="next" subtype="brief" target="IV_14-fb"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="IV_130"/><ptr type="next" subtype="brief" target="IV_14-fb"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="IV_106"/><ptr type="next" subtype="brief" target="IV_149"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="IV_130"/>
+               <ptr type="next" subtype="brief" target="IV_14-fb"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="IV_130"/>
+               <ptr type="next" subtype="brief" target="IV_14-fb"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-IV_127"/>
+               <ptr type="next" subtype="anbrief" target="IV-IV_150"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -104,8 +123,7 @@
                   Fenster in den Garten herab und ich trinke<note corresp="#IV_72-25">
                      <listPerson type="lineReference">
                         <person corresp="#JP-002905">
-                           <persName>
-                              <name type="reg">Müller</name>
+                           <persName>Diener <name type="reg">Müller</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -114,7 +132,7 @@
                   Was die<note corresp="#IV_72-26">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003469" ana="ff">
-                           <persName> Caroline <name type="reg">Richter</name>
+                           <persName>Caroline <name type="reg">Richter</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -132,7 +150,7 @@
                      so wie<note corresp="#IV_73-34">
                         <listPerson type="lineReference">
                            <person corresp="#JP-002703">
-                              <persName> Johann Siegfried Wilhelm <name type="reg">Mayer</name>
+                              <persName>Johann Siegfried Wilhelm <name type="reg">Mayer</name>
                               </persName>
                            </person>
                         </listPerson>
@@ -141,7 +159,7 @@
                      verhafteten Sachen der Gräfin<note corresp="#IV_73-35">
                         <listPerson type="lineReference">
                            <person corresp="#JP-003964">
-                              <persName> Auguste Sophie Henriette <name type="reg">Schwendler</name>
+                              <persName>Henriette <name type="reg">Schwendler</name>
                               </persName>
                            </person>
                         </listPerson>
@@ -157,7 +175,7 @@
                      Buch<note corresp="#IV_73-6">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001390">
-                           <persName> Gottfried Adolph <name type="reg">Grau</name>
+                           <persName>Gottfried Adolph <name type="reg">Grau</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -168,10 +186,9 @@
                      </listPlace>
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-009960" ana="†">
-                           <author>Vogel, Erhard Friedrich (1750-1823), Theologe, Pfarrer in Rehau
-                              und Arzberg, später Superintendent (ab 1810 Dekan) in
-                              Wunsiedel</author>
-                           <title>Der Evangelist Johannes (1801-04)</title>
+                           <author>Vogel, Erhard Friedrich (1750–1823), Theologe, Pfarrer in Rehau und
+                        Arzberg, später Superintendent (ab 1810 Dekan) in Wunsiedel</author>
+                           <title>Der Evangelist Johannes (1801–04)</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -179,8 +196,7 @@
                      im<note corresp="#IV_73-7">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-008660" ana="†">
-                           <author>Helfrecht, Johann Theodor Benjamin (1753-1819), Lehrer, ab 1795
-                              Rektor am Gymnasium in Hof, Schriftsteller</author>
+                           <author>Helfrecht, Johann Theodor Benjamin (1753–1819)</author>
                            <title>Shakal, der schöne Geist (1799)</title>
                         </bibl>
                      </listBibl>
@@ -189,7 +205,7 @@
                      sinkenden<note corresp="#IV_73-8">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001390">
-                           <persName> Gottfried Adolph <name type="reg">Grau</name>
+                           <persName>Gottfried Adolph <name type="reg">Grau</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -197,7 +213,7 @@
                   <lb xml:id="IV_73-8"/>Helden.“ Hier liegt des plumpen leeren <hi rendition="#aq">Wernleins</hi> Löschblat bei; ich<note corresp="#IV_73-9">
                      <listPerson type="lineReference">
                         <person corresp="#JP-004687" ana="†">
-                           <persName> Friedrich <name type="reg">Wernlein</name>
+                           <persName>Friedrich <name type="reg">Wernlein</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -206,7 +222,7 @@
                      Eheherren.<note corresp="#IV_73-10">
                      <listPerson type="lineReference">
                         <person corresp="#JP-004686">
-                           <persName> Friederike Christiane <name type="reg">Wernlein</name>
+                           <persName>Friederike <name type="reg">Wernlein</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -216,11 +232,13 @@
                   Siebenkäs, Fixlein<note corresp="#IV_73-12">
                      <listBibl type="lineReference" subtype="werke-jp">
                         <bibl corresp="#JP-010540">
-                           <title>Blumen- Frucht- und Dornenstükke (Blumen-, Frucht- und
-                              Dornenstücke) (Siebenkäs) (1796-97 [1796])</title>
+                           <title>Blumen- Frucht- und Dornenstükke (Blumen-, Frucht- und Dornenstücke)
+                        (Siebenkäs) oder Ehestand, Tod und Hochzeit des Armenadvokaten F. St.
+                        Siebenkäs im Reichsmarktflecken Kuhschnappel (Berlin, Matzdorff 1796-97
+                        [1796])</title>
                         </bibl>
                         <bibl corresp="#JP-010695" ana="†">
-                           <title>Flegeljahre (1804-1805)</title>
+                           <title>Flegeljahre. Eine Biographie (4 Bde., Tübingen: Cotta 1804-1805)</title>
                         </bibl>
                         <bibl corresp="#JP-010794">
                            <title>Leben des Quintus Fixlein (1796 [1795])</title>
@@ -231,8 +249,8 @@
                   recht bald<note corresp="#IV_73-13">
                      <listBibl type="lineReference" subtype="werke-jp">
                         <bibl corresp="#JP-010806">
-                           <title>Leben des vergnügten Schulmeisterleins Maria Wuz (Schulmeisterlein
-                              Maria Wutz) (1793)</title>
+                           <title>Leben des vergnügten Schulmeisterleins Maria Wuz
+                        (Schulmeisterlein Maria Wutz) (1793)</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -260,17 +278,17 @@
                      ab<note corresp="#IV_73-18">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001675" rend="Lesarten">
-                           <persName> Johann Gottfried von <name type="reg">Herder</name>
+                           <persName>Johann Gottfried von <name type="reg">Herder</name>
                            </persName>
                         </person>
                         <person corresp="#JP-002289">
-                           <persName> Johann Georg Christoph <name type="reg">Kühnoldt</name>
+                           <persName>Johann Georg Christoph <name type="reg">Kühnholdt</name>
                            </persName>
                         </person>
                      </listPerson>
                      <listPlace type="lineReference">
-                        <place corresp="#JP-00639515">
-                           <placeName>Markt; Weimar</placeName>
+                        <place corresp="#JP-011701">
+                           <placeName>Markt</placeName>
                         </place>
                         <place corresp="#JP-006012">
                            <placeName>Meiningen </placeName>
@@ -278,14 +296,16 @@
                      </listPlace>
                   </note>
                   <lb xml:id="IV_73-18" rendition="#hyphen"/>zugeben bei Oberststalmeister <hi rendition="#aq">v. Wechmar.</hi>
-               <note corresp="#IV_73-19">
-                  <listPerson type="lineReference">
-                     <person corresp="#JP-004618">
-                        <persName> Karl August von <name type="reg">Wechmar</name>
-                        </persName>
-                     </person>
-                  </listPerson>
-               </note><lb xml:id="IV_73-19"/></p>
+                  <note corresp="#IV_73-19">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004618">
+                           <persName>Karl August von <name type="reg">Wechmar</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="IV_73-19"/>
+               </p>
             </div>
             <div n="writingSession2">
                <dateline>
@@ -306,7 +326,7 @@
                   und Geschäftige<note corresp="#IV_73-23">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003469">
-                           <persName> Caroline <name type="reg">Richter</name>
+                           <persName>Caroline <name type="reg">Richter</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -316,7 +336,7 @@
                      <hi rendition="#aq">Emanuel</hi> auch zu uns<note corresp="#IV_73-26">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003087" ana="†">
-                           <persName> Emanuel <name type="reg">Osmund</name>
+                           <persName>Emanuel <name type="reg">Osmund</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -326,7 +346,7 @@
                      <listPerson type="lineReference">
                         <person corresp="#JP-001157" ana="†">
                            <persName>
-                              <name type="reg">Franziskaner </name>
+                              <name type="reg">Franziskaner</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -342,7 +362,7 @@
                   <lb xml:id="IV_73-28"/>durch ein grosses Triebwerk, z. B. den Minister v. <hi rendition="#aq">Alvensleben,</hi> der<note corresp="#IV_73-29">
                      <listPerson type="lineReference">
                         <person corresp="#JP-000069">
-                           <persName> Philipp Karl Graf <name type="reg">Alvensleben</name>
+                           <persName>Philipp Karl Graf von <name type="reg">Alvensleben</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -352,17 +372,17 @@
                      <listPerson type="lineReference">
                         <person corresp="#JP-001187">
                            <persName>
-                              <name type="reg">Friedrich Wilhelm III.</name>
+                              <name type="reg">Friedrich Wilhelm III., König von Preußen</name>
                            </persName>
                         </person>
                         <person corresp="#JP-001288">
-                           <persName> Erbprinz von Mecklenburg-Strelitz <name type="reg">Georg
-                              </name>
+                           <persName>
+                              <name type="reg">Georg Erbprinz von Mecklenburg-Strelitz</name>
                            </persName>
                         </person>
                         <person corresp="#JP-002548">
                            <persName>
-                              <name type="reg">Luise</name>
+                              <name type="reg">Luise, Königin von Preußen</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -371,11 +391,11 @@
                   <note corresp="#IV_73-31">
                      <listPerson type="lineReference">
                         <person corresp="#JP-000358" ana="†">
-                           <persName> Karl Friedrich von <name type="reg">Beyme</name>
+                           <persName>Karl Friedrich von <name type="reg">Beyme</name>
                            </persName>
                         </person>
                         <person corresp="#JP-002703">
-                           <persName> Johann Siegfried Wilhelm <name type="reg">Mayer</name>
+                           <persName>Johann Siegfried Wilhelm <name type="reg">Mayer</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -402,7 +422,7 @@
                         </bibl>
                         <bibl corresp="#JP-010944">
                            <title>Ueber die Wüste und das gelobte Land des Menschengeschlechts
-                              (1795)</title>
+                        (1795)</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -411,7 +431,7 @@
                   <note corresp="#IV_74-7">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001714">
-                           <persName> Johann Georg <name type="reg">Herold</name>
+                           <persName>Johann Georg <name type="reg">Herold</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -430,7 +450,7 @@
                   nicht lieben,<note corresp="#IV_74-10">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001530">
-                           <persName> Karl August Freiherr von <name type="reg">Hardenberg</name>
+                           <persName>Karl August Freiherr von <name type="reg">Hardenberg</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -439,7 +459,8 @@
                   ich dir bei; könt’ ich<lb xml:id="IV_74-11"/>nur mehr! — Der Herzog von <hi rendition="#aq">Meiningen</hi> lies mich durch einen<note corresp="#IV_74-12">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001289">
-                           <persName> Herzog von Sachsen-Meiningen <name type="reg">Georg I.</name>
+                           <persName>
+                              <name type="reg">Georg I., Herzog von Sachsen-Meiningen</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -466,11 +487,11 @@
                   <note corresp="#IV_74-15">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003087">
-                           <persName> Emanuel <name type="reg">Osmund</name>
+                           <persName>Emanuel <name type="reg">Osmund</name>
                            </persName>
                         </person>
                         <person corresp="#JP-003108">
-                           <persName> Amöne (Pseud. Amalie von Obyrn) <name type="reg">Otto</name>
+                           <persName>Amöne <name type="reg">Otto</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -492,10 +513,15 @@
                </hi> 20[!] Mai. <hi rendition="#aq">
                   <hi rendition="#i">J</hi>
                   <hi rendition="#sup">1</hi>: Otto 4,25×. <hi rendition="#i">J</hi>
-                  <hi rendition="#sup">2</hi>:<lb/>Nerrlich Nr. 86×. <hi rendition="#i">B</hi>: IV.
-                  Abt., IV, Nr. 127. <hi rendition="#i">A</hi>: IV. Abt., IV, Nr.</hi>
+                  <hi rendition="#sup">2</hi>:<lb/>Nerrlich Nr. 86×. <hi rendition="#i">B</hi>: IV. Abt., 4, Nr. 127. <hi rendition="#i">A</hi>: IV. Abt., 4, Nr.</hi>
                <hi rendition="#aq">150. </hi>
-               <hi rendition="#b"><hi rendition="#aq">72</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">25</hi></hi> herab] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">72</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">25</hi>
+               </hi> herab] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
                </hi>
                <lb/>
                <hi rendition="#rkd">27</hi> gegen] <hi rendition="#aq">aus</hi> für <hi rendition="#aq">
@@ -545,7 +571,13 @@
                <hi rendition="#aq">aus</hi> verwandelte <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">74</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">8</hi></hi> Roth] <hi rendition="#aq">aus</hi> Garn <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">74</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">8</hi>
+               </hi> Roth] <hi rendition="#aq">aus</hi> Garn <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">16</hi> Wort] <hi rendition="#aq">aus</hi> Worten <hi rendition="#aq">
@@ -576,7 +608,13 @@
                   I. Abt., VI, 15,<hi rendition="#rkd">1</hi>, VII, 91,<hi rendition="#rkd">24</hi>.
                      <hi rendition="#b">74</hi>, <hi rendition="#rkd">6</hi>f. <hi rendition="#g">Das
                      gelobte Land:</hi> s.</hi>
-               <hi rendition="#b"><hi rendition="#aq">71</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">29</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">71</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">29</hi>
+               </hi>
                <hi rendition="#aq">†.</hi>
             </p>
             <lb/>

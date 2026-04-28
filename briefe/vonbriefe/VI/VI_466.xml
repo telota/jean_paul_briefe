@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="467">466. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, März 1811.</title>
+            <title n="print" type="letter" rend="466">466. An Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth, März 1811.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,16 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>185</num></biblScope><biblScope n="comment" unit="page"><num>505</num><num>506</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>185</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>505</num>
+                  <num>506</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +78,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date cert="medium" notBefore="1811-03-01" notAfter="1811-03-31">März 1811</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0954"/><ptr type="next" subtype="brief" target="VI_472"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_25-fb"/><ptr type="next" subtype="brief" target="VI_472"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_457"/><ptr type="next" subtype="brief" target="VI_470"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB0954"/>
+               <ptr type="next" subtype="brief" target="VI_472"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_25-fb"/>
+               <ptr type="next" subtype="brief" target="VI_472"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_457"/>
+               <ptr type="next" subtype="brief" target="VI_470"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -94,24 +118,24 @@
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010170" ana="?">
                         <author/>
-                        <title>Allgemeine Literatur-Zeitung (Literaturzeitung) (Jena 1785ff., ab
-                           1804 Halle)</title>
+                        <title>Allgemeine Literatur-Zeitung (Literaturzeitung) (Jena 1785 ff., ab 1804
+                        Halle)</title>
                      </bibl>
                   </listBibl>
                </note>
                <lb xml:id="VI_185-11"/> später zurück schickst als die Annalen, weil diese der <hi rendition="#aq">Harmonie</hi> ge<note corresp="#VI_185-12">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0055741">
-                        <placeName>Harmonie-Gesellschaft; Bayreuth (Stadt)</placeName>
+                     <place corresp="#JP-011035">
+                        <placeName>Harmonie-Gesellschaft</placeName>
                      </place>
-                     <place corresp="#JP-00557443">
-                        <placeName>Rollwenzelei; Bayreuth (Stadt)</placeName>
+                     <place corresp="#JP-011072">
+                        <placeName>Rollwenzelei</placeName>
                      </place>
                   </listPlace>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009432" ana="?">
-                        <author>Posselt, Ernst Ludwig (Werk, Hrsg.)</author>
-                        <title>Europäische Annalen (1795-1820)</title>
+                        <author>Posselt, Ernst Ludwig (Hrsg.)</author>
+                        <title>Europäische Annalen (Stuttgart, Tübingen, Cotta: 1795–1820)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -119,8 +143,9 @@
                Differenzial Rechnung,<note corresp="#VI_185-13">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008219" ana="†">
-                        <author>Buzengeiger, Karl (1771-1835), Mathematiker, Mineraloge</author>
-                        <title>Differentialrechnung (1809)</title>
+                        <author>Buzengeiger, Karl (1771–1835)</author>
+                        <title>Leichte und kurze Darstellung der Differential-Rechnung (Ansbach: Gassert
+                        1809)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -128,7 +153,7 @@
                schickte, hielt mich vom Ausgehen ab.<note corresp="#VI_185-14">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003956" ana="†">
-                        <persName> Johann Salomon Christoph <name type="reg">Schweigger</name>
+                        <persName>Johann Salomon Christoph <name type="reg">Schweigger</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -137,7 +162,7 @@
                Berechnung wegen. — Und wie<note corresp="#VI_185-15">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003042">
-                        <persName> Ludwig Christian von <name type="reg">Oertel</name>
+                        <persName>Ludwig von <name type="reg">Oertel</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -160,7 +185,7 @@
                   Differentialrechnung“, Ansbach 1809. <hi rendition="#g">Oertels Brief:</hi>
                </hi>
                <lb/>
-               <hi rendition="#aq">wahrscheinlich an J. P. IV. Abt., VI, Nr. 148, worin über das
+               <hi rendition="#aq">wahrscheinlich an J. P. IV. Abt., 6, Nr. 148, worin über das
                   gesandte Bier <hi rendition="#g">ab-</hi>
                   <lb/> gerechnet wird.</hi>
             </p>

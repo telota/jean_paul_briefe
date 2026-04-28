@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="292">291. An Charles de Villers in Göttingen. </title>
-            <title n="digital">Von Jean Paul an Charles Villers, de. Bayreuth, 19. Juni 1810.</title>
+            <title n="print" type="letter" rend="291">291. An Charles de Villers in Göttingen. </title>
+            <title n="digital">Von Jean Paul an Charles de Villers. Bayreuth, 19. Juni 1810, Dienstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,16 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>112</num><num>113</num></biblScope><biblScope n="comment" unit="page"><num>474</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>112</num>
+                  <num>113</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>474</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,14 +78,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1810-06-19">19. Juni 1810</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-004437">Charles de Villers</persName>
                <placeName key="JP-005786">Göttingen</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_290"/><ptr type="next" subtype="brief" target="VI_292"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_290"/><ptr type="next" subtype="brief" target="VI_292"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_231"/><ptr type="next" subtype="brief" target="VI_354"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_290"/>
+               <ptr type="next" subtype="brief" target="VI_292"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_290"/>
+               <ptr type="next" subtype="brief" target="VI_292"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_EB_33"/>
+               <ptr type="next" subtype="brief" target="VI_354"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -94,8 +118,7 @@
                   bringt<lb xml:id="VI_112-17"/> Ihnen <hi rendition="#aq">M<hi rendition="#sup">de</hi> Laffont;</hi> deren Seele viel Ähnliches von ihrem Ge<note corresp="#VI_112-18">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002336">
-                        <persName>
-                           <name type="reg">Laffont</name>
+                        <persName>Madame <name type="reg">Laffont</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -103,38 +126,40 @@
                <lb xml:id="VI_112-18" rendition="#hyphen"/>sichte hat und schön ist. Obgleich Frau
                eines französischen Kapitäns,<note corresp="#VI_112-19">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0057470">
-                        <placeName>(Gallier, Neufranken); Frankreich, Franzosen,
-                           französisch</placeName>
+                     <place corresp="#JP-011327">
+                        <placeName>(Gallier, Neufranken)</placeName>
                      </place>
                   </listPlace>
                </note>
                <lb xml:id="VI_112-19"/> ist sie doch eine deutsche geblieben an Gesinnung und Art.
                   Schicken<note corresp="#VI_112-20">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0056710">
-                        <placeName>Frauen; Deutschland, deutsche</placeName>
+                     <place corresp="#JP-011182">
+                        <placeName>Frauen</placeName>
                      </place>
                   </listPlace>
                </note>
                <lb n="20" xml:id="VI_112-20"/> Sie mir nur bald die Belohnung, nämlich eine schöne
                Seele, die<lb xml:id="VI_112-21"/> mir von Ihnen noch mehr erzählt als diese Ihnen
                von meiner<lb xml:id="VI_112-22"/> Frau und meinen Kindern erzählen wird.<note corresp="#VI_112-23">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-003469">
-                     <persName> Caroline <name type="reg">Richter</name>
-                     </persName>
-                  </person>
-                  <person corresp="#JP-003483">
-                     <persName> Johann Paul Friedrich <name type="reg">Richter</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="VI_112-23"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003469">
+                        <persName>Caroline <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003483">
+                        <persName>
+                           <name type="reg">Richter</name>, seine Kinder</persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_112-23"/>
+            </p>
             <p>Hier leg’ ich Ihnen die kopierte Bitte an den Herzog von Gotha<note corresp="#VI_112-24">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000943">
-                        <persName> August Leopold <name type="reg">Emil</name>
+                        <persName>
+                           <name type="reg">Emil August, Herzog von Sachsen-Gotha und Altenburg</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -149,8 +174,8 @@
             <p>Ihr <hi rendition="#g">Werkchen</hi> über Luther — wofür ich danke — macht mich<note corresp="#VI_112-30">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009952">
-                        <author>Villers, Charles de (1765-1815), französisch-deutscher
-                           Schriftsteller</author>
+                        <author>Villers, Charles de (1765–1815), französisch-deutscher
+                        Schriftsteller</author>
                         <title>Précis historique de la vie de Luther (1810)</title>
                      </bibl>
                   </listBibl>
@@ -161,9 +186,8 @@
             <p>Eben so freu ich mich auf das Werkchen, worin Sie als <hi rendition="#aq">Sauve<lb xml:id="VI_112-32" rendition="#hyphen"/>Garde</hi> sich und mich vor und gegen
                Ihre Landesleute steller. wollen,<note corresp="#VI_112-33">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0057470">
-                        <placeName>(Gallier, Neufranken); Frankreich, Franzosen,
-                           französisch</placeName>
+                     <place corresp="#JP-011327">
+                        <placeName>(Gallier, Neufranken)</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -181,16 +205,16 @@
                denn an und für<lb xml:id="VI_113-3"/> sich bedarf es dieser Zusendung nicht, da Sie
                Deutsch schreiben wie<note corresp="#VI_113-4">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0056716">
-                        <placeName>Sprache, Stil; Deutschland, deutsche</placeName>
+                     <place corresp="#JP-011188">
+                        <placeName>Sprache, Stil</placeName>
                      </place>
                   </listPlace>
                </note>
                <lb xml:id="VI_113-4"/> ein Deutscher und Französisch wie blos der kräftigere
                   Franzose;<note corresp="#VI_113-5">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-00574612">
-                        <placeName>Sprache, Stil, Schrift; Frankreich, französisch</placeName>
+                     <place corresp="#JP-011310">
+                        <placeName>Sprache, Stil, Schrift</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -205,13 +229,13 @@
                   weil Sie noch mehr können.</note> ging nicht durch <hi rendition="#aq">Bayreuth,</hi> also konnt’ er meine<note corresp="#VI_113-8">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000311">
-                        <persName> Jean Baptiste Jules <name type="reg">Bernadotte</name>
+                        <persName>Jean Baptiste <name type="reg">Bernadotte</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listPlace type="lineReference">
                      <place corresp="#JP-005574">
-                        <placeName>Bayreuth (Stadt)</placeName>
+                        <placeName>Bayreuth </placeName>
                      </place>
                   </listPlace>
                </note>
@@ -219,13 +243,15 @@
                   nicht<lb xml:id="VI_113-9"/> gekonnt; und ich hätte sie gar nicht thun sollen, da
                man jede Frei<lb n="10" xml:id="VI_113-10" rendition="#hyphen"/> heit im Kriege
                leichter erlangt als die von Einquartierung. —<lb xml:id="VI_113-11"/> Unter <hi rendition="#aq">Maitre du greffe</hi> meint’ ich einen Kammer-Registrator.<note corresp="#VI_113-12">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-003849" ana="†">
-                     <persName> Johann Friedrich <name type="reg">Schramm</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="VI_113-12"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003849" ana="†">
+                        <persName>Johann Friedrich <name type="reg">Schramm</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_113-12"/>
+            </p>
             <p>Ich war <hi rendition="#g">nie</hi> in Göttingen. Aber jetzt möcht’ ich wol da
                   sein<note corresp="#VI_113-13">
                   <listPlace type="lineReference">
@@ -239,8 +265,7 @@
                   aber<note corresp="#VI_113-15">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002336">
-                        <persName>
-                           <name type="reg">Laffont</name>
+                        <persName>Madame <name type="reg">Laffont</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -274,7 +299,13 @@
                   <hi rendition="#i">K</hi>: <hi rendition="#i">Villers 19 Jun. J</hi>: Magazin f.
                   d. Literatur des In- u. Auslandes,<lb/> 1884, Nr. 27. (Adr. s. zu Nr.</hi>
                <hi rendition="#aq">354.) </hi>
-               <hi rendition="#b"><hi rendition="#aq">112</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">19</hi></hi> und schön ist] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">112</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">19</hi>
+               </hi> und schön ist] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
                   <lb/>
                   <hi rendition="#rkd">22</hi>f.</hi> meiner Frau und] <hi rendition="#aq">nachtr.
                      <hi rendition="#i">H</hi>
@@ -282,9 +313,21 @@
                <hi rendition="#rkd">33</hi> sich und] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
                </hi> Landesleute]<lb/>
                <hi rendition="#aq">so auch <hi rendition="#i">K</hi> (auch I. Abt., XIV,</hi>
-               <hi rendition="#b"><hi rendition="#aq">11</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">17</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">11</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">17</hi>
+               </hi>
                <hi rendition="#aq">) </hi>
-               <hi rendition="#b"><hi rendition="#aq">113</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">3</hi></hi> künftig] <hi rendition="#aq">aus</hi> nachher <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">113</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">3</hi>
+               </hi> künftig] <hi rendition="#aq">aus</hi> nachher <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
                <lb/>

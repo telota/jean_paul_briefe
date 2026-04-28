@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="216">210. An Karoline Herder. </title>
-            <title n="digital">Von Jean Paul an Caroline Herder. Meiningen, 18. November 1801.</title>
+            <title n="print" type="letter" rend="210">210. An Karoline Herder. </title>
+            <title n="digital">Von Jean Paul an Caroline von Herder. Meiningen, 18. November 1801, Mittwoch.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,11 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"/><biblScope n="comment" unit="page"/></bibl>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page"/>
+               <biblScope n="comment" unit="page"/>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -74,14 +78,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1801-11-18">18. November 1801</date>
                <placeName key="JP-006012">Meiningen
                </placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-001670">Caroline (von) Herder</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="IV_209"/><ptr type="next" subtype="umfeldbrief" target="JP-UB1416"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="IV_209"/><ptr type="next" subtype="brief" target="IV_211"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="IV_204"/><ptr type="next" subtype="brief" target="IV_228"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-001670">Caroline von Herder</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-IV_186"/>
+               <ptr type="next" subtype="anbrief" target="IV-IV_187"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="IV_209"/>
+               <ptr type="next" subtype="brief" target="IV_211"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-IV_186"/>
+               <ptr type="next" subtype="anbrief" target="IV-IV_193"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -102,8 +121,8 @@
                Fürstin Ihre (so leicht zu erfüllende) Bitte dem<note corresp="#IV_116-16">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004298" ana="†">
-                        <persName> Therese Mathilde Amalie Fürstin von <name type="reg">Thurn und
-                              Taxis</name>
+                        <persName>
+                           <name type="reg">Therese, Fürstin von Thurn und Taxis</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -112,7 +131,8 @@
                   da<note corresp="#IV_116-17">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004294">
-                        <persName> Karl Alexander Fürst von <name type="reg">Thurn und Taxis</name>
+                        <persName>
+                           <name type="reg">Karl Alexander, Fürst von Thurn und Taxis</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -121,7 +141,7 @@
                   Mannes<note corresp="#IV_116-18">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001675" ana="†">
-                        <persName> Johann Gottfried von <name type="reg">Herder</name>
+                        <persName>Johann Gottfried von <name type="reg">Herder</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -134,8 +154,8 @@
                   ver<note corresp="#IV_116-24">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004298">
-                        <persName> Therese Mathilde Amalie Fürstin von <name type="reg">Thurn und
-                              Taxis</name>
+                        <persName>
+                           <name type="reg">Therese, Fürstin von Thurn und Taxis</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -144,13 +164,15 @@
                weil sonst<lb xml:id="IV_116-26"/>ihr Objekt <hi rendition="#g">zu</hi> klein ist —
                auf andere Reichsländer, in denen Sie noch<lb xml:id="IV_116-27"/>Söhne haben,
                ausbreitete.<note corresp="#IV_116-28">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-001677" ana="†">
-                     <persName> Johann Gottfried von <name type="reg">Herder</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="IV_116-28"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001677" ana="†">
+                        <persName>Johann Gottfried von <name type="reg">Herder</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IV_116-28"/>
+            </p>
             <p>Ich bitte Sie daher, unseren <hi rendition="#aq">Herder</hi> nicht einmal mit dem
                   Dasein<lb xml:id="IV_116-29"/>Ihres frühern Wunsches bekant zu machen, damit er
                nicht „anfahre“,<lb n="30" xml:id="IV_116-30"/>wie ich sonst am seeligen Tisch-Pole
@@ -159,17 +181,19 @@
                Diensten. Leben Sie wohl, treue Mutter! Die schöne<lb xml:id="IV_117-1"/>
                <hi rendition="#aq">Luise</hi> sei gegrüsset und geküsset; und der lustige Arzt sei
                das erstere. —<note corresp="#IV_117-2">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-001673">
-                     <persName> Gottfried <name type="reg">Herder</name>
-                     </persName>
-                  </person>
-                  <person corresp="#JP-001678">
-                     <persName> Luise Theodora Emilie <name type="reg">Herder</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="IV_117-2"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001673">
+                        <persName>Gottfried von <name type="reg">Herder</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-001678">
+                        <persName>Luise von <name type="reg">Herder</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IV_117-2"/>
+            </p>
             <closer>
                <salute>
                   <hi rendition="#right">R.</hi>
@@ -178,19 +202,21 @@
             <lb xml:id="IV_117-3"/>
             <postscript>
                <p>Meine <hi rendition="#aq">Caroline</hi> grüsset und liebt die <hi rendition="#aq">Weimarsche Caroline.</hi>
-               <note corresp="#IV_117-4">
-                  <listPerson type="lineReference">
-                     <person corresp="#JP-003469">
-                        <persName> Caroline <name type="reg">Richter</name>
-                        </persName>
-                     </person>
-                  </listPerson>
-                  <listPlace type="lineReference">
-                     <place corresp="#JP-006395">
-                        <placeName>Weimar</placeName>
-                     </place>
-                  </listPlace>
-               </note><lb xml:id="IV_117-4"/></p>
+                  <note corresp="#IV_117-4">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003469">
+                           <persName>Caroline <name type="reg">Richter</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006395">
+                           <placeName>Weimar</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="IV_117-4"/>
+               </p>
             </postscript>
          </div>
          <div type="comment">
@@ -203,10 +229,15 @@
                </hi>
                <hi rendition="#g">fr.</hi>
                <hi rendition="#aq">
-                  <hi rendition="#i">J</hi>: Herders Nachlaß Nr. 44. <hi rendition="#i">B</hi>: IV.
-                  Abt., IV, Nr. 186. <hi rendition="#i">A</hi>:<lb/>IV. Abt., IV, Nr.</hi>
+                  <hi rendition="#i">J</hi>: Herders Nachlaß Nr. 44. <hi rendition="#i">B</hi>: IV. Abt., 4, Nr. 186. <hi rendition="#i">A</hi>:<lb/>IV. Abt., 4, Nr.</hi>
                <hi rendition="#aq">193. </hi>
-               <hi rendition="#b"><hi rendition="#aq">116</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">15</hi></hi> Ihnen] <hi rendition="#aq">davor gestr.</hi> Sie noch <hi rendition="#rkd">21</hi> sogar] <hi rendition="#aq">nachtr.</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">116</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">15</hi>
+               </hi> Ihnen] <hi rendition="#aq">davor gestr.</hi> Sie noch <hi rendition="#rkd">21</hi> sogar] <hi rendition="#aq">nachtr.</hi>
                <lb/>
                <hi rendition="#rkd">29</hi> unserem</p>
             <lb/>

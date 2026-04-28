@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="580">579. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, 19. Dezember 1811.</title>
+            <title n="print" type="letter" rend="579">579. An Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth, 19. Dezember 1811, Donnerstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>239</num></biblScope><biblScope n="comment" unit="page"><num>527</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>239</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>527</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -68,20 +76,35 @@
             </msDesc>
             <listPerson type="commentary">
                <person corresp="#JP-000742">
-                  <persName> Karl Theodor Reichsfreiherr von <name type="reg">Dalberg</name>
+                  <persName>Carl Theodor von <name type="reg">Dalberg</name>
                   </persName>
                </person>
             </listPerson>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date cert="medium" when="1811-12-19">19. Dezember 1811</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_578"/><ptr type="next" subtype="brief" target="VI_580"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_578"/><ptr type="next" subtype="brief" target="VI_580"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_578"/><ptr type="next" subtype="brief" target="VI_580"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB1322"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB2055"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_578"/>
+               <ptr type="next" subtype="brief" target="VI_580"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_578"/>
+               <ptr type="next" subtype="brief" target="VI_580"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -106,13 +129,13 @@
                <lb xml:id="VI_239-3" rendition="#hyphen"/> blatt. — Gehst du in den <hi rendition="#aq">Anker? — Emanuel</hi> thut mir sogar einen<note corresp="#VI_239-4">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003087">
-                        <persName> Emanuel <name type="reg">Osmund</name>
+                        <persName>Emanuel <name type="reg">Osmund</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listPlace type="lineReference">
-                     <place corresp="#JP-00557423">
-                        <placeName>Gasthof Anker; Bayreuth (Stadt)</placeName>
+                     <place corresp="#JP-011050">
+                        <placeName>Gasthof Anker</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -120,7 +143,7 @@
                   schreibt.<note corresp="#VI_239-5">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000292" ana="†">
-                        <persName> Christian Ernst Graf von <name type="reg">Bentzel-Sternau</name>
+                        <persName>Christian Ernst Graf von <name type="reg">Bentzel-Sternau</name>
                         </persName>
                      </person>
                   </listPerson>

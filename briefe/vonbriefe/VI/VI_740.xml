@@ -2,9 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="742">740. An Cotta. </title>
-            <title n="digital">Von Jean Paul an Johann Friedrich Freiherr Cotta von Cottendorf. Bayreuth, 22. März
-               1813.</title>
+            <title n="print" type="letter" rend="740">740. An Cotta. </title>
+            <title n="digital">Von Jean Paul an Johann Friedrich Cotta. Bayreuth, 22. März 1813, Montag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -46,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>317</num></biblScope><biblScope n="comment" unit="page"><num>554</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>317</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>554</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -70,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1813-03-22">22. März 1813</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-000698">Johann Friedrich Freiherr Cotta von Cottendorf</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_739"/><ptr type="next" subtype="brief" target="VI_742"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_739"/><ptr type="next" subtype="brief" target="VI_742"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_731"/><ptr type="next" subtype="brief" target="VI_743"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000698">Johann Friedrich von Cotta</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_223"/>
+               <ptr type="next" subtype="brief" target="VI_742"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_739"/>
+               <ptr type="next" subtype="brief" target="VI_742"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_EB_79"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_EB_82"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -103,8 +125,8 @@
                <lb xml:id="VI_317-16"/> zurück, welcher behauptete, seine Schuld an Sie schon in <hi rendition="#aq">Augsburger</hi>
                <note corresp="#VI_317-17">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-005549">
-                        <placeName>Augsburg </placeName>
+                     <place corresp="#JP-005548">
+                        <placeName/>
                      </place>
                   </listPlace>
                </note>
@@ -136,13 +158,15 @@
                   </listBibl>
                </note>
                <lb xml:id="VI_317-22"/> Sie <hi rendition="#aq">Wangenheim.</hi> Leben Sie wol!<note corresp="#VI_317-23">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-004599">
-                     <persName> Karl August Freiherr von <name type="reg">Wangenheim</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="VI_317-23"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004599">
+                        <persName>Karl August Freiherr von <name type="reg">Wangenheim</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_317-23"/>
+            </p>
             <closer>
                <salute>
                   <hi rendition="#right">Ihr<lb xml:id="VI_317-24"/> Jean Paul Fr. Richter</hi>
@@ -156,7 +180,13 @@
                   <hi rendition="#i">H</hi>: Cotta-Archiv. 1 S. 8°. Präsentat: 25 März 1813,
                   [beantw.] eod.<lb/>
                   <hi rendition="#i">K</hi>: <hi rendition="#i">Cotta</hi>
-               </hi> 22 März. <hi rendition="#b"><hi rendition="#aq">317</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">17</hi></hi> behauptete] <hi rendition="#aq">aus</hi> sagte <hi rendition="#aq">
+               </hi> 22 März. <hi rendition="#b">
+                  <hi rendition="#aq">317</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">17</hi>
+               </hi> behauptete] <hi rendition="#aq">aus</hi> sagte <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
             </p>

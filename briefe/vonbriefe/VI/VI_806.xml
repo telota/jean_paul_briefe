@@ -2,9 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="808">806. An Cotta. </title>
-            <title n="digital">Von Jean Paul an Johann Friedrich Freiherr Cotta von Cottendorf. Bayreuth, 7.
-               November 1813.</title>
+            <title n="print" type="letter" rend="806">806. An Cotta. </title>
+            <title n="digital">Von Jean Paul an Johann Friedrich Cotta. Bayreuth, 7. November 1813, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -46,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +60,16 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>349</num></biblScope><biblScope n="comment" unit="page"><num>564</num><num>565</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>349</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>564</num>
+                  <num>565</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -70,13 +78,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1813-11-07">7. November 1813</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-000698">Johann Friedrich Freiherr Cotta von Cottendorf</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_805"/><ptr type="next" subtype="brief" target="VI_807"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_805"/><ptr type="next" subtype="brief" target="VI_807"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_798"/><ptr type="next" subtype="brief" target="VI_820"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000698">Johann Friedrich von Cotta</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_805"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_232"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_805"/>
+               <ptr type="next" subtype="brief" target="VI_807"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_EB_101"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_EB_103"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -95,7 +118,7 @@
                <note corresp="#VI_349-5">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003846">
-                        <persName> Johann Leonhard <name type="reg">Schrag</name>
+                        <persName>Johann Leonhard <name type="reg">Schrag</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -106,8 +129,8 @@
                   <note place="left">35</note>Zum Theil den Titel daher, weil mehre Aufsätze im
                   Museum zu Frankfurt<note corresp="#VI_349-35">
                      <listPlace type="lineReference">
-                        <place corresp="#JP-0057438">
-                           <placeName>Museum; Frankfurt a. M.</placeName>
+                        <place corresp="#JP-011301">
+                           <placeName/>
                         </place>
                      </listPlace>
                   </note>
@@ -130,7 +153,7 @@
                      </bibl>
                      <bibl corresp="#JP-010827">
                         <title>Mutmaßungen über einige Wunder des organischen Magnetismus
-                           (1814)</title>
+                        (1814)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -157,7 +180,7 @@
             <p>Meine Freunde wünschen sehr den Damenkalender, zumal da<note corresp="#VI_349-20">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008269">
-                        <author>Cotta, Johann Friedrich (Hg.)</author>
+                        <author>Cotta, Johann Friedrich (1764–1832) (Hrsg.)</author>
                         <title>Taschenbuch für Damen auf das Jahr (1798 ff.)</title>
                      </bibl>
                   </listBibl>
@@ -165,14 +188,14 @@
                <lb n="20" xml:id="VI_349-20"/> mein Aufsatz in dieser lichtern Zeit, wo der
                untergegangne deutsche<note corresp="#VI_349-21">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0056690">
-                        <placeName>Deutsche; Deutschland , deutsch , Germanien,
-                           Vaterland</placeName>
+                     <place corresp="#JP-011167">
+                        <placeName>Deutsche</placeName>
                      </place>
                   </listPlace>
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010645">
-                        <title>Die Schönheit des Sterbens in der Blüte des Lebens (1814)</title>
+                        <title>Die Schönheit des Sterbens in der Blüte des Lebens
+                        (1814)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -183,7 +206,7 @@
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010313">
                         <author/>
-                        <title>Morgenblatt für gebildete Stände (1807ff.)</title>
+                        <title> Morgenblatt für gebildete Stände (1807 ff.)</title>
                      </bibl>
                   </listBibl>
                   <listBibl type="lineReference" subtype="werke-jp">
@@ -223,7 +246,13 @@
                </hi> 7. Nov. <hi rendition="#aq">
                   <hi rendition="#i">J</hi>: Cotta</hi>
                <hi rendition="#aq">1, 392×. </hi>
-               <hi rendition="#b"><hi rendition="#aq">349</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">21</hi></hi> lichtern] <hi rendition="#aq">davor gestr.</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">349</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">21</hi>
+               </hi> lichtern] <hi rendition="#aq">davor gestr.</hi>
                <lb/> hellern <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>

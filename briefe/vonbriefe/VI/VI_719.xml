@@ -2,9 +2,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="721">719. An Luise Stichling, geb. Herder, in
+            <title n="print" type="letter" rend="719">719. An Luise Stichling, geb. Herder, in
                Weimar. </title>
-            <title n="digital">Von Jean Paul an Luise Theodora Emilie Herder. Bayreuth, Januar 1813.</title>
+            <title n="digital">Von Jean Paul an Luise Stichling. Bayreuth, Januar 1813.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -46,7 +46,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>309</num></biblScope><biblScope n="comment" unit="page"><num>551</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>309</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>551</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -70,21 +78,35 @@
             </msDesc>
             <listPerson type="commentary">
                <person corresp="#JP-002007">
-                  <persName> Charlotte von <name type="reg">Kalb</name>
+                  <persName>Charlotte von <name type="reg">Kalb</name>
                   </persName>
                </person>
             </listPerson>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date notBefore="1813-01-01" notAfter="1813-01-31">Januar 1813</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-001678">Luise Theodora Emilie Herder</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-001678">Luise Stichling</persName>
                <placeName key="JP-006395">Weimar</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_718"/><ptr type="next" subtype="brief" target="VI_821a"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_718"/><ptr type="next" subtype="brief" target="VI_821a"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="III_448"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_718"/>
+               <ptr type="next" subtype="brief" target="VI_821a"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_718"/>
+               <ptr type="next" subtype="brief" target="VI_821a"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="III_448"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -103,7 +125,7 @@
                diese wieder eine höhere, läßt sich alles nur mündlich sagen ...<lb xml:id="VI_309-4"/> Sollte sie, was der Himmel verhüte, schon in diesem sein etc. Meine<note corresp="#VI_309-5">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002290" ana="?†">
-                        <persName> Wilhelmine Auguste <name type="reg">Kühnoldt</name>
+                        <persName>Wilhelmine Auguste <name type="reg">Kühnholdt</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -112,8 +134,8 @@
                   Die<note corresp="#VI_309-6">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003483">
-                        <persName> Johann Paul Friedrich <name type="reg">Richter</name>
-                        </persName>
+                        <persName>
+                           <name type="reg">Richter</name>, seine Kinder</persName>
                      </person>
                   </listPerson>
                </note>
@@ -123,7 +145,7 @@
                </hi> oder sonstwo<note corresp="#VI_309-8">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005574">
-                        <placeName>Bayreuth (Stadt)</placeName>
+                        <placeName>Bayreuth </placeName>
                      </place>
                      <place corresp="#JP-006395">
                         <placeName>Weimar</placeName>

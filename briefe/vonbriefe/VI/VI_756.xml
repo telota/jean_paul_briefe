@@ -2,9 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="758">756. An Friedrich Heinrich Jacobi in München. </title>
-            <title n="digital">Von Jean Paul an Friedrich Heinrich Jacobi. Bayreuth, 21. Mai 1813 bis 26. Mai
-               1813.</title>
+            <title n="print" type="letter" rend="756">756. An Friedrich Heinrich Jacobi in München. </title>
+            <title n="digital">Von Jean Paul an Friedrich Heinrich Jacobi. Bayreuth, 21. bis 26. Mai 1813.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -46,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +60,18 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>322</num><num>323</num><num>324</num></biblScope><biblScope n="comment" unit="page"><num>556</num><num>557</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>322</num>
+                  <num>323</num>
+                  <num>324</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>556</num>
+                  <num>557</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -70,16 +80,31 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date corresp="writingSession1" when="1813-05-21">21. Mai 1813</date>
                <date corresp="writingSession2" when="1813-05-24">24. Mai 1813</date>
                <date corresp="writingSession3" when="1813-05-26">26. Mai 1813</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-001909">Friedrich Heinrich Jacobi</persName>
                <placeName key="JP-006040">München</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0980"/><ptr type="next" subtype="brief" target="VI_757"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_754"/><ptr type="next" subtype="brief" target="VI_757"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_666"/><ptr type="next" subtype="brief" target="VI_866"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_EB_84"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_227"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_754"/>
+               <ptr type="next" subtype="brief" target="VI_757"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_226"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_238"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -101,13 +126,14 @@
                   einen Mitkrieger unter deinem<note corresp="#VI_322-23">
                      <listPerson type="lineReference">
                         <person corresp="#JP-000276" ana="†">
-                           <persName> Flavius <name type="reg">Belisarius</name>
+                           <persName>
+                              <name type="reg">Belisar</name>
                            </persName>
                         </person>
                      </listPerson>
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-008543" ana="†">
-                           <author>Goethe, Johann Wolfgang von (1749-1832)</author>
+                           <author>Goethe, Johann Wolfgang von (1749–1832)</author>
                            <title>Die Wahlverwandtschaften (1809)</title>
                         </bibl>
                      </listBibl>
@@ -145,7 +171,7 @@
                   aber, wie <hi rendition="#aq">des<note corresp="#VI_323-2">
                         <listPerson type="lineReference">
                            <person corresp="#JP-000785">
-                              <persName> René <name type="reg">Descartes </name>
+                              <persName>René <name type="reg">Descartes</name>
                               </persName>
                            </person>
                         </listPerson>
@@ -160,9 +186,8 @@
                <lb xml:id="VI_323-4"/>
                <p>Welche Deutschen waren besser, die von 1770—80, 90, oder die<note corresp="#VI_323-5">
                      <listPlace type="lineReference">
-                        <place corresp="#JP-0056690">
-                           <placeName>Deutsche; Deutschland , deutsch , Germanien,
-                              Vaterland</placeName>
+                        <place corresp="#JP-011167">
+                           <placeName>Deutsche</placeName>
                         </place>
                      </listPlace>
                   </note>
@@ -184,7 +209,7 @@
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-010313">
                            <author/>
-                           <title>Morgenblatt für gebildete Stände (1807ff.)</title>
+                           <title> Morgenblatt für gebildete Stände (1807 ff.)</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -219,7 +244,7 @@
                   Schiller — Nachvorlesung an die Dich<note corresp="#VI_323-26">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003737">
-                           <persName> Friedrich (ab 1802) von <name type="reg">Schiller</name>
+                           <persName>Friedrich (ab 1802) von <name type="reg">Schiller</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -250,8 +275,7 @@
                      aber<note corresp="#VI_323-32">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-008816">
-                           <author>Jacobi, Friedrich Heinrich (1743-1819), Philosoph und
-                              Schriftsteller</author>
+                           <author>Jacobi, Friedrich Heinrich (1743–1819)</author>
                            <title>David Hume (1787)</title>
                         </bibl>
                      </listBibl>
@@ -265,8 +289,7 @@
                   deine Noten zu <hi rendition="#aq">Schelling’s</hi> akademischer Rede über<note corresp="#VI_324-2">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-009572">
-                           <author>Schelling, Friedrich Wilhelm Joseph (ab 1812) von
-                              (1775-1854)</author>
+                           <author>Schelling, Friedrich Wilhelm Joseph von (1775–1854)</author>
                            <title>Ueber das Verhältnis der bildenden Künste zur Natur (1807)</title>
                         </bibl>
                      </listBibl>
@@ -326,7 +349,7 @@
                      <listBibl type="lineReference" subtype="werke-jp">
                         <bibl corresp="#JP-010827">
                            <title>Mutmaßungen über einige Wunder des organischen Magnetismus
-                              (1814)</title>
+                        (1814)</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -338,7 +361,7 @@
                   ohne deine und<note corresp="#VI_324-17">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001906">
-                           <persName> Charlotte und Helene <name type="reg">Jacobi</name>
+                           <persName>Charlotte und Helene <name type="reg">Jacobi</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -378,10 +401,15 @@
                   <hi rendition="#sup">1</hi>: Roth Nr. 349×. <hi rendition="#i">J</hi>
                   <hi rendition="#sup">2</hi>: Jacobi S. 164. <hi rendition="#i">J</hi>
                   <hi rendition="#sup">3</hi>: Wahrheit 8, 3×.<lb/>
-                  <hi rendition="#i">B</hi>: IV. Abt., VI, Nr. 226. <hi rendition="#i">A</hi>: IV.
-                  Abt., VI, Nr.</hi>
+                  <hi rendition="#i">B</hi>: IV. Abt., 6, Nr. 226. <hi rendition="#i">A</hi>: IV. Abt., 6, Nr.</hi>
                <hi rendition="#aq">238. </hi>
-               <hi rendition="#b"><hi rendition="#aq">322</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">24</hi></hi> einen <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">322</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">24</hi>
+               </hi> einen <hi rendition="#aq">
                   <hi rendition="#i">Obulus</hi>] aus</hi> eine Gabe <hi rendition="#aq">
                   <hi rendition="#i">H K</hi>
                </hi>
@@ -399,7 +427,13 @@
                dies[er] <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">323</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">4</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">323</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">4</hi>
+               </hi>
                <lb/>
                <hi rendition="#aq">davor gestr.</hi> Immer kann ich die Unterbrechung [<hi rendition="#aq">nachtr.</hi> deiner Antwort]<lb/> nicht verschmerzen <hi rendition="#aq">
                   <hi rendition="#i">H</hi> (vgl. <hi rendition="#b">324</hi>, <hi rendition="#rkd">8</hi>f.)</hi>
@@ -419,7 +453,13 @@
                deinen h. Diamanten <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">324</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">4</hi></hi> be<lb rendition="#hyphen"/>wunderte] <hi rendition="#aq">aus</hi> bewundert
+               <hi rendition="#b">
+                  <hi rendition="#aq">324</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">4</hi>
+               </hi> be<lb rendition="#hyphen"/>wunderte] <hi rendition="#aq">aus</hi> bewundert
                habe <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>

@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="409">408. An Karoline Richter in Altenburg. </title>
-            <title n="digital">Von Jean Paul an Caroline Richter. Bayreuth, 15. Dezember 1810.</title>
+            <title n="print" type="letter" rend="408">408. An Karoline Richter in Altenburg. </title>
+            <title n="digital">Von Jean Paul an Caroline Richter. Bayreuth, 15. Dezember 1810, Samstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,17 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>158</num><num>159</num><num>160</num></biblScope><biblScope n="comment" unit="page"><num>495</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>158</num>
+                  <num>159</num>
+                  <num>160</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>495</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,14 +79,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1810-12-15">15. Dezember 1810</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003469">Caroline Richter</persName>
                <placeName key="JP-005521">Altenburg</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_407"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0550"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_407"/><ptr type="next" subtype="brief" target="VI_409"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_401"/><ptr type="next" subtype="brief" target="VI_413"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_407"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB0550"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_407"/>
+               <ptr type="next" subtype="brief" target="VI_409"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_125"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_128"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -96,11 +121,11 @@
                      immer<note corresp="#VI_158-25">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003483" ana="†">
-                           <persName> Johann Paul Friedrich <name type="reg">Richter</name>
-                           </persName>
+                           <persName>
+                              <name type="reg">Richter</name>, seine Kinder</persName>
                         </person>
                         <person corresp="#JP-003491">
-                           <persName> Odilie Minna <name type="reg">Richter</name>
+                           <persName>Odilie <name type="reg">Richter</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -109,7 +134,7 @@
                   sehr komplizierte<note corresp="#VI_158-26">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003490">
-                           <persName> Max <name type="reg">Richter</name>
+                           <persName>Max <name type="reg">Richter</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -119,7 +144,7 @@
                      <hi rendition="#aq">Odilie</hi> hat niemals<note corresp="#VI_158-28">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003491">
-                           <persName> Odilie Minna <name type="reg">Richter</name>
+                           <persName>Odilie <name type="reg">Richter</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -132,8 +157,7 @@
                   Frühstück und<note corresp="#VI_158-33">
                      <listPerson type="lineReference">
                         <person corresp="#JP-000092" ana="ff">
-                           <persName>
-                              <name type="reg">Anna</name>
+                           <persName>Frau <name type="reg">Anna</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -142,8 +166,8 @@
                   kleines Geschenk<note corresp="#VI_158-34">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003483">
-                           <persName> Johann Paul Friedrich <name type="reg">Richter</name>
-                           </persName>
+                           <persName>
+                              <name type="reg">Richter</name>, seine Kinder</persName>
                         </person>
                      </listPerson>
                   </note>
@@ -158,8 +182,8 @@
                      <hi rendition="#g">alte</hi> Lebens<note corresp="#VI_159-7">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003483">
-                           <persName> Johann Paul Friedrich <name type="reg">Richter</name>
-                           </persName>
+                           <persName>
+                              <name type="reg">Richter</name>, seine Kinder</persName>
                         </person>
                      </listPerson>
                   </note>
@@ -173,18 +197,18 @@
                         <place corresp="#JP-005521">
                            <placeName>Altenburg</placeName>
                         </place>
-                        <place corresp="#JP-0055210">
-                           <placeName>Hornmarkt; Altenburg</placeName>
+                        <place corresp="#JP-011000">
+                           <placeName>Hornmarkt</placeName>
                         </place>
-                        <place corresp="#JP-0055211">
-                           <placeName>Superindentur; Altenburg</placeName>
+                        <place corresp="#JP-011001">
+                           <placeName>Superindentur</placeName>
                         </place>
                      </listPlace>
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-010170">
                            <author/>
-                           <title>Allgemeine Literatur-Zeitung (Literaturzeitung) (Jena 1785ff., ab
-                              1804 Halle)</title>
+                           <title>Allgemeine Literatur-Zeitung (Literaturzeitung) (Jena 1785 ff., ab 1804
+                        Halle)</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -195,12 +219,12 @@
                      mußte<note corresp="#VI_159-14">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001090" ana="?">
-                           <persName> Gottfried Theodor Christoph <name type="reg">Fischer</name>
+                           <persName>Gottfried Theodor Christoph <name type="reg">Fischer</name>
                            </persName>
                         </person>
                         <person corresp="#JP-003483">
-                           <persName> Johann Paul Friedrich <name type="reg">Richter</name>
-                           </persName>
+                           <persName>
+                              <name type="reg">Richter</name>, seine Kinder</persName>
                         </person>
                      </listPerson>
                   </note>
@@ -208,11 +232,11 @@
                   <hi rendition="#aq">Odilie</hi> schon 2mal essen, so wie <hi rendition="#aq">Auguste</hi> schon einmal bei mir aß.<note corresp="#VI_159-15">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001086">
-                           <persName> Auguste <name type="reg">Fischer</name>
+                           <persName>Auguste <name type="reg">Fischer</name>
                            </persName>
                         </person>
                         <person corresp="#JP-003491">
-                           <persName> Odilie Minna <name type="reg">Richter</name>
+                           <persName>Odilie <name type="reg">Richter</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -223,11 +247,11 @@
                   bei mir und ich konnte ihnen<note corresp="#VI_159-16">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003108">
-                           <persName> Amöne (Pseud. Amalie von Obyrn) <name type="reg">Otto</name>
+                           <persName>Amöne <name type="reg">Otto</name>
                            </persName>
                         </person>
                         <person corresp="#JP-003125" ana="?">
-                           <persName> Pauline <name type="reg">Otto</name>
+                           <persName>Pauline <name type="reg">Otto</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -235,7 +259,7 @@
                   <lb xml:id="VI_159-16"/> als Hausvater etwas geben; und eben war <hi rendition="#aq">Emanuel</hi> da. Alle<note corresp="#VI_159-17">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003087">
-                           <persName> Emanuel <name type="reg">Osmund</name>
+                           <persName>Emanuel <name type="reg">Osmund</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -244,8 +268,7 @@
                   trug mir ihren Gruß auf, da du<note corresp="#VI_159-18">
                      <listPerson type="lineReference">
                         <person corresp="#JP-000092">
-                           <persName>
-                              <name type="reg">Anna</name>
+                           <persName>Frau <name type="reg">Anna</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -256,11 +279,11 @@
                <p>An mehreren Tagen, wo ich aus der <hi rendition="#aq">Harmonie</hi> aß,
                      braucht’<note corresp="#VI_159-21">
                      <listPlace type="lineReference">
-                        <place corresp="#JP-0055741">
-                           <placeName>Harmonie-Gesellschaft; Bayreuth (Stadt)</placeName>
+                        <place corresp="#JP-011035">
+                           <placeName>Harmonie-Gesellschaft</placeName>
                         </place>
-                        <place corresp="#JP-00557443">
-                           <placeName>Rollwenzelei; Bayreuth (Stadt)</placeName>
+                        <place corresp="#JP-011072">
+                           <placeName>Rollwenzelei</placeName>
                         </place>
                      </listPlace>
                   </note>
@@ -269,18 +292,20 @@
                <lb xml:id="VI_159-23"/>
                <p>
                   <hi rendition="#g">Die</hi> arme, arme <hi rendition="#aq">Dobeneck!</hi> —<note corresp="#VI_159-24">
-                  <listPerson type="lineReference">
-                     <person corresp="#JP-000817">
-                        <persName> Caroline Friederike Henriette von <name type="reg">Dobeneck</name>
-                        </persName>
-                     </person>
-                  </listPerson>
-               </note><lb xml:id="VI_159-24"/></p>
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000817">
+                           <persName>Caroline von <name type="reg">Dobeneck</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_159-24"/>
+               </p>
                <p>Doch ich fahre im Frohen fort. Der letzte vortreffliche Brief<lb n="25" xml:id="VI_159-25"/> Ludwigs hat mich sehr erfreuet, und ich weiß nun, daß du
                   in der<note corresp="#VI_159-26">
                      <listPerson type="lineReference">
                         <person corresp="#JP-002527">
-                           <persName> Ernst Karl Friedrich <name type="reg">Ludwig</name>
+                           <persName>Ernst <name type="reg">Ludwig</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -295,19 +320,20 @@
                   sollte sie, dächt’ ich, wol thun können.</p>
                <lb xml:id="VI_159-33"/>
                <p>Ich sagte oben nicht: <hi rendition="#g">der</hi> arme <hi rendition="#aq">Dobeneck.</hi>
-               <note corresp="#VI_159-34">
-                  <listPerson type="lineReference">
-                     <person corresp="#JP-000819">
-                        <persName> Friedrich Ludwig Ferdinand von <name type="reg">Dobeneck</name>
-                        </persName>
-                     </person>
-                  </listPerson>
-               </note><lb xml:id="VI_159-34"/></p>
+                  <note corresp="#VI_159-34">
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000819">
+                           <persName>Friedrich von <name type="reg">Dobeneck</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_159-34"/>
+               </p>
                <p>Schreibe mir, was ich der Magd zu Weihnachten an Geld und<note corresp="#VI_159-35">
                      <listPerson type="lineReference">
                         <person corresp="#JP-000092">
-                           <persName>
-                              <name type="reg">Anna</name>
+                           <persName>Frau <name type="reg">Anna</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -319,14 +345,14 @@
                   hat mir eine<note corresp="#VI_160-3">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001288">
-                           <persName> Erbprinz von Mecklenburg-Strelitz <name type="reg">Georg
-                              </name>
+                           <persName>
+                              <name type="reg">Georg Erbprinz von Mecklenburg-Strelitz</name>
                            </persName>
                         </person>
                      </listPerson>
                      <listPlace type="lineReference">
-                        <place corresp="#JP-006224">
-                           <placeName>Sachsen, Kursachsen, sächsisch</placeName>
+                        <place corresp="#JP-006223">
+                           <placeName>Sachsen, Kursachsen, sächsisch </placeName>
                         </place>
                      </listPlace>
                   </note>
@@ -338,7 +364,7 @@
                   <metamark>[</metamark>!<metamark>]</metamark> soll<note corresp="#VI_160-7">
                      <listPerson type="lineReference">
                         <person corresp="#JP-000501">
-                           <persName> Friedrich Arnold <name type="reg">Brockhaus</name>
+                           <persName>Friedrich Arnold <name type="reg">Brockhaus</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -348,7 +374,7 @@
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-010375">
                            <author/>
-                           <title>Urania, Taschenbuch für Damen (1810ff.)</title>
+                           <title> Urania, Taschenbuch für Damen auf das Jahr (1810 ff.)</title>
                         </bibl>
                      </listBibl>
                      <listBibl type="lineReference" subtype="werke-jp">
@@ -379,7 +405,7 @@
                   <p>Den <hi rendition="#aq">Ehrenbergischen</hi> Brief an <hi rendition="#aq">Herseel</hi> kann ich ohne nähere<note corresp="#VI_160-22">
                         <listPerson type="lineReference">
                            <person corresp="#JP-000898">
-                              <persName> Caroline Auguste Eleonore <name type="reg">Ehrenberg</name>
+                              <persName>Caroline von <name type="reg">Ehrenberg</name>
                               </persName>
                            </person>
                            <person corresp="#JP-001727">
@@ -397,11 +423,11 @@
                         Ehrenberg,</hi> daß es bei<note corresp="#VI_160-24">
                         <listPerson type="lineReference">
                            <person corresp="#JP-000898">
-                              <persName> Caroline Auguste Eleonore <name type="reg">Ehrenberg</name>
+                              <persName>Caroline von <name type="reg">Ehrenberg</name>
                               </persName>
                            </person>
                            <person corresp="#JP-002527">
-                              <persName> Ernst Karl Friedrich <name type="reg">Ludwig</name>
+                              <persName>Ernst <name type="reg">Ludwig</name>
                               </persName>
                            </person>
                         </listPerson>
@@ -434,7 +460,7 @@
                      so<note corresp="#VI_160-34">
                      <listPerson type="lineReference">
                         <person corresp="#JP-004393" ana="†">
-                           <persName> Wilhelmine <name type="reg">Uthe-Spazier</name>
+                           <persName>Minna <name type="reg">Uthe-Spazier</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -442,7 +468,7 @@
                   <lb xml:id="VI_160-34"/> nimm in deinem Betragen gegen <hi rendition="#aq">Brockh.</hi> darauf Rücksicht, damit<note corresp="#VI_160-35">
                      <listPerson type="lineReference">
                         <person corresp="#JP-000501">
-                           <persName> Friedrich Arnold <name type="reg">Brockhaus</name>
+                           <persName>Friedrich Arnold <name type="reg">Brockhaus</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -459,13 +485,30 @@
                   Berlin JP. Die Reihenfolge der an den Rand geschrie<lb rendition="#hyphen"/>benen
                   Nachschriften läßt sich nicht feststellen. <hi rendition="#i">J</hi>
                   <hi rendition="#sup">1</hi>: Wahrheit 7, 190×<lb/> (als Schluß von Nr. 401). <hi rendition="#i">J</hi>
-                  <hi rendition="#sup">2</hi>: Nerrlich Nr. 123×. <hi rendition="#i">B</hi>: IV.
-                  Abt., VI, Nr. 125. <hi rendition="#i">A</hi>:<lb/>IV. Abt., VI, Nr.</hi>
+                  <hi rendition="#sup">2</hi>: Nerrlich Nr. 123×. <hi rendition="#i">B</hi>: IV. Abt., 6, Nr. 125. <hi rendition="#i">A</hi>:<lb/>IV. Abt., 6, Nr.</hi>
                <hi rendition="#aq">128. </hi>
-               <hi rendition="#b"><hi rendition="#aq">158</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">28</hi></hi> jeder] <hi rendition="#aq">aus</hi> ihr <hi rendition="#rkd">32</hi>
-               Nachkaufen] <hi rendition="#aq">aus</hi> Einkaufen <hi rendition="#b"><hi rendition="#aq">159</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">1</hi></hi> näch<lb rendition="#hyphen"/>stens] <hi rendition="#aq">aus</hi> künftig <hi rendition="#rkd">3 </hi>weil] <hi rendition="#aq">aus</hi> da Spitzbuben-] <hi rendition="#aq">nachtr. aus</hi> Dieb <hi rendition="#rkd">6</hi> zweierlei]<lb/>
+               <hi rendition="#b">
+                  <hi rendition="#aq">158</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">28</hi>
+               </hi> jeder] <hi rendition="#aq">aus</hi> ihr <hi rendition="#rkd">32</hi>
+               Nachkaufen] <hi rendition="#aq">aus</hi> Einkaufen <hi rendition="#b">
+                  <hi rendition="#aq">159</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">1</hi>
+               </hi> näch<lb rendition="#hyphen"/>stens] <hi rendition="#aq">aus</hi> künftig <hi rendition="#rkd">3 </hi>weil] <hi rendition="#aq">aus</hi> da Spitzbuben-] <hi rendition="#aq">nachtr. aus</hi> Dieb <hi rendition="#rkd">6</hi> zweierlei]<lb/>
                <hi rendition="#aq">aus</hi> doppelten <hi rendition="#rkd">9</hi> weil diese] <hi rendition="#aq">aus</hi> welche <hi rendition="#rkd">16</hi> Heute] <hi rendition="#aq">aus</hi> Vorhin <hi rendition="#aq">aus</hi> Eben<lb/>
-               <hi rendition="#rkd">31</hi> sie] <hi rendition="#aq">aus</hi> ihr <hi rendition="#rkd">35</hi> was] <hi rendition="#aq">aus</hi> wie viel <hi rendition="#b"><hi rendition="#aq">160</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">8</hi></hi> dir] <hi rendition="#aq">aus</hi> mir <hi rendition="#rkd">9</hi> durch] <hi rendition="#aq">aus</hi> mit<lb/>
+               <hi rendition="#rkd">31</hi> sie] <hi rendition="#aq">aus</hi> ihr <hi rendition="#rkd">35</hi> was] <hi rendition="#aq">aus</hi> wie viel <hi rendition="#b">
+                  <hi rendition="#aq">160</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">8</hi>
+               </hi> dir] <hi rendition="#aq">aus</hi> mir <hi rendition="#rkd">9</hi> durch] <hi rendition="#aq">aus</hi> mit<lb/>
                <hi rendition="#rkd">12</hi> Gefühle] <hi rendition="#aq">aus</hi> Herzen <hi rendition="#rkd">16</hi>
                <hi rendition="#aq">f.</hi> obwol manchmal, glücklich zu sein] <hi rendition="#aq">nachtr.</hi>
                <lb/>

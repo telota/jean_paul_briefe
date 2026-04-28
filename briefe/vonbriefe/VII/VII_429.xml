@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="433">429. An Henriette von Ende in Leipzig. </title>
-            <title n="digital">Von Jean Paul an Henriette Freifrau von Ende. Ohne Ort, 21. Juni 1818.</title>
+            <title n="print" type="letter" rend="429">429. An Henriette von Ende in Leipzig. </title>
+            <title n="digital">Von Jean Paul an Henriette von Ende. 21. Juni 1818, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
+               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
                <biblScope n="text" unit="page">
                   <num>210</num>
                </biblScope>
@@ -77,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1818-06-21">21. Juni 1818</date>
-            </correspAction><correspAction type="received">
-               <persName key="JP-000948">Henriette Freifrau von Ende</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000948">Henriette von Ende</persName>
                <placeName key="JP-005948">Leipzig</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0812"/><ptr type="next" subtype="brief" target="VII_430"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VII_428"/><ptr type="next" subtype="brief" target="VII_430"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VII_386"/><ptr type="next" subtype="brief" target="VII_463"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB0812"/>
+               <ptr type="next" subtype="brief" target="VII_430"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VII_428"/>
+               <ptr type="next" subtype="brief" target="VII_430"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VII_107"/>
+               <ptr type="next" subtype="brief" target="VII_463"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -99,7 +114,7 @@
             <note corresp="#VII_210-24">
                <listPerson type="lineReference">
                   <person corresp="#JP-003944">
-                     <persName> Friedrich Heinrich Christian <name type="reg">Schwarz</name>
+                     <persName>Friedrich Heinrich Christian <name type="reg">Schwarz</name>
                      </persName>
                   </person>
                </listPerson>
@@ -110,11 +125,12 @@
                meiner Frau durch die Herzogin ge<note corresp="#VII_210-27">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000853" ana="†">
-                        <persName> Herzogin von Kurland <name type="reg">Dorothea</name>
+                        <persName>
+                           <name type="reg">Dorothea, Herzogin von Kurland</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003469">
-                        <persName> Caroline <name type="reg">Richter</name>
+                        <persName>Caroline <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -124,7 +140,7 @@
                Kurland ist mir gerade in Baireut am nöthigsten. —<note corresp="#VII_210-29">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005574">
-                        <placeName>Bayreuth (Stadt)</placeName>
+                        <placeName>Bayreuth </placeName>
                      </place>
                   </listPlace>
                </note>
@@ -132,7 +148,7 @@
                segne Ihr<note corresp="#VII_210-30">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000949">
-                        <persName> Otto Leopold Freiherr von <name type="reg">Ende</name>
+                        <persName>Otto Leopold Freiherr von <name type="reg">Ende</name>
                         </persName>
                      </person>
                   </listPerson>

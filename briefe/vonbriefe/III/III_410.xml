@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="415">410. An Böttiger. </title>
+            <title n="print" type="letter" rend="410">410. An Böttiger. </title>
             <title n="digital">Von Jean Paul an Carl August Böttiger. Weimar, Anfang März 1800.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
+               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
                <biblScope n="text" unit="page">
                   <num>298</num>
                </biblScope>
@@ -77,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date notBefore="1800-03-01" notAfter="1800-03-10">Anfang März 1800</date>
                <placeName key="JP-006395">Weimar</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-000400">Carl August Böttiger</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="III_409"/><ptr type="next" subtype="brief" target="III_55-fb"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="III_409"/><ptr type="next" subtype="brief" target="III_55-fb"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="III_403"/><ptr type="next" subtype="brief" target="III_419"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="III_409"/>
+               <ptr type="next" subtype="brief" target="III_55-fb"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="III_409"/>
+               <ptr type="next" subtype="brief" target="III_55-fb"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="III_403"/>
+               <ptr type="next" subtype="anbrief" target="IV-III.2_352"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -101,13 +116,12 @@
                   wo<metamark>]</metamark> Gerstenberg<note corresp="#III_298-15">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008475">
-                        <author>Gerstenberg, Heinrich Wilhelm von (1737-1823), Schriftsteller und
-                           Kritiker</author>
+                        <author>Gerstenberg, Heinrich Wilhelm von (1737–1823)</author>
                         <title>Die Theorie der Kategorien (1795)</title>
                      </bibl>
                      <bibl corresp="#JP-008675" ana="†">
-                        <author>Hennings, August (1746-1826), Publizist (Werk, Hrsg.)</author>
-                        <title>Der Genius der Zeit (1794-1800)</title>
+                        <author>Hennings, August (1746–1826) (Hrsg.)</author>
+                        <title>Der Genius der Zeit (1794–1800)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -115,7 +129,7 @@
                einrücken lassen? — Darf ich Sie nicht um den<note corresp="#III_298-16">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001909">
-                        <persName> Friedrich Heinrich <name type="reg">Jacobi</name>
+                        <persName>Friedrich Heinrich <name type="reg">Jacobi</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -124,8 +138,7 @@
                dem er<note corresp="#III_298-17">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009891">
-                        <author>Thorild (Thornild, Thorén), Thomas (1759-1807), Professor und
-                           Bibliothekar in Greifswald</author>
+                        <author>Thorild, Thomas (1759–1807)</author>
                         <title>Maximum seu Archimetria (1799)</title>
                      </bibl>
                   </listBibl>
@@ -145,7 +158,13 @@
                   </ref>. <hi rendition="#g">Gerstenberg:</hi> vgl.</hi>
                <hi rendition="#aq"/>
                <ref target="#p283_l11">
-                  <hi rendition="#b"><hi rendition="#aq">283</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">11</hi></hi>
+                  <hi rendition="#b">
+                     <hi rendition="#aq">283</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">11</hi>
+                  </hi>
                </ref>
                <hi rendition="#aq">†.</hi>
                <lb/>

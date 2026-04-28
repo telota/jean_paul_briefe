@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="514">*500. An Josephine von Sydow. </title>
-            <title n="digital">Von Jean Paul an Josephine von Sydow. Weimar, 10. August 1800.</title>
+            <title n="print" type="letter" rend="500">*500. An Josephine von Sydow. </title>
+            <title n="digital">Von Jean Paul an Josephine von Sydow. Weimar, 10. August 1800, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
+               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
                <biblScope n="text" unit="page">
                   <num>360</num>
                   <num>361</num>
@@ -79,13 +79,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1800-08-10">10. August 1800</date>
                <placeName key="JP-006395">Weimar</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-004228">Josephine von Sydow</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="III_499"/><ptr type="next" subtype="brief" target="III_501"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="III_499"/><ptr type="next" subtype="brief" target="III_501"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="III_475"/><ptr type="next" subtype="brief" target="IV_45"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="III_499"/>
+               <ptr type="next" subtype="anbrief" target="IV-III.2_412"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="III_499"/>
+               <ptr type="next" subtype="brief" target="III_501"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-III.2_406"/>
+               <ptr type="next" subtype="anbrief" target="IV-III.2_426"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -124,7 +139,7 @@
                <hi rendition="#aq">Von Caroline bleibe ich getrent; aber obgleich nicht unsere<note corresp="#III_360-17">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001059">
-                           <persName> Caroline Henriette Susanne Friederike von <name type="reg">Feuchtersleben</name>
+                           <persName>Caroline von <name type="reg">Feuchtersleben</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -160,7 +175,7 @@
                <hi rendition="#aq">Barleben — mit seinem Wintergesicht und seiner gefrornen<note corresp="#III_360-23">
                      <listPerson type="lineReference">
                         <person corresp="#JP-000208">
-                           <persName> Heinrich Karl Ludwig (Pseud. Heinrich Frohreich) <name type="reg">Bardeleben </name>
+                           <persName>Heinrich <name type="reg">Bardeleben</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -216,14 +231,20 @@
             <p>
                <hi rendition="#aq">
                   <hi rendition="#i">K</hi> (nach Nr. 501): <hi rendition="#i">Sydow d. 10 August.
-                     *J</hi>: Denkw. 2,219. <hi rendition="#i">B</hi>:<lb/>IV. Abt., III.2, Nr. 406.
-                     <hi rendition="#i">A</hi>: IV. Abt., III.2, Nr.</hi>
+                     *J</hi>: Denkw. 2,219. <hi rendition="#i">B</hi>:<lb/>IV. Abt., 3.2, Nr. 406.
+                     <hi rendition="#i">A</hi>: IV. Abt., 3.2, Nr.</hi>
                <hi rendition="#aq">426.</hi>
                <lb/>
             </p>
             <p>
                <ref target="#p360_l23">
-                  <hi rendition="#b"><hi rendition="#aq">360</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">23</hi></hi>
+                  <hi rendition="#b">
+                     <hi rendition="#aq">360</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">23</hi>
+                  </hi>
                </ref>
                <hi rendition="#aq"/>
                <hi rendition="#aq">

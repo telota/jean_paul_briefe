@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="386">385. An Friedrich von Oertel in Leipzig. </title>
-            <title n="digital">Von Jean Paul an Friedrich Benedikt von Oertel. Hof, 22. August 96.</title>
+            <title n="print" type="letter" rend="385">385. An Friedrich von Oertel in Leipzig. </title>
+            <title n="digital">Von Jean Paul an Friedrich Benedikt von Oertel. Hof, 22. August 1796, Montag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
+               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
                <biblScope n="text" unit="page">
                   <num>235</num>
                   <num>236</num>
@@ -80,14 +80,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
-               <date when="1796-08-22">22. August 96</date>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
+               <date when="1796-08-22">22. August 1796</date>
                <placeName key="JP-005841">Hof</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003039">Friedrich Benedikt von Oertel</persName>
                <placeName key="JP-005948">Leipzig</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="II_384"/><ptr type="next" subtype="brief" target="II_386"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="II_384"/><ptr type="next" subtype="brief" target="II_386"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="II_372"/><ptr type="next" subtype="brief" target="II_398"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="II_384"/>
+               <ptr type="next" subtype="brief" target="II_386"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="II_384"/>
+               <ptr type="next" subtype="brief" target="II_386"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-II_EB_55"/>
+               <ptr type="next" subtype="brief" target="II_398"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -117,7 +132,7 @@
                die vielleicht wieder von <hi rendition="#aq">Weimar</hi> in<note corresp="#II_235-26">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002273">
-                        <persName> Barbara Juliane Freifrau von <name type="reg">Krüdener</name>
+                        <persName>Juliane Freifrau von <name type="reg">Krüdener</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -134,8 +149,8 @@
                      <place corresp="#JP-005948">
                         <placeName>Leipzig</placeName>
                      </place>
-                     <place corresp="#JP-00620310">
-                        <placeName>Pantheon; Rom</placeName>
+                     <place corresp="#JP-011635">
+                        <placeName>Pantheon</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -170,7 +185,7 @@
             <p>Blos weils mein Verleger nicht wolte, der aus merkantilischer<note corresp="#II_236-4">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002678">
-                        <persName> Carl August <name type="reg">Matzdorff </name>
+                        <persName>Carl <name type="reg">Matzdorff</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -181,7 +196,7 @@
                Ostern — die neue Auflage von <hi rendition="#aq">Hesperus</hi> erscheint, der<note corresp="#II_236-7">
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010727">
-                        <title>Hesperus (1795)</title>
+                        <title>Hesperus (3 Bde., Berlin: Matzdorff 1795)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -190,7 +205,7 @@
                   3<hi rendition="#sup">ten</hi> Bändgen der<note corresp="#II_236-9">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001328">
-                        <persName> Johann Wilhelm Ludwig <name type="reg">Gleim</name>
+                        <persName>Johann Wilhelm Ludwig <name type="reg">Gleim</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -200,7 +215,9 @@
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010540">
                         <title>Blumen- Frucht- und Dornenstükke (Blumen-, Frucht- und Dornenstücke)
-                           (Siebenkäs) (1796-97 [1796])</title>
+                        (Siebenkäs) oder Ehestand, Tod und Hochzeit des Armenadvokaten F. St.
+                        Siebenkäs im Reichsmarktflecken Kuhschnappel (Berlin, Matzdorff 1796-97
+                        [1796])</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -208,8 +225,8 @@
                neben der alten her<note corresp="#II_236-11">
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010720">
-                        <title>Geschichte meiner Vorrede zur zweiten Auflage des Quintus Fixlein
-                           (1797 [1796])</title>
+                        <title>Geschichte meiner Vorrede zur zweiten Auflage des Quintus
+                        Fixlein (1797 [1796])</title>
                      </bibl>
                      <bibl corresp="#JP-010794">
                         <title>Leben des Quintus Fixlein (1796 [1795])</title>
@@ -222,7 +239,7 @@
             <p>Ein langes Postskript! — Wenn Ihr geliebter Bruder noch neben<note corresp="#II_236-13">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003042">
-                        <persName> Ludwig Christian von <name type="reg">Oertel</name>
+                        <persName>Ludwig von <name type="reg">Oertel</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -241,11 +258,11 @@
                      </person>
                      <person corresp="#JP-001833">
                         <persName>
-                           <name type="reg">Horaz </name>
+                           <name type="reg">Horaz</name>
                         </persName>
                      </person>
                      <person corresp="#JP-002149">
-                        <persName> Karl Ludwig von <name type="reg">Knebel</name>
+                        <persName>Karl Ludwig von <name type="reg">Knebel</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -257,9 +274,8 @@
                Erholungen. Indes lieben wir ein<note corresp="#II_236-20">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008099">
-                        <author>Becker, Wilhelm Gottlieb (1753-1813), Historiker und Philosoph
-                           (Werk, Hrsg.)</author>
-                        <title>Erholungen (1796-1810)</title>
+                        <author>Becker, Wilhelm Gottlieb (1753–1813) (Hrsg.)</author>
+                        <title>Erholungen (Leipzig: Voß 1796–1810)</title>
                      </bibl>
                   </listBibl>
                   <listBibl type="lineReference" subtype="werke-jp">
@@ -277,7 +293,7 @@
                   Manier<note corresp="#II_236-24">
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010727">
-                        <title>Hesperus (1795)</title>
+                        <title>Hesperus (3 Bde., Berlin: Matzdorff 1795)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -312,7 +328,7 @@
                <p>N. S. zur N. S. Ich wünsche eben so sehr daß Sie als daß ich die<lb xml:id="II_237-1"/>Freundin unsers Ichs sehen möchten<note corresp="#II_237-2">
                      <listPerson type="lineReference">
                         <person corresp="#JP-002273">
-                           <persName> Barbara Juliane Freifrau von <name type="reg">Krüdener</name>
+                           <persName>Juliane Freifrau von <name type="reg">Krüdener</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -327,7 +343,13 @@
                   <hi rendition="#i">H</hi>: Berlin JP. 7¼ S. 8°. <hi rendition="#i">K</hi>: <hi rendition="#i">Oertel Leipz. 22 Aug. J</hi>: Denkw.</hi>
                <hi rendition="#aq">1,332.</hi>
                <lb/>
-               <hi rendition="#b"><hi rendition="#aq">235</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">31</hi></hi> Sie <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">235</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">31</hi>
+               </hi> Sie <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi> ihr] <hi rendition="#aq">aus</hi> Ihr <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
@@ -337,7 +359,13 @@
                   <hi rendition="#i">H</hi>
                </hi>
                <lb/>
-               <hi rendition="#b"><hi rendition="#aq">236</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">6</hi></hi> schrieb’ <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">236</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">6</hi>
+               </hi> schrieb’ <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi> sogleich] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
                </hi>
@@ -351,7 +379,13 @@
             </p>
             <lb/>
             <p>
-               <hi rendition="#b"><hi rendition="#aq">236</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">4</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">236</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">4</hi>
+               </hi>
                <hi rendition="#aq">
                   <hi rendition="#g">Verleger:</hi> Matzdorff, vgl. Nr. 375†. <hi rendition="#rkd">9</hi>
                   <hi rendition="#g">Anonymus:</hi> vgl. zu<lb/>Nr. 350. <hi rendition="#rkd">11

@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="353">352. An Pfarrer Hagen in Dottenheim. </title>
-            <title n="digital">Von Jean Paul an Friedrich Wilhelm Hagen. Bayreuth, 16. September 1810.</title>
+            <title n="print" type="letter" rend="352">352. An Pfarrer Hagen in Dottenheim. </title>
+            <title n="digital">Von Jean Paul an Friedrich Wilhelm Hagen. Bayreuth, 16. September 1810, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>137</num></biblScope><biblScope n="comment" unit="page"><num>486</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>137</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>486</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -70,14 +78,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1810-09-16">16. September 1810</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-001479">Friedrich Wilhelm Hagen</persName>
-               <placeName key="2935432">Dottenheim</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_351"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0931"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_351"/><ptr type="next" subtype="brief" target="VI_353"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="V_443"/></correspContext></correspDesc>
+               <placeName key="JP-2935432">Dottenheim</placeName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_351"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB0931"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_351"/>
+               <ptr type="next" subtype="brief" target="VI_353"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_78"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -95,10 +117,8 @@
             <p>Es würde mich schmerzen — wiewol ich diesen Schmerz verdiente<note corresp="#VI_137-3">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008600" ana="†">
-                        <author>Hagen, Friedrich Wilhelm (1767-1837), Theologe und Philosoph in
-                           Erlangen und Bayreuth</author>
-                        <title>Über das Wesentliche von Pestalozzis Menschenbildungsweise
-                           (1810)</title>
+                        <author>Hagen, Friedrich Wilhelm (1767–1837)</author>
+                        <title>Über das Wesentliche von Pestalozzis Menschenbildungsweise (1810)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -117,7 +137,7 @@
                Ordnung wünschen — Gegen <hi rendition="#aq">Fichte:</hi> denn ja nicht an An<note corresp="#VI_137-14">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001073" ana="†">
-                        <persName> Johann Gottlieb <name type="reg">Fichte</name>
+                        <persName>Johann Gottlieb <name type="reg">Fichte</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -137,7 +157,7 @@
                   Lese<note corresp="#VI_137-21">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003192">
-                        <persName> Johann Heinrich <name type="reg">Pestalozzi </name>
+                        <persName>Johann Heinrich <name type="reg">Pestalozzi</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -158,10 +178,16 @@
                   <hi rendition="#i">K</hi> (nach Nr.</hi> 354): Pfarr <hi rendition="#aq">
                   <hi rendition="#i">Hagen</hi>
                </hi> in <hi rendition="#aq">
-                  <hi rendition="#i">Dottenheim 16 Sept. B</hi>: IV. Abt., VI, Nr.</hi>
+                  <hi rendition="#i">Dottenheim 16 Sept. B</hi>: IV. Abt., 6, Nr.</hi>
                <hi rendition="#aq">78.</hi>
                <lb/>
-               <hi rendition="#b"><hi rendition="#aq">137</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">17</hi></hi> ab-] <hi rendition="#aq">aus</hi> ein- <hi rendition="#rkd">23</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">137</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">17</hi>
+               </hi> ab-] <hi rendition="#aq">aus</hi> ein- <hi rendition="#rkd">23</hi>
                <hi rendition="#aq">f.</hi> für das Auge] <hi rendition="#aq">aus</hi> des Auges</p>
             <lb/>
             <p>

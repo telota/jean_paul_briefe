@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="492">485. An Herzog Emil August von Gotha. </title>
-            <title n="digital">Von Jean Paul an August Leopold Emil. Coburg, 16. Juli 1804.</title>
+            <title n="print" type="letter" rend="485">485. An Herzog Emil August von Gotha. </title>
+            <title n="digital">Von Jean Paul an Emil August, Herzog von Sachsen-Gotha und Altenburg. Coburg, 16. Juli 1804, Montag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,11 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"/><biblScope n="comment" unit="page"/></bibl>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page"/>
+               <biblScope n="comment" unit="page"/>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +73,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1804-07-16">16. Juli 1804</date>
                <placeName key="JP-005649">Coburg </placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-000943"> Emil August Leopold</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0495"/><ptr type="next" subtype="brief" target="IV_486"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="IV_484"/><ptr type="next" subtype="brief" target="IV_486"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="IV_291"/><ptr type="next" subtype="brief" target="IV_487"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000943">Emil August, Herzog von Sachsen-Gotha und Altenburg</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB1553"/>
+               <ptr type="next" subtype="anbrief" target="IV-IV_361"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="IV_484"/>
+               <ptr type="next" subtype="brief" target="IV_486"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="IV_291"/>
+               <ptr type="next" subtype="anbrief" target="IV-IV_361"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -97,29 +116,30 @@
                   Erlaub<metamark>[</metamark>niß<metamark>]</metamark> des ungewöhnlichen mehr<lb xml:id="IV_303-19"/>englischen als deutschen Tones zu bitten, worin ich es sage.
                Mögen Sie<note corresp="#IV_303-20">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0056690">
-                        <placeName>Deutsche; Deutschland , deutsch , Germanien,
-                           Vaterland</placeName>
+                     <place corresp="#JP-011167">
+                        <placeName>Deutsche</placeName>
                      </place>
-                     <place corresp="#JP-0057158">
-                        <placeName>Freiheitsliebe; England, englisch, Britannien</placeName>
+                     <place corresp="#JP-011268">
+                        <placeName>Freiheitsliebe</placeName>
                      </place>
-                     <place corresp="#JP-00571524">
-                        <placeName>Sprache, Stil; England, englisch, Britannien</placeName>
+                     <place corresp="#JP-011253">
+                        <placeName>Sprache, Stil</placeName>
                      </place>
                   </listPlace>
                </note>
                <lb n="20" xml:id="IV_303-20"/>mir es verstatten, zwei mal recht glücklich dediziert
                zu haben, das erste<lb xml:id="IV_303-21"/>mal der schönsten Königinn, das zweite dem
                witzigsten Fürsten!<note corresp="#IV_303-22">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-002548">
-                     <persName>
-                        <name type="reg">Luise</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="IV_303-22"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002548">
+                        <persName>
+                           <name type="reg">Luise, Königin von Preußen</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IV_303-22"/>
+            </p>
             <p>Das Buch ist eine — aber nach meiner Weise geschriebene —<note corresp="#IV_303-23">
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010970">
@@ -152,9 +172,15 @@
                <hi rendition="#aq">
                   <hi rendition="#i">J</hi>: Jean Pauls Freiheitsbüchlein, Tübingen 1805, S. 13 (I.
                   Abt., XII, 7).<lb/>
-                  <hi rendition="#i">A</hi>: IV. Abt., IV, Nr.</hi>
+                  <hi rendition="#i">A</hi>: IV. Abt., 4, Nr.</hi>
                <hi rendition="#aq">361. </hi>
-               <hi rendition="#b"><hi rendition="#aq">303</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">18</hi></hi> gab] giebt <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">303</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">18</hi>
+               </hi> gab] giebt <hi rendition="#aq">
                   <hi rendition="#i">K</hi>
                   <hi rendition="#rkd">20</hi>f.</hi> Mögen Sie mir es verstatten]<lb/>Möge mir
                verstattet werden <hi rendition="#aq">

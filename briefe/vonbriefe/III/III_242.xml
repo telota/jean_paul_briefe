@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="245">242. An Buchdrucker Burmester in Leipzig. </title>
-            <title n="digital">Von Jean Paul an (Buchdrucker) Burmester. Weimar, 12. April 1799.</title>
+            <title n="print" type="letter" rend="242">242. An Buchdrucker Burmester in Leipzig. </title>
+            <title n="digital">Von Jean Paul an Johann Peter Burmester. Weimar, 12. April 1799, Freitag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
+               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
                <biblScope n="text" unit="page">
                   <num>180</num>
                </biblScope>
@@ -77,14 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1799-04-12">12. April 1799</date>
                <placeName key="JP-006395">Weimar</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-000551">(Buchdrucker) Burmester</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000551">Johann Peter Burmester</persName>
                <placeName key="JP-005948">Leipzig</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="III_241"/><ptr type="next" subtype="brief" target="III_242a"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="III_241"/><ptr type="next" subtype="brief" target="III_242a"/></correspContext><correspContext n="correspondence"><ptr type="next" subtype="brief" target="III_26-fb"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-III.1_EB_84"/>
+               <ptr type="next" subtype="brief" target="III_242a"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="III_241"/>
+               <ptr type="next" subtype="brief" target="III_242a"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="next" subtype="brief" target="III_26-fb"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -109,8 +123,8 @@
                Bestimmung über das Ende des<lb xml:id="III_180-12"/>Druks, das hoff’ ich in die
                Messe fält. Melden Sie gütig, wenn Sie<note corresp="#III_180-13">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0059485">
-                        <placeName>Messe; Leipzig</placeName>
+                     <place corresp="#JP-011521">
+                        <placeName>Messe</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -118,7 +132,7 @@
                die freu<note corresp="#III_180-14">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001625">
-                        <persName> Johann Wilhelm Immanuel <name type="reg">Heinsius</name>
+                        <persName>Wilhelm <name type="reg">Heinsius</name>
                         </persName>
                      </person>
                   </listPerson>

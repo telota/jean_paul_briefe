@@ -3,7 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title n="print" type="letter" rend="16">16. An Johann Georg Zimmer in Heidelberg. </title>
-            <title n="digital">Von Jean Paul an Johann Georg Zimmer. Bayreuth, 19. Januar 1809.</title>
+            <title n="digital">Von Jean Paul an Johann Georg Zimmer. Bayreuth, 19. Januar 1809, Donnerstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,16 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>5</num><num>6</num></biblScope><biblScope n="comment" unit="page"><num>424</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>5</num>
+                  <num>6</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>424</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,14 +78,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1809-01-19">19. Januar 1809</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-004858">Johann Georg Zimmer</persName>
                <placeName key="JP-005819">Heidelberg</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_15"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0307"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_15"/><ptr type="next" subtype="brief" target="VI_17"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="V_586"/><ptr type="next" subtype="brief" target="VI_37"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_15"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB0307"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_15"/>
+               <ptr type="next" subtype="brief" target="VI_17"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-V_AN_55"/>
+               <ptr type="next" subtype="brief" target="VI_37"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -93,13 +117,14 @@
             <p>Mein Schwager <hi rendition="#aq">Mahlmann,</hi> der Redakteur der eleganten Zei<note corresp="#VI_5-22">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002583">
-                        <persName> Siegfried August <name type="reg">Mahlmann</name>
+                        <persName>Siegfried August <name type="reg">Mahlmann</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009809">
-                        <author>Spazier, Karl und Siegfried August Mahlmann (Werk, Hrsg.)</author>
+                        <author>Spazier, Johann Karl Gottlieb (1761–1805); Mahlmann, Siegfried August
+                  (1771–1826) (Hrsg.)</author>
                         <title>Zeitung für die elegante Welt (1801ff.)</title>
                      </bibl>
                   </listBibl>
@@ -131,15 +156,15 @@
                   Selbst<note corresp="#VI_6-5">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008001" ana="†">
-                        <author>Achim von Arnim u.a. (Hrsg., Werk)</author>
-                        <title>Zeitung für Einsiedler (1808)</title>
+                        <author>Achim von Arnim u. a. (Hrsg.)</author>
+                        <title>Zeitung für Einsiedler (Heidelberg: Mohr und Zimmer 1808)</title>
                      </bibl>
                   </listBibl>
                </note>
                <lb n="5" xml:id="VI_6-5" rendition="#hyphen"/> mord — welcher mit einer kleinen, <hi rendition="#aq">Göthen</hi> nachgeahmten, Nachsicht<note corresp="#VI_6-6">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001353">
-                        <persName> Johann Wolfgang von <name type="reg">Goethe</name>
+                        <persName>Johann Wolfgang von <name type="reg">Goethe</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -149,8 +174,10 @@
                   Meisterstück<note corresp="#VI_6-8">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008190" ana="†">
-                        <author>Brentano, Clemens (Klemens) (Pseud. Maria) (1778-1842)</author>
-                        <title>Geschichte des Bärenhäuters (1808)</title>
+                        <author>Brentano, Clemens (1778–1842)</author>
+                        <title>Geschichte und Ursprung des ersten Bärnhäuters, in: Zeitung für
+                        Einsiedler, H. 22–25 vom 15., 18., 22., und 25. Juni 1808, Sp. 169–182,
+                        185–190 u. 193–198 (Heidelberg: Mohr und Zimmer 1808)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -159,21 +186,20 @@
                wünschte, die Gesellschaft liehe mir<lb n="10" xml:id="VI_6-10"/> einige ihrer
                altdeutschen Komus-Schätze, damit ich sie nach meiner<note corresp="#VI_6-11">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0056700">
-                        <placeName>Altdeutsch; Deutschland, deutsch</placeName>
+                     <place corresp="#JP-011169">
+                        <placeName>Altdeutsch</placeName>
                      </place>
                   </listPlace>
                </note>
                <lb xml:id="VI_6-11"/> Weise ausprägte; besonders den Schelmufski. In <hi rendition="#aq">Bayreuth</hi> kann<note corresp="#VI_6-12">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005574">
-                        <placeName>Bayreuth (Stadt)</placeName>
+                        <placeName>Bayreuth </placeName>
                      </place>
                   </listPlace>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009492">
-                        <author>Reuter, Christian (1665- nach 1712)), Roman- und
-                           Theaterautor</author>
+                        <author>Reuter, Christian (1665– nach 1712))</author>
                         <title>Schelmuffsky (Schelmufski, 1696)</title>
                      </bibl>
                   </listBibl>
@@ -210,9 +236,15 @@
                   <hi rendition="#i">H</hi>: Stadt- u. Universitätsbibl. Frankfurt a M. 4 S. 8°. <hi rendition="#i">K</hi>: <hi rendition="#i">Mohr<lb/> und Zimmer</hi>
                </hi> 19 Jenn., ab den 22 J. <hi rendition="#aq">
                   <hi rendition="#i">J</hi>: Zimmer S. 300× (19. Juni).<lb/>
-                  <hi rendition="#i">A</hi>: IV. Abt., VI, Nr.</hi>
+                  <hi rendition="#i">A</hi>: IV. Abt., 6, Nr.</hi>
                <hi rendition="#aq">9. </hi>
-               <hi rendition="#b"><hi rendition="#aq">5</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">28</hi></hi> [Auch] <hi rendition="#aq">Loch in <hi rendition="#i">H</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">5</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">28</hi>
+               </hi> [Auch] <hi rendition="#aq">Loch in <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#b">6</hi>, <hi rendition="#rkd">7</hi> den Haufen] <hi rendition="#aq">aus</hi> das Publikum <hi rendition="#aq">
                   <hi rendition="#i">K</hi>

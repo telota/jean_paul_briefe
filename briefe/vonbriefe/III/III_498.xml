@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="512">*498. An Renate Otto. </title>
-            <title n="digital">Von Jean Paul an Renate Otto. Weimar, 9. August 1800.</title>
+            <title n="print" type="letter" rend="498">*498. An Renate Otto. </title>
+            <title n="digital">Von Jean Paul an Renate Otto. Weimar, 9. August 1800, Samstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
+               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
                <biblScope n="text" unit="page">
                   <num>358</num>
                   <num>359</num>
@@ -78,20 +78,35 @@
             </msDesc>
             <listPerson type="commentary">
                <person corresp="#JP-003771">
-                  <persName> Adolf Heinrich Friedrich (ab 1808) von <name type="reg">Schlichtegroll</name>
+                  <persName>Friedrich <name type="reg">Schlichtegroll</name>
                   </persName>
                </person>
             </listPerson>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1800-08-09">9. August 1800</date>
                <placeName key="JP-006395">Weimar</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003126">Renate Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="III_509"/><ptr type="next" subtype="brief" target="III_499"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="III_509"/><ptr type="next" subtype="brief" target="III_499"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="III_406"/><ptr type="next" subtype="brief" target="IV_12"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="III_509"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB4603"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="III_509"/>
+               <ptr type="next" subtype="brief" target="III_499"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-III.2_340"/>
+               <ptr type="next" subtype="anbrief" target="IV-III.2_419"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -100,14 +115,15 @@
             <dateline>
                <hi rendition="#right">
                   <hi rendition="#aq">
-                     <placeName>Weimar</placeName> d. <date>9 Aug. 1800</date></hi>.</hi>
+                     <placeName>Weimar</placeName> d. <date>9 Aug. 1800</date>
+                  </hi>.</hi>
             </dateline>
             <lb xml:id="III_358-21"/>
             <p>Meine gute Renate! Mein Brief sol sogleich mit einer Bitte an<lb xml:id="III_358-22" rendition="#hyphen"/>fangen. Ich habe einmal ein Kochbuch von Ihrer Frau Mutter
                   und<note corresp="#III_358-23">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004756">
-                        <persName> Dorothea Friederike <name type="reg">Wirth</name>
+                        <persName>Friederike <name type="reg">Wirth</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -123,13 +139,14 @@
                <lb xml:id="III_358-24"/>Titan geborgt. Der Erbprinz von Gotha wil seinem Onkel, der
                   nicht<note corresp="#III_358-25">
                   <listPerson type="lineReference">
-                     <person corresp="#JP-000165" ana="†"> 
+                     <person corresp="#JP-000165" ana="†">
                         <persName>
-                           <name type="reg">August</name>
+                           <name type="reg">August Prinz von Gotha</name>
                         </persName>
                      </person>
                      <person corresp="#JP-000943">
-                        <persName> August Leopold <name type="reg">Emil</name>
+                        <persName>
+                           <name type="reg">Emil August, Herzog von Sachsen-Gotha und Altenburg</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -148,7 +165,7 @@
                   entvölkert!<note corresp="#III_358-31">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005841">
-                        <placeName>Hof im Vogtland</placeName>
+                        <placeName>Hof</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -172,7 +189,7 @@
                der Hand hat — das andere ich — wird<note corresp="#III_359-7">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001059">
-                        <persName> Caroline Henriette Susanne Friederike von <name type="reg">Feuchtersleben</name>
+                        <persName>Caroline von <name type="reg">Feuchtersleben</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -182,28 +199,27 @@
             <p>Grüssen Sie Man, Kinder, Schwestern, Eltern und Albrecht recht<note corresp="#III_359-9">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003106">
-                        <persName> Albrecht <name type="reg">Otto</name>
+                        <persName>Albrecht <name type="reg">Otto</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003119">
-                        <persName> Christoph <name type="reg">Otto</name>
-                        </persName>
+                        <persName>
+                           <name type="reg">Otto</name>, seine Kinder</persName>
                      </person>
                      <person corresp="#JP-003118">
-                        <persName> Christoph <name type="reg">Otto</name>
+                        <persName>Christoph <name type="reg">Otto</name>
                         </persName>
                      </person>
                      <person corresp="#JP-004762">
-                        <persName>
-                           <name type="reg">Wirth</name>
+                        <persName>Johann Gottlob Joachim Wirth <name type="reg">Wirth</name>
                         </persName>
                      </person>
                      <person corresp="#JP-004756">
-                        <persName> Dorothea Friederike <name type="reg">Wirth</name>
+                        <persName>Friederike <name type="reg">Wirth</name>
                         </persName>
                      </person>
                      <person corresp="#JP-004761">
-                        <persName> Johann Gottlob Joachim <name type="reg">Wirth</name>
+                        <persName>Johann Gottlob Joachim <name type="reg">Wirth</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -213,7 +229,7 @@
                überhaupt recht viel.<note corresp="#III_359-11">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004761">
-                        <persName> Johann Gottlob Joachim <name type="reg">Wirth</name>
+                        <persName>Johann Gottlob Joachim <name type="reg">Wirth</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -236,12 +252,17 @@
             <p>
                <hi rendition="#aq">
                   <hi rendition="#i">K</hi>:</hi> Renate 9 Aug. *<hi rendition="#aq">
-                  <hi rendition="#i">J</hi>: Täglichsbeck S. 107. <hi rendition="#i">B</hi>: IV.
-                  Abt., III.2, Nr. 340. <hi rendition="#i">A</hi>: IV. Abt., III.2, Nr.</hi>
+                  <hi rendition="#i">J</hi>: Täglichsbeck S. 107. <hi rendition="#i">B</hi>: IV. Abt., 3.2, Nr. 340. <hi rendition="#i">A</hi>: IV. Abt., 3.2, Nr.</hi>
                <hi rendition="#aq">419.</hi>
                <lb/>
                <ref target="#p359_l7">
-                  <hi rendition="#b"><hi rendition="#aq">359</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">7</hi></hi>
+                  <hi rendition="#b">
+                     <hi rendition="#aq">359</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">7</hi>
+                  </hi>
                </ref>
                <hi rendition="#aq"/>hat] hält <hi rendition="#aq">
                   <hi rendition="#i">K</hi>
@@ -259,7 +280,13 @@
                      <hi rendition="#b">359</hi>, <hi rendition="#rkd">10</hi>
                   </ref>f. Vgl.</hi>
                <ref target="#p100_l11">
-                  <hi rendition="#b"><hi rendition="#aq">100</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">11</hi></hi>
+                  <hi rendition="#b">
+                     <hi rendition="#aq">100</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">11</hi>
+                  </hi>
                </ref>
                <hi rendition="#aq">†.</hi>
                <lb/>

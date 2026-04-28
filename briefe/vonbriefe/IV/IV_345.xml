@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="352">345. An Böttiger. </title>
+            <title n="print" type="letter" rend="345">345. An Böttiger. </title>
             <title n="digital">Von Jean Paul an Carl August Böttiger. Weimar, Anfang Februar 1803.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,11 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"/><biblScope n="comment" unit="page"/></bibl>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page"/>
+               <biblScope n="comment" unit="page"/>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +73,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date notBefore="1803-02-01" notAfter="1803-02-10">Anfang Februar 1803</date>
                <placeName key="JP-006395">Weimar</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-000400">Carl August Böttiger</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0176"/><ptr type="next" subtype="brief" target="IV_346"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="IV_344"/><ptr type="next" subtype="brief" target="IV_346"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="IV_344"/><ptr type="next" subtype="brief" target="IV_453"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB0176"/>
+               <ptr type="next" subtype="anbrief" target="IV-IV_EB_47"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="IV_344"/>
+               <ptr type="next" subtype="brief" target="IV_346"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="IV_344"/>
+               <ptr type="next" subtype="anbrief" target="IV-IV_EB_47"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -101,7 +120,7 @@
                   <hi rendition="#aq">Brown</hi> nur<note corresp="#IV_201-17">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000508">
-                        <persName> John <name type="reg">Brown</name>
+                        <persName>John <name type="reg">Brown</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -110,7 +129,7 @@
                   bequem<lb xml:id="IV_201-18"/>eingesunken und gelagert. <hi rendition="#aq">Hufeland</hi> steht über ihm. Gute Nacht.<note corresp="#IV_201-19">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001857">
-                        <persName> Christoph Wilhelm <name type="reg">Hufeland</name>
+                        <persName>Christoph Wilhelm <name type="reg">Hufeland</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -122,7 +141,13 @@
             <p>
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Dresden.</hi>
-               <hi rendition="#b"><hi rendition="#aq">201</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">13</hi></hi> hatte] <hi rendition="#aq">aus</hi> brachte <hi rendition="#rkd">17</hi> z. B.
+               <hi rendition="#b">
+                  <hi rendition="#aq">201</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">13</hi>
+               </hi> hatte] <hi rendition="#aq">aus</hi> brachte <hi rendition="#rkd">17</hi> z. B.
                   <hi rendition="#aq">
                   <hi rendition="#i">Brown</hi>] nachtr.</hi>
             </p>

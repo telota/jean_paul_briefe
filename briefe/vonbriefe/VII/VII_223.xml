@@ -3,7 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title n="print" type="letter" rend="223">223. An Hofrat Böttiger in Dresden. </title>
-            <title n="digital">Von Jean Paul an Carl August Böttiger. Bayreuth, 21. September 1816.</title>
+            <title n="digital">Von Jean Paul an Carl August Böttiger. Bayreuth, 21. September 1816, Samstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
+               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
                <biblScope n="text" unit="page">
                   <num>87</num>
                   <num>88</num>
@@ -78,14 +78,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1816-09-21">21. September 1816</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-000400">Carl August Böttiger</persName>
                <placeName key="JP-005687">Dresden</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB1946"/><ptr type="next" subtype="brief" target="VII_224"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VII_222"/><ptr type="next" subtype="brief" target="VII_224"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="V_45-fb"/><ptr type="next" subtype="brief" target="VIII_281"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB1946"/>
+               <ptr type="next" subtype="brief" target="VII_224"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VII_222"/>
+               <ptr type="next" subtype="brief" target="VII_224"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-V_104"/>
+               <ptr type="next" subtype="brief" target="VIII_281"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -104,7 +119,7 @@
                   Blättchen<lb xml:id="VII_87-23"/> ist ein Professor <hi rendition="#aq">Wagner</hi> von hier, der wol durch seine philologischen<note corresp="#VII_87-24">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004569">
-                        <persName> Lorenz Heinrich <name type="reg">Wagner</name>
+                        <persName>Lorenz Heinrich <name type="reg">Wagner</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -120,8 +135,8 @@
                <lb xml:id="VII_87-26"/> gegeben.) Ich komme eben aus einem Examen, wo
                   11—13jährige<note corresp="#VII_87-27">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-00557427">
-                        <placeName>Gymnasium; Bayreuth (Stadt)</placeName>
+                     <place corresp="#JP-011054">
+                        <placeName>Gymnasium</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -129,7 +144,7 @@
                   Privatstunden<note corresp="#VII_87-28">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003490">
-                        <persName> Max <name type="reg">Richter</name>
+                        <persName>Max <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -144,7 +159,8 @@
                         </persName>
                      </person>
                      <person corresp="#JP-003131">
-                        <persName> (Publius Ovidius Naso) <name type="reg">Ovid</name>
+                        <persName>
+                           <name type="reg">Ovid</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -154,7 +170,7 @@
                   <listPerson type="lineReference">
                      <person corresp="#JP-002064">
                         <persName>
-                           <name type="reg">Katholiken </name>
+                           <name type="reg">Katholiken</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -162,18 +178,20 @@
                <lb xml:id="VII_87-32"/>
                <hi rendition="#aq">Oestreicher,</hi> ein Kunstanbeter; — also ein Bilderanbeter
                Dresdens.<note corresp="#VII_87-33">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-003059">
-                     <persName> Kaspar <name type="reg">Oesterreicher</name>
-                     </persName>
-                  </person>
-               </listPerson>
-               <listPlace type="lineReference">
-                  <place corresp="#JP-005687">
-                     <placeName>Dresden</placeName>
-                  </place>
-               </listPlace>
-            </note><lb xml:id="VII_87-33"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003059">
+                        <persName>Kaspar <name type="reg">Oesterreicher</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005687">
+                        <placeName>Dresden</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VII_87-33"/>
+            </p>
             <p>Nun wollt’ ich, ich wäre unter den Empfohlnen und käme mit.<lb xml:id="VII_87-34"/>
                Ich hätte vielerlei von Ihnen zu verlangen — nämlich Belehrungen.<lb n="35" xml:id="VII_87-35"/> Indeß erst nach 3, 4 Jahren, wo ich meine sämmtlichen Werke
                   bei<note corresp="#VII_88-1">
@@ -188,8 +206,7 @@
                   fragen,<note corresp="#VII_88-2">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000698">
-                        <persName> Johann Friedrich Freiherr <name type="reg">Cotta von
-                              Cottendorf</name>
+                        <persName>Johann Friedrich von <name type="reg">Cotta</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -226,7 +243,7 @@
             <p>Dem verehrten <hi rendition="#aq">Wolke</hi> schrieb ich nach <hi rendition="#aq">Dresden</hi> den 24<hi rendition="#sup">ten</hi> Mai,<note corresp="#VII_88-16">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004803">
-                        <persName> Christian Heinrich <name type="reg">Wolke</name>
+                        <persName>Christian Heinrich <name type="reg">Wolke</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -241,7 +258,7 @@
             <p>Sie haben gewiß etwas Besseres von <hi rendition="#aq">Wieland</hi> als seine ge<note corresp="#VII_88-18">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010090" ana="†">
-                        <author>Wieland, Christoph Martin (1733-1813)</author>
+                        <author>Wieland, Christoph Martin (1733–1813)</author>
                         <title>Briefe</title>
                      </bibl>
                   </listBibl>
@@ -270,7 +287,13 @@
                </hi> 21. Sept. <hi rendition="#aq">
                   <hi rendition="#i">J</hi>: Funck S.</hi>
                <hi rendition="#aq">172. </hi>
-               <hi rendition="#b"><hi rendition="#aq">88</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">3</hi></hi> manchen] <hi rendition="#aq">aus</hi> vielen <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">88</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">3</hi>
+               </hi> manchen] <hi rendition="#aq">aus</hi> vielen <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
                <lb/>

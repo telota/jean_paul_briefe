@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="319">315. An Kirchenrat Kaiser in Bayreuth. </title>
-            <title n="digital">Von Jean Paul an Christian Ernst Nikolaus Kaiser. Bayreuth, 8. Juli 1822.</title>
+            <title n="print" type="letter" rend="315">315. An Kirchenrat Kaiser in Bayreuth. </title>
+            <title n="digital">Von Jean Paul an Christian Ernst Nikolaus von Kaiser. Bayreuth, 8. Juli 1822, Montag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>191</num>
                </biblScope>
@@ -79,14 +79,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1822-07-08">8. Juli 1822</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-001999">Christian Ernst Nikolaus Kaiser</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-001999">Christian Ernst Nikolaus von Kaiser</persName>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0571"/><ptr type="next" subtype="brief" target="VIII_316"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VIII_25-fb"/><ptr type="next" subtype="brief" target="VIII_316"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VIII_257"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-VIII_185"/>
+               <ptr type="next" subtype="anbrief" target="IV-VIII_186"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VIII_25-fb"/>
+               <ptr type="next" subtype="brief" target="VIII_316"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VIII_257"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -106,7 +120,7 @@
                <note corresp="#VIII_191-13">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003313">
-                        <persName> Ludwig <name type="reg">Purgold</name>
+                        <persName>Ludwig <name type="reg">Purgold</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -122,7 +136,7 @@
                <note corresp="#VIII_191-16">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003313" ana="ff">
-                        <persName> Ludwig <name type="reg">Purgold</name>
+                        <persName>Ludwig <name type="reg">Purgold</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -137,7 +151,7 @@
                   ab. Abelard<note corresp="#VIII_191-24">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-009442">
-                           <author>Purgold, Ludwig (1780-1821), Philologe</author>
+                           <author>Purgold, Ludwig (1780–1821)</author>
                            <title>Abälard und Heloise (1818)</title>
                         </bibl>
                      </listBibl>
@@ -152,8 +166,7 @@
                   über das Erbauen des Herzens das Bauen des<note corresp="#VIII_191-30">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-009085">
-                           <author>Leibniz (Leipnitz, Leibnitz), Gottfried Wilhelm
-                              (1646-1716)</author>
+                           <author>Leibniz, Gottfried Wilhelm (1646–1716)</author>
                            <title>Theodizee (1710)</title>
                         </bibl>
                      </listBibl>

@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="243">242. An Knebel in Jena. </title>
-            <title n="digital">Von Jean Paul an Karl Ludwig von Knebel. Bayreuth, 24. März 1810.</title>
+            <title n="print" type="letter" rend="242">242. An Knebel in Jena. </title>
+            <title n="digital">Von Jean Paul an Karl Ludwig von Knebel. Bayreuth, 24. März 1810, Samstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,16 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>92</num><num>93</num></biblScope><biblScope n="comment" unit="page"><num>464</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>92</num>
+                  <num>93</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>464</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -68,21 +77,36 @@
             </msDesc>
             <listPerson type="commentary">
                <person corresp="#JP-002147">
-                  <persName> Henriette von <name type="reg">Knebel</name>
+                  <persName>Henriette von <name type="reg">Knebel</name>
                   </persName>
                </person>
             </listPerson>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1810-03-24">24. März 1810</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-002149">Karl Ludwig von Knebel</persName>
                <placeName key="JP-005875">Jena</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0458"/><ptr type="next" subtype="brief" target="VI_243"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_240"/><ptr type="next" subtype="brief" target="VI_243"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_88"/><ptr type="next" subtype="brief" target="VI_876"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB0458"/>
+               <ptr type="next" subtype="brief" target="VI_243"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_240"/>
+               <ptr type="next" subtype="brief" target="VI_243"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_AN_1"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_129"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -124,7 +148,7 @@
                   Wahlverwandt<note corresp="#VI_93-3">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008543" ana="†">
-                        <author>Goethe, Johann Wolfgang von (1749-1832)</author>
+                        <author>Goethe, Johann Wolfgang von (1749–1832)</author>
                         <title>Die Wahlverwandtschaften (1809)</title>
                      </bibl>
                   </listBibl>
@@ -133,15 +157,15 @@
                öffentliches Wort gegen den<lb xml:id="VI_93-4"/> Hallischen Halloren gesprochen
                hätte, ob mir gleich auch das ideale<note corresp="#VI_93-5">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0058090">
-                        <placeName>Halloren; Halle a. d. Saale</placeName>
+                     <place corresp="#JP-011365">
+                        <placeName>Halloren</placeName>
                      </place>
                   </listPlace>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010170" ana="†">
                         <author/>
-                        <title>Allgemeine Literatur-Zeitung (Literaturzeitung) (Jena 1785ff., ab
-                           1804 Halle)</title>
+                        <title>Allgemeine Literatur-Zeitung (Literaturzeitung) (Jena 1785 ff., ab 1804
+                        Halle)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -153,17 +177,19 @@
                Gedichte beilegen. Mir gefallen Gedichte jetzt immer seltner; und<lb xml:id="VI_93-9"/> daher muß ich nach seltnen wie die Ihrigen, jagen.<lb n="10" xml:id="VI_93-10"/>
             </p>
             <p>Leben Sie wol; ich grüße herzlich Frau und Sohn.<note corresp="#VI_93-11">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-002145">
-                     <persName> Carl (Karl) Wilhelm von <name type="reg">Knebel</name>
-                     </persName>
-                  </person>
-                  <person corresp="#JP-002150">
-                     <persName> Luise Dorothea Ulrika Emilia von <name type="reg">Knebel</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="VI_93-11"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002145">
+                        <persName>Carl Wilhelm von <name type="reg">Knebel</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-002150">
+                        <persName>Luise von <name type="reg">Knebel</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_93-11"/>
+            </p>
             <closer>
                <salute>
                   <hi rendition="#right">Ihr<lb xml:id="VI_93-12"/> Jean Paul Fr. Richter</hi>

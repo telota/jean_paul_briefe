@@ -2,9 +2,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="253">(*) 252. An Hans Georg von Ahlefeldt in
+            <title n="print" type="letter" rend="252">(*) 252. An Hans Georg von Ahlefeldt in
                Berlin. </title>
-            <title n="digital">Von Jean Paul an Johann Georg Jacob von Ahlefeldt. Hof, 1. März 1796.</title>
+            <title n="digital">Von Jean Paul an Hans Georg von Ahlefeldt. Hof, 1. März 1796, Dienstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -46,7 +46,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -61,8 +62,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
+               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
                <biblScope n="text" unit="page">
                   <num>160</num>
                   <num>161</num>
@@ -79,25 +79,40 @@
             </msDesc>
             <listPerson type="commentary">
                <person corresp="#JP-000614">
-                  <persName> Anna Dorothea Elisabeth Gräfin de <name type="reg">Chassepot</name>
+                  <persName>Dorothea Gräfin von <name type="reg">Chassepot</name>
                   </persName>
                </person>
                <person corresp="#JP-002270">
-                  <persName> Wilhelmine von <name type="reg">Kropff</name>
+                  <persName>Wilhelmine von <name type="reg">Kropff</name>
                   </persName>
                </person>
             </listPerson>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1796-03-01">1. März 1796</date>
                <placeName key="JP-005841">Hof</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-000044">Johann Georg Jacob von Ahlefeldt</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000044">Hans Georg von Ahlefeldt</persName>
                <placeName key="JP-005586">Berlin</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="II_251"/><ptr type="next" subtype="brief" target="II_253"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="II_251"/><ptr type="next" subtype="brief" target="II_253"/></correspContext><correspContext n="correspondence"><ptr type="next" subtype="brief" target="II_303"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-II_75"/>
+               <ptr type="next" subtype="brief" target="II_253"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="II_251"/>
+               <ptr type="next" subtype="brief" target="II_253"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-II_72"/>
+               <ptr type="next" subtype="anbrief" target="IV-II_80"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -117,8 +132,8 @@
             <p>Dein Brief gab mir die Palingenesie unserer ersten Stunde und<lb xml:id="II_160-13"/>jene heissen Stiche, die ich allemal bei grosser Freude in der Gegend<lb xml:id="II_160-14"/>des Herzens fühle. Warum hast du mir die Stunde nicht eher
                   gegeben<note corresp="#II_160-15">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-00594833">
-                        <placeName>Rosental; Leipzig</placeName>
+                     <place corresp="#JP-011510">
+                        <placeName>Rosental</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -142,13 +157,13 @@
                   aller<note corresp="#II_160-30">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002270">
-                        <persName> Wilhelmine von <name type="reg">Kropff</name>
+                        <persName>Wilhelmine von <name type="reg">Kropff</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listPlace type="lineReference">
                      <place corresp="#JP-005574">
-                        <placeName>Bayreuth (Stadt)</placeName>
+                        <placeName>Bayreuth </placeName>
                      </place>
                   </listPlace>
                </note>
@@ -160,19 +175,18 @@
                <note corresp="#II_160-34">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005574">
-                        <placeName>Bayreuth (Stadt)</placeName>
+                        <placeName>Bayreuth </placeName>
                      </place>
                   </listPlace>
                </note>
                <lb xml:id="II_160-34"/>die zwei elysischen Felder und Rosenthäler sehen werden — und
                   wenn<note corresp="#II_160-35">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-00557419">
-                        <placeName>Eremitage (Hermitage), Schloss und Park; Bayreuth
-                           (Stadt)</placeName>
+                     <place corresp="#JP-011045">
+                        <placeName>Eremitage (Hermitage), Schloss und Park</placeName>
                      </place>
-                     <place corresp="#JP-00557421">
-                        <placeName>Fantaisie (Phantasie) bei Bayreuth; Bayreuth (Stadt)</placeName>
+                     <place corresp="#JP-011048">
+                        <placeName>Fantaisie (Phantasie) bei Bayreuth</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -197,7 +211,7 @@
                <p>N. S. Den Grus deiner Klotilde erwieder’ ich mit dem wärmsten,<note corresp="#II_161-17">
                      <listPerson type="lineReference">
                         <person corresp="#JP-002270">
-                           <persName> Wilhelmine von <name type="reg">Kropff</name>
+                           <persName>Wilhelmine von <name type="reg">Kropff</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -211,16 +225,28 @@
             <p>
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi> (nur von</hi>
-               <hi rendition="#b"><hi rendition="#aq">160</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">28</hi></hi> die<hi rendition="#sup">2</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">160</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">28</hi>
+               </hi> die<hi rendition="#sup">2</hi>
                <hi rendition="#aq">an): zuletzt Henriette Klingmüller-Paquet, Hamburg; ehem. Marie
                   Paquet-Steinhausen, Frankfurt a. M. 4 S. 8°.<lb/>
                   <hi rendition="#i">K</hi> (nach Nr. 244): <hi rendition="#i">Ahlefeld.</hi>
                </hi> 2 [!] März. <hi rendition="#aq">
-                  <hi rendition="#i">J</hi>: Denkw. 3,2. <hi rendition="#i">B</hi>: IV. Abt., II,
+                  <hi rendition="#i">J</hi>: Denkw. 3,2. <hi rendition="#i">B</hi>: IV. Abt., 2,
                   Nr. 72.<lb/>
-                  <hi rendition="#i">A</hi>: IV. Abt., II, Nr.</hi>
+                  <hi rendition="#i">A</hi>: IV. Abt., 2, Nr.</hi>
                <hi rendition="#aq">80. </hi>
-               <hi rendition="#b"><hi rendition="#aq">160</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">19</hi></hi> deinem] <hi rendition="#aq">so <hi rendition="#i">K</hi>,</hi> meinem <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">160</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">19</hi>
+               </hi> deinem] <hi rendition="#aq">so <hi rendition="#i">K</hi>,</hi> meinem <hi rendition="#aq">
                   <hi rendition="#i">J</hi>
                </hi>
                <hi rendition="#rkd">21</hi> nie] nicht <hi rendition="#aq">
@@ -232,13 +258,25 @@
                <hi rendition="#rkd">28</hi> entlädst] <hi rendition="#aq">so <hi rendition="#i">K</hi>,</hi> entladest <hi rendition="#aq">
                   <hi rendition="#i">J</hi>
                </hi>
-               <hi rendition="#aq">(vgl.</hi> verlädt <hi rendition="#b"><hi rendition="#aq">179</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">34</hi></hi>
+               <hi rendition="#aq">(vgl.</hi> verlädt <hi rendition="#b">
+                  <hi rendition="#aq">179</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">34</hi>
+               </hi>
                <hi rendition="#aq"> )</hi>
                <hi rendition="#rkd">29</hi> der<lb/>Schreibtisch] <hi rendition="#aq">aus</hi> das
                Dintenfas <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">161</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">1</hi></hi> Zweigen] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">161</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">1</hi>
+               </hi> Zweigen] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">2</hi> dan]<lb/>
                <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>

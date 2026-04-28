@@ -3,7 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title n="print" rend="78">*78. An Kirchenrat Kapp in Bayreuth. </title>
-            <title n="digital">Von Jean Paul an Johann Kapp. Bayreuth, 6. August 1815.</title>
+            <title n="digital">Von Jean Paul an Johann Kapp. Bayreuth, 6. August 1815, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
+               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
                <biblScope n="text" unit="page">
                   <num>30</num>
                </biblScope>
@@ -78,14 +78,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1815-08-06">6. August 1815</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-002036">Johann Kapp</persName>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VII_77"/><ptr type="next" subtype="brief" target="VII_79"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VII_77"/><ptr type="next" subtype="brief" target="VII_79"/></correspContext><correspContext n="correspondence"><ptr type="next" subtype="brief" target="VII_92"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VII_77"/>
+               <ptr type="next" subtype="brief" target="VII_79"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VII_77"/>
+               <ptr type="next" subtype="brief" target="VII_79"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="next" subtype="brief" target="VII_92"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -102,18 +116,20 @@
             <p>Verehrtester H. Kirchenrath! Hier schick’ ich Ihnen mit dem<lb xml:id="VII_30-3"/>
                größten Danke das Inventarium Ihrer reichen Bibliothek zurück,<lb xml:id="VII_30-4"/>
                die Sie noch dazu als Doublette besitzen, einmal auf dem Bret,<lb n="5" xml:id="VII_30-5"/> einmal im Kopfe. — Darf ich Sie um zwei <hi rendition="#aq">libri rari</hi> bitten? In<lb xml:id="VII_30-6"/> Duodez No 68 <hi rendition="#aq">Facetiae</hi> und No 183 <hi rendition="#aq">Venus physique.</hi>
-            <note corresp="#VII_30-7">
-               <listBibl type="lineReference" subtype="werke">
-                  <bibl corresp="#JP-010238" ana="†">
-                     <author/>
-                     <title>Facetiae Facetiarum (1645)</title>
-                  </bibl>
-                  <bibl corresp="#JP-009163" ana="†">
-                     <author>Maupertuis, Pierre Louis Moreau de (1698-1759), Mathematiker</author>
-                     <title>Vénus physique (1746)</title>
-                  </bibl>
-               </listBibl>
-            </note><lb xml:id="VII_30-7"/></p>
+               <note corresp="#VII_30-7">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010238" ana="†">
+                        <author/>
+                        <title>Facetiae Facetiarum (1645)</title>
+                     </bibl>
+                     <bibl corresp="#JP-009163" ana="†">
+                        <author>Maupertuis, Pierre Louis Moreau de (1698–1759)</author>
+                        <title>Vénus physique (1746)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VII_30-7"/>
+            </p>
             <closer>
                <salute>Mit Verehrung <hi rendition="#et">Ihr<lb xml:id="VII_30-8"/> gehorsamster<lb xml:id="VII_30-9"/> J. P. F. Richter</hi>
                </salute>

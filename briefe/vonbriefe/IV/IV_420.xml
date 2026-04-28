@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="427">420. An Mahlmann in Leipzig. </title>
-            <title n="digital">Von Jean Paul an Siegfried August Mahlmann. Coburg, 4. November 1803.</title>
+            <title n="print" type="letter" rend="420">420. An Mahlmann in Leipzig. </title>
+            <title n="digital">Von Jean Paul an Siegfried August Mahlmann. Coburg, 4. November 1803, Freitag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,11 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"/><biblScope n="comment" unit="page"/></bibl>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page"/>
+               <biblScope n="comment" unit="page"/>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,21 +73,36 @@
             </msDesc>
             <listBibl type="commentary" subtype="werke">
                <bibl corresp="#JP-009007">
-                  <author>Kotzebue, August von (1761-1819), Dramatiker und Publizist</author>
+                  <author>Kotzebue, August von (1761–1819)</author>
                   <title>Die Hussiten vor Naumburg (1803)</title>
                </bibl>
             </listBibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1803-11-04">4. November 1803</date>
                <placeName key="JP-005649">Coburg </placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-002583">Siegfried August Mahlmann</persName>
                <placeName key="JP-005948">Leipzig</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="IV_419"/><ptr type="next" subtype="brief" target="IV_421"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="IV_419"/><ptr type="next" subtype="brief" target="IV_421"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="IV_193"/><ptr type="next" subtype="brief" target="IV_484"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="IV_419"/>
+               <ptr type="next" subtype="brief" target="IV_421"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="IV_419"/>
+               <ptr type="next" subtype="brief" target="IV_421"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="IV_193"/>
+               <ptr type="next" subtype="anbrief" target="IV-V_EB_9"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -106,7 +125,7 @@
                Du darfst sagen: ich werde<note corresp="#IV_248-26">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002581">
-                        <persName> Ernestine <name type="reg">Mahlmann</name>
+                        <persName>Ernestine <name type="reg">Mahlmann</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -126,9 +145,11 @@
                deinem unschuldigen Kind<note corresp="#IV_248-30">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009145" ana="†">
-                        <author>Mahlmann, Siegfried August (1771-1826), Schriftsteller, Jean Pauls
-                           Schwager</author>
-                        <title>Herodes vor Bethlehem (1803)</title>
+                        <author>Mahlmann, Siegfried August (1771–1826)</author>
+                        <title>Herodes vor Bethlehem oder der triumphirende Viertelsmeister. Ein Schau-
+                        Trauer- und Thränenspiel mit Gesang und Tanz in drey Aufzügen. Als Pendant
+                        zu den vielbeweinten Hussiten vor Naumburg (Leipzig: E. F. Steinacker
+                        1803)</title>
                      </bibl>
                   </listBibl>
                </note>

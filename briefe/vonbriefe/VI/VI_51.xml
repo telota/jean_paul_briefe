@@ -3,7 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title n="print" rend="51">*51. An Varnhagen von Ense in Tübingen. </title>
-            <title n="digital">Von Jean Paul an Karl August Varnhagen von Ense. Bayreuth, 20. März 1809.</title>
+            <title n="digital">Von Jean Paul an Karl August Varnhagen von Ense. Bayreuth, 20. März 1809, Montag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,16 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>17</num><num>18</num></biblScope><biblScope n="comment" unit="page"><num>429</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>17</num>
+                  <num>18</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>429</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,25 +78,40 @@
             </msDesc>
             <listPerson type="commentary">
                <person corresp="#JP-000698">
-                  <persName> Johann Friedrich Freiherr <name type="reg">Cotta von Cottendorf</name>
+                  <persName>Johann Friedrich von <name type="reg">Cotta</name>
                   </persName>
                </person>
                <person corresp="#JP-001219">
-                  <persName> Eleonore Gräfin von <name type="reg">Fuchs</name>
+                  <persName>Eleonore Gräfin von <name type="reg">Fuchs</name>
                   </persName>
                </person>
             </listPerson>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1809-03-20">20. März 1809</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-004405">Karl August Varnhagen von Ense</persName>
                <placeName key="JP-006358">Tübingen</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_50"/><ptr type="next" subtype="umfeldbrief" target="JP-UB2032"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_50"/><ptr type="next" subtype="brief" target="VI_52"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_50"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB2032"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_50"/>
+               <ptr type="next" subtype="brief" target="VI_52"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_10"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_82"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -104,8 +128,8 @@
             <p>Ihre Scheeren-Plastik macht nicht blos meinen Kindern, sondern<note corresp="#VI_17-26">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003483" ana="†">
-                        <persName> Johann Paul Friedrich <name type="reg">Richter</name>
-                        </persName>
+                        <persName>
+                           <name type="reg">Richter</name>, seine Kinder</persName>
                      </person>
                   </listPerson>
                </note>
@@ -131,14 +155,15 @@
                   Roman<note corresp="#VI_18-1">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005574">
-                        <placeName>Bayreuth (Stadt)</placeName>
+                        <placeName>Bayreuth </placeName>
                      </place>
                   </listPlace>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008066" ana="†">
-                        <author>August Ferdinand Bernhardi, Friedrich de la Motte Fouqué, Wilhelm
-                           Neumann, Karl August Varnhagen</author>
-                        <title>Versuche und Hindernisse Karls, Die (1808)</title>
+                        <author><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="roelcke" timestamp="20220503T130105+0100" comment="Falsch zugeordnet" mid="9"?>August
+                        Ferdinand Bernhardi, Friedrich de la Motte Fouqué, Wilhelm Neumann, Karl
+                        August Varnhagen<?oxy_custom_end?><?oxy_comment_end mid="9"?></author>
+                        <title>Die Versuche und Hindernisse Karls (Berlin und Leipzig 1808)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -147,7 +172,7 @@
                   Unparteilichkeit.<lb xml:id="VI_18-3"/> Ich wünschte ihn sehr. Grüßen Sie <hi rendition="#aq">Dlle</hi> Levi, mich könnte sie am<note corresp="#VI_18-4">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002430" ana="†">
-                        <persName> Rahel <name type="reg">Levin</name>
+                        <persName>Rahel <name type="reg">Levin</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -172,10 +197,16 @@
                   <hi rendition="#sup">2</hi> (von Varnhagens Hand): Berlin Varnh.,<lb/> mit den
                   Vermerken: „erhalten am 14 März 1810. Die Urschrift der<lb/> Gräfin Fuchs in Wien
                   geschenkt.“ <hi rendition="#i">i</hi>: Denkw. 3, 193. <hi rendition="#i">J</hi>:
-                  Varnhagens<lb/> Denkwürdigkeiten 3, 84. <hi rendition="#i">B</hi>: IV. Abt., VI,
-                  Nr. 10. <hi rendition="#i">A</hi>: IV. Abt., VI, Nr.</hi>
+                  Varnhagens<lb/> Denkwürdigkeiten 3, 84. <hi rendition="#i">B</hi>: IV. Abt., 6,
+                  Nr. 10. <hi rendition="#i">A</hi>: IV. Abt., 6, Nr.</hi>
                <hi rendition="#aq">82. </hi>
-               <hi rendition="#b"><hi rendition="#aq">17</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">31</hi></hi> Haben <hi rendition="#aq">bis</hi> Argus]<lb/> Sind Sie denn ein Argus <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">17</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">31</hi>
+               </hi> Haben <hi rendition="#aq">bis</hi> Argus]<lb/> Sind Sie denn ein Argus <hi rendition="#aq">
                   <hi rendition="#i">K</hi>
                </hi>
                <hi rendition="#sup">1</hi>

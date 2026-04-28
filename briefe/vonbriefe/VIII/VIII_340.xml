@@ -2,9 +2,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="344">340. An Medizinalrat Dr. von Hirsch in
+            <title n="print" type="letter" rend="340">340. An Medizinalrat Dr. von Hirsch in
                Bayreuth. </title>
-            <title n="digital">Von Jean Paul an Christoph Friedrich Hirsch. Bayreuth, 14. Oktober 1822.</title>
+            <title n="digital">Von Jean Paul an Christoph Friedrich Hirsch. Bayreuth, 14. Oktober 1822, Montag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -46,7 +46,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -61,8 +62,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>204</num>
                </biblScope>
@@ -79,14 +79,25 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1822-10-14">14. Oktober 1822</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-001761">Christoph Friedrich Hirsch</persName>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VIII_339"/><ptr type="next" subtype="brief" target="VIII_341"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VIII_339"/><ptr type="next" subtype="brief" target="VIII_341"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VIII_339"/>
+               <ptr type="next" subtype="anbrief" target="IV-VIII_217"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VIII_339"/>
+               <ptr type="next" subtype="brief" target="VIII_341"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -104,8 +115,8 @@
                mich nicht blos<note corresp="#VIII_204-26">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009277" ana="†">
-                        <author>Nasse, Christian Friedrich (1778-1851), Mediziner in Bonn</author>
-                        <title>Zeitschrift für psychische Ärzte (1818-1822)</title>
+                        <author>Nasse, Christian Friedrich (1778–1851)</author>
+                        <title>Zeitschrift für psychische Ärzte (1818–1822)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -116,14 +127,15 @@
                mir gönnen<lb xml:id="VIII_204-31"/>wollen. — Hier leg’ ich noch, um nicht ganz
                Schuldner zu bleiben, ein<lb xml:id="VIII_204-32"/>Dedikazionexemplar des
                vortrefflichen Meckels bei.<note corresp="#VIII_204-33">
-               <listBibl type="lineReference" subtype="werke">
-                  <bibl corresp="#JP-009165">
-                     <author>Meckel, Johann Friedrich d. J. (1781-1833), Professor der Anatomie in
-                        Halle</author>
-                     <title>De duplicitate monstrosa commentarius (1815)</title>
-                  </bibl>
-               </listBibl>
-            </note><lb xml:id="VIII_204-33"/></p>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009165">
+                        <author>Meckel, Johann Friedrich d. J. (1781–1833)</author>
+                        <title>De duplicitate monstrosa commentarius (1815)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VIII_204-33"/>
+            </p>
             <closer>
                <salute>
                   <hi rendition="#right">Ihr ergebenster<lb xml:id="VIII_204-34"/>Jean Paul Fr.

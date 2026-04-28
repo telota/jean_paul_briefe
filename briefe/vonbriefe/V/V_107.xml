@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="108">107. An Superintendent Vogel in Wunsiedel. </title>
-            <title n="digital">Von Jean Paul an Erhard Friedrich Vogel. Bayreuth, 13. Mai 1805.</title>
+            <title n="print" type="letter" rend="107">107. An Superintendent Vogel in Wunsiedel. </title>
+            <title n="digital">Von Jean Paul an Erhard Friedrich Vogel. Bayreuth, 13. Mai 1805, Montag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
+               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
                <biblScope n="text" unit="page">
                   <num>44</num>
                   <num>45</num>
@@ -79,15 +79,30 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1805-05-13">13. Mai 1805</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-004474">Erhard Friedrich Vogel</persName>
                <placeName key="JP-006424">Wunsiedel
                </placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="V_106"/><ptr type="next" subtype="umfeldbrief" target="JP-UB1594"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="V_106"/><ptr type="next" subtype="brief" target="V_108"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="IV_296"/><ptr type="next" subtype="brief" target="VI_383"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="V_106"/>
+               <ptr type="next" subtype="anbrief" target="IV-V_AN_18"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="V_106"/>
+               <ptr type="next" subtype="brief" target="V_108"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-V_44"/>
+               <ptr type="next" subtype="anbrief" target="IV-V_49"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -128,7 +143,7 @@
                   <listPerson type="lineReference">
                      <person corresp="#JP-001187">
                         <persName>
-                           <name type="reg">Friedrich Wilhelm III.</name>
+                           <name type="reg">Friedrich Wilhelm III., König von Preußen</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -142,7 +157,7 @@
                <note corresp="#V_44-23">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001530">
-                        <persName> Karl August Freiherr von <name type="reg">Hardenberg</name>
+                        <persName>Karl August Freiherr von <name type="reg">Hardenberg</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -171,8 +186,8 @@
                   <hi rendition="#aq">Wonsiedel</hi> kennt und verräth, kein Vogt- ja kein
                   Frankenland, fehlte<note corresp="#V_44-30">
                      <listPlace type="lineReference">
-                        <place corresp="#JP-0057390">
-                           <placeName>Franken; Franken</placeName>
+                        <place corresp="#JP-005739">
+                           <placeName>Franken</placeName>
                         </place>
                         <place corresp="#JP-006377">
                            <placeName>Vogtland </placeName>
@@ -201,10 +216,16 @@
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Brit. Museum. 3 S. 8°. <hi rendition="#i">K</hi>: <hi rendition="#i">Vogel</hi> [nachtr. <hi rendition="#i">Wonsiedel</hi>]</hi> 13 Mai.<lb/>
                <hi rendition="#aq">
-                  <hi rendition="#i">J</hi>: Wahrheit 7,41. <hi rendition="#i">B</hi>: IV. Abt., V,
-                  Nr. 44. <hi rendition="#i">A</hi>: IV. Abt., V, Nr.</hi>
+                  <hi rendition="#i">J</hi>: Wahrheit 7,41. <hi rendition="#i">B</hi>: IV. Abt., 5,
+                  Nr. 44. <hi rendition="#i">A</hi>: IV. Abt., 5, Nr.</hi>
                <hi rendition="#aq">49. </hi>
-               <hi rendition="#b"><hi rendition="#aq">44</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">12</hi></hi> Zwergfell <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">44</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">12</hi>
+               </hi> Zwergfell <hi rendition="#aq">
                   <hi rendition="#i">K</hi>
                </hi>
                <hi rendition="#rkd">13</hi> wenn<lb/> Fische eines hätten] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
@@ -221,7 +242,13 @@
                <hi rendition="#rkd">30</hi> ja] <hi rendition="#aq">aus</hi> und <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">45</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">2</hi></hi> hätten] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">45</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">2</hi>
+               </hi> hätten] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
                </hi>
             </p>
             <lb/>

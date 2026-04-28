@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="155">154. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, 14. September 1809.</title>
+            <title n="print" type="letter" rend="154">154. An Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth, 14. September 1809, Donnerstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>53</num></biblScope><biblScope n="comment" unit="page"><num>446</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>53</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>446</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date cert="medium" when="1809-09-14">14. September 1809</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB1886"/><ptr type="next" subtype="brief" target="VI_155"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_157"/><ptr type="next" subtype="brief" target="VI_155"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_157"/><ptr type="next" subtype="brief" target="VI_158"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_31"/>
+               <ptr type="next" subtype="brief" target="VI_155"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_157"/>
+               <ptr type="next" subtype="brief" target="VI_155"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_157"/>
+               <ptr type="next" subtype="brief" target="VI_158"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -104,14 +127,13 @@
                daß <hi rendition="#aq">Lilienstern</hi> 2 mal <hi rendition="#aq">Thresor<note corresp="#VI_53-11">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003616" ana="†">
-                           <persName> Otto August <name type="reg">Rühle von Lilienstern</name>
+                           <persName>August <name type="reg">Rühle von Lilienstern</name>
                            </persName>
                         </person>
                      </listPerson>
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-009351" ana="†">
-                           <author>Otto, Christian (Georg Christian) (Pseud. Georgius, Christianus)
-                              (1763-1828), Jurist, einer der engsten Freunde von Jean Paul</author>
+                           <author>Otto, Christian (Pseud. Georgius, Christianus, 1763–1828)</author>
                            <title>Zum Lebenslauf der Tresorscheine (1809)</title>
                         </bibl>
                      </listBibl>
@@ -124,8 +146,8 @@
                nicht <hi rendition="#aq">thresor</hi>
                <note corresp="#VI_53-12">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0057468">
-                        <placeName>Orthographie; Frankreich, französisch</placeName>
+                     <place corresp="#JP-011325">
+                        <placeName>Orthographie</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -136,8 +158,9 @@
                — <hi rendition="#aq">Wagners</hi> Reise in die Heimat<note corresp="#VI_53-17">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010019">
-                        <author>Wagner, Johann Ernst (1769-1812), Romanschriftsteller</author>
-                        <title>Reisen aus der Fremde in die Heimat (1808)</title>
+                        <author>Wagner, Johann Ernst (1769–1812)</author>
+                        <title>Reisen aus der Fremde in die Heimath (2 Bde., Bd. 1: Hildburghausen:
+                        Hanisch 1808; Bd. 2: Tübingen: Cotta 1809)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -148,7 +171,13 @@
             <p>
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Berlin JP.</hi>
-               <hi rendition="#b"><hi rendition="#aq">53</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">15</hi></hi> richtiges] <hi rendition="#aq">aus</hi> rechtes <hi rendition="#rkd">18</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">53</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">15</hi>
+               </hi> richtiges] <hi rendition="#aq">aus</hi> rechtes <hi rendition="#rkd">18</hi>
                von ihm] <hi rendition="#aq">nachtr.</hi>
             </p>
             <lb/>

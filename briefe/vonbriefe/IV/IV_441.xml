@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="448">441. An Buchhändler Wilmans in Frankfurt a. M. </title>
-            <title n="digital">Von Jean Paul an Friedrich Wilmans. Coburg, 14. Januar 1804.</title>
+            <title n="print" type="letter" rend="441">441. An Buchhändler Wilmans in Frankfurt a. M. </title>
+            <title n="digital">Von Jean Paul an Friedrich Wilmans. Coburg, 14. Januar 1804, Samstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,11 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"/><biblScope n="comment" unit="page"/></bibl>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page"/>
+               <biblScope n="comment" unit="page"/>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,15 +73,30 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1804-01-14">14. Januar 1804</date>
                <placeName key="JP-005649">Coburg </placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-004734">Friedrich Wilmans</persName>
                <placeName key="JP-005743">Frankfurt a.
                   M.</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0297"/><ptr type="next" subtype="umfeldbrief" target="JP-UB1524"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="IV_440"/><ptr type="next" subtype="brief" target="IV_442"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="IV_117"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB0297"/>
+               <ptr type="next" subtype="anbrief" target="IV-IV_EB_65"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="IV_440"/>
+               <ptr type="next" subtype="brief" target="IV_442"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="IV_117"/>
+               <ptr type="next" subtype="anbrief" target="IV-IV_EB_65"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -95,8 +114,8 @@
                   M<metamark>[</metamark>esse<metamark>]</metamark>
                <note corresp="#IV_267-23">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0059485">
-                        <placeName>Messe; Leipzig</placeName>
+                     <place corresp="#JP-011521">
+                        <placeName>Messe</placeName>
                      </place>
                   </listPlace>
                   <listBibl type="lineReference" subtype="werke-jp">
@@ -117,7 +136,8 @@
                   auf<note corresp="#IV_267-25">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009809">
-                        <author>Spazier, Karl und Siegfried August Mahlmann (Werk, Hrsg.)</author>
+                        <author>Spazier, Johann Karl Gottlieb (1761–1805); Mahlmann, Siegfried August
+                  (1771–1826) (Hrsg.)</author>
                         <title>Zeitung für die elegante Welt (1801ff.)</title>
                      </bibl>
                   </listBibl>
@@ -154,7 +174,7 @@
                   hinein.<note corresp="#IV_267-35">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001675">
-                        <persName> Johann Gottfried von <name type="reg">Herder</name>
+                        <persName>Johann Gottfried von <name type="reg">Herder</name>
                         </persName>
                      </person>
                   </listPerson>

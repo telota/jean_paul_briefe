@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="591">(*) 590. An Charlotte von Kalb in Weimar. </title>
-            <title n="digital">Von Jean Paul an Charlotte von Kalb. Hof, 17. April 1797.</title>
+            <title n="print" type="letter" rend="590">(*) 590. An Charlotte von Kalb in Weimar. </title>
+            <title n="digital">Von Jean Paul an Charlotte von Kalb. Hof, 17. April 1797, Montag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
+               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
                <biblScope n="text" unit="page">
                   <num>322</num>
                </biblScope>
@@ -83,14 +83,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1797-04-17">17. April 1797</date>
                <placeName key="JP-005841">Hof</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-002007">Charlotte von Kalb</persName>
                <placeName key="JP-006395">Weimar</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="II_589"/><ptr type="next" subtype="brief" target="II_591"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="II_589"/><ptr type="next" subtype="brief" target="II_591"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="II_576"/><ptr type="next" subtype="brief" target="II_633"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="II_589"/>
+               <ptr type="next" subtype="brief" target="II_591"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="II_589"/>
+               <ptr type="next" subtype="brief" target="II_591"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-II_EB_96"/>
+               <ptr type="next" subtype="brief" target="II_633"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -125,12 +140,12 @@
                   meine<note corresp="#II_322-18">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001479">
-                        <persName> Friedrich Wilhelm <name type="reg">Hagen</name>
+                        <persName>Friedrich Wilhelm <name type="reg">Hagen</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listPlace type="lineReference">
-                     <place corresp="#JP-005722">
+                     <place corresp="#JP-005721">
                         <placeName>Erlangen </placeName>
                      </place>
                   </listPlace>
@@ -145,7 +160,7 @@
                   ein<note corresp="#II_322-23">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001675">
-                        <persName> Johann Gottfried von <name type="reg">Herder</name>
+                        <persName>Johann Gottfried von <name type="reg">Herder</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -156,15 +171,14 @@
                   Physio<note corresp="#II_322-25">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002373">
-                        <persName> Johann Caspar (Kaspar) <name type="reg">Lavater</name>
+                        <persName>Johann Caspar <name type="reg">Lavater</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009075">
-                        <author>Lavater, Johann Caspar (Kaspar) (1741-1801), Zürcher reformierter
-                           Theologie und Pfarrer, Schriftsteller und Physiognomiker</author>
-                        <title>Physiognomische Fragmente (1775-1778)</title>
+                        <author>Lavater, Johann Caspar (1741–1801)</author>
+                        <title>Physiognomische Fragmente (1775–1778)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -193,7 +207,13 @@
                Entfernung<lb/>so bleich und kalt, daß ich am Ende gar nicht hinkommen werde. <hi rendition="#aq">Die in<lb/>eckigen Klammern eingeschobenen Sätze stehen in <hi rendition="#i">i</hi>
                   <hi rendition="#sup">2</hi> als besonderer Ab<lb rendition="#hyphen"/>satz
                   voran.</hi>
-               <hi rendition="#b"><hi rendition="#aq">322</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">17</hi></hi> alle] die <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">322</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">17</hi>
+               </hi> alle] die <hi rendition="#aq">
                   <hi rendition="#i">K</hi>
                </hi>
                <hi rendition="#rkd">18</hi> Erlangen <hi rendition="#aq">
@@ -203,7 +223,13 @@
             </p>
             <lb/>
             <p>
-               <hi rendition="#b"><hi rendition="#aq">322</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">11</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">322</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">11</hi>
+               </hi>
                <hi rendition="#aq">
                   <hi rendition="#g">Mitte der Messe:</hi> Mitte Mai 1797. <hi rendition="#rkd">18</hi>
                   <hi rendition="#g">Magister:</hi> Hagen,<lb/>s. <hi rendition="#b">330</hi>, <hi rendition="#rkd">21</hi> und Nr. 724†. <hi rendition="#rkd">25–27</hi>

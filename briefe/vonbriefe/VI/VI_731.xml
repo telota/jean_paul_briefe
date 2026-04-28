@@ -2,9 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="733">731. An Cotta. </title>
-            <title n="digital">Von Jean Paul an Johann Friedrich Freiherr Cotta von Cottendorf. Bayreuth, 16.
-               Februar 1813.</title>
+            <title n="print" type="letter" rend="731">731. An Cotta. </title>
+            <title n="digital">Von Jean Paul an Johann Friedrich Cotta. Bayreuth, 16. Februar 1813, Dienstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -46,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +60,16 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>313</num><num>314</num></biblScope><biblScope n="comment" unit="page"><num>553</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>313</num>
+                  <num>314</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>553</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -70,13 +78,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1813-02-16">16. Februar 1813</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-000698">Johann Friedrich Freiherr Cotta von Cottendorf</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_730"/><ptr type="next" subtype="brief" target="VI_733"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_730"/><ptr type="next" subtype="brief" target="VI_733"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_712"/><ptr type="next" subtype="brief" target="VI_740"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000698">Johann Friedrich von Cotta</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_730"/>
+               <ptr type="next" subtype="brief" target="VI_733"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_730"/>
+               <ptr type="next" subtype="brief" target="VI_733"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_EB_78"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_EB_79"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -134,7 +157,7 @@
                nicht. <hi rendition="#aq">Wolke</hi> hat ganz Unrecht,<note corresp="#VI_314-11">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004803">
-                        <persName> Christian Heinrich <name type="reg">Wolke</name>
+                        <persName>Christian Heinrich <name type="reg">Wolke</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -144,8 +167,7 @@
                   schon<note corresp="#VI_314-14">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010130">
-                        <author>Wolke, Christian Heinrich (1741-1825), Pädagoge und
-                           Sprachreformer</author>
+                        <author>Wolke, Christian Heinrich (1741–1825)</author>
                         <title>Anleit zur deutschen Gesamtsprache (1812)</title>
                      </bibl>
                   </listBibl>
@@ -155,7 +177,7 @@
             <p>Ein komisches Taschenbuch mit <hi rendition="#aq">Rambergs</hi> Nadel und meiner<note corresp="#VI_314-16">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003345">
-                        <persName> Johann Heinrich <name type="reg">Ramberg</name>
+                        <persName>Johann Heinrich <name type="reg">Ramberg</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -169,9 +191,8 @@
                   Sie<lb xml:id="VI_314-17"/> doch (weil mir sein Wohnort unbekannt) diesen wahren
                   deutschen<note corresp="#VI_314-18">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0056690">
-                        <placeName>Deutsche; Deutschland , deutsch , Germanien,
-                           Vaterland</placeName>
+                     <place corresp="#JP-011167">
+                        <placeName>Deutsche</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -179,11 +200,11 @@
                   Chodow<metamark>[</metamark>iecki<metamark>]</metamark>),<note corresp="#VI_314-19">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000626">
-                        <persName> Daniel <name type="reg">Chodowiecki </name>
+                        <persName>Daniel <name type="reg">Chodowiecki</name>
                         </persName>
                      </person>
                      <person corresp="#JP-001802">
-                        <persName> William <name type="reg">Hogarth</name>
+                        <persName>William <name type="reg">Hogarth</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -197,9 +218,9 @@
                   (den<note corresp="#VI_314-25">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008639" ana="†">
-                        <author>Hebel, Johann Peter (1760-1826), oberrheinischer Dichter und
-                           Erzähler(Werk)</author>
-                        <title>Das Schatzkästlein (1811)</title>
+                        <author>Hebel, Johann Peter (1760–1826)</author>
+                        <title>Schatzkästlein des rheinischen Hausfreundes (Tübingen: Cotta
+                        1811)</title>
                      </bibl>
                   </listBibl>
                </note>

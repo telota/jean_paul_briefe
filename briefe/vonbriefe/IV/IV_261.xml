@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="267">*261. An Hohnbaum. </title>
-            <title n="digital">Von Jean Paul an Johann Christian Hohnbaum. Meiningen, 30. März 1802.</title>
+            <title n="print" type="letter" rend="261">*261. An Hohnbaum. </title>
+            <title n="digital">Von Jean Paul an Johann Christian Hohnbaum. Meiningen, 30. März 1802, Dienstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,11 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"/><biblScope n="comment" unit="page"/></bibl>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page"/>
+               <biblScope n="comment" unit="page"/>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -70,14 +74,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1802-03-30">30. März 1802</date>
                <placeName key="JP-006012">Meiningen
                </placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-001814">Johann Christian Hohnbaum</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="IV_260"/><ptr type="next" subtype="brief" target="IV_262"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="IV_260"/><ptr type="next" subtype="brief" target="IV_262"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="IV_188"/><ptr type="next" subtype="brief" target="IV_332"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="IV_260"/>
+               <ptr type="next" subtype="brief" target="IV_262"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="IV_260"/>
+               <ptr type="next" subtype="brief" target="IV_262"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-IV_180"/>
+               <ptr type="next" subtype="brief" target="IV_332"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -101,13 +120,13 @@
                         </persName>
                      </person>
                      <person corresp="#JP-003087">
-                        <persName> Emanuel <name type="reg">Osmund</name>
+                        <persName>Emanuel <name type="reg">Osmund</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listPlace type="lineReference">
                      <place corresp="#JP-005574">
-                        <placeName>Bayreuth (Stadt)</placeName>
+                        <placeName>Bayreuth </placeName>
                      </place>
                   </listPlace>
                </note>
@@ -120,14 +139,15 @@
             <p>Schöne Herzogin, wie ein Orangen Baum immer in Blüten und<note corresp="#IV_144-28">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000608">
-                        <persName> Georgine Luise Friederike <name type="reg">Charlotte</name>
+                        <persName>
+                           <name type="reg">Charlotte, Herzogin von Hildburghausen</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010953" ana="†">
                         <title>Ursachen, warum der Verf. nichts für das Taschenbuch liefert
-                           (1803)</title>
+                        (1803)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -149,7 +169,13 @@
             </p>
             <lb/>
             <p>
-               <hi rendition="#b"><hi rendition="#aq">144</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">27</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">144</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">27</hi>
+               </hi>
                <hi rendition="#aq">Vgl. <hi rendition="#b">130</hi>, <hi rendition="#rkd">1</hi>. <hi rendition="#rkd">28</hi>
                   <hi rendition="#g">Herzogin</hi> Charlotte von Hildburghausen; s.<lb/>den
                   (fingierten) Brief „An die Hofdame in H-b-s-n“ in dem Aufsatz<lb/>„Ursachen, warum

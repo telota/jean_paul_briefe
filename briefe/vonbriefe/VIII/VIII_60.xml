@@ -3,7 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title n="print" type="letter" rend="60">60. An Heinrich Voß in Heidelberg. </title>
-            <title n="digital">Von Jean Paul an Heinrich Voß. München, 18. Juni 1820.</title>
+            <title n="digital">Von Jean Paul an Heinrich Voß. München, 18. Juni 1820, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>44</num>
                </biblScope>
@@ -77,21 +77,36 @@
             </msDesc>
             <listPerson type="commentary">
                <person corresp="#JP-003657">
-                  <persName> Karl Ludwig <name type="reg">Sand</name>
+                  <persName>Karl Ludwig <name type="reg">Sand</name>
                   </persName>
                </person>
             </listPerson>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1820-06-18">18. Juni 1820</date>
                <placeName key="JP-006040">München</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-004520">Heinrich Voß</persName>
                <placeName key="JP-005819">Heidelberg</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VIII_59"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0742"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VIII_59"/><ptr type="next" subtype="brief" target="VIII_61"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VIII_56"/><ptr type="next" subtype="brief" target="VIII_80"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-VIII_43"/>
+               <ptr type="next" subtype="anbrief" target="IV-VIII_EB_8"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VIII_59"/>
+               <ptr type="next" subtype="brief" target="VIII_61"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VIII_42"/>
+               <ptr type="next" subtype="brief" target="VIII_80"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -108,8 +123,8 @@
             <lb xml:id="VIII_44-2"/>
             <p>Postskript: In Heidelberg trank ich die Freuden aus dem Heidelberger<note corresp="#VIII_44-3">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0058190">
-                        <placeName>Fass; Heidelberg</placeName>
+                     <place corresp="#JP-011371">
+                        <placeName>Fass</placeName>
                      </place>
                   </listPlace>
                </note>

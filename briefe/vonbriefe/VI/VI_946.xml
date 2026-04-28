@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="952">946. An Professor Wagner in Bayreuth. </title>
+            <title n="print" type="letter" rend="946">946. An Professor Wagner in Bayreuth. </title>
             <title n="digital">Von Jean Paul an Lorenz Heinrich Wagner. Bayreuth, Anfang November 1814.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>406</num></biblScope><biblScope n="comment" unit="page"><num>588</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>406</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>588</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,15 +77,30 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date cert="medium" notBefore="1814-11-01" notAfter="1814-11-10">Anfang November
                   1814</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-004569">Lorenz Heinrich Wagner</persName>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB2087"/><ptr type="next" subtype="brief" target="VI_947"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_945"/><ptr type="next" subtype="brief" target="VI_947"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_942"/><ptr type="next" subtype="brief" target="VII_1-fb"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB2087"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_254"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_945"/>
+               <ptr type="next" subtype="brief" target="VI_947"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_942"/>
+               <ptr type="next" subtype="brief" target="VII_1-fb"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -95,13 +118,13 @@
                einem Werke unterstützen, worin die Namen der Venusflecken<lb xml:id="VI_406-17"/>
                stehen? — Oder hat die Kanzleibibliothek Schröters aphrodit<note corresp="#VI_406-18">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-00557433">
-                        <placeName>Kanzlei-Bibliothek; Bayreuth (Stadt)</placeName>
+                     <place corresp="#JP-011061">
+                        <placeName>Kanzlei-Bibliothek</placeName>
                      </place>
                   </listPlace>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009675" ana="†">
-                        <author>Schröter, Johann Hieronymus (1745-1816), Astronom</author>
+                        <author>Schröter, Johann Hieronymus (1745–1816)</author>
                         <title>Aphroditographische Fragmente (1796)</title>
                      </bibl>
                   </listBibl>

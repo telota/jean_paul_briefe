@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="798">796. An Marianne Lux in Mainz. </title>
-            <title n="digital">Von Jean Paul an Marianne Lux. Bayreuth, 12. September 1813.</title>
+            <title n="print" type="letter" rend="796">796. An Marianne Lux in Mainz. </title>
+            <title n="digital">Von Jean Paul an Marianne Lux. Bayreuth, 12. September 1813, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,16 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>344</num><num>345</num></biblScope><biblScope n="comment" unit="page"><num>563</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>344</num>
+                  <num>345</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>563</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -70,14 +79,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1813-09-12">12. September 1813</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-002560">Marianne Lux</persName>
                <placeName key="JP-005990">Mainz</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_795"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0075"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_795"/><ptr type="next" subtype="brief" target="VI_797"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_778"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_230"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB0075"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_795"/>
+               <ptr type="next" subtype="brief" target="VI_797"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_EB_96"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_241"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -120,16 +144,16 @@
                <note corresp="#VI_345-2">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003469">
-                        <persName> Caroline <name type="reg">Richter</name>
+                        <persName>Caroline <name type="reg">Richter</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003471" ana="†">
-                        <persName> Emma <name type="reg">Richter</name>
+                        <persName>Emma <name type="reg">Richter</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003483">
-                        <persName> Johann Paul Friedrich <name type="reg">Richter</name>
-                        </persName>
+                        <persName>
+                           <name type="reg">Richter</name>, seine Kinder</persName>
                      </person>
                   </listPerson>
                </note>
@@ -166,8 +190,8 @@
                Briefe ganze Tagbücher<lb xml:id="VI_345-16"/> Ihres Lebens<note n="*)" place="foot">Ihrer Familie, Ihrer kleinern Ereignisse etc. etc.<note corresp="#VI_345-36">
                      <listPerson type="lineReference">
                         <person corresp="#JP-002559">
-                           <persName> Adam <name type="reg">Lux</name>
-                           </persName>
+                           <persName>
+                              <name type="reg">Lux</name>, seine Familie</persName>
                         </person>
                      </listPerson>
                   </note>
@@ -175,7 +199,7 @@
                </note>. Ein Herr <hi rendition="#aq">Nebrig</hi> aus <hi rendition="#aq">Frankfurt,</hi> ein Verehrer<note corresp="#VI_345-17">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002973">
-                        <persName> Adam <name type="reg">Neberich</name>
+                        <persName>Adam <name type="reg">Neberich</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -189,7 +213,7 @@
                   Ihrer<note corresp="#VI_345-18">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002558">
-                        <persName> Adam <name type="reg">Lux</name>
+                        <persName>Adam <name type="reg">Lux</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -209,12 +233,18 @@
          <div type="comment">
             <p>
                <hi rendition="#aq">
-                  <hi rendition="#i">K</hi> (von Emmas Hand, mit eigenh. Korrekturen): <hi rendition="#i">Marianne Lux.<lb/> i</hi>: Wahrheit 7, 350× (undat.). <hi rendition="#i">A</hi>: IV. Abt., VI, Nr.</hi>
+                  <hi rendition="#i">K</hi> (von Emmas Hand, mit eigenh. Korrekturen): <hi rendition="#i">Marianne Lux.<lb/> i</hi>: Wahrheit 7, 350× (undat.). <hi rendition="#i">A</hi>: IV. Abt., 6, Nr.</hi>
                <hi rendition="#aq"> 241.</hi>
             </p>
             <lb/>
             <p>
-               <hi rendition="#b"><hi rendition="#aq">345</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">2</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">345</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">2</hi>
+               </hi>
                <hi rendition="#aq">
                   <hi rendition="#g">Caroline:</hi> dazu Fußnote: „und von meinen [!] treuen
                   Hunde.“<lb/> Jean Paul hat das ausgestrichen und daneben geschrieben:</hi>

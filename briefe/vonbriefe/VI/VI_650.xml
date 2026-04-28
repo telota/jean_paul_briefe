@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="652">650. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Nürnberg, 12. Juni 1812 bis 17. Juni 1812.</title>
+            <title n="print" type="letter" rend="650">650. An Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Nürnberg, 12. bis 17. Juni 1812.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,18 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>271</num><num>272</num><num>273</num><num>274</num></biblScope><biblScope n="comment" unit="page"><num>538</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>271</num>
+                  <num>272</num>
+                  <num>273</num>
+                  <num>274</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>538</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,15 +80,30 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date corresp="writingSession1" when="1812-06-12">12. Juni 1812</date>
                <date corresp="writingSession2" when="1812-06-13">13. Juni 1812</date>
                <date corresp="writingSession3" when="1812-06-17">17. Juni 1812</date>
                <placeName key="JP-006085">Nürnberg</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB1324"/><ptr type="next" subtype="brief" target="VI_651"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_649"/><ptr type="next" subtype="brief" target="VI_651"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_648"/><ptr type="next" subtype="brief" target="VI_657"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB1324"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_201"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_649"/>
+               <ptr type="next" subtype="brief" target="VI_651"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_648"/>
+               <ptr type="next" subtype="brief" target="VI_657"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -99,7 +125,7 @@
                   meinen guten Hausleuten<note corresp="#VI_271-25">
                      <listPerson type="lineReference">
                         <person corresp="#JP-002248">
-                           <persName> Anna Magdalena <name type="reg">Krauß </name>
+                           <persName>Anna Magdalena <name type="reg">Krauß</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -107,7 +133,7 @@
                   <lb n="25" xml:id="VI_271-25"/> und bei so vielen Nürnberger Lesern nicht viel von
                      <hi rendition="#aq">Erlangen.</hi> —<note corresp="#VI_271-26">
                      <listPlace type="lineReference">
-                        <place corresp="#JP-005722">
+                        <place corresp="#JP-005721">
                            <placeName>Erlangen </placeName>
                         </place>
                         <place corresp="#JP-006085">
@@ -119,7 +145,7 @@
                      auch<note corresp="#VI_271-27">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001909" ana="ff">
-                           <persName> Friedrich Heinrich <name type="reg">Jacobi</name>
+                           <persName>Friedrich Heinrich <name type="reg">Jacobi</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -133,8 +159,7 @@
                      über<note corresp="#VI_271-33">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-008816">
-                           <author>Jacobi, Friedrich Heinrich (1743-1819), Philosoph und
-                              Schriftsteller</author>
+                           <author>Jacobi, Friedrich Heinrich (1743–1819)</author>
                            <title>David Hume (1787)</title>
                         </bibl>
                      </listBibl>
@@ -143,9 +168,8 @@
                      da<lb xml:id="VI_272-1" rendition="#hyphen"/>gelassen. Den neuen 1<hi rendition="#sup">ten</hi> Band seiner Werke bring’ ich mit. — Er<note corresp="#VI_272-2">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-008829">
-                           <author>Jacobi, Friedrich Heinrich (1743-1819), Philosoph und
-                              Schriftsteller(Werk)</author>
-                           <title>Werke (1812-1825)</title>
+                           <author>Jacobi, Friedrich Heinrich (1743–1819)</author>
+                           <title>Werke (1812–1825)</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -166,7 +190,7 @@
                   selber oft<note corresp="#VI_272-9">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001906">
-                           <persName> Charlotte und Helene <name type="reg">Jacobi</name>
+                           <persName>Charlotte und Helene <name type="reg">Jacobi</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -187,7 +211,7 @@
                   Schwestern; und<note corresp="#VI_272-12">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001906">
-                           <persName> Charlotte und Helene <name type="reg">Jacobi</name>
+                           <persName>Charlotte und Helene <name type="reg">Jacobi</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -198,7 +222,7 @@
                   Sprachmaschine vorzuspielen). Zuweilen<note corresp="#VI_272-15">
                      <listPerson type="lineReference">
                         <person corresp="#JP-002083">
-                           <persName> Wolfgang von <name type="reg">Kempelen</name>
+                           <persName>Wolfgang von <name type="reg">Kempelen</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -218,7 +242,7 @@
                   <note corresp="#VI_272-24">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001675">
-                           <persName> Johann Gottfried von <name type="reg">Herder</name>
+                           <persName>Johann Gottfried von <name type="reg">Herder</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -237,13 +261,15 @@
                   zu laufen, um mich vom Erholen<lb n="35" xml:id="VI_272-35"/> zu erholen; z. B.
                   aus der vollen Männer- und Weibergesellschaft<lb xml:id="VI_272-36"/> bei <hi rendition="#aq">Merkel</hi> nach einem überreichen Gastmal (er hat 5
                   Häuser).<note corresp="#VI_272-37">
-                  <listPerson type="lineReference">
-                     <person corresp="#JP-002775">
-                        <persName> Paul Wolfgang <name type="reg">Merkel</name>
-                        </persName>
-                     </person>
-                  </listPerson>
-               </note><lb xml:id="VI_272-37"/></p>
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002775">
+                           <persName>Paul Wolfgang <name type="reg">Merkel</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_272-37"/>
+               </p>
             </div>
             <div n="writingSession2">
                <dateline>
@@ -254,18 +280,17 @@
                   gegen <hi rendition="#aq">Herder</hi> und mich ge<note corresp="#VI_273-3">
                      <listPerson type="lineReference">
                         <person corresp="#JP-000986">
-                           <persName> Johann Benjamin <name type="reg">Erhard</name>
+                           <persName>Johann Benjamin <name type="reg">Erhard</name>
                            </persName>
                         </person>
                         <person corresp="#JP-001675">
-                           <persName> Johann Gottfried von <name type="reg">Herder</name>
+                           <persName>Johann Gottfried von <name type="reg">Herder</name>
                            </persName>
                         </person>
                      </listPerson>
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-008336">
-                           <author>Erhard, Johann Benjamin (1766-1827), Arzt in Nürnberg,
-                              Schriftsteller, Kantianer</author>
+                           <author>Erhard, Johann Benjamin (1766–1827)</author>
                            <title>Brief an Herrn Jean Paul (1800)</title>
                         </bibl>
                      </listBibl>
@@ -274,8 +299,7 @@
                      präsentierte mich ihm so: „Sie haben einmal den Teufel gelobt (im<note corresp="#VI_273-36">
                         <listBibl type="lineReference" subtype="werke">
                            <bibl corresp="#JP-008335">
-                              <author>Erhard, Johann Benjamin (1766-1827), Arzt in Nürnberg,
-                                 Schriftsteller, Kantianer</author>
+                              <author>Erhard, Johann Benjamin (1766–1827)</author>
                               <title>Apologie des Teufels (1795)</title>
                            </bibl>
                         </listBibl>
@@ -285,8 +309,9 @@
                         <listBibl type="lineReference" subtype="werke">
                            <bibl corresp="#JP-010337">
                               <author/>
-                              <title>Philosophisches Journal (1795-1800). Hrsg. von Friedrich
-                                 ImmanuelNiethammer und Johann Gottlieb Fichte</title>
+                              <title>Philosophisches Journal (1795–1800). Hrsg. von
+                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Friedrich
+                        Immanuel Niethammer und Johann Gottlieb Fichte<?oxy_custom_end?></title>
                            </bibl>
                         </listBibl>
                      </note>
@@ -304,7 +329,7 @@
                      —<note corresp="#VI_273-5">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001909" ana="ff">
-                           <persName> Friedrich Heinrich <name type="reg">Jacobi</name>
+                           <persName>Friedrich Heinrich <name type="reg">Jacobi</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -326,15 +351,12 @@
                      sogar<note corresp="#VI_273-12">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-008826">
-                           <author>Jacobi, Friedrich Heinrich (1743-1819), Philosoph und
-                              Schriftsteller(Werk)</author>
+                           <author>Jacobi, Friedrich Heinrich (1743–1819)</author>
                            <title>Von den göttlichen Dingen (1811)</title>
                         </bibl>
                         <bibl corresp="#JP-009569">
-                           <author>Schelling, Friedrich Wilhelm Joseph (ab 1812) von
-                              (1775-1854)</author>
-                           <title>Denkmal der Schrift von den göttlichen Dingen des Herrn Jacobi
-                              (1812)</title>
+                           <author>Schelling, Friedrich Wilhelm Joseph von (1775–1854)</author>
+                           <title>Denkmal der Schrift von den göttlichen Dingen des Herrn Jacobi (1812)</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -362,11 +384,11 @@
                   Aretin, sagt’<note corresp="#VI_273-16">
                      <listPerson type="lineReference">
                         <person corresp="#JP-000123">
-                           <persName> Johann Christoph <name type="reg">Aretin</name>
+                           <persName>Johann Christoph <name type="reg">Aretin</name>
                            </persName>
                         </person>
                         <person corresp="#JP-003713">
-                           <persName> Friedrich Wilhelm Joseph (ab 1812) von <name type="reg">Schelling</name>
+                           <persName>Friedrich Wilhelm Joseph (ab 1812) von <name type="reg">Schelling</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -375,7 +397,7 @@
                   genützt.“) —<lb xml:id="VI_273-17"/> Nachdem in <hi rendition="#aq">Erlangen</hi>
                   die Professoren und wir alle seine Gesundheit<note corresp="#VI_273-18">
                      <listPlace type="lineReference">
-                        <place corresp="#JP-005722">
+                        <place corresp="#JP-005721">
                            <placeName>Erlangen </placeName>
                         </place>
                      </listPlace>
@@ -386,7 +408,7 @@
                   den 4 weiblichen Händen an, die ihn<note corresp="#VI_273-21">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001906">
-                           <persName> Charlotte und Helene <name type="reg">Jacobi</name>
+                           <persName>Charlotte und Helene <name type="reg">Jacobi</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -405,11 +427,11 @@
                   Halbzirkel von <hi rendition="#aq">Seebeck, Hegel,<note corresp="#VI_273-25">
                         <listPerson type="lineReference">
                            <person corresp="#JP-001588">
-                              <persName> Georg Wilhelm Friedrich <name type="reg">Hegel</name>
+                              <persName>Georg Wilhelm Friedrich <name type="reg">Hegel</name>
                               </persName>
                            </person>
                            <person corresp="#JP-003990">
-                              <persName> Thomas Johann <name type="reg">Seebeck</name>
+                              <persName>Thomas Johann <name type="reg">Seebeck</name>
                               </persName>
                            </person>
                         </listPerson>
@@ -418,15 +440,15 @@
                   und seine Schwestern<note corresp="#VI_273-26">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001906">
-                           <persName> Charlotte und Helene <name type="reg">Jacobi</name>
+                           <persName>Charlotte und Helene <name type="reg">Jacobi</name>
                            </persName>
                         </person>
                         <person corresp="#JP-003004">
-                           <persName> August Hermann <name type="reg">Niemeyer </name>
+                           <persName>August Hermann <name type="reg">Niemeyer</name>
                            </persName>
                         </person>
                         <person corresp="#JP-003956">
-                           <persName> Johann Salomon Christoph <name type="reg">Schweigger</name>
+                           <persName>Johann Salomon Christoph <name type="reg">Schweigger</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -440,7 +462,7 @@
                   den sanften Vorwürfen, wenn<note corresp="#VI_273-31">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001906">
-                           <persName> Charlotte und Helene <name type="reg">Jacobi</name>
+                           <persName>Charlotte und Helene <name type="reg">Jacobi</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -456,15 +478,15 @@
                      <note corresp="#VI_274-32">
                         <listPerson type="lineReference">
                            <person corresp="#JP-001353">
-                              <persName> Johann Wolfgang von <name type="reg">Goethe</name>
+                              <persName>Johann Wolfgang von <name type="reg">Goethe</name>
                               </persName>
                            </person>
                            <person corresp="#JP-001508">
-                              <persName> Johann Georg <name type="reg">Hamann</name>
+                              <persName>Johann Georg <name type="reg">Hamann</name>
                               </persName>
                            </person>
                            <person corresp="#JP-002139">
-                              <persName> Friedrich Gottlieb <name type="reg">Klopstock</name>
+                              <persName>Friedrich Gottlieb <name type="reg">Klopstock</name>
                               </persName>
                            </person>
                         </listPerson>
@@ -476,7 +498,7 @@
                   über die<note corresp="#VI_274-3">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003846">
-                           <persName> Johann Leonhard <name type="reg">Schrag</name>
+                           <persName>Johann Leonhard <name type="reg">Schrag</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -484,17 +506,17 @@
                   <lb xml:id="VI_274-3"/> norddeutsche Büchersperre ist übertrieben; an <hi rendition="#aq">Perthes</hi> allein ver<note corresp="#VI_274-4">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003188">
-                           <persName> Friedrich Christoph <name type="reg">Perthes</name>
+                           <persName>Friedrich <name type="reg">Perthes</name>
                            </persName>
                         </person>
                         <person corresp="#JP-003190">
-                           <persName> Johannes <name type="reg">Perthes</name>
+                           <persName>Johannes <name type="reg">Perthes</name>
                            </persName>
                         </person>
                      </listPerson>
                      <listPlace type="lineReference">
-                        <place corresp="#JP-00567011">
-                           <placeName>Norddeutschland, norddeutsch; Deutschland, deutsch</placeName>
+                        <place corresp="#JP-011172">
+                           <placeName>Norddeutschland, norddeutsch</placeName>
                         </place>
                      </listPlace>
                   </note>
@@ -516,8 +538,7 @@
                      berühmt und<note corresp="#VI_274-34">
                         <listBibl type="lineReference" subtype="werke">
                            <bibl corresp="#JP-008787">
-                              <author>Hoven, Friedrich Wilhelm von (1759-1838), Arzt in
-                                 Nürnberg</author>
+                              <author>Hoven, Friedrich Wilhelm von (1759–1838)</author>
                               <title>Praktische Fieberlehre (1810)</title>
                            </bibl>
                         </listBibl>
@@ -527,7 +548,7 @@
                   </note>, ein Freund von<note corresp="#VI_274-6">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001848">
-                           <persName> Friedrich Wilhelm von <name type="reg">Hoven</name>
+                           <persName>Friedrich Wilhelm von <name type="reg">Hoven</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -540,11 +561,11 @@
                   <lb xml:id="VI_274-6"/> Kindheit auf von <hi rendition="#aq">Schiller</hi> und <hi rendition="#aq">Thürheim,</hi> erklärte mir des letztern<note corresp="#VI_274-7">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003737">
-                           <persName> Friedrich (ab 1802) von <name type="reg">Schiller</name>
+                           <persName>Friedrich (ab 1802) von <name type="reg">Schiller</name>
                            </persName>
                         </person>
                         <person corresp="#JP-004292">
-                           <persName> Friedrich Karl Graf von <name type="reg">Thürheim</name>
+                           <persName>Friedrich Karl Graf von <name type="reg">Thürheim</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -554,7 +575,7 @@
                   <lb xml:id="VI_274-8"/> davon mündlich! — Wechsle mit <hi rendition="#aq">Emanuel</hi> Briefe, nämlich meine;<note corresp="#VI_274-9">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003087">
-                           <persName> Emanuel <name type="reg">Osmund</name>
+                           <persName>Emanuel <name type="reg">Osmund</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -563,7 +584,7 @@
                   da ich<note corresp="#VI_274-10">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003469">
-                           <persName> Caroline <name type="reg">Richter</name>
+                           <persName>Caroline <name type="reg">Richter</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -586,14 +607,26 @@
                   <hi rendition="#sup">1</hi>: Wahrheit 7, 276×<lb/> (danach Nerrlich Nr. 136). <hi rendition="#i">J</hi>
                   <hi rendition="#sup">2</hi>: Otto</hi>
                <hi rendition="#aq">4, 197×. </hi>
-               <hi rendition="#b"><hi rendition="#aq">271</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">28</hi></hi> auszureden] <hi rendition="#aq">aus</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">271</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">28</hi>
+               </hi> auszureden] <hi rendition="#aq">aus</hi>
                <lb/> zu reden <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">33</hi> Eifer] <hi rendition="#aq">davor gestr.</hi> steten <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">272</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">12</hi></hi> vorlesen] <hi rendition="#aq">aus</hi> lesen <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">272</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">12</hi>
+               </hi> vorlesen] <hi rendition="#aq">aus</hi> lesen <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
                <lb/>
@@ -620,7 +653,13 @@
                <hi rendition="#rkd">31</hi> und thut] <hi rendition="#aq">aus</hi> oder will <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">273</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">7</hi></hi> Frage] <hi rendition="#aq">aus</hi> Sache <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">273</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">7</hi>
+               </hi> Frage] <hi rendition="#aq">aus</hi> Sache <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">12</hi> führte] <hi rendition="#aq">aus</hi>
@@ -643,7 +682,13 @@
                <lb/> Morgen- <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">274</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">6</hi></hi> Medizinal] <hi rendition="#aq">aus</hi> Kreisrath <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">274</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">6</hi>
+               </hi> Medizinal] <hi rendition="#aq">aus</hi> Kreisrath <hi rendition="#aq">
                   <hi rendition="#i">H Hoven</hi>] aus <hi rendition="#i">Hofen H</hi>
                </hi>
                <lb/>
@@ -661,7 +706,7 @@
                   <hi rendition="#b">164</hi>, <hi rendition="#rkd">34</hi>†. <hi rendition="#rkd">37</hi>
                   <hi rendition="#g">Merkel,</hi> Paul Wolfgang (1756—1820), Nürnberger Kauf<lb rendition="#hyphen"/>mann und Markthelfer. <hi rendition="#b">273</hi>, <hi rendition="#rkd">3</hi>
                   <hi rendition="#g">Erhard:</hi> vgl. Bd. III, Nr. 393, und<lb/> I. Abt., IX, <hi rendition="#b">493</hi>, <hi rendition="#rkd">17</hi>†. <hi rendition="#rkd">10</hi>f. <hi rendition="#g">Dedikazion des Clavis:</hi> vgl. Bd. III, <lb/>
-                  Nr. 391, IV. Abt., IX, Nr. 1.9 und I. Abt., VIII, Einl. S. CI. <hi rendition="#rkd">16</hi>
+                  Nr. 391, IV. Abt., 9, Nr. 1.9 und I. Abt., VIII, Einl. S. CI. <hi rendition="#rkd">16</hi>
                   <hi rendition="#g">Aretin:</hi> vgl. <hi rendition="#b">123</hi>, <hi rendition="#rkd">13</hi>†.<lb/>
                   <hi rendition="#b">274</hi>, <hi rendition="#rkd">6</hi>
                   <hi rendition="#g">Hoven:</hi> vgl. zu Nr. 581; seine „Praktische Fieberlehre“

@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="687">685. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, Oktober 1812.</title>
+            <title n="print" type="letter" rend="685">685. An Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth, Oktober 1812.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>296</num></biblScope><biblScope n="comment" unit="page"><num>545</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>296</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>545</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date cert="medium" notBefore="1812-10-01" notAfter="1812-10-31">Oktober 1812</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_678"/><ptr type="next" subtype="brief" target="VI_679"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_678"/><ptr type="next" subtype="brief" target="VI_679"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_671"/><ptr type="next" subtype="brief" target="VI_684"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB2073"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_EB_74"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_678"/>
+               <ptr type="next" subtype="brief" target="VI_679"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_671"/>
+               <ptr type="next" subtype="brief" target="VI_684"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -95,7 +118,7 @@
                Bei Rein in Leipzig ist erschienen: „Vorschläge zur<note corresp="#VI_296-29">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003415">
-                        <persName> Georg Karl Wilhelm <name type="reg">Rein</name>
+                        <persName>Georg Karl Wilhelm <name type="reg">Rein</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -114,15 +137,14 @@
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010382">
                         <author/>
-                        <title>Vorschläge zur Wiederherstellung des preußischen Staatskredits
-                           (1812)</title>
+                        <title>Vorschläge zur Wiederherstellung des preußischen Staatskredits (1812) </title>
                      </bibl>
                   </listBibl>
                </note>
                <lb n="30" xml:id="VI_296-30"/> Lies im Romanenjournal von <hi rendition="#aq">Fouqué</hi> doch <hi rendition="#g">Natalie,</hi> die ich mor<note corresp="#VI_296-31">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003533" ana="†">
-                        <persName> Caroline von <name type="reg">Rochow</name>
+                        <persName>Caroline Freifrau von <name type="reg">Rochow</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -132,7 +154,7 @@
                         <title>Bibliothek der Romane für Damen (1812)</title>
                      </bibl>
                      <bibl corresp="#JP-009861" ana="†">
-                        <author>Tarnow, Fanny (1779-1862), Schriftstellerin</author>
+                        <author>Tarnow, Fanny (1779–1862)</author>
                         <title>Natalie (1812)</title>
                      </bibl>
                   </listBibl>
@@ -143,9 +165,8 @@
             <p>Guten Morgen! Die <hi rendition="#aq">Erheiterungen</hi> brauch ich erst Morgen<note corresp="#VI_296-33">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010161" ana="†">
-                        <author>Zschokke, Heinrich und August von Kotzebue u. a. (Werk,
-                           Hrsg.)</author>
-                        <title>Erheiterungen (1811-1827)</title>
+                        <author>Zschokke, Heinrich und August von Kotzebue u. a. (Hrsg.)</author>
+                        <title>Erheiterungen (1811–1827)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -160,7 +181,7 @@
             </p>
             <lb/>
             <p>
-               <hi rendition="#aq">Die „<hi rendition="#g">Vorschläge</hi>“ erschienen 1812. <hi rendition="#g">Natalie</hi> von Fanny Tarnow<lb/> (s. IV. Abt., IV, Nr. 228) in
+               <hi rendition="#aq">Die „<hi rendition="#g">Vorschläge</hi>“ erschienen 1812. <hi rendition="#g">Natalie</hi> von Fanny Tarnow<lb/> (s. IV. Abt., 4, Nr. 228) in
                   der Bibliothek der Romane für Damen,<lb/> hsgb. von Frau von Fouqué, 4. Lieferung,
                   Berlin 1812. <hi rendition="#g">Erheite<lb rendition="#hyphen"/>rungen:</hi> eine
                   Schweizer Monatsschrift, an der auch Kotzebue mit<lb rendition="#hyphen"/>

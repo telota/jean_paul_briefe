@@ -2,10 +2,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="161">159. An Therese und Benedikt Osmund in
+            <title n="print" type="letter" rend="159">159. An Therese und Benedikt Osmund in
                Bayreuth. </title>
-            <title n="digital">Von Jean Paul an Benno Benedikt und Therese Osmund. Bayreuth, 21. März
-               1821.</title>
+            <title n="digital">Von Jean Paul an Therese und Benno Benedikt Osmund. Bayreuth, 21.
+               März 1821, Mittwoch.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -47,7 +47,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -62,8 +63,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>105</num>
                </biblScope>
@@ -79,15 +79,26 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1821-03-21">21. März 1821</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003086">Benno Benedikt Osmund</persName>
                <persName key="JP-003095">Therese Osmund</persName>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VIII_158"/><ptr type="next" subtype="brief" target="VIII_160"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VIII_158"/><ptr type="next" subtype="brief" target="VIII_160"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-VIII_EB_23"/>
+               <ptr type="next" subtype="brief" target="VIII_160"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VIII_158"/>
+               <ptr type="next" subtype="brief" target="VIII_160"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -104,14 +115,16 @@
             <p>Meine Therese! Mein Benedikt! Wenn Ihr einmal lesen könnt und<lb xml:id="VIII_105-24"/>ich vielleicht <metamark>[</metamark>nicht<metamark>]</metamark> mehr schreiben
                kann: so werdet Ihr hier den Dank<lb n="25" xml:id="VIII_105-25"/>für Euere Blumen am
                   <hi rendition="#g">Bened</hi>ikts Tag 1821 zu Euerer Freude finden<note corresp="#VIII_105-26">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-000283">
-                     <persName>
-                        <name type="reg">Benedikt von Nursia</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="VIII_105-26"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000283">
+                        <persName>
+                           <name type="reg">Benedikt von Nursia</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_105-26"/>
+            </p>
             <closer>
                <salute>
                   <hi rendition="#right">von<lb xml:id="VIII_105-27"/>Jean Paul Friedrich <hi rendition="#aq">Richter</hi>

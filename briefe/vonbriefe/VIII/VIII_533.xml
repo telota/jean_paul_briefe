@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="538">533. An Gottlieb Richter. </title>
-            <title n="digital">Von Jean Paul an Johann Gottlieb Richter. Bayreuth, Ohne Datum.</title>
+            <title n="print" type="letter" rend="533">533. An Gottlieb Richter. </title>
+            <title n="digital">Von Jean Paul an Gottlieb Richter. Bayreuth.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>305</num>
                </biblScope>
@@ -78,13 +78,25 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-003480">Johann Gottlieb Richter</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-003480">Gottlieb Richter</persName>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspContext n="edition"><ptr type="next" subtype="brief" target="VIII_534"/></correspContext><correspContext n="corpus"><ptr type="next" subtype="brief" target="VIII_534"/></correspContext><correspContext n="correspondence"><ptr type="next" subtype="brief" target="VIII_534"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="next" subtype="brief" target="I_1"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="next" subtype="brief" target="I_1"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="next" subtype="brief" target="I_4-fb"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -94,8 +106,8 @@
                wie — altes<lb xml:id="VIII_305-16"/>Bier. Schwerlich kannst du mir noch letztes
                verschaffen — ich tränk’ es<note corresp="#VIII_305-17">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0055740">
-                        <placeName>Bier; Bayreuth (Stadt)</placeName>
+                     <place corresp="#JP-011034">
+                        <placeName>Bier</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -106,7 +118,7 @@
                das neuliche Hindernis eines ganzen arbeitvollen<note corresp="#VIII_305-21">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003472">
-                        <persName> Friederike Karoline Johanne <name type="reg">Richter</name>
+                        <persName>Karoline <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -115,7 +127,7 @@
                zu wieder<note corresp="#VIII_305-22">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003469">
-                        <persName> Caroline <name type="reg">Richter</name>
+                        <persName>Caroline <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -139,7 +151,13 @@
             <lb/>
             <p>
                <hi rendition="#aq">Terminus a quo:</hi> 1812 (letztes, arbeitvollen); <hi rendition="#aq">terminus ante quem:</hi> 1820<lb/>(wol, <hi rendition="#aq">vgl.</hi>
-               <hi rendition="#b"><hi rendition="#aq">10</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">17</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">10</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">17</hi>
+               </hi>
                <hi rendition="#aq">†).</hi>
             </p>
          </div>

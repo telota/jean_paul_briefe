@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="521">520. An Johannes von Müller in Kassel. </title>
-            <title n="digital">Von Jean Paul an Johannes von Müller. Bayreuth, 28. April 1808.</title>
+            <title n="print" type="letter" rend="520">520. An Johannes von Müller in Kassel. </title>
+            <title n="digital">Von Jean Paul an Johannes von Müller. Bayreuth, 28. April 1808, Donnerstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
+               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
                <biblScope n="text" unit="page">
                   <num>213</num>
                   <num>214</num>
@@ -77,26 +77,40 @@
             </msDesc>
             <listPerson type="commentary">
                <person corresp="#JP-001670">
-                  <persName> Caroline <name type="reg">Herder</name>
+                  <persName>Caroline von <name type="reg">Herder</name>
                   </persName>
                </person>
                <person corresp="#JP-002531">
                   <persName>
-                     <name type="reg">Ludwig</name>
+                     <name type="reg">Ludwig von Bayern, ab 1825 Ludwig I., König von Bayern</name>
                   </persName>
                </person>
             </listPerson>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1808-04-28">28. April 1808</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-002914">Johannes von Müller</persName>
                <placeName key="JP-005896">Kassel </placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="V_519"/><ptr type="next" subtype="brief" target="V_521"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="V_519"/><ptr type="next" subtype="brief" target="V_521"/></correspContext><correspContext n="correspondence"><ptr type="next" subtype="brief" target="V_563"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="V_519"/>
+               <ptr type="next" subtype="anbrief" target="IV-V_174"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="V_519"/>
+               <ptr type="next" subtype="brief" target="V_521"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="next" subtype="anbrief" target="IV-V_176"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -116,12 +130,11 @@
                   junger<lb xml:id="V_213-26"/> großer Philolog, Namens <hi rendition="#aq">Kanne,</hi> eben so reich an Sprachen als<note corresp="#V_213-27">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002022" ana="ff">
-                        <persName>
-                           <name type="reg">Kanne</name>
+                        <persName>Johann Arnold <name type="reg">Kanne</name>
                         </persName>
                      </person>
                      <person corresp="#JP-002021" ana="ff">
-                        <persName> Johann Arnold <name type="reg">Kanne</name>
+                        <persName>Johann Arnold <name type="reg">Kanne</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -131,7 +144,7 @@
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010968">
                         <title>Vorreden zu fremden Werken: Kanne, Erste Urkunden der Geschichte
-                           (1808)</title>
+                        (1808)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -141,7 +154,7 @@
                frühern Werke bekannt, so wie vom<lb xml:id="V_213-31"/> Minister <hi rendition="#aq">Dohm</hi> persönlich geschätzt, dieser ist jetzt aus unver<note corresp="#V_213-32">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000835" ana="†">
-                        <persName> Christian Wilhelm von <name type="reg">Dohm</name>
+                        <persName>Christian Wilhelm von <name type="reg">Dohm</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -149,7 +162,7 @@
                <lb xml:id="V_213-32" rendition="#hyphen"/>schuldetem Geld- und Gönnermangel zum <hi rendition="#g">zweiten</hi> male östreichi<note corresp="#V_213-33">
                   <listPlace type="lineReference">
                      <place corresp="#JP-006097">
-                        <placeName>Österreich</placeName>
+                        <placeName>Österreich, Österreicher, österreichisch</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -157,7 +170,7 @@
                dies. stand er unter dem<lb xml:id="V_213-34"/> Namen Friedrich <hi rendition="#g">Kante</hi> im Klebeckschen Linienregiment bei<note corresp="#V_213-35">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002118">
-                        <persName> Wilhelm Freiherr von <name type="reg">Klebeck</name>
+                        <persName>Wilhelm Freiherr von <name type="reg">Klebeck</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -166,8 +179,7 @@
                   Compagnie</hi> in Linz. Als Westfälinger<note corresp="#V_213-36">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001007">
-                        <persName>
-                           <name type="reg">Eschermann</name>
+                        <persName>Hauptmann <name type="reg">Eschermann</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -208,16 +220,28 @@
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Stadtbibl. Schaffhausen. 3 S. 8°; die Unterschrift abgeschnitten.<lb/>
                   <hi rendition="#i">K</hi>:</hi> Johann. v. Müller 28 Apr. <hi rendition="#aq">
-                  <hi rendition="#i">i</hi>: Denkw. 3,166. <hi rendition="#i">A</hi>: IV. Abt., V,
+                  <hi rendition="#i">i</hi>: Denkw. 3,166. <hi rendition="#i">A</hi>: IV. Abt., 5,
                   Nr.</hi>
                <hi rendition="#aq">176. </hi>
-               <hi rendition="#b"><hi rendition="#aq">214</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">3</hi></hi> Hof<lb rendition="#hyphen"/>nung <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">214</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">3</hi>
+               </hi> Hof<lb rendition="#hyphen"/>nung <hi rendition="#aq">
                   <hi rendition="#i">K</hi>
                </hi>
             </p>
             <lb/>
             <p>
-               <hi rendition="#b"><hi rendition="#aq">213</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">32</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">213</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">32</hi>
+               </hi>
                <hi rendition="#aq">Chr. Wilh. von <hi rendition="#g">Dohm</hi> (1751—1820), damals
                   Gesandter des König<lb rendition="#hyphen"/>reichs Westfalen in Dresden, mit
                   Johannes von Müller, Gleim, Jacobi<lb/> befreundet. — Karoline Herder bittet in

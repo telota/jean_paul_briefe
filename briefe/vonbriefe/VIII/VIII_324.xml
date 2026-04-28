@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="328">324. An Heinrich Voß in Heidelberg. </title>
-            <title n="digital">Von Jean Paul an Heinrich Voß. Bayreuth, 6. August 1822.</title>
+            <title n="print" type="letter" rend="324">324. An Heinrich Voß in Heidelberg. </title>
+            <title n="digital">Von Jean Paul an Heinrich Voß. Bayreuth, 6. August 1822, Dienstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>195</num>
                   <num>196</num>
@@ -78,14 +78,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1822-08-06">6. August 1822</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-004520">Heinrich Voß</persName>
                <placeName key="JP-005819">Heidelberg</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0515"/><ptr type="next" subtype="brief" target="VIII_325"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VIII_323"/><ptr type="next" subtype="brief" target="VIII_325"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VIII_313"/><ptr type="next" subtype="brief" target="VIII_327"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB0136"/>
+               <ptr type="next" subtype="anbrief" target="IV-VIII_194"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VIII_323"/>
+               <ptr type="next" subtype="brief" target="VIII_325"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VIII_184"/>
+               <ptr type="next" subtype="anbrief" target="IV-VIII_194"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -113,7 +128,7 @@
                — ob du dem Rittmeister Leoprechting<note corresp="#VIII_195-21">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002414">
-                        <persName> von <name type="reg">Leoprechting</name>
+                        <persName>von <name type="reg">Leoprechting</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -124,13 +139,13 @@
                aber nicht dessen Buch<note corresp="#VIII_195-24">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004524">
-                        <persName> Johann Heinrich <name type="reg">Voß</name>
+                        <persName>Johann Heinrich <name type="reg">Voß</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010001">
-                        <author>Voß, Johann Heinrich (1751-1826), Dichter und Übersetzer</author>
+                        <author>Voß, Johann Heinrich (1751–1826), Dichter und Übersetzer</author>
                         <title>Voß gegen Perthes (1822)</title>
                      </bibl>
                   </listBibl>
@@ -139,8 +154,7 @@
                gelesen. Eigentlich geht die Buchhändler<note corresp="#VIII_195-25">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009373">
-                        <author>Perthes, Friedrich Christoph (1772-1843), Verlagsbuchhändler in
-                           Hamburg</author>
+                        <author>Perthes, Friedrich Christoph (1772–1843)</author>
                         <title>Zurechtweisung (1819)</title>
                      </bibl>
                   </listBibl>
@@ -158,7 +172,7 @@
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010162">
                         <author/>
-                        <title>Abend-Zeitung (Dresden 1817 ff.)</title>
+                        <title> Abend-Zeitung (Dresden 1805/06, 1817 ff.)</title>
                      </bibl>
                   </listBibl>
                   <listBibl type="lineReference" subtype="werke-jp">
@@ -186,7 +200,7 @@
                glattzüngigen, alle<note corresp="#VIII_195-29">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004302">
-                        <persName> Ludwig (Pseud. Peter Leberecht, Gottlieb Färber) <name type="reg">Tieck</name>
+                        <persName>Ludwig <name type="reg">Tieck</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -206,8 +220,9 @@
                   </listPlace>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009619">
-                        <author>Schlegel, August Wilhelm (1767-1845)</author>
-                        <title>Shakespeare-Übersetzung (1797ff.)</title>
+                        <author>Schlegel, August Wilhelm (1767–1845)</author>
+                        <title>Shakespeare-Übersetzung (Shakspeare's dramatische Werke, Berlin: Unger
+                  1797–1810)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -215,16 +230,19 @@
                treudeutsche und deutschtreue, was Clodius<note corresp="#VIII_195-31">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000657" ana="†">
-                        <persName> Christian August Heinrich <name type="reg">Clodius</name>
+                        <persName>Christian August Heinrich <name type="reg">Clodius</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009999">
-                        <author>Voß, Johann Heinrich (1751-1826), Dichter und Übersetzer</author>
-                        <title>Shakespeare-Übersetzung (begonnen von Heinrich und Abraham Voß,
-                           fortgesetzt von diesen und Johann Heinrich Voß 1810-1815,
-                           1818-1829)</title>
+                        <author>Voß, Heinrich, Abraham Voß und Johann Heinrich Voß</author>
+                        <title>Shakespeare-Übersetzung, begonnen von Heinrich und Abraham Voß
+                        (Schauspiele von
+                        William<?oxy_comment_start author="roelcke" timestamp="20220613T173313+0100" comment="Doppelung mit Eintrag weiter oben: Wilh. Shakespeare’s (von Schlegel noch nicht übersetzte) Schauspiele (3 Bde., Tübingen: Cotta 1810-1815)"?>
+                        Shakspeare, 3 Bde., Tübingen: Cotta 1810–1815<?oxy_comment_end?>);
+                        fortgesetzt von diesen und Johann Heinrich Voß (Shakspeare's Schauspiele, 9
+                        Bde., Leipzig/Stuttgart: Brockhaus und Metzler 1818–1829)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -232,7 +250,7 @@
                glaubt an die<note corresp="#VIII_196-1">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004029">
-                        <persName> William <name type="reg">Shakespeare </name>
+                        <persName>William <name type="reg">Shakespeare</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -241,7 +259,7 @@
                   <listPerson type="lineReference">
                      <person corresp="#JP-002064">
                         <persName>
-                           <name type="reg">Katholiken </name>
+                           <name type="reg">Katholiken</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -250,9 +268,8 @@
                den 1. B.<note corresp="#VIII_196-3">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009443" ana="†">
-                        <author>Pustkuchen, Johann Friedrich Wilhelm (1793-1834), Theologe und
-                           Schriftsteller</author>
-                        <title>Wilhelm Meisters Wanderjahre (1821-1822). S. auch Goethe.</title>
+                        <author>Pustkuchen, Johann Friedrich Wilhelm (1793–1834)</author>
+                        <title>Wilhelm Meisters Wanderjahre (1821–1822). S. auch Goethe.</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -271,7 +288,7 @@
                   Goetheschen<note corresp="#VIII_196-5">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001353">
-                        <persName> Johann Wolfgang von <name type="reg">Goethe</name>
+                        <persName>Johann Wolfgang von <name type="reg">Goethe</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -281,7 +298,7 @@
                nennt. — <hi rendition="#aq">Hofmann</hi> hatte<note corresp="#VIII_196-7">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001789">
-                        <persName> Ernst Theodor Amadeus <name type="reg">Hoffmann</name>
+                        <persName>Ernst Theodor Amadeus <name type="reg">Hoffmann</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -291,7 +308,7 @@
                nicht wie der physische ein Miniatürelephant,<note corresp="#VIII_196-9">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008753">
-                        <author>Hoffmann, Ernst Theodor Amadeus (1776-1822)</author>
+                        <author>Hoffmann, Ernst Theodor Amadeus (1776–1822)</author>
                         <title>Meister Floh (1822)</title>
                      </bibl>
                   </listBibl>
@@ -301,7 +318,7 @@
                <note corresp="#VIII_196-10">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003975" ana="†">
-                        <persName> Walter <name type="reg">Scott</name>
+                        <persName>Sir Walter <name type="reg">Scott</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -311,7 +328,7 @@
                sich z. B. im Piraten durch<note corresp="#VIII_196-12">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009731">
-                        <author>Scott, Walter</author>
+                        <author>Scott, Walter (1771–1832)</author>
                         <title>Der Pirat (1822)</title>
                      </bibl>
                   </listBibl>
@@ -321,7 +338,7 @@
                Breslau meinen Gruß überbringt: so bitt’<note corresp="#VIII_196-14">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002693">
-                        <persName> Joseph <name type="reg">Max</name>
+                        <persName>Joseph <name type="reg">Max</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -336,7 +353,7 @@
                <note corresp="#VIII_196-15">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003263">
-                        <persName> Eduard <name type="reg">Pohl</name>
+                        <persName>Eduard <name type="reg">Pohl</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -356,7 +373,7 @@
                   restaurieren<lb n="20" xml:id="VIII_196-20"/>wie einen alten Torso. — Meine <hi rendition="#aq">Odilie</hi> wächst und blüht schön in<note corresp="#VIII_196-21">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003491">
-                        <persName> Odilie Minna <name type="reg">Richter</name>
+                        <persName>Odilie <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -368,11 +385,11 @@
                <note corresp="#VIII_196-22">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003469">
-                        <persName> Caroline <name type="reg">Richter</name>
+                        <persName>Caroline <name type="reg">Richter</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003471">
-                        <persName> Emma <name type="reg">Richter</name>
+                        <persName>Emma <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -406,11 +423,16 @@
                   <hi rendition="#sup">2</hi> (von Karolinens Hand): Berlin JP. <hi rendition="#i">J</hi>
                   <hi rendition="#sup">1</hi>: Breslauer<lb/>Zeitung Nr. 1×. <hi rendition="#i">J</hi>
                   <hi rendition="#sup">2</hi>: Voß S. 142×. <hi rendition="#i">J</hi>
-                  <hi rendition="#sup">3</hi>: Schneider Nr. 11×. <hi rendition="#i">B</hi>: IV.
-                  Abt., VIII, Nr. 184.<lb/>
-                  <hi rendition="#i">A</hi>: IV. Abt., VIII, Nr.</hi>
+                  <hi rendition="#sup">3</hi>: Schneider Nr. 11×. <hi rendition="#i">B</hi>: IV. Abt., 8, Nr. 184.<lb/>
+                  <hi rendition="#i">A</hi>: IV. Abt., 8, Nr.</hi>
                <hi rendition="#aq">194. </hi>
-               <hi rendition="#b"><hi rendition="#aq">195</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">18</hi></hi> Vermuthungen] <hi rendition="#aq">aus</hi> Veranlassungen <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">195</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">18</hi>
+               </hi> Vermuthungen] <hi rendition="#aq">aus</hi> Veranlassungen <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">22 </hi>etwas] <hi rendition="#aq">davor<lb/>gestr.</hi> nicht
@@ -427,7 +449,13 @@
                   <hi rendition="#i">K</hi>
                </hi>
                <hi rendition="#sup">1</hi>
-               <hi rendition="#b"><hi rendition="#aq">196</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">2</hi></hi> unwahrscheinlichste] <hi rendition="#aq">aus</hi> unwahrscheinliche <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">196</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">2</hi>
+               </hi> unwahrscheinlichste] <hi rendition="#aq">aus</hi> unwahrscheinliche <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">7</hi> hatte] <hi rendition="#aq">aus</hi>
@@ -467,7 +495,13 @@
             </p>
             <lb/>
             <p>
-               <hi rendition="#b"><hi rendition="#aq">195</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">25</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">195</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">25</hi>
+               </hi>
                <hi rendition="#aq">
                   <hi rendition="#g">Perthes</hi> war bald darauf persönlich bei J. P., s. Persönl.
                   Nr. 321.<lb/>

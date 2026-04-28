@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="385">382. An Heinrich Voß in Heidelberg. </title>
-            <title n="digital">Von Jean Paul an Heinrich Voß. Bayreuth, 6. März 1818 bis 10. März 1818.</title>
+            <title n="print" type="letter" rend="382">382. An Heinrich Voß in Heidelberg. </title>
+            <title n="digital">Von Jean Paul an Heinrich Voß. Bayreuth, 6. März 1818, Freitag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
+               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
                <biblScope n="text" unit="page">
                   <num>176</num>
                   <num>177</num>
@@ -78,33 +78,45 @@
             </msDesc>
             <listBibl type="commentary" subtype="werke">
                <bibl corresp="#JP-009773">
-                  <author>Shakespeare, William (Shakespear, Shakspeare, Shakespear, Schakespeare)
-                     (1564-1616)</author>
+                  <author>Shakespeare, William (1564–1616)</author>
                   <title>Romeo and Juliet (1597)</title>
                </bibl>
                <bibl corresp="#JP-009774">
-                  <author>Shakespeare, William (Shakespear, Shakspeare, Shakespear, Schakespeare)
-                     (1564-1616)</author>
-                  <title>A Midsummer Night’s Dream (vor 1600)</title>
+                  <author>Shakespeare, William (1564–1616)</author>
+                  <title>A Midsummer Night's Dream (vor 1600)</title>
                </bibl>
                <bibl corresp="#JP-009777">
-                  <author>Shakespeare, William (Shakespear, Shakspeare, Shakespear, Schakespeare)
-                     (1564-1616)</author>
+                  <author>Shakespeare, William (1564–1616)</author>
                   <title>Twelfth Night, or What You Will (1601)</title>
                </bibl>
             </listBibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date corresp="writingsession1" when="1818-03-06">6. März 1818</date>
                <date corresp="writingsession2" when="1818-03-10">10. März 1818</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-004520">Heinrich Voß</persName>
                <placeName key="JP-005819">Heidelberg</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VII_381"/><ptr type="next" subtype="brief" target="VII_383"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VII_381"/><ptr type="next" subtype="brief" target="VII_383"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VII_372"/><ptr type="next" subtype="brief" target="VII_389"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VII_381"/>
+               <ptr type="next" subtype="brief" target="VII_383"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VII_381"/>
+               <ptr type="next" subtype="brief" target="VII_383"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VII_EB_52"/>
+               <ptr type="next" subtype="brief" target="VII_389"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -127,10 +139,13 @@
                   Vorrede und Notenbordüre zu <hi rendition="#aq">Shakespeare,</hi> von welchen<note corresp="#VII_176-21">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-009999">
-                           <author>Voß, Johann Heinrich (1751-1826), Dichter und Übersetzer</author>
-                           <title>Shakespeare-Übersetzung (begonnen von Heinrich und Abraham Voß,
-                              fortgesetzt von diesen und Johann Heinrich Voß 1810-1815,
-                              1818-1829)</title>
+                           <author>Voß, Heinrich, Abraham Voß und Johann Heinrich Voß</author>
+                           <title>Shakespeare-Übersetzung, begonnen von Heinrich und Abraham Voß
+                        (Schauspiele von
+                        William<?oxy_comment_start author="roelcke" timestamp="20220613T173313+0100" comment="Doppelung mit Eintrag weiter oben: Wilh. Shakespeare’s (von Schlegel noch nicht übersetzte) Schauspiele (3 Bde., Tübingen: Cotta 1810-1815)"?>
+                        Shakspeare, 3 Bde., Tübingen: Cotta 1810–1815<?oxy_comment_end?>);
+                        fortgesetzt von diesen und Johann Heinrich Voß (Shakspeare's Schauspiele, 9
+                        Bde., Leipzig/Stuttgart: Brockhaus und Metzler 1818–1829)</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -139,14 +154,13 @@
                      Dapping</hi> dir<note corresp="#VII_176-23">
                      <listPerson type="lineReference">
                         <person corresp="#JP-000751">
-                           <persName> Karl <name type="reg">Dapping</name>
+                           <persName>Karl <name type="reg">Dapping</name>
                            </persName>
                         </person>
                      </listPerson>
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-009772" rend="Desdemona">
-                           <author>Shakespeare, William (Shakespear, Shakspeare, Shakespear,
-                              Schakespeare) (1564-1616)</author>
+                           <author>Shakespeare, William (1564–1616)</author>
                            <title>Othello (1603)</title>
                         </bibl>
                      </listBibl>
@@ -157,7 +171,7 @@
                   seine gute Schwester sein von dir so<note corresp="#VII_176-26">
                      <listPerson type="lineReference">
                         <person corresp="#JP-000752">
-                           <persName> Sophie <name type="reg">Dapping</name>
+                           <persName>Sophie <name type="reg">Dapping</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -176,8 +190,10 @@
                      <hi rendition="#aq">Siebenkäs.</hi> — Daß du diesen erst auf Korrektur<note corresp="#VII_176-30">
                      <listBibl type="lineReference" subtype="werke-jp">
                         <bibl corresp="#JP-010540">
-                           <title>Blumen- Frucht- und Dornenstükke (Blumen-, Frucht- und
-                              Dornenstücke) (Siebenkäs) (1796-97 [1796])</title>
+                           <title>Blumen- Frucht- und Dornenstükke (Blumen-, Frucht- und Dornenstücke)
+                        (Siebenkäs) oder Ehestand, Tod und Hochzeit des Armenadvokaten F. St.
+                        Siebenkäs im Reichsmarktflecken Kuhschnappel (Berlin, Matzdorff 1796-97
+                        [1796])</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -195,7 +211,7 @@
                   übersetzte <hi rendition="#aq">Shakespeare</hi> Liederchen.<note corresp="#VII_176-33">
                      <listPerson type="lineReference">
                         <person corresp="#JP-004029" rend="Lieder">
-                           <persName> William <name type="reg">Shakespeare </name>
+                           <persName>William <name type="reg">Shakespeare</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -205,18 +221,20 @@
                            <title>Minerva, Taschenbuch (1809 ff.)</title>
                         </bibl>
                         <bibl corresp="#JP-009999" ana="†">
-                           <author>Voß, Johann Heinrich (1751-1826), Dichter und Übersetzer</author>
-                           <title>Shakespeare-Übersetzung (begonnen von Heinrich und Abraham Voß,
-                              fortgesetzt von diesen und Johann Heinrich Voß 1810-1815,
-                              1818-1829)</title>
+                           <author>Voß, Heinrich, Abraham Voß und Johann Heinrich Voß</author>
+                           <title>Shakespeare-Übersetzung, begonnen von Heinrich und Abraham Voß
+                        (Schauspiele von
+                        William<?oxy_comment_start author="roelcke" timestamp="20220613T173313+0100" comment="Doppelung mit Eintrag weiter oben: Wilh. Shakespeare’s (von Schlegel noch nicht übersetzte) Schauspiele (3 Bde., Tübingen: Cotta 1810-1815)"?>
+                        Shakspeare, 3 Bde., Tübingen: Cotta 1810–1815<?oxy_comment_end?>);
+                        fortgesetzt von diesen und Johann Heinrich Voß (Shakspeare's Schauspiele, 9
+                        Bde., Leipzig/Stuttgart: Brockhaus und Metzler 1818–1829)</title>
                         </bibl>
                      </listBibl>
                   </note>
                   <lb xml:id="VII_176-33"/> Ach wollte er doch uns das Liedchen: <hi rendition="#aq">take, o take away etc.</hi> von<note corresp="#VII_176-34">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-009771" ana="†">
-                           <author>Shakespeare, William (Shakespear, Shakspeare, Shakespear,
-                              Schakespeare) (1564-1616)</author>
+                           <author>Shakespeare, William (1564–1616)</author>
                            <title>Measure for Measure (1603/04)</title>
                         </bibl>
                      </listBibl>
@@ -233,11 +251,11 @@
                   blühen, wenn auch nur<lb xml:id="VII_177-1"/> mit meiner Nachsommerblüte. Nur nach
                      <hi rendition="#aq">Manheim</hi> geh’ ich noch dem<note corresp="#VII_177-2">
                      <listPlace type="lineReference">
-                        <place corresp="#JP-005995">
+                        <place corresp="#JP-005994">
                            <placeName>Mannheim </placeName>
                         </place>
-                        <place corresp="#JP-0059950">
-                           <placeName>Rheinbrücke; Mannheim </placeName>
+                        <place corresp="#JP-011534">
+                           <placeName>Rheinbrücke</placeName>
                         </place>
                      </listPlace>
                   </note>
@@ -272,7 +290,7 @@
                   z. B. von <hi rendition="#aq">Munke</hi> Antworten auf lange<note corresp="#VII_177-7">
                      <listPerson type="lineReference">
                         <person corresp="#JP-002941">
-                           <persName> Georg Wilhelm <name type="reg">Muncke </name>
+                           <persName>Georg Wilhelm <name type="reg">Muncke</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -282,15 +300,15 @@
                   <note corresp="#VII_177-8">
                      <listPerson type="lineReference">
                         <person corresp="#JP-000755">
-                           <persName> Karl <name type="reg">Daub</name>
+                           <persName>Karl <name type="reg">Daub</name>
                            </persName>
                         </person>
                         <person corresp="#JP-000948">
-                           <persName> Henriette Freifrau von <name type="reg">Ende</name>
+                           <persName>Henriette von <name type="reg">Ende</name>
                            </persName>
                         </person>
                         <person corresp="#JP-003168">
-                           <persName> Heinrich Eberhard Gottlob <name type="reg">Paulus</name>
+                           <persName>Heinrich Eberhard Gottlob <name type="reg">Paulus</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -300,8 +318,10 @@
                   Band des <hi rendition="#aq">Siebenkäs</hi> (bis auf ¼) mit. — Hier<note corresp="#VII_177-10">
                      <listBibl type="lineReference" subtype="werke-jp">
                         <bibl corresp="#JP-010540" ana="ff">
-                           <title>Blumen- Frucht- und Dornenstükke (Blumen-, Frucht- und
-                              Dornenstücke) (Siebenkäs) (1796-97 [1796])</title>
+                           <title>Blumen- Frucht- und Dornenstükke (Blumen-, Frucht- und Dornenstücke)
+                        (Siebenkäs) oder Ehestand, Tod und Hochzeit des Armenadvokaten F. St.
+                        Siebenkäs im Reichsmarktflecken Kuhschnappel (Berlin, Matzdorff 1796-97
+                        [1796])</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -325,27 +345,23 @@
                      <hi rendition="#aq">Sophie</hi> und Mutter und Vater;<note corresp="#VII_177-20">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003168">
-                           <persName> Heinrich Eberhard Gottlob <name type="reg">Paulus</name>
+                           <persName>Heinrich Eberhard Gottlob <name type="reg">Paulus</name>
                            </persName>
                         </person>
                         <person corresp="#JP-003171">
-                           <persName> Karoline <name type="reg">Paulus</name>
-                           </persName>
-                        </person>
-                        <person corresp="#JP-003170">
-                           <persName> Karoline <name type="reg">Paulus</name>, ihr Bruder
+                           <persName>Karoline <name type="reg">Paulus</name>
                            </persName>
                         </person>
                         <person corresp="#JP-003172">
-                           <persName> Sophie <name type="reg">Paulus</name>
+                           <persName>Sophie <name type="reg">Paulus</name>
                            </persName>
                         </person>
                         <person corresp="#JP-004516">
-                           <persName> Ernestine <name type="reg">Voß</name>
+                           <persName>Ernestine <name type="reg">Voß</name>
                            </persName>
                         </person>
                         <person corresp="#JP-004524">
-                           <persName> Johann Heinrich <name type="reg">Voß</name>
+                           <persName>Johann Heinrich <name type="reg">Voß</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -363,7 +379,7 @@
                   <p>Grüße mir doch auch deinen lieben Bruder Abraham. Welches<note corresp="#VII_177-24">
                         <listPerson type="lineReference">
                            <person corresp="#JP-004507">
-                              <persName> Abraham Sophus <name type="reg">Voß</name>
+                              <persName>Abraham <name type="reg">Voß</name>
                               </persName>
                            </person>
                         </listPerson>
@@ -387,9 +403,15 @@
                   <hi rendition="#i">K</hi>
                   <hi rendition="#sup">2</hi> (von<lb/> Karolinens Hand): Berlin JP. <hi rendition="#i">i</hi> (nach <hi rendition="#i">K</hi>
                   <hi rendition="#sup">2</hi>): Wahrheit 8, 133×. <hi rendition="#i">J</hi>:
-                  Voß<lb/> S. 47×. <hi rendition="#i">B</hi>: IV. Abt., VII, Nr.</hi>
+                  Voß<lb/> S. 47×. <hi rendition="#i">B</hi>: IV. Abt., 7, Nr.</hi>
                <hi rendition="#aq">97. </hi>
-               <hi rendition="#b"><hi rendition="#aq">176</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">22</hi></hi> Genuß] <hi rendition="#aq">davor gestr.</hi> Freude <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">176</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">22</hi>
+               </hi> Genuß] <hi rendition="#aq">davor gestr.</hi> Freude <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">28</hi> beste<lb/> oder] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>, fehlt <hi rendition="#i">K</hi>
@@ -400,7 +422,13 @@
                </hi> herüber] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
                </hi>
                <lb/>
-               <hi rendition="#b"><hi rendition="#aq">177</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">6</hi></hi> Natur] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">177</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">6</hi>
+               </hi> Natur] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">17</hi> geblieben und] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
                </hi>

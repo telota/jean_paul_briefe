@@ -2,9 +2,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="191">190. An den Erbprinzen Carl Friedrich von
+            <title n="print" type="letter" rend="190">190. An den Erbprinzen Carl Friedrich von
                Sachsen-Weimar-Eisenach. </title>
-            <title n="digital">Von Jean Paul an Carl Friedrich. Bayreuth, 17. November 1809.</title>
+            <title n="digital">Von Jean Paul an Carl Friedrich Erbprinz von Sachsen-Weimar-Eisenach. Bayreuth, 17. November 1809, Freitag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -46,7 +46,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,17 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>70</num><num>71</num></biblScope><biblScope n="comment" unit="page"><num>453</num><num>454</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>70</num>
+                  <num>71</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>453</num>
+                  <num>454</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -75,13 +85,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1809-11-17">17. November 1809</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-000580">Friedrich Carl</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_189"/><ptr type="next" subtype="brief" target="VI_191"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_189"/><ptr type="next" subtype="brief" target="VI_191"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_189"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000580">Carl Friedrich Erbprinz von Sachsen-Weimar-Eisenach</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_189"/>
+               <ptr type="next" subtype="brief" target="VI_191"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_189"/>
+               <ptr type="next" subtype="brief" target="VI_191"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_189"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_55"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -98,9 +123,8 @@
                <hi rendition="#aq">Weimar</hi> war — und daß er unter den geistigen Freuden des
                   deut<note corresp="#VI_70-26">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0056690">
-                        <placeName>Deutsche; Deutschland , deutsch , Germanien,
-                           Vaterland</placeName>
+                     <place corresp="#JP-011167">
+                        <placeName>Deutsche</placeName>
                      </place>
                      <place corresp="#JP-006395" ana="†">
                         <placeName>Weimar</placeName>
@@ -122,27 +146,28 @@
                </note>
                <lb n="30" xml:id="VI_70-30"/> Reise die Erfüllung der schönsten Wünsche mitbrachte,
                die Ihm<lb xml:id="VI_70-31"/> Schiller und Vaterland nachsandten.<note corresp="#VI_70-32">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-003737" ana="†">
-                     <persName> Friedrich (ab 1802) von <name type="reg">Schiller</name>
-                     </persName>
-                  </person>
-               </listPerson>
-               <listBibl type="lineReference" subtype="werke">
-                  <bibl corresp="#JP-009592" ana="†">
-                     <author>Schiller, Friedrich (ab 1802) von (1759-1805)</author>
-                     <title>Huldigung der Künste (1804)</title>
-                  </bibl>
-               </listBibl>
-            </note><lb xml:id="VI_70-32"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003737" ana="†">
+                        <persName>Friedrich (ab 1802) von <name type="reg">Schiller</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009592" ana="†">
+                        <author>Schiller, Friedrich von (1759–1805)</author>
+                        <title>Huldigung der Künste (1804)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_70-32"/>
+            </p>
             <p>Die zweite Entschuldigung machen die blos geschriebnen Buch<lb xml:id="VI_70-33" rendition="#hyphen"/> staben, welche erst der Beifall <hi rendition="#aq">Ihrer
                   Hoheit</hi> und des Publikums<lb xml:id="VI_70-34"/> in gedruckte verwandeln kann
                bei einer zweiten Auflage. In dieser<lb xml:id="VI_71-1"/> ernsten Zeit — die
                Ahnenprobe deutscher Fürsten und Völker —,<note corresp="#VI_71-2">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0056690">
-                        <placeName>Deutsche; Deutschland , deutsch , Germanien,
-                           Vaterland</placeName>
+                     <place corresp="#JP-011167">
+                        <placeName>Deutsche</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -155,9 +180,8 @@
                <hi rendition="#aq">Dämmerungen Deutschlands</hi> einem deutschen Fürsten
                   widmen,<note corresp="#VI_71-6">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0056690">
-                        <placeName>Deutsche; Deutschland , deutsch , Germanien,
-                           Vaterland</placeName>
+                     <place corresp="#JP-011167">
+                        <placeName>Deutsche</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -190,7 +214,7 @@
                   <hi rendition="#i">H</hi>: Thür. Staatsarchiv, Abt. Großherz. Sächs. Hausarchiv.
                   <lb/> 4 S. 4°. <hi rendition="#i">K</hi> (Konzept): Fasz. 26. 6½ S. (mit Nr. 191).
                   4° (defekt). <hi rendition="#i">i</hi>: Wahrheit 7,<lb/> 145—149 (ohne Datum). <hi rendition="#i">J</hi>: Jean-Paul-Blätter, 19. Jg., 1944, S. 19f.<lb/>
-                  <hi rendition="#i">A</hi>: IV. Abt., VI, Nr. 55 und 56. <hi rendition="#b">70</hi>, <hi rendition="#rkd">27</hi>f. <hi rendition="#i">Herzoglichen</hi>]</hi> hochfürstlichen <hi rendition="#aq">danach gestr.</hi>
+                  <hi rendition="#i">A</hi>: IV. Abt., 6, Nr. 55 und 56. <hi rendition="#b">70</hi>, <hi rendition="#rkd">27</hi>f. <hi rendition="#i">Herzoglichen</hi>]</hi> hochfürstlichen <hi rendition="#aq">danach gestr.</hi>
                <lb/> Durchlaucht <hi rendition="#aq">
                   <hi rendition="#i">K</hi>
                </hi>
@@ -218,7 +242,13 @@
                <hi rendition="#rkd">34</hi> welche] aus denen <hi rendition="#aq">
                   <hi rendition="#i">K</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">71</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">1</hi></hi> in] <hi rendition="#aq">fehlt <hi rendition="#i">K</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">71</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">1</hi>
+               </hi> in] <hi rendition="#aq">fehlt <hi rendition="#i">K</hi>
                </hi> verwandeln] <hi rendition="#aq">aus</hi> machen <hi rendition="#aq">
                   <hi rendition="#i">K</hi>
                </hi>

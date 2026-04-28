@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="481">472b. An Friedrich Nicolai. </title>
-            <title n="digital">Von Jean Paul an Christoph Friedrich Nicolai. Berlin, 3. Juni 1800.</title>
+            <title n="print" type="letter" rend="472b">472b. An Friedrich Nicolai. </title>
+            <title n="digital">Von Jean Paul an Friedrich Nicolai. Berlin, 3. Juni 1800, Dienstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
+               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
                <biblScope n="text" unit="page">
                   <num>337</num>
                </biblScope>
@@ -76,25 +76,39 @@
             </msDesc>
             <listPerson type="commentary">
                <person corresp="#JP-001340">
-                  <persName> Leopold Friedrich Günther von <name type="reg">Goeckingk</name>
+                  <persName>Leopold Friedrich Günther von <name type="reg">Goeckingk</name>
                   </persName>
                </person>
             </listPerson>
             <listPlace type="commentary">
-               <place corresp="#JP-00558629">
-                  <placeName>Klubs, Kränzchen, Salons; Berlin</placeName>
+               <place corresp="#JP-011110">
+                  <placeName>Klubs, Kränzchen, Salons</placeName>
                </place>
             </listPlace>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1800-06-03">3. Juni 1800</date>
                <placeName key="JP-005586">Berlin</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-003000">Christoph Friedrich Nicolai</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0066"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0740"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="III_474"/><ptr type="next" subtype="brief" target="III_475"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="III_472a"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-003000">Friedrich Nicolai</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-III.2_EB_120"/>
+               <ptr type="next" subtype="anbrief" target="IV-III.2_387"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="III_474"/>
+               <ptr type="next" subtype="brief" target="III_475"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-III.2_EB_120"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -112,8 +126,8 @@
                   die<lb xml:id="III_337-19"/>Freude, Sie zu sehen, erst in der Singakademie selber
                haben, weil ich<note corresp="#III_337-20">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-00558649" ana="†">
-                        <placeName>Singakademie; Berlin</placeName>
+                     <place corresp="#JP-011132" ana="†">
+                        <placeName>Singakademie</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -121,14 +135,14 @@
                Thiergarten besuche. Und abends werd’<note corresp="#III_337-21">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000841" ana="†">
-                        <persName> Esther <name type="reg">Domeier</name>
+                        <persName>Esther <name type="reg">Bernard</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listPlace type="lineReference">
-                     <place corresp="#JP-00558619">
-                        <placeName>Gartenlokale Hofjäger und Kärster (Tiergarten);
-                           Berlin</placeName>
+                     <place corresp="#JP-011099">
+                        <placeName>Gartenlokale Hofjäger und Kärster
+                        (Tiergarten)</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -150,7 +164,7 @@
             </p>
             <p>
                <hi rendition="#aq">Die Angabe des Adressaten scheint zuzutreffen; Esther Bernard
-                  schreibt<lb/>im Brief an J. P. IV. Abt., III.2, Nr. 388 (7. Juni 1800): „Goecking
+                  schreibt<lb/>im Brief an J. P. IV. Abt., 3.2, Nr. 388 (7. Juni 1800): „Goecking
                   sagte gestern in einer<lb/>Gesellschaft: Nikolai hätte Sie in eine Versammlung
                   bringen wollen, aber<lb/>ich hätte Sie davon abtrünnig gemacht.“ Vgl. <ref target="#p346_l34">
                      <hi rendition="#b">346</hi>, <hi rendition="#rkd">34</hi>
@@ -159,7 +173,13 @@
                   Montags und Dienstags nachmittags statt;<lb/>der 3. Juni 1800 war ein Dienstag.
                   Jean Paul hatte vermutlich dem<lb/>Montagskonzert schon beigewohnt; vgl.</hi>
                <ref target="#p347_l15">
-                  <hi rendition="#b"><hi rendition="#aq">347</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">15</hi></hi>
+                  <hi rendition="#b">
+                     <hi rendition="#aq">347</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">15</hi>
+                  </hi>
                </ref>
                <hi rendition="#aq">.</hi>
                <lb/>

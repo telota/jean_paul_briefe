@@ -3,7 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title n="print" type="letter" rend="25">25. An Frau Richter in Hof. </title>
-            <title n="digital">Von Jean Paul an Sophie Rosine Richter. Leipzig, 27. Mai 1782. </title>
+            <title n="digital">Von Jean Paul an Sophie Rosine Richter. Leipzig, 27. Mai 1782, Montag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="I">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
+               <title n="I">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
                <biblScope n="text" unit="page">
                   <num>42</num>
                   <num>43</num>
@@ -78,14 +78,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1782-05-27">27. Mai 1782</date>
                <placeName key="JP-005948">Leipzig</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003496">Sophie Rosine Richter</persName>
                <placeName key="JP-005841">Hof</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="I_24"/><ptr type="next" subtype="brief" target="I_4-fb"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="I_24"/><ptr type="next" subtype="brief" target="I_4-fb"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="I_18"/><ptr type="next" subtype="brief" target="I_28"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-I_EB_3"/>
+               <ptr type="next" subtype="brief" target="I_4-fb"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="I_24"/>
+               <ptr type="next" subtype="brief" target="I_4-fb"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-I_EB_3"/>
+               <ptr type="next" subtype="anbrief" target="IV-I_EB_4"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -102,8 +117,8 @@
             <p>Heute Abends bekam ich Ihren Brief, und eben heute Abend <lb xml:id="I_42-29"/>beantworte ich ihn schon wieder, um Sie von der Gewisheit meiner <lb n="30" xml:id="I_42-30"/> Gesundheit zu versichern. Die Krankheit, welche schon zur Messe
                in <note corresp="#I_42-31">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0059485">
-                        <placeName>Messe; Leipzig</placeName>
+                     <place corresp="#JP-011521">
+                        <placeName>Messe</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -121,7 +136,7 @@
                Örthel lag länger krank. — Sie dürfen Sich also wegen meiner <note corresp="#I_42-35">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003050">
-                        <persName> Johann Adam Lorenz von <name type="reg">Oerthel</name>
+                        <persName>Adam Lorenz von <name type="reg">Oerthel</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -137,7 +152,7 @@
                Schnupftuch zu wenig zu haben; aber wir irten <note corresp="#I_43-7">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005841">
-                        <placeName>Hof im Vogtland</placeName>
+                        <placeName>Hof</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -146,7 +161,7 @@
                Örthel <note corresp="#I_43-9">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003051">
-                        <persName> Johann Georg von <name type="reg">Oerthel</name>
+                        <persName>Johann Georg von <name type="reg">Oerthel</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -166,7 +181,7 @@
                anfangen. — Lassen Sie den Riedel in <note corresp="#I_43-16">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003505">
-                        <persName> Ernst Ludwig <name type="reg">Riedel</name>
+                        <persName>Ernst Ludwig <name type="reg">Riedel</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -195,7 +210,8 @@
                nächsten Post <note corresp="#I_43-23">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003131">
-                        <persName> (Publius Ovidius Naso) <name type="reg">Ovid</name>
+                        <persName>
+                           <name type="reg">Ovid</name>
                         </persName>
                      </person>
                   </listPerson>

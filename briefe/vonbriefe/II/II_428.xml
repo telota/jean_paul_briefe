@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="429">428. An Christoph Otto. </title>
-            <title n="digital">Von Jean Paul an Christoph Otto. Bayreuth, 11. Oktober 1796.</title>
+            <title n="print" type="letter" rend="428">428. An Christoph Otto. </title>
+            <title n="digital">Von Jean Paul an Christoph Otto. Bayreuth, 11. Oktober 1796, Dienstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
+               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
                <biblScope n="text" unit="page">
                   <num>254</num>
                </biblScope>
@@ -77,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1796-10-11">11. Oktober 1796</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003118">Christoph Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="II_427"/><ptr type="next" subtype="brief" target="II_429"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="II_427"/><ptr type="next" subtype="brief" target="II_429"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="II_270"/><ptr type="next" subtype="brief" target="II_734"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="II_427"/>
+               <ptr type="next" subtype="brief" target="II_429"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="II_427"/>
+               <ptr type="next" subtype="brief" target="II_429"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-II_EB_65"/>
+               <ptr type="next" subtype="anbrief" target="IV-II_164"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -102,22 +117,24 @@
                nach Bay<note corresp="#II_254-10">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005574">
-                        <placeName>Bayreuth (Stadt)</placeName>
+                        <placeName>Bayreuth </placeName>
                      </place>
                   </listPlace>
                </note>
                <lb n="10" xml:id="II_254-10" rendition="#hyphen"/>reuth und sezte mich gleichsam
                zwischen euch beide aufs Kanap<hi rendition="#aq">é</hi>e. So<lb xml:id="II_254-11"/>ist es hübsch, wenn man die Freuden und die Freunde zweier Städte<lb xml:id="II_254-12"/>auf einmal, Hof und Bayreuth in Einer Stube vereint.<note corresp="#II_254-13">
-               <listPlace type="lineReference">
-                  <place corresp="#JP-005841">
-                     <placeName>Hof im Vogtland</placeName>
-                  </place>
-               </listPlace>
-            </note><lb xml:id="II_254-13"/></p>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005841">
+                        <placeName>Hof</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="II_254-13"/>
+            </p>
             <p>Ich wolt’ ich wäre Einen Tag in Hof gewesen, damit ich einige<note corresp="#II_254-14">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005841">
-                        <placeName>Hof im Vogtland</placeName>
+                        <placeName>Hof</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -125,7 +142,7 @@
                zu Ende<note corresp="#II_254-15">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005574">
-                        <placeName>Bayreuth (Stadt)</placeName>
+                        <placeName>Bayreuth </placeName>
                      </place>
                   </listPlace>
                </note>
@@ -134,7 +151,7 @@
                so lang sein, daß sie zum<note corresp="#II_254-17">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003125">
-                        <persName> Pauline <name type="reg">Otto</name>
+                        <persName>Pauline <name type="reg">Otto</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -142,19 +159,20 @@
                <lb xml:id="II_254-17"/>Bücherverleiher schicken und sagen lassen könte: „Mamsel
                bittet sich<lb xml:id="II_254-18"/>von H. Oerteln die Werke ihres Herrn Pathen aus.“
                —<note corresp="#II_254-19">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-003032">
-                     <persName>
-                        <name type="reg">Oertel</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="II_254-19"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003032">
+                        <persName>Buchhändler <name type="reg">Oertel</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_254-19"/>
+            </p>
             <p>Ich danke dir noch einmal, mein guter Otto, für deinen schönen Brief<lb n="20" xml:id="II_254-20"/>vol Scherz und Liebe. Renate möge dich durch beides dafür
                   be<note corresp="#II_254-21">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003126">
-                        <persName> Renate <name type="reg">Otto</name>
+                        <persName>Renate <name type="reg">Otto</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -178,7 +196,13 @@
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Berlin acc. ms. 1900. 68 (derzeit BJK). 4 S. 8°. <hi rendition="#i">K</hi> (nach Nr. 437) ohne Überschrift. <hi rendition="#i">J</hi>: Täglichs<lb rendition="#hyphen"/>beck S.</hi>
                <hi rendition="#aq">82. </hi>
-               <hi rendition="#b"><hi rendition="#aq">254</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">18</hi></hi> Mamsel] <hi rendition="#aq">davor gestr.</hi> die <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">254</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">18</hi>
+               </hi> Mamsel] <hi rendition="#aq">davor gestr.</hi> die <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                   <hi rendition="#rkd">23</hi>f.</hi> seitwärts] <hi rendition="#aq">davor
                   gestr.</hi>

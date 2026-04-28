@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="630">628. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, 23. März 1812.</title>
+            <title n="print" type="letter" rend="628">628. An Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth, 23. März 1812, Montag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>257</num></biblScope><biblScope n="comment" unit="page"><num>534</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>257</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>534</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1812-03-23">23. März 1812</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_627"/><ptr type="next" subtype="brief" target="VI_630"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_627"/><ptr type="next" subtype="brief" target="VI_630"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="IX_15"/><ptr type="next" subtype="brief" target="VI_633"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_627"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB4643"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_627"/>
+               <ptr type="next" subtype="brief" target="VI_630"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="IX_15"/>
+               <ptr type="next" subtype="brief" target="VI_633"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -93,10 +116,8 @@
                   einem<note corresp="#VI_257-25">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009569">
-                        <author>Schelling, Friedrich Wilhelm Joseph (ab 1812) von
-                           (1775-1854)</author>
-                        <title>Denkmal der Schrift von den göttlichen Dingen des Herrn Jacobi
-                           (1812)</title>
+                        <author>Schelling, Friedrich Wilhelm Joseph von (1775–1854)</author>
+                        <title>Denkmal der Schrift von den göttlichen Dingen des Herrn Jacobi (1812)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -105,11 +126,11 @@
                   wechseln,<note corresp="#VI_257-28">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000292">
-                        <persName> Christian Ernst Graf von <name type="reg">Bentzel-Sternau</name>
+                        <persName>Christian Ernst Graf von <name type="reg">Bentzel-Sternau</name>
                         </persName>
                      </person>
                      <person corresp="#JP-002482">
-                        <persName> Josepha Charlotte von <name type="reg">Lochner</name>
+                        <persName>Josepha Charlotte <name type="reg">Lochner von Hüttenbach</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -122,24 +143,27 @@
                <note corresp="#VI_257-30">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003771">
-                        <persName> Adolf Heinrich Friedrich (ab 1808) von <name type="reg">Schlichtegroll</name>
+                        <persName>Friedrich <name type="reg">Schlichtegroll</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0055700">
-                        <placeName>Bayerische Akademie der Wissenschaften; Bayern </placeName>
+                     <place corresp="#JP-011033">
+                        <placeName>Bayerische Akademie der Wissenschaften</placeName>
                      </place>
                   </listPlace>
                </note>
                <lb n="30" xml:id="VI_257-30"/> den Auszug aus der Geschichte Ludwig <hi rendition="#aq">IV</hi> des Baiers? —<note corresp="#VI_257-31">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-002521">
-                     <persName> gen. der Bayer <name type="reg">Ludwig IV.</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="VI_257-31"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002521">
+                        <persName>
+                           <name type="reg">Ludwig IV., gen. der Bayer</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_257-31"/>
+            </p>
          </div>
          <div type="comment">
             <p>

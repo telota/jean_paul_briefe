@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="117">116. An die Vossische Buchhandlung in Berlin. </title>
-            <title n="digital">Von Jean Paul an Buchhandlung Vossische. Bayreuth, 12. November 1820.</title>
+            <title n="print" type="letter" rend="116">116. An die Vossische Buchhandlung in Berlin. </title>
+            <title n="digital">Von Jean Paul an Vossische Buchhandlung. Bayreuth, 12. November 1820, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>79</num>
                </biblScope>
@@ -77,21 +77,35 @@
             </msDesc>
             <listPerson type="commentary">
                <person corresp="#JP-004514">
-                  <persName> Christian Friedrich d. J. <name type="reg">Voß</name>
+                  <persName>Christian Friedrich <name type="reg">Voß d. J.</name>
                   </persName>
                </person>
             </listPerson>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1820-11-12">12. November 1820</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-004533">Buchhandlung Vossische</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-004533">Vossische Buchhandlung</persName>
                <placeName key="JP-005586">Berlin</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VIII_115"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0695"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VIII_115"/><ptr type="next" subtype="brief" target="VIII_117"/></correspContext><correspContext n="correspondence"><ptr type="next" subtype="brief" target="VIII_182"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VIII_115"/>
+               <ptr type="next" subtype="anbrief" target="IV-VIII_75"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VIII_115"/>
+               <ptr type="next" subtype="brief" target="VIII_117"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="next" subtype="brief" target="VIII_182"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -111,7 +125,8 @@
                meiner Schriftstellerei hab’ ich viel zu<note corresp="#VIII_79-21">
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010724">
-                        <title>Grönländische Prozesse, oder Satirische Skizzen (1783, 1822)</title>
+                        <title>Grönländische Prozesse, oder Satirische Skizzen (1783,
+                        1822)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -127,7 +142,7 @@
                und ich wünschte, die nächsten<note corresp="#VIII_79-29">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004513" ana="†">
-                        <persName> Christian Friedrich d. Ä. <name type="reg">Voß</name>
+                        <persName>Christian Friedrich <name type="reg">Voß d. Ä.</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -135,11 +150,11 @@
                <lb xml:id="VIII_79-29"/>Verleger nach ihm wären ihm ähnlicher gewesen.<note corresp="#VIII_79-30">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000263">
-                        <persName> Christoph Friedrich <name type="reg">Beckmann</name>
+                        <persName>Christoph Friedrich <name type="reg">Bekmann</name>
                         </persName>
                      </person>
                      <person corresp="#JP-002678">
-                        <persName> Carl August <name type="reg">Matzdorff </name>
+                        <persName>Carl <name type="reg">Matzdorff</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -153,7 +168,13 @@
                   <hi rendition="#i">K</hi>: <hi rendition="#i">Vossische</hi>
                </hi> Buchhandlung in <hi rendition="#aq">
                   <hi rendition="#i">Berlin</hi>
-               </hi> 12 Nov. <hi rendition="#b"><hi rendition="#aq">79</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">27</hi></hi> autobiographische] <hi rendition="#aq">aus</hi>
+               </hi> 12 Nov. <hi rendition="#b">
+                  <hi rendition="#aq">79</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">27</hi>
+               </hi> autobiographische] <hi rendition="#aq">aus</hi>
                <lb/>biographische</p>
             <lb/>
             <p>

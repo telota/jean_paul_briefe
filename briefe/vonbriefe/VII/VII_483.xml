@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="487">483. An Emanuel. </title>
-            <title n="digital">Von Jean Paul an Emanuel Osmund. Bayreuth, 15. Dezember 1818.</title>
+            <title n="print" type="letter" rend="483">483. An Emanuel. </title>
+            <title n="digital">Von Jean Paul an Emanuel Osmund. Bayreuth, 15. Dezember 1818, Dienstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
+               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
                <biblScope n="text" unit="page">
                   <num>242</num>
                </biblScope>
@@ -77,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1818-12-15">15. Dezember 1818</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003087">Emanuel Osmund</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB1357"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0577"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VII_482"/><ptr type="next" subtype="brief" target="VII_484"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VII_474"/><ptr type="next" subtype="brief" target="VII_487"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-VII_156"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB0577"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VII_482"/>
+               <ptr type="next" subtype="brief" target="VII_484"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VII_474"/>
+               <ptr type="next" subtype="brief" target="VII_487"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -103,7 +118,7 @@
                mit seinen Frostinsekten. Meine Emma soll nachher fragen,<note corresp="#VII_242-25">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003471">
-                        <persName> Emma <name type="reg">Richter</name>
+                        <persName>Emma <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -111,7 +126,7 @@
                <lb n="25" xml:id="VII_242-25"/> was denn eigentlich Ihrer lieben Frau fehlt.<note corresp="#VII_242-26">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003092">
-                        <persName> Flora <name type="reg">Osmund</name>
+                        <persName>Flora Blümle <name type="reg">Osmund</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -124,7 +139,13 @@
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: SBa. Präsentat: 15 Dec.</hi>
                <hi rendition="#aq">18. </hi>
-               <hi rendition="#b"><hi rendition="#aq">242</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">24</hi></hi> stechen] <hi rendition="#aq">aus</hi> sticht</p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">242</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">24</hi>
+               </hi> stechen] <hi rendition="#aq">aus</hi> sticht</p>
             <lb/>
          </div>
       </body>

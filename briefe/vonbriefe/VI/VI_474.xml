@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="475">474. An Emanuel. </title>
-            <title n="digital">Von Jean Paul an Emanuel. Bayreuth, 6. April 1811.</title>
+            <title n="print" type="letter" rend="474">474. An Emanuel. </title>
+            <title n="digital">Von Jean Paul an Emanuel. Bayreuth, 6. April 1811, Samstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>188</num></biblScope><biblScope n="comment" unit="page"><num>507</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>188</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>507</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1811-04-06">6. April 1811</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-003087">Emanuel Osmund</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_473"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0963"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_473"/><ptr type="next" subtype="brief" target="VI_475"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_473"/><ptr type="next" subtype="brief" target="VI_475"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000941">Emanuel</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_151"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB0963"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_473"/>
+               <ptr type="next" subtype="brief" target="VI_475"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_473"/>
+               <ptr type="next" subtype="brief" target="VI_475"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -94,7 +117,7 @@
                nach <hi rendition="#aq">Bamberg</hi> meine Federnschuld von 2 rtl. an H. <hi rendition="#aq">Kunz</hi> abtragen<note corresp="#VI_188-5">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002308">
-                        <persName> Carl Friedrich (Pseud. Z. Funck) <name type="reg">Kunz</name>
+                        <persName>Carl Friedrich <name type="reg">Kunz</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -115,7 +138,13 @@
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: SBa. Präsentat: 6 Apr.</hi>
                <hi rendition="#aq">11. </hi>
-               <hi rendition="#b"><hi rendition="#aq">188</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">4</hi></hi> wenigst] <hi rendition="#aq">aus</hi> wenigstens</p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">188</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">4</hi>
+               </hi> wenigst] <hi rendition="#aq">aus</hi> wenigstens</p>
          </div>
       </body>
    </text>

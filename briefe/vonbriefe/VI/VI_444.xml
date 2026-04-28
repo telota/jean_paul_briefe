@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="445">*444. An C. F. Kunz in Bamberg. </title>
-            <title n="digital">Von Jean Paul an Carl Friedrich Kunz. Bayreuth, 20. Januar 1811.</title>
+            <title n="print" type="letter" rend="444">*444. An C. F. Kunz in Bamberg. </title>
+            <title n="digital">Von Jean Paul an Carl Friedrich Kunz. Bayreuth, 20. Januar 1811, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,16 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>176</num><num>177</num></biblScope><biblScope n="comment" unit="page"><num>501</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>176</num>
+                  <num>177</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>501</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -70,14 +79,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1811-01-20">20. Januar 1811</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-002308">Carl Friedrich Kunz</persName>
                <placeName key="JP-005561">Bamberg</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_447"/><ptr type="next" subtype="brief" target="VI_445"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_447"/><ptr type="next" subtype="brief" target="VI_445"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_7-fb"/><ptr type="next" subtype="brief" target="VI_795"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_447"/>
+               <ptr type="next" subtype="brief" target="VI_445"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_447"/>
+               <ptr type="next" subtype="brief" target="VI_445"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_7-fb"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_150"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -98,7 +122,7 @@
                kam es nicht. Möge doch die Mutter mit den schönen Seelen<note corresp="#VI_176-33">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002307" ana="†">
-                        <persName> Carl Friedrich <name type="reg">Kunz</name>
+                        <persName>Carl Friedrich <name type="reg">Kunz</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -115,11 +139,11 @@
                <note corresp="#VI_177-7">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001789" ana="†">
-                        <persName> Ernst Theodor Amadeus <name type="reg">Hoffmann</name>
+                        <persName>Ernst Theodor Amadeus <name type="reg">Hoffmann</name>
                         </persName>
                      </person>
                      <person corresp="#JP-002617" ana="†">
-                        <persName> Adalbert Friedrich <name type="reg">Marcus</name>
+                        <persName>Adalbert Friedrich <name type="reg">Marcus</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -128,8 +152,7 @@
                   mir<note corresp="#VI_177-8">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009152" ana="†">
-                        <author>Marcus, Adalbert Friedrich (1753-1816), Medizinaldirektor in
-                           Bamberg</author>
+                        <author>Marcus, Adalbert Friedrich (1753–1816)</author>
                         <title>Entwurf einer speziellen Therapie (1807)</title>
                      </bibl>
                   </listBibl>
@@ -138,8 +161,7 @@
                   Magne<note corresp="#VI_177-9">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002639">
-                        <persName>
-                           <name type="reg">Markus</name>
+                        <persName>Evangelist <name type="reg">Markus</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -148,19 +170,20 @@
                nach der Abreise meine<lb n="10" xml:id="VI_177-10"/> Flucht vor so vielen — Freuden,
                zu welchen sogar der Eintritt ins<lb xml:id="VI_177-11"/> berühmte Krankenhaus gehört
                hätte.<note corresp="#VI_177-12">
-               <listPlace type="lineReference">
-                  <place corresp="#JP-0055616">
-                     <placeName>Krankenhaus; Bamberg</placeName>
-                  </place>
-               </listPlace>
-            </note><lb xml:id="VI_177-12"/></p>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-011022">
+                        <placeName>Krankenhaus</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_177-12"/>
+            </p>
             <p>Noch bitt’ ich Sie um etwas, um 2 Thaler — Kredit; nämlich<lb xml:id="VI_177-13"/>
                bei <metamark>[</metamark>Lachmüller<metamark>]</metamark>, dem Vater des
                Bücherverleihers und Spielsachen<note corresp="#VI_177-14">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002334" ana="†">
-                        <persName>
-                           <name type="reg">Lachmüller</name>
+                        <persName>Kaufmann <name type="reg">Lachmüller</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -191,7 +214,7 @@
                meinen Freund und Gevatter. —<note corresp="#VI_177-22">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001497">
-                        <persName> Christian Heinrich Gottlieb <name type="reg">Hake</name>
+                        <persName>Christian Heinrich Gottlieb <name type="reg">Hake</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -214,9 +237,15 @@
                   <hi rendition="#i">J</hi>
                   <hi rendition="#sup">1</hi>: Doering S. 22×. *<hi rendition="#i">J</hi>
                   <hi rendition="#sup">2</hi>: Funck S. 64.<lb/>
-                  <hi rendition="#i">A</hi>: IV. Abt., VI, Nr.</hi>
+                  <hi rendition="#i">A</hi>: IV. Abt., 6, Nr.</hi>
                <hi rendition="#aq">150. </hi>
-               <hi rendition="#b"><hi rendition="#aq">177</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">4</hi></hi> und Herr meiner Kräfte] <hi rendition="#aq">fehlt <hi rendition="#i">J</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">177</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">4</hi>
+               </hi> und Herr meiner Kräfte] <hi rendition="#aq">fehlt <hi rendition="#i">J</hi>
                   <hi rendition="#sup">1</hi>
                </hi>
                <hi rendition="#rkd">7</hi> noch von mir]<lb/> mir auch <hi rendition="#aq">

@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="320">*319. An Hofrat Schäfer in Bayreuth. </title>
-            <title n="digital">Von Jean Paul an Gottfried Andreas Schäfer. Hof, 25. Mai 1796.</title>
+            <title n="print" type="letter" rend="319">*319. An Hofrat Schäfer in Bayreuth. </title>
+            <title n="digital">Von Jean Paul an Gottfried Schäfer. Hof, 25. Mai 1796, Mittwoch.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
+               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
                <biblScope n="text" unit="page">
                   <num>198</num>
                   <num>199</num>
@@ -79,14 +79,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1796-05-25">25. Mai 1796</date>
                <placeName key="JP-005841">Hof</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-003685">Gottfried Andreas Schäfer</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-003685">Gottfried Schäfer</persName>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="II_318"/><ptr type="next" subtype="brief" target="II_320"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="II_318"/><ptr type="next" subtype="brief" target="II_320"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="II_232"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-II_EB_45a"/>
+               <ptr type="next" subtype="brief" target="II_320"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="II_318"/>
+               <ptr type="next" subtype="brief" target="II_320"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-II_89"/>
+               <ptr type="next" subtype="anbrief" target="IV-II_127"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -116,7 +131,7 @@
                Chladni’s halten<note corresp="#II_198-26">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000624">
-                        <persName> Ernst <name type="reg">Chladni</name>
+                        <persName>Ernst <name type="reg">Chladni</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -141,7 +156,7 @@
                — Oder Sie könten den Konsul Brutus<note corresp="#II_198-34">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000524">
-                        <persName> Lucius Iunius <name type="reg">Brutus</name>
+                        <persName>Lucius Iunius <name type="reg">Brutus</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -183,11 +198,17 @@
             <p>
                <hi rendition="#aq">
                   <hi rendition="#i">K</hi>:</hi> Schäfer 25 Mai 96. *<hi rendition="#aq">
-                  <hi rendition="#i">J</hi>: Denkw. 3,4. <hi rendition="#i">B</hi>: IV. Abt., II,
-                  Nr. 82. <hi rendition="#i">A</hi>: IV. Abt., II, Nr.</hi>
+                  <hi rendition="#i">J</hi>: Denkw. 3,4. <hi rendition="#i">B</hi>: IV. Abt., 2,
+                  Nr. 82. <hi rendition="#i">A</hi>: IV. Abt., 2, Nr.</hi>
                <hi rendition="#aq">127.</hi>
                <lb/>
-               <hi rendition="#b"><hi rendition="#aq">198</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">24</hi></hi> peremptorischen] <hi rendition="#aq">so <hi rendition="#i">K</hi>,</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">198</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">24</hi>
+               </hi> peremptorischen] <hi rendition="#aq">so <hi rendition="#i">K</hi>,</hi>
                peremtorischen <hi rendition="#aq">
                   <hi rendition="#i">J</hi> (doch s.</hi>
                <hi rendition="#b">304</hi>, <hi rendition="#rkd">16)</hi>
@@ -202,7 +223,13 @@
                <hi rendition="#aq">Schäfer hatte in <hi rendition="#i">B</hi> um eine Idee und ein
                   Motto zu einer Titelvignette<lb/>für ein bürgerliches Gesetzbuch gebeten, dessen
                   Redaktion ihm anver<lb rendition="#hyphen"/>traut worden sei. <hi rendition="#b">198</hi>, <hi rendition="#rkd">33</hi>f. Vgl.</hi>
-               <hi rendition="#b"><hi rendition="#aq">111</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">5</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">111</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">5</hi>
+               </hi>
                <hi rendition="#aq">.</hi>
             </p>
             <lb/>

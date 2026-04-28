@@ -3,8 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title n="print" type="letter" rend="4">4. An Herder in Weimar. </title>
-            <title n="digital">Von Jean Paul an Johann Gottfried von Herder. Berlin, 8. Oktober 1800 bis 17.
-               Oktober 1800.</title>
+            <title n="digital">Von Jean Paul an Johann Gottfried Herder. Berlin, 8. bis 17. Oktober 1800.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -46,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +60,11 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"/><biblScope n="comment" unit="page"/></bibl>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page"/>
+               <biblScope n="comment" unit="page"/>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -70,15 +73,30 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date corresp="writingSession1" when="1800-10-08">8. Oktober 1800</date>
                <date corresp="writingSession2" when="1800-10-17">17. Oktober 1800</date>
                <placeName key="JP-005586">Berlin</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-001675">Johann Gottfried (seit 1801) von Herder</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-001675">Johann Gottfried Herder</persName>
                <placeName key="JP-006395">Weimar</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0305"/><ptr type="next" subtype="brief" target="IV_3"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="IV_2"/><ptr type="next" subtype="brief" target="IV_3"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="III_465"/><ptr type="next" subtype="brief" target="IV_25"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB0305"/>
+               <ptr type="next" subtype="anbrief" target="IV-IV_6"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="IV_2"/>
+               <ptr type="next" subtype="brief" target="IV_3"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-III.2_378"/>
+               <ptr type="next" subtype="brief" target="IV_25"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -115,7 +133,7 @@
                      <hi rendition="#aq">Buri,</hi> dessen neugefärbter<note corresp="#IV_2-16">
                      <listPerson type="lineReference">
                         <person corresp="#JP-000559">
-                           <persName> Friedrich <name type="reg">Bury</name>
+                           <persName>Friedrich <name type="reg">Bury</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -123,7 +141,7 @@
                   <lb xml:id="IV_2-16"/>Göthe hier nicht gefallen wil, wurde einen <hi rendition="#aq">da Vinci</hi> für 80 Dukaten<note corresp="#IV_2-17">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001353">
-                           <persName> Johann Wolfgang von <name type="reg">Goethe</name>
+                           <persName>Johann Wolfgang von <name type="reg">Goethe</name>
                            </persName>
                         </person>
                         <person corresp="#JP-002407" ana="†">
@@ -138,12 +156,12 @@
                      <listPerson type="lineReference">
                         <person corresp="#JP-001187">
                            <persName>
-                              <name type="reg">Friedrich Wilhelm III.</name>
+                              <name type="reg">Friedrich Wilhelm III., König von Preußen</name>
                            </persName>
                         </person>
                         <person corresp="#JP-002548">
                            <persName>
-                              <name type="reg">Luise</name>
+                              <name type="reg">Luise, Königin von Preußen</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -152,12 +170,12 @@
                      Merkel<note corresp="#IV_2-19">
                      <listPerson type="lineReference">
                         <person corresp="#JP-002774">
-                           <persName> Garlieb <name type="reg">Merkel</name>
+                           <persName>Garlieb <name type="reg">Merkel</name>
                            </persName>
                         </person>
                         <person corresp="#JP-004298">
-                           <persName> Therese Mathilde Amalie Fürstin von <name type="reg">Thurn und
-                                 Taxis</name>
+                           <persName>
+                              <name type="reg">Therese, Fürstin von Thurn und Taxis</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -177,8 +195,8 @@
                   auf ihn<lb xml:id="IV_2-22"/>zürnen — besonders wegen seiner Bulle gegen den <hi rendition="#aq">Titan</hi> — so fang’<note corresp="#IV_2-23">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-009187" ana="†">
-                           <author>Merkel, Garlieb (1769-1850), Schriftsteller</author>
-                           <title>Briefe an ein Frauenzimmer (1800-1803)</title>
+                           <author>Merkel, Garlieb (1769–1850)</author>
+                           <title>Briefe an ein Frauenzimmer (1800–1803)</title>
                         </bibl>
                      </listBibl>
                      <listBibl type="lineReference" subtype="werke-jp">
@@ -192,7 +210,7 @@
                   <note corresp="#IV_2-24">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003658">
-                           <persName> Johann Daniel <name type="reg">Sander</name>
+                           <persName>Johann Daniel <name type="reg">Sander</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -203,7 +221,7 @@
                      herlichen<note corresp="#IV_2-26">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-009233">
-                           <author>Mozart, Wolfgang Amadeus (1756-1791)</author>
+                           <author>Mozart, Wolfgang Amadeus (1756–1791)</author>
                            <title>Requiem (1791)</title>
                         </bibl>
                      </listBibl>
@@ -213,16 +231,16 @@
                   gegeben und der<note corresp="#IV_2-27">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001039" ana="†">
-                           <persName> Karl <name type="reg">Fasch</name>
+                           <persName>Karl <name type="reg">Fasch</name>
                            </persName>
                         </person>
                      </listPerson>
                      <listPlace type="lineReference">
-                        <place corresp="#JP-00558617">
-                           <placeName>Garnisonkirche; Berlin</placeName>
+                        <place corresp="#JP-011097">
+                           <placeName>Garnisonkirche</placeName>
                         </place>
-                        <place corresp="#JP-00558649">
-                           <placeName>Singakademie; Berlin</placeName>
+                        <place corresp="#JP-011132">
+                           <placeName>Singakademie</placeName>
                         </place>
                      </listPlace>
                   </note>
@@ -241,7 +259,7 @@
                      meinen<note corresp="#IV_3-3">
                      <listPerson type="lineReference">
                         <person corresp="#JP-000044">
-                           <persName> Johann Georg Jacob von <name type="reg">Ahlefeldt</name>
+                           <persName>Hans Georg von <name type="reg">Ahlefeldt</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -252,8 +270,8 @@
                   zum Besten dieses und der künftigen Jahrhunderte. Ich<lb xml:id="IV_3-6"/>bin
                   begierig zu wissen, wie der holländische Glaskiel, womit ich Ihnen<note corresp="#IV_3-7">
                      <listPlace type="lineReference">
-                        <place corresp="#JP-0058470">
-                           <placeName>Glaskiele; Holland</placeName>
+                        <place corresp="#JP-011433">
+                           <placeName>Glaskiele</placeName>
                         </place>
                      </listPlace>
                   </note>
@@ -278,7 +296,7 @@
                      (<hi rendition="#g">unter uns</hi>) doch wahrscheinlich<note corresp="#IV_3-13">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001542">
-                           <persName> Emilie Dorothea Friederike <name type="reg">Harmes</name>
+                           <persName>Emilie <name type="reg">Harmes</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -292,12 +310,12 @@
                   die ich<note corresp="#IV_3-14">
                      <listPerson type="lineReference">
                         <person corresp="#JP-000297">
-                           <persName> Caroline Friedericke von <name type="reg">Berg</name>
+                           <persName>Caroline Friederike von <name type="reg">Berg</name>
                            </persName>
                         </person>
                      </listPerson>
                      <listPlace type="lineReference">
-                        <place corresp="#JP-006260">
+                        <place corresp="#JP-006259">
                            <placeName>Schottland, Schotten</placeName>
                         </place>
                      </listPlace>
@@ -306,11 +324,11 @@
                      Alvensleben</hi> gesprochen, eine<note corresp="#IV_3-15">
                      <listPerson type="lineReference">
                         <person corresp="#JP-000069">
-                           <persName> Philipp Karl Graf <name type="reg">Alvensleben</name>
+                           <persName>Philipp Karl Graf von <name type="reg">Alvensleben</name>
                            </persName>
                         </person>
                         <person corresp="#JP-004528">
-                           <persName> Luise Gräfin von <name type="reg">Voß</name>
+                           <persName>Luise Gräfin von <name type="reg">Voß</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -328,7 +346,7 @@
                <p>Ihre liebe Gattin möge diesmal mein Schweigen gegen sie ent<note corresp="#IV_3-18">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001670">
-                           <persName> Caroline <name type="reg">Herder</name>
+                           <persName>Caroline von <name type="reg">Herder</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -350,7 +368,7 @@
                         seinem Freund<note corresp="#IV_3-24">
                            <listPerson type="lineReference">
                               <person corresp="#JP-000559">
-                                 <persName> Friedrich <name type="reg">Bury</name>
+                                 <persName>Friedrich <name type="reg">Bury</name>
                                  </persName>
                               </person>
                            </listPerson>
@@ -369,7 +387,13 @@
                      <hi rendition="#i">Herd.</hi>
                </hi> 17. Okt. <hi rendition="#aq">
                   <hi rendition="#i">J</hi>: Herders<lb/>Nachlaß Nr. 34×.</hi>
-               <hi rendition="#b"><hi rendition="#aq">2</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">11</hi></hi> guten und armen] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">2</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">11</hi>
+               </hi> guten und armen] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
                   <hi rendition="#rkd">18 </hi>
                </hi>30] <hi rendition="#aq">aus </hi>60<lb/>
                <hi rendition="#aq">danach gestr.</hi> denk’ ich <hi rendition="#aq">
@@ -400,7 +424,13 @@
                </hi>
                <hi rendition="#rkd">34</hi> rührend] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">3</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">4</hi></hi> und Herzens-] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">3</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">4</hi>
+               </hi> und Herzens-] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">8</hi>
                <lb/>Geschenk] <hi rendition="#aq">davor gestr.</hi> kleines <hi rendition="#aq">
@@ -416,7 +446,13 @@
             </p>
             <lb/>
             <p>
-               <hi rendition="#b"><hi rendition="#aq">2</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">16</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">2</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">16</hi>
+               </hi>
                <hi rendition="#aq">f. <hi rendition="#g">Buris Goethe:</hi> s. Bd. III, Nr. 373,
                      273,<hi rendition="#rkd">28</hi>. <hi rendition="#rkd">17</hi>
                   <hi rendition="#g">da Vinci:</hi> eine Kopie<lb/>des früher dem Lionardo

@@ -3,7 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title n="print" type="letter" rend="37">37. An Johann Georg Zimmer in Heidelberg </title>
-            <title n="digital">Von Jean Paul an Johann Georg Zimmer. Bayreuth, 27. Februar 1809.</title>
+            <title n="digital">Von Jean Paul an Johann Georg Zimmer. Bayreuth, 27. Februar 1809, Montag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>14</num></biblScope><biblScope n="comment" unit="page"><num>427</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>14</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>427</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,14 +77,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1809-02-27">27. Februar 1809</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-004858">Johann Georg Zimmer</persName>
                <placeName key="JP-005819">Heidelberg</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_36"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0071"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_36"/><ptr type="next" subtype="brief" target="VI_38"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_16"/><ptr type="next" subtype="brief" target="VI_61"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_36"/>
+               <ptr type="next" subtype="anbrief" target="IV-IX_2.19"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_36"/>
+               <ptr type="next" subtype="brief" target="VI_38"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_16"/>
+               <ptr type="next" subtype="brief" target="VI_61"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -91,12 +114,14 @@
             </dateline>
             <lb xml:id="VI_14-2"/>
             <p>Ich danke Ihnen, wie für die bezahlten 400 fl., so für die nied<lb xml:id="VI_14-3" rendition="#hyphen"/> liche Einrichtung des Buchs.<note corresp="#VI_14-4">
-               <listBibl type="lineReference" subtype="werke-jp">
-                  <bibl corresp="#JP-010574" ana="†">
-                     <title>D. Katzenbergers Badereise (1809)</title>
-                  </bibl>
-               </listBibl>
-            </note><lb xml:id="VI_14-4"/></p>
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010574" ana="†">
+                        <title>D. Katzenbergers Badereise (1809)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_14-4"/>
+            </p>
             <p>Grämen Sie sich so wenig über die Druckfehler als ich; aus meinem<lb n="5" xml:id="VI_14-5"/> Ergänzungsblatte und der Vorschule sehen Sie, daß es mir bei
                   allen<note corresp="#VI_14-6">
                   <listBibl type="lineReference" subtype="werke-jp">
@@ -105,7 +130,7 @@
                      </bibl>
                      <bibl corresp="#JP-010686">
                         <title>Ergänzblatt (Ergänzungsblatt) zur Levana (1807): Dedikation für
-                           Sophie Paulus (handschriftlich)</title>
+                        Sophie Paulus (handschriftlich)</title>
                      </bibl>
                      <bibl corresp="#JP-010970">
                         <title>Vorschule der Aesthetik (1804)</title>
@@ -120,18 +145,20 @@
             <p>Schicken Sie mir zu die restierenden Bogen.<lb n="10" xml:id="VI_14-10"/>
             </p>
             <p>Meine Bitte für <hi rendition="#aq">Mahlmann</hi> vergessen Sie nicht.<note corresp="#VI_14-11">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-002583">
-                     <persName> Siegfried August <name type="reg">Mahlmann</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="VI_14-11"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002583">
+                        <persName>Siegfried August <name type="reg">Mahlmann</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_14-11"/>
+            </p>
             <p>H. Hofrath <hi rendition="#aq">Creuzer</hi> werd’ ich bei der Rücksendung der
                   Bücher<note corresp="#VI_14-12">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000716" ana="†">
-                        <persName> Friedrich <name type="reg">Creuzer</name>
+                        <persName>Friedrich <name type="reg">Creuzer</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -155,8 +182,8 @@
                      <hi rendition="#i">K</hi>: <hi rendition="#i">Zimm.</hi>
                </hi>
                <lb/> 27. Febr. <hi rendition="#aq">(nur Überschrift) <hi rendition="#i">J</hi>:
-                  Zimmer S. 299×. <hi rendition="#i">B</hi>: IV. Abt., VI, Nr. 2 und 9.<lb/>
-                  <hi rendition="#i">A</hi>: IV. Abt., VI, Nr.</hi>
+                  Zimmer S. 299×. <hi rendition="#i">B</hi>: IV. Abt., 6, Nr. 2 und 9.<lb/>
+                  <hi rendition="#i">A</hi>: IV. Abt., 6, Nr.</hi>
                <hi rendition="#aq">18.</hi>
             </p>
             <lb/>

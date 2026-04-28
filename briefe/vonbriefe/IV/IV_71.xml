@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="75">71. An Karoline Mayer. </title>
-            <title n="digital">Von Jean Paul an Caroline Richter. Berlin, 16. Januar 1801.</title>
+            <title n="print" type="letter" rend="71">71. An Karoline Mayer. </title>
+            <title n="digital">Von Jean Paul an Caroline Mayer. Berlin, 16. Januar 1801, Freitag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,11 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"/><biblScope n="comment" unit="page"/></bibl>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page"/>
+               <biblScope n="comment" unit="page"/>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +73,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1801-01-16">16. Januar 1801</date>
                <placeName key="JP-005586">Berlin</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-003469">Caroline Richter</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="IV_70"/><ptr type="next" subtype="umfeldbrief" target="JP-UB1405"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="IV_70"/><ptr type="next" subtype="brief" target="IV_72"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="IV_70"/><ptr type="next" subtype="brief" target="IV_89"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-011763">Caroline Mayer</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB1223"/>
+               <ptr type="next" subtype="anbrief" target="IV-IV_84"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="IV_70"/>
+               <ptr type="next" subtype="brief" target="IV_72"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="IV_70"/>
+               <ptr type="next" subtype="brief" target="IV_89"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -93,7 +112,7 @@
                   deren<note corresp="#IV_38-15">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000841">
-                        <persName> Esther <name type="reg">Domeier</name>
+                        <persName>Esther <name type="reg">Bernard</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -102,34 +121,31 @@
                   aus<note corresp="#IV_38-16">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001231">
-                        <persName> Goldine <name type="reg">Gad</name>
+                        <persName>Goldine <name type="reg">Gad</name>
                         </persName>
                      </person>
                      <person corresp="#JP-001232">
-                        <persName> Isaak <name type="reg">Gad</name>
+                        <persName>Isaak <name type="reg">Gad</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listPlace type="lineReference">
-                     <place corresp="#JP-00558652" ana="ff†">
+                     <place corresp="#JP-011136" ana="ff†">
                         <placeName>Theater (Französisches Komödienhaus, Schauspielhaus,
-                           Nationaltheater); Berlin</placeName>
+                        Nationaltheater)</placeName>
                      </place>
                   </listPlace>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008561" ana="†">
-                        <author>Gotter, Johann Friedrich Wilhelm (1746-1797), Lyriker und
-                           Dramatiker</author>
-                        <title>Die Geisterinsel (1799)</title>
+                        <author>Gotter, Johann Friedrich Wilhelm (1746–1797)</author>
+                        <title>Die Geisterinsel (Opernlibretto; 1798)</title>
                      </bibl>
                      <bibl corresp="#JP-009463" ana="†">
-                        <author>Reichardt, Johann Friedrich (1752-1814), Komponist und
-                           Schriftsteller</author>
+                        <author>Reichardt, Johann Friedrich (1752–1814)</author>
                         <title>Die Geisterinsel (1800)</title>
                      </bibl>
                      <bibl corresp="#JP-009775" ana="†">
-                        <author>Shakespeare, William (Shakespear, Shakspeare, Shakespear,
-                           Schakespeare) (1564-1616)</author>
+                        <author>Shakespeare, William (1564–1616)</author>
                         <title>The Tempest (1611)</title>
                      </bibl>
                   </listBibl>
@@ -140,7 +156,7 @@
                die russische Gesandtin<note corresp="#IV_38-19">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002273">
-                        <persName> Barbara Juliane Freifrau von <name type="reg">Krüdener</name>
+                        <persName>Juliane Freifrau von <name type="reg">Krüdener</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -156,7 +172,7 @@
                um so weniger<note corresp="#IV_38-21">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009595" ana="†">
-                        <author>Schiller, Friedrich (ab 1802) von (1759-1805)</author>
+                        <author>Schiller, Friedrich von (1759–1805)</author>
                         <title>Maria Stuart (1801)</title>
                      </bibl>
                   </listBibl>
@@ -166,7 +182,7 @@
                der für sein<note corresp="#IV_38-23">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002703">
-                        <persName> Johann Siegfried Wilhelm <name type="reg">Mayer</name>
+                        <persName>Johann Siegfried Wilhelm <name type="reg">Mayer</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -176,8 +192,7 @@
                danken werde. Ich hoffe, der Vater<note corresp="#IV_38-25">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009463">
-                        <author>Reichardt, Johann Friedrich (1752-1814), Komponist und
-                           Schriftsteller</author>
+                        <author>Reichardt, Johann Friedrich (1752–1814)</author>
                         <title>Die Geisterinsel (1800)</title>
                      </bibl>
                   </listBibl>
@@ -189,7 +204,7 @@
             <p>N. S. Das Buch ist für den Vater.<note corresp="#IV_38-30">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002703">
-                        <persName> Johann Siegfried Wilhelm <name type="reg">Mayer</name>
+                        <persName>Johann Siegfried Wilhelm <name type="reg">Mayer</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -200,7 +215,7 @@
          <div type="comment">
             <p>
                <hi rendition="#aq">
-                  <hi rendition="#i">H</hi>: Goethe- u. Schiller-Archiv. 1 S. 4°. <hi rendition="#i">J</hi>: Denkw. 2,88×. <hi rendition="#i">A</hi>: IV. Abt., IV, Nr. 84.<lb/>
+                  <hi rendition="#i">H</hi>: Goethe- u. Schiller-Archiv. 1 S. 4°. <hi rendition="#i">J</hi>: Denkw. 2,88×. <hi rendition="#i">A</hi>: IV. Abt., 4, Nr. 84.<lb/>
                   <hi rendition="#b">38</hi>, <hi rendition="#rkd">15</hi>
                   <hi rendition="#i">Md.</hi>] aus</hi> der <hi rendition="#rkd">20 </hi>2] <hi rendition="#aq">davor gestr.</hi> einigen <hi rendition="#rkd">23</hi> sein] <hi rendition="#aq">aus</hi> dieses <hi rendition="#rkd">31 </hi>Vi<lb rendition="#hyphen"/>sittenstube] <hi rendition="#aq">davor gestr.</hi>
                Antichamb</p>

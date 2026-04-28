@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="501">489. An Karoline Herder. </title>
+            <title n="print" type="letter" rend="489">489. An Karoline Herder. </title>
             <title n="digital">Von Jean Paul an Caroline Herder. Weimar, Juli 1800.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
+               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
                <biblScope n="text" unit="page">
                   <num>354</num>
                </biblScope>
@@ -77,20 +77,35 @@
             </msDesc>
             <listPerson type="commentary">
                <person corresp="#JP-003737">
-                  <persName> Friedrich (ab 1802) von <name type="reg">Schiller</name>
+                  <persName>Friedrich (ab 1802) von <name type="reg">Schiller</name>
                   </persName>
                </person>
             </listPerson>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date notBefore="1800-07-01" notAfter="1800-07-31">Juli 1800</date>
                <placeName key="JP-006395">Weimar</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-001670">Caroline (von) Herder</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB1403"/><ptr type="next" subtype="brief" target="III_481"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="III_480"/><ptr type="next" subtype="brief" target="III_481"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="III_464"/><ptr type="next" subtype="brief" target="III_530"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-001670">Caroline Herder</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB1403"/>
+               <ptr type="next" subtype="anbrief" target="IV-III.2_410"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="III_480"/>
+               <ptr type="next" subtype="brief" target="III_481"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-III.2_379"/>
+               <ptr type="next" subtype="anbrief" target="IV-III.2_411"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -108,13 +123,13 @@
                   französische<note corresp="#III_354-9">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002007" ana="†">
-                        <persName> Charlotte von <name type="reg">Kalb</name>
+                        <persName>Charlotte von <name type="reg">Kalb</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listPlace type="lineReference">
-                     <place corresp="#JP-00574612">
-                        <placeName>Sprache, Stil, Schrift; Frankreich, französisch</placeName>
+                     <place corresp="#JP-011310">
+                        <placeName>Sprache, Stil, Schrift</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -128,7 +143,7 @@
                   deren<note corresp="#III_354-13">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001059" ana="†">
-                        <persName> Caroline Henriette Susanne Friederike von <name type="reg">Feuchtersleben</name>
+                        <persName>Caroline von <name type="reg">Feuchtersleben</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -138,7 +153,7 @@
                Wachsbild, gegen<lb n="15" xml:id="III_354-15"/>dessen Austauschung ich unserem <hi rendition="#aq">Herder</hi> das Pastelgemälde gegeben,<note corresp="#III_354-16">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001675">
-                        <persName> Johann Gottfried von <name type="reg">Herder</name>
+                        <persName>Johann Gottfried von <name type="reg">Herder</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -152,7 +167,7 @@
                <note corresp="#III_354-20">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001675" ana="†">
-                        <persName> Johann Gottfried von <name type="reg">Herder</name>
+                        <persName>Johann Gottfried von <name type="reg">Herder</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -176,11 +191,16 @@
          <div type="comment">
             <p>
                <hi rendition="#aq">
-                  <hi rendition="#i">H</hi>: Goethe- u. Schiller-Archiv. 1 S. 4°. <hi rendition="#i">J</hi>: Herders Nachlaß Nr. 33<lb/>(Aug. 1800). <hi rendition="#i">A</hi>: IV.
-                  Abt., III.1, Nr.</hi>
+                  <hi rendition="#i">H</hi>: Goethe- u. Schiller-Archiv. 1 S. 4°. <hi rendition="#i">J</hi>: Herders Nachlaß Nr. 33<lb/>(Aug. 1800). <hi rendition="#i">A</hi>: IV. Abt., 3.1, Nr.</hi>
                <hi rendition="#aq">411. </hi>
                <ref target="#p354_l15">
-                  <hi rendition="#b"><hi rendition="#aq">354</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">15</hi></hi>
+                  <hi rendition="#b">
+                     <hi rendition="#aq">354</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">15</hi>
+                  </hi>
                </ref> ihr] <hi rendition="#aq">aus</hi> das <hi rendition="#rkd">21</hi> wenden] <hi rendition="#aq">aus</hi> abwenden<lb/>
             </p>
             <p>
@@ -196,7 +216,13 @@
                   Aussöhnung mit ihrem<lb/>Mann, wenn Jean Paul selber dieser nicht ausweiche.
                   (Vgl.</hi>
                <ref target="#p376_l12">
-                  <hi rendition="#b"><hi rendition="#aq">376</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">12</hi></hi>
+                  <hi rendition="#b">
+                     <hi rendition="#aq">376</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">12</hi>
+                  </hi>
                </ref>
                <hi rendition="#rkd">
                   <hi rendition="#aq">—16</hi>

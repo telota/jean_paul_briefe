@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="101">100. An Emanuel. </title>
-            <title n="digital">Von Jean Paul an Emanuel. Bayreuth, 19. Mai 1809.</title>
+            <title n="print" type="letter" rend="100">100. An Emanuel. </title>
+            <title n="digital">Von Jean Paul an Emanuel. Bayreuth, 19. Mai 1809, Freitag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>34</num></biblScope><biblScope n="comment" unit="page"><num>438</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>34</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>438</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1809-05-19">19. Mai 1809</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-003087">Emanuel Osmund</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_99"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0899"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_99"/><ptr type="next" subtype="brief" target="VI_101"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_99"/><ptr type="next" subtype="brief" target="VI_106"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000941">Emanuel</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB1869"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB1870"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_99"/>
+               <ptr type="next" subtype="brief" target="VI_101"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_99"/>
+               <ptr type="next" subtype="brief" target="VI_106"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -93,11 +116,11 @@
                Kopulier-Band! So gehts allen<note corresp="#VI_34-16">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004275" ana="†">
-                        <persName> Paul Emile <name type="reg">Thieriot</name>
+                        <persName>Paul Emile <name type="reg">Thieriot</name>
                         </persName>
                      </person>
                      <person corresp="#JP-004277" ana="†">
-                        <persName> Eva <name type="reg">Thieriot</name>
+                        <persName>Eva <name type="reg">Thieriot</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -106,7 +129,7 @@
                einem Paar Tausend kann<note corresp="#VI_34-17">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001353">
-                        <persName> Johann Wolfgang von <name type="reg">Goethe</name>
+                        <persName>Johann Wolfgang von <name type="reg">Goethe</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -115,7 +138,7 @@
                <metamark>[</metamark>!<metamark>]</metamark> Frau — nächstens<note corresp="#VI_34-19">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001352">
-                        <persName> Christiane <name type="reg">Goethe</name>
+                        <persName>Christiane <name type="reg">Goethe</name>
                         </persName>
                      </person>
                   </listPerson>

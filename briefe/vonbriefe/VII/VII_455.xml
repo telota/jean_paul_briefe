@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="459">455. An Heinrich Voß in Heidelberg. </title>
-            <title n="digital">Von Jean Paul an Heinrich Voß. Bayreuth, 24. August 1818.</title>
+            <title n="print" type="letter" rend="455">455. An Heinrich Voß in Heidelberg. </title>
+            <title n="digital">Von Jean Paul an Heinrich Voß. Bayreuth, 24. August 1818, Montag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
+               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
                <biblScope n="text" unit="page">
                   <num>226</num>
                </biblScope>
@@ -76,25 +76,40 @@
             </msDesc>
             <listPerson type="commentary">
                <person corresp="#JP-003469">
-                  <persName> Caroline <name type="reg">Richter</name>
+                  <persName>Caroline <name type="reg">Richter</name>
                   </persName>
                </person>
                <person corresp="#JP-003657">
-                  <persName> Karl Ludwig <name type="reg">Sand</name>
+                  <persName>Karl Ludwig <name type="reg">Sand</name>
                   </persName>
                </person>
             </listPerson>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1818-08-24">24. August 1818</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-004520">Heinrich Voß</persName>
                <placeName key="JP-005819">Heidelberg</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VII_454"/><ptr type="next" subtype="umfeldbrief" target="JP-UB1354"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VII_454"/><ptr type="next" subtype="brief" target="VII_456"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VII_449"/><ptr type="next" subtype="brief" target="VII_456"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-VII_144"/>
+               <ptr type="next" subtype="anbrief" target="IV-VII_145"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VII_454"/>
+               <ptr type="next" subtype="brief" target="VII_456"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VII_449"/>
+               <ptr type="next" subtype="brief" target="VII_456"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -112,7 +127,7 @@
             <p>Mein geliebter Heinrich! De Wette mit einem philosophischen<note corresp="#VII_226-26">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000760" ana="†">
-                        <persName> Wilhelm Martin Leberecht <name type="reg">De Wette</name>
+                        <persName>Wilhelm Martin Leberecht <name type="reg">De Wette</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -121,7 +136,7 @@
                Fußreise bei mir und fürchtet,<note corresp="#VII_226-27">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002101" ana="?†">
-                        <persName> Johann Gottfried Karl Christian <name type="reg">Kiesewetter</name>
+                        <persName>Johann Gottfried Karl Christian <name type="reg">Kiesewetter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -130,7 +145,7 @@
                   Verfehlen<note corresp="#VII_226-28">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004524">
-                        <persName> Johann Heinrich <name type="reg">Voß</name>
+                        <persName>Johann Heinrich <name type="reg">Voß</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -139,17 +154,20 @@
                an dich<lb xml:id="VII_226-29"/> — über euern herrlichen <hi rendition="#aq">Shakspeare</hi> — über deine Perspektiv Fragen<note corresp="#VII_226-30">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009999">
-                        <author>Voß, Johann Heinrich (1751-1826), Dichter und Übersetzer</author>
-                        <title>Shakespeare-Übersetzung (begonnen von Heinrich und Abraham Voß,
-                           fortgesetzt von diesen und Johann Heinrich Voß 1810-1815,
-                           1818-1829)</title>
+                        <author>Voß, Heinrich, Abraham Voß und Johann Heinrich Voß</author>
+                        <title>Shakespeare-Übersetzung, begonnen von Heinrich und Abraham Voß
+                        (Schauspiele von
+                        William<?oxy_comment_start author="roelcke" timestamp="20220613T173313+0100" comment="Doppelung mit Eintrag weiter oben: Wilh. Shakespeare’s (von Schlegel noch nicht übersetzte) Schauspiele (3 Bde., Tübingen: Cotta 1810-1815)"?>
+                        Shakspeare, 3 Bde., Tübingen: Cotta 1810–1815<?oxy_comment_end?>);
+                        fortgesetzt von diesen und Johann Heinrich Voß (Shakspeare's Schauspiele, 9
+                        Bde., Leipzig/Stuttgart: Brockhaus und Metzler 1818–1829)</title>
                      </bibl>
                   </listBibl>
                </note>
                <lb n="30" xml:id="VII_226-30"/> — über <hi rendition="#aq">Saula</hi> oder <hi rendition="#aq">Saulina</hi> — und über alles Übrige deiner Briefe.<note corresp="#VII_226-31">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003172">
-                        <persName> Sophie <name type="reg">Paulus</name>
+                        <persName>Sophie <name type="reg">Paulus</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -174,7 +192,13 @@
                <hi rendition="#aq">Bräun<lb rendition="#hyphen"/>liches Papier. <hi rendition="#i">K</hi>
                   <hi rendition="#sup">1</hi> (von Karolinens Hand): Berlin JP. <hi rendition="#i">K</hi>
                   <hi rendition="#sup">2</hi> (von fremder<lb/> Hand): Landesbibl. Eutin.</hi>
-               <hi rendition="#b"><hi rendition="#aq">226</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">28</hi></hi> Verfehlen] <hi rendition="#aq">aus</hi> Mislingen <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">226</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">28</hi>
+               </hi> Verfehlen] <hi rendition="#aq">aus</hi> Mislingen <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
             </p>

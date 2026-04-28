@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="260">*259. An Ernst Wagner in Meiningen. </title>
-            <title n="digital">Von Jean Paul an Johann Ernst Wagner. Bayreuth, 22. April 1810.</title>
+            <title n="print" type="letter" rend="259">*259. An Ernst Wagner in Meiningen. </title>
+            <title n="digital">Von Jean Paul an Johann Ernst Wagner. Bayreuth, 22. April 1810, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,16 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>100</num></biblScope><biblScope n="comment" unit="page"><num>467</num><num>468</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>100</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>467</num>
+                  <num>468</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -70,14 +79,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1810-04-22">22. April 1810</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-004556">Johann Ernst Wagner</persName>
                <placeName key="JP-006012">Meiningen</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_258"/><ptr type="next" subtype="brief" target="VI_260"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_258"/><ptr type="next" subtype="brief" target="VI_260"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_213"/><ptr type="next" subtype="brief" target="VI_447"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_258"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_73"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_258"/>
+               <ptr type="next" subtype="brief" target="VI_260"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_72"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_106"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -105,16 +129,18 @@
             <p>Für Ihre empfangenen Bücher danke ich herzlich. Über den Titel<note corresp="#VI_100-21">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010015">
-                        <author>Wagner, Johann Ernst (1769-1812), Romanschriftsteller</author>
-                        <title>Ferdinand Miller (1809)</title>
+                        <author>Wagner, Johann Ernst (1769–1812)</author>
+                        <title>Ferdinand Miller (Tübingen: Cotta 1809)</title>
                      </bibl>
                      <bibl corresp="#JP-010016" ana="†">
-                        <author>Wagner, Johann Ernst (1769-1812), Romanschriftsteller</author>
-                        <title>Historisches Abc (1810)</title>
+                        <author>Wagner, Johann Ernst (1769–1812)</author>
+                        <title>Historisches ABC eines vierzigjährigen Hennebergischen Fiebelschützen
+                        (Tübingen: Cotta 1810)</title>
                      </bibl>
                      <bibl corresp="#JP-010019">
-                        <author>Wagner, Johann Ernst (1769-1812), Romanschriftsteller</author>
-                        <title>Reisen aus der Fremde in die Heimat (1808)</title>
+                        <author>Wagner, Johann Ernst (1769–1812)</author>
+                        <title>Reisen aus der Fremde in die Heimath (2 Bde., Bd. 1: Hildburghausen:
+                        Hanisch 1808; Bd. 2: Tübingen: Cotta 1809)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -122,8 +148,7 @@
                   noch<note corresp="#VI_100-22">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000698">
-                        <persName> Johann Friedrich Freiherr <name type="reg">Cotta von
-                              Cottendorf</name>
+                        <persName>Johann Friedrich von <name type="reg">Cotta</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -137,7 +162,7 @@
             <p>Über die „Wahlverwandtschaften“ bin ich ganz Ihrer Meinung;<note corresp="#VI_100-27">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008543" ana="†">
-                        <author>Goethe, Johann Wolfgang von (1749-1832)</author>
+                        <author>Goethe, Johann Wolfgang von (1749–1832)</author>
                         <title>Die Wahlverwandtschaften (1809)</title>
                      </bibl>
                   </listBibl>
@@ -148,8 +173,7 @@
             <p>Gegrüßt sei der alte hohe Ritter Truchseß — dann alles was den<note corresp="#VI_100-30">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004347">
-                        <persName> Christian Freiherr <name type="reg">Truchsess von
-                              Wetzhausen</name>
+                        <persName>Christian Freiherr <name type="reg">Truchsess von Wetzhausen</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -158,8 +182,7 @@
                   Festtagen<note corresp="#VI_100-31">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001601">
-                        <persName>
-                           <name type="reg">Heim</name>
+                        <persName>Familie <name type="reg">Heim</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -168,7 +191,8 @@
                   ich<note corresp="#VI_100-32">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002546" ana="†">
-                        <persName> Eleonore <name type="reg">Luise</name>
+                        <persName>
+                           <name type="reg">Luise Eleonore, Herzogin von Meiningen</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -182,7 +206,8 @@
                   zweiten<note corresp="#VI_100-33">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001289">
-                        <persName> Herzog von Sachsen-Meiningen <name type="reg">Georg I.</name>
+                        <persName>
+                           <name type="reg">Georg I., Herzog von Sachsen-Meiningen</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -202,10 +227,15 @@
                   <hi rendition="#i">K</hi>: <hi rendition="#i">Wagner 22 Apr. J</hi>
                   <hi rendition="#sup">1</hi>: Mosengeil Nr. 10×. *<hi rendition="#i">J</hi>
                   <hi rendition="#sup">2</hi>: Denkw. 3, 216.<lb/>
-                  <hi rendition="#i">B</hi>: IV. Abt., VI, Nr. 72. <hi rendition="#i">A</hi>: IV.
-                  Abt., VI, Nr.</hi>
+                  <hi rendition="#i">B</hi>: IV. Abt., 6, Nr. 72. <hi rendition="#i">A</hi>: IV. Abt., 6, Nr.</hi>
                <hi rendition="#aq">106? </hi>
-               <hi rendition="#b"><hi rendition="#aq">100</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">15</hi></hi> Wunder-Arzenei] <hi rendition="#aq">so <hi rendition="#i">K</hi>,</hi> Wundarznei<lb/>
+               <hi rendition="#b">
+                  <hi rendition="#aq">100</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">15</hi>
+               </hi> Wunder-Arzenei] <hi rendition="#aq">so <hi rendition="#i">K</hi>,</hi> Wundarznei<lb/>
                <lb/>
                <hi rendition="#aq">
                   <hi rendition="#i">J</hi>

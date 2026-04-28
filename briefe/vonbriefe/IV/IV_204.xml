@@ -2,9 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="210">204. An Karoline Herder. </title>
-            <title n="digital">Von Jean Paul an Caroline Herder. Meiningen, 22. Oktober 1801 bis 2. November
-               1801.</title>
+            <title n="print" type="letter" rend="204">204. An Karoline Herder. </title>
+            <title n="digital">Von Jean Paul an Caroline von Herder. Meiningen, 22. Oktober bis 2. November 1801.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -46,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +60,11 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"/><biblScope n="comment" unit="page"/></bibl>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page"/>
+               <biblScope n="comment" unit="page"/>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -75,16 +78,31 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date corresp="writingSession1" when="1801-10-22">22. Oktober 1801</date>
                <date corresp="writingSession2" when="1801-11-01">1. November 1801</date>
                <date corresp="writingSession3" when="1801-11-02">2. November 1801</date>
                <placeName key="JP-006012">Meiningen
                </placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-001670">Caroline (von) Herder</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="IV_202"/><ptr type="next" subtype="brief" target="IV_18-fb"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="IV_202"/><ptr type="next" subtype="brief" target="IV_18-fb"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="IV_152"/><ptr type="next" subtype="brief" target="IV_210"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-001670">Caroline von Herder</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB0185"/>
+               <ptr type="next" subtype="brief" target="IV_18-fb"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="IV_202"/>
+               <ptr type="next" subtype="brief" target="IV_18-fb"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB0185"/>
+               <ptr type="next" subtype="anbrief" target="IV-IV_186"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -107,10 +125,10 @@
                      die<note corresp="#IV_112-15">
                      <listPlace type="lineReference">
                         <place corresp="#JP-005574">
-                           <placeName>Bayreuth (Stadt)</placeName>
+                           <placeName>Bayreuth </placeName>
                         </place>
-                        <place corresp="#JP-0057390">
-                           <placeName>Franken; Franken</placeName>
+                        <place corresp="#JP-005739">
+                           <placeName>Franken</placeName>
                         </place>
                         <place corresp="#JP-005896">
                            <placeName>Kassel </placeName>
@@ -122,7 +140,7 @@
                   daraus abgeschiedener Geist fort<note corresp="#IV_112-17">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001676">
-                           <persName> Johann Gottfried von <name type="reg">Herder</name>
+                           <persName>Johann Gottfried von <name type="reg">Herder</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -131,7 +149,7 @@
                   Promozion Ihres Oekonomen und<note corresp="#IV_112-18">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001665">
-                           <persName> Adelbert <name type="reg">Herder</name>
+                           <persName>Adelbert von <name type="reg">Herder</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -141,7 +159,7 @@
                   algemeiner Enthusiasmus mir<note corresp="#IV_112-20">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-008689" ana="†">
-                           <author>Herder, Johann Gottfried (seit 1801) von (1744-1803)</author>
+                           <author>Herder, Johann Gottfried von (1744–1803)</author>
                            <title>Eloise (1801)</title>
                         </bibl>
                      </listBibl>
@@ -150,8 +168,8 @@
                   suchte; denn ich bekomm’<lb xml:id="IV_112-21"/>es erst. Wenn nimt die <hi rendition="#aq">Adrastea</hi> ihre Diamantenwage wieder? —<note corresp="#IV_112-22">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-008680">
-                           <author>Herder, Johann Gottfried (seit 1801) von (1744-1803)</author>
-                           <title>Adrastea (1801-1803)</title>
+                           <author>Herder, Johann Gottfried von (1744–1803)</author>
+                           <title>Adrastea (1801–1803)</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -181,7 +199,7 @@
                      pro<note corresp="#IV_112-30">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-008689">
-                           <author>Herder, Johann Gottfried (seit 1801) von (1744-1803)</author>
+                           <author>Herder, Johann Gottfried von (1744–1803)</author>
                            <title>Eloise (1801)</title>
                         </bibl>
                      </listBibl>
@@ -191,8 +209,7 @@
                   plutarchischen Lineamenten — die sie und das Ideal weib<note corresp="#IV_112-32">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-009418">
-                           <author>Plutarch (um 46 - um 120 n. Chr.), Biograph und akademischer
-                              Philosoph</author>
+                           <author>Plutarch (um 46–um 120 n. Chr.)</author>
                            <title>Biographien</title>
                         </bibl>
                      </listBibl>
@@ -205,7 +222,7 @@
                   von dieser Wahr- und<note corresp="#IV_113-3">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003469">
-                           <persName> Caroline <name type="reg">Richter</name>
+                           <persName>Caroline <name type="reg">Richter</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -223,7 +240,8 @@
                <p>Gestern fand ich bei dem Herzog in der Zeitung die Standes<note corresp="#IV_113-6">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001289">
-                           <persName> Herzog von Sachsen-Meiningen <name type="reg">Georg I.</name>
+                           <persName>
+                              <name type="reg">Georg I., Herzog von Sachsen-Meiningen</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -232,7 +250,7 @@
                   der den bösen römischen<note corresp="#IV_113-7">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001675" ana="†">
-                           <persName> Johann Gottfried von <name type="reg">Herder</name>
+                           <persName>Johann Gottfried von <name type="reg">Herder</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -249,12 +267,12 @@
                   Glükwunsch dem Churfürsten und<note corresp="#IV_113-10">
                      <listPerson type="lineReference">
                         <person corresp="#JP-002149" ana="†">
-                           <persName> Karl Ludwig von <name type="reg">Knebel</name>
+                           <persName>Karl Ludwig von <name type="reg">Knebel</name>
                            </persName>
                         </person>
                         <person corresp="#JP-002694" ana="†">
                            <persName>
-                              <name type="reg">Maximilian IV. Joseph</name>
+                              <name type="reg">Maximilian I. Joseph, König von Bayern</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -264,11 +282,11 @@
                      <listPerson type="lineReference">
                         <person corresp="#JP-001546">
                            <persName>
-                              <name type="reg">Harpyien </name>
+                              <name type="reg">Harpyien</name>
                            </persName>
                         </person>
                         <person corresp="#JP-004445" ana="†">
-                           <persName> Carl Friedrich Wilhelm Freiherr von <name type="reg">Voelderndorff und Waradein</name>
+                           <persName>Carl Friedrich Wilhelm Freiherr von <name type="reg">Voelderndorff und Waradein</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -277,7 +295,7 @@
                      überzeugen,<note corresp="#IV_113-12">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001347" ana="†">
-                           <persName> Johann Eustachius Graf von Schlitz, gen. von Goertz <name type="reg">Goertz</name>
+                           <persName>Johann Eustachius Graf von Schlitz, gen. <name type="reg">Goertz</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -285,9 +303,8 @@
                   <lb xml:id="IV_113-12"/>was ich Sie so oft versicherte, daß nämlich ganz
                   Deutschland ein<note corresp="#IV_113-13">
                      <listPlace type="lineReference">
-                        <place corresp="#JP-0056690">
-                           <placeName>Deutsche; Deutschland , deutsch , Germanien,
-                              Vaterland</placeName>
+                        <place corresp="#JP-011167">
+                           <placeName>Deutsche</placeName>
                         </place>
                      </listPlace>
                   </note>
@@ -301,7 +318,7 @@
                      ist<note corresp="#IV_113-20">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003469">
-                           <persName> Caroline <name type="reg">Richter</name>
+                           <persName>Caroline <name type="reg">Richter</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -323,15 +340,15 @@
                   Maier (der <hi rendition="#g">so</hi> malt wie der<note corresp="#IV_113-29">
                      <listPerson type="lineReference">
                         <person corresp="#JP-000559">
-                           <persName> Friedrich <name type="reg">Bury</name>
+                           <persName>Friedrich <name type="reg">Bury</name>
                            </persName>
                         </person>
                         <person corresp="#JP-001542">
-                           <persName> Emilie Dorothea Friederike <name type="reg">Harmes</name>
+                           <persName>Emilie <name type="reg">Harmes</name>
                            </persName>
                         </person>
                         <person corresp="#JP-002587" ana="†">
-                           <persName> Friedrich <name type="reg">Majer</name>
+                           <persName>Friedrich <name type="reg">Majer</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -340,7 +357,7 @@
                      seinen<note corresp="#IV_113-30">
                      <listPerson type="lineReference">
                         <person corresp="#JP-002805">
-                           <persName> Heinrich <name type="reg">Meyer</name>
+                           <persName>Heinrich <name type="reg">Meyer</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -357,7 +374,7 @@
                   — Friede sei und<note corresp="#IV_113-33">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001909">
-                           <persName> Friedrich Heinrich <name type="reg">Jacobi</name>
+                           <persName>Friedrich Heinrich <name type="reg">Jacobi</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -374,11 +391,11 @@
                   viel und bin<lb xml:id="IV_113-34"/> doch gesünder, weil mich keine <hi rendition="#aq">Berliner-, Berlepschs-, Kalbs-</hi>Vor<note corresp="#IV_114-1">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001542">
-                           <persName> Emilie Dorothea Friederike <name type="reg">Harmes</name>
+                           <persName>Emilie <name type="reg">Harmes</name>
                            </persName>
                         </person>
                         <person corresp="#JP-002007">
-                           <persName> Charlotte von <name type="reg">Kalb</name>
+                           <persName>Charlotte von <name type="reg">Kalb</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -392,11 +409,11 @@
                   aus dem Herzen des Herzens<lb xml:id="IV_114-2"/>an unsern <hi rendition="#aq">primus acquirens</hi> — und an die Holde, die Tisch-Antipodin<note corresp="#IV_114-3">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001675">
-                           <persName> Johann Gottfried von <name type="reg">Herder</name>
+                           <persName>Johann Gottfried von <name type="reg">Herder</name>
                            </persName>
                         </person>
                         <person corresp="#JP-001678">
-                           <persName> Luise Theodora Emilie <name type="reg">Herder</name>
+                           <persName>Luise von <name type="reg">Herder</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -405,7 +422,7 @@
                      Denken<note corresp="#IV_114-4">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001677">
-                           <persName> Johann Gottfried von <name type="reg">Herder</name>
+                           <persName>Johann Gottfried von <name type="reg">Herder</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -430,10 +447,16 @@
                   <hi rendition="#i">Herder — J</hi>
                   <hi rendition="#sup">1</hi>: Herders Nachlaß<lb/>Nr. 43×. <hi rendition="#i">J</hi>
                   <hi rendition="#sup">2</hi>: Denkw. 3,86×. <hi rendition="#i">B</hi>
-                  <hi rendition="#sup">1</hi>: IV. Abt., IV, Nr. 158. <hi rendition="#i">B</hi>
-                  <hi rendition="#sup">2</hi>: IV. Abt., IV, Nr. 181. <hi rendition="#i">A</hi>:<lb/>IV. Abt., IV, Nr.</hi>
+                  <hi rendition="#sup">1</hi>: IV. Abt., 4, Nr. 158. <hi rendition="#i">B</hi>
+                  <hi rendition="#sup">2</hi>: IV. Abt., 4, Nr. 181. <hi rendition="#i">A</hi>:<lb/>IV. Abt., 4, Nr.</hi>
                <hi rendition="#aq"> 193. </hi>
-               <hi rendition="#b"><hi rendition="#aq">112</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">28</hi></hi> die] <hi rendition="#aq">aus</hi> und zugleich <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">112</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">28</hi>
+               </hi> die] <hi rendition="#aq">aus</hi> und zugleich <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">31</hi> ihr Kolorit] <hi rendition="#aq">aus</hi> das
@@ -498,7 +521,13 @@
                </hi>
                <hi rendition="#rkd">37</hi> kan] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">104</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">3</hi></hi> die Tisch-Antipodin]<lb/>
+               <hi rendition="#b">
+                  <hi rendition="#aq">104</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">3</hi>
+               </hi> die Tisch-Antipodin]<lb/>
                <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
                </hi>
             </p>

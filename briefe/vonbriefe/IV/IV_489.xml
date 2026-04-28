@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="496">489. An Thieriot. </title>
-            <title n="digital">Von Jean Paul an Paul Emile Thieriot. Coburg, 29. Juli 1804.</title>
+            <title n="print" type="letter" rend="489">489. An Thieriot. </title>
+            <title n="digital">Von Jean Paul an Paul Emile Thieriot. Coburg, 29. Juli 1804, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,11 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"/><biblScope n="comment" unit="page"/></bibl>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page"/>
+               <biblScope n="comment" unit="page"/>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +73,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1804-07-29">29. Juli 1804</date>
                <placeName key="JP-005649">Coburg </placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-004275">Paul Emile Thieriot</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="IV_488"/><ptr type="next" subtype="umfeldbrief" target="JP-UB1557"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="IV_488"/><ptr type="next" subtype="brief" target="IV_490"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="IV_436"/><ptr type="next" subtype="brief" target="V_11-fb"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="IV_488"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB1557"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="IV_488"/>
+               <ptr type="next" subtype="brief" target="IV_490"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-IV_337"/>
+               <ptr type="next" subtype="brief" target="V_11-fb"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -95,8 +114,8 @@
                abgeben werden; gewachsen sind Ihnen<note corresp="#IV_307-22">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003483">
-                        <persName> Johann Paul Friedrich <name type="reg">Richter</name>
-                        </persName>
+                        <persName>
+                           <name type="reg">Richter</name>, seine Kinder</persName>
                      </person>
                   </listPerson>
                </note>
@@ -105,7 +124,7 @@
                vernünftiges Wort<note corresp="#IV_307-24">
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010695">
-                        <title>Flegeljahre (1804-1805)</title>
+                        <title>Flegeljahre. Eine Biographie (4 Bde., Tübingen: Cotta 1804-1805)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -127,7 +146,7 @@
                   <listPerson type="lineReference">
                      <person corresp="#JP-002955">
                         <persName>
-                           <name type="reg">Napoleon I. Bonaparte</name>
+                           <name type="reg">Napoleon I. Bonaparte, Kaiser von Frankreich </name>
                         </persName>
                      </person>
                   </listPerson>
@@ -136,8 +155,8 @@
                   haben<lb xml:id="IV_308-4"/>werden. Freund, ist das nicht Revoluzion der
                Revoluzion? Denken<note corresp="#IV_308-5">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-00574611">
-                        <placeName>Revolution; Frankreich, französisch</placeName>
+                     <place corresp="#JP-011309">
+                        <placeName>Revolution</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -153,14 +172,15 @@
                <lb xml:id="IV_308-7"/>die Musik keine bessere Behandlung von ihm zu erwarten habe
                als die<lb xml:id="IV_308-8"/>Freiheit, dieß liegt wol in Reichards Briefen denk’ ich
                am Tage.<note corresp="#IV_308-9">
-               <listBibl type="lineReference" subtype="werke">
-                  <bibl corresp="#JP-009466" ana="†">
-                     <author>Reichardt, Johann Friedrich (1752-1814), Komponist und
-                        Schriftsteller</author>
-                     <title>Vertraute Briefe aus Paris (1804)</title>
-                  </bibl>
-               </listBibl>
-            </note><lb xml:id="IV_308-9"/></p>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009466" ana="†">
+                        <author>Reichardt, Johann Friedrich (1752–1814)</author>
+                        <title>Vertraute Briefe aus Paris (1804)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="IV_308-9"/>
+            </p>
             <p>Leb wol bis auf Wiedersehen.<lb n="10" xml:id="IV_308-10"/>
             </p>
             <closer>
@@ -208,7 +228,13 @@
                </hi>
                <hi rendition="#rkd">35</hi> oft] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">308</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">6</hi></hi> Thieriot,]<lb/>
+               <hi rendition="#b">
+                  <hi rendition="#aq">308</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">6</hi>
+               </hi> Thieriot,]<lb/>
                <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
                </hi> wol] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>,</hi> wohl <hi rendition="#aq">
                   <hi rendition="#i">K</hi>
@@ -223,7 +249,13 @@
             </p>
             <lb/>
             <p>
-               <hi rendition="#b"><hi rendition="#aq">308</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">9</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">308</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">9</hi>
+               </hi>
                <hi rendition="#aq">Joh. Friedr. <hi rendition="#g">Reichardt,</hi> Vertraute Briefe
                   aus Paris aus den<lb/>Jahren 1802 und 1803, Hamburg 1804, 2. Bd., S. 97ff.;
                   Exzerpte daraus<lb/>im 37. Bande.</hi>

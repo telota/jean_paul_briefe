@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" rend="86">*85. An Martin Hieronymus Hudtwalcker in Bamberg. </title>
-            <title n="digital">Von Jean Paul an Martin Hieronymus Hudtwalcker. Bayreuth, 30. April 1809.</title>
+            <title n="print" rend="85">*85. An Martin Hieronymus Hudtwalcker in Bamberg. </title>
+            <title n="digital">Von Jean Paul an Martin Hieronymus Hudtwalcker. Bayreuth, 30. April 1809, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,16 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>27</num></biblScope><biblScope n="comment" unit="page"><num>434</num><num>435</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>27</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>434</num>
+                  <num>435</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -70,14 +79,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1809-04-30">30. April 1809</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-001854">Martin Hieronymus Hudtwalcker</persName>
                <placeName key="JP-005561">Bamberg</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_84"/><ptr type="next" subtype="umfeldbrief" target="JP-UB1862"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_84"/><ptr type="next" subtype="brief" target="VI_86"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_84"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB1862"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_84"/>
+               <ptr type="next" subtype="brief" target="VI_86"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_22"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_25"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -96,8 +120,8 @@
             <lb xml:id="VI_27-17"/>
             <p>Ich hätte Ihnen gern früher geantwortet, wenn der Poststall —<note corresp="#VI_27-18">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-00557439">
-                        <placeName>Poststall; Bayreuth (Stadt)</placeName>
+                     <place corresp="#JP-011067">
+                        <placeName>Poststall</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -122,12 +146,14 @@
             </p>
             <lb xml:id="VI_27-26"/>
             <p>Ich wohne in der Friedrichsstraße No. 343.<note corresp="#VI_27-27">
-               <listPlace type="lineReference">
-                  <place corresp="#JP-00557422">
-                     <placeName>Friedrichstraße; Bayreuth (Stadt)</placeName>
-                  </place>
-               </listPlace>
-            </note><lb xml:id="VI_27-27"/></p>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-011049">
+                        <placeName>Friedrichstraße</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_27-27"/>
+            </p>
             <p>So erscheinen Sie denn; Ihr Blättchen hat mir viel Freude mit<lb xml:id="VI_27-28" rendition="#hyphen"/> gebracht.</p>
             <lb xml:id="VI_27-29"/>
             <p>Leben — d. h. <hi rendition="#g">fahren</hi> Sie wol von <hi rendition="#aq">Bamberg</hi> bis <hi rendition="#aq">Bayreuth</hi>
@@ -137,7 +163,7 @@
                         <placeName>Bamberg</placeName>
                      </place>
                      <place corresp="#JP-005574">
-                        <placeName>Bayreuth (Stadt)</placeName>
+                        <placeName>Bayreuth </placeName>
                      </place>
                   </listPlace>
                </note>
@@ -157,9 +183,15 @@
                   <hi rendition="#i">Hudtwalker</hi> [aus <hi rendition="#i">Stadtwalker</hi>]</hi>
                in <hi rendition="#aq">
                   <hi rendition="#i">Bamberg. *J</hi>: M. H.<lb/> Hudtwalcker, Ein halbes
-                  Jahrhundert meiner Lebensgeschichte, 1. Teil,<lb/> Hamburg 1862, S. 394. <hi rendition="#i">B</hi>: IV. Abt., VI, Nr.</hi>
+                  Jahrhundert meiner Lebensgeschichte, 1. Teil,<lb/> Hamburg 1862, S. 394. <hi rendition="#i">B</hi>: IV. Abt., 6, Nr.</hi>
                <hi rendition="#aq">22. </hi>
-               <hi rendition="#b"><hi rendition="#aq">27</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">23</hi></hi> ihre <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">27</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">23</hi>
+               </hi> ihre <hi rendition="#aq">
                   <hi rendition="#i">J</hi>
                </hi>
             </p>

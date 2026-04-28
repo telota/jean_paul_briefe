@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="265">259. An Thieriot. </title>
-            <title n="digital">Von Jean Paul an Paul Emile Thieriot. Meiningen, 30. März 1802.</title>
+            <title n="print" type="letter" rend="259">259. An Thieriot. </title>
+            <title n="digital">Von Jean Paul an Paul Emile Thieriot. Meiningen, 30. März 1802, Dienstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,11 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"/><biblScope n="comment" unit="page"/></bibl>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page"/>
+               <biblScope n="comment" unit="page"/>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,14 +73,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1802-03-30">30. März 1802</date>
                <placeName key="JP-006012">Meiningen
                </placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-004275">Paul Emile Thieriot</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="IV_258"/><ptr type="next" subtype="brief" target="IV_260"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="IV_258"/><ptr type="next" subtype="brief" target="IV_260"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="IV_247"/><ptr type="next" subtype="brief" target="IV_281"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="IV_258"/>
+               <ptr type="next" subtype="brief" target="IV_260"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="IV_258"/>
+               <ptr type="next" subtype="brief" target="IV_260"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="IV_247"/>
+               <ptr type="next" subtype="anbrief" target="IV-IV_227"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -100,7 +119,7 @@
                   den<note corresp="#IV_143-32">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002678">
-                        <persName> Carl August <name type="reg">Matzdorff </name>
+                        <persName>Carl <name type="reg">Matzdorff</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -109,18 +128,20 @@
                   haben<lb xml:id="IV_144-1"/>das i nicht in ihrem) darüber geben 3) und daß Sie
                Gott dafür danken.<lb xml:id="IV_144-2"/>Zu Ostern 1803 schliesset sich der
                Titan.<note corresp="#IV_144-3">
-               <listBibl type="lineReference" subtype="werke-jp">
-                  <bibl corresp="#JP-010897">
-                     <title>Titan (1800-1803)</title>
-                  </bibl>
-               </listBibl>
-            </note><lb xml:id="IV_144-3"/></p>
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010897">
+                        <title>Titan (1800-1803)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="IV_144-3"/>
+            </p>
             <p>
                <hi rendition="#aq">Emanuel</hi> wurde und machte 8 Tage hier froh und reiset morgen.
                   —<note corresp="#IV_144-4">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003087">
-                        <persName> Emanuel <name type="reg">Osmund</name>
+                        <persName>Emanuel <name type="reg">Osmund</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -129,8 +150,7 @@
                <note corresp="#IV_144-5">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009041" ana="†">
-                        <author>Küchelbecker, Friedrich Basilius August (1776-1814), Jurist und
-                           Schriftsteller</author>
+                        <author>Küchelbecker, Friedrich Basilius August (1776–1814)</author>
                         <title>Mein Leben auf Schulen und Universitäten (1802)</title>
                      </bibl>
                   </listBibl>
@@ -143,7 +163,7 @@
                   seyn müssen. Von Bayreuth aus will ich Ihnen meinen hiesigen<note corresp="#IV_144-8">
                      <listPlace type="lineReference">
                         <place corresp="#JP-005574">
-                           <placeName>Bayreuth (Stadt)</placeName>
+                           <placeName>Bayreuth </placeName>
                         </place>
                      </listPlace>
                   </note>
@@ -166,19 +186,27 @@
                      </listBibl>
                   </note>
                   <lb xml:id="IV_144-11"/>Drukfehler dem Verleger mit.<note corresp="#IV_144-12">
-                  <listPerson type="lineReference">
-                     <person corresp="#JP-002678">
-                        <persName> Carl August <name type="reg">Matzdorff </name>
-                        </persName>
-                     </person>
-                  </listPerson>
-               </note><lb xml:id="IV_144-12"/></p>
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002678">
+                           <persName>Carl <name type="reg">Matzdorff</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="IV_144-12"/>
+               </p>
             </postscript>
          </div>
          <div type="comment">
             <p>
                <hi rendition="#aq">
-                  <hi rendition="#i">H</hi>: Berlin Varnh. 213 (derzeit BJK). 1½ S. 8°. <hi rendition="#i">K</hi>:</hi> Thieriot 30 — <hi rendition="#b"><hi rendition="#aq">143</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">31</hi></hi> schmuzigen]<lb/>
+                  <hi rendition="#i">H</hi>: Berlin Varnh. 213 (derzeit BJK). 1½ S. 8°. <hi rendition="#i">K</hi>:</hi> Thieriot 30 — <hi rendition="#b">
+                  <hi rendition="#aq">143</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">31</hi>
+               </hi> schmuzigen]<lb/>
                <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
                </hi>
             </p>

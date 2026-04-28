@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="496">492. An Heinrich Voß in Heidelberg. </title>
-            <title n="digital">Von Jean Paul an Heinrich Voß. Bayreuth, 4. Januar 1819 bis 7. Januar 1819.</title>
+            <title n="print" type="letter" rend="492">492. An Heinrich Voß in Heidelberg. </title>
+            <title n="digital">Von Jean Paul an Heinrich Voß. Bayreuth, 4. Januar 1819, Montag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
+               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
                <biblScope n="text" unit="page">
                   <num>246</num>
                   <num>247</num>
@@ -80,24 +80,38 @@
             </msDesc>
             <listBibl type="commentary" subtype="werke">
                <bibl corresp="#JP-010130">
-                  <author>Wolke, Christian Heinrich (1741-1825), Pädagoge und
-                     Sprachreformer</author>
+                  <author>Wolke, Christian Heinrich (1741–1825)</author>
                   <title>Anleit zur deutschen Gesamtsprache (1812)</title>
                </bibl>
             </listBibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date corresp="writingsession1" when="1819-01-04">4. Januar 1819</date>
                <date corresp="writingsession2" when="1819-01-04">4. Januar 1819</date>
                <date corresp="writingsession3" when="1819-01-07">7. Januar 1819</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-004520">Heinrich Voß</persName>
                <placeName key="JP-005819">Heidelberg</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VII_491"/><ptr type="next" subtype="brief" target="VII_493"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VII_491"/><ptr type="next" subtype="brief" target="VII_493"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VII_476"/><ptr type="next" subtype="brief" target="VII_511"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VII_491"/>
+               <ptr type="next" subtype="anbrief" target="IV-VII_159"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VII_491"/>
+               <ptr type="next" subtype="brief" target="VII_493"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VII_EB_68"/>
+               <ptr type="next" subtype="anbrief" target="IV-VII_162"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -125,11 +139,11 @@
                   fesselt, oder daß die Deinigen auf<note corresp="#VII_246-25">
                      <listPerson type="lineReference">
                         <person corresp="#JP-004516">
-                           <persName> Ernestine <name type="reg">Voß</name>
+                           <persName>Ernestine <name type="reg">Voß</name>
                            </persName>
                         </person>
                         <person corresp="#JP-004524">
-                           <persName> Johann Heinrich <name type="reg">Voß</name>
+                           <persName>Johann Heinrich <name type="reg">Voß</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -139,7 +153,7 @@
                   Sophie Dapping, schreiben,<note corresp="#VII_246-27">
                      <listPerson type="lineReference">
                         <person corresp="#JP-000752">
-                           <persName> Sophie <name type="reg">Dapping</name>
+                           <persName>Sophie <name type="reg">Dapping</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -174,8 +188,8 @@
                   <lb xml:id="VII_247-7"/> Kleine Wetterstiche muß man in diesem winterlichen
                   Franken nicht<note corresp="#VII_247-8">
                      <listPlace type="lineReference">
-                        <place corresp="#JP-0057390">
-                           <placeName>Franken; Franken</placeName>
+                        <place corresp="#JP-005739">
+                           <placeName>Franken</placeName>
                         </place>
                      </listPlace>
                   </note>
@@ -184,10 +198,13 @@
                <p>Von deinem zweiten Bande des Shakespear’s ist mir noch nichts<note corresp="#VII_247-10">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-009999">
-                           <author>Voß, Johann Heinrich (1751-1826), Dichter und Übersetzer</author>
-                           <title>Shakespeare-Übersetzung (begonnen von Heinrich und Abraham Voß,
-                              fortgesetzt von diesen und Johann Heinrich Voß 1810-1815,
-                              1818-1829)</title>
+                           <author>Voß, Heinrich, Abraham Voß und Johann Heinrich Voß</author>
+                           <title>Shakespeare-Übersetzung, begonnen von Heinrich und Abraham Voß
+                        (Schauspiele von
+                        William<?oxy_comment_start author="roelcke" timestamp="20220613T173313+0100" comment="Doppelung mit Eintrag weiter oben: Wilh. Shakespeare’s (von Schlegel noch nicht übersetzte) Schauspiele (3 Bde., Tübingen: Cotta 1810-1815)"?>
+                        Shakspeare, 3 Bde., Tübingen: Cotta 1810–1815<?oxy_comment_end?>);
+                        fortgesetzt von diesen und Johann Heinrich Voß (Shakspeare's Schauspiele, 9
+                        Bde., Leipzig/Stuttgart: Brockhaus und Metzler 1818–1829)</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -195,7 +212,7 @@
                      unterschreib’<note corresp="#VII_247-11">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-008571">
-                           <author>Grillparzer, Franz</author>
+                           <author>Grillparzer, Franz (1791–1872)</author>
                            <title>Die Ahnfrau (1817)</title>
                         </bibl>
                      </listBibl>
@@ -217,7 +234,7 @@
                      Briefen<note corresp="#VII_247-17">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-009093" ana="†">
-                           <author>Lessing, Gotthold Ephraim (1729-1781)</author>
+                           <author>Lessing, Gotthold Ephraim (1729–1781)</author>
                            <title>Briefe antiquarischen Inhalts</title>
                         </bibl>
                      </listBibl>
@@ -226,9 +243,7 @@
                   Stelle aus Plinius wieder: <hi rendition="#aq">hircino<note corresp="#VII_247-18">
                         <listBibl type="lineReference" subtype="werke">
                            <bibl corresp="#JP-009415">
-                              <author>Plinius d. Ä. (Gaius Plinius Secundus Maior) (23/24-79
-                                 n.Chr.), röm. Verwaltungsmann, Naturforscher und
-                                 Schriftsteller</author>
+                              <author>Plinius d. Ä. (23/24–79 n.Chr.)</author>
                               <title>Naturalis historia</title>
                            </bibl>
                         </listBibl>
@@ -248,11 +263,11 @@
                   gestorben. Doch<note corresp="#VII_247-23">
                      <listPerson type="lineReference">
                         <person corresp="#JP-004516">
-                           <persName> Ernestine <name type="reg">Voß</name>
+                           <persName>Ernestine <name type="reg">Voß</name>
                            </persName>
                         </person>
                         <person corresp="#JP-004524">
-                           <persName> Johann Heinrich <name type="reg">Voß</name>
+                           <persName>Johann Heinrich <name type="reg">Voß</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -261,7 +276,7 @@
                      Schauspiels<note corresp="#VII_247-24">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003130" ana="†">
-                           <persName> Christian Adolf <name type="reg">Overbeck</name>
+                           <persName>Christian Adolf <name type="reg">Overbeck</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -278,10 +293,13 @@
                   länger dauern<note corresp="#VII_247-32">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-009999">
-                           <author>Voß, Johann Heinrich (1751-1826), Dichter und Übersetzer</author>
-                           <title>Shakespeare-Übersetzung (begonnen von Heinrich und Abraham Voß,
-                              fortgesetzt von diesen und Johann Heinrich Voß 1810-1815,
-                              1818-1829)</title>
+                           <author>Voß, Heinrich, Abraham Voß und Johann Heinrich Voß</author>
+                           <title>Shakespeare-Übersetzung, begonnen von Heinrich und Abraham Voß
+                        (Schauspiele von
+                        William<?oxy_comment_start author="roelcke" timestamp="20220613T173313+0100" comment="Doppelung mit Eintrag weiter oben: Wilh. Shakespeare’s (von Schlegel noch nicht übersetzte) Schauspiele (3 Bde., Tübingen: Cotta 1810-1815)"?>
+                        Shakspeare, 3 Bde., Tübingen: Cotta 1810–1815<?oxy_comment_end?>);
+                        fortgesetzt von diesen und Johann Heinrich Voß (Shakspeare's Schauspiele, 9
+                        Bde., Leipzig/Stuttgart: Brockhaus und Metzler 1818–1829)</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -311,16 +329,18 @@
                   </note>
                   <lb xml:id="VII_248-11" rendition="#hyphen"/>chen und Weimar schwank’ ich noch,
                   aber mit jenes Überschlag.<note corresp="#VII_248-12">
-                  <listPlace type="lineReference">
-                     <place corresp="#JP-006395">
-                        <placeName>Weimar</placeName>
-                     </place>
-                  </listPlace>
-               </note><lb xml:id="VII_248-12"/></p>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006395">
+                           <placeName>Weimar</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_248-12"/>
+               </p>
                <p>Deine Briefaushebung soll bald an deinen Abraham gelangen,<note corresp="#VII_248-13">
                      <listPerson type="lineReference">
                         <person corresp="#JP-004507">
-                           <persName> Abraham Sophus <name type="reg">Voß</name>
+                           <persName>Abraham <name type="reg">Voß</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -333,21 +353,20 @@
                      Mor<note corresp="#VII_248-15">
                      <listPerson type="lineReference">
                         <person corresp="#JP-000698">
-                           <persName> Johann Friedrich Freiherr <name type="reg">Cotta von
-                                 Cottendorf</name>
+                           <persName>Johann Friedrich von <name type="reg">Cotta</name>
                            </persName>
                         </person>
                      </listPerson>
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-010313">
                            <author/>
-                           <title>Morgenblatt für gebildete Stände (1807ff.)</title>
+                           <title> Morgenblatt für gebildete Stände (1807 ff.)</title>
                         </bibl>
                      </listBibl>
                      <listBibl type="lineReference" subtype="werke-jp">
                         <bibl corresp="#JP-010936">
                            <title>Über die deutschen Doppelwörter (1820) [Ueber das Zusammenfügen
-                              der deutschen Doppelwörter, 1818]</title>
+                        der deutschen Doppelwörter, 1818]</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -360,15 +379,11 @@
                <p>Mutter, Tochter und Vater Paulus grüße von mir recht herzlich<note corresp="#VII_248-20">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003171">
-                           <persName> Karoline <name type="reg">Paulus</name>
-                           </persName>
-                        </person>
-                        <person corresp="#JP-003170">
-                           <persName> Karoline <name type="reg">Paulus</name>, ihr Bruder
+                           <persName>Karoline <name type="reg">Paulus</name>
                            </persName>
                         </person>
                         <person corresp="#JP-003172">
-                           <persName> Sophie <name type="reg">Paulus</name>
+                           <persName>Sophie <name type="reg">Paulus</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -377,9 +392,8 @@
                   Kommentars so wie das<note corresp="#VII_248-21">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-009367">
-                           <author>Paulus, Heinrich Eberhard Gottlob (1761-1851), Professor der
-                              Theologie in Heidelberg</author>
-                           <title>Kommentar über das Neue Testament (1800ff.)</title>
+                           <author>Paulus, Heinrich Eberhard Gottlob (1761–1851)</author>
+                           <title>Kommentar über das Neue Testament (1800 ff.)</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -387,7 +401,7 @@
                   neuen Über<note corresp="#VII_248-22">
                      <listPerson type="lineReference">
                         <person corresp="#JP-002424">
-                           <persName> Gotthold Ephraim <name type="reg">Lessing</name>
+                           <persName>Gotthold Ephraim <name type="reg">Lessing</name>
                            </persName>
                         </person>
                         <person corresp="#JP-004359">
@@ -401,20 +415,19 @@
                   etc.etc. erbittern, wie es schon<note corresp="#VII_248-23">
                      <listPerson type="lineReference">
                         <person corresp="#JP-000073">
-                           <persName> Christoph Friedrich von <name type="reg">Ammon</name>
+                           <persName>Christoph Friedrich von <name type="reg">Ammon</name>
                            </persName>
                         </person>
                         <person corresp="#JP-001544">
-                           <persName> Klaus <name type="reg">Harms</name>
+                           <persName>Klaus <name type="reg">Harms</name>
                            </persName>
                         </person>
                         <person corresp="#JP-002022">
-                           <persName>
-                              <name type="reg">Kanne</name>
+                           <persName>Johann Arnold <name type="reg">Kanne</name>
                            </persName>
                         </person>
                         <person corresp="#JP-002021">
-                           <persName> Johann Arnold <name type="reg">Kanne</name>
+                           <persName>Johann Arnold <name type="reg">Kanne</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -424,13 +437,13 @@
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-010313">
                            <author/>
-                           <title>Morgenblatt für gebildete Stände (1807ff.)</title>
+                           <title> Morgenblatt für gebildete Stände (1807 ff.)</title>
                         </bibl>
                      </listBibl>
                      <listBibl type="lineReference" subtype="werke-jp">
                         <bibl corresp="#JP-010949">
                            <title>Unternacht-Gedanken über den magnetischen Weltkörper
-                              (1819)</title>
+                        (1819)</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -456,30 +469,34 @@
                      <listPerson type="lineReference">
                         <person corresp="#JP-002064">
                            <persName>
-                              <name type="reg">Katholiken </name>
+                              <name type="reg">Katholiken</name>
                            </persName>
                         </person>
                      </listPerson>
                   </note>
                   <lb xml:id="VII_248-27"/> armen Europa ersparet worden!<note corresp="#VII_248-28">
-                  <listPlace type="lineReference">
-                     <place corresp="#JP-005728">
-                        <placeName>Europa</placeName>
-                     </place>
-                  </listPlace>
-               </note><lb xml:id="VII_248-28"/></p>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005728">
+                           <placeName>Europa</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VII_248-28"/>
+               </p>
                <p>Lieber Heinrich, den größern Gefallen thätest du mir und den<lb xml:id="VII_248-29"/> Nichtlesern des Meßkatalogs, wenn du jetzo schon die
                   Anzeige des<lb n="30" xml:id="VII_248-30"/> neuen <hi rendition="#aq">Siebenkäs</hi> im Morgenblatte geben wolltest. Sie braucht ja<note corresp="#VII_248-31">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-010313">
                            <author/>
-                           <title>Morgenblatt für gebildete Stände (1807ff.)</title>
+                           <title> Morgenblatt für gebildete Stände (1807 ff.)</title>
                         </bibl>
                      </listBibl>
                      <listBibl type="lineReference" subtype="werke-jp">
                         <bibl corresp="#JP-010540">
-                           <title>Blumen- Frucht- und Dornenstükke (Blumen-, Frucht- und
-                              Dornenstücke) (Siebenkäs) (1796-97 [1796])</title>
+                           <title>Blumen- Frucht- und Dornenstükke (Blumen-, Frucht- und Dornenstücke)
+                        (Siebenkäs) oder Ehestand, Tod und Hochzeit des Armenadvokaten F. St.
+                        Siebenkäs im Reichsmarktflecken Kuhschnappel (Berlin, Matzdorff 1796-97
+                        [1796])</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -504,35 +521,37 @@
                   theuern Eltern, und Overbeck und die leidenden Schwarz und<note corresp="#VII_249-2">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003130">
-                           <persName> Christian Adolf <name type="reg">Overbeck</name>
+                           <persName>Christian Adolf <name type="reg">Overbeck</name>
                            </persName>
                         </person>
                         <person corresp="#JP-003945">
-                           <persName> Friedrich Heinrich Christian <name type="reg">Schwarz</name>
+                           <persName>Familie <name type="reg">Schwarz</name>
                            </persName>
                         </person>
                         <person corresp="#JP-004516">
-                           <persName> Ernestine <name type="reg">Voß</name>
+                           <persName>Ernestine <name type="reg">Voß</name>
                            </persName>
                         </person>
                         <person corresp="#JP-004524">
-                           <persName> Johann Heinrich <name type="reg">Voß</name>
+                           <persName>Johann Heinrich <name type="reg">Voß</name>
                            </persName>
                         </person>
                      </listPerson>
                   </note>
                   <lb xml:id="VII_249-2"/> Thiedemanns und alle übrigen, die mich gegrüßt.<note corresp="#VII_249-3">
-                  <listPerson type="lineReference">
-                     <person corresp="#JP-004308">
-                        <persName> Friedrich <name type="reg">Tiedemann</name>
-                        </persName>
-                     </person>
-                     <person corresp="#JP-004310">
-                        <persName> Jenny Rosa <name type="reg">Tiedemann</name>
-                        </persName>
-                     </person>
-                  </listPerson>
-               </note><lb xml:id="VII_249-3"/></p>
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-004308">
+                           <persName>Friedrich <name type="reg">Tiedemann</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-004310">
+                           <persName>Jenny Rosa <name type="reg">Tiedemann</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VII_249-3"/>
+               </p>
                <closer>
                   <salute>
                      <hi rendition="#right">Dein<lb xml:id="VII_249-4"/> alter<lb n="5" xml:id="VII_249-5"/> J. P. F. Richter</hi>
@@ -553,9 +572,15 @@
                   <hi rendition="#i">K</hi>
                   <hi rendition="#sup">2</hi> (von Karolinens Hand): Berlin JP. <hi rendition="#i">i</hi> (nach <hi rendition="#i">K</hi>
                   <hi rendition="#sup">2</hi>):<lb/> Wahrheit 8, 170×. <hi rendition="#i">J</hi>:
-                  Voß S. 66×. <hi rendition="#i">A</hi>: IV. Abt., VII, Nr.</hi>
+                  Voß S. 66×. <hi rendition="#i">A</hi>: IV. Abt., 7, Nr.</hi>
                <hi rendition="#aq">162. </hi>
-               <hi rendition="#b"><hi rendition="#aq">246</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">31</hi></hi> keine] nicht<lb/> die <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">246</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">31</hi>
+               </hi> keine] nicht<lb/> die <hi rendition="#aq">
                   <hi rendition="#i">K</hi>
                </hi>
                <hi rendition="#sup">1</hi>
@@ -563,7 +588,13 @@
                anderes <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">247</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">2</hi></hi> übertreten]<lb/> hinüber treten <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">247</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">2</hi>
+               </hi> übertreten]<lb/> hinüber treten <hi rendition="#aq">
                   <hi rendition="#i">K</hi>
                </hi>
                <hi rendition="#sup">1</hi>
@@ -582,7 +613,13 @@
                <hi rendition="#rkd">34</hi> weniger gut] <hi rendition="#aq">aus</hi> schlechter <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">248</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">1</hi></hi> im Vorsetzen] <hi rendition="#aq">aus</hi> in Zielen <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">248</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">1</hi>
+               </hi> im Vorsetzen] <hi rendition="#aq">aus</hi> in Zielen <hi rendition="#aq">
                   <hi rendition="#i">H</hi>,</hi>
                <lb/> im Zielen <hi rendition="#aq">
                   <hi rendition="#i">K</hi>
@@ -612,7 +649,13 @@
             </p>
             <lb/>
             <p>
-               <hi rendition="#b"><hi rendition="#aq">247</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">11</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">247</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">11</hi>
+               </hi>
                <hi rendition="#aq">
                   <hi rendition="#g">Ahnfrau:</hi> vgl. IV. Abt. (Br. an J. P.), VII, Nr. 151. <hi rendition="#rkd">16—19</hi> Vgl. <hi rendition="#b">162</hi>, <hi rendition="#rkd">19</hi>f.† ;<lb/> Lessings 32. Antiquarischer Brief; I. Abt.,
                   XV, 88, Fußnote. <hi rendition="#rkd">24 </hi>
@@ -623,7 +666,13 @@
                   <hi rendition="#b">231</hi>, <hi rendition="#rkd">32</hi>. Die von Wolke u.a.
                   gegründete berlinische <hi rendition="#g">Gesellschaft für<lb/> deutsche
                      Sprache</hi> hatte J. P. am 29. März 1816 zum korrespondie<lb rendition="#hyphen"/>renden Mitglied gewählt; vgl. <hi rendition="#b">256</hi>, <hi rendition="#rkd">16</hi>f. <hi rendition="#rkd">33</hi>f. <hi rendition="#g">Jubelsenior:</hi> vgl.</hi>
-               <hi rendition="#b"><hi rendition="#aq">257</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">37</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">257</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">37</hi>
+               </hi>
                <hi rendition="#aq">.</hi>
             </p>
             <lb/>

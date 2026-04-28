@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="618">617. An Charles de Villers in Lübeck. </title>
-            <title n="digital">Von Jean Paul an Charles Villers, de. Bayreuth, 25. Dezember 1808.</title>
+            <title n="print" type="letter" rend="617">617. An Charles de Villers in Lübeck. </title>
+            <title n="digital">Von Jean Paul an Charles de Villers. Bayreuth, 25. Dezember 1808, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
+               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
                <biblScope n="text" unit="page">
                   <num>253</num>
                   <num>254</num>
@@ -78,14 +78,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1808-12-25">25. Dezember 1808</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-004437">Charles de Villers</persName>
                <placeName key="JP-005977">Lübeck</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="V_77-fb"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0893"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="V_77-fb"/><ptr type="next" subtype="brief" target="V_618"/></correspContext><correspContext n="correspondence"><ptr type="next" subtype="brief" target="VI_231"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-V_AN_63"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB0893"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="V_77-fb"/>
+               <ptr type="next" subtype="brief" target="V_618"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="next" subtype="anbrief" target="IV-VI_7"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -101,13 +115,11 @@
             <lb xml:id="V_253-17"/>
             <p>Sie haben das Glück, von zweien sonst literarisch-entzweieten<note corresp="#V_253-18">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0057470" ana="ff">
-                        <placeName>(Gallier, Neufranken); Frankreich, Franzosen,
-                           französisch</placeName>
+                     <place corresp="#JP-011327" ana="ff">
+                        <placeName>(Gallier, Neufranken)</placeName>
                      </place>
-                     <place corresp="#JP-0056690" ana="ff">
-                        <placeName>Deutsche; Deutschland , deutsch , Germanien,
-                           Vaterland</placeName>
+                     <place corresp="#JP-011167" ana="ff">
+                        <placeName>Deutsche</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -122,7 +134,7 @@
                jetzt. <hi rendition="#aq">Mercier</hi> in<note corresp="#V_253-25">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002770">
-                        <persName> Louis Sébastien <name type="reg">Mercier</name>
+                        <persName>Louis Sébastien <name type="reg">Mercier</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -133,11 +145,11 @@
                      <place corresp="#JP-005715">
                         <placeName>England, englisch, Britannien</placeName>
                      </place>
-                     <place corresp="#JP-00571512">
-                        <placeName>Geschmack; England, englisch, Britannien</placeName>
+                     <place corresp="#JP-011240">
+                        <placeName>Geschmack</placeName>
                      </place>
-                     <place corresp="#JP-00571524">
-                        <placeName>Sprache, Stil; England, englisch, Britannien</placeName>
+                     <place corresp="#JP-011253">
+                        <placeName>Sprache, Stil</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -149,15 +161,15 @@
                   An<lb xml:id="V_253-32" rendition="#hyphen"/>sicht Ihrer Universitäten-Ansicht
                vorlege) ein solches Deutsch, daß<note corresp="#V_253-33">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0056716">
-                        <placeName>Sprache, Stil; Deutschland, deutsche</placeName>
+                     <place corresp="#JP-011188">
+                        <placeName>Sprache, Stil</placeName>
                      </place>
                   </listPlace>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009948">
-                        <author>Villers, Charles de (1765-1815), französisch-deutscher
-                           Schriftsteller</author>
-                        <title>Coup d’il sur les Universités de l’Allemagne (1808)</title>
+                        <author>Villers, Charles de (1765–1815), französisch-deutscher
+                        Schriftsteller</author>
+                        <title>Coup d'il sur les Universités de l'Allemagne (1808)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -166,14 +178,14 @@
             <p>Mir sind nur 3 Werke von Ihnen bekannt — über Reformazion,<note corresp="#V_254-1">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009948" ana="†">
-                        <author>Villers, Charles de (1765-1815), französisch-deutscher
-                           Schriftsteller</author>
-                        <title>Coup d’il sur les Universités de l’Allemagne (1808)</title>
+                        <author>Villers, Charles de (1765–1815), französisch-deutscher
+                        Schriftsteller</author>
+                        <title>Coup d'il sur les Universités de l'Allemagne (1808)</title>
                      </bibl>
                      <bibl corresp="#JP-009950">
-                        <author>Villers, Charles de (1765-1815), französisch-deutscher
-                           Schriftsteller</author>
-                        <title>Essay sur l’esprit de la Réformation de Luther (1804)</title>
+                        <author>Villers, Charles de (1765–1815), französisch-deutscher
+                        Schriftsteller</author>
+                        <title>Essai sur l'esprit de la Réformation de Luther (1804)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -181,8 +193,8 @@
                   hellen,<note corresp="#V_254-2">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009951">
-                        <author>Villers, Charles de (1765-1815), französisch-deutscher
-                           Schriftsteller</author>
+                        <author>Villers, Charles de (1765–1815), französisch-deutscher
+                        Schriftsteller</author>
                         <title>Lettre concernant les évènements à Lubek (1807)</title>
                      </bibl>
                   </listBibl>
@@ -207,11 +219,12 @@
                         </persName>
                      </person>
                      <person corresp="#JP-003250" ana="†">
-                        <persName> (Plato) <name type="reg">Platon</name>
+                        <persName>
+                           <name type="reg">Platon</name>
                         </persName>
                      </person>
                      <person corresp="#JP-004163" ana="†">
-                        <persName> Laurence (Pseudonym Yorick) <name type="reg">Sterne</name>
+                        <persName>Laurence <name type="reg">Sterne</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -225,13 +238,13 @@
                   Lübeks<note corresp="#V_254-16">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009950">
-                        <author>Villers, Charles de (1765-1815), französisch-deutscher
-                           Schriftsteller</author>
-                        <title>Essay sur l’esprit de la Réformation de Luther (1804)</title>
+                        <author>Villers, Charles de (1765–1815), französisch-deutscher
+                        Schriftsteller</author>
+                        <title>Essai sur l'esprit de la Réformation de Luther (1804)</title>
                      </bibl>
                      <bibl corresp="#JP-009951">
-                        <author>Villers, Charles de (1765-1815), französisch-deutscher
-                           Schriftsteller</author>
+                        <author>Villers, Charles de (1765–1815), französisch-deutscher
+                        Schriftsteller</author>
                         <title>Lettre concernant les évènements à Lubek (1807)</title>
                      </bibl>
                   </listBibl>
@@ -247,10 +260,15 @@
          <div type="comment">
             <p>
                <hi rendition="#aq">
-                  <hi rendition="#i">H</hi>: Stadtbibl. Hamburg (Campesche Sammlung). 4 S. 8°. <hi rendition="#i">K</hi>: <hi rendition="#i">Villers<lb/> Lubeck</hi> [!] <hi rendition="#i">25 Dec. i</hi>: Wahrheit 7,129. <hi rendition="#i">A</hi>: IV.
-                  Abt., VI, Nr.</hi>
+                  <hi rendition="#i">H</hi>: Stadtbibl. Hamburg (Campesche Sammlung). 4 S. 8°. <hi rendition="#i">K</hi>: <hi rendition="#i">Villers<lb/> Lubeck</hi> [!] <hi rendition="#i">25 Dec. i</hi>: Wahrheit 7,129. <hi rendition="#i">A</hi>: IV. Abt., 6, Nr.</hi>
                <hi rendition="#aq">7. </hi>
-               <hi rendition="#b"><hi rendition="#aq">253</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">18</hi></hi> zweien]<lb/>
+               <hi rendition="#b">
+                  <hi rendition="#aq">253</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">18</hi>
+               </hi> zweien]<lb/>
                <hi rendition="#aq">aus</hi> zwei <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
@@ -258,7 +276,13 @@
                wünsche <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">254</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">3</hi></hi> schlägt]<lb/>
+               <hi rendition="#b">
+                  <hi rendition="#aq">254</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">3</hi>
+               </hi> schlägt]<lb/>
                <hi rendition="#aq">davor gestr.</hi> ist und <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>

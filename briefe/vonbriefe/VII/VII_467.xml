@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="471">467. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, 17. Oktober 1818.</title>
+            <title n="print" type="letter" rend="467">467. An Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth, 17. Oktober 1818, Samstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
+               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
                <biblScope n="text" unit="page">
                   <num>234</num>
                </biblScope>
@@ -77,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1818-10-17">17. Oktober 1818</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB1700"/><ptr type="next" subtype="brief" target="VII_468"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VII_37-fb"/><ptr type="next" subtype="brief" target="VII_468"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VII_466"/><ptr type="next" subtype="brief" target="VII_471"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB1700"/>
+               <ptr type="next" subtype="anbrief" target="IV-VII_152"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VII_37-fb"/>
+               <ptr type="next" subtype="brief" target="VII_468"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VII_466"/>
+               <ptr type="next" subtype="brief" target="VII_471"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -101,7 +116,7 @@
             <p>Mein Alter! Eben komm’ ich von deinem Alten. Er allein gab<note corresp="#VII_234-3">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003106">
-                        <persName> Albrecht <name type="reg">Otto</name>
+                        <persName>Albrecht <name type="reg">Otto</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -109,15 +124,15 @@
                <lb xml:id="VII_234-3"/> mir die einzigen schönen Stunden in <hi rendition="#aq">Hof,</hi> gestern abends an seinem<note corresp="#VII_234-4">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005841">
-                        <placeName>Hof im Vogtland</placeName>
+                        <placeName>Hof</placeName>
                      </place>
                   </listPlace>
                </note>
                <lb xml:id="VII_234-4"/> Tische. Ich blieb im Gasthofe immer allein. Dank ihm und
                   seiner<note corresp="#VII_234-5">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0058419" ana="?">
-                        <placeName>Gasthof Brandenburgisches Haus; Hof im Vogtland</placeName>
+                     <place corresp="#JP-011430" ana="?">
+                        <placeName>Gasthof Brandenburgisches Haus</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -125,7 +140,7 @@
                Brühen-Meisterin noch<note corresp="#VII_234-6">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003122">
-                        <persName> Helene Maria <name type="reg">Otto</name>
+                        <persName>Helene Maria <name type="reg">Otto</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -134,7 +149,7 @@
                   alten<note corresp="#VII_234-7">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004845">
-                        <persName> Georg Wilhelm <name type="reg">Zelt</name>
+                        <persName>Georg Wilhelm <name type="reg">Zelt</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -143,7 +158,7 @@
                   gebacken,<note corresp="#VII_234-8">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004844">
-                        <persName> Georg Wilhelm <name type="reg">Zelt</name>
+                        <persName>Georg Wilhelm <name type="reg">Zelt</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -156,7 +171,13 @@
             <p>
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Berlin JP.</hi>
-               <hi rendition="#b"><hi rendition="#aq">234</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">6</hi></hi> Brühen-Meisterin] <hi rendition="#aq">davor gestr. <hi rendition="#i">Saucen</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">234</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">6</hi>
+               </hi> Brühen-Meisterin] <hi rendition="#aq">davor gestr. <hi rendition="#i">Saucen</hi>
                </hi>
             </p>
             <lb/>

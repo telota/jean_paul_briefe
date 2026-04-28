@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="461">454. An Emanuel. </title>
-            <title n="digital">Von Jean Paul an Emanuel. Coburg, 21. März 1804.</title>
+            <title n="print" type="letter" rend="454">454. An Emanuel. </title>
+            <title n="digital">Von Jean Paul an Emanuel. Coburg, 21. März 1804, Mittwoch.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,11 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"/><biblScope n="comment" unit="page"/></bibl>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page"/>
+               <biblScope n="comment" unit="page"/>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +73,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1804-03-21">21. März 1804</date>
                <placeName key="JP-005649">Coburg </placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-003087">Emanuel Osmund</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="IV_453"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0847"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="IV_453"/><ptr type="next" subtype="brief" target="IV_455"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="IV_452"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0699"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000941">Emanuel</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="IV_453"/>
+               <ptr type="next" subtype="anbrief" target="IV-IV_338"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="IV_453"/>
+               <ptr type="next" subtype="brief" target="IV_455"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="IV_452"/>
+               <ptr type="next" subtype="brief" target="IV_462"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -93,8 +112,7 @@
                <note corresp="#IV_284-20">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003462">
-                        <persName>
-                           <name type="reg">Rhamm</name>
+                        <persName>Herr von <name type="reg">Rhamm</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -112,32 +130,32 @@
                <note corresp="#IV_284-22">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000360" ana="†">
-                        <persName> von <name type="reg">Biel</name>
+                        <persName>von <name type="reg">Biel</name>
                         </persName>
                      </person>
                      <person corresp="#JP-001599" ana="†">
-                        <persName> Anton <name type="reg">Heim</name>
+                        <persName>Anton <name type="reg">Heim</name>
                         </persName>
                      </person>
                      <person corresp="#JP-001604" ana="†">
-                        <persName> Johanna <name type="reg">Heim</name>
+                        <persName>Johanna <name type="reg">Heim</name>
                         </persName>
                      </person>
                      <person corresp="#JP-004556" ana="†">
-                        <persName> Johann Ernst <name type="reg">Wagner</name>
+                        <persName>Johann Ernst <name type="reg">Wagner</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listPlace type="lineReference">
-                     <place corresp="#JP-00574610">
-                        <placeName>Politik, Krieg, Militär; Frankreich, französisch</placeName>
+                     <place corresp="#JP-011308">
+                        <placeName>Politik, Krieg, Militär</placeName>
                      </place>
                   </listPlace>
                </note>
                <lb xml:id="IV_284-22"/>oder <hi rendition="#aq">Bühl,</hi> der in <hi rendition="#aq">Bayreuth</hi> zum Regimente geht und der einige Auf<note corresp="#IV_284-23">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005574">
-                        <placeName>Bayreuth (Stadt)</placeName>
+                        <placeName>Bayreuth </placeName>
                      </place>
                   </listPlace>
                </note>
@@ -146,7 +164,7 @@
                <note corresp="#IV_284-24">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003112">
-                        <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                        <persName>Georg Christian <name type="reg">Otto</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -159,11 +177,11 @@
                   Brief<note corresp="#IV_284-30">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001909">
-                        <persName> Friedrich Heinrich <name type="reg">Jacobi</name>
+                        <persName>Friedrich Heinrich <name type="reg">Jacobi</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003112">
-                        <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                        <persName>Georg Christian <name type="reg">Otto</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -172,7 +190,7 @@
                weiß ich freilich z. B. seit gestern<note corresp="#IV_284-31">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001675">
-                        <persName> Johann Gottfried von <name type="reg">Herder</name>
+                        <persName>Johann Gottfried von <name type="reg">Herder</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -180,7 +198,7 @@
                <lb xml:id="IV_284-31"/>wie oft ich mit Unrecht Briefe aus <hi rendition="#aq">Bayreuth</hi> zurükfoderte, die unter<note corresp="#IV_284-32">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005574">
-                        <placeName>Bayreuth (Stadt)</placeName>
+                        <placeName>Bayreuth </placeName>
                      </place>
                   </listPlace>
                </note>
@@ -189,7 +207,7 @@
                <note corresp="#IV_284-33">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004275">
-                        <persName> Paul Emile <name type="reg">Thieriot</name>
+                        <persName>Paul Emile <name type="reg">Thieriot</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -215,7 +233,13 @@
                </hi> 21 M. <hi rendition="#aq">
                   <hi rendition="#i">J</hi>: Denkw.</hi>
                <hi rendition="#aq">1,157. </hi>
-               <hi rendition="#b"><hi rendition="#aq">284</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">19</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">284</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">19</hi>
+               </hi>
                <lb/>gröster <hi rendition="#aq">
                   <hi rendition="#i">K</hi>
                </hi> kan <hi rendition="#aq">
@@ -242,9 +266,15 @@
             </p>
             <lb/>
             <p>
-               <hi rendition="#b"><hi rendition="#aq">284</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">22</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">284</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">22</hi>
+               </hi>
                <hi rendition="#aq">f. Ernst Wagner fragt im Brief an J. P. v. 25. Aug. 1804 im
-                  Auftrag<lb/>von Herrn und Frau Heim, bei welchem Regiment ein Herr von <hi rendition="#g">Biel</hi> in<lb/>Bayreuth stehe (Corin S. 59; IV. Abt., V, Nr.
+                  Auftrag<lb/>von Herrn und Frau Heim, bei welchem Regiment ein Herr von <hi rendition="#g">Biel</hi> in<lb/>Bayreuth stehe (Corin S. 59; IV. Abt., 5, Nr.
                   3). <hi rendition="#rkd">30</hi>
                   <hi rendition="#g">Jacobi:</hi> IV. Abt. (Br. an J.P.), IV, Nr.</hi>
                <hi rendition="#aq">332.</hi>

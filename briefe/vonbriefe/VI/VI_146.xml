@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="147">146. An Emanuel. </title>
-            <title n="digital">Von Jean Paul an Emanuel. Bayreuth, 21. August 1809.</title>
+            <title n="print" type="letter" rend="146">146. An Emanuel. </title>
+            <title n="digital">Von Jean Paul an Emanuel. Bayreuth, 21. August 1809, Montag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>50</num></biblScope><biblScope n="comment" unit="page"><num>445</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>50</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>445</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1809-08-21">21. August 1809</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-003087">Emanuel Osmund</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_145"/><ptr type="next" subtype="umfeldbrief" target="JP-UB1882"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_145"/><ptr type="next" subtype="brief" target="VI_147"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_143"/><ptr type="next" subtype="brief" target="VI_147"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000941">Emanuel</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_145"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB1882"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_145"/>
+               <ptr type="next" subtype="brief" target="VI_147"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_143"/>
+               <ptr type="next" subtype="brief" target="VI_147"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -91,8 +114,8 @@
             <lb xml:id="VI_50-22"/>
             <p>Lieber <hi rendition="#aq">Emanuel</hi>! Ich habe eine für mich wichtige Bitte an<lb xml:id="VI_50-23"/> Sie. Heute wurde mir von Johannis das letzte Fäßchen von<note corresp="#VI_50-24">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0062360" ana="†">
-                        <placeName>Bier; Sankt Johannis bei Bayreuth</placeName>
+                     <place corresp="#JP-011660" ana="†">
+                        <placeName>Bier</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -100,8 +123,7 @@
                viel mehr hat, etwas geben. Da<note corresp="#VI_50-26">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003701">
-                        <persName>
-                           <name type="reg">Schamel</name>
+                        <persName>Bäckermeister <name type="reg">Schamel</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -119,7 +141,13 @@
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: SBa. Präsentat: 21 Aug.</hi>
                <hi rendition="#aq">9. 2) </hi>
-               <hi rendition="#b"><hi rendition="#aq">50</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">28</hi></hi> vornenweg] <hi rendition="#aq">aus</hi> vorn weg</p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">50</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">28</hi>
+               </hi> vornenweg] <hi rendition="#aq">aus</hi> vorn weg</p>
             <lb/>
             <p>
                <hi rendition="#aq">In St. <hi rendition="#g">Johannis,</hi> dem Vorort von Bayreuth,

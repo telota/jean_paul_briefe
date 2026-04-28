@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="329">328. An Renate Otto. </title>
-            <title n="digital">Von Jean Paul an Renate Otto. Bayreuth, 7. März 1807.</title>
+            <title n="print" type="letter" rend="328">328. An Renate Otto. </title>
+            <title n="digital">Von Jean Paul an Renate Otto. Bayreuth, 7. März 1807, Samstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
+               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
                <biblScope n="text" unit="page">
                   <num>134</num>
                   <num>135</num>
@@ -78,13 +78,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1807-03-07">7. März 1807</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003126">Renate Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="V_327"/><ptr type="next" subtype="brief" target="V_329"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="V_327"/><ptr type="next" subtype="brief" target="V_329"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="V_316"/><ptr type="next" subtype="brief" target="V_435"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-V_AN_36"/>
+               <ptr type="next" subtype="brief" target="V_329"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="V_327"/>
+               <ptr type="next" subtype="brief" target="V_329"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="V_316"/>
+               <ptr type="next" subtype="anbrief" target="IV-V_123"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -131,7 +146,7 @@
                   der<note corresp="#V_135-11">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005841">
-                        <placeName>Hof im Vogtland</placeName>
+                        <placeName>Hof</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -142,7 +157,7 @@
                schrieben an mich. Ich grüße Ihren Christoph<note corresp="#V_135-15">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003118">
-                        <persName> Christoph <name type="reg">Otto</name>
+                        <persName>Christoph <name type="reg">Otto</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -151,19 +166,19 @@
                ausgenommen, und Ihre Eltern.<note corresp="#V_135-16">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003111" ana="†">
-                        <persName> Christian <name type="reg">Otto</name>
+                        <persName>Christian <name type="reg">Otto</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003119">
-                        <persName> Christoph <name type="reg">Otto</name>
-                        </persName>
+                        <persName>
+                           <name type="reg">Otto</name>, seine Kinder</persName>
                      </person>
                      <person corresp="#JP-004756">
-                        <persName> Dorothea Friederike <name type="reg">Wirth</name>
+                        <persName>Friederike <name type="reg">Wirth</name>
                         </persName>
                      </person>
                      <person corresp="#JP-004761">
-                        <persName> Johann Gottlob Joachim <name type="reg">Wirth</name>
+                        <persName>Johann Gottlob Joachim <name type="reg">Wirth</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -175,11 +190,11 @@
                <note corresp="#V_135-18">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003106">
-                        <persName> Albrecht <name type="reg">Otto</name>
+                        <persName>Albrecht <name type="reg">Otto</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003122">
-                        <persName> Helene Maria <name type="reg">Otto</name>
+                        <persName>Helene Maria <name type="reg">Otto</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -215,9 +230,15 @@
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Berlin acc. ms. 1900. 66 (derzeit BJK). 4 S. 8°. <hi rendition="#i">K</hi>:</hi> Renate 7. März. *<hi rendition="#aq">
                   <hi rendition="#i">J</hi>: Täglichsbeck Nr. 38.<lb/>
-                  <hi rendition="#i">A</hi>: IV. Abt., V, Nr.</hi>
+                  <hi rendition="#i">A</hi>: IV. Abt., 5, Nr.</hi>
                <hi rendition="#aq">123. </hi>
-               <hi rendition="#b"><hi rendition="#aq">135</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">3</hi></hi> Küchen-Bitten] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">135</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">3</hi>
+               </hi> Küchen-Bitten] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">12</hi> warme] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
                </hi>
@@ -230,7 +251,13 @@
             </p>
             <lb/>
             <p>
-               <hi rendition="#b"><hi rendition="#aq">134</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">35</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">134</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">35</hi>
+               </hi>
                <hi rendition="#aq">
                   <hi rendition="#g">Säusack:</hi> mit Speck, Schwarten, Semmel und Blut gefüllter
                   und<lb/> geräucherter Schweinsmagen. <hi rendition="#b">135</hi>, <hi rendition="#rkd">4–9</hi> Renate antwortete, sie habe die<lb/> beiden

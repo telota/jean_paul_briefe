@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="349">348. An die Herzogin Luise von Meiningen. </title>
-            <title n="digital">Von Jean Paul an Eleonore Luise. Bayreuth, 9. September 1810.</title>
+            <title n="print" type="letter" rend="348">348. An die Herzogin Luise von Meiningen. </title>
+            <title n="digital">Von Jean Paul an Luise Eleonore, Herzogin von Meiningen. Bayreuth, 9. September 1810, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,16 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>135</num><num>136</num></biblScope><biblScope n="comment" unit="page"><num>485</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>135</num>
+                  <num>136</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>485</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -70,13 +79,24 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1810-09-09">9. September 1810</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-002546">Eleonore Luise</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_346"/><ptr type="next" subtype="umfeldbrief" target="JP-UB1087"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_346"/><ptr type="next" subtype="brief" target="VI_349"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-002546">Luise Eleonore, Herzogin von Meiningen</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_103"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB1087"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_346"/>
+               <ptr type="next" subtype="brief" target="VI_349"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -108,8 +128,8 @@
                   doch<note corresp="#VI_135-28">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002547">
-                        <persName> Eleonore <name type="reg">Luise</name>
-                        </persName>
+                        <persName>
+                           <name type="reg">Luise</name>, ihre Kinder</persName>
                      </person>
                   </listPerson>
                </note>

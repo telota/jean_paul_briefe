@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="103">102. An Professor Creuzer in Heidelberg. </title>
-            <title n="digital">Von Jean Paul an Friedrich Creuzer. Bayreuth, 14. Oktober 1820.</title>
+            <title n="print" type="letter" rend="102">102. An Professor Creuzer in Heidelberg. </title>
+            <title n="digital">Von Jean Paul an Friedrich Creuzer. Bayreuth, 14. Oktober 1820, Samstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>70</num>
                   <num>71</num>
@@ -79,14 +79,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1820-10-14">14. Oktober 1820</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-000716">Friedrich Creuzer</persName>
                <placeName key="JP-005819">Heidelberg</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VIII_101"/><ptr type="next" subtype="brief" target="VIII_103"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VIII_101"/><ptr type="next" subtype="brief" target="VIII_103"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_70"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VIII_101"/>
+               <ptr type="next" subtype="brief" target="VIII_103"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VIII_101"/>
+               <ptr type="next" subtype="brief" target="VIII_103"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_70"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -104,7 +118,7 @@
             <p>Endlich hat mein Sohn das Glück, das er so lange bedurft und<note corresp="#VIII_70-33">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003490">
-                        <persName> Max <name type="reg">Richter</name>
+                        <persName>Max <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -114,15 +128,14 @@
                bisheriges Streben<note corresp="#VIII_71-1">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004281">
-                        <persName> Friedrich <name type="reg">Thiersch</name>
+                        <persName>Friedrich <name type="reg">Thiersch</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008274">
-                        <author>Creuzer (Kreuzer, Kreutzer, Creutzer), Friedrich (1771-1858),
-                           Professor der Philologie in Heidelberg</author>
-                        <title>Studien (mit Carl Daub, 1805-1810)</title>
+                        <author>Creuzer, Friedrich (1771–1858)</author>
+                        <title>Studien (mit Carl Daub, 1805–1810)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -138,7 +151,13 @@
                </hi> 14 Okt.</p>
             <lb/>
             <p>
-               <hi rendition="#b"><hi rendition="#aq">71</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">1</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">71</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">1</hi>
+               </hi>
                <hi rendition="#aq">
                   <hi rendition="#g">„Studien“,</hi> hsgb. von Daub und Creuzer, Frankfurt u.
                      Heidel<lb rendition="#hyphen"/>berg 1805—10, 6 Bde.</hi>

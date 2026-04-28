@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="465">464. An Johann Georg Zimmer in Heidelberg. </title>
-            <title n="digital">Von Jean Paul an Johann Georg Zimmer. Bayreuth, 26. Februar 1811.</title>
+            <title n="print" type="letter" rend="464">464. An Johann Georg Zimmer in Heidelberg. </title>
+            <title n="digital">Von Jean Paul an Johann Georg Zimmer. Bayreuth, 26. Februar 1811, Dienstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>184</num></biblScope><biblScope n="comment" unit="page"><num>505</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>184</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>505</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,14 +77,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1811-02-26">26. Februar 1811</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-004858">Johann Georg Zimmer</persName>
                <placeName key="JP-005819">Heidelberg</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_463"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0950"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_463"/><ptr type="next" subtype="brief" target="VI_25-fb"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_282"/><ptr type="next" subtype="brief" target="VI_477"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_463"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB0950"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_463"/>
+               <ptr type="next" subtype="brief" target="VI_25-fb"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_282"/>
+               <ptr type="next" subtype="brief" target="VI_477"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -98,13 +121,15 @@
                   </listBibl>
                </note>
                <lb xml:id="VI_184-16" rendition="#hyphen"/>sistorialrath <hi rendition="#aq">Schwarz</hi> zu übergeben.<note corresp="#VI_184-17">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-003944">
-                     <persName> Friedrich Heinrich Christian <name type="reg">Schwarz</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="VI_184-17"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003944">
+                        <persName>Friedrich Heinrich Christian <name type="reg">Schwarz</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_184-17"/>
+            </p>
             <p>Ihr Schweigen und mein eignes über die Herausgabe des armen<lb xml:id="VI_184-18"/>
                <hi rendition="#aq">Fibels</hi> beweisen freilich, daß er — obschon ¾ abgeschrieben
                ist —<note corresp="#VI_184-19">
@@ -132,7 +157,7 @@
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010265">
                         <author/>
-                        <title>Heidelbergische Jahrbücher der Literatur (1808ff.)</title>
+                        <title>Heidelbergische Jahrbücher der Literatur (1808 ff.) </title>
                      </bibl>
                   </listBibl>
                </note>
@@ -140,8 +165,8 @@
             <lb xml:id="VI_184-27"/>
             <p>In der hiesigen Kanzlei-Bibliothek wünscht man schon so lange<note corresp="#VI_184-28">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-00557433">
-                        <placeName>Kanzlei-Bibliothek; Bayreuth (Stadt)</placeName>
+                     <place corresp="#JP-011061">
+                        <placeName>Kanzlei-Bibliothek</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -150,7 +175,7 @@
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010265">
                         <author/>
-                        <title>Heidelbergische Jahrbücher der Literatur (1808ff.)</title>
+                        <title>Heidelbergische Jahrbücher der Literatur (1808 ff.) </title>
                      </bibl>
                   </listBibl>
                </note>
@@ -158,7 +183,7 @@
                nächste Buch<note corresp="#VI_184-30">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004569">
-                        <persName> Lorenz Heinrich <name type="reg">Wagner</name>
+                        <persName>Lorenz Heinrich <name type="reg">Wagner</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -170,19 +195,22 @@
                   geben,<note corresp="#VI_184-32">
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010713" ana="†">
-                        <title>Friedens-Predigt an Deutschland (1808)</title>
+                        <title>Friedens-Predigt an Deutschland (Heidelberg: Mohr und Zimmer
+                        1808)</title>
                      </bibl>
                   </listBibl>
                </note>
                <lb xml:id="VI_184-32"/> welcher ich außer großen Zusätzen noch eine ganz eigne
                   Zueignung<lb xml:id="VI_184-33"/> an den Großherzog v. <hi rendition="#aq">Frankfurt</hi> beizufügen habe?<note corresp="#VI_184-34">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-000742">
-                     <persName> Karl Theodor Reichsfreiherr von <name type="reg">Dalberg</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="VI_184-34"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000742">
+                        <persName>Carl Theodor von <name type="reg">Dalberg</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_184-34"/>
+            </p>
             <p>Ich bitte Sie um baldige Antwort.</p>
             <closer>
                <salute>
@@ -196,8 +224,8 @@
             <p>
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Bibl. Wolfenbüttel. 4 S. 8°. <hi rendition="#i">K</hi>:
-                     <hi rendition="#i">Zimmer 26 Febr. B</hi>: IV. Abt., VI, Nr. 104.<lb/>
-                  <hi rendition="#i">A</hi>: IV. Abt., VI, Nr.</hi>
+                     <hi rendition="#i">Zimmer 26 Febr. B</hi>: IV. Abt., 6, Nr. 104.<lb/>
+                  <hi rendition="#i">A</hi>: IV. Abt., 6, Nr.</hi>
                <hi rendition="#aq">152.</hi>
             </p>
             <lb/>

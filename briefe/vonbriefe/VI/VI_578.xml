@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="579">578. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, 18. Dezember 1811.</title>
+            <title n="print" type="letter" rend="578">578. An Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth, 18. Dezember 1811, Mittwoch.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>238</num></biblScope><biblScope n="comment" unit="page"><num>527</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>238</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>527</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date cert="medium" when="1811-12-18">18. Dezember 1811</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_577"/><ptr type="next" subtype="brief" target="VI_579"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_577"/><ptr type="next" subtype="brief" target="VI_579"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_572"/><ptr type="next" subtype="brief" target="VI_579"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB4661"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB1322"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_577"/>
+               <ptr type="next" subtype="brief" target="VI_579"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_572"/>
+               <ptr type="next" subtype="brief" target="VI_579"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -92,7 +115,7 @@
             <p>Guter <hi rendition="#aq">Otto!</hi> Anbei Briefe und die <hi rendition="#aq">Reiseschatten,</hi> die mir der<note corresp="#VI_238-21">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008906">
-                        <author>Kerner, Justinus (1786-1862), Arzt und Dichter</author>
+                        <author>Kerner, Justinus (1786–1862)</author>
                         <title>Reiseschatten (1811)</title>
                      </bibl>
                   </listBibl>
@@ -107,15 +130,18 @@
             <p>Die Einkleidung über <hi rendition="#aq">Wolke</hi> wird durch den <hi rendition="#aq">Anzeiger</hi> eine ganz<note corresp="#VI_238-27">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004803" ana="†">
-                        <persName> Christian Heinrich <name type="reg">Wolke</name>
+                        <persName>Christian Heinrich <name type="reg">Wolke</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010351" ana="†">
                         <author/>
-                        <title>Reichs-Anzeiger (Reichsanzeiger) (1793ff.), vorher: Der
-                           Anzeiger(1791-1793), hrsg. von Rudolf Zacharias Becker</title>
+                        <title>Reichs-Anzeiger (Reichsanzeiger) (1793 ff.), vorher: Der Anzeiger
+                        (1791–1793), später: Allgemeiner Anzeiger der Deutschen (1806–1829), hrsg.
+                        von
+                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Rudolf
+                        Zacharias Becker<?oxy_custom_end?></title>
                      </bibl>
                   </listBibl>
                   <listBibl type="lineReference" subtype="werke-jp">
@@ -130,15 +156,15 @@
                <hi rendition="#aq">Verte.</hi> Am Sonnabend <metamark>[</metamark>21.
                   Dez.<metamark>]</metamark> um 2 Uhr ist im Anker ein<note corresp="#VI_238-29">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-00557423">
-                        <placeName>Gasthof Anker; Bayreuth (Stadt)</placeName>
+                     <place corresp="#JP-011050">
+                        <placeName>Gasthof Anker</placeName>
                      </place>
                   </listPlace>
                </note>
                <lb xml:id="VI_238-29"/> Wurstessen für 48 kr. Ich und <hi rendition="#aq">Krause</hi> sind dabei; und du? —<note corresp="#VI_238-30">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002238">
-                        <persName> Christian Sigismund <name type="reg">Krause</name>
+                        <persName>Christian Sigismund <name type="reg">Krause</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -155,7 +181,7 @@
             <lb/>
             <p>
                <hi rendition="#aq">Das Datum des Wurstessens im Gasthof zum Anker ist durch<lb/>
-                  Krauses Brief an J. P. IV. Abt., VI, Nr. 192 gesichert. <hi rendition="#g">Reiseschatten:</hi> von<lb/> Justinus Kerner; vgl. I. Abt., XI, <hi rendition="#b">382</hi>, <hi rendition="#rkd">25</hi>. <hi rendition="#g">Wolke</hi> hatte im Allg.<lb/>
+                  Krauses Brief an J. P. IV. Abt., 6, Nr. 192 gesichert. <hi rendition="#g">Reiseschatten:</hi> von<lb/> Justinus Kerner; vgl. I. Abt., XI, <hi rendition="#b">382</hi>, <hi rendition="#rkd">25</hi>. <hi rendition="#g">Wolke</hi> hatte im Allg.<lb/>
                   <hi rendition="#g">Anzeiger</hi> der Deutschen v. 12. Dez. 1811, Nr. 335,
                   angezeigt, daß<lb/> sich für seinen „Anleit“ noch nicht genügend Subskribenten
                   gefunden<lb/> hätten; vgl. I. Abt., XVII,</hi>

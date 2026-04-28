@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="539">534. An Gottlieb Richter. </title>
-            <title n="digital">Von Jean Paul an Johann Gottlieb Richter. Bayreuth, Ohne Datum.</title>
+            <title n="print" type="letter" rend="534">534. An Gottlieb Richter. </title>
+            <title n="digital">Von Jean Paul an Gottlieb Richter. Bayreuth.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>305</num>
                </biblScope>
@@ -78,13 +78,25 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-003480">Johann Gottlieb Richter</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-003480">Gottlieb Richter</persName>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspContext n="edition"><ptr type="next" subtype="brief" target="VIII_535"/></correspContext><correspContext n="corpus"><ptr type="next" subtype="brief" target="VIII_535"/></correspContext><correspContext n="correspondence"><ptr type="next" subtype="brief" target="VIII_535"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="next" subtype="brief" target="I_1"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="next" subtype="brief" target="I_1"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="next" subtype="brief" target="I_4-fb"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -94,13 +106,13 @@
                   an.<note corresp="#VIII_305-26">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003739">
-                        <persName> Frau <name type="reg">Schilling</name>
+                        <persName>Frau <name type="reg">Schilling</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0055740">
-                        <placeName>Bier; Bayreuth (Stadt)</placeName>
+                     <place corresp="#JP-011034">
+                        <placeName>Bier</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -109,8 +121,7 @@
                   <hi rendition="#aq">Wolf</hi> kein gutes? —<note corresp="#VIII_305-28">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004784">
-                        <persName>
-                           <name type="reg">Wolf</name>
+                        <persName>Bierwirt <name type="reg">Wolf</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -121,20 +132,22 @@
                als mein<note corresp="#VIII_305-30">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003607">
-                        <persName> Ignaz von <name type="reg">Rudhart</name>
+                        <persName>Ignaz von <name type="reg">Rudhart</name>
                         </persName>
                      </person>
                   </listPerson>
                </note>
                <lb n="30" xml:id="VIII_305-30"/>guter Bier-<hi rendition="#aq">Rudhart.</hi>
-            <note corresp="#VIII_305-31">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-004563">
-                     <persName> Julie Christiane <name type="reg">Wagner</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="VIII_305-31"/></p>
+               <note corresp="#VIII_305-31">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004563">
+                        <persName>Julie Christiane <name type="reg">Wagner</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_305-31"/>
+            </p>
             <closer>
                <salute>
                   <hi rendition="#right">Richter</hi>

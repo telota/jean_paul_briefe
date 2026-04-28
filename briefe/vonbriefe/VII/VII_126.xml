@@ -3,7 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title n="print" type="letter" rend="126">126. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, 10. Dezember 1815.</title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth, 10. Dezember 1815, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
+               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
                <biblScope n="text" unit="page">
                   <num>46</num>
                </biblScope>
@@ -77,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1815-12-10">10. Dezember 1815</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VII_125"/><ptr type="next" subtype="brief" target="VII_127"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VII_125"/><ptr type="next" subtype="brief" target="VII_127"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VII_140"/><ptr type="next" subtype="brief" target="VII_137"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VII_125"/>
+               <ptr type="next" subtype="brief" target="VII_127"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VII_125"/>
+               <ptr type="next" subtype="brief" target="VII_127"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VII_140"/>
+               <ptr type="next" subtype="brief" target="VII_137"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -101,9 +116,8 @@
                   Schriften<note corresp="#VII_46-18">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008829">
-                        <author>Jacobi, Friedrich Heinrich (1743-1819), Philosoph und
-                           Schriftsteller(Werk)</author>
-                        <title>Werke (1812-1825)</title>
+                        <author>Jacobi, Friedrich Heinrich (1743–1819)</author>
+                        <title>Werke (1812–1825)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -124,26 +138,28 @@
             <lb xml:id="VII_46-23"/>
             <p>Diese Bouteille von meinem besten ungarischen Probe-Wein<note corresp="#VII_46-24">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0063640">
-                        <placeName>Wein; Ungarn</placeName>
+                     <place corresp="#JP-011692">
+                        <placeName>Wein</placeName>
                      </place>
                   </listPlace>
                </note>
                <lb xml:id="VII_46-24"/> sollst du auf das Wol deines frühern Glaubens trinken.<lb n="25" xml:id="VII_46-25"/>
             </p>
             <p>Muß ich Dankschreiben an König und Montgelas machen?<note corresp="#VII_46-26">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-002694">
-                     <persName>
-                        <name type="reg">Maximilian IV. Joseph</name>
-                     </persName>
-                  </person>
-                  <person corresp="#JP-002865">
-                     <persName> Maximilian Graf von <name type="reg">Montgelas</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="VII_46-26"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002694">
+                        <persName>
+                           <name type="reg">Maximilian I. Joseph, König von Bayern</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-002865">
+                        <persName>Maximilian Graf von <name type="reg">Montgelas</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VII_46-26"/>
+            </p>
             <p>Leider gingen gerade vorgestern die Doppelbitten nach München<note corresp="#VII_46-27">
                   <listPlace type="lineReference">
                      <place corresp="#JP-006040">
@@ -156,11 +172,11 @@
             <p>Ich werde wol bei <hi rendition="#aq">Hardenberg</hi> und <hi rendition="#aq">Schuckmann</hi> die Erwähnung<note corresp="#VII_46-29">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001530">
-                        <persName> Karl August Freiherr von <name type="reg">Hardenberg</name>
+                        <persName>Karl August Freiherr von <name type="reg">Hardenberg</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003878">
-                        <persName> Caspar Friedrich Freiherr von <name type="reg">Schuckmann</name>
+                        <persName>Kaspar Friedrich Freiherr von <name type="reg">Schuckmann</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -172,7 +188,13 @@
             <p>
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Berlin JP.</hi>
-               <hi rendition="#b"><hi rendition="#aq">46</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">29</hi></hi> bei] <hi rendition="#aq">aus</hi> an</p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">46</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">29</hi>
+               </hi> bei] <hi rendition="#aq">aus</hi> an</p>
             <lb/>
             <p>
                <hi rendition="#aq">

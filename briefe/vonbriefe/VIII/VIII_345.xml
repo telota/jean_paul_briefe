@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="349">345. An Emanuel. </title>
-            <title n="digital">Von Jean Paul an Emanuel Osmund. Bayreuth, 27. Oktober 1822.</title>
+            <title n="print" type="letter" rend="345">345. An Emanuel. </title>
+            <title n="digital">Von Jean Paul an Emanuel Osmund. Bayreuth, 27. Oktober 1822, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>207</num>
                </biblScope>
@@ -76,20 +76,35 @@
             </msDesc>
             <listPerson type="commentary">
                <person corresp="#JP-004507">
-                  <persName> Abraham Sophus <name type="reg">Voß</name>
+                  <persName>Abraham <name type="reg">Voß</name>
                   </persName>
                </person>
             </listPerson>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1822-10-27">27. Oktober 1822</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003087">Emanuel Osmund</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0711"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0224"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VIII_344"/><ptr type="next" subtype="brief" target="VIII_346"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VIII_342"/><ptr type="next" subtype="brief" target="VIII_374"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB0711"/>
+               <ptr type="next" subtype="anbrief" target="IV-IX_2.78"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VIII_344"/>
+               <ptr type="next" subtype="brief" target="VIII_346"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VIII_342"/>
+               <ptr type="next" subtype="anbrief" target="IV-IX_2.78"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -106,17 +121,19 @@
             <p>Guten Morgen, lieber <hi rendition="#aq">Emanuel!</hi> So hat endlich die Zwei ihr
                   Opfer.<lb xml:id="VIII_207-3"/>
                <hi rendition="#aq">Voß</hi> ist todt. Ich armer Teufel in meinen alten Jahren!<note corresp="#VIII_207-4">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-004520">
-                     <persName> Heinrich <name type="reg">Voß</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="VIII_207-4"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004520">
+                        <persName>Heinrich <name type="reg">Voß</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_207-4"/>
+            </p>
             <p>Schicken Sie es <hi rendition="#aq">Otto</hi> erst Nachmittags.<note corresp="#VIII_207-5">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003112">
-                        <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                        <persName>Georg Christian <name type="reg">Otto</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -127,7 +144,7 @@
          <div type="comment">
             <p>
                <hi rendition="#aq">
-                  <hi rendition="#i">H</hi>: SBa. Präsentat: 27 [aus 26] Oct. 22. <hi rendition="#i">J</hi>: Denkw. 1,314×. <hi rendition="#i">A</hi>:<lb/> IV. Abt., VIII,
+                  <hi rendition="#i">H</hi>: SBa. Präsentat: 27 [aus 26] Oct. 22. <hi rendition="#i">J</hi>: Denkw. 1,314×. <hi rendition="#i">A</hi>:<lb/> IV. Abt., 8,
                   Nr.</hi>
                <hi rendition="#aq"> 215.</hi>
             </p>

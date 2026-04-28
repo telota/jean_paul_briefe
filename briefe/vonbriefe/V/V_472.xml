@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="473">472. An Mohr &amp; Zimmer in Heidelberg. </title>
-            <title n="digital">Von Jean Paul an Buchhandlung Mohr &amp; Zimmer. Bayreuth, 7. Februar 1808.</title>
+            <title n="print" type="letter" rend="472">472. An Mohr &amp; Zimmer in Heidelberg. </title>
+            <title n="digital">Von Jean Paul an Mohr &amp; Zimmer (Buchhandlung). Bayreuth, 7. Februar 1808, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
+               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
                <biblScope n="text" unit="page">
                   <num>195</num>
                </biblScope>
@@ -78,14 +78,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1808-02-07">7. Februar 1808</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-002843">Buchhandlung Mohr &amp; Zimmer</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-002843">Mohr &amp; Zimmer (Buchhandlung)</persName>
                <placeName key="JP-005819">Heidelberg</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB1674"/><ptr type="next" subtype="brief" target="V_473"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="V_471"/><ptr type="next" subtype="brief" target="V_473"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="V_455"/><ptr type="next" subtype="brief" target="V_485"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB1674"/>
+               <ptr type="next" subtype="brief" target="V_473"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="V_471"/>
+               <ptr type="next" subtype="brief" target="V_473"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-V_154"/>
+               <ptr type="next" subtype="brief" target="V_485"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -102,15 +117,15 @@
             <note corresp="#V_195-3">
                <listPerson type="lineReference">
                   <person corresp="#JP-001345" ana="†">
-                     <persName> Joseph von <name type="reg">Görres</name>
+                     <persName>Joseph von <name type="reg">Görres</name>
                      </persName>
                   </person>
                   <person corresp="#JP-002622" ana="†">
-                     <persName> Philipp Konrad <name type="reg">Marheineke </name>
+                     <persName>Philipp Konrad <name type="reg">Marheineke</name>
                      </persName>
                   </person>
                   <person corresp="#JP-003944" ana="†">
-                     <persName> Friedrich Heinrich Christian <name type="reg">Schwarz</name>
+                     <persName>Friedrich Heinrich Christian <name type="reg">Schwarz</name>
                      </persName>
                   </person>
                </listPerson>
@@ -123,7 +138,8 @@
                         <title>D. Katzenbergers Badereise (1809)</title>
                      </bibl>
                      <bibl corresp="#JP-010713" ana="†">
-                        <title>Friedens-Predigt an Deutschland (1808)</title>
+                        <title>Friedens-Predigt an Deutschland (Heidelberg: Mohr und Zimmer
+                        1808)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -136,8 +152,7 @@
             <p>
                <hi rendition="#aq">
                   <hi rendition="#i">K</hi>:</hi> 7 Febr. Mohr. <hi rendition="#aq">
-                  <hi rendition="#i">B</hi>: IV. Abt., V, Nr. 154. <hi rendition="#i">A</hi>: IV.
-                  Abt., V, Nr.</hi>
+                  <hi rendition="#i">B</hi>: IV. Abt., 5, Nr. 154. <hi rendition="#i">A</hi>: IV. Abt., 5, Nr.</hi>
                <hi rendition="#aq">164.</hi>
             </p>
             <lb/>

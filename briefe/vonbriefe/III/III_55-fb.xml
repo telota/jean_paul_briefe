@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="missingLetter" rend="600"/>
+            <title n="print" type="missingLetter" rend="55"/>
             <title n="digital">Von Jean Paul an Heinrich Schmidt. Weimar, März 1800.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="III">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
+               <title n="III">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
                <biblScope unit="page">
                   <num>533</num>
                   <num>534</num>
@@ -74,7 +74,7 @@
             </msDesc>
             <listPerson type="commentary">
                <person corresp="#JP-001673">
-                  <persName> Gottfried <name type="reg">Herder</name>
+                  <persName>Gottfried von <name type="reg">Herder</name>
                   </persName>
                </person>
             </listPerson>
@@ -82,21 +82,35 @@
                <place corresp="#JP-005875">
                   <placeName>Jena</placeName>
                </place>
-               <place corresp="#JP-00587511">
-                  <placeName>Reichardtscher Garten, Gartenhaus; Jena</placeName>
+               <place corresp="#JP-011458">
+                  <placeName>Reichardtscher Garten, Gartenhaus</placeName>
                </place>
             </listPlace>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date notBefore="1800-03-01" notAfter="1800-03-31">März 1800</date>
                <placeName key="JP-006395">Weimar</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003806">Heinrich Schmidt</persName>
                <placeName key="JP-005875">Jena</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="III_410"/><ptr type="next" subtype="brief" target="III_411"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="III_410"/><ptr type="next" subtype="brief" target="III_411"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="III_410"/>
+               <ptr type="next" subtype="anbrief" target="IV-III.2_329"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="III_410"/>
+               <ptr type="next" subtype="brief" target="III_411"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="next" subtype="anbrief" target="IV-III.2_331"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>

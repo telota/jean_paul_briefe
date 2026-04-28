@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="372">365. An Christian Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Meiningen, 1. Mai 1803 bis 6. Mai 1803.</title>
+            <title n="print" type="letter" rend="365">365. An Christian Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Meiningen, 1. bis 6. Mai 1803.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,11 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"/><biblScope n="comment" unit="page"/></bibl>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page"/>
+               <biblScope n="comment" unit="page"/>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,15 +73,30 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date corresp="writingSession1" when="1803-05-01">1. Mai 1803</date>
                <date corresp="writingSession2" when="1803-05-06">6. Mai 1803</date>
                <placeName key="JP-006012">Meiningen
                </placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB1472"/><ptr type="next" subtype="brief" target="IV_367"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="IV_364"/><ptr type="next" subtype="brief" target="IV_367"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="IV_334"/><ptr type="next" subtype="brief" target="IV_384"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB1472"/>
+               <ptr type="next" subtype="brief" target="IV_367"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="IV_364"/>
+               <ptr type="next" subtype="brief" target="IV_367"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-IV_281"/>
+               <ptr type="next" subtype="brief" target="IV_384"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -106,11 +125,11 @@
                   würde. So wär’ es auch deine<lb xml:id="IV_216-11"/>Pflicht, mir von <hi rendition="#aq">Emanuel</hi> — da ers selber nicht thut —, von <hi rendition="#aq">Albrecht,<note corresp="#IV_216-12">
                         <listPerson type="lineReference">
                            <person corresp="#JP-003087">
-                              <persName> Emanuel <name type="reg">Osmund</name>
+                              <persName>Emanuel <name type="reg">Osmund</name>
                               </persName>
                            </person>
                            <person corresp="#JP-003106">
-                              <persName> Albrecht <name type="reg">Otto</name>
+                              <persName>Albrecht <name type="reg">Otto</name>
                               </persName>
                            </person>
                         </listPerson>
@@ -119,15 +138,15 @@
                   melden. Wie ists mit<note corresp="#IV_216-13">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003108">
-                           <persName> Amöne (Pseud. Amalie von Obyrn) <name type="reg">Otto</name>
+                           <persName>Amöne <name type="reg">Otto</name>
                            </persName>
                         </person>
                         <person corresp="#JP-004686">
-                           <persName> Friederike Christiane <name type="reg">Wernlein</name>
+                           <persName>Friederike <name type="reg">Wernlein</name>
                            </persName>
                         </person>
                         <person corresp="#JP-004687">
-                           <persName> Friedrich <name type="reg">Wernlein</name>
+                           <persName>Friedrich <name type="reg">Wernlein</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -136,10 +155,10 @@
                      Drittels<note corresp="#IV_216-14">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-009347">
-                           <author>Otto, Christian (Georg Christian) (Pseud. Georgius, Christianus)
-                              (1763-1828), Jurist, einer der engsten Freunde von Jean Paul</author>
+                           <author>Otto, Christian (Pseud. Georgius, Christianus, 1763–1828)</author>
                            <title>Ueber den Parallelismus der Kreuzzüge, der Reformazion und der
-                              Revoluzion (der Reformation und der Revolution) (1801)</title>
+                        Revoluzion. Entworfen im Jahr 1793 (in: Geschichte und Politik, Bd. 3, 1801,
+                        11. u. 12. St., S. 220–350)</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -149,13 +168,13 @@
                         <listPerson type="lineReference">
                            <person corresp="#JP-002042">
                               <persName>
-                                 <name type="reg">Karl I.</name>
+                                 <name type="reg">Karl I., König von England</name>
                               </persName>
                            </person>
                         </listPerson>
                         <listPlace type="lineReference">
-                           <place corresp="#JP-00574611">
-                              <placeName>Revolution; Frankreich, französisch</placeName>
+                           <place corresp="#JP-011309">
+                              <placeName>Revolution</placeName>
                            </place>
                         </listPlace>
                      </note>
@@ -165,16 +184,16 @@
                         <place corresp="#JP-005715">
                            <placeName>England, englisch, Britannien</placeName>
                         </place>
-                        <place corresp="#JP-00571511">
-                           <placeName>Geschichte; England, englisch, Britannien</placeName>
+                        <place corresp="#JP-011239">
+                           <placeName>Geschichte</placeName>
                         </place>
                      </listPlace>
                   </note>
                   <lb xml:id="IV_216-16"/>in England noch die Freiheit, die Göttin-Mutter der
                   Göttinnen, an<note corresp="#IV_216-17">
                      <listPlace type="lineReference">
-                        <place corresp="#JP-0057158">
-                           <placeName>Freiheitsliebe; England, englisch, Britannien</placeName>
+                        <place corresp="#JP-011268">
+                           <placeName>Freiheitsliebe</placeName>
                         </place>
                      </listPlace>
                   </note>
@@ -192,19 +211,18 @@
                   gewis machte ihn <hi rendition="#aq">Kirsch,</hi> schon wegen des Arabischen.<note corresp="#IV_216-26">
                      <listPerson type="lineReference">
                         <person corresp="#JP-002114" ana="†">
-                           <persName> Georg Wilhelm <name type="reg">Kirsch</name>
+                           <persName>Georg Wilhelm <name type="reg">Kirsch</name>
                            </persName>
                         </person>
                      </listPerson>
                      <listPlace type="lineReference">
                         <place corresp="#JP-005531">
-                           <placeName>Arabien</placeName>
+                           <placeName>Arabien, Araber, arabisch</placeName>
                         </place>
                      </listPlace>
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-008660">
-                           <author>Helfrecht, Johann Theodor Benjamin (1753-1819), Lehrer, ab 1795
-                              Rektor am Gymnasium in Hof, Schriftsteller</author>
+                           <author>Helfrecht, Johann Theodor Benjamin (1753–1819)</author>
                            <title>Shakal, der schöne Geist (1799)</title>
                         </bibl>
                      </listBibl>
@@ -215,20 +233,19 @@
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-010170" ana="†">
                            <author/>
-                           <title>Allgemeine Literatur-Zeitung (Literaturzeitung) (Jena 1785ff., ab
-                              1804 Halle)</title>
+                           <title>Allgemeine Literatur-Zeitung (Literaturzeitung) (Jena 1785 ff., ab 1804
+                        Halle)</title>
                         </bibl>
                         <bibl corresp="#JP-008116" ana="†">
-                           <author>Bentzel-Sternau, Christian Ernst Graf von (1767-1849)</author>
-                           <title>Das goldene Kalb (1802-03)</title>
+                           <author>Bentzel-Sternau, Christian Ernst Graf von (1767–1849)</author>
+                           <title>Das goldene Kalb (1802–1803)</title>
                         </bibl>
                      </listBibl>
                   </note>
                   <lb xml:id="IV_216-28"/>Lobs nicht ganz würdig. Lies <hi rendition="#aq">Novalis</hi> Schriften zuerst; Engels mise<note corresp="#IV_216-29">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-009299">
-                           <author>Novalis (d.i. Friedrich von Hardenberg) (1772-1801), frühromant.
-                              Dichter</author>
+                           <author>Novalis (d. i. Friedrich von Hardenberg) (1772–1801)</author>
                            <title>Schriften (1802)</title>
                         </bibl>
                      </listBibl>
@@ -237,7 +254,7 @@
                   — Schillings Werke laufen Ein<note corresp="#IV_216-30">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-008328">
-                           <author>Engel, Johann Jakob (1741-1802), Popularphilosoph</author>
+                           <author>Engel, Johann Jakob (1741–1802)</author>
                            <title>Eid und Pflicht (1803)</title>
                         </bibl>
                      </listBibl>
@@ -246,8 +263,7 @@
                   u. a. frühere sind gut. — Erinnere<note corresp="#IV_216-31">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-009612">
-                           <author>Schilling, Friedrich Gustav (1766-1839), Romancier und
-                              Lyriker</author>
+                           <author>Schilling, Friedrich Gustav (1766–1839)</author>
                            <title>Das Leben im Fegfeuer (1801)</title>
                         </bibl>
                      </listBibl>
@@ -258,14 +274,13 @@
                   <note corresp="#IV_217-1">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001831" ana="†">
-                           <persName> Johann Wilhelm Freiherr von <name type="reg">Hompesch</name>
+                           <persName>Johann Wilhelm Freiherr von <name type="reg">Hompesch</name>
                            </persName>
                         </person>
                      </listPerson>
                      <listPlace type="lineReference">
-                        <place corresp="#JP-0056690">
-                           <placeName>Deutsche; Deutschland , deutsch , Germanien,
-                              Vaterland</placeName>
+                        <place corresp="#JP-011167">
+                           <placeName>Deutsche</placeName>
                         </place>
                      </listPlace>
                   </note>
@@ -273,7 +288,8 @@
                   noch behalten<note corresp="#IV_217-2">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001289">
-                           <persName> Herzog von Sachsen-Meiningen <name type="reg">Georg I.</name>
+                           <persName>
+                              <name type="reg">Georg I., Herzog von Sachsen-Meiningen</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -295,7 +311,7 @@
                   Präsident <hi rendition="#aq">Heim</hi> aus<note corresp="#IV_217-9">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001603">
-                           <persName> Johann Ludwig <name type="reg">Heim</name>
+                           <persName>Johann Ludwig <name type="reg">Heim</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -304,7 +320,8 @@
                   ungestörter Freund und<note corresp="#IV_217-10">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001289">
-                           <persName> Herzog von Sachsen-Meiningen <name type="reg">Georg I.</name>
+                           <persName>
+                              <name type="reg">Georg I., Herzog von Sachsen-Meiningen</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -317,7 +334,7 @@
                   Gottwalt wächst verdamt heran, und misset<note corresp="#IV_217-16">
                      <listBibl type="lineReference" subtype="werke-jp">
                         <bibl corresp="#JP-010695">
-                           <title>Flegeljahre (1804-1805)</title>
+                           <title>Flegeljahre. Eine Biographie (4 Bde., Tübingen: Cotta 1804-1805)</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -337,8 +354,7 @@
                   Apotheker ablasse, bei dem<note corresp="#IV_217-22">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001919">
-                           <persName>
-                              <name type="reg">Jahn</name>
+                           <persName>Herr <name type="reg">Jahn</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -349,7 +365,7 @@
                   </hi> überrascht’<note corresp="#IV_217-24">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001920">
-                           <persName> Friedrich <name type="reg">Jahn</name>
+                           <persName>Friedrich <name type="reg">Jahn</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -359,7 +375,7 @@
                   die ich oft Schwenzelenz nenne — eingeimpft. Gold<note corresp="#IV_217-26">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003471">
-                           <persName> Emma <name type="reg">Richter</name>
+                           <persName>Emma <name type="reg">Richter</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -370,7 +386,7 @@
                   aber dan<note corresp="#IV_217-28">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003087">
-                           <persName> Emanuel <name type="reg">Osmund</name>
+                           <persName>Emanuel <name type="reg">Osmund</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -384,19 +400,19 @@
                      verloren;<note corresp="#IV_217-35">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001313">
-                           <persName> Salomon <name type="reg">Geßner</name>
+                           <persName>Salomon <name type="reg">Geßner</name>
                            </persName>
                         </person>
                         <person corresp="#JP-001505">
-                           <persName> Albrecht von <name type="reg">Haller</name>
+                           <persName>Albrecht von <name type="reg">Haller</name>
                            </persName>
                         </person>
                         <person corresp="#JP-003346">
-                           <persName> Karl Wilhelm <name type="reg">Ramler</name>
+                           <persName>Karl Wilhelm <name type="reg">Ramler</name>
                            </persName>
                         </person>
                         <person corresp="#JP-004710">
-                           <persName> Christoph Martin <name type="reg">Wieland</name>
+                           <persName>Christoph Martin <name type="reg">Wieland</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -445,11 +461,12 @@
                      <listPerson type="lineReference">
                         <person corresp="#JP-001187">
                            <persName>
-                              <name type="reg">Friedrich Wilhelm III.</name>
+                              <name type="reg">Friedrich Wilhelm III., König von Preußen</name>
                            </persName>
                         </person>
                         <person corresp="#JP-001289">
-                           <persName> Herzog von Sachsen-Meiningen <name type="reg">Georg I.</name>
+                           <persName>
+                              <name type="reg">Georg I., Herzog von Sachsen-Meiningen</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -465,31 +482,35 @@
                   </note>
                   <lb n="10" xml:id="IV_218-10"/>stat der h. Geists Taube stören. Lies oder schreib’
                   doch bald! Ende<lb xml:id="IV_218-11"/>künftiger Woche bin ich in <hi rendition="#aq">Coburg.</hi> Leb wohl.<note corresp="#IV_218-12">
-                  <listPlace type="lineReference">
-                     <place corresp="#JP-005649">
-                        <placeName>Coburg </placeName>
-                     </place>
-                  </listPlace>
-               </note><lb xml:id="IV_218-12"/></p>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005649">
+                           <placeName>Coburg </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="IV_218-12"/>
+               </p>
                <p>Jezt hab ich die hübsche Arbeit, dieselbe Sache zum 4<hi rendition="#sup">ten</hi>
                   mal an<lb xml:id="IV_218-13"/>4 Fürstinnen schreiben zu müssen.<note corresp="#IV_218-14">
                      <listPerson type="lineReference">
                         <person corresp="#JP-000608">
-                           <persName> Georgine Luise Friederike <name type="reg">Charlotte</name>
+                           <persName>
+                              <name type="reg">Charlotte, Herzogin von Hildburghausen</name>
                            </persName>
                         </person>
                         <person corresp="#JP-001168">
-                           <persName> Fürstin zu Solms <name type="reg">Friederike</name>
+                           <persName>
+                              <name type="reg">Friederike Prinzessin von Solms-Braunfels</name>
                            </persName>
                         </person>
                         <person corresp="#JP-002548">
                            <persName>
-                              <name type="reg">Luise</name>
+                              <name type="reg">Luise, Königin von Preußen</name>
                            </persName>
                         </person>
                         <person corresp="#JP-004298">
-                           <persName> Therese Mathilde Amalie Fürstin von <name type="reg">Thurn und
-                                 Taxis</name>
+                           <persName>
+                              <name type="reg">Therese, Fürstin von Thurn und Taxis</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -507,10 +528,15 @@
                   <hi rendition="#sup">1</hi>: Wahrheit 6,267×.<lb/>
                   <hi rendition="#i">J</hi>
                   <hi rendition="#sup">2</hi>: Otto 4,123×. <hi rendition="#i">J</hi>
-                  <hi rendition="#sup">3</hi>: Nerrlich Nr. 100×. <hi rendition="#i">B</hi>: IV.
-                  Abt., IV, Nr. 277 u. 281. <hi rendition="#i">A</hi>:<lb/>IV. Abt., IV, Nr.</hi>
+                  <hi rendition="#sup">3</hi>: Nerrlich Nr. 100×. <hi rendition="#i">B</hi>: IV. Abt., 4, Nr. 277 u. 281. <hi rendition="#i">A</hi>:<lb/>IV. Abt., 4, Nr.</hi>
                <hi rendition="#aq">290. </hi>
-               <hi rendition="#b"><hi rendition="#aq">216</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">11</hi></hi> wäre] <hi rendition="#aq">aus</hi> bin <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">216</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">11</hi>
+               </hi> wäre] <hi rendition="#aq">aus</hi> bin <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi> schreiben würde] <hi rendition="#aq">aus</hi> schreibe <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
@@ -546,7 +572,13 @@
                <hi rendition="#rkd">29 </hi>Engels] <hi rendition="#aq">davor gestr.</hi> auch <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">217</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">3</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">217</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">3</hi>
+               </hi>
                <lb/>werde] <hi rendition="#aq">aus</hi> habe <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>

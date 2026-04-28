@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="259">255. An Dr. Walther in Bayreuth. </title>
-            <title n="digital">Von Jean Paul an Johann Adam Walther. Bayreuth, 7. März 1822.</title>
+            <title n="print" type="letter" rend="255">255. An Dr. Walther in Bayreuth. </title>
+            <title n="digital">Von Jean Paul an Johann Adam Walther. Bayreuth, 7. März 1822, Donnerstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>156</num>
                </biblScope>
@@ -77,14 +77,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1822-03-07">7. März 1822</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-004585">Johann Adam Walther</persName>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VIII_254"/><ptr type="next" subtype="brief" target="VIII_256"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VIII_254"/><ptr type="next" subtype="brief" target="VIII_256"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VIII_223"/><ptr type="next" subtype="brief" target="VIII_347"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VIII_254"/>
+               <ptr type="next" subtype="brief" target="VIII_256"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VIII_254"/>
+               <ptr type="next" subtype="brief" target="VIII_256"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VIII_223"/>
+               <ptr type="next" subtype="brief" target="VIII_347"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -101,7 +116,7 @@
                wol nach 1 Woche wegen meines Ver<note corresp="#VIII_156-27">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001662">
-                        <persName> Johann Friedrich <name type="reg">Herbart</name>
+                        <persName>Johann Friedrich <name type="reg">Herbart</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -109,11 +124,11 @@
                <lb xml:id="VIII_156-27" rendition="#hyphen"/>sprechens an <hi rendition="#aq">Gabler</hi> wiederschicken werden — Und für Ihre liebe Gattin<note corresp="#VIII_156-28">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001228">
-                        <persName> Georg Andreas <name type="reg">Gabler</name>
+                        <persName>Georg Andreas <name type="reg">Gabler</name>
                         </persName>
                      </person>
                      <person corresp="#JP-004586">
-                        <persName> Johann Adam <name type="reg">Walther</name>
+                        <persName>Johann Adam <name type="reg">Walther</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -124,13 +139,15 @@
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010540">
                         <title>Blumen- Frucht- und Dornenstükke (Blumen-, Frucht- und Dornenstücke)
-                           (Siebenkäs) (1796-97 [1796])</title>
+                        (Siebenkäs) oder Ehestand, Tod und Hochzeit des Armenadvokaten F. St.
+                        Siebenkäs im Reichsmarktflecken Kuhschnappel (Berlin, Matzdorff 1796-97
+                        [1796])</title>
                      </bibl>
                      <bibl corresp="#JP-010605">
                         <title>Der Komet (1820-1822)</title>
                      </bibl>
                      <bibl corresp="#JP-010727">
-                        <title>Hesperus (1795)</title>
+                        <title>Hesperus (3 Bde., Berlin: Matzdorff 1795)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -140,8 +157,8 @@
                Nerven, den<note corresp="#VIII_156-31">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009926" ana="†">
-                        <author>Tissot, Samuel André (1728-1797), Mediziner in Lausanne</author>
-                        <title>Traité des nerfs (1778-1780)</title>
+                        <author>Tissot, Samuel André (1728–1797)</author>
+                        <title>Traité des nerfs (1778–1780)</title>
                      </bibl>
                   </listBibl>
                </note>

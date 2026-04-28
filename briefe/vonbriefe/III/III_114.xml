@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="116">114. An Gleim in Halberstadt. </title>
-            <title n="digital">Von Jean Paul an Johann Wilhelm Ludwig Gleim. Leipzig, 8. August 1798.</title>
+            <title n="print" type="letter" rend="114">114. An Gleim in Halberstadt. </title>
+            <title n="digital">Von Jean Paul an Johann Wilhelm Ludwig Gleim. Leipzig, 8. August 1798, Mittwoch.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
+               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
                <biblScope n="text" unit="page">
                   <num>80</num>
                </biblScope>
@@ -77,14 +77,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1798-08-08">8. August 1798</date>
                <placeName key="JP-005948">Leipzig</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-001328">Johann Wilhelm Ludwig Gleim</persName>
                <placeName key="JP-005808">Halberstadt</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="III_9-fb"/><ptr type="next" subtype="brief" target="III_115"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="III_9-fb"/><ptr type="next" subtype="brief" target="III_115"/></correspContext><correspContext n="correspondence"><ptr type="next" subtype="brief" target="III_415"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-III.1_73"/>
+               <ptr type="next" subtype="brief" target="III_115"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="III_9-fb"/>
+               <ptr type="next" subtype="brief" target="III_115"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-III.1_72"/>
+               <ptr type="next" subtype="anbrief" target="IV-III.2_323"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -102,9 +117,9 @@
             <p>Dieses Blat wurde nur durch die für die „Ruhestunden“ bestimte<note corresp="#III_80-6">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008748" ana="†">
-                        <author>Hoche, Johann Gottfried und Johann Carl Christoph Nachtigal (Werk,
-                           Hrsg.)</author>
-                        <title>Ruhestunden für Frohsinn und häusliches Glück (1798-1804)</title>
+                        <author>Hoche, Johann Gottfried; Nachtigal, Johann Carl Christoph
+                        (Hrsg.)</author>
+                        <title>Ruhestunden für Frohsinn und häusliches Glück (1798–1804)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -112,14 +127,14 @@
                geschicket hätte,<note corresp="#III_80-7">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002952">
-                        <persName> Johann Conrad Christoph (Pseud. Otmar) <name type="reg">Nachtigal</name>
+                        <persName>Johann Conrad Christoph <name type="reg">Nachtigal</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010519" ana="†">
-                        <title>Beschreibung der öffentlichen und Privatbibliotheken des Pfarrdorfes
-                           Hukelum (1800)</title>
+                        <title>Beschreibung der öffentlichen und Privatbibliotheken des
+                        Pfarrdorfes Hukelum (1800)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -128,14 +143,15 @@
                   Kopfabschneider<lb xml:id="III_80-9"/>Schlegel, der im 2<hi rendition="#sup">ten</hi> Stük des Athenäums auch an meinen die Bein<note corresp="#III_80-10">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003760" ana="†">
-                        <persName> Friedrich <name type="reg">Schlegel</name>
+                        <persName>Friedrich <name type="reg">Schlegel</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009624">
-                        <author>Schlegel, August Wilhelm und Friedrich (Werk, Hrsg.)</author>
-                        <title>Athenäum (1798-1800)</title>
+                        <author>Schlegel, August Wilhelm von (1767–1845); Schlegel, Friedrich (1772–1829)
+                  (Hrsg.)</author>
+                        <title>Athenäum (1798–1800)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -143,8 +159,8 @@
                Note einige Fingerspizen vol Fliegen<note corresp="#III_80-11">
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010520">
-                        <title>Beschreibung der öffentlichen und Privatbibliotheken des Pfarrdorfes
-                           Hukelum (1800): Note gegen die Schlegel</title>
+                        <title>Beschreibung der öffentlichen und Privatbibliotheken des
+                        Pfarrdorfes Hukelum (1800): Note gegen die Schlegel</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -155,7 +171,7 @@
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010841">
                         <title>Palingenesien (1798): Jean Pauls Fata und Werke von und in
-                           Nürnberg</title>
+                        Nürnberg</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -190,7 +206,7 @@
                   hieher.<note corresp="#III_80-27">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003383">
-                        <persName> Johann Friedrich <name type="reg">Reichardt</name>
+                        <persName>Johann Friedrich <name type="reg">Reichardt</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -205,7 +221,7 @@
             <p>Ihr Oeser schikt Ihnen Dank und Grüsse. Ihn drükt noch der Verlust<note corresp="#III_80-28">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003056" ana="†">
-                        <persName> Adam Friedrich <name type="reg">Oeser</name>
+                        <persName>Adam Friedrich <name type="reg">Oeser</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -213,11 +229,11 @@
                <lb xml:id="III_80-28"/>des Sohnes und der Frau.<note corresp="#III_80-29">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003057">
-                        <persName> Johann Friedrich Ludwig <name type="reg">Oeser</name>
+                        <persName>Johann Friedrich Ludwig <name type="reg">Oeser</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003058">
-                        <persName> Rosine Elisabeth <name type="reg">Oeser</name>
+                        <persName>Rosine Elisabeth <name type="reg">Oeser</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -238,10 +254,16 @@
             <p>
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Gleimhaus, Halberstadt. 4 S. 4°. <hi rendition="#i">K</hi>:</hi> Gleim 8 Aug. <hi rendition="#aq">
-                  <hi rendition="#i">J</hi>: Körte.<lb/>(Danach wiederabgedr. Denkw. 3,38×.) <hi rendition="#i">B</hi>: IV. Abt., III.1, Nr.</hi>
+                  <hi rendition="#i">J</hi>: Körte.<lb/>(Danach wiederabgedr. Denkw. 3,38×.) <hi rendition="#i">B</hi>: IV. Abt., 3.1, Nr.</hi>
                <hi rendition="#aq">72. </hi>
                <ref target="#p80_l11">
-                  <hi rendition="#b"><hi rendition="#aq">80</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">11</hi></hi>
+                  <hi rendition="#b">
+                     <hi rendition="#aq">80</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">11</hi>
+                  </hi>
                </ref>
                <hi rendition="#aq"/>wüthend]<lb/>
                <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
@@ -261,7 +283,13 @@
             </p>
             <p>
                <ref target="#p80_l6">
-                  <hi rendition="#b"><hi rendition="#aq">80</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">6</hi></hi>
+                  <hi rendition="#b">
+                     <hi rendition="#aq">80</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">6</hi>
+                  </hi>
                </ref>
                <hi rendition="#rkd">
                   <hi rendition="#aq">–12</hi>

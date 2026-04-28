@@ -2,9 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="460">459. An Einsiedel in Weimar. </title>
-            <title n="digital">Von Jean Paul an Friedrich Hildebrand Freiherr von Einsiedel-Scharfenstein. Hof,
-               14. November 1796.</title>
+            <title n="print" type="letter" rend="459">459. An Einsiedel in Weimar. </title>
+            <title n="digital">Von Jean Paul an Friedrich Hildebrand Freiherr von Einsiedel-Scharfenstein. Hof, 14. November 1796, Montag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -46,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -61,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
+               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
                <biblScope n="text" unit="page">
                   <num>272</num>
                </biblScope>
@@ -79,14 +78,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1796-11-14">14. November 1796</date>
                <placeName key="JP-005841">Hof</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-000914">Friedrich Hildebrand Freiherr von Einsiedel-Scharfenstein</persName>
                <placeName key="JP-006395">Weimar</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="II_458"/><ptr type="next" subtype="brief" target="II_460"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="II_458"/><ptr type="next" subtype="brief" target="II_460"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="II_367"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-II_152"/>
+               <ptr type="next" subtype="brief" target="II_460"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="II_458"/>
+               <ptr type="next" subtype="brief" target="II_460"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-II_130"/>
+               <ptr type="next" subtype="anbrief" target="IV-II_159"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -106,14 +120,14 @@
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008320" ana="†">
                         <author>Einsiedel-Scharfenstein, Friedrich Hildebrand Freiherr von
-                           (1750-1828), Kammerherr in Weimar</author>
+                        (1750–1828)</author>
                         <title>Grundlinien zu einer Theorie der Schauspielkunst (1797)</title>
                      </bibl>
                   </listBibl>
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010723" ana="†">
                         <title>Gravamina der deutschen Schauspielergeselschaften
-                           (Schauspielergesellschaften)</title>
+                        (Schauspielergesellschaften)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -150,21 +164,23 @@
                mich ab als ich Wochen Ihre<note corresp="#II_272-12">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004710" ana="†">
-                        <persName> Christoph Martin <name type="reg">Wieland</name>
+                        <persName>Christoph Martin <name type="reg">Wieland</name>
                         </persName>
                      </person>
                   </listPerson>
                </note>
                <lb xml:id="II_272-12"/>Abhandlung behalten: ich wil mir ein Billet daraus zusammen
                sezen.<note corresp="#II_272-13">
-               <listBibl type="lineReference" subtype="werke">
-                  <bibl corresp="#JP-008320" ana="ff†">
-                     <author>Einsiedel-Scharfenstein, Friedrich Hildebrand Freiherr von (1750-1828),
-                        Kammerherr in Weimar</author>
-                     <title>Grundlinien zu einer Theorie der Schauspielkunst (1797)</title>
-                  </bibl>
-               </listBibl>
-            </note><lb xml:id="II_272-13"/></p>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008320" ana="ff†">
+                        <author>Einsiedel-Scharfenstein, Friedrich Hildebrand Freiherr von
+                        (1750–1828)</author>
+                        <title>Grundlinien zu einer Theorie der Schauspielkunst (1797)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="II_272-13"/>
+            </p>
             <p>Der Schauspieler, der einen Redner darzustellen hätte, müste zu<lb xml:id="II_272-14" rendition="#hyphen"/>gleich den Redner und die Rede geben, jener nur diese. — Der
                   Unter<lb n="15" xml:id="II_272-15" rendition="#hyphen"/>schied zwischen Lust- und
                Trauerspiel wird dadurch noch grösser, daß<lb xml:id="II_272-16"/>jenes kleinere
@@ -172,16 +188,15 @@
                Herzens aber schliesset jede Wilkühr aus — Heinrich der junge ver<note corresp="#II_272-18">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009762">
-                        <author>Shakespeare, William (Shakespear, Shakspeare, Shakespear,
-                           Schakespeare) (1564-1616)</author>
-                        <title>King Henry IV (1598-1600)</title>
+                        <author>Shakespeare, William (1564–1616)</author>
+                        <title>King Henry IV (1598–1600)</title>
                      </bibl>
                   </listBibl>
                </note>
                <lb xml:id="II_272-18" rendition="#hyphen"/>einigt sich mit dem schmuzigen <hi rendition="#aq">tiers etat</hi> aus der humoristischen<lb xml:id="II_272-19"/>brittischen Neigung zum niedern Volk, aus jugendlichem Hang zu<note corresp="#II_272-20">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-00571514">
-                        <placeName>Humor, Satire, Witz; England, englisch, Britannien</placeName>
+                     <place corresp="#JP-011242">
+                        <placeName>Humor, Satire, Witz</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -190,8 +205,7 @@
                Leidenschaften zumal in Muth<note corresp="#II_272-22">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009760" ana="†">
-                        <author>Shakespeare, William (Shakespear, Shakspeare, Shakespear,
-                           Schakespeare) (1564-1616)</author>
+                        <author>Shakespeare, William (1564–1616)</author>
                         <title>Hamlet (1603)</title>
                      </bibl>
                   </listBibl>
@@ -204,7 +218,7 @@
             <p>
                <hi rendition="#aq">
                   <hi rendition="#i">K</hi>: <hi rendition="#i">Einsiedel. 14 Nov. 96. i</hi>:
-                  Wahrheit 5,182×. <hi rendition="#i">B</hi>: IV. Abt., II, Nr. 130. <hi rendition="#i">A</hi>:<lb/>IV. Abt., II, Nr.</hi>
+                  Wahrheit 5,182×. <hi rendition="#i">B</hi>: IV. Abt., 2, Nr. 130. <hi rendition="#i">A</hi>:<lb/>IV. Abt., 2, Nr.</hi>
                <hi rendition="#aq">159.</hi>
             </p>
             <lb/>

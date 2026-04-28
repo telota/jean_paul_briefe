@@ -2,9 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="247">246. An Cotta. </title>
-            <title n="digital">Von Jean Paul an Johann Friedrich Freiherr Cotta von Cottendorf. Bayreuth, 28. März
-               1810.</title>
+            <title n="print" type="letter" rend="246">246. An Cotta. </title>
+            <title n="digital">Von Jean Paul an Johann Friedrich Cotta. Bayreuth, 28. März 1810, Mittwoch.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -46,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>95</num></biblScope><biblScope n="comment" unit="page"><num>465</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>95</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>465</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -70,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1810-03-28">28. März 1810</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-000698">Johann Friedrich Freiherr Cotta von Cottendorf</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_245"/><ptr type="next" subtype="brief" target="VI_247"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_245"/><ptr type="next" subtype="brief" target="VI_247"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_224"/><ptr type="next" subtype="brief" target="VI_257"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000698">Johann Friedrich von Cotta</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_245"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB1894"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_245"/>
+               <ptr type="next" subtype="brief" target="VI_247"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_224"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_71"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -95,14 +117,14 @@
                mitgearbeitet, aufnehmen<note corresp="#VI_95-4">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003112">
-                        <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                        <persName>Georg Christian <name type="reg">Otto</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009537">
-                        <author>Rühle von Lilienstern, Otto August (Werk, Hrsg.)</author>
-                        <title>Pallas, Zeitschrift (1808-10)</title>
+                        <author>Rühle von Lilienstern, Otto August (1780–1847) (Hrsg.)</author>
+                        <title>Pallas, eine Zeitschrift für Staats- und Kriegskunst (1808–1810)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -110,8 +132,7 @@
                   ein Bändchen seiner vermischten Schriften,<note corresp="#VI_95-32">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-009334" ana="†">
-                           <author>Otto, Christian (Georg Christian) (Pseud. Georgius, Christianus)
-                              (1763-1828), Jurist, einer der engsten Freunde von Jean Paul</author>
+                           <author>Otto, Christian (Pseud. Georgius, Christianus, 1763–1828)</author>
                            <title>Handels- und Finanz-Pandora (1810)</title>
                         </bibl>
                      </listBibl>
@@ -129,29 +150,33 @@
                   </listBibl>
                </note>
                <lb xml:id="VI_95-6"/> Damenkalender, die in einigen Wochen kommen wird.<note corresp="#VI_95-7">
-               <listBibl type="lineReference" subtype="werke">
-                  <bibl corresp="#JP-008269">
-                     <author>Cotta, Johann Friedrich (Hg.)</author>
-                     <title>Taschenbuch für Damen auf das Jahr (1798 ff.)</title>
-                  </bibl>
-               </listBibl>
-            </note><lb xml:id="VI_95-7"/></p>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008269">
+                        <author>Cotta, Johann Friedrich (1764–1832) (Hrsg.)</author>
+                        <title>Taschenbuch für Damen auf das Jahr (1798 ff.)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_95-7"/>
+            </p>
             <p>Ich bitte Sie, zur Ostermesse für mich an Buchhändler <hi rendition="#aq">Heinsius</hi>
                <note corresp="#VI_95-8">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001625">
-                        <persName> Johann Wilhelm Immanuel <name type="reg">Heinsius</name>
+                        <persName>Wilhelm <name type="reg">Heinsius</name>
                         </persName>
                      </person>
                   </listPerson>
                </note>
                <lb xml:id="VI_95-8"/> in Gera 3 rtl. und 18 gr. zu bezahlen.<note corresp="#VI_95-9">
-               <listPlace type="lineReference">
-                  <place corresp="#JP-005777">
-                     <placeName>Gera</placeName>
-                  </place>
-               </listPlace>
-            </note><lb xml:id="VI_95-9"/></p>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005777">
+                        <placeName>Gera</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_95-9"/>
+            </p>
             <p>Aus Ihrem Schweigen errath’ ich den Ausgang der Zensur<lb n="10" xml:id="VI_95-10" rendition="#hyphen"/> Bitte. Überhaupt ist jetzt eine Bitte um gemilderte Zensur
                   nicht<lb xml:id="VI_95-11"/> blos vergeblich, sondern sogar schädlich.</p>
             <lb xml:id="VI_95-12"/>
@@ -172,8 +197,7 @@
                   <hi rendition="#i">H</hi>: Cotta-Archiv. 2 S. 16°; 4. S. Adr.:</hi> Herrn
                Buchhändler <hi rendition="#aq">
                   <hi rendition="#i">Cotta.</hi>
-                  <lb/> Präsentat: 5 Apr. 1810, [beantw.] 6 —. <hi rendition="#i">A</hi>: IV. Abt.,
-                  VI, Nr.</hi>
+                  <lb/> Präsentat: 5 Apr. 1810, [beantw.] 6 —. <hi rendition="#i">A</hi>: IV. Abt., 6, Nr.</hi>
                <hi rendition="#aq">71.</hi>
             </p>
             <lb/>

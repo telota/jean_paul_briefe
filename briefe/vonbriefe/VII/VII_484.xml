@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="488">484. An Johann Andreas Uthe in Dresden. </title>
-            <title n="digital">Von Jean Paul an Johann Andreas Uthe. Bayreuth, 16. Dezember 1818.</title>
+            <title n="print" type="letter" rend="484">484. An Johann Andreas Uthe in Dresden. </title>
+            <title n="digital">Von Jean Paul an Johann Andreas Uthe. Bayreuth, 16. Dezember 1818, Mittwoch.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
+               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
                <biblScope n="text" unit="page">
                   <num>242</num>
                   <num>243</num>
@@ -78,14 +78,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <placeName key="JP-005574">Bayreuth</placeName>
                <date when="1818-12-16">16. Dezember 1818</date>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-004390">Johann Andreas Uthe</persName>
                <placeName key="JP-005687">Dresden</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0577"/><ptr type="next" subtype="brief" target="VII_485"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VII_483"/><ptr type="next" subtype="brief" target="VII_485"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0577"/><ptr type="next" subtype="brief" target="VIII_6"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB0577"/>
+               <ptr type="next" subtype="anbrief" target="IV-VII_158"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VII_483"/>
+               <ptr type="next" subtype="brief" target="VII_485"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB0577"/>
+               <ptr type="next" subtype="anbrief" target="IV-VIII_EB_1"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -98,7 +113,7 @@
                   <note corresp="#VII_242-28">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003469">
-                           <persName> Caroline <name type="reg">Richter</name>
+                           <persName>Caroline <name type="reg">Richter</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -115,7 +130,7 @@
                         </persName>
                      </person>
                      <person corresp="#JP-003469">
-                        <persName> Caroline <name type="reg">Richter</name>
+                        <persName>Caroline <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -124,7 +139,7 @@
                   Neu<note corresp="#VII_242-32">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004392" ana="ff†">
-                        <persName> Johann Gottfried Wilhelm Heinrich <name type="reg">Uthe</name>
+                        <persName>Johann Gottfried Wilhelm Heinrich <name type="reg">Uthe</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -134,7 +149,7 @@
                die herzlich geliebte <hi rendition="#aq">Minna</hi> das<note corresp="#VII_242-34">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004393">
-                        <persName> Wilhelmine <name type="reg">Uthe-Spazier</name>
+                        <persName>Minna <name type="reg">Uthe-Spazier</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -143,10 +158,7 @@
                mitten unter dem Schnee<note corresp="#VII_243-1">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009941">
-                        <author>Uthe-Spazier, Wilhelmine (Minna), geb. Mayer, verw. Spazier
-                           (1776-1825), Schriftstellerin, Schwägerin Jean Pauls, in erster Ehe mit
-                           Karl Spazier, später mit Johann Andreas Uthe verheiratet (Werk,
-                           Hrsg.)</author>
+                        <author>Uthe-Spazier, Wilhelmine (Minna) (1776–1825) (Hrsg.)</author>
                         <title>Sinngrün (1819)</title>
                      </bibl>
                   </listBibl>
@@ -159,14 +171,16 @@
             </p>
             <p>Meine Wünsche der Gesundheit für die Nachleidende und für das<lb xml:id="VII_243-6"/>
                kleine Christkindchen. Es geh Ihnen allen wol!<note corresp="#VII_243-7">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-000633">
-                     <persName>
-                        <name type="reg">Christkind</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="VII_243-7"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000633">
+                        <persName>
+                           <name type="reg">Christkind</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VII_243-7"/>
+            </p>
             <closer>
                <salute>
                   <hi rendition="#right">Ihr<lb xml:id="VII_243-8"/> Jean Paul Fr. Richter</hi>
@@ -182,7 +196,19 @@
                   <hi rendition="#i">Uthe</hi>
                </hi> Wohl<lb rendition="#hyphen"/>geb. in <hi rendition="#aq">
                   <hi rendition="#i">Dresden.</hi>
-               </hi> Frei. <hi rendition="#b"><hi rendition="#aq">242</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">34</hi></hi> haben] <hi rendition="#aq">aus</hi> hat <hi rendition="#b"><hi rendition="#aq">243</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">2</hi></hi> in dasselbe] <hi rendition="#aq">aus</hi>
+               </hi> Frei. <hi rendition="#b">
+                  <hi rendition="#aq">242</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">34</hi>
+               </hi> haben] <hi rendition="#aq">aus</hi> hat <hi rendition="#b">
+                  <hi rendition="#aq">243</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">2</hi>
+               </hi> in dasselbe] <hi rendition="#aq">aus</hi>
                <lb/> darein <hi rendition="#rkd">7</hi> kleine] <hi rendition="#aq">nachtr.</hi>
             </p>
             <lb/>

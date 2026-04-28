@@ -3,7 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title n="print" type="letter" rend="355">355. An Buchhändler Göschen in Leipzig. </title>
-            <title n="digital">Von Jean Paul an Georg Joachim Göschen. Hof, 13. Januar 1791. </title>
+            <title n="digital">Von Jean Paul an Georg Joachim Göschen. Hof, 13. Januar 1791, Donnerstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="I">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
+               <title n="I">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
                <biblScope n="text" unit="page">
                   <num>319</num>
                   <num>320</num>
@@ -78,14 +78,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1791-01-13">13. Januar 1791</date>
                <placeName key="JP-005841">Hof</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-001349">Georg Joachim Göschen</persName>
                <placeName key="JP-005948">Leipzig</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="I_354"/><ptr type="next" subtype="brief" target="I_356"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="I_354"/><ptr type="next" subtype="brief" target="I_356"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="I_33-fb"/><ptr type="next" subtype="brief" target="IX_3"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-I_120"/>
+               <ptr type="next" subtype="anbrief" target="IV-I_121"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="I_354"/>
+               <ptr type="next" subtype="brief" target="I_356"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-I_EB_43"/>
+               <ptr type="next" subtype="brief" target="IX_3"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -107,7 +122,7 @@
             <p>Es wird einerlei sein, ob ich mich an Sie oder an den schottischen <note corresp="#I_319-24">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003737">
-                        <persName> Friedrich (ab 1802) von <name type="reg">Schiller</name>
+                        <persName>Friedrich (ab 1802) von <name type="reg">Schiller</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003845">
@@ -117,16 +132,16 @@
                      </person>
                   </listPerson>
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0062590">
-                        <placeName>Schottischer Meister; Schottland</placeName>
+                     <place corresp="#JP-011663">
+                        <placeName>Schottischer Meister</placeName>
                      </place>
                   </listPlace>
                </note>
                <lb xml:id="I_319-24"/>Meister aller schönen Künste mit der Bitte wende, der <hi rendition="#aq">Thalia</hi> diesen<note corresp="#I_319-25">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009610">
-                        <author>Schiller, Friedrich (ab 1802) von (1759-1805) (Werk, Hrsg.)</author>
-                        <title>Thalia (1785-1793, ab 1792 Neue)</title>
+                        <author>Schiller, Friedrich von (1759–1805) (Hrsg.)</author>
+                        <title>Thalia (1785–1793, ab 1792 Neue)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -157,8 +172,8 @@
                <note corresp="#I_320-3">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009610">
-                        <author>Schiller, Friedrich (ab 1802) von (1759-1805) (Werk, Hrsg.)</author>
-                        <title>Thalia (1785-1793, ab 1792 Neue)</title>
+                        <author>Schiller, Friedrich von (1759–1805) (Hrsg.)</author>
+                        <title>Thalia (1785–1793, ab 1792 Neue)</title>
                      </bibl>
                   </listBibl>
                </note>

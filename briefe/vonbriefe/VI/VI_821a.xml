@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="824">821a. An Professor Wagner in Bayreuth. </title>
+            <title n="print" type="letter" rend="821a">821a. An Professor Wagner in Bayreuth. </title>
             <title n="digital">Von Jean Paul an Lorenz Heinrich Wagner. Bayreuth, 1813 oder 1814.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>355</num></biblScope><biblScope n="comment" unit="page"><num>567</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>355</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>567</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,15 +77,30 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date cert="medium" notBefore="1813-01-01" notAfter="1814-12-31">1813 oder
                   1814</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-004569">Lorenz Heinrich Wagner</persName>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_719"/><ptr type="next" subtype="brief" target="VI_717"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_719"/><ptr type="next" subtype="brief" target="VI_717"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_674"/><ptr type="next" subtype="brief" target="VI_42-fb"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_719"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_214"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_719"/>
+               <ptr type="next" subtype="brief" target="VI_717"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_674"/>
+               <ptr type="next" subtype="brief" target="VI_42-fb"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -93,8 +116,8 @@
             <lb n="5" xml:id="VI_355-5"/>
             <p>Meinen neuen Franzwein haben Sie, lieber Herr Professor, noch<note corresp="#VI_355-6">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-00574614">
-                        <placeName>Wein; Frankreich, französisch</placeName>
+                     <place corresp="#JP-011312">
+                        <placeName>Wein</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -114,8 +137,8 @@
                   ferner<note corresp="#VI_355-12">
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010720">
-                        <title>Geschichte meiner Vorrede zur zweiten Auflage des Quintus Fixlein
-                           (1797 [1796])</title>
+                        <title>Geschichte meiner Vorrede zur zweiten Auflage des Quintus
+                        Fixlein (1797 [1796])</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -124,17 +147,15 @@
                   Schrift<note corresp="#VI_355-13">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009569">
-                        <author>Schelling, Friedrich Wilhelm Joseph (ab 1812) von
-                           (1775-1854)</author>
-                        <title>Denkmal der Schrift von den göttlichen Dingen des Herrn Jacobi
-                           (1812)</title>
+                        <author>Schelling, Friedrich Wilhelm Joseph von (1775–1854)</author>
+                        <title>Denkmal der Schrift von den göttlichen Dingen des Herrn Jacobi (1812)</title>
                      </bibl>
                   </listBibl>
                </note>
                <lb xml:id="VI_355-13"/> gegen <hi rendition="#aq">Jacobi</hi> oder <hi rendition="#aq">Koeppens</hi> Schrift gegen jenen). Übrigens ersuch’<note corresp="#VI_355-14">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008970" ana="†">
-                        <author>Köppen, Friedrich (1775-1858), Philosoph</author>
+                        <author>Köppen, Friedrich (1775–1858)</author>
                         <title>Schellings Lehre (1803)</title>
                      </bibl>
                   </listBibl>
@@ -149,14 +170,16 @@
             <lb xml:id="VI_355-16"/>
             <postscript>
                <p>N. S. Gibt es noch keine hallischen Ergänzblätter?<note corresp="#VI_355-17">
-                  <listBibl type="lineReference" subtype="werke">
-                     <bibl corresp="#JP-010170">
-                        <author/>
-                        <title>Allgemeine Literatur-Zeitung (Literaturzeitung) (Jena 1785ff., ab
-                           1804 Halle)</title>
-                     </bibl>
-                  </listBibl>
-               </note><lb xml:id="VI_355-17"/></p>
+                     <listBibl type="lineReference" subtype="werke">
+                        <bibl corresp="#JP-010170">
+                           <author/>
+                           <title>Allgemeine Literatur-Zeitung (Literaturzeitung) (Jena 1785 ff., ab 1804
+                        Halle)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="VI_355-17"/>
+               </p>
             </postscript>
          </div>
          <div type="comment">

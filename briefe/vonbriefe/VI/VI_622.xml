@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="624">622. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, 11. März 1812.</title>
+            <title n="print" type="letter" rend="622">622. An Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth, 11. März 1812, Mittwoch.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>255</num></biblScope><biblScope n="comment" unit="page"><num>533</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>255</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>533</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1812-03-11">11. März 1812</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_620"/><ptr type="next" subtype="brief" target="VI_623"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_620"/><ptr type="next" subtype="brief" target="VI_623"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_620"/><ptr type="next" subtype="brief" target="VI_623"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-IX_2.49"/>
+               <ptr type="next" subtype="brief" target="VI_623"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_620"/>
+               <ptr type="next" subtype="brief" target="VI_623"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_620"/>
+               <ptr type="next" subtype="brief" target="VI_623"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -92,8 +115,8 @@
             <p>Guten Morgen, Alter! Das Museum an dich. — Sei so gut<note corresp="#VI_255-20">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009637" ana="?">
-                        <author>Schlegel, Friedrich (Werk, Hrsg.)</author>
-                        <title>Deutsches Museum (1812-1813)</title>
+                        <author>Schlegel, Friedrich (1772–1829) (Hrsg.)</author>
+                        <title>Deutsches Museum (1812–1813)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -101,12 +124,12 @@
                Schmeichlers. Besieh<note corresp="#VI_255-21">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002238" ana="?">
-                        <persName> Christian Sigismund <name type="reg">Krause</name>
+                        <persName>Christian Sigismund <name type="reg">Krause</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003483">
-                        <persName> Johann Paul Friedrich <name type="reg">Richter</name>
-                        </persName>
+                        <persName>
+                           <name type="reg">Richter</name>, seine Kinder</persName>
                      </person>
                   </listPerson>
                </note>
@@ -114,7 +137,7 @@
                   ge<lb xml:id="VI_255-22" rendition="#hyphen"/>folgt, dem guten <hi rendition="#aq">Wagner</hi> in <hi rendition="#aq">Meiningen</hi> ein Paar Liebenachklänge<note corresp="#VI_255-23">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004556" ana="†">
-                        <persName> Johann Ernst <name type="reg">Wagner</name>
+                        <persName>Johann Ernst <name type="reg">Wagner</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -130,16 +153,14 @@
                <hi rendition="#aq">Schelling</hi> hat mit einem Holspiegel <hi rendition="#aq">Jacobi</hi> eingeäschert, aber<note corresp="#VI_255-25">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001909">
-                        <persName> Friedrich Heinrich <name type="reg">Jacobi</name>
+                        <persName>Friedrich Heinrich <name type="reg">Jacobi</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009569">
-                        <author>Schelling, Friedrich Wilhelm Joseph (ab 1812) von
-                           (1775-1854)</author>
-                        <title>Denkmal der Schrift von den göttlichen Dingen des Herrn Jacobi
-                           (1812)</title>
+                        <author>Schelling, Friedrich Wilhelm Joseph von (1775–1854)</author>
+                        <title>Denkmal der Schrift von den göttlichen Dingen des Herrn Jacobi (1812)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -152,7 +173,13 @@
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Berlin JP. Präsentat: Mitwoch, den 11 März</hi>
                <hi rendition="#aq">12. </hi>
-               <hi rendition="#b"><hi rendition="#aq">255</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">24</hi></hi> taube]<lb/>
+               <hi rendition="#b">
+                  <hi rendition="#aq">255</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">24</hi>
+               </hi> taube]<lb/>
                <hi rendition="#aq">nachtr.</hi>
             </p>
             <lb/>

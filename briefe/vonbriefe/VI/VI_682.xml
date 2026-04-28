@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="684">682. An Schrag in Nürnberg. </title>
-            <title n="digital">Von Jean Paul an Johann Leonhard Schrag. Bayreuth, 14. Oktober 1812.</title>
+            <title n="print" type="letter" rend="682">682. An Schrag in Nürnberg. </title>
+            <title n="digital">Von Jean Paul an Johann Leonhard Schrag. Bayreuth, 14. Oktober 1812, Mittwoch.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>295</num></biblScope><biblScope n="comment" unit="page"><num>545</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>295</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>545</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,14 +77,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1812-10-14">14. Oktober 1812</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003846">Johann Leonhard Schrag</persName>
                <placeName key="JP-006085">Nürnberg</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_681"/><ptr type="next" subtype="brief" target="VI_683"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_681"/><ptr type="next" subtype="brief" target="VI_683"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_647"/><ptr type="next" subtype="brief" target="VI_722"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_681"/>
+               <ptr type="next" subtype="anbrief" target="IV-IX_2.55"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_681"/>
+               <ptr type="next" subtype="brief" target="VI_683"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_647"/>
+               <ptr type="next" subtype="brief" target="VI_722"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -103,7 +126,7 @@
                nicht unter Wegs verloren haben; und<note corresp="#VI_295-12">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003956">
-                        <persName> Johann Salomon Christoph <name type="reg">Schweigger</name>
+                        <persName>Johann Salomon Christoph <name type="reg">Schweigger</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -111,7 +134,7 @@
                <lb xml:id="VI_295-12"/> ich wiederhole sie alle hier. H. Prof. <hi rendition="#aq">Heller</hi> sagen Sie, daß ich<note corresp="#VI_295-13">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001635">
-                        <persName> Ludwig <name type="reg">Heller</name>
+                        <persName>Ludwig <name type="reg">Heller</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -120,7 +143,7 @@
                   Erfüllung<lb xml:id="VI_295-14"/> nur auf die Zurücksendung der <hi rendition="#aq">Osterhausischen</hi> Bücher verschiebe.<note corresp="#VI_295-15">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003099">
-                        <persName> Johann Karl <name type="reg">Osterhausen</name>
+                        <persName>Johann Karl <name type="reg">Osterhausen</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -146,30 +169,34 @@
                hoffe, Ihnen<lb xml:id="VI_295-21"/> zur
                   Mich<metamark>[</metamark>aelis<metamark>]</metamark> Messe 1813 etwas geben zu
                können.<note corresp="#VI_295-22">
-               <listBibl type="lineReference" subtype="werke-jp">
-                  <bibl corresp="#JP-010825" ana="?">
-                     <title>Museum (1814)</title>
-                  </bibl>
-                  <bibl corresp="#JP-010826" ana="?">
-                     <title>Museum (1814): Vorrede</title>
-                  </bibl>
-               </listBibl>
-            </note><lb xml:id="VI_295-22"/></p>
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010825" ana="?">
+                        <title>Museum (1814)</title>
+                     </bibl>
+                     <bibl corresp="#JP-010826" ana="?">
+                        <title>Museum (1814): Vorrede</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_295-22"/>
+            </p>
             <p>Noch immer bleibt, wenn ich einmal <hi rendition="#aq">Baireuth</hi> verlasse,
                   mein<note corresp="#VI_295-23">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005574">
-                        <placeName>Bayreuth (Stadt)</placeName>
+                        <placeName>Bayreuth </placeName>
                      </place>
                   </listPlace>
                </note>
                <lb xml:id="VI_295-23"/> Auge nach dem Thore gerichtet, das nach <hi rendition="#aq">Nürnberg</hi> offen steht.<note corresp="#VI_295-24">
-               <listPlace type="lineReference">
-                  <place corresp="#JP-006085">
-                     <placeName>Nürnberg</placeName>
-                  </place>
-               </listPlace>
-            </note><lb xml:id="VI_295-24"/></p>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006085">
+                        <placeName>Nürnberg</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VI_295-24"/>
+            </p>
             <p>Leben Sie froh!<lb n="25" xml:id="VI_295-25"/>
             </p>
             <closer>
@@ -186,7 +213,7 @@
                      besonders.<note corresp="#VI_295-32">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003956">
-                           <persName> Johann Salomon Christoph <name type="reg">Schweigger</name>
+                           <persName>Johann Salomon Christoph <name type="reg">Schweigger</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -195,11 +222,11 @@
                      <listPerson type="lineReference">
                         <person corresp="#JP-002955" ana="?">
                            <persName>
-                              <name type="reg">Napoleon I. Bonaparte</name>
+                              <name type="reg">Napoleon I. Bonaparte, Kaiser von Frankreich </name>
                            </persName>
                         </person>
                         <person corresp="#JP-003099">
-                           <persName> Johann Karl <name type="reg">Osterhausen</name>
+                           <persName>Johann Karl <name type="reg">Osterhausen</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -221,7 +248,13 @@
                </hi> Fr. <hi rendition="#aq">(Poststempel: Baireuth 14 Oct. 1812.) <hi rendition="#i">K</hi>:<lb/>
                   <hi rendition="#i">Schrag</hi>
                </hi> 15[!] Okt. <hi rendition="#aq">
-                  <hi rendition="#i">J</hi>: Euphorion II, 622f×</hi>. <hi rendition="#b"><hi rendition="#aq">295</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">24</hi></hi> offen] <hi rendition="#aq">davor<lb/> gestr.</hi> führt <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>: Euphorion II, 622f×</hi>. <hi rendition="#b">
+                  <hi rendition="#aq">295</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">24</hi>
+               </hi> offen] <hi rendition="#aq">davor<lb/> gestr.</hi> führt <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
             </p>

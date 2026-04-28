@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="57">56a. An Gottlieb Richter in Sparneck. </title>
-            <title n="digital">Von Jean Paul an Johann Gottlieb Richter. Bayreuth, 20. Januar 1805.</title>
+            <title n="print" type="letter" rend="56a">56a. An Gottlieb Richter in Sparneck. </title>
+            <title n="digital">Von Jean Paul an Gottlieb Richter. Bayreuth, 20. Januar 1805, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
+               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
                <biblScope n="text" unit="page">
                   <num>21</num>
                   <num>22</num>
@@ -78,14 +78,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1805-01-20">20. Januar 1805</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-003480">Johann Gottlieb Richter</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-003480">Gottlieb Richter</persName>
                <placeName key="JP-006291">Sparneck</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="V_56"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0009"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="V_56"/><ptr type="next" subtype="brief" target="V_18-fb"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="IV_388"/><ptr type="next" subtype="brief" target="V_25-fb"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="V_56"/>
+               <ptr type="next" subtype="anbrief" target="IV-V_25"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="V_56"/>
+               <ptr type="next" subtype="brief" target="V_18-fb"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="IV_388"/>
+               <ptr type="next" subtype="brief" target="V_25-fb"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -105,11 +120,11 @@
                   ein<note corresp="#V_21-21">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003483">
-                        <persName> Johann Paul Friedrich <name type="reg">Richter</name>
-                        </persName>
+                        <persName>
+                           <name type="reg">Richter</name>, seine Kinder</persName>
                      </person>
                      <person corresp="#JP-003491">
-                        <persName> Odilie Minna <name type="reg">Richter</name>
+                        <persName>Odilie <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -121,11 +136,11 @@
             <p>Eben hab’ ich an <hi rendition="#aq">Schuckmann</hi> für dich geschrieben. <hi rendition="#aq">Otto</hi> meint<note corresp="#V_21-26">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003112">
-                        <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                        <persName>Georg Christian <name type="reg">Otto</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003878">
-                        <persName> Caspar Friedrich Freiherr von <name type="reg">Schuckmann</name>
+                        <persName>Kaspar Friedrich Freiherr von <name type="reg">Schuckmann</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -133,7 +148,7 @@
                <lb xml:id="V_21-26"/> aber, du würdest dich in <hi rendition="#aq">Erlang</hi> mit
                700 fl. schlechter stehen als in<note corresp="#V_21-27">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-005722">
+                     <place corresp="#JP-005721">
                         <placeName>Erlangen </placeName>
                      </place>
                   </listPlace>
@@ -144,11 +159,11 @@
                <note corresp="#V_21-28">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004326">
-                        <persName> Otto Heinrich <name type="reg">Tornesi</name>
+                        <persName>Otto Heinrich <name type="reg">Tornesi</name>
                         </persName>
                      </person>
                      <person corresp="#JP-004483" ana="?">
-                        <persName> Johann Wilhelm <name type="reg">Vogel</name>
+                        <persName>Johann Wilhelm <name type="reg">Vogel</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -160,17 +175,19 @@
                </note>
                <lb xml:id="V_21-28"/> und <hi rendition="#aq">Bomhardt,</hi> die ich gelegentlich
                sprechen will.<note corresp="#V_21-29">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-000425">
-                     <persName> Johann Ernst Georg Friedrich <name type="reg">Bomhard </name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="V_21-29"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000425">
+                        <persName>Johann Ernst Georg Friedrich von <name type="reg">Bomhard</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="V_21-29"/>
+            </p>
             <p>Du solltest in Holland leben, oder in Rom, wo man für das dritte<note corresp="#V_21-30">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003473" ana="†">
-                        <persName> Johann Gottlieb <name type="reg">Richter</name>
+                        <persName>Gottlieb <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -191,14 +208,14 @@
                   Seiten<note corresp="#V_21-33">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005841">
-                        <placeName>Hof im Vogtland</placeName>
+                        <placeName>Hof</placeName>
                      </place>
                   </listPlace>
                </note>
                <lb xml:id="V_21-33" rendition="#hyphen"/>schritte zu dir, um deinen gelehrten <hi rendition="#aq">Heinrich,</hi> der wirklich für seine<note corresp="#V_21-34">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003474">
-                        <persName> Heinrich <name type="reg">Richter</name>
+                        <persName>Heinrich <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -209,7 +226,7 @@
                   Frau.<note corresp="#V_22-3">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003469">
-                        <persName> Caroline <name type="reg">Richter</name>
+                        <persName>Caroline <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -232,11 +249,23 @@
                   <hi rendition="#i">Richter Sparneck.</hi>
                </hi> fr. <hi rendition="#aq">Präsentat: Sparneck, am 23ten Jan.</hi>
                <hi rendition="#aq">1805. </hi>
-               <hi rendition="#b"><hi rendition="#aq">21</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">33</hi></hi> thu’]<lb/>
+               <hi rendition="#b">
+                  <hi rendition="#aq">21</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">33</hi>
+               </hi> thu’]<lb/>
                <hi rendition="#aq">aus</hi> geh’</p>
             <lb/>
             <p>
-               <hi rendition="#b"><hi rendition="#aq">21</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">28</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">21</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">28</hi>
+               </hi>
                <hi rendition="#aq">
                   <hi rendition="#g">Vogel:</hi> wohl der Kommissionsrat Joh. Wilh. V. in
                   Schwarzenbach<lb/> (Bd. I, 419, Nr. 7). <hi rendition="#g">Tornesi:</hi> s. Bd.

@@ -3,7 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title n="print" type="letter" rend="160">160. An Wieland in Weimar. </title>
-            <title n="digital">Von Jean Paul an Christoph Martin Wieland. Hof, 26. März 1786. </title>
+            <title n="digital">Von Jean Paul an Christoph Martin Wieland. Hof, 26. März 1786, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="I">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
+               <title n="I">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
                <biblScope n="text" unit="page">
                   <num>205</num>
                </biblScope>
@@ -77,7 +77,7 @@
             </msDesc>
             <listBibl type="commentary" subtype="werke-jp">
                <bibl corresp="#JP-010648">
-                  <title>Die unsichtbare Loge (1793) </title>
+                  <title>Die unsichtbare Loge (1793) (Mumien) </title>
                </bibl>
                <bibl corresp="#JP-010878">
                   <title>Scherze in Quart [1785-86]</title>
@@ -86,14 +86,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1786-03-26">26. März 1786</date>
                <placeName key="JP-005841">Hof</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-004710">Christoph Martin Wieland</persName>
                <placeName key="JP-006395">Weimar</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="I_158"/><ptr type="next" subtype="brief" target="I_162"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="I_158"/><ptr type="next" subtype="brief" target="I_162"/></correspContext><correspContext n="correspondence"><ptr type="next" subtype="brief" target="I_169"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-I_56"/>
+               <ptr type="next" subtype="brief" target="I_162"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="I_158"/>
+               <ptr type="next" subtype="brief" target="I_162"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="next" subtype="brief" target="I_169"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -115,7 +129,7 @@
             <note corresp="#I_205-8">
                <listPerson type="lineReference">
                   <person corresp="#JP-002373" ana="†">
-                     <persName> Johann Caspar (Kaspar) <name type="reg">Lavater</name>
+                     <persName>Johann Caspar <name type="reg">Lavater</name>
                      </persName>
                   </person>
                   <person corresp="#JP-002777" ana="ff">
@@ -126,9 +140,9 @@
                </listPerson>
                <listBibl type="lineReference" subtype="werke">
                   <bibl corresp="#JP-010113" ana="ff">
-                     <author>Wieland, Christoph Martin und Carl (Karl) August Böttiger (Werk,
-                        Hrsg.)</author>
-                     <title>Teutscher Merkur (1773-1810, ab 1790 Neuer)</title>
+                     <author>Wieland, Christoph Martin und Carl (Karl) August Böttiger
+                        (Hrsg.)</author>
+                     <title>Teutscher Merkur (1773–1810, ab 1790 Neuer)</title>
                   </bibl>
                </listBibl>
             </note>
@@ -137,7 +151,7 @@
                schöpft man <note corresp="#I_205-10">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008261" ana="†">
-                        <author>Comes Natalis</author>
+                        <author>Comes Natalis (1520–1582)</author>
                         <title>Mythologiae (1551)</title>
                      </bibl>
                   </listBibl>
@@ -155,13 +169,13 @@
                   <listPerson type="lineReference">
                      <person corresp="#JP-004418">
                         <persName>
-                           <name type="reg">Venus </name>
+                           <name type="reg">Venus</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010105" ana="?†">
-                        <author>Wieland, Christoph Martin (1733-1813)</author>
+                        <author>Wieland, Christoph Martin (1733–1813)</author>
                         <title>Oberon (1780 u. ö.)</title>
                      </bibl>
                   </listBibl>
@@ -173,7 +187,7 @@
                   <listPerson type="lineReference">
                      <person corresp="#JP-000110">
                         <persName>
-                           <name type="reg">Apollo </name>
+                           <name type="reg">Apollo</name>
                         </persName>
                      </person>
                      <person corresp="#JP-002946">
@@ -188,7 +202,7 @@
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010976" ana="†">
                         <title>Wahnsinnige Sprünge, wodurch ich (...) einzuschläfern trachte
-                           [1786]</title>
+                        [1786]</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -202,7 +216,8 @@
                Damen, die ihre <note corresp="#I_205-30">
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010813" ana="†">
-                        <title>Lob auf eine Dame, die in Ohnmacht zu sinken schien [1786]</title>
+                        <title>Lob auf eine Dame, die in Ohnmacht zu sinken schien
+                        [1786]</title>
                      </bibl>
                   </listBibl>
                </note>

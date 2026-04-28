@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="539">525. An Böttiger. </title>
+            <title n="print" type="letter" rend="525">525. An Böttiger. </title>
             <title n="digital">Von Jean Paul an Carl August Böttiger. Weimar, September 1800.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
+               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
                <biblScope n="text" unit="page">
                   <num>379</num>
                </biblScope>
@@ -82,14 +82,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date cert="medium" notBefore="1800-09-01" notAfter="1800-09-30">September
                   1800</date>
                <placeName key="JP-006395">Weimar</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-000400">Carl August Böttiger</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB1027"/><ptr type="next" subtype="brief" target="III_530"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="IX_6"/><ptr type="next" subtype="brief" target="III_530"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="III_510"/><ptr type="next" subtype="brief" target="III_514"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB1212"/>
+               <ptr type="next" subtype="brief" target="III_530"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="IX_6"/>
+               <ptr type="next" subtype="brief" target="III_530"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-IX_1.2"/>
+               <ptr type="next" subtype="brief" target="III_514"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -114,9 +129,8 @@
                ob Sie nicht das deutsche<note corresp="#III_379-23">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008166" ana="†">
-                        <author>Boie, Heinrich Christian (und Christian Wilhelm Dohm) (Werk,
-                           Hrsg.)</author>
-                        <title>Deutsches Museum (1776-1791, ab 1789 Neues)</title>
+                        <author>Boie, Heinrich Christian; Dohm, Christian Wilhelm (Hrsg.)</author>
+                        <title>Deutsches Museum (1776–1791, ab 1789 Neues)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -125,12 +139,13 @@
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010205">
                         <author/>
-                        <title>Berlinisches Archiv der Zeit (1795-1800)</title>
+                        <title>Berlinisches Archiv der Zeit (1795–1800)</title>
                      </bibl>
                      <bibl corresp="#JP-008436">
-                        <author>Friedrich Johann Justin Bertuch,und Georg Melchior Kraus (Werk,
-                           Hrsg.)</author>
-                        <title>Journal des Luxus und der Moden (Modejournal) (1786-1827)</title>
+                        <author>Friedrich Johann Justin Bertuch, Georg Melchior Kraus (Werk,
+                        Hrsg.)</author>
+                        <title>Journal des Luxus und der Moden (Modejournal)
+                        (1786–1827)<?oxy_comment_end?></title>
                      </bibl>
                   </listBibl>
                </note>

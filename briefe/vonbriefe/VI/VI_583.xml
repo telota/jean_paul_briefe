@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="584">583. An Friedrich Meier in Dresden. </title>
-            <title n="digital">Von Jean Paul an Friedrich Meier. Bayreuth, 22. Dezember 1811.</title>
+            <title n="print" type="letter" rend="583">583. An Friedrich Meier in Dresden. </title>
+            <title n="digital">Von Jean Paul an Friedrich Meier. Bayreuth, 22. Dezember 1811, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>241</num></biblScope><biblScope n="comment" unit="page"><num>528</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>241</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>528</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -70,14 +78,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1811-12-22">22. Dezember 1811</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-002731">Friedrich Meier</persName>
                <placeName key="JP-005687">Dresden</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_582"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0974"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_582"/><ptr type="next" subtype="brief" target="VI_584"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_510"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_582"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_192"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_582"/>
+               <ptr type="next" subtype="brief" target="VI_584"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_510"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -114,9 +136,10 @@
                ich selber darin<note corresp="#VI_241-16">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008066" ana="†">
-                        <author>August Ferdinand Bernhardi, Friedrich de la Motte Fouqué, Wilhelm
-                           Neumann, Karl August Varnhagen</author>
-                        <title>Versuche und Hindernisse Karls, Die (1808)</title>
+                        <author><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="roelcke" timestamp="20220503T130105+0100" comment="Falsch zugeordnet" mid="9"?>August
+                        Ferdinand Bernhardi, Friedrich de la Motte Fouqué, Wilhelm Neumann, Karl
+                        August Varnhagen<?oxy_custom_end?><?oxy_comment_end mid="9"?></author>
+                        <title>Die Versuche und Hindernisse Karls (Berlin und Leipzig 1808)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -132,7 +155,13 @@
                   <hi rendition="#i">Dec. i</hi>: Wahrheit</hi>
                <hi rendition="#aq">7, 261 ×.</hi>
                <lb/>
-               <hi rendition="#b"><hi rendition="#aq">241</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">13</hi></hi> durch Holspiegel] <hi rendition="#aq">aus</hi> dadurch</p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">241</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">13</hi>
+               </hi> durch Holspiegel] <hi rendition="#aq">aus</hi> dadurch</p>
             <lb/>
             <p>
                <hi rendition="#aq">Dank für die übersandte Kopie des Porträts, s. Nr. 510† und 570.<lb/>

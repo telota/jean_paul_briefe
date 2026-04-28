@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="256">252. An König Max Joseph von Bayern. </title>
-            <title n="digital">Von Jean Paul an Maximilian IV. Joseph. Bayreuth, Anfang März 1822.</title>
+            <title n="print" type="letter" rend="252">252. An König Max Joseph von Bayern. </title>
+            <title n="digital">Von Jean Paul an Maximilian I. Joseph, König von Bayern. Bayreuth, Anfang März 1822.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>153</num>
                   <num>154</num>
@@ -80,13 +80,27 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date notBefore="1822-03-01" notAfter="1822-03-10">Anfang März 1822</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-002694"> Maximilian IV. Joseph</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VIII_251"/><ptr type="next" subtype="brief" target="VIII_253"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VIII_251"/><ptr type="next" subtype="brief" target="VIII_253"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VII_129"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-002694">Maximilian I. Joseph, König von Bayern</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VIII_251"/>
+               <ptr type="next" subtype="anbrief" target="IV-VIII_144"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VIII_251"/>
+               <ptr type="next" subtype="brief" target="VIII_253"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VII_15"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -103,8 +117,7 @@
             <note corresp="#VIII_153-2">
                <listPerson type="lineReference">
                   <person corresp="#JP-001742">
-                     <persName>
-                        <name type="reg">Heydel</name>
+                     <persName>Oberzollbeamter <name type="reg">Heydel</name>
                      </persName>
                   </person>
                </listPerson>
@@ -128,14 +141,14 @@
             <p>Mein Vater, der Pfalzbaiersche Hofkriegsrath in <hi rendition="#aq">Manheim,</hi>
                   hinter<note corresp="#VIII_153-13">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-005995">
+                     <place corresp="#JP-005994">
                         <placeName>Mannheim </placeName>
                      </place>
-                     <place corresp="#JP-0055695">
-                        <placeName>Pfalzbayern; Bayern </placeName>
+                     <place corresp="#JP-011032">
+                        <placeName>Pfalzbayern</placeName>
                      </place>
-                     <place corresp="#JP-0059950">
-                        <placeName>Rheinbrücke; Mannheim </placeName>
+                     <place corresp="#JP-011534">
+                        <placeName>Rheinbrücke</placeName>
                      </place>
                      <place corresp="#JP-006191">
                         <placeName>Rheinpfalz</placeName>
@@ -147,25 +160,25 @@
                diente dann als Offizier überhaupt 20 Jahre; und in den<lb n="15" xml:id="VIII_153-15"/>Feldzügen von 1800, 1805, 1806 und 1807 gegen Frankreich,
                   Öst<note corresp="#VIII_153-16">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-00574610">
-                        <placeName>Politik, Krieg, Militär; Frankreich, französisch</placeName>
+                     <place corresp="#JP-011308">
+                        <placeName>Politik, Krieg, Militär</placeName>
                      </place>
                      <place corresp="#JP-006097">
-                        <placeName>Österreich</placeName>
+                        <placeName>Österreich, Österreicher, österreichisch</placeName>
                      </place>
                   </listPlace>
                </note>
                <lb xml:id="VIII_153-16" rendition="#hyphen"/>reich und Preußen. Das Bombardement von
                   <hi rendition="#aq">Manheim</hi> nahm mir<note corresp="#VIII_153-17">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-005995">
+                     <place corresp="#JP-005994">
                         <placeName>Mannheim </placeName>
                      </place>
                      <place corresp="#JP-006166">
                         <placeName>Preußen, preußisch</placeName>
                      </place>
-                     <place corresp="#JP-0059950">
-                        <placeName>Rheinbrücke; Mannheim </placeName>
+                     <place corresp="#JP-011534">
+                        <placeName>Rheinbrücke</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -184,14 +197,15 @@
                <lb xml:id="VIII_153-21" rendition="#hyphen"/>nahme von 800 fl. und heirathete die
                Tochter des gleichfalls armen Haupt<lb xml:id="VIII_153-22" rendition="#hyphen"/>manns <hi rendition="#aq">Bauer;</hi> voll Hoffnung und Wunsch, durch Sparen
                abzuzahlen.<note corresp="#VIII_153-23">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-000231">
-                     <persName>
-                        <name type="reg">Bauer</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="VIII_153-23"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000231">
+                        <persName>Herr <name type="reg">Bauer</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_153-23"/>
+            </p>
             <p>Aber nach 5 Monaten rief mich aus dem wohlfeilen <hi rendition="#aq">Wangen</hi>
                   die<note corresp="#VIII_153-24">
                   <listPlace type="lineReference">
@@ -220,35 +234,39 @@
                   </listPlace>
                </note>
                <lb n="30" xml:id="VIII_153-30"/>nach <hi rendition="#aq">Bamberg</hi> bestimmt.<note corresp="#VIII_153-31">
-               <listPlace type="lineReference">
-                  <place corresp="#JP-005561">
-                     <placeName>Bamberg</placeName>
-                  </place>
-               </listPlace>
-            </note><lb xml:id="VIII_153-31"/></p>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005561">
+                        <placeName>Bamberg</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VIII_153-31"/>
+            </p>
             <p>Die Glückssonne schien wieder durch die Wolken meines Lebens zu<lb xml:id="VIII_153-32"/>brechen; aber sie verschwand sogleich darhinter. Denn als
                ich schon nach<lb xml:id="VIII_153-33"/>dem Verkauf des Hausgeräthes und nach allen
                Opfern reisefertig da<lb xml:id="VIII_153-34" rendition="#hyphen"/>stand: begann der
                östreichische Krieg — und ich blieb noch ein Jahr in<note corresp="#VIII_153-35">
                   <listPlace type="lineReference">
                      <place corresp="#JP-006097">
-                        <placeName>Österreich</placeName>
+                        <placeName>Österreich, Österreicher, österreichisch</placeName>
                      </place>
                   </listPlace>
                </note>
                <lb n="35" xml:id="VIII_153-35"/>
                <hi rendition="#aq">München</hi> ohne Gehaltszulage.<note corresp="#VIII_153-36">
-               <listPlace type="lineReference">
-                  <place corresp="#JP-006040">
-                     <placeName>München</placeName>
-                  </place>
-               </listPlace>
-            </note><lb xml:id="VIII_153-36"/></p>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006040">
+                        <placeName>München</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VIII_153-36"/>
+            </p>
             <p>Endlich kam ich als Oberzollbeamter nach <hi rendition="#aq">Cronach,</hi> aber die
                   Gehalts<note corresp="#VIII_154-1">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005927">
-                        <placeName>Kronach in Oberfranken</placeName>
+                        <placeName>Kronach </placeName>
                      </place>
                   </listPlace>
                </note>
@@ -267,7 +285,7 @@
                   <hi rendition="#aq">München</hi> nach <hi rendition="#aq">Cronach</hi> und<note corresp="#VIII_154-6">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005927">
-                        <placeName>Kronach in Oberfranken</placeName>
+                        <placeName>Kronach </placeName>
                      </place>
                      <place corresp="#JP-006040">
                         <placeName>München</placeName>
@@ -276,12 +294,14 @@
                </note>
                <lb xml:id="VIII_154-6"/>von da nach <hi rendition="#aq">Bamberg</hi> wieder
                zurückzahlen.<note corresp="#VIII_154-7">
-               <listPlace type="lineReference">
-                  <place corresp="#JP-005561">
-                     <placeName>Bamberg</placeName>
-                  </place>
-               </listPlace>
-            </note><lb xml:id="VIII_154-7"/></p>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005561">
+                        <placeName>Bamberg</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VIII_154-7"/>
+            </p>
             <p>An dieses Unglück schloß sich ein größeres an, die Wiedererstattung<lb xml:id="VIII_154-8"/>von 500 fl., deren Raub aus meinem Geschäftszimmer
                   (wahrscheinlich<lb xml:id="VIII_154-9"/>in der Meßzeit während des Zudrangs der
                Zollpflichtigen) ich erst spät<lb n="10" xml:id="VIII_154-10"/>unter dem arbeitvollen
@@ -348,7 +368,7 @@
                <note corresp="#VIII_155-4">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005574">
-                        <placeName>Bayreuth (Stadt)</placeName>
+                        <placeName>Bayreuth </placeName>
                      </place>
                   </listPlace>
                </note>

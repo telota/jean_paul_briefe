@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="178">172. An Böttiger. </title>
-            <title n="digital">Von Jean Paul an Carl August Böttiger. Meiningen, 3. August 1801.</title>
+            <title n="print" type="letter" rend="172">172. An Böttiger. </title>
+            <title n="digital">Von Jean Paul an Carl August Böttiger. Meiningen, 3. August 1801, Montag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,11 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"/><biblScope n="comment" unit="page"/></bibl>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page"/>
+               <biblScope n="comment" unit="page"/>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -70,14 +74,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1801-08-03">3. August 1801</date>
                <placeName key="JP-006012">Meiningen
                </placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-000400">Carl August Böttiger</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="IV_171"/><ptr type="next" subtype="brief" target="IV_15-fb"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="IV_171"/><ptr type="next" subtype="brief" target="IV_15-fb"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="IV_142"/><ptr type="next" subtype="brief" target="IV_194"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-IV_163"/>
+               <ptr type="next" subtype="brief" target="IV_15-fb"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="IV_171"/>
+               <ptr type="next" subtype="brief" target="IV_15-fb"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="IV_142"/>
+               <ptr type="next" subtype="brief" target="IV_194"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -95,11 +114,11 @@
             <p>Diese Aerzte verdienen wie ihr Schuzgot vom Donner erschlagen<note corresp="#IV_96-7">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001920">
-                        <persName> Friedrich <name type="reg">Jahn</name>
+                        <persName>Friedrich <name type="reg">Jahn</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003149">
-                        <persName> Friedrich Christian <name type="reg">Panzerbieter</name>
+                        <persName>Johann Friedrich Christian <name type="reg">Panzerbieter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -108,9 +127,8 @@
                   Beschreibung<note corresp="#IV_96-8">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008731" ana="?†">
-                        <author>Heß, Jonas Ludwig von (1756-1823), Publizist und
-                           Reiseschriftsteller</author>
-                        <title>Durchflüge durch Deutschland (1793-1800)</title>
+                        <author>Heß, Jonas Ludwig von (1756–1823)</author>
+                        <title>Durchflüge durch Deutschland (1793–1800)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -130,8 +148,7 @@
                   <lb xml:id="IV_96-12"/>de Fronsac</hi> ein.<note corresp="#IV_96-13">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001215" ana="†">
-                        <persName> Herzog von (Louis-François-Armand de Vignerot du Plessis de
-                           Richelieu, Duc de Fronsac) <name type="reg">Fronsac</name>
+                        <persName>Herzog von <name type="reg">Fronsac</name>
                         </persName>
                      </person>
                   </listPerson>

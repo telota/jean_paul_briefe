@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="85">84. An Emanuel. </title>
-            <title n="digital">Von Jean Paul an Emanuel Osmund. Bayreuth, 15. August 1820.</title>
+            <title n="print" type="letter" rend="84">84. An Emanuel. </title>
+            <title n="digital">Von Jean Paul an Emanuel Osmund. Bayreuth, 15. August 1820, Dienstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>61</num>
                </biblScope>
@@ -77,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1820-08-15">15. August 1820</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003087">Emanuel Osmund</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VIII_83"/><ptr type="next" subtype="umfeldbrief" target="JP-UB1003"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VIII_83"/><ptr type="next" subtype="brief" target="VIII_85"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VIII_83"/><ptr type="next" subtype="brief" target="VIII_85"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB1705"/>
+               <ptr type="next" subtype="anbrief" target="IV-VIII_EB_11"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VIII_83"/>
+               <ptr type="next" subtype="brief" target="VIII_85"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VIII_61"/>
+               <ptr type="next" subtype="brief" target="VIII_85"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -105,7 +120,7 @@
                   in<note corresp="#VIII_61-10">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003112">
-                        <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                        <persName>Georg Christian <name type="reg">Otto</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -125,7 +140,7 @@
             <p>
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: SBa. Präsentat: 15. Aug. 20. <hi rendition="#i">B</hi>:
-                  IV. Abt., VIII, Nr.</hi>
+                  IV. Abt., 8, Nr.</hi>
                <hi rendition="#aq">61.</hi>
             </p>
             <lb/>

@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="211">208. An Max Richter in Heidelberg. </title>
-            <title n="digital">Von Jean Paul an Max Richter. Bayreuth, 4. September 1821.</title>
+            <title n="print" type="letter" rend="208">208. An Max Richter in Heidelberg. </title>
+            <title n="digital">Von Jean Paul an Max Richter. Bayreuth, 4. September 1821, Dienstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>134</num>
                   <num>135</num>
@@ -78,14 +78,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1821-09-04">4. September 1821</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003490">Max Richter</persName>
                <placeName key="JP-005819">Heidelberg</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VIII_207"/><ptr type="next" subtype="brief" target="VIII_13-fb"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VIII_207"/><ptr type="next" subtype="brief" target="VIII_13-fb"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VIII_197"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VIII_207"/>
+               <ptr type="next" subtype="anbrief" target="IV-VIII_127"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VIII_207"/>
+               <ptr type="next" subtype="brief" target="VIII_13-fb"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VIII_126"/>
+               <ptr type="next" subtype="anbrief" target="IV-VIII_127"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -100,7 +115,7 @@
             <note corresp="#VIII_134-12">
                <listPerson type="lineReference">
                   <person corresp="#JP-004520">
-                     <persName> Heinrich <name type="reg">Voß</name>
+                     <persName>Heinrich <name type="reg">Voß</name>
                      </persName>
                   </person>
                </listPerson>
@@ -120,7 +135,7 @@
                </note> war! <hi rendition="#aq">Voß</hi> wird dir in seinem Briefe<note corresp="#VIII_134-15">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004520">
-                        <persName> Heinrich <name type="reg">Voß</name>
+                        <persName>Heinrich <name type="reg">Voß</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -131,7 +146,7 @@
                   <listPerson type="lineReference">
                      <person corresp="#JP-001153">
                         <persName>
-                           <name type="reg">Franz</name>
+                           <name type="reg">Franz von Assisi</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -151,7 +166,7 @@
                   Göthen<note corresp="#VIII_134-20">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001353">
-                        <persName> Johann Wolfgang von <name type="reg">Goethe</name>
+                        <persName>Johann Wolfgang von <name type="reg">Goethe</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -165,7 +180,7 @@
                dieses vor vielen<note corresp="#VIII_134-21">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008544">
-                        <author>Goethe, Johann Wolfgang von (1749-1832)</author>
+                        <author>Goethe, Johann Wolfgang von (1749–1832)</author>
                         <title>West-östlicher Divan (1819)</title>
                      </bibl>
                   </listBibl>
@@ -192,7 +207,7 @@
                Jung und den vollherzigen<note corresp="#VIII_134-26">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001981">
-                        <persName> Franz Wilhelm <name type="reg">Jung</name>
+                        <persName>Franz Wilhelm <name type="reg">Jung</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -205,15 +220,15 @@
                <lb xml:id="VIII_134-26"/>Präsident Jakobi sammt der Frau und den theuern <hi rendition="#aq">Thieriot.</hi> — Dem<note corresp="#VIII_134-27">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001911">
-                        <persName> Johann Friedrich <name type="reg">Jacobi</name>
+                        <persName>Johann Friedrich <name type="reg">Jacobi</name>
                         </persName>
                      </person>
                      <person corresp="#JP-001914">
-                        <persName> Johanna Katharina Luise <name type="reg">Jacobi</name>
+                        <persName>Johanna Katharina Luise <name type="reg">Jacobi</name>
                         </persName>
                      </person>
                      <person corresp="#JP-004275">
-                        <persName> Paul Emile <name type="reg">Thieriot</name>
+                        <persName>Paul Emile <name type="reg">Thieriot</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -222,7 +237,7 @@
                Stöße Briefe mit und schreibe sie<note corresp="#VIII_134-28">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002028">
-                        <persName> Christian <name type="reg">Kapp</name>
+                        <persName>Christian <name type="reg">Kapp</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -234,7 +249,7 @@
                <note corresp="#VIII_134-32">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000948">
-                        <persName> Henriette Freifrau von <name type="reg">Ende</name>
+                        <persName>Henriette von <name type="reg">Ende</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -257,7 +272,7 @@
                   —<note corresp="#VIII_134-34">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003112">
-                        <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                        <persName>Georg Christian <name type="reg">Otto</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -290,7 +305,13 @@
                   <hi rendition="#i">H</hi>: Slg. Kippenberg Nr. 3135. 2 S. 8°, <add resp="#MB">DLA,
                      Marbach (Schluß) (für die Textkonstitution nicht berücksichtigt)</add>. <hi rendition="#i">J</hi>: Max<lb/>Richter Nr.</hi>
                <hi rendition="#aq">12. </hi>
-               <hi rendition="#b"><hi rendition="#aq">134</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">16</hi></hi> zu lesen geben] <hi rendition="#aq">aus</hi> zu zeigen <hi rendition="#rkd">20</hi> Göthen] <hi rendition="#aq">aus</hi> Göthe<lb/>
+               <hi rendition="#b">
+                  <hi rendition="#aq">134</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">16</hi>
+               </hi> zu lesen geben] <hi rendition="#aq">aus</hi> zu zeigen <hi rendition="#rkd">20</hi> Göthen] <hi rendition="#aq">aus</hi> Göthe<lb/>
                <hi rendition="#rkd">22</hi> Zum Ersatze aber] <hi rendition="#aq">aus</hi> Dafür <hi rendition="#rkd">31 </hi>ankomme] <hi rendition="#aq">aus</hi> erfolge <hi rendition="#b">
                   <hi rendition="#aq">135</hi>
                </hi>
@@ -310,7 +331,7 @@
                   <hi rendition="#aq">20–22</hi>
                </hi>
                <hi rendition="#aq">
-                  <hi rendition="#g">Goethe:</hi> Max hatte im Brief an J.P. IV. Abt., VIII, Nr. 87
+                  <hi rendition="#g">Goethe:</hi> Max hatte im Brief an J.P. IV. Abt., 8, Nr. 87
                   geschrieben, im<lb/>West-östl. Divan sei J. P. mit spöttischer Miene geschildert;
                   vgl. <hi rendition="#b">64</hi>, <hi rendition="#rkd">17</hi>f.,<lb/>
                   <hi rendition="#b">74</hi>, <hi rendition="#rkd">31</hi>f.; das <hi rendition="#g">Blättchen</hi> enthielt vermutlich Goethes Lob der Levana,<lb/>s. Bd. VI, Nr.

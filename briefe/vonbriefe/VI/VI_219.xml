@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="220">219. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, 4. Januar 1810.</title>
+            <title n="print" type="letter" rend="219">219. An Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth, 4. Januar 1810, Donnerstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>83</num></biblScope><biblScope n="comment" unit="page"><num>460</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>83</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>460</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1810-01-04">4. Januar 1810</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_218"/><ptr type="next" subtype="brief" target="VI_10-fb"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_218"/><ptr type="next" subtype="brief" target="VI_10-fb"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_421"/><ptr type="next" subtype="brief" target="VI_220"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_60"/>
+               <ptr type="next" subtype="brief" target="VI_10-fb"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_218"/>
+               <ptr type="next" subtype="brief" target="VI_10-fb"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_421"/>
+               <ptr type="next" subtype="brief" target="VI_220"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -94,15 +117,17 @@
                   dich<note corresp="#VI_83-24">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003483">
-                        <persName> Johann Paul Friedrich <name type="reg">Richter</name>
-                        </persName>
+                        <persName>
+                           <name type="reg">Richter</name>, seine Kinder</persName>
                      </person>
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009348" ana="†">
-                        <author>Otto, Christian (Georg Christian) (Pseud. Georgius, Christianus)
-                           (1763-1828), Jurist, einer der engsten Freunde von Jean Paul</author>
-                        <title>Über Staatsbankerout (1808)</title>
+                        <author>Otto, Christian (Pseud. Georgius, Christianus, 1763–1828)</author>
+                        <title>Ueber Staats-Bankerout und Staats-Nothpfennige, und ob es vortheilhaft
+                        sey, gesunkenen Staats-Papieren durch käufliche Mittel aufhelfen zu wollen,
+                        mit besonderer Anwendung auf den preußischen Staat (in: Pallas, Bd. 1, 1808,
+                        6. St., S. 593–695)</title>
                      </bibl>
                   </listBibl>
                </note>

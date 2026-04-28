@@ -2,9 +2,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="388">384. An die Generalin von L’Estocq in
+            <title n="print" type="letter" rend="384">384. An die Generalin von L’Estocq in
                Bayreuth. </title>
-            <title n="digital">Von Jean Paul an Frau L’Estocq. Bayreuth, 21. Juni 1823.</title>
+            <title n="digital">Von Jean Paul an Frau L'Estocq. Bayreuth, 21. Juni 1823, Samstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -46,7 +46,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -61,8 +62,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>229</num>
                </biblScope>
@@ -79,14 +79,25 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1823-06-21">21. Juni 1823</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-002319"> L’Estocq</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-002319">Frau L'Estocq</persName>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0565"/><ptr type="next" subtype="brief" target="VIII_33a-fb"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VIII_383"/><ptr type="next" subtype="brief" target="VIII_33a-fb"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-VIII_254"/>
+               <ptr type="next" subtype="anbrief" target="IV-VIII_256"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VIII_383"/>
+               <ptr type="next" subtype="brief" target="VIII_33a-fb"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -108,7 +119,7 @@
             <p>Was ich in meiner Lage für die Ihres Herrn Gemahls — bei meinem<note corresp="#VIII_229-4">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002318">
-                        <persName> General <name type="reg">L’Estocq</name>
+                        <persName>General <name type="reg">L'Estocq</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -134,7 +145,13 @@
                   <hi rendition="#i">K</hi> (von Odiliens Hand):</hi> An die Generalin <hi rendition="#aq">
                   <hi rendition="#i">v. L’Estocq</hi>
                </hi> den 21 Juni.<lb/>
-               <hi rendition="#b"><hi rendition="#aq">229</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">6</hi></hi> Mehre] <hi rendition="#aq">aus</hi> Mehrere</p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">229</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">6</hi>
+               </hi> Mehre] <hi rendition="#aq">aus</hi> Mehrere</p>
          </div>
       </body>
    </text>

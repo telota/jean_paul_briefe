@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="86">85. An Emanuel. </title>
-            <title n="digital">Von Jean Paul an Emanuel. Bayreuth, 21. März 1805.</title>
+            <title n="print" type="letter" rend="85">85. An Emanuel. </title>
+            <title n="digital">Von Jean Paul an Emanuel. Bayreuth, 21. März 1805, Donnerstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
+               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
                <biblScope n="text" unit="page">
                   <num>30</num>
                </biblScope>
@@ -77,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1805-03-21">21. März 1805</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-003087">Emanuel Osmund</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0421"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0767"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="V_84"/><ptr type="next" subtype="brief" target="V_86"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0421"/><ptr type="next" subtype="brief" target="V_87"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000941">Emanuel</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB0421"/>
+               <ptr type="next" subtype="anbrief" target="IV-V_38"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="V_84"/>
+               <ptr type="next" subtype="brief" target="V_86"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="V_80"/>
+               <ptr type="next" subtype="brief" target="V_87"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -100,8 +115,8 @@
             <p>Meine Kinder sollen und können einmal länger danken als der<note corresp="#V_30-21">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003483" ana="†">
-                        <persName> Johann Paul Friedrich <name type="reg">Richter</name>
-                        </persName>
+                        <persName>
+                           <name type="reg">Richter</name>, seine Kinder</persName>
                      </person>
                   </listPerson>
                </note>
@@ -110,7 +125,7 @@
                ich binde Sie<lb xml:id="V_30-23"/> an meinen Geburtstag an. Meine <hi rendition="#aq">Caroline</hi> sollte nur die Blumen<note corresp="#V_30-24">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003469">
-                        <persName> Caroline <name type="reg">Richter</name>
+                        <persName>Caroline <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -131,10 +146,16 @@
          <div type="comment">
             <p>
                <hi rendition="#aq">
-                  <hi rendition="#i">H</hi>: SBa. Präsentat: 21ten Mart. 5. <hi rendition="#i">J</hi>: Denkw. 1,177. <hi rendition="#i">B</hi>: IV. Abt., V, Nr.</hi>
+                  <hi rendition="#i">H</hi>: SBa. Präsentat: 21ten Mart. 5. <hi rendition="#i">J</hi>: Denkw. 1,177. <hi rendition="#i">B</hi>: IV. Abt., 5, Nr.</hi>
                <hi rendition="#aq">38.</hi>
                <lb/>
-               <hi rendition="#b"><hi rendition="#aq">30</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">21</hi></hi> sollen und können] werden <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">30</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">21</hi>
+               </hi> sollen und können] werden <hi rendition="#aq">
                   <hi rendition="#i">K</hi>
                </hi>
                <hi rendition="#rkd">22</hi> Herbstzweigen <hi rendition="#aq">

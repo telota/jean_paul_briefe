@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="572">567. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, Ohne Datum.</title>
+            <title n="print" type="letter" rend="567">567. An Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>313</num>
                </biblScope>
@@ -78,13 +78,25 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspContext n="edition"><ptr type="next" subtype="brief" target="VIII_568"/></correspContext><correspContext n="corpus"><ptr type="next" subtype="brief" target="VIII_568"/></correspContext><correspContext n="correspondence"><ptr type="next" subtype="brief" target="VIII_568"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="next" subtype="brief" target="I_1"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="next" subtype="brief" target="I_1"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="next" subtype="brief" target="I_108"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -94,28 +106,30 @@
                   —<lb xml:id="VIII_313-6"/>Gestern schickt’ ich dir <hi rendition="#aq">Sha<metamark>[</metamark>ke<metamark>]</metamark>speare.</hi> — Der gute <hi rendition="#aq">Emanuel</hi> wird nach<note corresp="#VIII_313-7">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003087">
-                        <persName> Emanuel <name type="reg">Osmund</name>
+                        <persName>Emanuel <name type="reg">Osmund</name>
                         </persName>
                      </person>
                      <person corresp="#JP-004029">
-                        <persName> William <name type="reg">Shakespeare </name>
+                        <persName>William <name type="reg">Shakespeare</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009999" ana="?">
-                        <author>Voß, Johann Heinrich (1751-1826), Dichter und Übersetzer</author>
-                        <title>Shakespeare-Übersetzung (begonnen von Heinrich und Abraham Voß,
-                           fortgesetzt von diesen und Johann Heinrich Voß 1810-1815,
-                           1818-1829)</title>
+                        <author>Voß, Heinrich, Abraham Voß und Johann Heinrich Voß</author>
+                        <title>Shakespeare-Übersetzung, begonnen von Heinrich und Abraham Voß
+                        (Schauspiele von
+                        William<?oxy_comment_start author="roelcke" timestamp="20220613T173313+0100" comment="Doppelung mit Eintrag weiter oben: Wilh. Shakespeare’s (von Schlegel noch nicht übersetzte) Schauspiele (3 Bde., Tübingen: Cotta 1810-1815)"?>
+                        Shakspeare, 3 Bde., Tübingen: Cotta 1810–1815<?oxy_comment_end?>);
+                        fortgesetzt von diesen und Johann Heinrich Voß (Shakspeare's Schauspiele, 9
+                        Bde., Leipzig/Stuttgart: Brockhaus und Metzler 1818–1829)</title>
                      </bibl>
                   </listBibl>
                </note>
                <lb xml:id="VIII_313-7"/>dem langen Tage auch eine lange Nacht gehabt haben. <hi rendition="#aq">Schirer</hi> zog<note corresp="#VIII_313-8">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003748">
-                        <persName>
-                           <name type="reg">Schirer</name>
+                        <persName>Herr <name type="reg">Schirer</name>
                         </persName>
                      </person>
                   </listPerson>

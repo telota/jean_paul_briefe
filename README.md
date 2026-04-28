@@ -15,6 +15,7 @@ Die Releases entsprechen dem Updatezyklus der digitalen Edition.
 * [v.7.0](https://github.com/telota/jean_paul_briefe/releases/tag/v.7.0) - 8.2.2023 (Update der Edition, Publikation weiterer Briefe aus Jean Pauls Umfeld)
 * [v.8.0](https://github.com/telota/jean_paul_briefe/releases/tag/v.8.0) - 12.7.2023 (Update der Edition, Publikation weiterer Briefe aus Jean Pauls Umfeld)
 * [v.9.0](https://github.com/telota/jean_paul_briefe/releases/tag/v.9.0) - 27.9.2023 (Update der Edition, Publikation weiterer Briefe aus Jean Pauls Umfeld und erstmalige Veröffentlichung der Register)
+* [v.10.0](https://github.com/telota/jean_paul_briefe/releases/tag/v.10.0) - 27.9.2023 (Update der Edition, Publikation weiterer Briefe aus Jean Pauls Umfeld, Überarbeitung der Register und erstmalige Veröffentlichung der Daten aus dem Korpus der Anbriefe)
 
 ## Daten auf Zenodo
 *Letzte Version der Daten*
@@ -23,14 +24,31 @@ Die Releases entsprechen dem Updatezyklus der digitalen Edition.
 
 ## Inhalte
 
-* briefe: Briefe von Jean Paul in XML/TEI und zugehöriges relaxNG-Schema
-* register: Register von der Jean Paul Edition in XML/TEI
-* schema : Dokumentation und ODD der Schemata (RNG)
-* umfeldbriefe: Briefe aus dem Umfeld Jean Pauls in XML/TEI und zugehöriges relaxNG-Schema
+Die Daten sind im Repository wie folgt strukturiert:
+
+```
+.
+├── briefe/                       # XML/TEI Dateien der drei Briefkorpora der Jean Paul Edition
+|   ├── vonbriefe                 # Briefe von Jean Paul in XML/TEI und zugehöriges relaxNG-Schema
+|   ├── umfeldbriefe              # Briefe aus dem Umfeld Jean Pauls in XML/TEI und zugehöriges relaxNG-Schema
+|   └── anbriefe                  # Briefe an Jean Paul in XML/TEI und zugehöriges relaxNG-Schema          
+├── register/                     # Register von der Jean Paul Edition in XML/TEI
+|   ├── orte/                     # Ortsregister
+|   ├── personen/                 # Personenregister
+|   ├── werke/                    # Werkregister
+|   ├── werke-jp/                 # Werkregister der Werke Jean Pauls
+|   ├── Korrespondenzkreise.xml
+|   └── Themen.xml
+└── schema/                       # Dokumentation und ODD der Schemata (RNG)
+    |-- documentation/
+    |-- odd/
+    └── README.md
+```
+
 
 ## Zitation
 
-Daten der Edition "Jean Paul – Sämtliche Briefe digital". Herausgegeben im Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften von Markus Bernauer, Norbert Miller und Frederike Neuber (2018–). URL: https://github.com/telota/jean_paul_briefe; DOI: 10.5281/zenodo.8382811.
+Daten der Edition "Jean Paul – Sämtliche Briefe digital". Herausgegeben im Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften von Markus Bernauer, Norbert Miller und Frederike Neuber (2018–2027). URL: https://github.com/telota/jean_paul_briefe; DOI: 10.5281/zenodo.8382811.
 
 ## Lizenz
 

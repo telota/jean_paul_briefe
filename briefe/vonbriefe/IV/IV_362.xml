@@ -2,9 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="369">362. An Roentgen. </title>
-            <title n="digital">Von Jean Paul an Ludwig Roentgen. Meiningen, 21. April 1803 bis 22. April
-               1803.</title>
+            <title n="print" type="letter" rend="362">362. An Roentgen. </title>
+            <title n="digital">Von Jean Paul an Ludwig Roentgen. Meiningen, 21. bis 22. April 1803.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -46,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +60,11 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"/><biblScope n="comment" unit="page"/></bibl>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page"/>
+               <biblScope n="comment" unit="page"/>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -70,15 +73,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date corresp="writingSession1" when="1803-04-21">21. April 1803</date>
                <date corresp="writingSession2" when="1803-04-22">22. April 1803</date>
                <placeName key="JP-006012">Meiningen
                </placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003549">Ludwig Roentgen</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB1470"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0658"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="IV_360"/><ptr type="next" subtype="brief" target="IV_363"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="IV_171"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB1470"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB0658"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="IV_360"/>
+               <ptr type="next" subtype="brief" target="IV_363"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-IV_282"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -98,13 +115,15 @@
                   allen Zweigen treibt. Dein Briefgen sei die (Prediger-)<lb xml:id="IV_213-31"/>Disposizion des meinigen, ganz topographisch. —</p>
                <lb xml:id="IV_213-32"/>
                <p>Morgen werd’ ich deinen <hi rendition="#aq">Kettler</hi> erst sehen.<note corresp="#IV_213-33">
-                  <listPerson type="lineReference">
-                     <person corresp="#JP-002094" ana="†">
-                        <persName> Dothias Christian <name type="reg">Kettler</name>
-                        </persName>
-                     </person>
-                  </listPerson>
-               </note><lb xml:id="IV_213-33"/></p>
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002094" ana="†">
+                           <persName>Dothias Christian <name type="reg">Kettler</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="IV_213-33"/>
+               </p>
                <p>In der Messe erscheint der 4<hi rendition="#sup">te</hi> Titan 36 Bogen stark, —
                      blos<note corresp="#IV_213-34">
                      <listBibl type="lineReference" subtype="werke-jp">
@@ -118,21 +137,20 @@
                      —<note corresp="#IV_213-36">
                      <listPerson type="lineReference">
                         <person corresp="#JP-000698">
-                           <persName> Johann Friedrich Freiherr <name type="reg">Cotta von
-                                 Cottendorf</name>
+                           <persName>Johann Friedrich von <name type="reg">Cotta</name>
                            </persName>
                         </person>
                      </listPerson>
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-008269">
-                           <author>Cotta, Johann Friedrich (Hg.)</author>
+                           <author>Cotta, Johann Friedrich (1764–1832) (Hrsg.)</author>
                            <title>Taschenbuch für Damen auf das Jahr (1798 ff.)</title>
                         </bibl>
                      </listBibl>
                      <listBibl type="lineReference" subtype="werke-jp">
                         <bibl corresp="#JP-010953">
                            <title>Ursachen, warum der Verf. nichts für das Taschenbuch liefert
-                              (1803)</title>
+                        (1803)</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -140,17 +158,19 @@
                      Biographie<note corresp="#IV_214-1">
                      <listBibl type="lineReference" subtype="werke-jp">
                         <bibl corresp="#JP-010695">
-                           <title>Flegeljahre (1804-1805)</title>
+                           <title>Flegeljahre. Eine Biographie (4 Bde., Tübingen: Cotta 1804-1805)</title>
                         </bibl>
                      </listBibl>
                   </note>
                   <lb xml:id="IV_214-1"/>und eine Samlung ästhetischer Abhandlungen.<note corresp="#IV_214-2">
-                  <listBibl type="lineReference" subtype="werke-jp">
-                     <bibl corresp="#JP-010970">
-                        <title>Vorschule der Aesthetik (1804)</title>
-                     </bibl>
-                  </listBibl>
-               </note><lb xml:id="IV_214-2"/></p>
+                     <listBibl type="lineReference" subtype="werke-jp">
+                        <bibl corresp="#JP-010970">
+                           <title>Vorschule der Aesthetik (1804)</title>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <lb xml:id="IV_214-2"/>
+               </p>
                <p>Ich ziehe im Mai nach <hi rendition="#aq">Coburg,</hi> ins geographische Paradies.
                      —<note corresp="#IV_214-3">
                      <listPlace type="lineReference">
@@ -163,11 +183,11 @@
                      Toch<note corresp="#IV_214-4">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003469">
-                           <persName> Caroline <name type="reg">Richter</name>
+                           <persName>Caroline <name type="reg">Richter</name>
                            </persName>
                         </person>
                         <person corresp="#JP-003471">
-                           <persName> Emma <name type="reg">Richter</name>
+                           <persName>Emma <name type="reg">Richter</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -179,7 +199,8 @@
                      da<note corresp="#IV_214-7">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001289">
-                           <persName> Herzog von Sachsen-Meiningen <name type="reg">Georg I.</name>
+                           <persName>
+                              <name type="reg">Georg I., Herzog von Sachsen-Meiningen</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -188,7 +209,8 @@
                   wiewohl eine<note corresp="#IV_214-8">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001154">
-                           <persName> Friedrich Anton <name type="reg">Franz</name>
+                           <persName>
+                              <name type="reg">Franz, Herzog von Sachsen-Coburg-Saalfeld</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -210,18 +232,20 @@
                   durchaus bisher nichts ähnlich als<lb n="20" xml:id="IV_214-20"/>mir und meiner
                      <hi rendition="#aq">Emma</hi> (So und <hi rendition="#aq">Idoine</hi> etc.
                   heisset mein Kind.) —<note corresp="#IV_214-21">
-                  <listPerson type="lineReference">
-                     <person corresp="#JP-003471">
-                        <persName> Emma <name type="reg">Richter</name>
-                        </persName>
-                     </person>
-                  </listPerson>
-               </note><lb xml:id="IV_214-21"/></p>
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003471">
+                           <persName>Emma <name type="reg">Richter</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="IV_214-21"/>
+               </p>
                <p>Liebe meinen <hi rendition="#aq">Emanuel</hi> recht. Nirgends, nirgends fand ich
                      Seines<note corresp="#IV_214-22">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003087">
-                           <persName> Emanuel <name type="reg">Osmund</name>
+                           <persName>Emanuel <name type="reg">Osmund</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -241,7 +265,7 @@
                      polierter<note corresp="#IV_214-27">
                      <listPerson type="lineReference">
                         <person corresp="#JP-002094">
-                           <persName> Dothias Christian <name type="reg">Kettler</name>
+                           <persName>Dothias Christian <name type="reg">Kettler</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -251,11 +275,11 @@
                   höre, der meinigen<note corresp="#IV_214-29">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003469">
-                           <persName> Caroline <name type="reg">Richter</name>
+                           <persName>Caroline <name type="reg">Richter</name>
                            </persName>
                         </person>
                         <person corresp="#JP-003552">
-                           <persName> Sophie Margarethe Antoinette <name type="reg">Roentgen</name>
+                           <persName>Antoinette <name type="reg">Roentgen</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -283,9 +307,15 @@
                   <hi rendition="#i">H</hi>: Berlin acc. ms. 1895. 144 (derzeit BJK). 4 S. 8°; Adr.
                   auf blauem Umschlag. <hi rendition="#i">K</hi>:</hi> Roentgen 22 Apr.<lb/>
                <hi rendition="#aq">
-                  <hi rendition="#i">B</hi>: IV. Abt., IV, Nr.</hi>
+                  <hi rendition="#i">B</hi>: IV. Abt., 4, Nr.</hi>
                <hi rendition="#aq">282. </hi>
-               <hi rendition="#b"><hi rendition="#aq">214</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">7</hi></hi> hiesigen] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">214</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">7</hi>
+               </hi> hiesigen] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">9</hi> bald] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
                </hi>

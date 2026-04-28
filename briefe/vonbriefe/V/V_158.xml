@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="159">158. An Thieriot in Offenbach. </title>
-            <title n="digital">Von Jean Paul an Paul Emile Thieriot. Bayreuth, 16. Oktober 1805.</title>
+            <title n="print" type="letter" rend="158">158. An Thieriot in Offenbach. </title>
+            <title n="digital">Von Jean Paul an Paul Emile Thieriot. Bayreuth, 16. Oktober 1805, Mittwoch.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
+               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
                <biblScope n="text" unit="page">
                   <num>62</num>
                   <num>63</num>
@@ -78,15 +78,30 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1805-10-16">16. Oktober 1805</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-004275">Paul Emile Thieriot</persName>
                <placeName key="JP-006099">Offenbach bei
                   Frankfurt a. M.</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="V_157"/><ptr type="next" subtype="brief" target="V_159"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="V_157"/><ptr type="next" subtype="brief" target="V_159"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="V_128"/><ptr type="next" subtype="brief" target="V_183"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="V_157"/>
+               <ptr type="next" subtype="anbrief" target="IV-V_AN_19"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="V_157"/>
+               <ptr type="next" subtype="brief" target="V_159"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-V_61"/>
+               <ptr type="next" subtype="anbrief" target="IV-V_68"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -115,16 +130,16 @@
             <p>An Herzog und Kanne hab’ ich geschrieben.<note corresp="#V_62-25">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000943">
-                        <persName> August Leopold <name type="reg">Emil</name>
+                        <persName>
+                           <name type="reg">Emil August, Herzog von Sachsen-Gotha und Altenburg</name>
                         </persName>
                      </person>
                      <person corresp="#JP-002022">
-                        <persName>
-                           <name type="reg">Kanne</name>
+                        <persName>Johann Arnold <name type="reg">Kanne</name>
                         </persName>
                      </person>
                      <person corresp="#JP-002021">
-                        <persName> Johann Arnold <name type="reg">Kanne</name>
+                        <persName>Johann Arnold <name type="reg">Kanne</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -137,8 +152,8 @@
                vierte, womit<note corresp="#V_62-29">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003483">
-                        <persName> Johann Paul Friedrich <name type="reg">Richter</name>
-                        </persName>
+                        <persName>
+                           <name type="reg">Richter</name>, seine Kinder</persName>
                      </person>
                   </listPerson>
                </note>
@@ -147,11 +162,11 @@
             <p>Manteufels Brief ist vortrefflich. Sollte sein Wunsch, einen<note corresp="#V_62-31">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002609">
-                        <persName> Otto <name type="reg">Manteuffel </name>
+                        <persName>Otto Theodor <name type="reg">Manteuffel</name>
                         </persName>
                      </person>
                      <person corresp="#JP-002607" ana="†">
-                        <persName> Otto Freiherr von <name type="reg">Manteuffel </name>
+                        <persName>Otto Freiherr von <name type="reg">Manteuffel</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -165,8 +180,8 @@
             <lb xml:id="V_63-2"/>
             <p>Einen Thaler <hi rendition="#g">holländische Glaskiele</hi> bin ich Ihnen zwar<note corresp="#V_63-3">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0058470">
-                        <placeName>Glaskiele; Holland</placeName>
+                     <place corresp="#JP-011433">
+                        <placeName>Glaskiele</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -190,28 +205,31 @@
                her, etwas gewannen.<lb n="10" xml:id="V_63-10"/>
             </p>
             <p>Ihre Freundin grüss’ ich recht herzlich über den Rhein hinüber.<note corresp="#V_63-11">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-004277" ana="†">
-                     <persName> Eva <name type="reg">Thieriot</name>
-                     </persName>
-                  </person>
-               </listPerson>
-               <listPlace type="lineReference">
-                  <place corresp="#JP-006187" ana="†">
-                     <placeName>Rhein</placeName>
-                  </place>
-               </listPlace>
-            </note><lb xml:id="V_63-11"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004277" ana="†">
+                        <persName>Eva <name type="reg">Thieriot</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006187" ana="†">
+                        <placeName>Rhein</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="V_63-11"/>
+            </p>
             <p>Über Luthers Denkmal steht im neuesten Stück des <hi rendition="#aq">nordischen<note corresp="#V_63-12">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-009069">
-                           <author>Lange, Karl Julius (d.i. Alexander Davidson oder Daveson) (Werk,
-                              Hrsg.)</author>
+                           <author>Lange, Karl Julius (d. i. Alexander Davidson oder Daveson)
+                        (Hrsg.)</author>
                            <title>Der Nordische Merkur (1805)</title>
                         </bibl>
                         <bibl corresp="#JP-010022">
-                           <author>Wagner, Johann Ernst (1769-1812), Romanschriftsteller</author>
-                           <title>Willibalds Ansichten des Lebens (1805)</title>
+                           <author>Wagner, Johann Ernst (1769–1812)</author>
+                           <title>Wilibald's Ansichten des Lebens: ein Roman in vier Abtheilungen
+                        (Meiningen, Hildburghausen 1805)</title>
                         </bibl>
                      </listBibl>
                      <listBibl type="lineReference" subtype="werke-jp">
@@ -233,21 +251,22 @@
                   sehne<lb n="15" xml:id="V_63-15"/> mich aber in meine romantische Welt zurück. —
                Lesen Sie doch<lb xml:id="V_63-16"/> Wilibalds Ansichten des Lebens von Wagner in
                Meiningen.<note corresp="#V_63-17">
-               <listPlace type="lineReference">
-                  <place corresp="#JP-006012">
-                     <placeName>Meiningen </placeName>
-                  </place>
-               </listPlace>
-            </note><lb xml:id="V_63-17"/></p>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006012">
+                        <placeName>Meiningen </placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="V_63-17"/>
+            </p>
             <p>Ich hörte zwei Blinde, Dulon (Flöte) und Friedizi (Geige); jener<note corresp="#V_63-18">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000866">
-                        <persName> Friedrich Ludwig <name type="reg">Dulon</name>
+                        <persName>Friedrich Ludwig <name type="reg">Dulon</name>
                         </persName>
                      </person>
                      <person corresp="#JP-001163" ana="†">
-                        <persName>
-                           <name type="reg">Fridzeri </name>
+                        <persName>Alessandro M. <name type="reg">Fridzeri</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -275,9 +294,15 @@
             <p>
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Berlin Varnh. 213 (derzeit BJK). 4 S. 8°. <hi rendition="#i">K</hi>: <hi rendition="#i">Thieriot. *J</hi>: Denkw. 1,468×.<lb/>
-                  <hi rendition="#i">B</hi>: IV. Abt., V, Nr. 58 (?) und 61. <hi rendition="#i">A</hi>: IV. Abt., V, Nr.</hi>
+                  <hi rendition="#i">B</hi>: IV. Abt., 5, Nr. 58 (?) und 61. <hi rendition="#i">A</hi>: IV. Abt., 5, Nr.</hi>
                <hi rendition="#aq">68. </hi>
-               <hi rendition="#b"><hi rendition="#aq">62</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">23</hi></hi> voll] <hi rendition="#aq">aus</hi> von <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">62</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">23</hi>
+               </hi> voll] <hi rendition="#aq">aus</hi> von <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">25</hi> Herzog] <hi rendition="#aq">davor<lb/> gestr.</hi> den
@@ -294,7 +319,13 @@
                </hi>
                <hi rendition="#rkd">32</hi> Erziehungs-] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">63</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">3</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">63</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">3</hi>
+               </hi>
                <hi rendition="#g">holländische Glaskiele</hi>] <hi rendition="#aq">aus</hi>
                <lb/> Federn <hi rendition="#aq">
                   <hi rendition="#i">H</hi>

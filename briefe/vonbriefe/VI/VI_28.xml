@@ -3,7 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title n="print" type="letter" rend="28">28. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, 7. Februar 1809.</title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth, 7. Februar 1809, Dienstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>10</num></biblScope><biblScope n="comment" unit="page"><num>426</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>10</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>426</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1809-02-07">7. Februar 1809</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_1-fb"/><ptr type="next" subtype="umfeldbrief" target="JP-UB1070"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_1-fb"/><ptr type="next" subtype="brief" target="VI_29"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_27"/><ptr type="next" subtype="brief" target="VI_29"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_1-fb"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB1070"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_1-fb"/>
+               <ptr type="next" subtype="brief" target="VI_29"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_27"/>
+               <ptr type="next" subtype="brief" target="VI_29"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -97,12 +120,11 @@
                </hi> gerade<note corresp="#VI_10-4">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002022">
-                        <persName>
-                           <name type="reg">Kanne</name>
+                        <persName>Johann Arnold <name type="reg">Kanne</name>
                         </persName>
                      </person>
                      <person corresp="#JP-002021">
-                        <persName> Johann Arnold <name type="reg">Kanne</name>
+                        <persName>Johann Arnold <name type="reg">Kanne</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -114,7 +136,7 @@
                   <hi rendition="#aq">Schmidt</hi> wurde blos<note corresp="#VI_10-8">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003809">
-                        <persName> Johann Ernst Christian <name type="reg">Schmidt</name>
+                        <persName>Johann Ernst Christian <name type="reg">Schmidt</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -125,14 +147,14 @@
                Jahrbücher lass’<note corresp="#VI_10-11">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003087">
-                        <persName> Emanuel <name type="reg">Osmund</name>
+                        <persName>Emanuel <name type="reg">Osmund</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010265">
                         <author/>
-                        <title>Heidelbergische Jahrbücher der Literatur (1808ff.)</title>
+                        <title>Heidelbergische Jahrbücher der Literatur (1808 ff.) </title>
                      </bibl>
                   </listBibl>
                </note>
@@ -140,17 +162,19 @@
                   milder,<lb xml:id="VI_10-12"/> und mit Recht; Wildheit paßt wenig.</p>
             <lb xml:id="VI_10-13"/>
             <p>Die Parabeln sind meine erste Rezension.<note corresp="#VI_10-14">
-               <listBibl type="lineReference" subtype="werke-jp">
-                  <bibl corresp="#JP-010869" ana="†">
-                     <title>Rezensionen: Krummacher, Parabeln (1808)</title>
-                  </bibl>
-               </listBibl>
-            </note><lb xml:id="VI_10-14"/></p>
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010869" ana="†">
+                        <title>Rezensionen: Krummacher, Parabeln (1808)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_10-14"/>
+            </p>
             <p>Erschien mir je ein Karakter — und ein guter — auf bloßem<lb n="15" xml:id="VI_10-15"/> Briefpapier: so wars der <hi rendition="#aq">Villerssche.</hi>
                <note corresp="#VI_10-16">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004437">
-                        <persName> Charles <name type="reg">Villers, de</name>
+                        <persName>Charles de <name type="reg">Villers</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -163,7 +187,13 @@
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Berlin JP. Präsentat: Dienstag, den 7 Febr.</hi>
                <hi rendition="#aq">9. </hi>
-               <hi rendition="#b"><hi rendition="#aq">10</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">8</hi></hi> meinem<lb/> Brief an Schmidt] <hi rendition="#aq">aus <hi rendition="#i">Schm.</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">10</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">8</hi>
+               </hi> meinem<lb/> Brief an Schmidt] <hi rendition="#aq">aus <hi rendition="#i">Schm.</hi>
                </hi> Brief</p>
             <lb/>
             <p>

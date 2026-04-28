@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="321">320. An Emanuel. </title>
-            <title n="digital">Von Jean Paul an Emanuel. Bayreuth, 28. Juli 1810.</title>
+            <title n="print" type="letter" rend="320">320. An Emanuel. </title>
+            <title n="digital">Von Jean Paul an Emanuel. Bayreuth, 28. Juli 1810, Samstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,16 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>125</num></biblScope><biblScope n="comment" unit="page"><num>480</num><num>481</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>125</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>480</num>
+                  <num>481</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +78,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1810-07-28">28. Juli 1810</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-003087">Emanuel Osmund</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0070"/><ptr type="next" subtype="brief" target="VI_321"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_319"/><ptr type="next" subtype="brief" target="VI_321"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_319"/><ptr type="next" subtype="brief" target="VI_328"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000941">Emanuel</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB0070"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_91"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_319"/>
+               <ptr type="next" subtype="brief" target="VI_321"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_319"/>
+               <ptr type="next" subtype="brief" target="VI_328"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -93,7 +117,7 @@
                   ent<note corresp="#VI_125-19">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000292" ana="†">
-                        <persName> Christian Ernst Graf von <name type="reg">Bentzel-Sternau</name>
+                        <persName>Christian Ernst Graf von <name type="reg">Bentzel-Sternau</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -110,7 +134,7 @@
                   Ich<note corresp="#VI_125-23">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000528">
-                        <persName> Friedrich <name type="reg">Buchholz</name>
+                        <persName>Friedrich <name type="reg">Buchholz</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -119,7 +143,7 @@
                   Flegeljahre:<note corresp="#VI_125-24">
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010695">
-                        <title>Flegeljahre (1804-1805)</title>
+                        <title>Flegeljahre. Eine Biographie (4 Bde., Tübingen: Cotta 1804-1805)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -128,13 +152,14 @@
                meine Friedens-Predigt<note corresp="#VI_125-25">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003851">
-                        <persName> Hirsch <name type="reg">Schreckenberger</name>
+                        <persName>Hirsch <name type="reg">Schreckenberger</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010713">
-                        <title>Friedens-Predigt an Deutschland (1808)</title>
+                        <title>Friedens-Predigt an Deutschland (Heidelberg: Mohr und Zimmer
+                        1808)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -149,7 +174,13 @@
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: SBa. Präsentat: 27t Jul.</hi>
                <hi rendition="#aq">10. </hi>
-               <hi rendition="#b"><hi rendition="#aq">125</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">21</hi></hi> unphilosophischen] <hi rendition="#aq">nachtr.</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">125</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">21</hi>
+               </hi> unphilosophischen] <hi rendition="#aq">nachtr.</hi>
             </p>
             <lb/>
             <p>

@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="442">441. An Friedrich von Oertel in Leipzig. </title>
-            <title n="digital">Von Jean Paul an Friedrich Benedikt von Oertel. Hof, 22. Oktober 96.</title>
+            <title n="print" type="letter" rend="441">441. An Friedrich von Oertel in Leipzig. </title>
+            <title n="digital">Von Jean Paul an Friedrich Benedikt von Oertel. Hof, 22. Oktober 1796, Samstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
+               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
                <biblScope n="text" unit="page">
                   <num>261</num>
                   <num>262</num>
@@ -79,21 +79,36 @@
             </msDesc>
             <listPerson type="commentary">
                <person corresp="#JP-002606">
-                  <persName> Johann Kaspar Friedrich <name type="reg">Manso</name>
+                  <persName>Johann Kaspar Friedrich <name type="reg">Manso</name>
                   </persName>
                </person>
             </listPerson>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
-               <date when="1796-10-22">22. Oktober 96</date>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
+               <date when="1796-10-22">22. Oktober 1796</date>
                <placeName key="JP-005841">Hof</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003039">Friedrich Benedikt von Oertel</persName>
                <placeName key="JP-005948">Leipzig</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="II_438"/><ptr type="next" subtype="brief" target="II_439"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="II_438"/><ptr type="next" subtype="brief" target="II_439"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="II_421"/><ptr type="next" subtype="brief" target="II_448"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="II_438"/>
+               <ptr type="next" subtype="anbrief" target="IV-II_146"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="II_438"/>
+               <ptr type="next" subtype="brief" target="II_439"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-II_EB_72"/>
+               <ptr type="next" subtype="anbrief" target="IV-II_EB_76"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -111,22 +126,24 @@
             </dateline>
             <lb n="10" xml:id="II_261-10"/>
             <p>Meine Bayreuther Reise schlos bisher meinen Mund.<note corresp="#II_261-11">
-               <listPlace type="lineReference">
-                  <place corresp="#JP-005574">
-                     <placeName>Bayreuth (Stadt)</placeName>
-                  </place>
-               </listPlace>
-            </note><lb xml:id="II_261-11"/></p>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005574">
+                        <placeName>Bayreuth </placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="II_261-11"/>
+            </p>
             <p>Göthens Karakter ist fürchterlich: das Genie ohne Tugend mus da<note corresp="#II_261-12">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001353" ana="†">
-                        <persName> Johann Wolfgang von <name type="reg">Goethe</name>
+                        <persName>Johann Wolfgang von <name type="reg">Goethe</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008557" ana="ff†">
-                        <author>Goethe, Johann Wolfgang von und Schiller, Friedrich</author>
+                        <author>Goethe, Johann Wolfgang von (1749–1832); Schiller, Friedrich</author>
                         <title>Xenien (1796)</title>
                      </bibl>
                   </listBibl>
@@ -138,7 +155,7 @@
                   kein<note corresp="#II_261-15">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003042" ana="†">
-                        <persName> Ludwig Christian von <name type="reg">Oertel</name>
+                        <persName>Ludwig von <name type="reg">Oertel</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -148,13 +165,13 @@
                   bei Wielands Parentazion im Klub dabei.<note corresp="#II_261-33">
                      <listPerson type="lineReference">
                         <person corresp="#JP-004710">
-                           <persName> Christoph Martin <name type="reg">Wieland</name>
+                           <persName>Christoph Martin <name type="reg">Wieland</name>
                            </persName>
                         </person>
                      </listPerson>
                      <listPlace type="lineReference">
-                        <place corresp="#JP-00639513">
-                           <placeName>Klub (Freitagsgesellschaft); Weimar</placeName>
+                        <place corresp="#JP-011699">
+                           <placeName>Klub (Freitagsgesellschaft)</placeName>
                         </place>
                      </listPlace>
                   </note>
@@ -163,15 +180,15 @@
                ungerechnet, der buklicht sein<note corresp="#II_261-18">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001917" ana="†">
-                        <persName> Friedrich <name type="reg">Jacobs</name>
+                        <persName>Friedrich <name type="reg">Jacobs</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010170" ana="†">
                         <author/>
-                        <title>Allgemeine Literatur-Zeitung (Literaturzeitung) (Jena 1785ff., ab
-                           1804 Halle)</title>
+                        <title>Allgemeine Literatur-Zeitung (Literaturzeitung) (Jena 1785 ff., ab 1804
+                        Halle)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -180,34 +197,39 @@
                Tage um den Al<note corresp="#II_261-20">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009596" ana="†">
-                        <author>Schiller, Friedrich (ab 1802) von (1759-1805)</author>
-                        <title>Musen-Almanach (Musenalmanach) (1796-1800)</title>
+                        <author>Schiller, Friedrich von (1759–1805)</author>
+                        <title>Musen-Almanach (1796–1800)</title>
                      </bibl>
                   </listBibl>
                </note>
                <lb n="20" xml:id="II_261-20" rendition="#hyphen"/>manach. Fürchterlich weh that es
                meinem Herzen, daß G. ein so nahes<lb xml:id="II_261-21"/>wie das des guten Reichards
                durchlöchern konte. —<note corresp="#II_261-22">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-003383">
-                     <persName> Johann Friedrich <name type="reg">Reichardt</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="II_261-22"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003383">
+                        <persName>Johann Friedrich <name type="reg">Reichardt</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_261-22"/>
+            </p>
             <p>Ich danke dir und deiner Schwester für das Medaillon.<note corresp="#II_261-23">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-003828">
-                     <persName> Erdmuthe Caroline Friederike Amalie Fürstin von <name type="reg">Schönaich-Carolath Beuthen</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="II_261-23"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003828">
+                        <persName>
+                           <name type="reg">Caroline, Fürstin von Schönaich-Carolath Beuthen</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_261-23"/>
+            </p>
             <p>Du hast deinen Prozes gegen die <hi rendition="#aq">Krüdner</hi> — verloren mit
                   allen<note corresp="#II_261-24">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002273" ana="ff">
-                        <persName> Barbara Juliane Freifrau von <name type="reg">Krüdener</name>
+                        <persName>Juliane Freifrau von <name type="reg">Krüdener</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -234,7 +256,7 @@
                <p>N. S. Zur Probe leg ich dir einen Brief, den ein Fräulein v. Schuk<note corresp="#II_262-12">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003884" ana="†">
-                           <persName> Luise Henriette von <name type="reg">Schuckmann</name>
+                           <persName>Henriette von <name type="reg">Schuckmann</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -252,7 +274,7 @@
                      seiner Durchreise.</note> dieses gieb so viel von deinem Herzen als du in<note corresp="#II_262-15">
                      <listPerson type="lineReference">
                         <person corresp="#JP-000044">
-                           <persName> Johann Georg Jacob von <name type="reg">Ahlefeldt</name>
+                           <persName>Hans Georg von <name type="reg">Ahlefeldt</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -281,20 +303,19 @@
                      Erholungen oder doch die<note corresp="#II_262-25">
                         <listPerson type="lineReference">
                            <person corresp="#JP-003811" ana="†">
-                              <persName> Klamer Eberhard Karl (Pseud. Hadslob, Hadlob) <name type="reg">Schmidt</name>
+                              <persName>Klamer <name type="reg">Schmidt</name>
                               </persName>
                            </person>
                         </listPerson>
                         <listBibl type="lineReference" subtype="werke">
                            <bibl corresp="#JP-008099" ana="†">
-                              <author>Becker, Wilhelm Gottlieb (1753-1813), Historiker und Philosoph
-                                 (Werk, Hrsg.)</author>
-                              <title>Erholungen (1796-1810)</title>
+                              <author>Becker, Wilhelm Gottlieb (1753–1813) (Hrsg.)</author>
+                              <title>Erholungen (Leipzig: Voß 1796–1810)</title>
                            </bibl>
                         </listBibl>
                         <listBibl type="lineReference" subtype="werke-jp">
                            <bibl corresp="#JP-010727" ana="†">
-                              <title>Hesperus (1795)</title>
+                              <title>Hesperus (3 Bde., Berlin: Matzdorff 1795)</title>
                            </bibl>
                         </listBibl>
                      </note>
@@ -304,8 +325,8 @@
                   <note corresp="#II_262-27">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-009596">
-                           <author>Schiller, Friedrich (ab 1802) von (1759-1805)</author>
-                           <title>Musen-Almanach (Musenalmanach) (1796-1800)</title>
+                           <author>Schiller, Friedrich von (1759–1805)</author>
+                           <title>Musen-Almanach (1796–1800)</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -314,7 +335,7 @@
                         Kinderbonmots<note corresp="#II_262-28">
                         <listPerson type="lineReference">
                            <person corresp="#JP-003042">
-                              <persName> Ludwig Christian von <name type="reg">Oertel</name>
+                              <persName>Ludwig von <name type="reg">Oertel</name>
                               </persName>
                            </person>
                         </listPerson>
@@ -333,8 +354,10 @@
                         <hi rendition="#aq">Blumenstüke</hi> schon auf der Messe waren; denn<note corresp="#II_262-32">
                         <listBibl type="lineReference" subtype="werke-jp">
                            <bibl corresp="#JP-010540">
-                              <title>Blumen- Frucht- und Dornenstükke (Blumen-, Frucht- und
-                                 Dornenstücke) (Siebenkäs) (1796-97 [1796])</title>
+                              <title>Blumen- Frucht- und Dornenstükke (Blumen-, Frucht- und Dornenstücke)
+                        (Siebenkäs) oder Ehestand, Tod und Hochzeit des Armenadvokaten F. St.
+                        Siebenkäs im Reichsmarktflecken Kuhschnappel (Berlin, Matzdorff 1796-97
+                        [1796])</title>
                            </bibl>
                         </listBibl>
                      </note>
@@ -347,7 +370,7 @@
                   <item>1) daß Otto dir nächstens schreibt und daß du ihm — und seinen<note corresp="#II_263-1">
                         <listPerson type="lineReference">
                            <person corresp="#JP-003112">
-                              <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                              <persName>Georg Christian <name type="reg">Otto</name>
                               </persName>
                            </person>
                         </listPerson>
@@ -357,7 +380,7 @@
                   <item>2) daß mich die jezt nach <hi rendition="#aq">Weimar</hi> zurükgeeilte <hi rendition="#aq">Kalb</hi> gefragt, ob sie<note corresp="#II_263-3">
                         <listPerson type="lineReference">
                            <person corresp="#JP-002007">
-                              <persName> Charlotte von <name type="reg">Kalb</name>
+                              <persName>Charlotte von <name type="reg">Kalb</name>
                               </persName>
                            </person>
                         </listPerson>
@@ -374,15 +397,15 @@
                   <item>3) schicke die Briefe für Amöne an mich, Otto, Renate, nur nicht<note corresp="#II_263-6">
                         <listPerson type="lineReference">
                            <person corresp="#JP-003108">
-                              <persName> Amöne (Pseud. Amalie von Obyrn) <name type="reg">Otto</name>
+                              <persName>Amöne <name type="reg">Otto</name>
                               </persName>
                            </person>
                            <person corresp="#JP-003112">
-                              <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                              <persName>Georg Christian <name type="reg">Otto</name>
                               </persName>
                            </person>
                            <person corresp="#JP-003126">
-                              <persName> Renate <name type="reg">Otto</name>
+                              <persName>Renate <name type="reg">Otto</name>
                               </persName>
                            </person>
                         </listPerson>
@@ -391,7 +414,7 @@
                      Tochter sie<note corresp="#II_263-7">
                         <listPerson type="lineReference">
                            <person corresp="#JP-001714">
-                              <persName> Johann Georg <name type="reg">Herold</name>
+                              <persName>Johann Georg <name type="reg">Herold</name>
                               </persName>
                            </person>
                         </listPerson>
@@ -415,7 +438,7 @@
                   handle nie nach den dir von mir anvertraueten<note corresp="#II_263-16">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003108" ana="ff">
-                           <persName> Amöne (Pseud. Amalie von Obyrn) <name type="reg">Otto</name>
+                           <persName>Amöne <name type="reg">Otto</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -426,7 +449,7 @@
                   für einen andern <hi rendition="#g">prüfen</hi> würde<note corresp="#II_263-19">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003112">
-                           <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                           <persName>Georg Christian <name type="reg">Otto</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -438,7 +461,7 @@
                   Irre nicht über O<metamark>[</metamark>tto<metamark>]</metamark>.<note corresp="#II_263-24">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003112">
-                           <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                           <persName>Georg Christian <name type="reg">Otto</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -450,7 +473,7 @@
                   kälter, vielleicht gar wärmer sein; aber du vergissest doch<lb xml:id="II_263-28"/>meine Selenographie von den entschiedenen Flecken dieses himlischen<note corresp="#II_263-29">
                      <listPerson type="lineReference">
                         <person corresp="#JP-002708" rend="Lesarten">
-                           <persName> Johann Tobias <name type="reg">Mayer</name>
+                           <persName>Johann Tobias <name type="reg">Mayer</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -470,7 +493,7 @@
                   Brief an <hi rendition="#aq">Caroline,</hi> dein<note corresp="#II_263-36">
                      <listPerson type="lineReference">
                         <person corresp="#JP-002454">
-                           <persName> Caroline <name type="reg">Liebmann</name>
+                           <persName>Caroline <name type="reg">Liebmann</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -490,7 +513,7 @@
                         —<note corresp="#II_264-7">
                         <listPerson type="lineReference">
                            <person corresp="#JP-003108">
-                              <persName> Amöne (Pseud. Amalie von Obyrn) <name type="reg">Otto</name>
+                              <persName>Amöne <name type="reg">Otto</name>
                               </persName>
                            </person>
                         </listPerson>
@@ -509,7 +532,13 @@
                </hi> 22 Okt. <hi rendition="#aq">
                   <hi rendition="#i">J</hi>: Denkw.</hi>
                <hi rendition="#aq">1,339×. </hi>
-               <hi rendition="#b"><hi rendition="#aq">261</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">15</hi></hi> In der]<lb/>
+               <hi rendition="#b">
+                  <hi rendition="#aq">261</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">15</hi>
+               </hi> In der]<lb/>
                <hi rendition="#aq">aus</hi> Über die <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
@@ -532,14 +561,26 @@
                <hi rendition="#aq">aus</hi> sich <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">262</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">5</hi></hi> übertriebne] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">262</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">5</hi>
+               </hi> übertriebne] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">19</hi> ausgehölet] <hi rendition="#aq">aus</hi> durchlöchert
                   <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
                <lb/>
-               <hi rendition="#b"><hi rendition="#aq">263</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">3</hi></hi> Sie <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">263</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">3</hi>
+               </hi> Sie <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">5</hi> recht] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
@@ -562,7 +603,13 @@
                Mayer- [<hi rendition="#aq">Joh. Tobias, der Mondforscher</hi>]</p>
             <lb/>
             <p>
-               <hi rendition="#b"><hi rendition="#aq">261</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">12</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">261</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">12</hi>
+               </hi>
                <hi rendition="#aq">ff. In Schillers Musenalmanach auf 1797 folgte auf das „Jean
                   Paul<lb/>Richter“ überschriebene, nicht unfreundliche Xenion (Nr. 41):
                   „Hieltest<lb/>du deinen Reichtum nur halb so zu Rate, wie jener [Manso]/Seine

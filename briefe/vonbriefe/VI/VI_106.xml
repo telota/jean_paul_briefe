@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="107">106. An Emanuel in Döhlau. </title>
-            <title n="digital">Von Jean Paul an Emanuel. Bayreuth, 12. Juni 1809.</title>
+            <title n="print" type="letter" rend="106">106. An Emanuel in Döhlau. </title>
+            <title n="digital">Von Jean Paul an Emanuel. Bayreuth, 12. Juni 1809, Montag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,16 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>36</num><num>37</num></biblScope><biblScope n="comment" unit="page"><num>439</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>36</num>
+                  <num>37</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>439</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,15 +78,30 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1809-06-12">12. Juni 1809</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-003087">Emanuel Osmund</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000941">Emanuel</persName>
                <placeName key="JP-005681">Döhlau bei
                   Hof</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB1873"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0246"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_105"/><ptr type="next" subtype="brief" target="VI_107"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_100"/><ptr type="next" subtype="brief" target="VI_108"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB1873"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB1301"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_105"/>
+               <ptr type="next" subtype="brief" target="VI_107"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_100"/>
+               <ptr type="next" subtype="brief" target="VI_108"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -97,12 +121,12 @@
                </hi> und drei Kleinen <metamark>[</metamark>!<metamark>]</metamark> — Sie in <add resp="#MB">i</add>hren Haarschlingen<note corresp="#VI_37-1">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003469">
-                        <persName> Caroline <name type="reg">Richter</name>
+                        <persName>Caroline <name type="reg">Richter</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003483">
-                        <persName> Johann Paul Friedrich <name type="reg">Richter</name>
-                        </persName>
+                        <persName>
+                           <name type="reg">Richter</name>, seine Kinder</persName>
                      </person>
                   </listPerson>
                </note>
@@ -120,7 +144,7 @@
                   grüßt<note corresp="#VI_37-9">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003469">
-                        <persName> Caroline <name type="reg">Richter</name>
+                        <persName>Caroline <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -141,9 +165,15 @@
                   S. 8°. Auf angehängtem Blatt Kopie<lb/> von Emanuels Antwort. <hi rendition="#i">K</hi>: <hi rendition="#i">Eman.</hi>
                </hi> 12 Jun. <hi rendition="#aq">
                   <hi rendition="#i">J</hi>: Denkw. 1,216.<lb/>
-                  <hi rendition="#i">A</hi>: IV. Abt., VI, Nr.</hi>
+                  <hi rendition="#i">A</hi>: IV. Abt., 6, Nr.</hi>
                <hi rendition="#aq">26. </hi>
-               <hi rendition="#b"><hi rendition="#aq">37</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">1</hi></hi> in] <hi rendition="#aq">davor gestr.</hi> mit <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">37</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">1</hi>
+               </hi> in] <hi rendition="#aq">davor gestr.</hi> mit <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">2</hi> gehen] <hi rendition="#aq">aus</hi> kommen <hi rendition="#aq">

@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="316">312. An Minona Spazier in Dresden. </title>
-            <title n="digital">Von Jean Paul an Minona Spazier. Bayreuth, 21. Juni 1822.</title>
+            <title n="print" type="letter" rend="312">312. An Minona Spazier in Dresden. </title>
+            <title n="digital">Von Jean Paul an Minona Laura Spazier. Bayreuth, 21. Juni 1822, Freitag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>189</num>
                </biblScope>
@@ -78,14 +78,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1822-06-21">21. Juni 1822</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-000009">Minona Laura Abeken</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-011775">Minona Laura Spazier</persName>
                <placeName key="JP-005687">Dresden</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VIII_311"/><ptr type="next" subtype="brief" target="VIII_24-fb"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VIII_311"/><ptr type="next" subtype="brief" target="VIII_24-fb"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="IX_30"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VIII_311"/>
+               <ptr type="next" subtype="anbrief" target="IV-VIII_183"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VIII_311"/>
+               <ptr type="next" subtype="brief" target="VIII_24-fb"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="IX_30"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -103,7 +117,7 @@
             <p>Meine liebe, liebe Minona! Das bleibst du mir; ja ich hoffte, du<lb xml:id="VIII_189-9"/>würdest ein wenig weinen bei meinem Abschied wie die <hi rendition="#aq">Aderhold;</hi> aber<note corresp="#VIII_189-10">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000023">
-                        <persName> Frau <name type="reg">Aderhold</name>
+                        <persName>Henriette Friederike <name type="reg">Aderhold</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -127,7 +141,13 @@
             <p>
                <hi rendition="#aq">
                   <hi rendition="#i">K</hi>: <hi rendition="#i">Minona Spaz.</hi>
-               </hi> 21. Jun. <hi rendition="#b"><hi rendition="#aq">189</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">19</hi></hi> diesem] <hi rendition="#aq">davor gestr.</hi> ihm</p>
+               </hi> 21. Jun. <hi rendition="#b">
+                  <hi rendition="#aq">189</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">19</hi>
+               </hi> diesem] <hi rendition="#aq">davor gestr.</hi> ihm</p>
          </div>
       </body>
    </text>

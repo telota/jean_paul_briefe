@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="662">660. An Friedrich Schlegel in Wien. </title>
-            <title n="digital">Von Jean Paul an Friedrich Schlegel. Bayreuth, 1. August 1812.</title>
+            <title n="print" type="letter" rend="660">660. An Friedrich Schlegel in Wien. </title>
+            <title n="digital">Von Jean Paul an Friedrich Schlegel. Bayreuth, 1. August 1812, Samstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,17 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>285</num><num>286</num></biblScope><biblScope n="comment" unit="page"><num>541</num><num>542</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>285</num>
+                  <num>286</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>541</num>
+                  <num>542</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,14 +79,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1812-08-01">1. August 1812</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003760">Friedrich Schlegel</persName>
                <placeName key="JP-006405">Wien</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0439"/><ptr type="next" subtype="brief" target="VI_668"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_659"/><ptr type="next" subtype="brief" target="VI_668"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_629"/><ptr type="next" subtype="brief" target="VI_933"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB0439"/>
+               <ptr type="next" subtype="brief" target="VI_668"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_659"/>
+               <ptr type="next" subtype="brief" target="VI_668"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_206"/>
+               <ptr type="next" subtype="brief" target="VI_933"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -104,7 +129,7 @@
                   <listPerson type="lineReference">
                      <person corresp="#JP-002064">
                         <persName>
-                           <name type="reg">Katholiken </name>
+                           <name type="reg">Katholiken</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -113,29 +138,31 @@
                   Steigentesch</hi> hat, von welchem<note corresp="#VI_286-1">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004136" ana="†">
-                        <persName> August Ernst Freiherr von <name type="reg">Steigentesch</name>
+                        <persName>August Ernst Freiherr von <name type="reg">Steigentesch</name>
                         </persName>
                      </person>
                   </listPerson>
                </note>
                <lb xml:id="VI_286-1"/> jedes Lustspiel zehn mal besser ist als sein passives, sein
                Aufsatz in<lb xml:id="VI_286-2"/> Ihrem Museum über die deutsche Kunst.<note corresp="#VI_286-3">
-               <listPlace type="lineReference">
-                  <place corresp="#JP-0056711">
-                     <placeName>Kunst; Deutschland, deutsche</placeName>
-                  </place>
-               </listPlace>
-               <listBibl type="lineReference" subtype="werke">
-                  <bibl corresp="#JP-009637" ana="†">
-                     <author>Schlegel, Friedrich (Werk, Hrsg.)</author>
-                     <title>Deutsches Museum (1812-1813)</title>
-                  </bibl>
-               </listBibl>
-            </note><lb xml:id="VI_286-3"/></p>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-011183">
+                        <placeName>Kunst</placeName>
+                     </place>
+                  </listPlace>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009637" ana="†">
+                        <author>Schlegel, Friedrich (1772–1829) (Hrsg.)</author>
+                        <title>Deutsches Museum (1812–1813)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_286-3"/>
+            </p>
             <p>Die neue Ausgabe Ihrer Gedichte hab’ ich leider im Bücher<note corresp="#VI_286-4">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009627">
-                        <author>Schlegel, Friedrich (1772-1829)</author>
+                        <author>Schlegel, Friedrich (1772–1829)</author>
                         <title>Gedichte (1809)</title>
                      </bibl>
                   </listBibl>
@@ -143,7 +170,7 @@
                <lb xml:id="VI_286-4" rendition="#hyphen"/>dürftigen <hi rendition="#aq">Baireuth</hi> noch nicht vorbekommen.<note corresp="#VI_286-5">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005574">
-                        <placeName>Bayreuth (Stadt)</placeName>
+                        <placeName>Bayreuth </placeName>
                      </place>
                   </listPlace>
                </note>
@@ -152,8 +179,8 @@
             <p>Von Ihrem Museum hab’ ich durch Ihre Güte — die ich aber<note corresp="#VI_286-6">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009637">
-                        <author>Schlegel, Friedrich (Werk, Hrsg.)</author>
-                        <title>Deutsches Museum (1812-1813)</title>
+                        <author>Schlegel, Friedrich (1772–1829) (Hrsg.)</author>
+                        <title>Deutsches Museum (1812–1813)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -163,7 +190,7 @@
             <p>Mein Wort über <hi rendition="#aq">Hamanns</hi> Ausgabe war ein wahres. Der<note corresp="#VI_286-9">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001508" ana="†">
-                        <persName> Johann Georg <name type="reg">Hamann</name>
+                        <persName>Johann Georg <name type="reg">Hamann</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -173,7 +200,7 @@
                literarischen Erläuterungen<note corresp="#VI_286-11">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001509">
-                        <persName> Johann Michael <name type="reg">Hamann</name>
+                        <persName>Johann Michael <name type="reg">Hamann</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -182,7 +209,7 @@
                sogar jetzt dem <hi rendition="#aq">Hamann</hi> selber —<note corresp="#VI_286-12">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003000">
-                        <persName> Christoph Friedrich <name type="reg">Nicolai </name>
+                        <persName>Friedrich <name type="reg">Nicolai</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -203,7 +230,7 @@
                auszuziehen als das<note corresp="#VI_286-18">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008617">
-                        <author>Hamann, Johann Georg</author>
+                        <author>Hamann, Johann Georg (1730–1788)</author>
                         <title>Sokratische Denkwürdigkeiten (1759)</title>
                      </bibl>
                   </listBibl>
@@ -230,8 +257,8 @@
             <p>Hier leg’ ich das Aviso der Anweisung an die <hi rendition="#aq">Camesina’sche</hi>
                <note corresp="#VI_286-21">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0064057">
-                        <placeName>Camesina, Buchhandlung; Wien</placeName>
+                     <place corresp="#JP-011729">
+                        <placeName>Camesina, Buchhandlung</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -261,10 +288,15 @@
                </hi> 1 August 1812 [<hi rendition="#aq">nachtr.</hi>
                <lb/> den 4ten ab]. <hi rendition="#aq">
                   <hi rendition="#i">i</hi>: Wahrheit 7, 292. <hi rendition="#i">J</hi>: Deutsche
-                  Rundschau, 175. Bd.,<lb/> S. 118f. (April 1918). <hi rendition="#i">B</hi>: IV.
-                  Abt., VI, Nr. 206. <hi rendition="#i">A</hi>: vgl. Nr.</hi>
+                  Rundschau, 175. Bd.,<lb/> S. 118f. (April 1918). <hi rendition="#i">B</hi>: IV. Abt., 6, Nr. 206. <hi rendition="#i">A</hi>: vgl. Nr.</hi>
                <hi rendition="#aq">211. </hi>
-               <hi rendition="#b"><hi rendition="#aq">286</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">7</hi></hi> einzuhalten]<lb/>
+               <hi rendition="#b">
+                  <hi rendition="#aq">286</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">7</hi>
+               </hi> einzuhalten]<lb/>
                <hi rendition="#aq">aus</hi> innenzuhalten <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>

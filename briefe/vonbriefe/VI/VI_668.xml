@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="670">668. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, August 1812.</title>
+            <title n="print" type="letter" rend="668">668. An Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth, August 1812.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>290</num></biblScope><biblScope n="comment" unit="page"><num>543</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>290</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>543</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date cert="medium" notBefore="1812-08-01" notAfter="1812-08-31">August 1812</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_660"/><ptr type="next" subtype="brief" target="VI_669"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_660"/><ptr type="next" subtype="brief" target="VI_669"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_657"/><ptr type="next" subtype="brief" target="VI_669"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_660"/>
+               <ptr type="next" subtype="brief" target="VI_669"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_660"/>
+               <ptr type="next" subtype="brief" target="VI_669"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_657"/>
+               <ptr type="next" subtype="brief" target="VI_669"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -93,8 +116,7 @@
                mal bessern<note corresp="#VI_290-16">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008245" ana="†">
-                        <author>Chézy, Helmina von, geb. von Klencke, gesch. von Hastfer (Pseudonym
-                           Helmina, Sylvandra) (1783-1856), Schriftstellerin</author>
+                        <author>Chézy, Helmina von (1783–1856)</author>
                         <title>Gedichte</title>
                      </bibl>
                   </listBibl>
@@ -103,7 +125,7 @@
                Holzschnitte — dann die Legenden —<lb xml:id="VI_290-17"/> dann an Großherzog <hi rendition="#aq">p.</hi> 37 — dann vieles Übrige. — Hab’ ich dir<note corresp="#VI_290-18">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000742">
-                        <persName> Karl Theodor Reichsfreiherr von <name type="reg">Dalberg</name>
+                        <persName>Carl Theodor von <name type="reg">Dalberg</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -112,9 +134,9 @@
                   unserer<note corresp="#VI_290-19">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010113" ana="†">
-                        <author>Wieland, Christoph Martin und Carl (Karl) August Böttiger (Werk,
-                           Hrsg.)</author>
-                        <title>Teutscher Merkur (1773-1810, ab 1790 Neuer)</title>
+                        <author>Wieland, Christoph Martin und Carl (Karl) August Böttiger
+                        (Hrsg.)</author>
+                        <title>Teutscher Merkur (1773–1810, ab 1790 Neuer)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -127,7 +149,13 @@
             <p>
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Berlin JP.</hi>
-               <hi rendition="#b"><hi rendition="#aq">290</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">19</hi></hi> einen Abriß] <hi rendition="#aq">aus</hi> ein Verzeichnis</p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">290</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">19</hi>
+               </hi> einen Abriß] <hi rendition="#aq">aus</hi> ein Verzeichnis</p>
             <lb/>
             <p>1. <hi rendition="#aq">
                   <hi rendition="#g">Theil:</hi> der Gedichte der Chézy, vgl. Nr. 704 u. 706. Im Neuen<lb/>

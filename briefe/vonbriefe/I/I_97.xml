@@ -4,7 +4,7 @@
          <titleStmt>
             <title n="print" type="letter" rend="97">97. An <persName>Pfarrer Vogel</persName> in
                Rehau. </title>
-            <title n="digital">Von Jean Paul an Erhard Friedrich Vogel. Hof, 20. März 1785. </title>
+            <title n="digital">Von Jean Paul an Erhard Friedrich Vogel. Hof, 20. März 1785, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -46,7 +46,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -61,8 +62,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="I">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
+               <title n="I">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
                <biblScope n="text" unit="page">
                   <num>157</num>
                   <num>158</num>
@@ -80,15 +80,30 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1785-03-20">20. März 1785</date>
                <placeName key="JP-005841">Hof</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-004474">Erhard Friedrich Vogel</persName>
                <placeName key="JP-006182">Rehau,
                   Oberfranken</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="I_96"/><ptr type="next" subtype="brief" target="I_100"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="I_96"/><ptr type="next" subtype="brief" target="I_100"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="I_95"/><ptr type="next" subtype="brief" target="I_105"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="I_96"/>
+               <ptr type="next" subtype="anbrief" target="IV-I_37"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="I_96"/>
+               <ptr type="next" subtype="brief" target="I_100"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="I_95"/>
+               <ptr type="next" subtype="anbrief" target="IV-I_37"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -128,7 +143,8 @@
                geben, daß <note corresp="#I_158-4">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002538">
-                        <persName> Buchhandlung in Bayreuth <name type="reg">Lübeckische</name>
+                        <persName>
+                           <name type="reg">Lübeckische Buchhandlung in Bayreuth</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -137,9 +153,9 @@
                   ge<note corresp="#I_158-5">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009962">
-                        <author>Vogel, Erhard Friedrich (1750-1823), Theologe, Pfarrer in Rehau und
-                           Arzberg, später Superintendent (ab 1810 Dekan) in Wunsiedel</author>
-                        <title>Raffinerien (1785-1786)</title>
+                        <author>Vogel, Erhard Friedrich (1750–1823), Theologe, Pfarrer in Rehau und
+                        Arzberg, später Superintendent (ab 1810 Dekan) in Wunsiedel</author>
+                        <title>Raffinerien (1785–1786)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -168,7 +184,7 @@
                <note corresp="#I_158-13">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002502">
-                        <persName> Daniel Caspar von <name type="reg">Lohenstein</name>
+                        <persName>Daniel Caspar von <name type="reg">Lohenstein</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -178,7 +194,8 @@
                <note corresp="#I_158-14">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002575">
-                        <persName> Ambrosius Theodosius <name type="reg">Macrobius</name>
+                        <persName>
+                           <name type="reg">Macrobius</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -187,7 +204,7 @@
                <item>Gresset. <note corresp="#I_158-15">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001395">
-                           <persName> Jean Baptiste Louis <name type="reg">Gresset</name>
+                           <persName>Jean Baptiste Louis <name type="reg">Gresset</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -195,14 +212,16 @@
                   <lb n="15" xml:id="I_158-15"/>
                </item>
                <item>Reinische Beiträge zur Gelehrsamkeit</item>
-            <note corresp="#I_158-16">
-               <listBibl type="lineReference" subtype="werke">
-                  <bibl corresp="#JP-010353">
-                     <author/>
-                     <title>Rheinische Beiträge zur Gelehrsamkeit (1777-1781)</title>
-                  </bibl>
-               </listBibl>
-            </note><lb xml:id="I_158-16"/></list>
+               <note corresp="#I_158-16">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010353">
+                        <author/>
+                        <title>Rheinische Beiträge zur Gelehrsamkeit (1777–1781) </title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_158-16"/>
+            </list>
             <p>und — in dieser Bitte erfüllen Sie mir soviele als zehn zugleich — <lb xml:id="I_158-17"/>
                <hi rendition="#g">Müllers Zenturien</hi>
                <hi rendition="#aq">
@@ -210,7 +229,7 @@
                </hi> wenn ich anders <note corresp="#I_158-18">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010124" ana="†">
-                        <author>Wolf, Johann (1537-1600), Jurist</author>
+                        <author>Wolf, Johann (1537–1600)</author>
                         <title>Lectiones memorabiles (1600)</title>
                      </bibl>
                   </listBibl>
@@ -219,27 +238,29 @@
                soviele <lb xml:id="I_158-19"/>unbekante Merkwürdigkeiten aufbewahret. Auch hab’ ich,
                um seinen <lb n="20" xml:id="I_158-20"/> Transport zu erleichtern, meine zween Brüder
                auf einmal geschikt.<note corresp="#I_158-21">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-003480" ana="†">
-                     <persName> Johann Gottlieb <name type="reg">Richter</name>
-                     </persName>
-                  </person>
-                  <person corresp="#JP-003481">
-                     <persName> Johann Paul Friedrich <name type="reg">Richter</name>
-                     </persName>
-                  </person>
-                  <person corresp="#JP-003487" ana="†">
-                     <persName> Justus Heinrich Wilhelm Christian <name type="reg">Richter</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="I_158-21"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003480" ana="†">
+                        <persName>Gottlieb <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003481">
+                        <persName>
+                           <name type="reg">Richter</name>, seine Brüder</persName>
+                     </person>
+                     <person corresp="#JP-003487" ana="†">
+                        <persName>Justus Heinrich Wilhelm Christian <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="I_158-21"/>
+            </p>
             <p>Nun noch zu einer Sache, von der unter uns beiden selten die Rede <lb xml:id="I_158-22"/>sein kan. Denn so viel wir auch von <hi rendition="#g">Köpfen</hi> reden, so kommen wir <lb xml:id="I_158-23"/>doch niemals auf
                dieienigen Köpfe, welche nichts als Gold oder Silber <lb xml:id="I_158-24"/>verewigt,
                d. h. auf die fürstlichen d. h. auf das Geld. Meine Mutter <note corresp="#I_158-25">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003496">
-                        <persName> Sophie Rosine <name type="reg">Richter</name>
+                        <persName>Sophie Rosine <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -254,8 +275,8 @@
                sezen, die Ausgaben, welche meine Brüder <note corresp="#I_158-32">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003481">
-                        <persName> Johann Paul Friedrich <name type="reg">Richter</name>
-                        </persName>
+                        <persName>
+                           <name type="reg">Richter</name>, seine Brüder</persName>
                      </person>
                   </listPerson>
                </note>
@@ -294,13 +315,18 @@
                   <hi rendition="#i">J</hi>
                   <hi rendition="#sup">1</hi>: Wahr<lb rendition="#hyphen"/>heit 3,332× (28. März).
                      <hi rendition="#i">J</hi>
-                  <hi rendition="#sup">2</hi>: Nachlaß 3,251×. <hi rendition="#i">A</hi>: IV. Abt.,
-                  I, Nr.</hi>
+                  <hi rendition="#sup">2</hi>: Nachlaß 3,251×. <hi rendition="#i">A</hi>: IV. Abt., 1, Nr.</hi>
                <hi rendition="#aq">37.</hi>
             </p>
             <lb/>
             <p>
-               <hi rendition="#b"><hi rendition="#aq">158</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">5</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">158</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">5</hi>
+               </hi>
                <hi rendition="#aq">
                   <hi rendition="#g">Ostern</hi> war am 27. März 1785; Vogel antwortete, sein Buch
                   werde <lb/>erst zu Pfingsten erscheinen. <hi rendition="#rkd">14</hi> Aurelii

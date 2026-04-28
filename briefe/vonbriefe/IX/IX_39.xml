@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="41">39. An Sophie Paulus in Heidelberg. </title>
+            <title n="print" type="letter" rend="39">39. An Sophie Paulus in Heidelberg. </title>
             <title n="digital">Von Jean Paul an Sophie Paulus. Heidelberg, Juli 1817.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="IX">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 9. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1964.</title>
+               <title n="IX">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 9. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1964.</title>
                <biblScope n="text" unit="page">
                   <num>22</num>
                </biblScope>
@@ -77,14 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date notBefore="1817-07-01" notAfter="1817-07-31">Juli 1817</date>
                <placeName key="JP-005819">Heidelberg</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003172">Sophie Paulus</persName>
                <placeName key="JP-005819">Heidelberg</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB1682"/><ptr type="next" subtype="brief" target="VII_293"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VII_292"/><ptr type="next" subtype="brief" target="VII_293"/></correspContext><correspContext n="correspondence"><ptr type="next" subtype="brief" target="VII_300"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB1682"/>
+               <ptr type="next" subtype="anbrief" target="IV-VII_59"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VII_292"/>
+               <ptr type="next" subtype="brief" target="VII_293"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="next" subtype="brief" target="VII_300"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -104,19 +118,21 @@
                   mich<note corresp="#IX_22-30">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003173">
-                        <persName> Wilhelm <name type="reg">Paulus</name>
+                        <persName>Wilhelm <name type="reg">Paulus</name>
                         </persName>
                      </person>
                   </listPerson>
                </note>
                <lb n="30" xml:id="IX_22-30"/>schon heute wieder in Ihr Haus verlockt.<note corresp="#IX_22-31">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-003169">
-                     <persName> Heinrich Eberhard Gottlob <name type="reg">Paulus</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="IX_22-31"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003169">
+                        <persName>Familie <name type="reg">Paulus</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IX_22-31"/>
+            </p>
          </div>
          <div type="comment">
             <p>

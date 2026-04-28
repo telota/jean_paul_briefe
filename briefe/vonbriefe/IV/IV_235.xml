@@ -2,9 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="241">235. An Geheimrat Mayer. </title>
-            <title n="digital">Von Jean Paul an Johann Siegfried Wilhelm Mayer. Meiningen, 26. Januar
-               1802.</title>
+            <title n="print" type="letter" rend="235">235. An Geheimrat Mayer. </title>
+            <title n="digital">Von Jean Paul an Johann Siegfried Wilhelm Mayer. Meiningen, 26. Januar 1802, Dienstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -46,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +60,11 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"/><biblScope n="comment" unit="page"/></bibl>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page"/>
+               <biblScope n="comment" unit="page"/>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -70,14 +73,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1802-01-26">26. Januar 1802</date>
                <placeName key="JP-006012">Meiningen
                </placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-002703">Johann Siegfried Wilhelm Mayer</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0164"/><ptr type="next" subtype="brief" target="IV_236"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="IV_234"/><ptr type="next" subtype="brief" target="IV_236"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="IV_212"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0542"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB0164"/>
+               <ptr type="next" subtype="brief" target="IV_236"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="IV_234"/>
+               <ptr type="next" subtype="brief" target="IV_236"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-IV_EB_30"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB0542"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -94,7 +112,7 @@
             <p>Geliebtester Vater! Alle Antworten, die Sie bekommen, werden<lb xml:id="IV_130-18"/>Ihren Schmerz von neuem öfnen; und die Theilnahme wird eine<lb xml:id="IV_130-19"/>Wunde. Ich sage nichts über die Flucht der schönen reinen Gestalt;<note corresp="#IV_130-20">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002702" ana="†">
-                        <persName> Auguste <name type="reg">Mayer</name>
+                        <persName>Auguste <name type="reg">Mayer</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -106,7 +124,7 @@
                Ihre Schonung meiner Frau.<note corresp="#IV_130-23">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003469" ana="†">
-                        <persName> Caroline <name type="reg">Richter</name>
+                        <persName>Caroline <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -116,7 +134,7 @@
                Hereinstürmen der<note corresp="#IV_130-24">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004393">
-                        <persName> Wilhelmine <name type="reg">Uthe-Spazier</name>
+                        <persName>Minna <name type="reg">Uthe-Spazier</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -153,7 +171,7 @@
                   </hi> war meine Veranlassung,<note corresp="#IV_131-5">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003469">
-                           <persName> Caroline <name type="reg">Richter</name>
+                           <persName>Caroline <name type="reg">Richter</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -169,7 +187,13 @@
                Mayer 26. J. <hi rendition="#aq">
                   <hi rendition="#i">J</hi>: Wahrheit</hi>
                <hi rendition="#aq">6,229. </hi>
-               <hi rendition="#b"><hi rendition="#aq">130</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">26</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">130</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">26</hi>
+               </hi>
                <lb/>d. h. seit ¾ Jahren] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">28</hi> Katarrhe] <hi rendition="#aq">aus</hi> Katarhe <hi rendition="#aq">
@@ -177,7 +201,13 @@
                   <hi rendition="#rkd">28</hi>f.</hi> nur den]<lb/>sondern nur einen <hi rendition="#aq">
                   <hi rendition="#i">K</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">131</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">5</hi></hi> war] <hi rendition="#aq">aus</hi> ist <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">131</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">5</hi>
+               </hi> war] <hi rendition="#aq">aus</hi> ist <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
             </p>
@@ -187,7 +217,13 @@
                   Tochter<lb/>(aus zweite Ehe), Auguste, war am 14. Jan. 1802 gestorben; er
                   hatte<lb/>gebeten, Karolinen die Nachricht schonend beizubringen. <hi rendition="#b">130</hi>, <hi rendition="#rkd">29–31</hi> Der<lb/>Wunsch ging
                   bald in Erfüllung, s.</hi>
-               <hi rendition="#b"><hi rendition="#aq">196</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">25</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">196</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">25</hi>
+               </hi>
                <hi rendition="#aq">†.</hi>
             </p>
             <lb/>

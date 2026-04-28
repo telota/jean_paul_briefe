@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="186">185. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, 16. November 1809.</title>
+            <title n="print" type="letter" rend="185">185. An Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth, 16. November 1809, Donnerstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>67</num></biblScope><biblScope n="comment" unit="page"><num>452</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>67</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>452</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1809-11-16">16. November 1809</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_184"/><ptr type="next" subtype="brief" target="VI_186"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_184"/><ptr type="next" subtype="brief" target="VI_186"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_8-fb"/><ptr type="next" subtype="brief" target="VI_186"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_184"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_EB_20"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_184"/>
+               <ptr type="next" subtype="brief" target="VI_186"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_8-fb"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_EB_20"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -96,53 +119,59 @@
                Schreibe mir doch die 2 Preise der<lb xml:id="VI_67-32"/> Weine. — Schicke mir <hi rendition="#aq">Cotta’s</hi> Brief. Gestern hab’ ich 3 Al<note corresp="#VI_67-33">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000698">
-                        <persName> Johann Friedrich Freiherr <name type="reg">Cotta von
-                              Cottendorf</name>
+                        <persName>Johann Friedrich von <name type="reg">Cotta</name>
                         </persName>
                      </person>
                   </listPerson>
                </note>
                <lb xml:id="VI_67-33" rendition="#hyphen"/> manache, und darunter einen übersetzenden
                von <hi rendition="#aq">Fouqué</hi> erhalten.<note corresp="#VI_67-34">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-001138" ana="†">
-                     <persName> Friedrich Freiherr de la Motte <name type="reg">Fouqué</name>
-                     </persName>
-                  </person>
-               </listPerson>
-               <listBibl type="lineReference" subtype="werke">
-                  <bibl corresp="#JP-010366" ana="†">
-                     <author/>
-                     <title>Taschenbuch für Freunde der Poesie des Südens (1809)</title>
-                  </bibl>
-                  <bibl corresp="#JP-008236" ana="†">
-                     <author>Cervantes Saavedra, Miguel de (1547-1616)</author>
-                     <title>Numancia (um 1585)</title>
-                  </bibl>
-                  <bibl corresp="#JP-008424" ana="†">
-                     <author>Fouqué, Friedrich Freiherr de la Motte (Pseud. Pellegrin)
-                        (1777-1843),romantischer Erzähler, Dramatiker und Lyriker</author>
-                     <title>Der Ritter und die Bauern (1811)</title>
-                  </bibl>
-                  <bibl corresp="#JP-008425" ana="†">
-                     <author>Fouqué, Friedrich Freiherr de la Motte (Pseud. Pellegrin)
-                        (1777-1843),romantischer Erzähler, Dramatiker und Lyriker</author>
-                     <title>Undine (1811)</title>
-                  </bibl>
-               </listBibl>
-            </note><lb xml:id="VI_67-34"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001138" ana="†">
+                        <persName>Friedrich Freiherr de la Motte <name type="reg">Fouqué</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010366" ana="†">
+                        <author/>
+                        <title>Taschenbuch für Freunde der Poesie des Südens (1809) </title>
+                     </bibl>
+                     <bibl corresp="#JP-008236" ana="†">
+                        <author>Cervantes Saavedra, Miguel de (1547–1616)</author>
+                        <title>Numancia (um 1585)</title>
+                     </bibl>
+                     <bibl corresp="#JP-008424" ana="†">
+                        <author>Fouqué, Friedrich Freiherr de la Motte (1777–1843)</author>
+                        <title>Der Ritter und die Bauern (Berlin: Hitzig 1811, zusammen mit Waldemar der
+                        Pilger u. d. T. Vaterländische Schauspiele)</title>
+                     </bibl>
+                     <bibl corresp="#JP-008425" ana="†">
+                        <author>Fouqué, Friedrich Freiherr de la Motte (1777–1843)</author>
+                        <title>Undine (1811)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_67-34"/>
+            </p>
          </div>
          <div type="comment">
             <p>
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Berlin JP. Präsentat: Donnerstag, den 16 Nov.</hi>
                <hi rendition="#aq">9. </hi>
-               <hi rendition="#b"><hi rendition="#aq">67</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">31</hi></hi> deine]<lb/>
+               <hi rendition="#b">
+                  <hi rendition="#aq">67</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">31</hi>
+               </hi> deine]<lb/>
                <hi rendition="#aq">davor gestr.</hi> alle</p>
             <lb/>
             <p>
                <hi rendition="#aq">
-                  <hi rendition="#g">Cotta’s Brief:</hi> an J. P. IV. Abt., VI, Nr. 44. <hi rendition="#g">Fouqué</hi> hatte J. P. am 21. Ok<lb rendition="#hyphen"/>tober
+                  <hi rendition="#g">Cotta’s Brief:</hi> an J. P. IV. Abt., 6, Nr. 44. <hi rendition="#g">Fouqué</hi> hatte J. P. am 21. Ok<lb rendition="#hyphen"/>tober
                   (s. IV. Abt. (Br. an J. P.), VI, Nr. 41) das „Taschenbuch für Freunde der
                   Poesie<lb/> des Südens“ (Berlin 1809) mit seiner Übersetzung von Cervantes’<lb/>
                   Numancia zugesandt; vgl. Nr.</hi>

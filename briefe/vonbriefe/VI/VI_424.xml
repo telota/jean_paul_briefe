@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="425">424. An Emanuel. </title>
-            <title n="digital">Von Jean Paul an Emanuel. Bayreuth, 3. Januar 1811.</title>
+            <title n="print" type="letter" rend="424">424. An Emanuel. </title>
+            <title n="digital">Von Jean Paul an Emanuel. Bayreuth, 3. Januar 1811, Donnerstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>168</num></biblScope><biblScope n="comment" unit="page"><num>498</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>168</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>498</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1811-01-03">3. Januar 1811</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-003087">Emanuel Osmund</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_423"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0942"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_423"/><ptr type="next" subtype="brief" target="VI_20-fb"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_423"/><ptr type="next" subtype="brief" target="VI_425"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000941">Emanuel</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_EB_46"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB0942"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_423"/>
+               <ptr type="next" subtype="brief" target="VI_20-fb"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_423"/>
+               <ptr type="next" subtype="brief" target="VI_425"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -94,7 +117,7 @@
                </hi> grüßt Sie schon wieder; und ist wahrscheinlich schon<note corresp="#VI_168-28">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003469">
-                        <persName> Caroline <name type="reg">Richter</name>
+                        <persName>Caroline <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -110,7 +133,7 @@
                <lb xml:id="VI_168-29"/> Geld borgen; ich würd’ es hier z. B. durch H. <hi rendition="#aq">Enzel</hi> bezahlen<note corresp="#VI_168-30">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000970">
-                        <persName> Israel <name type="reg">Enzel</name>
+                        <persName>Israel <name type="reg">Enzel</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -122,13 +145,13 @@
                <note corresp="#VI_168-33">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003118">
-                        <persName> Christoph <name type="reg">Otto</name>
+                        <persName>Christoph <name type="reg">Otto</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listPlace type="lineReference">
                      <place corresp="#JP-005841">
-                        <placeName>Hof im Vogtland</placeName>
+                        <placeName>Hof</placeName>
                      </place>
                   </listPlace>
                </note>

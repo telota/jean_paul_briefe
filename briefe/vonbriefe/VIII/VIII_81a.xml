@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="82">81a. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, Juli 1820.</title>
+            <title n="print" type="letter" rend="81a">81a. An Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth, Juli 1820.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>60</num>
                </biblScope>
@@ -76,20 +76,35 @@
             </msDesc>
             <listPerson type="commentary">
                <person corresp="#JP-003587">
-                  <persName> Friedrich <name type="reg">Roth</name>
+                  <persName>Friedrich <name type="reg">Roth</name>
                   </persName>
                </person>
             </listPerson>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date cert="medium" notBefore="1820-07-01" notAfter="1820-07-31">Juli 1820</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VIII_81"/><ptr type="next" subtype="brief" target="VIII_66"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VIII_81"/><ptr type="next" subtype="brief" target="VIII_66"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VIII_46"/><ptr type="next" subtype="brief" target="VIII_97"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VIII_81"/>
+               <ptr type="next" subtype="anbrief" target="IV-VIII_49"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VIII_81"/>
+               <ptr type="next" subtype="brief" target="VIII_66"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VIII_46"/>
+               <ptr type="next" subtype="brief" target="VIII_97"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -117,9 +132,10 @@
                dir durch die Druckberge von<note corresp="#VIII_60-4">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009985">
-                        <author>Voß, Christian Daniel (1761-1821), Professor der Philosophie in
-                           Halle</author>
-                        <title>Die Zeiten (1805-1820)</title>
+                        <author>Voß, Christian Daniel (1761–1821) Professor der Philosophie in Halle
+                        (Werk, Hrsg.) </author>
+                        <title>Die Zeiten oder Archiv für die neueste Staatengeschichte und Politik
+                        (1805–1820)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -128,9 +144,9 @@
                gedruckt; über den von<note corresp="#VIII_60-6">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008815" ana="†">
-                        <author>Jacobi, Friedrich Heinrich (1743-1819), Philosoph und
-                           Schriftsteller</author>
-                        <title>Briefwechsel (1825-1827)</title>
+                        <author>Jacobi, Friedrich Heinrich (1743–1819)</author>
+                        <title>Friedrich Heinrich Jacobi's auserlesener Briefwechsel (1825 und
+                        1827)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -139,7 +155,7 @@
                <note corresp="#VIII_60-7">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010090" ana="†">
-                        <author>Wieland, Christoph Martin (1733-1813)</author>
+                        <author>Wieland, Christoph Martin (1733–1813)</author>
                         <title>Briefe</title>
                      </bibl>
                   </listBibl>
@@ -149,7 +165,7 @@
                      Göthe.<note corresp="#VIII_60-34">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001353">
-                           <persName> Johann Wolfgang von <name type="reg">Goethe</name>
+                           <persName>Johann Wolfgang von <name type="reg">Goethe</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -161,7 +177,7 @@
                <note corresp="#VIII_60-12">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002238">
-                        <persName> Christian Sigismund <name type="reg">Krause</name>
+                        <persName>Christian Sigismund <name type="reg">Krause</name>
                         </persName>
                      </person>
                   </listPerson>

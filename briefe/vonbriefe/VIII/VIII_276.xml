@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="280">276. An Heinrich Voß in Heidelberg. </title>
-            <title n="digital">Von Jean Paul an Heinrich Voß. Bayreuth, 22. März 1822.</title>
+            <title n="print" type="letter" rend="276">276. An Heinrich Voß in Heidelberg. </title>
+            <title n="digital">Von Jean Paul an Heinrich Voß. Bayreuth, 22. März 1822, Freitag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>164</num>
                   <num>165</num>
@@ -78,14 +78,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1822-03-22">22. März 1822</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-004520">Heinrich Voß</persName>
                <placeName key="JP-005819">Heidelberg</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VIII_265"/><ptr type="next" subtype="brief" target="VIII_264"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VIII_265"/><ptr type="next" subtype="brief" target="VIII_264"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VIII_236"/><ptr type="next" subtype="brief" target="VIII_313"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-VIII_AN_7"/>
+               <ptr type="next" subtype="brief" target="VIII_264"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VIII_265"/>
+               <ptr type="next" subtype="brief" target="VIII_264"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VIII_139"/>
+               <ptr type="next" subtype="brief" target="VIII_313"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -150,7 +165,7 @@
                möglich ist. — Meine <hi rendition="#aq">Odilie</hi> ist in Würzburg<note corresp="#VIII_164-22">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003491">
-                        <persName> Odilie Minna <name type="reg">Richter</name>
+                        <persName>Odilie <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -163,7 +178,7 @@
                <lb xml:id="VIII_164-22"/>im „orthopädischen“ Institut des trefflichen <hi rendition="#aq">Heine,</hi> wegen ihres Rück<note corresp="#VIII_164-23">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001608">
-                        <persName> Johann Georg <name type="reg">Heine</name>
+                        <persName>Johann Georg <name type="reg">Heine</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -181,16 +196,17 @@
                <note corresp="#VIII_164-26">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002709">
-                        <persName> Julie Henriette <name type="reg">Mayer</name>
+                        <persName>Henriette <name type="reg">Mayer</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010648">
-                        <title>Die unsichtbare Loge (1793) </title>
+                        <title>Die unsichtbare Loge (1793) (Mumien) </title>
                      </bibl>
                      <bibl corresp="#JP-010724">
-                        <title>Grönländische Prozesse, oder Satirische Skizzen (1783, 1822)</title>
+                        <title>Grönländische Prozesse, oder Satirische Skizzen (1783,
+                        1822)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -199,7 +215,7 @@
                der meine Mumien-Vorrede (gegen ihn)<note corresp="#VIII_164-28">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001789">
-                        <persName> Ernst Theodor Amadeus <name type="reg">Hoffmann</name>
+                        <persName>Ernst Theodor Amadeus <name type="reg">Hoffmann</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -213,8 +229,8 @@
                (vergeblich) zu einer Arbeittheilnahme zu bereden. —<note corresp="#VIII_164-30">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008752">
-                        <author>Hoffmann, Ernst Theodor Amadeus (1776-1822)</author>
-                        <title>Kater Murr (1820-1822)</title>
+                        <author>Hoffmann, Ernst Theodor Amadeus (1776–1822)</author>
+                        <title>Kater Murr (1820–1822)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -222,9 +238,8 @@
                als Künstler<note corresp="#VIII_164-31">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009443">
-                        <author>Pustkuchen, Johann Friedrich Wilhelm (1793-1834), Theologe und
-                           Schriftsteller</author>
-                        <title>Wilhelm Meisters Wanderjahre (1821-1822). S. auch Goethe.</title>
+                        <author>Pustkuchen, Johann Friedrich Wilhelm (1793–1834)</author>
+                        <title>Wilhelm Meisters Wanderjahre (1821–1822). S. auch Goethe.</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -232,7 +247,7 @@
                   Charaktere<note corresp="#VIII_164-32">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001353" ana="ff">
-                        <persName> Johann Wolfgang von <name type="reg">Goethe</name>
+                        <persName>Johann Wolfgang von <name type="reg">Goethe</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -240,7 +255,7 @@
                <lb xml:id="VIII_164-32"/>vieles Recht und trifft sehr mit <hi rendition="#aq">Herders</hi> Tischreden zusammen. Welch’<note corresp="#VIII_164-33">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001675">
-                        <persName> Johann Gottfried von <name type="reg">Herder</name>
+                        <persName>Johann Gottfried von <name type="reg">Herder</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -257,7 +272,7 @@
                Göthe’s heid<note corresp="#VIII_164-35">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003975" next="164-36">
-                        <persName> Walter <name type="reg">Scott</name>
+                        <persName>Sir Walter <name type="reg">Scott</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -267,8 +282,8 @@
                Einheit des Interesse, wiewol in Göthe’s Wander<note corresp="#VIII_165-2">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008546">
-                        <author>Goethe, Johann Wolfgang von (1749-1832)</author>
-                        <title>Wilhelm Meisters Wanderjahre (1821-1830)</title>
+                        <author>Goethe, Johann Wolfgang von (1749–1832)</author>
+                        <title>Wilhelm Meisters Wanderjahre (1821–1830)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -279,7 +294,7 @@
                theilen sich in die Titanische Natur, gegen welche mein „Titan“<note corresp="#VIII_165-6">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000562">
-                        <persName> George Noel Gordon, Lord <name type="reg">Byron</name>
+                        <persName>George Gordon Lord <name type="reg">Byron</name>
                         </persName>
                      </person>
                      <person corresp="#JP-004315">
@@ -298,7 +313,7 @@
                   Wohn<lb xml:id="VIII_165-7" rendition="#hyphen"/>ort der <hi rendition="#aq">Lux,</hi> die an mich Spitzen und Westenschnur bestimmt hat; und<note corresp="#VIII_165-8">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002713">
-                        <persName> Therese Apollonia <name type="reg">Mayer</name>
+                        <persName>Therese Apollonia <name type="reg">Mayer</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -307,7 +322,7 @@
                Vaters Werk<note corresp="#VIII_165-9">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010001">
-                        <author>Voß, Johann Heinrich (1751-1826), Dichter und Übersetzer</author>
+                        <author>Voß, Johann Heinrich (1751–1826), Dichter und Übersetzer</author>
                         <title>Voß gegen Perthes (1822)</title>
                      </bibl>
                   </listBibl>
@@ -317,11 +332,10 @@
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010313">
                         <author/>
-                        <title>Morgenblatt für gebildete Stände (1807ff.)</title>
+                        <title> Morgenblatt für gebildete Stände (1807 ff.)</title>
                      </bibl>
                      <bibl corresp="#JP-009373">
-                        <author>Perthes, Friedrich Christoph (1772-1843), Verlagsbuchhändler in
-                           Hamburg</author>
+                        <author>Perthes, Friedrich Christoph (1772–1843)</author>
                         <title>Zurechtweisung (1819)</title>
                      </bibl>
                   </listBibl>
@@ -329,7 +343,7 @@
                <lb n="10" xml:id="VIII_165-10"/>liebenden, mich so schön fortliebenden <hi rendition="#aq">Sophie Dapping</hi> meinen<note corresp="#VIII_165-11">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000752">
-                        <persName> Sophie <name type="reg">Dapping</name>
+                        <persName>Sophie <name type="reg">Dapping</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -339,11 +353,11 @@
                   <hi rendition="#aq">Emanuel</hi> durch das<note corresp="#VIII_165-13">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003087">
-                        <persName> Emanuel <name type="reg">Osmund</name>
+                        <persName>Emanuel <name type="reg">Osmund</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003469">
-                        <persName> Caroline <name type="reg">Richter</name>
+                        <persName>Caroline <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -353,11 +367,11 @@
                   Heil<note corresp="#VIII_165-15">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000684">
-                        <persName> Johann Wilhelm Heinrich <name type="reg">Conradi </name>
+                        <persName>Johann Wilhelm Heinrich <name type="reg">Conradi</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003490">
-                        <persName> Max <name type="reg">Richter</name>
+                        <persName>Max <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -366,7 +380,7 @@
                durch Depotenziieren getödtet —<note corresp="#VIII_165-16">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004585" ana="?">
-                        <persName> Johann Adam <name type="reg">Walther</name>
+                        <persName>Johann Adam <name type="reg">Walther</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -386,11 +400,11 @@
                Heinrich! — Grüße deine Eltern und<note corresp="#VIII_165-21">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004516">
-                        <persName> Ernestine <name type="reg">Voß</name>
+                        <persName>Ernestine <name type="reg">Voß</name>
                         </persName>
                      </person>
                      <person corresp="#JP-004524">
-                        <persName> Johann Heinrich <name type="reg">Voß</name>
+                        <persName>Johann Heinrich <name type="reg">Voß</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -411,11 +425,16 @@
                <hi rendition="#aq">
                   <hi rendition="#i">J</hi>
                   <hi rendition="#sup">1</hi>: Wahrheit 8,303×. <hi rendition="#i">J</hi>
-                  <hi rendition="#sup">2</hi>: Voß S. 137×. <hi rendition="#i">B</hi>: IV. Abt.,
-                  VIII, Nr. 139. <hi rendition="#i">A</hi>: IV. Abt., VIII, Nr.</hi>
+                  <hi rendition="#sup">2</hi>: Voß S. 137×. <hi rendition="#i">B</hi>: IV. Abt., 8, Nr. 139. <hi rendition="#i">A</hi>: IV. Abt., 8, Nr.</hi>
                <hi rendition="#aq">184.</hi>
                <lb/>
-               <hi rendition="#b"><hi rendition="#aq">164</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">6</hi></hi> mich] <hi rendition="#aq">danach gestr.</hi> dabei <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">164</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">6</hi>
+               </hi> mich] <hi rendition="#aq">danach gestr.</hi> dabei <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">10</hi> Andern] <hi rendition="#aq">aus</hi> An andern <hi rendition="#aq">
@@ -431,7 +450,13 @@
                <hi rendition="#rkd">25 </hi>geholt] <hi rendition="#aq">danach gestr.</hi> hatte <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">165</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">4</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">165</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">4</hi>
+               </hi>
                <lb/>Meister] Göthe <hi rendition="#aq">
                   <hi rendition="#i">K</hi>
                </hi>
@@ -450,7 +475,13 @@
             </p>
             <lb/>
             <p>
-               <hi rendition="#b"><hi rendition="#aq">164</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">31</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">164</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">31</hi>
+               </hi>
                <hi rendition="#aq">
                   <hi rendition="#g">Verf. der falschen Wanderjahre:</hi> Pustkuchen, vgl. <hi rendition="#b">196</hi>, <hi rendition="#rkd">2</hi>ff.<lb/>
                   <hi rendition="#rkd">35</hi> Über W. <hi rendition="#g">Scott</hi> hatte sich Voß

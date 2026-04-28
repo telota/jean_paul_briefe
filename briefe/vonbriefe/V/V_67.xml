@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="68">67. An Friedrich Heinrich Jacobi in Eutin. </title>
-            <title n="digital">Von Jean Paul an Friedrich Heinrich Jacobi. Bayreuth, 21. Februar 1805.</title>
+            <title n="print" type="letter" rend="67">67. An Friedrich Heinrich Jacobi in Eutin. </title>
+            <title n="digital">Von Jean Paul an Friedrich Heinrich Jacobi. Bayreuth, 21. Februar 1805, Donnerstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
+               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
                <biblScope n="text" unit="page">
                   <num>25</num>
                </biblScope>
@@ -77,14 +77,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1805-02-21">21. Februar 1805</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-001909">Friedrich Heinrich Jacobi</persName>
                <placeName key="JP-005729">Eutin</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="V_19-fb"/><ptr type="next" subtype="umfeldbrief" target="JP-UB1036"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="V_19-fb"/><ptr type="next" subtype="brief" target="V_68"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="IV_445"/><ptr type="next" subtype="brief" target="V_101"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-V_32"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB1036"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="V_19-fb"/>
+               <ptr type="next" subtype="brief" target="V_68"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-IV_332"/>
+               <ptr type="next" subtype="brief" target="V_101"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -106,8 +121,8 @@
             <lb xml:id="V_25-3"/>
             <p>Ists denn ganz wahr, Heinrich, daß du im März als Akademiker<note corresp="#V_25-4">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0055700" ana="†">
-                        <placeName>Bayerische Akademie der Wissenschaften; Bayern </placeName>
+                     <place corresp="#JP-011033" ana="†">
+                        <placeName>Bayerische Akademie der Wissenschaften</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -124,8 +139,8 @@
                dann entweder<lb xml:id="V_25-7"/> im Durchschneiden unseres fränkischen Kreises
                unterwegs besuchen,<note corresp="#V_25-8">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0057390">
-                        <placeName>Franken; Franken</placeName>
+                     <place corresp="#JP-005739">
+                        <placeName>Franken</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -141,11 +156,11 @@
                zusagen und dir auch! Und mein köstliches<note corresp="#V_25-16">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001906">
-                        <persName> Charlotte und Helene <name type="reg">Jacobi</name>
+                        <persName>Charlotte und Helene <name type="reg">Jacobi</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003469">
-                        <persName> Caroline <name type="reg">Richter</name>
+                        <persName>Caroline <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -154,8 +169,8 @@
                   ver<note corresp="#V_25-17">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003483">
-                        <persName> Johann Paul Friedrich <name type="reg">Richter</name>
-                        </persName>
+                        <persName>
+                           <name type="reg">Richter</name>, seine Kinder</persName>
                      </person>
                   </listPerson>
                </note>
@@ -181,7 +196,13 @@
                   <hi rendition="#sup">2</hi>: Jean Pauls sämmtl. Werke,<lb/> 2. Aufl., Bd. 29,
                   Berlin 1842, S.</hi>
                <hi rendition="#aq">329. </hi>
-               <hi rendition="#b"><hi rendition="#aq">25</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">6</hi></hi> vor] <hi rendition="#aq">aus</hi> mit <hi rendition="#aq">davor gestr.</hi> neb
+               <hi rendition="#b">
+                  <hi rendition="#aq">25</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">6</hi>
+               </hi> vor] <hi rendition="#aq">aus</hi> mit <hi rendition="#aq">davor gestr.</hi> neb
                   <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>

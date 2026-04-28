@@ -3,7 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title n="print" type="letter" rend="113">113. An Pfarrer Vogel in Rehau. </title>
-            <title n="digital">Von Jean Paul an Erhard Friedrich Vogel. Hof, 10. September 1785. </title>
+            <title n="digital">Von Jean Paul an Erhard Friedrich Vogel. Hof, 10. September 1785, Samstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="I">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
+               <title n="I">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
                <biblScope n="text" unit="page">
                   <num>171</num>
                   <num>172</num>
@@ -78,15 +78,30 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1785-09-10">10. September 1785</date>
                <placeName key="JP-005841">Hof</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-004474">Erhard Friedrich Vogel</persName>
                <placeName key="JP-006182">Rehau,
                   Oberfranken</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="I_112"/><ptr type="next" subtype="brief" target="I_114"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="I_112"/><ptr type="next" subtype="brief" target="I_114"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="I_109"/><ptr type="next" subtype="brief" target="I_122"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="I_112"/>
+               <ptr type="next" subtype="anbrief" target="IV-I_44"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="I_112"/>
+               <ptr type="next" subtype="brief" target="I_114"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-I_43"/>
+               <ptr type="next" subtype="anbrief" target="IV-I_44"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -106,8 +121,8 @@
                      <place corresp="#JP-005715">
                         <placeName>England, englisch, Britannien</placeName>
                      </place>
-                     <place corresp="#JP-0062681" ana="†">
-                        <placeName>Gasthof Birke; Schwarzenbach a. d. Saale</placeName>
+                     <place corresp="#JP-011666" ana="†">
+                        <placeName>Gasthof Birke</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -116,20 +131,22 @@
                noch nicht zugeheilet, so biet’ ich Ihnen meine <note corresp="#I_172-2">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008021" ana="†">
-                        <author>Alessandri, Alessandro (Pseud. Alexander ab Alexandro) (um
-                           1461-1523), neapolitanischer Jurist</author>
-                        <title>Genialium dierum libri VI (1522)</title>
+                        <author>Alessandri, Alessandro (um 1461–1523)</author>
+                        <title>Genialium dierum libri VI, varia ac recondita eruditione referti (Rom
+                        1522)</title>
                      </bibl>
                   </listBibl>
                </note>
                <lb xml:id="I_172-2"/>Hausapotheke an, wiewol es besser wäre, wenn Sie lieber freudig
                in <lb xml:id="I_172-3"/>den Teich zu Bethesda sprängen.<note corresp="#I_172-4">
-               <listPlace type="lineReference">
-                  <place corresp="#JP-005589" ana="†">
-                     <placeName>Bethesda, Teich </placeName>
-                  </place>
-               </listPlace>
-            </note><lb xml:id="I_172-4"/></p>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005589" ana="†">
+                        <placeName>Bethesda, Teich </placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="I_172-4"/>
+            </p>
             <p>Um ein gutes Buch zu machen, mus ein guter Autor da sein; aber <lb n="5" xml:id="I_172-5"/> es nur zu bessern, dazu gehöret blos ein mittelmässiger — Eier
                   <hi rendition="#g">legen</hi>
                <lb xml:id="I_172-6"/>kan nur eine <hi rendition="#g">Henne,</hi> aber sie <hi rendition="#g">ausbrüten</hi> und reif machen, das kan <lb xml:id="I_172-7"/>auch
@@ -140,9 +157,9 @@
                Brütofen für Ihre Raffinerien zu Diensten. <note corresp="#I_172-11">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009962">
-                        <author>Vogel, Erhard Friedrich (1750-1823), Theologe, Pfarrer in Rehau und
-                           Arzberg, später Superintendent (ab 1810 Dekan) in Wunsiedel</author>
-                        <title>Raffinerien (1785-1786)</title>
+                        <author>Vogel, Erhard Friedrich (1750–1823), Theologe, Pfarrer in Rehau und
+                        Arzberg, später Superintendent (ab 1810 Dekan) in Wunsiedel</author>
+                        <title>Raffinerien (1785–1786)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -169,7 +186,7 @@
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010377">
                         <author/>
-                        <title>Vergleichung des Menschen mit den Tieren (1767)</title>
+                        <title>Vergleichung des Menschen mit den Tieren (1767) </title>
                      </bibl>
                   </listBibl>
                </note>
@@ -178,9 +195,8 @@
                   <note corresp="#I_172-20">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-008563" ana="†">
-                           <author>Gracián (Grazian) y Morales, Baltasar (1601-1658),
-                              Jesuit</author>
-                           <title>L’homme de cour (1684)</title>
+                           <author>Gracián y Morales, Baltasar (1601–1658)</author>
+                           <title>L'homme de cour (1684)</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -196,29 +212,29 @@
                <note corresp="#I_172-22">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009080" ana="†">
-                        <author>LeClerc (Le Clerc, Clericus), Jean (1657-1736), Theologe und
-                           Philologe</author>
-                        <title>Bibliothèque choisie (1703-1713)</title>
+                        <author>LeClerc, Jean (1657–1736)</author>
+                        <title>Bibliothèque choisie (1703–1713)</title>
                      </bibl>
                   </listBibl>
                </note>
                <lb xml:id="I_172-22"/>
                <item>Nikolai’s Reisen. Fünfter Band.</item>
-            <note corresp="#I_172-23">
-               <listBibl type="lineReference" subtype="werke">
-                  <bibl corresp="#JP-009286">
-                     <author>Nicolai (Nikolai), Christoph Friedrich (1733-1811), Schriftsteller und
-                        Verleger</author>
-                     <title>Beschreibung einer Reise durch Deutschland und die Schweiz
-                        (1783-1796)</title>
-                  </bibl>
-               </listBibl>
-            </note><lb xml:id="I_172-23"/></list>
+               <note corresp="#I_172-23">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009286">
+                        <author>Nicolai, Christoph Friedrich (1733–1811)</author>
+                        <title>Beschreibung einer Reise durch Deutschland und die Schweiz im Jahre 1781
+                        (12 Bde., Berlin und Stettin: Nicolai 1783–1796)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_172-23"/>
+            </list>
             <p>Ich sage nicht mit Zizero <hi rendition="#aq">cura ut valeas:</hi> sondern <hi rendition="#aq">vale ut cures.</hi>
                <note corresp="#I_172-24">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000641">
-                        <persName> Marcus Tullius <name type="reg">Cicero </name>
+                        <persName>Marcus Tullius <name type="reg">Cicero</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -250,14 +266,25 @@
                   Nr. 97 und <lb/>Kopie von Vogels Antwort von dessen Hand. <hi rendition="#i">K</hi>:</hi> H. Pf[arrer] Vogel. <lb/>Sept. 10. <hi rendition="#aq">
                   <hi rendition="#i">J</hi>
                   <hi rendition="#sup">1</hi>: Wahrheit 3,338×. <hi rendition="#i">J</hi>
-                  <hi rendition="#sup">2</hi>: Nachlaß 3,255. <hi rendition="#i">A</hi>: IV. Abt.,
-                  I, Nr.</hi>
+                  <hi rendition="#sup">2</hi>: Nachlaß 3,255. <hi rendition="#i">A</hi>: IV. Abt., 1, Nr.</hi>
                <hi rendition="#aq">44. </hi>
-               <hi rendition="#b"><hi rendition="#aq">172</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">11</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">172</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">11</hi>
+               </hi>
                <lb/>ihnen</p>
             <lb/>
             <p>
-               <hi rendition="#b"><hi rendition="#aq">171</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">32</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">171</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">32</hi>
+               </hi>
                <hi rendition="#aq">Das <hi rendition="#g">Hahnengefecht</hi> scheint nach <hi rendition="#i">A</hi> auf der „Birke“ bei <lb/>Schwarzenbach (s. Nr. 378†)
                   stattgefunden zu haben; vgl. <hi rendition="#b">173</hi>, <hi rendition="#rkd">27</hi>f. <hi rendition="#b">172</hi>, <hi rendition="#rkd">4</hi>
                   <lb/>Der <hi rendition="#g">Teich Bethesda</hi> bei Jerusalem hatte nach Joh.
@@ -269,7 +296,13 @@
                   <lb/>(Alessandri, ca. 1461—1523), „Genialium dierum libri VI“ (1522). <hi rendition="#rkd">22</hi> „La <lb/>Bibliothèque choisie de Jean <hi rendition="#g">Le Clerc</hi>“, 28 vol., Amsterdam 1703—13; <lb/>Exzerpte daraus
                   im 9. Band von 1785. <hi rendition="#rkd">23</hi> Friedr. <hi rendition="#g">Nicolai,</hi> „Beschreibung <lb/>einer Reise durch Deutschland und die Schweiz
                   im Jahre 1781“, 12 Bände, <lb/>Berlin u. Stettin 1783—96. (5. Band 1785.) <hi rendition="#rkd">24</hi> Vgl.</hi>
-               <hi rendition="#b"><hi rendition="#aq">137</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">15</hi></hi>.</p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">137</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">15</hi>
+               </hi>.</p>
          </div>
       </body>
    </text>

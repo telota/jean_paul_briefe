@@ -2,9 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="434">433. An Friedrich Schlichtegroll in München. </title>
-            <title n="digital">Von Jean Paul an Adolf Heinrich Friedrich (ab 1808) von Schlichtegroll. Bayreuth,
-               29. November 1807.</title>
+            <title n="print" type="letter" rend="433">433. An Friedrich Schlichtegroll in München. </title>
+            <title n="digital">Von Jean Paul an Friedrich Schlichtegroll. Bayreuth, 29. November 1807, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -46,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -61,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
+               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
                <biblScope n="text" unit="page">
                   <num>180</num>
                   <num>181</num>
@@ -80,14 +79,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1807-11-29">29. November 1807</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-003771">Adolf Heinrich Friedrich (ab 1808) von Schlichtegroll</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-003771">Friedrich Schlichtegroll</persName>
                <placeName key="JP-006040">München</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB1784"/><ptr type="next" subtype="brief" target="V_434"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="V_432"/><ptr type="next" subtype="brief" target="V_434"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="V_396"/><ptr type="next" subtype="brief" target="VI_161"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB1784"/>
+               <ptr type="next" subtype="brief" target="V_434"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="V_432"/>
+               <ptr type="next" subtype="brief" target="V_434"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-V_143"/>
+               <ptr type="next" subtype="anbrief" target="IV-V_150"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -114,7 +128,7 @@
                eben zu diesem bitt’ ich dich, zu<note corresp="#V_180-24">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003725" ana="ff†">
-                        <persName> Joseph <name type="reg">Scherer</name>
+                        <persName>Joseph <name type="reg">Scherer</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -155,7 +169,7 @@
                   köstlichen<note corresp="#V_181-13">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001909">
-                        <persName> Friedrich Heinrich <name type="reg">Jacobi</name>
+                        <persName>Friedrich Heinrich <name type="reg">Jacobi</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -163,8 +177,8 @@
                <lb xml:id="V_181-13"/> Frühlings- und Erstlings-Früchte der Akademie nur danken,
                   ohne<lb xml:id="V_181-14"/> sie hier bestimmter zu loben.<note corresp="#V_181-15">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0055700">
-                        <placeName>Bayerische Akademie der Wissenschaften; Bayern </placeName>
+                     <place corresp="#JP-011033">
+                        <placeName>Bayerische Akademie der Wissenschaften</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -185,7 +199,7 @@
             <note corresp="#V_181-20">
                <listPerson type="lineReference">
                   <person corresp="#JP-001917" ana="†">
-                     <persName> Friedrich <name type="reg">Jacobs</name>
+                     <persName>Friedrich <name type="reg">Jacobs</name>
                      </persName>
                   </person>
                </listPerson>
@@ -197,7 +211,13 @@
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Goethe- u. Schiller-Archiv, Weimar. 4 S. 8°. <hi rendition="#i">K</hi> (nach Nr. 436, von<lb/> Karolinens Hand; nur der
                   Satz</hi>
-               <hi rendition="#b"><hi rendition="#aq">181</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">10</hi></hi> desto <hi rendition="#aq">bis</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">181</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">10</hi>
+               </hi> desto <hi rendition="#aq">bis</hi>
                <hi rendition="#rkd">12</hi> beehren. <hi rendition="#aq">eigenh. eingefügt):</hi>
                <lb/> An <hi rendition="#aq">
                   <hi rendition="#i">Schlichtegroll Münch.</hi>
@@ -207,12 +227,18 @@
                   <hi rendition="#sup">2</hi>: Nerr<lb rendition="#hyphen"/>lich Nr. 108,
                   fälschlich unter die Briefe an Otto aufgenommen, s. Euphorion</hi>
                <lb/>
-               <hi rendition="#aq">XV (1908), S. 570. <hi rendition="#i">B</hi>: IV. Abt., V, Nr.
-                  143. <hi rendition="#i">A</hi>: IV. Abt., V, Nr. 150. <hi rendition="#b">180</hi>, <hi rendition="#rkd">34</hi>f.</hi> wenn entweder]<lb/>
+               <hi rendition="#aq">XV (1908), S. 570. <hi rendition="#i">B</hi>: IV. Abt., 5, Nr.
+                  143. <hi rendition="#i">A</hi>: IV. Abt., 5, Nr. 150. <hi rendition="#b">180</hi>, <hi rendition="#rkd">34</hi>f.</hi> wenn entweder]<lb/>
                <hi rendition="#aq">aus</hi> wäre <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">181</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">8</hi></hi> viele] <hi rendition="#aq">aus</hi> andere thun <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">181</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">8</hi>
+               </hi> viele] <hi rendition="#aq">aus</hi> andere thun <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">15</hi> bestimmter] <hi rendition="#aq">davor gestr.</hi>

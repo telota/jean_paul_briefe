@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="440">439. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, 13. Januar 1811.</title>
+            <title n="print" type="letter" rend="439">439. An Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth, 13. Januar 1811, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,16 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>174</num><num>175</num></biblScope><biblScope n="comment" unit="page"><num>500</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>174</num>
+                  <num>175</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>500</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +78,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1811-01-13">13. Januar 1811</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0944"/><ptr type="next" subtype="brief" target="VI_440"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_438"/><ptr type="next" subtype="brief" target="VI_440"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_437"/><ptr type="next" subtype="brief" target="VI_445"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_137"/>
+               <ptr type="next" subtype="brief" target="VI_440"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_438"/>
+               <ptr type="next" subtype="brief" target="VI_440"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_437"/>
+               <ptr type="next" subtype="brief" target="VI_445"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -92,7 +116,7 @@
             <p>Guten Morgen, Alter! Hier mein Aufsätzchen für Primas.<note corresp="#VI_174-3">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000742" ana="†">
-                        <persName> Karl Theodor Reichsfreiherr von <name type="reg">Dalberg</name>
+                        <persName>Carl Theodor von <name type="reg">Dalberg</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -108,7 +132,7 @@
                      <listPerson type="lineReference">
                         <person corresp="#JP-003647">
                            <persName>
-                              <name type="reg">Salomo(n)</name>
+                              <name type="reg">Salomo</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -116,19 +140,20 @@
                   <lb xml:id="VI_174-36"/> 40 Jahr regierte, brauch’ ich wol nicht in der Note zu
                      sagen?<lb xml:id="VI_174-37"/>
                </note>.<note corresp="#VI_174-4">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-002455">
-                     <persName> Ernst Christian Wilhelm <name type="reg">Liebmann</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="VI_174-4"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002455">
+                        <persName>Ernst Christian Wilhelm <name type="reg">Liebmann</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_174-4"/>
+            </p>
             <p>Von Cölestin hat mir bei weitem der <hi rendition="#g">erste</hi> Theil mehr
                   gefallen<note corresp="#VI_174-5">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009328">
-                        <author>Otto, Christian (Georg Christian) (Pseud. Georgius, Christianus)
-                           (1763-1828), Jurist, einer der engsten Freunde von Jean Paul</author>
+                        <author>Otto, Christian (Pseud. Georgius, Christianus, 1763–1828)</author>
                         <title>D. Cölestini güldne Seelen-Apotheke</title>
                      </bibl>
                   </listBibl>
@@ -177,7 +202,7 @@
                   vorige<note corresp="#VI_174-34">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003087">
-                        <persName> Emanuel <name type="reg">Osmund</name>
+                        <persName>Emanuel <name type="reg">Osmund</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -196,7 +221,19 @@
                   Jan.</hi>
                <hi rendition="#aq">1811.</hi>
                <lb/>
-               <hi rendition="#b"><hi rendition="#aq">174</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">15</hi></hi> Traums] <hi rendition="#aq">aus</hi> Luftgespinstes <hi rendition="#rkd">27</hi> unsittlich] <hi rendition="#aq">aus</hi> Sünde <hi rendition="#b"><hi rendition="#aq">175</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">4</hi></hi> weniger]<lb/>
+               <hi rendition="#b">
+                  <hi rendition="#aq">174</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">15</hi>
+               </hi> Traums] <hi rendition="#aq">aus</hi> Luftgespinstes <hi rendition="#rkd">27</hi> unsittlich] <hi rendition="#aq">aus</hi> Sünde <hi rendition="#b">
+                  <hi rendition="#aq">175</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">4</hi>
+               </hi> weniger]<lb/>
                <hi rendition="#aq">aus</hi> nicht</p>
             <lb/>
             <p>

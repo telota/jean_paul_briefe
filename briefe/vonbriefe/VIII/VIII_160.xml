@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="162">160. An Emanuel. </title>
-            <title n="digital">Von Jean Paul an Emanuel Osmund. Bayreuth, 21. März 1821.</title>
+            <title n="print" type="letter" rend="160">160. An Emanuel. </title>
+            <title n="digital">Von Jean Paul an Emanuel Osmund. Bayreuth, 21. März 1821, Mittwoch.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>105</num>
                   <num>106</num>
@@ -78,13 +78,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1821-03-21">21. März 1821</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003087">Emanuel Osmund</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VIII_159"/><ptr type="next" subtype="brief" target="VIII_161"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VIII_159"/><ptr type="next" subtype="brief" target="VIII_161"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VIII_155"/><ptr type="next" subtype="brief" target="VIII_161"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VIII_159"/>
+               <ptr type="next" subtype="brief" target="VIII_161"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VIII_159"/>
+               <ptr type="next" subtype="brief" target="VIII_161"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-IX_2.71"/>
+               <ptr type="next" subtype="brief" target="VIII_161"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -102,7 +117,7 @@
                einmal, wenn sie meine Blätter<lb xml:id="VIII_105-32"/>vom 21<hi rendition="#sup">ten</hi> Märze lesen, fühlen und sagen: „wie gut war unser Vater<note corresp="#VIII_105-33">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003090">
-                        <persName> Emanuel <name type="reg">Osmund</name>
+                        <persName>Emanuel <name type="reg">Osmund</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -115,19 +130,21 @@
                   und<note corresp="#VIII_106-5">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003092">
-                        <persName> Flora <name type="reg">Osmund</name>
+                        <persName>Flora Blümle <name type="reg">Osmund</name>
                         </persName>
                      </person>
                   </listPerson>
                </note>
                <lb n="5" xml:id="VIII_106-5"/>Kinder, an das Liebende um Sie her! Ihr<note corresp="#VIII_106-6">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-003090">
-                     <persName> Emanuel <name type="reg">Osmund</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="VIII_106-6"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003090">
+                        <persName>Emanuel <name type="reg">Osmund</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_106-6"/>
+            </p>
             <closer>
                <salute>
                   <hi rendition="#right">alter<lb xml:id="VIII_106-7"/>Richter</hi>

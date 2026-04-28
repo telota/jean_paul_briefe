@@ -3,8 +3,8 @@
       <fileDesc>
          <titleStmt>
             <title n="print" type="letter" rend="262">262. An Cotta. </title>
-            <title n="digital">Von Jean Paul an Johann Friedrich Freiherr Cotta von Cottendorf. Bayreuth, 7. März
-               1817.</title>
+            <title n="digital">Von Jean Paul an Johann Friedrich Cotta. Bayreuth, 7. März 1817,
+               Freitag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -46,7 +46,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -61,8 +62,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
+               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
                <biblScope n="text" unit="page">
                   <num>103</num>
                   <num>104</num>
@@ -80,13 +80,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1817-03-07">7. März 1817</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-000698">Johann Friedrich Freiherr Cotta von Cottendorf</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VII_261"/><ptr type="next" subtype="umfeldbrief" target="JP-UB1334"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VII_261"/><ptr type="next" subtype="brief" target="VII_263"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VII_13-fb"/><ptr type="next" subtype="brief" target="VII_268"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000698">Johann Friedrich von Cotta</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VII_261"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB1334"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VII_261"/>
+               <ptr type="next" subtype="brief" target="VII_263"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VII_EB_25"/>
+               <ptr type="next" subtype="anbrief" target="IV-VII_EB_26"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -139,7 +154,7 @@
                   <hi rendition="#aq">Wan<note corresp="#VII_103-24">
                      <listPerson type="lineReference">
                         <person corresp="#JP-004599">
-                           <persName> Karl August Freiherr von <name type="reg">Wangenheim</name>
+                           <persName>Karl August Freiherr von <name type="reg">Wangenheim</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -149,7 +164,7 @@
             <p>Eine <hi rendition="#aq">Schütz</hi> in <hi rendition="#aq">Jena,</hi> in <hi rendition="#aq">Lydie</hi> sich übersetzend, hat mir im<note corresp="#VII_103-26">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003896">
-                        <persName> Charlotte (Pseud. Lydie) <name type="reg">Schütz</name>
+                        <persName>Charlotte <name type="reg">Schütz</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -157,8 +172,8 @@
                      <place corresp="#JP-005875">
                         <placeName>Jena</placeName>
                      </place>
-                     <place corresp="#JP-00587511">
-                        <placeName>Reichardtscher Garten, Gartenhaus; Jena</placeName>
+                     <place corresp="#JP-011458">
+                        <placeName>Reichardtscher Garten, Gartenhaus</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -178,7 +193,7 @@
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010313">
                         <author/>
-                        <title>Morgenblatt für gebildete Stände (1807ff.)</title>
+                        <title> Morgenblatt für gebildete Stände (1807 ff.)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -206,14 +221,13 @@
                      <listPerson type="lineReference">
                         <person corresp="#JP-004725" ana="†">
                            <persName>
-                              <name type="reg">Wilhelm I.</name>
+                              <name type="reg">Wilhelm I., König von Württemberg</name>
                            </persName>
                         </person>
                      </listPerson>
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-009531" ana="†">
-                           <author>Rückert, Friedrich (Pseud. Freimund Raimar) (1788-1866), Dichter
-                              und Übersetzer</author>
+                           <author>Rückert, Friedrich (1788–1866)</author>
                            <title>Beim Einzug des Königs (1817)</title>
                         </bibl>
                      </listBibl>
@@ -235,7 +249,13 @@
                <hi rendition="#aq">
                   <hi rendition="#i">J</hi>: Cotta</hi>
                <hi rendition="#aq">2, 509×. </hi>
-               <hi rendition="#b"><hi rendition="#aq">103</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">17</hi></hi> durch Ein <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">103</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">17</hi>
+               </hi> durch Ein <hi rendition="#aq">
                   <hi rendition="#i">Und</hi>] nachtr. aus</hi> mit Einem und <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>

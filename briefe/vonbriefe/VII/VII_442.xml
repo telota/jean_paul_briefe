@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="446">442. An Frau Koch in Heidelberg. </title>
+            <title n="print" type="letter" rend="442">442. An Frau Koch in Heidelberg. </title>
             <title n="digital">Von Jean Paul an Elisabeth Koch. Bayreuth, Mitte Juli 1818.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
+               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
                <biblScope n="text" unit="page">
                   <num>220</num>
                </biblScope>
@@ -78,14 +78,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date notBefore="1818-07-11" notAfter="1818-07-20">Mitte Juli 1818</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-002160">Elisabeth Koch</persName>
                <placeName key="JP-005819">Heidelberg</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VII_438"/><ptr type="next" subtype="brief" target="VII_439"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VII_438"/><ptr type="next" subtype="brief" target="VII_439"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VII_438"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB1352"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VII_438"/>
+               <ptr type="next" subtype="brief" target="VII_439"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="next" subtype="anbrief" target="IV-VII_146"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -110,15 +124,17 @@
                <listBibl type="lineReference" subtype="werke-jp">
                   <bibl corresp="#JP-010540">
                      <title>Blumen- Frucht- und Dornenstükke (Blumen-, Frucht- und Dornenstücke)
-                        (Siebenkäs) (1796-97 [1796])</title>
+                        (Siebenkäs) oder Ehestand, Tod und Hochzeit des Armenadvokaten F. St.
+                        Siebenkäs im Reichsmarktflecken Kuhschnappel (Berlin, Matzdorff 1796-97
+                        [1796])</title>
                   </bibl>
                </listBibl>
             </note>
             <lb xml:id="VII_220-24"/>
             <p>Der Verf. gibt dieses Buch der Frau Koch, Besitzerin des Gasthofs<note corresp="#VII_220-25">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0058197">
-                        <placeName>Gasthof Zum Carlsberg; Heidelberg</placeName>
+                     <place corresp="#JP-011386">
+                        <placeName>Gasthof Zum Carlsberg</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -131,9 +147,15 @@
             <p>
                <hi rendition="#aq">
                   <hi rendition="#i">K</hi> (Konzept) ohne Überschrift. <hi rendition="#i">A</hi>:
-                  IV. Abt., VII, Nr.</hi>
+                  IV. Abt., 7, Nr.</hi>
                <hi rendition="#aq">146. </hi>
-               <hi rendition="#b"><hi rendition="#aq">220</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">25</hi></hi> Besitzerin] <hi rendition="#aq">aus</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">220</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">25</hi>
+               </hi> Besitzerin] <hi rendition="#aq">aus</hi>
                <lb/> Inhaberin <hi rendition="#rkd">26</hi> sich so daran erinnere] <hi rendition="#aq">aus</hi> es so wenig als er selber ver<lb rendition="#hyphen"/>
                gesse, wie Wolwollen] <hi rendition="#aq">aus</hi> Liebe</p>
             <lb/>

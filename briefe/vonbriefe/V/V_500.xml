@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="501">500. An Vieweg. </title>
-            <title n="digital">Von Jean Paul an Johann Friedrich Vieweg. Bayreuth, 15. März 1808.</title>
+            <title n="print" type="letter" rend="500">500. An Vieweg. </title>
+            <title n="digital">Von Jean Paul an Friedrich Vieweg. Bayreuth, 15. März 1808, Dienstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
+               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
                <biblScope n="text" unit="page">
                   <num>204</num>
                   <num>205</num>
@@ -79,13 +79,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1808-03-15">15. März 1808</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-004431">Johann Friedrich Vieweg</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="V_499"/><ptr type="next" subtype="brief" target="V_61-fb"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="V_499"/><ptr type="next" subtype="brief" target="V_61-fb"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="V_494"/><ptr type="next" subtype="brief" target="V_504"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-004431">Friedrich Vieweg</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="V_499"/>
+               <ptr type="next" subtype="brief" target="V_61-fb"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="V_499"/>
+               <ptr type="next" subtype="brief" target="V_61-fb"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-V_166"/>
+               <ptr type="next" subtype="brief" target="V_504"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -113,7 +128,8 @@
                welche anderer Unter<note corresp="#V_204-28">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002843">
-                        <persName> Buchhandlung <name type="reg">Mohr &amp; Zimmer</name>
+                        <persName>
+                           <name type="reg">Mohr &amp; Zimmer (Buchhandlung)</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -127,7 +143,8 @@
                gehört. Ihre nächste<note corresp="#V_204-33">
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010713">
-                        <title>Friedens-Predigt an Deutschland (1808)</title>
+                        <title>Friedens-Predigt an Deutschland (Heidelberg: Mohr und Zimmer
+                        1808)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -146,19 +163,18 @@
                </note>
                <lb xml:id="V_205-4"/> Sachsen und Franken gewöhnlichen <hi rendition="#g">Abcbuchs</hi> gearbeitet, von dem<note corresp="#V_205-5">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0057390">
-                        <placeName>Franken; Franken</placeName>
+                     <place corresp="#JP-005739">
+                        <placeName>Franken</placeName>
                      </place>
-                     <place corresp="#JP-006224">
-                        <placeName>Sachsen, Kursachsen, sächsisch</placeName>
+                     <place corresp="#JP-006223">
+                        <placeName>Sachsen, Kursachsen, sächsisch </placeName>
                      </place>
                   </listPlace>
                </note>
                <lb n="5" xml:id="V_205-5"/> ich nicht einmal weiß, wie er hieß. Auch <hi rendition="#aq">Meusel</hi> wußt’ es nicht. Ich<note corresp="#V_205-6">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009191">
-                        <author>Meusel, Johann Georg (1743-1820), Professor in Erlangen,
-                           Lexikograph</author>
+                        <author>Meusel, Johann Georg (1743–1820)</author>
                         <title>Das gelehrte Teutschland (Deutschland)</title>
                      </bibl>
                   </listBibl>
@@ -169,7 +185,7 @@
                auf die Kantischen und<note corresp="#V_205-9">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002024">
-                        <persName> Immanuel <name type="reg">Kant</name>
+                        <persName>Immanuel <name type="reg">Kant</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -194,8 +210,8 @@
                         <title>Leben des Quintus Fixlein (1796 [1795])</title>
                      </bibl>
                      <bibl corresp="#JP-010806">
-                        <title>Leben des vergnügten Schulmeisterleins Maria Wuz (Schulmeisterlein
-                           Maria Wutz) (1793)</title>
+                        <title>Leben des vergnügten Schulmeisterleins Maria Wuz
+                        (Schulmeisterlein Maria Wutz) (1793)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -216,7 +232,7 @@
                bedingt sich leicht. — Unser<lb xml:id="V_205-17"/> verehrter <hi rendition="#aq">Kampe</hi> weiß vielleicht den Namen des Verfassers, wiewol<note corresp="#V_205-18">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000574">
-                        <persName> Joachim Heinrich <name type="reg">Campe</name>
+                        <persName>Joachim Heinrich <name type="reg">Campe</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -242,10 +258,16 @@
                   liefern. <hi rendition="#i">K</hi>: <hi rendition="#i">Vieweg</hi>
                </hi>
                <lb/> 15 März. <hi rendition="#aq">Darunter steht: <hi rendition="#i">Seine Antwort
-                     kam den 1 April an. A</hi>: IV. Abt., V, Nr.</hi>
+                     kam den 1 April an. A</hi>: IV. Abt., 5, Nr.</hi>
                <hi rendition="#aq">172.</hi>
                <lb/>
-               <hi rendition="#b"><hi rendition="#aq">204</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">29</hi></hi> anfangs] <hi rendition="#aq">davor</hi> sich <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">204</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">29</hi>
+               </hi> anfangs] <hi rendition="#aq">davor</hi> sich <hi rendition="#aq">
                   <hi rendition="#i">H K</hi>
                </hi>
                <hi rendition="#rkd">30</hi> von selber] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
@@ -259,7 +281,13 @@
                <lb/> problematisch <hi rendition="#aq">
                   <hi rendition="#i">H K</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">205</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">6</hi></hi> wußt’] <hi rendition="#aq">aus</hi> weiß <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">205</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">6</hi>
+               </hi> wußt’] <hi rendition="#aq">aus</hi> weiß <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">16</hi> geb’ ichs] <hi rendition="#aq">aus</hi> kann ichs<lb/>
@@ -270,7 +298,7 @@
             <lb/>
             <p>
                <hi rendition="#aq">Vieweg, der sich inzwischen schon zur Annahme der Vermischten
-                  Schriften<lb/> bereit erklärt hatte (an J. P. IV. Abt., V, Nr. 166), erklärte sich
+                  Schriften<lb/> bereit erklärt hatte (an J. P. IV. Abt., 5, Nr. 166), erklärte sich
                   nunmehr auch zur<lb/> Übernahme des Fibel unter den vorgeschlagenen Bedingungen
                   bereit.</hi>
                <lb/>

@@ -3,7 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title n="print" type="letter" rend="47">47. An Oerthel in Leipzig. </title>
-            <title n="digital">Von Jean Paul an Johann Adam Lorenz von Oerthel. Hof, 17. Juni 1783. </title>
+            <title n="digital">Von Jean Paul an Adam Lorenz von Oerthel. Hof, 17. Juni 1783, Dienstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="I">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
+               <title n="I">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
                <biblScope n="text" unit="page">
                   <num>74</num>
                   <num>75</num>
@@ -90,14 +90,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1783-06-17">17. Juni 1783</date>
                <placeName key="JP-005841">Hof</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-003050">Johann Adam Lorenz von Oerthel</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-003050">Adam Lorenz von Oerthel</persName>
                <placeName key="JP-005948">Leipzig</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="I_46"/><ptr type="next" subtype="brief" target="I_48"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="I_46"/><ptr type="next" subtype="brief" target="I_48"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="I_44"/><ptr type="next" subtype="brief" target="I_51"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-I_15"/>
+               <ptr type="next" subtype="anbrief" target="IV-I_16"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="I_46"/>
+               <ptr type="next" subtype="brief" target="I_48"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-I_14"/>
+               <ptr type="next" subtype="anbrief" target="IV-I_16"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -120,7 +135,7 @@
                   <note corresp="#I_74-29">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009097" ana="†">
-                        <author>Lessing, Gotthold Ephraim (1729-1781)</author>
+                        <author>Lessing, Gotthold Ephraim (1729–1781)</author>
                         <title>Minna von Barnhelm (1767)</title>
                      </bibl>
                   </listBibl>
@@ -141,7 +156,7 @@
                felet. „Freiheit im Denken“, schrieb ich einmal dem Doppel<note corresp="#I_75-10">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000850">
-                        <persName> Johann Georg Gottfried <name type="reg">Doppelmaier</name>
+                        <persName>Georg <name type="reg">Doppelmaier</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -153,7 +168,7 @@
                Ram oder leipziger <note corresp="#I_75-14">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005841">
-                        <placeName>Hof im Vogtland</placeName>
+                        <placeName>Hof</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -163,11 +178,12 @@
                   mit weniger Anstrengung des <note corresp="#I_75-34">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001162">
-                           <persName> Elie Catherine <name type="reg">Fréron</name>
+                           <persName>Elie Catherine <name type="reg">Fréron</name>
                            </persName>
                         </person>
                         <person corresp="#JP-004505">
-                           <persName> (François Marie Arouet) <name type="reg">Voltaire</name>
+                           <persName>
+                              <name type="reg">Voltaire</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -183,14 +199,14 @@
                Bücherschreiben ver<note corresp="#I_75-22">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003387" ana="†">
-                        <persName> Carl Christoph <name type="reg">Reiche</name>
+                        <persName>Carl Christoph <name type="reg">Reiche</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0056660" ana="†">
-                        <placeName>Buchhandlung der Gelehrten (Gelehrtenbuchhandlung); Dessau und
-                           Leipzig</placeName>
+                     <place corresp="#JP-011165" ana="†">
+                        <placeName>Buchhandlung der Gelehrten
+                        (Gelehrtenbuchhandlung)</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -199,7 +215,7 @@
                sagt mit Recht, aber freilich <note corresp="#I_75-24">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003602">
-                        <persName> Jean-Jacques <name type="reg">Rousseau</name>
+                        <persName>Jean-Jacques <name type="reg">Rousseau</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -209,7 +225,7 @@
                sagt Garve, die nicht für das Publikum <note corresp="#I_75-26">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001257">
-                        <persName> Christian <name type="reg">Garve</name>
+                        <persName>Christian <name type="reg">Garve</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -218,7 +234,7 @@
                Voltairensgefallen mir <note corresp="#I_75-27">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009974">
-                        <author>Voltaire (d.i. François Marie Arouet) (1694-1778)</author>
+                        <author>Voltaire (d.i. François Marie Arouet) (1694–1778)</author>
                         <title>Briefe</title>
                      </bibl>
                   </listBibl>
@@ -227,11 +243,11 @@
                Briefe <note corresp="#I_75-28">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001279" rend="Briefe">
-                        <persName> Christian Fürchtegott <name type="reg">Gellert</name>
+                        <persName>Christian Fürchtegott <name type="reg">Gellert</name>
                         </persName>
                      </person>
                      <person corresp="#JP-004023">
-                        <persName> Marie de Rabutin-Chantal, Marquise de <name type="reg">Sévigné</name>
+                        <persName>Marie de Rabutin-Chantal, Marquise de <name type="reg">Sévigné</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -242,18 +258,21 @@
                Buch und dieser Brief gleichen <note corresp="#I_75-31">
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010724">
-                        <title>Grönländische Prozesse, oder Satirische Skizzen (1783, 1822)</title>
+                        <title>Grönländische Prozesse, oder Satirische Skizzen (1783,
+                        1822)</title>
                      </bibl>
                   </listBibl>
                </note>
                <lb xml:id="I_75-31"/>einander an Wert und daher an Papier — in Hof giebts kein
                besseres.<note corresp="#I_75-32">
-               <listPlace type="lineReference">
-                  <place corresp="#JP-005841">
-                     <placeName>Hof im Vogtland</placeName>
-                  </place>
-               </listPlace>
-            </note><lb xml:id="I_75-32"/></p>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005841">
+                        <placeName>Hof</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="I_75-32"/>
+            </p>
             <p>Dein Brief, den ich eben iezt vor mir <metamark>[</metamark>!<metamark>]</metamark>
                lege, stimt mich in einen <lb xml:id="I_76-1"/>andern Ton und fürt mich auf eine
                andre Ursache, warum ich dir gern <lb xml:id="I_76-2"/>schreibe. Die angegebne betraf
@@ -263,7 +282,7 @@
                Leben; aber <note corresp="#I_76-7">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001638">
-                        <persName> Claude Adrien <name type="reg">Helvétius</name>
+                        <persName>Claude Adrien <name type="reg">Helvétius</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -272,7 +291,8 @@
                sagen <note corresp="#I_76-8">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004505">
-                        <persName> (François Marie Arouet) <name type="reg">Voltaire</name>
+                        <persName>
+                           <name type="reg">Voltaire</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -299,11 +319,11 @@
                unsatirischen Ton schlug in mir nicht nur dein Brief, sondern <lb xml:id="I_76-27"/>auch meine gestrige Reise zu deinen lieben Eltern an! Ich habe tausend<note corresp="#I_76-28">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003051">
-                        <persName> Johann Georg von <name type="reg">Oerthel</name>
+                        <persName>Johann Georg von <name type="reg">Oerthel</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003053">
-                        <persName> Margarete Justine von <name type="reg">Oerthel</name>
+                        <persName>Margarete Justine von <name type="reg">Oerthel</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -326,7 +346,7 @@
                   <listPerson type="lineReference">
                      <person corresp="#JP-000110">
                         <persName>
-                           <name type="reg">Apollo </name>
+                           <name type="reg">Apollo</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -346,11 +366,11 @@
                Seneka, <note corresp="#I_77-22">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003273">
-                        <persName> Alexander <name type="reg">Pope</name>
+                        <persName>Alexander <name type="reg">Pope</name>
                         </persName>
                      </person>
                      <person corresp="#JP-004016">
-                        <persName> Lucius Annaeus d. J. <name type="reg">Seneca </name>
+                        <persName>Lucius Annaeus d. J. <name type="reg">Seneca</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -360,26 +380,27 @@
                besser <note corresp="#I_77-23">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002860">
-                        <persName> Michel Eyquem de <name type="reg">Montaigne</name>
+                        <persName>Michel Eyquem de <name type="reg">Montaigne</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003602">
-                        <persName> Jean-Jacques <name type="reg">Rousseau</name>
+                        <persName>Jean-Jacques <name type="reg">Rousseau</name>
                         </persName>
                      </person>
                      <person corresp="#JP-004233">
-                        <persName> Publius Cornelius <name type="reg">Tacitus </name>
+                        <persName>
+                           <name type="reg">Tacitus</name>
                         </persName>
                      </person>
                      <person corresp="#JP-004505">
-                        <persName> (François Marie Arouet) <name type="reg">Voltaire</name>
+                        <persName>
+                           <name type="reg">Voltaire</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009858">
-                        <author>Tacitus (Tazitus), Publius Cornelius (um 55 - nach 115 n. Chr.),
-                           römischer Historiker</author>
+                        <author>Tacitus (Tazitus), Publius Cornelius (um 55 – nach 115 n. Chr.)</author>
                         <title>Germania</title>
                      </bibl>
                   </listBibl>
@@ -388,8 +409,7 @@
                   <note corresp="#I_77-24">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010067" ana="†">
-                        <author>Wernicke (Wernigke, Wernike), Christian (1661-1725), Diplomat und
-                           Dichter</author>
+                        <author>Wernicke (Wernigke, Wernike), Christian (1661–1725)</author>
                         <title>Überschriften (1780)</title>
                      </bibl>
                   </listBibl>
@@ -410,11 +430,11 @@
                   </listPlace>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009522" ana="†">
-                        <author>Rousseau, Jean-Jacques (1712-1778)</author>
+                        <author>Rousseau, Jean-Jacques (1712–1778)</author>
                         <title>Confessions (1781)</title>
                      </bibl>
                      <bibl corresp="#JP-009527" ana="†">
-                        <author>Rousseau, Jean-Jacques (1712-1778)</author>
+                        <author>Rousseau, Jean-Jacques (1712–1778)</author>
                         <title>Les Rêveries du promeneur solitaire (1782, dt.1782 und 1783)</title>
                      </bibl>
                   </listBibl>
@@ -425,7 +445,7 @@
                sich schliest. Das <note corresp="#I_77-34">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004474">
-                        <persName> Erhard Friedrich <name type="reg">Vogel</name>
+                        <persName>Erhard Friedrich <name type="reg">Vogel</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -459,7 +479,7 @@
                das <note corresp="#I_78-11">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005841">
-                        <placeName>Hof im Vogtland</placeName>
+                        <placeName>Hof</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -467,8 +487,8 @@
                mit <lb xml:id="I_78-12"/>seiner Kele den höfischen Dialekt und mit seinen Oren den
                höfischen <note corresp="#I_78-13">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0058411">
-                        <placeName>Dialekt; Hof im Vogtland</placeName>
+                     <place corresp="#JP-011397">
+                        <placeName>Dialekt</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -481,7 +501,7 @@
                   <note corresp="#I_78-20">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002192">
-                        <persName> Johann Gottlieb <name type="reg">Körner</name>
+                        <persName>Johann Gottlieb <name type="reg">Körner</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -489,8 +509,8 @@
                <lb n="20" xml:id="I_78-20"/> ich hoffe es und bitte dich, mir seine Schmähungen ins
                Deutsche zu <note corresp="#I_78-21">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0056716">
-                        <placeName>Sprache, Stil; Deutschland, deutsche</placeName>
+                     <place corresp="#JP-011188">
+                        <placeName>Sprache, Stil</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -515,11 +535,11 @@
                   <hi rendition="#aq">J’ai commencé ma lettre dans ma langue, je la finis dans la
                         <note corresp="#I_78-26">
                         <listPlace type="lineReference">
-                           <place corresp="#JP-0056716">
-                              <placeName>Sprache, Stil; Deutschland, deutsche</placeName>
+                           <place corresp="#JP-011188">
+                              <placeName>Sprache, Stil</placeName>
                            </place>
-                           <place corresp="#JP-00574612" ana="ff">
-                              <placeName>Sprache, Stil, Schrift; Frankreich, französisch</placeName>
+                           <place corresp="#JP-011310" ana="ff">
+                              <placeName>Sprache, Stil, Schrift</placeName>
                            </place>
                         </listPlace>
                      </note>
@@ -532,7 +552,8 @@
                      aucune pensée; mais <note corresp="#I_78-33">
                         <listPerson type="lineReference">
                            <person corresp="#JP-004505">
-                              <persName> (François Marie Arouet) <name type="reg">Voltaire</name>
+                              <persName>
+                                 <name type="reg">Voltaire</name>
                               </persName>
                            </person>
                         </listPerson>
@@ -591,7 +612,7 @@
                         <note corresp="#I_79-14">
                         <listPerson type="lineReference">
                            <person corresp="#JP-003496">
-                              <persName> Sophie Rosine <name type="reg">Richter</name>
+                              <persName>Sophie Rosine <name type="reg">Richter</name>
                               </persName>
                            </person>
                         </listPerson>
@@ -641,7 +662,7 @@
                   <hi rendition="#i">J</hi>
                   <hi rendition="#sup">1</hi>: Wahrheit 3,246×. <hi rendition="#i">J</hi>
                   <hi rendition="#sup">2</hi>: Nachlaß 2,265 u. 301× (das <lb/>Postskript
-                  abgetrennt). <hi rendition="#i">B</hi>: IV. Abt., I, Nr. 14. <hi rendition="#i">A</hi>: IV. Abt., I, Nr. 16.</hi>
+                  abgetrennt). <hi rendition="#i">B</hi>: IV. Abt., 1, Nr. 14. <hi rendition="#i">A</hi>: IV. Abt., 1, Nr. 16.</hi>
                <hi rendition="#b">
                   <hi rendition="#aq">75</hi>
                </hi>

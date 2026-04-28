@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="391">390. An Hofrat Jung in Frankfurt a. M. </title>
-            <title n="digital">Von Jean Paul an Franz Wilhelm Jung. Bayreuth, 20. November 1810.</title>
+            <title n="print" type="letter" rend="390">390. An Hofrat Jung in Frankfurt a. M. </title>
+            <title n="digital">Von Jean Paul an Franz Wilhelm Jung. Bayreuth, 20. November 1810, Dienstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,16 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>151</num><num>152</num></biblScope><biblScope n="comment" unit="page"><num>492</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>151</num>
+                  <num>152</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>492</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -68,22 +77,37 @@
             </msDesc>
             <listPerson type="commentary">
                <person corresp="#JP-004495">
-                  <persName> Nikolaus <name type="reg">Vogt </name>
+                  <persName>Nikolaus <name type="reg">Vogt</name>
                   </persName>
                </person>
             </listPerson>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1810-11-20">20. November 1810</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-001981">Franz Wilhelm Jung</persName>
                <placeName key="JP-005743">Frankfurt a.
                   M.</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_389"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0938"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_389"/><ptr type="next" subtype="brief" target="VI_391"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_307"/><ptr type="next" subtype="brief" target="VI_431"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_389"/>
+               <ptr type="next" subtype="anbrief" target="IV-IX_1.7"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_389"/>
+               <ptr type="next" subtype="brief" target="VI_391"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_110"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_127"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -102,7 +126,7 @@
                   Ihrigen<note corresp="#VI_151-17">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000054" ana="†">
-                        <persName> Isaak <name type="reg">Aldebert</name>
+                        <persName>Isaak <name type="reg">Aldebert</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -129,7 +153,7 @@
                <note corresp="#VI_151-30">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000742">
-                        <persName> Karl Theodor Reichsfreiherr von <name type="reg">Dalberg</name>
+                        <persName>Carl Theodor von <name type="reg">Dalberg</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -157,7 +181,7 @@
                   <listPerson type="lineReference">
                      <person corresp="#JP-002548">
                         <persName>
-                           <name type="reg">Luise</name>
+                           <name type="reg">Luise, Königin von Preußen</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -168,7 +192,7 @@
                Richter“ zurück. — Ist der Fürst<note corresp="#VI_152-1">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000742">
-                        <persName> Karl Theodor Reichsfreiherr von <name type="reg">Dalberg</name>
+                        <persName>Carl Theodor von <name type="reg">Dalberg</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -190,20 +214,21 @@
                   <metamark>[</metamark>!<metamark>]</metamark> mit einer (angeb<note corresp="#VI_152-7">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008316" ana="†">
-                        <author>Ehrmann, Johann Christian (1749-1827), Arzt in Frankfurt a.
-                           M.</author>
-                        <title>Das Buch Glaube, Liebe, Hoffnung (1809-1810)</title>
+                        <author>Ehrmann, Johann Christian (1749–1827)</author>
+                        <title>Das Buch Glaube, Liebe, Hoffnung (1809–1810)</title>
                      </bibl>
                   </listBibl>
                </note>
                <lb xml:id="VI_152-7" rendition="#hyphen"/>lichen) Vorrede von mir heraus: steht viel
                Böses darin?<note corresp="#VI_152-8">
-               <listBibl type="lineReference" subtype="werke-jp">
-                  <bibl corresp="#JP-010952" ana="†">
-                     <title>Unverschämtheit des Oberförsters Wolf (1809)</title>
-                  </bibl>
-               </listBibl>
-            </note><lb xml:id="VI_152-8"/></p>
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010952" ana="†">
+                        <title>Unverschämtheit des Oberförsters Wolf (1809)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_152-8"/>
+            </p>
             <p>Leben Sie wol und gedenken Sie meiner Bitte.</p>
             <lb xml:id="VI_152-9"/>
             <closer>
@@ -220,10 +245,15 @@
                   <hi rendition="#i">H</hi>: Berlin JP. 4 S. 8°. <hi rendition="#i">K</hi>:</hi>
                Hofrath Jung in Frankf. 20. Nov.<lb/>
                <hi rendition="#aq">
-                  <hi rendition="#i">B</hi>: IV. Abt., VI, Nr. 110. <hi rendition="#i">A</hi>: IV.
-                  Abt., VI, Nr.</hi>
+                  <hi rendition="#i">B</hi>: IV. Abt., 6, Nr. 110. <hi rendition="#i">A</hi>: IV. Abt., 6, Nr.</hi>
                <hi rendition="#aq">127. </hi>
-               <hi rendition="#b"><hi rendition="#aq">152</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">3</hi></hi> was] <hi rendition="#aq">aus</hi> warum <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">152</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">3</hi>
+               </hi> was] <hi rendition="#aq">aus</hi> warum <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
             </p>

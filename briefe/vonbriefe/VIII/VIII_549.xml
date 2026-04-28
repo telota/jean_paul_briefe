@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="554">549. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, Ohne Datum.</title>
+            <title n="print" type="letter" rend="549">549. An Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>309</num>
                </biblScope>
@@ -78,13 +78,25 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspContext n="edition"><ptr type="next" subtype="brief" target="VIII_550"/></correspContext><correspContext n="corpus"><ptr type="next" subtype="brief" target="VIII_550"/></correspContext><correspContext n="correspondence"><ptr type="next" subtype="brief" target="VIII_550"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="next" subtype="brief" target="I_1"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="next" subtype="brief" target="I_1"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="next" subtype="brief" target="I_108"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -93,8 +105,11 @@
             <p>Guten Morgen, Otto! In der Polizeifama ist allerlei Merkwürdiges.<note corresp="#VIII_309-14">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008632">
-                        <author>Hartleben, Th. (Werk, Hrsg.)</author>
-                        <title>Polizeifama (1802ff.)</title>
+                        <author>Hartleben, Theodor Konrad (1770–1827) (Hrsg.)</author>
+                        <title>Deutsche Justiz- und Polizey-Fama (1.1802); Allgemeine deutsche Justiz-
+                        und Policeifama (2.1803–6.1807, 14.1815–15.1816); Allgemeine Justiz- und
+                        Policeyblätter (7.1808–13.1814) Allgemeine deutsche Justiz-, Kameral- und
+                        PolizeiFama (16.1817–26.1827)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -111,7 +126,7 @@
                beide einmal wieder roll<note corresp="#VIII_309-17">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003561">
-                        <persName> Anna Dorothea <name type="reg">Rollwenzel</name>
+                        <persName>Anna Dorothea <name type="reg">Rollwenzel</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -130,9 +145,21 @@
                   Büchersendungen,<lb/>s. Bd. VI, Nr. 836). <hi rendition="#g">Polizeifama,</hi>
                   hgb. von Th. Hartleben in<lb/>Cottas Verlag (von 1808—14 u. d. T. Polizeiblätter);
                   vgl. Bd. VI, <lb/>Nr. 710; I. Abt., XVI,</hi>
-               <hi rendition="#b"><hi rendition="#aq">119</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">11</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">119</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">11</hi>
+               </hi>
                <hi rendition="#aq">, </hi>
-               <hi rendition="#b"><hi rendition="#aq">260</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">22</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">260</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">22</hi>
+               </hi>
                <hi rendition="#aq">.</hi>
             </p>
          </div>

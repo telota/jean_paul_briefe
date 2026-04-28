@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="261">260. An Emanuel. </title>
-            <title n="digital">Von Jean Paul an Emanuel. Bayreuth, 4. November 1806.</title>
+            <title n="print" type="letter" rend="260">260. An Emanuel. </title>
+            <title n="digital">Von Jean Paul an Emanuel. Bayreuth, 4. November 1806, Dienstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
+               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
                <biblScope n="text" unit="page">
                   <num>110</num>
                </biblScope>
@@ -77,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1806-11-04">4. November 1806</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-003087">Emanuel Osmund</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="V_259"/><ptr type="next" subtype="brief" target="V_261"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="V_259"/><ptr type="next" subtype="brief" target="V_261"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="V_259"/><ptr type="next" subtype="brief" target="V_261"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000941">Emanuel</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="V_259"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB1740"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="V_259"/>
+               <ptr type="next" subtype="brief" target="V_261"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="V_259"/>
+               <ptr type="next" subtype="brief" target="V_261"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -102,13 +117,15 @@
                   Das<lb n="20" xml:id="V_110-20"/> schlimme Wetter kommt, verzögert, dann
                verdoppelt. — Mein<lb xml:id="V_110-21"/> guter Vogel! Immer kommt nach Freude der
                Schicksals Stich!<note corresp="#V_110-22">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-004483" ana="†">
-                     <persName> Johann Wilhelm <name type="reg">Vogel</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="V_110-22"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004483" ana="†">
+                        <persName>Johann Wilhelm <name type="reg">Vogel</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="V_110-22"/>
+            </p>
             <p>Heute werd’ ich mit der Druckfehlers Abhandlung fertig, welche<note corresp="#V_110-23">
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010684">
@@ -116,7 +133,7 @@
                      </bibl>
                      <bibl corresp="#JP-010686">
                         <title>Ergänzblatt (Ergänzungsblatt) zur Levana (1807): Dedikation für
-                           Sophie Paulus (handschriftlich)</title>
+                        Sophie Paulus (handschriftlich)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -124,7 +141,7 @@
                <hi rendition="#aq">Thieriot</hi> so sehr der Erziehungslehre vorzieht.<note corresp="#V_110-24">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004275">
-                        <persName> Paul Emile <name type="reg">Thieriot</name>
+                        <persName>Paul Emile <name type="reg">Thieriot</name>
                         </persName>
                      </person>
                   </listPerson>

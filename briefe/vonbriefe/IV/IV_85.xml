@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="89">85. An Karoline Mayer. </title>
-            <title n="digital">Von Jean Paul an Caroline Richter. Berlin, 15. Februar 1801.</title>
+            <title n="print" type="letter" rend="85">85. An Karoline Mayer. </title>
+            <title n="digital">Von Jean Paul an Caroline Mayer. Berlin, 15. Februar 1801, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,11 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"/><biblScope n="comment" unit="page"/></bibl>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page"/>
+               <biblScope n="comment" unit="page"/>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +73,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date cert="medium" when="1801-02-15">15. Februar 1801</date>
                <placeName key="JP-005586">Berlin</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-003469">Caroline Richter</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0828"/><ptr type="next" subtype="brief" target="IV_86"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="IV_84"/><ptr type="next" subtype="brief" target="IV_86"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="IV_82"/><ptr type="next" subtype="brief" target="IV_102"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-011763">Caroline Mayer</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-IV_EB_9"/>
+               <ptr type="next" subtype="brief" target="IV_86"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="IV_84"/>
+               <ptr type="next" subtype="brief" target="IV_86"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="IV_82"/>
+               <ptr type="next" subtype="brief" target="IV_102"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -94,7 +113,7 @@
                   die<note corresp="#IV_48-11">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002702">
-                        <persName> Auguste <name type="reg">Mayer</name>
+                        <persName>Auguste <name type="reg">Mayer</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -102,9 +121,9 @@
                      <place corresp="#JP-005532">
                         <placeName>Arkadien</placeName>
                      </place>
-                     <place corresp="#JP-00558652" ana="†">
+                     <place corresp="#JP-011136" ana="†">
                         <placeName>Theater (Französisches Komödienhaus, Schauspielhaus,
-                           Nationaltheater); Berlin</placeName>
+                        Nationaltheater)</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -112,8 +131,7 @@
                Loge das<note corresp="#IV_48-12">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009842" ana="†">
-                        <author>Süßmayr (Süßmayer), Franz Xaver (1766-1803), österreich.
-                           Komponist</author>
+                        <author>Süßmayr, Franz Xaver (1766–1803)</author>
                         <title>Die neuen Arkadier (1794)</title>
                      </bibl>
                   </listBibl>

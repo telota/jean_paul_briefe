@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="486">482. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, 8. Dezember 1818.</title>
+            <title n="print" type="letter" rend="482">482. An Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth, 8. Dezember 1818, Dienstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
+               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
                <biblScope n="text" unit="page">
                   <num>241</num>
                   <num>242</num>
@@ -78,13 +78,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1818-12-08">8. Dezember 1818</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VII_481"/><ptr type="next" subtype="umfeldbrief" target="JP-UB1357"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VII_481"/><ptr type="next" subtype="brief" target="VII_483"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VII_478"/><ptr type="next" subtype="brief" target="VII_489"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-VII_EB_67"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB1357"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VII_481"/>
+               <ptr type="next" subtype="brief" target="VII_483"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VII_478"/>
+               <ptr type="next" subtype="brief" target="VII_489"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -107,7 +122,7 @@
                ich nicht fähig wäre —<note corresp="#VII_242-1">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005574">
-                        <placeName>Bayreuth (Stadt)</placeName>
+                        <placeName>Bayreuth </placeName>
                      </place>
                   </listPlace>
                </note>
@@ -128,34 +143,35 @@
                wenigen namentlich bekannt (z. B. mir) — und Reimer, Enslin,<note corresp="#VII_242-13">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000966">
-                        <persName> Theodor Christian Friedrich <name type="reg">Enslin</name>
+                        <persName>Theodor <name type="reg">Enslin</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003408">
-                        <persName> Georg Andreas <name type="reg">Reimer</name>
+                        <persName>Georg Andreas <name type="reg">Reimer</name>
                         </persName>
                      </person>
                   </listPerson>
                </note>
                <lb xml:id="VII_242-13"/> Winter, Bertuch etc.etc. wären gewiß behülflich.<note corresp="#VII_242-14">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-004745">
-                     <persName> Christian Friedrich <name type="reg">Winter</name>
-                     </persName>
-                  </person>
-                  <person corresp="#JP-004746">
-                     <persName> Christian Friedrich <name type="reg">Winter</name>, seine Kinder
-                     </persName>
-                  </person>
-               </listPerson>
-               <listBibl type="lineReference" subtype="werke">
-                  <bibl corresp="#JP-008134">
-                     <author>Bertuch, Friedrich Johann Justin (1747-1822), Weimarer
-                        Verleger</author>
-                     <title>Industrie-Comptoir (Verlag u.a., 1791ff.)</title>
-                  </bibl>
-               </listBibl>
-            </note><lb xml:id="VII_242-14"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004745">
+                        <persName>Christian Friedrich <name type="reg">Winter</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-004746">
+                        <persName>Christian Friedrich <name type="reg">Winter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008134">
+                        <author>Bertuch, Friedrich Johann Justin (1747–1822)</author>
+                        <title>Industrie-Comptoir (Verlag u. a., 1791 ff.)<?oxy_custom_end?></title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VII_242-14"/>
+            </p>
             <p>Was die Liebe gerathen und gewünscht, wird auch die Liebe<lb n="15" xml:id="VII_242-15"/> vergeben, sogar ohne zu erfüllen. Dein Tag werde schön und
                   der<lb xml:id="VII_242-16"/> Nachtrab von 364 Tagen gleichfalls.</p>
             <lb xml:id="VII_242-17"/>

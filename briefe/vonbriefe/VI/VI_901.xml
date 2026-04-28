@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="907">901. An Emanuel. </title>
-            <title n="digital">Von Jean Paul an Emanuel. Bayreuth, 17. Juli 1814.</title>
+            <title n="print" type="letter" rend="901">901. An Emanuel. </title>
+            <title n="digital">Von Jean Paul an Emanuel. Bayreuth, 17. Juli 1814, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,16 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>391</num><num>392</num></biblScope><biblScope n="comment" unit="page"><num>581</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>391</num>
+                  <num>392</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>581</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +78,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1814-07-17">17. Juli 1814</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-003087">Emanuel Osmund</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_900"/><ptr type="next" subtype="brief" target="VI_902"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_900"/><ptr type="next" subtype="brief" target="VI_902"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_896"/><ptr type="next" subtype="brief" target="VI_902"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000941">Emanuel</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_EB_120"/>
+               <ptr type="next" subtype="brief" target="VI_902"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_900"/>
+               <ptr type="next" subtype="brief" target="VI_902"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_896"/>
+               <ptr type="next" subtype="brief" target="VI_902"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -95,7 +119,8 @@
                   <listPerson type="lineReference">
                      <person corresp="#JP-002061">
                         <persName>
-                           <name type="reg">Katharina Pawlowna</name>
+                           <name type="reg">Katharina Pawlowna, ab 1809 Herzogin von Oldenburg, ab 1816 Königin
+                            von Württemberg</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -104,11 +129,11 @@
                   von<note corresp="#VI_391-35">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002785" ana="†">
-                        <persName> Klemens Wenzel Lothar Fürst von <name type="reg">Metternich</name>
+                        <persName>Klemens Wenzel Lothar, Fürst von <name type="reg">Metternich</name>
                         </persName>
                      </person>
                      <person corresp="#JP-004142">
-                        <persName> Heinrich Friedrich Karl Freiherr von und zum <name type="reg">Stein</name>
+                        <persName>Karl Freiherr vom und zum <name type="reg">Stein</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -117,7 +142,7 @@
                mehr in Gang<note corresp="#VI_391-36">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000292">
-                        <persName> Christian Ernst Graf von <name type="reg">Bentzel-Sternau</name>
+                        <persName>Christian Ernst Graf von <name type="reg">Bentzel-Sternau</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -126,7 +151,7 @@
                   Von<note corresp="#VI_392-1">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005575">
-                        <placeName>Bayreuth, Markgrafschaft </placeName>
+                        <placeName>Markgrafschaft (Fürstentum, Land, Vaterland)</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -138,7 +163,7 @@
                   <note corresp="#VI_392-3">
                      <listPlace type="lineReference">
                         <place corresp="#JP-005574">
-                           <placeName>Bayreuth (Stadt)</placeName>
+                           <placeName>Bayreuth </placeName>
                         </place>
                      </listPlace>
                   </note>

@@ -4,7 +4,7 @@
          <titleStmt>
             <title n="print" type="letter" rend="87">87. An <persName>Pfarrer Vogel</persName> in
                Rehau. </title>
-            <title n="digital">Von Jean Paul an Erhard Friedrich Vogel. Hof, 11. Dezember 1784. </title>
+            <title n="digital">Von Jean Paul an Erhard Friedrich Vogel. Hof, 11. Dezember 1784, Samstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -46,7 +46,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -61,8 +62,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="I">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
+               <title n="I">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
                <biblScope n="text" unit="page">
                   <num>138</num>
                   <num>139</num>
@@ -81,15 +81,30 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1784-12-11">11. Dezember 1784</date>
                <placeName key="JP-005841">Hof</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-004474">Erhard Friedrich Vogel</persName>
                <placeName key="JP-006182">Rehau,
                   Oberfranken</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="I_86"/><ptr type="next" subtype="brief" target="I_88"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="I_86"/><ptr type="next" subtype="brief" target="I_88"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="I_81"/><ptr type="next" subtype="brief" target="I_91"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="I_86"/>
+               <ptr type="next" subtype="anbrief" target="IV-I_33"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="I_86"/>
+               <ptr type="next" subtype="brief" target="I_88"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-I_32"/>
+               <ptr type="next" subtype="anbrief" target="IV-I_33"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -106,8 +121,8 @@
             <p>Mein Bruder wird Ihnen die vier Lehrmeister in der Serviette <note corresp="#I_138-23">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003481">
-                        <persName> Johann Paul Friedrich <name type="reg">Richter</name>
-                        </persName>
+                        <persName>
+                           <name type="reg">Richter</name>, seine Brüder</persName>
                      </person>
                   </listPerson>
                </note>
@@ -120,7 +135,8 @@
                Roks ein schönes Galakleid schenket, seit Erasmus Tode <note corresp="#I_138-29">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000979">
-                        <persName> Desiderius <name type="reg">Erasmus von Rotterdam</name>
+                        <persName>
+                           <name type="reg">Erasmus von Rotterdam</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -161,9 +177,9 @@
             <p>Über eine Vignette Ihres Buches hab’ ich nachgedacht; aber bisher <note corresp="#I_139-6">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009962">
-                        <author>Vogel, Erhard Friedrich (1750-1823), Theologe, Pfarrer in Rehau und
-                           Arzberg, später Superintendent (ab 1810 Dekan) in Wunsiedel</author>
-                        <title>Raffinerien (1785-1786)</title>
+                        <author>Vogel, Erhard Friedrich (1750–1823), Theologe, Pfarrer in Rehau und
+                        Arzberg, später Superintendent (ab 1810 Dekan) in Wunsiedel</author>
+                        <title>Raffinerien (1785–1786)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -176,7 +192,7 @@
                   <listPerson type="lineReference">
                      <person corresp="#JP-001971" ana="†">
                         <persName>
-                           <name type="reg">Joseph II.</name>
+                           <name type="reg">Joseph II., Kaiser des Heiligen Römischen Reichs</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -187,10 +203,9 @@
                   </listPlace>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009392" ana="†">
-                        <author>Pilati, Carlo Antonio (1733-1802), ital. Jurist und politischer
-                           Schriftsteller aus Tassullo (Trento)</author>
+                        <author>Pilati, Carlo Antonio (1733–1802)</author>
                         <title>Briefe aus Berlin über verschiedene Paradoxe dieses Zeitalters
-                           (1784-1785)</title>
+                        (1784–1785)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -207,9 +222,8 @@
                <item>Pragmatische Geschichte der Mönchsorden. <note corresp="#I_139-20">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-008276" ana="†">
-                           <author>Crome, Ludwig Gottlieb (1742-1794), Philologe, Pädagoge und
-                              Dichter</author>
-                           <title>Pragmatische Geschichte der Mönchsorden (1774-1784)</title>
+                           <author>Crome, Ludwig Gottlieb (1742–1794)</author>
+                           <title>Pragmatische Geschichte der Mönchsorden (1774–1784)</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -219,7 +233,7 @@
                <note corresp="#I_139-22">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009407" ana="†">
-                        <author>Platon (Plato) (427-347 v. Chr.)</author>
+                        <author>Platon (Plato) (427–347 v. Chr.)</author>
                         <title>Republik</title>
                      </bibl>
                   </listBibl>
@@ -228,9 +242,8 @@
                <item>A. Deutsche Bibliothek 59. B. 1. St. oder auch des iezigen An<note corresp="#I_139-23">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-009291">
-                           <author>Nicolai (Nikolai), Christoph Friedrich (1733-1811),
-                              Schriftsteller und Verleger (Werk, Hrsg.)</author>
-                           <title>Allgemeine deutsche Bibliothek (1765-1796, 1793-1806 Neue)</title>
+                           <author>Nicolai, Christoph Friedrich (1733–1811) (Hrsg.)</author>
+                           <title>Allgemeine deutsche Bibliothek (1765–1796, 1793–1806 Neue)</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -239,8 +252,7 @@
                <item>Bielefelds Staatswissenschaft. <note corresp="#I_139-25">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-008140">
-                           <author>Bielfeld, Jakob Friedrich von (1717-1770), Verwaltungsbeamter und
-                              Schriftsteller</author>
+                           <author>Bielfeld, Jakob Friedrich von (1717–1770)</author>
                            <title>Lehrbegriff der Staatskunst (1761)</title>
                         </bibl>
                      </listBibl>
@@ -248,19 +260,20 @@
                   <lb n="25" xml:id="I_139-25"/>
                </item>
                <item>Den Pausanias oder Plinius Naturgeschichte.</item>
-            <note corresp="#I_139-26">
-               <listBibl type="lineReference" subtype="werke">
-                  <bibl corresp="#JP-010333">
-                     <author/>
-                     <title>Pausanias</title>
-                  </bibl>
-                  <bibl corresp="#JP-009415" ana="†">
-                     <author>Plinius d. Ä. (Gaius Plinius Secundus Maior) (23/24-79 n.Chr.), röm.
-                        Verwaltungsmann, Naturforscher und Schriftsteller</author>
-                     <title>Naturalis historia</title>
-                  </bibl>
-               </listBibl>
-            </note><lb xml:id="I_139-26"/></list>
+               <note corresp="#I_139-26">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010333">
+                        <author/>
+                        <title>Pausanias</title>
+                     </bibl>
+                     <bibl corresp="#JP-009415" ana="†">
+                        <author>Plinius d. Ä. (23/24–79 n.Chr.)</author>
+                        <title>Naturalis historia</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="I_139-26"/>
+            </list>
             <p>Schikken Sie mir ausser diesen Büchern noch etwas, was mir lieber <lb xml:id="I_139-27"/>ist als manches Buch und was in der That selbst ein
                geschriebenes Buch <lb xml:id="I_139-28"/>ist wiewol nur zwei Blätter stark, nämlich
                einen langen langen Brief. <lb xml:id="I_139-29"/>Ich wünschte, ich hätte Zeit genug,
@@ -298,7 +311,7 @@
                <p>P. S. Meine Mutter räth mir an, die Höflichkeit doch nicht so ganz <note corresp="#I_140-1">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003496">
-                           <persName> Sophie Rosine <name type="reg">Richter</name>
+                           <persName>Sophie Rosine <name type="reg">Richter</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -319,7 +332,7 @@
                   die ich <note corresp="#I_140-8">
                      <listPerson type="lineReference">
                         <person corresp="#JP-004493">
-                           <persName> Sophie Albertine <name type="reg">Vogel</name>
+                           <persName>Sophie Albertine <name type="reg">Vogel</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -329,7 +342,7 @@
                   gewisser Herr Richter aus Hos <note corresp="#I_140-10">
                      <listPlace type="lineReference">
                         <place corresp="#JP-005841">
-                           <placeName>Hof im Vogtland</placeName>
+                           <placeName>Hof</placeName>
                         </place>
                      </listPlace>
                   </note>
@@ -355,13 +368,24 @@
                17. An H. Vogel. Den 11. Dez. <hi rendition="#aq">
                   <hi rendition="#i">J</hi>
                   <hi rendition="#sup">1</hi>: Wahr<lb rendition="#hyphen"/>heit 3,329×. <hi rendition="#i">J</hi>
-                  <hi rendition="#sup">2</hi>: Nachlaß 3,247. <hi rendition="#i">A</hi>: IV. Abt.,
-                  I, Nr. 33. <hi rendition="#i">K</hi> hat viele kleine Varianten.</hi>
+                  <hi rendition="#sup">2</hi>: Nachlaß 3,247. <hi rendition="#i">A</hi>: IV. Abt., 1, Nr. 33. <hi rendition="#i">K</hi> hat viele kleine Varianten.</hi>
                <lb/>
-               <hi rendition="#b"><hi rendition="#aq">139</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">2</hi></hi> eines solchen Professors] ienes Kollegiums <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">139</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">2</hi>
+               </hi> eines solchen Professors] ienes Kollegiums <hi rendition="#aq">
                   <hi rendition="#i">K</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">140</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">1</hi></hi> Mutter] Mama <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">140</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">1</hi>
+               </hi> Mutter] Mama <hi rendition="#aq">
                   <hi rendition="#i">K</hi>
                </hi>
                <lb/>
@@ -371,7 +395,13 @@
             </p>
             <lb/>
             <p>
-               <hi rendition="#b"><hi rendition="#aq">139</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">4</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">139</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">4</hi>
+               </hi>
                <hi rendition="#aq">
                   <hi rendition="#g">Latitudinarius:</hi> Richters Aufsatz „Über die vielen
                   Religionen <lb/>in der Welt“, der in den „Raffinerien“ den Titelzusatz erhielt:

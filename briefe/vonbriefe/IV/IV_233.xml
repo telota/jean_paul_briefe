@@ -2,9 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="239">233. An Thieriot. </title>
-            <title n="digital">Von Jean Paul an Paul Emile Thieriot. Meiningen, 16. Januar 1802 bis 20. Januar
-               1802.</title>
+            <title n="print" type="letter" rend="233">233. An Thieriot. </title>
+            <title n="digital">Von Jean Paul an Paul Emile Thieriot. Meiningen, 16. bis 20. Januar 1802.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -46,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +60,11 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"/><biblScope n="comment" unit="page"/></bibl>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page"/>
+               <biblScope n="comment" unit="page"/>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -70,15 +73,30 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date corresp="writingSession1" when="1802-01-16">16. Januar 1802</date>
                <date corresp="writingSession2" when="1802-01-20">20. Januar 1802</date>
                <placeName key="JP-006012">Meiningen
                </placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-004275">Paul Emile Thieriot</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="IV_232"/><ptr type="next" subtype="brief" target="IV_234"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="IV_232"/><ptr type="next" subtype="brief" target="IV_234"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="IV_182"/><ptr type="next" subtype="brief" target="IV_247"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="IV_232"/>
+               <ptr type="next" subtype="anbrief" target="IV-IV_203"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="IV_232"/>
+               <ptr type="next" subtype="brief" target="IV_234"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-IV_175"/>
+               <ptr type="next" subtype="anbrief" target="IV-IV_207"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -99,7 +117,7 @@
                   Nur nichts<note corresp="#IV_129-13">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003469">
-                           <persName> Caroline <name type="reg">Richter</name>
+                           <persName>Caroline <name type="reg">Richter</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -108,12 +126,14 @@
                   keiner. —<lb xml:id="IV_129-14"/>Nicht blos seelig — das war ich meistens —
                   sondern auch ruhig leb’<lb n="15" xml:id="IV_129-15"/>ich das Leben weg, in der
                   Ehe und in Meinungen.<note corresp="#IV_129-16">
-                  <listPlace type="lineReference">
-                     <place corresp="#JP-006012">
-                        <placeName>Meiningen </placeName>
-                     </place>
-                  </listPlace>
-               </note><lb xml:id="IV_129-16"/></p>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006012">
+                           <placeName>Meiningen </placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="IV_129-16"/>
+               </p>
             </div>
             <div n="writingSession2">
                <dateline>
@@ -123,7 +143,8 @@
                <p>Schicken Sie mir einen Ballen Mspt. oder nehmen Sie ihn als<lb xml:id="IV_129-18"/>Passagier-Fracht mit und senden sich selber hieher. Vor den Herzog —<note corresp="#IV_129-19">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001289">
-                           <persName> Herzog von Sachsen-Meiningen <name type="reg">Georg I.</name>
+                           <persName>
+                              <name type="reg">Georg I., Herzog von Sachsen-Meiningen</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -161,7 +182,7 @@
                   ist der sublimierte<note corresp="#IV_129-29">
                      <listBibl type="lineReference" subtype="werke-jp">
                         <bibl corresp="#JP-010695">
-                           <title>Flegeljahre (1804-1805)</title>
+                           <title>Flegeljahre. Eine Biographie (4 Bde., Tübingen: Cotta 1804-1805)</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -174,12 +195,11 @@
                   <note corresp="#IV_129-32">
                      <listPerson type="lineReference">
                         <person corresp="#JP-002022">
-                           <persName>
-                              <name type="reg">Kanne</name>
+                           <persName>Johann Arnold <name type="reg">Kanne</name>
                            </persName>
                         </person>
                         <person corresp="#JP-002021">
-                           <persName> Johann Arnold <name type="reg">Kanne</name>
+                           <persName>Johann Arnold <name type="reg">Kanne</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -188,8 +208,7 @@
                      von<note corresp="#IV_129-33">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-008872">
-                           <author>Kanne, Johann Arnold (Pseud. Walther Bergius) (1773-1824),
-                              Schriftsteller, Mythologe und Sprachforscher)</author>
+                           <author>Kanne, Johann Arnold (Pseud. Walther Bergius) (1773–1824)</author>
                            <title>Blätter von Aleph bis Kuf (1801)</title>
                         </bibl>
                      </listBibl>
@@ -202,9 +221,8 @@
                   komme wahrscheinlich<note corresp="#IV_130-3">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-009291">
-                           <author>Nicolai (Nikolai), Christoph Friedrich (1733-1811),
-                              Schriftsteller und Verleger (Werk, Hrsg.)</author>
-                           <title>Allgemeine deutsche Bibliothek (1765-1796, 1793-1806 Neue)</title>
+                           <author>Nicolai, Christoph Friedrich (1733–1811) (Hrsg.)</author>
+                           <title>Allgemeine deutsche Bibliothek (1765–1796, 1793–1806 Neue)</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -212,11 +230,11 @@
                   Neuigkeiten von <hi rendition="#aq">Weisse, Feind,<note corresp="#IV_130-4">
                         <listPerson type="lineReference">
                            <person corresp="#JP-001047">
-                              <persName> Johann Gottlob <name type="reg">Feind</name>
+                              <persName>Johann Gottlob <name type="reg">Feind</name>
                               </persName>
                            </person>
                            <person corresp="#JP-004639">
-                              <persName> Christian Felix <name type="reg">Weiße</name>
+                              <persName>Christian Felix <name type="reg">Weiße</name>
                               </persName>
                            </person>
                         </listPerson>
@@ -230,7 +248,7 @@
                   recht in Mark<note corresp="#IV_130-5">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003248">
-                           <persName> Ernst <name type="reg">Platner</name>
+                           <persName>Ernst <name type="reg">Platner</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -248,7 +266,7 @@
                   <p> Die Gräfin hat alles erhalten und grüsset und dankt.<note corresp="#IV_130-9">
                         <listPerson type="lineReference">
                            <person corresp="#JP-003964">
-                              <persName> Auguste Sophie Henriette <name type="reg">Schwendler</name>
+                              <persName>Henriette <name type="reg">Schwendler</name>
                               </persName>
                            </person>
                         </listPerson>
@@ -269,10 +287,15 @@
                <lb/>Fr. In der Petersstrasse. <hi rendition="#aq">
                   <hi rendition="#i">K</hi>:</hi> 20 J. Thieriot. <hi rendition="#aq">
                   <hi rendition="#i">J</hi>: Denkw. 1,435×.<lb/>
-                  <hi rendition="#i">B</hi>: IV. Abt., IV, Nr. 175? <hi rendition="#i">A</hi>: IV.
-                  Abt., IV, Nr.</hi>
+                  <hi rendition="#i">B</hi>: IV. Abt., 4, Nr. 175? <hi rendition="#i">A</hi>: IV. Abt., 4, Nr.</hi>
                <hi rendition="#aq">207. </hi>
-               <hi rendition="#b"><hi rendition="#aq">129</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">14</hi></hi> Phönix] <hi rendition="#aq">danach</hi> (Mspt) <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">129</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">14</hi>
+               </hi> Phönix] <hi rendition="#aq">danach</hi> (Mspt) <hi rendition="#aq">
                   <hi rendition="#i">K</hi>
                </hi>
                <hi rendition="#rkd">20</hi> kan]<lb/>
@@ -288,13 +311,25 @@
                <lb/>in einem] <hi rendition="#aq">aus</hi> im <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">130</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">6</hi></hi> über] auf <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">130</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">6</hi>
+               </hi> über] auf <hi rendition="#aq">
                   <hi rendition="#i">K</hi>
                </hi>
             </p>
             <lb/>
             <p>
-               <hi rendition="#b"><hi rendition="#aq">129</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">13</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">129</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">13</hi>
+               </hi>
                <hi rendition="#aq">f. Thieriot hatte den geplanten Roman aufgegeben. <hi rendition="#rkd">26</hi>f. Die<lb/>23. Jobelperiode (Lianens Tod).</hi>
             </p>
             <lb/>

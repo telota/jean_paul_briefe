@@ -3,7 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title n="print" type="letter" rend="9">9. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, 15. Januar 1809.</title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth, 15. Januar 1809, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,16 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>3</num><num>4</num></biblScope><biblScope n="comment" unit="page"><num>423</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>3</num>
+                  <num>4</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>423</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -68,24 +77,40 @@
             </msDesc>
             <listPerson type="commentary">
                <person corresp="#JP-000384">
-                  <persName> Gebhard Leberecht von, Fürst von Wahlstatt <name type="reg">Blücher</name>
+                  <persName>
+                     <name type="reg">Gebhard Leberecht von Blücher, Fürst von Wahlstatt</name>
                   </persName>
                </person>
                <person corresp="#JP-004378">
-                  <persName> Rosalie von <name type="reg">Ungern-Sternberg</name>
+                  <persName>Rosalie Freifrau von <name type="reg">Ungern-Sternberg</name>
                   </persName>
                </person>
             </listPerson>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1809-01-15">15. Januar 1809</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_8"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0552"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_8"/><ptr type="next" subtype="brief" target="VI_10"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_7"/><ptr type="next" subtype="brief" target="VI_11"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_8"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_1"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_8"/>
+               <ptr type="next" subtype="brief" target="VI_10"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_7"/>
+               <ptr type="next" subtype="brief" target="VI_11"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -102,7 +127,7 @@
             <p>Guten Morgen! Bei dir — und bei Emanuel — spitzte ich mich<note corresp="#VI_3-27">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003087">
-                        <persName> Emanuel <name type="reg">Osmund</name>
+                        <persName>Emanuel <name type="reg">Osmund</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -111,8 +136,7 @@
                   bloßen<lb xml:id="VI_3-28"/> Nachsicht wegzukommen. An <hi rendition="#aq">Golz</hi> schrieb ich, er möchte den<note corresp="#VI_3-29">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001363" ana="†">
-                        <persName> Karl Friedrich Heinrich Graf von der <name type="reg">Goltz
-                           </name>
+                        <persName>Karl Friedrich Heinrich Graf von der <name type="reg">Goltz</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -122,7 +146,7 @@
                   <listPerson type="lineReference">
                      <person corresp="#JP-004729" ana="†">
                         <persName>
-                           <name type="reg">Wilhelm</name>
+                           <name type="reg">Wilhelm Prinz von Preußen</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -137,7 +161,7 @@
                Theologen; daher schick’ ich dir feinen Brief mit meiner N. S. für<note corresp="#VI_4-4">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003809">
-                        <persName> Johann Ernst Christian <name type="reg">Schmidt</name>
+                        <persName>Johann Ernst Christian <name type="reg">Schmidt</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -147,12 +171,11 @@
                <note corresp="#VI_4-5">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002022">
-                        <persName>
-                           <name type="reg">Kanne</name>
+                        <persName>Johann Arnold <name type="reg">Kanne</name>
                         </persName>
                      </person>
                      <person corresp="#JP-002021">
-                        <persName> Johann Arnold <name type="reg">Kanne</name>
+                        <persName>Johann Arnold <name type="reg">Kanne</name>
                         </persName>
                      </person>
                   </listPerson>

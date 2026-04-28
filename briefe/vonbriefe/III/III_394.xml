@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="399">394. An Herder. </title>
-            <title n="digital">Von Jean Paul an Johann Gottfried von Herder. Weimar, 6. Februar 1800.</title>
+            <title n="print" type="letter" rend="394">394. An Herder. </title>
+            <title n="digital">Von Jean Paul an Johann Gottfried Herder. Weimar, 6. Februar 1800, Donnerstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
+               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
                <biblScope n="text" unit="page">
                   <num>290</num>
                   <num>291</num>
@@ -79,13 +79,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1800-02-06">6. Februar 1800</date>
                <placeName key="JP-006395">Weimar</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-001675">Johann Gottfried (seit 1801) von Herder</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="III_392"/><ptr type="next" subtype="brief" target="III_395"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="III_392"/><ptr type="next" subtype="brief" target="III_395"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="III_390"/><ptr type="next" subtype="brief" target="III_401"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-001675">Johann Gottfried Herder</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-III.2_315"/>
+               <ptr type="next" subtype="brief" target="III_395"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="III_392"/>
+               <ptr type="next" subtype="brief" target="III_395"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="III_390"/>
+               <ptr type="next" subtype="anbrief" target="IV-III.2_EB_111"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -103,13 +118,14 @@
             <p>Sie haben mir einen platonischen Morgen gegeben in Dichten und<note corresp="#III_290-36">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003250">
-                        <persName> (Plato) <name type="reg">Platon</name>
+                        <persName>
+                           <name type="reg">Platon</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008693" ana="†">
-                        <author>Herder, Johann Gottfried (seit 1801) von (1744-1803)</author>
+                        <author>Herder, Johann Gottfried von (1744–1803)</author>
                         <title>Kalligone (1800)</title>
                      </bibl>
                   </listBibl>
@@ -145,7 +161,13 @@
                   <hi rendition="#i">K</hi>: <hi rendition="#i">Herder</hi>
                </hi> 6 Feb.<hi rendition="#aq"/>
                <ref target="#p291_l1">
-                  <hi rendition="#b"><hi rendition="#aq">291</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">1</hi></hi>
+                  <hi rendition="#b">
+                     <hi rendition="#aq">291</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">1</hi>
+                  </hi>
                </ref> Wird <hi rendition="#aq">bis</hi>
                <hi rendition="#rkd">2</hi> findet] <hi rendition="#aq">gestr.</hi>
                <lb/>

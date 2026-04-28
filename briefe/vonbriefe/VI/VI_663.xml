@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="665">663. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, Mitte August 1812.</title>
+            <title n="print" type="letter" rend="663">663. An Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth, Mitte August 1812.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>287</num></biblScope><biblScope n="comment" unit="page"><num>542</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>287</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>542</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date notBefore="1812-08-11" notAfter="1812-08-20">Mitte August 1812</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_662"/><ptr type="next" subtype="brief" target="VI_664"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_662"/><ptr type="next" subtype="brief" target="VI_664"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_669"/><ptr type="next" subtype="brief" target="VI_672"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_208"/>
+               <ptr type="next" subtype="brief" target="VI_664"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_662"/>
+               <ptr type="next" subtype="brief" target="VI_664"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_669"/>
+               <ptr type="next" subtype="brief" target="VI_672"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -93,8 +116,7 @@
                mein Wart-System statt des D’reinschlag-Systems, welches erstere<lb n="15" xml:id="VI_287-15"/> ich wenigstens in der Ferne und brieflich beobachte. <hi rendition="#aq">Cotta</hi> willigt<note corresp="#VI_287-16">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000698" ana="†">
-                        <persName> Johann Friedrich Freiherr <name type="reg">Cotta von
-                              Cottendorf</name>
+                        <persName>Johann Friedrich von <name type="reg">Cotta</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -119,7 +141,7 @@
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010281">
                         <author/>
-                        <title>Journal, Politisches (1781-1832)</title>
+                        <title>Journal, Politisches (1781–1832)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -128,7 +150,7 @@
                <note corresp="#VI_287-20">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004569">
-                        <persName> Lorenz Heinrich <name type="reg">Wagner</name>
+                        <persName>Lorenz Heinrich <name type="reg">Wagner</name>
                         </persName>
                      </person>
                   </listPerson>

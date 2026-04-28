@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="273">267. An Gleim. </title>
-            <title n="digital">Von Jean Paul an Johann Wilhelm Ludwig Gleim. Meiningen, 7. Mai 1802.</title>
+            <title n="print" type="letter" rend="267">267. An Gleim. </title>
+            <title n="digital">Von Jean Paul an Johann Wilhelm Ludwig Gleim. Meiningen, 7. Mai 1802, Freitag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,11 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"/><biblScope n="comment" unit="page"/></bibl>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page"/>
+               <biblScope n="comment" unit="page"/>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,14 +73,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1802-05-07">7. Mai 1802</date>
                <placeName key="JP-006012">Meiningen
                </placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-001328">Johann Wilhelm Ludwig Gleim</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB1419"/><ptr type="next" subtype="brief" target="IV_268"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="IV_20-fb"/><ptr type="next" subtype="brief" target="IV_268"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="IV_161"/><ptr type="next" subtype="brief" target="IV_278"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB1419"/>
+               <ptr type="next" subtype="brief" target="IV_268"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="IV_20-fb"/>
+               <ptr type="next" subtype="brief" target="IV_268"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-IV_221"/>
+               <ptr type="next" subtype="brief" target="IV_278"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -106,7 +125,7 @@
                   Frau<note corresp="#IV_147-13">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003469">
-                        <persName> Caroline <name type="reg">Richter</name>
+                        <persName>Caroline <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -116,7 +135,7 @@
                Vater führe.<note corresp="#IV_147-15">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002703">
-                        <persName> Johann Siegfried Wilhelm <name type="reg">Mayer</name>
+                        <persName>Johann Siegfried Wilhelm <name type="reg">Mayer</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -132,19 +151,22 @@
                   meiner<note corresp="#IV_147-18">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001289">
-                        <persName> Herzog von Sachsen-Meiningen <name type="reg">Georg I.</name>
+                        <persName>
+                           <name type="reg">Georg I., Herzog von Sachsen-Meiningen</name>
                         </persName>
                      </person>
                   </listPerson>
                </note>
                <lb xml:id="IV_147-18"/>Braut — denn das bleibt meine Frau.<note corresp="#IV_147-19">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-003469">
-                     <persName> Caroline <name type="reg">Richter</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="IV_147-19"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003469">
+                        <persName>Caroline <name type="reg">Richter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IV_147-19"/>
+            </p>
             <p>Möge dieser Titan meinem herlichen <hi rendition="#aq">Gleim</hi> seelige Inseln
                   der<note corresp="#IV_147-20">
                   <listBibl type="lineReference" subtype="werke-jp">
@@ -172,10 +194,15 @@
                <hi rendition="#aq">271): </hi>Gleim — <hi rendition="#aq">
                   <hi rendition="#i">J</hi>
                   <hi rendition="#sup">1</hi>:<lb/>Körte. <hi rendition="#i">J</hi>
-                  <hi rendition="#sup">2</hi>: Denkw. 3,95×. <hi rendition="#i">B</hi>: IV. Abt.,
-                  IV, Nr. 221. <hi rendition="#i">A</hi>: IV. Abt., IV, Nr.</hi>
+                  <hi rendition="#sup">2</hi>: Denkw. 3,95×. <hi rendition="#i">B</hi>: IV. Abt., 4, Nr. 221. <hi rendition="#i">A</hi>: IV. Abt., 4, Nr.</hi>
                <hi rendition="#aq">235. </hi>
-               <hi rendition="#b"><hi rendition="#aq">147</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">7</hi></hi> Ver<lb rendition="#hyphen"/>ehrtester] <hi rendition="#aq">aus</hi> Verehrter
+               <hi rendition="#b">
+                  <hi rendition="#aq">147</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">7</hi>
+               </hi> Ver<lb rendition="#hyphen"/>ehrtester] <hi rendition="#aq">aus</hi> Verehrter
                   <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>

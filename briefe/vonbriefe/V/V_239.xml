@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="240">239. An Marschall Bernadotte. </title>
-            <title n="digital">Von Jean Paul an Jean Baptiste Jules Bernadotte. Bayreuth, August 1806.</title>
+            <title n="print" type="letter" rend="239">239. An Marschall Bernadotte. </title>
+            <title n="digital">Von Jean Paul an Jean Baptiste Bernadotte. Bayreuth, August 1806.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
+               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
                <biblScope n="text" unit="page">
                   <num>102</num>
                   <num>103</num>
@@ -79,24 +79,35 @@
             </msDesc>
             <listPerson type="commentary">
                <person corresp="#JP-003471">
-                  <persName> Emma <name type="reg">Richter</name>
+                  <persName>Emma <name type="reg">Richter</name>
                   </persName>
                </person>
                <person corresp="#JP-004437">
-                  <persName> Charles <name type="reg">Villers, de</name>
+                  <persName>Charles de <name type="reg">Villers</name>
                   </persName>
                </person>
             </listPerson>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date cert="medium" notBefore="1806-08-01" notAfter="1806-08-31">August 1806</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-000311">Jean Baptiste Jules Bernadotte</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="V_238"/><ptr type="next" subtype="brief" target="V_230"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="V_238"/><ptr type="next" subtype="brief" target="V_230"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000311">Jean Baptiste Bernadotte</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="V_238"/>
+               <ptr type="next" subtype="anbrief" target="IV-V_103"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="V_238"/>
+               <ptr type="next" subtype="brief" target="V_230"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -115,13 +126,15 @@
                <hi rendition="#c">
                   <hi rendition="#aq">Quatre Vérités, deux Esperances et une Demande.</hi>
                </hi>
-            <note corresp="#V_102-24">
-               <listPlace type="lineReference">
-                  <place corresp="#JP-00574612" ana="ff">
-                     <placeName>Sprache, Stil, Schrift; Frankreich, französisch</placeName>
-                  </place>
-               </listPlace>
-            </note><lb xml:id="V_102-24"/></p>
+               <note corresp="#V_102-24">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-011310" ana="ff">
+                        <placeName>Sprache, Stil, Schrift</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="V_102-24"/>
+            </p>
             <milestone rendition="#hr" unit="section"/>
             <p>
                <hi rendition="#c">
@@ -141,7 +154,7 @@
                   <note corresp="#V_102-30">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003849" ana="†">
-                           <persName> Johann Friedrich <name type="reg">Schramm</name>
+                           <persName>Johann Friedrich <name type="reg">Schramm</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -153,7 +166,7 @@
                   <note corresp="#V_102-32">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003469">
-                           <persName> Caroline <name type="reg">Richter</name>
+                           <persName>Caroline <name type="reg">Richter</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -163,8 +176,8 @@
                         que<note corresp="#V_103-1">
                         <listPerson type="lineReference">
                            <person corresp="#JP-003483">
-                              <persName> Johann Paul Friedrich <name type="reg">Richter</name>
-                              </persName>
+                              <persName>
+                                 <name type="reg">Richter</name>, seine Kinder</persName>
                            </person>
                         </listPerson>
                      </note>
@@ -198,8 +211,8 @@
                   <hi rendition="#aq">Quatriéme. La nation françoise a toujours honoré les
                         lettres<note corresp="#V_103-6">
                         <listPlace type="lineReference">
-                           <place corresp="#JP-0057467">
-                              <placeName>Literatur; Frankreich, französisch</placeName>
+                           <place corresp="#JP-011324">
+                              <placeName>Literatur</placeName>
                            </place>
                         </listPlace>
                      </note>
@@ -208,29 +221,30 @@
                         L’Empereur<lb xml:id="V_103-8"/> Napoléon a laissé Göttingen et Heidelberg
                      aux Muses.</hi>
                </item>
-                        <note corresp="#V_103-9">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-002946">
-                     <persName>
-                        <name type="reg">Musen</name>
-                     </persName>
-                  </person>
-                  <person corresp="#JP-002955">
-                     <persName>
-                        <name type="reg">Napoleon I. Bonaparte</name>
-                     </persName>
-                  </person>
-               </listPerson>
-               <listPlace type="lineReference">
-                  <place corresp="#JP-005786">
-                     <placeName>Göttingen</placeName>
-                  </place>
-                  <place corresp="#JP-005819">
-                     <placeName>Heidelberg</placeName>
-                  </place>
-               </listPlace>
-            </note>
-               <lb xml:id="V_103-9"/></list>
+               <note corresp="#V_103-9">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002946">
+                        <persName>
+                           <name type="reg">Musen</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-002955">
+                        <persName>
+                           <name type="reg">Napoleon I. Bonaparte, Kaiser von Frankreich </name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005786">
+                        <placeName>Göttingen</placeName>
+                     </place>
+                     <place corresp="#JP-005819">
+                        <placeName>Heidelberg</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="V_103-9"/>
+            </list>
             <p>
                <hi rendition="#c">
                   <hi rendition="#aq">Esperances</hi>
@@ -243,9 +257,8 @@
                         qu’elle<note corresp="#V_103-11">
                         <listBibl type="lineReference" subtype="werke">
                            <bibl corresp="#JP-008443" ana="†">
-                              <author>Fülleborn, Georg Gustav (1769-1803), Philosoph und
-                                 Philologe</author>
-                              <title>Museum deutscher Gelehrten und Künstler (1801-1803)</title>
+                              <author>Fülleborn, Georg Gustav (1769–1803)</author>
+                              <title>Museum deutscher Gelehrten und Künstler (1801–1803)</title>
                            </bibl>
                         </listBibl>
                      </note>
@@ -260,16 +273,17 @@
                   <hi rendition="#aq">II. J’espere qu’en cas de guerre ma maison ou plûtôt mon<lb n="15" xml:id="V_103-15"/> étude sera exemptée de la charge <hi rendition="#g">d’avoir des troupes en<lb xml:id="V_103-16"/> quartier</hi>
                      et qu’elle demeurera l’asyle de ma Muse.</hi>
                </item>
-                        <note corresp="#V_103-17">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-002946">
-                     <persName>
-                        <name type="reg">Musen</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note>
-               <lb xml:id="V_103-17"/></list>
+               <note corresp="#V_103-17">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002946">
+                        <persName>
+                           <name type="reg">Musen</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="V_103-17"/>
+            </list>
             <p>
                <hi rendition="#c">
                   <hi rendition="#aq">Demande</hi>
@@ -366,11 +380,14 @@
                      wie</add>
                   <lb/>
                   <add resp="#MB" status="unremarkable"> mir Herr Prof. Schoeps in Erlangen
-                     mitteilte, im Gerlachschen Familien<lb rendition="#hyphen"/></add>
+                     mitteilte, im Gerlachschen Familien<lb rendition="#hyphen"/>
+                  </add>
                   <add resp="#MB" status="unremarkable">archiv in Berchtesgaden. Hier ist in einer
-                     Fußnote angegeben, daß die bei<lb rendition="#hyphen"/></add>
+                     Fußnote angegeben, daß die bei<lb rendition="#hyphen"/>
+                  </add>
                   <add resp="#MB" status="unremarkable">gefügte „pièce“ die Broschüre „Bildnisse
-                     merkwürdiger deutscher Schrift<lb rendition="#hyphen"/></add>
+                     merkwürdiger deutscher Schrift<lb rendition="#hyphen"/>
+                  </add>
                   <add resp="#MB" status="unremarkable">steller und Künstler“, Breslau 1799, war
                      (Bibliogr. Nr. 682). Die Brüder</add>
                   <lb/>

@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="219">218. An Frau von Müffling in Bayreuth. </title>
-            <title n="digital">Von Jean Paul an Wilhelmine Müffling. Bayreuth, 17. Mai 1806.</title>
+            <title n="print" type="letter" rend="218">218. An Frau von Müffling in Bayreuth. </title>
+            <title n="digital">Von Jean Paul an Wilhelmine von Müffling. Bayreuth, 17. Mai 1806, Samstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
+               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
                <biblScope n="text" unit="page">
                   <num>91</num>
                </biblScope>
@@ -77,14 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1806-05-17">17. Mai 1806</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-002895">Wilhelmine von Müffling</persName>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="V_217"/><ptr type="next" subtype="brief" target="V_220"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="V_217"/><ptr type="next" subtype="brief" target="V_220"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="V_219"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="V_217"/>
+               <ptr type="next" subtype="brief" target="V_220"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="V_217"/>
+               <ptr type="next" subtype="brief" target="V_220"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="V_219"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -105,7 +119,7 @@
                mir und meiner Frau dankbar zu sein durch eines von uns, wenn wir<note corresp="#V_91-29">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003469">
-                        <persName> Caroline <name type="reg">Richter</name>
+                        <persName>Caroline <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -116,13 +130,15 @@
             <lb xml:id="V_91-32"/>
             <p>Meinen Dank für Abend und Morgen — und meinen herzlichen<lb xml:id="V_91-33"/> Gruß
                an Ihren Gemahl! —<note corresp="#V_91-34">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-002893">
-                     <persName> Friedrich Carl Ferdinand Freiherr von <name type="reg">Müffling</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="V_91-34"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002893">
+                        <persName>Friedrich Carl Ferdinand Freiherr von <name type="reg">Müffling</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="V_91-34"/>
+            </p>
             <closer>
                <salute>
                   <hi rendition="#right">Jean Paul Fr. Richter</hi>
@@ -137,7 +153,13 @@
                   8°; auf der 4. S. Adr.:</hi> An Frau von<lb/> Müffling. <hi rendition="#aq">
                   <hi rendition="#i">K</hi>:</hi> Frau <hi rendition="#aq">
                   <hi rendition="#i">v. Müffling</hi>
-               </hi> 17 Mai. <hi rendition="#b"><hi rendition="#aq">91</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">28</hi></hi>
+               </hi> 17 Mai. <hi rendition="#b">
+                  <hi rendition="#aq">91</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">28</hi>
+               </hi>
                <hi rendition="#aq">f. </hi>erlauben Sie mir und meiner<lb/> Frau] <hi rendition="#aq">aus</hi> glauben [<hi rendition="#aq">aus</hi> wollen] ich und
                meine Frau <hi rendition="#aq">
                   <hi rendition="#i">K</hi>

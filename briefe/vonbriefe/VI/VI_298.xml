@@ -2,9 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="299">298. An Fouqué in Nennhausen. </title>
-            <title n="digital">Von Jean Paul an Friedrich Freiherr de la Motte Fouqué. Bayreuth, 30. Juni
-               1810.</title>
+            <title n="print" type="letter" rend="298">298. An Fouqué in Nennhausen. </title>
+            <title n="digital">Von Jean Paul an Friedrich Freiherr de la Motte Fouqué. Bayreuth, 30. Juni 1810, Samstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -46,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +60,16 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>116</num><num>117</num></biblScope><biblScope n="comment" unit="page"><num>476</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>116</num>
+                  <num>117</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>476</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,12 +77,11 @@
             </msDesc>
             <listPerson type="commentary">
                <person corresp="#JP-001768">
-                  <persName> Julius Eduard <name type="reg">Hitzig</name>
+                  <persName>Julius Eduard <name type="reg">Hitzig</name>
                   </persName>
                </person>
                <person corresp="#JP-004749">
-                  <persName>
-                     <name type="reg">Winterfeld</name>
+                  <persName>Karl Friedrich Gotthelf <name type="reg">Winterfeld</name>
                   </persName>
                </person>
             </listPerson>
@@ -86,15 +93,30 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1810-06-30">30. Juni 1810</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-001138">Friedrich Freiherr de la Motte Fouqué</persName>
                <placeName key="JP-006054">Nennhausen bei
                   Rathenow</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_297"/><ptr type="next" subtype="brief" target="VI_299"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_297"/><ptr type="next" subtype="brief" target="VI_299"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_96"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB1903"/>
+               <ptr type="next" subtype="anbrief" target="IV-IX_2.40"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_297"/>
+               <ptr type="next" subtype="brief" target="VI_299"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_76"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_100"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -111,8 +133,7 @@
             <p>Ihr treffliches Werk hab’ ich erhalten, aber gegen Ihre Ver<note corresp="#VI_116-13">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008411" ana="†">
-                        <author>Fouqué, Friedrich Freiherr de la Motte (Pseud. Pellegrin)
-                           (1777-1843),romantischer Erzähler, Dramatiker und Lyriker</author>
+                        <author>Fouqué, Friedrich Freiherr de la Motte (1777–1843)</author>
                         <title>Der Held des Nordens (1810)</title>
                      </bibl>
                   </listBibl>
@@ -123,7 +144,7 @@
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010265">
                         <author/>
-                        <title>Heidelbergische Jahrbücher der Literatur (1808ff.)</title>
+                        <title>Heidelbergische Jahrbücher der Literatur (1808 ff.) </title>
                      </bibl>
                   </listBibl>
                   <listBibl type="lineReference" subtype="werke-jp">
@@ -141,19 +162,17 @@
             <p>Den Roman Ihrer Gattin, auf welchen mich <hi rendition="#aq">Varnhagen</hi> und<note corresp="#VI_116-20">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003533" ana="†">
-                        <persName> Caroline von <name type="reg">Rochow</name>
+                        <persName>Caroline Freifrau von <name type="reg">Rochow</name>
                         </persName>
                      </person>
                      <person corresp="#JP-004405">
-                        <persName> Karl August <name type="reg">Varnhagen von Ense</name>
+                        <persName>Karl August <name type="reg">Varnhagen von Ense</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009510">
-                        <author>Rochow, Caroline (Karoline) von, geb. von Briest (1775-1831), ab
-                           1803 Fouqué (Pseud. Serena), Schriftstellerin, Ehefrau von Friedrich
-                           Freiherr de la Motte Fouqué</author>
+                        <author>Rochow, Caroline von (1775–1831)</author>
                         <title>Die Frau des Falkensteins (1810)</title>
                      </bibl>
                   </listBibl>
@@ -166,8 +185,7 @@
                   Kräfte<note corresp="#VI_116-23">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000698" ana="†">
-                        <persName> Johann Friedrich Freiherr <name type="reg">Cotta von
-                              Cottendorf</name>
+                        <persName>Johann Friedrich von <name type="reg">Cotta</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -183,14 +201,14 @@
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010313">
                         <author/>
-                        <title>Morgenblatt für gebildete Stände (1807ff.)</title>
+                        <title> Morgenblatt für gebildete Stände (1807 ff.)</title>
                      </bibl>
                   </listBibl>
                </note>
                <lb n="25" xml:id="VI_116-25"/> ist ein neu angehender Buchhändler, <hi rendition="#aq">Schrag,</hi> zugleich reich und<note corresp="#VI_116-26">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003846">
-                        <persName> Johann Leonhard <name type="reg">Schrag</name>
+                        <persName>Johann Leonhard <name type="reg">Schrag</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -202,8 +220,7 @@
                <note corresp="#VI_116-29">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008413">
-                        <author>Fouqué, Friedrich Freiherr de la Motte (Pseud. Pellegrin)
-                           (1777-1843),romantischer Erzähler, Dramatiker und Lyriker</author>
+                        <author>Fouqué, Friedrich Freiherr de la Motte (1777–1843)</author>
                         <title>Sigurd (1808)</title>
                      </bibl>
                   </listBibl>
@@ -231,7 +248,7 @@
                <salute>Ihr und Ihrer Gattin Freund<note corresp="#VI_117-5">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003533">
-                           <persName> Caroline von <name type="reg">Rochow</name>
+                           <persName>Caroline Freifrau von <name type="reg">Rochow</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -258,14 +275,26 @@
                   <hi rendition="#i">H</hi>: JP-Museum, Bayreuth; ehem. Sl.g Apelt, Zittau. 4 S. 8°;
                   die Unterschrift ausgeschnitten und von anderer<lb/> Hand ergänzt. <hi rendition="#i">K</hi> (nach Nr.</hi> 307): Friedrich Baron de la Motte Fouqu<hi rendition="#aq">é.</hi>
                <lb/> Jun. [<hi rendition="#aq">aus</hi> Jul.] 30 datiert. 22 Jul. abgeschickt. <hi rendition="#aq">
-                  <hi rendition="#i">J</hi>: Briefe an Fouqué,<lb/> Berlin 1848, S. 301. <hi rendition="#i">B</hi>: IV. Abt., VI, Nr. 41 und 76. <hi rendition="#i">A</hi>:
-                  IV. Abt., VI, Nr.</hi>
+                  <hi rendition="#i">J</hi>: Briefe an Fouqué,<lb/> Berlin 1848, S. 301. <hi rendition="#i">B</hi>: IV. Abt., 6, Nr. 41 und 76. <hi rendition="#i">A</hi>:
+                  IV. Abt., 6, Nr.</hi>
                <hi rendition="#aq">100. </hi>
-               <hi rendition="#b"><hi rendition="#aq">116</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">25</hi></hi> Aber] <hi rendition="#aq">aus</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">116</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">25</hi>
+               </hi> Aber] <hi rendition="#aq">aus</hi>
                <lb/> Allein <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">117</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">9</hi></hi> wollen] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">117</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">9</hi>
+               </hi> wollen] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">11</hi> hatte <hi rendition="#aq">
                   <hi rendition="#i">H</hi>

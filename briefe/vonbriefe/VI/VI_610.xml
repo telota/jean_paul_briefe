@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="612">610. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, 2. Hälfte Februar 1812.</title>
+            <title n="print" type="letter" rend="610">610. An Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth, 2. Februar 1812, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>251</num></biblScope><biblScope n="comment" unit="page"><num>532</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>251</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>532</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1812-02-02">2. Hälfte Februar 1812</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_609"/><ptr type="next" subtype="brief" target="VI_603"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_609"/><ptr type="next" subtype="brief" target="VI_603"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_596"/><ptr type="next" subtype="brief" target="VI_606"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_609"/>
+               <ptr type="next" subtype="brief" target="VI_603"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_609"/>
+               <ptr type="next" subtype="brief" target="VI_603"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_194"/>
+               <ptr type="next" subtype="brief" target="VI_606"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -103,7 +126,7 @@
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010313">
                         <author/>
-                        <title>Morgenblatt für gebildete Stände (1807ff.)</title>
+                        <title> Morgenblatt für gebildete Stände (1807 ff.)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -111,8 +134,7 @@
                </hi> ab<note corresp="#VI_251-32">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000698">
-                        <persName> Johann Friedrich Freiherr <name type="reg">Cotta von
-                              Cottendorf</name>
+                        <persName>Johann Friedrich von <name type="reg">Cotta</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -123,7 +145,7 @@
                   </listPlace>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008269">
-                        <author>Cotta, Johann Friedrich (Hg.)</author>
+                        <author>Cotta, Johann Friedrich (1764–1832) (Hrsg.)</author>
                         <title>Taschenbuch für Damen auf das Jahr (1798 ff.)</title>
                      </bibl>
                   </listBibl>
@@ -136,27 +158,30 @@
                <lb xml:id="VI_251-32" rendition="#hyphen"/> geht, schickt mir <hi rendition="#aq">Schlegel</hi> sein neues (sehr gutes) Museum, obwol<note corresp="#VI_251-33">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009637">
-                        <author>Schlegel, Friedrich (Werk, Hrsg.)</author>
-                        <title>Deutsches Museum (1812-1813)</title>
+                        <author>Schlegel, Friedrich (1772–1829) (Hrsg.)</author>
+                        <title>Deutsches Museum (1812–1813)</title>
                      </bibl>
                   </listBibl>
                </note>
                <lb xml:id="VI_251-33"/> ohne Brief. Ich werde denn ihm wenigstens etwas jetzt
                ausarbeiten.<note corresp="#VI_251-34">
-               <listBibl type="lineReference" subtype="werke-jp">
-                  <bibl corresp="#JP-010580">
-                     <title>Dämmerungsschmetterlinge oder Sphinxe (1812)</title>
-                  </bibl>
-               </listBibl>
-            </note><lb xml:id="VI_251-34"/></p>
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010580">
+                        <title>Dämmerungsschmetterlinge oder Sphinxe (1812)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_251-34"/>
+            </p>
             <p>Den ganzen vorigen Jahrgang der <hi rendition="#aq">Zeiten</hi> hat der edle
                   J<metamark>[</metamark>ustiz<metamark>]</metamark>
                <note corresp="#VI_251-35">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009985">
-                        <author>Voß, Christian Daniel (1761-1821), Professor der Philosophie in
-                           Halle</author>
-                        <title>Die Zeiten (1805-1820)</title>
+                        <author>Voß, Christian Daniel (1761–1821) Professor der Philosophie in Halle
+                        (Werk, Hrsg.) </author>
+                        <title>Die Zeiten oder Archiv für die neueste Staatengeschichte und Politik
+                        (1805–1820)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -164,7 +189,7 @@
                   Hause.<note corresp="#VI_251-36">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001090">
-                        <persName> Gottfried Theodor Christoph <name type="reg">Fischer</name>
+                        <persName>Gottfried Theodor Christoph <name type="reg">Fischer</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -176,7 +201,13 @@
             <p>
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Berlin JP.</hi>
-               <hi rendition="#b"><hi rendition="#aq">251</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">29</hi></hi> Geist-] <hi rendition="#aq">aus</hi> Geistes-</p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">251</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">29</hi>
+               </hi> Geist-] <hi rendition="#aq">aus</hi> Geistes-</p>
             <lb/>
             <p>
                <hi rendition="#aq">

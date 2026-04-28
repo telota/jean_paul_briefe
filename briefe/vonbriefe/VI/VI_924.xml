@@ -2,9 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="930">924. An Cotta. </title>
-            <title n="digital">Von Jean Paul an Johann Friedrich Freiherr Cotta von Cottendorf. Bayreuth, 14.
-               September 1814.</title>
+            <title n="print" type="letter" rend="924">924. An Cotta. </title>
+            <title n="digital">Von Jean Paul an Johann Friedrich Cotta. Bayreuth, 14. September 1814, Mittwoch.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -46,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +60,16 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>399</num><num>400</num></biblScope><biblScope n="comment" unit="page"><num>585</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>399</num>
+                  <num>400</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>585</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -70,13 +78,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1814-09-14">14. September 1814</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-000698">Johann Friedrich Freiherr Cotta von Cottendorf</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_923"/><ptr type="next" subtype="brief" target="VI_925"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_923"/><ptr type="next" subtype="brief" target="VI_925"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_914"/><ptr type="next" subtype="brief" target="VI_926"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000698">Johann Friedrich von Cotta</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_923"/>
+               <ptr type="next" subtype="brief" target="VI_925"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_923"/>
+               <ptr type="next" subtype="brief" target="VI_925"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_EB_123"/>
+               <ptr type="next" subtype="brief" target="VI_926"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -100,17 +123,19 @@
                   M<metamark>[</metamark>esse<metamark>]</metamark>?</p>
             <lb xml:id="VI_399-31"/>
             <p>Die Herbstblumine bekommen Sie Anfangs Novembers.<note corresp="#VI_399-32">
-               <listBibl type="lineReference" subtype="werke-jp">
-                  <bibl corresp="#JP-010726">
-                     <title>Herbst-Blumine (1810-20)</title>
-                  </bibl>
-               </listBibl>
-            </note><lb xml:id="VI_399-32"/></p>
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010726">
+                        <title>Herbst-Blumine (1810-20)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_399-32"/>
+            </p>
             <p>Da ich mit meinem künftigen Aufsatze für das Morgenblatt ent<note corresp="#VI_399-33">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010313">
                         <author/>
-                        <title>Morgenblatt für gebildete Stände (1807ff.)</title>
+                        <title> Morgenblatt für gebildete Stände (1807 ff.)</title>
                      </bibl>
                   </listBibl>
                   <listBibl type="lineReference" subtype="werke-jp">
@@ -139,13 +164,19 @@
                   <hi rendition="#i">H</hi>: Cotta-Archiv. 1 S. 4°. Präsentat: 21 Sept. 1814, durch
                   Hrn.<lb/> Geh. Sekr. Haug beantwortet. <hi rendition="#i">K</hi>: <hi rendition="#i">Cotta</hi>
                </hi> 18[!] Sept. <hi rendition="#aq">
-                  <hi rendition="#i">A</hi>: IV. Abt., VI, Nr. 251<lb/> (Haug). <hi rendition="#b">399</hi>, <hi rendition="#rkd">25</hi>
+                  <hi rendition="#i">A</hi>: IV. Abt., 6, Nr. 251<lb/> (Haug). <hi rendition="#b">399</hi>, <hi rendition="#rkd">25</hi>
                   <hi rendition="#rkd">14</hi>] aus 16 <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">32</hi> Anfang <hi rendition="#aq">aus</hi> Ende <hi rendition="#aq">
                   <hi rendition="#i">K</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">400</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">1</hi></hi> einen Jahr<lb rendition="#hyphen"/>gang] <hi rendition="#aq">aus</hi> ein Jahr
+               <hi rendition="#b">
+                  <hi rendition="#aq">400</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">1</hi>
+               </hi> einen Jahr<lb rendition="#hyphen"/>gang] <hi rendition="#aq">aus</hi> ein Jahr
                   <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi> einen<hi rendition="#sup">2</hi>] <hi rendition="#aq">aus</hi> eines <hi rendition="#aq">

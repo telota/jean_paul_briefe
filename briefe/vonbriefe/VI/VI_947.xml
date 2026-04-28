@@ -2,8 +2,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="953">947. An Frau von? </title>
-            <title n="digital">Von Jean Paul an unbekannte Korrespondenten. Bayreuth, 5. November 1814.</title>
+            <title n="print" type="letter" rend="947">947. An Frau von? </title>
+            <title n="digital">Von Jean Paul an ein unbekannte Frau. Bayreuth, 5. November 1814,
+               Samstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +46,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +61,16 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>406</num><num>407</num></biblScope><biblScope n="comment" unit="page"><num>588</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>406</num>
+                  <num>407</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>588</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -70,13 +80,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1814-11-05">5. November 1814</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-004373">Korrespondenten Unbekannte</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_946"/><ptr type="next" subtype="brief" target="VI_948"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_946"/><ptr type="next" subtype="brief" target="VI_948"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="umfeldbrief" target="JP-UB1058"/><ptr type="next" subtype="brief" target="VII_80"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-004373">Unbekannt</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_251"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB1932"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_946"/>
+               <ptr type="next" subtype="brief" target="VI_948"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_223"/>
+               <ptr type="next" subtype="brief" target="VII_80"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -100,7 +125,7 @@
                wenden sich nämlich darin an meine Frau mit der Voraussetzung<note corresp="#VI_406-27">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003469" ana="ff">
-                        <persName> Caroline <name type="reg">Richter</name>
+                        <persName>Caroline <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -136,12 +161,12 @@
                meiner Frau auf<note corresp="#VI_407-23">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003469">
-                        <persName> Caroline <name type="reg">Richter</name>
+                        <persName>Caroline <name type="reg">Richter</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003483">
-                        <persName> Johann Paul Friedrich <name type="reg">Richter</name>
-                        </persName>
+                        <persName>
+                           <name type="reg">Richter</name>, seine Kinder</persName>
                      </person>
                   </listPerson>
                </note>
@@ -150,12 +175,11 @@
             <p>H. v. Hutten war noch nicht bei uns. Fr. v. Barner sagt, sie<note corresp="#VI_407-25">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000212">
-                        <persName>
-                           <name type="reg">Barner</name>
+                        <persName>Luise von <name type="reg">Barner</name>
                         </persName>
                      </person>
                      <person corresp="#JP-001873">
-                        <persName> von <name type="reg">Hutten</name>
+                        <persName>Herr von <name type="reg">Hutten</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -176,7 +200,7 @@
             <p>Ich und meine Frau grüßen Sie herzlich und alles was Sie<note corresp="#VI_407-30">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003469">
-                        <persName> Caroline <name type="reg">Richter</name>
+                        <persName>Caroline <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -189,7 +213,13 @@
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Berlin JP, also wohl nicht abgeschickt. 4 S.</hi>
                <hi rendition="#aq">4°. </hi>
-               <hi rendition="#b"><hi rendition="#aq">407</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">23</hi></hi> des<lb/> Schlafens] <hi rendition="#aq">aus</hi> der Schlaf</p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">407</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">23</hi>
+               </hi> des<lb/> Schlafens] <hi rendition="#aq">aus</hi> der Schlaf</p>
          </div>
       </body>
    </text>

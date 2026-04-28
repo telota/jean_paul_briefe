@@ -2,9 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="745">743. An Cotta. </title>
-            <title n="digital">Von Jean Paul an Johann Friedrich Freiherr Cotta von Cottendorf. Bayreuth, 26. März
-               1813.</title>
+            <title n="print" type="letter" rend="743">743. An Cotta. </title>
+            <title n="digital">Von Jean Paul an Johann Friedrich Cotta. Bayreuth, 26. März 1813, Freitag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -46,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>318</num></biblScope><biblScope n="comment" unit="page"><num>555</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>318</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>555</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -70,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1813-03-26">26. März 1813</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-000698">Johann Friedrich Freiherr Cotta von Cottendorf</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_742"/><ptr type="next" subtype="brief" target="VI_744"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_742"/><ptr type="next" subtype="brief" target="VI_744"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_740"/><ptr type="next" subtype="brief" target="VI_747"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000698">Johann Friedrich von Cotta</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_EB_82"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_222"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_742"/>
+               <ptr type="next" subtype="brief" target="VI_744"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_EB_82"/>
+               <ptr type="next" subtype="brief" target="VI_747"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -105,12 +127,14 @@
             <lb xml:id="VI_318-21"/>
             <p>Die Aushängebogen der Vorschule hab’ ich bis zum 29<hi rendition="#sup">ten</hi>
                Bogen.<note corresp="#VI_318-22">
-               <listBibl type="lineReference" subtype="werke-jp">
-                  <bibl corresp="#JP-010970" ana="†">
-                     <title>Vorschule der Aesthetik (1804)</title>
-                  </bibl>
-               </listBibl>
-            </note><lb xml:id="VI_318-22"/></p>
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010970" ana="†">
+                        <title>Vorschule der Aesthetik (1804)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_318-22"/>
+            </p>
             <p>Leben Sie wol.</p>
             <lb xml:id="VI_318-23"/>
             <closer>

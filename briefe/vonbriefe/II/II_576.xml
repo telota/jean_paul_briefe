@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="577">(*) 576. An Charlotte von Kalb in Weimar. </title>
-            <title n="digital">Von Jean Paul an Charlotte von Kalb. Hof, 3. April 1797.</title>
+            <title n="print" type="letter" rend="576">(*) 576. An Charlotte von Kalb in Weimar. </title>
+            <title n="digital">Von Jean Paul an Charlotte von Kalb. Hof, 3. April 1797, Montag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
+               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
                <biblScope n="text" unit="page">
                   <num>316</num>
                </biblScope>
@@ -78,14 +78,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1797-04-03">3. April 1797</date>
                <placeName key="JP-005841">Hof</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-002007">Charlotte von Kalb</persName>
                <placeName key="JP-006395">Weimar</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="II_610"/><ptr type="next" subtype="brief" target="II_577"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="II_610"/><ptr type="next" subtype="brief" target="II_577"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="II_539"/><ptr type="next" subtype="brief" target="II_590"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="II_610"/>
+               <ptr type="next" subtype="anbrief" target="IV-II_EB_96"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="II_610"/>
+               <ptr type="next" subtype="brief" target="II_577"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-II_EB_93"/>
+               <ptr type="next" subtype="anbrief" target="IV-II_EB_96"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -113,13 +128,15 @@
                Phantasie zu und geht <metamark>[</metamark>nur<metamark>]</metamark> fort durch
                Thätigkeit. <metamark>[</metamark>Eine<lb xml:id="II_316-11"/>Reise wäre Ihnen Arznei
                — ach gienge sie doch durch meine Stadt!<metamark>]</metamark>
-            <note corresp="#II_316-12">
-               <listPlace type="lineReference">
-                  <place corresp="#JP-005841">
-                     <placeName>Hof im Vogtland</placeName>
-                  </place>
-               </listPlace>
-            </note><lb xml:id="II_316-12"/></p>
+               <note corresp="#II_316-12">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005841">
+                        <placeName>Hof</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="II_316-12"/>
+            </p>
             <p>— Das ganze Arbeitszeug meines Körpers kan mein Geist noch<lb xml:id="II_316-13"/>20
                Jahre gebrauchen eh’ es zerbricht. Eben löset sich vor meinem<lb xml:id="II_316-14"/>Papier die Abendsonne in erhizten Goldwolken des Abends auf und<lb n="15" xml:id="II_316-15"/>koloriert meine Wünsche <metamark>[</metamark>für meine
                Freundin — damit sie froher sei —<lb xml:id="II_316-16"/>daß sie die Erde besser und
@@ -138,7 +155,13 @@
                   Denkw.</hi>
                <hi rendition="#aq">2,43.</hi>
                <lb/>
-               <hi rendition="#b"><hi rendition="#aq">316</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">7</hi></hi> genialen <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">316</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">7</hi>
+               </hi> genialen <hi rendition="#aq">
                   <hi rendition="#i">i</hi>
                </hi>
             </p>

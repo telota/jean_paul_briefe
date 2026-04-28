@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="648">646. An Karoline Richter. </title>
+            <title n="print" type="letter" rend="646">646. An Karoline Richter. </title>
             <title n="digital">Von Jean Paul an Caroline Richter. Bayreuth, Ende Mai 1812.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>267</num></biblScope><biblScope n="comment" unit="page"><num>537</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>267</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>537</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -74,13 +82,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date notBefore="1812-05-21" notAfter="1812-05-31">Ende Mai 1812</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003469">Caroline Richter</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_643"/><ptr type="next" subtype="brief" target="VI_644"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_643"/><ptr type="next" subtype="brief" target="VI_644"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_494"/><ptr type="next" subtype="brief" target="VI_649"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_643"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB2069"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_643"/>
+               <ptr type="next" subtype="brief" target="VI_644"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_163"/>
+               <ptr type="next" subtype="brief" target="VI_649"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -105,8 +128,7 @@
                      unfrankiert.<note corresp="#VI_267-10">
                      <listPerson type="lineReference">
                         <person corresp="#JP-000698">
-                           <persName> Johann Friedrich Freiherr <name type="reg">Cotta von
-                                 Cottendorf</name>
+                           <persName>Johann Friedrich von <name type="reg">Cotta</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -134,7 +156,7 @@
                <note corresp="#VI_267-22">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003956">
-                        <persName> Johann Salomon Christoph <name type="reg">Schweigger</name>
+                        <persName>Johann Salomon Christoph <name type="reg">Schweigger</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -143,7 +165,7 @@
                <item>9. Da ich bei Buchner auf 1 Monat den Kontrakt aufgehoben<note corresp="#VI_267-23">
                      <listPerson type="lineReference">
                         <person corresp="#JP-000530">
-                           <persName> (Leihbibliothek) <name type="reg">Buchner</name>
+                           <persName>Bibliothekar <name type="reg">Buchner</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -162,7 +184,7 @@
                <note corresp="#VI_267-31">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003112">
-                        <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                        <persName>Georg Christian <name type="reg">Otto</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -181,8 +203,8 @@
                <item>15. Die Kinder haben sich besonders vor dem leicht umfallenden<note corresp="#VI_267-33">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003483">
-                           <persName> Johann Paul Friedrich <name type="reg">Richter</name>
-                           </persName>
+                           <persName>
+                              <name type="reg">Richter</name>, seine Kinder</persName>
                         </person>
                      </listPerson>
                   </note>

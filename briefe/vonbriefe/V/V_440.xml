@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="441">440. An Emanuel. </title>
-            <title n="digital">Von Jean Paul an Emanuel. Bayreuth, 9. Dezember 1807.</title>
+            <title n="print" type="letter" rend="440">440. An Emanuel. </title>
+            <title n="digital">Von Jean Paul an Emanuel. Bayreuth, 9. Dezember 1807, Mittwoch.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
+               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
                <biblScope n="text" unit="page">
                   <num>184</num>
                </biblScope>
@@ -76,20 +76,35 @@
             </msDesc>
             <listPerson type="commentary">
                <person ana="?" corresp="#JP-001713">
-                  <persName> Henriette <name type="reg">Herold</name>
+                  <persName>Henriette <name type="reg">Herold</name>
                   </persName>
                </person>
             </listPerson>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1807-12-09">9. Dezember 1807</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-003087">Emanuel Osmund</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB1788"/><ptr type="next" subtype="brief" target="V_441"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="V_439"/><ptr type="next" subtype="brief" target="V_441"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="V_439"/><ptr type="next" subtype="brief" target="V_441"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000941">Emanuel</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB1788"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB2023"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="V_439"/>
+               <ptr type="next" subtype="brief" target="V_441"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="V_439"/>
+               <ptr type="next" subtype="brief" target="V_441"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -108,7 +123,7 @@
                mich hat mir<note corresp="#V_184-10">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003112" ana="†">
-                        <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                        <persName>Georg Christian <name type="reg">Otto</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -119,11 +134,11 @@
                   Einquartierungs<note corresp="#V_184-11">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003108" ana="?†">
-                        <persName> Amöne (Pseud. Amalie von Obyrn) <name type="reg">Otto</name>
+                        <persName>Amöne <name type="reg">Otto</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003469">
-                        <persName> Caroline <name type="reg">Richter</name>
+                        <persName>Caroline <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -134,7 +149,7 @@
                   Ein<note corresp="#V_184-13">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004275" ana="†">
-                        <persName> Paul Emile <name type="reg">Thieriot</name>
+                        <persName>Paul Emile <name type="reg">Thieriot</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -144,7 +159,7 @@
                   Thieriot.<note corresp="#V_184-15">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003039" ana="†">
-                        <persName> Friedrich Benedikt von <name type="reg">Oertel</name>
+                        <persName>Friedrich Benedikt von <name type="reg">Oertel</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -163,7 +178,13 @@
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: SBa. Präsentat: 9 Dez.</hi>
                <hi rendition="#aq">7. </hi>
-               <hi rendition="#b"><hi rendition="#aq">184</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">14</hi></hi> rettet] <hi rendition="#aq">aus</hi> heilt</p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">184</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">14</hi>
+               </hi> rettet] <hi rendition="#aq">aus</hi> heilt</p>
             <lb/>
             <p>
                <hi rendition="#aq">Die <hi rendition="#g">Schreiben</hi> waren von Otto, s. IV. Abt.

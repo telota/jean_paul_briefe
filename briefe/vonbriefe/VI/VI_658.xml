@@ -2,9 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="660">658. An Cotta. </title>
-            <title n="digital">Von Jean Paul an Johann Friedrich Freiherr Cotta von Cottendorf. Bayreuth, 10. Juli
-               1812.</title>
+            <title n="print" type="letter" rend="658">658. An Cotta. </title>
+            <title n="digital">Von Jean Paul an Johann Friedrich Cotta. Bayreuth, 10. Juli 1812, Freitag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -46,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +60,16 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>284</num><num>285</num></biblScope><biblScope n="comment" unit="page"><num>541</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>284</num>
+                  <num>285</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>541</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -70,13 +78,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1812-07-10">10. Juli 1812</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-000698">Johann Friedrich Freiherr Cotta von Cottendorf</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_657"/><ptr type="next" subtype="brief" target="VI_659"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_657"/><ptr type="next" subtype="brief" target="VI_659"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_631"/><ptr type="next" subtype="brief" target="VI_662"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000698">Johann Friedrich von Cotta</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_657"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_219"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_657"/>
+               <ptr type="next" subtype="brief" target="VI_659"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_EB_69"/>
+               <ptr type="next" subtype="brief" target="VI_662"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -96,7 +119,7 @@
             <p>Hier kommt der Beitrag zum Damenkalender; der einzige Al<note corresp="#VI_284-9">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008269">
-                        <author>Cotta, Johann Friedrich (Hg.)</author>
+                        <author>Cotta, Johann Friedrich (1764–1832) (Hrsg.)</author>
                         <title>Taschenbuch für Damen auf das Jahr (1798 ff.)</title>
                      </bibl>
                   </listBibl>
@@ -114,19 +137,21 @@
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010945">
                         <title>Über schriftstellerische und über priesterliche Sittlichkeit
-                           (1812)</title>
+                        (1812)</title>
                      </bibl>
                   </listBibl>
                </note>
                <lb xml:id="VI_284-13" rendition="#hyphen"/> lichkeit gehört dem <hi rendition="#aq">Morgenblatt.</hi>
-            <note corresp="#VI_284-14">
-               <listBibl type="lineReference" subtype="werke">
-                  <bibl corresp="#JP-010313">
-                     <author/>
-                     <title>Morgenblatt für gebildete Stände (1807ff.)</title>
-                  </bibl>
-               </listBibl>
-            </note><lb xml:id="VI_284-14"/></p>
+               <note corresp="#VI_284-14">
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010313">
+                        <author/>
+                        <title> Morgenblatt für gebildete Stände (1807 ff.)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_284-14"/>
+            </p>
             <p>Über meine neuen Auflagen bin ich in einer, mir fremden Un<lb n="15" xml:id="VI_284-15" rendition="#hyphen"/> bestimmtheit. Die <hi rendition="#g">Levana</hi> hatt’ ich im Frühling vollendet und<note corresp="#VI_284-16">
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010811">
@@ -196,20 +221,22 @@
             <p>Ich bitte Sie um recht baldige und bestimmte Antwort, damit<lb n="15" xml:id="VI_285-15"/> ich endlich mich zu ordnen weiß. Grüßen Sie <hi rendition="#aq">Wangenheim</hi> und den<note corresp="#VI_285-16">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004599">
-                        <persName> Karl August Freiherr von <name type="reg">Wangenheim</name>
+                        <persName>Karl August Freiherr von <name type="reg">Wangenheim</name>
                         </persName>
                      </person>
                   </listPerson>
                </note>
                <lb xml:id="VI_285-16"/> witzigen Schwarzfärber <hi rendition="#aq">Weisser.</hi>
                Leben Sie wol<note corresp="#VI_285-17">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-004649">
-                     <persName> Friedrich Christoph <name type="reg">Weisser</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="VI_285-17"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-004649">
+                        <persName>Friedrich Christoph <name type="reg">Weisser</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_285-17"/>
+            </p>
             <closer>
                <salute>
                   <hi rendition="#right">Ihr ergebenster
@@ -228,7 +255,13 @@
                </hi> d. 10 Jul. 1812. <hi rendition="#aq">
                   <hi rendition="#i">J</hi>:<lb/> Cotta</hi>
                <hi rendition="#aq">1, 389×. </hi>
-               <hi rendition="#b"><hi rendition="#aq">284</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">22</hi></hi> schicklichen <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">284</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">22</hi>
+               </hi> schicklichen <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">25</hi> Meinen <hi rendition="#aq">
@@ -244,7 +277,13 @@
                <hi rendition="#rkd">36</hi> nach <hi rendition="#aq">bis</hi> Artikel] <hi rendition="#aq">aus</hi> nach der ersten<lb/> Nummer <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">285</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">1</hi></hi> Abdruck] <hi rendition="#aq">aus</hi> Druck <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">285</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">1</hi>
+               </hi> Abdruck] <hi rendition="#aq">aus</hi> Druck <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
             </p>

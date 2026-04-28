@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="500">499. An Mohr &amp; Zimmer in Heidelberg. </title>
-            <title n="digital">Von Jean Paul an Buchhandlung Mohr &amp; Zimmer. Bayreuth, 15. März 1808.</title>
+            <title n="print" type="letter" rend="499">499. An Mohr &amp; Zimmer in Heidelberg. </title>
+            <title n="digital">Von Jean Paul an Mohr &amp; Zimmer (Buchhandlung). Bayreuth, 15. März 1808, Dienstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
+               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
                <biblScope n="text" unit="page">
                   <num>204</num>
                </biblScope>
@@ -77,20 +77,35 @@
             <listBibl type="commentary" subtype="werke">
                <bibl corresp="#JP-010321">
                   <author/>
-                  <title>Neuer Anzeiger Literarischer (1806-1808)</title>
+                  <title>Neuer Anzeiger Literarischer (1806–1808)</title>
                </bibl>
             </listBibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1808-03-15">15. März 1808</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-002843">Buchhandlung Mohr &amp; Zimmer</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-002843">Mohr &amp; Zimmer (Buchhandlung)</persName>
                <placeName key="JP-005819">Heidelberg</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="V_498"/><ptr type="next" subtype="brief" target="V_500"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="V_498"/><ptr type="next" subtype="brief" target="V_500"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="V_485"/><ptr type="next" subtype="brief" target="V_61-fb"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="V_498"/>
+               <ptr type="next" subtype="brief" target="V_500"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="V_498"/>
+               <ptr type="next" subtype="brief" target="V_500"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-V_164"/>
+               <ptr type="next" subtype="brief" target="V_61-fb"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -110,7 +125,7 @@
                   aus<note corresp="#V_204-13">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000123" ana="†">
-                        <persName> Johann Christoph <name type="reg">Aretin</name>
+                        <persName>Johann Christoph <name type="reg">Aretin</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -119,7 +134,8 @@
                   so<note corresp="#V_204-14">
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010713" ana="†">
-                        <title>Friedens-Predigt an Deutschland (1808)</title>
+                        <title>Friedens-Predigt an Deutschland (Heidelberg: Mohr und Zimmer
+                        1808)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -142,13 +158,14 @@
                   so bin<note corresp="#V_204-22">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003878" ana="†">
-                           <persName> Caspar Friedrich Freiherr von <name type="reg">Schuckmann</name>
+                           <persName>Kaspar Friedrich Freiherr von <name type="reg">Schuckmann</name>
                            </persName>
                         </person>
                      </listPerson>
                      <listBibl type="lineReference" subtype="werke-jp">
                         <bibl corresp="#JP-010713">
-                           <title>Friedens-Predigt an Deutschland (1808)</title>
+                           <title>Friedens-Predigt an Deutschland (Heidelberg: Mohr und Zimmer
+                        1808)</title>
                         </bibl>
                      </listBibl>
                   </note>

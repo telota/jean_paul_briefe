@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="509">508. An Adolf Heinrich Meltzer in Berlin. </title>
-            <title n="digital">Von Jean Paul an Adolph Heinrich Meltzer. Hof, 13. Januar 1797.</title>
+            <title n="print" type="letter" rend="508">508. An Adolf Heinrich Meltzer in Berlin. </title>
+            <title n="digital">Von Jean Paul an Adolph Heinrich Meltzer. Hof, 13. Januar 1797, Freitag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
+               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
                <biblScope n="text" unit="page">
                   <num>288</num>
                </biblScope>
@@ -78,7 +78,7 @@
             </msDesc>
             <listBibl type="commentary" subtype="werke">
                <bibl corresp="#JP-009493">
-                  <author>Reynolds, Sir Joshua (1723-1792), engl. Porträtmaler</author>
+                  <author>Reynolds, Sir Joshua (1723–1792)</author>
                   <title>Garrick between Tragedy and Comedy (1761)</title>
                </bibl>
             </listBibl>
@@ -90,14 +90,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1797-01-13">13. Januar 1797</date>
                <placeName key="JP-005841">Hof</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-002760">Adolph Heinrich Meltzer</persName>
                <placeName key="JP-005586">Berlin</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="II_507"/><ptr type="next" subtype="brief" target="II_509"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="II_507"/><ptr type="next" subtype="brief" target="II_509"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="II_507"/>
+               <ptr type="next" subtype="anbrief" target="IV-II_167"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="II_507"/>
+               <ptr type="next" subtype="brief" target="II_509"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-II_EB_82"/>
+               <ptr type="next" subtype="anbrief" target="IV-III.1_25"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -131,7 +146,7 @@
                Gehalt des<note corresp="#II_288-25">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001256" ana="†">
-                        <persName> David <name type="reg">Garrick</name>
+                        <persName>David <name type="reg">Garrick</name>
                         </persName>
                      </person>
                   </listPerson>

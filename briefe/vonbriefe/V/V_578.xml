@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="579">578. An Emanuel. </title>
-            <title n="digital">Von Jean Paul an Emanuel. Bayreuth, 3. Oktober 1808.</title>
+            <title n="print" type="letter" rend="578">578. An Emanuel. </title>
+            <title n="digital">Von Jean Paul an Emanuel. Bayreuth, 3. Oktober 1808, Montag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
+               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
                <biblScope n="text" unit="page">
                   <num>239</num>
                </biblScope>
@@ -77,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1808-10-03">3. Oktober 1808</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-003087">Emanuel Osmund</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB1826"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0399"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="V_577"/><ptr type="next" subtype="brief" target="V_65-fb"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="V_576"/><ptr type="next" subtype="brief" target="V_579"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000941">Emanuel</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB1826"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB0399"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="V_577"/>
+               <ptr type="next" subtype="brief" target="V_65-fb"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="V_576"/>
+               <ptr type="next" subtype="brief" target="V_579"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -99,8 +114,8 @@
             <lb xml:id="V_239-12"/>
             <p>Prächtig! Guten Morgen! So ists recht. — Ja, noch 5 ℔, aber<note corresp="#V_239-13">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0062710">
-                        <placeName>Käse; Schweiz</placeName>
+                     <place corresp="#JP-011669">
+                        <placeName>Käse</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -108,7 +123,7 @@
                gegeben. — Die Frage über den<note corresp="#V_239-14">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000819">
-                        <persName> Friedrich Ludwig Ferdinand von <name type="reg">Dobeneck</name>
+                        <persName>Friedrich von <name type="reg">Dobeneck</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -118,18 +133,19 @@
             <p>Sonst tadelten mich die Leute zu sehr, jetzt loben sie zu sehr; aber<note corresp="#V_239-16">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003425" ana="?†">
-                        <persName> Karl Wilhelm <name type="reg">Reinhold</name>
+                        <persName>Carl <name type="reg">Reinhold</name>
                         </persName>
                      </person>
                      <person corresp="#JP-004437" ana="?†">
-                        <persName> Charles <name type="reg">Villers, de</name>
+                        <persName>Charles de <name type="reg">Villers</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010249" ana="?">
-                        <author/>
-                        <title>Georgia, Zeitschrift (Bamberg 1806-1807)</title>
+                        <author><?oxy_comment_start author="roelcke" timestamp="20220919T183730+0200" comment="Ist nicht anonym"?>Kilian,
+                        Conrad Joseph (1771–1811)<?oxy_comment_end?></author>
+                        <title>Georgia, Zeitschrift (Bamberg 1806–1807)</title>
                      </bibl>
                   </listBibl>
                </note>

@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="959">953. An Emanuel. </title>
-            <title n="digital">Von Jean Paul an Emanuel Osmund. Bayreuth, 3. Dezember 1814.</title>
+            <title n="print" type="letter" rend="953">953. An Emanuel. </title>
+            <title n="digital">Von Jean Paul an Emanuel Osmund. Bayreuth, 3. Dezember 1814, Samstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>410</num></biblScope><biblScope n="comment" unit="page"><num>589</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>410</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>589</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1814-12-03">3. Dezember 1814</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003087">Emanuel Osmund</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_968"/><ptr type="next" subtype="brief" target="VI_955"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_968"/><ptr type="next" subtype="brief" target="VI_955"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_950"/><ptr type="next" subtype="brief" target="VI_957"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_EB_127"/>
+               <ptr type="next" subtype="brief" target="VI_955"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_968"/>
+               <ptr type="next" subtype="brief" target="VI_955"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_950"/>
+               <ptr type="next" subtype="brief" target="VI_957"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -92,14 +115,15 @@
             <p>Wieder einmal einen guten Morgen, lieber <hi rendition="#aq">Emanuel!</hi> Ich<lb xml:id="VI_410-3"/> habe fast nur Sabbaths guten Morgen, guten Ruhetag, guten<lb xml:id="VI_410-4"/> Ruhetagabend! — Die Briefe geben Sie <hi rendition="#aq">Otto</hi>. — Hier das Pro<note corresp="#VI_410-5">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003112">
-                        <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                        <persName>Georg Christian <name type="reg">Otto</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010670" ana="†">
-                        <title>Die wenig erwogene Gefahr, die Herrschaften Walchern und Lizelberg zu
-                           gewinnen (1815)</title>
+                        <title>Die wenig erwogene Gefahr, die beyden Herrschaften Walchern und Lizelberg
+                        in der Verloosung am künftigen 30. Juny dieses Jahres zu gewinnen - in einem
+                        Briefwechsel zwischen dem Rektor Seemaus und mir (1815)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -107,8 +131,7 @@
                noch volle 4 Wochen muß ich<note corresp="#VI_410-6">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004572" ana="†">
-                        <persName>
-                           <name type="reg">Walchern</name>
+                        <persName>Herr von <name type="reg">Walchern</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -123,7 +146,7 @@
                er nicht<note corresp="#VI_410-8">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004275" ana="†">
-                        <persName> Paul Emile <name type="reg">Thieriot</name>
+                        <persName>Paul Emile <name type="reg">Thieriot</name>
                         </persName>
                      </person>
                   </listPerson>

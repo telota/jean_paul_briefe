@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="722">721. An Christian Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Hof, 18. Oktober 1797.</title>
+            <title n="print" type="letter" rend="721">721. An Christian Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Hof, 18. Oktober 1797, Mittwoch.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
+               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
                <biblScope n="text" unit="page">
                   <num>382</num>
                </biblScope>
@@ -78,13 +78,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1797-10-18">18. Oktober 1797</date>
                <placeName key="JP-005841">Hof</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="II_716"/><ptr type="next" subtype="brief" target="II_722"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="II_716"/><ptr type="next" subtype="brief" target="II_722"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="II_715"/><ptr type="next" subtype="brief" target="II_722"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-II_241"/>
+               <ptr type="next" subtype="anbrief" target="IV-II_242"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="II_716"/>
+               <ptr type="next" subtype="brief" target="II_722"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="II_715"/>
+               <ptr type="next" subtype="brief" target="II_722"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -103,8 +118,11 @@
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010351">
                         <author/>
-                        <title>Reichs-Anzeiger (Reichsanzeiger) (1793ff.), vorher: Der
-                           Anzeiger(1791-1793), hrsg. von Rudolf Zacharias Becker</title>
+                        <title>Reichs-Anzeiger (Reichsanzeiger) (1793 ff.), vorher: Der Anzeiger
+                        (1791–1793), später: Allgemeiner Anzeiger der Deutschen (1806–1829), hrsg.
+                        von
+                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Rudolf
+                        Zacharias Becker<?oxy_custom_end?></title>
                      </bibl>
                   </listBibl>
                </note>
@@ -115,8 +133,8 @@
                         <title>Bamberger Zeitung</title>
                      </bibl>
                      <bibl corresp="#JP-008098">
-                        <author>Becker, Rudolf Zacharias (Werk, Hrsg.)</author>
-                        <title>Nationalzeitung (Nazionalzeitung) der Teutschen (1796-1829)</title>
+                        <author>Becker, Rudolf Zacharias (Hrsg.)</author>
+                        <title>Nationalzeitung (Nazionalzeitung) der Teutschen (1796–1829)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -125,8 +143,8 @@
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010170">
                         <author/>
-                        <title>Allgemeine Literatur-Zeitung (Literaturzeitung) (Jena 1785ff., ab
-                           1804 Halle)</title>
+                        <title>Allgemeine Literatur-Zeitung (Literaturzeitung) (Jena 1785 ff., ab 1804
+                        Halle)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -134,8 +152,7 @@
                   Ant<note corresp="#II_382-19">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004632" rend="Weinrich">
-                        <persName>
-                           <name type="reg">Weinert</name>
+                        <persName>Speisewirt <name type="reg">Weinert</name>
                         </persName>
                      </person>
                   </listPerson>

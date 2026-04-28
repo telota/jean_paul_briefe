@@ -3,7 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title n="print" type="letter" rend="2">*2. An Karoline Mayer in Berlin. </title>
-            <title n="digital">Von Jean Paul an Caroline Richter. Berlin, 6. Oktober 1800.</title>
+            <title n="digital">Von Jean Paul an Caroline Mayer. Berlin, 6. Oktober 1800, Montag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,11 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"/><biblScope n="comment" unit="page"/></bibl>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page"/>
+               <biblScope n="comment" unit="page"/>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -70,14 +74,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1800-10-06">6. Oktober 1800</date>
                <placeName key="JP-005586">Berlin</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-003469">Caroline Richter</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-011763">Caroline Mayer</persName>
                <placeName key="JP-005586">Berlin</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0631"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0305"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="IV_1"/><ptr type="next" subtype="brief" target="IV_4"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="IV_65"/><ptr type="next" subtype="brief" target="IV_7"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB0631"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB0305"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="IV_1"/>
+               <ptr type="next" subtype="brief" target="IV_4"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="IV_65"/>
+               <ptr type="next" subtype="brief" target="IV_7"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -95,28 +114,30 @@
                voraus Ihre zwei vortreflichen Schwestern und<note corresp="#IV_1-13">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002581">
-                        <persName> Ernestine <name type="reg">Mahlmann</name>
+                        <persName>Ernestine <name type="reg">Mahlmann</name>
                         </persName>
                      </person>
                      <person corresp="#JP-002702">
-                        <persName> Auguste <name type="reg">Mayer</name>
+                        <persName>Auguste <name type="reg">Mayer</name>
                         </persName>
                      </person>
                   </listPerson>
                </note>
                <lb xml:id="IV_1-13"/>Ihren H. Vater. <hi rendition="#aq">Ahlefeldt</hi> komt
                wahrscheinlich mit oder nach.<note corresp="#IV_1-14">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-000044">
-                     <persName> Johann Georg Jacob von <name type="reg">Ahlefeldt</name>
-                     </persName>
-                  </person>
-                  <person corresp="#JP-002703">
-                     <persName> Johann Siegfried Wilhelm <name type="reg">Mayer</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="IV_1-14"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000044">
+                        <persName>Hans Georg von <name type="reg">Ahlefeldt</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-002703">
+                        <persName>Johann Siegfried Wilhelm <name type="reg">Mayer</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="IV_1-14"/>
+            </p>
             <p>
                <hi rendition="#aq">Adio cara!</hi>
                <lb n="15" xml:id="IV_1-15"/>
@@ -131,7 +152,13 @@
          <div type="comment">
             <p>*<hi rendition="#aq">
                   <hi rendition="#i">K</hi> (von Karoline Richters Hand): Fasz. 26. <hi rendition="#i">J</hi>: Wahrheit 6,166<lb/>(undat.).</hi>
-               <hi rendition="#b"><hi rendition="#aq">1</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">11</hi></hi> um 5 Uhr] <hi rendition="#aq">fehlt <hi rendition="#i">J</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">1</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">11</hi>
+               </hi> um 5 Uhr] <hi rendition="#aq">fehlt <hi rendition="#i">J</hi>
                </hi>
                <hi rendition="#rkd">13</hi> trefflichen <hi rendition="#aq">
                   <hi rendition="#i">J</hi>

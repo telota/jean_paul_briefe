@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="525">*521. An Heinrich Voß auf der Bettenburg. </title>
-            <title n="digital">Von Jean Paul an Heinrich Voß. Bayreuth, 20. April 1819.</title>
+            <title n="print" type="letter" rend="521">*521. An Heinrich Voß auf der Bettenburg. </title>
+            <title n="digital">Von Jean Paul an Heinrich Voß. Bayreuth, 20. April 1819, Dienstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
+               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
                <biblScope n="text" unit="page">
                   <num>261</num>
                   <num>262</num>
@@ -79,13 +79,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1819-04-20">20. April 1819</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-004520">Heinrich Voß</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0620"/><ptr type="next" subtype="brief" target="VII_522"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VII_520"/><ptr type="next" subtype="brief" target="VII_522"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VII_517"/><ptr type="next" subtype="brief" target="VII_529"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-VII_176"/>
+               <ptr type="next" subtype="brief" target="VII_522"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VII_520"/>
+               <ptr type="next" subtype="brief" target="VII_522"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VII_517"/>
+               <ptr type="next" subtype="anbrief" target="IV-VII_EB_70"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -106,21 +121,21 @@
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010313">
                         <author/>
-                        <title>Morgenblatt für gebildete Stände (1807ff.)</title>
+                        <title> Morgenblatt für gebildete Stände (1807 ff.)</title>
                      </bibl>
                   </listBibl>
                </note>
                <lb xml:id="VII_261-29"/> halbiert habe. — Auch das <hi rendition="#aq">Weldensche</hi> Drama kommt mit. —<note corresp="#VII_261-30">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004653" ana="†">
-                        <persName> Josephine von <name type="reg">Welden</name>
+                        <persName>Josephine Freifrau von <name type="reg">Welden</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010504">
-                        <title>Allegorische Vorstellung den 19. März 1819, an dem Namensfeste der
-                           Frau Josepha von *** (1820)</title>
+                        <title>Allegorische Vorstellung den 19. März 1819, an dem Namensfeste der Frau
+                        Josepha von *** (1820)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -128,7 +143,7 @@
                meine Frau,<note corresp="#VII_261-31">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003469">
-                        <persName> Caroline <name type="reg">Richter</name>
+                        <persName>Caroline <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -141,15 +156,13 @@
                Deutschen sagen können, dieß sage deinem Truchseß, der beides in<note corresp="#VII_262-5">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004347">
-                        <persName> Christian Freiherr <name type="reg">Truchsess von
-                              Wetzhausen</name>
+                        <persName>Christian Freiherr <name type="reg">Truchsess von Wetzhausen</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0056690">
-                        <placeName>Deutsche; Deutschland , deutsch , Germanien,
-                           Vaterland</placeName>
+                     <place corresp="#JP-011167">
+                        <placeName>Deutsche</placeName>
                      </place>
                   </listPlace>
                </note>

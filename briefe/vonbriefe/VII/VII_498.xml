@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="502">498. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, 22. Januar 1819.</title>
+            <title n="print" type="letter" rend="498">498. An Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth, 22. Januar 1819, Freitag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
+               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
                <biblScope n="text" unit="page">
                   <num>252</num>
                </biblScope>
@@ -77,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1819-01-22">22. Januar 1819</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0543"/><ptr type="next" subtype="umfeldbrief" target="JP-UB1136"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VII_497"/><ptr type="next" subtype="brief" target="VII_499"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VII_489"/><ptr type="next" subtype="brief" target="VII_509"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-VII_163"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB1136"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VII_497"/>
+               <ptr type="next" subtype="brief" target="VII_499"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VII_489"/>
+               <ptr type="next" subtype="brief" target="VII_509"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -101,12 +116,13 @@
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010313">
                         <author/>
-                        <title>Morgenblatt für gebildete Stände (1807ff.)</title>
+                        <title> Morgenblatt für gebildete Stände (1807 ff.)</title>
                      </bibl>
                   </listBibl>
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010949">
-                        <title>Unternacht-Gedanken über den magnetischen Weltkörper (1819)</title>
+                        <title>Unternacht-Gedanken über den magnetischen Weltkörper
+                        (1819)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -117,7 +133,7 @@
                kopierten 2 Briefe an <hi rendition="#aq">Reimer</hi> und den<note corresp="#VII_252-7">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003408">
-                        <persName> Georg Andreas <name type="reg">Reimer</name>
+                        <persName>Georg Andreas <name type="reg">Reimer</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -126,8 +142,7 @@
                noch die erste Todes Anzeige in<note corresp="#VII_252-8">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000698">
-                        <persName> Johann Friedrich Freiherr <name type="reg">Cotta von
-                              Cottendorf</name>
+                        <persName>Johann Friedrich von <name type="reg">Cotta</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -142,7 +157,13 @@
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Berlin JP. Präsentat: Freitag, den 22 Jan.</hi>
                <hi rendition="#aq">1819. </hi>
-               <hi rendition="#b"><hi rendition="#aq">252</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">3</hi></hi> Guter</p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">252</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">3</hi>
+               </hi> Guter</p>
             <lb/>
             <p>
                <hi rendition="#aq">

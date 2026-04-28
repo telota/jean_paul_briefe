@@ -2,9 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="91">90. An Cotta in Tübingen. </title>
-            <title n="digital">Von Jean Paul an Johann Friedrich Freiherr Cotta von Cottendorf. Bayreuth, 8. Mai
-               1809.</title>
+            <title n="print" type="letter" rend="90">90. An Cotta in Tübingen. </title>
+            <title n="digital">Von Jean Paul an Johann Friedrich Cotta. Bayreuth, 8. Mai 1809, Montag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -46,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>30</num></biblScope><biblScope n="comment" unit="page"><num>436</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>30</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>436</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,21 +76,36 @@
             </msDesc>
             <listPerson type="commentary">
                <person corresp="#JP-003087">
-                  <persName> Emanuel <name type="reg">Osmund</name>
+                  <persName>Emanuel <name type="reg">Osmund</name>
                   </persName>
                </person>
             </listPerson>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1809-05-08">8. Mai 1809</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-000698">Johann Friedrich Freiherr Cotta von Cottendorf</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000698">Johann Friedrich von Cotta</persName>
                <placeName key="JP-006358">Tübingen</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB1864"/><ptr type="next" subtype="brief" target="VI_91"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_89"/><ptr type="next" subtype="brief" target="VI_91"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_50"/><ptr type="next" subtype="brief" target="VI_104"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB1864"/>
+               <ptr type="next" subtype="brief" target="VI_91"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_89"/>
+               <ptr type="next" subtype="brief" target="VI_91"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_20"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_24"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -101,7 +123,7 @@
                   das<note corresp="#VI_30-3">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008269">
-                        <author>Cotta, Johann Friedrich (Hg.)</author>
+                        <author>Cotta, Johann Friedrich (1764–1832) (Hrsg.)</author>
                         <title>Taschenbuch für Damen auf das Jahr (1798 ff.)</title>
                      </bibl>
                   </listBibl>
@@ -115,17 +137,19 @@
                   </listBibl>
                </note>
                <lb xml:id="VI_30-3"/> Komische wird den „poetischen Kleinigkeiten“ <hi rendition="#g">vor</hi> gedruckt.<note corresp="#VI_30-4">
-               <listBibl type="lineReference" subtype="werke-jp">
-                  <bibl corresp="#JP-010845">
-                     <title>Poetische Kleinigkeiten (1810)</title>
-                  </bibl>
-               </listBibl>
-            </note><lb xml:id="VI_30-4"/></p>
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010845">
+                        <title>Poetische Kleinigkeiten (1810)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_30-4"/>
+            </p>
             <p>Der Aufsatz über die Posten ist an H. Präsident <hi rendition="#aq">Wangenheim</hi>
                <note corresp="#VI_30-5">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004599">
-                        <persName> Karl August Freiherr von <name type="reg">Wangenheim</name>
+                        <persName>Karl August Freiherr von <name type="reg">Wangenheim</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -134,7 +158,7 @@
                Freunde geschrieben; wollen Sie solchen<note corresp="#VI_30-6">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003087">
-                        <persName> Emanuel <name type="reg">Osmund</name>
+                        <persName>Emanuel <name type="reg">Osmund</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -159,7 +183,7 @@
                   <hi rendition="#aq">Bethmann</hi> auf die muthmaßliche<note corresp="#VI_30-11">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000340">
-                        <persName> Simon Moritz <name type="reg">Bethmann</name>
+                        <persName>Simon Moritz <name type="reg">Bethmann</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -181,7 +205,7 @@
                      ein<note corresp="#VI_30-16">
                      <listPerson type="lineReference">
                         <person corresp="#JP-004405">
-                           <persName> Karl August <name type="reg">Varnhagen von Ense</name>
+                           <persName>Karl August <name type="reg">Varnhagen von Ense</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -198,10 +222,15 @@
                   [beantw.] 30—.<lb/>
                   <hi rendition="#i">K</hi>: <hi rendition="#i">Cotta</hi>
                </hi> 8. Mai. <hi rendition="#aq">
-                  <hi rendition="#i">B</hi>: IV. Abt., VI, Nr. 20. <hi rendition="#i">A</hi>: IV.
-                  Abt., VI, Nr.</hi>
+                  <hi rendition="#i">B</hi>: IV. Abt., 6, Nr. 20. <hi rendition="#i">A</hi>: IV. Abt., 6, Nr.</hi>
                <hi rendition="#aq">24. </hi>
-               <hi rendition="#b"><hi rendition="#aq">30</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">11</hi></hi> auf] <hi rendition="#aq">aus</hi> für <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">30</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">11</hi>
+               </hi> auf] <hi rendition="#aq">aus</hi> für <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
             </p>

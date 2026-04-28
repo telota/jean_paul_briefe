@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="528">523. An Professor Wagner. </title>
-            <title n="digital">Von Jean Paul an Lorenz Heinrich Wagner. Bayreuth, Ohne Datum.</title>
+            <title n="print" type="letter" rend="523">523. An Professor Wagner. </title>
+            <title n="digital">Von Jean Paul an Lorenz Heinrich Wagner. Bayreuth.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>302</num>
                   <num>303</num>
@@ -79,13 +79,25 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-004569">Lorenz Heinrich Wagner</persName>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspContext n="edition"><ptr type="next" subtype="brief" target="VIII_524"/></correspContext><correspContext n="corpus"><ptr type="next" subtype="brief" target="VIII_524"/></correspContext><correspContext n="correspondence"><ptr type="next" subtype="brief" target="VIII_524"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="next" subtype="brief" target="I_1"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="next" subtype="brief" target="I_1"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="next" subtype="anbrief" target="IV-IX_1.31"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -94,8 +106,8 @@
             <p>Guten Morgen! Ich bitte Sie, mir die Stunde <hi rendition="#g">Ihrer</hi>
                   morgend<note corresp="#VIII_302-27">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-00557427">
-                        <placeName>Gymnasium; Bayreuth (Stadt)</placeName>
+                     <place corresp="#JP-011054">
+                        <placeName>Gymnasium</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -106,11 +118,11 @@
                <hi rendition="#aq">Harmonie</hi> noch zur Unwahrheit werde. Ich bin darüber sehr
                   betroffen.<note corresp="#VIII_302-31">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0055741">
-                        <placeName>Harmonie-Gesellschaft; Bayreuth (Stadt)</placeName>
+                     <place corresp="#JP-011035">
+                        <placeName>Harmonie-Gesellschaft</placeName>
                      </place>
-                     <place corresp="#JP-00557443">
-                        <placeName>Rollwenzelei; Bayreuth (Stadt)</placeName>
+                     <place corresp="#JP-011072">
+                        <placeName>Rollwenzelei</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -139,7 +151,13 @@
             <p>
                <hi rendition="#aq">
                   <hi rendition="#g">Prüfungen</hi>: vgl. Nr. 581, Bd. VI, <hi rendition="#b">238</hi>, <hi rendition="#rkd">16–18</hi>, <hi rendition="#b">346</hi>, <hi rendition="#rkd">24</hi>, VII,</hi>
-               <hi rendition="#b"><hi rendition="#aq">87</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">27</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">87</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">27</hi>
+               </hi>
                <hi rendition="#aq">.</hi>
             </p>
          </div>

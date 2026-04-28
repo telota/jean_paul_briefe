@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="236">233. An Christian Otto in Jena. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Jena, 29. März 1799.</title>
+            <title n="print" type="letter" rend="233">233. An Christian Otto in Jena. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Jena, 29. März 1799, Freitag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
+               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
                <biblScope n="text" unit="page">
                   <num>173</num>
                </biblScope>
@@ -77,14 +77,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1799-03-29">29. März 1799</date>
                <placeName key="JP-005875">Jena</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
                <placeName key="JP-005875">Jena</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="III_232"/><ptr type="next" subtype="brief" target="III_20-fb"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="III_232"/><ptr type="next" subtype="brief" target="III_20-fb"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="III_232"/><ptr type="next" subtype="brief" target="III_237"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="III_232"/>
+               <ptr type="next" subtype="brief" target="III_20-fb"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="III_232"/>
+               <ptr type="next" subtype="brief" target="III_20-fb"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="III_232"/>
+               <ptr type="next" subtype="anbrief" target="IV-III.1_175"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -100,8 +115,8 @@
             <lb xml:id="III_173-8"/>
             <p>Dieses Blätgen sol nur mein voriges korrigieren. Logiere in der<lb xml:id="III_173-9"/>Sonne auf dem Markt, wo ich bin und in deren nachbarlichen Hause<note corresp="#III_173-10">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0058756">
-                        <placeName>Gasthof Sonne; Jena</placeName>
+                     <place corresp="#JP-011466">
+                        <placeName>Gasthof Sonne</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -110,7 +125,7 @@
                </hi> logiert. — Mir ist wie einem Kinde, das in der Weih<note corresp="#III_173-11">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002007">
-                        <persName> Charlotte von <name type="reg">Kalb</name>
+                        <persName>Charlotte von <name type="reg">Kalb</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -122,12 +137,11 @@
                wo du unsere <hi rendition="#aq">Titanide</hi> trifst.<note corresp="#III_173-15">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000271">
-                        <persName>
-                           <name type="reg">Beier</name>
+                        <persName>Herr <name type="reg">Beier</name>
                         </persName>
                      </person>
                      <person corresp="#JP-002007">
-                        <persName> Charlotte von <name type="reg">Kalb</name>
+                        <persName>Charlotte von <name type="reg">Kalb</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -157,7 +171,13 @@
             </p>
             <p>
                <ref target="#p173_l11">
-                  <hi rendition="#b"><hi rendition="#aq">173</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">11</hi></hi>
+                  <hi rendition="#b">
+                     <hi rendition="#aq">173</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">11</hi>
+                  </hi>
                </ref>
                <hi rendition="#rkd">
                   <hi rendition="#aq">–13</hi>

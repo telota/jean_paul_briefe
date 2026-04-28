@@ -3,7 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title n="print" type="letter" rend="30">*30. An Oberjustizrat Hornthal (in Würzburg?). </title>
-            <title n="digital">Von Jean Paul an Franz Ludwig von Hornthal. Bayreuth, 7. April 1820.</title>
+            <title n="digital">Von Jean Paul an Franz Ludwig von Hornthal. Bayreuth, 7. April 1820, Freitag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>19</num>
                </biblScope>
@@ -77,7 +77,7 @@
             </msDesc>
             <listPerson type="commentary">
                <person corresp="#JP-001839">
-                  <persName> Jacob Philipp <name type="reg">Hornberger </name>
+                  <persName>Jacob Philipp von <name type="reg">Hornberger</name>
                   </persName>
                </person>
             </listPerson>
@@ -89,14 +89,25 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1820-04-07">7. April 1820</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-001843">Franz Ludwig von Hornthal</persName>
                <placeName key="JP-006422">Würzburg</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0547"/><ptr type="next" subtype="brief" target="VIII_31"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VIII_29"/><ptr type="next" subtype="brief" target="VIII_31"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB0547"/>
+               <ptr type="next" subtype="anbrief" target="IV-VIII_27"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VIII_29"/>
+               <ptr type="next" subtype="brief" target="VIII_31"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -117,7 +128,7 @@
             <p>verzeihen mir, daß ich eine vieljährige geistvolle und leidenvolle Freundin<note corresp="#VIII_19-12">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002007" ana="†">
-                        <persName> Charlotte von <name type="reg">Kalb</name>
+                        <persName>Charlotte von <name type="reg">Kalb</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -130,8 +141,7 @@
                arbeitet für ihre Kinder, nicht für ihren kurzen Wintertag<note corresp="#VIII_19-17">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002010">
-                        <persName>
-                           <name type="reg">Kalb</name>
+                        <persName>Heinrich und Charlotte von <name type="reg">Kalb</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -152,19 +162,21 @@
                      </person>
                   </listPerson>
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0055691">
-                        <placeName>Landtag, Stände; Bayern </placeName>
+                     <place corresp="#JP-011028">
+                        <placeName>Landtag, Stände</placeName>
                      </place>
                   </listPlace>
                </note>
                <lb xml:id="VIII_19-24"/>Muth und Einsicht den Glanz der edelsten Versammlung erhöhen
                   halfen,<lb n="25" xml:id="VIII_19-25"/>die je in München gewesen.<note corresp="#VIII_19-26">
-               <listPlace type="lineReference">
-                  <place corresp="#JP-006040">
-                     <placeName>München</placeName>
-                  </place>
-               </listPlace>
-            </note><lb xml:id="VIII_19-26"/></p>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006040">
+                        <placeName>München</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VIII_19-26"/>
+            </p>
             <closer>
                <salute>
                   <hi rendition="#right">Ihr<lb xml:id="VIII_19-27"/>ergebenster<lb xml:id="VIII_19-28"/>
@@ -183,7 +195,13 @@
                   <hi rendition="#sup">2</hi>: J. L. Klarmann, Geschichte der Familie von Kalb auf
                   Kalbsrieth<lb/>(1902), S.</hi>
                <hi rendition="#aq">503. </hi>
-               <hi rendition="#b"><hi rendition="#aq">19</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">12</hi></hi> vieljährige] <hi rendition="#aq">von J. P. verb. aus</hi> mehrjährige <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">19</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">12</hi>
+               </hi> vieljährige] <hi rendition="#aq">von J. P. verb. aus</hi> mehrjährige <hi rendition="#aq">
                   <hi rendition="#i">K</hi>
                </hi>
                <lb/>19 über] <hi rendition="#aq">von J. P. aus</hi> für <hi rendition="#aq">
@@ -192,13 +210,13 @@
             </p>
             <lb/>
             <p>
-               <hi rendition="#aq">Franz Ludwig von <hi rendition="#g">Hornthal</hi> (1760?—1833)
-                  war Bürgermeister von<lb/>
+               <hi rendition="#aq">Franz Ludwig von <hi rendition="#g">Hornthal</hi> (1763—1833) war
+                  Bürgermeister von<lb/>
                   <hi rendition="#g">Bamberg.</hi> („Würzburg“ beruht möglicherweise auf
                   Verwechslung mit<lb/>Horn<hi rendition="#g">berg,</hi> s. IV. Abt. (Br. an J. P.),
-                  VII, Nr. 128.) — Um diesen Empfehlungsbrief<lb/>hatte Charlotte von <hi rendition="#g">Kalb</hi> in Briefen an Karoline Richter gebeten,<lb/>s. Kalb
+                  7, Nr. 128.) — Um diesen Empfehlungsbrief<lb/> hatte Charlotte von <hi rendition="#g">Kalb</hi> in Briefen an Karoline Richter gebeten,<lb/>s. Kalb
                   Nr. 130 (20. Febr. 1820, nicht 1815; dazu gehören noch unge<lb rendition="#hyphen"/>druckte Blätter v. 8.—11. März) und Nr. 141; Karoline sandte ihr
-                  eine<lb/>Abschrift desselben, s. Kalb Nr. 142. Über Hornthals <hi rendition="#g">Landtags</hi>tätig<lb rendition="#hyphen"/>keit vgl. Bd. VI, zu Nr.</hi>
+                  eine<lb/>Abschrift desselben, s. Kalb Nr. 142. Über Hornthals <hi rendition="#g">Landtags</hi>tätig<lb rendition="#hyphen"/>keit vgl. Bd. 7, zu Nr.</hi>
                <hi rendition="#aq">509.</hi>
             </p>
          </div>

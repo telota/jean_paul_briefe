@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="373">372. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, 28. Oktober 1810.</title>
+            <title n="print" type="letter" rend="372">372. An Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth, 28. Oktober 1810, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>144</num></biblScope><biblScope n="comment" unit="page"><num>489</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>144</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>489</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1810-10-28">28. Oktober 1810</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_371"/><ptr type="next" subtype="umfeldbrief" target="JP-UB1316"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_371"/><ptr type="next" subtype="brief" target="VI_373"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_370"/><ptr type="next" subtype="brief" target="VI_379"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_371"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB1316"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_371"/>
+               <ptr type="next" subtype="brief" target="VI_373"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_370"/>
+               <ptr type="next" subtype="brief" target="VI_379"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -101,7 +124,7 @@
                   <listPerson type="lineReference">
                      <person corresp="#JP-001187">
                         <persName>
-                           <name type="reg">Friedrich Wilhelm III.</name>
+                           <name type="reg">Friedrich Wilhelm III., König von Preußen</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -112,7 +135,8 @@
                Bruder gehabt. Aber<note corresp="#VI_144-8">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001288">
-                        <persName> Erbprinz von Mecklenburg-Strelitz <name type="reg">Georg </name>
+                        <persName>
+                           <name type="reg">Georg Erbprinz von Mecklenburg-Strelitz</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -131,8 +155,7 @@
                   auch<lb xml:id="VI_144-11"/> von dir. — Wahrscheinlich hattest du <hi rendition="#aq">Cotta</hi> etwas geschickt, was<note corresp="#VI_144-12">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000698">
-                        <persName> Johann Friedrich Freiherr <name type="reg">Cotta von
-                              Cottendorf</name>
+                        <persName>Johann Friedrich von <name type="reg">Cotta</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -151,20 +174,21 @@
                      die<note corresp="#VI_144-15">
                      <listPerson type="lineReference">
                         <person corresp="#JP-000819">
-                           <persName> Friedrich Ludwig Ferdinand von <name type="reg">Dobeneck</name>
+                           <persName>Friedrich von <name type="reg">Dobeneck</name>
                            </persName>
                         </person>
                      </listPerson>
                   </note>
                   <lb n="15" xml:id="VI_144-15"/> Magd fort ist.<note corresp="#VI_144-16">
-                  <listPerson type="lineReference">
-                     <person corresp="#JP-000092">
-                        <persName>
-                           <name type="reg">Anna</name>
-                        </persName>
-                     </person>
-                  </listPerson>
-               </note><lb xml:id="VI_144-16"/></p>
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-000092">
+                           <persName>Frau <name type="reg">Anna</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="VI_144-16"/>
+               </p>
             </postscript>
          </div>
          <div type="comment">
@@ -172,7 +196,13 @@
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Berlin JP. Präsentat: Sonntag, den 28 Okt.</hi>
                <hi rendition="#aq">10. </hi>
-               <hi rendition="#b"><hi rendition="#aq">144</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">6</hi></hi> spricht]<lb/>
+               <hi rendition="#b">
+                  <hi rendition="#aq">144</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">6</hi>
+               </hi> spricht]<lb/>
                <hi rendition="#aq">aus</hi> ist <hi rendition="#rkd">7</hi>
                <hi rendition="#aq">f.</hi> nicht auch .. etwas .... gehabt] <hi rendition="#aq">aus</hi> .... nicht .... gewesen<lb/>
                <hi rendition="#rkd">9</hi> gegen <hi rendition="#aq">bis</hi>
@@ -181,7 +211,7 @@
             <lb/>
             <p>
                <hi rendition="#aq">
-                  <hi rendition="#g">Bruder:</hi> der Königin Luise (Georg). <hi rendition="#g">Dobenekschen Brief:</hi> an<lb/> J. P. IV. Abt., VI, Nr.</hi>
+                  <hi rendition="#g">Bruder:</hi> der Königin Luise (Georg). <hi rendition="#g">Dobenekschen Brief:</hi> an<lb/> J. P. IV. Abt., 6, Nr.</hi>
                <hi rendition="#aq">109.</hi>
             </p>
          </div>

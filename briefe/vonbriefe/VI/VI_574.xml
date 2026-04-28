@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="575">574. An Professor Wagner in Bayreuth. </title>
-            <title n="digital">Von Jean Paul an Lorenz Heinrich Wagner. Bayreuth, 7. Dezember 1811.</title>
+            <title n="print" type="letter" rend="574">574. An Professor Wagner in Bayreuth. </title>
+            <title n="digital">Von Jean Paul an Lorenz Heinrich Wagner. Bayreuth, 7. Dezember 1811, Samstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>237</num></biblScope><biblScope n="comment" unit="page"><num>527</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>237</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>527</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -70,14 +78,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1811-12-07">7. Dezember 1811</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-004569">Lorenz Heinrich Wagner</persName>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_573"/><ptr type="next" subtype="brief" target="VI_575"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_573"/><ptr type="next" subtype="brief" target="VI_575"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_590a"/><ptr type="next" subtype="brief" target="VI_674"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB2054"/>
+               <ptr type="next" subtype="brief" target="VI_575"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_573"/>
+               <ptr type="next" subtype="brief" target="VI_575"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_590a"/>
+               <ptr type="next" subtype="brief" target="VI_674"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -120,8 +143,8 @@
                   ich<lb xml:id="VI_237-23"/> noch eine französische Wein-Dryas beigefügt, die eben
                heute ab<note corresp="#VI_237-24">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-00574614">
-                        <placeName>Wein; Frankreich, französisch</placeName>
+                     <place corresp="#JP-011312">
+                        <placeName>Wein</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -138,8 +161,7 @@
                <lb xml:id="VI_237-26"/> mit der westfälischen Potiphar <hi rendition="#aq">(Sus)</hi> gatten und wieder seinen leeren<note corresp="#VI_237-27">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003280">
-                        <persName>
-                           <name type="reg">Potiphar</name>
+                        <persName>Frau <name type="reg">Potiphar</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -168,7 +190,13 @@
             <lb/>
             <p>2. <hi rendition="#aq">
                   <hi rendition="#g">Advent</hi> = 8. Dez. 1811. Vgl. Nr. 479. <hi rendition="#g">Dryas:</hi> wohl statt Trias,<lb/> wie I. Abt., XVI,</hi>
-               <hi rendition="#b"><hi rendition="#aq">19</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">7</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">19</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">7</hi>
+               </hi>
                <hi rendition="#aq">†.</hi>
             </p>
          </div>

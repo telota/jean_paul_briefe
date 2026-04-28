@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="468">461. An Auguste Schlichtegroll in Gotha. </title>
-            <title n="digital">Von Jean Paul an Auguste Schlichtegroll. Coburg, 26. April 1804.</title>
+            <title n="print" type="letter" rend="461">461. An Auguste Schlichtegroll in Gotha. </title>
+            <title n="digital">Von Jean Paul an Auguste Schlichtegroll. Coburg, 26. April 1804, Donnerstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,11 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"/><biblScope n="comment" unit="page"/></bibl>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page"/>
+               <biblScope n="comment" unit="page"/>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -75,14 +79,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1804-04-26">26. April 1804</date>
                <placeName key="JP-005649">Coburg </placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003778">Auguste Schlichtegroll</persName>
                <placeName key="JP-005791">Gotha</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="IV_463"/><ptr type="next" subtype="umfeldbrief" target="JP-UB1539"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="IV_463"/><ptr type="next" subtype="brief" target="IV_43-fb"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="IV_440"/><ptr type="next" subtype="brief" target="V_395"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="IV_463"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB1539"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="IV_463"/>
+               <ptr type="next" subtype="brief" target="IV_43-fb"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-IV_324"/>
+               <ptr type="next" subtype="anbrief" target="IV-IV_344"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -103,7 +122,8 @@
                   ich<note corresp="#IV_287-26">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000943" ana="†">
-                        <persName> August Leopold <name type="reg">Emil</name>
+                        <persName>
+                           <name type="reg">Emil August, Herzog von Sachsen-Gotha und Altenburg</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -114,8 +134,8 @@
                Seelen- und Reise<note corresp="#IV_287-29">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003483">
-                        <persName> Johann Paul Friedrich <name type="reg">Richter</name>
-                        </persName>
+                        <persName>
+                           <name type="reg">Richter</name>, seine Kinder</persName>
                      </person>
                   </listPerson>
                </note>
@@ -124,11 +144,11 @@
                Sie wollen, so ist doch Ihr Antworten ein Geschenk. — Der<lb xml:id="IV_287-31"/>poetische Münz-Wardein (Numismatiker). Meine Frau grüßet Sie<note corresp="#IV_287-32">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003469">
-                        <persName> Caroline <name type="reg">Richter</name>
+                        <persName>Caroline <name type="reg">Richter</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003771" ana="†">
-                        <persName> Adolf Heinrich Friedrich (ab 1808) von <name type="reg">Schlichtegroll</name>
+                        <persName>Friedrich <name type="reg">Schlichtegroll</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -142,8 +162,7 @@
             <p>
                <hi rendition="#aq">
                   <hi rendition="#i">K</hi>:</hi> Die Schlichtegroll 26 Apr. <hi rendition="#aq">
-                  <hi rendition="#i">B</hi>: IV. Abt., IV, Nr. 324. <hi rendition="#i">A</hi>: IV.
-                  Abt., IV, Nr.</hi>
+                  <hi rendition="#i">B</hi>: IV. Abt., 4, Nr. 324. <hi rendition="#i">A</hi>: IV. Abt., 4, Nr.</hi>
                <hi rendition="#aq">344.</hi>
             </p>
             <lb/>

@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="446">445. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, 21. Januar 1811.</title>
+            <title n="print" type="letter" rend="445">445. An Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth, 21. Januar 1811, Montag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>177</num></biblScope><biblScope n="comment" unit="page"><num>501</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>177</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>501</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1811-01-21">21. Januar 1811</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_444"/><ptr type="next" subtype="brief" target="VI_446"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_444"/><ptr type="next" subtype="brief" target="VI_446"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_439"/><ptr type="next" subtype="umfeldbrief" target="JP-UB2041 JP-UB2042"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_444"/>
+               <ptr type="next" subtype="brief" target="VI_446"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_444"/>
+               <ptr type="next" subtype="brief" target="VI_446"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_439"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB2041"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -94,11 +117,11 @@
                   doch<note corresp="#VI_177-28">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003188" ana="†">
-                        <persName> Friedrich Christoph <name type="reg">Perthes</name>
+                        <persName>Friedrich <name type="reg">Perthes</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003190" ana="†">
-                        <persName> Johannes <name type="reg">Perthes</name>
+                        <persName>Johannes <name type="reg">Perthes</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -113,8 +136,8 @@
                   dir geschrieben?<note corresp="#VI_177-35">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-009374" ana="†">
-                           <author>Perthes, Friedrich Christoph (Werk, Hrsg.)</author>
-                           <title>Vaterländisches Museum (Hamburg 1810-1811)</title>
+                           <author>Perthes, Friedrich Christoph (Hrsg.)</author>
+                           <title>Vaterländisches Museum (Hamburg 1810–1811)</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -123,23 +146,25 @@
                eines solchen Friedens. Auch mir<lb n="30" xml:id="VI_177-30"/> gehen die Marschälle
                im Kopfe herum, ob ich gleich nicht daran<lb xml:id="VI_177-31"/> glaube. Wer 4
                Könige und 1 Pabst abgesetzt, kann indeß viel probieren.<note corresp="#VI_177-32">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-002955">
-                     <persName>
-                        <name type="reg">Napoleon I. Bonaparte</name>
-                     </persName>
-                  </person>
-                  <person corresp="#JP-003241">
-                     <persName>
-                        <name type="reg">Pius VII.</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="VI_177-32"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-002955">
+                        <persName>
+                           <name type="reg">Napoleon I. Bonaparte, Kaiser von Frankreich </name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003241">
+                        <persName>
+                           <name type="reg">Pius VII.</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_177-32"/>
+            </p>
             <p>Ich sende dir, damit ich doch nicht allein darüber urtheile, <hi rendition="#aq">Do<note corresp="#VI_177-33">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-008303">
-                           <author>Dobeneck, Friedrich Ludwig Ferdinand von (1770-1810),</author>
+                           <author>Dobeneck, Friedrich Ludwig Ferdinand von (1770–1810),</author>
                            <title>Des deutschen Mittelalters Volksglauben (1815)</title>
                         </bibl>
                      </listBibl>

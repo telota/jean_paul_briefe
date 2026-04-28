@@ -3,7 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title n="print" type="letter" rend="444">444. An Helene Köhler. </title>
-            <title n="digital">Von Jean Paul an Helene Köhler. Hof, 6. Oktober 1793. </title>
+            <title n="digital">Von Jean Paul an Helene Köhler. Hof, 6. Oktober 1793, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="I">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
+               <title n="I">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
                <biblScope n="text" unit="page">
                   <num>404</num>
                </biblScope>
@@ -77,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1793-10-06">6. Oktober 1793</date>
                <placeName key="JP-005841">Hof</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-000824">Helene Dobrowolsky</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="I_443"/><ptr type="next" subtype="brief" target="I_445"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="I_443"/><ptr type="next" subtype="brief" target="I_445"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="I_442"/><ptr type="next" subtype="brief" target="II_143"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-011764">Helene Köhler</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="I_443"/>
+               <ptr type="next" subtype="anbrief" target="IV-I_EB_53"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="I_443"/>
+               <ptr type="next" subtype="brief" target="I_445"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="I_442"/>
+               <ptr type="next" subtype="brief" target="II_143"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -109,7 +124,7 @@
             <p>Ihr Briefgen nimt ein Paar Wolken aus dem aschgrauen Himmel <lb xml:id="I_404-11"/>heraus und giebt ihm Eine blaue Stelle wieder. Da er aber heute noch <lb xml:id="I_404-12"/>nicht ganz heiter ist: so werd’ ich und <hi rendition="#aq">Otto</hi> keinen andern als einen <note corresp="#I_404-13">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003112">
-                        <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                        <persName>Georg Christian <name type="reg">Otto</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -126,11 +141,11 @@
                einem Spiegel, neben der <lb n="15" xml:id="I_404-15"/> kleinen <hi rendition="#aq">Louise</hi> und auf dem Ottoischen Spiegeltische schreibe, daß ich, <note corresp="#I_404-16">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003112">
-                        <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                        <persName>Georg Christian <name type="reg">Otto</name>
                         </persName>
                      </person>
                      <person corresp="#JP-004244" ana="†">
-                        <persName> Louise <name type="reg">Tauchert</name>
+                        <persName>Louise <name type="reg">Tauchert</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -161,7 +176,13 @@
             </p>
             <lb/>
             <p>
-               <hi rendition="#b"><hi rendition="#aq">404</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">14</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">404</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">14</hi>
+               </hi>
                <hi rendition="#aq">
                   <hi rendition="#g">Krötenhof:</hi> s. <hi rendition="#b">350</hi>, <hi rendition="#rkd">10</hi>†. <hi rendition="#rkd">16</hi>
                   <hi rendition="#g">Louise:</hi> ein Pflegekind der Ottos, <lb/>nach Otto 3,354

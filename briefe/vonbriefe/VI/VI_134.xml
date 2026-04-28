@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="135">134. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, 11. August 1809.</title>
+            <title n="print" type="letter" rend="134">134. An Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth, 11. August 1809, Freitag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>45</num></biblScope><biblScope n="comment" unit="page"><num>443</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>45</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>443</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1809-08-11">11. August 1809</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_133"/><ptr type="next" subtype="brief" target="VI_135"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_133"/><ptr type="next" subtype="brief" target="VI_135"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_132"/><ptr type="next" subtype="brief" target="VI_142"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_28"/>
+               <ptr type="next" subtype="brief" target="VI_135"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_133"/>
+               <ptr type="next" subtype="brief" target="VI_135"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_132"/>
+               <ptr type="next" subtype="brief" target="VI_142"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -101,7 +124,7 @@
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010313">
                         <author/>
-                        <title>Morgenblatt für gebildete Stände (1807ff.)</title>
+                        <title> Morgenblatt für gebildete Stände (1807 ff.)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -110,7 +133,7 @@
                      durch<note corresp="#VI_45-32">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003471">
-                           <persName> Emma <name type="reg">Richter</name>
+                           <persName>Emma <name type="reg">Richter</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -118,8 +141,7 @@
                   <lb xml:id="VI_45-32"/> hast. Auch schreibe mir dein Wort an <hi rendition="#aq">Cotta</hi> noch einmal, da ich dein Blättchen<note corresp="#VI_45-33">
                      <listPerson type="lineReference">
                         <person corresp="#JP-000698">
-                           <persName> Johann Friedrich Freiherr <name type="reg">Cotta von
-                                 Cottendorf</name>
+                           <persName>Johann Friedrich von <name type="reg">Cotta</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -142,7 +164,13 @@
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Berlin JP. Präsentat: Freitag, den 11 Aug.</hi>
                <hi rendition="#aq">9. </hi>
-               <hi rendition="#b"><hi rendition="#aq">45</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">24</hi></hi> schrieb’</p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">45</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">24</hi>
+               </hi> schrieb’</p>
             <lb/>
             <p>
                <hi rendition="#aq">Mit dem Manuskript des Aufsatzes „Unterschied des Orients

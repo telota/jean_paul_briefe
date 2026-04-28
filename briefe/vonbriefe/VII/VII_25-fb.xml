@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="missingLetter" rend="644"/>
-            <title n="digital">Von Jean Paul an Georg Christoph Köhler. Bayreuth, 16. November 1817.</title>
+            <title n="print" type="missingLetter" rend="25"/>
+            <title n="digital">Von Jean Paul an Georg Christoph Köhler. Bayreuth, 16. November 1817, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
+               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
                <biblScope unit="page">
                   <num>455</num>
                </biblScope>
@@ -74,14 +74,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1817-11-16">16. November 1817</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-002172">Georg Christoph Köhler</persName>
                <placeName key="JP-006085">Nürnberg</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB1342"/><ptr type="next" subtype="brief" target="VII_352"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VII_351"/><ptr type="next" subtype="brief" target="VII_352"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VII_14a-fb"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB1342"/>
+               <ptr type="next" subtype="anbrief" target="IV-VII_EB_49"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VII_351"/>
+               <ptr type="next" subtype="brief" target="VII_352"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VII_EB_34"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -99,7 +113,13 @@
                </hi> d. 16 Nov. Bescheinigung der<lb/>erhaltenen 15 fl. im Jul. — 97 im Nov. und 114
                im Nov. <hi rendition="#aq">Vgl. <hi rendition="#b">119</hi>,<hi rendition="#rkd">17—20</hi>,<lb/>
                   <hi rendition="#b">120</hi>,<hi rendition="#rkd">25</hi>f.,</hi>
-               <hi rendition="#b"><hi rendition="#aq">159</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">27</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">159</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">27</hi>
+               </hi>
                <hi rendition="#aq">.</hi>
             </p>
          </div>

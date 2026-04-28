@@ -3,7 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title n="print" type="letter" rend="51">51. An Oerthel in Leipzig. </title>
-            <title n="digital">Von Jean Paul an Johann Adam Lorenz von Oerthel. Hof, 22. Juni bis 19. Juli 1783. </title>
+            <title n="digital">Von Jean Paul an Adam Lorenz von Oerthel. Hof, 22. Juni 1783, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="I">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
+               <title n="I">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
                <biblScope n="text" unit="page">
                   <num>82</num>
                   <num>83</num>
@@ -89,14 +89,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1783-06-22">22. Juni bis 19. Juli 1783</date>
                <placeName key="JP-005841">Hof</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-003050">Johann Adam Lorenz von Oerthel</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-003050">Adam Lorenz von Oerthel</persName>
                <placeName key="JP-005948">Leipzig</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="I_48"/><ptr type="next" subtype="brief" target="I_49"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="I_48"/><ptr type="next" subtype="brief" target="I_49"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="I_47"/><ptr type="next" subtype="brief" target="I_56"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="I_48"/>
+               <ptr type="next" subtype="brief" target="I_49"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="I_48"/>
+               <ptr type="next" subtype="brief" target="I_49"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-I_16"/>
+               <ptr type="next" subtype="anbrief" target="IV-I_21"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -124,7 +139,8 @@
                Mäzenen sich auch Schellen zu <note corresp="#I_82-28">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002577">
-                        <persName> Gaius Cilnius <name type="reg">Maecenas</name>
+                        <persName>
+                           <name type="reg">Maecenas</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -149,7 +165,7 @@
                dazwischengekommen. Seine Mama schrieb <note corresp="#I_83-10">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003496">
-                        <persName> Sophie Rosine <name type="reg">Richter</name>
+                        <persName>Sophie Rosine <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -161,7 +177,7 @@
                seiner Vaterstad an. Der <note corresp="#I_83-14">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005841">
-                        <placeName>Hof im Vogtland</placeName>
+                        <placeName>Hof</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -169,7 +185,7 @@
                bei seinem Anblik: „der iunge Mensch verachtet <note corresp="#I_83-15">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004635" ana="†">
-                        <persName> Johann Christoph <name type="reg">Weiß</name>
+                        <persName>Johann Christoph <name type="reg">Weiß</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -222,7 +238,7 @@
                iezt vom Doppel<note corresp="#I_84-13">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000850">
-                        <persName> Johann Georg Gottfried <name type="reg">Doppelmaier</name>
+                        <persName>Georg <name type="reg">Doppelmaier</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -233,16 +249,16 @@
                   Spiesglas<note corresp="#I_84-15">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004260">
-                        <persName> Johann Christian Anton <name type="reg">Theden</name>
+                        <persName>Johann Christian Anton <name type="reg">Theden</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008305">
-                        <author>Doppelmaier (Doppelmair, Doppelmayer), Johann Georg Gottfried
-                           (1753-1826), Arzt in Schwarzenbach a. d. Saale, später in
-                           Russland</author>
-                        <title>Über Spiesglastinktur (1783)</title>
+                        <author>Doppelmaier, Johann Georg Gottfried (1753–1826)</author>
+                        <title>Abhandlung und Bemerkungen über die vom Herrn Generalchirurgus Theden in
+                        Berlin bekannt gemachte Spiesglastinktur von einem Schüler aus der
+                        Gesellschaft wahrer und ächter Naturforscher (Amsterdam 1783)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -268,7 +284,7 @@
                Doppelmaier. <note corresp="#I_84-19">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001098">
-                        <persName> Michael Abraham <name type="reg">Fischer</name>
+                        <persName>Michael Abraham <name type="reg">Fischer</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -287,7 +303,7 @@
                      <listBibl type="lineReference" subtype="werke-jp">
                         <bibl corresp="#JP-010724">
                            <title>Grönländische Prozesse, oder Satirische Skizzen (1783,
-                              1822)</title>
+                        1822)</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -297,9 +313,8 @@
                darüber <note corresp="#I_84-31">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009291" ana="†">
-                        <author>Nicolai (Nikolai), Christoph Friedrich (1733-1811), Schriftsteller
-                           und Verleger (Werk, Hrsg.)</author>
-                        <title>Allgemeine deutsche Bibliothek (1765-1796, 1793-1806 Neue)</title>
+                        <author>Nicolai, Christoph Friedrich (1733–1811) (Hrsg.)</author>
+                        <title>Allgemeine deutsche Bibliothek (1765–1796, 1793–1806 Neue)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -356,7 +371,8 @@
                Voltaire ein, der alle grosse Männer <note corresp="#I_85-24">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004505">
-                        <persName> (François Marie Arouet) <name type="reg">Voltaire</name>
+                        <persName>
+                           <name type="reg">Voltaire</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -421,8 +437,8 @@
                Polypen durch Ab<lb xml:id="I_86-22" rendition="#hyphen"/>schneidung fort. — Was tue
                ich nun, um mich aus dem Schlafe aus<lb xml:id="I_86-23" rendition="#hyphen"/>zumuntern? Ich wil stat einen troianischen Pegasus zu schnizen, einen <note corresp="#I_86-24">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0063560" rend="Pferd">
-                        <placeName>Trojanischer Krieg; Troja</placeName>
+                     <place corresp="#JP-011691" rend="Pferd">
+                        <placeName>Trojanischer Krieg</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -431,8 +447,8 @@
                   nürnbergischen Pferdgen.<lb n="35" xml:id="I_86-35"/>
                </note> machen, dessen ganze Harmonie im Schwanz <note corresp="#I_86-25">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0060853">
-                        <placeName>Spielzeug; Nürnberg</placeName>
+                     <place corresp="#JP-011578">
+                        <placeName>Spielzeug</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -443,11 +459,12 @@
                   <listPerson type="lineReference">
                      <person corresp="#JP-001181">
                         <persName>
-                           <name type="reg">Friedrich II.</name>
+                           <name type="reg">Friedrich II., König von Preußen</name>
                         </persName>
                      </person>
                      <person corresp="#JP-004505">
-                        <persName> (François Marie Arouet) <name type="reg">Voltaire</name>
+                        <persName>
+                           <name type="reg">Voltaire</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -474,7 +491,7 @@
                anpreiset. Die Pointen <note corresp="#I_87-2">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004834">
-                        <persName> Edward <name type="reg">Young</name>
+                        <persName>Edward <name type="reg">Young</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -486,7 +503,7 @@
                   <listPerson type="lineReference">
                      <person corresp="#JP-001181">
                         <persName>
-                           <name type="reg">Friedrich II.</name>
+                           <name type="reg">Friedrich II., König von Preußen</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -500,8 +517,8 @@
                zu <lb xml:id="I_87-7"/>siegen und springst gleich den englischen Bereitern, die ich
                mit Örtheln <note corresp="#I_87-8">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0057150">
-                        <placeName>Bereiter; England, englisch, Britannien</placeName>
+                     <place corresp="#JP-011236">
+                        <placeName>Bereiter</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -549,8 +566,8 @@
                des Schlafs werden Väter des Schlafs. — So was nenn’ ich <lb xml:id="I_87-28"/>Hausmanskost — denn warlich du bekomst meine Briefe (selbst das <lb xml:id="I_87-29"/>französische Postskript) aus der <hi rendition="#g">ersten</hi>
                Hand, und ich mundire sie zwar <note corresp="#I_87-30">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-00574612">
-                        <placeName>Sprache, Stil, Schrift; Frankreich, französisch</placeName>
+                     <place corresp="#JP-011310">
+                        <placeName>Sprache, Stil, Schrift</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -559,7 +576,7 @@
                Hausmanskost fält mir deine Frau Mutter ein. Sie <note corresp="#I_87-32">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003053">
-                        <persName> Margarete Justine von <name type="reg">Oerthel</name>
+                        <persName>Margarete Justine von <name type="reg">Oerthel</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -606,7 +623,7 @@
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008905" ana="†">
-                        <author>Keller, Heinrich (1758-1788), Theologe</author>
+                        <author>Keller, Heinrich (1758–1788)</author>
                         <title>Über Pfafferei und Religion (1783)</title>
                      </bibl>
                   </listBibl>
@@ -615,7 +632,7 @@
                er ihn <note corresp="#I_88-9">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004011">
-                        <persName> Johann Conrad <name type="reg">Seiler</name>
+                        <persName>Johann Conrad <name type="reg">Seiler</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -732,7 +749,7 @@
                   <listPerson type="lineReference">
                      <person corresp="#JP-000110">
                         <persName>
-                           <name type="reg">Apollo </name>
+                           <name type="reg">Apollo</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -741,7 +758,7 @@
                Wiz und Gold reifet. <note corresp="#I_90-18">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003273">
-                        <persName> Alexander <name type="reg">Pope</name>
+                        <persName>Alexander <name type="reg">Pope</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -766,7 +783,8 @@
                meinen chirurgischen <note corresp="#I_90-26">
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010724">
-                        <title>Grönländische Prozesse, oder Satirische Skizzen (1783, 1822)</title>
+                        <title>Grönländische Prozesse, oder Satirische Skizzen (1783,
+                        1822)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -805,7 +823,7 @@
                   <listPerson type="lineReference">
                      <person corresp="#JP-004048">
                         <persName>
-                           <name type="reg">Sisyphus </name>
+                           <name type="reg">Sisyphus</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -828,18 +846,18 @@
                   Ver<note corresp="#I_91-10">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002796">
-                        <persName> Carl Johann Albrecht <name type="reg">Meyer </name>
+                        <persName>Carl Johann Albrecht <name type="reg">Meyer</name>
                         </persName>
                      </person>
                      <person corresp="#JP-004424" ana="†">
-                        <persName> Johann Gottlieb <name type="reg">Vierling</name>
+                        <persName>Johann Gottlieb <name type="reg">Vierling</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010948" ana="†">
-                        <title>Unpartheiische (Unparteiische) Beleuchtung (...) der vorzüglichsten
-                           Einwürfe [gegen die Existenz des Teufels, 1784-85]</title>
+                        <title>Unpartheiische (Unparteiische) Beleuchtung (...) der
+                        vorzüglichsten Einwürfe [gegen die Existenz des Teufels, 1784-85]</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -850,13 +868,14 @@
                man, <note corresp="#I_91-13">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002169">
-                        <persName> Franz August <name type="reg">Köhler</name>
+                        <persName>Franz August <name type="reg">Köhler</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010724">
-                        <title>Grönländische Prozesse, oder Satirische Skizzen (1783, 1822)</title>
+                        <title>Grönländische Prozesse, oder Satirische Skizzen (1783,
+                        1822)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -868,7 +887,7 @@
                dum, daß es nicht nur keine Ere ist, von <note corresp="#I_91-18">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005841">
-                        <placeName>Hof im Vogtland</placeName>
+                        <placeName>Hof</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -877,7 +896,7 @@
                ich ein <note corresp="#I_91-20">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004474">
-                        <persName> Erhard Friedrich <name type="reg">Vogel</name>
+                        <persName>Erhard Friedrich <name type="reg">Vogel</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -922,7 +941,7 @@
                         </persName>
                      </person>
                      <person corresp="#JP-000564">
-                        <persName> Gaius Julius <name type="reg">Caesar </name>
+                        <persName>Gaius Julius <name type="reg">Caesar</name>
                         </persName>
                      </person>
                      <person corresp="#JP-000569">
@@ -945,7 +964,7 @@
                ein Gespenst. — Liskov ist <note corresp="#I_92-4">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002480">
-                        <persName> Christian Ludwig <name type="reg">Liscow</name>
+                        <persName>Christian Ludwig <name type="reg">Liscow</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -954,11 +973,11 @@
                Swiften; <note corresp="#I_92-5">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003334">
-                        <persName> Gottlieb Wilhelm <name type="reg">Rabener</name>
+                        <persName>Gottlieb Wilhelm <name type="reg">Rabener</name>
                         </persName>
                      </person>
                      <person corresp="#JP-004223">
-                        <persName> Jonathan <name type="reg">Swift</name>
+                        <persName>Jonathan <name type="reg">Swift</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -978,15 +997,27 @@
                <hi rendition="#aq">,</hi>
                <hi rendition="#rkd">34</hi> [über]dies <hi rendition="#aq">an) fehlt. <hi rendition="#i">K</hi>: 17 [aus</hi>
                <lb/>14]. An Örthel. Den 22. Junius. (<hi rendition="#aq">Die einzelnen Absätze wie
-                  in <hi rendition="#i">H</hi> datiert. <lb/>Vgl. <hi rendition="#b">87</hi>, <hi rendition="#rkd">30</hi>f.) <hi rendition="#i">i</hi> (z. T. <hi rendition="#i">J</hi>)<hi rendition="#sup">1</hi>: Wahrheit 3,206. 232. 252. 355×. <hi rendition="#i">i</hi> (z. T. <hi rendition="#i">J</hi>)<hi rendition="#sup">2</hi>: <lb/>Nachlaß 2,272×. <hi rendition="#i">B</hi>: IV. Abt., I, Nr. 16.
-                     <hi rendition="#i">A</hi>: IV. Abt., I, Nr.</hi>
+                  in <hi rendition="#i">H</hi> datiert. <lb/>Vgl. <hi rendition="#b">87</hi>, <hi rendition="#rkd">30</hi>f.) <hi rendition="#i">i</hi> (z. T. <hi rendition="#i">J</hi>)<hi rendition="#sup">1</hi>: Wahrheit 3,206. 232. 252. 355×. <hi rendition="#i">i</hi> (z. T. <hi rendition="#i">J</hi>)<hi rendition="#sup">2</hi>: <lb/>Nachlaß 2,272×. <hi rendition="#i">B</hi>: IV. Abt., 1, Nr. 16.
+                     <hi rendition="#i">A</hi>: IV. Abt., 1, Nr.</hi>
                <hi rendition="#aq">21. </hi>
-               <hi rendition="#b"><hi rendition="#aq">82</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">22</hi></hi> worin <hi rendition="#aq">bis</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">82</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">22</hi>
+               </hi> worin <hi rendition="#aq">bis</hi>
                <hi rendition="#rkd">24</hi> wonten.] <lb/>worin lauter Narren wonten, stat daß in
                andern nur viele wonen. <hi rendition="#aq">
                   <hi rendition="#i">K</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">83</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">4</hi></hi> in] <lb/>
+               <hi rendition="#b">
+                  <hi rendition="#aq">83</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">4</hi>
+               </hi> in] <lb/>
                <hi rendition="#aq">aus</hi> weit von <hi rendition="#aq">
                   <hi rendition="#i">H</hi>,</hi> weit von <hi rendition="#aq">
                   <hi rendition="#i">K</hi>
@@ -1010,7 +1041,13 @@
                <lb/>die Narheit <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">84</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">4</hi></hi> köntest] <hi rendition="#aq">aus</hi> wirst <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">84</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">4</hi>
+               </hi> köntest] <hi rendition="#aq">aus</hi> wirst <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">12</hi> zu] <hi rendition="#aq">davor gestr.</hi> geglaubt zu

@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="150">144. An Goethe. </title>
-            <title n="digital">Von Jean Paul an Johann Wolfgang von Goethe. Weimar, 4. Juni 1801.</title>
+            <title n="print" type="letter" rend="144">144. An Goethe. </title>
+            <title n="digital">Von Jean Paul an Johann Wolfgang von Goethe. Weimar, 4. Juni 1801, Donnerstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,11 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"/><biblScope n="comment" unit="page"/></bibl>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page"/>
+               <biblScope n="comment" unit="page"/>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -68,20 +72,35 @@
             </msDesc>
             <listPerson type="commentary">
                <person corresp="#JP-000830">
-                  <persName> Minna <name type="reg">Doerffer</name>
+                  <persName>Wilhelmine <name type="reg">Doerffer</name>
                   </persName>
                </person>
             </listPerson>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date cert="medium" when="1801-06-04">4. Juni 1801</date>
                <placeName key="JP-006395">Weimar</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-001353">Johann Wolfgang von Goethe</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="IV_143"/><ptr type="next" subtype="umfeldbrief" target="JP-UB1028"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="IV_143"/><ptr type="next" subtype="brief" target="IV_145"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="II_119"/><ptr type="next" subtype="brief" target="IV_187"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="IV_143"/>
+               <ptr type="next" subtype="anbrief" target="IV-IV_144"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="IV_143"/>
+               <ptr type="next" subtype="brief" target="IV_145"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-III.1_151"/>
+               <ptr type="next" subtype="brief" target="IV_187"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -98,7 +117,7 @@
             <p>Ew. Hochwohlgeboren erhalten hier die Operette „List, Scherz und<note corresp="#IV_77-11">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001789" ana="†">
-                        <persName> Ernst Theodor Amadeus <name type="reg">Hoffmann</name>
+                        <persName>Ernst Theodor Amadeus <name type="reg">Hoffmann</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -109,11 +128,11 @@
                   </listPlace>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008541" ana="†">
-                        <author>Goethe, Johann Wolfgang von (1749-1832)</author>
+                        <author>Goethe, Johann Wolfgang von (1749–1832)</author>
                         <title>Scherz, List und Rache (1790)</title>
                      </bibl>
                      <bibl corresp="#JP-008756" ana="†">
-                        <author>Hoffmann, Ernst Theodor Amadeus (1776-1822)</author>
+                        <author>Hoffmann, Ernst Theodor Amadeus (1776–1822)</author>
                         <title>Scherz, List und Rache, Komposition (1800)</title>
                      </bibl>
                   </listBibl>
@@ -125,7 +144,7 @@
                andere Kenner gaben<note corresp="#IV_77-15">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003383">
-                        <persName> Johann Friedrich <name type="reg">Reichardt</name>
+                        <persName>Johann Friedrich <name type="reg">Reichardt</name>
                         </persName>
                      </person>
                   </listPerson>

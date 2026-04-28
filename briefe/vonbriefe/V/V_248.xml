@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="249">248. An Vieweg. </title>
-            <title n="digital">Von Jean Paul an Johann Friedrich Vieweg. Bayreuth, 27. September 1806.</title>
+            <title n="print" type="letter" rend="248">248. An Vieweg. </title>
+            <title n="digital">Von Jean Paul an Friedrich Vieweg. Bayreuth, 27. September 1806, Samstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
+               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
                <biblScope n="text" unit="page">
                   <num>106</num>
                   <num>107</num>
@@ -78,13 +78,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1806-09-27">27. September 1806</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-004431">Johann Friedrich Vieweg</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="V_247"/><ptr type="next" subtype="brief" target="V_250"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="V_247"/><ptr type="next" subtype="brief" target="V_250"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="V_242"/><ptr type="next" subtype="brief" target="V_48-fb"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-004431">Friedrich Vieweg</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB4638"/>
+               <ptr type="next" subtype="brief" target="V_250"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="V_247"/>
+               <ptr type="next" subtype="brief" target="V_250"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-V_108"/>
+               <ptr type="next" subtype="anbrief" target="IV-V_EB_25"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -115,7 +130,7 @@
                   Auszüge<note corresp="#V_107-4">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002583">
-                        <persName> Siegfried August <name type="reg">Mahlmann</name>
+                        <persName>Siegfried August <name type="reg">Mahlmann</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -124,7 +139,8 @@
                und ich nie dergl. aus meinen<note corresp="#V_107-5">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009809">
-                        <author>Spazier, Karl und Siegfried August Mahlmann (Werk, Hrsg.)</author>
+                        <author>Spazier, Johann Karl Gottlieb (1761–1805); Mahlmann, Siegfried August
+                  (1771–1826) (Hrsg.)</author>
                         <title>Zeitung für die elegante Welt (1801ff.)</title>
                      </bibl>
                   </listBibl>
@@ -135,8 +151,8 @@
                   abzurechnen<lb xml:id="V_107-7"/> und mir dafür 1 Taschenbuch, worin ich <hi rendition="#aq">Corday’s</hi> Tod gemalt, zu<note corresp="#V_107-8">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008468">
-                        <author>Gentz, Friedrich von, Johann Heinrich Voß und Jean Paul (Werk,
-                           Hrsg.)</author>
+                        <author>Gentz, Friedrich von, Voß, Johann Heinrich und Jean Paul
+                        (Hrsg.)</author>
                         <title>Taschenbuch für 1801 (Vieweg)</title>
                      </bibl>
                   </listBibl>
@@ -152,7 +168,7 @@
                   <listPerson type="lineReference">
                      <person corresp="#JP-000090">
                         <persName>
-                           <name type="reg">Anna Amalia</name>
+                           <name type="reg">Anna Amalia, Herzogin von Sachsen-Weimar-Eisenach</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -175,7 +191,13 @@
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Vieweg-Archiv, Braunschweig. 2 S. 8°. Präsentat: R. d.
                   4ten Octbr. [beantw.] d. 8<lb/> eod.</hi>
-               <hi rendition="#b"><hi rendition="#aq">107</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">8</hi></hi> Tod] <hi rendition="#aq">aus</hi> Ende</p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">107</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">8</hi>
+               </hi> Tod] <hi rendition="#aq">aus</hi> Ende</p>
             <lb/>
             <p>
                <hi rendition="#aq">Nach dem Handkalender reichte die Fortsetzung des Manuskripts

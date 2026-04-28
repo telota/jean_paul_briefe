@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="560">559. An Friedrich Perthes in Hamburg. </title>
-            <title n="digital">Von Jean Paul an Johannes Perthes. Bayreuth, 6. November 1811.</title>
+            <title n="print" type="letter" rend="559">559. An Friedrich Perthes in Hamburg. </title>
+            <title n="digital">Von Jean Paul an Johannes Perthes. Bayreuth, 6. November 1811, Mittwoch.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,16 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>232</num></biblScope><biblScope n="comment" unit="page"><num>523</num><num>524</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>232</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>523</num>
+                  <num>524</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -77,14 +86,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1811-11-06">6. November 1811</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003190">Johannes Perthes</persName>
                <placeName key="JP-005812">Hamburg</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_566"/><ptr type="next" subtype="brief" target="VI_560"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_566"/><ptr type="next" subtype="brief" target="VI_560"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_497"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB2048"/>
+               <ptr type="next" subtype="brief" target="VI_560"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_566"/>
+               <ptr type="next" subtype="brief" target="VI_560"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_497"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -130,8 +153,8 @@
                wünsch’ es<lb xml:id="VI_232-9"/> um so mehr, weil sie durch Verlag auf französischen
                   Territorien<note corresp="#VI_232-10">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-00574615">
-                        <placeName>Zensur; Frankreich, französisch</placeName>
+                     <place corresp="#JP-011313">
+                        <placeName>Zensur</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -160,7 +183,7 @@
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010329" ana="†">
                         <author/>
-                        <title>Orient oder Hamburger Morgenblatt (1812ff.)</title>
+                        <title>Orient oder Hamburger Morgenblatt (1812 ff.)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -184,9 +207,15 @@
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Staatsarchiv Hamburg (Nachlaß Perthes). 3 S. 8°. <hi rendition="#i">K</hi> (Konzept,<lb/> nach Nr. 568): <hi rendition="#i">Perthes.</hi>
                </hi> d. 6. Nov. <hi rendition="#aq">
-                  <hi rendition="#i">A</hi>: IV. Abt., VI, Nr.</hi>
+                  <hi rendition="#i">A</hi>: IV. Abt., 6, Nr.</hi>
                <hi rendition="#aq">189. </hi>
-               <hi rendition="#b"><hi rendition="#aq">232</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">4</hi></hi> wir] wird <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">232</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">4</hi>
+               </hi> wir] wird <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                   <lb/>
                   <hi rendition="#rkd">5</hi>

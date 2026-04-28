@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="202">199. An Böttiger. </title>
-            <title n="digital">Von Jean Paul an Carl August Böttiger. Weimar, 3. Februar 1799.</title>
+            <title n="print" type="letter" rend="199">199. An Böttiger. </title>
+            <title n="digital">Von Jean Paul an Carl August Böttiger. Weimar, 3. Februar 1799, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
+               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
                <biblScope n="text" unit="page">
                   <num>149</num>
                </biblScope>
@@ -79,13 +79,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1799-02-03">3. Februar 1799</date>
                <placeName key="JP-006395">Weimar</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-000400">Carl August Böttiger</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="III_214"/><ptr type="next" subtype="brief" target="III_200"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="III_214"/><ptr type="next" subtype="brief" target="III_200"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="III_214"/><ptr type="next" subtype="brief" target="III_218"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB1191"/>
+               <ptr type="next" subtype="brief" target="III_200"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="III_214"/>
+               <ptr type="next" subtype="brief" target="III_200"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="III_214"/>
+               <ptr type="next" subtype="anbrief" target="IV-III.1_145"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -103,7 +118,7 @@
             <p>Die bösen Sieben gegen Theben scheinen mir 7 magere Kühe gegen<note corresp="#III_149-10">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008014">
-                        <author>Aischylos (525/24 - 456 v. Chr.), griech. Tragödiendichter</author>
+                        <author>Aischylos (525/24–456 v. Chr.)</author>
                         <title>Sieben gegen Theben</title>
                      </bibl>
                   </listBibl>
@@ -121,15 +136,16 @@
                <lb xml:id="III_149-11"/>Ich meine nicht blos die Ilias oder die <hi rendition="#aq">prolusio de Nemesi hero<note corresp="#III_149-12">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001704" ana="†">
-                           <persName> von Halikarnassos <name type="reg">Herodot</name>
+                           <persName>
+                              <name type="reg">Herodot von Halikarnassos</name>
                            </persName>
                         </person>
                      </listPerson>
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-008159" ana="†">
-                           <author>Böttiger (Bötticher), Karl August (1760-1835), Philologe,
-                              Pädagoge und Altertumsforscher</author>
-                           <title>Prolusio de Herodoti historia (1793)</title>
+                           <author>Böttiger (Bötticher), Karl August (1760–1835)</author>
+                           <title>Prolusio de Herodoti historia ad carminis epici indolem propius accedente
+                        (Weimar: Glüsing 1793)</title>
                         </bibl>
                         <bibl corresp="#JP-008770">
                            <author>Homer (8./7. Jh. v. Chr.)</author>
@@ -147,7 +163,13 @@
                   <hi rendition="#i">K</hi>: <hi rendition="#i">Böttig.</hi>
                </hi> 3 Feb.<hi rendition="#aq"/>
                <ref target="#p149_l12">
-                  <hi rendition="#b"><hi rendition="#aq">149</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">12</hi></hi>
+                  <hi rendition="#b">
+                     <hi rendition="#aq">149</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">12</hi>
+                  </hi>
                </ref>
                <hi rendition="#aq"/>
                <hi rendition="#aq">

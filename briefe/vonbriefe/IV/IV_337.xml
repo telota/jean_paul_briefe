@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="343">337. An Knebel. </title>
-            <title n="digital">Von Jean Paul an Karl Ludwig von Knebel. Meiningen, 6. Januar 1803.</title>
+            <title n="print" type="letter" rend="337">337. An Knebel. </title>
+            <title n="digital">Von Jean Paul an Karl Ludwig von Knebel. Meiningen, 6. Januar 1803, Donnerstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,11 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"/><biblScope n="comment" unit="page"/></bibl>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page"/>
+               <biblScope n="comment" unit="page"/>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -68,21 +72,36 @@
             </msDesc>
             <listPerson type="commentary">
                <person corresp="#JP-001670">
-                  <persName> Caroline <name type="reg">Herder</name>
+                  <persName>Caroline von <name type="reg">Herder</name>
                   </persName>
                </person>
             </listPerson>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1803-01-06">6. Januar 1803</date>
                <placeName key="JP-006012">Meiningen
                </placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-002149">Karl Ludwig von Knebel</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0034"/><ptr type="next" subtype="umfeldbrief" target="JP-UB1031"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="IV_437"/><ptr type="next" subtype="brief" target="IV_338"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="IV_205"/><ptr type="next" subtype="brief" target="V_135"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-IV_273"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB1031"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="IV_437"/>
+               <ptr type="next" subtype="brief" target="IV_338"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-IV_272"/>
+               <ptr type="next" subtype="anbrief" target="IV-IV_275"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -110,7 +129,7 @@
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008950" ana="†">
-                        <author>Knebel, Karl Ludwig von (1744-1834), Schriftsteller</author>
+                        <author>Knebel, Karl Ludwig von (1744–1834)</author>
                         <title>Hymnus an Selene (1802)</title>
                      </bibl>
                   </listBibl>
@@ -121,7 +140,7 @@
                   <listPerson type="lineReference">
                      <person corresp="#JP-000110">
                         <persName>
-                           <name type="reg">Apollo </name>
+                           <name type="reg">Apollo</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -139,7 +158,7 @@
                <hi rendition="#aq">Heim,</hi> der genialischte Mensch in <hi rendition="#aq">Meiningen</hi> — in der Geschichte,<note corresp="#IV_197-22">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001603" ana="†">
-                        <persName> Johann Ludwig <name type="reg">Heim</name>
+                        <persName>Johann Ludwig <name type="reg">Heim</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -155,7 +174,8 @@
             <p>Ihn und den Herzog — den ich immer mehr achten lerne — ver<note corresp="#IV_197-25">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001289">
-                        <persName> Herzog von Sachsen-Meiningen <name type="reg">Georg I.</name>
+                        <persName>
+                           <name type="reg">Georg I., Herzog von Sachsen-Meiningen</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -180,8 +200,8 @@
                Band (und<lb xml:id="IV_197-29"/>am meisten im 4<hi rendition="#sup">ten</hi> oder
                lezten) endlich auf die rechte olympische<note corresp="#IV_197-30">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0061030">
-                        <placeName>Spiele; Olympia</placeName>
+                     <place corresp="#JP-011585">
+                        <placeName>Spiele</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -200,7 +220,7 @@
                ausgeht. Den Übersezer und Wetläufer des<note corresp="#IV_197-33">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008948">
-                        <author>Knebel, Karl Ludwig von (1744-1834), Schriftsteller</author>
+                        <author>Knebel, Karl Ludwig von (1744–1834)</author>
                         <title>Properz-Übersetzung (1798)</title>
                      </bibl>
                   </listBibl>
@@ -210,7 +230,7 @@
                   <listPerson type="lineReference">
                      <person corresp="#JP-003294">
                         <persName>
-                           <name type="reg">Properz </name>
+                           <name type="reg">Properz</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -221,11 +241,11 @@
             <p>Übrigens leb’ ich hier — unter meinem Dache — etwas seelig,<lb xml:id="IV_197-36"/>habe Frau und Kind wie sie mein Herz begehrt, schreibe immer<note corresp="#IV_197-37">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003469">
-                        <persName> Caroline <name type="reg">Richter</name>
+                        <persName>Caroline <name type="reg">Richter</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003471">
-                        <persName> Emma <name type="reg">Richter</name>
+                        <persName>Emma <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -244,19 +264,21 @@
                <p>Ich grüsse Ihre Gattin sehr und wünschte Nachrichten von Ihrem<note corresp="#IV_198-5">
                      <listPerson type="lineReference">
                         <person corresp="#JP-002150">
-                           <persName> Luise Dorothea Ulrika Emilia von <name type="reg">Knebel</name>
+                           <persName>Luise von <name type="reg">Knebel</name>
                            </persName>
                         </person>
                      </listPerson>
                   </note>
                   <lb n="5" xml:id="IV_198-5"/>geflügelten Sohn.<note corresp="#IV_198-6">
-                  <listPerson type="lineReference">
-                     <person corresp="#JP-002145">
-                        <persName> Carl (Karl) Wilhelm von <name type="reg">Knebel</name>
-                        </persName>
-                     </person>
-                  </listPerson>
-               </note><lb xml:id="IV_198-6"/></p>
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-002145">
+                           <persName>Carl Wilhelm von <name type="reg">Knebel</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="IV_198-6"/>
+               </p>
             </postscript>
          </div>
          <div type="comment">
@@ -266,11 +288,17 @@
                </hi>
                <lb/>6. Jenn. <hi rendition="#aq">
                   <hi rendition="#i">J</hi>: Knebel Nr. 7. <hi rendition="#i">i</hi>: Denkw. 3,99.
-                     <hi rendition="#i">B</hi>: IV. Abt., IV, Nr. 272. <hi rendition="#i">A</hi>:
-                  IV. Abt., IV, Nr.</hi>
+                     <hi rendition="#i">B</hi>: IV. Abt., 4, Nr. 272. <hi rendition="#i">A</hi>:
+                  IV. Abt., 4, Nr.</hi>
                <hi rendition="#aq"> 275.</hi>
                <lb/>
-               <hi rendition="#b"><hi rendition="#aq">197</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">14</hi></hi> und poetische] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">197</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">14</hi>
+               </hi> und poetische] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">17</hi> der Volmond] <hi rendition="#aq">aus</hi> die andere <hi rendition="#aq">
                   <hi rendition="#i">H</hi>

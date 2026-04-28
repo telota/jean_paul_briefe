@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="449">448. An Friedrich von Oertel in Leipzig. </title>
-            <title n="digital">Von Jean Paul an Friedrich Benedikt von Oertel. Hof, 5. November 96.</title>
+            <title n="print" type="letter" rend="448">448. An Friedrich von Oertel in Leipzig. </title>
+            <title n="digital">Von Jean Paul an Friedrich Benedikt von Oertel. Hof, 5. November 1796, Samstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
+               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
                <biblScope n="text" unit="page">
                   <num>266</num>
                   <num>267</num>
@@ -79,14 +79,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
-               <date when="1796-11-05">5. November 96</date>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
+               <date when="1796-11-05">5. November 1796</date>
                <placeName key="JP-005841">Hof</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003039">Friedrich Benedikt von Oertel</persName>
                <placeName key="JP-005948">Leipzig</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="II_447"/><ptr type="next" subtype="brief" target="II_449"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="II_447"/><ptr type="next" subtype="brief" target="II_449"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="II_441"/><ptr type="next" subtype="brief" target="II_453"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="II_447"/>
+               <ptr type="next" subtype="anbrief" target="IV-II_EB_77"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="II_447"/>
+               <ptr type="next" subtype="brief" target="II_449"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-II_EB_76"/>
+               <ptr type="next" subtype="anbrief" target="IV-II_EB_77"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -102,13 +117,15 @@
             </dateline>
             <lb n="5" xml:id="II_266-5"/>
             <p>Du hast 2 Menschen Unrecht getan, und ich einem, dir. —<note corresp="#II_266-6">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-003112">
-                     <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="II_266-6"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003112">
+                        <persName>Georg Christian <name type="reg">Otto</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_266-6"/>
+            </p>
             <p>1) Ich grif nie deine Praxis der Liebe sondern nur deine Psevdo<lb xml:id="II_266-7" rendition="#hyphen"/>Theorie derselben an, die ich noch immer für egoistisch
                halte. Hab ich<lb xml:id="II_266-8"/>dir nicht geschrieben, daß deine Ruhe und Freude
                die Richterinnen deiner<lb xml:id="II_266-9"/>Näherung wären, d. h. daß deine Liebe
@@ -118,7 +135,7 @@
                so äussert wie deine?<note corresp="#II_266-12">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003108" ana="ff">
-                        <persName> Amöne (Pseud. Amalie von Obyrn) <name type="reg">Otto</name>
+                        <persName>Amöne <name type="reg">Otto</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -146,7 +163,8 @@
                   Abhandlung<note corresp="#II_266-22">
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010555">
-                        <title>Brief des D. Viktor Sebastian an Kato (Fruchtstück) (1796)</title>
+                        <title>Brief des D. Viktor Sebastian an Kato (Fruchtstück)
+                        (1796)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -160,11 +178,11 @@
             <p>Meinem Otto — den du so gut wie Amönen durch eine Nebelbank<note corresp="#II_266-30">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003108">
-                        <persName> Amöne (Pseud. Amalie von Obyrn) <name type="reg">Otto</name>
+                        <persName>Amöne <name type="reg">Otto</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003112" ana="ff">
-                        <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                        <persName>Georg Christian <name type="reg">Otto</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -193,7 +211,7 @@
             <p>Ich und Otto sind kühler — nämlich mit dem Kopfe — wie du und<note corresp="#II_267-11">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003112">
-                        <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                        <persName>Georg Christian <name type="reg">Otto</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -203,7 +221,7 @@
                geschrieben. — — Also: ich ehre und liebe dein<lb n="15" xml:id="II_267-15"/>Verhältnis zu A., das ist wie meines — (aber nicht deine erotische<note corresp="#II_267-16">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003108">
-                        <persName> Amöne (Pseud. Amalie von Obyrn) <name type="reg">Otto</name>
+                        <persName>Amöne <name type="reg">Otto</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -217,11 +235,11 @@
                meine Adresse. Ach es<note corresp="#II_267-21">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003112">
-                        <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                        <persName>Georg Christian <name type="reg">Otto</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003126">
-                        <persName> Renate <name type="reg">Otto</name>
+                        <persName>Renate <name type="reg">Otto</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -262,7 +280,13 @@
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Berlin JP. 4 S. 4° u. 2 S. 8°. <hi rendition="#i">K</hi> (nach Nr. 441): <hi rendition="#i">Oert. J</hi>: Denkw.<lb/>1,342× (die
                   Nachschrift irrig S. 373, Nov. 1798).</hi>
-               <hi rendition="#b"><hi rendition="#aq">266</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">10</hi></hi> Sie <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">266</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">10</hi>
+               </hi> Sie <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">14</hi>
@@ -285,7 +309,13 @@
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">267</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">18</hi></hi> Schauen] <hi rendition="#aq">aus</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">267</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">18</hi>
+               </hi> Schauen] <hi rendition="#aq">aus</hi>
                <lb/> Anschauen <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>

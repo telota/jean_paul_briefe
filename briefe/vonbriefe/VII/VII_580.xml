@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="585">580. An Friedrich Haug in stuttgart. </title>
-            <title n="digital">Von Jean Paul an Friedrich Haug. Bayreuth, 26. September 1819.</title>
+            <title n="print" type="letter" rend="580">580. An Friedrich Haug in stuttgart. </title>
+            <title n="digital">Von Jean Paul an Friedrich Haug. Bayreuth, 26. September 1819, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
+               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
                <biblScope n="text" unit="page">
                   <num>305</num>
                   <num>306</num>
@@ -78,15 +78,30 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1819-09-26">26. September 1819</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-001572">Friedrich Haug</persName>
                <placeName key="JP-006315">Stuttgart
                </placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VII_579"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0513"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VII_579"/><ptr type="next" subtype="brief" target="VII_583"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VII_551"/><ptr type="next" subtype="brief" target="VIII_51"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VII_579"/>
+               <ptr type="next" subtype="anbrief" target="IV-VII_219"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VII_579"/>
+               <ptr type="next" subtype="brief" target="VII_583"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VII_551"/>
+               <ptr type="next" subtype="anbrief" target="IV-VII_236"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -108,8 +123,8 @@
                   Herzogin.<note corresp="#VII_305-11">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001166">
-                        <persName> Herzogin von Württemberg <name type="reg">Friederike Franziska
-                              Wilhelmine</name>
+                        <persName>
+                           <name type="reg">Wilhelmine, Herzogin von Württemberg</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -119,7 +134,8 @@
                mag mich bei der<note corresp="#VII_305-13">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000853">
-                        <persName> Herzogin von Kurland <name type="reg">Dorothea</name>
+                        <persName>
+                           <name type="reg">Dorothea, Herzogin von Kurland</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -148,8 +164,8 @@
                werden schon<note corresp="#VII_305-16">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000854">
-                        <persName> Herzogin von Kurland <name type="reg">Dorothea</name>
-                        </persName>
+                        <persName>
+                           <name type="reg">Dorothea, Herzogin von Kurland</name>, ihre Töchter</persName>
                      </person>
                   </listPerson>
                </note>
@@ -167,7 +183,7 @@
                Landtage an bis zu allen die ich<note corresp="#VII_305-20">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005574">
-                        <placeName>Bayreuth (Stadt)</placeName>
+                        <placeName>Bayreuth </placeName>
                      </place>
                   </listPlace>
                </note>
@@ -176,7 +192,7 @@
                erinnerte, daß ich unter den<lb xml:id="VII_305-22"/> Grußmenschen desselben die <hi rendition="#aq">Md. Huber</hi> vergessen. Diese geist- und<note corresp="#VII_305-23">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001851">
-                        <persName> Therese <name type="reg">Huber</name>
+                        <persName>Therese <name type="reg">Huber</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -188,21 +204,24 @@
             <lb xml:id="VII_305-26"/>
             <p>Wie wol thut es mir jetzo überall, lieber Haug, Ihren geliebten<lb xml:id="VII_305-27"/> Namen wenigstens gedruckt zu finden, z. B. in der eleganten
                Zeitung!<note corresp="#VII_305-28">
-               <listBibl type="lineReference" subtype="werke">
-                  <bibl corresp="#JP-009809">
-                     <author>Spazier, Karl und Siegfried August Mahlmann (Werk, Hrsg.)</author>
-                     <title>Zeitung für die elegante Welt (1801ff.)</title>
-                  </bibl>
-               </listBibl>
-            </note><lb xml:id="VII_305-28"/></p>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009809">
+                        <author>Spazier, Johann Karl Gottlieb (1761–1805); Mahlmann, Siegfried August
+                  (1771–1826) (Hrsg.)</author>
+                        <title>Zeitung für die elegante Welt (1801ff.)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VII_305-28"/>
+            </p>
             <p>Von Reinbeck und seiner Frau und von der herrlichen Abstamm<note corresp="#VII_305-29">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003416">
-                        <persName> Emilie von <name type="reg">Reinbeck</name>
+                        <persName>Emilie <name type="reg">Reinbeck</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003417">
-                        <persName> Georg von <name type="reg">Reinbeck</name>
+                        <persName>Georg <name type="reg">Reinbeck</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -211,7 +230,7 @@
                etwas, und ihnen allen meine<note corresp="#VII_305-30">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001555">
-                        <persName> Johann Georg August von <name type="reg">Hartmann</name>
+                        <persName>Johann Georg August von <name type="reg">Hartmann</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -230,7 +249,7 @@
                <p>Ich sehe nicht ein, warum ich nicht die stille Familie <hi rendition="#aq">Wolf</hi> wieder<note corresp="#VII_306-6">
                      <listPerson type="lineReference">
                         <person corresp="#JP-002844" ana="†" rend="Wolf">
-                           <persName> Karl <name type="reg">Mohr</name>
+                           <persName>Karl <name type="reg">Mohr</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -241,7 +260,7 @@
                      Brief<note corresp="#VII_306-8">
                      <listPerson type="lineReference">
                         <person corresp="#JP-002285">
-                           <persName> Franz Seraphicus Graf von <name type="reg">Kuefstein </name>
+                           <persName>Franz Seraphicus Graf von <name type="reg">Kuefstein</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -255,7 +274,7 @@
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Berlin acc. ms. 1934. 25 (derzeit BJK). 4 S. 12°. <hi rendition="#i">K</hi>: <hi rendition="#i">Haug</hi>
                </hi> 26ten Sep. ab den 3 Okt. <hi rendition="#aq">
-                  <hi rendition="#i">A</hi>: IV. Abt., VII, Nr. 236.<lb/>
+                  <hi rendition="#i">A</hi>: IV. Abt., 7, Nr. 236.<lb/>
                   <hi rendition="#b">305</hi>, <hi rendition="#rkd">20</hi>f.</hi> die ich und die
                mich lieben] <hi rendition="#aq">aus</hi> was ich und was mich liebt <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
@@ -267,7 +286,13 @@
             </p>
             <lb/>
             <p>
-               <hi rendition="#b"><hi rendition="#aq">305</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">12</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">305</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">12</hi>
+               </hi>
                <hi rendition="#aq">
                   <hi rendition="#g">dieser selber:</hi> nämlich der Brief der Herzogin Wilhelm<lb/>
                   an J. P. (Nr. 204).<hi rendition="#rkd"> 22</hi>

@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="380">379. An Herder. </title>
-            <title n="digital">Von Jean Paul an Johann Gottfried von Herder. Hof, 17. August 96.</title>
+            <title n="print" type="letter" rend="379">379. An Herder. </title>
+            <title n="digital">Von Jean Paul an Johann Gottfried Herder. Hof, 17. August 1796, Mittwoch.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
+               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
                <biblScope n="text" unit="page">
                   <num>231</num>
                   <num>232</num>
@@ -80,13 +80,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
-               <date when="1796-08-17">17. August 96</date>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
+               <date when="1796-08-17">17. August 1796</date>
                <placeName key="JP-005841">Hof</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-001675">Johann Gottfried (seit 1801) von Herder</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="II_378"/><ptr type="next" subtype="brief" target="II_380"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="II_378"/><ptr type="next" subtype="brief" target="II_380"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="II_358"/><ptr type="next" subtype="brief" target="II_478"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-001675">Johann Gottfried Herder</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="II_378"/>
+               <ptr type="next" subtype="brief" target="II_380"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="II_378"/>
+               <ptr type="next" subtype="brief" target="II_380"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-II_126"/>
+               <ptr type="next" subtype="brief" target="II_478"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -106,15 +121,15 @@
                         <title>Pentateuch, die fünf Bücher Moses</title>
                      </bibl>
                      <bibl corresp="#JP-008684">
-                        <author>Herder, Johann Gottfried (seit 1801) von (1744-1803)</author>
-                        <title>Briefe zur Beförderung der Humanität (1793-1797)</title>
+                        <author>Herder, Johann Gottfried von (1744–1803)</author>
+                        <title>Briefe zur Beförderung der Humanität (1793–1797)</title>
                      </bibl>
                      <bibl corresp="#JP-008698">
-                        <author>Herder, Johann Gottfried (seit 1801) von (1744-1803)</author>
-                        <title>Terpsichore (1795-1796)</title>
+                        <author>Herder, Johann Gottfried von (1744–1803)</author>
+                        <title>Terpsichore (1795–1796)</title>
                      </bibl>
                      <bibl corresp="#JP-008702">
-                        <author>Herder, Johann Gottfried (seit 1801) von (1744-1803)</author>
+                        <author>Herder, Johann Gottfried von (1744–1803)</author>
                         <title>Vom Erlöser (1796)</title>
                      </bibl>
                   </listBibl>
@@ -130,22 +145,26 @@
                      </bibl>
                      <bibl corresp="#JP-010540">
                         <title>Blumen- Frucht- und Dornenstükke (Blumen-, Frucht- und Dornenstücke)
-                           (Siebenkäs) (1796-97 [1796])</title>
+                        (Siebenkäs) oder Ehestand, Tod und Hochzeit des Armenadvokaten F. St.
+                        Siebenkäs im Reichsmarktflecken Kuhschnappel (Berlin, Matzdorff 1796-97
+                        [1796])</title>
                      </bibl>
                   </listBibl>
                </note>
                <lb xml:id="II_231-31"/>den Abend-Irstern anzuschauen, weil in jenen weniger Manier
                ist.<note corresp="#II_231-32">
-               <listBibl type="lineReference" subtype="werke-jp">
-                  <bibl corresp="#JP-010727">
-                     <title>Hesperus (1795)</title>
-                  </bibl>
-               </listBibl>
-            </note><lb xml:id="II_231-32"/></p>
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010727">
+                        <title>Hesperus (3 Bde., Berlin: Matzdorff 1795)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="II_231-32"/>
+            </p>
             <p>Ihr gedrukter Erlöser hat auch bei mir dem wirklichen nach<note corresp="#II_231-33">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008702" ana="ff">
-                        <author>Herder, Johann Gottfried (seit 1801) von (1744-1803)</author>
+                        <author>Herder, Johann Gottfried von (1744–1803)</author>
                         <title>Vom Erlöser (1796)</title>
                      </bibl>
                   </listBibl>
@@ -167,7 +186,7 @@
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-010164">
                            <author/>
-                           <title>Acta Sanctorum (1643ff.)</title>
+                           <title>Acta Sanctorum (1643 ff.)</title>
                         </bibl>
                         <bibl corresp="#JP-010237">
                            <author/>
@@ -225,7 +244,8 @@
                   auseinander<note corresp="#II_232-14">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005508">
-                        <placeName>Ägypten Ägypter</placeName>
+                        <placeName>Ägypten,
+                     </placeName>
                      </place>
                   </listPlace>
                </note>
@@ -234,7 +254,7 @@
                Jul. Und niemand geb’ ihm wieder die götliche<note corresp="#II_232-16">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004781" ana="†">
-                        <persName> Johann Christoph von <name type="reg">Wöllner</name>
+                        <persName>Johann Christoph von <name type="reg">Wöllner</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -266,8 +286,8 @@
                haben Sie diesen Irthum bei jeder<note corresp="#II_232-22">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008683">
-                        <author>Herder, Johann Gottfried (seit 1801) von (1744-1803)</author>
-                        <title>Briefe das Studium der Theologie betreffend (1780-1781)</title>
+                        <author>Herder, Johann Gottfried von (1744–1803)</author>
+                        <title>Briefe das Studium der Theologie betreffend (1780–1781)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -299,9 +319,8 @@
             <lb xml:id="II_232-28"/>
             <p>Es giebt einen deutschen Schriftsteller, den Sie meines Wissens<note corresp="#II_232-29">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0056690">
-                        <placeName>Deutsche; Deutschland , deutsch , Germanien,
-                           Vaterland</placeName>
+                     <place corresp="#JP-011167">
+                        <placeName>Deutsche</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -342,13 +361,24 @@
             <p>
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Goethe- und Schiller-Archiv. 8 S. 8°. <hi rendition="#i">K</hi>: <hi rendition="#i">Herder 17 Aug. 96.<lb/>i</hi>:
-                  Wahrheit 5,150×. <hi rendition="#i">J</hi>: Herders Nachlaß Nr. 9. B: IV. Abt.,
-                  II, Nr. 126. <hi rendition="#i">A</hi>:<lb/>IV. Abt., II, Nr.</hi>
+                  Wahrheit 5,150×. <hi rendition="#i">J</hi>: Herders Nachlaß Nr. 9. B: IV. Abt., 2, Nr. 126. <hi rendition="#i">A</hi>:<lb/>IV. Abt., 2, Nr.</hi>
                <hi rendition="#aq">208. </hi>
-               <hi rendition="#b"><hi rendition="#aq">231</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">30</hi></hi> aber] <hi rendition="#aq">aus</hi> und <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">231</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">30</hi>
+               </hi> aber] <hi rendition="#aq">aus</hi> und <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">232</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">12</hi></hi> und weitern] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">232</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">12</hi>
+               </hi> und weitern] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">18</hi> nahen]<lb/>
                <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
@@ -379,7 +409,13 @@
                <hi rendition="#rkd">34</hi> edeln <hi rendition="#aq">
                   <hi rendition="#i">K</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">233</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">1</hi></hi> ferner]<lb/>
+               <hi rendition="#b">
+                  <hi rendition="#aq">233</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">1</hi>
+               </hi> ferner]<lb/>
                <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
                </hi>
             </p>

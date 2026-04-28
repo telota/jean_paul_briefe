@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="366">365. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, Oktober 1810.</title>
+            <title n="print" type="letter" rend="365">365. An Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth, Oktober 1810.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>142</num></biblScope><biblScope n="comment" unit="page"><num>488</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>142</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>488</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date cert="medium" notBefore="1810-10-01" notAfter="1810-10-31">Oktober 1810</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_363"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0436"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_363"/><ptr type="next" subtype="brief" target="VI_362"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_349"/><ptr type="next" subtype="brief" target="VI_366"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_363"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_106"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_363"/>
+               <ptr type="next" subtype="brief" target="VI_362"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_349"/>
+               <ptr type="next" subtype="brief" target="VI_366"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -96,7 +119,7 @@
                   <metamark>[</metamark>ten<metamark>]</metamark> Artikel für<note corresp="#VI_142-20">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003480">
-                        <persName> Johann Gottlieb <name type="reg">Richter</name>
+                        <persName>Gottlieb <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -105,7 +128,7 @@
                   <hi rendition="#aq">Thürheim</hi> rathen;<note corresp="#VI_142-21">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004292">
-                        <persName> Friedrich Karl Graf von <name type="reg">Thürheim</name>
+                        <persName>Friedrich Karl Graf von <name type="reg">Thürheim</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -117,8 +140,8 @@
                die du durchaus annehmen muß<metamark>[</metamark>t<metamark>]</metamark>,<note n="*)" place="foot">zumal da auch so die Rechnung doch noch <hi rendition="#g">gegen</hi> dich parteiisch ist.</note> wenn ich sie künftig<note corresp="#VI_142-25">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003483">
-                        <persName> Johann Paul Friedrich <name type="reg">Richter</name>
-                        </persName>
+                        <persName>
+                           <name type="reg">Richter</name>, seine Kinder</persName>
                      </person>
                   </listPerson>
                </note>

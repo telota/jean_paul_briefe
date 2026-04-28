@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="461">460. An Ernestine von Hake in Berlin. </title>
-            <title n="digital">Von Jean Paul an Ernestine von Hake. Bayreuth, 5. Januar 1808.</title>
+            <title n="print" type="letter" rend="460">460. An Ernestine von Hake in Berlin. </title>
+            <title n="digital">Von Jean Paul an Ernestine von Hake. Bayreuth, 5. Januar 1808, Dienstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
+               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
                <biblScope n="text" unit="page">
                   <num>191</num>
                </biblScope>
@@ -78,14 +78,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1808-01-05">5. Januar 1808</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-001498">Ernestine von Hake</persName>
                <placeName key="JP-005586">Berlin</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="V_459"/><ptr type="next" subtype="brief" target="V_461"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="V_459"/><ptr type="next" subtype="brief" target="V_461"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="V_459"/>
+               <ptr type="next" subtype="anbrief" target="IV-V_153"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="V_459"/>
+               <ptr type="next" subtype="brief" target="V_461"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-V_EB_41"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -110,7 +124,7 @@
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008921">
-                        <author>Kleist, Heinrich von und Müller, Adam (Werk, Hrsg.)</author>
+                        <author>Kleist, Heinrich von und Müller, Adam (Hrsg.)</author>
                         <title>Phöbus (1808)</title>
                      </bibl>
                   </listBibl>
@@ -119,7 +133,7 @@
                   bei<lb xml:id="V_191-4"/> Ihnen gethan. Mein und <hi rendition="#aq">Ahlefeldts</hi> froher Entr<hi rendition="#aq">é</hi>e-Mittag —<note corresp="#V_191-5">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000044">
-                        <persName> Johann Georg Jacob von <name type="reg">Ahlefeldt</name>
+                        <persName>Hans Georg von <name type="reg">Ahlefeldt</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -136,11 +150,11 @@
                Ursachen, die Kunst, Kleist, Müller und Sie. Mögen Ihnen<note corresp="#V_191-14">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002124">
-                        <persName> Heinrich von <name type="reg">Kleist</name>
+                        <persName>Heinrich von <name type="reg">Kleist</name>
                         </persName>
                      </person>
                      <person corresp="#JP-002898">
-                        <persName> Adam Heinrich <name type="reg">Müller</name>
+                        <persName>Adam Heinrich <name type="reg">Müller</name>
                         </persName>
                      </person>
                   </listPerson>

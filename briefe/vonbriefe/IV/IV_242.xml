@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="248">242. An Emanuel. </title>
-            <title n="digital">Von Jean Paul an Emanuel. Meiningen, 12. Februar 1802.</title>
+            <title n="print" type="letter" rend="242">242. An Emanuel. </title>
+            <title n="digital">Von Jean Paul an Emanuel. Meiningen, 12. Februar 1802, Freitag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,11 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"/><biblScope n="comment" unit="page"/></bibl>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page"/>
+               <biblScope n="comment" unit="page"/>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,14 +73,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1802-02-12">12. Februar 1802</date>
                <placeName key="JP-006012">Meiningen
                </placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-003087">Emanuel Osmund</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0635"/><ptr type="next" subtype="brief" target="IV_243"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="IV_241"/><ptr type="next" subtype="brief" target="IV_243"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0635"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0331"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000941">Emanuel</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB0635"/>
+               <ptr type="next" subtype="brief" target="IV_243"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="IV_241"/>
+               <ptr type="next" subtype="brief" target="IV_243"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="IV_231"/>
+               <ptr type="next" subtype="brief" target="IV_246"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -93,7 +112,7 @@
                   schreibe,<note corresp="#IV_135-3">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003112">
-                        <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                        <persName>Georg Christian <name type="reg">Otto</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -103,7 +122,7 @@
                brauch’ ich freilich Nachsicht mit meinen<note corresp="#IV_135-5">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005574">
-                        <placeName>Bayreuth (Stadt)</placeName>
+                        <placeName>Bayreuth </placeName>
                      </place>
                   </listPlace>
                </note>
@@ -122,8 +141,8 @@
                      </person>
                   </listPerson>
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0055740">
-                        <placeName>Bier; Bayreuth (Stadt)</placeName>
+                     <place corresp="#JP-011034">
+                        <placeName>Bier</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -133,17 +152,17 @@
                Können nicht Sie oder Ihre H. Brüder die<note corresp="#IV_135-9">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000970">
-                        <persName> Israel <name type="reg">Enzel</name>
+                        <persName>Israel <name type="reg">Enzel</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003652">
-                        <persName> Israel <name type="reg">Samelson</name>
+                        <persName>Israel <name type="reg">Samelson</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listPlace type="lineReference">
                      <place corresp="#JP-005574">
-                        <placeName>Bayreuth (Stadt)</placeName>
+                        <placeName>Bayreuth </placeName>
                      </place>
                   </listPlace>
                </note>
@@ -152,7 +171,8 @@
                   ist sie unschäzbar.</note> brauchen? Ich schlage sie los und sende sie porto<note corresp="#IV_135-10">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001168">
-                        <persName> Fürstin zu Solms <name type="reg">Friederike</name>
+                        <persName>
+                           <name type="reg">Friederike Prinzessin von Solms-Braunfels</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -160,12 +180,11 @@
                <lb n="10" xml:id="IV_135-10" rendition="#hyphen"/>frei. — <hi rendition="#aq">Roentgen’s</hi> Brief an Sie möcht’ ich haben. — Die <hi rendition="#aq">Welzel<note corresp="#IV_135-11">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003549">
-                           <persName> Ludwig <name type="reg">Roentgen</name>
+                           <persName>Ludwig <name type="reg">Roentgen</name>
                            </persName>
                         </person>
                         <person corresp="#JP-004664">
-                           <persName>
-                              <name type="reg">Welzel</name>
+                           <persName>Ehepaar <name type="reg">Welzel</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -191,7 +210,7 @@
                meine Frau voran, um Sahne abzu<note corresp="#IV_135-16">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003469" ana="ff">
-                        <persName> Caroline <name type="reg">Richter</name>
+                        <persName>Caroline <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -208,8 +227,11 @@
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010351">
                         <author/>
-                        <title>Reichs-Anzeiger (Reichsanzeiger) (1793ff.), vorher: Der
-                           Anzeiger(1791-1793), hrsg. von Rudolf Zacharias Becker</title>
+                        <title>Reichs-Anzeiger (Reichsanzeiger) (1793 ff.), vorher: Der Anzeiger
+                        (1791–1793), später: Allgemeiner Anzeiger der Deutschen (1806–1829), hrsg.
+                        von
+                        <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Rudolf
+                        Zacharias Becker<?oxy_custom_end?></title>
                      </bibl>
                   </listBibl>
                </note>
@@ -219,16 +241,15 @@
                <hi rendition="#aq">Loewel</hi> oder (sonst) die Gräfin oder die schöne Tochter <hi rendition="#aq">Heims</hi> zu<note corresp="#IV_135-28">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001605">
-                        <persName> Luise <name type="reg">Heim</name>
+                        <persName>Luise <name type="reg">Heim</name>
                         </persName>
                      </person>
                      <person corresp="#JP-002487" ana="†">
-                        <persName>
-                           <name type="reg">Löbel </name>
+                        <persName>Herr <name type="reg">Löbel</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003964">
-                        <persName> Auguste Sophie Henriette <name type="reg">Schwendler</name>
+                        <persName>Henriette <name type="reg">Schwendler</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -239,7 +260,8 @@
                   verlangen,<note corresp="#IV_135-31">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001289">
-                        <persName> Herzog von Sachsen-Meiningen <name type="reg">Georg I.</name>
+                        <persName>
+                           <name type="reg">Georg I., Herzog von Sachsen-Meiningen</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -249,7 +271,7 @@
                Hofräthin <hi rendition="#aq">Heim</hi> gehen um 6 und ich um<note corresp="#IV_135-33">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001604">
-                        <persName> Johanna <name type="reg">Heim</name>
+                        <persName>Johanna <name type="reg">Heim</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -265,7 +287,7 @@
                <note corresp="#IV_136-5">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003480">
-                        <persName> Johann Gottlieb <name type="reg">Richter</name>
+                        <persName>Gottlieb <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -274,11 +296,11 @@
                Kind. So<note corresp="#IV_136-6">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003472">
-                        <persName> Friederike Karoline Johanne <name type="reg">Richter</name>
+                        <persName>Karoline <name type="reg">Richter</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003473">
-                        <persName> Johann Gottlieb <name type="reg">Richter</name>
+                        <persName>Gottlieb <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -295,7 +317,13 @@
                <lb/>12 Feb. <hi rendition="#aq">
                   <hi rendition="#i">J</hi>: Denkw.</hi>
                <hi rendition="#aq">1,102×. </hi>
-               <hi rendition="#b"><hi rendition="#aq">135</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">15</hi></hi> und Rindfleisch] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">135</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">15</hi>
+               </hi> und Rindfleisch] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">20 </hi>eben<lb/>so] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
                </hi>

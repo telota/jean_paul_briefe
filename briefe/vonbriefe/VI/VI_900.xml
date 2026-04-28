@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="906">900. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, 15. Juli 1814.</title>
+            <title n="print" type="letter" rend="900">900. An Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth, 15. Juli 1814, Freitag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,16 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>390</num><num>391</num></biblScope><biblScope n="comment" unit="page"><num>581</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>390</num>
+                  <num>391</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>581</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +78,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1814-07-15">15. Juli 1814</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_899"/><ptr type="next" subtype="brief" target="VI_901"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_899"/><ptr type="next" subtype="brief" target="VI_901"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_895"/><ptr type="next" subtype="brief" target="VI_903"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_899"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_EB_120"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_899"/>
+               <ptr type="next" subtype="brief" target="VI_901"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_EB_118"/>
+               <ptr type="next" subtype="brief" target="VI_903"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -94,8 +118,7 @@
                unschuldig. Für den Druck des<note corresp="#VI_390-33">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000698">
-                        <persName> Johann Friedrich Freiherr <name type="reg">Cotta von
-                              Cottendorf</name>
+                        <persName>Johann Friedrich von <name type="reg">Cotta</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -105,7 +128,7 @@
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010313">
                         <author/>
-                        <title>Morgenblatt für gebildete Stände (1807ff.)</title>
+                        <title> Morgenblatt für gebildete Stände (1807 ff.)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -136,11 +159,12 @@
                   <listPerson type="lineReference">
                      <person corresp="#JP-002061">
                         <persName>
-                           <name type="reg">Katharina Pawlowna</name>
+                           <name type="reg">Katharina Pawlowna, ab 1809 Herzogin von Oldenburg, ab 1816 Königin
+                            von Württemberg</name>
                         </persName>
                      </person>
                      <person corresp="#JP-002785">
-                        <persName> Klemens Wenzel Lothar Fürst von <name type="reg">Metternich</name>
+                        <persName>Klemens Wenzel Lothar, Fürst von <name type="reg">Metternich</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -151,7 +175,7 @@
                schreiben, erwart’ ich<note corresp="#VI_391-9">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004142">
-                        <persName> Heinrich Friedrich Karl Freiherr von und zum <name type="reg">Stein</name>
+                        <persName>Karl Freiherr vom und zum <name type="reg">Stein</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -160,7 +184,7 @@
                Pension, was unwahrschein<note corresp="#VI_391-10">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000292">
-                        <persName> Christian Ernst Graf von <name type="reg">Bentzel-Sternau</name>
+                        <persName>Christian Ernst Graf von <name type="reg">Bentzel-Sternau</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -169,7 +193,7 @@
                   <hi rendition="#aq">Stegemann</hi> wird mir gewiß<note corresp="#VI_391-11">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004126">
-                        <persName> Friedrich August von <name type="reg">Stägemann</name>
+                        <persName>Friedrich August von <name type="reg">Stägemann</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -183,7 +207,7 @@
                   Geld<note corresp="#VI_391-12">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002703">
-                        <persName> Johann Siegfried Wilhelm <name type="reg">Mayer</name>
+                        <persName>Johann Siegfried Wilhelm <name type="reg">Mayer</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -192,11 +216,11 @@
                auf solche Art seiner Tochter<note corresp="#VI_391-13">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003469">
-                        <persName> Caroline <name type="reg">Richter</name>
+                        <persName>Caroline <name type="reg">Richter</name>
                         </persName>
                      </person>
                      <person corresp="#JP-004393">
-                        <persName> Wilhelmine <name type="reg">Uthe-Spazier</name>
+                        <persName>Minna <name type="reg">Uthe-Spazier</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -205,7 +229,7 @@
                   <listPerson type="lineReference">
                      <person corresp="#JP-000058">
                         <persName>
-                           <name type="reg">Alexander I.</name>
+                           <name type="reg">Alexander I., Zar von Russland</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -223,7 +247,8 @@
                   <listPerson type="lineReference">
                      <person corresp="#JP-002061">
                         <persName>
-                           <name type="reg">Katharina Pawlowna</name>
+                           <name type="reg">Katharina Pawlowna, ab 1809 Herzogin von Oldenburg, ab 1816 Königin
+                            von Württemberg</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -239,7 +264,7 @@
                oder im Knopfloch habe, wirkt<lb xml:id="VI_391-24"/> mir ja der Minister <hi rendition="#aq">Schuckmann</hi> aus; und ich werde noch in diesem<note corresp="#VI_391-25">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003878">
-                        <persName> Caspar Friedrich Freiherr von <name type="reg">Schuckmann</name>
+                        <persName>Kaspar Friedrich Freiherr von <name type="reg">Schuckmann</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -250,7 +275,7 @@
                   den<note corresp="#VI_391-27">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002819">
-                        <persName> Johann Chr. Martin <name type="reg">Miedel</name>
+                        <persName>Johann Christoph Martin <name type="reg">Miedel</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -259,14 +284,13 @@
                schicken, die ich ihm gelobt, ohne<note corresp="#VI_391-28">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005574" ana="†">
-                        <placeName>Bayreuth (Stadt)</placeName>
+                        <placeName>Bayreuth </placeName>
                      </place>
                   </listPlace>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008200" ana="†">
-                        <author>Brockhaus, Friedrich Arnold, Verlagsbuchhändler (Werk,
-                           Hrsg.)</author>
-                        <title>Deutsche Blätter (1813-1816)</title>
+                        <author>Brockhaus, Friedrich Arnold (Hrsg.)</author>
+                        <title>Deutsche Blätter (Leipzig und Altenburg: Brockhaus 1813–1816)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -280,7 +304,13 @@
                   <hi rendition="#i">H</hi>: ehem. Slg. Kippenberg Nr. 3133. Von fremder Hand
                   datiert: Im<lb/> August 1814. <hi rendition="#i">J</hi>: Wahrheit 8, 30× (Aug.
                   1814; der Schluß nicht her<lb rendition="#hyphen"/>gehörig).</hi>
-               <hi rendition="#b"><hi rendition="#aq">391</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">1</hi></hi> -Bogen] <hi rendition="#aq">nachtr.</hi> d. h.] <hi rendition="#aq">aus</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">391</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">1</hi>
+               </hi> -Bogen] <hi rendition="#aq">nachtr.</hi> d. h.] <hi rendition="#aq">aus</hi>
                oder <hi rendition="#rkd">12</hi> ja] <hi rendition="#aq">danach gestr.</hi>
                <lb/> für mich nichts anders thun</p>
             <lb/>

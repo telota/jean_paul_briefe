@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="712">710. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, 13. Dezember 1812.</title>
+            <title n="print" type="letter" rend="710">710. An Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth, 13. Dezember 1812, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>305</num></biblScope><biblScope n="comment" unit="page"><num>549</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>305</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>549</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1812-12-13">13. Dezember 1812</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB1121"/><ptr type="next" subtype="brief" target="IX_18"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_708"/><ptr type="next" subtype="brief" target="IX_18"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_708"/><ptr type="next" subtype="brief" target="VI_711"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB1121"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_212"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_708"/>
+               <ptr type="next" subtype="brief" target="IX_18"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_708"/>
+               <ptr type="next" subtype="brief" target="VI_711"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -92,8 +115,8 @@
             <p>Guten Morgen, Alter! Hier der so interessante Göthe. Viel<note corresp="#VI_305-28">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008507" ana="†">
-                        <author>Goethe, Johann Wolfgang von (1749-1832)</author>
-                        <title>Aus meinem Leben (Dichtung und Wahrheit, 1811-33)</title>
+                        <author>Goethe, Johann Wolfgang von (1749–1832)</author>
+                        <title>Aus meinem Leben (Dichtung und Wahrheit, 1811–1833)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -102,7 +125,7 @@
                gewinnt er nicht an Kopf (desto mehr aber Herder)<note corresp="#VI_305-30">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001675">
-                        <persName> Johann Gottfried von <name type="reg">Herder</name>
+                        <persName>Johann Gottfried von <name type="reg">Herder</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -112,11 +135,11 @@
                Schleglische Vergötterung<note corresp="#VI_305-32">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003757">
-                        <persName> August Wilhelm <name type="reg">Schlegel</name>
+                        <persName>August Wilhelm <name type="reg">Schlegel</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003760">
-                        <persName> Friedrich <name type="reg">Schlegel</name>
+                        <persName>Friedrich <name type="reg">Schlegel</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -124,14 +147,14 @@
                <lb xml:id="VI_305-32"/> hat ihn also nicht benebelt. — <hi rendition="#aq">Wagner</hi> mahnt mich um 1. euro<note corresp="#VI_305-33">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004569">
-                        <persName> Lorenz Heinrich <name type="reg">Wagner</name>
+                        <persName>Lorenz Heinrich <name type="reg">Wagner</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009432">
-                        <author>Posselt, Ernst Ludwig (Werk, Hrsg.)</author>
-                        <title>Europäische Annalen (1795-1820)</title>
+                        <author>Posselt, Ernst Ludwig (Hrsg.)</author>
+                        <title>Europäische Annalen (Stuttgart, Tübingen, Cotta: 1795–1820)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -139,8 +162,11 @@
                erinnere mich aber nicht,<note corresp="#VI_305-34">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008632" ana="†">
-                        <author>Hartleben, Th. (Werk, Hrsg.)</author>
-                        <title>Polizeifama (1802ff.)</title>
+                        <author>Hartleben, Theodor Konrad (1770–1827) (Hrsg.)</author>
+                        <title>Deutsche Justiz- und Polizey-Fama (1.1802); Allgemeine deutsche Justiz-
+                        und Policeifama (2.1803–6.1807, 14.1815–15.1816); Allgemeine Justiz- und
+                        Policeyblätter (7.1808–13.1814) Allgemeine deutsche Justiz-, Kameral- und
+                        PolizeiFama (16.1817–26.1827)</title>
                      </bibl>
                   </listBibl>
                </note>

@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="252">251. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, 5. April 1810.</title>
+            <title n="print" type="letter" rend="251">251. An Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth, 5. April 1810, Donnerstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,16 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>96</num><num>97</num></biblScope><biblScope n="comment" unit="page"><num>466</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>96</num>
+                  <num>97</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>466</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +78,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1810-04-05">5. April 1810</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_250"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0452"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_250"/><ptr type="next" subtype="brief" target="VI_253"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_250"/><ptr type="next" subtype="brief" target="VI_253"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB1895"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB0452"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_250"/>
+               <ptr type="next" subtype="brief" target="VI_253"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_250"/>
+               <ptr type="next" subtype="brief" target="VI_253"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -94,11 +118,11 @@
                bei der<note corresp="#VI_96-27">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003188">
-                        <persName> Friedrich Christoph <name type="reg">Perthes</name>
+                        <persName>Friedrich <name type="reg">Perthes</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003190">
-                        <persName> Johannes <name type="reg">Perthes</name>
+                        <persName>Johannes <name type="reg">Perthes</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -108,15 +132,14 @@
                <note corresp="#VI_96-29">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003616">
-                        <persName> Otto August <name type="reg">Rühle von Lilienstern</name>
+                        <persName>August <name type="reg">Rühle von Lilienstern</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008134" ana="†">
-                        <author>Bertuch, Friedrich Johann Justin (1747-1822), Weimarer
-                           Verleger</author>
-                        <title>Industrie-Comptoir (Verlag u.a., 1791ff.)</title>
+                        <author>Bertuch, Friedrich Johann Justin (1747–1822)</author>
+                        <title>Industrie-Comptoir (Verlag u. a., 1791 ff.)<?oxy_custom_end?></title>
                      </bibl>
                   </listBibl>
                </note>
@@ -125,7 +148,7 @@
                bei der<note corresp="#VI_96-31">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003846">
-                        <persName> Johann Leonhard <name type="reg">Schrag</name>
+                        <persName>Johann Leonhard <name type="reg">Schrag</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -143,7 +166,7 @@
                1000 Dinge dir<lb xml:id="VI_97-2"/> zu sagen vergessen habe. Auch ich hörte über <hi rendition="#aq">Jacobi</hi> Beruhigendes.<note corresp="#VI_97-3">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001909">
-                        <persName> Friedrich Heinrich <name type="reg">Jacobi</name>
+                        <persName>Friedrich Heinrich <name type="reg">Jacobi</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -151,7 +174,7 @@
                <lb xml:id="VI_97-3"/> Ein später Brief v. 27. meldet nichts. <hi rendition="#aq">Grieshammer</hi> hört’ es<note corresp="#VI_97-4">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001401">
-                        <persName> Johann Jakob <name type="reg">Grieshammer</name>
+                        <persName>Johann Jakob <name type="reg">Grieshammer</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -162,8 +185,7 @@
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010209">
                         <author/>
-                        <title>Bibliothek der schönen Wissenschaften (1757-1806, ab 1765
-                           Neue)</title>
+                        <title>Bibliothek der schönen Wissenschaften (1757–1806, ab 1765 Neue) </title>
                      </bibl>
                   </listBibl>
                </note>
@@ -175,7 +197,13 @@
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Berlin JP. Präsentat: Donnerstag, den 5 April</hi>
                <hi rendition="#aq">10. </hi>
-               <hi rendition="#b"><hi rendition="#aq">96</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">33</hi></hi> mehr]<lb/>
+               <hi rendition="#b">
+                  <hi rendition="#aq">96</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">33</hi>
+               </hi> mehr]<lb/>
                <hi rendition="#aq">nachtr.</hi>
             </p>
             <lb/>

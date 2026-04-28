@@ -2,9 +2,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="918">912. An Herzogin Katharina Pawlowna von
+            <title n="print" type="letter" rend="912">912. An Herzogin Katharina Pawlowna von
                Oldenburg. </title>
-            <title n="digital">Von Jean Paul an Pawlowna Katharina. Bayreuth, 13. August 1814.</title>
+            <title n="digital">Von Jean Paul an Katharina Pawlowna, Herzogin von Oldenburg.
+               Bayreuth, 13. August 1814, Samstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -46,7 +47,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +62,16 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>394</num><num>395</num></biblScope><biblScope n="comment" unit="page"><num>583</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>394</num>
+                  <num>395</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>583</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -70,20 +80,34 @@
             </msDesc>
             <listPerson type="commentary">
                <person rend="Lesarten" corresp="#JP-000311">
-                  <persName> Jean Baptiste Jules <name type="reg">Bernadotte</name>
+                  <persName>Jean Baptiste <name type="reg">Bernadotte</name>
                   </persName>
                </person>
             </listPerson>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1814-08-13">13. August 1814</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-002061"> Katharina Pawlowna</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_910"/><ptr type="next" subtype="brief" target="VI_913"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_910"/><ptr type="next" subtype="brief" target="VI_913"/></correspContext><correspContext n="correspondence"><ptr type="next" subtype="brief" target="VII_99"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-002061">Katharina Pawlowna, Herzogin von Oldenburg</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_910"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_EB_121"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_910"/>
+               <ptr type="next" subtype="brief" target="VI_913"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="next" subtype="brief" target="VII_99"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -102,21 +126,23 @@
                kühn sein würde,<lb xml:id="VI_394-34"/> wäre sie nicht an die hohe Regentin
                gerichtet, welche wie die Göttin<lb n="35" xml:id="VI_394-35"/> Pallas, zugleich die
                Wissenschaften und die Waffen beschützt.<note corresp="#VI_394-36">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-003144">
-                     <persName>
-                        <name type="reg">Pallas Athene</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="VI_394-36"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003144">
+                        <persName>
+                           <name type="reg">Athene</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_394-36"/>
+            </p>
             <p>Im April wagte ich eine ähnliche Kühnheit, indem ich an den<lb xml:id="VI_395-1"/>
                erhabenen Bruder Ew. K<metamark>[</metamark>öniglichen<metamark>]</metamark>
                   H<metamark>[</metamark>oheit<metamark>]</metamark>, den Kaiser Alexander,<note corresp="#VI_395-2">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000058">
                         <persName>
-                           <name type="reg">Alexander I.</name>
+                           <name type="reg">Alexander I., Zar von Russland</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -135,9 +161,8 @@
                <lb xml:id="VI_395-4"/> europäischen Thronhöhen — wagte doch ein Deutscher zu einer
                   Zeit,<note corresp="#VI_395-5">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0056690">
-                        <placeName>Deutsche; Deutschland , deutsch , Germanien,
-                           Vaterland</placeName>
+                     <place corresp="#JP-011167">
+                        <placeName>Deutsche</placeName>
                      </place>
                      <place corresp="#JP-005728">
                         <placeName>Europa</placeName>
@@ -153,7 +178,7 @@
                   <listPerson type="lineReference">
                      <person corresp="#JP-000058">
                         <persName>
-                           <name type="reg">Alexander I.</name>
+                           <name type="reg">Alexander I., Zar von Russland</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -171,9 +196,8 @@
                   und<lb xml:id="VI_395-13"/> allen Deutschen Friede und Freiheit gab. Möge die
                Freundin der<note corresp="#VI_395-14">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0056690">
-                        <placeName>Deutsche; Deutschland , deutsch , Germanien,
-                           Vaterland</placeName>
+                     <place corresp="#JP-011167">
+                        <placeName>Deutsche</placeName>
                      </place>
                   </listPlace>
                </note>

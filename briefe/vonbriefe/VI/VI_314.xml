@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="315">314. An Friedrich Heinrich Jacobi in München. </title>
-            <title n="digital">Von Jean Paul an Friedrich Heinrich Jacobi. Bayreuth, 22. Juli 1810.</title>
+            <title n="print" type="letter" rend="314">314. An Friedrich Heinrich Jacobi in München. </title>
+            <title n="digital">Von Jean Paul an Friedrich Heinrich Jacobi. Bayreuth, 22. Juli 1810, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,16 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>122</num><num>123</num></biblScope><biblScope n="comment" unit="page"><num>479</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>122</num>
+                  <num>123</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>479</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,14 +78,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1810-07-22">22. Juli 1810</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-001909">Friedrich Heinrich Jacobi</persName>
                <placeName key="JP-006040">München</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_313"/><ptr type="next" subtype="brief" target="VI_315"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_313"/><ptr type="next" subtype="brief" target="VI_315"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_160"/><ptr type="next" subtype="brief" target="VI_409"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_313"/>
+               <ptr type="next" subtype="brief" target="VI_315"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_313"/>
+               <ptr type="next" subtype="brief" target="VI_315"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_160"/>
+               <ptr type="next" subtype="brief" target="VI_409"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -95,7 +119,7 @@
                   begleitet<note corresp="#VI_122-34">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000666">
-                        <persName> Johann Gottfried <name type="reg">Cloeter</name>
+                        <persName>Johann Gottfried <name type="reg">Cloeter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -113,13 +137,15 @@
                schwarzen Husaren des 7jährigen Kriegs<lb xml:id="VI_123-3"/> sich zu einem Amt-,
                Kauf- und Land-Mann und zum Vater be<lb xml:id="VI_123-4" rendition="#hyphen"/>glückter Söhne aufschwang, den scharfen Blick auf Geschäfte,<lb n="5" xml:id="VI_123-5"/> Leben und Menschen, die Originalität und das redliche Herz
                   und<lb xml:id="VI_123-6"/> weit mehreres, denn ich war Lehrer seiner Kinder.<note corresp="#VI_123-7">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-000668">
-                     <persName> Johann Gottfried <name type="reg">Cloeter</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="VI_123-7"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000668">
+                        <persName>Johann Gottfried <name type="reg">Cloeter</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_123-7"/>
+            </p>
             <p>Dieser soll mir <hi rendition="#g">mündlich</hi> etwas von dir bringen, damit ich
                   doch<lb xml:id="VI_123-8"/> zwei Antworten auf meinen vorigen und diesen Brief
                   zugleich<lb xml:id="VI_123-9"/> erhalte.<lb n="10" xml:id="VI_123-10"/>
@@ -128,25 +154,27 @@
                <hi rendition="#g">Aretin</hi> nannte — als über<note corresp="#VI_123-13">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000124">
-                        <persName> Pietro <name type="reg">Aretino</name>
+                        <persName>Pietro <name type="reg">Aretino</name>
                         </persName>
                      </person>
                   </listPerson>
                </note>
                <lb xml:id="VI_123-13"/> die Geisel der Geister-Fürsten.<note corresp="#VI_123-14">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-000123" ana="†">
-                     <persName> Johann Christoph <name type="reg">Aretin</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="VI_123-14"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-000123" ana="†">
+                        <persName>Johann Christoph <name type="reg">Aretin</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_123-14"/>
+            </p>
             <p>
                <hi rendition="#aq">Koeppens</hi> Buch hat mich überraschend erquickt; und ich
                   habe<note corresp="#VI_123-15">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008965">
-                        <author>Köppen, Friedrich (1775-1858), Philosoph</author>
+                        <author>Köppen, Friedrich (1775–1858)</author>
                         <title>Darstellung des Wesens der Philosophie (1810)</title>
                      </bibl>
                   </listBibl>
@@ -155,13 +183,13 @@
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010265">
                         <author/>
-                        <title>Heidelbergische Jahrbücher der Literatur (1808ff.)</title>
+                        <title>Heidelbergische Jahrbücher der Literatur (1808 ff.) </title>
                      </bibl>
                   </listBibl>
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010867">
                         <title>Rezensionen: Köppen, Darstellung des Wesens der Philosophie
-                           (1810)</title>
+                        (1810)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -176,20 +204,22 @@
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009809" ana="†">
-                        <author>Spazier, Karl und Siegfried August Mahlmann (Werk, Hrsg.)</author>
+                        <author>Spazier, Johann Karl Gottlieb (1761–1805); Mahlmann, Siegfried August
+                  (1771–1826) (Hrsg.)</author>
                         <title>Zeitung für die elegante Welt (1801ff.)</title>
                      </bibl>
                   </listBibl>
                </note>
                <lb xml:id="VI_123-17"/> der „innern Offenbarung“?<note corresp="#VI_123-18">
-               <listBibl type="lineReference" subtype="werke">
-                  <bibl corresp="#JP-008826" ana="†">
-                     <author>Jacobi, Friedrich Heinrich (1743-1819), Philosoph und
-                        Schriftsteller(Werk)</author>
-                     <title>Von den göttlichen Dingen (1811)</title>
-                  </bibl>
-               </listBibl>
-            </note><lb xml:id="VI_123-18"/></p>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-008826" ana="†">
+                        <author>Jacobi, Friedrich Heinrich (1743–1819)</author>
+                        <title>Von den göttlichen Dingen (1811)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_123-18"/>
+            </p>
             <p>Lebe wol! Ich bin jetzt mit euch <hi rendition="#aq">Münchner</hi> Protestanten
                   sehr<note corresp="#VI_123-19">
                   <listPerson type="lineReference">
@@ -229,7 +259,13 @@
                <lb/> 22 Jul. <hi rendition="#aq">
                   <hi rendition="#i">J</hi>: Jacobi S.</hi>
                <hi rendition="#aq">144. </hi>
-               <hi rendition="#b"><hi rendition="#aq">123</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">6</hi></hi> Leben] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">123</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">6</hi>
+               </hi> Leben] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">7</hi> mehreres] <hi rendition="#aq">aus</hi>
                <lb/> mehr <hi rendition="#aq">

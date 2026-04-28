@@ -2,9 +2,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="438">437. An die Dieterichsche Buchhandlung in
+            <title n="print" type="letter" rend="437">437. An die Dieterichsche Buchhandlung in
                Göttingen. </title>
-            <title n="digital">Von Jean Paul an Johann Christian Dieterich. Bayreuth, 3. Dezember 1807.</title>
+            <title n="digital">Von Jean Paul an Johann Christian Dieterich. Bayreuth, 3. Dezember 1807, Donnerstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -46,7 +46,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -61,8 +62,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
+               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
                <biblScope n="text" unit="page">
                   <num>182</num>
                   <num>183</num>
@@ -79,14 +79,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1807-12-03">3. Dezember 1807</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-000797">Johann Christian Dieterich</persName>
                <placeName key="JP-005786">Göttingen</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB1786"/><ptr type="next" subtype="umfeldbrief" target="JP-UB1787"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="V_436"/><ptr type="next" subtype="brief" target="V_438"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="I_8-fb"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB1786"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB1787"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="V_436"/>
+               <ptr type="next" subtype="brief" target="V_438"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-III.1_149"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -115,7 +129,8 @@
                <item>1) Vor 4 Jahren gab ein Druck-Dieb in Jena ein Bändchen<note corresp="#V_182-24">
                      <listPerson type="lineReference">
                         <person corresp="#JP-004499">
-                           <persName> J. G. <name type="reg">Voigt</name>
+                           <persName>
+                              <name type="reg">Voigt J. G. (Buchhandlung)</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -123,8 +138,8 @@
                         <place corresp="#JP-005875">
                            <placeName>Jena</placeName>
                         </place>
-                        <place corresp="#JP-00587511">
-                           <placeName>Reichardtscher Garten, Gartenhaus; Jena</placeName>
+                        <place corresp="#JP-011458">
+                           <placeName>Reichardtscher Garten, Gartenhaus</placeName>
                         </place>
                      </listPlace>
                   </note>
@@ -141,7 +156,8 @@
                      <hi rendition="#g">Friedens</hi>predigt, die unserer Zeit so nöthig ist,<note corresp="#V_182-33">
                      <listBibl type="lineReference" subtype="werke-jp">
                         <bibl corresp="#JP-010713">
-                           <title>Friedens-Predigt an Deutschland (1808)</title>
+                           <title>Friedens-Predigt an Deutschland (Heidelberg: Mohr und Zimmer
+                        1808)</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -155,7 +171,7 @@
                            <title>Die Vernichtung (1796)</title>
                         </bibl>
                         <bibl corresp="#JP-010934">
-                           <title>Über den Tod nach dem Tode (1802)</title>
+                           <title>Ueber den Tod nach dem Tode; oder der Geburtstag (1802)</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -167,10 +183,8 @@
                <item>2) Für den Druckbogen — ungefähr im Format von Lichtenbergs<note corresp="#V_183-5">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-009110">
-                           <author>Lichtenberg, Georg Christoph (Pseud. Friedrich Eckard(t), Conrad
-                              Photorin, Emanuel Candidus) (1742-1799), Schriftsteller, Mathematiker
-                              und Physiker</author>
-                           <title>Vermischte Schriften (1800-1804)</title>
+                           <author>Lichtenberg, Georg Christoph (1742–1799)</author>
+                           <title>Vermischte Schriften (1800–1804)</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -206,8 +220,7 @@
                      Buchhandlung<lb xml:id="V_183-21"/> einzutreten wünsche, welche einen <hi rendition="#aq">Lichtenberg</hi> unterstützt, geliebt,<note corresp="#V_183-22">
                      <listPerson type="lineReference">
                         <person corresp="#JP-002440">
-                           <persName> Georg Christoph (Pseud. Friedrich Eckard(t), Conrad Photorin,
-                              Emanuel Candidus) <name type="reg">Lichtenberg</name>
+                           <persName>Georg Christoph <name type="reg">Lichtenberg</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -215,9 +228,8 @@
                   <lb xml:id="V_183-22"/> beherbergt hat und aus welcher jedem Deutschen so viel
                   Witz und<note corresp="#V_183-23">
                      <listPlace type="lineReference">
-                        <place corresp="#JP-0056690">
-                           <placeName>Deutsche; Deutschland , deutsch , Germanien,
-                              Vaterland</placeName>
+                        <place corresp="#JP-011167">
+                           <placeName>Deutsche</placeName>
                         </place>
                      </listPlace>
                   </note>
@@ -252,7 +264,13 @@
                <lb/> Bändchen] <hi rendition="#aq">danach gestr.</hi> getheilt <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">183</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">1</hi></hi> den Aufsätzen] <hi rendition="#aq">aus</hi> dem Aufsatz <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">183</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">1</hi>
+               </hi> den Aufsätzen] <hi rendition="#aq">aus</hi> dem Aufsatz <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
                <lb/>

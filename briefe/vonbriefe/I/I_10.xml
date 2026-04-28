@@ -3,7 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title n="print" type="letter" rend="10">10. An Frau Richter in Schwarzenbach. </title>
-            <title n="digital">Von Jean Paul an Sophie Rosine Richter. Leipzig, 27. August 1781. </title>
+            <title n="digital">Von Jean Paul an Sophie Rosine Richter. Leipzig, 27. August 1781, Montag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="I">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
+               <title n="I">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
                <biblScope n="text" unit="page">
                   <num>12</num>
                   <num>13</num>
@@ -78,22 +78,37 @@
                </msIdentifier>
             </msDesc>
             <listPlace type="commentary">
-               <place corresp="#JP-00584117">
-                  <placeName>Klostergasse; Hof im Vogtland</placeName>
+               <place corresp="#JP-011405">
+                  <placeName>Klostergasse</placeName>
                </place>
             </listPlace>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1781-08-27">27. August 1781</date>
                <placeName key="JP-005948">Leipzig</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003496">Sophie Rosine Richter</persName>
                <placeName key="JP-006268">Schwarzenbach a. d.
                   Saale</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="I_3-fb"/><ptr type="next" subtype="brief" target="I_12"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="I_3-fb"/><ptr type="next" subtype="brief" target="I_12"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="I_2-fb"/><ptr type="next" subtype="brief" target="I_15"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="I_3-fb"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB1962"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="I_3-fb"/>
+               <ptr type="next" subtype="brief" target="I_12"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="I_2-fb"/>
+               <ptr type="next" subtype="brief" target="I_15"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -112,8 +127,7 @@
                fast ganz vol. Dies Mensch, <note corresp="#I_12-31">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003515">
-                        <persName>
-                           <name type="reg">Riese</name>
+                        <persName>Frau <name type="reg">Riese</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -129,7 +143,7 @@
                Ich weis <note corresp="#I_13-7">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004483">
-                        <persName> Johann Wilhelm <name type="reg">Vogel</name>
+                        <persName>Johann Wilhelm <name type="reg">Vogel</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -138,7 +152,7 @@
                ersparen <note corresp="#I_13-8">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005841">
-                        <placeName>Hof im Vogtland</placeName>
+                        <placeName>Hof</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -149,8 +163,7 @@
                dieses grobe Mensch antun würde, die <note corresp="#I_13-12">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003515">
-                        <persName>
-                           <name type="reg">Riese</name>
+                        <persName>Frau <name type="reg">Riese</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -160,16 +173,16 @@
                auszustehen <note corresp="#I_13-14">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003504" ana="?">
-                        <persName> Christiana Maria <name type="reg">Riedel</name>
+                        <persName>Christiana Maria <name type="reg">Riedel</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003505">
-                        <persName> Ernst Ludwig <name type="reg">Riedel</name>
+                        <persName>Ernst Ludwig <name type="reg">Riedel</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003503" ana="?">
-                        <persName> Ernst Ludwig <name type="reg">Riedel</name>, seine Tochter
-                        </persName>
+                        <persName>
+                           <name type="reg">Riedel</name>, seine Tochter</persName>
                      </person>
                   </listPerson>
                </note>
@@ -179,7 +192,7 @@
                schikken; ich werde sie <note corresp="#I_13-17">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001694">
-                        <persName> Johann Bernhard <name type="reg">Hermann</name>
+                        <persName>Johann Bernhard <name type="reg">Hermann</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -190,8 +203,7 @@
                nicht; aber iene müssen <hi rendition="#aq">à la Hamlet</hi> gemacht sein. <note corresp="#I_13-20">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009760">
-                        <author>Shakespeare, William (Shakespear, Shakspeare, Shakespear,
-                           Schakespeare) (1564-1616)</author>
+                        <author>Shakespeare, William (1564–1616)</author>
                         <title>Hamlet (1603)</title>
                      </bibl>
                   </listBibl>
@@ -203,11 +215,11 @@
                Aktuar nicht gewiesen haben. — <note corresp="#I_13-24">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003623" rend="sein Amtsvorgänger?">
-                        <persName> Johann <name type="reg">Ruß </name>
+                        <persName>Johann <name type="reg">Ruß</name>
                         </persName>
                      </person>
                      <person corresp="#JP-004483">
-                        <persName> Johann Wilhelm <name type="reg">Vogel</name>
+                        <persName>Johann Wilhelm <name type="reg">Vogel</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -216,8 +228,8 @@
                   <note corresp="#I_13-25">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003481">
-                        <persName> Johann Paul Friedrich <name type="reg">Richter</name>
-                        </persName>
+                        <persName>
+                           <name type="reg">Richter</name>, seine Brüder</persName>
                      </person>
                   </listPerson>
                </note>
@@ -228,7 +240,7 @@
                schreib’ ich in 3 Wochen weder an Rektor <note corresp="#I_13-29">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004677">
-                        <persName> Carl August <name type="reg">Werner</name>
+                        <persName>Carl August <name type="reg">Werner</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -237,11 +249,11 @@
                Beiläufig <note corresp="#I_13-30">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004474">
-                        <persName> Erhard Friedrich <name type="reg">Vogel</name>
+                        <persName>Erhard Friedrich <name type="reg">Vogel</name>
                         </persName>
                      </person>
                      <person corresp="#JP-004483">
-                        <persName> Johann Wilhelm <name type="reg">Vogel</name>
+                        <persName>Johann Wilhelm <name type="reg">Vogel</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -250,11 +262,11 @@
                Christiana so von <note corresp="#I_13-31">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004469">
-                        <persName> Anna Katharina <name type="reg">Vogel</name>
+                        <persName>Anna Katharina <name type="reg">Vogel</name>
                         </persName>
                      </person>
                      <person corresp="#JP-004542">
-                        <persName> Christiane <name type="reg">Wächter</name>
+                        <persName>Christiane <name type="reg">Wächter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -288,16 +300,16 @@
                      in der Kloster<note corresp="#I_14-5">
                         <listPerson type="lineReference">
                            <person corresp="#JP-002300">
-                              <persName> Eva Barbara <name type="reg">Kuhn</name>
+                              <persName>Eva Barbara <name type="reg">Kuhn</name>
                               </persName>
                            </person>
                         </listPerson>
                         <listPlace type="lineReference">
                            <place corresp="#JP-005841">
-                              <placeName>Hof im Vogtland</placeName>
+                              <placeName>Hof</placeName>
                            </place>
-                           <place corresp="#JP-00584117">
-                              <placeName>Klostergasse; Hof im Vogtland</placeName>
+                           <place corresp="#JP-011405">
+                              <placeName>Klostergasse</placeName>
                            </place>
                         </listPlace>
                      </note>
@@ -311,7 +323,13 @@
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Goethe- u. Schiller-Archiv. 1 S. 2°; Nachschrift und
                   Adresse <lb/>auf der Rücks. Vgl. Wahrheit 3,195; Schneider S. 232f.</hi>
-               <hi rendition="#b"><hi rendition="#aq">13</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">11</hi></hi> Advokaten] <lb/>
+               <hi rendition="#b">
+                  <hi rendition="#aq">13</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">11</hi>
+               </hi> Advokaten] <lb/>
                <hi rendition="#aq">danach gestr.</hi> nicht <hi rendition="#rkd">
                   <hi rendition="#aq">26</hi>
                </hi> in iedem] <hi rendition="#aq">aus</hi> das <hi rendition="#rkd">

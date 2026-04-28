@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="252">248. An Baron Eugen von Vaerst in Bayreuth. </title>
-            <title n="digital">Von Jean Paul an Eugen, Baron von Vaerst. Bayreuth, 21. Februar 1822.</title>
+            <title n="print" type="letter" rend="248">248. An Baron Eugen von Vaerst in Bayreuth. </title>
+            <title n="digital">Von Jean Paul an Eugen Baron von Vaerst. Bayreuth, 21. Februar 1822, Donnerstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>152</num>
                </biblScope>
@@ -78,14 +78,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1822-02-21">21. Februar 1822</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-004400">Eugen, Baron von Vaerst</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-004400">Eugen Baron von Vaerst</persName>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VIII_247"/><ptr type="next" subtype="brief" target="VIII_249"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VIII_247"/><ptr type="next" subtype="brief" target="VIII_249"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VIII_247"/>
+               <ptr type="next" subtype="brief" target="VIII_249"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VIII_247"/>
+               <ptr type="next" subtype="brief" target="VIII_249"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VII_194"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -105,24 +119,23 @@
                wenn Sie<note corresp="#VIII_152-7">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002022">
-                        <persName>
-                           <name type="reg">Kanne</name>
+                        <persName>Johann Arnold <name type="reg">Kanne</name>
                         </persName>
                      </person>
                      <person corresp="#JP-002021">
-                        <persName> Johann Arnold <name type="reg">Kanne</name>
+                        <persName>Johann Arnold <name type="reg">Kanne</name>
                         </persName>
                      </person>
                      <person corresp="#JP-004547" ana="?">
-                        <persName> Adolph <name type="reg">Wagner</name>
+                        <persName>Adolph <name type="reg">Wagner</name>
                         </persName>
                      </person>
                      <person corresp="#JP-004556" ana="?">
-                        <persName> Johann Ernst <name type="reg">Wagner</name>
+                        <persName>Johann Ernst <name type="reg">Wagner</name>
                         </persName>
                      </person>
                      <person corresp="#JP-004569" ana="?">
-                        <persName> Lorenz Heinrich <name type="reg">Wagner</name>
+                        <persName>Lorenz Heinrich <name type="reg">Wagner</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -131,16 +144,16 @@
                   —<lb xml:id="VIII_152-8"/>in der Rollwenzelei. Auf harmonisches Wiedersehen!<note corresp="#VIII_152-9">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003561">
-                        <persName> Anna Dorothea <name type="reg">Rollwenzel</name>
+                        <persName>Anna Dorothea <name type="reg">Rollwenzel</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0055741">
-                        <placeName>Harmonie-Gesellschaft; Bayreuth (Stadt)</placeName>
+                     <place corresp="#JP-011035">
+                        <placeName>Harmonie-Gesellschaft</placeName>
                      </place>
-                     <place corresp="#JP-00557443">
-                        <placeName>Rollwenzelei; Bayreuth (Stadt)</placeName>
+                     <place corresp="#JP-011072">
+                        <placeName>Rollwenzelei</placeName>
                      </place>
                   </listPlace>
                </note>

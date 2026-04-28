@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="342">*336. An Dr. Christian Schreiber. </title>
-            <title n="digital">Von Jean Paul an Christian Schreiber. Meiningen, 26. Dezember 1802.</title>
+            <title n="print" type="letter" rend="336">*336. An Dr. Christian Schreiber. </title>
+            <title n="digital">Von Jean Paul an Christian Schreiber. Meiningen, 26. Dezember 1802, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,11 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"/><biblScope n="comment" unit="page"/></bibl>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page"/>
+               <biblScope n="comment" unit="page"/>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -70,14 +74,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1802-12-26">26. Dezember 1802</date>
                <placeName key="JP-006012">Meiningen
                </placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003855">Christian Schreiber</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="IV_335"/><ptr type="next" subtype="umfeldbrief" target="JP-UB1461"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="IV_335"/><ptr type="next" subtype="brief" target="IV_339"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="IV_24-fb"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="IV_335"/>
+               <ptr type="next" subtype="anbrief" target="IV-IV_272"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="IV_335"/>
+               <ptr type="next" subtype="brief" target="IV_339"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="IV_24-fb"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -107,15 +125,6 @@
                         <title>Harmonia oder das Reich der Töne (1803)</title>
                      </bibl>
                   </listBibl>
-                  <!-- <person corresp="#JP-003854" ana="†">
-                        <persName> Christian <name type="reg">Schreiber</name>
-                        </persName>
-                     </person>
-                     <person corresp="#JP-003855" ana="†">
-                        <persName> Christian <name type="reg">Schreiber</name>
-                        </persName>
-                     </person>
-                  </listPerson>-->
                </note>
                <lb xml:id="IV_196-29"/>Ihnen. Ihre Fehler, die Sie verbessern können, habe ich im
                   Mspt.<lb n="30" xml:id="IV_196-30"/>mit || bezeichnet; das Gute mit □; das
@@ -123,7 +132,7 @@
                   <metamark>[</metamark>Jede Darstellung mus sich an Hand<note corresp="#IV_196-32">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003737">
-                        <persName> Friedrich (ab 1802) von <name type="reg">Schiller</name>
+                        <persName>Friedrich (ab 1802) von <name type="reg">Schiller</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -153,7 +162,13 @@
                   <hi rendition="#i">J</hi>: K. W. Justi, Grundlage zu<lb/>einer Hessischen
                   Gelehrten-, Schriftsteller- und Künstlergeschichte,<lb/>Marburg 1831, S. 837
                   (offenbar unvollständig und ungenau wieder<lb rendition="#hyphen"/>gegeben).</hi>
-               <hi rendition="#b"><hi rendition="#aq">196</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">28</hi></hi> Was <hi rendition="#aq">bis</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">196</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">28</hi>
+               </hi> Was <hi rendition="#aq">bis</hi>
                <hi rendition="#rkd">29 </hi>wären?] <hi rendition="#aq">so <hi rendition="#i">K</hi>, fehlt <hi rendition="#i">J</hi>
                </hi>
                <hi rendition="#rkd">29</hi> Die <hi rendition="#aq">bis</hi>
@@ -166,10 +181,22 @@
                <hi rendition="#rkd"> 32</hi> sie <hi rendition="#aq">
                   <hi rendition="#i">J</hi>
                </hi> Jede <hi rendition="#aq">bis</hi>
-               <hi rendition="#b"><hi rendition="#aq">197</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">2</hi></hi> einwürkt.] <hi rendition="#aq">diesen Satz führt<lb/>Schreiber in seinen
+               <hi rendition="#b">
+                  <hi rendition="#aq">197</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">2</hi>
+               </hi> einwürkt.] <hi rendition="#aq">diesen Satz führt<lb/>Schreiber in seinen
                   „Kleinen Schriften“, 1. Bd., Berlin 1806, S. 47f. an.</hi>
                <lb/>
-               <hi rendition="#b"><hi rendition="#aq">197</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">2</hi></hi> daß <hi rendition="#aq">bis</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">197</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">2</hi>
+               </hi> daß <hi rendition="#aq">bis</hi>
                <hi rendition="#rkd">5</hi> werden.] <hi rendition="#aq">so <hi rendition="#i">K</hi>,</hi> Auch ist die Zeichnung und nicht das Kolorit<lb/>bei’m Gemälde die
                Hauptsache. <hi rendition="#aq">
                   <hi rendition="#i">J</hi>

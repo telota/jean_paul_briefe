@@ -2,8 +2,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="476">472. An Adelheid Mützel in Nürnberg. </title>
-            <title n="digital">Von Jean Paul an Adelheid Mützel. Bayreuth, 6. Februar 1825.</title>
+            <title n="print" type="letter" rend="472">472. An Adelheid Mützel in Nürnberg. </title>
+            <title n="digital">Von Caroline Richter und Jean Paul an Adelheid Mützel. Bayreuth, 6.
+               Februar 1825, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +46,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +62,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>277</num>
                   <num>278</num>
@@ -78,20 +79,41 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-003469">Caroline Richter</persName>
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1825-02-06">6. Februar 1825</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-002935">Adelheid Mützel</persName>
                <placeName key="JP-006085">Nürnberg</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VIII_471"/><ptr type="next" subtype="umfeldbrief" target="JP-UB1390"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VIII_471"/><ptr type="next" subtype="brief" target="VIII_474"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VIII_469"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VIII_471"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB1390"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VIII_471"/>
+               <ptr type="next" subtype="brief" target="VIII_474"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VIII_469"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
       <body>
          <div type="letter">
-            <note type="editorial">Von Karoline Richter</note>
+            <note type="editorial">
+               <hi rendition="#c">
+                  <hi rendition="#i">
+                     <metamark>[</metamark>Von Karoline Richter<metamark>]</metamark>
+                  </hi>
+               </hi>
+            </note>
             <dateline>
                <hi rendition="#right">
                   <placeName>Baireut</placeName> den <date>6ten Febr. 1825</date>
@@ -100,7 +122,7 @@
             <note corresp="#VIII_277-23">
                <listPerson type="lineReference">
                   <person corresp="#JP-003469">
-                     <persName> Caroline <name type="reg">Richter</name>
+                     <persName>Caroline <name type="reg">Richter</name>
                      </persName>
                   </person>
                </listPerson>
@@ -114,7 +136,7 @@
             <lb xml:id="VIII_277-28"/>
             <p>Daß Erlangen Ihr Wohnort wird freut mich sehr, so sind Sie uns doch ein<note corresp="#VIII_277-29">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-005722">
+                     <place corresp="#JP-005721">
                         <placeName>Erlangen </placeName>
                      </place>
                   </listPlace>
@@ -123,7 +145,7 @@
                aber nicht blos aus<note corresp="#VIII_277-30">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005574">
-                        <placeName>Bayreuth (Stadt)</placeName>
+                        <placeName>Bayreuth </placeName>
                      </place>
                   </listPlace>
                </note>
@@ -135,7 +157,7 @@
                Kapp wäre gewiß einer für Sie, es soll eine sehr in<note corresp="#VIII_277-35">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002030">
-                        <persName> Emilie <name type="reg">Kapp</name>
+                        <persName>Emilie <name type="reg">Kapp</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -144,11 +166,11 @@
                sein, gewiß kennt Hr. Dr. Pfeifer den Mann, da<note corresp="#VIII_278-1">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002028">
-                        <persName> Christian <name type="reg">Kapp</name>
+                        <persName>Christian <name type="reg">Kapp</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003204">
-                        <persName> Georg Friedrich <name type="reg">Pfeiffer</name>
+                        <persName>Georg Friedrich <name type="reg">Pfeiffer</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -173,13 +195,15 @@
                meinen Augen gethan. Mögen die<lb n="10" xml:id="VIII_278-10"/>Ihrigen durch alles
                Schöne belohnt werden, was sie in und außer den<lb xml:id="VIII_278-11"/>Spiegeln
                sehen! Gegrüßt sei Ihr Freund!<note corresp="#VIII_278-12">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-003204">
-                     <persName> Georg Friedrich <name type="reg">Pfeiffer</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="VIII_278-12"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003204">
+                        <persName>Georg Friedrich <name type="reg">Pfeiffer</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_278-12"/>
+            </p>
             <closer>
                <salute>
                   <hi rendition="#right">Ihr<lb xml:id="VIII_278-13"/>Jean Paul Fr. Richter</hi>
@@ -195,7 +219,13 @@
             </p>
             <lb/>
             <p>
-               <hi rendition="#b"><hi rendition="#aq">278</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">12</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">278</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">12</hi>
+               </hi>
                <hi rendition="#aq">
                   <hi rendition="#g">Freund</hi>: wohl Dr. Pfeiffer.</hi>
             </p>

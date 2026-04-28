@@ -3,7 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title n="print" type="letter" rend="35">35. An Frau Richter in Hof. </title>
-            <title n="digital">Von Jean Paul an Sophie Rosine Richter. Leipzig, 3. April 1783. </title>
+            <title n="digital">Von Jean Paul an Sophie Rosine Richter. Leipzig, 3. April 1783, Donnerstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="I">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
+               <title n="I">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
                <biblScope n="text" unit="page">
                   <num>60</num>
                </biblScope>
@@ -77,14 +77,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1783-04-03">3. April 1783</date>
                <placeName key="JP-005948">Leipzig</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003496">Sophie Rosine Richter</persName>
                <placeName key="JP-005841">Hof</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="I_34"/><ptr type="next" subtype="brief" target="I_7-fb"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="I_34"/><ptr type="next" subtype="brief" target="I_7-fb"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="I_31"/><ptr type="next" subtype="brief" target="I_37"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-I_12"/>
+               <ptr type="next" subtype="brief" target="I_7-fb"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="I_34"/>
+               <ptr type="next" subtype="brief" target="I_7-fb"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-I_EB_10"/>
+               <ptr type="next" subtype="anbrief" target="IV-I_EB_11"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -104,7 +119,8 @@
                ich für Bücher schreibe? <note corresp="#I_60-15">
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010724">
-                        <title>Grönländische Prozesse, oder Satirische Skizzen (1783, 1822)</title>
+                        <title>Grönländische Prozesse, oder Satirische Skizzen (1783,
+                        1822)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -115,8 +131,8 @@
                mir <lb xml:id="I_60-18"/>den erbaulichen Antrag thun, mich in Hof in der
                Spitalkirche z. B. <note corresp="#I_60-19">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-00584115">
-                        <placeName>Hospitalkirche (Spitalkirche); Hof im Vogtland</placeName>
+                     <place corresp="#JP-011403">
+                        <placeName>Hospitalkirche (Spitalkirche)</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -129,10 +145,10 @@
                predigen darf, one vorher für 16 fl. in Bayreut die<note corresp="#I_60-25">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005574">
-                        <placeName>Bayreuth (Stadt)</placeName>
+                        <placeName>Bayreuth </placeName>
                      </place>
                      <place corresp="#JP-005841">
-                        <placeName>Hof im Vogtland</placeName>
+                        <placeName>Hof</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -141,7 +157,7 @@
                anzubringen suchen solten, <note corresp="#I_60-27">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003480">
-                        <persName> Johann Gottlieb <name type="reg">Richter</name>
+                        <persName>Gottlieb <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -150,7 +166,7 @@
                einem <note corresp="#I_60-28">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004483">
-                        <persName> Johann Wilhelm <name type="reg">Vogel</name>
+                        <persName>Johann Wilhelm <name type="reg">Vogel</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -165,7 +181,7 @@
                in Schwarzen<note corresp="#I_60-30">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000850">
-                        <persName> Johann Georg Gottfried <name type="reg">Doppelmaier</name>
+                        <persName>Georg <name type="reg">Doppelmaier</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -176,7 +192,8 @@
                   </listPlace>
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010724">
-                        <title>Grönländische Prozesse, oder Satirische Skizzen (1783, 1822)</title>
+                        <title>Grönländische Prozesse, oder Satirische Skizzen (1783,
+                        1822)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -184,8 +201,7 @@
                Leistschneider dahinzuschikken brauchen. <note corresp="#I_60-31">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002396" ana="†">
-                        <persName>
-                           <name type="reg">Leistenschneider </name>
+                        <persName>Bote <name type="reg">Leistenschneider</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -209,7 +225,7 @@
                <p>N. S. Was macht der liebe Samuel? Ich freue mich recht auf ihn.<note corresp="#I_60-36">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003485">
-                           <persName> Johann Samuel <name type="reg">Richter</name>
+                           <persName>Samuel <name type="reg">Richter</name>
                            </persName>
                         </person>
                      </listPerson>

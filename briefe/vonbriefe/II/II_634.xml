@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="635">634. An Karoline Herder in Weimar. </title>
-            <title n="digital">Von Jean Paul an Caroline Herder. Hof, 8. Juni 97.</title>
+            <title n="print" type="letter" rend="634">634. An Karoline Herder in Weimar. </title>
+            <title n="digital">Von Jean Paul an Caroline Herder. Hof, 8. Juni 1797, Donnerstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
+               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
                <biblScope n="text" unit="page">
                   <num>339</num>
                   <num>340</num>
@@ -78,14 +78,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
-               <date when="1797-06-08">8. Juni 97</date>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
+               <date when="1797-06-08">8. Juni 1797</date>
                <placeName key="JP-005841">Hof</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-001670">Caroline (von) Herder</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-001670">Caroline Herder</persName>
                <placeName key="JP-006395">Weimar</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="II_633"/><ptr type="next" subtype="brief" target="II_635"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="II_633"/><ptr type="next" subtype="brief" target="II_635"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="II_380"/><ptr type="next" subtype="brief" target="II_673"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-II_202"/>
+               <ptr type="next" subtype="brief" target="II_635"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="II_633"/>
+               <ptr type="next" subtype="brief" target="II_635"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="II_380"/>
+               <ptr type="next" subtype="anbrief" target="IV-II_208"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -100,8 +115,8 @@
             <lb xml:id="II_339-33"/>
             <p>Der hängende Garten der menschlichen Freude ist gerade das<lb xml:id="II_339-34"/>Gegentheil der englischen Gärten und Parks: wenn wir jenen ver<note corresp="#II_339-35">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-00571510">
-                        <placeName>Garten; England, englisch, Britannien</placeName>
+                     <place corresp="#JP-011238">
+                        <placeName>Garten</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -111,8 +126,8 @@
                daß mir immer<lb xml:id="II_340-2"/>der beste englische Garten und seine Inseln im
                Herbste nach der Ent<note corresp="#II_340-3">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-00571510">
-                        <placeName>Garten; England, englisch, Britannien</placeName>
+                     <place corresp="#JP-011238">
+                        <placeName>Garten</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -127,7 +142,7 @@
             <p>Der H. Präsident ist, so viel man mir geschrieben, auf einer Reise<note corresp="#II_340-11">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001675">
-                        <persName> Johann Gottfried von <name type="reg">Herder</name>
+                        <persName>Johann Gottfried von <name type="reg">Herder</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -144,9 +159,9 @@
                   eingebildete<lb xml:id="II_340-13"/>Krankheit, damit er nur wieder durch <hi rendition="#aq">Hof</hi> nach Karlsbad gienge und<note corresp="#II_340-14">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005841">
-                        <placeName>Hof im Vogtland</placeName>
+                        <placeName>Hof</placeName>
                      </place>
-                     <place corresp="#JP-005891">
+                     <place corresp="#JP-005890">
                         <placeName>Karlsbad </placeName>
                      </place>
                   </listPlace>
@@ -180,7 +195,7 @@
                   <note corresp="#II_340-23">
                      <listPerson type="lineReference">
                         <person corresp="#JP-002007">
-                           <persName> Charlotte von <name type="reg">Kalb</name>
+                           <persName>Charlotte von <name type="reg">Kalb</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -193,7 +208,7 @@
                   <lb xml:id="II_340-23"/>aber die Posten hier kennen nicht einmal <hi rendition="#aq">Arteren</hi> darneben; und ich<note corresp="#II_340-24">
                      <listPlace type="lineReference">
                         <place corresp="#JP-005536">
-                           <placeName>Artern , Sachsen-Anhalt</placeName>
+                           <placeName>Artern </placeName>
                         </place>
                      </listPlace>
                   </note>
@@ -218,9 +233,15 @@
                   <hi rendition="#i">J</hi>
                   <hi rendition="#sup">1</hi>: Herders<lb/>Nachlaß Nr. 12. <hi rendition="#i">J</hi>
                   <hi rendition="#sup">2</hi>: Euphorion, 3. Ergänzungsheft (1897), S. 159.<lb/>
-                  <hi rendition="#i">A</hi>: IV. Abt., II, Nr.</hi>
+                  <hi rendition="#i">A</hi>: IV. Abt., 2, Nr.</hi>
                <hi rendition="#aq">208. </hi>
-               <hi rendition="#b"><hi rendition="#aq">340</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">9</hi></hi> meine] jene <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">340</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">9</hi>
+               </hi> meine] jene <hi rendition="#aq">
                   <hi rendition="#i">K</hi>
                </hi> höhere] bessere <hi rendition="#aq">
                   <hi rendition="#i">K</hi>

@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="316">312. An Böttiger. </title>
+            <title n="print" type="letter" rend="312">312. An Böttiger. </title>
             <title n="digital">Von Jean Paul an Carl August Böttiger. Weimar, 24. oder 25 August 1799.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
+               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
                <biblScope n="text" unit="page">
                   <num>229</num>
                </biblScope>
@@ -77,14 +77,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date cert="medium" notBefore="1799-08-24" notAfter="1799-08-25">24. oder 25 August
                   1799</date>
                <placeName key="JP-006395">Weimar</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-000400">Carl August Böttiger</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="III_41-fb"/><ptr type="next" subtype="brief" target="III_42-fb"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="III_41-fb"/><ptr type="next" subtype="brief" target="III_42-fb"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="III_305"/><ptr type="next" subtype="brief" target="III_328"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-III.2_244"/>
+               <ptr type="next" subtype="brief" target="III_42-fb"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="III_41-fb"/>
+               <ptr type="next" subtype="brief" target="III_42-fb"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="III_305"/>
+               <ptr type="next" subtype="brief" target="III_328"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -102,12 +117,13 @@
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010303">
                         <author/>
-                        <title>London und Paris, Journal (1798-1815)</title>
+                        <title> London und Paris, Journal (1798–1815)</title>
                      </bibl>
                      <bibl corresp="#JP-008436">
-                        <author>Friedrich Johann Justin Bertuch,und Georg Melchior Kraus (Werk,
-                           Hrsg.)</author>
-                        <title>Journal des Luxus und der Moden (Modejournal) (1786-1827)</title>
+                        <author>Friedrich Johann Justin Bertuch, Georg Melchior Kraus (Werk,
+                        Hrsg.)</author>
+                        <title>Journal des Luxus und der Moden (Modejournal)
+                        (1786–1827)<?oxy_comment_end?></title>
                      </bibl>
                   </listBibl>
                </note>
@@ -127,7 +143,13 @@
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Dresden.</hi>
                <ref target="#p229_l9">
-                  <hi rendition="#b"><hi rendition="#aq">229</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">9</hi></hi>
+                  <hi rendition="#b">
+                     <hi rendition="#aq">229</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">9</hi>
+                  </hi>
                </ref>
                <hi rendition="#aq"/>kehren] <hi rendition="#aq">aus</hi> kehrt<lb/>
             </p>

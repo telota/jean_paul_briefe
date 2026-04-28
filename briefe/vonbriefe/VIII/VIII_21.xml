@@ -3,7 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title n="print" type="letter" rend="21">21. An Emanuel. </title>
-            <title n="digital">Von Jean Paul an Emanuel Osmund. Bayreuth, 5. März 1820.</title>
+            <title n="digital">Von Jean Paul an Emanuel Osmund. Bayreuth, 5. März 1820, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>14</num>
                </biblScope>
@@ -77,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1820-03-05">5. März 1820</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003087">Emanuel Osmund</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VIII_27"/><ptr type="next" subtype="umfeldbrief" target="JP-UB1362"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VIII_27"/><ptr type="next" subtype="brief" target="VIII_22"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VIII_19"/><ptr type="next" subtype="brief" target="VIII_22"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-VIII_EB_3"/>
+               <ptr type="next" subtype="anbrief" target="IV-IX_2.70"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VIII_27"/>
+               <ptr type="next" subtype="brief" target="VIII_22"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VIII_19"/>
+               <ptr type="next" subtype="anbrief" target="IV-IX_2.70"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -100,20 +115,22 @@
             <p>Guten Morgen, Alter! Der gestrige Abend der Liebe steht noch immer<lb xml:id="VIII_14-27"/>mit seinem milden Abendroth an meinem Himmel. <hi rendition="#aq">Voß</hi> belohne Sie ein<note corresp="#VIII_14-28">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004520">
-                        <persName> Heinrich <name type="reg">Voß</name>
+                        <persName>Heinrich <name type="reg">Voß</name>
                         </persName>
                      </person>
                   </listPerson>
                </note>
                <lb xml:id="VIII_14-28"/>wenig dafür. Einen Morgenkuß der Herzreichen und Herz<hi rendition="#g">doppelten!</hi>
-            <note corresp="#VIII_14-29">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-003092">
-                     <persName> Flora <name type="reg">Osmund</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="VIII_14-29"/></p>
+               <note corresp="#VIII_14-29">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003092">
+                        <persName>Flora Blümle <name type="reg">Osmund</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VIII_14-29"/>
+            </p>
             <closer>
                <salute>
                   <hi rendition="#right">R.<lb n="30" xml:id="VIII_14-30"/>

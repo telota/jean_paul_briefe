@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="763">761. An Schrag in Nürnberg. </title>
-            <title n="digital">Von Jean Paul an Johann Leonhard Schrag. Bayreuth, 1. Juni 1813.</title>
+            <title n="print" type="letter" rend="761">761. An Schrag in Nürnberg. </title>
+            <title n="digital">Von Jean Paul an Johann Leonhard Schrag. Bayreuth, 1. Juni 1813, Dienstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,16 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>326</num><num>327</num></biblScope><biblScope n="comment" unit="page"><num>558</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>326</num>
+                  <num>327</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>558</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,14 +78,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1813-06-01">1. Juni 1813</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003846">Johann Leonhard Schrag</persName>
                <placeName key="JP-006085">Nürnberg</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_760"/><ptr type="next" subtype="brief" target="VI_762"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_760"/><ptr type="next" subtype="brief" target="VI_762"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_737"/><ptr type="next" subtype="brief" target="VI_769"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_760"/>
+               <ptr type="next" subtype="brief" target="VI_762"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_760"/>
+               <ptr type="next" subtype="brief" target="VI_762"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_737"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_228"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -141,13 +165,15 @@
                   </listPlace>
                </note>
                <lb xml:id="VI_327-6"/> und Ihre Gattin.<note corresp="#VI_327-7">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-003847">
-                     <persName> Johann Leonhard <name type="reg">Schrag</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="VI_327-7"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003847">
+                        <persName>Johann Leonhard <name type="reg">Schrag</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VI_327-7"/>
+            </p>
             <closer>
                <salute>
                   <hi rendition="#right">Ihr<lb xml:id="VI_327-8"/> Jean Paul Fr. Richter</hi>
@@ -161,7 +187,13 @@
                   <hi rendition="#i">H</hi>: Bayer. Staatsbibl.; ehem. Carl Schrag, Nürnberg. 2⅔ S.
                   8°. <hi rendition="#i">K</hi>: <hi rendition="#i">Schrag 1 <hi rendition="#g">Jun</hi>. J</hi>: Eupho<lb rendition="#hyphen"/>rion II,</hi>
                <hi rendition="#aq">623. </hi>
-               <hi rendition="#b"><hi rendition="#aq">326</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">31</hi></hi> dieser] <hi rendition="#aq">aus</hi> der <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">326</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">31</hi>
+               </hi> dieser] <hi rendition="#aq">aus</hi> der <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">33</hi> nicht über] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>

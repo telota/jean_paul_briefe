@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="429">425. An Rentamtmann Raden in Frauenstein. </title>
-            <title n="digital">Von Jean Paul an Wilhelm Friedrich August Raden. Bayreuth, 11. April 1824.</title>
+            <title n="print" type="letter" rend="425">425. An Rentamtmann Raden in Frauenstein. </title>
+            <title n="digital">Von Jean Paul an Wilhelm Friedrich August Raden. Bayreuth, 11. April 1824, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>253</num>
                </biblScope>
@@ -77,14 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1824-04-11">11. April 1824</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003338">Wilhelm Friedrich August Raden</persName>
                <placeName key="JP-005751">Frauenstein</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VIII_430"/><ptr type="next" subtype="brief" target="VIII_426"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VIII_430"/><ptr type="next" subtype="brief" target="VIII_426"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VIII_319"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-IX_2.79"/>
+               <ptr type="next" subtype="brief" target="VIII_426"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VIII_430"/>
+               <ptr type="next" subtype="brief" target="VIII_426"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VIII_288"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -116,7 +130,7 @@
                Ihr Schützischer Senf<note corresp="#VIII_253-11">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003890">
-                        <persName> Karl Heinrich Ferdinand <name type="reg">Schütz</name>
+                        <persName>Karl Heinrich Ferdinand <name type="reg">Schütz</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -124,30 +138,32 @@
                <lb xml:id="VIII_253-11"/>gute Dienste; und ich wollte, es gäbe einen ähnlichen
                Büchersenf; was<lb xml:id="VIII_253-12"/>aber der Schützische in Halle am wenigsten
                ist.<note corresp="#VIII_253-13">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-003893">
-                     <persName> Christian Gottfried <name type="reg">Schütz</name>
-                     </persName>
-                  </person>
-               </listPerson>
-               <listPlace type="lineReference">
-                  <place corresp="#JP-005809">
-                     <placeName>Halle a. d. Saale</placeName>
-                  </place>
-               </listPlace>
-               <listBibl type="lineReference" subtype="werke">
-                  <bibl corresp="#JP-010170">
-                     <author/>
-                     <title>Allgemeine Literatur-Zeitung (Literaturzeitung) (Jena 1785ff., ab 1804
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003893">
+                        <persName>Christian Gottfried <name type="reg">Schütz</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005809">
+                        <placeName>Halle a. d. Saale</placeName>
+                     </place>
+                  </listPlace>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010170">
+                        <author/>
+                        <title>Allgemeine Literatur-Zeitung (Literaturzeitung) (Jena 1785 ff., ab 1804
                         Halle)</title>
-                  </bibl>
-               </listBibl>
-            </note><lb xml:id="VIII_253-13"/></p>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VIII_253-13"/>
+            </p>
             <p>— Und hier soll unser Doppelfreund <hi rendition="#aq">Schütze</hi> recht innig
                   gegrüßt<note corresp="#VIII_253-14">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003890">
-                        <persName> Karl Heinrich Ferdinand <name type="reg">Schütz</name>
+                        <persName>Karl Heinrich Ferdinand <name type="reg">Schütz</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -175,7 +191,7 @@
             <p>Ich grüße herzlich die Ihrigen; und Ihre Freunde Böttiger und<note corresp="#VIII_253-20">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000400">
-                        <persName> Carl August <name type="reg">Böttiger</name>
+                        <persName>Carl August <name type="reg">Böttiger</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -184,7 +200,7 @@
                schöne Szenen<note corresp="#VIII_253-21">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000073">
-                        <persName> Christoph Friedrich von <name type="reg">Ammon</name>
+                        <persName>Christoph Friedrich von <name type="reg">Ammon</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -203,7 +219,7 @@
                   Briefe ver<note corresp="#VIII_253-25">
                      <listPerson type="lineReference">
                         <person corresp="#JP-000400">
-                           <persName> Carl August <name type="reg">Böttiger</name>
+                           <persName>Carl August <name type="reg">Böttiger</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -220,9 +236,15 @@
                   <hi rendition="#i">Raden</hi>
                </hi> in Frauenstein b. Freiberg<lb/>d. 11 Apr. [<hi rendition="#aq">aus</hi> 28
                März] <hi rendition="#aq">
-                  <hi rendition="#i">B</hi>: IV. Abt., VIII, Nr.</hi>
+                  <hi rendition="#i">B</hi>: IV. Abt., 8, Nr.</hi>
                <hi rendition="#aq">287. </hi>
-               <hi rendition="#b"><hi rendition="#aq">253</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">17</hi></hi> aus] <hi rendition="#aq">davor gestr.</hi> zu</p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">253</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">17</hi>
+               </hi> aus] <hi rendition="#aq">davor gestr.</hi> zu</p>
             <lb/>
             <p>
                <hi rendition="#aq">Vgl. Nr. 319. Raden, der seit 1. April 1823 nicht mehr

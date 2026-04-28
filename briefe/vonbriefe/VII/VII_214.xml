@@ -3,8 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title n="print" type="letter" rend="214">214. An Cotta. </title>
-            <title n="digital">Von Jean Paul an Johann Friedrich Freiherr Cotta von Cottendorf. Regensburg, 23.
-               August 1816.</title>
+            <title n="digital">Von Jean Paul an Johann Friedrich Cotta. Regensburg, 23. August 1816, Freitag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -46,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -61,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
+               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
                <biblScope n="text" unit="page">
                   <num>83</num>
                   <num>84</num>
@@ -79,13 +78,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1816-08-23">23. August 1816</date>
                <placeName key="JP-006179">Regensburg</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-000698">Johann Friedrich Freiherr Cotta von Cottendorf</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VII_213"/><ptr type="next" subtype="umfeldbrief" target="JP-UB1126"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VII_213"/><ptr type="next" subtype="brief" target="VII_216"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VII_9-fb"/><ptr type="next" subtype="brief" target="VII_244"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000698">Johann Friedrich von Cotta</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VII_213"/>
+               <ptr type="next" subtype="anbrief" target="IV-VII_39"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VII_213"/>
+               <ptr type="next" subtype="brief" target="VII_216"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VII_9-fb"/>
+               <ptr type="next" subtype="anbrief" target="IV-VII_EB_22"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -106,14 +120,13 @@
                aber französisches Werk, gleichsam die<note corresp="#VII_83-32">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000742" ana="†">
-                        <persName> Karl Theodor Reichsfreiherr von <name type="reg">Dalberg</name>
+                        <persName>Carl Theodor von <name type="reg">Dalberg</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0057470">
-                        <placeName>(Gallier, Neufranken); Frankreich, Franzosen,
-                           französisch</placeName>
+                     <place corresp="#JP-011327">
+                        <placeName>(Gallier, Neufranken)</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -121,9 +134,7 @@
                   er<note corresp="#VII_83-33">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008280">
-                        <author>Dalberg, Karl Theodor Reichsfreiherr von (1744-1817), ab 1806
-                           Fürstprimas des Rheinbundes, von 1810 bis 1813 Großherzog von
-                           Frankfurt</author>
+                        <author>Dalberg, Karl Theodor Reichsfreiherr von (1744–1817)</author>
                         <title>Betrachtungen über das Universum (1777)</title>
                      </bibl>
                   </listBibl>
@@ -132,13 +143,15 @@
             <lb xml:id="VII_83-34"/>
             <p>Ihre Antwort an ihn adressieren <metamark>[</metamark>Sie<metamark>]</metamark>
                hieher; denn ich bin nach<lb xml:id="VII_84-1"/> kurzem wieder in <hi rendition="#aq">Baireuth.</hi>
-            <note corresp="#VII_84-2">
-               <listPlace type="lineReference">
-                  <place corresp="#JP-005574">
-                     <placeName>Bayreuth (Stadt)</placeName>
-                  </place>
-               </listPlace>
-            </note><lb xml:id="VII_84-2"/></p>
+               <note corresp="#VII_84-2">
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-005574">
+                        <placeName>Bayreuth </placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VII_84-2"/>
+            </p>
             <closer>
                <salute>
                   <hi rendition="#right">Ihr<lb xml:id="VII_84-3"/> J. P. F. Richter</hi>

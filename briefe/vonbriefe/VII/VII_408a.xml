@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="412">408a. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, Mai 1818.</title>
+            <title n="print" type="letter" rend="408a">408a. An Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth, Mai 1818.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
+               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
                <biblScope n="text" unit="page">
                   <num>186</num>
                   <num>187</num>
@@ -78,13 +78,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date cert="medium" notBefore="1818-05-01" notAfter="1818-05-31">Mai 1818</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VII_402"/><ptr type="next" subtype="brief" target="VII_403"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VII_402"/><ptr type="next" subtype="brief" target="VII_403"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VII_323"/><ptr type="next" subtype="brief" target="VII_420"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-VII_108"/>
+               <ptr type="next" subtype="anbrief" target="IV-VII_EB_54"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VII_402"/>
+               <ptr type="next" subtype="brief" target="VII_403"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VII_92"/>
+               <ptr type="next" subtype="brief" target="VII_420"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -104,18 +119,19 @@
                   hat<note corresp="#VII_186-35">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005508">
-                        <placeName>Ägypten Ägypter</placeName>
+                        <placeName>Ägypten,
+                     </placeName>
                      </place>
                   </listPlace>
                </note>
                <lb n="35" xml:id="VII_186-35"/> zuweilen das Gute, daß man manches findet. Ich soll
                von der <hi rendition="#aq">Har<note corresp="#VII_187-1">
                      <listPlace type="lineReference">
-                        <place corresp="#JP-0055741">
-                           <placeName>Harmonie-Gesellschaft; Bayreuth (Stadt)</placeName>
+                        <place corresp="#JP-011035">
+                           <placeName>Harmonie-Gesellschaft</placeName>
                         </place>
-                        <place corresp="#JP-00557443">
-                           <placeName>Rollwenzelei; Bayreuth (Stadt)</placeName>
+                        <place corresp="#JP-011072">
+                           <placeName>Rollwenzelei</placeName>
                         </place>
                      </listPlace>
                   </note>
@@ -124,8 +140,8 @@
                   haben.<note corresp="#VII_187-2">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009129" ana="†">
-                        <author>Luden, Heinrich (Werk, Hrsg.)</author>
-                        <title>Nemesis, Zeitschrift (1814-1818)</title>
+                        <author>Luden, Heinrich (1780–1847) (Hrsg.)</author>
+                        <title>Nemesis. Zeitschrift für Politik und Geschichte (1814–1818)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -147,7 +163,13 @@
                      „Neme<lb rendition="#hyphen"/>sis“ erschien Ende Januar oder Anfang Februar
                   1818. Karoline<lb/> schreibt am 25. Juli 1817 an Jean Paul, das Häuschen, in dem
                   Otto<lb/> wohne, sei verkauft, er müsse ausziehen; vgl. auch</hi>
-               <hi rendition="#b"><hi rendition="#aq">166</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">11</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">166</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">11</hi>
+               </hi>
                <hi rendition="#aq">.</hi>
             </p>
             <lb/>

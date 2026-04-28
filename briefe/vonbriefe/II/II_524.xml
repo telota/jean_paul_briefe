@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="525">524. An Christian Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Hof, 6. Februar 1797.</title>
+            <title n="print" type="letter" rend="524">524. An Christian Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Hof, 6. Februar 1797, Montag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
+               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
                <biblScope n="text" unit="page">
                   <num>297</num>
                </biblScope>
@@ -77,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1797-02-06">6. Februar 1797</date>
                <placeName key="JP-005841">Hof</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="II_523"/><ptr type="next" subtype="brief" target="II_525"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="II_523"/><ptr type="next" subtype="brief" target="II_525"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="II_523"/><ptr type="next" subtype="brief" target="II_525"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-II_EB_86"/>
+               <ptr type="next" subtype="brief" target="II_525"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="II_523"/>
+               <ptr type="next" subtype="brief" target="II_525"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="II_523"/>
+               <ptr type="next" subtype="brief" target="II_525"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -98,20 +113,22 @@
             </dateline>
             <lb xml:id="II_297-16"/>
             <p>Schicke meiner Neugierde nur auf 1 Stunde die Litteraturzeitung.<note corresp="#II_297-17">
-               <listBibl type="lineReference" subtype="werke">
-                  <bibl corresp="#JP-010170">
-                     <author/>
-                     <title>Allgemeine Literatur-Zeitung (Literaturzeitung) (Jena 1785ff., ab 1804
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-010170">
+                        <author/>
+                        <title>Allgemeine Literatur-Zeitung (Literaturzeitung) (Jena 1785 ff., ab 1804
                         Halle)</title>
-                  </bibl>
-               </listBibl>
-            </note><lb xml:id="II_297-17"/></p>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="II_297-17"/>
+            </p>
             <p>Gegenwärtige Dinte ist so alt als die Dauer ihrer Erzeugung, näm<lb xml:id="II_297-18" rendition="#hyphen"/>lich 1 Viertelstunde. Sie ist ohne Essig
                und nach der Handlungszeitung<note corresp="#II_297-19">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010262">
                         <author/>
-                        <title>Handlungszeitung (Nürnberg 1794-1806)</title>
+                        <title>Handlungszeitung (Nürnberg 1794–1806)</title>
                      </bibl>
                   </listBibl>
                </note>

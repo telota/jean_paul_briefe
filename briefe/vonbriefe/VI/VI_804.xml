@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="806">804. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, November 1813.</title>
+            <title n="print" type="letter" rend="804">804. An Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth, November 1813.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>348</num></biblScope><biblScope n="comment" unit="page"><num>564</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>348</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>564</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date cert="medium" notBefore="1813-11-01" notAfter="1813-11-30">November 1813</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_803"/><ptr type="next" subtype="brief" target="VI_809"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_803"/><ptr type="next" subtype="brief" target="VI_809"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_793"/><ptr type="next" subtype="brief" target="VI_809"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_803"/>
+               <ptr type="next" subtype="brief" target="VI_809"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_803"/>
+               <ptr type="next" subtype="brief" target="VI_809"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_793"/>
+               <ptr type="next" subtype="brief" target="VI_809"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -92,7 +115,7 @@
             <p>Guten Morgen, Alter! Das neueste Baireuther Zeitungblatt<note corresp="#VI_348-17">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002079" ana="†">
-                        <persName> François Etienne, Herzog von Valmy <name type="reg">Kellermann</name>
+                        <persName>François Etienne, Herzog von Valmy <name type="reg">Kellermann</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -115,7 +138,8 @@
                Heers bei <hi rendition="#aq">Darmstadt</hi> geschlagen;<note corresp="#VI_348-20">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004813" ana="†">
-                        <persName> Karl Philipp Fürst <name type="reg">Wrede</name>
+                        <persName>
+                           <name type="reg">Karl Philipp, Fürst von Wrede</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -129,13 +153,13 @@
                <hi rendition="#aq">Taufkirchen</hi> wurde im Nürnberger Museum ohne Metapher ge<note corresp="#VI_348-21">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004248">
-                        <persName> Maximilian Graf von <name type="reg">Tauffkirchen </name>
+                        <persName>Maximilian Graf von <name type="reg">Tauffkirchen</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listPlace type="lineReference">
-                     <place corresp="#JP-00608511">
-                        <placeName>Museum (gegr. 1810); Nürnberg</placeName>
+                     <place corresp="#JP-011571">
+                        <placeName>Museum (gegr. 1810)</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -147,7 +171,13 @@
             <p>
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Berlin JP.</hi>
-               <hi rendition="#b"><hi rendition="#aq">348</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">21</hi></hi> ohne Metapher] <hi rendition="#aq">nachtr.</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">348</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">21</hi>
+               </hi> ohne Metapher] <hi rendition="#aq">nachtr.</hi>
             </p>
             <lb/>
             <p>

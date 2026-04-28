@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="102">100. An Renate Otto. </title>
-            <title n="digital">Von Jean Paul an Renate Otto. Leipzig, 18. Juni 1798.</title>
+            <title n="print" type="letter" rend="100">100. An Renate Otto. </title>
+            <title n="digital">Von Jean Paul an Renate Otto. Leipzig, 18. Juni 1798, Montag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
+               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
                <biblScope n="text" unit="page">
                   <num>70</num>
                </biblScope>
@@ -77,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1798-06-18">18. Juni 1798</date>
                <placeName key="JP-005948">Leipzig</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003126">Renate Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="III_98"/><ptr type="next" subtype="brief" target="III_99"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="III_98"/><ptr type="next" subtype="brief" target="III_99"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="III_49"/><ptr type="next" subtype="brief" target="III_215"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-III.1_61"/>
+               <ptr type="next" subtype="brief" target="III_99"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="III_98"/>
+               <ptr type="next" subtype="brief" target="III_99"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-III.1_35"/>
+               <ptr type="next" subtype="brief" target="III_215"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -101,13 +116,13 @@
                nach <hi rendition="#aq">Belgershain</hi> stat<note corresp="#III_70-19">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003039">
-                        <persName> Friedrich Benedikt von <name type="reg">Oertel</name>
+                        <persName>Friedrich Benedikt von <name type="reg">Oertel</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listPlace type="lineReference">
                      <place corresp="#JP-005578">
-                        <placeName>Belgershain bei Leipzig</placeName>
+                        <placeName>Belgershain </placeName>
                      </place>
                   </listPlace>
                </note>
@@ -115,7 +130,7 @@
                meinen Faden lang gemacht und<note corresp="#III_70-20">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005841">
-                        <placeName>Hof im Vogtland</placeName>
+                        <placeName>Hof</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -133,15 +148,15 @@
                <note corresp="#III_70-24">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003087">
-                        <persName> Emanuel <name type="reg">Osmund</name>
+                        <persName>Emanuel <name type="reg">Osmund</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003119">
-                        <persName> Christoph <name type="reg">Otto</name>
-                        </persName>
+                        <persName>
+                           <name type="reg">Otto</name>, seine Kinder</persName>
                      </person>
                      <person corresp="#JP-003118">
-                        <persName> Christoph <name type="reg">Otto</name>
+                        <persName>Christoph <name type="reg">Otto</name>
                         </persName>
                      </person>
                   </listPerson>

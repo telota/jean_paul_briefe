@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="144">142. An Emanuel. </title>
-            <title n="digital">Von Jean Paul an Emanuel Osmund. Bayreuth, 16. Januar 1821.</title>
+            <title n="print" type="letter" rend="142">142. An Emanuel. </title>
+            <title n="digital">Von Jean Paul an Emanuel Osmund. Bayreuth, 16. Januar 1821, Dienstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>93</num>
                </biblScope>
@@ -77,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1821-01-16">16. Januar 1821</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003087">Emanuel Osmund</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0734"/><ptr type="next" subtype="umfeldbrief" target="JP-UB1006"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VIII_141"/><ptr type="next" subtype="brief" target="VIII_143"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VIII_141"/><ptr type="next" subtype="brief" target="VIII_144"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB0734"/>
+               <ptr type="next" subtype="anbrief" target="IV-VIII_89"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VIII_141"/>
+               <ptr type="next" subtype="brief" target="VIII_143"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VIII_141"/>
+               <ptr type="next" subtype="anbrief" target="IV-VIII_89"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -101,7 +116,7 @@
                Sie das einmal reich Vermachte<note corresp="#VIII_93-9">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001671">
-                        <persName> Emil <name type="reg">Herder</name>
+                        <persName>Emil von <name type="reg">Herder</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -111,7 +126,7 @@
                Albrecht etwas befruchten, dessen<note corresp="#VIII_93-11">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003106">
-                        <persName> Albrecht <name type="reg">Otto</name>
+                        <persName>Albrecht <name type="reg">Otto</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -120,7 +135,7 @@
                   äußeres<note corresp="#VIII_93-12">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003112">
-                        <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                        <persName>Georg Christian <name type="reg">Otto</name>
                         </persName>
                      </person>
                   </listPerson>

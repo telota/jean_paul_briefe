@@ -3,7 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title n="print" type="letter" rend="29">29. An Max Richter in München. </title>
-            <title n="digital">Von Jean Paul an Max Richter. Bayreuth, 5. April 1820 bis 6. April 1820.</title>
+            <title n="digital">Von Jean Paul an Max Richter. Bayreuth, 5. bis 6. April 1820.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>17</num>
                   <num>18</num>
@@ -79,15 +79,15 @@
             </msDesc>
             <listPerson type="commentary">
                <person corresp="#JP-000389">
-                  <persName> Detlev Konrad <name type="reg">Blunck</name>
+                  <persName>Detlev Konrad <name type="reg">Blunck</name>
                   </persName>
                </person>
                <person corresp="#JP-002819">
-                  <persName> Johann Chr. Martin <name type="reg">Miedel</name>
+                  <persName>Johann Christoph Martin <name type="reg">Miedel</name>
                   </persName>
                </person>
                <person corresp="#JP-003246">
-                  <persName> August Graf von <name type="reg">Platen</name>
+                  <persName>August Graf von <name type="reg">Platen</name>
                   </persName>
                </person>
             </listPerson>
@@ -99,15 +99,30 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date corresp="writingSession1" when="1820-04-05">5. April 1820</date>
                <date corresp="writingSession2" when="1820-04-06">6. April 1820</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003490">Max Richter</persName>
                <placeName key="JP-006040">München</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VIII_28"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0547"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VIII_28"/><ptr type="next" subtype="brief" target="VIII_30"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="IX_27"/><ptr type="next" subtype="brief" target="VIII_39"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-VIII_24"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB0547"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VIII_28"/>
+               <ptr type="next" subtype="brief" target="VIII_30"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VIII_24"/>
+               <ptr type="next" subtype="anbrief" target="IV-VIII_27"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -143,12 +158,12 @@
                   Bedienung für Kaffeemachen und<lb xml:id="VIII_18-7"/>Ausschicken. Es muß, wo
                   möglich, nahe am königlichen Schlosse sein.<note corresp="#VIII_18-8">
                      <listPlace type="lineReference">
-                        <place corresp="#JP-00604011">
+                        <place corresp="#JP-011545">
                            <placeName>Kirche zum Hl. Niklaus und zur Maria vom Berge Karmel
-                              (Studienkirche); München</placeName>
+                        (Studienkirche)</placeName>
                         </place>
-                        <place corresp="#JP-00604018">
-                           <placeName>Residenz; München</placeName>
+                        <place corresp="#JP-011552">
+                           <placeName>Residenz</placeName>
                         </place>
                      </listPlace>
                   </note>
@@ -156,7 +171,7 @@
                      Schlichtegroll</hi> etc. etc.) zu Rathe; diese<note corresp="#VIII_18-9">
                      <listPerson type="lineReference">
                         <person corresp="#JP-004280">
-                           <persName> Amalie <name type="reg">Thiersch</name>
+                           <persName>Amalie <name type="reg">Thiersch</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -172,10 +187,9 @@
                <p>Ich danke dir, Lieber zwar für dein Kopieren aus Blümner, den ich<note corresp="#VIII_18-12">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-008141" ana="†">
-                           <author>Blümner, Heinrich (1765-1839), Oberhofgerichtsrat in
-                              Leipzig</author>
+                           <author>Blümner, Heinrich (1765–1839)</author>
                            <title>Über die Idee des Schicksals in den Tragödien des Aischylos
-                              (1814)</title>
+                        (1814)</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -183,21 +197,21 @@
                   Göthe, Lessing<note corresp="#VIII_18-13">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001353">
-                           <persName> Johann Wolfgang von <name type="reg">Goethe</name>
+                           <persName>Johann Wolfgang von <name type="reg">Goethe</name>
                            </persName>
                         </person>
                         <person corresp="#JP-001675">
-                           <persName> Johann Gottfried von <name type="reg">Herder</name>
+                           <persName>Johann Gottfried von <name type="reg">Herder</name>
                            </persName>
                         </person>
                         <person corresp="#JP-002424">
-                           <persName> Gotthold Ephraim <name type="reg">Lessing</name>
+                           <persName>Gotthold Ephraim <name type="reg">Lessing</name>
                            </persName>
                         </person>
                      </listPerson>
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-009629" ana="†">
-                           <author>Schlegel, Friedrich (1772-1829)</author>
+                           <author>Schlegel, Friedrich (1772–1829)</author>
                            <title>Ueber das Studium der griechischen Poesie (1797)</title>
                         </bibl>
                      </listBibl>
@@ -229,14 +243,14 @@
                   Grüße und<note corresp="#VIII_18-17">
                      <listBibl type="lineReference" subtype="werke-jp">
                         <bibl corresp="#JP-010727" ana="†">
-                           <title>Hesperus (1795)</title>
+                           <title>Hesperus (3 Bde., Berlin: Matzdorff 1795)</title>
                         </bibl>
                      </listBibl>
                   </note>
                   <lb xml:id="VIII_18-17"/>Lob von dir. (Auch der junge <hi rendition="#aq">Welden</hi> lobt dich.) — An deinen Briefen<note corresp="#VIII_18-18">
                      <listPerson type="lineReference">
                         <person corresp="#JP-004654" ana="†">
-                           <persName> Karl Georg <name type="reg">Welden</name>
+                           <persName>Karl Georg Freiherr von <name type="reg">Welden</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -263,7 +277,7 @@
                   ja ein, nicht<note corresp="#VIII_18-30">
                      <listPerson type="lineReference">
                         <person corresp="#JP-004281">
-                           <persName> Friedrich <name type="reg">Thiersch</name>
+                           <persName>Friedrich <name type="reg">Thiersch</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -283,12 +297,14 @@
                   kaufen willst.<lb xml:id="VIII_18-33"/>Letzte borge; nur ganz fehlende Werke
                   kaufe. Mich mußt du künftig<lb xml:id="VIII_18-34"/>überall dabei fragen. —
                   Schreibe uns von den Gesundheitverhält<lb n="35" xml:id="VIII_18-35" rendition="#hyphen"/>nissen deines Leibs und der Stadt zugleich.<note corresp="#VIII_18-36">
-                  <listPlace type="lineReference">
-                     <place corresp="#JP-006040">
-                        <placeName>München</placeName>
-                     </place>
-                  </listPlace>
-               </note><lb xml:id="VIII_18-36"/></p>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-006040">
+                           <placeName>München</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="VIII_18-36"/>
+               </p>
                <p>Wie freu’ ich mich, mein guter Max, auf die Stunde, wo ich dich als<lb xml:id="VIII_19-1"/>einen in mehr als einem Sinne mir wiedergebornen Sohn an
                   das Herz<lb xml:id="VIII_19-2"/>drücken kann! —</p>
                <lb xml:id="VIII_19-3"/>
@@ -304,8 +320,7 @@
                         nach.<note corresp="#VIII_19-8">
                         <listPerson type="lineReference">
                            <person corresp="#JP-004177" ana="†">
-                              <persName>
-                                 <name type="reg">Stoffel</name>
+                              <persName>Herr <name type="reg">Stoffel</name>
                               </persName>
                            </person>
                         </listPerson>
@@ -318,16 +333,27 @@
          <div type="comment">
             <p>
                <hi rendition="#aq">
-                  <hi rendition="#i">H</hi>: Berlin JP. 4 S. 8°. <hi rendition="#i">B</hi>: IV.
-                  Abt., VIII, Nr. 17, 19, 20. <hi rendition="#i">A</hi>: IV. Abt., VIII, Nr. 25
+                  <hi rendition="#i">H</hi>: Berlin JP. 4 S. 8°. <hi rendition="#i">B</hi>: IV. Abt., 8, Nr. 17, 19, 20. <hi rendition="#i">A</hi>: IV. Abt., 8, Nr. 25
                   und</hi>
                <hi rendition="#aq">27. </hi>
-               <hi rendition="#b"><hi rendition="#aq">18</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">28</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">18</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">28</hi>
+               </hi>
                <lb/>durch] <hi rendition="#aq">nachtr.</hi>
             </p>
             <lb/>
             <p>
-               <hi rendition="#b"><hi rendition="#aq">18</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">12</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">18</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">12</hi>
+               </hi>
                <hi rendition="#aq">f. Max hatte lange Auszüge aus der Schrift von Heinrich <hi rendition="#g">Blümner</hi>
                   <lb/>„Über die Idee des Schicksals in den Tragödien des Aischylos“ (1814)<lb/>und
                   aus Friedrich <hi rendition="#g">Schlegels</hi> Abhandlung „Über das Studium der

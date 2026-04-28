@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="769">767. An Marianne Lux in Mainz. </title>
-            <title n="digital">Von Jean Paul an Marianne Lux. Bayreuth, 20. Juni 1813.</title>
+            <title n="print" type="letter" rend="767">767. An Marianne Lux in Mainz. </title>
+            <title n="digital">Von Jean Paul an Marianne Lux. Bayreuth, 20. Juni 1813, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,16 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>329</num><num>330</num></biblScope><biblScope n="comment" unit="page"><num>559</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>329</num>
+                  <num>330</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>559</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,21 +78,36 @@
             </msDesc>
             <listPerson type="commentary">
                <person corresp="#JP-002713">
-                  <persName> Therese Apollonia <name type="reg">Mayer</name>
+                  <persName>Therese Apollonia <name type="reg">Mayer</name>
                   </persName>
                </person>
             </listPerson>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1813-06-20">20. Juni 1813</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-002560">Marianne Lux</persName>
                <placeName key="JP-005990">Mainz</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_766"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0981"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_766"/><ptr type="next" subtype="brief" target="VI_768"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_759"/><ptr type="next" subtype="brief" target="VI_778"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_766"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB0981"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_766"/>
+               <ptr type="next" subtype="brief" target="VI_768"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_759"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_229"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -112,15 +136,14 @@
                Geheimrath <hi rendition="#aq">Jacobi,</hi> Verfasser des <hi rendition="#aq">Woldemars</hi> —<note corresp="#VI_329-21">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001909">
-                        <persName> Friedrich Heinrich <name type="reg">Jacobi</name>
+                        <persName>Friedrich Heinrich <name type="reg">Jacobi</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008828">
-                        <author>Jacobi, Friedrich Heinrich (1743-1819), Philosoph und
-                           Schriftsteller(Werk)</author>
-                        <title>Woldemar (1777/79, 1794, 1796 u. ö.)</title>
+                        <author>Jacobi, Friedrich Heinrich (1743–1819)</author>
+                        <title>Woldemar (1777–1779, 1794, 1796 u. ö.)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -143,7 +166,7 @@
                Wunde ich mir gar nicht malen<note corresp="#VI_330-1">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002561">
-                        <persName> Sabine <name type="reg">Lux</name>
+                        <persName>Sabine <name type="reg">Lux</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -182,9 +205,15 @@
             <p>
                <hi rendition="#aq">
                   <hi rendition="#i">K</hi> (wahrsch. von Maxens Hand, mit eigenh. Korrekturen): <hi rendition="#i">Marianne<lb/> Lux d. 20 Jun. i</hi>: Wahrheit 7, 339× (undat.).
-                     <hi rendition="#i">B</hi>: IV. Abt., VI, Nr.</hi>
+                     <hi rendition="#i">B</hi>: IV. Abt., 6, Nr.</hi>
                <hi rendition="#aq">227. </hi>
-               <hi rendition="#b"><hi rendition="#aq">329</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">27</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">329</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">27</hi>
+               </hi>
                <lb/> kein einziges <hi rendition="#rkd">28</hi> beantwortete <hi rendition="#rkd">34</hi> wünsche</p>
             <lb/>
             <p>

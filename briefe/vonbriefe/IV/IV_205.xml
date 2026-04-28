@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="211">205. An Knebel. </title>
-            <title n="digital">Von Jean Paul an Karl Ludwig von Knebel. Meiningen, 2. November 1801.</title>
+            <title n="print" type="letter" rend="205">205. An Knebel. </title>
+            <title n="digital">Von Jean Paul an Karl Ludwig von Knebel. Meiningen, 2. November 1801, Montag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,11 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"/><biblScope n="comment" unit="page"/></bibl>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page"/>
+               <biblScope n="comment" unit="page"/>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -68,26 +72,40 @@
             </msDesc>
             <listPerson type="commentary">
                <person corresp="#JP-002022">
-                  <persName>
-                     <name type="reg">Kanne</name>
+                  <persName>Johann Arnold <name type="reg">Kanne</name>
                   </persName>
                </person>
                <person corresp="#JP-002021">
-                  <persName> Johann Arnold <name type="reg">Kanne</name>
+                  <persName>Johann Arnold <name type="reg">Kanne</name>
                   </persName>
                </person>
             </listPerson>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1801-11-02">2. November 1801</date>
                <placeName key="JP-006012">Meiningen
                </placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-002149">Karl Ludwig von Knebel</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0501"/><ptr type="next" subtype="brief" target="IV_206"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="IV_203"/><ptr type="next" subtype="brief" target="IV_206"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="III_488"/><ptr type="next" subtype="brief" target="IV_337"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB0501"/>
+               <ptr type="next" subtype="brief" target="IV_206"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="IV_203"/>
+               <ptr type="next" subtype="brief" target="IV_206"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-IV_182"/>
+               <ptr type="next" subtype="anbrief" target="IV-IV_204"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -117,7 +135,7 @@
             <p>Ich für meine Person — wozu noch meine Frau gehört und irgend<note corresp="#IV_114-13">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003469">
-                        <persName> Caroline <name type="reg">Richter</name>
+                        <persName>Caroline <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -126,7 +144,7 @@
                   nichts<note corresp="#IV_114-14">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003471">
-                        <persName> Emma <name type="reg">Richter</name>
+                        <persName>Emma <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -141,7 +159,7 @@
                meiner Frau Sie<note corresp="#IV_114-20">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003469">
-                        <persName> Caroline <name type="reg">Richter</name>
+                        <persName>Caroline <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -150,7 +168,7 @@
                Ihrem Hause<note corresp="#IV_114-21">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001059" ana="†">
-                        <persName> Caroline Henriette Susanne Friederike von <name type="reg">Feuchtersleben</name>
+                        <persName>Caroline von <name type="reg">Feuchtersleben</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -161,8 +179,9 @@
                   selber<note corresp="#IV_114-23">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008778" ana="†">
-                        <author>Horn, Franz (1783-1837) und Adolph Wagner (1774-1835)</author>
-                        <title>Die Eumeniden, anonyme Streitschrift (1801).</title>
+                        <author>Horn, Franz (1783–1837) und Adolph Wagner (1774–1835)</author>
+                        <title>Die Eumeniden oder Noten zum Text des Zeitalters (anonyme Streitschrift,
+                        1801).</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -170,11 +189,11 @@
                diese Leute meinen es aber nicht so<note corresp="#IV_114-24">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003757">
-                        <persName> August Wilhelm <name type="reg">Schlegel</name>
+                        <persName>August Wilhelm <name type="reg">Schlegel</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003760">
-                        <persName> Friedrich <name type="reg">Schlegel</name>
+                        <persName>Friedrich <name type="reg">Schlegel</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -183,7 +202,7 @@
                nur eine Leipziger ist, kurz die<note corresp="#IV_114-25">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001279">
-                        <persName> Christian Fürchtegott <name type="reg">Gellert</name>
+                        <persName>Christian Fürchtegott <name type="reg">Gellert</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -201,11 +220,11 @@
                   <listPerson type="lineReference">
                      <person corresp="#JP-000110">
                         <persName>
-                           <name type="reg">Apollo </name>
+                           <name type="reg">Apollo</name>
                         </persName>
                      </person>
                      <person corresp="#JP-004710" ana="†">
-                        <persName> Christoph Martin <name type="reg">Wieland</name>
+                        <persName>Christoph Martin <name type="reg">Wieland</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -223,11 +242,11 @@
             <p>Leben Sie wohl, alter Verwandter! Ich sehne mich nach mehren<lb xml:id="IV_114-33"/>Lauten. Ich und meine Frau grüssen herzlich Ihre liebe Sängerin und<note corresp="#IV_114-34">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002150">
-                        <persName> Luise Dorothea Ulrika Emilia von <name type="reg">Knebel</name>
+                        <persName>Luise von <name type="reg">Knebel</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003469">
-                        <persName> Caroline <name type="reg">Richter</name>
+                        <persName>Caroline <name type="reg">Richter</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -245,10 +264,16 @@
             <p>
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Kestnermuseum, Hannover. 3 S. 8°. <hi rendition="#i">K</hi> (nach Nr. 207): <hi rendition="#i">Knebel — J</hi>:<lb/>Knebel Nr. 6.
-                     <hi rendition="#i">B</hi>: IV. Abt., IV, Nr. 182. <hi rendition="#i">A</hi>:
-                  IV. Abt., IV, Nr.</hi>
+                     <hi rendition="#i">B</hi>: IV. Abt., 4, Nr. 182. <hi rendition="#i">A</hi>:
+                  IV. Abt., 4, Nr.</hi>
                <hi rendition="#aq">204. </hi>
-               <hi rendition="#b"><hi rendition="#aq">114</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">12</hi></hi> mögen] sollen <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">114</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">12</hi>
+               </hi> mögen] sollen <hi rendition="#aq">
                   <hi rendition="#i">K</hi>
                </hi>
                <hi rendition="#rkd">22</hi>

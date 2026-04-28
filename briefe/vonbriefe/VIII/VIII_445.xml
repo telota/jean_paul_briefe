@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="449">445. An C. Fr. Kunz in Bamberg. </title>
-            <title n="digital">Von Jean Paul an Carl Friedrich Kunz. Bayreuth, 4. August 1824.</title>
+            <title n="print" type="letter" rend="445">445. An C. Fr. Kunz in Bamberg. </title>
+            <title n="digital">Von Jean Paul an Carl Friedrich Kunz. Bayreuth, 4. August 1824, Mittwoch.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>264</num>
                   <num>265</num>
@@ -78,14 +78,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1824-08-04">4. August 1824</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-002308">Carl Friedrich Kunz</persName>
                <placeName key="JP-005561">Bamberg</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VIII_444"/><ptr type="next" subtype="brief" target="VIII_446"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VIII_444"/><ptr type="next" subtype="brief" target="VIII_446"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VIII_28-fb"/><ptr type="next" subtype="brief" target="VIII_462"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-VIII_AN_18"/>
+               <ptr type="next" subtype="brief" target="VIII_446"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VIII_444"/>
+               <ptr type="next" subtype="brief" target="VIII_446"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VIII_28-fb"/>
+               <ptr type="next" subtype="brief" target="VIII_462"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -116,18 +131,20 @@
                <lb xml:id="VIII_265-4"/>wehrte, dem Orkus des schwarzen Staares in Kurzem zuführen
                   würde.<lb n="5" xml:id="VIII_265-5"/>Dann <hi rendition="#aq">addio, opera
                   omnia!</hi>
-            <note corresp="#VIII_265-6">
-               <listBibl type="lineReference" subtype="werke-jp">
-                  <bibl corresp="#JP-010983">
-                     <title>Werke, opera omnia (Sämtliche Werke, ab 1826)</title>
-                  </bibl>
-               </listBibl>
-            </note><lb xml:id="VIII_265-6"/></p>
+               <note corresp="#VIII_265-6">
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010983">
+                        <title>Werke, opera omnia (Sämtliche Werke, ab 1826)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VIII_265-6"/>
+            </p>
             <p>Nun soll in Bamberg ein gewisser alter Pater <hi rendition="#aq">Pius Brunquell</hi>
                   blos<note corresp="#VIII_265-7">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000523">
-                        <persName> Pater Pius <name type="reg">Brunquell</name>
+                        <persName>Pater Pius <name type="reg">Brunquell</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -143,7 +160,8 @@
                   ist<note corresp="#VIII_265-9">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001811">
-                        <persName> Alexander Leopold Franz Emmerich, Prinz von <name type="reg">Hohenlohe-Waldenburg-Schillingsfürst</name>
+                        <persName>
+                           <name type="reg">Alexander Prinz von Hohenlohe-Waldenburg-Schillingsfürst</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -165,12 +183,11 @@
                Grüße an die liebenswürdige<lb xml:id="VIII_265-14"/>Gattin und an Ihre Kinder.<note corresp="#VIII_265-15">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002311">
-                        <persName>
-                           <name type="reg">Kunz</name>
+                        <persName>Carl Friedrich <name type="reg">Kunz</name>
                         </persName>
                      </person>
                      <person corresp="#JP-002307">
-                        <persName> Carl Friedrich <name type="reg">Kunz</name>
+                        <persName>Carl Friedrich <name type="reg">Kunz</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -192,13 +209,25 @@
                   <hi rendition="#i">J</hi>
                   <hi rendition="#sup">2</hi>: Funck S.</hi>
                <hi rendition="#aq">137×. </hi>
-               <hi rendition="#b"><hi rendition="#aq">264</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">34</hi></hi> Immer <hi rendition="#aq">bis</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">264</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">34</hi>
+               </hi> Immer <hi rendition="#aq">bis</hi>
                <hi rendition="#rkd">35 </hi>Belehrung.] <hi rendition="#aq">fehlt <hi rendition="#i">J</hi>
                   <hi rendition="#sup">1</hi>
                   <hi rendition="#i">J</hi>
                </hi>
                <hi rendition="#sup">2</hi>
-               <hi rendition="#b"><hi rendition="#aq">265</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">3</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">265</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">3</hi>
+               </hi>
                <lb/>noch] <hi rendition="#aq">so <hi rendition="#i">J</hi>
                   <hi rendition="#sup">1</hi>
                   <hi rendition="#i">J</hi>

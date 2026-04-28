@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="797">795. An Kunz in Bamberg. </title>
-            <title n="digital">Von Jean Paul an Carl Friedrich Kunz. Bayreuth, 28. August 1813.</title>
+            <title n="print" type="letter" rend="795">795. An Kunz in Bamberg. </title>
+            <title n="digital">Von Jean Paul an Carl Friedrich Kunz. Bayreuth, 28. August 1813, Samstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>344</num></biblScope><biblScope n="comment" unit="page"><num>563</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>344</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>563</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -70,14 +78,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1813-08-28">28. August 1813</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-002308">Carl Friedrich Kunz</persName>
                <placeName key="JP-005561">Bamberg</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_794"/><ptr type="next" subtype="brief" target="VI_796"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_794"/><ptr type="next" subtype="brief" target="VI_796"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_444"/><ptr type="next" subtype="brief" target="VI_810"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_794"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_230"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_794"/>
+               <ptr type="next" subtype="brief" target="VI_796"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_150"/>
+               <ptr type="next" subtype="brief" target="VI_810"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -95,19 +118,20 @@
             <p>Kapellmeisterschaft — Ihre Leihbibliothek ist ein geöffneter Gold<note corresp="#VI_344-8">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001789" ana="†">
-                        <persName> Ernst Theodor Amadeus <name type="reg">Hoffmann</name>
+                        <persName>Ernst Theodor Amadeus <name type="reg">Hoffmann</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008751" ana="†">
-                        <author>Hoffmann, Ernst Theodor Amadeus (1776-1822)</author>
-                        <title>Fantasiestücke in Callot’s Manier (1814)</title>
+                        <author>Hoffmann, Ernst Theodor Amadeus (1776–1822)</author>
+                        <title>Fantasiestücke in Callot's Manier (1814)</title>
                      </bibl>
                   </listBibl>
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010967" ana="†">
-                        <title>Vorreden zu fremden Werken: Hoffmann, Fantasiestücke (1814)</title>
+                        <title>Vorreden zu fremden Werken: Hoffmann, Fantasiestücke
+                        (1814)</title>
                      </bibl>
                   </listBibl>
                </note>

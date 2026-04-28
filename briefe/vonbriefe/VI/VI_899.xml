@@ -2,9 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="905">899. An Cotta. </title>
-            <title n="digital">Von Jean Paul an Johann Friedrich Freiherr Cotta von Cottendorf. Bayreuth, 10. Juli
-               1814.</title>
+            <title n="print" type="letter" rend="899">899. An Cotta. </title>
+            <title n="digital">Von Jean Paul an Johann Friedrich Cotta. Bayreuth, 10. Juli 1814, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -46,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +60,16 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>389</num><num>390</num></biblScope><biblScope n="comment" unit="page"><num>581</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>389</num>
+                  <num>390</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>581</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -70,13 +78,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1814-07-10">10. Juli 1814</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-000698">Johann Friedrich Freiherr Cotta von Cottendorf</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_898"/><ptr type="next" subtype="brief" target="VI_900"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_898"/><ptr type="next" subtype="brief" target="VI_900"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_897"/><ptr type="next" subtype="brief" target="VI_910"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000698">Johann Friedrich von Cotta</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_898"/>
+               <ptr type="next" subtype="brief" target="VI_900"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_898"/>
+               <ptr type="next" subtype="brief" target="VI_900"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VI_EB_119"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_EB_120"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -100,7 +123,8 @@
                freilich — so wie bei dem Druckfehler Carolinie, wo mir der böse<note corresp="#VI_389-35">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000584" ana="†">
-                        <persName> Friederike Wilhelmine <name type="reg">Caroline</name>
+                        <persName>
+                           <name type="reg">Caroline, Königin von Bayern</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -115,7 +139,7 @@
                <note corresp="#VI_390-1">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005637" ana="†">
-                        <placeName>Carolina , nordamerikanischer Staat</placeName>
+                        <placeName>Carolina </placeName>
                      </place>
                   </listPlace>
                </note>
@@ -170,7 +194,7 @@
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010313">
                         <author/>
-                        <title>Morgenblatt für gebildete Stände (1807ff.)</title>
+                        <title> Morgenblatt für gebildete Stände (1807 ff.)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -202,28 +226,30 @@
                <lb xml:id="VI_390-22"/> Noten wegen, die ich dazu machen möchte. In jene kämen
                   dann<lb xml:id="VI_390-23"/> auch die <hi rendition="#aq">Nachdaemmerungen</hi>
                aus dem Pertheschen <metamark>[</metamark>!<metamark>]</metamark> Museum.<note corresp="#VI_390-24">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-003188">
-                     <persName> Friedrich Christoph <name type="reg">Perthes</name>
-                     </persName>
-                  </person>
-                  <person corresp="#JP-003190">
-                     <persName> Johannes <name type="reg">Perthes</name>
-                     </persName>
-                  </person>
-               </listPerson>
-               <listBibl type="lineReference" subtype="werke">
-                  <bibl corresp="#JP-009374">
-                     <author>Perthes, Friedrich Christoph (Werk, Hrsg.)</author>
-                     <title>Vaterländisches Museum (Hamburg 1810-1811)</title>
-                  </bibl>
-               </listBibl>
-               <listBibl type="lineReference" subtype="werke-jp">
-                  <bibl corresp="#JP-010828">
-                     <title>Nachdämmerungen für Deutschland (1810)</title>
-                  </bibl>
-               </listBibl>
-            </note><lb xml:id="VI_390-24"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003188">
+                        <persName>Friedrich <name type="reg">Perthes</name>
+                        </persName>
+                     </person>
+                     <person corresp="#JP-003190">
+                        <persName>Johannes <name type="reg">Perthes</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+                  <listBibl type="lineReference" subtype="werke">
+                     <bibl corresp="#JP-009374">
+                        <author>Perthes, Friedrich Christoph (Hrsg.)</author>
+                        <title>Vaterländisches Museum (Hamburg 1810–1811)</title>
+                     </bibl>
+                  </listBibl>
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010828">
+                        <title>Nachdämmerungen für Deutschland (1810)</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VI_390-24"/>
+            </p>
             <p>Nur Einen Wink aus einem halben Dintentropfen gemacht, geben<lb n="25" xml:id="VI_390-25"/> Sie mir über Ihre neulichen „Herzens Ergießungen“, um die
                   mich<lb xml:id="VI_390-26"/> der Teufel gebracht.</p>
             <lb xml:id="VI_390-27"/>
@@ -244,13 +270,25 @@
                   <lb/> Präsentat: 13 Juli 1814, [beantw.] 16 —. <hi rendition="#i">K</hi> (Anfang
                   durchstr. Kon<lb rendition="#hyphen"/>zept): <hi rendition="#i">Cotta</hi>
                </hi> 10 Jul. <hi rendition="#aq">
-                  <hi rendition="#i">J</hi>: Cotta</hi> 1, 394×. <hi rendition="#b"><hi rendition="#aq">389</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">33</hi></hi> lasen] <hi rendition="#aq">oder</hi> lesen <hi rendition="#aq">
+                  <hi rendition="#i">J</hi>: Cotta</hi> 1, 394×. <hi rendition="#b">
+                  <hi rendition="#aq">389</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">33</hi>
+               </hi> lasen] <hi rendition="#aq">oder</hi> lesen <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
                <lb/> baten] <hi rendition="#aq">aus</hi> bitten <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">390</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">4</hi></hi> da] <hi rendition="#aq">aus</hi> wenn <hi rendition="#rkd">10</hi> meinem <hi rendition="#aq">bis</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">390</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">4</hi>
+               </hi> da] <hi rendition="#aq">aus</hi> wenn <hi rendition="#rkd">10</hi> meinem <hi rendition="#aq">bis</hi>
                <hi rendition="#rkd">11</hi> Kraft] meiner<lb/> Zeit, Kraft und Geld opfernden
                Arbeit, deren Langsamkeit mit meiner<lb/> Selberkritik zunimmt wie mit meinem Alter
                   <hi rendition="#aq">

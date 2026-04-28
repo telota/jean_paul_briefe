@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="697">695. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, November 1812.</title>
+            <title n="print" type="letter" rend="695">695. An Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth, November 1812.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,16 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>300</num></biblScope><biblScope n="comment" unit="page"><num>546</num><num>547</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>300</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>546</num>
+                  <num>547</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +78,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date cert="medium" notBefore="1812-11-01" notAfter="1812-11-30">November 1812</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_689"/><ptr type="next" subtype="brief" target="VI_696"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_689"/><ptr type="next" subtype="brief" target="VI_696"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_689"/><ptr type="next" subtype="brief" target="VI_696"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-IX_2.56"/>
+               <ptr type="next" subtype="brief" target="VI_696"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_689"/>
+               <ptr type="next" subtype="brief" target="VI_696"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_689"/>
+               <ptr type="next" subtype="brief" target="VI_696"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -104,7 +128,7 @@
                doch von <hi rendition="#aq">Buchner</hi> die<note corresp="#VI_300-16">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000530">
-                        <persName> (Leihbibliothek) <name type="reg">Buchner</name>
+                        <persName>Bibliothekar <name type="reg">Buchner</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -112,7 +136,7 @@
                <lb xml:id="VI_300-16"/> „Handzeichnungen aus dem höhern Leben“ geben, worin <hi rendition="#aq">Harden<note corresp="#VI_300-17">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001530" ana="†">
-                           <persName> Karl August Freiherr von <name type="reg">Hardenberg</name>
+                           <persName>Karl August Freiherr von <name type="reg">Hardenberg</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -120,7 +144,7 @@
                         <bibl corresp="#JP-010263" ana="†">
                            <author/>
                            <title>Handzeichnungen aus dem Kreise des höhern politischen
-                              undgesellschaftlichen Lebens (1811)</title>
+                        undgesellschaftlichen Lebens (1811)</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -128,7 +152,8 @@
                   vorkommen.<note corresp="#VI_300-18">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001289" ana="†">
-                        <persName> Herzog von Sachsen-Meiningen <name type="reg">Georg I.</name>
+                        <persName>
+                           <name type="reg">Georg I., Herzog von Sachsen-Meiningen</name>
                         </persName>
                      </person>
                   </listPerson>

@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="420">415. An Gleim in Halberstadt. </title>
-            <title n="digital">Von Jean Paul an Johann Wilhelm Ludwig Gleim. Weimar, 9. März 1800.</title>
+            <title n="print" type="letter" rend="415">415. An Gleim in Halberstadt. </title>
+            <title n="digital">Von Jean Paul an Johann Wilhelm Ludwig Gleim. Weimar, 9. März 1800, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
+               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
                <biblScope n="text" unit="page">
                   <num>303</num>
                   <num>304</num>
@@ -78,14 +78,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1800-03-09">9. März 1800</date>
                <placeName key="JP-006395">Weimar</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-001328">Johann Wilhelm Ludwig Gleim</persName>
                <placeName key="JP-005808">Halberstadt</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="III_414"/><ptr type="next" subtype="brief" target="III_416"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="III_414"/><ptr type="next" subtype="brief" target="III_416"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="III_114"/><ptr type="next" subtype="brief" target="III_468"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="III_414"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB1202"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="III_414"/>
+               <ptr type="next" subtype="brief" target="III_416"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-III.2_323"/>
+               <ptr type="next" subtype="anbrief" target="IV-III.2_342"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -103,8 +118,8 @@
                und nach dem lezten Blatte,<note corresp="#III_303-25">
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010545" ana="†">
-                        <title>Blumen- Frucht- und Dornenstükke (Blumen-, Frucht- und Dornenstücke)
-                           (Siebenkäs) (1796-97 [1796]): Intelligenzblatt</title>
+                        <title>Blumen- Frucht- und Dornenstükke (Blumen-, Frucht- und
+                        Dornenstücke) (Siebenkäs) (1796-97 [1796]): Intelligenzblatt</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -116,14 +131,13 @@
                   <listPerson type="lineReference">
                      <person corresp="#JP-001181">
                         <persName>
-                           <name type="reg">Friedrich II.</name>
+                           <name type="reg">Friedrich II., König von Preußen</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0056690">
-                        <placeName>Deutsche; Deutschland , deutsch , Germanien,
-                           Vaterland</placeName>
+                     <place corresp="#JP-011167">
+                        <placeName>Deutsche</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -157,11 +171,11 @@
                verlasse und nie mehr finde; und weil ich<note corresp="#III_303-36">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001670">
-                        <persName> Caroline <name type="reg">Herder</name>
+                        <persName>Caroline von <name type="reg">Herder</name>
                         </persName>
                      </person>
                      <person corresp="#JP-001675">
-                        <persName> Johann Gottfried von <name type="reg">Herder</name>
+                        <persName>Johann Gottfried von <name type="reg">Herder</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -170,9 +184,8 @@
                Geliebten. Wir<lb xml:id="III_304-1"/>sprechen so oft und so einig von unserem Gleim.
                Er vergisset die Deut<note corresp="#III_304-2">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0056690">
-                        <placeName>Deutsche; Deutschland , deutsch , Germanien,
-                           Vaterland</placeName>
+                     <place corresp="#JP-011167">
+                        <placeName>Deutsche</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -197,11 +210,16 @@
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Gleimhaus, Halberstadt. 4 S. 8°. <hi rendition="#i">K</hi> (nach Nr.</hi> 417): Gleim d. 9. März.<lb/>
                <hi rendition="#aq">
-                  <hi rendition="#i">J</hi>: Körte×. (Wiederabgedr. Denkw. 3,49×.) <hi rendition="#i">i:</hi> Wahrheit 6,120. <hi rendition="#i">B</hi>:<lb/>IV. Abt.,
-                  III.2, Nr. 323. <hi rendition="#i">A</hi>: IV. Abt., III.2, Nr.</hi>
+                  <hi rendition="#i">J</hi>: Körte×. (Wiederabgedr. Denkw. 3,49×.) <hi rendition="#i">i:</hi> Wahrheit 6,120. <hi rendition="#i">B</hi>:<lb/>IV. Abt., 3.2, Nr. 323. <hi rendition="#i">A</hi>: IV. Abt., 3.2, Nr.</hi>
                <hi rendition="#aq">342. </hi>
                <ref target="#p303_l27">
-                  <hi rendition="#b"><hi rendition="#aq">303</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">27</hi></hi>
+                  <hi rendition="#b">
+                     <hi rendition="#aq">303</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">27</hi>
+                  </hi>
                </ref> von<hi rendition="#sup">2</hi>] <hi rendition="#aq">aus</hi> in <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
@@ -214,7 +232,13 @@
                <hi rendition="#rkd">36</hi> verlasse und] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
                </hi>
                <ref target="#p304_l1">
-                  <hi rendition="#b"><hi rendition="#aq">304</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">1</hi></hi>
+                  <hi rendition="#b">
+                     <hi rendition="#aq">304</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">1</hi>
+                  </hi>
                </ref> halb]<lb/>
                <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
                </hi>
@@ -222,7 +246,13 @@
             </p>
             <p>
                <ref target="#p303_l25">
-                  <hi rendition="#b"><hi rendition="#aq">303</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">25</hi></hi>
+                  <hi rendition="#b">
+                     <hi rendition="#aq">303</hi>
+                  </hi>
+                  <hi rendition="#aq">,</hi>
+                  <hi rendition="#rkd">
+                     <hi rendition="#aq">25</hi>
+                  </hi>
                </ref>
                <hi rendition="#aq">Das „Intelligenzblatt der Blumenstücke“ mit dem Dank an
                   den<lb/>anonymen Spender (I.Abt., VI, 411f.) stand in der 1. Auflage am

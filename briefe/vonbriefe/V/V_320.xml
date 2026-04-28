@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="321">*320. An Frommann in Jena. </title>
-            <title n="digital">Von Jean Paul an Karl Friedrich Ernst Frommann. Bayreuth, 30. Januar 1807.</title>
+            <title n="print" type="letter" rend="320">*320. An Frommann in Jena. </title>
+            <title n="digital">Von Jean Paul an Friedrich Frommann. Bayreuth, 30. Januar 1807, Freitag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
+               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
                <biblScope n="text" unit="page">
                   <num>131</num>
                   <num>132</num>
@@ -79,14 +79,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1807-01-30">30. Januar 1807</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-001214">Karl Friedrich Ernst Frommann</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-001214">Friedrich Frommann</persName>
                <placeName key="JP-005875">Jena</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="V_319"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0369"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="V_319"/><ptr type="next" subtype="brief" target="V_52-fb"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="V_172"/><ptr type="next" subtype="brief" target="VI_176"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="V_319"/>
+               <ptr type="next" subtype="anbrief" target="IV-V_AN_35"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="V_319"/>
+               <ptr type="next" subtype="brief" target="V_52-fb"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="V_172"/>
+               <ptr type="next" subtype="anbrief" target="IV-V_AN_35"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -105,15 +120,15 @@
                      <place corresp="#JP-005875">
                         <placeName>Jena</placeName>
                      </place>
-                     <place corresp="#JP-00587511">
-                        <placeName>Reichardtscher Garten, Gartenhaus; Jena</placeName>
+                     <place corresp="#JP-011458">
+                        <placeName>Reichardtscher Garten, Gartenhaus</placeName>
                      </place>
                   </listPlace>
                </note>
                <lb xml:id="V_131-28"/> geworden als durch Jenenser und <hi rendition="#aq">Fichte,</hi> schmerzlich immer an Sie<note corresp="#V_131-29">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001073">
-                        <persName> Johann Gottlieb <name type="reg">Fichte</name>
+                        <persName>Johann Gottlieb <name type="reg">Fichte</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -127,7 +142,7 @@
             <p>Über unser Fürstenthum ging die Kriegswolke in großer Höhe<note corresp="#V_132-1">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005575">
-                        <placeName>Bayreuth, Markgrafschaft </placeName>
+                        <placeName>Markgrafschaft (Fürstentum, Land, Vaterland)</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -158,11 +173,17 @@
                      </hi>
                   </hi>
                   <hi rendition="#aq">
-                     <add resp="#MB" status="unremarkable">gedruckt IV. Abt., V, Anhang Nr.
+                     <add resp="#MB" status="unremarkable">gedruckt IV. Abt., 5, Anhang Nr.
                         35.</add>
                   </hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">131</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">33</hi></hi> Hölle]<lb/>
+               <hi rendition="#b">
+                  <hi rendition="#aq">131</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">33</hi>
+               </hi> Hölle]<lb/>
                <hi rendition="#aq">so <hi rendition="#i">K</hi>,</hi> Galle <hi rendition="#aq">
                   <hi rendition="#i">J</hi>
                </hi>

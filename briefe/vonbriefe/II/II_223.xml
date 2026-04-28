@@ -2,9 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="224">223. An Christian Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, 23. Januar 1796 bis 24. Januar
-               1796.</title>
+            <title n="print" type="letter" rend="223">223. An Christian Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth, 23. bis 24. Januar 1796.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -46,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -61,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
+               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
                <biblScope n="text" unit="page">
                   <num>144</num>
                   <num>145</num>
@@ -82,14 +81,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date corresp="writingSession1" when="1796-01-23">23. Januar 1796</date>
                <date corresp="writingSession2" when="1796-01-24">24. Januar 1796</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="II_222"/><ptr type="next" subtype="brief" target="II_224"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="II_222"/><ptr type="next" subtype="brief" target="II_224"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="II_222"/><ptr type="next" subtype="brief" target="II_229"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="II_222"/>
+               <ptr type="next" subtype="anbrief" target="IV-II_EB_31"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="II_222"/>
+               <ptr type="next" subtype="brief" target="II_224"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="II_222"/>
+               <ptr type="next" subtype="brief" target="II_229"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -107,26 +121,28 @@
                </dateline>
                <lb n="10" xml:id="II_144-10"/>
                <p>Anteskript. Den Brief an Amöne schicke an meine Mutter.<note corresp="#II_144-11">
-                  <listPerson type="lineReference">
-                     <person corresp="#JP-003108">
-                        <persName> Amöne (Pseud. Amalie von Obyrn) <name type="reg">Otto</name>
-                        </persName>
-                     </person>
-                     <person corresp="#JP-003496">
-                        <persName> Sophie Rosine <name type="reg">Richter</name>
-                        </persName>
-                     </person>
-                  </listPerson>
-               </note><lb xml:id="II_144-11"/></p>
+                     <listPerson type="lineReference">
+                        <person corresp="#JP-003108">
+                           <persName>Amöne <name type="reg">Otto</name>
+                           </persName>
+                        </person>
+                        <person corresp="#JP-003496">
+                           <persName>Sophie Rosine <name type="reg">Richter</name>
+                           </persName>
+                        </person>
+                     </listPerson>
+                  </note>
+                  <lb xml:id="II_144-11"/>
+               </p>
                <p>Eben hab’ ich Schillers Musenalmanach, worin 102 irdische Ge<note corresp="#II_144-12">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-008514" ana="†">
-                           <author>Goethe, Johann Wolfgang von (1749-1832)</author>
+                           <author>Goethe, Johann Wolfgang von (1749–1832)</author>
                            <title>Gedichte: Venetianische Epigramme</title>
                         </bibl>
                         <bibl corresp="#JP-009596" ana="†">
-                           <author>Schiller, Friedrich (ab 1802) von (1759-1805)</author>
-                           <title>Musen-Almanach (Musenalmanach) (1796-1800)</title>
+                           <author>Schiller, Friedrich von (1759–1805)</author>
+                           <title>Musen-Almanach (1796–1800)</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -134,7 +150,7 @@
                   Schiller sind und ungefähr<note corresp="#II_144-13">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-009588" ana="†">
-                           <author>Schiller, Friedrich (ab 1802) von (1759-1805)</author>
+                           <author>Schiller, Friedrich von (1759–1805)</author>
                            <title>Gedichte</title>
                         </bibl>
                      </listBibl>
@@ -145,12 +161,14 @@
                   ewiges Lauern unterweges, daß die spiz<lb xml:id="II_144-16" rendition="#hyphen"/>bübische Sonne — und der einfältige Mond macht es eben so — den<lb xml:id="II_144-17"/>Wolkentabaksrauch um sich gar wegbliese: sie thats nicht.
                   Um 7¼<lb xml:id="II_144-18"/>gieng ich in Hof, um 6¾ kam ich hier an, müder wie
                   ein Hund.<note corresp="#II_144-19">
-                  <listPlace type="lineReference">
-                     <place corresp="#JP-005841">
-                        <placeName>Hof im Vogtland</placeName>
-                     </place>
-                  </listPlace>
-               </note><lb xml:id="II_144-19"/></p>
+                     <listPlace type="lineReference">
+                        <place corresp="#JP-005841">
+                           <placeName>Hof</placeName>
+                        </place>
+                     </listPlace>
+                  </note>
+                  <lb xml:id="II_144-19"/>
+               </p>
                <p>Ich habe mir vorgenommen, mich um keine Ordnung zu kümmern:<lb n="20" xml:id="II_144-20"/>ich vergesse sonst die Hälfte ... Ich muste jezt, weil
                   nichts da ist, meine<lb xml:id="II_144-21"/>Feder an der Nachtmüze abstreifen, um
                   sie zu bessern. — Auf Mittag<lb xml:id="II_144-22"/>geh ich und Schäfer zum Essen
@@ -158,13 +176,13 @@
                   <note corresp="#II_144-23">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003685">
-                           <persName> Gottfried Andreas <name type="reg">Schäfer</name>
+                           <persName>Gottfried <name type="reg">Schäfer</name>
                            </persName>
                         </person>
                      </listPerson>
                      <listPlace type="lineReference">
                         <place corresp="#JP-005935" ana="†">
-                           <placeName>Laineck bei Bayreuth</placeName>
+                           <placeName>Laineck </placeName>
                         </place>
                      </listPlace>
                   </note>
@@ -172,7 +190,7 @@
                   für ihn zu<note corresp="#II_144-24">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003087">
-                           <persName> Emanuel <name type="reg">Osmund</name>
+                           <persName>Emanuel <name type="reg">Osmund</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -181,7 +199,7 @@
                   würdest, um diesen<note corresp="#II_144-25">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003106">
-                           <persName> Albrecht <name type="reg">Otto</name>
+                           <persName>Albrecht <name type="reg">Otto</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -199,7 +217,7 @@
                   lieber alles behalten) ... den Kupfer<lb xml:id="II_145-1" rendition="#hyphen"/>stich des Verfassers auch haben. Hier ists anders als in Hof, wo man<note corresp="#II_145-2">
                      <listPlace type="lineReference">
                         <place corresp="#JP-005841">
-                           <placeName>Hof im Vogtland</placeName>
+                           <placeName>Hof</placeName>
                         </place>
                      </listPlace>
                   </note>
@@ -209,8 +227,7 @@
                   Buchläden herum<note corresp="#II_145-5">
                      <listPerson type="lineReference">
                         <person corresp="#JP-000615" ana="†">
-                           <persName>
-                              <name type="reg">Chaterinot</name>
+                           <persName>Monsieur <name type="reg">Chaterinot</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -226,15 +243,15 @@
                   anfangs so sehr ge<note corresp="#II_145-9">
                      <listPerson type="lineReference">
                         <person corresp="#JP-002538">
-                           <persName> Buchhandlung in Bayreuth <name type="reg">Lübeckische</name>
+                           <persName>
+                              <name type="reg">Lübeckische Buchhandlung in Bayreuth</name>
                            </persName>
                         </person>
                      </listPerson>
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-009609">
-                           <author>Schiller, Friedrich (ab 1802) von (1759-1805) (Werk,
-                              Hrsg.)</author>
-                           <title>Die Horen, Zeitschrift (1795-1797)</title>
+                           <author>Schiller, Friedrich von (1759–1805) (Hrsg.)</author>
+                           <title>Die Horen, Zeitschrift (1795–1797)</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -243,8 +260,8 @@
                   auf.“ Welches Lob nicht für die Männer, die tanzen,<lb xml:id="II_145-11"/>sondern
                   für die Weiber, die pfeifen! In der hiesigen <hi rendition="#g">Journal</hi>gesel<note corresp="#II_145-12">
                      <listPlace type="lineReference">
-                        <place corresp="#JP-00557431">
-                           <placeName>Journalgesellschaft; Bayreuth (Stadt)</placeName>
+                        <place corresp="#JP-011059">
+                           <placeName>Journalgesellschaft</placeName>
                         </place>
                      </listPlace>
                   </note>
@@ -252,8 +269,7 @@
                   — Die alte Petermannin, die<note corresp="#II_145-13">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003193" ana="†">
-                           <persName>
-                              <name type="reg">Petermann</name>
+                           <persName>Frau <name type="reg">Petermann</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -263,7 +279,7 @@
                   Hesperus vorlesen und<note corresp="#II_145-15">
                      <listBibl type="lineReference" subtype="werke-jp">
                         <bibl corresp="#JP-010727">
-                           <title>Hesperus (1795)</title>
+                           <title>Hesperus (3 Bde., Berlin: Matzdorff 1795)</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -276,11 +292,11 @@
                      und<note corresp="#II_145-21">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003087">
-                           <persName> Emanuel <name type="reg">Osmund</name>
+                           <persName>Emanuel <name type="reg">Osmund</name>
                            </persName>
                         </person>
                         <person corresp="#JP-003685">
-                           <persName> Gottfried Andreas <name type="reg">Schäfer</name>
+                           <persName>Gottfried <name type="reg">Schäfer</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -297,11 +313,11 @@
                   mus Schäfer<note corresp="#II_145-23">
                      <listPerson type="lineReference">
                         <person corresp="#JP-000022">
-                           <persName> Johann Christoph <name type="reg">Adelung</name>
+                           <persName>Johann Christoph <name type="reg">Adelung</name>
                            </persName>
                         </person>
                         <person corresp="#JP-003685">
-                           <persName> Gottfried Andreas <name type="reg">Schäfer</name>
+                           <persName>Gottfried <name type="reg">Schäfer</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -311,7 +327,7 @@
                   nachschlagen, wuste nicht was<note corresp="#II_145-25">
                      <listBibl type="lineReference" subtype="werke-jp">
                         <bibl corresp="#JP-010727">
-                           <title>Hesperus (1795)</title>
+                           <title>Hesperus (3 Bde., Berlin: Matzdorff 1795)</title>
                         </bibl>
                      </listBibl>
                   </note>
@@ -319,7 +335,7 @@
                   gieng den Emanuel<note corresp="#II_145-26">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003087" ana="ff">
-                           <persName> Emanuel <name type="reg">Osmund</name>
+                           <persName>Emanuel <name type="reg">Osmund</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -329,8 +345,7 @@
                   schreiben, weil ihn dein Brief<note corresp="#II_145-28">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-009331">
-                           <author>Otto, Christian (Georg Christian) (Pseud. Georgius, Christianus)
-                              (1763-1828), Jurist, einer der engsten Freunde von Jean Paul</author>
+                           <author>Otto, Christian (Pseud. Georgius, Christianus, 1763–1828)</author>
                            <title>Gedanken über Gott (1796)</title>
                         </bibl>
                      </listBibl>
@@ -345,7 +360,7 @@
                   — Amöne lässet<note corresp="#II_145-34">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003108">
-                           <persName> Amöne (Pseud. Amalie von Obyrn) <name type="reg">Otto</name>
+                           <persName>Amöne <name type="reg">Otto</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -355,7 +370,7 @@
                   prächtig und herlich, wiewol kochend; und Schäfer sagte mir,<note corresp="#II_146-1">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003685">
-                           <persName> Gottfried Andreas <name type="reg">Schäfer</name>
+                           <persName>Gottfried <name type="reg">Schäfer</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -384,7 +399,7 @@
                   hereinbricht. Trinken thu’ ich jezt<note corresp="#II_146-17">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003685">
-                           <persName> Gottfried Andreas <name type="reg">Schäfer</name>
+                           <persName>Gottfried <name type="reg">Schäfer</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -408,7 +423,7 @@
                   Bleiplatten auf Kopf und<note corresp="#II_146-23">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001530" ana="†">
-                           <persName> Karl August Freiherr von <name type="reg">Hardenberg</name>
+                           <persName>Karl August Freiherr von <name type="reg">Hardenberg</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -417,13 +432,12 @@
                   Gleichwol ist ein Auskultant Geier aus Erlang hier, der<note corresp="#II_146-25">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001266">
-                           <persName>
-                              <name type="reg">Geier</name>
+                           <persName>Johann Christoph <name type="reg">Geier</name>
                            </persName>
                         </person>
                      </listPerson>
                      <listPlace type="lineReference">
-                        <place corresp="#JP-005722">
+                        <place corresp="#JP-005721">
                            <placeName>Erlangen </placeName>
                         </place>
                      </listPlace>
@@ -445,7 +459,7 @@
                   <lb xml:id="II_146-29"/>sind. Völderndorf lies ihn ...<note corresp="#II_146-30">
                      <listPerson type="lineReference">
                         <person corresp="#JP-004445">
-                           <persName> Carl Friedrich Wilhelm Freiherr von <name type="reg">Voelderndorff und Waradein</name>
+                           <persName>Carl Friedrich Wilhelm Freiherr von <name type="reg">Voelderndorff und Waradein</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -457,7 +471,7 @@
                   als in Hof, aber die Saiten<note corresp="#II_146-32">
                      <listPlace type="lineReference">
                         <place corresp="#JP-005841">
-                           <placeName>Hof im Vogtland</placeName>
+                           <placeName>Hof</placeName>
                         </place>
                      </listPlace>
                   </note>
@@ -487,7 +501,7 @@
                      Amöne<note corresp="#II_147-4">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003108">
-                           <persName> Amöne (Pseud. Amalie von Obyrn) <name type="reg">Otto</name>
+                           <persName>Amöne <name type="reg">Otto</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -497,7 +511,7 @@
                   anlehne. Sie gab mir<lb xml:id="II_147-6"/>zugleich die Erlaubnis, ihre an <hi rendition="#aq">Emanuel</hi> zu lesen. Meine Antwort an<note corresp="#II_147-7">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003087">
-                           <persName> Emanuel <name type="reg">Osmund</name>
+                           <persName>Emanuel <name type="reg">Osmund</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -506,7 +520,7 @@
                      lustigen<note corresp="#II_147-8">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003496">
-                           <persName> Sophie Rosine <name type="reg">Richter</name>
+                           <persName>Sophie Rosine <name type="reg">Richter</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -515,8 +529,7 @@
                   eine Viertel<note corresp="#II_147-9">
                      <listBibl type="lineReference" subtype="werke">
                         <bibl corresp="#JP-008773">
-                           <author>Hommel, Karl Ferdinand (1722-1781), Professor der Rechte in
-                              Leipzig</author>
+                           <author>Hommel, Karl Ferdinand (1722–1781)</author>
                            <title>Kleine Plappereien (1773)</title>
                         </bibl>
                      </listBibl>
@@ -526,7 +539,7 @@
                   sondern wie aus<note corresp="#II_147-11">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001045">
-                           <persName> Johann Siegmund Friedrich <name type="reg">Feez</name>
+                           <persName>Johann Siegmund Friedrich <name type="reg">Feez</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -537,7 +550,7 @@
                   nur einmal von dir wegzukommen.<note corresp="#II_147-14">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003087">
-                           <persName> Emanuel <name type="reg">Osmund</name>
+                           <persName>Emanuel <name type="reg">Osmund</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -546,7 +559,7 @@
                      geliebten<note corresp="#II_147-15">
                      <listPerson type="lineReference">
                         <person corresp="#JP-004686">
-                           <persName> Friederike Christiane <name type="reg">Wernlein</name>
+                           <persName>Friederike <name type="reg">Wernlein</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -555,7 +568,7 @@
                   scheinen und Gras<note corresp="#II_147-16">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003106">
-                           <persName> Albrecht <name type="reg">Otto</name>
+                           <persName>Albrecht <name type="reg">Otto</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -583,7 +596,13 @@
                   <hi rendition="#sup">2</hi>: Wahr<lb rendition="#hyphen"/>heit 5,24×. <hi rendition="#i">J</hi>
                   <hi rendition="#sup">3</hi>: Nerrlich Nr. 16. Das Anteskript steht am Rande
                   der<lb/>1. Seite.</hi>
-               <hi rendition="#b"><hi rendition="#aq">144</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">12</hi></hi> irdische] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">144</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">12</hi>
+               </hi> irdische] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">18</hi> rauch] <hi rendition="#aq">aus</hi> rausch <hi rendition="#aq">
                   <hi rendition="#i">HK</hi>
@@ -594,7 +613,13 @@
                </hi>
                <hi rendition="#rkd">31</hi> besonders] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">145</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">14</hi></hi> an Jahren] <hi rendition="#aq">aus</hi> im Jahr <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">145</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">14</hi>
+               </hi> an Jahren] <hi rendition="#aq">aus</hi> im Jahr <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
                <lb/>
@@ -611,13 +636,25 @@
                <hi rendition="#rkd">34</hi> lässet] <hi rendition="#aq">aus</hi> lies <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">146</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">30</hi></hi> Völderndorf] <hi rendition="#aq">davor gestr.</hi> Harden<lb rendition="#hyphen"/>b[erg] <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">146</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">30</hi>
+               </hi> Völderndorf] <hi rendition="#aq">davor gestr.</hi> Harden<lb rendition="#hyphen"/>b[erg] <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">35</hi> meine <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">147</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">2</hi></hi> den] <hi rendition="#aq">aus</hi> bis <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">147</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">2</hi>
+               </hi> den] <hi rendition="#aq">aus</hi> bis <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">5</hi> indes] <hi rendition="#aq">aus</hi> wenn <hi rendition="#aq">
@@ -628,7 +665,13 @@
             </p>
             <lb/>
             <p>
-               <hi rendition="#b"><hi rendition="#aq">144</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">12</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">144</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">12</hi>
+               </hi>
                <hi rendition="#aq">f. Schillers Musenalmanach auf 1796 brachte von Goethe
                   die<lb/>Venetianischen Epigramme, von Schiller u. a. die Ideale. <hi rendition="#rkd">23</hi>
                   <hi rendition="#g">In Laineck,</hi>

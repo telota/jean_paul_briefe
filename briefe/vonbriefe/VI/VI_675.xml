@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="677">*675. An Frau Professor Wagner in Bayreuth. </title>
-            <title n="digital">Von Jean Paul an Julie Christiane Wagner. Bayreuth, 19. September 1812.</title>
+            <title n="print" type="letter" rend="675">*675. An Frau Professor Wagner in Bayreuth. </title>
+            <title n="digital">Von Jean Paul an Julie Christiane Wagner. Bayreuth, 19. September 1812, Samstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>292</num></biblScope><biblScope n="comment" unit="page"><num>544</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>292</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>544</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,21 +77,35 @@
             </msDesc>
             <listPerson type="commentary">
                <person corresp="#JP-002036">
-                  <persName> Johann <name type="reg">Kapp</name>
+                  <persName>Johann <name type="reg">Kapp</name>
                   </persName>
                </person>
             </listPerson>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1812-09-19">19. September 1812</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-004563">Julie Christiane Wagner</persName>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_674"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0104"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_674"/><ptr type="next" subtype="brief" target="VI_676"/></correspContext><correspContext n="correspondence"><ptr type="next" subtype="brief" target="VIII_7"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_674"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB0104"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_674"/>
+               <ptr type="next" subtype="brief" target="VI_676"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="next" subtype="brief" target="VIII_7"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -105,12 +127,12 @@
                         </persName>
                      </person>
                      <person corresp="#JP-003469">
-                        <persName> Caroline <name type="reg">Richter</name>
+                        <persName>Caroline <name type="reg">Richter</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003483">
-                        <persName> Johann Paul Friedrich <name type="reg">Richter</name>
-                        </persName>
+                        <persName>
+                           <name type="reg">Richter</name>, seine Kinder</persName>
                      </person>
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke">
@@ -127,7 +149,7 @@
                <note corresp="#VI_292-24">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004569">
-                        <persName> Lorenz Heinrich <name type="reg">Wagner</name>
+                        <persName>Lorenz Heinrich <name type="reg">Wagner</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -139,8 +161,8 @@
                Ihnen täglich ⅔ Ihres Geschlechts<note corresp="#VI_292-28">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003483">
-                        <persName> Johann Paul Friedrich <name type="reg">Richter</name>
-                        </persName>
+                        <persName>
+                           <name type="reg">Richter</name>, seine Kinder</persName>
                      </person>
                   </listPerson>
                </note>
@@ -149,7 +171,7 @@
             <p>Leben Sie wol und grüßen Sie Ihren Gatten von mir auch<note corresp="#VI_292-30">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004569">
-                        <persName> Lorenz Heinrich <name type="reg">Wagner</name>
+                        <persName>Lorenz Heinrich <name type="reg">Wagner</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -171,7 +193,13 @@
                   <hi rendition="#i">Sept.</hi>
                </hi> an dessen Frau. *<hi rendition="#aq">
                   <hi rendition="#i">J</hi>: Germania (Göttinger Illustr.<lb/> Wochenschrift), 1863,
-                  Nr.</hi> 7. <hi rendition="#b"><hi rendition="#aq">292</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">20</hi></hi> Morgen] Tage <hi rendition="#aq">
+                  Nr.</hi> 7. <hi rendition="#b">
+                  <hi rendition="#aq">292</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">20</hi>
+               </hi> Morgen] Tage <hi rendition="#aq">
                   <hi rendition="#i">K</hi>
                </hi>
                <hi rendition="#rkd">21</hi> 8] <hi rendition="#aq">danach</hi>

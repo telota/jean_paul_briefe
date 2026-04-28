@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="892">886. An Emanuel. </title>
+            <title n="print" type="letter" rend="886">886. An Emanuel. </title>
             <title n="digital">Von Jean Paul an Emanuel. Bayreuth, Juni 1814.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>385</num></biblScope><biblScope n="comment" unit="page"><num>579</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>385</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>579</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date notBefore="1814-06-01" notAfter="1814-06-30">Juni 1814</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-003087">Emanuel Osmund</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_885"/><ptr type="next" subtype="brief" target="VI_887"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_885"/><ptr type="next" subtype="brief" target="VI_887"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_885"/><ptr type="next" subtype="brief" target="VI_892"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000941">Emanuel</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_885"/>
+               <ptr type="next" subtype="brief" target="VI_887"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_885"/>
+               <ptr type="next" subtype="brief" target="VI_887"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_885"/>
+               <ptr type="next" subtype="brief" target="VI_892"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -94,7 +117,7 @@
                   kaum<note corresp="#VI_385-10">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004029">
-                        <persName> William <name type="reg">Shakespeare </name>
+                        <persName>William <name type="reg">Shakespeare</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -106,7 +129,7 @@
                <note corresp="#VI_385-13">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008510">
-                        <author>Goethe, Johann Wolfgang von (1749-1832)</author>
+                        <author>Goethe, Johann Wolfgang von (1749–1832)</author>
                         <title>Faust</title>
                      </bibl>
                   </listBibl>
@@ -114,7 +137,7 @@
                <lb xml:id="VI_385-13"/> — Die herrlichen Zeitblätter geben Sie auch <hi rendition="#aq">Otto</hi>, so wie die Briefe.<note corresp="#VI_385-14">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003112">
-                        <persName> Christian (Pseud. Georgius, Christianus) <name type="reg">Otto</name>
+                        <persName>Georg Christian <name type="reg">Otto</name>
                         </persName>
                      </person>
                   </listPerson>

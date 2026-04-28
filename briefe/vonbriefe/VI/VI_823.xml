@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="829">823. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, Mitte Januar 1814.</title>
+            <title n="print" type="letter" rend="823">823. An Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth, Mitte Januar 1814.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>356</num></biblScope><biblScope n="comment" unit="page"><num>567</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>356</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>567</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date notBefore="1814-01-11" notAfter="1814-01-20">Mitte Januar 1814</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0015"/><ptr type="next" subtype="umfeldbrief" target="JP-UB1929"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_970"/><ptr type="next" subtype="brief" target="VI_824"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_970"/><ptr type="next" subtype="brief" target="VI_832"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB0015"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_235"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_970"/>
+               <ptr type="next" subtype="brief" target="VI_824"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_970"/>
+               <ptr type="next" subtype="brief" target="VI_832"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -114,8 +137,8 @@
                   Wiedererlangung<lb xml:id="VI_356-29"/> der (französischen) verlornen Eroberungen
                ist nicht zu denken“ sagte<note corresp="#VI_356-30">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-00574610">
-                        <placeName>Politik, Krieg, Militär; Frankreich, französisch</placeName>
+                     <place corresp="#JP-011308">
+                        <placeName>Politik, Krieg, Militär</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -124,14 +147,13 @@
                   <listPerson type="lineReference">
                      <person corresp="#JP-002955" ana="†">
                         <persName>
-                           <name type="reg">Napoleon I. Bonaparte</name>
+                           <name type="reg">Napoleon I. Bonaparte, Kaiser von Frankreich </name>
                         </persName>
                      </person>
                   </listPerson>
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0056690">
-                        <placeName>Deutsche; Deutschland , deutsch , Germanien,
-                           Vaterland</placeName>
+                     <place corresp="#JP-011167">
+                        <placeName>Deutsche</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -140,7 +162,7 @@
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010312" ana="†">
                         <author/>
-                        <title>Moniteur, französisches Amtsblatt (1799ff.)</title>
+                        <title>Moniteur, französisches Amtsblatt (1799 ff.)</title>
                      </bibl>
                   </listBibl>
                </note>

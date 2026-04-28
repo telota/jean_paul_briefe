@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="489">479. An Geheimrat Mayer in Berlin. </title>
-            <title n="digital">Von Jean Paul an Johann Siegfried Wilhelm Mayer. Berlin, 19. Juni 1800.</title>
+            <title n="print" type="letter" rend="479">479. An Geheimrat Mayer in Berlin. </title>
+            <title n="digital">Von Jean Paul an Johann Siegfried Wilhelm Mayer. Berlin, 19. Juni 1800, Donnerstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
+               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
                <biblScope n="text" unit="page">
                   <num>343</num>
                </biblScope>
@@ -76,21 +76,36 @@
             </msDesc>
             <listPerson type="commentary">
                <person corresp="#JP-001299">
-                  <persName> Leopold Karl von <name type="reg">Gerlach</name>
+                  <persName>Carl Friedrich Leopold von <name type="reg">Gerlach</name>
                   </persName>
                </person>
             </listPerson>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1800-06-19">19. Juni 1800</date>
                <placeName key="JP-005586">Berlin</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-002703">Johann Siegfried Wilhelm Mayer</persName>
                <placeName key="JP-005586">Berlin</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="III_478"/><ptr type="next" subtype="brief" target="III_479a"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="III_478"/><ptr type="next" subtype="brief" target="III_479a"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="III_476a"/><ptr type="next" subtype="brief" target="IV_23"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-III.2_398"/>
+               <ptr type="next" subtype="brief" target="III_479a"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="III_478"/>
+               <ptr type="next" subtype="brief" target="III_479a"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-III.2_EB_123"/>
+               <ptr type="next" subtype="brief" target="IV_23"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -110,19 +125,19 @@
                   Lust-,<note corresp="#III_343-17">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000225">
-                        <persName> Adelheid Henriette von <name type="reg">Bassewitz</name>
+                        <persName>Adelheid von <name type="reg">Bassewitz</name>
                         </persName>
                      </person>
                      <person corresp="#JP-002706">
-                        <persName> Johann Siegfried Wilhelm <name type="reg">Mayer</name>
-                        </persName>
+                        <persName>
+                           <name type="reg">Mayer</name>, seine Töchter</persName>
                      </person>
                   </listPerson>
                </note>
                <lb xml:id="III_343-17"/>Land-, Wasser- und Frühlingspartie nach <hi rendition="#aq">Pickelsdorf</hi> vor einigen<note corresp="#III_343-18">
                   <listPlace type="lineReference">
                      <place corresp="#JP-006139">
-                        <placeName>Pichelsdorf bei Berlin</placeName>
+                        <placeName>Pichelsdorf </placeName>
                      </place>
                   </listPlace>
                </note>
@@ -133,13 +148,13 @@
                <hi rendition="#aq">Ahlefeldt</hi> und ich aussteigen in <hi rendition="#aq">Pickelsdorf,</hi> um die Freude des<note corresp="#III_343-23">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000044">
-                        <persName> Johann Georg Jacob von <name type="reg">Ahlefeldt</name>
+                        <persName>Hans Georg von <name type="reg">Ahlefeldt</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listPlace type="lineReference">
                      <place corresp="#JP-006139">
-                        <placeName>Pichelsdorf bei Berlin</placeName>
+                        <placeName>Pichelsdorf </placeName>
                      </place>
                   </listPlace>
                </note>
@@ -151,8 +166,8 @@
             <p>Leben Sie froh mit den liebenswürdigen Ihrigen!<note corresp="#III_343-26">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002706">
-                        <persName> Johann Siegfried Wilhelm <name type="reg">Mayer</name>
-                        </persName>
+                        <persName>
+                           <name type="reg">Mayer</name>, seine Töchter</persName>
                      </person>
                   </listPerson>
                </note>

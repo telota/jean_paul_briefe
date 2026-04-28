@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="277">276. An J. B. Engelmann in Frankfurt a. M. </title>
-            <title n="digital">Von Jean Paul an Julius Bernhard Engelmann. Bayreuth, 3. Juni 1810.</title>
+            <title n="print" type="letter" rend="276">276. An J. B. Engelmann in Frankfurt a. M. </title>
+            <title n="digital">Von Jean Paul an Julius Bernhard Engelmann. Bayreuth, 3. Juni 1810, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>107</num></biblScope><biblScope n="comment" unit="page"><num>472</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>107</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>472</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -70,15 +78,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1810-06-03">3. Juni 1810</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-000962">Julius Bernhard Engelmann</persName>
                <placeName key="JP-005743">Frankfurt a.
                   M.</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_275"/><ptr type="next" subtype="brief" target="VI_277"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_275"/><ptr type="next" subtype="brief" target="VI_277"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_247"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_275"/>
+               <ptr type="next" subtype="anbrief" target="IV-VI_82"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_275"/>
+               <ptr type="next" subtype="brief" target="VI_277"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_247"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -96,8 +118,7 @@
             <p>Empfehlung d<metamark>[</metamark>er<metamark>]</metamark> Fräulein <hi rendition="#aq">Klamer</hi> — die jetzige Weltsprache,<note corresp="#VI_107-14">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002116">
-                        <persName>
-                           <name type="reg">Klamer</name>
+                        <persName>Fräulein <name type="reg">Klamer</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -106,16 +127,16 @@
                Schloßersche Museum hab’ ich<note corresp="#VI_107-15">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003794">
-                        <persName> Johann Friedrich Heinrich <name type="reg">Schlosser</name>
+                        <persName>Johann Friedrich Heinrich <name type="reg">Schlosser</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0057439">
-                        <placeName>Museum; Frankfurt a. M.</placeName>
+                     <place corresp="#JP-011302">
+                        <placeName>Museum</placeName>
                      </place>
-                     <place corresp="#JP-00574612">
-                        <placeName>Sprache, Stil, Schrift; Frankreich, französisch</placeName>
+                     <place corresp="#JP-011310">
+                        <placeName>Sprache, Stil, Schrift</placeName>
                      </place>
                   </listPlace>
                </note>

@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="330">326. An Joseph Görres (in Straßburg?). </title>
-            <title n="digital">Von Jean Paul an Joseph von Görres. Bayreuth, 16. August 1822.</title>
+            <title n="print" type="letter" rend="326">326. An Joseph Görres (in Straßburg?). </title>
+            <title n="digital">Von Jean Paul an Joseph von Görres. Bayreuth, 16. August 1822, Freitag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>196</num>
                   <num>197</num>
@@ -79,14 +79,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1822-08-16">16. August 1822</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-001345">Joseph von Görres</persName>
                <placeName key="JP-006310">Straßburg</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VIII_325"/><ptr type="next" subtype="brief" target="VIII_327"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VIII_325"/><ptr type="next" subtype="brief" target="VIII_327"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="V_487"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VIII_325"/>
+               <ptr type="next" subtype="brief" target="VIII_327"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VIII_325"/>
+               <ptr type="next" subtype="brief" target="VIII_327"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="V_487"/>
+               <ptr type="next" subtype="anbrief" target="IV-VIII_197"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -106,7 +121,7 @@
                   <listPerson type="lineReference">
                      <person corresp="#JP-002064">
                         <persName>
-                           <name type="reg">Katholiken </name>
+                           <name type="reg">Katholiken</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -116,7 +131,7 @@
                   licht<note corresp="#VIII_196-34">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003059">
-                        <persName> Kaspar <name type="reg">Oesterreicher</name>
+                        <persName>Kaspar <name type="reg">Oesterreicher</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -133,12 +148,14 @@
                </note>
                <lb xml:id="VIII_197-1"/>Kunstliebe der Malerei, folglich aller Landschaften führt
                ihn nach der<lb xml:id="VIII_197-2"/>Schweiz. —<note corresp="#VIII_197-3">
-               <listPlace type="lineReference">
-                  <place corresp="#JP-0062720">
-                     <placeName>Schweizer; Schweiz </placeName>
-                  </place>
-               </listPlace>
-            </note><lb xml:id="VIII_197-3"/></p>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-011673">
+                        <placeName>Schweizer</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="VIII_197-3"/>
+            </p>
             <p>Ich bereu’ oft den von mir selber gewählten Verlust von Koblenz<note corresp="#VIII_197-4">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005904">
@@ -155,11 +172,11 @@
                Die politische Versündigung<note corresp="#VIII_197-9">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001675">
-                        <persName> Johann Gottfried von <name type="reg">Herder</name>
+                        <persName>Johann Gottfried von <name type="reg">Herder</name>
                         </persName>
                      </person>
                      <person corresp="#JP-001909">
-                        <persName> Friedrich Heinrich <name type="reg">Jacobi</name>
+                        <persName>Friedrich Heinrich <name type="reg">Jacobi</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -167,16 +184,15 @@
                <lb xml:id="VIII_197-9"/>an Ihnen ist ein wissenschaftlicher Raub an Deutschland.
                Aber zum<note corresp="#VIII_197-10">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0056690">
-                        <placeName>Deutsche; Deutschland , deutsch , Germanien,
-                           Vaterland</placeName>
+                     <place corresp="#JP-011167">
+                        <placeName>Deutsche</placeName>
                      </place>
                   </listPlace>
                </note>
                <lb n="10" xml:id="VIII_197-10"/>Glücke bleiben Sie als Koriolan auch im Ausland <hi rendition="#g">unser</hi> Römer. —<note corresp="#VIII_197-11">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000689">
-                        <persName> Gnaeus Marcius <name type="reg">Coriolanus </name>
+                        <persName>Gnaeus Marcius <name type="reg">Coriolanus</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -208,10 +224,16 @@
                   <hi rendition="#sup">1</hi>: Denkw. 3,324.<lb/>
                   <hi rendition="#i">J</hi>
                   <hi rendition="#sup">2</hi>: Görres’ Gesammelte Briefe, 3. Bd. (1874), S. 23, Nr.
-                  254. <hi rendition="#i">A</hi>: IV. Abt., VIII, Nr.</hi>
+                  254. <hi rendition="#i">A</hi>: IV. Abt., 8, Nr.</hi>
                <hi rendition="#aq">197.</hi>
                <lb/>
-               <hi rendition="#b"><hi rendition="#aq">197</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">4</hi></hi> bereu’] <hi rendition="#aq">danach gestr.</hi> es <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">197</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">4</hi>
+               </hi> bereu’] <hi rendition="#aq">danach gestr.</hi> es <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">6</hi> Genußes] <hi rendition="#aq">aus</hi> Glücks <hi rendition="#aq">
@@ -220,7 +242,13 @@
             </p>
             <lb/>
             <p>
-               <hi rendition="#b"><hi rendition="#aq">196</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">34</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">196</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">34</hi>
+               </hi>
                <hi rendition="#aq">
                   <hi rendition="#g">Oestreicher</hi>: vgl. Bd. VII, Nr. 223,<hi rendition="#b">87</hi>, <hi rendition="#rkd">32</hi>f. <hi rendition="#b">197</hi>, <hi rendition="#rkd">4</hi>
                   <hi rendition="#g">Koblenz</hi>: vgl.<lb/>

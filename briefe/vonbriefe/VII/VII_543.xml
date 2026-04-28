@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="548">543. An Frau Karoline Paulus in stuttgart. </title>
-            <title n="digital">Von Jean Paul an Karoline Paulus. Stuttgart, 4. Juli 1819.</title>
+            <title n="print" type="letter" rend="543">543. An Frau Karoline Paulus in stuttgart. </title>
+            <title n="digital">Von Jean Paul an Karoline Paulus. Stuttgart, 4. Juli 1819, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
+               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
                <biblScope n="text" unit="page">
                   <num>283</num>
                </biblScope>
@@ -77,16 +77,31 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1819-07-04">4. Juli 1819</date>
                <placeName key="JP-006315">Stuttgart
                </placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-003170">Karoline Paulus</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-003171">Karoline Paulus</persName>
                <placeName key="JP-006315">Stuttgart
                </placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VII_554"/><ptr type="next" subtype="brief" target="VII_544"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VII_554"/><ptr type="next" subtype="brief" target="VII_544"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VII_436"/><ptr type="next" subtype="brief" target="VIII_36"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-VII_200"/>
+               <ptr type="next" subtype="anbrief" target="IV-VII_201"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VII_554"/>
+               <ptr type="next" subtype="brief" target="VII_544"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VII_139"/>
+               <ptr type="next" subtype="anbrief" target="IV-VII_201"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -109,14 +124,16 @@
                das zudringliche Bestimmen der Zeit,<lb xml:id="VII_283-11"/> einem, der nur wenige
                hat. Meinen wärmsten Morgengruß Ihrer<lb xml:id="VII_283-12"/>
                <hi rendition="#aq">Sophie!</hi>
-            <note corresp="#VII_283-13">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-003172">
-                     <persName> Sophie <name type="reg">Paulus</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="VII_283-13"/></p>
+               <note corresp="#VII_283-13">
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-003172">
+                        <persName>Sophie <name type="reg">Paulus</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="VII_283-13"/>
+            </p>
             <closer>
                <salute>
                   <hi rendition="#right">Ihr<lb xml:id="VII_283-14"/> Jean Paul</hi>
@@ -127,8 +144,8 @@
                <p>Eben bekomm’ ich ein Briefchen der Herzogin als Abendeinladung<note corresp="#VII_283-16">
                      <listPerson type="lineReference">
                         <person corresp="#JP-001166">
-                           <persName> Herzogin von Württemberg <name type="reg">Friederike Franziska
-                                 Wilhelmine</name>
+                           <persName>
+                              <name type="reg">Wilhelmine, Herzogin von Württemberg</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -146,7 +163,7 @@
                   <hi rendition="#i">Paulus</hi>
                </hi> dahier. Bei Frau Finanzpräsidentin <hi rendition="#aq">
                   <hi rendition="#i">Paulus. J</hi>:<lb/> Paulus 2, 311×. <hi rendition="#i">A</hi>:
-                  IV. Abt., VII, Nr.</hi>
+                  IV. Abt., 7, Nr.</hi>
                <hi rendition="#aq">201.</hi>
             </p>
             <lb/>

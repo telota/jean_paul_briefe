@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="247">241. An Perthes. </title>
-            <title n="digital">Von Jean Paul an Johannes Perthes. Meiningen, 9. Februar 1802.</title>
+            <title n="print" type="letter" rend="241">241. An Perthes. </title>
+            <title n="digital">Von Jean Paul an Johannes Perthes. Meiningen, 9. Februar 1802, Dienstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,11 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"/><biblScope n="comment" unit="page"/></bibl>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page"/>
+               <biblScope n="comment" unit="page"/>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -70,14 +74,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1802-02-09">9. Februar 1802</date>
                <placeName key="JP-006012">Meiningen
                </placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003190">Johannes Perthes</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="IV_240"/><ptr type="next" subtype="umfeldbrief" target="JP-UB0635"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="IV_240"/><ptr type="next" subtype="brief" target="IV_242"/></correspContext><correspContext n="correspondence"><ptr type="next" subtype="brief" target="IV_446"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="IV_240"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB0635"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="IV_240"/>
+               <ptr type="next" subtype="brief" target="IV_242"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="next" subtype="brief" target="IV_446"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -111,7 +129,7 @@
                   </listPerson>
                   <listBibl type="lineReference" subtype="werke-jp">
                      <bibl corresp="#JP-010934">
-                        <title>Über den Tod nach dem Tode (1802)</title>
+                        <title>Ueber den Tod nach dem Tode; oder der Geburtstag (1802)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -119,7 +137,7 @@
                Welt <metamark>[</metamark>zu<metamark>]</metamark> sehen. — Im<lb n="30" xml:id="IV_134-30"/>europäischen Sodom — London ist das Gomorha — dauert kein<note corresp="#IV_134-31">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001909" ana="†">
-                        <persName> Friedrich Heinrich <name type="reg">Jacobi</name>
+                        <persName>Friedrich Heinrich <name type="reg">Jacobi</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -150,9 +168,8 @@
                      </person>
                   </listPerson>
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0056690">
-                        <placeName>Deutsche; Deutschland , deutsch , Germanien,
-                           Vaterland</placeName>
+                     <place corresp="#JP-011167">
+                        <placeName>Deutsche</placeName>
                      </place>
                   </listPlace>
                </note>

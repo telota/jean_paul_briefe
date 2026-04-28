@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="missingLetter" rend="478"/>
-            <title n="digital">Von Jean Paul an Christoph Friedrich Beckmann. Töpen bei Hof, Februar 1789. </title>
+            <title n="print" type="missingLetter" rend="30"/>
+            <title n="digital">Von Jean Paul an Christoph Friedrich Bekmann. Töpen bei Hof, Februar 1789.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="I">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
+               <title n="I">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
                <biblScope unit="page">
                   <num>546</num>
                </biblScope>
@@ -74,15 +74,30 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date notBefore="1789-02-01" notAfter="1789-02-28">Februar 1789</date>
                <placeName key="JP-006345">Töpen bei
                   Hof</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-000263">Christoph Friedrich Beckmann</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000263">Christoph Friedrich Bekmann</persName>
                <placeName key="JP-005777">Gera</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="I_245"/><ptr type="next" subtype="brief" target="I_246"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="I_245"/><ptr type="next" subtype="brief" target="I_246"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="I_238"/><ptr type="next" subtype="brief" target="I_249"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="I_245"/>
+               <ptr type="next" subtype="anbrief" target="IV-I_90"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="I_245"/>
+               <ptr type="next" subtype="brief" target="I_246"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="I_238"/>
+               <ptr type="next" subtype="brief" target="I_249"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -94,7 +109,13 @@
                      <persName>Beckmann</persName>
                   </hi> in <placeName>Gera</placeName>. <placeName>Töpen oder Hof</placeName>,
                      <date>Febr. 1789</date>. Vgl.</hi>
-               <hi rendition="#b"><hi rendition="#aq">268</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">2</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">268</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">2</hi>
+               </hi>
                <hi rendition="#aq">.</hi>
             </p>
          </div>

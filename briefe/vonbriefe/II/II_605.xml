@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="606">605. An Friedrich von Oertel in Leipzig. </title>
-            <title n="digital">Von Jean Paul an Friedrich Benedikt von Oertel. Hof, 10. Mai 97.</title>
+            <title n="print" type="letter" rend="605">605. An Friedrich von Oertel in Leipzig. </title>
+            <title n="digital">Von Jean Paul an Friedrich Benedikt von Oertel. Hof, 10. Mai 1797, Mittwoch.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
+               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
                <biblScope n="text" unit="page">
                   <num>329</num>
                   <num>330</num>
@@ -78,21 +78,36 @@
             </msDesc>
             <listBibl type="commentary" subtype="werke">
                <bibl corresp="#JP-008557">
-                  <author>Goethe, Johann Wolfgang von und Schiller, Friedrich</author>
+                  <author>Goethe, Johann Wolfgang von (1749–1832); Schiller, Friedrich</author>
                   <title>Xenien (1796)</title>
                </bibl>
             </listBibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
-               <date when="1797-05-10">10. Mai 97</date>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
+               <date when="1797-05-10">10. Mai 1797</date>
                <placeName key="JP-005841">Hof</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003039">Friedrich Benedikt von Oertel</persName>
                <placeName key="JP-005948">Leipzig</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="II_604"/><ptr type="next" subtype="brief" target="II_606"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="II_604"/><ptr type="next" subtype="brief" target="II_606"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="II_577"/><ptr type="next" subtype="brief" target="II_613"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-II_194"/>
+               <ptr type="next" subtype="brief" target="II_606"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="II_604"/>
+               <ptr type="next" subtype="brief" target="II_606"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-II_EB_99-100"/>
+               <ptr type="next" subtype="anbrief" target="IV-II_197"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -110,7 +125,7 @@
                   dieses<note corresp="#II_329-19">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005841">
-                        <placeName>Hof im Vogtland</placeName>
+                        <placeName>Hof</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -118,7 +133,7 @@
                   ge<note corresp="#II_329-20">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005574">
-                        <placeName>Bayreuth (Stadt)</placeName>
+                        <placeName>Bayreuth </placeName>
                      </place>
                   </listPlace>
                </note>
@@ -126,7 +141,7 @@
                seinem Hause in den sanften Zirkeln<note corresp="#II_329-21">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003087">
-                        <persName> Emanuel <name type="reg">Osmund</name>
+                        <persName>Emanuel <name type="reg">Osmund</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -140,9 +155,9 @@
                   ich<note corresp="#II_329-26">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008183" ana="†">
-                        <author>Bouterwek, Friedrich (1766-1828), Literaturtheoretiker und
-                           -kritiker, Professor in Göttingen</author>
-                        <title>Gustav und seine Brüder (1796-1797)</title>
+                        <author>Bouterwek, Friedrich (1766–1828)</author>
+                        <title>Gustav und seine Brüder (2 Bde., Halle: Rengersche Buchhandlung
+                        1796–1797)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -154,7 +169,7 @@
                ewigen (z. B. wenn Schiller förmliche<note corresp="#II_329-31">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003737">
-                        <persName> Friedrich (ab 1802) von <name type="reg">Schiller</name>
+                        <persName>Friedrich (ab 1802) von <name type="reg">Schiller</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -167,11 +182,12 @@
                   des<note corresp="#II_329-34">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001328">
-                        <persName> Johann Wilhelm Ludwig <name type="reg">Gleim</name>
+                        <persName>Johann Wilhelm Ludwig <name type="reg">Gleim</name>
                         </persName>
                      </person>
                      <person corresp="#JP-002538">
-                        <persName> Buchhandlung in Bayreuth <name type="reg">Lübeckische</name>
+                        <persName>
+                           <name type="reg">Lübeckische Buchhandlung in Bayreuth</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -195,7 +211,7 @@
             <p>Sage deiner geliebten Friederike den Dank eines Herzens für ihren<note corresp="#II_330-6">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003036">
-                        <persName> Friederike Sophie von <name type="reg">Oertel</name>
+                        <persName>Friederike Sophie von <name type="reg">Oertel</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -205,7 +221,7 @@
                Der Buchhändler <hi rendition="#aq">Hennings</hi> hatte<note corresp="#II_330-8">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001657">
-                        <persName> Johann Wilhelm Christoph <name type="reg">Hennings</name>
+                        <persName>Wilhelm <name type="reg">Hennings</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -228,7 +244,7 @@
             <p>Beigangs Vignette ist eben nicht übel: mache, daß er mir meine<note corresp="#II_330-11">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000355">
-                        <persName> Johann Gottlob <name type="reg">Beygang</name>
+                        <persName>Johann Gottlob <name type="reg">Beygang</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -242,13 +258,13 @@
                   fürs<note corresp="#II_330-12">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000354">
-                        <persName> Johann Gottlob <name type="reg">Beygang</name>
+                        <persName>Johann Gottlob <name type="reg">Beygang</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0059487">
-                        <placeName>Bibliothek, Museum (Lesekabinett); Leipzig</placeName>
+                     <place corresp="#JP-011523">
+                        <placeName>Bibliothek, Museum (Lesekabinett)</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -256,7 +272,7 @@
                   Pfenninger<note corresp="#II_330-13">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003205">
-                        <persName> Heinrich <name type="reg">Pfenninger</name>
+                        <persName>Heinrich <name type="reg">Pfenninger</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -275,7 +291,7 @@
                   ohne<note corresp="#II_330-16">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000931" rend="[erg. MMM]">
-                        <persName> Catharina Margaretha <name type="reg">Ellrodt </name>
+                        <persName>Catharina Margaretha <name type="reg">Ellrodt</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -285,7 +301,7 @@
                Herzensangst, die<note corresp="#II_330-18">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000934">
-                        <persName> Friedrich Adam <name type="reg">Ellrodt </name>
+                        <persName>Friedrich Adam <name type="reg">Ellrodt</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -297,32 +313,34 @@
                   sentimental<metamark>[</metamark>ischen<metamark>]</metamark> Auf<note corresp="#II_330-21">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001479">
-                        <persName> Friedrich Wilhelm <name type="reg">Hagen</name>
+                        <persName>Friedrich Wilhelm <name type="reg">Hagen</name>
                         </persName>
                      </person>
                   </listPerson>
                   <listPlace type="lineReference">
-                     <place corresp="#JP-005722">
+                     <place corresp="#JP-005721">
                         <placeName>Erlangen </placeName>
                      </place>
                   </listPlace>
                </note>
                <lb xml:id="II_330-21" rendition="#hyphen"/>säze. — Von Fichte bekomm’ ich leider
                nichts zu sehen. —<note corresp="#II_330-22">
-               <listPerson type="lineReference">
-                  <person corresp="#JP-001073" ana="†">
-                     <persName> Johann Gottlieb <name type="reg">Fichte</name>
-                     </persName>
-                  </person>
-               </listPerson>
-            </note><lb xml:id="II_330-22"/></p>
+                  <listPerson type="lineReference">
+                     <person corresp="#JP-001073" ana="†">
+                        <persName>Johann Gottlieb <name type="reg">Fichte</name>
+                        </persName>
+                     </person>
+                  </listPerson>
+               </note>
+               <lb xml:id="II_330-22"/>
+            </p>
             <p>Meine Abwesenheit theilt mir viele epistolarische und andere Ge<lb xml:id="II_330-23" rendition="#hyphen"/>schäfte zu: nim also die Leerheit dieser Blätter nicht
                übel.</p>
             <lb xml:id="II_330-24"/>
             <p>Ich wünschte, du bekämest meinen Verleger Matzdorf zu sehen und<note corresp="#II_330-25">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002678" ana="†">
-                        <persName> Carl August <name type="reg">Matzdorff </name>
+                        <persName>Carl <name type="reg">Matzdorff</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -346,7 +364,7 @@
                <p>Amöne schikt ihrem vorigen Briefe noch einen herzlichen Grus<note corresp="#II_330-35">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003108">
-                           <persName> Amöne (Pseud. Amalie von Obyrn) <name type="reg">Otto</name>
+                           <persName>Amöne <name type="reg">Otto</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -360,15 +378,20 @@
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Berlin JP. 5½ S. 8°. <hi rendition="#i">K</hi> (nach
                   Nr. 597):</hi> Oertel 10 Mai. <hi rendition="#aq">
-                  <hi rendition="#i">J</hi>: Denkw.<lb/>1,353×. <hi rendition="#i">B</hi>: IV. Abt.,
-                  II, Nr. 192. <hi rendition="#i">A</hi>: IV. Abt., II, Nr. 197. <hi rendition="#b">329</hi>, <hi rendition="#rkd">18</hi>
+                  <hi rendition="#i">J</hi>: Denkw.<lb/>1,353×. <hi rendition="#i">B</hi>: IV. Abt., 2, Nr. 192. <hi rendition="#i">A</hi>: IV. Abt., 2, Nr. 197. <hi rendition="#b">329</hi>, <hi rendition="#rkd">18</hi>
                </hi>10]<hi rendition="#aq"> aus </hi>24<hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">22</hi> Zirkeln]<lb/>
                <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">330</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">4</hi></hi> weil] da <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">330</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">4</hi>
+               </hi> weil] da <hi rendition="#aq">
                   <hi rendition="#i">K</hi>
                </hi>
                <hi rendition="#rkd">28</hi> Schlüssel] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
@@ -385,7 +408,13 @@
             </p>
             <lb/>
             <p>
-               <hi rendition="#b"><hi rendition="#aq">329</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">26</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">329</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">26</hi>
+               </hi>
                <hi rendition="#aq">Vgl. <hi rendition="#i">B</hi>: „<hi rendition="#g">Bouterweck</hi> war neulich hier und hat sich mit niedri<lb rendition="#hyphen"/>gem Neid über dich gegen Beygang geäußert. Ich zweifle nun
                   nicht mehr,<lb/>daß er absichtlich in jenem Roman, wovon ich dir erzählte in Hof,
                   einem<lb/>humoristischen Narren deinen Namen gegeben. Ich kann dirs

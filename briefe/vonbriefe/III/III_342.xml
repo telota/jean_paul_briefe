@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="346">342. An Knebel in Ilmenau. </title>
-            <title n="digital">Von Jean Paul an Karl Ludwig von Knebel. Weimar, 10. November 1799.</title>
+            <title n="print" type="letter" rend="342">342. An Knebel in Ilmenau. </title>
+            <title n="digital">Von Jean Paul an Karl Ludwig von Knebel. Weimar, 10. November 1799, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
+               <title n="III">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 3. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1959.</title>
                <biblScope n="text" unit="page">
                   <num>249</num>
                </biblScope>
@@ -77,22 +77,36 @@
             </msDesc>
             <listPerson type="commentary">
                <person corresp="#JP-001205">
-                  <persName>
-                     <name type="reg">Fritsch</name>
+                  <persName>Herr von <name type="reg">Fritsch</name>
                   </persName>
                </person>
             </listPerson>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1799-11-10">10. November 1799</date>
                <placeName key="JP-006395">Weimar</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-002149">Karl Ludwig von Knebel</persName>
                <placeName key="JP-005858">Ilmenau</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="III_341"/><ptr type="next" subtype="brief" target="III_344"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="III_341"/><ptr type="next" subtype="brief" target="III_344"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="III_291"/><ptr type="next" subtype="brief" target="III_453a"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="III_341"/>
+               <ptr type="next" subtype="brief" target="III_344"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="III_341"/>
+               <ptr type="next" subtype="brief" target="III_344"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-III.2_253"/>
+               <ptr type="next" subtype="brief" target="III_453a"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -113,7 +127,7 @@
                </hi> lebt<note corresp="#III_249-9">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001675">
-                        <persName> Johann Gottfried von <name type="reg">Herder</name>
+                        <persName>Johann Gottfried von <name type="reg">Herder</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -133,12 +147,12 @@
                   gaben.<note corresp="#III_249-12">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008952" ana="†">
-                        <author>Knebel, Karl Ludwig von (1744-1834), Schriftsteller</author>
+                        <author>Knebel, Karl Ludwig von (1744–1834)</author>
                         <title>Die Stunden</title>
                      </bibl>
                      <bibl corresp="#JP-009596" ana="†">
-                        <author>Schiller, Friedrich (ab 1802) von (1759-1805)</author>
-                        <title>Musen-Almanach (Musenalmanach) (1796-1800)</title>
+                        <author>Schiller, Friedrich von (1759–1805)</author>
+                        <title>Musen-Almanach (1796–1800)</title>
                      </bibl>
                   </listBibl>
                </note>

@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="439">435. An Richard Spazier in Leipzig. </title>
-            <title n="digital">Von Jean Paul an Richard Otto Spazier. Ohne Ort, 4. Juni 1824.</title>
+            <title n="print" type="letter" rend="435">435. An Richard Spazier in Leipzig. </title>
+            <title n="digital">Von Jean Paul an Richard Otto Spazier. 4. Juni 1824, Freitag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>259</num>
                   <num>260</num>
@@ -78,13 +78,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1824-06-04">4. Juni 1824</date>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-004107">Richard Otto Spazier</persName>
                <placeName key="JP-005948">Leipzig</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0473"/><ptr type="next" subtype="brief" target="VIII_38-fb"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VIII_434"/><ptr type="next" subtype="brief" target="VIII_38-fb"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="umfeldbrief" target="JP-UB0473"/><ptr type="next" subtype="brief" target="VIII_441"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB0473"/>
+               <ptr type="next" subtype="brief" target="VIII_38-fb"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VIII_434"/>
+               <ptr type="next" subtype="brief" target="VIII_38-fb"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="umfeldbrief" target="JP-UB0473"/>
+               <ptr type="next" subtype="brief" target="VIII_441"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -99,7 +114,7 @@
             <note corresp="#VIII_259-30">
                <listPerson type="lineReference">
                   <person corresp="#JP-003471">
-                     <persName> Emma <name type="reg">Richter</name>
+                     <persName>Emma <name type="reg">Richter</name>
                      </persName>
                   </person>
                </listPerson>
@@ -114,7 +129,7 @@
             <p>Mögen Sie, lieber Richard, glücklich d. h. gesund angekommen sein!<lb xml:id="VIII_259-32"/>— Das fortdauernde Schweigen <hi rendition="#aq">Donauers</hi> setzt seine Abwesenheit<note corresp="#VIII_259-33">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000844">
-                        <persName> Christian Friedrich <name type="reg">Donauer</name>
+                        <persName>Christian Friedrich <name type="reg">Donauer</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -122,7 +137,7 @@
                <lb xml:id="VIII_259-33"/>voraus. Damit nun mein tauber <hi rendition="#aq">Tauber</hi> nicht ewig taubstumm bleibt,<note corresp="#VIII_259-34">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004243">
-                        <persName> Gottfried <name type="reg">Tauber</name>
+                        <persName>Gottfried <name type="reg">Tauber</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -135,7 +150,7 @@
                wohl! Ihr kräftiger Todes Feind sei gegrüßt.<note corresp="#VIII_260-5">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001686" ana="?">
-                        <persName> Constantin <name type="reg">Hering</name>
+                        <persName>Constantin <name type="reg">Hering</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -154,7 +169,13 @@
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Hof Stadtarchiv Hof; ehem. Städt. Museum, Hof i. V. 4
                   S. 8º (2½ S. von Emma, ½ von J. P.,<lb/>1 von Odilie).</hi>
-               <hi rendition="#b"><hi rendition="#aq">260</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">3</hi></hi> lindere] <hi rendition="#aq">davor gestr.</hi> bessere</p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">260</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">3</hi>
+               </hi> lindere] <hi rendition="#aq">davor gestr.</hi> bessere</p>
             <lb/>
             <p>
                <hi rendition="#aq">Richard Spazier war kurz vorher in Bayreuth gewesen. <hi rendition="#g">Tauber</hi>:<lb/>vgl. FB Nr. 38. <hi rendition="#b">260</hi>, <hi rendition="#rkd">5</hi>

@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="377">376. An Knebel in Jena. </title>
-            <title n="digital">Von Jean Paul an Karl Ludwig von Knebel. Bayreuth, 7. Juli 1807.</title>
+            <title n="print" type="letter" rend="376">376. An Knebel in Jena. </title>
+            <title n="digital">Von Jean Paul an Karl Ludwig von Knebel. Bayreuth, 7. Juli 1807, Dienstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
+               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
                <biblScope n="text" unit="page">
                   <num>155</num>
                </biblScope>
@@ -77,21 +77,36 @@
             </msDesc>
             <listPerson type="commentary">
                <person corresp="#JP-001085">
-                  <persName> Johann <name type="reg">Fischart</name>
+                  <persName>Johann <name type="reg">Fischart</name>
                   </persName>
                </person>
             </listPerson>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1807-07-07">7. Juli 1807</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-002149">Karl Ludwig von Knebel</persName>
                <placeName key="JP-005875">Jena</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="V_375"/><ptr type="next" subtype="umfeldbrief" target="JP-UB1057"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="V_375"/><ptr type="next" subtype="brief" target="V_378"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="V_305"/><ptr type="next" subtype="brief" target="VI_17"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="V_375"/>
+               <ptr type="next" subtype="anbrief" target="IV-V_AN_38"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="V_375"/>
+               <ptr type="next" subtype="brief" target="V_378"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-V_119"/>
+               <ptr type="next" subtype="anbrief" target="IV-V_AN_38"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -109,7 +124,7 @@
             <p>Ihre witzige und lebenslustige Nichte will haben, daß ich sogleich<note corresp="#V_155-9">
                   <listPerson type="lineReference">
                      <person corresp="#JP-002147" ana="†">
-                        <persName> Henriette von <name type="reg">Knebel</name>
+                        <persName>Henriette von <name type="reg">Knebel</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -134,7 +149,7 @@
                dürfte — und daß ich<note corresp="#V_155-14">
                   <listPlace type="lineReference">
                      <place corresp="#JP-005574">
-                        <placeName>Bayreuth (Stadt)</placeName>
+                        <placeName>Bayreuth </placeName>
                      </place>
                   </listPlace>
                </note>
@@ -156,7 +171,7 @@
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010313">
                         <author/>
-                        <title>Morgenblatt für gebildete Stände (1807ff.)</title>
+                        <title> Morgenblatt für gebildete Stände (1807 ff.)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -165,9 +180,8 @@
                Teufel nicht der Kreis-Direktor der<lb xml:id="V_155-19"/> deutschen Kreise wäre —
                und daß ich das noch wüßte, was ich Ihnen<note corresp="#V_155-20">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0056690">
-                        <placeName>Deutsche; Deutschland , deutsch , Germanien,
-                           Vaterland</placeName>
+                     <place corresp="#JP-011167">
+                        <placeName>Deutsche</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -176,7 +190,7 @@
                anfingen —<note corresp="#V_155-22">
                   <listPerson type="lineReference">
                      <person corresp="#JP-001353">
-                        <persName> Johann Wolfgang von <name type="reg">Goethe</name>
+                        <persName>Johann Wolfgang von <name type="reg">Goethe</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -210,13 +224,19 @@
                      </hi>
                   </hi>
                   <hi rendition="#aq">
-                     <add resp="#MB" status="unremarkable">gedruckt IV. Abt., V, Anhang Nr.
+                     <add resp="#MB" status="unremarkable">gedruckt IV. Abt., 5, Anhang Nr.
                         38.</add>
                   </hi>
-                  <hi rendition="#i">A</hi>: IV. Abt., V, Nr.</hi>
+                  <hi rendition="#i">A</hi>: IV. Abt., 5, Nr.</hi>
                <hi rendition="#aq">156.</hi>
                <lb/>
-               <hi rendition="#b"><hi rendition="#aq">155</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">15</hi></hi> zu ertragen] <hi rendition="#aq">aus</hi> passabel <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">155</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">15</hi>
+               </hi> zu ertragen] <hi rendition="#aq">aus</hi> passabel <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">16</hi> in<hi rendition="#sup">2</hi>] bei <hi rendition="#aq">

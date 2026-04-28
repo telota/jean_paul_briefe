@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="45">43. An Herder. </title>
-            <title n="digital">Von Jean Paul an Johann Gottfried von Herder. Berlin, 5. Dezember 1800.</title>
+            <title n="print" type="letter" rend="43">43. An Herder. </title>
+            <title n="digital">Von Jean Paul an Johann Gottfried Herder. Berlin, 5. Dezember 1800, Freitag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,11 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"/><biblScope n="comment" unit="page"/></bibl>
+            <bibl>
+               <title n="IV">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 4. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page"/>
+               <biblScope n="comment" unit="page"/>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -70,13 +74,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1800-12-05">5. Dezember 1800</date>
                <placeName key="JP-005586">Berlin</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-001675">Johann Gottfried (seit 1801) von Herder</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="IV_42"/><ptr type="next" subtype="brief" target="IV_44"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="IV_42"/><ptr type="next" subtype="brief" target="IV_44"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="IV_25"/><ptr type="next" subtype="brief" target="IV_147"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-001675">Johann Gottfried Herder</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-IV_55"/>
+               <ptr type="next" subtype="anbrief" target="IV-IV_56"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="IV_42"/>
+               <ptr type="next" subtype="brief" target="IV_44"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="IV_25"/>
+               <ptr type="next" subtype="brief" target="IV_147"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -93,7 +112,7 @@
             <p>Eben hab’ ich, verehrtester Freund, Ihren Torso wieder gelesen,<note corresp="#IV_26-27">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-008699">
-                        <author>Herder, Johann Gottfried (seit 1801) von (1744-1803)</author>
+                        <author>Herder, Johann Gottfried von (1744–1803)</author>
                         <title>Über Abbts Schriften (Torso) (1768)</title>
                      </bibl>
                   </listBibl>
@@ -111,8 +130,8 @@
                      </person>
                   </listPerson>
                   <listPlace type="lineReference">
-                     <place corresp="#JP-00558629">
-                        <placeName>Klubs, Kränzchen, Salons; Berlin</placeName>
+                     <place corresp="#JP-011110">
+                        <placeName>Klubs, Kränzchen, Salons</placeName>
                      </place>
                   </listPlace>
                </note>

@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="530">526. An Emanuel. </title>
+            <title n="print" type="letter" rend="526">526. An Emanuel. </title>
             <title n="digital">Von Jean Paul an Emanuel Osmund. Bayreuth, 31. Mai oder 1. Juni 1819.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
+               <title n="VII">Jean Pauls sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 7. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1954.</title>
                <biblScope n="text" unit="page">
                   <num>263</num>
                </biblScope>
@@ -77,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date notBefore="1819-05-31" notAfter="1819-01-06">31. Mai oder 1. Juni 1819</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003087">Emanuel Osmund</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VII_525"/><ptr type="next" subtype="brief" target="VII_40-fb"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VII_525"/><ptr type="next" subtype="brief" target="VII_40-fb"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VII_520"/><ptr type="next" subtype="brief" target="VII_547"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-VII_180"/>
+               <ptr type="next" subtype="anbrief" target="IV-VII_AN_11"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VII_525"/>
+               <ptr type="next" subtype="brief" target="VII_40-fb"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VII_520"/>
+               <ptr type="next" subtype="brief" target="VII_547"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -100,11 +115,11 @@
             <p>Guten Morgen, lieber <hi rendition="#aq">Emanuel!</hi> Warum mußt’ ich denn gerade<lb xml:id="VII_263-27"/> eine ⅛ Stunde vor Ihrer Ankunft aus Unglauben in die <hi rendition="#aq">Harmonie</hi>
                <note corresp="#VII_263-28">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0055741">
-                        <placeName>Harmonie-Gesellschaft; Bayreuth (Stadt)</placeName>
+                     <place corresp="#JP-011035">
+                        <placeName>Harmonie-Gesellschaft</placeName>
                      </place>
-                     <place corresp="#JP-00557443">
-                        <placeName>Rollwenzelei; Bayreuth (Stadt)</placeName>
+                     <place corresp="#JP-011072">
+                        <placeName>Rollwenzelei</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -113,7 +128,7 @@
                Alter von 24<note corresp="#VII_263-30">
                   <listPerson type="lineReference">
                      <person corresp="#JP-003086">
-                        <persName> Benno Benedikt <name type="reg">Osmund</name>
+                        <persName>Benno Benedikt <name type="reg">Osmund</name>
                         </persName>
                      </person>
                   </listPerson>

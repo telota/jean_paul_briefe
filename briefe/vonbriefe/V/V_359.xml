@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="360">359. An Emanuel. </title>
-            <title n="digital">Von Jean Paul an Emanuel. Bayreuth, 19. Mai 1807.</title>
+            <title n="print" type="letter" rend="359">359. An Emanuel. </title>
+            <title n="digital">Von Jean Paul an Emanuel. Bayreuth, 19. Mai 1807, Dienstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
+               <title n="V">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 5. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1961.</title>
                <biblScope n="text" unit="page">
                   <num>150</num>
                </biblScope>
@@ -77,13 +77,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1807-05-19">19. Mai 1807</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-003087">Emanuel Osmund</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="V_54-fb"/><ptr type="next" subtype="brief" target="V_360"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="V_54-fb"/><ptr type="next" subtype="brief" target="V_360"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="V_356"/><ptr type="next" subtype="brief" target="V_360"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-000941">Emanuel</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-V_AN_37"/>
+               <ptr type="next" subtype="brief" target="V_360"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="V_54-fb"/>
+               <ptr type="next" subtype="brief" target="V_360"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="V_356"/>
+               <ptr type="next" subtype="brief" target="V_360"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -105,15 +120,15 @@
                   gestern<note corresp="#V_150-20">
                   <listPerson type="lineReference">
                      <person corresp="#JP-000819">
-                        <persName> Friedrich Ludwig Ferdinand von <name type="reg">Dobeneck</name>
+                        <persName>Friedrich von <name type="reg">Dobeneck</name>
                         </persName>
                      </person>
                      <person corresp="#JP-003469">
-                        <persName> Caroline <name type="reg">Richter</name>
+                        <persName>Caroline <name type="reg">Richter</name>
                         </persName>
                      </person>
                      <person corresp="#JP-004275">
-                        <persName> Paul Emile <name type="reg">Thieriot</name>
+                        <persName>Paul Emile <name type="reg">Thieriot</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -122,7 +137,7 @@
                   <hi rendition="#aq">Schuck<note corresp="#V_150-21">
                      <listPerson type="lineReference">
                         <person corresp="#JP-003878" ana="†">
-                           <persName> Caspar Friedrich Freiherr von <name type="reg">Schuckmann</name>
+                           <persName>Kaspar Friedrich Freiherr von <name type="reg">Schuckmann</name>
                            </persName>
                         </person>
                      </listPerson>
@@ -130,9 +145,8 @@
                   <lb xml:id="V_150-21" rendition="#hyphen"/>man</hi> wurde gestern nachts als
                französischer Gefangner abgeführt. —<note corresp="#V_150-22">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-0057470">
-                        <placeName>(Gallier, Neufranken); Frankreich, Franzosen,
-                           französisch</placeName>
+                     <place corresp="#JP-011327">
+                        <placeName>(Gallier, Neufranken)</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -147,7 +161,13 @@
             </p>
             <lb/>
             <p>
-               <hi rendition="#b"><hi rendition="#aq">150</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">20</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">150</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">20</hi>
+               </hi>
                <hi rendition="#aq">
                   <hi rendition="#g">Dobernek:</hi> richtig Dobeneck, s. Nr. 430†. <hi rendition="#rkd">21</hi>f. <hi rendition="#g">Schuckmann</hi>
                   <lb/> war am 10. Mai 1807 verhaftet worden und wurde nach Mainz abgeführt.</hi>

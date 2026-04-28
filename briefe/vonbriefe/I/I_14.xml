@@ -3,7 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title n="print" type="letter" rend="14">14. An Pfarrer Vogel in Rehau. </title>
-            <title n="digital">Von Jean Paul an Erhard Friedrich Vogel. Leipzig, 9. Oktober 1781. </title>
+            <title n="digital">Von Jean Paul an Erhard Friedrich Vogel. Leipzig, 9. Oktober 1781, Dienstag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="I">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
+               <title n="I">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
                <biblScope n="text" unit="page">
                   <num>21</num>
                   <num>22</num>
@@ -79,15 +79,30 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1781-10-09">9. Oktober 1781</date>
                <placeName key="JP-005948">Leipzig</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-004474">Erhard Friedrich Vogel</persName>
                <placeName key="JP-006182">Rehau,
                   Oberfranken</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="I_13"/><ptr type="next" subtype="brief" target="I_17"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="I_13"/><ptr type="next" subtype="brief" target="I_17"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="I_13"/><ptr type="next" subtype="brief" target="I_17"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-I_4"/>
+               <ptr type="next" subtype="brief" target="I_17"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="I_13"/>
+               <ptr type="next" subtype="brief" target="I_17"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-I_4"/>
+               <ptr type="next" subtype="brief" target="I_17"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -114,9 +129,8 @@
                seinen Annalen. Zu <note corresp="#I_21-25">
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-009120">
-                        <author>Linguet, Simon Nicolas Henri (1736-1794), französischer
-                           Publizist</author>
-                        <title>Annales (1777-1792)</title>
+                        <author>Linguet, Simon Nicolas Henri (1736–1794)</author>
+                        <title>Annales (1777–1792)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -129,12 +143,14 @@
                   </listPlace>
                </note>
                <lb xml:id="I_21-26"/>römischen Buchstaben:<note corresp="#I_21-27">
-               <listPlace type="lineReference">
-                  <place corresp="#JP-006205">
-                     <placeName>Rom, römisch</placeName>
-                  </place>
-               </listPlace>
-            </note><lb xml:id="I_21-27"/></p>
+                  <listPlace type="lineReference">
+                     <place corresp="#JP-006205">
+                        <placeName>Rom, römisch</placeName>
+                     </place>
+                  </listPlace>
+               </note>
+               <lb xml:id="I_21-27"/>
+            </p>
             <cit>
                <quote>
                   <hi rendition="#c">
@@ -157,8 +173,8 @@
                Gelerte zu <lb n="5" xml:id="I_22-5"/> zeigen; allein man erriet den Sin nicht. Ein
                Küster von Montmarre <note corresp="#I_22-6">
                   <listPlace type="lineReference">
-                     <place corresp="#JP-00612211" ana="?">
-                        <placeName>Montmartre; Paris</placeName>
+                     <place corresp="#JP-011590" ana="?">
+                        <placeName>Montmartre</placeName>
                      </place>
                   </listPlace>
                </note>
@@ -183,7 +199,7 @@
                   <listPerson type="lineReference">
                      <person corresp="#JP-004241">
                         <persName>
-                           <name type="reg">Tataren </name>
+                           <name type="reg">Tataren</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -205,7 +221,7 @@
                Sie mir <note corresp="#I_22-23">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004493">
-                        <persName> Sophie Albertine <name type="reg">Vogel</name>
+                        <persName>Sophie Albertine <name type="reg">Vogel</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -243,7 +259,13 @@
                <lb/>wenn sie nicht iede Erwartung vielfach überträfen. <hi rendition="#aq">
                   <hi rendition="#i">K</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">21</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">16</hi></hi> Ihren Brief] Ihre <lb/>Antwort <hi rendition="#aq">[gestr.</hi> auf meinen
+               <hi rendition="#b">
+                  <hi rendition="#aq">21</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">16</hi>
+               </hi> Ihren Brief] Ihre <lb/>Antwort <hi rendition="#aq">[gestr.</hi> auf meinen
                lezten Brief] <hi rendition="#aq">
                   <hi rendition="#i">K</hi>
                </hi>
@@ -251,7 +273,13 @@
                <lb/>die Bibliotek des verst. Hommels. <hi rendition="#aq">
                   <hi rendition="#i">K</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">22</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">5</hi></hi> um <hi rendition="#aq">bis</hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">22</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">5</hi>
+               </hi> um <hi rendition="#aq">bis</hi>
                <hi rendition="#rkd">6</hi> zeigen] <hi rendition="#aq">aus</hi> die sich von
                <lb/>Kleinigkeiten nären <hi rendition="#aq">
                   <hi rendition="#i">K</hi>

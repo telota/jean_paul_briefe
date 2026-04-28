@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="478">*474. An Joseph Max in Breslau. </title>
-            <title n="digital">Von Jean Paul an Joseph Max. Bayreuth, 25. Februar 1825.</title>
+            <title n="print" type="letter" rend="474">*474. An Joseph Max in Breslau. </title>
+            <title n="digital">Von Jean Paul an Joseph Max. Bayreuth, 25. Februar 1825, Freitag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
+               <title n="VIII">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 8. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1955.</title>
                <biblScope n="text" unit="page">
                   <num>278</num>
                   <num>279</num>
@@ -79,14 +79,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date when="1825-02-25">25. Februar 1825</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-002693">Joseph Max</persName>
                <placeName key="JP-005622">Breslau</placeName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="umfeldbrief" target="JP-UB1390"/><ptr type="next" subtype="brief" target="VIII_475"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VIII_472"/><ptr type="next" subtype="brief" target="VIII_475"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VIII_465"/><ptr type="next" subtype="brief" target="VIII_482"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="anbrief" target="IV-VIII_AN_19"/>
+               <ptr type="next" subtype="brief" target="VIII_475"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VIII_472"/>
+               <ptr type="next" subtype="brief" target="VIII_475"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="anbrief" target="IV-VIII_321"/>
+               <ptr type="next" subtype="anbrief" target="IV-VIII_327"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -130,12 +145,14 @@
                   </listBibl>
                </note>
                <lb xml:id="VIII_279-2"/>meiner Rezensionen sein. —<note corresp="#VIII_279-3">
-               <listBibl type="lineReference" subtype="werke-jp">
-                  <bibl corresp="#JP-010859">
-                     <title>Rezensionen</title>
-                  </bibl>
-               </listBibl>
-            </note><lb xml:id="VIII_279-3"/></p>
+                  <listBibl type="lineReference" subtype="werke-jp">
+                     <bibl corresp="#JP-010859">
+                        <title>Rezensionen</title>
+                     </bibl>
+                  </listBibl>
+               </note>
+               <lb xml:id="VIII_279-3"/>
+            </p>
             <p>— Und so leben Sie denn recht wohl!<lb xml:id="VIII_279-4"/>
             </p>
          </div>
@@ -147,10 +164,15 @@
                   <hi rendition="#i">J</hi>
                   <hi rendition="#sup">1</hi>: Breslauer Zeitung Nr. 12×.<lb/>
                   <hi rendition="#i">J</hi>
-                  <hi rendition="#sup">2</hi>: Funck S. 189. <hi rendition="#i">B</hi>: IV. Abt.,
-                  VIII, Nr. 321. <hi rendition="#i">A</hi>: IV. Abt., VIII, Nr.</hi>
+                  <hi rendition="#sup">2</hi>: Funck S. 189. <hi rendition="#i">B</hi>: IV. Abt., 8, Nr. 321. <hi rendition="#i">A</hi>: IV. Abt., 8, Nr.</hi>
                <hi rendition="#aq">327. </hi>
-               <hi rendition="#b"><hi rendition="#aq">279</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">1</hi></hi> weitläufig <hi rendition="#aq">
+               <hi rendition="#b">
+                  <hi rendition="#aq">279</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">1</hi>
+               </hi> weitläufig <hi rendition="#aq">
                   <hi rendition="#i">J</hi>
                </hi>
                <hi rendition="#sup">2</hi>

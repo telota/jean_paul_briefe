@@ -2,8 +2,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" type="letter" rend="480">479. An Otto. </title>
-            <title n="digital">Von Jean Paul an Christian Otto. Bayreuth, Mitte April 1811.</title>
+            <title n="print" type="letter" rend="479">479. An Otto. </title>
+            <title n="digital">Von Jean Paul an Georg Christian Otto. Bayreuth, Mitte April 1811.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -59,8 +60,15 @@
                Übernahme des Werkes aus dem DTA entsprechen muss.</note>
          </notesStmt>
          <sourceDesc>
-            <bibl><title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title><biblScope n="text" unit="page"><num>189</num></biblScope><biblScope n="comment" unit="page"><num>508</num></biblScope></bibl>
+            <bibl>
+               <title n="VI">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 6. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1952.</title>
+               <biblScope n="text" unit="page">
+                  <num>189</num>
+               </biblScope>
+               <biblScope n="comment" unit="page">
+                  <num>508</num>
+               </biblScope>
+            </bibl>
             <msDesc>
                <msIdentifier>
                   <collection>Auswahl der Briefe nach Eduard Berend.</collection>
@@ -69,14 +77,29 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
                <date cert="medium" notBefore="1811-04-11" notAfter="1811-04-20">Mitte April
                   1811</date>
                <placeName key="JP-005574">Bayreuth</placeName>
-            </correspAction><correspAction type="received">
+            </correspAction>
+            <correspAction type="received">
                <persName key="JP-003112">Georg Christian Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="VI_477"/><ptr type="next" subtype="umfeldbrief" target="JP-UB1096"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="VI_477"/><ptr type="next" subtype="brief" target="VI_476"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="VI_475"/><ptr type="next" subtype="brief" target="VI_476"/></correspContext></correspDesc>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="VI_477"/>
+               <ptr type="next" subtype="umfeldbrief" target="JP-UB1096"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="VI_477"/>
+               <ptr type="next" subtype="brief" target="VI_476"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="VI_475"/>
+               <ptr type="next" subtype="brief" target="VI_476"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -94,7 +117,7 @@
                <note corresp="#VI_189-14">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004569">
-                        <persName> Lorenz Heinrich <name type="reg">Wagner</name>
+                        <persName>Lorenz Heinrich <name type="reg">Wagner</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -102,7 +125,7 @@
                <lb xml:id="VI_189-14"/> zögert lange mit seinen. — Den Brief von der <hi rendition="#aq">Wolffin</hi> hast du<note corresp="#VI_189-15">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004796">
-                        <persName> Natalie <name type="reg">Wolffin</name>
+                        <persName>Natalie (Pseud.) <name type="reg">Wolffin</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -112,7 +135,7 @@
                   <listBibl type="lineReference" subtype="werke">
                      <bibl corresp="#JP-010179">
                         <author/>
-                        <title>Almanach aus Rom für Künstler (1810)</title>
+                        <title> Almanach aus Rom für Künstler (1810)</title>
                      </bibl>
                   </listBibl>
                </note>
@@ -120,7 +143,7 @@
                leider kein Geld annimmt und<note corresp="#VI_189-17">
                   <listPerson type="lineReference">
                      <person corresp="#JP-004569">
-                        <persName> Lorenz Heinrich <name type="reg">Wagner</name>
+                        <persName>Lorenz Heinrich <name type="reg">Wagner</name>
                         </persName>
                      </person>
                   </listPerson>
@@ -132,7 +155,13 @@
             <p>
                <hi rendition="#aq">
                   <hi rendition="#i">H</hi>: Berlin JP.</hi>
-               <hi rendition="#b"><hi rendition="#aq">189</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">17</hi></hi> schenkt</p>
+               <hi rendition="#b">
+                  <hi rendition="#aq">189</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">17</hi>
+               </hi> schenkt</p>
             <lb/>
             <p>
                <hi rendition="#aq">

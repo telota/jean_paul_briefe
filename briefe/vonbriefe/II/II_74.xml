@@ -3,7 +3,7 @@
       <fileDesc>
          <titleStmt>
             <title n="print" type="letter" rend="74">74. An Amöne Herold. </title>
-            <title n="digital">Von Jean Paul an Amöne Otto. Hof, 15. März 1795.</title>
+            <title n="digital">Von Jean Paul an Amöne Herold. Hof, 15. März 1795, Sonntag.</title>
             <editor>
                <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
                   <surname>Berend</surname>
@@ -45,7 +45,8 @@
                   <country>Germany</country>
                </address>
             </publisher>
-            <pubPlace>Berlin</pubPlace><date>2018ff.</date>
+            <pubPlace>Berlin</pubPlace>
+            <date>2018ff.</date>
             <availability>
                <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
                   <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
@@ -60,8 +61,7 @@
          </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
+               <title n="II">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. III. Abteilung, Band 2. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1958.</title>
                <biblScope n="text" unit="page">
                   <num>57</num>
                   <num>58</num>
@@ -79,13 +79,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <correspDesc><correspAction type="sent">
-               <persName key="JP-999999">Johann Paul Friedrich (Pseud. Jean Paul) Richter</persName>
-               <date when="1795-03-15">15. März 95</date>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="JP-999999">Johann Paul Friedrich Richter</persName>
+               <date when="1795-03-15">15. März 1795</date>
                <placeName key="JP-005841">Hof</placeName>
-            </correspAction><correspAction type="received">
-               <persName key="JP-003108">Amöne Otto</persName>
-            </correspAction><correspContext n="edition"><ptr type="prev" subtype="brief" target="II_73"/><ptr type="next" subtype="umfeldbrief" target="JP-UB1400"/></correspContext><correspContext n="corpus"><ptr type="prev" subtype="brief" target="II_73"/><ptr type="next" subtype="brief" target="II_75"/></correspContext><correspContext n="correspondence"><ptr type="prev" subtype="brief" target="II_80a"/><ptr type="next" subtype="brief" target="II_81"/></correspContext></correspDesc>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="JP-010991">Amöne Herold</persName>
+            </correspAction>
+            <correspContext n="edition">
+               <ptr type="prev" subtype="brief" target="II_73"/>
+               <ptr type="next" subtype="anbrief" target="IV-II_28"/>
+            </correspContext>
+            <correspContext n="corpus">
+               <ptr type="prev" subtype="brief" target="II_73"/>
+               <ptr type="next" subtype="brief" target="II_75"/>
+            </correspContext>
+            <correspContext n="correspondence">
+               <ptr type="prev" subtype="brief" target="II_80a"/>
+               <ptr type="next" subtype="brief" target="II_81"/>
+            </correspContext>
+         </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
@@ -174,13 +189,19 @@
          <div type="comment">
             <p>
                <hi rendition="#aq">
-                  <hi rendition="#i">H</hi>: Kunst- u. Altertümersammlung der Veste Coburg. 4 S. 4°.
+                  <hi rendition="#i">H</hi>: Kunstsammlungen der Veste Coburg, Sign. Inv.-Nr. A.IV,699,(1),8II4. – 4 S. 4°.
                      <hi rendition="#i">K</hi> (nachtr. nach Nr. 142)</hi>: Amöne d. 15 März 95.<lb/>
                <hi rendition="#aq">
                   <hi rendition="#i">J</hi>
                   <hi rendition="#sup">1</hi>: Morgenblatt, 18. Juli 1829, Nr. 171×. <hi rendition="#i">J</hi>
                   <hi rendition="#sup">2</hi>: Otto</hi>
-               <hi rendition="#aq">4,225 </hi>×. <hi rendition="#b"><hi rendition="#aq">58</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">6</hi></hi>
+               <hi rendition="#aq">4,225 </hi>×. <hi rendition="#b">
+                  <hi rendition="#aq">58</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">6</hi>
+               </hi>
                <hi rendition="#g">Ihre</hi>
                <lb/>Meinung] <hi rendition="#aq">aus</hi>
                <hi rendition="#g">Ihr</hi> Bewu[stsein] <hi rendition="#aq">
@@ -207,7 +228,13 @@
                   <hi rendition="#aq">
                   <hi rendition="#i">H</hi>
                </hi>
-               <hi rendition="#b"><hi rendition="#aq">59</hi></hi><hi rendition="#aq">,</hi><hi rendition="#rkd"><hi rendition="#aq">2</hi></hi>
+               <hi rendition="#b">
+                  <hi rendition="#aq">59</hi>
+               </hi>
+               <hi rendition="#aq">,</hi>
+               <hi rendition="#rkd">
+                  <hi rendition="#aq">2</hi>
+               </hi>
                <lb/>dennoch] <hi rendition="#aq">nachtr. <hi rendition="#i">H</hi>
                </hi>
                <hi rendition="#rkd">3</hi> Gegner] Feind <hi rendition="#aq">
