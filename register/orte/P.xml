@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="jp-umfeldbriefe_ortsregister" xml:id="orte_a">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" telota:doctype="jp-umfeldbriefe_ortsregister" xml:id="orte_a">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -7,9 +7,9 @@
          <publicationStmt>
             <p>Von JP-006117 bis JP-006170.</p>
          </publicationStmt>
-            <sourceDesc>
-                <p>Information</p>
-            </sourceDesc>
+         <sourceDesc>
+            <p>Information</p>
+         </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
@@ -21,8 +21,8 @@
                <linkGrp type="mention">
                   <linkGrp type="abt4">
                      <linkGrp n="I">
-                        <ptr type="letter" target="180-16"/>
-                        <ptr type="letter" target="190-3"/>
+                        <ptr type="letter" target="180-16" corresp="IV-I_100"/>
+                        <ptr type="letter" target="190-3" corresp="IV-I_101"/>
                      </linkGrp>
                   </linkGrp>
                </linkGrp>
@@ -38,7 +38,7 @@
                   </linkGrp>
                   <linkGrp type="abt4">
                      <linkGrp n="VII">
-                        <ptr type="letter" target="260-4"/>
+                        <ptr type="letter" target="260-4" corresp="IV-VII_158"/>
                      </linkGrp>
                   </linkGrp>
                </linkGrp>
@@ -48,18 +48,27 @@
                <placeName type="reg">Pakomierzitz</placeName>
                <placeName type="alt">Pakomierschitz</placeName>
                <placeName type="alt">Pakoměřice</placeName>
-               <linkGrp type="mention"><linkGrp type="context"><ptr type="letter" corresp="1815/1815-02-06_CGoldschmidt_RVarnhagen" target="JP-UB2091"/></linkGrp><linkGrp type="context"><ptr type="letter" corresp="1815/1815-02-06_CGoldschmidt_RVarnhagen" target="JP-UB2091"/></linkGrp></linkGrp>
+               <linkGrp type="mention">
+                  <linkGrp type="context">
+                     <ptr type="letter" corresp="1815/1815-02-06_CGoldschmidt_RVarnhagen" target="JP-UB2091"/>
+                  </linkGrp>
+               </linkGrp>
             </place>
             <place xml:id="JP-006119">
                <placeName type="reg">Paktolus, goldführender Fluss in Lydien</placeName>
-               <linkGrp type="mention"><linkGrp type="abt3">
+               <linkGrp type="mention">
+                  <linkGrp type="abt3">
                      <linkGrp n="IV">
                         <ptr type="letter" target="202-29" corresp="IV_347"/>
                      </linkGrp>
                      <linkGrp n="VIII">
                         <ptr type="letter" target="171-3" corresp="VIII_280"/>
                      </linkGrp>
-                  </linkGrp><linkGrp type="context"><ptr type="letter" corresp="1803/1803-02-11_JP-CRichter_EOsmund" target="JP-UB0553"/></linkGrp><linkGrp type="context"><ptr type="letter" corresp="1803/1803-02-11_JP-CRichter_EOsmund" target="JP-UB0553"/></linkGrp></linkGrp>
+                  </linkGrp>
+                  <linkGrp type="context">
+                     <ptr type="letter" corresp="1803/1803-02-11_JP-CRichter_EOsmund" target="JP-UB0553"/>
+                  </linkGrp>
+               </linkGrp>
             </place>
             <place xml:id="JP-006120">
                <idno type="uri">https://www.geonames.org/6254930</idno>
@@ -100,7 +109,8 @@
             <place xml:id="JP-006122">
                <idno type="uri">http://www.geonames.org/2988507</idno>
                <placeName type="reg">Paris</placeName>
-               <linkGrp type="mention"><linkGrp type="abt3">
+               <linkGrp type="mention">
+                  <linkGrp type="abt3">
                      <linkGrp n="I">
                         <ptr type="letter" target="22-1" corresp="I_14"/>
                         <ptr type="letter" target="39-22" ana="†" corresp="I_20"/>
@@ -186,17 +196,18 @@
                      <linkGrp n="VIII">
                         <ptr type="comment" target="402-368" corresp="VIII_368"/>
                      </linkGrp>
-                  </linkGrp><linkGrp type="abt4">
+                  </linkGrp>
+                  <linkGrp type="abt4">
                      <linkGrp n="I">
-                        <ptr type="letter" target="130-13"/>
-                        <ptr type="letter" target="138-7"/>
+                        <ptr type="letter" target="130-13" corresp="IV-I_86"/>
+                        <ptr type="letter" target="138-7" corresp="IV-I_86"/>
                         <ptr type="letter" target="180-29" ana="†"/>
-                        <ptr type="letter" target="266-12"/>
+                        <ptr type="letter" target="266-12" corresp="IV-I_142"/>
                      </linkGrp>
                      <linkGrp n="II">
-                        <ptr type="letter" target="83-31" ana="†"/>
-                        <ptr type="letter" target="342-20"/>
-                        <ptr type="letter" target="361-7"/>
+                        <ptr type="letter" target="83-31" ana="†" corresp="IV-II_43"/>
+                        <ptr type="letter" target="342-20" corresp="IV-II_207"/>
+                        <ptr type="letter" target="361-7" corresp="IV-II_219"/>
                      </linkGrp>
                      <linkGrp n="III/1">
                         <ptr type="letter" target="192-9"/>
@@ -206,109 +217,242 @@
                         <ptr type="letter" target="389-15"/>
                      </linkGrp>
                      <linkGrp n="IV">
-                        <ptr type="letter" target="19-24" next="19-25"/>
-                        <ptr type="letter" target="208-12"/>
-                        <ptr type="letter" target="212-29"/>
-                        <ptr type="letter" target="289-34"/>
-                        <ptr type="letter" target="319-7"/>
-                        <ptr type="letter" target="321-28"/>
-                        <ptr type="letter" target="324-1"/>
-                        <ptr type="letter" target="327-11"/>
-                        <ptr type="letter" target="327-18"/>
-                        <ptr type="letter" target="327-20"/>
-                        <ptr type="letter" target="337-24" next="337-25"/>
-                        <ptr type="letter" target="340-23"/>
-                        <ptr type="letter" target="342-32"/>
-                        <ptr type="letter" target="343-1"/>
-                        <ptr type="letter" target="345-21" ana="ff"/>
-                        <ptr type="letter" target="352-9"/>
-                        <ptr type="letter" target="369-34"/>
-                        <ptr type="letter" target="429-20"/>
-                        <ptr type="letter" target="432-33" ana="ff"/>
-                        <ptr type="letter" target="451-21"/>
-                        <ptr type="letter" target="452-20"/>
-                        <ptr type="letter" target="453-6"/>
-                        <ptr type="letter" target="525-16"/>
-                        <ptr type="letter" target="528-21"/>
-                        <ptr type="letter" target="528-22"/>
+                        <ptr type="letter" target="19-24" next="19-25" corresp="IV-IV_10"/>
+                        <ptr type="letter" target="208-12" corresp="IV-IV_152"/>
+                        <ptr type="letter" target="212-29" corresp="IV-IV_155"/>
+                        <ptr type="letter" target="289-34" corresp="IV-IV_208"/>
+                        <ptr type="letter" target="319-7" corresp="IV-IV_231"/>
+                        <ptr type="letter" target="321-28" corresp="IV-IV_233"/>
+                        <ptr type="letter" target="324-1" corresp="IV-IV_236"/>
+                        <ptr type="letter" target="327-11" corresp="IV-IV_239"/>
+                        <ptr type="letter" target="327-18" corresp="IV-IV_239"/>
+                        <ptr type="letter" target="327-20" corresp="IV-IV_239"/>
+                        <ptr type="letter" target="337-24" next="337-25" corresp="IV-IV_246"/>
+                        <ptr type="letter" target="340-23" corresp="IV-IV_247"/>
+                        <ptr type="letter" target="342-32" corresp="IV-IV_248"/>
+                        <ptr type="letter" target="343-1" corresp="IV-IV_248"/>
+                        <ptr type="letter" target="345-21" ana="ff" corresp="IV-IV_250"/>
+                        <ptr type="letter" target="352-9" corresp="IV-IV_254"/>
+                        <ptr type="letter" target="369-34" corresp="IV-IV_269"/>
+                        <ptr type="letter" target="429-20" corresp="IV-IV_313"/>
+                        <ptr type="letter" target="432-33" ana="ff" corresp="IV-IV_316"/>
+                        <ptr type="letter" target="451-21" corresp="IV-IV_333"/>
+                        <ptr type="letter" target="452-20" corresp="IV-IV_333"/>
+                        <ptr type="letter" target="453-6" corresp="IV-IV_333"/>
+                        <ptr type="letter" target="525-16" corresp="IV-IV_AN_12"/>
+                        <ptr type="letter" target="528-21" corresp="IV-IV_AN_13"/>
+                        <ptr type="letter" target="528-22" corresp="IV-IV_AN_13"/>
                      </linkGrp>
                      <linkGrp n="V">
-                        <ptr type="letter" target="25-19"/>
-                        <ptr type="letter" target="58-4"/>
-                        <ptr type="letter" target="70-6"/>
-                        <ptr type="letter" target="70-11"/>
-                        <ptr type="letter" target="94-10"/>
-                        <ptr type="letter" target="250-23"/>
-                        <ptr type="letter" target="261-15"/>
-                        <ptr type="letter" target="293-5"/>
+                        <ptr type="letter" target="25-19" corresp="IV-V_19"/>
+                        <ptr type="letter" target="58-4" corresp="IV-V_43"/>
+                        <ptr type="letter" target="70-6" corresp="IV-V_50"/>
+                        <ptr type="letter" target="70-11" corresp="IV-V_50"/>
+                        <ptr type="letter" target="94-10" corresp="IV-V_74"/>
+                        <ptr type="letter" target="250-23" corresp="IV-V_181"/>
+                        <ptr type="letter" target="261-15" corresp="IV-V_190"/>
+                        <ptr type="letter" target="293-5" corresp="IV-V_AN_23"/>
                      </linkGrp>
                      <linkGrp n="VI">
-                        <ptr type="letter" target="63-15"/>
-                        <ptr type="letter" target="107-37"/>
-                        <ptr type="letter" target="133-8"/>
-                        <ptr type="letter" target="133-27"/>
-                        <ptr type="letter" target="214-24"/>
-                        <ptr type="letter" target="233-33"/>
-                        <ptr type="letter" target="244-37"/>
-                        <ptr type="letter" target="246-30"/>
-                        <ptr type="letter" target="284-11"/>
-                        <ptr type="letter" target="284-17"/>
-                        <ptr type="letter" target="303-32"/>
-                        <ptr type="letter" target="360-34"/>
-                        <ptr type="letter" target="367-15"/>
+                        <ptr type="letter" target="63-15" corresp="IV-VI_48"/>
+                        <ptr type="letter" target="107-37" corresp="IV-VI_82"/>
+                        <ptr type="letter" target="133-8" corresp="IV-VI_93"/>
+                        <ptr type="letter" target="133-27" corresp="IV-VI_93"/>
+                        <ptr type="letter" target="214-24" corresp="IV-VI_137"/>
+                        <ptr type="letter" target="233-33" corresp="IV-VI_148"/>
+                        <ptr type="letter" target="244-37" corresp="IV-VI_154"/>
+                        <ptr type="letter" target="246-30" corresp="IV-VI_155"/>
+                        <ptr type="letter" target="284-11" corresp="IV-VI_182"/>
+                        <ptr type="letter" target="284-17" corresp="IV-VI_182"/>
+                        <ptr type="letter" target="303-32" corresp="IV-VI_198"/>
+                        <ptr type="letter" target="360-34" corresp="IV-VI_239"/>
+                        <ptr type="letter" target="367-15" corresp="IV-VI_244"/>
                      </linkGrp>
                      <linkGrp n="VII">
-                        <ptr type="letter" target="83-22"/>
-                        <ptr type="letter" target="86-7"/>
-                        <ptr type="letter" target="87-17"/>
-                        <ptr type="comment" target="429-7"/>
+                        <ptr type="letter" target="83-22" corresp="IV-VII_58"/>
+                        <ptr type="letter" target="86-7" corresp="IV-VII_60"/>
+                        <ptr type="letter" target="87-17" corresp="IV-VII_60"/>
+                        <ptr type="comment" target="429-7" corresp="IV-VII_EB_7"/>
                      </linkGrp>
                      <linkGrp n="VIII">
-                        <ptr type="letter" target="117-4"/>
-                        <ptr type="letter" target="592-17"/>
-                        <ptr type="letter" target="592-18"/>
-                        <ptr type="letter" target="605-13"/>
-                        <ptr type="comment" target="619-38"/>
+                        <ptr type="letter" target="117-4" corresp="IV-VIII_57"/>
+                        <ptr type="letter" target="592-17" corresp="IV-VIII_AN_21"/>
+                        <ptr type="letter" target="592-18" corresp="IV-VIII_AN_21"/>
+                        <ptr type="letter" target="605-13" corresp="IV-VIII_AN_29"/>
+                        <ptr type="comment" target="619-38" corresp="IV-VIII_EB_38"/>
                      </linkGrp>
                      <linkGrp n="IX">
-                        <ptr type="letter" target="13-16"/>
+                        <ptr type="letter" target="13-16" corresp="IV-IX_1.27"/>
                      </linkGrp>
-                  </linkGrp><linkGrp type="context"><ptr type="letter" corresp="1801/1801-10-22_JP-CRichter_CHerder" target="JP-UB0185"/><ptr type="letter" corresp="1802/1802-03-06_PEThieriot_EOsmund" target="JP-UB1243"/><ptr type="letter" corresp="1802/1802-03-09_EOsmund_PEThieriot" target="JP-UB1244"/><ptr type="letter" corresp="1802/1802-03-13_PEThieriot_EOsmund" target="JP-UB1246"/><ptr type="letter" corresp="1802/1802-04-11_CRichter-JP-Thieriot_EOsmund" target="JP-UB0732"/><ptr type="letter" corresp="1802/1802-04-13_EOsmund_PEThieriot" target="JP-UB1248"/><ptr type="letter" corresp="1802/1802-04-30_PEThieriot-JP_EOsmund" target="JP-UB1249"/><ptr type="letter" corresp="1802/1802-05-04_EOsmund_PEThieriot" target="JP-UB1250"/><ptr type="letter" corresp="1802/1802-06-11_AOtto_PEThieriot" target="JP-UB1256"/><ptr type="letter" corresp="1802/1802-06-18_PEThieriot_EOsmund" target="JP-UB1440"/><ptr type="letter" corresp="1802/1802-06-27_EOsmund_PEThieriot" target="JP-UB1442"/><ptr type="letter" corresp="1802/1802-06-29_EOsmund_CGoldschmidt" target="JP-UB0398"/><ptr type="letter" corresp="1802/1802-08-17_EOsmund_PEThieriot" target="JP-UB1447"/><ptr type="letter" corresp="1802/1802-08-27_PEThieriot_EOsmund" target="JP-UB1448"/><ptr type="letter" corresp="1802/1802-09-11_PEThieriot_EOsmund" target="JP-UB1449"/><ptr type="letter" corresp="1802/1802-09-21_EOsmund_CGoldschmidt" target="JP-UB0573"/><ptr type="letter" corresp="1802/1802-09-22_EOsmund_PEThieriot" target="JP-UB1450"/><ptr type="letter" corresp="1802/1802-10-01_EOsmund_PEThieriot" target="JP-UB1451"/><ptr type="letter" corresp="1802/1802-12-09_EOsmund_PEThieriot" target="JP-UB1458"/><ptr type="letter" corresp="1803/1803-02-10_PEThieriot_EOsmund" target="JP-UB1263"/><ptr type="letter" corresp="1803/1803-02-17_PEThieriot_EOsmund" target="JP-UB1265"/><ptr type="letter" corresp="1803/1803-02-24_EOsmund_CGoldschmidt" target="JP-UB0327"/><ptr type="letter" corresp="1803/1803-02-27_EOsmund_PEThieriot" target="JP-UB1266"/><ptr type="letter" corresp="1803/1803-04-15_EOsmund_PEThieriot" target="JP-UB1464"/><ptr type="letter" corresp="1803/1803-04-19_PEThieriot_EOsmund" target="JP-UB1468"/><ptr type="letter" corresp="1803/1803-04-19_PEThieriot_FSchlichtegroll" target="JP-UB1469"/><ptr type="letter" corresp="1803/1803-04-26_EOsmund_PEThieriot" target="JP-UB1471"/><ptr type="letter" corresp="1803/1803-05-17_PEThieriot_EOsmund_b" target="JP-UB1475"/><ptr type="letter" corresp="1803/1803-05-28_EOsmund_PEThieriot" target="JP-UB1476"/><ptr type="letter" corresp="1803/1803-06-14_PEThieriot_EOsmund" target="JP-UB1477"/><ptr type="letter" corresp="1804/1804-05-28_EOsmund_PEThieriot" target="JP-UB1542"/><ptr type="letter" corresp="1804/1804-07-27_EOsmund_PEThieriot" target="JP-UB1556"/><ptr type="letter" corresp="1804/1804-11-09_PEThieriot_EOsmund" target="JP-UB1561"/><ptr type="letter" corresp="1805/1805-04-12_SAMahlmann_JDFalk" target="JP-UB0555"/><ptr type="letter" corresp="1806/1806-10-15_EOsmund_PEThieriot" target="JP-UB1738"/><ptr type="letter" corresp="1807/1807-09-18_SAMahlmann_FMatthisson" target="JP-UB2021"/><ptr type="letter" corresp="1808/1808-10-22_KAWangenheim_EOsmund" target="JP-UB1829"/><ptr type="letter" corresp="1809/1809-02-28_MSpazier_CABoettiger" target="JP-UB0071"/><ptr type="letter" corresp="1809/1809-04-08_MSpazier_FKind" target="JP-UB1072"/><ptr type="letter" corresp="1809/1809-08-17_EOsmund_CGoldschmidt" target="JP-UB1303"/><ptr type="letter" corresp="1810/1810-02-11_HSchwendler_FTAMueller" target="JP-UB0102"/><ptr type="letter" corresp="1811/1811-02-26_SAMahlmann_CRichter" target="JP-UB2043"/><ptr type="letter" corresp="1811/1811-10-31_JEWagner_FTAMueller" target="JP-UB1112"/><ptr type="letter" corresp="1814/1814-06-30_KAWangenheim_PEThieriot" target="JP-UB1931"/><ptr type="letter" corresp="1814/1814-12-18_HSchwendler_FTAMueller" target="JP-UB1123"/><ptr type="letter" corresp="1815/1815-01-17_CGoldschmidt_RVarnhagen" target="JP-UB2089"/><ptr type="letter" corresp="1815/1815-09-09_JSWMayer_CRichter" target="JP-UB0415"/><ptr type="letter" corresp="1817/1817-04-21_HVoss-Truchsess_Fouque" target="JP-UB0991"/><ptr type="letter" corresp="1817/1817-08-20_HvEnde_CRichter" target="JP-UB0249"/><ptr type="letter" corresp="1817/1817-09-04_ERichter_SPaulus" target="JP-UB0091"/><ptr type="letter" corresp="1818/1818-09-03_HvEnde_CRichter" target="JP-UB0359"/><ptr type="letter" corresp="1819/1819-09-11_CRichter_HVoss" target="JP-UB0738"/><ptr type="letter" corresp="1821/1821-02-10_HvEnde_CRichter" target="JP-UB0749"/><ptr type="letter" corresp="1821/1821-04-11_MRichter_CRichter" target="JP-UB1009"/><ptr type="letter" corresp="1821/1821-09-17_HvEnde_CRichter" target="JP-UB0675"/><ptr type="letter" corresp="1825/1825-08-03_FWJung_CRichter" target="JP-UB0752"/><ptr type="comment" corresp="1802/1802-05-24_JMThieriot_PEThieriot" target="JP-UB1425"/><ptr type="comment" corresp="1802/1802-06-27_EOsmund_PEThieriot" target="JP-UB1442"/><ptr type="comment" corresp="1802/1802-07-28_PEThieriot_EOsmund" target="JP-UB1445"/><ptr type="comment" corresp="1802/1802-10-01_EOsmund_PEThieriot" target="JP-UB1451"/><ptr type="comment" corresp="1803/1803-01-09_SAMahlmann_LTieck" target="JP-UB1031"/><ptr type="comment" corresp="1803/1803-02-27_EOsmund_PEThieriot" target="JP-UB1266"/><ptr type="comment" corresp="1803/1803-04-16_EOsmund_CGoldschmidt" target="JP-UB0358"/><ptr type="comment" corresp="1803/1803-06-24_EOsmund_CGoldschmidt" target="JP-UB0172"/><ptr type="comment" corresp="1803/1803-07-17_PEThieriot_EOsmund" target="JP-UB1483"/><ptr type="comment" corresp="1803/1803-10-01_KSpazier_JDFalk" target="JP-UB0181"/><ptr type="comment" corresp="1804/1804-08-19_SAMahlmann_JDFalk" target="JP-UB0581"/><ptr type="comment" corresp="1805/1805-02-17_OvManteuffel_PEThieriot" target="JP-UB1580"/><ptr type="comment" corresp="1807/1807-09-04_SAMahlmann_FMatthisson" target="JP-UB2020"/><ptr type="comment" corresp="1808/1808-03-04_JEWagner_FTAMueller" target="JP-UB0867"/><ptr type="comment" corresp="1809/1809-11-03_EOsmund_CGoldschmidt" target="JP-UB1305"/><ptr type="comment" corresp="1810/1810-03-19_EOsmund_CGoldschmidt" target="JP-UB1313"/><ptr type="comment" corresp="1810/1810-04-16_JEWagner_Truchsess" target="JP-UB0925"/><ptr type="comment" corresp="1811/1811-03-05_FHaug_JEWagner" target="JP-UB0951"/><ptr type="comment" corresp="1814/1814-06-25_JSWMayer_CRichter" target="JP-UB0166"/><ptr type="comment" corresp="1815/1815-01-14_HVoss_Fouque" target="JP-UB0392"/><ptr type="comment" corresp="1815/1815-09-09_JSWMayer_CRichter" target="JP-UB0415"/><ptr type="comment" corresp="1818/1818-01-15_PEThieriot_Unbekannt" target="JP-UB2103"/><ptr type="comment" corresp="1819/1819-11-13_HvEnde_CRichter" target="JP-UB0619"/><ptr type="comment" corresp="1821/1821-02-10_HvEnde_CRichter" target="JP-UB0749"/></linkGrp><linkGrp type="context"><ptr type="letter" corresp="1801/1801-10-22_JP-CRichter_CHerder" target="JP-UB0185"/><ptr type="letter" corresp="1802/1802-03-06_PEThieriot_EOsmund" target="JP-UB1243"/><ptr type="letter" corresp="1802/1802-03-09_EOsmund_PEThieriot" target="JP-UB1244"/><ptr type="letter" corresp="1802/1802-03-13_PEThieriot_EOsmund" target="JP-UB1246"/><ptr type="letter" corresp="1802/1802-04-11_CRichter-JP-Thieriot_EOsmund" target="JP-UB0732"/><ptr type="letter" corresp="1802/1802-04-13_EOsmund_PEThieriot" target="JP-UB1248"/><ptr type="letter" corresp="1802/1802-04-30_PEThieriot-JP_EOsmund" target="JP-UB1249"/><ptr type="letter" corresp="1802/1802-05-04_EOsmund_PEThieriot" target="JP-UB1250"/><ptr type="letter" corresp="1802/1802-06-11_AOtto_PEThieriot" target="JP-UB1256"/><ptr type="letter" corresp="1802/1802-06-18_PEThieriot_EOsmund" target="JP-UB1440"/><ptr type="letter" corresp="1802/1802-06-27_EOsmund_PEThieriot" target="JP-UB1442"/><ptr type="letter" corresp="1802/1802-06-29_EOsmund_CGoldschmidt" target="JP-UB0398"/><ptr type="letter" corresp="1802/1802-08-17_EOsmund_PEThieriot" target="JP-UB1447"/><ptr type="letter" corresp="1802/1802-08-27_PEThieriot_EOsmund" target="JP-UB1448"/><ptr type="letter" corresp="1802/1802-09-11_PEThieriot_EOsmund" target="JP-UB1449"/><ptr type="letter" corresp="1802/1802-09-21_EOsmund_CGoldschmidt" target="JP-UB0573"/><ptr type="letter" corresp="1802/1802-09-22_EOsmund_PEThieriot" target="JP-UB1450"/><ptr type="letter" corresp="1802/1802-10-01_EOsmund_PEThieriot" target="JP-UB1451"/><ptr type="letter" corresp="1802/1802-12-09_EOsmund_PEThieriot" target="JP-UB1458"/><ptr type="letter" corresp="1803/1803-01-24_SAMahlmann_WGBecker" target="JP-UB4609"/><ptr type="letter" corresp="1803/1803-02-10_PEThieriot_EOsmund" target="JP-UB1263"/><ptr type="letter" corresp="1803/1803-02-17_PEThieriot_EOsmund" target="JP-UB1265"/><ptr type="letter" corresp="1803/1803-02-24_EOsmund_CGoldschmidt" target="JP-UB0327"/><ptr type="letter" corresp="1803/1803-02-27_EOsmund_PEThieriot" target="JP-UB1266"/><ptr type="letter" corresp="1803/1803-04-15_EOsmund_PEThieriot" target="JP-UB1464"/><ptr type="letter" corresp="1803/1803-04-19_PEThieriot_EOsmund" target="JP-UB1468"/><ptr type="letter" corresp="1803/1803-04-19_PEThieriot_FSchlichtegroll" target="JP-UB1469"/><ptr type="letter" corresp="1803/1803-04-26_EOsmund_PEThieriot" target="JP-UB1471"/><ptr type="letter" corresp="1803/1803-05-28_EOsmund_PEThieriot" target="JP-UB1476"/><ptr type="letter" corresp="1803/1803-06-14_PEThieriot_EOsmund" target="JP-UB1477"/><ptr type="letter" corresp="1804/1804-05-28_EOsmund_PEThieriot" target="JP-UB1542"/><ptr type="letter" corresp="1804/1804-07-27_EOsmund_PEThieriot" target="JP-UB1556"/><ptr type="letter" corresp="1804/1804-11-09_PEThieriot_EOsmund" target="JP-UB1561"/><ptr type="letter" corresp="1805/1805-04-12_SAMahlmann_JDFalk" target="JP-UB0555"/><ptr type="letter" corresp="1806/1806-10-15_EOsmund_PEThieriot" target="JP-UB1738"/><ptr type="letter" corresp="1807/1807-09-18_SAMahlmann_FMatthisson" target="JP-UB2021"/><ptr type="letter" corresp="1808/1808-10-22_KAWangenheim_EOsmund" target="JP-UB1829"/><ptr type="letter" corresp="1809/1809-02-28_MSpazier_CABoettiger" target="JP-UB0071"/><ptr type="letter" corresp="1809/1809-04-08_MSpazier_FKind" target="JP-UB1072"/><ptr type="letter" corresp="1809/1809-08-17_EOsmund_CGoldschmidt" target="JP-UB1303"/><ptr type="letter" corresp="1810/1810-02-11_HSchwendler_FTAMueller" target="JP-UB0102"/><ptr type="letter" corresp="1811/1811-02-26_SAMahlmann_CRichter" target="JP-UB2043"/><ptr type="letter" corresp="1811/1811-10-31_JEWagner_FTAMueller" target="JP-UB1112"/><ptr type="letter" corresp="1814/1814-12-18_HSchwendler_FTAMueller" target="JP-UB1123"/><ptr type="letter" corresp="1815/1815-01-17_CGoldschmidt_RVarnhagen" target="JP-UB2089"/><ptr type="letter" corresp="1815/1815-09-09_JSWMayer_CRichter" target="JP-UB0415"/><ptr type="letter" corresp="1817/1817-04-21_HVoss-Truchsess_Fouque" target="JP-UB0991"/><ptr type="letter" corresp="1817/1817-08-16_HVoss-JP_AVoss" target="JP-UB1691"/><ptr type="letter" corresp="1817/1817-08-20_HvEnde_CRichter" target="JP-UB0249"/><ptr type="letter" corresp="1817/1817-09-04_ERichter_SPaulus" target="JP-UB0091"/><ptr type="letter" corresp="1818/1818-09-03_HvEnde_CRichter" target="JP-UB0359"/><ptr type="letter" corresp="1819/1819-09-11_CRichter_HVoss" target="JP-UB0738"/><ptr type="letter" corresp="1821/1821-02-10_HvEnde_CRichter" target="JP-UB0749"/><ptr type="letter" corresp="1821/1821-04-11_MRichter_CRichter" target="JP-UB1009"/><ptr type="letter" corresp="1825/1825-08-03_FWJung_CRichter" target="JP-UB0752"/><ptr type="comment" corresp="1801/1801-02-07_PEThieriot_Thieriotfamilie" target="JP-UB1408"/><ptr type="comment" corresp="1802/1802-05-24_JMThieriot_PEThieriot" target="JP-UB1425"/><ptr type="comment" corresp="1802/1802-06-02_PEThieriot_EOsmund" target="JP-UB1431"/><ptr type="comment" corresp="1802/1802-06-15_EOsmund_PEThieriot" target="JP-UB1436"/><ptr type="comment" corresp="1802/1802-06-17_JP-CRichter_PEThieriot" target="JP-UB1437"/><ptr type="comment" corresp="1802/1802-06-27_EOsmund_PEThieriot" target="JP-UB1442"/><ptr type="comment" corresp="1802/1802-07-28_PEThieriot_EOsmund" target="JP-UB1445"/><ptr type="comment" corresp="1802/1802-10-01_EOsmund_PEThieriot" target="JP-UB1451"/><ptr type="comment" corresp="1803/1803-01-09_SAMahlmann_LTieck" target="JP-UB1031"/><ptr type="comment" corresp="1803/1803-02-27_EOsmund_PEThieriot" target="JP-UB1266"/><ptr type="comment" corresp="1803/1803-04-16_EOsmund_CGoldschmidt" target="JP-UB0358"/><ptr type="comment" corresp="1803/1803-06-24_EOsmund_CGoldschmidt" target="JP-UB0172"/><ptr type="comment" corresp="1803/1803-07-17_PEThieriot_EOsmund" target="JP-UB1483"/><ptr type="comment" corresp="1803/1803-10-01_KSpazier_JDFalk" target="JP-UB0181"/><ptr type="comment" corresp="1804/1804-08-19_SAMahlmann_JDFalk" target="JP-UB0581"/><ptr type="comment" corresp="1806/1806-09-24_SAMahlmann_KMuechler" target="JP-UB4619"/><ptr type="comment" corresp="1807/1807-09-04_SAMahlmann_FMatthisson" target="JP-UB2020"/><ptr type="comment" corresp="1808/1808-03-04_JEWagner_FTAMueller" target="JP-UB0867"/><ptr type="comment" corresp="1809/1809-11-03_EOsmund_CGoldschmidt" target="JP-UB1305"/><ptr type="comment" corresp="1810/1810-03-19_EOsmund_CGoldschmidt" target="JP-UB1313"/><ptr type="comment" corresp="1810/1810-04-16_JEWagner_Truchsess" target="JP-UB0925"/><ptr type="comment" corresp="1811/1811-03-05_FHaug_JEWagner" target="JP-UB0951"/><ptr type="comment" corresp="1814/1814-06-25_JSWMayer_CRichter" target="JP-UB0166"/><ptr type="comment" corresp="1815/1815-01-14_HVoss_Fouque" target="JP-UB0392"/><ptr type="comment" corresp="1815/1815-09-09_JSWMayer_CRichter" target="JP-UB0415"/><ptr type="comment" corresp="1819/1819-11-13_HvEnde_CRichter" target="JP-UB0619"/><ptr type="comment" corresp="1821/1821-02-10_HvEnde_CRichter" target="JP-UB0749"/></linkGrp></linkGrp>
+                  </linkGrp>
+                  <linkGrp type="context">
+                     <ptr type="letter" corresp="1801/1801-10-22_JP-CRichter_CHerder" target="JP-UB0185"/>
+                     <ptr type="letter" corresp="1802/1802-03-06_PEThieriot_EOsmund" target="JP-UB1243"/>
+                     <ptr type="letter" corresp="1802/1802-03-09_EOsmund_PEThieriot" target="JP-UB1244"/>
+                     <ptr type="letter" corresp="1802/1802-03-13_PEThieriot_EOsmund" target="JP-UB1246"/>
+                     <ptr type="letter" corresp="1802/1802-03-13_PEThieriot_EOsmund" target="JP-UB1246"/>
+                     <ptr type="letter" corresp="1802/1802-03-13_PEThieriot_EOsmund" target="JP-UB1246"/>
+                     <ptr type="letter" corresp="1802/1802-04-11_CRichter-JP-Thieriot_EOsmund" target="JP-UB0732"/>
+                     <ptr type="letter" corresp="1802/1802-04-13_EOsmund_PEThieriot" target="JP-UB1248"/>
+                     <ptr type="letter" corresp="1802/1802-04-13_EOsmund_PEThieriot" target="JP-UB1248"/>
+                     <ptr type="letter" corresp="1802/1802-04-30_PEThieriot-JP_EOsmund" target="JP-UB1249"/>
+                     <ptr type="letter" corresp="1802/1802-05-04_EOsmund_PEThieriot" target="JP-UB1250"/>
+                     <ptr type="letter" corresp="1802/1802-06-11_AOtto_PEThieriot" target="JP-UB1256"/>
+                     <ptr type="letter" corresp="1802/1802-06-11_AOtto_PEThieriot" target="JP-UB1256"/>
+                     <ptr type="letter" corresp="1802/1802-06-18_PEThieriot_EOsmund" target="JP-UB1440"/>
+                     <ptr type="letter" corresp="1802/1802-06-18_PEThieriot_EOsmund" target="JP-UB1440"/>
+                     <ptr type="letter" corresp="1802/1802-06-18_PEThieriot_EOsmund" target="JP-UB1440"/>
+                     <ptr type="letter" corresp="1802/1802-06-18_PEThieriot_EOsmund" target="JP-UB1440"/>
+                     <ptr type="letter" corresp="1802/1802-06-27_EOsmund_PEThieriot" target="JP-UB1442"/>
+                     <ptr type="letter" corresp="1802/1802-06-29_EOsmund_CGoldschmidt" target="JP-UB0398"/>
+                     <ptr type="letter" corresp="1802/1802-08-17_EOsmund_PEThieriot" target="JP-UB1447"/>
+                     <ptr type="letter" corresp="1802/1802-08-17_EOsmund_PEThieriot" target="JP-UB1447"/>
+                     <ptr type="letter" corresp="1802/1802-08-17_EOsmund_PEThieriot" target="JP-UB1447"/>
+                     <ptr type="letter" corresp="1802/1802-08-27_PEThieriot_EOsmund" target="JP-UB1448"/>
+                     <ptr type="letter" corresp="1802/1802-08-27_PEThieriot_EOsmund" target="JP-UB1448"/>
+                     <ptr type="letter" corresp="1802/1802-08-27_PEThieriot_EOsmund" target="JP-UB1448"/>
+                     <ptr type="letter" corresp="1802/1802-08-27_PEThieriot_EOsmund" target="JP-UB1448"/>
+                     <ptr type="letter" corresp="1802/1802-08-27_PEThieriot_EOsmund" target="JP-UB1448"/>
+                     <ptr type="letter" corresp="1802/1802-09-11_PEThieriot_EOsmund" target="JP-UB1449"/>
+                     <ptr type="letter" corresp="1802/1802-09-11_PEThieriot_EOsmund" target="JP-UB1449"/>
+                     <ptr type="letter" corresp="1802/1802-09-21_EOsmund_CGoldschmidt" target="JP-UB0573"/>
+                     <ptr type="letter" corresp="1802/1802-09-21_EOsmund_CGoldschmidt" target="JP-UB0573"/>
+                     <ptr type="letter" corresp="1802/1802-09-22_EOsmund_PEThieriot" target="JP-UB1450"/>
+                     <ptr type="letter" corresp="1802/1802-09-22_EOsmund_PEThieriot" target="JP-UB1450"/>
+                     <ptr type="letter" corresp="1802/1802-09-22_EOsmund_PEThieriot" target="JP-UB1450"/>
+                     <ptr type="letter" corresp="1802/1802-10-01_EOsmund_PEThieriot" target="JP-UB1451"/>
+                     <ptr type="letter" corresp="1802/1802-10-01_EOsmund_PEThieriot" target="JP-UB1451"/>
+                     <ptr type="letter" corresp="1802/1802-12-09_EOsmund_PEThieriot" target="JP-UB1458"/>
+                     <ptr type="letter" corresp="1803/1803-01-24_SAMahlmann_WGBecker" target="JP-UB4610"/>
+                     <ptr type="letter" corresp="1803/1803-02-10_PEThieriot_EOsmund" target="JP-UB1263"/>
+                     <ptr type="letter" corresp="1803/1803-02-17_PEThieriot_EOsmund" target="JP-UB1265"/>
+                     <ptr type="letter" corresp="1803/1803-02-24_EOsmund_CGoldschmidt" target="JP-UB0327"/>
+                     <ptr type="letter" corresp="1803/1803-02-27_EOsmund_PEThieriot" target="JP-UB1266"/>
+                     <ptr type="letter" corresp="1803/1803-02-27_EOsmund_PEThieriot" target="JP-UB1266"/>
+                     <ptr type="letter" corresp="1803/1803-02-27_EOsmund_PEThieriot" target="JP-UB1266"/>
+                     <ptr type="letter" corresp="1803/1803-04-15_EOsmund_PEThieriot" target="JP-UB1464"/>
+                     <ptr type="letter" corresp="1803/1803-04-15_EOsmund_PEThieriot" target="JP-UB1464"/>
+                     <ptr type="letter" corresp="1803/1803-04-19_PEThieriot_EOsmund" target="JP-UB1468"/>
+                     <ptr type="letter" corresp="1803/1803-04-19_PEThieriot_EOsmund" target="JP-UB1468"/>
+                     <ptr type="letter" corresp="1803/1803-04-19_PEThieriot_EOsmund" target="JP-UB1468"/>
+                     <ptr type="letter" corresp="1803/1803-04-19_PEThieriot_EOsmund" target="JP-UB1468"/>
+                     <ptr type="letter" corresp="1803/1803-04-19_PEThieriot_FSchlichtegroll" target="JP-UB1469"/>
+                     <ptr type="letter" corresp="1803/1803-04-26_EOsmund_PEThieriot" target="JP-UB1471"/>
+                     <ptr type="letter" corresp="1803/1803-05-17_PEThieriot_EOsmund_b" target="JP-UB1475"/>
+                     <ptr type="letter" corresp="1803/1803-05-28_EOsmund_PEThieriot" target="JP-UB1476"/>
+                     <ptr type="letter" corresp="1803/1803-05-28_EOsmund_PEThieriot" target="JP-UB1476"/>
+                     <ptr type="letter" corresp="1803/1803-06-14_PEThieriot_EOsmund" target="JP-UB1477"/>
+                     <ptr type="letter" corresp="1803/1803-10-17_Kalb_PEThieriot" target="JP-UB4653"/>
+                     <ptr type="letter" corresp="1804/1804-05-28_EOsmund_PEThieriot" target="JP-UB1542"/>
+                     <ptr type="letter" corresp="1804/1804-07-27_EOsmund_PEThieriot" target="JP-UB1556"/>
+                     <ptr type="letter" corresp="1804/1804-11-09_PEThieriot_EOsmund" target="JP-UB1561"/>
+                     <ptr type="letter" corresp="1805/1805-04-12_SAMahlmann_JDFalk" target="JP-UB0555"/>
+                     <ptr type="letter" corresp="1806/1806-10-15_EOsmund_PEThieriot" target="JP-UB1738"/>
+                     <ptr type="letter" corresp="1807/1807-09-18_SAMahlmann_FMatthisson" target="JP-UB2021"/>
+                     <ptr type="letter" corresp="1808/1808-10-22_KAWangenheim_EOsmund" target="JP-UB1829"/>
+                     <ptr type="letter" corresp="1809/1809-02-28_MSpazier_CABoettiger" target="JP-UB0071"/>
+                     <ptr type="letter" corresp="1809/1809-04-08_MSpazier_FKind" target="JP-UB1072"/>
+                     <ptr type="letter" corresp="1809/1809-08-17_EOsmund_CGoldschmidt" target="JP-UB1303"/>
+                     <ptr type="letter" corresp="1810/1810-02-11_HSchwendler_FTAMueller" target="JP-UB0102"/>
+                     <ptr type="letter" corresp="1811/1811-02-26_SAMahlmann_CRichter" target="JP-UB2043"/>
+                     <ptr type="letter" corresp="1811/1811-10-31_JEWagner_FTAMueller" target="JP-UB1112"/>
+                     <ptr type="letter" corresp="1814/1814-06-30_KAWangenheim_PEThieriot" target="JP-UB1931"/>
+                     <ptr type="letter" corresp="1814/1814-12-18_HSchwendler_FTAMueller" target="JP-UB1123"/>
+                     <ptr type="letter" corresp="1815/1815-01-17_CGoldschmidt_RVarnhagen" target="JP-UB2089"/>
+                     <ptr type="letter" corresp="1815/1815-09-09_JSWMayer_CRichter" target="JP-UB0415"/>
+                     <ptr type="letter" corresp="1817/1817-04-21_HVoss-Truchsess_Fouque" target="JP-UB0991"/>
+                     <ptr type="letter" corresp="1817/1817-08-16_HVoss-JP_AVoss" target="JP-UB1691"/>
+                     <ptr type="letter" corresp="1817/1817-08-16_HVoss-JP_AVoss" target="JP-UB1691"/>
+                     <ptr type="letter" corresp="1817/1817-08-20_HvEnde_CRichter" target="JP-UB0249"/>
+                     <ptr type="letter" corresp="1817/1817-09-04_ERichter_SPaulus" target="JP-UB0091"/>
+                     <ptr type="letter" corresp="1818/1818-09-03_HvEnde_CRichter" target="JP-UB0359"/>
+                     <ptr type="letter" corresp="1819/1819-09-11_CRichter_HVoss" target="JP-UB0738"/>
+                     <ptr type="letter" corresp="1821/1821-02-10_HvEnde_CRichter" target="JP-UB0749"/>
+                     <ptr type="letter" corresp="1821/1821-04-11_MRichter_CRichter" target="JP-UB1009"/>
+                     <ptr type="letter" corresp="1821/1821-09-17_HvEnde_CRichter" target="JP-UB0675"/>
+                     <ptr type="letter" corresp="1821/1821-09-17_HvEnde_CRichter" target="JP-UB0675"/>
+                     <ptr type="letter" corresp="1825/1825-08-03_FWJung_CRichter" target="JP-UB0752"/>
+                     <ptr type="comment" corresp="1801/1801-02-07_PEThieriot_Thieriotfamilie" target="JP-UB1408"/>
+                     <ptr type="comment" corresp="1802/1802-05-24_JMThieriot_PEThieriot" target="JP-UB1425"/>
+                     <ptr type="comment" corresp="1802/1802-06-02_PEThieriot_EOsmund" target="JP-UB1431"/>
+                     <ptr type="comment" corresp="1802/1802-06-15_EOsmund_PEThieriot" target="JP-UB1436"/>
+                     <ptr type="comment" corresp="1802/1802-06-17_JP-CRichter_PEThieriot" target="JP-UB1437"/>
+                     <ptr type="comment" corresp="1802/1802-06-27_EOsmund_PEThieriot" target="JP-UB1442"/>
+                     <ptr type="comment" corresp="1802/1802-07-28_PEThieriot_EOsmund" target="JP-UB1445"/>
+                     <ptr type="comment" corresp="1802/1802-10-01_EOsmund_PEThieriot" target="JP-UB1451"/>
+                     <ptr type="comment" corresp="1802/1802-10-01_EOsmund_PEThieriot" target="JP-UB1451"/>
+                     <ptr type="comment" corresp="1802/1802-10-01_EOsmund_PEThieriot" target="JP-UB1451"/>
+                     <ptr type="comment" corresp="1803/1803-01-09_SAMahlmann_LTieck" target="JP-UB1031"/>
+                     <ptr type="comment" corresp="1803/1803-02-27_EOsmund_PEThieriot" target="JP-UB1266"/>
+                     <ptr type="comment" corresp="1803/1803-04-16_EOsmund_CGoldschmidt" target="JP-UB0358"/>
+                     <ptr type="comment" corresp="1803/1803-06-24_EOsmund_CGoldschmidt" target="JP-UB0172"/>
+                     <ptr type="comment" corresp="1803/1803-07-17_PEThieriot_EOsmund" target="JP-UB1483"/>
+                     <ptr type="comment" corresp="1803/1803-10-01_KSpazier_JDFalk" target="JP-UB0181"/>
+                     <ptr type="comment" corresp="1803/1803-10-13_Kalb_PEThieriot" target="JP-UB4650"/>
+                     <ptr type="comment" corresp="1804/1804-08-19_SAMahlmann_JDFalk" target="JP-UB0581"/>
+                     <ptr type="comment" corresp="1805/1805-02-17_OvManteuffel_PEThieriot" target="JP-UB1580"/>
+                     <ptr type="comment" corresp="1806/1806-09-24_SAMahlmann_KMuechler" target="JP-UB4638"/>
+                     <ptr type="comment" corresp="1807/1807-09-04_SAMahlmann_FMatthisson" target="JP-UB2020"/>
+                     <ptr type="comment" corresp="1808/1808-03-04_JEWagner_FTAMueller" target="JP-UB0867"/>
+                     <ptr type="comment" corresp="1809/1809-11-03_EOsmund_CGoldschmidt" target="JP-UB1305"/>
+                     <ptr type="comment" corresp="1810/1810-03-19_EOsmund_CGoldschmidt" target="JP-UB1313"/>
+                     <ptr type="comment" corresp="1810/1810-03-19_EOsmund_CGoldschmidt" target="JP-UB1313"/>
+                     <ptr type="comment" corresp="1810/1810-04-16_JEWagner_Truchsess" target="JP-UB0925"/>
+                     <ptr type="comment" corresp="1811/1811-03-05_FHaug_JEWagner" target="JP-UB0951"/>
+                     <ptr type="comment" corresp="1814/1814-06-25_JSWMayer_CRichter" target="JP-UB0166"/>
+                     <ptr type="comment" corresp="1815/1815-01-14_HVoss_Fouque" target="JP-UB0392"/>
+                     <ptr type="comment" corresp="1815/1815-01-14_HVoss_Fouque" target="JP-UB0392"/>
+                     <ptr type="comment" corresp="1815/1815-09-09_JSWMayer_CRichter" target="JP-UB0415"/>
+                     <ptr type="comment" corresp="1818/1818-01-15_PEThieriot_Unbekannt" target="JP-UB2103"/>
+                     <ptr type="comment" corresp="1819/1819-11-13_HvEnde_CRichter" target="JP-UB0619"/>
+                     <ptr type="comment" corresp="1821/1821-02-10_HvEnde_CRichter" target="JP-UB0749"/>
+                  </linkGrp>
+               </linkGrp>
                <listPlace>
                   <place xml:id="JP-011599" corresp="JP-006122">
                      <placeName type="reg">Académie des Sciences</placeName>
                      <linkGrp type="mention">
                         <linkGrp type="abt4">
                            <linkGrp n="VIII">
-                              <ptr type="letter" target="75-32" next="75-33"/>
+                              <ptr type="letter" target="75-32" next="75-33" corresp="IV-VIII_30"/>
                            </linkGrp>
                         </linkGrp>
                      </linkGrp>
                   </place>
                   <place xml:id="JP-011587" corresp="JP-006122">
                      <placeName type="reg">Boue de Paris</placeName>
-                     <linkGrp type="mention"><linkGrp type="abt3">
+                     <linkGrp type="mention">
+                        <linkGrp type="abt3">
                            <linkGrp n="II">
                               <ptr type="letter" target="211-18" corresp="II_340"/>
                            </linkGrp>
                            <linkGrp n="III">
                               <ptr type="letter" target="181-21" corresp="III_244"/>
                            </linkGrp>
-                        </linkGrp><linkGrp type="context"><ptr type="comment" corresp="1802/1802-07-28_PEThieriot_EOsmund" target="JP-UB1445"/><ptr type="comment" corresp="1802/1802-10-17_PEThieriot_EOsmund" target="JP-UB1454"/></linkGrp><linkGrp type="context"><ptr type="comment" corresp="1802/1802-07-28_PEThieriot_EOsmund" target="JP-UB1445"/><ptr type="comment" corresp="1802/1802-10-17_PEThieriot_EOsmund" target="JP-UB1454"/></linkGrp></linkGrp>
+                        </linkGrp>
+                        <linkGrp type="context">
+                           <ptr type="comment" corresp="1802/1802-07-28_PEThieriot_EOsmund" target="JP-UB1445"/>
+                           <ptr type="comment" corresp="1802/1802-10-17_PEThieriot_EOsmund" target="JP-UB1454"/>
+                        </linkGrp>
+                     </linkGrp>
                   </place>
                   <place xml:id="JP-011600" corresp="JP-006122">
                      <placeName type="reg">Boulevard des Italiens, früher Boulevard Neuf</placeName>
                      <linkGrp type="mention">
                         <linkGrp type="abt4">
                            <linkGrp n="IV">
-                              <ptr type="letter" target="207-16"/>
+                              <ptr type="letter" target="207-16" corresp="IV-IV_152"/>
                            </linkGrp>
                         </linkGrp>
                      </linkGrp>
                   </place>
                   <place xml:id="JP-013632">
                      <placeName type="reg">Conservatoire de musique</placeName>
-                     <linkGrp type="mention"><linkGrp type="context"><ptr type="letter" corresp="1802/1802-12-21_PEThieriot_EOsmund" target="JP-UB1459"/></linkGrp><linkGrp type="context"><ptr type="letter" corresp="1802/1802-12-21_PEThieriot_EOsmund" target="JP-UB1459"/></linkGrp></linkGrp>
+                     <linkGrp type="mention">
+                        <linkGrp type="context">
+                           <ptr type="letter" corresp="1802/1802-12-21_PEThieriot_EOsmund" target="JP-UB1459"/>
+                        </linkGrp>
+                     </linkGrp>
                   </place>
                   <place xml:id="JP-011588" corresp="JP-006122">
                      <placeName type="reg">Cul de Paris</placeName>
@@ -325,7 +469,7 @@
                      <linkGrp type="mention">
                         <linkGrp type="abt4">
                            <linkGrp n="V">
-                              <ptr type="letter" target="94-11"/>
+                              <ptr type="letter" target="94-11" corresp="IV-V_74"/>
                            </linkGrp>
                         </linkGrp>
                      </linkGrp>
@@ -335,7 +479,7 @@
                      <linkGrp type="mention">
                         <linkGrp type="abt4">
                            <linkGrp n="V">
-                              <ptr type="letter" target="94-11"/>
+                              <ptr type="letter" target="94-11" corresp="IV-V_74"/>
                            </linkGrp>
                         </linkGrp>
                      </linkGrp>
@@ -355,7 +499,7 @@
                      <linkGrp type="mention">
                         <linkGrp type="abt4">
                            <linkGrp n="VIII">
-                              <ptr type="letter" target="605-12"/>
+                              <ptr type="letter" target="605-12" corresp="IV-VIII_AN_29"/>
                            </linkGrp>
                         </linkGrp>
                      </linkGrp>
@@ -368,7 +512,7 @@
                      <linkGrp type="mention">
                         <linkGrp type="abt4">
                            <linkGrp n="IV">
-                              <ptr type="letter" target="207-19"/>
+                              <ptr type="letter" target="207-19" corresp="IV-IV_152"/>
                            </linkGrp>
                         </linkGrp>
                      </linkGrp>
@@ -378,10 +522,10 @@
                      <linkGrp type="mention">
                         <linkGrp type="abt4">
                            <linkGrp n="IV">
-                              <ptr type="letter" target="207-15"/>
-                              <ptr type="letter" target="207-19"/>
-                              <ptr type="letter" target="209-14"/>
-                              <ptr type="letter" target="209-20"/>
+                              <ptr type="letter" target="207-15" corresp="IV-IV_152"/>
+                              <ptr type="letter" target="207-19" corresp="IV-IV_152"/>
+                              <ptr type="letter" target="209-14" corresp="IV-IV_152"/>
+                              <ptr type="letter" target="209-20" corresp="IV-IV_152"/>
                            </linkGrp>
                         </linkGrp>
                      </linkGrp>
@@ -398,7 +542,13 @@
                   </place>
                   <place xml:id="JP-013065">
                      <placeName type="reg">Louvre</placeName>
-                     <linkGrp type="mention"><linkGrp type="context"><ptr type="letter" corresp="1802/1802-08-27_PEThieriot_EOsmund" target="JP-UB1448"/><ptr type="letter" corresp="1802/1802-12-21_PEThieriot_EOsmund" target="JP-UB1459"/><ptr type="letter" corresp="1808/1808-03-04_JEWagner_FTAMueller" target="JP-UB0867"/></linkGrp><linkGrp type="context"><ptr type="letter" corresp="1802/1802-08-27_PEThieriot_EOsmund" target="JP-UB1448"/><ptr type="letter" corresp="1802/1802-12-21_PEThieriot_EOsmund" target="JP-UB1459"/><ptr type="letter" corresp="1808/1808-03-04_JEWagner_FTAMueller" target="JP-UB0867"/></linkGrp></linkGrp>
+                     <linkGrp type="mention">
+                        <linkGrp type="context">
+                           <ptr type="letter" corresp="1802/1802-08-27_PEThieriot_EOsmund" target="JP-UB1448"/>
+                           <ptr type="letter" corresp="1802/1802-12-21_PEThieriot_EOsmund" target="JP-UB1459"/>
+                           <ptr type="letter" corresp="1808/1808-03-04_JEWagner_FTAMueller" target="JP-UB0867"/>
+                        </linkGrp>
+                     </linkGrp>
                   </place>
                   <place xml:id="JP-011590" corresp="JP-006122">
                      <placeName type="reg">Montmartre</placeName>
@@ -413,18 +563,23 @@
                         </linkGrp>
                         <linkGrp type="abt4">
                            <linkGrp n="IV">
-                              <ptr type="letter" target="432-33" ana="ff"/>
+                              <ptr type="letter" target="432-33" ana="ff" corresp="IV-IV_316"/>
                            </linkGrp>
                         </linkGrp>
                      </linkGrp>
                   </place>
                   <place xml:id="JP-011591" corresp="JP-006122">
                      <placeName type="reg">Musée Napoléon</placeName>
-                     <linkGrp type="mention"><linkGrp type="abt3">
+                     <linkGrp type="mention">
+                        <linkGrp type="abt3">
                            <linkGrp n="VII">
                               <ptr type="letter" target="67-5" ana="†" corresp="VII_178"/>
                            </linkGrp>
-                        </linkGrp><linkGrp type="context"><ptr type="comment" corresp="1811/1811-03-05_FHaug_JEWagner" target="JP-UB0951"/></linkGrp><linkGrp type="context"><ptr type="comment" corresp="1811/1811-03-05_FHaug_JEWagner" target="JP-UB0951"/></linkGrp></linkGrp>
+                        </linkGrp>
+                        <linkGrp type="context">
+                           <ptr type="comment" corresp="1811/1811-03-05_FHaug_JEWagner" target="JP-UB0951"/>
+                        </linkGrp>
+                     </linkGrp>
                   </place>
                   <place xml:id="JP-011592" corresp="JP-006122">
                      <placeName type="reg">Musik, Oper</placeName>
@@ -448,7 +603,7 @@
                      <linkGrp type="mention">
                         <linkGrp type="abt4">
                            <linkGrp n="VI">
-                              <ptr type="letter" target="369-15"/>
+                              <ptr type="letter" target="369-15" corresp="IV-VI_246"/>
                            </linkGrp>
                         </linkGrp>
                      </linkGrp>
@@ -458,26 +613,40 @@
                      <linkGrp type="mention">
                         <linkGrp type="abt4">
                            <linkGrp n="IV">
-                              <ptr type="letter" target="207-15"/>
+                              <ptr type="letter" target="207-15" corresp="IV-IV_152"/>
                            </linkGrp>
                         </linkGrp>
                      </linkGrp>
                   </place>
                   <place xml:id="JP-013635">
                      <placeName type="reg">Rue de Gramont</placeName>
-                     <linkGrp type="mention"><linkGrp type="context"><ptr type="letter" corresp="1802/1802-08-27_PEThieriot_EOsmund" target="JP-UB1448"/></linkGrp><linkGrp type="context"><ptr type="letter" corresp="1802/1802-08-27_PEThieriot_EOsmund" target="JP-UB1448"/></linkGrp></linkGrp>
+                     <linkGrp type="mention">
+                        <linkGrp type="context">
+                           <ptr type="letter" corresp="1802/1802-08-27_PEThieriot_EOsmund" target="JP-UB1448"/>
+                           <ptr type="letter" corresp="1802/1802-08-27_PEThieriot_EOsmund" target="JP-UB1448"/>
+                        </linkGrp>
+                     </linkGrp>
                   </place>
                   <place xml:id="JP-013636">
                      <placeName type="reg">Rue Helvétius</placeName>
                      <note>Ab 1814 Rue Sainte-Anne. </note>
-                     <linkGrp type="mention"><linkGrp type="context"><ptr type="letter" corresp="1802/1802-07-10_PEThieriot_EOsmund" target="JP-UB1443"/><ptr type="letter" corresp="1802/1802-12-24_PEThieriot_EOsmund" target="JP-UB1460"/><ptr type="comment" corresp="1802/1802-08-17_EOsmund_PEThieriot" target="JP-UB1447"/><ptr type="comment" corresp="1802/1802-08-27_PEThieriot_EOsmund" target="JP-UB1448"/><ptr type="comment" corresp="1802/1802-09-11_PEThieriot_EOsmund" target="JP-UB1449"/><ptr type="comment" corresp="1802/1802-10-08_PEThieriot_EOsmund" target="JP-UB1453"/></linkGrp><linkGrp type="context"><ptr type="letter" corresp="1802/1802-07-10_PEThieriot_EOsmund" target="JP-UB1443"/><ptr type="letter" corresp="1802/1802-12-24_PEThieriot_EOsmund" target="JP-UB1460"/><ptr type="comment" corresp="1802/1802-08-17_EOsmund_PEThieriot" target="JP-UB1447"/><ptr type="comment" corresp="1802/1802-08-27_PEThieriot_EOsmund" target="JP-UB1448"/><ptr type="comment" corresp="1802/1802-09-11_PEThieriot_EOsmund" target="JP-UB1449"/><ptr type="comment" corresp="1802/1802-10-08_PEThieriot_EOsmund" target="JP-UB1453"/></linkGrp></linkGrp>
+                     <linkGrp type="mention">
+                        <linkGrp type="context">
+                           <ptr type="letter" corresp="1802/1802-07-10_PEThieriot_EOsmund" target="JP-UB1443"/>
+                           <ptr type="letter" corresp="1802/1802-12-24_PEThieriot_EOsmund" target="JP-UB1460"/>
+                           <ptr type="comment" corresp="1802/1802-08-17_EOsmund_PEThieriot" target="JP-UB1447"/>
+                           <ptr type="comment" corresp="1802/1802-08-27_PEThieriot_EOsmund" target="JP-UB1448"/>
+                           <ptr type="comment" corresp="1802/1802-09-11_PEThieriot_EOsmund" target="JP-UB1449"/>
+                           <ptr type="comment" corresp="1802/1802-10-08_PEThieriot_EOsmund" target="JP-UB1453"/>
+                        </linkGrp>
+                     </linkGrp>
                   </place>
                   <place xml:id="JP-011594" corresp="JP-006122">
                      <placeName type="reg">Rue Richelieu</placeName>
                      <linkGrp type="mention">
                         <linkGrp type="abt4">
                            <linkGrp n="VIII">
-                              <ptr type="letter" target="605-11"/>
+                              <ptr type="letter" target="605-11" corresp="IV-VIII_AN_29"/>
                            </linkGrp>
                         </linkGrp>
                      </linkGrp>
@@ -496,7 +665,7 @@
                         </linkGrp>
                         <linkGrp type="abt4">
                            <linkGrp n="II">
-                              <ptr type="letter" target="53-13" ana="†"/>
+                              <ptr type="letter" target="53-13" ana="†" corresp="IV-II_30"/>
                            </linkGrp>
                         </linkGrp>
                      </linkGrp>
@@ -517,20 +686,46 @@
                         </linkGrp>
                      </linkGrp>
                   </place>
-                  <place xml:id="JP-014790">
+                  <place xml:id="JP-014795">
                      <placeName type="reg">Theatre Feydeau</placeName>
+                     <linkGrp type="mention">
+                        <linkGrp type="context">
+                           <ptr type="letter" corresp="1802/1802-08-24_PEThieriot_JHThieriot" target="JP-UB4607"/>
+                        </linkGrp>
+                     </linkGrp>
                   </place>
-                  <place xml:id="JP-014791">
+                  <place xml:id="JP-014796">
                      <placeName type="reg">Comédie-Française / Théâtre-Français</placeName>
+                     <linkGrp type="mention">
+                        <linkGrp type="context">
+                           <ptr type="letter" corresp="1802/1802-08-24_PEThieriot_JHThieriot" target="JP-UB4607"/>
+                        </linkGrp>
+                     </linkGrp>
                   </place>
-                  <place xml:id="JP-014792">
+                  <place xml:id="JP-014797">
                      <placeName type="reg">Opéra-Comique</placeName>
+                     <linkGrp type="mention">
+                        <linkGrp type="context">
+                           <ptr type="letter" corresp="1802/1802-08-24_PEThieriot_JHThieriot" target="JP-UB4607"/>
+                        </linkGrp>
+                     </linkGrp>
                   </place>
-                  <place xml:id="JP-014793">
+                  <place xml:id="JP-014798">
                      <placeName type="reg">Théâtre du Vaudeville</placeName>
+                     <linkGrp type="mention">
+                        <linkGrp type="context">
+                           <ptr type="letter" corresp="1802/1802-08-24_PEThieriot_JHThieriot" target="JP-UB4607"/>
+                        </linkGrp>
+                     </linkGrp>
                   </place>
-                  <place xml:id="JP-014794">
+                  <place xml:id="JP-014799">
                      <placeName type="reg">Théâtre Montansier (in Versailles)</placeName>
+                     <linkGrp type="mention">
+                        <linkGrp type="context">
+                           <ptr type="letter" corresp="1802/1802-08-24_PEThieriot_JHThieriot" target="JP-UB4607"/>
+                           <ptr type="letter" corresp="1802/1802-08-24_PEThieriot_JHThieriot" target="JP-UB4607"/>
+                        </linkGrp>
+                     </linkGrp>
                   </place>
                </listPlace>
             </place>
@@ -540,7 +735,7 @@
                <linkGrp type="mention">
                   <linkGrp type="abt4">
                      <linkGrp n="VIII">
-                        <ptr type="letter" target="187-19"/>
+                        <ptr type="letter" target="187-19" corresp="IV-VIII_93"/>
                      </linkGrp>
                   </linkGrp>
                </linkGrp>
@@ -548,7 +743,8 @@
             <place xml:id="JP-006125">
                <idno type="uri">https://www.geonames.org/2855403</idno>
                <placeName type="reg">Parnass, Musenberg</placeName>
-               <linkGrp type="mention"><linkGrp type="abt3">
+               <linkGrp type="mention">
+                  <linkGrp type="abt3">
                      <linkGrp n="I">
                         <ptr type="letter" target="27-29" corresp="I_17"/>
                         <ptr type="letter" target="50-14" corresp="I_30"/>
@@ -607,16 +803,28 @@
                      <linkGrp n="VIII">
                         <ptr type="letter" target="62-30" corresp="VIII_86"/>
                      </linkGrp>
-                  </linkGrp><linkGrp type="context"><ptr type="letter" corresp="1799/1799-12-25_FOertel_AHerold" target="JP-UB1200"/><ptr type="letter" corresp="1807/1807-02-10_PEThieriot_EOsmund" target="JP-UB1754"/><ptr type="letter" corresp="1807/1807-02-22_EOsmund_PEThieriot" target="JP-UB1755"/></linkGrp><linkGrp type="context"><ptr type="letter" corresp="1799/1799-12-25_FOertel_AHerold" target="JP-UB1200"/><ptr type="letter" corresp="1807/1807-02-10_PEThieriot_EOsmund" target="JP-UB1754"/><ptr type="letter" corresp="1807/1807-02-22_EOsmund_PEThieriot" target="JP-UB1755"/></linkGrp></linkGrp>
+                  </linkGrp>
+                  <linkGrp type="context">
+                     <ptr type="letter" corresp="1799/1799-12-25_FOertel_AHerold" target="JP-UB1200"/>
+                     <ptr type="letter" corresp="1806/1806-06-18_SAMahlmann_CABoettiger" target="JP-UB4634"/>
+                     <ptr type="letter" corresp="1807/1807-02-10_PEThieriot_EOsmund" target="JP-UB1754"/>
+                     <ptr type="letter" corresp="1807/1807-02-22_EOsmund_PEThieriot" target="JP-UB1755"/>
+                  </linkGrp>
+               </linkGrp>
             </place>
             <place xml:id="JP-006126">
                <idno type="uri">http://www.geonames.org/2855328</idno>
                <placeName type="reg">Passau</placeName>
-               <linkGrp type="mention"><linkGrp type="abt4">
+               <linkGrp type="mention">
+                  <linkGrp type="abt4">
                      <linkGrp n="V">
-                        <ptr type="letter" target="190-12"/>
+                        <ptr type="letter" target="190-12" corresp="IV-V_142"/>
                      </linkGrp>
-                  </linkGrp><linkGrp type="context"><ptr type="letter" corresp="1807/1807-10-22_JEWagner_JFFrauenholz" target="JP-UB0865"/></linkGrp><linkGrp type="context"><ptr type="letter" corresp="1807/1807-10-22_JEWagner_JFFrauenholz" target="JP-UB0865"/></linkGrp></linkGrp>
+                  </linkGrp>
+                  <linkGrp type="context">
+                     <ptr type="letter" corresp="1807/1807-10-22_JEWagner_JFFrauenholz" target="JP-UB0865"/>
+                  </linkGrp>
+               </linkGrp>
             </place>
             <place xml:id="JP-006127">
                <idno type="uri">https://www.geonames.org/2855274</idno>
@@ -643,19 +851,29 @@
                   </linkGrp>
                </linkGrp>
             </place>
+            <place xml:id="JP-2937036">
+               <idno type="uri">https://www.geonames.org/2615198</idno>
+               <placeName type="reg">Pederstrup</placeName>
+            </place>
             <place xml:id="JP-006129">
                <idno type="uri">http://www.geonames.org/2855068</idno>
                <placeName type="reg">Pegau</placeName>
-               <linkGrp type="mention"><linkGrp type="abt3">
+               <linkGrp type="mention">
+                  <linkGrp type="abt3">
                      <linkGrp n="III">
                         <ptr type="letter" target="2-1" corresp="III_1"/>
                         <ptr type="letter" target="58-25" corresp="III_81"/>
                      </linkGrp>
-                  </linkGrp><linkGrp type="abt4">
+                  </linkGrp>
+                  <linkGrp type="abt4">
                      <linkGrp n="VII">
-                        <ptr type="letter" target="11-24" next="11-25"/>
+                        <ptr type="letter" target="11-24" next="11-25" corresp="IV-VII_7"/>
                      </linkGrp>
-                  </linkGrp><linkGrp type="context"><ptr type="letter" corresp="1810/1810-07-20_CEhrenberg_CRichter" target="JP-UB0193"/></linkGrp><linkGrp type="context"><ptr type="letter" corresp="1810/1810-07-20_CEhrenberg_CRichter" target="JP-UB0193"/></linkGrp></linkGrp>
+                  </linkGrp>
+                  <linkGrp type="context">
+                     <ptr type="letter" corresp="1810/1810-07-20_CEhrenberg_CRichter" target="JP-UB0193"/>
+                  </linkGrp>
+               </linkGrp>
             </place>
             <place xml:id="JP-006130">
                <idno type="uri">https://www.geonames.org/2855065</idno>
@@ -719,8 +937,8 @@
                   </linkGrp>
                   <linkGrp type="abt4">
                      <linkGrp n="VII">
-                        <ptr type="letter" target="122-19"/>
-                        <ptr type="letter" target="122-21"/>
+                        <ptr type="letter" target="122-19" corresp="IV-VII_75"/>
+                        <ptr type="letter" target="122-21" corresp="IV-VII_75"/>
                      </linkGrp>
                   </linkGrp>
                </linkGrp>
@@ -741,14 +959,19 @@
             </place>
             <place xml:id="JP-006136">
                <placeName type="reg">Petersinsel im Bieler See</placeName>
-               <linkGrp type="mention"><linkGrp type="abt3">
+               <linkGrp type="mention">
+                  <linkGrp type="abt3">
                      <linkGrp n="I">
                         <ptr type="letter" target="77-31" ana="†" corresp="I_47"/>
                      </linkGrp>
                      <linkGrp n="III">
                         <ptr type="letter" target="58-9" corresp="III_80"/>
                      </linkGrp>
-                  </linkGrp><linkGrp type="context"><ptr type="letter" corresp="1811/1811-10-31_JEWagner_FTAMueller" target="JP-UB1112"/></linkGrp><linkGrp type="context"><ptr type="letter" corresp="1811/1811-10-31_JEWagner_FTAMueller" target="JP-UB1112"/></linkGrp></linkGrp>
+                  </linkGrp>
+                  <linkGrp type="context">
+                     <ptr type="letter" corresp="1811/1811-10-31_JEWagner_FTAMueller" target="JP-UB1112"/>
+                  </linkGrp>
+               </linkGrp>
             </place>
             <place xml:id="JP-006137">
                <idno type="uri">https://www.geonames.org/2854386</idno>
@@ -769,7 +992,7 @@
                         <ptr type="letter" target="127-22"/>
                      </linkGrp>
                      <linkGrp n="IV">
-                        <ptr type="letter" target="369-28"/>
+                        <ptr type="letter" target="369-28" corresp="IV-IV_269"/>
                      </linkGrp>
                   </linkGrp>
                </linkGrp>
@@ -777,14 +1000,21 @@
             <place xml:id="JP-014113">
                <idno type="uri">https://www.geonames.org/2853969</idno>
                <placeName type="reg">Pforzheim</placeName>
-               <linkGrp type="mention"><linkGrp type="context"><ptr type="letter" corresp="1809/1809-10-24_EOsmund_PEThieriot" target="JP-UB1885"/></linkGrp><linkGrp type="context"><ptr type="letter" corresp="1809/1809-10-24_EOsmund_PEThieriot" target="JP-UB1885"/><ptr type="letter" corresp="1817/1817-08-16_HVoss-JP_AVoss" target="JP-UB1691"/></linkGrp></linkGrp>
+               <linkGrp type="mention">
+                  <linkGrp type="context">
+                     <ptr type="letter" corresp="1809/1809-10-24_EOsmund_PEThieriot" target="JP-UB1885"/>
+                     <ptr type="letter" corresp="1817/1817-08-16_HVoss-JP_AVoss" target="JP-UB1691"/>
+                  </linkGrp>
+               </linkGrp>
             </place>
             <place xml:id="JP-014354">
                <idno type="uri">https://www.geonames.org/2987375</idno>
                <placeName type="reg">Picardie</placeName>
                <note>Region in Frankreich.</note>
                <linkGrp type="mention">
-                  <linkGrp type="context"><ptr type="letter" corresp="1813/1813-11-04_PEThieriot_EOsmund" target="JP-UB2083"/></linkGrp>
+                  <linkGrp type="context">
+                     <ptr type="letter" corresp="1813/1813-11-04_PEThieriot_EOsmund" target="JP-UB2083"/>
+                  </linkGrp>
                </linkGrp>
             </place>
             <place xml:id="JP-006139">
@@ -808,11 +1038,17 @@
                <idno type="uri">http://www.geonames.org/2853890</idno>
                <placeName type="reg">Pichelswerder <add>(Pickelswerder)</add>, Halbinsel an der
                   Havel bei Berlin</placeName>
-               <linkGrp type="mention"><linkGrp type="abt3">
+               <linkGrp type="mention">
+                  <linkGrp type="abt3">
                      <linkGrp n="III">
                         <ptr type="letter" target="345-34" corresp="III_482"/>
                      </linkGrp>
-                  </linkGrp><linkGrp type="context"><ptr type="comment" corresp="1800/1800-07-01_CMayer_MSpazier" target="JP-UB0060"/></linkGrp><linkGrp type="context"><ptr type="comment" corresp="1800/1800-07-01_CMayer_MSpazier" target="JP-UB0060"/></linkGrp></linkGrp>
+                  </linkGrp>
+                  <linkGrp type="context">
+                     <ptr type="comment" corresp="1800/1800-07-01_CMayer_MSpazier" target="JP-UB0060"/>
+                     <ptr type="comment" corresp="1800/1800-07-01_CMayer_MSpazier" target="JP-UB0060"/>
+                  </linkGrp>
+               </linkGrp>
             </place>
             <place xml:id="JP-006141">
                <placeName type="reg">Pico <add>(Pik, Piko)</add>, Berg auf Teneriffa</placeName>
@@ -841,23 +1077,30 @@
             <place xml:id="JP-006143">
                <idno type="uri">http://www.geonames.org/2853707</idno>
                <placeName type="reg">Pillnitz <add>(Pilnitz)</add> bei Dresden</placeName>
-               <linkGrp type="mention"><linkGrp type="abt3">
+               <linkGrp type="mention">
+                  <linkGrp type="abt3">
                      <linkGrp n="VIII">
                         <ptr type="letter" target="188-31" ana="†" corresp="VIII_310"/>
                      </linkGrp>
-                  </linkGrp><linkGrp type="abt4">
+                  </linkGrp>
+                  <linkGrp type="abt4">
                      <linkGrp n="VIII">
-                        <ptr type="letter" target="322-34"/>
-                        <ptr type="letter" target="322-36"/>
+                        <ptr type="letter" target="322-34" corresp="IV-VIII_189"/>
+                        <ptr type="letter" target="322-36" corresp="IV-VIII_189"/>
                      </linkGrp>
-                  </linkGrp><linkGrp type="context"><ptr type="letter" corresp="1819/1819-11-07_MSpazier_CRichter" target="JP-UB0516"/><ptr type="letter" corresp="1820/1820-06-03_HvEnde_CRichter" target="JP-UB0575"/></linkGrp><linkGrp type="context"><ptr type="letter" corresp="1819/1819-11-07_MSpazier_CRichter" target="JP-UB0516"/><ptr type="letter" corresp="1820/1820-06-03_HvEnde_CRichter" target="JP-UB0575"/></linkGrp></linkGrp>
+                  </linkGrp>
+                  <linkGrp type="context">
+                     <ptr type="letter" corresp="1819/1819-11-07_MSpazier_CRichter" target="JP-UB0516"/>
+                     <ptr type="letter" corresp="1820/1820-06-03_HvEnde_CRichter" target="JP-UB0575"/>
+                  </linkGrp>
+               </linkGrp>
                <listPlace>
                   <place xml:id="JP-011605" corresp="JP-006143">
                      <placeName type="reg">Neues Palais (Fest- und Speisesaal)</placeName>
                      <linkGrp type="mention">
                         <linkGrp type="abt4">
                            <linkGrp n="VIII">
-                              <ptr type="letter" target="384-13" next="384-14"/>
+                              <ptr type="letter" target="384-13" next="384-14" corresp="IV-VIII_239"/>
                            </linkGrp>
                         </linkGrp>
                      </linkGrp>
@@ -870,7 +1113,7 @@
                <linkGrp type="mention">
                   <linkGrp type="abt4">
                      <linkGrp n="VIII">
-                        <ptr type="letter" target="419-18"/>
+                        <ptr type="letter" target="419-18" corresp="IV-VIII_261"/>
                      </linkGrp>
                   </linkGrp>
                </linkGrp>
@@ -878,30 +1121,40 @@
             <place xml:id="JP-006145">
                <idno type="uri">https://www.geonames.org/363258</idno>
                <placeName type="reg">Pindus, Musenberg in Griechenland</placeName>
-               <linkGrp type="mention"><linkGrp type="abt3">
+               <linkGrp type="mention">
+                  <linkGrp type="abt3">
                      <linkGrp n="II">
                         <ptr type="letter" target="250-9" corresp="II_421"/>
                      </linkGrp>
                      <linkGrp n="III">
                         <ptr type="letter" target="132-2" corresp="III_167"/>
                      </linkGrp>
-                  </linkGrp><linkGrp type="context"><ptr type="letter" corresp="1808/1808-08-10_JEWagner_FTAMueller" target="JP-UB0887"/></linkGrp><linkGrp type="context"><ptr type="letter" corresp="1808/1808-08-10_JEWagner_FTAMueller" target="JP-UB0887"/></linkGrp></linkGrp>
+                  </linkGrp>
+                  <linkGrp type="context">
+                     <ptr type="letter" corresp="1808/1808-08-10_JEWagner_FTAMueller" target="JP-UB0887"/>
+                  </linkGrp>
+               </linkGrp>
             </place>
             <place xml:id="JP-006146">
                <idno type="uri">http://www.geonames.org/2853572</idno>
                <placeName type="reg">Pirna</placeName>
-               <linkGrp type="mention"><linkGrp type="abt3">
+               <linkGrp type="mention">
+                  <linkGrp type="abt3">
                      <linkGrp n="VIII">
                         <ptr type="comment" target="347-92" corresp="VIII_92"/>
                      </linkGrp>
-                  </linkGrp><linkGrp type="context"><ptr type="comment" corresp="1802/1802-09-01_SAMahlmann_LTieck" target="JP-UB1030"/></linkGrp></linkGrp>
+                  </linkGrp>
+                  <linkGrp type="context">
+                     <ptr type="comment" corresp="1802/1802-09-01_SAMahlmann_LTieck" target="JP-UB1030"/>
+                  </linkGrp>
+               </linkGrp>
                <listPlace>
                   <place xml:id="JP-011606" corresp="JP-006146">
                      <placeName type="reg">Waisenhaus</placeName>
                      <linkGrp type="mention">
                         <linkGrp type="abt4">
                            <linkGrp n="VIII">
-                              <ptr type="comment" target="611-9"/>
+                              <ptr type="comment" target="611-9" corresp="IV-VIII_EB_9"/>
                            </linkGrp>
                         </linkGrp>
                      </linkGrp>
@@ -911,19 +1164,24 @@
             <place xml:id="JP-006147">
                <idno type="uri">http://www.geonames.org/3170647</idno>
                <placeName type="reg">Pisa</placeName>
-               <linkGrp type="mention"><linkGrp type="abt4">
+               <linkGrp type="mention">
+                  <linkGrp type="abt4">
                      <linkGrp n="VII">
-                        <ptr type="letter" target="260-9"/>
-                        <ptr type="letter" target="260-26"/>
+                        <ptr type="letter" target="260-9" corresp="IV-VII_158"/>
+                        <ptr type="letter" target="260-26" corresp="IV-VII_158"/>
                      </linkGrp>
-                  </linkGrp><linkGrp type="context"><ptr type="letter" corresp="1805/1805-07-16_CRichter_JSWMayer" target="JP-UB0319"/></linkGrp><linkGrp type="context"><ptr type="letter" corresp="1805/1805-07-16_CRichter_JSWMayer" target="JP-UB0319"/></linkGrp></linkGrp>
+                  </linkGrp>
+                  <linkGrp type="context">
+                     <ptr type="letter" corresp="1805/1805-07-16_CRichter_JSWMayer" target="JP-UB0319"/>
+                  </linkGrp>
+               </linkGrp>
                <listPlace>
                   <place xml:id="JP-011607" corresp="JP-006147">
                      <placeName type="reg">Bagni di Pisa</placeName>
                      <linkGrp type="mention">
                         <linkGrp type="abt4">
                            <linkGrp n="VII">
-                              <ptr type="letter" target="260-12"/>
+                              <ptr type="letter" target="260-12" corresp="IV-VII_158"/>
                            </linkGrp>
                         </linkGrp>
                      </linkGrp>
@@ -952,8 +1210,8 @@
                   </linkGrp>
                   <linkGrp type="abt4">
                      <linkGrp n="II">
-                        <ptr type="letter" target="366-13"/>
-                        <ptr type="letter" target="368-27" ana="†"/>
+                        <ptr type="letter" target="366-13" corresp="IV-II_221"/>
+                        <ptr type="letter" target="368-27" ana="†" corresp="IV-II_221"/>
                      </linkGrp>
                   </linkGrp>
                </linkGrp>
@@ -961,7 +1219,8 @@
             <place xml:id="JP-006150">
                <idno type="uri">http://www.geonames.org/2853292</idno>
                <placeName type="reg">Plauen</placeName>
-               <linkGrp type="mention"><linkGrp type="abt3">
+               <linkGrp type="mention">
+                  <linkGrp type="abt3">
                      <linkGrp n="I">
                         <ptr type="letter" target="130-24" corresp="I_82"/>
                         <ptr type="letter" target="145-15" corresp="I_90"/>
@@ -974,30 +1233,36 @@
                         <ptr type="letter" target="166-34" corresp="VIII_278"/>
                         <ptr type="letter" target="182-10" corresp="VIII_295"/>
                      </linkGrp>
-                  </linkGrp><linkGrp type="abt4">
+                  </linkGrp>
+                  <linkGrp type="abt4">
                      <linkGrp n="I">
-                        <ptr type="letter" target="202-16" ana="†"/>
+                        <ptr type="letter" target="202-16" ana="†" corresp="IV-I_112"/>
                      </linkGrp>
                      <linkGrp n="III/1">
                         <ptr type="letter" target="110-31"/>
                         <ptr type="letter" target="111-8"/>
                      </linkGrp>
                      <linkGrp n="IV">
-                        <ptr type="letter" target="303-14"/>
+                        <ptr type="letter" target="303-14" corresp="IV-IV_216"/>
                      </linkGrp>
                      <linkGrp n="VII">
-                        <ptr type="letter" target="362-31"/>
-                        <ptr type="letter" target="364-7"/>
+                        <ptr type="letter" target="362-31" corresp="IV-VII_230"/>
+                        <ptr type="letter" target="364-7" corresp="IV-VII_231"/>
                      </linkGrp>
-                  </linkGrp><linkGrp type="context"><ptr type="comment" corresp="1813/1813-07-22_EOsmund_JBraun" target="JP-UB1327"/><ptr type="comment" corresp="1822/1822-05-27_CRichter_ORichter" target="JP-UB0429"/></linkGrp><linkGrp type="context"><ptr type="comment" corresp="1813/1813-07-22_EOsmund_JBraun" target="JP-UB1327"/><ptr type="comment" corresp="1822/1822-05-27_CRichter_ORichter" target="JP-UB0429"/></linkGrp></linkGrp>
+                  </linkGrp>
+                  <linkGrp type="context">
+                     <ptr type="comment" corresp="1813/1813-07-22_EOsmund_JBraun" target="JP-UB1327"/>
+                     <ptr type="comment" corresp="1822/1822-05-27_CRichter_ORichter" target="JP-UB0429"/>
+                  </linkGrp>
+               </linkGrp>
                <listPlace>
                   <place xml:id="JP-011608" corresp="JP-006150">
                      <placeName type="reg">Gasthof Engel</placeName>
                      <linkGrp type="mention">
                         <linkGrp type="abt4">
                            <linkGrp n="VII">
-                              <ptr type="letter" target="363-17"/>
-                              <ptr type="letter" target="364-7" rend="Wirtsleute"/>
+                              <ptr type="letter" target="363-17" corresp="IV-VII_230"/>
+                              <ptr type="letter" target="364-7" rend="Wirtsleute" corresp="IV-VII_231"/>
                            </linkGrp>
                         </linkGrp>
                      </linkGrp>
@@ -1025,7 +1290,9 @@
                         <ptr type="letter" target="232-24"/>
                      </linkGrp>
                   </linkGrp>
-                  <linkGrp type="context"><ptr type="comment" corresp="1781/1781-09-17_JIRein_ALOerthel" target="JP-UB1964"/></linkGrp>
+                  <linkGrp type="context">
+                     <ptr type="comment" corresp="1781/1781-09-17_JIRein_ALOerthel" target="JP-UB1964"/>
+                  </linkGrp>
                </linkGrp>
             </place>
             <place xml:id="JP-006152">
@@ -1045,7 +1312,7 @@
                   </linkGrp>
                   <linkGrp type="abt4">
                      <linkGrp n="IX">
-                        <ptr type="letter" target="14-20"/>
+                        <ptr type="letter" target="14-20" corresp="IV-IX_1.30"/>
                      </linkGrp>
                   </linkGrp>
                </linkGrp>
@@ -1064,7 +1331,8 @@
                <idno type="uri">http://www.geonames.org/798544</idno>
                <placeName type="reg">Polen <add>(Pohlen)</add>
                </placeName>
-               <linkGrp type="mention"><linkGrp type="abt3">
+               <linkGrp type="mention">
+                  <linkGrp type="abt3">
                      <linkGrp n="III">
                         <ptr type="letter" target="95-29" corresp="III_125"/>
                         <ptr type="letter" target="99-15" corresp="III_129"/>
@@ -1080,14 +1348,24 @@
                      <linkGrp n="VIII">
                         <ptr type="letter" target="179-29" corresp="VIII_292"/>
                      </linkGrp>
-                  </linkGrp><linkGrp type="abt4">
+                  </linkGrp>
+                  <linkGrp type="abt4">
                      <linkGrp n="II">
-                        <ptr type="letter" target="162-15" ana="†"/>
+                        <ptr type="letter" target="162-15" ana="†" corresp="IV-II_82"/>
                      </linkGrp>
                      <linkGrp n="III/1">
                         <ptr type="letter" target="73-28"/>
                      </linkGrp>
-                  </linkGrp><linkGrp type="context"><ptr type="letter" corresp="1800/1800-03-28_CvFeuchtersleben_EvFeuchtersleben" target="JP-UB0801"/><ptr type="letter" corresp="1802/1802-10-12_EOsmund_CGoldschmidt" target="JP-UB0025"/><ptr type="letter" corresp="1804/1804-06-09_PEThieriot_EOsmund" target="JP-UB1544"/></linkGrp></linkGrp>
+                  </linkGrp>
+                  <linkGrp type="context">
+                     <ptr type="letter" corresp="1800/1800-03-28_CvFeuchtersleben_EvFeuchtersleben" target="JP-UB0801"/>
+                     <ptr type="letter" corresp="1802/1802-10-12_EOsmund_CGoldschmidt" target="JP-UB0025"/>
+                     <ptr type="letter" corresp="1802/1802-10-12_EOsmund_CGoldschmidt" target="JP-UB0025"/>
+                     <ptr type="letter" corresp="1804/1804-06-09_PEThieriot_EOsmund" target="JP-UB1544"/>
+                     <ptr type="letter" corresp="1821/1821-09-17_HvEnde_CRichter" target="JP-UB0675"/>
+                     <ptr type="comment" corresp="1821/1821-09-17_HvEnde_CRichter" target="JP-UB0675"/>
+                  </linkGrp>
+               </linkGrp>
                <listPlace>
                   <place xml:id="JP-011609" corresp="JP-006154">
                      <placeName type="reg">Juden</placeName>
@@ -1099,7 +1377,7 @@
                         </linkGrp>
                         <linkGrp type="abt4">
                            <linkGrp n="IV">
-                              <ptr type="letter" target="504-20"/>
+                              <ptr type="letter" target="504-20" corresp="IV-IV_AN_6"/>
                            </linkGrp>
                         </linkGrp>
                      </linkGrp>
@@ -1109,7 +1387,8 @@
             <place xml:id="JP-006156">
                <idno type="uri">http://www.geonames.org/3088388</idno>
                <placeName type="reg">Pommern</placeName>
-               <linkGrp type="mention"><linkGrp type="abt3">
+               <linkGrp type="mention">
+                  <linkGrp type="abt3">
                      <linkGrp n="II">
                         <ptr type="letter" target="194-25" corresp="II_314"/>
                      </linkGrp>
@@ -1121,7 +1400,8 @@
                         <ptr type="letter" target="126-2" corresp="VIII_197"/>
                         <ptr type="letter" target="202-35" rend="Gans" corresp="VIII_337"/>
                      </linkGrp>
-                  </linkGrp><linkGrp type="abt4">
+                  </linkGrp>
+                  <linkGrp type="abt4">
                      <linkGrp n="III/2">
                         <ptr type="letter" target="140-2"/>
                         <ptr type="letter" target="144-19"/>
@@ -1129,12 +1409,16 @@
                         <ptr type="letter" target="391-19"/>
                      </linkGrp>
                      <linkGrp n="IV">
-                        <ptr type="letter" target="20-34"/>
+                        <ptr type="letter" target="20-34" corresp="IV-IV_10"/>
                      </linkGrp>
                      <linkGrp n="VIII">
-                        <ptr type="letter" target="135-7"/>
+                        <ptr type="letter" target="135-7" corresp="IV-VIII_72"/>
                      </linkGrp>
-                  </linkGrp><linkGrp type="context"><ptr type="letter" corresp="1811/1811-10-19_LGentz_CRichter" target="JP-UB0440"/></linkGrp><linkGrp type="context"><ptr type="letter" corresp="1811/1811-10-19_LGentz_CRichter" target="JP-UB0440"/></linkGrp></linkGrp>
+                  </linkGrp>
+                  <linkGrp type="context">
+                     <ptr type="comment" corresp="1811/1811-10-19_LGentz_CRichter" target="JP-UB0440"/>
+                  </linkGrp>
+               </linkGrp>
             </place>
             <place xml:id="JP-006157">
                <idno type="uri">https://www.geonames.org/3170195</idno>
@@ -1173,7 +1457,7 @@
                <linkGrp type="mention">
                   <linkGrp type="abt4">
                      <linkGrp n="VII">
-                        <ptr type="letter" target="242-16"/>
+                        <ptr type="letter" target="242-16" corresp="IV-VII_149"/>
                      </linkGrp>
                   </linkGrp>
                </linkGrp>
@@ -1181,21 +1465,32 @@
             <place xml:id="JP-006160">
                <idno type="uri">http://www.geonames.org/3088171</idno>
                <placeName type="reg">Posen</placeName>
-               <linkGrp type="mention"><linkGrp type="abt3">
+               <linkGrp type="mention">
+                  <linkGrp type="abt3">
                      <linkGrp n="VI">
                         <ptr type="letter" target="276-6" corresp="VI_651"/>
                      </linkGrp>
-                  </linkGrp><linkGrp type="abt4">
+                  </linkGrp>
+                  <linkGrp type="abt4">
                      <linkGrp n="VII">
-                        <ptr type="letter" target="416-5"/>
+                        <ptr type="letter" target="416-5" corresp="IV-VII_AN_12"/>
                      </linkGrp>
-                  </linkGrp><linkGrp type="context"><ptr type="comment" corresp="1807/1807-02-10_JEWagner_GJGoeschen" target="JP-UB1055"/></linkGrp><linkGrp type="context"><ptr type="comment" corresp="1807/1807-02-10_JEWagner_GJGoeschen" target="JP-UB1055"/></linkGrp></linkGrp>
+                  </linkGrp>
+                  <linkGrp type="context">
+                     <ptr type="comment" corresp="1806/1806-11-18_SAMahlmann_CABoettiger" target="JP-UB4640"/>
+                     <ptr type="comment" corresp="1807/1807-02-10_JEWagner_GJGoeschen" target="JP-UB1055"/>
+                  </linkGrp>
+               </linkGrp>
             </place>
             <place xml:id="JP-013326">
                <idno type="uri">https://www.geonames.org/3170055</idno>
                <placeName type="reg">Posillipo</placeName>
                <note>ein etwa sechs Kilometer langer Hügelzug südwestlich von Neapel.</note>
-               <linkGrp type="mention"><linkGrp type="context"><ptr type="comment" corresp="1822/1822-12-25_HvEnde_CRichter" target="JP-UB0766"/></linkGrp><linkGrp type="context"><ptr type="comment" corresp="1822/1822-12-25_HvEnde_CRichter" target="JP-UB0766"/></linkGrp></linkGrp>
+               <linkGrp type="mention">
+                  <linkGrp type="context">
+                     <ptr type="comment" corresp="1822/1822-12-25_HvEnde_CRichter" target="JP-UB0766"/>
+                  </linkGrp>
+               </linkGrp>
             </place>
             <place xml:id="JP-006161">
                <idno type="uri">https://www.geonames.org/3907584</idno>
@@ -1209,9 +1504,10 @@
                </linkGrp>
             </place>
             <place xml:id="JP-006162">
-               <idno type="uri">http://www.geonames.org/2852458</idno>
+               <idno type="uri">https://www.geonames.org/2852458</idno>
                <placeName type="reg">Potsdam</placeName>
-               <linkGrp type="mention"><linkGrp type="abt3">
+               <linkGrp type="mention">
+                  <linkGrp type="abt3">
                      <linkGrp n="III">
                         <ptr type="letter" target="337-14" corresp="III_472a"/>
                         <ptr type="letter" target="345-21" corresp="III_482"/>
@@ -1222,33 +1518,51 @@
                         <ptr type="letter" target="73-21" corresp="IV_134"/>
                         <ptr subtype="receivedLetter" target="447-113"/>
                      </linkGrp>
-                  </linkGrp><linkGrp type="abt4">
+                  </linkGrp>
+                  <linkGrp type="abt4">
                      <linkGrp n="II">
-                        <ptr type="letter" target="171-24"/>
+                        <ptr type="letter" target="171-24" corresp="IV-II_90"/>
                      </linkGrp>
                      <linkGrp n="III/2">
                         <ptr type="letter" target="386-8"/>
                      </linkGrp>
                      <linkGrp n="IV">
-                        <ptr type="letter" target="12-6"/>
-                        <ptr type="letter" target="163-30"/>
-                        <ptr type="letter" target="163-33"/>
-                        <ptr type="letter" target="170-20"/>
+                        <ptr type="letter" target="12-6" corresp="IV-IV_5"/>
+                        <ptr type="letter" target="163-30" corresp="IV-IV_113"/>
+                        <ptr type="letter" target="163-33" corresp="IV-IV_113"/>
+                        <ptr type="letter" target="170-20" corresp="IV-IV_118"/>
                      </linkGrp>
                      <linkGrp n="VI">
-                        <ptr type="letter" target="51-26"/>
+                        <ptr type="letter" target="51-26" corresp="IV-VI_37"/>
                      </linkGrp>
                      <linkGrp n="VII">
-                        <ptr type="letter" target="390-27"/>
+                        <ptr type="letter" target="390-27" corresp="IV-VII_240"/>
                      </linkGrp>
-                  </linkGrp><linkGrp type="context"><ptr type="letter" corresp="1805/1805-07-16_CRichter_JSWMayer" target="JP-UB0319"/><ptr type="letter" corresp="1805/1805-11-21_JSWMayer_CRichter-MSpazier" target="JP-UB0349"/><ptr type="letter" corresp="1810/1810-08-20_AvBassewitz_CRichter" target="JP-UB0048"/><ptr type="letter" corresp="1810/1810-10-16_HSchwendler_EOsmund" target="JP-UB0435"/><ptr type="letter" corresp="1811/1811-11-07_GKessler_JEWagner" target="JP-UB1113"/><ptr type="letter" corresp="1815/1815-09-09_JSWMayer_CRichter" target="JP-UB0415"/><ptr type="letter" corresp="1816/1816-08-31_JSWMayer_CRichter" target="JP-UB0792"/><ptr type="letter" corresp="1818/1818-09-24_CRichter_JSWMayer" target="JP-UB0413"/><ptr type="letter" corresp="1819/1819-08-09_JSWMayer-HMayer_CRichter" target="JP-UB0393"/><ptr type="letter" corresp="1822/1822-03-14_WDoerffer_CRichter" target="JP-UB0289"/><ptr type="comment" corresp="1811/1811-11-07_GKessler_JEWagner" target="JP-UB1113"/></linkGrp><linkGrp type="context"><ptr type="letter" corresp="1805/1805-07-16_CRichter_JSWMayer" target="JP-UB0319"/><ptr type="letter" corresp="1805/1805-11-21_JSWMayer_CRichter-MSpazier" target="JP-UB0349"/><ptr type="letter" corresp="1810/1810-08-20_AvBassewitz_CRichter" target="JP-UB0048"/><ptr type="letter" corresp="1810/1810-10-16_HSchwendler_EOsmund" target="JP-UB0435"/><ptr type="letter" corresp="1815/1815-09-09_JSWMayer_CRichter" target="JP-UB0415"/><ptr type="letter" corresp="1816/1816-08-31_JSWMayer_CRichter" target="JP-UB0792"/><ptr type="letter" corresp="1818/1818-09-24_CRichter_JSWMayer" target="JP-UB0413"/><ptr type="letter" corresp="1819/1819-08-09_JSWMayer-HMayer_CRichter" target="JP-UB0393"/><ptr type="letter" corresp="1822/1822-03-14_WDoerffer_CRichter" target="JP-UB0289"/></linkGrp></linkGrp>
+                  </linkGrp>
+                  <linkGrp type="context">
+                     <ptr type="letter" corresp="1805/1805-07-16_CRichter_JSWMayer" target="JP-UB0319"/>
+                     <ptr type="letter" corresp="1805/1805-11-21_JSWMayer_CRichter-MSpazier" target="JP-UB0349"/>
+                     <ptr type="letter" corresp="1810/1810-08-20_AvBassewitz_CRichter" target="JP-UB0048"/>
+                     <ptr type="letter" corresp="1810/1810-08-20_AvBassewitz_CRichter" target="JP-UB0048"/>
+                     <ptr type="letter" corresp="1810/1810-10-16_HSchwendler_EOsmund" target="JP-UB0435"/>
+                     <ptr type="letter" corresp="1811/1811-11-07_GKessler_JEWagner" target="JP-UB1113"/>
+                     <ptr type="letter" corresp="1815/1815-09-09_JSWMayer_CRichter" target="JP-UB0415"/>
+                     <ptr type="letter" corresp="1816/1816-08-31_JSWMayer_CRichter" target="JP-UB0792"/>
+                     <ptr type="letter" corresp="1818/1818-09-24_CRichter_JSWMayer" target="JP-UB0413"/>
+                     <ptr type="letter" corresp="1819/1819-08-09_JSWMayer-HMayer_CRichter" target="JP-UB0393"/>
+                     <ptr type="letter" corresp="1819/1819-08-09_JSWMayer-HMayer_CRichter" target="JP-UB0393"/>
+                     <ptr type="letter" corresp="1819/1819-08-09_JSWMayer-HMayer_CRichter" target="JP-UB0393"/>
+                     <ptr type="letter" corresp="1822/1822-03-14_WDoerffer_CRichter" target="JP-UB0289"/>
+                     <ptr type="comment" corresp="1811/1811-11-07_GKessler_JEWagner" target="JP-UB1113"/>
+                  </linkGrp>
+               </linkGrp>
                <listPlace>
                   <place xml:id="JP-011610" corresp="JP-006162">
                      <placeName type="reg">Neuer Garten</placeName>
                      <linkGrp type="mention">
                         <linkGrp type="abt4">
                            <linkGrp n="IV">
-                              <ptr type="letter" target="12-4" next="12-6"/>
+                              <ptr type="letter" target="12-4" next="12-6" corresp="IV-IV_5"/>
                            </linkGrp>
                         </linkGrp>
                      </linkGrp>
@@ -1258,7 +1572,8 @@
             <place xml:id="JP-006438">
                <idno type="uri">http://www.geonames.org/3067696</idno>
                <placeName type="reg">Prag</placeName>
-               <linkGrp type="mention"><linkGrp type="abt3">
+               <linkGrp type="mention">
+                  <linkGrp type="abt3">
                      <linkGrp n="I">
                         <ptr type="letter" target="201-9" corresp="I_154"/>
                         <ptr type="letter" target="201-26" corresp="I_154"/>
@@ -1276,66 +1591,116 @@
                      <linkGrp n="IX">
                         <ptr type="letter" target="3-10" corresp="IX_1"/>
                      </linkGrp>
-                  </linkGrp><linkGrp type="abt4">
+                  </linkGrp>
+                  <linkGrp type="abt4">
                      <linkGrp n="I">
-                        <ptr type="letter" target="53-22"/>
-                        <ptr type="letter" target="122-20" ana="†"/>
-                        <ptr type="letter" target="173-25" ana="†"/>
-                        <ptr type="comment" target="411-29"/>
+                        <ptr type="letter" target="53-22" corresp="IV-I_30"/>
+                        <ptr type="letter" target="122-20" ana="†" corresp="IV-I_83"/>
+                        <ptr type="letter" target="173-25" ana="†" corresp="IV-I_97"/>
+                        <ptr type="comment" target="411-29" corresp="IV-I_29"/>
                      </linkGrp>
                      <linkGrp n="II">
-                        <ptr type="letter" target="410-27" ana="ff"/>
+                        <ptr type="letter" target="410-27" ana="ff" corresp="IV-II_247"/>
                      </linkGrp>
                      <linkGrp n="V">
-                        <ptr type="letter" target="190-13"/>
+                        <ptr type="letter" target="190-13" corresp="IV-V_142"/>
                      </linkGrp>
                      <linkGrp n="VI">
-                        <ptr type="letter" target="107-31"/>
-                        <ptr type="letter" target="108-3"/>
+                        <ptr type="letter" target="107-31" corresp="IV-VI_82"/>
+                        <ptr type="letter" target="108-3" corresp="IV-VI_82"/>
                      </linkGrp>
                      <linkGrp n="VIII">
-                        <ptr type="letter" target="27-13"/>
-                        <ptr type="letter" target="476-35"/>
+                        <ptr type="letter" target="27-13" corresp="IV-VIII_14"/>
+                        <ptr type="letter" target="476-35" corresp="IV-VIII_300"/>
                      </linkGrp>
-                  </linkGrp><linkGrp type="context"><ptr type="letter" corresp="1804/1804-02-29_EOsmund_CGoldschmidt" target="JP-UB0300"/><ptr type="letter" corresp="1804/1804-05-30_PEThieriot_EOsmund" target="JP-UB1543"/><ptr type="letter" corresp="1804/1804-06-30_PEThieriot_EOsmund" target="JP-UB1548"/><ptr type="letter" corresp="1804/1804-10-30_KSpazier_NPStampeel" target="JP-UB0637"/><ptr type="letter" corresp="1807/1807-10-22_JEWagner_JFFrauenholz" target="JP-UB0865"/><ptr type="letter" corresp="1810/1810-09-00_CGoldschmidt_EOsmund" target="JP-UB1315"/><ptr type="letter" corresp="1815/1815-04-23_PEThieriot_JHThieriot" target="JP-UB1936"/><ptr type="letter" corresp="1817/1817-06-23_CGoldschmidt_RVarnhagen" target="JP-UB2101"/><ptr type="comment" corresp="1803/1803-10-01_KSpazier_JDFalk" target="JP-UB0181"/><ptr type="comment" corresp="1807/1807-06-17_EOsmund_CGoldschmidt" target="JP-UB1285"/><ptr type="comment" corresp="1810/1810-10-30_EOsmund_CGoldschmidt" target="JP-UB1316"/></linkGrp><linkGrp type="context"><ptr type="letter" corresp="1804/1804-02-29_EOsmund_CGoldschmidt" target="JP-UB0300"/><ptr type="letter" corresp="1804/1804-05-30_PEThieriot_EOsmund" target="JP-UB1543"/><ptr type="letter" corresp="1804/1804-06-30_PEThieriot_EOsmund" target="JP-UB1548"/><ptr type="letter" corresp="1804/1804-10-30_KSpazier_NPStampeel" target="JP-UB0637"/><ptr type="letter" corresp="1807/1807-10-22_JEWagner_JFFrauenholz" target="JP-UB0865"/><ptr type="letter" corresp="1810/1810-09-00_CGoldschmidt_EOsmund" target="JP-UB1315"/><ptr type="comment" corresp="1803/1803-10-01_KSpazier_JDFalk" target="JP-UB0181"/><ptr type="comment" corresp="1807/1807-06-17_EOsmund_CGoldschmidt" target="JP-UB1285"/><ptr type="comment" corresp="1810/1810-09-00_CGoldschmidt_EOsmund" target="JP-UB1315"/><ptr type="comment" corresp="1810/1810-10-30_EOsmund_CGoldschmidt" target="JP-UB1316"/></linkGrp></linkGrp>
+                  </linkGrp>
+                  <linkGrp type="context">
+                     <ptr type="letter" corresp="1804/1804-02-29_EOsmund_CGoldschmidt" target="JP-UB0300"/>
+                     <ptr type="letter" corresp="1804/1804-05-30_PEThieriot_EOsmund" target="JP-UB1543"/>
+                     <ptr type="letter" corresp="1804/1804-06-30_PEThieriot_EOsmund" target="JP-UB1548"/>
+                     <ptr type="letter" corresp="1804/1804-10-30_KSpazier_NPStampeel" target="JP-UB0637"/>
+                     <ptr type="letter" corresp="1807/1807-10-22_JEWagner_JFFrauenholz" target="JP-UB0865"/>
+                     <ptr type="letter" corresp="1810/1810-09-00_CGoldschmidt_EOsmund" target="JP-UB1315"/>
+                     <ptr type="letter" corresp="1815/1815-04-23_PEThieriot_JHThieriot" target="JP-UB1936"/>
+                     <ptr type="letter" corresp="1817/1817-06-23_CGoldschmidt_RVarnhagen" target="JP-UB2101"/>
+                     <ptr type="comment" corresp="1803/1803-10-01_KSpazier_JDFalk" target="JP-UB0181"/>
+                     <ptr type="comment" corresp="1807/1807-06-17_EOsmund_CGoldschmidt" target="JP-UB1285"/>
+                     <ptr type="comment" corresp="1810/1810-09-00_CGoldschmidt_EOsmund" target="JP-UB1315"/>
+                     <ptr type="comment" corresp="1810/1810-10-30_EOsmund_CGoldschmidt" target="JP-UB1316"/>
+                  </linkGrp>
+               </linkGrp>
                <listPlace>
                   <place xml:id="JP-014360">
                      <placeName type="reg">Burg</placeName>
                      <linkGrp type="mention">
-                        <linkGrp type="context"><ptr type="comment" corresp="1809/1809-02-01_FAKanne_PEThieriot" target="JP-UB2030"/></linkGrp>
+                        <linkGrp type="context">
+                           <ptr type="comment" corresp="1809/1809-02-01_FAKanne_PEThieriot" target="JP-UB2030"/>
+                        </linkGrp>
                      </linkGrp>
                   </place>
                   <place xml:id="JP-014357">
                      <placeName type="reg">Gasthof Altes Ungelt</placeName>
                      <linkGrp type="mention">
-                        <linkGrp type="context"><ptr type="comment" corresp="1809/1809-02-01_FAKanne_PEThieriot" target="JP-UB2030"/></linkGrp>
+                        <linkGrp type="context">
+                           <ptr type="comment" corresp="1809/1809-02-01_FAKanne_PEThieriot" target="JP-UB2030"/>
+                        </linkGrp>
                      </linkGrp>
                   </place>
                   <place xml:id="JP-013639">
                      <placeName type="reg">Gasthof Rotes Haus</placeName>
-                     <linkGrp type="mention"><linkGrp type="context"><ptr type="comment" corresp="1804/1804-06-30_PEThieriot_EOsmund" target="JP-UB1548"/></linkGrp><linkGrp type="context"><ptr type="comment" corresp="1804/1804-06-30_PEThieriot_EOsmund" target="JP-UB1548"/></linkGrp></linkGrp>
+                     <linkGrp type="mention">
+                        <linkGrp type="context">
+                           <ptr type="comment" corresp="1804/1804-06-30_PEThieriot_EOsmund" target="JP-UB1548"/>
+                        </linkGrp>
+                     </linkGrp>
                   </place>
                   <place xml:id="JP-014355">
                      <idno type="uri">http://www.geonames.org/3071213</idno>
                      <placeName type="reg">Kleinseite</placeName>
                      <note>Malá Strana, Stadtteil am westlichen Moldauufer.</note>
-                     <linkGrp type="mention"><linkGrp type="context"><ptr type="letter" corresp="1815/1815-01-14_CGoldschmidt_RVarnhagen" target="JP-UB2088"/><ptr type="letter" corresp="1815/1815-01-17_CGoldschmidt_RVarnhagen" target="JP-UB2089"/><ptr type="letter" corresp="1815/1815-01-29_CGoldschmidt_RVarnhagen" target="JP-UB2090"/></linkGrp><linkGrp type="context"><ptr type="letter" corresp="1815/1815-01-14_CGoldschmidt_RVarnhagen" target="JP-UB2088"/><ptr type="letter" corresp="1815/1815-01-17_CGoldschmidt_RVarnhagen" target="JP-UB2089"/><ptr type="letter" corresp="1815/1815-01-29_CGoldschmidt_RVarnhagen" target="JP-UB2090"/></linkGrp></linkGrp>
+                     <linkGrp type="mention">
+                        <linkGrp type="context">
+                           <ptr type="letter" corresp="1815/1815-01-14_CGoldschmidt_RVarnhagen" target="JP-UB2088"/>
+                           <ptr type="letter" corresp="1815/1815-01-14_CGoldschmidt_RVarnhagen" target="JP-UB2088"/>
+                           <ptr type="letter" corresp="1815/1815-01-17_CGoldschmidt_RVarnhagen" target="JP-UB2089"/>
+                           <ptr type="letter" corresp="1815/1815-01-29_CGoldschmidt_RVarnhagen" target="JP-UB2090"/>
+                           <ptr type="comment" corresp="1809/1809-02-01_FAKanne_PEThieriot" target="JP-UB2030"/>
+                        </linkGrp>
+                     </linkGrp>
                   </place>
-                  <place xml:id="JP-014795"><placeName type="reg">Malteser Platz</placeName><placeName type="alt">Maltézské náměstí</placeName><linkGrp type="mention"><linkGrp type="context"><ptr type="letter" corresp="1815/1815-01-14_CGoldschmidt_RVarnhagen" target="JP-UB2088"/></linkGrp></linkGrp></place>
+                  <place xml:id="JP-014800">
+                     <placeName type="reg">Malteser Platz</placeName>
+                     <placeName type="alt">Maltézské náměstí</placeName>
+                     <linkGrp type="mention">
+                        <linkGrp type="context">
+                           <ptr type="letter" corresp="1815/1815-01-14_CGoldschmidt_RVarnhagen" target="JP-UB2088"/>
+                        </linkGrp>
+                     </linkGrp>
+                  </place>
                   <place xml:id="JP-014359">
                      <placeName type="reg">Palais Goltz-Kinsky</placeName>
                      <linkGrp type="mention">
-                        <linkGrp type="context"><ptr type="letter" corresp="1809/1809-02-01_FAKanne_PEThieriot" target="JP-UB2030"/><ptr type="comment" corresp="1809/1809-02-01_FAKanne_PEThieriot" target="JP-UB2030"/></linkGrp>
+                        <linkGrp type="context">
+                           <ptr type="letter" corresp="1809/1809-02-01_FAKanne_PEThieriot" target="JP-UB2030"/>
+                           <ptr type="comment" corresp="1809/1809-02-01_FAKanne_PEThieriot" target="JP-UB2030"/>
+                        </linkGrp>
                      </linkGrp>
                   </place>
                   <place xml:id="JP-014356">
                      <placeName type="reg">Palais Nostitz</placeName>
-                     <linkGrp type="mention"><linkGrp type="context"><ptr type="letter" corresp="1815/1815-01-14_CGoldschmidt_RVarnhagen" target="JP-UB2088"/><ptr type="letter" corresp="1815/1815-01-29_CGoldschmidt_RVarnhagen" target="JP-UB2090"/></linkGrp><linkGrp type="context"><ptr type="letter" corresp="1815/1815-01-14_CGoldschmidt_RVarnhagen" target="JP-UB2088"/><ptr type="comment" corresp="1815/1815-01-29_CGoldschmidt_RVarnhagen" target="JP-UB2090"/></linkGrp></linkGrp>
+                     <linkGrp type="mention">
+                        <linkGrp type="context">
+                           <ptr type="letter" corresp="1815/1815-01-14_CGoldschmidt_RVarnhagen" target="JP-UB2088"/>
+                           <ptr type="comment" corresp="1815/1815-01-29_CGoldschmidt_RVarnhagen" target="JP-UB2090"/>
+                        </linkGrp>
+                     </linkGrp>
                   </place>
                   <place xml:id="JP-014358">
                      <placeName type="reg">Teynhof</placeName>
                      <linkGrp type="mention">
-                        <linkGrp type="context"><ptr type="comment" corresp="1809/1809-02-01_FAKanne_PEThieriot" target="JP-UB2030"/></linkGrp>
+                        <linkGrp type="context">
+                           <ptr type="comment" corresp="1809/1809-02-01_FAKanne_PEThieriot" target="JP-UB2030"/>
+                        </linkGrp>
                      </linkGrp>
                   </place>
                   <place xml:id="JP-011748" corresp="JP-006438">
@@ -1362,17 +1727,25 @@
                         </linkGrp>
                         <linkGrp type="abt4">
                            <linkGrp n="I">
-                              <ptr type="letter" target="53-22"/>
-                              <ptr type="letter" target="122-20" ana="†"/>
-                              <ptr type="letter" target="173-25" ana="†"/>
-                              <ptr type="comment" target="411-29"/>
+                              <ptr type="letter" target="53-22" corresp="IV-I_30"/>
+                              <ptr type="letter" target="122-20" ana="†" corresp="IV-I_83"/>
+                              <ptr type="letter" target="173-25" ana="†" corresp="IV-I_97"/>
+                              <ptr type="comment" target="411-29" corresp="IV-I_29"/>
                            </linkGrp>
                            <linkGrp n="II">
-                              <ptr type="letter" target="410-27" ana="ff"/>
+                              <ptr type="letter" target="410-27" ana="ff" corresp="IV-II_247"/>
                            </linkGrp>
                            <linkGrp n="VI">
-                              <ptr type="letter" target="214-26"/>
+                              <ptr type="letter" target="214-26" corresp="IV-VI_137"/>
                            </linkGrp>
+                        </linkGrp>
+                     </linkGrp>
+                  </place>
+                  <place xml:id="JP-014955">
+                     <placeName type="reg">Gasthof zum goldenen Dreier</placeName>
+                     <linkGrp type="mention">
+                        <linkGrp type="context">
+                           <ptr type="comment" corresp="1809/1809-02-01_FAKanne_PEThieriot" target="JP-UB2030"/>
                         </linkGrp>
                      </linkGrp>
                   </place>
@@ -1399,8 +1772,8 @@
                         <ptr type="letter" target="263-20"/>
                      </linkGrp>
                      <linkGrp n="IV">
-                        <ptr type="letter" target="113-3" next="113-4"/>
-                        <ptr type="letter" target="113-19"/>
+                        <ptr type="letter" target="113-3" next="113-4" corresp="IV-IV_77"/>
+                        <ptr type="letter" target="113-19" corresp="IV-IV_77"/>
                      </linkGrp>
                   </linkGrp>
                </linkGrp>
@@ -1408,7 +1781,15 @@
             <place xml:id="JP-012454">
                <idno type="uri">https://www.geonames.org/3060972</idno>
                <placeName type="reg">Pressburg (Bratislava)</placeName>
-               <linkGrp type="mention"><linkGrp type="context"><ptr type="comment" corresp="1805/1805-12-03_EOsmund_PEThieriot" target="JP-UB1639"/><ptr type="comment" corresp="1805/1805-12-29_EOsmund_PEThieriot" target="JP-UB1642"/><ptr type="comment" corresp="1810/1810-02-08_LvLochner_CRichter" target="JP-UB0232"/></linkGrp><linkGrp type="context"><ptr type="comment" corresp="1805/1805-12-03_EOsmund_PEThieriot" target="JP-UB1639"/><ptr type="comment" corresp="1805/1805-12-29_EOsmund_PEThieriot" target="JP-UB1642"/><ptr type="comment" corresp="1806/1806-01-06_JEWagner_GJGoeschen" target="JP-UB1046"/><ptr type="comment" corresp="1810/1810-02-08_LvLochner_CRichter" target="JP-UB0232"/></linkGrp></linkGrp>
+               <linkGrp type="mention">
+                  <linkGrp type="context">
+                     <ptr type="comment" corresp="1805/1805-12-03_EOsmund_PEThieriot" target="JP-UB1639"/>
+                     <ptr type="comment" corresp="1805/1805-12-29_EOsmund_PEThieriot" target="JP-UB1642"/>
+                     <ptr type="comment" corresp="1806/1806-01-06_JEWagner_GJGoeschen" target="JP-UB1046"/>
+                     <ptr type="comment" corresp="1806/1806-01-06_JEWagner_GJGoeschen" target="JP-UB1046"/>
+                     <ptr type="comment" corresp="1810/1810-02-08_LvLochner_CRichter" target="JP-UB0232"/>
+                  </linkGrp>
+               </linkGrp>
             </place>
             <place xml:id="JP-006164">
                <placeName type="reg">Preußen</placeName>
@@ -1448,19 +1829,19 @@
                         </linkGrp>
                         <linkGrp type="abt4">
                            <linkGrp n="II">
-                              <ptr type="letter" target="43-27"/>
+                              <ptr type="letter" target="43-27" corresp="IV-II_27"/>
                            </linkGrp>
                            <linkGrp n="III/1">
                               <ptr type="letter" target="14-15"/>
                            </linkGrp>
                            <linkGrp n="VIII">
-                              <ptr type="letter" target="563-11"/>
-                              <ptr type="letter" target="563-19"/>
+                              <ptr type="letter" target="563-11" corresp="IV-VIII_356"/>
+                              <ptr type="letter" target="563-19" corresp="IV-VIII_356"/>
                            </linkGrp>
                            <linkGrp n="IX">
-                              <ptr type="letter" target="20-8"/>
-                              <ptr type="letter" target="23-15"/>
-                              <ptr type="letter" target="28-21"/>
+                              <ptr type="letter" target="20-8" corresp="IV-IX_2.6"/>
+                              <ptr type="letter" target="23-15" corresp="IV-IX_2.17"/>
+                              <ptr type="letter" target="28-21" corresp="IV-IX_2.38"/>
                            </linkGrp>
                         </linkGrp>
                      </linkGrp>
@@ -1476,7 +1857,14 @@
                         </linkGrp>
                      </linkGrp>
                   </place>
-                  <place xml:id="JP-014361"><placeName type="reg">Kultusministerium</placeName><linkGrp type="mention"><linkGrp type="context"><ptr type="comment" corresp="nach_1825/1826-09-21_ERichter_LTils" target="JP-UB4588"/></linkGrp></linkGrp></place>
+                  <place xml:id="JP-014361">
+                     <placeName type="reg">Kultusministerium</placeName>
+                     <linkGrp type="mention">
+                        <linkGrp type="context">
+                           <ptr type="comment" corresp="1826/1826-09-21_ERichter_LTils" target="JP-UB4588"/>
+                        </linkGrp>
+                     </linkGrp>
+                  </place>
                   <place xml:id="JP-011612" corresp="JP-006164">
                      <placeName type="reg">Landrecht</placeName>
                      <linkGrp type="mention">
@@ -1487,15 +1875,20 @@
                         </linkGrp>
                         <linkGrp type="abt4">
                            <linkGrp n="II">
-                              <ptr type="comment" target="632-82"/>
+                              <ptr type="comment" target="632-82" corresp="IV-II_82"/>
                            </linkGrp>
                            <linkGrp n="III/2">
                               <ptr type="letter" target="199-31" next="199-33" ana="†"/>
                            </linkGrp>
                            <linkGrp n="VII">
-                              <ptr type="letter" target="66-3" next="66-4"/>
-                              <ptr type="letter" target="268-13"/>
+                              <ptr type="letter" target="66-3" next="66-4" corresp="IV-VII_49"/>
+                              <ptr type="letter" target="268-13" corresp="IV-VII_160"/>
                            </linkGrp>
+                        </linkGrp>
+                        <linkGrp type="context">
+                           <ptr type="letter" corresp="1825/1825-12-07_GAReimer_ROSpazier" target="JP-UB2127"/>
+                           <ptr type="letter" corresp="1826/1826-05-26_CRichter-CGOtto_WuerttReg" target="JP-UB4648"/>
+                           <ptr type="comment" corresp="1826/1826-05-26_CRichter-CGOtto_WuerttReg" target="JP-UB4648"/>
                         </linkGrp>
                      </linkGrp>
                   </place>
@@ -1504,35 +1897,98 @@
                      <linkGrp type="mention">
                         <linkGrp type="abt4">
                            <linkGrp n="IX">
-                              <ptr type="letter" target="3-29"/>
+                              <ptr type="letter" target="3-29" corresp="IV-IX_1.7"/>
                            </linkGrp>
                         </linkGrp>
                      </linkGrp>
                   </place>
                   <place xml:id="JP-011615" corresp="JP-006164">
                      <placeName type="reg">Regierung</placeName>
-                     <linkGrp type="mention"><linkGrp type="abt4">
+                     <linkGrp type="mention">
+                        <linkGrp type="abt4">
                            <linkGrp n="IV">
-                              <ptr type="letter" target="357-1"/>
+                              <ptr type="letter" target="357-1" corresp="IV-IV_257"/>
                            </linkGrp>
-                        </linkGrp><linkGrp type="context"><ptr type="comment" corresp="nach_1825/1826-09-21_ERichter_LTils" target="JP-UB4588"/></linkGrp></linkGrp>
+                        </linkGrp>
+                        <linkGrp type="context">
+                           <ptr type="comment" corresp="1826/1826-01-22_EFoerster_LTils" target="JP-UB4581"/>
+                           <ptr type="comment" corresp="1826/1826-09-21_ERichter_LTils" target="JP-UB4588"/>
+                        </linkGrp>
+                     </linkGrp>
                   </place>
                   <place xml:id="JP-011613" corresp="JP-006164">
                      <placeName type="reg">Schema Examinis Candidatorum (1790)</placeName>
                      <linkGrp type="mention">
                         <linkGrp type="abt4">
                            <linkGrp n="I">
-                              <ptr type="letter" target="238-22" ana="ff†"/>
+                              <ptr type="letter" target="238-22" ana="ff†" corresp="IV-I_129"/>
                            </linkGrp>
                         </linkGrp>
                      </linkGrp>
                   </place>
                </listPlace>
-               <linkGrp type="mention"><linkGrp type="context"><ptr type="letter" corresp="1800/1800-06-08_FOertel_AHerold" target="JP-UB1209"/><ptr type="letter" corresp="1801/1801-05-31_FOertel_AOtto" target="JP-UB1226"/><ptr type="letter" corresp="1802/1802-08-30_CRichter_JSWMayer" target="JP-UB0510"/><ptr type="letter" corresp="1802/1802-10-08_EOsmund_CFWeisse" target="JP-UB1452"/><ptr type="letter" corresp="1803/1803-04-03_KSpazier_JDFalk" target="JP-UB0230"/><ptr type="letter" corresp="1803/1803-11-29_HBraun_KBraun_PEThieriot" target="JP-UB1508"/><ptr type="letter" corresp="1803/1803-11-29_HBraun_KBraun_PEThieriot" target="JP-UB1508"/><ptr type="letter" corresp="1804/1804-01-28_KSpazier_CABoettiger" target="JP-UB0564"/><ptr type="letter" corresp="1805/1805-06-01_EOsmund_CGoldschmidt" target="JP-UB0855"/><ptr type="letter" corresp="1805/1805-10-10_PEThieriot_EOsmund" target="JP-UB1619"/><ptr type="letter" corresp="1805/1805-11-21_JSWMayer_CRichter-MSpazier" target="JP-UB0349"/><ptr type="letter" corresp="1807/1807-09-04_SAMahlmann_FMatthisson" target="JP-UB2020"/><ptr type="letter" corresp="1808/1808-02-29_JSWMayer_CRichter" target="JP-UB0368"/><ptr type="letter" corresp="1808/1808-04-06_JSWMayer_CRichter" target="JP-UB0290"/><ptr type="letter" corresp="1809/1809-02-25_EMerzdorf_CRichter" target="JP-UB0063"/><ptr type="letter" corresp="1810/1810-03-19_EOsmund_CGoldschmidt" target="JP-UB1313"/><ptr type="letter" corresp="1810/1810-08-17_EOsmund_HSchwendler" target="JP-UB0717"/><ptr type="letter" corresp="1815/1815-04-26_HSchwendler_FTAMueller" target="JP-UB1124"/><ptr type="letter" corresp="1815/1815-06-24_HSchwendler_FTAMueller" target="JP-UB1125"/><ptr type="letter" corresp="1819/1819-08-31_HSchwendler_FTAMueller" target="JP-UB1139"/><ptr type="letter" corresp="1820/1820-01-04_HSchwendler_FTAMueller" target="JP-UB1142"/><ptr type="letter" corresp="1821/1821-01-16_EOsmund_KAWangenheim" target="JP-UB2119"/><ptr type="letter" corresp="1821/1821-10-01_GCOtto_EOsmund" target="JP-UB1383"/><ptr type="letter" corresp="nach_1825/1826-05-26_CRichter_WuertReg" target="JP-UB0371"/><ptr type="letter" corresp="nach_1825/1826-06-15_CRichter_JvSedlnitzky" target="JP-UB0520"/><ptr type="comment" corresp="1804/1804-08-16_KSpazier_Goethe" target="JP-UB1723"/><ptr type="comment" corresp="1805/1805-12-29_EOsmund_PEThieriot" target="JP-UB1642"/><ptr type="comment" corresp="1806/1806-11-22_JEWagner_GJGoeschen" target="JP-UB1054"/><ptr type="comment" corresp="1807/1807-02-10_JEWagner_GJGoeschen" target="JP-UB1055"/><ptr type="comment" corresp="1810/1810-03-19_EOsmund_CGoldschmidt" target="JP-UB1313"/><ptr type="comment" corresp="1811/1811-08-18_EOsmund_CGoldschmidt" target="JP-UB1320"/><ptr type="comment" corresp="1811/1811-08-28_HSchwendler_CRichter" target="JP-UB0292"/><ptr type="comment" corresp="1811/1811-11-07_GKessler_JEWagner" target="JP-UB1113"/><ptr type="comment" corresp="1814/1814-11-21_JSWMayer_CRichter" target="JP-UB0519"/><ptr type="comment" corresp="1815/1815-04-26_HSchwendler_EOsmund" target="JP-UB0162"/><ptr type="comment" corresp="1815/1815-04-26_HSchwendler_FTAMueller" target="JP-UB1124"/><ptr type="comment" corresp="1819/1819-08-31_HSchwendler_FTAMueller" target="JP-UB1139"/><ptr type="comment" corresp="1821/1821-01-16_EOsmund_KAWangenheim" target="JP-UB2119"/><ptr type="comment" corresp="1821/1821-10-01_GCOtto_EOsmund" target="JP-UB1383"/></linkGrp><linkGrp type="context"><ptr type="letter" corresp="1801/1801-05-31_FOertel_AOtto" target="JP-UB1226"/><ptr type="letter" corresp="1802/1802-08-30_CRichter_JSWMayer" target="JP-UB0510"/><ptr type="letter" corresp="1802/1802-10-08_EOsmund_CFWeisse" target="JP-UB1452"/><ptr type="letter" corresp="1803/1803-04-03_KSpazier_JDFalk" target="JP-UB0230"/><ptr type="letter" corresp="1803/1803-11-29_HBraun-KBraun_PEThieriot" target="JP-UB1508"/><ptr type="letter" corresp="1804/1804-01-28_KSpazier_CABoettiger" target="JP-UB0564"/><ptr type="letter" corresp="1805/1805-06-01_EOsmund_CGoldschmidt" target="JP-UB0855"/><ptr type="letter" corresp="1805/1805-11-21_JSWMayer_CRichter-MSpazier" target="JP-UB0349"/><ptr type="letter" corresp="1806/1806-09-01_SAMahlmann_KMuechler" target="JP-UB4618"/><ptr type="letter" corresp="1807/1807-09-04_SAMahlmann_FMatthisson" target="JP-UB2020"/><ptr type="letter" corresp="1808/1808-02-29_JSWMayer_CRichter" target="JP-UB0368"/><ptr type="letter" corresp="1808/1808-04-06_JSWMayer_CRichter" target="JP-UB0290"/><ptr type="letter" corresp="1809/1809-02-25_EMerzdorf_CRichter" target="JP-UB0063"/><ptr type="letter" corresp="1810/1810-03-19_EOsmund_CGoldschmidt" target="JP-UB1313"/><ptr type="letter" corresp="1810/1810-08-17_EOsmund_HSchwendler" target="JP-UB0717"/><ptr type="letter" corresp="1815/1815-04-26_HSchwendler_FTAMueller" target="JP-UB1124"/><ptr type="letter" corresp="1815/1815-06-24_HSchwendler_FTAMueller" target="JP-UB1125"/><ptr type="letter" corresp="1819/1819-08-31_HSchwendler_FTAMueller" target="JP-UB1139"/><ptr type="letter" corresp="1820/1820-01-04_HSchwendler_FTAMueller" target="JP-UB1142"/><ptr type="letter" corresp="1821/1821-01-16_EOsmund_KAWangenheim" target="JP-UB2119"/><ptr type="letter" corresp="1821/1821-10-01_GCOtto_EOsmund" target="JP-UB1383"/><ptr type="letter" corresp="nach_1825/1826-06-15_CRichter_JvSedlnitzky" target="JP-UB0520"/><ptr type="comment" corresp="1800/1800-06-08_FOertel_AHerold" target="JP-UB1209"/><ptr type="comment" corresp="1805/1805-12-29_EOsmund_PEThieriot" target="JP-UB1642"/><ptr type="comment" corresp="1806/1806-11-22_JEWagner_GJGoeschen" target="JP-UB1054"/><ptr type="comment" corresp="1807/1807-02-10_JEWagner_GJGoeschen" target="JP-UB1055"/><ptr type="comment" corresp="1807/1807-08-17_EOsmund_CGoldschmidt" target="JP-UB1286"/><ptr type="comment" corresp="1810/1810-03-19_EOsmund_CGoldschmidt" target="JP-UB1313"/><ptr type="comment" corresp="1811/1811-08-18_EOsmund_CGoldschmidt" target="JP-UB1320"/><ptr type="comment" corresp="1811/1811-08-28_HSchwendler_CRichter" target="JP-UB0292"/><ptr type="comment" corresp="1814/1814-11-21_JSWMayer_CRichter" target="JP-UB0519"/><ptr type="comment" corresp="1815/1815-04-26_HSchwendler_EOsmund" target="JP-UB0162"/><ptr type="comment" corresp="1815/1815-04-26_HSchwendler_FTAMueller" target="JP-UB1124"/><ptr type="comment" corresp="1819/1819-08-31_HSchwendler_FTAMueller" target="JP-UB1139"/><ptr type="comment" corresp="1821/1821-01-16_EOsmund_KAWangenheim" target="JP-UB2119"/><ptr type="comment" corresp="1821/1821-10-01_GCOtto_EOsmund" target="JP-UB1383"/></linkGrp></linkGrp>
+               <linkGrp type="mention">
+                  <linkGrp type="context">
+                     <ptr type="letter" corresp="1801/1801-05-31_FOertel_AOtto" target="JP-UB1226"/>
+                     <ptr type="letter" corresp="1801/1801-05-31_FOertel_AOtto" target="JP-UB1226"/>
+                     <ptr type="letter" corresp="1802/1802-08-30_CRichter_JSWMayer" target="JP-UB0510"/>
+                     <ptr type="letter" corresp="1802/1802-10-08_EOsmund_CFWeisse" target="JP-UB1452"/>
+                     <ptr type="letter" corresp="1803/1803-04-03_KSpazier_JDFalk" target="JP-UB0230"/>
+                     <ptr type="letter" corresp="1803/1803-11-29_HBraun-KBraun_PEThieriot" target="JP-UB1508"/>
+                     <ptr type="letter" corresp="1804/1804-01-28_KSpazier_CABoettiger" target="JP-UB0564"/>
+                     <ptr type="letter" corresp="1804/1804-01-28_KSpazier_CABoettiger" target="JP-UB0564"/>
+                     <ptr type="letter" corresp="1805/1805-06-01_EOsmund_CGoldschmidt" target="JP-UB0855"/>
+                     <ptr type="letter" corresp="1805/1805-10-10_PEThieriot_EOsmund" target="JP-UB1619"/>
+                     <ptr type="letter" corresp="1805/1805-11-21_JSWMayer_CRichter-MSpazier" target="JP-UB0349"/>
+                     <ptr type="letter" corresp="1806/1806-05-01_SAMahlmann_KMuechler" target="JP-UB4632"/>
+                     <ptr type="letter" corresp="1806/1806-05-01_SAMahlmann_KMuechler" target="JP-UB4632"/>
+                     <ptr type="letter" corresp="1806/1806-05-01_SAMahlmann_KMuechler" target="JP-UB4632"/>
+                     <ptr type="letter" corresp="1806/1806-09-01_SAMahlmann_KMuechler" target="JP-UB4636"/>
+                     <ptr type="letter" corresp="1806/1806-09-01_SAMahlmann_KMuechler" target="JP-UB4636"/>
+                     <ptr type="letter" corresp="1807/1807-09-04_SAMahlmann_FMatthisson" target="JP-UB2020"/>
+                     <ptr type="letter" corresp="1808/1808-02-29_JSWMayer_CRichter" target="JP-UB0368"/>
+                     <ptr type="letter" corresp="1808/1808-04-06_JSWMayer_CRichter" target="JP-UB0290"/>
+                     <ptr type="letter" corresp="1808/1808-04-06_JSWMayer_CRichter" target="JP-UB0290"/>
+                     <ptr type="letter" corresp="1808/1808-04-06_JSWMayer_CRichter" target="JP-UB0290"/>
+                     <ptr type="letter" corresp="1808/1808-04-06_JSWMayer_CRichter" target="JP-UB0290"/>
+                     <ptr type="letter" corresp="1809/1809-02-25_EMerzdorf_CRichter" target="JP-UB0063"/>
+                     <ptr type="letter" corresp="1810/1810-03-19_EOsmund_CGoldschmidt" target="JP-UB1313"/>
+                     <ptr type="letter" corresp="1810/1810-03-19_EOsmund_CGoldschmidt" target="JP-UB1313"/>
+                     <ptr type="letter" corresp="1810/1810-08-17_EOsmund_HSchwendler" target="JP-UB0717"/>
+                     <ptr type="letter" corresp="1815/1815-04-26_HSchwendler_FTAMueller" target="JP-UB1124"/>
+                     <ptr type="letter" corresp="1815/1815-06-24_HSchwendler_FTAMueller" target="JP-UB1125"/>
+                     <ptr type="letter" corresp="1815/1815-06-24_HSchwendler_FTAMueller" target="JP-UB1125"/>
+                     <ptr type="letter" corresp="1815/1815-06-24_HSchwendler_FTAMueller" target="JP-UB1125"/>
+                     <ptr type="letter" corresp="1819/1819-08-31_HSchwendler_FTAMueller" target="JP-UB1139"/>
+                     <ptr type="letter" corresp="1820/1820-01-04_HSchwendler_FTAMueller" target="JP-UB1142"/>
+                     <ptr type="letter" corresp="1820/1820-01-04_HSchwendler_FTAMueller" target="JP-UB1142"/>
+                     <ptr type="letter" corresp="1821/1821-01-16_EOsmund_KAWangenheim" target="JP-UB2119"/>
+                     <ptr type="letter" corresp="1821/1821-10-01_GCOtto_EOsmund" target="JP-UB1383"/>
+                     <ptr type="letter" corresp="1826/1826-05-26_CRichter-CGOtto_WuerttReg" target="JP-UB4648"/>
+                     <ptr type="letter" corresp="1826/1826-06-15_CRichter_JvSedlnitzky" target="JP-UB0520"/>
+                     <ptr type="letter" corresp="1826/1826-06-15_CRichter_JvSedlnitzky" target="JP-UB0520"/>
+                     <ptr type="comment" corresp="1800/1800-06-08_FOertel_AHerold" target="JP-UB1209"/>
+                     <ptr type="comment" corresp="1804/1804-08-16_KSpazier_Goethe" target="JP-UB1723"/>
+                     <ptr type="comment" corresp="1805/1805-12-29_EOsmund_PEThieriot" target="JP-UB1642"/>
+                     <ptr type="comment" corresp="1806/1806-11-18_SAMahlmann_CABoettiger" target="JP-UB4640"/>
+                     <ptr type="comment" corresp="1806/1806-11-22_JEWagner_GJGoeschen" target="JP-UB1054"/>
+                     <ptr type="comment" corresp="1807/1807-02-10_JEWagner_GJGoeschen" target="JP-UB1055"/>
+                     <ptr type="comment" corresp="1807/1807-08-17_EOsmund_CGoldschmidt" target="JP-UB1286"/>
+                     <ptr type="comment" corresp="1810/1810-03-19_EOsmund_CGoldschmidt" target="JP-UB1313"/>
+                     <ptr type="comment" corresp="1811/1811-08-18_EOsmund_CGoldschmidt" target="JP-UB1320"/>
+                     <ptr type="comment" corresp="1811/1811-11-07_GKessler_JEWagner" target="JP-UB1113"/>
+                     <ptr type="comment" corresp="1814/1814-11-21_JSWMayer_CRichter" target="JP-UB0519"/>
+                     <ptr type="comment" corresp="1815/1815-04-26_HSchwendler_EOsmund" target="JP-UB0162"/>
+                     <ptr type="comment" corresp="1815/1815-04-26_HSchwendler_FTAMueller" target="JP-UB1124"/>
+                     <ptr type="comment" corresp="1819/1819-08-31_HSchwendler_FTAMueller" target="JP-UB1139"/>
+                     <ptr type="comment" corresp="1821/1821-01-16_EOsmund_KAWangenheim" target="JP-UB2119"/>
+                  </linkGrp>
+               </linkGrp>
             </place>
             <place xml:id="JP-006166">
                <placeName type="reg">Preußen, preußisch</placeName>
-               <linkGrp type="mention"><linkGrp type="abt3">
+               <linkGrp type="mention">
+                  <linkGrp type="abt3">
                      <linkGrp n="I">
                         <ptr type="letter" target="29-5" corresp="I_17"/>
                         <ptr type="letter" target="86-28" corresp="I_51"/>
@@ -1633,21 +2089,22 @@
                         <ptr type="letter" target="217-31" corresp="VIII_361"/>
                         <ptr subtype="receivedLetter" target="449-53"/>
                      </linkGrp>
-                  </linkGrp><linkGrp type="abt4">
+                  </linkGrp>
+                  <linkGrp type="abt4">
                      <linkGrp n="I">
-                        <ptr type="letter" target="55-7" ana="†"/>
-                        <ptr type="letter" target="75-25"/>
-                        <ptr type="letter" target="174-1"/>
-                        <ptr type="letter" target="238-26" ana="†"/>
-                        <ptr type="letter" target="271-18"/>
-                        <ptr type="comment" target="660-132"/>
-                        <ptr type="comment" target="688-145"/>
+                        <ptr type="letter" target="55-7" ana="†" corresp="IV-I_31"/>
+                        <ptr type="letter" target="75-25" corresp="IV-I_49"/>
+                        <ptr type="letter" target="174-1" corresp="IV-I_97"/>
+                        <ptr type="letter" target="238-26" ana="†" corresp="IV-I_129"/>
+                        <ptr type="letter" target="271-18" corresp="IV-I_145"/>
+                        <ptr type="comment" target="660-132" corresp="IV-I_132"/>
+                        <ptr type="comment" target="688-145" corresp="IV-I_145"/>
                      </linkGrp>
                      <linkGrp n="II">
-                        <ptr type="letter" target="125-20" next="125-21" ana="†"/>
-                        <ptr type="letter" target="146-12" ana="†"/>
-                        <ptr type="letter" target="384-5" ana="†"/>
-                        <ptr type="comment" target="558-44"/>
+                        <ptr type="letter" target="125-20" next="125-21" ana="†" corresp="IV-II_64"/>
+                        <ptr type="letter" target="146-12" ana="†" corresp="IV-II_73"/>
+                        <ptr type="letter" target="384-5" ana="†" corresp="IV-II_231"/>
+                        <ptr type="comment" target="558-44" corresp="IV-II_44"/>
                      </linkGrp>
                      <linkGrp n="III/1">
                         <ptr type="letter" target="5-8" next="5-9" ana="†"/>
@@ -1660,50 +2117,70 @@
                         <ptr type="letter" target="378-32"/>
                      </linkGrp>
                      <linkGrp n="IV">
-                        <ptr type="letter" target="186-26"/>
-                        <ptr type="letter" target="263-30"/>
+                        <ptr type="letter" target="186-26" corresp="IV-IV_135"/>
+                        <ptr type="letter" target="263-30" corresp="IV-IV_192"/>
                      </linkGrp>
                      <linkGrp n="V">
-                        <ptr type="letter" target="52-12"/>
-                        <ptr type="letter" target="92-32"/>
-                        <ptr type="letter" target="137-2"/>
-                        <ptr type="letter" target="166-12"/>
-                        <ptr type="letter" target="173-11" next="173-12"/>
-                        <ptr type="letter" target="174-1"/>
-                        <ptr type="letter" target="174-20"/>
-                        <ptr type="letter" target="195-12" ana="ff"/>
-                        <ptr type="letter" target="211-27"/>
-                        <ptr type="letter" target="222-16"/>
-                        <ptr type="letter" target="296-17"/>
-                        <ptr type="letter" target="296-26"/>
-                        <ptr type="letter" target="304-17"/>
-                        <ptr type="letter" target="322-15"/>
+                        <ptr type="letter" target="52-12" corresp="IV-V_39"/>
+                        <ptr type="letter" target="92-32" corresp="IV-V_72"/>
+                        <ptr type="letter" target="137-2" corresp="IV-V_106"/>
+                        <ptr type="letter" target="166-12" corresp="IV-V_128"/>
+                        <ptr type="letter" target="173-11" next="173-12" corresp="IV-V_133"/>
+                        <ptr type="letter" target="174-1" corresp="IV-V_133"/>
+                        <ptr type="letter" target="174-20" corresp="IV-V_133"/>
+                        <ptr type="letter" target="195-12" ana="ff" corresp="IV-V_145"/>
+                        <ptr type="letter" target="211-27" corresp="IV-V_157"/>
+                        <ptr type="letter" target="222-16" corresp="IV-V_165"/>
+                        <ptr type="letter" target="296-17" corresp="IV-V_AN_30"/>
+                        <ptr type="letter" target="296-26" corresp="IV-V_AN_31"/>
+                        <ptr type="letter" target="304-17" corresp="IV-V_AN_40"/>
+                        <ptr type="letter" target="322-15" corresp="IV-V_AN_67"/>
                      </linkGrp>
                      <linkGrp n="VI">
-                        <ptr type="letter" target="4-5"/>
-                        <ptr type="letter" target="59-11"/>
-                        <ptr type="letter" target="144-20"/>
-                        <ptr type="letter" target="160-18"/>
-                        <ptr type="letter" target="274-31"/>
-                        <ptr type="letter" target="284-4"/>
+                        <ptr type="letter" target="4-5" corresp="IV-VI_1"/>
+                        <ptr type="letter" target="59-11" corresp="IV-VI_43"/>
+                        <ptr type="letter" target="144-20" corresp="IV-VI_103"/>
+                        <ptr type="letter" target="160-18" corresp="IV-VI_120"/>
+                        <ptr type="letter" target="274-31" corresp="IV-VI_176"/>
+                        <ptr type="letter" target="284-4" corresp="IV-VI_182"/>
                      </linkGrp>
                      <linkGrp n="VII">
-                        <ptr type="letter" target="315-16"/>
-                        <ptr type="letter" target="343-22"/>
+                        <ptr type="letter" target="315-16" corresp="IV-VII_194"/>
+                        <ptr type="letter" target="343-22" corresp="IV-VII_215"/>
                      </linkGrp>
                      <linkGrp n="VIII">
-                        <ptr type="letter" target="10-13"/>
-                        <ptr type="letter" target="10-36"/>
-                        <ptr type="letter" target="85-14"/>
-                        <ptr type="letter" target="113-23"/>
-                        <ptr type="letter" target="155-6" next="155-7"/>
-                        <ptr type="letter" target="184-19"/>
-                        <ptr type="letter" target="375-17"/>
+                        <ptr type="letter" target="10-13" corresp="IV-VIII_6"/>
+                        <ptr type="letter" target="10-36" corresp="IV-VIII_6"/>
+                        <ptr type="letter" target="85-14" corresp="IV-VIII_35"/>
+                        <ptr type="letter" target="113-23" corresp="IV-VIII_55"/>
+                        <ptr type="letter" target="155-6" next="155-7" corresp="IV-VIII_81"/>
+                        <ptr type="letter" target="184-19" corresp="IV-VIII_93"/>
+                        <ptr type="letter" target="375-17" corresp="IV-VIII_234"/>
                      </linkGrp>
                      <linkGrp n="IX">
-                        <ptr type="letter" target="14-2"/>
+                        <ptr type="letter" target="14-2" corresp="IV-IX_1.29"/>
                      </linkGrp>
-                  </linkGrp><linkGrp type="context"><ptr type="letter" corresp="1802/1802-09-10_JP-CRichter_EOsmund" target="JP-UB0312"/><ptr type="letter" corresp="1806/1806-04-25_PEThieriot_EOsmund" target="JP-UB1661"/><ptr type="letter" corresp="1806/1806-12-06_PEThieriot_EOsmund" target="JP-UB1746"/><ptr type="letter" corresp="1807/1807-09-04_SAMahlmann_FMatthisson" target="JP-UB2020"/><ptr type="letter" corresp="1808/1808-02-22_GCOtto_EOsmund" target="JP-UB1288"/><ptr type="letter" corresp="1808/1808-08-12_JEWagner_Truchsess" target="JP-UB0888"/><ptr type="letter" corresp="1811/1811-08-06_GCOtto_Industrie-Comptoir" target="JP-UB0014"/><ptr type="letter" corresp="1814/1814-06-14_HVoss_Fouque" target="JP-UB0130"/><ptr type="comment" corresp="1821/1821-04-06_GCOtto_JFCotta" target="JP-UB1377"/></linkGrp><linkGrp type="context"><ptr type="letter" corresp="1802/1802-09-10_JP-CRichter_EOsmund" target="JP-UB0312"/><ptr type="letter" corresp="1806/1806-04-25_PEThieriot_EOsmund" target="JP-UB1661"/><ptr type="letter" corresp="1806/1806-09-24_SAMahlmann_KMuechler" target="JP-UB4619"/><ptr type="letter" corresp="1806/1806-12-06_PEThieriot_EOsmund" target="JP-UB1746"/><ptr type="letter" corresp="1807/1807-09-04_SAMahlmann_FMatthisson" target="JP-UB2020"/><ptr type="letter" corresp="1808/1808-02-22_GCOtto_EOsmund" target="JP-UB1288"/><ptr type="letter" corresp="1808/1808-08-12_JEWagner_Truchsess" target="JP-UB0888"/><ptr type="letter" corresp="1811/1811-08-06_GCOtto_Industrie-Comptoir" target="JP-UB0014"/><ptr type="letter" corresp="1814/1814-06-14_HVoss_Fouque" target="JP-UB0130"/><ptr type="letter" corresp="1817/1817-08-16_HVoss-JP_AVoss" target="JP-UB1691"/><ptr type="comment" corresp="1807/1807-09-20_GCOtto_EOsmund" target="JP-UB1287"/><ptr type="comment" corresp="1821/1821-04-06_GCOtto_JFCotta" target="JP-UB1377"/></linkGrp></linkGrp>
+                  </linkGrp>
+                  <linkGrp type="context">
+                     <ptr type="letter" corresp="1802/1802-09-10_JP-CRichter_EOsmund" target="JP-UB0312"/>
+                     <ptr type="letter" corresp="1806/1806-04-25_PEThieriot_EOsmund" target="JP-UB1661"/>
+                     <ptr type="letter" corresp="1806/1806-09-24_SAMahlmann_KMuechler" target="JP-UB4638"/>
+                     <ptr type="letter" corresp="1806/1806-09-24_SAMahlmann_KMuechler" target="JP-UB4638"/>
+                     <ptr type="letter" corresp="1806/1806-11-21_SAMahlmann_CABoettiger" target="JP-UB4641"/>
+                     <ptr type="letter" corresp="1806/1806-12-06_PEThieriot_EOsmund" target="JP-UB1746"/>
+                     <ptr type="letter" corresp="1807/1807-09-04_SAMahlmann_FMatthisson" target="JP-UB2020"/>
+                     <ptr type="letter" corresp="1808/1808-02-22_GCOtto_EOsmund" target="JP-UB1288"/>
+                     <ptr type="letter" corresp="1808/1808-08-12_JEWagner_Truchsess" target="JP-UB0888"/>
+                     <ptr type="letter" corresp="1811/1811-08-06_GCOtto_Industrie-Comptoir" target="JP-UB0014"/>
+                     <ptr type="letter" corresp="1814/1814-06-14_HVoss_Fouque" target="JP-UB0130"/>
+                     <ptr type="letter" corresp="1814/1814-06-14_HVoss_Fouque" target="JP-UB0130"/>
+                     <ptr type="letter" corresp="1817/1817-08-16_HVoss-JP_AVoss" target="JP-UB1691"/>
+                     <ptr type="letter" corresp="1826/1826-05-26_CRichter-CGOtto_WuerttReg" target="JP-UB4648"/>
+                     <ptr type="comment" corresp="1806/1806-11-18_SAMahlmann_CABoettiger" target="JP-UB4640"/>
+                     <ptr type="comment" corresp="1807/1807-09-20_GCOtto_EOsmund" target="JP-UB1287"/>
+                     <ptr type="comment" corresp="1821/1821-04-06_GCOtto_JFCotta" target="JP-UB1377"/>
+                  </linkGrp>
+               </linkGrp>
             </place>
             <place xml:id="JP-006165">
                <placeName type="reg">Preußen <add>(Berlin)</add>
@@ -1728,30 +2205,47 @@
                   <place xml:id="JP-011618" corresp="JP-006165">
                      <placeName type="reg">Königliche Akademie der Wissenschaften zu
                         Berlin</placeName>
-                     <linkGrp type="mention"><linkGrp type="abt4">
+                     <linkGrp type="mention">
+                        <linkGrp type="abt4">
                            <linkGrp n="III/2">
                               <ptr type="letter" target="379-8" next="379-9"/>
                               <ptr type="letter" target="379-23" next="379-25"/>
                            </linkGrp>
                            <linkGrp n="V">
-                              <ptr type="letter" target="50-27"/>
-                              <ptr type="letter" target="61-4"/>
+                              <ptr type="letter" target="50-27" corresp="IV-V_36"/>
+                              <ptr type="letter" target="61-4" corresp="IV-V_45"/>
                            </linkGrp>
                            <linkGrp n="VI">
-                              <ptr type="letter" target="215-27"/>
+                              <ptr type="letter" target="215-27" corresp="IV-VI_137"/>
                            </linkGrp>
-                        </linkGrp><linkGrp type="context"><ptr type="letter" corresp="1803/1803-04-03_KSpazier_JDFalk" target="JP-UB0230"/><ptr type="letter" corresp="1803/1803-04-10_KSpazier_JDFalk" target="JP-UB0301"/><ptr type="comment" corresp="1803/1803-01-28_KSpazier_JDFalk" target="JP-UB0546"/><ptr type="comment" corresp="1803/1803-03-11_KSpazier_JDFalk" target="JP-UB0724"/></linkGrp><linkGrp type="context"><ptr type="letter" corresp="1803/1803-04-03_KSpazier_JDFalk" target="JP-UB0230"/><ptr type="letter" corresp="1803/1803-04-10_KSpazier_JDFalk" target="JP-UB0301"/><ptr type="comment" corresp="1803/1803-01-28_KSpazier_JDFalk" target="JP-UB0546"/><ptr type="comment" corresp="1803/1803-03-11_KSpazier_JDFalk" target="JP-UB0724"/></linkGrp></linkGrp>
+                        </linkGrp>
+                        <linkGrp type="context">
+                           <ptr type="letter" corresp="1803/1803-04-03_KSpazier_JDFalk" target="JP-UB0230"/>
+                           <ptr type="letter" corresp="1803/1803-04-10_KSpazier_JDFalk" target="JP-UB0301"/>
+                           <ptr type="comment" corresp="1803/1803-01-28_KSpazier_JDFalk" target="JP-UB0546"/>
+                           <ptr type="comment" corresp="1803/1803-01-28_KSpazier_JDFalk" target="JP-UB0546"/>
+                           <ptr type="comment" corresp="1803/1803-03-11_KSpazier_JDFalk" target="JP-UB0724"/>
+                        </linkGrp>
+                     </linkGrp>
                   </place>
                </listPlace>
             </place>
             <place xml:id="JP-013328">
                <idno type="uri">https://www.geonames.org/579760</idno>
                <placeName type="reg">Preußisch Eylau</placeName>
-               <linkGrp type="mention"><linkGrp type="context"><ptr type="comment" corresp="1807/1807-02-10_JEWagner_GJGoeschen" target="JP-UB1055"/></linkGrp><linkGrp type="context"><ptr type="comment" corresp="1807/1807-02-10_JEWagner_GJGoeschen" target="JP-UB1055"/></linkGrp></linkGrp>
+               <linkGrp type="mention">
+                  <linkGrp type="context">
+                     <ptr type="comment" corresp="1807/1807-02-10_JEWagner_GJGoeschen" target="JP-UB1055"/>
+                  </linkGrp>
+               </linkGrp>
             </place>
             <place xml:id="JP-012664">
                <placeName type="reg">Provence</placeName>
-               <linkGrp type="mention"><linkGrp type="context"><ptr type="comment" corresp="1805/1805-06-03_JHeim_CRichter" target="JP-UB0260"/><ptr type="comment" corresp="1805/1805-06-15_JHeim_CRichter" target="JP-UB0260"/></linkGrp><linkGrp type="context"><ptr type="comment" corresp="1805/1805-06-14_JHeim_CRichter" target="JP-UB0260"/></linkGrp></linkGrp>
+               <linkGrp type="mention">
+                  <linkGrp type="context">
+                     <ptr type="comment" corresp="1805/1805-06-14_JHeim_CRichter" target="JP-UB0260"/>
+                  </linkGrp>
+               </linkGrp>
             </place>
             <place xml:id="JP-006168">
                <idno type="uri">http://www.geonames.org/760917</idno>
@@ -1771,10 +2265,12 @@
                <linkGrp type="mention">
                   <linkGrp type="abt4">
                      <linkGrp n="II">
-                        <ptr type="letter" target="230-34" ana="†"/>
+                        <ptr type="letter" target="230-34" ana="†" corresp="IV-II_135"/>
                      </linkGrp>
                   </linkGrp>
-                  <linkGrp type="context"><ptr type="letter" corresp="1805/1805-02-17_OvManteuffel_PEThieriot" target="JP-UB1580"/></linkGrp>
+                  <linkGrp type="context">
+                     <ptr type="letter" corresp="1805/1805-02-17_OvManteuffel_PEThieriot" target="JP-UB1580"/>
+                  </linkGrp>
                </linkGrp>
             </place>
             <place xml:id="JP-006170">
@@ -1790,16 +2286,16 @@
                   </linkGrp>
                   <linkGrp type="abt4">
                      <linkGrp n="I">
-                        <ptr type="letter" target="180-15" next="180-16"/>
+                        <ptr type="letter" target="180-15" next="180-16" corresp="IV-I_100"/>
                      </linkGrp>
                      <linkGrp n="III/2">
                         <ptr type="letter" target="47-21"/>
                      </linkGrp>
                      <linkGrp n="IV">
-                        <ptr type="letter" target="398-11" next="398-12"/>
+                        <ptr type="letter" target="398-11" next="398-12" corresp="IV-IV_292"/>
                      </linkGrp>
                      <linkGrp n="VIII">
-                        <ptr type="letter" target="27-14"/>
+                        <ptr type="letter" target="27-14" corresp="IV-VIII_14"/>
                      </linkGrp>
                   </linkGrp>
                </linkGrp>
